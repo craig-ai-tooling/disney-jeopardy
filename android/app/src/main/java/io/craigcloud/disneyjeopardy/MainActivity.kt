@@ -93,6 +93,7 @@ class MainActivity : Activity() {
 
     private val longPressRunnable = Runnable {
         okLongPressed = true
+        currentFocus?.isPressed = false
         openSettings()
     }
 
@@ -290,7 +291,7 @@ class MainActivity : Activity() {
 
     private fun errorText(): String =
         "${Uri.parse(serverUrl).host ?: serverUrl} isn't answering. Check the Wi-Fi.\n" +
-            "Trying again in ${retryCountdown}s  ·  OK = retry now  ·  MENU = change server"
+            "Trying again in ${retryCountdown}s  ·  OK = retry now  ·  MENU or hold OK = change server"
 
     private fun showOverlay(loading: Boolean) {
         overlayTitle.text = "Disney Jeopardy"
@@ -391,11 +392,29 @@ class MainActivity : Activity() {
                 return true
             }
             KeyEvent.KEYCODE_DPAD_CENTER, KeyEvent.KEYCODE_ENTER, KeyEvent.KEYCODE_NUMPAD_ENTER -> {
-                if (overlay.visibility == View.VISIBLE || customView != null) return super.dispatchKeyEvent(event)
+                if (customView != null) return super.dispatchKeyEvent(event)
+                if (overlay.visibility == View.VISIBLE) {
+                    trackOverlayLongPress(event)
+                    return super.dispatchKeyEvent(event)
+                }
                 return handleOk(event)
             }
         }
         return super.dispatchKeyEvent(event)
+    }
+
+    /** On the loading/error screen OK still clicks the focused button, but holding it opens settings. */
+    private fun trackOverlayLongPress(event: KeyEvent) {
+        when (event.action) {
+            KeyEvent.ACTION_DOWN -> if (event.repeatCount == 0) {
+                okLongPressed = false
+                handler.postDelayed(longPressRunnable, LONG_PRESS_MS)
+            } else if (event.isLongPress && !okLongPressed) {
+                handler.removeCallbacks(longPressRunnable)
+                longPressRunnable.run()
+            }
+            KeyEvent.ACTION_UP -> handler.removeCallbacks(longPressRunnable)
+        }
     }
 
     /**
