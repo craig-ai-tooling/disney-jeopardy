@@ -1,0 +1,146 @@
+[
+  {
+    "film": "Aladdin",
+    "category": "Aladdin",
+    "clue": "When Aladdin first frees him, the Genie complains about the crick in his neck from being trapped in the lamp for this long",
+    "answer": "10,000 years",
+    "accept": [
+      "10,000 years",
+      "10000 years",
+      "ten thousand years",
+      "10,000",
+      "10000"
+    ],
+    "choices": [
+      "10,000 years",
+      "1,000 years",
+      "5,000 years",
+      "100 years"
+    ],
+    "reveal": "[dramatic pause] The correct answer is ten thousand years! [laughs] TEN THOUSAND YEARS will give ya such a crick in the neck! Robin Williams improvised so much of that role."
+  },
+  {
+    "film": "Snow White and the Seven Dwarfs",
+    "category": "Snow White and the Seven Dwarfs",
+    "clue": "Snow White, Disney's first full-length animated feature, premiered in this year",
+    "answer": "1937",
+    "accept": [
+      "1937"
+    ],
+    "choices": [
+      "1937",
+      "1940",
+      "1928",
+      "1950"
+    ],
+    "reveal": "The correct answer is 1937! [excited] Skeptics called it Disney's Folly, until it became one of the biggest hits of its day. Walt even got an honorary Oscar with seven tiny statuettes."
+  },
+  {
+    "film": "Lilo & Stitch",
+    "category": "Lilo & Stitch",
+    "clue": "Lilo feeds this fish a peanut butter sandwich every Thursday, because she believes he controls the weather",
+    "answer": "Pudge",
+    "accept": [
+      "pudge",
+      "pudge the fish"
+    ],
+    "choices": [
+      "Pudge",
+      "Scrump",
+      "Mertle",
+      "Moby"
+    ],
+    "reveal": "The correct answer is Pudge! [chuckles] Scrump is Lilo's homemade doll, by the way. Never underestimate a fish with a sandwich-based weather contract."
+  },
+  {
+    "film": "Coco",
+    "category": "Coco",
+    "clue": "Miguel discovers that this charming trickster, not Ernesto de la Cruz, wrote 'Remember Me' and is his great-great-grandfather",
+    "answer": "Hector",
+    "accept": [
+      "hector",
+      "héctor",
+      "hector rivera"
+    ],
+    "choices": [
+      "Hector",
+      "Julio",
+      "Chicharron",
+      "Oscar"
+    ],
+    "reveal": "The correct answer is Hector! [sighs] He wrote Remember Me as a lullaby for his daughter, Mama Coco. Okay, who's crying? I'm not crying. YOU'RE crying."
+  },
+  {
+    "film": "Encanto",
+    "category": "Encanto",
+    "clue": "Mirabel's mischievous cousin Camilo Madrigal has this magical gift",
+    "answer": "Shape-shifting",
+    "accept": [
+      "shape-shifting",
+      "shapeshifting",
+      "shape shifting",
+      "shapeshifter",
+      "changing shape",
+      "shape-shifter"
+    ],
+    "choices": [
+      "Shape-shifting",
+      "Super hearing",
+      "Controlling the weather",
+      "Healing with food"
+    ],
+    "reveal": "The correct answer is shape-shifting! [laughs] Super hearing is Dolores, weather is Tia Pepa, and healing food is Julieta. Camilo mostly uses his gift to prank the family."
+  },
+  {
+    "film": "Zootopia",
+    "category": "Zootopia",
+    "clue": "Officer Judy Hopps grew up on her family's carrot farm in this rural hometown",
+    "answer": "Bunnyburrow",
+    "accept": [
+      "bunnyburrow",
+      "bunny burrow",
+      "bunnyburrows"
+    ],
+    "choices": [
+      "Bunnyburrow",
+      "Sahara Square",
+      "Tundratown",
+      "Rainforest District"
+    ],
+    "reveal": "The correct answer is Bunnyburrow! [excited] Judy is one of two hundred seventy-five siblings. [chuckles] Imagine the line for the bathroom."
+  },
+  {
+    "film": "The Incredibles",
+    "category": "The Incredibles",
+    "clue": "Before becoming the villain Syndrome, this was the name of Mr. Incredible's number-one fan",
+    "answer": "Buddy Pine",
+    "accept": [
+      "buddy pine",
+      "buddy",
+      "incrediboy"
+    ],
+    "choices": [
+      "Buddy Pine",
+      "Bomb Voyage",
+      "Rick Dicker",
+      "Gilbert Huph"
+    ],
+    "reveal": "The correct answer is Buddy Pine, also known as IncrediBoy! [sarcastic] Fly home, Buddy. And THAT is how you accidentally create a supervillain."
+  },
+  {
+    "film": "Pinocchio",
+    "category": "Pinocchio",
+    "clue": "Besides Figaro the kitten, Geppetto shares his workshop with this pet goldfish",
+    "answer": "Cleo",
+    "accept": [
+      "cleo"
+    ],
+    "choices": [
+      "Cleo",
+      "Goldie",
+      "Bubbles",
+      "Marina"
+    ],
+    "reveal": "The correct answer is Cleo! [whispers] She even does a little ballet in her bowl. Talented fish!"
+  }
+]
