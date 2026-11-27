@@ -1,0 +1,518 @@
+{
+  "id": "monster-mash",
+  "title": "Monster Mash",
+  "theme": "Monsters and creatures",
+  "tags": [
+    "monsters",
+    "creatures",
+    "spooky",
+    "halloween"
+  ],
+  "intro": "[mischievously] Lock the closet doors and check under the bed... because tonight it's the MONSTER MASH! Every category is crawling with Disney monsters and creatures. [laughs] Don't worry, they're more scared of you than you are of them. Mostly.",
+  "art": {
+    "prompt": "Wide 16:9 spooky-fun title card: a moonlit Victorian graveyard party with glowing jack-o'-lanterns, a cluster of wardrobe doors standing open on a hilltop with colorful light spilling out, bats silhouetted against a giant full moon, swirling green fog, purple and lime color palette, playful not scary, painterly animation style. No people, no recognizable characters, no text or logos.",
+    "file": "media/monster-mash.jpg"
+  },
+  "categories": [
+    {
+      "id": "we-scare-because-we-care",
+      "title": "We Scare Because We Care",
+      "kind": "film",
+      "intro": "Our film category is Pixar's 2001 classic Monsters, Inc. [chuckles] Put on your hard hat, we're clocking in on the Scare Floor.",
+      "art": {
+        "prompt": "16:9 card art: a vast industrial factory floor of colorful bedroom closet doors hanging on a conveyor rail, yellow warning lights, glowing scream canisters stacked on shelves, retro 1960s corporate style, bright teal and magenta. No people, no recognizable characters, no text or logos.",
+        "file": "media/monster-mash--we-scare-because-we-care.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "At the start of Monsters, Inc., the city of Monstropolis is powered by collecting these from human kids.",
+          "answer": "Screams",
+          "accept": [
+            "screams",
+            "scream",
+            "kids' screams"
+          ],
+          "choices": [
+            "Screams",
+            "Laughs",
+            "Tears",
+            "Dreams"
+          ],
+          "reveal": "The correct answer is screams! [gasps] But by the end, they discover laughter is TEN times more powerful. Mike was born for that job.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Mike Wazowski is head over heels for this snake-haired receptionist.",
+          "answer": "Celia",
+          "accept": [
+            "celia",
+            "celia mae"
+          ],
+          "choices": [
+            "Celia",
+            "Roz",
+            "Ms. Flint",
+            "Dean Hardscrabble"
+          ],
+          "reveal": "The correct answer is Celia! [laughs] Her hair literally hisses at you. Googley bear, I'm sorry.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "This purple, chameleon-like Scarer can blend into his surroundings and is Sulley's biggest rival.",
+          "answer": "Randall Boggs",
+          "accept": [
+            "randall",
+            "randall boggs"
+          ],
+          "choices": [
+            "Randall Boggs",
+            "Henry J. Waternoose",
+            "Fungus",
+            "Needleman"
+          ],
+          "reveal": "The correct answer is Randall Boggs! [sarcastic] Such a nice guy... who built a giant scream extractor. He ends up banished, getting whacked with a shovel.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "This crab-legged CEO of Monsters, Inc. turns out to be in on the evil scream extractor plot.",
+          "answer": "Henry J. Waternoose",
+          "accept": [
+            "waternoose",
+            "henry j. waternoose",
+            "henry waternoose",
+            "mr. waternoose",
+            "mr waternoose"
+          ],
+          "choices": [
+            "Henry J. Waternoose",
+            "Fungus",
+            "Smitty",
+            "Jerry"
+          ],
+          "reveal": "The correct answer is Henry J. Waternoose! [dramatic pause] I'll kidnap a thousand children before I let this company die. Not exactly employee of the month.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Monster George Sanderson sets off a 2319 alert when he returns from the human world with this stuck to his fur.",
+          "answer": "A sock",
+          "accept": [
+            "sock",
+            "a sock",
+            "a child's sock",
+            "child's sock"
+          ],
+          "choices": [
+            "A sock",
+            "A hair bow",
+            "A crayon",
+            "A teddy bear"
+          ],
+          "reveal": "The correct answer is a sock! [laughs] The Child Detection Agency tackles him and shaves him bald. Poor George. Twenty three nineteen! We have a twenty three nineteen!",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "creature-feature",
+      "title": "Creature Feature",
+      "kind": "theme",
+      "intro": "Creature Feature: big ones, small ones, scaly ones and blue ones. [excited] Name these Disney monsters and creatures!",
+      "art": {
+        "prompt": "16:9 card art: a misty enchanted forest clearing with mysterious creature footprints in the mud, glowing eyes peeking from the dark undergrowth, scattered scales and a single glowing feather, lush greens with fiery orange accents. No people, no recognizable characters, no text or logos.",
+        "file": "media/monster-mash--creature-feature.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Stitch is officially known by this experiment number.",
+          "answer": "626",
+          "accept": [
+            "626",
+            "experiment 626",
+            "six two six"
+          ],
+          "choices": [
+            "626",
+            "625",
+            "221",
+            "007"
+          ],
+          "reveal": "The correct answer is six twenty-six! [chuckles] Experiment six twenty-five, Reuben, just wants to make sandwiches. Very relatable.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "In Luca, sea monsters magically turn human whenever they get this way.",
+          "answer": "Dry",
+          "accept": [
+            "dry",
+            "out of the water",
+            "dried off"
+          ],
+          "choices": [
+            "Dry",
+            "Asleep",
+            "Hungry",
+            "Scared"
+          ],
+          "reveal": "The correct answer is dry! [whispers] Which makes a rainy day in Portorosso VERY dangerous. Silenzio, Bruno!",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "In Moana, this fiery lava monster blocks the way to the island of Te Fiti.",
+          "answer": "Te Kā",
+          "accept": [
+            "te ka",
+            "te kā",
+            "teka"
+          ],
+          "choices": [
+            "Te Kā",
+            "Tamatoa",
+            "Te Fiti",
+            "Kakamora"
+          ],
+          "reveal": "The correct answer is Te Kā! [gasps] Plot twist: Te Kā IS Te Fiti, without her heart. Honestly, I'd be grumpy too.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In Frozen, Elsa conjures up this giant snow monster bodyguard to chase Anna and Kristoff away.",
+          "answer": "Marshmallow",
+          "accept": [
+            "marshmallow"
+          ],
+          "choices": [
+            "Marshmallow",
+            "Olaf",
+            "Gale",
+            "Bruni"
+          ],
+          "reveal": "The correct answer is Marshmallow! [laughs] A terrifying ice giant... named after a fluffy campfire snack. VERY intimidating.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "In Fantasia's Night on Bald Mountain, this enormous winged demon summons ghosts from the graveyard.",
+          "answer": "Chernabog",
+          "accept": [
+            "chernabog",
+            "czernobog",
+            "chernobog"
+          ],
+          "choices": [
+            "Chernabog",
+            "The Horned King",
+            "Hades",
+            "Mephisto"
+          ],
+          "reveal": "The correct answer is Chernabog! [dramatic pause] Animated by the legendary Bill Tytla. Easily the most terrifying thing Disney has ever put on screen. Sweet dreams!",
+          "dailyDouble": true
+        }
+      ]
+    },
+    {
+      "id": "monster-rhyme-time",
+      "title": "Monster Rhyme Time",
+      "kind": "media",
+      "intro": "[mischievously] It's Rhyme Time, monster edition! Every answer is two words that rhyme. I'll describe it, you rhyme it.",
+      "art": {
+        "prompt": "16:9 card art: a mad-science kitchen counter with bubbling cauldrons, a giant sandwich with too many layers, a plate of spaghetti, a ticking alarm clock, all arranged in playful pairs under spooky green lab lights. No people, no recognizable characters, no text or logos.",
+        "file": "media/monster-mash--monster-rhyme-time.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "An annoying rash on Experiment 626",
+          "answer": "Stitch Itch",
+          "accept": [
+            "stitch itch",
+            "stitch's itch"
+          ],
+          "choices": [
+            "Stitch Itch",
+            "Stitch Twitch",
+            "Stitch Glitch",
+            "Stitch Switch"
+          ],
+          "reveal": "The correct answer is Stitch itch! [laughs] Somebody get that little blue guy some lotion.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "A huge dinner party thrown at the castle of Belle's furry prince",
+          "answer": "Beast Feast",
+          "accept": [
+            "beast feast",
+            "beast's feast"
+          ],
+          "choices": [
+            "Beast Feast",
+            "Beast Yeast",
+            "Beast Priest",
+            "Beast East"
+          ],
+          "reveal": "The correct answer is Beast feast! [excited] Lumiere would be THRILLED. Be our guest!",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "The thing Captain Hook's ticking crocodile swallowed",
+          "answer": "Croc Clock",
+          "accept": [
+            "croc clock",
+            "crock clock"
+          ],
+          "choices": [
+            "Croc Clock",
+            "Croc Sock",
+            "Croc Rock",
+            "Croc Lock"
+          ],
+          "reveal": "The correct answer is croc clock! [chuckles] Tick tock, Captain. That alarm clock never gets snoozed.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Pasta night for the snow-cone-making snowman banished to the Himalayas in Monsters, Inc.",
+          "answer": "Yeti Spaghetti",
+          "accept": [
+            "yeti spaghetti"
+          ],
+          "choices": [
+            "Yeti Spaghetti",
+            "Yeti Confetti",
+            "Yeti Machete",
+            "Sasquatch Spaghetti"
+          ],
+          "reveal": "The correct answer is yeti spaghetti! [laughs] Abominable? Never. He's an excellent host. Lemon snow cone for dessert?",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "A deli sandwich for the burlap sack boogeyman of The Nightmare Before Christmas",
+          "answer": "Oogie Boogie Hoagie",
+          "accept": [
+            "oogie boogie hoagie",
+            "oogie hoagie"
+          ],
+          "choices": [
+            "Oogie Boogie Hoagie",
+            "Oogie Boogie Yogi",
+            "Zero Gyro",
+            "Jack Snack"
+          ],
+          "reveal": "The correct answer is Oogie Boogie hoagie! [sighs] Hold the bugs, please. He's literally made of them.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "haunts-and-howls",
+      "title": "Haunts and Howls",
+      "kind": "parks",
+      "intro": "Haunts and Howls takes us to the spookiest attractions in the Disney parks. [whispers] Keep your arms and hands inside the doom buggy at all times.",
+      "art": {
+        "prompt": "16:9 card art: a moody Southern antebellum mansion on a hill at night, twisting wrought iron gates, a crooked stretching portrait gallery, a crystal ball glowing on a seance table, cobwebs and candelabras, deep purple and ghostly teal. No people, no recognizable characters, no text or logos.",
+        "file": "media/monster-mash--haunts-and-howls.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Magic Kingdom's Haunted Mansion is said to be home to 999 of these.",
+          "answer": "Happy haunts",
+          "accept": [
+            "happy haunts",
+            "ghosts",
+            "ghost",
+            "haunts",
+            "999 happy haunts"
+          ],
+          "choices": [
+            "Happy haunts",
+            "Pirates",
+            "Witches",
+            "Skeletons"
+          ],
+          "reveal": "The correct answer is happy haunts, or ghosts! [mischievously] There's always room for one more... any volunteers?",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "At Disney's Hollywood Studios, this ride drops you down an elevator shaft in a haunted 1930s hotel.",
+          "answer": "Tower of Terror",
+          "accept": [
+            "tower of terror",
+            "the twilight zone tower of terror",
+            "twilight zone tower of terror"
+          ],
+          "choices": [
+            "Tower of Terror",
+            "Expedition Everest",
+            "Space Mountain",
+            "Slinky Dog Dash"
+          ],
+          "reveal": "The correct answer is The Twilight Zone Tower of Terror! [gasps] The drops are randomized, so you NEVER know what's coming. Check out is... never.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Expedition Everest at Animal Kingdom sends you racing away from this legendary creature.",
+          "answer": "The Yeti",
+          "accept": [
+            "yeti",
+            "the yeti",
+            "abominable snowman"
+          ],
+          "choices": [
+            "The Yeti",
+            "Bigfoot",
+            "A snow dragon",
+            "The Loch Ness Monster"
+          ],
+          "reveal": "The correct answer is the yeti! [chuckles] The guardian of the mountain. The Monsters, Inc. yeti would never do that to you.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In the Haunted Mansion, this disembodied head floats inside a crystal ball summoning the spirits.",
+          "answer": "Madame Leota",
+          "accept": [
+            "madame leota",
+            "leota"
+          ],
+          "choices": [
+            "Madame Leota",
+            "Constance Hatchaway",
+            "Little Leota",
+            "Master Gracey"
+          ],
+          "reveal": "The correct answer is Madame Leota! [dramatic pause] Serpents and spiders, tail of a rat... call in the spirits, wherever they're at. Little Leota says goodbye at the exit.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "The Haunted Mansion's three hitchhiking ghosts are Ezra, Phineas, and this short, bearded prisoner.",
+          "answer": "Gus",
+          "accept": [
+            "gus"
+          ],
+          "choices": [
+            "Gus",
+            "Ollie",
+            "George",
+            "Ichabod"
+          ],
+          "reveal": "The correct answer is Gus! [laughs] Ezra is the tall skinny one, Phineas has the top hat, and Gus drags his ball and chain. Beware of hitchhiking ghosts!",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "scary-good-songs",
+      "title": "Scary Good Songs",
+      "kind": "fan",
+      "intro": "Club DJ chose Scary Good Songs: the spookiest tunes Disney ever wrote. [excited] Feel free to sing along. Badly. I won't judge.",
+      "art": {
+        "prompt": "16:9 card art: a gloomy graveyard stage at midnight with a pipe organ made of bones, musical notes drifting like ghosts, a spotlight on an empty microphone, a crescent moon, playful black and orange palette. No people, no recognizable characters, no text or logos.",
+        "file": "media/monster-mash--scary-good-songs.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "The Nightmare Before Christmas opens with Halloween Town performing this song.",
+          "answer": "This Is Halloween",
+          "accept": [
+            "this is halloween"
+          ],
+          "choices": [
+            "This Is Halloween",
+            "Monster Mash",
+            "Grim Grinning Ghosts",
+            "Thriller"
+          ],
+          "reveal": "The correct answer is This Is Halloween! [mischievously] Boys and girls of every age, wouldn't you like to see something strange?",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "The singing busts in the Haunted Mansion's graveyard perform this spooky tune.",
+          "answer": "Grim Grinning Ghosts",
+          "accept": [
+            "grim grinning ghosts"
+          ],
+          "choices": [
+            "Grim Grinning Ghosts",
+            "This Is Halloween",
+            "Yo Ho, A Pirate's Life for Me",
+            "Be Our Guest"
+          ],
+          "reveal": "The correct answer is Grim Grinning Ghosts! [laughs] The grim grinning ghosts come out to socialize. Thurl Ravenscroft is one of those singing busts, by the way.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "In Beauty and the Beast, Gaston leads the villagers to storm the castle singing this song.",
+          "answer": "The Mob Song",
+          "accept": [
+            "the mob song",
+            "mob song",
+            "kill the beast"
+          ],
+          "choices": [
+            "The Mob Song",
+            "Gaston",
+            "Belle",
+            "Something There"
+          ],
+          "reveal": "The correct answer is The Mob Song! [dramatic pause] Kill the Beast! Easily the darkest sing-along in the Disney canon.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Moana's glam crab Tamatoa shows off his treasure-covered shell in this song.",
+          "answer": "Shiny",
+          "accept": [
+            "shiny"
+          ],
+          "choices": [
+            "Shiny",
+            "You're Welcome",
+            "Where You Are",
+            "Know Who You Are"
+          ],
+          "reveal": "The correct answer is Shiny! [sarcastic] He's a humble crab... said nobody ever. Jemaine Clement's David Bowie vibes are unmatched.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "In this 1929 cartoon, the very first Silly Symphony, skeletons dance and play each other's bones in a graveyard.",
+          "answer": "The Skeleton Dance",
+          "accept": [
+            "the skeleton dance",
+            "skeleton dance"
+          ],
+          "choices": [
+            "The Skeleton Dance",
+            "Flowers and Trees",
+            "The Band Concert",
+            "The Old Mill"
+          ],
+          "reveal": "The correct answer is The Skeleton Dance! [chuckles] Ninety plus years later, still the original spooky scary skeletons. Ub Iwerks animated most of it himself.",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}

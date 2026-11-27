@@ -1,0 +1,545 @@
+{
+  "id": "birthday-bash",
+  "title": "Birthday Bash",
+  "theme": "Birthdays",
+  "tags": [
+    "birthday",
+    "party",
+    "celebration"
+  ],
+  "intro": "[excited] Grab a party hat and a slice of cake, because tonight's episode is a BIRTHDAY BASH! Every category is wrapped up with a bow... [mischievously] and the only thing getting blown out tonight should be the candles, not your score.",
+  "art": {
+    "prompt": "Wide 16:9 festive title card: a whimsical birthday party table under a sunset sky, a towering three-tier pastel cake with sparkler candles, mismatched teacups and teapots, a bundle of colorful balloons drifting upward, streamers, confetti and wrapped presents, warm pink, gold and turquoise, painterly animation style. No people, no recognizable characters, no text or logos.",
+    "file": "media/birthday-bash.jpg"
+  },
+  "categories": [
+    {
+      "id": "a-very-merry-unbirthday",
+      "title": "A Very Merry Unbirthday",
+      "kind": "film",
+      "intro": "Our film category is 1951's Alice in Wonderland, home of the most famous unbirthday party ever thrown. [laughs] Statistically, today is probably YOUR unbirthday too, so congratulations!",
+      "art": {
+        "prompt": "16:9 card art: a chaotic outdoor tea party in a surreal garden, a long table crowded with stacked teapots, teacups and an unbirthday cake with one candle, a giant pocket watch, oversized mushrooms and a crescent moon grin in the trees, bright storybook colors. No people, no recognizable characters, no text or logos.",
+        "file": "media/birthday-bash--a-very-merry-unbirthday.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "The White Rabbit races through Wonderland worried that he is going to be this.",
+          "answer": "Late",
+          "accept": [
+            "late",
+            "running late",
+            "too late"
+          ],
+          "choices": [
+            "Late",
+            "Lost",
+            "Hungry",
+            "Sleepy"
+          ],
+          "reveal": "The correct answer is late! [laughs] I'm late, I'm late, for a very important date. Honestly, that's me every morning before the show.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "At the unbirthday tea party, the Mad Hatter is joined by this twitchy, tea-pouring hare.",
+          "answer": "The March Hare",
+          "accept": [
+            "march hare",
+            "the march hare"
+          ],
+          "choices": [
+            "The March Hare",
+            "The April Hare",
+            "The White Hare",
+            "The Cheshire Hare"
+          ],
+          "reveal": "The correct answer is the March Hare! [chuckles] He and the Hatter would happily pour you a cup, then tell you to move down because there's no room. Rude.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Alice shrinks down to a tiny size after sipping from a bottle with this two word label.",
+          "answer": "Drink Me",
+          "accept": [
+            "drink me"
+          ],
+          "choices": [
+            "Drink Me",
+            "Eat Me",
+            "Try Me",
+            "Sip Me"
+          ],
+          "reveal": "The correct answer is Drink Me! [laughs] Later a cookie says Eat Me, and Alice shoots up like a beanstalk. Wonderland really needs a food safety inspector.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "The Queen of Hearts plays croquet using these pink birds as mallets, with hedgehogs as the balls.",
+          "answer": "Flamingos",
+          "accept": [
+            "flamingos",
+            "flamingo"
+          ],
+          "choices": [
+            "Flamingos",
+            "Ostriches",
+            "Peacocks",
+            "Storks"
+          ],
+          "reveal": "The correct answer is... [chuckles] flamingos! The hedgehogs roll up as the balls. It's the least regulation croquet match in history, and the Queen still cheats.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "This vaudeville comedian, famous for his wobbly giggle, voiced the Mad Hatter in the 1951 film.",
+          "answer": "Ed Wynn",
+          "accept": [
+            "ed wynn",
+            "wynn"
+          ],
+          "choices": [
+            "Ed Wynn",
+            "Sterling Holloway",
+            "Jerry Colonna",
+            "Bill Thompson"
+          ],
+          "reveal": "The correct answer is Ed Wynn! [mischievously] The distractors were sneaky: Sterling Holloway was the Cheshire Cat, Jerry Colonna the March Hare, and Bill Thompson the White Rabbit.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "party-animals",
+      "title": "Party Animals",
+      "kind": "theme",
+      "intro": "Party Animals is all about the birthday parties thrown inside Disney and Pixar films. [chuckles] RSVP required, presents optional.",
+      "art": {
+        "prompt": "16:9 card art: a kid's bedroom birthday party with a cowboy-print wallpaper border, a pile of wrapped presents, party hats, floating paper lanterns glowing in the window, and a snowflake-decorated cake, joyful warm lighting. No people, no recognizable characters, no text or logos.",
+        "file": "media/birthday-bash--party-animals.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "At Andy's birthday party in Toy Story, this space ranger arrives as a present and steals Woody's spot on the bed.",
+          "answer": "Buzz Lightyear",
+          "accept": [
+            "buzz lightyear",
+            "buzz"
+          ],
+          "choices": [
+            "Buzz Lightyear",
+            "Rex",
+            "Zurg",
+            "Jessie"
+          ],
+          "reveal": "The correct answer is Buzz Lightyear! [excited] To infinity and beyond, and straight into Woody's jealousy zone.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Every year on Rapunzel's birthday, the kingdom of Corona releases thousands of these into the night sky.",
+          "answer": "Floating lanterns",
+          "accept": [
+            "lanterns",
+            "floating lanterns",
+            "lantern",
+            "sky lanterns"
+          ],
+          "choices": [
+            "Floating lanterns",
+            "Fireworks",
+            "Balloons",
+            "Doves"
+          ],
+          "reveal": "The correct answer is floating lanterns! [sighs] The king and queen launch them hoping their lost princess will come home. Have a tissue ready for that one.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "In the 2015 short Frozen Fever, Elsa has a cold on Anna's birthday, and every sneeze creates these tiny snowmen.",
+          "answer": "Snowgies",
+          "accept": [
+            "snowgies",
+            "snowgie",
+            "snowgys"
+          ],
+          "choices": [
+            "Snowgies",
+            "Snowlings",
+            "Frosties",
+            "Snowbabies"
+          ],
+          "reveal": "The correct answer is... [laughs] the snowgies! They end up living with Marshmallow up in the ice palace. Bless you, Elsa.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In Sleeping Beauty, the fairies fight over whether Aurora's birthday gown should be these two colors.",
+          "answer": "Pink and blue",
+          "accept": [
+            "pink and blue",
+            "blue and pink",
+            "pink blue"
+          ],
+          "choices": [
+            "Pink and blue",
+            "Red and gold",
+            "Green and purple",
+            "Pink and yellow"
+          ],
+          "reveal": "The correct answer is pink and blue! [chuckles] Flora wants pink, Merryweather wants blue, and the dress keeps flipping right up to the final dance. I'm team blue, sorry Flora.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "In Sleeping Beauty, this good fairy insists on baking Briar Rose's sixteenth birthday cake by hand, despite never having cooked before.",
+          "answer": "Fauna",
+          "accept": [
+            "fauna"
+          ],
+          "choices": [
+            "Fauna",
+            "Flora",
+            "Merryweather",
+            "The Blue Fairy"
+          ],
+          "reveal": "The correct answer is Fauna! [laughs] Her lopsided, candle-sliding cake is a true work of art. Eventually the wands come out and magic saves the day.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "dressed-for-the-party",
+      "title": "Dressed for the Party",
+      "kind": "media",
+      "intro": "Everybody dresses up for a party! I'll show you a character's outfit broken down into colours... [mischievously] and you tell me who's wearing it.",
+      "art": {
+        "prompt": "16:9 card art: a glamorous costume wardrobe for a party, rows of colorful outfits on hangers, fabric swatches and paint chips fanned out in rainbow order, a full-length mirror with a spotlight. No people, no recognizable characters, no text or logos.",
+        "file": "media/birthday-bash--dressed-for-the-party.jpg"
+      },
+      "format": "palette",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "These outfit colours belong to the birthday boy of November 18 himself.",
+          "answer": "Mickey Mouse",
+          "accept": [
+            "mickey mouse",
+            "mickey"
+          ],
+          "choices": [
+            "Mickey Mouse",
+            "Minnie Mouse",
+            "Donald Duck",
+            "Goofy"
+          ],
+          "reveal": "The correct answer is Mickey Mouse! [laughs] Red shorts, yellow shoes, white gloves. Ninety plus years and he still hasn't changed his outfit.",
+          "palette": [
+            "#000000",
+            "#E5242B",
+            "#FFD200",
+            "#FFFFFF"
+          ],
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "This princess's dress colours are as famous as her apple.",
+          "answer": "Snow White",
+          "accept": [
+            "snow white"
+          ],
+          "choices": [
+            "Snow White",
+            "Belle",
+            "Cinderella",
+            "Aurora"
+          ],
+          "reveal": "The correct answer is... Snow White! Blue bodice, yellow skirt, red bow. The fairest colour scheme of them all.",
+          "palette": [
+            "#1F4E9E",
+            "#F7D348",
+            "#D7263D",
+            "#FFFFFF",
+            "#111111"
+          ],
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Howdy, partner! These colours belong to a pull-string toy sheriff.",
+          "answer": "Woody",
+          "accept": [
+            "woody",
+            "sheriff woody"
+          ],
+          "choices": [
+            "Woody",
+            "Jessie",
+            "Bullseye",
+            "Stinky Pete"
+          ],
+          "reveal": "The correct answer is Woody! [excited] Yellow plaid, a cow print vest, blue jeans and a red bandana. There's a snake in his boot, but not in this palette.",
+          "palette": [
+            "#F2C230",
+            "#FFFFFF",
+            "#111111",
+            "#2E5A9C",
+            "#8B5A2B",
+            "#C8102E"
+          ],
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Orange shirt, black vest, blue pants, a floppy green hat. Gawrsh, who could it be?",
+          "answer": "Goofy",
+          "accept": [
+            "goofy"
+          ],
+          "choices": [
+            "Goofy",
+            "Pluto",
+            "Pete",
+            "Max"
+          ],
+          "reveal": "The correct answer is Goofy! [sarcastic] I gave you a hint with gawrsh, so if you missed it, I'm a little disappointed.",
+          "palette": [
+            "#F07F1E",
+            "#111111",
+            "#2F5DA8",
+            "#3A8A3A",
+            "#7A4A23"
+          ],
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Yellow glow, a green dress, and bright blue hair. This colourful character lives inside a girl's head.",
+          "answer": "Joy",
+          "accept": [
+            "joy"
+          ],
+          "choices": [
+            "Joy",
+            "Sadness",
+            "Disgust",
+            "Fear"
+          ],
+          "reveal": "The correct answer is Joy from Inside Out! [chuckles] Sadness is blue all over and Disgust is green, so this one was a real brain teaser. Literally.",
+          "palette": [
+            "#FFE36E",
+            "#9BD36A",
+            "#2C6FD1",
+            "#FFF6C9"
+          ],
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "parks-birthday-candles",
+      "title": "Blow Out the Candles",
+      "kind": "parks",
+      "intro": "Disney parks know how to throw a party, and they have birthdays of their own. [excited] Let's count some candles!",
+      "art": {
+        "prompt": "16:9 card art: a fairy-tale castle silhouette at night lit by fireworks, a giant birthday cake shaped float in a parade street, golden ride vehicles shimmering, strings of lights over a Victorian main street. No people, no recognizable characters, no text or logos.",
+        "file": "media/birthday-bash--parks-birthday-candles.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "At Walt Disney World, guests celebrating a birthday can pick up one of these free at Guest Relations so cast members know to cheer.",
+          "answer": "A birthday button",
+          "accept": [
+            "birthday button",
+            "button",
+            "celebration button",
+            "a button"
+          ],
+          "choices": [
+            "A birthday button",
+            "A birthday crown",
+            "A birthday wristband",
+            "A birthday sash"
+          ],
+          "reveal": "The correct answer is a birthday button! [excited] Wear it proudly and get ready for a whole lot of happy birthdays from complete strangers.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Disneyland in Anaheim opened its gates for the very first time on July 17 of this year.",
+          "answer": "1955",
+          "accept": [
+            "1955",
+            "nineteen fifty five"
+          ],
+          "choices": [
+            "1955",
+            "1971",
+            "1965",
+            "1983"
+          ],
+          "reveal": "The correct answer is 1955! [laughs] Opening day was chaos: melting asphalt, broken drinking fountains, and way too many guests. Walt still called it a success.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "This Walt Disney World park opened on Earth Day, April 22, 1998.",
+          "answer": "Animal Kingdom",
+          "accept": [
+            "animal kingdom",
+            "disney's animal kingdom"
+          ],
+          "choices": [
+            "Animal Kingdom",
+            "EPCOT",
+            "Hollywood Studios",
+            "Blizzard Beach"
+          ],
+          "reveal": "The correct answer is... [chuckles] Animal Kingdom! A perfectly on brand birthday. The Tree of Life has been growing its party guest list ever since.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "For Disneyland's 50th anniversary in 2005, one vehicle on each original 1955 ride, like a Dumbo and a teacup, was painted this colour.",
+          "answer": "Gold",
+          "accept": [
+            "gold",
+            "golden"
+          ],
+          "choices": [
+            "Gold",
+            "Silver",
+            "Purple",
+            "Rainbow"
+          ],
+          "reveal": "The correct answer is gold! [gasps] A golden Dumbo, a golden teacup, even a golden Jungle Cruise boat. I would have waited an extra hour just to ride the gold one.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "EPCOT opened on October 1 of this year, exactly eleven years to the day after Magic Kingdom.",
+          "answer": "1982",
+          "accept": [
+            "1982",
+            "nineteen eighty two"
+          ],
+          "choices": [
+            "1982",
+            "1979",
+            "1984",
+            "1986"
+          ],
+          "reveal": "The correct answer is... 1982! Magic Kingdom opened October 1, 1971, and EPCOT followed on October 1, 1982. Two parks, one shared birthday. Very efficient.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "happy-birthday-to-who",
+      "title": "Happy Birthday to Who?",
+      "kind": "fan",
+      "intro": "Club DJ picked this one: famous Disney birthdays and ages. [whispers] If you know how old Ariel is, you're in GREAT shape.",
+      "art": {
+        "prompt": "16:9 card art: a vintage calendar wall with circled dates, a row of cupcakes with candles of different ages, an old 1920s film reel and a steamboat whistle on a shelf, sepia mixed with bright party colors. No people, no recognizable characters, no text or logos.",
+        "file": "media/birthday-bash--happy-birthday-to-who.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Mickey Mouse's birthday is celebrated on November 18, the date this 1928 cartoon premiered in New York.",
+          "answer": "Steamboat Willie",
+          "accept": [
+            "steamboat willie"
+          ],
+          "choices": [
+            "Steamboat Willie",
+            "Plane Crazy",
+            "The Band Concert",
+            "The Karnival Kid"
+          ],
+          "reveal": "The correct answer is Steamboat Willie! [whispers] Plane Crazy was made first, but Steamboat Willie, with its synchronized sound, is the one that made Mickey a star.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Ariel tells King Triton she is not a child anymore, because she is this many years old.",
+          "answer": "16",
+          "accept": [
+            "16",
+            "sixteen"
+          ],
+          "choices": [
+            "16",
+            "15",
+            "18",
+            "21"
+          ],
+          "reveal": "The correct answer is sixteen! [laughs] I'm sixteen years old, I'm not a child. Every dad watching just felt that one in their soul.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Tangled takes place as Rapunzel is about to celebrate this birthday.",
+          "answer": "Her 18th",
+          "accept": [
+            "18",
+            "18th",
+            "eighteen",
+            "eighteenth",
+            "her 18th"
+          ],
+          "choices": [
+            "Her 18th",
+            "Her 16th",
+            "Her 21st",
+            "Her 13th"
+          ],
+          "reveal": "The correct answer is... [sighs] her eighteenth! Eighteen years of lanterns watched from a tower window, then one wild road trip with Flynn Rider.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Walt Disney was born in Chicago on December 5 of this year.",
+          "answer": "1901",
+          "accept": [
+            "1901",
+            "nineteen oh one"
+          ],
+          "choices": [
+            "1901",
+            "1899",
+            "1905",
+            "1910"
+          ],
+          "reveal": "The correct answer is... 1901! Walt was born in Chicago, grew up partly in Marceline, Missouri, and that small town Main Street shaped Disneyland forever.",
+          "dailyDouble": true
+        },
+        {
+          "value": 1000,
+          "clue": "Donald Duck's official birthday is June 9, the 1934 release date of this Silly Symphony, his screen debut.",
+          "answer": "The Wise Little Hen",
+          "accept": [
+            "the wise little hen",
+            "wise little hen"
+          ],
+          "choices": [
+            "The Wise Little Hen",
+            "Orphan's Benefit",
+            "The Band Concert",
+            "Flowers and Trees"
+          ],
+          "reveal": "The correct answer is The Wise Little Hen! [laughs] Donald pretended to have a tummy ache to get out of work. Some things never change.",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}

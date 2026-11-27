@@ -1,0 +1,520 @@
+{
+  "id": "fairy-tales-and-legends",
+  "title": "Once Upon a Time",
+  "theme": "Fairy tales and legends",
+  "tags": [
+    "fairy-tales",
+    "legends",
+    "princesses",
+    "villains"
+  ],
+  "intro": "[dramatic pause] Once upon a time... in a game show far, far away, brave contestants faced the board. Tonight is all about FAIRY TALES and LEGENDS. [chuckles] May your answers be true and your scores live happily ever after.",
+  "art": {
+    "prompt": "Wide 16:9 title card: an enormous antique storybook lying open on a mossy forest floor, a fairy-tale castle, a winding road, a dragon-shaped cloud and a glass slipper rising out of the pages in a swirl of golden sparkles, twilight purple and gold, painterly storybook style. No people, no recognizable characters, no text or logos.",
+    "file": "media/fairy-tales-and-legends.jpg"
+  },
+  "categories": [
+    {
+      "id": "tale-as-old-as-time",
+      "title": "Tale as Old as Time",
+      "kind": "film",
+      "intro": "Our film category is 1991's Beauty and the Beast. [excited] Be our guest... put our clues to the test!",
+      "art": {
+        "prompt": "16:9 card art: an enchanted rose glowing under a glass bell jar on a table in a moonlit castle west wing, falling petals, torn velvet curtains, a candelabra and mantel clock casting warm light. No people, no recognizable characters, no text or logos.",
+        "file": "media/fairy-tales-and-legends--tale-as-old-as-time.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "The Beast must learn to love before the last petal falls from this enchanted flower.",
+          "answer": "A rose",
+          "accept": [
+            "rose",
+            "a rose",
+            "the rose",
+            "enchanted rose"
+          ],
+          "choices": [
+            "A rose",
+            "A tulip",
+            "A lily",
+            "A daisy"
+          ],
+          "reveal": "The correct answer is the enchanted rose! [mischievously] Kept under a glass jar in the West Wing. You know, the wing Belle was told never to enter. So naturally she did.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "This charming candelabra with a French accent leads the Be Our Guest number.",
+          "answer": "Lumiere",
+          "accept": [
+            "lumiere",
+            "lumière"
+          ],
+          "choices": [
+            "Lumiere",
+            "Cogsworth",
+            "Chip",
+            "Babette"
+          ],
+          "reveal": "The correct answer is Lumiere! [chuckles] Cogsworth is the stressed out clock, and Chip is the adorable teacup. Lumiere just wants to throw a dinner party.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Belle's father, an eccentric inventor, gets lost in the woods and ends up the Beast's prisoner.",
+          "answer": "Maurice",
+          "accept": [
+            "maurice"
+          ],
+          "choices": [
+            "Maurice",
+            "Gaston",
+            "LeFou",
+            "Monsieur D'Arque"
+          ],
+          "reveal": "The correct answer is Maurice! [laughs] His wood chopping machine is a marvel of engineering, as long as you're standing very far away.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Belle rides this loyal horse to rescue her father from the Beast's castle.",
+          "answer": "Philippe",
+          "accept": [
+            "philippe",
+            "phillipe",
+            "phillippe"
+          ],
+          "choices": [
+            "Philippe",
+            "Maximus",
+            "Samson",
+            "Khan"
+          ],
+          "reveal": "The correct answer is... Philippe! Maximus is Tangled, Samson is Aurora's prince's horse, and Khan is Mulan's. Disney has a horse for everybody.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Beauty and the Beast made history in 1992 as the first animated feature nominated for this Academy Award.",
+          "answer": "Best Picture",
+          "accept": [
+            "best picture",
+            "picture"
+          ],
+          "choices": [
+            "Best Picture",
+            "Best Director",
+            "Best Animated Feature",
+            "Best Original Screenplay"
+          ],
+          "reveal": "The correct answer is Best Picture! [excited] The Best Animated Feature category didn't even exist until 2002. Up and Toy Story 3 later earned Best Picture nominations too.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "legendary-origins",
+      "title": "Legendary Origins",
+      "kind": "theme",
+      "intro": "Legendary Origins! [whispers] Disney didn't invent every story. These clues are about the fairy tales and folklore BEHIND the films.",
+      "art": {
+        "prompt": "16:9 card art: a scholar's desk with ancient leather-bound books of folklore, a quill, a map of old Europe, a glass slipper, a longbow and arrow, and a jack-o'-lantern by a candle. No people, no recognizable characters, no text or logos.",
+        "file": "media/fairy-tales-and-legends--legendary-origins.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This fairy tale heroine has to leave the royal ball at midnight, losing a glass slipper on the stairs.",
+          "answer": "Cinderella",
+          "accept": [
+            "cinderella"
+          ],
+          "choices": [
+            "Cinderella",
+            "Snow White",
+            "Aurora",
+            "Rapunzel"
+          ],
+          "reveal": "The correct answer is Cinderella! [chuckles] And the slipper fit perfectly, which still makes me wonder how no one else in the kingdom had her shoe size.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "In Disney's 1973 retelling of the English legend, Robin Hood is this clever animal.",
+          "answer": "A fox",
+          "accept": [
+            "fox",
+            "a fox"
+          ],
+          "choices": [
+            "A fox",
+            "A wolf",
+            "A lion",
+            "A bear"
+          ],
+          "reveal": "The correct answer is a fox! [laughs] Little John is a bear, Prince John is a thumb sucking lion, and the Sheriff of Nottingham is a wolf. Oo de lally.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "The Little Mermaid is based on a fairy tale by this Danish author.",
+          "answer": "Hans Christian Andersen",
+          "accept": [
+            "hans christian andersen",
+            "andersen",
+            "hans christian anderson",
+            "anderson"
+          ],
+          "choices": [
+            "Hans Christian Andersen",
+            "The Brothers Grimm",
+            "Charles Perrault",
+            "Aesop"
+          ],
+          "reveal": "The correct answer is Hans Christian Andersen! [whispers] His original ending is much sadder. Disney gave Ariel the happily ever after.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Frozen was inspired by this Hans Christian Andersen story about a cold-hearted queen and a magic mirror.",
+          "answer": "The Snow Queen",
+          "accept": [
+            "the snow queen",
+            "snow queen"
+          ],
+          "choices": [
+            "The Snow Queen",
+            "The Ice Maiden",
+            "The Little Match Girl",
+            "The Princess and the Pea"
+          ],
+          "reveal": "The correct answer is... [chuckles] The Snow Queen! Disney tried to adapt it for decades before Elsa finally let it go. The Ice Maiden is also an Andersen tale, so nice try if you went there.",
+          "dailyDouble": true
+        },
+        {
+          "value": 1000,
+          "clue": "In 1949, Disney animated this Washington Irving legend, where Ichabod Crane is chased by the Headless Horseman.",
+          "answer": "The Legend of Sleepy Hollow",
+          "accept": [
+            "sleepy hollow",
+            "the legend of sleepy hollow",
+            "legend of sleepy hollow"
+          ],
+          "choices": [
+            "The Legend of Sleepy Hollow",
+            "Rip Van Winkle",
+            "The Devil and Tom Walker",
+            "The Headless Hessian"
+          ],
+          "reveal": "The correct answer is The Legend of Sleepy Hollow! [excited] It's half of The Adventures of Ichabod and Mr. Toad, narrated by Bing Crosby. The pumpkin scene still haunts me.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "emoji-ever-after",
+      "title": "Emoji Ever After",
+      "kind": "media",
+      "intro": "I'll show you a fairy tale or legend told only in emoji, plus a hint. Name the Disney film. [laughs] Happily EMOJI after!",
+      "art": {
+        "prompt": "16:9 card art: a colorful fairy-tale scene built from playful round icon-style shapes: a poisoned apple, a crown, a frog on a lily pad, a bow and arrow, a dragon swirl, bold flat shapes on a starry background. No people, no recognizable characters, no text or logos.",
+        "file": "media/fairy-tales-and-legends--emoji-ever-after.jpg"
+      },
+      "format": "emoji",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "👸🍎😴⛏️💎 Hint: seven little helpers",
+          "answer": "Snow White and the Seven Dwarfs",
+          "accept": [
+            "snow white and the seven dwarfs",
+            "snow white",
+            "snow white and the 7 dwarfs"
+          ],
+          "choices": [
+            "Snow White and the Seven Dwarfs",
+            "Sleeping Beauty",
+            "Cinderella",
+            "Tangled"
+          ],
+          "reveal": "The correct answer is Snow White and the Seven Dwarfs! [excited] 1937, Disney's first animated feature. Heigh ho, heigh ho, it's on to the next clue we go.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "🐸💋👑🎺🌙 Hint: New Orleans",
+          "answer": "The Princess and the Frog",
+          "accept": [
+            "the princess and the frog",
+            "princess and the frog"
+          ],
+          "choices": [
+            "The Princess and the Frog",
+            "The Little Mermaid",
+            "Enchanted",
+            "Tangled"
+          ],
+          "reveal": "The correct answer is... The Princess and the Frog! Tiana, a trumpet playing alligator, and a firefly in love with a star. Almost there, folks.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "👧🏹🐻🎂🏰 Hint: a magic cake goes very wrong",
+          "answer": "Brave",
+          "accept": [
+            "brave"
+          ],
+          "choices": [
+            "Brave",
+            "Brother Bear",
+            "Mulan",
+            "Pocahontas"
+          ],
+          "reveal": "The correct answer is Brave! [laughs] Merida's mom eats a spell cake and turns into a bear. Lesson learned: never trust a cake from a witch's cottage.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "🐉🌧️💎🗡️🤝 Hint: the last of the dragons, Kumandra",
+          "answer": "Raya and the Last Dragon",
+          "accept": [
+            "raya and the last dragon",
+            "raya"
+          ],
+          "choices": [
+            "Raya and the Last Dragon",
+            "Mulan",
+            "Pete's Dragon",
+            "Moana"
+          ],
+          "reveal": "The correct answer is... Raya and the Last Dragon! Sisu the water dragon is the legend everyone in Kumandra believed in. Trust is the real magic.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "🪓🐂🌲🏔️ Hint: a giant lumberjack and his big blue ox, 1958",
+          "answer": "Paul Bunyan",
+          "accept": [
+            "paul bunyan"
+          ],
+          "choices": [
+            "Paul Bunyan",
+            "Pecos Bill",
+            "Johnny Appleseed",
+            "John Henry"
+          ],
+          "reveal": "The correct answer is Paul Bunyan! [gasps] Babe the Blue Ox is the big blue giveaway. All four choices are American tall tales Disney animated, so that was a true nerd clue.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "castle-quest",
+      "title": "Castle Quest",
+      "kind": "parks",
+      "intro": "Every fairy tale needs a castle, and the Disney parks have some of the BEST. [excited] Let's go on a Castle Quest!",
+      "art": {
+        "prompt": "16:9 card art: a panorama of five different fairy-tale castles across rolling hills, each with distinct spires in pink, blue and gold, a sleeping dragon curled in a cave beneath one, sunset sky with fireworks. No people, no recognizable characters, no text or logos.",
+        "file": "media/fairy-tales-and-legends--castle-quest.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This princess's castle stands at the heart of the original Disneyland in California.",
+          "answer": "Sleeping Beauty Castle",
+          "accept": [
+            "sleeping beauty castle",
+            "sleeping beauty",
+            "aurora",
+            "aurora's castle"
+          ],
+          "choices": [
+            "Sleeping Beauty Castle",
+            "Cinderella Castle",
+            "Beast's Castle",
+            "Snow White's Castle"
+          ],
+          "reveal": "The correct answer is Sleeping Beauty Castle! [whispers] It's surprisingly small, about 77 feet tall, thanks to forced perspective that makes it look much bigger.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "At Magic Kingdom, you can sit down for a meal inside Cinderella Castle at this restaurant.",
+          "answer": "Cinderella's Royal Table",
+          "accept": [
+            "cinderella's royal table",
+            "cinderellas royal table",
+            "royal table"
+          ],
+          "choices": [
+            "Cinderella's Royal Table",
+            "Be Our Guest Restaurant",
+            "Akershus Royal Banquet Hall",
+            "The Crystal Palace"
+          ],
+          "reveal": "The correct answer is... Cinderella's Royal Table! Dinner with a view of the whole Magic Kingdom. Glass slippers not included.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Beneath the castle at Disneyland Paris lurks a giant animatronic beast, one of the biggest Disney had ever built when it debuted. It's this creature.",
+          "answer": "A dragon",
+          "accept": [
+            "dragon",
+            "a dragon",
+            "the dragon"
+          ],
+          "choices": [
+            "A dragon",
+            "A kraken",
+            "A giant",
+            "A troll"
+          ],
+          "reveal": "The correct answer is a dragon! [dramatic pause] La Tanière du Dragon, the Dragon's Lair. It sleeps chained in a dark cave, snoring and occasionally waking up to roar at you.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Shanghai Disneyland's castle, the biggest Disney castle ever built, has this name.",
+          "answer": "Enchanted Storybook Castle",
+          "accept": [
+            "enchanted storybook castle",
+            "storybook castle"
+          ],
+          "choices": [
+            "Enchanted Storybook Castle",
+            "Castle of Magical Dreams",
+            "Castle of Dreams",
+            "Royal Storybook Palace"
+          ],
+          "reveal": "The correct answer is... Enchanted Storybook Castle! It honors all the princesses instead of just one. Castle of Magical Dreams is over in Hong Kong.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Cinderella Castle at Magic Kingdom is said to stand this tall, just short enough to avoid needing a red aircraft warning light.",
+          "answer": "189 feet",
+          "accept": [
+            "189",
+            "189 feet",
+            "189 ft",
+            "one hundred eighty nine feet"
+          ],
+          "choices": [
+            "189 feet",
+            "77 feet",
+            "150 feet",
+            "199 feet"
+          ],
+          "reveal": "The correct answer is 189 feet! [chuckles] Measured from the bottom of the moat. Any taller and federal rules would have required a blinking light on top. Very unmagical.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "wicked-ever-after",
+      "title": "Wicked Ever After",
+      "kind": "fan",
+      "intro": "[mischievously] Club DJ wanted villains, and every fairy tale has one. Welcome to Wicked Ever After.",
+      "art": {
+        "prompt": "16:9 card art: a villain's lair with an ornate magic mirror, a poisoned red apple, a staff topped with a glowing green orb, a black raven feather, swirling purple and green smoke, dramatic shadows. No people, no recognizable characters, no text or logos.",
+        "file": "media/fairy-tales-and-legends--wicked-ever-after.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This sea witch trades Ariel a pair of legs in exchange for her voice.",
+          "answer": "Ursula",
+          "accept": [
+            "ursula"
+          ],
+          "choices": [
+            "Ursula",
+            "Maleficent",
+            "Yzma",
+            "Mother Gothel"
+          ],
+          "reveal": "The correct answer is Ursula! [laughs] Poor unfortunate souls, all of us who got this wrong. Wait, nobody got this wrong.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Mirror, mirror on the wall: this villain asks her magic mirror who's the fairest one of all.",
+          "answer": "The Evil Queen",
+          "accept": [
+            "the evil queen",
+            "evil queen",
+            "the queen",
+            "queen grimhilde",
+            "grimhilde",
+            "wicked queen",
+            "the wicked queen"
+          ],
+          "choices": [
+            "The Evil Queen",
+            "Maleficent",
+            "Lady Tremaine",
+            "Mother Gothel"
+          ],
+          "reveal": "The correct answer is the Evil Queen from Snow White! [sarcastic] She takes the answer very personally. Honestly, ask a mirror a question, get an honest answer.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Cinderella's cold and calculating stepmother has this name.",
+          "answer": "Lady Tremaine",
+          "accept": [
+            "lady tremaine",
+            "tremaine"
+          ],
+          "choices": [
+            "Lady Tremaine",
+            "Drizella",
+            "Anastasia",
+            "Madame Medusa"
+          ],
+          "reveal": "The correct answer is Lady Tremaine! [mischievously] Drizella and Anastasia are the stepsisters. And Lucifer the cat is the true villain, if you ask me.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Maleficent sends out this loyal pet raven to search for Aurora.",
+          "answer": "Diablo",
+          "accept": [
+            "diablo"
+          ],
+          "choices": [
+            "Diablo",
+            "Iago",
+            "Lucifer",
+            "Flotsam"
+          ],
+          "reveal": "The correct answer is Diablo! [chuckles] He finally tracked her down after Maleficent's goons spent sixteen years searching for a baby. Diablo is the only competent henchman in the film.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "This actress voiced both Maleficent in Sleeping Beauty and Lady Tremaine in Cinderella.",
+          "answer": "Eleanor Audley",
+          "accept": [
+            "eleanor audley",
+            "audley"
+          ],
+          "choices": [
+            "Eleanor Audley",
+            "Pat Carroll",
+            "Lucille La Verne",
+            "Verna Felton"
+          ],
+          "reveal": "The correct answer is... Eleanor Audley! Pat Carroll voiced Ursula, Lucille La Verne the Evil Queen, and Verna Felton the Fairy Godmother. A true villain voice LEGEND.",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}
