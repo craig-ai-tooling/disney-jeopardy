@@ -1,0 +1,498 @@
+{
+  "id": "music-maestro",
+  "title": "Music, Maestro!",
+  "theme": "Disney songs",
+  "tags": [
+    "music",
+    "songs"
+  ],
+  "intro": "[excited] Welcome in, music lovers! Warm up those vocal cords, because today's board is all about Disney songs: who sang them, how they end, and which rides they're stuck on FOREVER. Please, no singing at the TV. [sighs] Okay... a little singing.",
+  "art": {
+    "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A grand concert stage at twilight with a glowing orchestra pit, music notes swirling like fireflies into a starry sky, a conductor's baton resting on a velvet podium.",
+    "file": "media/music-maestro.jpg"
+  },
+  "categories": [
+    {
+      "id": "circle-of-life",
+      "title": "Circle of Life",
+      "kind": "film",
+      "intro": "[dramatic] Our film category is The Lion King... a film with a soundtrack fit for a KING.",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A dramatic African savanna sunrise with a towering rock outcrop, acacia trees silhouetted against a giant orange sun, herds of zebra and antelope gathering below.",
+        "file": "media/music-maestro--circle-of-life.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Simba's wise father, the king of Pride Rock, is named this.",
+          "answer": "Mufasa",
+          "accept": [
+            "mufasa"
+          ],
+          "choices": [
+            "Mufasa",
+            "Scar",
+            "Rafiki",
+            "Zazu"
+          ],
+          "reveal": "The correct answer is Mufasa! [dramatic] [dramatic] Long live the king. And remember who you are.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Timon and Pumbaa teach Simba this problem-free philosophy in song.",
+          "answer": "Hakuna Matata",
+          "accept": [
+            "hakuna matata"
+          ],
+          "choices": [
+            "Hakuna Matata",
+            "Bare Necessities",
+            "Circle of Life",
+            "Under the Sea"
+          ],
+          "reveal": "The correct answer is Hakuna Matata! [sighs] [sighs] It means no worries for the rest of your days. Must be nice.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Scar sings this villain song while hyenas march below him.",
+          "answer": "Be Prepared",
+          "accept": [
+            "be prepared"
+          ],
+          "choices": [
+            "Be Prepared",
+            "Poor Unfortunate Souls",
+            "Mine Mine Mine",
+            "Savages"
+          ],
+          "reveal": "The correct answer is Be Prepared! [sarcastic] [sarcastic] The hyenas goose-step and Scar plots. Not a great work environment.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Elton John wrote The Lion King's songs with this famous lyricist.",
+          "answer": "Tim Rice",
+          "accept": [
+            "tim rice",
+            "sir tim rice"
+          ],
+          "choices": [
+            "Tim Rice",
+            "Howard Ashman",
+            "Stephen Schwartz",
+            "Lin-Manuel Miranda"
+          ],
+          "reveal": "The correct answer is Tim Rice! He also wrote lyrics for Aladdin after Howard Ashman passed away. What a career.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "The Lion King had three Best Original Song Oscar nominees. This one won.",
+          "answer": "Can You Feel the Love Tonight",
+          "accept": [
+            "can you feel the love tonight"
+          ],
+          "choices": [
+            "Can You Feel the Love Tonight",
+            "Circle of Life",
+            "Hakuna Matata",
+            "I Just Can't Wait to Be King"
+          ],
+          "reveal": "The correct answer is Can You Feel the Love Tonight! [laughs] [laughs] Circle of Life and Hakuna Matata were nominated too. Timon and Pumbaa were robbed, honestly.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "who-sang-it",
+      "title": "Who Sang It?",
+      "kind": "theme",
+      "intro": "Next, Who Sang It? I'll name the song, you name the character who sang it.",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A row of glowing spotlights on an empty theatre stage, each lighting a different prop: an ice crystal, an ocean wave, a tower window and a lantern.",
+        "file": "media/music-maestro--who-sang-it.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Let It Go",
+          "answer": "Elsa",
+          "accept": [
+            "elsa",
+            "queen elsa"
+          ],
+          "choices": [
+            "Elsa",
+            "Anna",
+            "Rapunzel",
+            "Moana"
+          ],
+          "reveal": "The correct answer is Elsa! [mischievously] [mischievously] And now it's stuck in your head again. You're welcome.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "How Far I'll Go",
+          "answer": "Moana",
+          "accept": [
+            "moana"
+          ],
+          "choices": [
+            "Moana",
+            "Mirabel",
+            "Merida",
+            "Raya"
+          ],
+          "reveal": "The correct answer is Moana! The line where the sky meets the sea, it calls her.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "You're Welcome",
+          "answer": "Maui",
+          "accept": [
+            "maui"
+          ],
+          "choices": [
+            "Maui",
+            "Tamatoa",
+            "Chief Tui",
+            "Gramma Tala"
+          ],
+          "reveal": "The correct answer is Maui! [laughs] [laughs] What can he say except, well, you know. The demigod has a way with a chorus.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Mother Knows Best",
+          "answer": "Mother Gothel",
+          "accept": [
+            "mother gothel",
+            "gothel"
+          ],
+          "choices": [
+            "Mother Gothel",
+            "Ursula",
+            "Lady Tremaine",
+            "The Evil Queen"
+          ],
+          "reveal": "The correct answer is Mother Gothel! [sighs] [sighs] A guilt trip set to music. Rapunzel deserved better.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "In Lady and the Tramp, this restaurant owner and his cook Joe serenade the dogs with Bella Notte.",
+          "answer": "Tony",
+          "accept": [
+            "tony"
+          ],
+          "choices": [
+            "Tony",
+            "Luigi",
+            "Guido",
+            "Mario"
+          ],
+          "reveal": "[excited] [excited] The correct answer is Tony! Joe plays the accordion, Tony sings, and the dogs share some spaghetti. Bella Notte!",
+          "dailyDouble": true
+        }
+      ]
+    },
+    {
+      "id": "song-combos",
+      "title": "Song Combos",
+      "kind": "media",
+      "intro": "Time for Song Combos! I've mashed two Disney song titles together where they overlap. [laughs] Name both original songs.",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. Two vintage vinyl records overlapping and blending into each other in a swirl of colourful sound waves, musical notes splashing out.",
+        "file": "media/music-maestro--song-combos.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "You've Got a Friend Like Me",
+          "answer": "You've Got a Friend in Me and Friend Like Me",
+          "accept": [
+            "you've got a friend in me and friend like me",
+            "youve got a friend in me and friend like me",
+            "friend like me and you've got a friend in me"
+          ],
+          "choices": [
+            "You've Got a Friend in Me and Friend Like Me",
+            "You've Got a Friend in Me and Strangers Like Me",
+            "Count on Me and Friend Like Me",
+            "You'll Be in My Heart and Friend Like Me"
+          ],
+          "reveal": "The correct answer is You've Got a Friend in Me from Toy Story, and Friend Like Me from Aladdin. Woody and Genie, best buds.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Let It Go the Distance",
+          "answer": "Let It Go and Go the Distance",
+          "accept": [
+            "let it go and go the distance",
+            "go the distance and let it go"
+          ],
+          "choices": [
+            "Let It Go and Go the Distance",
+            "Let It Go and How Far I'll Go",
+            "Let Her Go and Go the Distance",
+            "Let It Go and I'll Go the Distance"
+          ],
+          "reveal": "The correct answer is Let It Go from Frozen and Go the Distance from Hercules. [excited] [excited] Elsa and Herc, a power duo.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Kiss the Girl Worth Fighting For",
+          "answer": "Kiss the Girl and A Girl Worth Fighting For",
+          "accept": [
+            "kiss the girl and a girl worth fighting for",
+            "kiss the girl and girl worth fighting for"
+          ],
+          "choices": [
+            "Kiss the Girl and A Girl Worth Fighting For",
+            "Kiss the Girl and I'll Make a Man Out of You",
+            "Kiss the Girl and Reflection",
+            "Kiss the Frog and A Girl Worth Fighting For"
+          ],
+          "reveal": "The correct answer is Kiss the Girl from The Little Mermaid and A Girl Worth Fighting For from Mulan. Sebastian would approve.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "I Won't Say I'm in Love Is an Open Door",
+          "answer": "I Won't Say I'm in Love and Love Is an Open Door",
+          "accept": [
+            "i won't say i'm in love and love is an open door",
+            "i wont say im in love and love is an open door"
+          ],
+          "choices": [
+            "I Won't Say I'm in Love and Love Is an Open Door",
+            "I Won't Say I'm in Love and For the First Time in Forever",
+            "Can You Feel the Love Tonight and Love Is an Open Door",
+            "I Won't Say I'm in Love and When Will My Life Begin"
+          ],
+          "reveal": "The correct answer is I Won't Say I'm in Love from Hercules and Love Is an Open Door from Frozen. [chuckles] [chuckles] Meg would never fall for Hans.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Once Upon a Dream Is a Wish Your Heart Makes",
+          "answer": "Once Upon a Dream and A Dream Is a Wish Your Heart Makes",
+          "accept": [
+            "once upon a dream and a dream is a wish your heart makes",
+            "once upon a dream and dream is a wish your heart makes"
+          ],
+          "choices": [
+            "Once Upon a Dream and A Dream Is a Wish Your Heart Makes",
+            "Once Upon a Dream and When You Wish Upon a Star",
+            "I See the Light and A Dream Is a Wish Your Heart Makes",
+            "Once Upon a Dream and So This Is Love"
+          ],
+          "reveal": "The correct answer is Once Upon a Dream from Sleeping Beauty and A Dream Is a Wish Your Heart Makes from Cinderella. [laughs] [laughs] Two princesses, one very sleepy combo.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "ride-tunes",
+      "title": "Ride Tunes",
+      "kind": "parks",
+      "intro": "Our Disney Parks category: Ride Tunes! I'll describe a song, you name the attraction it's stuck on.",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A colourful theme park boat ride drifting through a twinkling dark tunnel, music notes floating above the water, lanterns and gentle glowing lights.",
+        "file": "media/music-maestro--ride-tunes.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This boat ride's famous song says it's a world of laughter and a world of tears.",
+          "answer": "it's a small world",
+          "accept": [
+            "it's a small world",
+            "its a small world",
+            "small world"
+          ],
+          "choices": [
+            "it's a small world",
+            "Pirates of the Caribbean",
+            "Jungle Cruise",
+            "Living with the Land"
+          ],
+          "reveal": "The correct answer is it's a small world! [laughs] [laughs] And yes, you will be humming it for the rest of the day.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Yo Ho, A Pirate's Life for Me plays on this boat ride.",
+          "answer": "Pirates of the Caribbean",
+          "accept": [
+            "pirates of the caribbean",
+            "pirates"
+          ],
+          "choices": [
+            "Pirates of the Caribbean",
+            "Jungle Cruise",
+            "Peter Pan's Flight",
+            "Gran Fiesta Tour"
+          ],
+          "reveal": "The correct answer is Pirates of the Caribbean! [sings] [sings] Drink up, me hearties, yo ho. Root beer only, kids.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Grim Grinning Ghosts is the theme song of this spooky attraction.",
+          "answer": "Haunted Mansion",
+          "accept": [
+            "haunted mansion",
+            "the haunted mansion"
+          ],
+          "choices": [
+            "Haunted Mansion",
+            "Tower of Terror",
+            "Snow White's Enchanted Wish",
+            "Phantom Manor"
+          ],
+          "reveal": "The correct answer is the Haunted Mansion! [whispers] [whispers] Even the singing busts in the graveyard are happy to haunt you.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "There's a Great Big Beautiful Tomorrow is the theme song of this rotating Tomorrowland show.",
+          "answer": "Carousel of Progress",
+          "accept": [
+            "carousel of progress",
+            "walt disney's carousel of progress"
+          ],
+          "choices": [
+            "Carousel of Progress",
+            "Spaceship Earth",
+            "The Hall of Presidents",
+            "Monsters Inc. Laugh Floor"
+          ],
+          "reveal": "The correct answer is Walt Disney's Carousel of Progress! It debuted at the 1964 World's Fair. The theater moves, the family barely ages.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "The anthem Golden Dream plays in this EPCOT show hosted by Benjamin Franklin and Mark Twain.",
+          "answer": "The American Adventure",
+          "accept": [
+            "the american adventure",
+            "american adventure"
+          ],
+          "choices": [
+            "The American Adventure",
+            "The Hall of Presidents",
+            "Spaceship Earth",
+            "Impressions de France"
+          ],
+          "reveal": "The correct answer is The American Adventure! [chuckles] [chuckles] Ben Franklin even climbs stairs in it. That's some serious animatronic cardio.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "finish-the-lyric",
+      "title": "Finish the Lyric",
+      "kind": "fan",
+      "intro": "And the fan category: Finish the Lyric! I'll start the line, you finish it. No humming for help. [sighs] Okay, maybe a little.",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. An open antique songbook on a piano, its pages lifting off as glowing musical notes, a wishing star shining through a nearby window.",
+        "file": "media/music-maestro--finish-the-lyric.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "When you wish upon a...",
+          "answer": "Star",
+          "accept": [
+            "star",
+            "a star"
+          ],
+          "choices": [
+            "Star",
+            "Dream",
+            "Wish",
+            "Moon"
+          ],
+          "reveal": "The correct answer is star! Pinocchio's Jiminy Cricket sang it first, and now it plays over the Disney castle logo before many films.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Just whistle while you...",
+          "answer": "Work",
+          "accept": [
+            "work"
+          ],
+          "choices": [
+            "Work",
+            "Walk",
+            "Play",
+            "Sweep"
+          ],
+          "reveal": "The correct answer is work! [chuckles] [chuckles] The Seven Dwarfs' cleaning crew. Snow White had those animals scrubbing dishes in no time.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Just a spoonful of sugar helps the medicine go...",
+          "answer": "Down",
+          "accept": [
+            "down",
+            "go down"
+          ],
+          "choices": [
+            "Down",
+            "Away",
+            "Around",
+            "Smooth"
+          ],
+          "reveal": "The correct answer is down! In the most delightful way, according to Mary Poppins. Practically perfect in every way.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Look at this stuff, isn't it...",
+          "answer": "Neat",
+          "accept": [
+            "neat"
+          ],
+          "choices": [
+            "Neat",
+            "Great",
+            "Sweet",
+            "Nice"
+          ],
+          "reveal": "The correct answer is neat! [mischievously] [mischievously] Wouldn't you think her collection's complete? Spoiler: Ariel wants more.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Look for the bare necessities, the simple bare necessities, forget about your worries and your...",
+          "answer": "Strife",
+          "accept": [
+            "strife"
+          ],
+          "choices": [
+            "Strife",
+            "Life",
+            "Cares",
+            "Plight"
+          ],
+          "reveal": "[excited] [excited] The correct answer is strife! Baloo says forget about your worries, and he means it. Mother Nature's recipes, coming right up.",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}

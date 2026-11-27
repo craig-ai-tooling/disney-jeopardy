@@ -1,0 +1,572 @@
+{
+  "id": "pixar-playtime",
+  "title": "Pixar Playtime",
+  "theme": "Pixar toys and play",
+  "tags": [
+    "pixar",
+    "toys",
+    "animation"
+  ],
+  "intro": "[excited] Welcome in, toy fans! Today the whole board is one big Pixar playdate: toys, palettes, Easter eggs and the parks where you can shrink down to action figure size. Grab your juice box... because recess is OFFICIALLY in session!",
+  "art": {
+    "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A child's sunny bedroom floor turned into an epic playground: a toy rocket, wooden blocks, a cardboard race track, a desk lamp casting a warm spotlight, bouncing rubber ball mid-air, cloud-patterned wallpaper.",
+    "file": "media/pixar-playtime.jpg"
+  },
+  "categories": [
+    {
+      "id": "youve-got-a-friend",
+      "title": "You've Got a Friend",
+      "kind": "film",
+      "intro": "[excited] Our film category this week is the toy box that started it all... the Toy Story films. Reach for the sky!",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A worn cowboy hat and a toy space helmet resting side by side on a bedspread with a sky-and-clouds pattern, toy blocks scattered around, golden afternoon light.",
+        "file": "media/pixar-playtime--youve-got-a-friend.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In Toy Story, this pull-string cowboy is Andy's favorite toy until a certain space ranger shows up.",
+          "answer": "Woody",
+          "accept": [
+            "woody",
+            "sheriff woody"
+          ],
+          "choices": [
+            "Woody",
+            "Jessie",
+            "Bullseye",
+            "Stinky Pete"
+          ],
+          "reveal": "The correct answer is Woody! [laughs] [laughs] There's a snake in his boot, and a whole lot of jealousy in his heart.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "This pink, strawberry-scented teddy bear rules Sunnyside Daycare with a fuzzy iron fist in Toy Story 3.",
+          "answer": "Lotso",
+          "accept": [
+            "lotso",
+            "lots-o'-huggin' bear",
+            "lotso huggin bear",
+            "lots o huggin bear"
+          ],
+          "choices": [
+            "Lotso",
+            "Big Baby",
+            "Chuckles",
+            "Ken"
+          ],
+          "reveal": "The correct answer is Lotso! He smells like strawberries, but his attitude is pure sour candy.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "In Toy Story 2, Woody gets swiped from a yard sale by Al McWhiggin, owner of this toy store chain.",
+          "answer": "Al's Toy Barn",
+          "accept": [
+            "al's toy barn",
+            "als toy barn",
+            "toy barn"
+          ],
+          "choices": [
+            "Al's Toy Barn",
+            "Pizza Planet",
+            "Second Chance Antiques",
+            "Toy Kingdom"
+          ],
+          "reveal": "The correct answer is Al's Toy Barn! Al even dresses up in a chicken suit for his commercials. Cluck cluck, what a guy.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Canada's greatest stuntman toy, Duke Caboom, is voiced by this actor in Toy Story 4.",
+          "answer": "Keanu Reeves",
+          "accept": [
+            "keanu reeves",
+            "keanu"
+          ],
+          "choices": [
+            "Keanu Reeves",
+            "Ryan Reynolds",
+            "Will Arnett",
+            "Michael Keaton"
+          ],
+          "reveal": "[excited] [excited] The correct answer is Keanu Reeves! Yes, we can Keanu. Duke still has not landed that jump, by the way.",
+          "dailyDouble": true
+        },
+        {
+          "value": 1000,
+          "clue": "In the original Toy Story, Sid Phillips' menacing bull terrier goes by this name.",
+          "answer": "Scud",
+          "accept": [
+            "scud"
+          ],
+          "choices": [
+            "Scud",
+            "Buster",
+            "Butch",
+            "Bruno"
+          ],
+          "reveal": "The correct answer is Scud! [mischievously] [mischievously] Not to be confused with Buster, Andy's sweet dachshund. One chews toys, one cuddles them.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "toy-box",
+      "title": "Toy Box",
+      "kind": "theme",
+      "intro": "Next up, Toy Box! Every answer is a toy or toy-related, straight off the shelves of Pixar films.",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. An overflowing wooden toy chest with its lid open, spilling a spring toy, a red drawing tablet, plastic monkeys in a chain and a little toy dinosaur tail, cozy bedroom light.",
+        "file": "media/pixar-playtime--toy-box.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This Toy Story spud comes with removable eyes, ears and mouth, and a very grumpy attitude.",
+          "answer": "Mr. Potato Head",
+          "accept": [
+            "mr. potato head",
+            "mr potato head",
+            "potato head"
+          ],
+          "choices": [
+            "Mr. Potato Head",
+            "Hamm",
+            "Rex",
+            "Slinky Dog"
+          ],
+          "reveal": "The correct answer is Mr. Potato Head! [chuckles] [chuckles] He's been a toy since 1952, so he's earned the right to be cranky.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "In Toy Story, Woody tries to rescue Buzz outside Andy's window by dangling a chain of these red plastic toys.",
+          "answer": "Barrel of Monkeys",
+          "accept": [
+            "barrel of monkeys",
+            "monkeys"
+          ],
+          "choices": [
+            "Barrel of Monkeys",
+            "Tinkertoys",
+            "Lincoln Logs",
+            "Pick-Up Sticks"
+          ],
+          "reveal": "The correct answer is a Barrel of Monkeys! More fun than a barrel of, well, you get it.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Woody's sketchy buddy Etch is this classic red drawing toy with two white knobs.",
+          "answer": "Etch A Sketch",
+          "accept": [
+            "etch a sketch",
+            "etch-a-sketch",
+            "etch"
+          ],
+          "choices": [
+            "Etch A Sketch",
+            "Lite-Brite",
+            "Spirograph",
+            "Magna Doodle"
+          ],
+          "reveal": "The correct answer is Etch A Sketch! [sarcastic] [sarcastic] Woody calls him the fastest draw in the west. Shake him and his art is gone.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Gabby Gabby's creepy helpers in the Toy Story 4 antique shop, called the Bensons, are this type of toy.",
+          "answer": "Ventriloquist dummies",
+          "accept": [
+            "ventriloquist dummies",
+            "ventriloquist dummy",
+            "dummies",
+            "dummy"
+          ],
+          "choices": [
+            "Ventriloquist dummies",
+            "Marionette puppets",
+            "Porcelain dolls",
+            "Wind-up robots"
+          ],
+          "reveal": "The correct answer is ventriloquist dummies! [whispers] [whispers] The Bensons never say a word, which is somehow way scarier.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Pixar's 1988 short starring a one-man-band wind-up toy and a drooling baby became the first computer-animated film to win an Oscar.",
+          "answer": "Tin Toy",
+          "accept": [
+            "tin toy"
+          ],
+          "choices": [
+            "Tin Toy",
+            "Knick Knack",
+            "Luxo Jr.",
+            "Red's Dream"
+          ],
+          "reveal": "[excited] [excited] The correct answer is Tin Toy! Its little hero Tinny helped inspire the whole idea of Toy Story.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "pixar-palettes",
+      "title": "Pixar Palettes",
+      "kind": "media",
+      "intro": "Time for Pixar Palettes! I'll show you the colours of a Pixar character's look. [mischievously] You tell me who's wearing them.",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. An artist's wooden palette covered in bold swatches of lime green, purple, sunny yellow and red, with paintbrushes and a desk lamp glowing beside it on a messy animation desk.",
+        "file": "media/pixar-playtime--pixar-palettes.jpg"
+      },
+      "format": "palette",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Name the Pixar toy who wears these colours.",
+          "answer": "Buzz Lightyear",
+          "accept": [
+            "buzz lightyear",
+            "buzz"
+          ],
+          "choices": [
+            "Buzz Lightyear",
+            "Woody",
+            "Zurg",
+            "Rex"
+          ],
+          "reveal": "The correct answer is Buzz Lightyear! [laughs] [laughs] White, purple and that very lime green. To infinity and beyond the fashion police.",
+          "palette": [
+            "#FFFFFF",
+            "#6A3D9A",
+            "#7AC943",
+            "#B0B7BF",
+            "#2B2B2B"
+          ],
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Name the Pixar monster from these colours.",
+          "answer": "Mike Wazowski",
+          "accept": [
+            "mike wazowski",
+            "mike"
+          ],
+          "choices": [
+            "Mike Wazowski",
+            "Sulley",
+            "Randall",
+            "Celia"
+          ],
+          "reveal": "The correct answer is Mike Wazowski! Lime green, one giant white eye, and a whole lot of comedy. Put that thing back where it came from.",
+          "palette": [
+            "#8DC63F",
+            "#FFFFFF",
+            "#3FA34D",
+            "#2B2B2B"
+          ],
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Name the Pixar character from these colours.",
+          "answer": "Joy",
+          "accept": [
+            "joy"
+          ],
+          "choices": [
+            "Joy",
+            "Sadness",
+            "Disgust",
+            "Bing Bong"
+          ],
+          "reveal": "[excited] [excited] The correct answer is Joy! Glowing yellow, electric blue hair and a little green dress. She lights up every room, literally.",
+          "palette": [
+            "#FFE14D",
+            "#1F8FFF",
+            "#9ACD32",
+            "#FFF6C9"
+          ],
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Name the Pixar character from these colours.",
+          "answer": "Jessie",
+          "accept": [
+            "jessie",
+            "jessie the yodeling cowgirl"
+          ],
+          "choices": [
+            "Jessie",
+            "Bo Peep",
+            "Woody",
+            "Bullseye"
+          ],
+          "reveal": "The correct answer is Jessie! Red hat, cow print, blue jeans and a red braid. Yodel-ay-hee-hoo!",
+          "palette": [
+            "#C8102E",
+            "#FFFFFF",
+            "#111111",
+            "#2F5DA8",
+            "#D2691E"
+          ],
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Name the Pixar character from these colours.",
+          "answer": "Russell",
+          "accept": [
+            "russell"
+          ],
+          "choices": [
+            "Russell",
+            "Carl Fredricksen",
+            "Dug",
+            "Kevin"
+          ],
+          "reveal": "The correct answer is Russell! [chuckles] [chuckles] Yellow cap and shirt, orange neckerchief and a brown sash full of badges. Assisting the elderly badge, coming right up.",
+          "palette": [
+            "#F2C230",
+            "#F28C28",
+            "#7B4A2A",
+            "#FFFFFF",
+            "#5C3A1E"
+          ],
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "pixar-in-the-parks",
+      "title": "Pixar Playgrounds",
+      "kind": "parks",
+      "intro": "Our Disney Parks category: Pixar Playgrounds! Where in the parks can you play like a Pixar pal? [chuckles]",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A giant oversized backyard theme park scene at toy scale: huge crayon-like fence posts, a gigantic paper cup, a winding coaster track made of toy pieces, blue sky.",
+        "file": "media/pixar-playtime--pixar-in-the-parks.jpg"
+      },
+      "format": "picture",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "At Disney's Hollywood Studios, guests shrink to the size of a toy in Andy's backyard in this land.",
+          "answer": "Toy Story Land",
+          "accept": [
+            "toy story land"
+          ],
+          "choices": [
+            "Toy Story Land",
+            "Pixar Pier",
+            "Pixar Place",
+            "Andy's Backyard"
+          ],
+          "reveal": "The correct answer is Toy Story Land! [gasps] [gasps] Look down and the footprints in the path are giant sneaker prints.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "Original painterly digital illustration, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A theme park land built at giant toy scale: oversized wooden building blocks, a huge paper cup, giant crayon fence posts and a tiny-feeling path under a blue sky.",
+            "file": "media/pixar-playtime--pixar-in-the-parks-200.jpg"
+          }
+        },
+        {
+          "value": 400,
+          "clue": "On Toy Story Mania!, guests play carnival-style shooting games while wearing these.",
+          "answer": "3D glasses",
+          "accept": [
+            "3d glasses",
+            "3-d glasses",
+            "glasses"
+          ],
+          "choices": [
+            "3D glasses",
+            "VR headsets",
+            "Mouse ears",
+            "Safety goggles"
+          ],
+          "reveal": "The correct answer is 3D glasses! Those virtual darts and pies feel like they're flying right at you.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "Original painterly digital illustration, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A carnival game booth inside a giant cardboard box with paper plates, ring-toss targets and a pair of 3D glasses resting on a counter.",
+            "file": "media/pixar-playtime--pixar-in-the-parks-400.jpg"
+          }
+        },
+        {
+          "value": 600,
+          "clue": "At Disney California Adventure, this Incredibles-themed coaster launches riders around Pixar Pier.",
+          "answer": "Incredicoaster",
+          "accept": [
+            "incredicoaster",
+            "the incredicoaster"
+          ],
+          "choices": [
+            "Incredicoaster",
+            "Incredi-Launch",
+            "Jack-Jack Express",
+            "Elastic Drop"
+          ],
+          "reveal": "The correct answer is the Incredicoaster! [laughs] [laughs] The story? The Parr family is chasing baby Jack-Jack. Relatable for every parent at the parks.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "Original painterly digital illustration, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A red and gold seaside coaster with a huge loop on a boardwalk pier at sunset, ocean in the background, no characters.",
+            "file": "media/pixar-playtime--pixar-in-the-parks-600.jpg"
+          }
+        },
+        {
+          "value": 800,
+          "clue": "In EPCOT's France pavilion, guests shrink to rat size on this trackless dark ride.",
+          "answer": "Remy's Ratatouille Adventure",
+          "accept": [
+            "remy's ratatouille adventure",
+            "remys ratatouille adventure",
+            "ratatouille adventure",
+            "ratatouille"
+          ],
+          "choices": [
+            "Remy's Ratatouille Adventure",
+            "Gusteau's Grand Feast",
+            "Chef Remy's Kitchen Caper",
+            "Linguini's Little Chef Ride"
+          ],
+          "reveal": "The correct answer is Remy's Ratatouille Adventure! It even smells like fresh baked bread in there. Bon appetit!",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "Original painterly digital illustration, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. Giant oversized kitchen ingredients in a Parisian kitchen seen from floor level: towering tomatoes, a huge cheese wedge, rooftops of Paris outside.",
+            "file": "media/pixar-playtime--pixar-in-the-parks-800.jpg"
+          }
+        },
+        {
+          "value": 1000,
+          "clue": "Monsters, Inc. Mike and Sulley to the Rescue! opened at Disney California Adventure in 2006, replacing this attraction.",
+          "answer": "Superstar Limo",
+          "accept": [
+            "superstar limo"
+          ],
+          "choices": [
+            "Superstar Limo",
+            "Muppet Vision 3D",
+            "Who Wants to Be a Millionaire Play It",
+            "Golden Dreams"
+          ],
+          "reveal": "The correct answer is Superstar Limo! [sarcastic] [sarcastic] A ride so short-lived, even Roz would have closed the file on it.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "Original painterly digital illustration, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A sleek vintage stretch limousine parked under bright movie studio lights on a backlot street, theme park setting.",
+            "file": "media/pixar-playtime--pixar-in-the-parks-1000.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "easter-egg-hunt",
+      "title": "Pixar Easter Egg Hunt",
+      "kind": "fan",
+      "intro": "And the fan category: Pixar Easter Egg Hunt! [whispers] These are the secrets hiding in the corners of the frame.",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. Pastel easter eggs hidden around an animator's cluttered desk: storyboard sketches, a small yellow delivery truck model, a bouncing ball, a classroom door with brass numbers out of focus.",
+        "file": "media/pixar-playtime--easter-egg-hunt.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In Pixar's opening logo, a hopping desk lamp squishes this letter in the word Pixar.",
+          "answer": "I",
+          "accept": [
+            "i",
+            "the letter i",
+            "letter i"
+          ],
+          "choices": [
+            "I",
+            "P",
+            "X",
+            "R"
+          ],
+          "reveal": "The correct answer is the letter I! [chuckles] [chuckles] The lamp is named Luxo Jr., and he hops on that poor I every single movie.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "This yellow ball with a red star and a blue stripe bounces through many Pixar films.",
+          "answer": "Luxo Ball",
+          "accept": [
+            "luxo ball",
+            "pixar ball",
+            "the pixar ball"
+          ],
+          "choices": [
+            "Luxo Ball",
+            "Pizza Planet Ball",
+            "Sunnyside Ball",
+            "Star Command Ball"
+          ],
+          "reveal": "The correct answer is the Luxo Ball, also known as the Pixar Ball! It first bounced in the 1986 short Luxo Jr.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "This yellow delivery truck from Toy Story sneaks into nearly every Pixar movie.",
+          "answer": "Pizza Planet truck",
+          "accept": [
+            "pizza planet truck",
+            "pizza planet"
+          ],
+          "choices": [
+            "Pizza Planet truck",
+            "Dinoco tanker",
+            "Al's Toy Barn van",
+            "Gusteau's food truck"
+          ],
+          "reveal": "The correct answer is the Pizza Planet truck! It even shows up in Cars. Spot the rocket on the roof!",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "The Easter egg A113 is a classroom number at this art school, where many Pixar animators studied.",
+          "answer": "CalArts",
+          "accept": [
+            "calarts",
+            "california institute of the arts",
+            "cal arts"
+          ],
+          "choices": [
+            "CalArts",
+            "Ringling College",
+            "USC",
+            "Sheridan College"
+          ],
+          "reveal": "[excited] [excited] The correct answer is CalArts! A113 shows up on license plates, doors and even a camera in Toy Story 3.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Hamm the piggy bank is voiced by this actor, nicknamed Pixar's good-luck charm for turning up in its films since 1995.",
+          "answer": "John Ratzenberger",
+          "accept": [
+            "john ratzenberger",
+            "ratzenberger"
+          ],
+          "choices": [
+            "John Ratzenberger",
+            "Wallace Shawn",
+            "Don Rickles",
+            "Jim Varney"
+          ],
+          "reveal": "The correct answer is John Ratzenberger! [laughs] [laughs] He's been Hamm, the Abominable Snowman, P.T. Flea and more. Cheers to that.",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}

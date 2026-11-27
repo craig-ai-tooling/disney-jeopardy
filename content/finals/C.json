@@ -1,0 +1,140 @@
+[
+  {
+    "film": "Toy Story",
+    "category": "Toy Story",
+    "clue": "Buzz Lightyear's first name was inspired by the nickname of this real-life Apollo 11 astronaut.",
+    "answer": "Buzz Aldrin",
+    "accept": [
+      "buzz aldrin",
+      "aldrin",
+      "edwin aldrin"
+    ],
+    "choices": [
+      "Buzz Aldrin",
+      "Neil Armstrong",
+      "John Glenn",
+      "Alan Shepard"
+    ],
+    "reveal": "[dramatic pause] The correct answer is Buzz Aldrin! The second man to walk on the moon. [laughs] And unlike his toy namesake, he knew he could not actually fly."
+  },
+  {
+    "film": "Up",
+    "category": "Up",
+    "clue": "Charles Muntz's pack of talking dogs is led by this snarling Doberman, whose broken translator collar gives him a squeaky voice.",
+    "answer": "Alpha",
+    "accept": [
+      "alpha"
+    ],
+    "choices": [
+      "Alpha",
+      "Beta",
+      "Gamma",
+      "Omega"
+    ],
+    "reveal": "The correct answer is Alpha! Beta and Gamma are in the pack too. [laughs] Once his collar breaks, his scary voice turns into a helium squeak. SQUIRREL!"
+  },
+  {
+    "film": "WALL-E",
+    "category": "WALL-E",
+    "clue": "WALL-E's name is an acronym. W-A-L-L stands for Waste Allocation Load Lifter. The E stands for this.",
+    "answer": "Earth-Class",
+    "accept": [
+      "earth-class",
+      "earth class",
+      "earth"
+    ],
+    "choices": [
+      "Earth-Class",
+      "Electric",
+      "Engineering",
+      "Environmental"
+    ],
+    "reveal": "[excited] The correct answer is Earth-Class! Waste Allocation Load Lifter, Earth-Class. And EVE? Extraterrestrial Vegetation Evaluator. Robots LOVE their acronyms."
+  },
+  {
+    "film": "Finding Nemo",
+    "category": "Finding Nemo",
+    "clue": "P. Sherman, 42 Wallaby Way, the dentist's office where Nemo ends up in a fish tank, is in this city.",
+    "answer": "Sydney",
+    "accept": [
+      "sydney",
+      "sydney australia"
+    ],
+    "choices": [
+      "Sydney",
+      "Melbourne",
+      "Brisbane",
+      "Perth"
+    ],
+    "reveal": "The correct answer is Sydney! [chuckles] Dory couldn't remember her own name, but she NEVER forgot that address."
+  },
+  {
+    "film": "Monsters, Inc.",
+    "category": "Monsters, Inc.",
+    "clue": "Sulley nicknames the little girl Boo, but the name written on one of her crayon drawings suggests her real name is this.",
+    "answer": "Mary",
+    "accept": [
+      "mary",
+      "mary gibbs"
+    ],
+    "choices": [
+      "Mary",
+      "Molly",
+      "Maggie",
+      "Megan"
+    ],
+    "reveal": "[gasps] The correct answer is Mary! Her voice actor was Mary Gibbs, the daughter of a Pixar story artist. Kitty would be proud."
+  },
+  {
+    "film": "Inside Out",
+    "category": "Inside Out",
+    "clue": "Riley's family moves from Minnesota to this city, where she finds broccoli on her pizza.",
+    "answer": "San Francisco",
+    "accept": [
+      "san francisco",
+      "sf"
+    ],
+    "choices": [
+      "San Francisco",
+      "Seattle",
+      "Los Angeles",
+      "Portland"
+    ],
+    "reveal": "The correct answer is San Francisco! [sarcastic] Broccoli pizza, a tiny old house and a new school. No wonder Anger took the wheel."
+  },
+  {
+    "film": "Cars",
+    "category": "Cars",
+    "clue": "Radiator Springs, the sleepy town Lightning McQueen gets stuck in, sits on this famous highway that the interstate bypassed.",
+    "answer": "Route 66",
+    "accept": [
+      "route 66",
+      "route sixty-six",
+      "route sixty six",
+      "66"
+    ],
+    "choices": [
+      "Route 66",
+      "Interstate 40",
+      "Route 1",
+      "Highway 101"
+    ],
+    "reveal": "[excited] The correct answer is Route 66! Interstate 40 is the highway that bypassed it. Ka-chow, history lesson complete!"
+  },
+  {
+    "film": "Brave",
+    "category": "Brave",
+    "clue": "Merida's mischievous triplet brothers are named Harris, Hubert and this.",
+    "answer": "Hamish",
+    "accept": [
+      "hamish"
+    ],
+    "choices": [
+      "Hamish",
+      "Hector",
+      "Hugo",
+      "Henry"
+    ],
+    "reveal": "The correct answer is Hamish! [laughs] Three little redheads who will do absolutely anything for a sweet treat... even if it turns them into bears."
+  }
+]

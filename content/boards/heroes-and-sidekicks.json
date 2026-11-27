@@ -1,0 +1,532 @@
+{
+  "id": "heroes-and-sidekicks",
+  "title": "Heroes and Sidekicks",
+  "theme": "Heroes and their sidekicks",
+  "tags": [
+    "heroes",
+    "sidekicks",
+    "marvel",
+    "friendship"
+  ],
+  "intro": "[dramatic] Welcome in, heroes! Every great hero needs a trusty sidekick, and today you'll need BOTH to survive this board. We've got demigods, dragons, superpowers and a few caped crusaders at the parks. [excited] Let's save the day!",
+  "art": {
+    "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A heroic sunrise over a mountain cliff with a flowing red cape caught on a rock, a tiny lantern and a small travel satchel beside it, as if a hero and sidekick just set off on an adventure.",
+    "file": "media/heroes-and-sidekicks.jpg"
+  },
+  "categories": [
+    {
+      "id": "zero-to-hero",
+      "title": "Zero to Hero",
+      "kind": "film",
+      "intro": "Our film category is Hercules, the zero who went all the way to hero. [laughs] Honey, you mean Hunk-ules!",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. Ancient Greek temple ruins on a cliff at golden hour, a laurel wreath and a bronze shield resting on marble steps, a white winged-horse feather drifting through the air.",
+        "file": "media/heroes-and-sidekicks--zero-to-hero.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Hercules' loyal winged horse sidekick is named this.",
+          "answer": "Pegasus",
+          "accept": [
+            "pegasus"
+          ],
+          "choices": [
+            "Pegasus",
+            "Maximus",
+            "Khan",
+            "Achilles"
+          ],
+          "reveal": "The correct answer is Pegasus! [laughs] [laughs] Zeus made him from clouds. Imagine trying to saddle a cumulus.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Danny DeVito voices this grumpy satyr who trains Hercules to become a true hero.",
+          "answer": "Phil",
+          "accept": [
+            "phil",
+            "philoctetes"
+          ],
+          "choices": [
+            "Phil",
+            "Pan",
+            "Hermes",
+            "Nessus"
+          ],
+          "reveal": "The correct answer is Phil, short for Philoctetes! [sighs] [sighs] Two words: he's retired. Well, until Hercules shows up.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Hades' two bumbling, shape-shifting minions share these names.",
+          "answer": "Pain and Panic",
+          "accept": [
+            "pain and panic",
+            "pain & panic",
+            "panic and pain"
+          ],
+          "choices": [
+            "Pain and Panic",
+            "Flotsam and Jetsam",
+            "Jasper and Horace",
+            "Shenzi and Banzai"
+          ],
+          "reveal": "The correct answer is Pain and Panic! [chuckles] [chuckles] One is short and pink, one is tall and blue, and both are terrible at their jobs.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "The five Muses who narrate Hercules belt out their songs in this musical style.",
+          "answer": "Gospel",
+          "accept": [
+            "gospel",
+            "gospel music"
+          ],
+          "choices": [
+            "Gospel",
+            "Jazz",
+            "Doo-wop",
+            "Motown"
+          ],
+          "reveal": "[excited] [excited] The correct answer is gospel! They're the goddesses of the arts and proclaimers of heroes, and they did not come to whisper.",
+          "dailyDouble": true
+        },
+        {
+          "value": 1000,
+          "clue": "After baby Hercules loses his godhood, he's raised by Amphitryon and this woman.",
+          "answer": "Alcmene",
+          "accept": [
+            "alcmene"
+          ],
+          "choices": [
+            "Alcmene",
+            "Hera",
+            "Penelope",
+            "Calliope"
+          ],
+          "reveal": "The correct answer is Alcmene! Hera is his birth mom on Mount Olympus, and Calliope is one of the Muses. Tricky family tree!",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "trusty-sidekicks",
+      "title": "Trusty Sidekicks",
+      "kind": "theme",
+      "intro": "Next, Trusty Sidekicks! I'll give you the hero, you give me their best buddy.",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A cozy campfire at night with two mismatched travel packs, one huge and one tiny, a small lantern, a seashell, a paper lantern and a feather, under a starry sky.",
+        "file": "media/heroes-and-sidekicks--trusty-sidekicks.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Ariel's yellow-and-blue fish best friend.",
+          "answer": "Flounder",
+          "accept": [
+            "flounder"
+          ],
+          "choices": [
+            "Flounder",
+            "Sebastian",
+            "Scuttle",
+            "Dory"
+          ],
+          "reveal": "The correct answer is Flounder! Fun fact: despite the name, he's not actually a flounder. He's a tropical fish who is just a little nervous.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Mulan's tiny red dragon guardian, voiced by Eddie Murphy.",
+          "answer": "Mushu",
+          "accept": [
+            "mushu"
+          ],
+          "choices": [
+            "Mushu",
+            "Cri-Kee",
+            "Khan",
+            "Elliott"
+          ],
+          "reveal": "The correct answer is Mushu! [dramatic pause] [dramatic pause] Small dragon, giant ego. Dishonor on anyone who got that wrong.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Rapunzel's color-changing chameleon companion in Tangled.",
+          "answer": "Pascal",
+          "accept": [
+            "pascal"
+          ],
+          "choices": [
+            "Pascal",
+            "Maximus",
+            "Heihei",
+            "Meeko"
+          ],
+          "reveal": "The correct answer is Pascal! [chuckles] [chuckles] He's the original wingman, or should I say, tail-man.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Pocahontas' fluttering hummingbird pal.",
+          "answer": "Flit",
+          "accept": [
+            "flit"
+          ],
+          "choices": [
+            "Flit",
+            "Meeko",
+            "Percy",
+            "Zazu"
+          ],
+          "reveal": "The correct answer is Flit! Meeko is the raccoon and Percy is the pampered pug. Flit is the tiny bird with the big attitude.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "In The Sword in the Stone, Merlin's grumpy, educated owl sidekick.",
+          "answer": "Archimedes",
+          "accept": [
+            "archimedes"
+          ],
+          "choices": [
+            "Archimedes",
+            "Big Mama",
+            "Friend Owl",
+            "Owl"
+          ],
+          "reveal": "The correct answer is Archimedes! [laughs] [laughs] He laughs so hard at young Arthur that he nearly falls off his perch. Who, who, who knew?",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "sidekick-says",
+      "title": "Sidekick Says",
+      "kind": "media",
+      "intro": "Time for Sidekick Says! [dramatic pause] Listen CLOSELY to the line and tell me which sidekick said it.",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A vintage studio microphone in a warm spotlight on a little stage, with a tiny stool beside it and confetti drifting down, deep blue curtain backdrop.",
+        "file": "media/heroes-and-sidekicks--sidekick-says.jpg"
+      },
+      "format": "quote",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Which forgetful fish says this?",
+          "answer": "Dory",
+          "accept": [
+            "dory"
+          ],
+          "choices": [
+            "Dory",
+            "Marlin",
+            "Crush",
+            "Nemo"
+          ],
+          "reveal": "The correct answer is Dory! [sarcastic] [sarcastic] The best motivational speaker in the whole ocean. What were we talking about?",
+          "quote": "Just keep swimming, just keep swimming!",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Which snowman says this?",
+          "answer": "Olaf",
+          "accept": [
+            "olaf"
+          ],
+          "choices": [
+            "Olaf",
+            "Marshmallow",
+            "Sven",
+            "Kristoff"
+          ],
+          "reveal": "The correct answer is Olaf! [sighs] [sighs] Warm hugs and a cold body. That's the most heartwarming line about melting ever.",
+          "quote": "Some people are worth melting for.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Which wisecracking sidekick complains about this?",
+          "answer": "Genie",
+          "accept": [
+            "genie",
+            "the genie"
+          ],
+          "choices": [
+            "Genie",
+            "Iago",
+            "Abu",
+            "Carpet"
+          ],
+          "reveal": "The correct answer is the Genie! Phenomenal cosmic powers, itty bitty living space, and one very stiff neck.",
+          "quote": "Ten thousand years will give you such a crick in the neck!",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Which wise mentor gives this advice?",
+          "answer": "Rafiki",
+          "accept": [
+            "rafiki"
+          ],
+          "choices": [
+            "Rafiki",
+            "Zazu",
+            "Mufasa",
+            "Timon"
+          ],
+          "reveal": "The correct answer is Rafiki! [laughs] [laughs] He says it right after bonking Simba on the head with his stick. Lesson learned.",
+          "quote": "The past can hurt. But you can either run from it, or learn from it.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Which household sidekick says this?",
+          "answer": "Cogsworth",
+          "accept": [
+            "cogsworth"
+          ],
+          "choices": [
+            "Cogsworth",
+            "Lumiere",
+            "Mrs. Potts",
+            "Chip"
+          ],
+          "reveal": "The correct answer is Cogsworth! [chuckles] [chuckles] A clock who loves a good pun. It's about time, honestly.",
+          "quote": "If it's not Baroque, don't fix it!",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "heroic-hangouts",
+      "title": "Heroic Hangouts",
+      "kind": "parks",
+      "intro": "Our Disney Parks category: Heroic Hangouts! [excited] Where do the heroes hang out at the parks?",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A futuristic hero training campus plaza at dusk with sleek metal buildings, glowing blue tech panels, banners without lettering and a rooftop launching pad.",
+        "file": "media/heroes-and-sidekicks--heroic-hangouts.jpg"
+      },
+      "format": "picture",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "At Disney California Adventure, superheroes recruit guests in this Marvel-themed land.",
+          "answer": "Avengers Campus",
+          "accept": [
+            "avengers campus"
+          ],
+          "choices": [
+            "Avengers Campus",
+            "Marvel Mountain",
+            "Stark Expo",
+            "Hero Harbor"
+          ],
+          "reveal": "The correct answer is Avengers Campus! [whispers] [whispers] Keep your eyes peeled, you might see Spider-Man flipping off a rooftop.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "Original painterly digital illustration, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A sleek modern hero training campus courtyard with tall glass-and-steel buildings, glowing blue energy panels and banners with no lettering, bright California sky.",
+            "file": "media/heroes-and-sidekicks--heroic-hangouts-200.jpg"
+          }
+        },
+        {
+          "value": 400,
+          "clue": "On WEB SLINGERS at Avengers Campus, guests help this hero catch runaway Spider-Bots.",
+          "answer": "Spider-Man",
+          "accept": [
+            "spider-man",
+            "spiderman",
+            "spider man",
+            "peter parker"
+          ],
+          "choices": [
+            "Spider-Man",
+            "Iron Man",
+            "Ant-Man",
+            "Black Panther"
+          ],
+          "reveal": "[excited] [excited] The correct answer is Spider-Man! You sling webs just by flicking your wrists. Thwip thwip!",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "Original painterly digital illustration, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A tiny silver spider-shaped robot skittering across a futuristic lab workbench with glowing web-like holograms, no characters.",
+            "file": "media/heroes-and-sidekicks--heroic-hangouts-400.jpg"
+          }
+        },
+        {
+          "value": 600,
+          "clue": "Guardians of the Galaxy: Cosmic Rewind, one of the longest enclosed coasters in the world, is at this Walt Disney World park.",
+          "answer": "EPCOT",
+          "accept": [
+            "epcot"
+          ],
+          "choices": [
+            "EPCOT",
+            "Disney's Hollywood Studios",
+            "Magic Kingdom",
+            "Disney's Animal Kingdom"
+          ],
+          "reveal": "The correct answer is EPCOT! It's the park's first roller coaster, and the vehicles spin to face the action. Awesome mix included.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "Original painterly digital illustration, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A futuristic glass pavilion with a colourful cosmic swirl projected across it, set beside a lagoon at night with neon purple and teal light.",
+            "file": "media/heroes-and-sidekicks--heroic-hangouts-600.jpg"
+          }
+        },
+        {
+          "value": 800,
+          "clue": "Guardians of the Galaxy: Mission BREAKOUT! took over this classic drop-tower ride's building at Disney California Adventure.",
+          "answer": "The Twilight Zone Tower of Terror",
+          "accept": [
+            "the twilight zone tower of terror",
+            "twilight zone tower of terror",
+            "tower of terror"
+          ],
+          "choices": [
+            "The Twilight Zone Tower of Terror",
+            "Soarin' Over California",
+            "California Screamin'",
+            "Maliboomer"
+          ],
+          "reveal": "The correct answer is The Twilight Zone Tower of Terror! The California version became Mission BREAKOUT in 2017. Florida still has its haunted hotel.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "Original painterly digital illustration, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A tall industrial fortress tower with gold and dark metal plating, glowing windows and cosmic sparks at dusk, in a theme park setting.",
+            "file": "media/heroes-and-sidekicks--heroic-hangouts-800.jpg"
+          }
+        },
+        {
+          "value": 1000,
+          "clue": "On Mission BREAKOUT!, Rocket recruits guests to free the Guardians, who are being held captive by this Marvel character.",
+          "answer": "The Collector",
+          "accept": [
+            "the collector",
+            "collector",
+            "taneleer tivan"
+          ],
+          "choices": [
+            "The Collector",
+            "Thanos",
+            "Ronan",
+            "Ego"
+          ],
+          "reveal": "The correct answer is the Collector! [dramatic] [dramatic] Taneleer Tivan has a fortress full of trophies. The Guardians were his newest display.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "Original painterly digital illustration, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A vast cluttered cosmic trophy room full of glass display cases holding strange alien creatures and artifacts, purple and gold light.",
+            "file": "media/heroes-and-sidekicks--heroic-hangouts-1000.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "super-powers",
+      "title": "Super Powers",
+      "kind": "fan",
+      "intro": "And the fan category: Super Powers! [excited] Name the power, or the hero behind it.",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. Swirling magical energies: crackling ice crystals, a streak of speed lines, a glowing blue force field bubble and a floating heavy boulder, against a dramatic purple sky.",
+        "file": "media/heroes-and-sidekicks--super-powers.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Elsa's magical powers let her create this.",
+          "answer": "Ice",
+          "accept": [
+            "ice",
+            "snow",
+            "ice and snow"
+          ],
+          "choices": [
+            "Ice",
+            "Fire",
+            "Lightning",
+            "Wind"
+          ],
+          "reveal": "The correct answer is ice! [sings] [sings] The cold never bothered her anyway.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "In The Incredibles, this is Dash Parr's superpower.",
+          "answer": "Super speed",
+          "accept": [
+            "super speed",
+            "speed",
+            "superspeed"
+          ],
+          "choices": [
+            "Super speed",
+            "Invisibility",
+            "Super strength",
+            "Force fields"
+          ],
+          "reveal": "The correct answer is super speed! He can run on water, but he still has to go to school. Tough life.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "In Big Hero 6, Hiro's inflatable healthcare robot is named this.",
+          "answer": "Baymax",
+          "accept": [
+            "baymax"
+          ],
+          "choices": [
+            "Baymax",
+            "EVE",
+            "B.E.N.",
+            "Wasabi"
+          ],
+          "reveal": "The correct answer is Baymax! [chuckles] [chuckles] On a scale of one to ten, how would you rate your answer?",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In Encanto, Mirabel's big sister Luisa has this magical gift.",
+          "answer": "Super strength",
+          "accept": [
+            "super strength",
+            "strength",
+            "superstrength"
+          ],
+          "choices": [
+            "Super strength",
+            "Perfect hearing",
+            "Shape-shifting",
+            "Healing with food"
+          ],
+          "reveal": "The correct answer is super strength! She can carry a church, a house and a few donkeys. The surface pressure is real.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Frozone, Mr. Incredible's ice-cool best friend, has this real name.",
+          "answer": "Lucius Best",
+          "accept": [
+            "lucius best",
+            "lucius"
+          ],
+          "choices": [
+            "Lucius Best",
+            "Bob Parr",
+            "Buddy Pine",
+            "Rick Dicker"
+          ],
+          "reveal": "The correct answer is Lucius Best! [gasps] [gasps] And honey, where is his super suit? Everyone knows that one.",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}
