@@ -6,6 +6,7 @@ import android.app.AlertDialog
 import android.content.Context
 import android.content.Intent
 import android.graphics.Bitmap
+import android.graphics.BitmapFactory
 import android.graphics.Color
 import android.graphics.Typeface
 import android.graphics.drawable.GradientDrawable
@@ -44,6 +45,7 @@ import android.webkit.WebViewClient
 import android.widget.Button
 import android.widget.EditText
 import android.widget.FrameLayout
+import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.ProgressBar
 import android.widget.TextView
@@ -61,6 +63,7 @@ class MainActivity : Activity() {
 
     private lateinit var root: FrameLayout
     private var webView: WebView? = null
+    private lateinit var theme: ThemePack
     private lateinit var overlay: LinearLayout
     private lateinit var overlayTitle: TextView
     private lateinit var overlayMessage: TextView
@@ -119,6 +122,7 @@ class MainActivity : Activity() {
         window.addFlags(WindowManager.LayoutParams.FLAG_HARDWARE_ACCELERATED)
         root = FrameLayout(this).apply { setBackgroundColor(BOARD_BLUE) }
         setContentView(root)
+        theme = ThemePack(assets)
         buildOverlay()
         createWebView()
         intent?.let { applyIntentUrl(it) }
@@ -302,6 +306,9 @@ class MainActivity : Activity() {
     }
 
     private inner class BoardClient : WebViewClient() {
+        override fun shouldInterceptRequest(view: WebView, request: WebResourceRequest): WebResourceResponse? =
+            theme.intercept(request)
+
         override fun shouldOverrideUrlLoading(view: WebView, request: WebResourceRequest): Boolean {
             val scheme = request.url.scheme ?: return true
             return scheme != "http" && scheme != "https"
@@ -611,6 +618,15 @@ class MainActivity : Activity() {
             setOnFocusChangeListener { v, f -> v.animate().scaleX(if (f) 1.1f else 1f).scaleY(if (f) 1.1f else 1f).setDuration(120).start() }
             setOnClickListener { loadBoard() }
         }
+        bundledLogo()?.let { logo ->
+            val h = dp(180)
+            val w = (h * logo.width / logo.height.coerceAtLeast(1)).coerceAtMost(dp(640))
+            overlay.addView(ImageView(this).apply {
+                setImageBitmap(logo)
+                scaleType = ImageView.ScaleType.FIT_CENTER
+                adjustViewBounds = true
+            }, LinearLayout.LayoutParams(w, h).apply { bottomMargin = dp(16) })
+        }
         overlay.addView(overlayTitle)
         overlay.addView(overlaySpinner, LinearLayout.LayoutParams(dp(56), dp(56)).apply { topMargin = dp(24) })
         overlay.addView(overlayMessage)
@@ -618,11 +634,17 @@ class MainActivity : Activity() {
         root.addView(overlay, FrameLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT))
     }
 
+    private fun bundledLogo(): Bitmap? {
+        if (!theme.has(LOGO)) return null
+        return runCatching { theme.open(LOGO).use { BitmapFactory.decodeStream(it) } }.getOrNull()
+    }
+
     private fun dp(v: Int) = (v * resources.displayMetrics.density).toInt()
 
     companion object {
         private const val TAG = "DisneyJeopardy"
         private const val KEY_URL = "url"
+        private const val LOGO = "logo.png"
         private const val RETRY_SECONDS = 5
         private const val LONG_PRESS_MS = 700L
         private const val EXIT_WINDOW_MS = 2000L

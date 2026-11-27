@@ -18,6 +18,7 @@
   <div>Audio autoplay: <span id="audio">pending</span></div>
   <div>Video autoplay: <span id="video">pending</span></div>
   <div>TTS: <span id="tts">pending</span></div>
+  <div>Theme pack: <span id="theme">pending</span></div>
   <div>Page level: <span id="level"></span> (Enter toggles; Escape goes up)</div>
   <video id="v" muted="false" playsinline width="320" height="180"></video>
  </div>
@@ -31,6 +32,11 @@ function log(s){ lines.unshift(new Date().toISOString().slice(11,23)+' '+s); $('
 function mark(id, ok, msg){ $(id).textContent = msg; $(id).className = ok ? 'ok' : 'bad'; }
 function bridgeInfo(){ const b = window.DJ_TV; $('bridge').textContent = b ? `isTV=${b.isTV} version=${b.version} tts=${b.hasTTS && b.hasTTS()}` : 'missing'; }
 bridgeInfo(); window.addEventListener('djtvready', () => { log('event djtvready'); bridgeInfo(); });
+
+// Theme pack: ?v=1 should come from the APK (X-DJ-Theme header), a newer ?v=999 must fall through to this server.
+Promise.all(['/theme/manifest.json?v=1', '/theme/manifest.json?v=999'].map(u =>
+  fetch(u).then(r => `${u.split('?')[1]}: ${r.status} ${r.headers.get('X-DJ-Theme') || 'network'}`).catch(e => `${u}: ${e.name}`)))
+  .then(rs => mark('theme', rs[0].includes('bundled') && !rs[1].includes('bundled'), rs.join(' | ')));
 
 // Board <-> clue "screens": top level means BACK should exit the app.
 let atTop = true;
