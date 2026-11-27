@@ -1,0 +1,534 @@
+{
+  "id": "cats-and-dogs",
+  "title": "Raining Cats and Dogs",
+  "theme": "Cats and Dogs",
+  "tags": [
+    "animals",
+    "pets",
+    "cats",
+    "dogs"
+  ],
+  "intro": "Welcome in to Disney Jeopardy! [excited] It's raining cats and dogs today, and I'm not talking about the weather. Every category is about the furry friends of Disney. Get ready to roll over, sit and stay... [laughs] for some trivia.",
+  "art": {
+    "prompt": "A cozy storybook London street on a rainy evening, umbrellas floating down like raindrops, a red front door with a dog bowl and a cat basket, paw prints of all sizes splashing through the puddles, 16:9 widescreen, vibrant cinematic lighting, original artwork, no text, no logos, no characters, no people",
+    "file": "media/cats-and-dogs.jpg"
+  },
+  "categories": [
+    {
+      "id": "spot-the-answer",
+      "title": "Spot the Answer",
+      "kind": "film",
+      "intro": "Our film category has a whole lot of spots. [gasps] Ninety-nine puppies' worth! It's One Hundred and One Dalmatians.",
+      "art": {
+        "prompt": "A stylish 1960s London flat with a piano and sheet music by the window, a fireplace, a bright red sports car outside and dozens of tiny black-and-white spotted dog collars hanging on hooks, 16:9 widescreen, vibrant cinematic lighting, original artwork, no text, no logos, no characters, no people",
+        "file": "media/cats-and-dogs--spot-the-answer.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Cruella De Vil wants the puppies' spotted fur to make one of these.",
+          "answer": "A coat",
+          "accept": [
+            "coat",
+            "a coat",
+            "fur coat",
+            "a fur coat"
+          ],
+          "choices": [
+            "A coat",
+            "A hat",
+            "A rug",
+            "A blanket"
+          ],
+          "reveal": "The correct answer is a coat! If she doesn't scare you, no evil thing will. [sarcastic] Fashion crimes, literally.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Pongo's human, a songwriter, is named this.",
+          "answer": "Roger",
+          "accept": [
+            "roger",
+            "roger radcliffe"
+          ],
+          "choices": [
+            "Roger",
+            "Jasper",
+            "Horace",
+            "Danny"
+          ],
+          "reveal": "The correct answer is Roger Radcliffe! Pongo basically set him up with Anita in the park. [laughs] Best wingman EVER.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "The dogs of London pass along news of the missing puppies through this nighttime barking network.",
+          "answer": "The Twilight Bark",
+          "accept": [
+            "twilight bark",
+            "the twilight bark"
+          ],
+          "choices": [
+            "The Twilight Bark",
+            "The Midnight Howl",
+            "The Moonlight Yelp",
+            "The Evening Woof"
+          ],
+          "reveal": "The correct answer is the Twilight Bark! [chuckles] Doggy group chat, 1961 style. No phones, just lungs.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Pongo and Perdita's own litter has this many puppies.",
+          "answer": "Fifteen",
+          "accept": [
+            "15",
+            "fifteen"
+          ],
+          "choices": [
+            "Fifteen",
+            "Twelve",
+            "Seventeen",
+            "Ninety-nine"
+          ],
+          "reveal": "The correct answer is fifteen! Add the eighty-four puppies they rescue, plus Mom and Dad, and you get... [dramatic pause] one hundred and one!",
+          "dailyDouble": true
+        },
+        {
+          "value": 1000,
+          "clue": "This brave cat helps the Colonel and Captain free the puppies from the old De Vil mansion.",
+          "answer": "Sergeant Tibbs",
+          "accept": [
+            "tibbs",
+            "sergeant tibbs",
+            "sgt tibbs",
+            "sgt. tibbs"
+          ],
+          "choices": [
+            "Sergeant Tibbs",
+            "Captain",
+            "Colonel",
+            "Lucky"
+          ],
+          "reveal": "The correct answer is Sergeant Tibbs! A cat saving ninety-nine dogs. [laughs] The internet's cat people have been bragging about it ever since.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "cat-egory",
+      "title": "The Cat-egory",
+      "kind": "theme",
+      "intro": "Next up, you guessed it... [chuckles] the CAT-egory! I'll describe a famous Disney feline. You name it.",
+      "art": {
+        "prompt": "An elegant Paris rooftop at night with jazz instruments, a velvet cushion, a ball of yarn, a fishbone and glowing cat-eye shaped stars in the sky, 16:9 widescreen, vibrant cinematic lighting, original artwork, no text, no logos, no characters, no people",
+        "file": "media/cats-and-dogs--cat-egory.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In The Aristocats, she's the elegant white mother of Marie, Berlioz and Toulouse.",
+          "answer": "Duchess",
+          "accept": [
+            "duchess"
+          ],
+          "choices": [
+            "Duchess",
+            "Figaro",
+            "Dinah",
+            "Mittens"
+          ],
+          "reveal": "The correct answer is Duchess! Classy, kind and voiced by Eva Gabor. [excited] Everybody wants to be her.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Cinderella's lazy, mean-spirited cat, who's always after the mice.",
+          "answer": "Lucifer",
+          "accept": [
+            "lucifer"
+          ],
+          "choices": [
+            "Lucifer",
+            "Gideon",
+            "Figaro",
+            "Toulouse"
+          ],
+          "reveal": "The correct answer is Lucifer! Animator Ward Kimball modeled him partly on his own chubby cat. [mischievously] Hopefully that cat was nicer.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Geppetto's little black and white kitten in Pinocchio.",
+          "answer": "Figaro",
+          "accept": [
+            "figaro"
+          ],
+          "choices": [
+            "Figaro",
+            "Gideon",
+            "Cleo",
+            "Berlioz"
+          ],
+          "reveal": "The correct answer is Figaro! Walt loved him so much, he later became Minnie Mouse's pet. [laughs] Big promotion.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In 2008's Bolt, this streetwise alley cat teaches Bolt how to be a real dog.",
+          "answer": "Mittens",
+          "accept": [
+            "mittens"
+          ],
+          "choices": [
+            "Mittens",
+            "Oliver",
+            "Dinah",
+            "Pepita"
+          ],
+          "reveal": "The correct answer is Mittens! She taught a super dog how to beg, chase sticks and stick his head out the car window. ICONIC mentor.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Finish this alley cat's name from The Aristocats: Abraham de Lacy Giuseppe Casey Thomas ...",
+          "answer": "O'Malley",
+          "accept": [
+            "o'malley",
+            "omalley",
+            "thomas o'malley",
+            "o malley"
+          ],
+          "choices": [
+            "O'Malley",
+            "Toulouse",
+            "Scat Cat",
+            "Roquefort"
+          ],
+          "reveal": "The correct answer is O'Malley! Thomas O'Malley, the alley cat. [laughs] Try putting all that on a name tag.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "paws-for-a-close-up",
+      "title": "Paws for a Close-Up",
+      "kind": "media",
+      "intro": "It's the zoom category! I'll show you a picture of a scene from a Disney film about cats or dogs, zoomed way, way in. It'll slowly zoom out. [excited] Buzz in when you know the movie.",
+      "art": {
+        "prompt": "A vintage camera lens zooming in on a cozy dog bed and a cat's basket, paw-print shaped bokeh lights and a magnifying glass resting on a pile of pet toys, 16:9 widescreen, vibrant cinematic lighting, original artwork, no text, no logos, no characters, no people",
+        "file": "media/cats-and-dogs--paws-for-a-close-up.jpg"
+      },
+      "format": "zoom",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Which classic Disney dog movie is this romantic scene from?",
+          "answer": "Lady and the Tramp",
+          "accept": [
+            "lady and the tramp"
+          ],
+          "choices": [
+            "Lady and the Tramp",
+            "Oliver and Company",
+            "One Hundred and One Dalmatians",
+            "The Aristocats"
+          ],
+          "reveal": "The correct answer is Lady and the Tramp! One plate of spaghetti, one moonlit alley, and the most famous meatball nudge in history. [sighs]",
+          "media": {
+            "type": "image",
+            "prompt": "Painterly storybook illustration of a single plate of spaghetti and meatballs on a red-and-white checkered tablecloth in a moonlit cobblestone back alley behind an Italian restaurant, a candle in a straw-wrapped bottle, an accordion resting on a wooden crate, warm golden light, no people, no animals, no text",
+            "file": "media/cats-and-dogs--paws-for-a-close-up-200.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Which Disney film about a dog who thinks he's a superhero is this scene from?",
+          "answer": "Bolt",
+          "accept": [
+            "bolt"
+          ],
+          "choices": [
+            "Bolt",
+            "Up",
+            "Homeward Bound",
+            "Oliver and Company"
+          ],
+          "reveal": "The correct answer is Bolt! That hamster ball belongs to Rhino, the most confident hamster in the world. [laughs] Total awesomeness!",
+          "media": {
+            "type": "image",
+            "prompt": "Cinematic digital painting of a clear plastic hamster ball rolling alone down an empty desert highway at sunset, a glowing white lightning-bolt shape painted on a dusty road sign, a Hollywood film soundstage visible in the far distance, no people, no animals, no text",
+            "file": "media/cats-and-dogs--paws-for-a-close-up-400.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Which Disney film set in New York City is this scene from?",
+          "answer": "Oliver and Company",
+          "accept": [
+            "oliver and company",
+            "oliver & company"
+          ],
+          "choices": [
+            "Oliver and Company",
+            "Lady and the Tramp",
+            "Bolt",
+            "One Hundred and One Dalmatians"
+          ],
+          "reveal": "The correct answer is Oliver and Company! 1988, New York City, and a kitten who joins a gang of dogs. [chuckles] Why should he worry?",
+          "media": {
+            "type": "image",
+            "prompt": "Rainy 1980s New York City street at night illustrated in a gritty hand-painted animation style, a steaming hot dog cart under a striped umbrella, a cardboard box marked with nothing on the wet sidewalk, yellow taxi headlights reflecting in puddles, a barge docked at a pier in the background, no people, no animals, no text, no logos",
+            "file": "media/cats-and-dogs--paws-for-a-close-up-600.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Which Disney film set in Paris is this scene from?",
+          "answer": "The Aristocats",
+          "accept": [
+            "aristocats",
+            "the aristocats"
+          ],
+          "choices": [
+            "The Aristocats",
+            "Lady and the Tramp",
+            "Oliver and Company",
+            "Bolt"
+          ],
+          "reveal": "The correct answer is The Aristocats! Those bowls hold creme de la creme a la Edgar, laced with sleeping pills. [mischievously] Never trust a butler with a whisk.",
+          "media": {
+            "type": "image",
+            "prompt": "Elegant 1910 Paris townhouse parlor illustrated in loose watercolor and ink, a grand piano with sheet music, a velvet cushion, a silver tray holding four small porcelain bowls of cream, tall windows looking out to Parisian rooftops and the Eiffel Tower, no people, no animals, no text",
+            "file": "media/cats-and-dogs--paws-for-a-close-up-800.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Which Disney film about an unlikely friendship is this scene from?",
+          "answer": "The Fox and the Hound",
+          "accept": [
+            "fox and the hound",
+            "the fox and the hound"
+          ],
+          "choices": [
+            "The Fox and the Hound",
+            "Lady and the Tramp",
+            "Bambi",
+            "Robin Hood"
+          ],
+          "reveal": "The correct answer is The Fox and the Hound! A hunting horn, a farm fence and a friendship that was never supposed to happen. [sighs] Pass the tissues.",
+          "media": {
+            "type": "image",
+            "prompt": "Autumn countryside farm illustrated in soft painterly 1980s storybook style, a weathered wooden fence beside a red barn, a brass hunting horn hanging on a fence post, a rustic dog barrel kennel with a rope, golden leaves and a winding creek, no people, no animals, no text",
+            "file": "media/cats-and-dogs--paws-for-a-close-up-1000.jpg"
+          },
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "pets-at-the-parks",
+      "title": "Pets at the Parks",
+      "kind": "parks",
+      "intro": "Our Parks category is all about the four-legged friends of the Disney parks. Some are costumed, some are animatronic, and some are very, VERY real.",
+      "art": {
+        "prompt": "A theme park Main Street at dawn with a water bowl outside a shop, a ring of jail keys on a stone floor, a camping cabin by a lake and a lantern in a misty graveyard, 16:9 widescreen, vibrant cinematic lighting, original artwork, no text, no logos, no characters, no people",
+        "file": "media/cats-and-dogs--pets-at-the-parks.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Mickey's loyal orange pup, who greets guests in the parks without saying a word.",
+          "answer": "Pluto",
+          "accept": [
+            "pluto"
+          ],
+          "choices": [
+            "Pluto",
+            "Goofy",
+            "Max",
+            "Butch"
+          ],
+          "reveal": "The correct answer is Pluto! And yes, Goofy is also a dog. [laughs] Please do not ask me to explain it. I've tried. I can't.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Disneyland is famous for a colony of these furry critters who roam the park at night keeping rodents away.",
+          "answer": "Cats",
+          "accept": [
+            "cats",
+            "cat",
+            "feral cats"
+          ],
+          "choices": [
+            "Cats",
+            "Owls",
+            "Ferrets",
+            "Dogs"
+          ],
+          "reveal": "The correct answer is cats! Disneyland's cat colony works the night shift. [whispers] Mickey is the only mouse allowed in that park.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "In Pirates of the Caribbean, jailed pirates try to coax this animal into handing over the cell keys.",
+          "answer": "A dog",
+          "accept": [
+            "dog",
+            "a dog",
+            "the dog",
+            "jail dog"
+          ],
+          "choices": [
+            "A dog",
+            "A parrot",
+            "A cat",
+            "A monkey"
+          ],
+          "reveal": "The correct answer is a dog! He's held those keys in his mouth for decades. [chuckles] Talk about job security.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Dogs are welcome at this rustic Walt Disney World campground resort on the shores of Bay Lake.",
+          "answer": "Fort Wilderness",
+          "accept": [
+            "fort wilderness",
+            "disney's fort wilderness",
+            "fort wilderness resort and campground"
+          ],
+          "choices": [
+            "Fort Wilderness",
+            "Wilderness Lodge",
+            "Animal Kingdom Lodge",
+            "Saratoga Springs"
+          ],
+          "reveal": "The correct answer is Disney's Fort Wilderness Resort and Campground! Pups can camp out too. S'mores not included for the dog. [laughs]",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "In the Haunted Mansion graveyard, the frightened caretaker clutches his lantern beside this shivering companion.",
+          "answer": "His dog",
+          "accept": [
+            "dog",
+            "his dog",
+            "a dog",
+            "the dog"
+          ],
+          "choices": [
+            "His dog",
+            "His cat",
+            "His raven",
+            "His owl"
+          ],
+          "reveal": "The correct answer is his dog! Scrawny, terrified, and honestly... the most relatable character in the whole Mansion.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "who-let-the-dogs-out",
+      "title": "Who Let the Dogs Out?",
+      "kind": "fan",
+      "intro": "[excited] And the fan category goes to the dogs! I'll describe a famous Disney or Pixar pup, you tell me its name.",
+      "art": {
+        "prompt": "An open backyard gate with a burst of colorful dog toys flying out: a tennis ball, a squeaky bone, a slinky spring, a talking collar and a frisbee, under a bright blue sky, 16:9 widescreen, vibrant cinematic lighting, original artwork, no text, no logos, no characters, no people",
+        "file": "media/cats-and-dogs--who-let-the-dogs-out.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In Up, this golden retriever with a talking collar says he just met you, and he loves you.",
+          "answer": "Dug",
+          "accept": [
+            "dug"
+          ],
+          "choices": [
+            "Dug",
+            "Alpha",
+            "Bolt",
+            "Dante"
+          ],
+          "reveal": "The correct answer is Dug! He was hiding under your porch because he loves you. [gasps] SQUIRREL!",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "In Toy Story, the stretchy dachshund toy with a coil for a middle.",
+          "answer": "Slinky Dog",
+          "accept": [
+            "slinky",
+            "slinky dog"
+          ],
+          "choices": [
+            "Slinky Dog",
+            "Buster",
+            "Sparky",
+            "Bullseye"
+          ],
+          "reveal": "The correct answer is Slinky Dog! Buster is Andy's real dog, and Bullseye is a horse. [laughs] Nice try.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Miguel's goofy, hairless Xolo dog in Coco.",
+          "answer": "Dante",
+          "accept": [
+            "dante"
+          ],
+          "choices": [
+            "Dante",
+            "Pepita",
+            "Dug",
+            "Pancho"
+          ],
+          "reveal": "The correct answer is Dante! The Xolo is the national dog of Mexico. Pepita is the winged spirit guide cat.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Prince Eric's big, shaggy sheepdog in The Little Mermaid.",
+          "answer": "Max",
+          "accept": [
+            "max"
+          ],
+          "choices": [
+            "Max",
+            "Bruno",
+            "Bolivar",
+            "Copper"
+          ],
+          "reveal": "The correct answer is Max! He knows Ariel's scent before Eric does. [chuckles] Smartest one in the castle.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "In 2012's Frankenweenie, young Victor brings this beloved bull terrier back to life with lightning.",
+          "answer": "Sparky",
+          "accept": [
+            "sparky"
+          ],
+          "choices": [
+            "Sparky",
+            "Chance",
+            "Shadow",
+            "Winston"
+          ],
+          "reveal": "The correct answer is Sparky! Tim Burton first made this story as a live-action Disney short back in 1984. [dramatic pause] It's ALIVE!",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}

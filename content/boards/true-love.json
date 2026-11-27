@@ -1,0 +1,519 @@
+{
+  "id": "true-love",
+  "title": "True Love's Kiss",
+  "theme": "Love Stories",
+  "tags": [
+    "romance",
+    "love",
+    "couples",
+    "valentines"
+  ],
+  "intro": "Welcome in to Disney Jeopardy! [excited] Today's episode is for all the hopeless romantics out there. We've got couples, love songs, wedding venues and one very questionable bride. Grab your sweetheart, or your snack... [chuckles] which is basically the same thing.",
+  "art": {
+    "prompt": "A romantic moonlit fairy-tale balcony overlooking a glowing castle, floating heart-shaped lanterns, rose petals drifting through the air, fireworks blooming in pink and gold over a calm lake, 16:9 widescreen, vibrant cinematic lighting, original artwork, no text, no logos, no characters, no people",
+    "file": "media/true-love.jpg"
+  },
+  "categories": [
+    {
+      "id": "tale-as-old-as-time",
+      "title": "Tale as Old as Time",
+      "kind": "film",
+      "intro": "Our film category is the love story of all love stories. [excited] Be our guest for some Beauty and the Beast!",
+      "art": {
+        "prompt": "A grand golden ballroom with crystal chandeliers and a polished marble floor, a single enchanted red rose glowing under a glass dome on a table, snowy castle windows behind, 16:9 widescreen, vibrant cinematic lighting, original artwork, no text, no logos, no characters, no people",
+        "file": "media/true-love--tale-as-old-as-time.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "The Beast keeps this enchanted flower under a glass dome in the West Wing.",
+          "answer": "A rose",
+          "accept": [
+            "rose",
+            "a rose",
+            "the rose",
+            "enchanted rose"
+          ],
+          "choices": [
+            "A rose",
+            "A tulip",
+            "A lily",
+            "A daisy"
+          ],
+          "reveal": "The correct answer is a rose! When the last petal falls, the spell is permanent. [sarcastic] No pressure, Beast.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Belle's inventor father is named this.",
+          "answer": "Maurice",
+          "accept": [
+            "maurice"
+          ],
+          "choices": [
+            "Maurice",
+            "Philippe",
+            "Jacques",
+            "Henri"
+          ],
+          "reveal": "The correct answer is Maurice! Philippe is the horse, by the way. [laughs] The horse is the one with common sense.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "The Beast wins Belle's heart by giving her this enormous room as a gift.",
+          "answer": "The library",
+          "accept": [
+            "library",
+            "the library",
+            "a library"
+          ],
+          "choices": [
+            "The library",
+            "The ballroom",
+            "The rose garden",
+            "The West Wing"
+          ],
+          "reveal": "The correct answer is the library! Honestly, the GREATEST gift in Disney history. Sorry, glass slippers.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "The Enchantress's spell becomes permanent if the Beast doesn't learn to love by this birthday.",
+          "answer": "His 21st",
+          "accept": [
+            "21",
+            "21st",
+            "twenty first",
+            "twenty-first",
+            "his 21st",
+            "21st birthday"
+          ],
+          "choices": [
+            "His 21st",
+            "His 18th",
+            "His 25th",
+            "His 30th"
+          ],
+          "reveal": "The correct answer is his 21st year! Which means, do the math, the Beast was about eleven when that spell hit. [sighs] Rough childhood.",
+          "dailyDouble": true
+        },
+        {
+          "value": 1000,
+          "clue": "Beauty and the Beast made history as the first animated feature ever nominated for this Oscar.",
+          "answer": "Best Picture",
+          "accept": [
+            "best picture"
+          ],
+          "choices": [
+            "Best Picture",
+            "Best Director",
+            "Best Original Screenplay",
+            "Best Actor"
+          ],
+          "reveal": "The correct answer is Best Picture! [dramatic pause] It lost to The Silence of the Lambs. Talk about a Beauty and a Beast of a race.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "love-is-an-open-door",
+      "title": "Love Is an Open Door",
+      "kind": "theme",
+      "intro": "Next, some famous Disney couples! I'll describe one sweetheart, you name the other. [whispers] How romantic.",
+      "art": {
+        "prompt": "Two mismatched front doors side by side in a whimsical village, one opening onto a sunny meadow and the other onto a starry sky, a ribbon of hearts linking them, 16:9 widescreen, vibrant cinematic lighting, original artwork, no text, no logos, no characters, no people",
+        "file": "media/true-love--love-is-an-open-door.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Mickey Mouse's longtime sweetheart, with a polka-dot bow.",
+          "answer": "Minnie Mouse",
+          "accept": [
+            "minnie",
+            "minnie mouse"
+          ],
+          "choices": [
+            "Minnie Mouse",
+            "Daisy Duck",
+            "Clarabelle Cow",
+            "Clara Cluck"
+          ],
+          "reveal": "The correct answer is Minnie Mouse! Together since 1928. Hollywood's longest-running couple, and they still hold hands. [sighs]",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "In Tangled, Rapunzel falls for this smooth-talking thief with a famous smolder.",
+          "answer": "Flynn Rider",
+          "accept": [
+            "flynn",
+            "flynn rider",
+            "eugene",
+            "eugene fitzherbert"
+          ],
+          "choices": [
+            "Flynn Rider",
+            "Hans",
+            "Prince Naveen",
+            "Kristoff"
+          ],
+          "reveal": "The correct answer is Flynn Rider, also known as Eugene Fitzherbert! [laughs] Frying pans... who knew? Turns out they're the key to romance.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "In Cars, Lightning McQueen falls for this blue Porsche who runs the Cozy Cone Motel.",
+          "answer": "Sally Carrera",
+          "accept": [
+            "sally",
+            "sally carrera"
+          ],
+          "choices": [
+            "Sally Carrera",
+            "Flo",
+            "Holley Shiftwell",
+            "Cruz Ramirez"
+          ],
+          "reveal": "The correct answer is Sally Carrera! She's a 2002 Porsche 911. [chuckles] Lightning really knows how to pick them.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In 1973's Robin Hood, Robin is head over tail for this lovely vixen.",
+          "answer": "Maid Marian",
+          "accept": [
+            "maid marian",
+            "marian"
+          ],
+          "choices": [
+            "Maid Marian",
+            "Lady Kluck",
+            "Vixey",
+            "Duchess"
+          ],
+          "reveal": "The correct answer is Maid Marian! Her lady-in-waiting, Lady Kluck, is the real MVP of that film. Go KLUCK!",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "In Encanto, Dolores can hear everything, including the heartbeat of her secret crush, this suitor.",
+          "answer": "Mariano",
+          "accept": [
+            "mariano",
+            "mariano guzman",
+            "mariano guzmán"
+          ],
+          "choices": [
+            "Mariano",
+            "Camilo",
+            "Agustín",
+            "Félix"
+          ],
+          "reveal": "The correct answer is Mariano! Bruno predicted he'd marry Isabela, but in the end he ends up with Dolores. [whispers] We don't talk about it... but we're happy for them.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "whispers-of-love",
+      "title": "Whispers of Love",
+      "kind": "media",
+      "intro": "It's our media category! You'll hear a famous romantic line from a Disney or Lucasfilm movie. You tell me who said it. [whispers] Get your tissues ready.",
+      "art": {
+        "prompt": "An old-fashioned radio microphone surrounded by love letters, a bundle of red roses and floating heart-shaped sound waves in soft pink stage light, 16:9 widescreen, vibrant cinematic lighting, original artwork, no text, no logos, no characters, no people",
+        "file": "media/true-love--whispers-of-love.jpg"
+      },
+      "format": "quote",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Name the character who said this line.",
+          "answer": "Olaf",
+          "accept": [
+            "olaf"
+          ],
+          "choices": [
+            "Olaf",
+            "Kristoff",
+            "Anna",
+            "Sven"
+          ],
+          "reveal": "The correct answer is Olaf! He said it while practically melting next to the fire for Anna. [laughs] Put a snowman on your Valentine's card.",
+          "quote": "Some people are worth melting for.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "This scoundrel's answer when told 'I love you.'",
+          "answer": "Han Solo",
+          "accept": [
+            "han",
+            "han solo"
+          ],
+          "choices": [
+            "Han Solo",
+            "Luke Skywalker",
+            "Lando Calrissian",
+            "Poe Dameron"
+          ],
+          "reveal": "The correct answer is Han Solo! Leia says I love you, Han says I know. [chuckles] The coolest, most frustrating answer in galaxy history.",
+          "quote": "I know.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Who wrote these words in a very special scrapbook?",
+          "answer": "Ellie",
+          "accept": [
+            "ellie",
+            "ellie fredricksen"
+          ],
+          "choices": [
+            "Ellie",
+            "Carl",
+            "Russell",
+            "Kevin"
+          ],
+          "reveal": "The correct answer is Ellie! That last page of her Adventure Book still gets me every single time. [sighs] Somebody pass the tissues.",
+          "quote": "Thanks for the adventure. Now go have a new one!",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Name the sassy character who said this line to her future hero.",
+          "answer": "Megara",
+          "accept": [
+            "meg",
+            "megara"
+          ],
+          "choices": [
+            "Megara",
+            "Hercules",
+            "Phil",
+            "Calliope"
+          ],
+          "reveal": "The correct answer is Megara! Meg to her friends. She won't say she's in love, but we ALL know the truth.",
+          "quote": "I'm a damsel. I'm in distress. I can handle this. Have a nice day.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Name the character who said this line in 1995.",
+          "answer": "John Smith",
+          "accept": [
+            "john smith"
+          ],
+          "choices": [
+            "John Smith",
+            "Pocahontas",
+            "Kocoum",
+            "Thomas"
+          ],
+          "reveal": "The correct answer is John Smith! He said it to Pocahontas while held captive. Mel Gibson did the voice, and the swooning, apparently. [laughs]",
+          "quote": "I'd rather die tomorrow than live a hundred years without knowing you.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "love-at-the-parks",
+      "title": "Love at the Parks",
+      "kind": "parks",
+      "intro": "Our Parks category is for the lovebirds. Romance, weddings, and one VERY dangerous bride.",
+      "art": {
+        "prompt": "A glowing fairy-tale castle at night with fireworks overhead, a candlelit Italian restaurant table with one plate of spaghetti on Main Street, and a spooky gothic attic with a wedding veil in shadow, 16:9 widescreen, vibrant cinematic lighting, original artwork, no text, no logos, no characters, no people",
+        "file": "media/true-love--love-at-the-parks.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This Magic Kingdom nighttime spectacular shares its name with the way fairy tales end.",
+          "answer": "Happily Ever After",
+          "accept": [
+            "happily ever after"
+          ],
+          "choices": [
+            "Happily Ever After",
+            "Wishes",
+            "Fantasmic!",
+            "Enchantment"
+          ],
+          "reveal": "The correct answer is Happily Ever After! It's back lighting up Cinderella Castle. [excited] Grab your sweetheart and a good viewing spot.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "This Main Street restaurant at Magic Kingdom is themed to the Italian eatery where Lady and the Tramp share spaghetti.",
+          "answer": "Tony's Town Square Restaurant",
+          "accept": [
+            "tony's",
+            "tonys",
+            "tony's town square",
+            "tony's town square restaurant"
+          ],
+          "choices": [
+            "Tony's Town Square Restaurant",
+            "Casey's Corner",
+            "The Plaza Restaurant",
+            "The Crystal Palace"
+          ],
+          "reveal": "The correct answer is Tony's Town Square Restaurant! [sighs] Bella notte. Sharing one noodle is optional, but highly encouraged.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Couples say I do at this Walt Disney World venue, where a big window behind the altar frames a view of Cinderella Castle.",
+          "answer": "Disney's Wedding Pavilion",
+          "accept": [
+            "wedding pavilion",
+            "disney's wedding pavilion",
+            "disneys wedding pavilion"
+          ],
+          "choices": [
+            "Disney's Wedding Pavilion",
+            "Cinderella's Chapel",
+            "Happily Ever After Hall",
+            "The Enchanted Chapel"
+          ],
+          "reveal": "The correct answer is Disney's Wedding Pavilion, near the Grand Floridian! Something old, something new, something borrowed, something MICKEY.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In the Haunted Mansion attic, this black widow bride says I do to husband after husband, each of whom loses his head.",
+          "answer": "Constance Hatchaway",
+          "accept": [
+            "constance",
+            "constance hatchaway"
+          ],
+          "choices": [
+            "Constance Hatchaway",
+            "Madame Leota",
+            "Little Leota",
+            "The Hatbox Ghost"
+          ],
+          "reveal": "The correct answer is Constance Hatchaway! [mischievously] Till death do us part, and she means it. Hold onto your head when you ride by.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Walt and his wife Lillian stayed in a small apartment above this Disneyland Main Street building, where a lamp still glows in the window.",
+          "answer": "The Fire Station",
+          "accept": [
+            "fire station",
+            "the fire station",
+            "firehouse",
+            "the firehouse"
+          ],
+          "choices": [
+            "The Fire Station",
+            "The Opera House",
+            "The Emporium",
+            "City Hall"
+          ],
+          "reveal": "The correct answer is the Fire Station! Cast members keep that lamp lit to remind everyone that Walt is still in the park, in spirit. [sighs]",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "rhyme-time-sweethearts",
+      "title": "Rhyme Time: Sweethearts",
+      "kind": "fan",
+      "intro": "And the fan category is Rhyme Time, sweetheart edition! I'll give you two clues. [excited] Combine the answers into a perfect rhyme.",
+      "art": {
+        "prompt": "Two heart-shaped puzzle pieces clicking together surrounded by swirling poetry quills, candy hearts and little floating musical notes, 16:9 widescreen, vibrant cinematic lighting, original artwork, no text, no logos, no characters, no people",
+        "file": "media/true-love--rhyme-time-sweethearts.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Belle's furry, horned husband plus a giant holiday dinner.",
+          "answer": "Beast Feast",
+          "accept": [
+            "beast feast"
+          ],
+          "choices": [
+            "Beast Feast",
+            "Belle Shell",
+            "Chip Ship",
+            "Rose Clothes"
+          ],
+          "reveal": "The correct answer is Beast Feast! Which, to be fair, is exactly what Be Our Guest is all about. [laughs]",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "The thief who steals Rapunzel's heart plus a big happy smile.",
+          "answer": "Flynn Grin",
+          "accept": [
+            "flynn grin"
+          ],
+          "choices": [
+            "Flynn Grin",
+            "Eugene Bean",
+            "Rider Glider",
+            "Smolder Shoulder"
+          ],
+          "reveal": "The correct answer is Flynn Grin! Although, let's be honest, he'd prefer you call it... [dramatic pause] the smolder.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "WALL-E's sleek robot crush plus the night before Christmas.",
+          "answer": "EVE Eve",
+          "accept": [
+            "eve eve"
+          ],
+          "choices": [
+            "EVE Eve",
+            "WALL-E Holly",
+            "Robot Rocket",
+            "AUTO Grotto"
+          ],
+          "reveal": "The correct answer is EVE Eve! Directive: deliver presents. [chuckles] WALL-E would definitely wrap a lightbulb for her.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Mulan's army captain and eventual love plus a group of troublemakers.",
+          "answer": "Shang Gang",
+          "accept": [
+            "shang gang",
+            "li shang gang"
+          ],
+          "choices": [
+            "Shang Gang",
+            "Ping Ring",
+            "Mushu Crew",
+            "Khan Clan"
+          ],
+          "reveal": "The correct answer is Shang Gang! Yao, Ling and Chien-Po would definitely be card-carrying members.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Linguini's tough-as-nails line cook girlfriend plus a spinning casino game.",
+          "answer": "Colette Roulette",
+          "accept": [
+            "colette roulette"
+          ],
+          "choices": [
+            "Colette Roulette",
+            "Remy Semi",
+            "Gusteau Plateau",
+            "Skinner Dinner"
+          ],
+          "reveal": "The correct answer is Colette Roulette! Spin the wheel, and whatever it lands on, [laughs] Colette will still tell you to keep your station clean.",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}

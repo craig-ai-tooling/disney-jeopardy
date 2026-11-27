@@ -1,0 +1,506 @@
+{
+  "id": "weather-and-seasons",
+  "title": "Weather and Seasons",
+  "theme": "Weather and Seasons",
+  "tags": [
+    "weather",
+    "seasons",
+    "winter",
+    "water-parks"
+  ],
+  "intro": "[excited] Welcome in to the forecast for Disney Jeopardy! Today's outlook calls for scattered trivia, heavy snowfall of fun facts, and a one hundred percent chance... [chuckles] of me making weather puns. Let's check the radar!",
+  "art": {
+    "prompt": "A magical storybook valley split into four seasons: snowy pine forest on one side, spring blossoms, a sunny summer meadow and golden autumn trees, with a rainbow arching over a fairy-tale castle and a gentle rain cloud drifting above, 16:9 widescreen, vibrant cinematic lighting, original artwork, no text, no logos, no characters, no people",
+    "file": "media/weather-and-seasons.jpg"
+  },
+  "categories": [
+    {
+      "id": "frozen-forecast",
+      "title": "Frozen Forecast",
+      "kind": "film",
+      "intro": "We kick things off with a film that turned summer into eternal winter. [dramatic pause] Bundle up... it's FROZEN!",
+      "art": {
+        "prompt": "A frozen Nordic fjord kingdom at twilight, an ice palace of glowing blue crystal on a mountain, snow swirling in sparkling spirals, northern lights dancing overhead, 16:9 widescreen, vibrant cinematic lighting, original artwork, no text, no logos, no characters, no people",
+        "file": "media/weather-and-seasons--frozen-forecast.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This snowman loves warm hugs and dreams of summer.",
+          "answer": "Olaf",
+          "accept": [
+            "olaf"
+          ],
+          "choices": [
+            "Olaf",
+            "Marshmallow",
+            "Sven",
+            "Oaken"
+          ],
+          "reveal": "The correct answer is Olaf! The only snowman in history whose life goal is to stand next to a campfire. [laughs]",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Anna and Elsa are the royal sisters of this kingdom.",
+          "answer": "Arendelle",
+          "accept": [
+            "arendelle",
+            "arendell"
+          ],
+          "choices": [
+            "Arendelle",
+            "Corona",
+            "Weselton",
+            "The Southern Isles"
+          ],
+          "reveal": "The correct answer is Arendelle. Great fjords, lovely castle, occasional surprise blizzard in July.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "This trading post owner offers a big summer blowout, plus a sauna, to Anna and Kristoff.",
+          "answer": "Oaken",
+          "accept": [
+            "oaken",
+            "wandering oaken"
+          ],
+          "choices": [
+            "Oaken",
+            "Pabbie",
+            "Kai",
+            "Bulda"
+          ],
+          "reveal": "The correct answer is Oaken, of Wandering Oaken's Trading Post. [chuckles] Hoo hoo! Don't forget to visit the sauna on your way out.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Hans tells Anna he has this many older brothers.",
+          "answer": "Twelve",
+          "accept": [
+            "12",
+            "twelve",
+            "twelve older brothers"
+          ],
+          "choices": [
+            "Twelve",
+            "Thirteen",
+            "Seven",
+            "Ten"
+          ],
+          "reveal": "The correct answer is twelve! Three of them pretended he was invisible for two years. [mischievously] Honestly... they may have been onto something.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "In this 2015 short, every sneeze Elsa lets out during Anna's birthday creates tiny snowmen called snowgies.",
+          "answer": "Frozen Fever",
+          "accept": [
+            "frozen fever"
+          ],
+          "choices": [
+            "Frozen Fever",
+            "Olaf's Frozen Adventure",
+            "Once Upon a Snowman",
+            "Olaf's Present"
+          ],
+          "reveal": "The correct answer is Frozen Fever! [laughs] A cold that literally makes more cold. Somebody get that queen some soup.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "rain-or-shine",
+      "title": "Rain or Shine",
+      "kind": "theme",
+      "intro": "Next up, the weather report! Every clue in this category is about wild weather in Disney films. [whispers] Pack an umbrella.",
+      "art": {
+        "prompt": "A whimsical sky full of weather: a fluffy storm cloud with lightning, warm sun rays bursting through, wind-blown autumn leaves, falling snowflakes and a kite tumbling through the air over a hand-painted forest, 16:9 widescreen, vibrant cinematic lighting, original artwork, no text, no logos, no characters, no people",
+        "file": "media/weather-and-seasons--rain-or-shine.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In Winnie the Pooh and the Blustery Day, this kind of weather lifts Piglet into the air like a kite.",
+          "answer": "Wind",
+          "accept": [
+            "wind",
+            "a windstorm",
+            "windy weather"
+          ],
+          "choices": [
+            "Wind",
+            "Snow",
+            "Hail",
+            "Fog"
+          ],
+          "reveal": "The correct answer is wind! Happy WINDS-day, everybody! [laughs] Poor Piglet. Very small animal, very big breeze.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Mulan buries most of the Hun army under this snowy disaster by firing a rocket at a mountainside.",
+          "answer": "An avalanche",
+          "accept": [
+            "avalanche",
+            "an avalanche"
+          ],
+          "choices": [
+            "An avalanche",
+            "A blizzard",
+            "A landslide",
+            "An earthquake"
+          ],
+          "reveal": "The correct answer is an avalanche. One rocket, one mountain, one VERY bad day for Shan Yu.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "In Bambi, the forest animals take cover during this song about a spring rainstorm.",
+          "answer": "Little April Shower",
+          "accept": [
+            "little april shower",
+            "april shower"
+          ],
+          "choices": [
+            "Little April Shower",
+            "Love Is a Song",
+            "Looking for Romance",
+            "Rain, Rain, Rain Came Down Down Down"
+          ],
+          "reveal": "The correct answer is Little April Shower. [sighs] Drip, drip, drop! Easily the most relaxing thunderstorm ever put on film.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In Fantasia, fairies paint autumn leaves and skate frost across a pond in this segment set to Tchaikovsky.",
+          "answer": "The Nutcracker Suite",
+          "accept": [
+            "nutcracker suite",
+            "the nutcracker suite",
+            "nutcracker"
+          ],
+          "choices": [
+            "The Nutcracker Suite",
+            "The Pastoral Symphony",
+            "The Rite of Spring",
+            "Dance of the Hours"
+          ],
+          "reveal": "The correct answer is The Nutcracker Suite! [chuckles] Funny thing, there is no actual nutcracker in it. Just fairies doing the seasons' paperwork.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "In this 2009 Pixar short, a gloomy gray cloud named Gus sculpts dangerous babies for his stork partner, Peck.",
+          "answer": "Partly Cloudy",
+          "accept": [
+            "partly cloudy"
+          ],
+          "choices": [
+            "Partly Cloudy",
+            "Lava",
+            "Day and Night",
+            "Piper"
+          ],
+          "reveal": "The correct answer is Partly Cloudy! Gus makes crocodiles, porcupines and rams. Peck deserves hazard pay... and a HELMET.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "emoji-forecast",
+      "title": "Emoji Forecast",
+      "kind": "media",
+      "intro": "Time for the media category! I'll show you a string of weather-ish emoji and a hint. You name the Disney or Pixar title.",
+      "art": {
+        "prompt": "A playful cartoon weather map of a fantasy island world with glossy bubbly icons of suns, clouds, rainbows, umbrellas, snowflakes and a tiny volcano scattered across it, 16:9 widescreen, vibrant cinematic lighting, original artwork, no text, no logos, no characters, no people",
+        "file": "media/weather-and-seasons--emoji-forecast.jpg"
+      },
+      "format": "emoji",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "🎈🎈🏠☁️  Hint: a house takes to the sky.",
+          "answer": "Up",
+          "accept": [
+            "up"
+          ],
+          "choices": [
+            "Up",
+            "Bolt",
+            "Luca",
+            "Onward"
+          ],
+          "reveal": "The correct answer is Up! Ten thousand balloons and one very grumpy homeowner. [gasps] Squirrel!",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "🌊⛵🌀🌺  Hint: the ocean chooses a voyager.",
+          "answer": "Moana",
+          "accept": [
+            "moana"
+          ],
+          "choices": [
+            "Moana",
+            "The Little Mermaid",
+            "Luca",
+            "Lilo and Stitch"
+          ],
+          "reveal": "The correct answer is Moana! Storms, a coconut pirate fleet and a demigod with a giant ego. [sarcastic] Just another day at sea.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "🐉💧🌧️⚔️  Hint: the last of her kind is a water dragon.",
+          "answer": "Raya and the Last Dragon",
+          "accept": [
+            "raya and the last dragon",
+            "raya"
+          ],
+          "choices": [
+            "Raya and the Last Dragon",
+            "Mulan",
+            "Encanto",
+            "Strange World"
+          ],
+          "reveal": "The correct answer is Raya and the Last Dragon! Sisu brings the rain... [laughs] and also a LOT of jokes.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "🌋❤️🌋🎶  Hint: a lonely singing Pixar short.",
+          "answer": "Lava",
+          "accept": [
+            "lava"
+          ],
+          "choices": [
+            "Lava",
+            "Piper",
+            "Bao",
+            "La Luna"
+          ],
+          "reveal": "The correct answer is Lava! A volcano sings for love for a few million years. [sighs] Talk about a long-distance relationship.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "🌧️☂️💙❤️☂️  Hint: two umbrellas fall for each other on a rainy city street.",
+          "answer": "The Blue Umbrella",
+          "accept": [
+            "blue umbrella",
+            "the blue umbrella"
+          ],
+          "choices": [
+            "The Blue Umbrella",
+            "Paperman",
+            "Feast",
+            "Day and Night"
+          ],
+          "reveal": "The correct answer is The Blue Umbrella! The 2013 Pixar short where even the gutters and mailboxes have faces. [whispers] Rainy days were never so romantic.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "water-park-weather",
+      "title": "Water Park Weather",
+      "kind": "parks",
+      "intro": "Our Parks category is all about stormy, snowy, lightning-struck spots in the Disney parks. [mischievously] Watch out for falling shrimp boats.",
+      "art": {
+        "prompt": "A tropical water park after a storm: a snow-capped mountain with a ski jump turned waterslide, a shrimp boat perched on a volcanic peak, a huge wave pool and palm trees under clearing skies, 16:9 widescreen, vibrant cinematic lighting, original artwork, no text, no logos, no characters, no people",
+        "file": "media/weather-and-seasons--water-park-weather.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This Walt Disney World water park's legend says a freak snowstorm built a Florida ski resort that quickly melted.",
+          "answer": "Blizzard Beach",
+          "accept": [
+            "blizzard beach",
+            "disney's blizzard beach"
+          ],
+          "choices": [
+            "Blizzard Beach",
+            "Typhoon Lagoon",
+            "River Country",
+            "Aulani"
+          ],
+          "reveal": "The correct answer is Blizzard Beach! A ski resort in Florida. What could possibly go wrong? [laughs] Answer: everything melted.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "At the Twilight Zone Tower of Terror, the Hollywood Tower Hotel's guests vanished one stormy 1939 night after the building was struck by this.",
+          "answer": "Lightning",
+          "accept": [
+            "lightning",
+            "a lightning bolt",
+            "lightning bolt"
+          ],
+          "choices": [
+            "Lightning",
+            "A tornado",
+            "An earthquake",
+            "A hailstorm"
+          ],
+          "reveal": "The correct answer is lightning! Halloween night, 1939. [whispers] Housekeeping still has not found those five guests.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "At Blizzard Beach, this 120-foot speed slide drops you off the top of Mount Gushmore.",
+          "answer": "Summit Plummet",
+          "accept": [
+            "summit plummet"
+          ],
+          "choices": [
+            "Summit Plummet",
+            "Slush Gusher",
+            "Crush 'n' Gusher",
+            "Humunga Kowabunga"
+          ],
+          "reveal": "The correct answer is Summit Plummet! [gasps] 120 feet STRAIGHT down. Pro tip: cross your ankles, hold on tight, and maybe scream a little.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "At Typhoon Lagoon, the shrimp boat Miss Tilly sits stuck on top of this volcanic peak after a storm swept it there.",
+          "answer": "Mount Mayday",
+          "accept": [
+            "mount mayday",
+            "mt mayday",
+            "mt. mayday"
+          ],
+          "choices": [
+            "Mount Mayday",
+            "Mount Gushmore",
+            "Mount Splashmore",
+            "Mount Typhoon"
+          ],
+          "reveal": "[excited] The correct answer is Mount Mayday! Listen for Miss Tilly's whistle, it means a fresh set of big waves is rolling into the surf pool.",
+          "dailyDouble": true
+        },
+        {
+          "value": 1000,
+          "clue": "Blizzard Beach's ski-loving, sunglasses-wearing alligator mascot goes by this name.",
+          "answer": "Ice Gator",
+          "accept": [
+            "ice gator",
+            "ice"
+          ],
+          "choices": [
+            "Ice Gator",
+            "Frosty Gator",
+            "Slushy the Gator",
+            "Chill Gator"
+          ],
+          "reveal": "The correct answer is Ice Gator! He loved the melting ski slopes so much he took up water skiing. [chuckles] True Florida spirit.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "sing-in-the-rain",
+      "title": "Sing in the Rain",
+      "kind": "fan",
+      "intro": "Finally, the fan pick! It's Finish the Lyric, weather edition. I'll give you a line from a stormy, snowy or windy Disney song. [excited] You fill in the blank.",
+      "art": {
+        "prompt": "Musical notes made of raindrops and snowflakes swirling around an old-fashioned microphone on a puddle-covered stage, a colorful umbrella and a kite floating above, soft spotlight, 16:9 widescreen, vibrant cinematic lighting, original artwork, no text, no logos, no characters, no people",
+        "file": "media/weather-and-seasons--sing-in-the-rain.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Finish the lyric from Frozen: Let it go, let it go! The cold never bothered me ...",
+          "answer": "Anyway",
+          "accept": [
+            "anyway"
+          ],
+          "choices": [
+            "Anyway",
+            "Today",
+            "Always",
+            "At all"
+          ],
+          "reveal": "The correct answer is anyway! [laughs] And if you didn't sing that out loud just now... you're lying.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Finish the lyric from Mary Poppins: Let's go fly a kite, up to the ...",
+          "answer": "Highest height",
+          "accept": [
+            "highest height",
+            "the highest height"
+          ],
+          "choices": [
+            "Highest height",
+            "Clouds so bright",
+            "Stars tonight",
+            "Sky so white"
+          ],
+          "reveal": "The correct answer is the highest height! Thanks to Mr. Banks, who finally learned that wind is more fun than banking.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Finish the lyric from Frozen: Do you want to build a snowman? Or ride our bike around the ...",
+          "answer": "Halls",
+          "accept": [
+            "halls",
+            "the halls"
+          ],
+          "choices": [
+            "Halls",
+            "Walls",
+            "Hall",
+            "Town"
+          ],
+          "reveal": "The correct answer is halls! Then she talks to the pictures on the walls. [sighs] Hang in there, Joan.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Finish Olaf's lyric: Bees'll buzz, kids'll blow dandelion fuzz, and I'll be doing whatever snow does in ...",
+          "answer": "Summer",
+          "accept": [
+            "summer",
+            "in summer"
+          ],
+          "choices": [
+            "Summer",
+            "The sun",
+            "July",
+            "The spring"
+          ],
+          "reveal": "The correct answer is summer! [mischievously] Spoiler alert for Olaf: snow in summer does exactly one thing, and it's called a puddle.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Finish the lyric from Winnie the Pooh and the Blustery Day: The rain, rain, rain came down, down, down, in rushing, rising ...",
+          "answer": "Rivulets",
+          "accept": [
+            "rivulets",
+            "rivlets",
+            "riv'lets"
+          ],
+          "choices": [
+            "Rivulets",
+            "Raindrops",
+            "Ripples",
+            "Torrents"
+          ],
+          "reveal": "The correct answer is rivulets! Till the river crept out of its bed and right into Piglet's. A Sherman Brothers CLASSIC.",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}

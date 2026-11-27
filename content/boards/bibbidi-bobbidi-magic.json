@@ -1,0 +1,591 @@
+{
+  "id": "bibbidi-bobbidi-magic",
+  "title": "Bibbidi-Bobbidi-Magic",
+  "theme": "Magic and Spells",
+  "tags": [
+    "magic",
+    "spells",
+    "wishes",
+    "villains"
+  ],
+  "intro": "[excited] Welcome in to Disney Jeopardy! Grab your wands, your lamps and your fairy godmothers, because today is ALL about magic and spells. [mischievously] If you get one wrong... I might just turn you into a frog.",
+  "art": {
+    "prompt": "A whimsical twilight castle courtyard bursting with magic: a glowing pumpkin coach, swirling streams of sparkling fairy dust, floating spell books, a crystal ball and a bubbling cauldron, starry violet and gold sky, 16:9 widescreen, vibrant cinematic lighting, original artwork, no text, no logos, no characters, no people",
+    "file": "media/bibbidi-bobbidi-magic.jpg"
+  },
+  "categories": [
+    {
+      "id": "bibbidi-bobbidi-boo",
+      "title": "Bibbidi-Bobbidi-Boo",
+      "kind": "film",
+      "intro": "[excited] Salagadoola mechicka boola! Our film category is the most magical makeover in movie history. It's Cinderella!",
+      "art": {
+        "prompt": "A giant golden pumpkin transforming into an ornate glass-and-gold carriage in a moonlit garden, sparkles swirling, a single glass slipper resting on palace steps, 16:9 widescreen, vibrant cinematic lighting, original artwork, no text, no logos, no characters, no people",
+        "file": "media/bibbidi-bobbidi-magic--bibbidi-bobbidi-boo.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "The Fairy Godmother turns this vegetable into a shining coach.",
+          "answer": "A pumpkin",
+          "accept": [
+            "pumpkin",
+            "a pumpkin"
+          ],
+          "choices": [
+            "A pumpkin",
+            "A watermelon",
+            "A squash",
+            "A turnip"
+          ],
+          "reveal": "The correct answer is a pumpkin! [laughs] Best use of a pumpkin until pie was invented.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "The Fairy Godmother warns that her spell will break at the stroke of this hour.",
+          "answer": "Midnight",
+          "accept": [
+            "midnight",
+            "12",
+            "twelve",
+            "12 o'clock",
+            "twelve o'clock"
+          ],
+          "choices": [
+            "Midnight",
+            "Sunrise",
+            "Ten o'clock",
+            "Noon"
+          ],
+          "reveal": "The correct answer is midnight! Bong, bong, bong... and suddenly you're running down the stairs with ONE shoe.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "For the ball, Cinderella's horse, Major, is magically transformed into this.",
+          "answer": "The coachman",
+          "accept": [
+            "coachman",
+            "the coachman",
+            "a coachman"
+          ],
+          "choices": [
+            "The coachman",
+            "The footman",
+            "A royal guard",
+            "A prince"
+          ],
+          "reveal": "The correct answer is the coachman! Bruno the dog gets to be the footman. [chuckles] Talk about a career change for one night.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Cinderella's stepsisters are Anastasia and this sister.",
+          "answer": "Drizella",
+          "accept": [
+            "drizella",
+            "drizzella"
+          ],
+          "choices": [
+            "Drizella",
+            "Lucinda",
+            "Prudence",
+            "Cordelia"
+          ],
+          "reveal": "The correct answer is Drizella! [sarcastic] And what a lovely singing voice she has. Sing sweet nightingale... NOPE.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "He's the King's right-hand man who travels the kingdom trying the glass slipper on every maiden.",
+          "answer": "The Grand Duke",
+          "accept": [
+            "grand duke",
+            "the grand duke",
+            "duke"
+          ],
+          "choices": [
+            "The Grand Duke",
+            "The Prime Minister",
+            "The Lord Chamberlain",
+            "The Royal Herald"
+          ],
+          "reveal": "The correct answer is the Grand Duke! [dramatic pause] He's also the guy who dropped the slipper and shattered it. Thank goodness Cinderella kept a spare.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "spellbound",
+      "title": "Spellbound",
+      "kind": "theme",
+      "intro": "Next up, Spellbound! [mischievously] Every clue is about a spell, a curse or a wish. Try not to get turned into a toad.",
+      "art": {
+        "prompt": "An ancient spell book lying open on a stone table, glowing runes rising off the pages in green and blue smoke, a seashell necklace, a gilded oil lamp and an enchanted rose nearby, 16:9 widescreen, vibrant cinematic lighting, original artwork, no text, no logos, no characters, no people",
+        "file": "media/bibbidi-bobbidi-magic--spellbound.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Ursula's spell takes Ariel's voice in exchange for a pair of these.",
+          "answer": "Legs",
+          "accept": [
+            "legs",
+            "human legs",
+            "a pair of legs"
+          ],
+          "choices": [
+            "Legs",
+            "Wings",
+            "Fins",
+            "Shoes"
+          ],
+          "reveal": "The correct answer is legs! Then she can't talk to the prince. [sighs] Classic Ursula fine print. Always read the contract.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "The Genie in Aladdin grants his master this many wishes.",
+          "answer": "Three",
+          "accept": [
+            "3",
+            "three"
+          ],
+          "choices": [
+            "Three",
+            "One",
+            "Five",
+            "Seven"
+          ],
+          "reveal": "The correct answer is three! [whispers] And no wishing for more wishes. Those are the rules.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "In Fantasia, Mickey enchants this household item to carry buckets of water for him.",
+          "answer": "A broom",
+          "accept": [
+            "broom",
+            "a broom",
+            "the broom"
+          ],
+          "choices": [
+            "A broom",
+            "A mop",
+            "A bucket",
+            "A chair"
+          ],
+          "reveal": "The correct answer is a broom! [laughs] Then he chops it up and gets a whole army of brooms. That's what we call a chore disaster.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "The sorcerer in The Sorcerer's Apprentice has a name that is Disney spelled backward.",
+          "answer": "Yen Sid",
+          "accept": [
+            "yen sid",
+            "yensid"
+          ],
+          "choices": [
+            "Yen Sid",
+            "Merlin",
+            "Mim",
+            "Chernabog"
+          ],
+          "reveal": "The correct answer is Yen Sid! Spell it backward and you get Disney. [chuckles] Walt was sneaky like that.",
+          "dailyDouble": true
+        },
+        {
+          "value": 1000,
+          "clue": "In Brave, Merida must mend the bond torn by pride before this moment, or her mother stays a bear forever.",
+          "answer": "The second sunrise",
+          "accept": [
+            "second sunrise",
+            "the second sunrise",
+            "sunrise"
+          ],
+          "choices": [
+            "The second sunrise",
+            "The next full moon",
+            "Midnight",
+            "The first snowfall"
+          ],
+          "reveal": "The correct answer is the second sunrise! [excited] Fate be changed, look inside! A little sewing, a lot of hugging, and Queen Elinor is back.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "magical-wardrobes",
+      "title": "Magical Wardrobes",
+      "kind": "media",
+      "intro": "It's our media category, Magical Wardrobes! I'll show you the colours of a spellcaster's outfit. You name the character. [mischievously] Some of them are good... and some, not so much.",
+      "art": {
+        "prompt": "An enchanted sorcerer's dressing room: star-covered robes, a pointed wizard hat, an icy blue gown on a dress form and flowing capes floating on their own in swirling magic light, 16:9 widescreen, vibrant cinematic lighting, original artwork, no text, no logos, no characters, no people",
+        "file": "media/bibbidi-bobbidi-magic--magical-wardrobes.jpg"
+      },
+      "format": "palette",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Icy blue gown, a sparkling cape and a platinum braid. She's got powers she can't hide.",
+          "answer": "Elsa",
+          "accept": [
+            "elsa",
+            "queen elsa"
+          ],
+          "choices": [
+            "Elsa",
+            "Cinderella",
+            "Anna",
+            "Aurora"
+          ],
+          "reveal": "The correct answer is Elsa! [laughs] Made that dress herself, out of ICE, in about thirty seconds. Fashion designers hate her.",
+          "palette": [
+            "#A7D8F0",
+            "#5BB0E0",
+            "#EAF6FB",
+            "#F0E2B6"
+          ],
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "A deep purple gown, a towering lilac headdress, grey skin and a whole secret lab full of potions.",
+          "answer": "Yzma",
+          "accept": [
+            "yzma"
+          ],
+          "choices": [
+            "Yzma",
+            "Ursula",
+            "Maleficent",
+            "Madam Mim"
+          ],
+          "reveal": "The correct answer is Yzma! [laughs] Pull the lever, Kronk! WRONG LEVERRR! Scary beyond all reason, and also fabulous.",
+          "palette": [
+            "#5E2B7E",
+            "#B04BA8",
+            "#9E9AA8",
+            "#111111"
+          ],
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "A black robe with purple lining, pale green skin and a pair of horns. She curses at christenings.",
+          "answer": "Maleficent",
+          "accept": [
+            "maleficent"
+          ],
+          "choices": [
+            "Maleficent",
+            "Ursula",
+            "The Evil Queen",
+            "Mother Gothel"
+          ],
+          "reveal": "The correct answer is Maleficent! [dramatic pause] She didn't get an invitation. And honestly... that's on the King and Queen.",
+          "palette": [
+            "#1B1B1B",
+            "#4A2C6E",
+            "#9BC26A",
+            "#6A1B9A"
+          ],
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "A bright red robe and a tall blue hat covered in stars and moons. He's an apprentice with ambition.",
+          "answer": "Sorcerer Mickey",
+          "accept": [
+            "sorcerer mickey",
+            "mickey",
+            "mickey mouse",
+            "the sorcerer's apprentice"
+          ],
+          "choices": [
+            "Sorcerer Mickey",
+            "Yen Sid",
+            "Merlin",
+            "Jafar"
+          ],
+          "reveal": "The correct answer is Sorcerer Mickey! [chuckles] Yen Sid's hat looked way better on Yen Sid. Just saying.",
+          "palette": [
+            "#C62828",
+            "#1E3A8A",
+            "#FFD54F",
+            "#111111"
+          ],
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "A white blouse with colourful embroidery, a teal skirt and round green glasses. Her whole family has magic.",
+          "answer": "Mirabel",
+          "accept": [
+            "mirabel",
+            "mirabel madrigal"
+          ],
+          "choices": [
+            "Mirabel",
+            "Isabela",
+            "Luisa",
+            "Dolores"
+          ],
+          "reveal": "The correct answer is Mirabel Madrigal! [excited] No gift? No problem. She ends up being the MOST magical one in the Casita.",
+          "palette": [
+            "#FAFAF5",
+            "#2AA89A",
+            "#E93D82",
+            "#2E7D32",
+            "#F6B93B"
+          ],
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "enchanted-attractions",
+      "title": "Enchanted Attractions",
+      "kind": "parks",
+      "intro": "Our Parks category is a picture round! I'll show you a scene from a spellbinding Disney park attraction. [whispers] You name it.",
+      "art": {
+        "prompt": "A fairy-tale theme park at dusk seen from above: glowing castle spires, a spinning flying-carpet ride, a pirate galleon floating in the night sky and fireworks bursting overhead, 16:9 widescreen, vibrant cinematic lighting, original artwork, no text, no logos, no characters, no people",
+        "file": "media/bibbidi-bobbidi-magic--enchanted-attractions.jpg"
+      },
+      "format": "picture",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Name this spinning Adventureland ride at Magic Kingdom.",
+          "answer": "The Magic Carpets of Aladdin",
+          "accept": [
+            "magic carpets of aladdin",
+            "the magic carpets of aladdin",
+            "magic carpets"
+          ],
+          "choices": [
+            "The Magic Carpets of Aladdin",
+            "Dumbo the Flying Elephant",
+            "Astro Orbiter",
+            "Mad Tea Party"
+          ],
+          "reveal": "The correct answer is The Magic Carpets of Aladdin! [laughs] Watch out for the spitting camel. He has excellent aim.",
+          "media": {
+            "type": "image",
+            "prompt": "Sunny Arabian bazaar courtyard with a ring of colorful flying-carpet ride vehicles circling a giant golden oil lamp on a pedestal, palm trees, striped awnings and brass lanterns, a stone camel statue in the background, theme park ride photo, no people, no text, no logos",
+            "file": "media/bibbidi-bobbidi-magic--enchanted-attractions-200.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Name this Fantasyland dark ride where you sail through the sky.",
+          "answer": "Peter Pan's Flight",
+          "accept": [
+            "peter pan's flight",
+            "peter pans flight",
+            "peter pan"
+          ],
+          "choices": [
+            "Peter Pan's Flight",
+            "Dumbo the Flying Elephant",
+            "Mr. Toad's Wild Ride",
+            "Snow White's Enchanted Wish"
+          ],
+          "reveal": "The correct answer is Peter Pan's Flight! [excited] Think happy thoughts! The line is long, but flying over London is worth it.",
+          "media": {
+            "type": "image",
+            "prompt": "Small wooden pirate-galleon ride vehicle hanging from an overhead track, flying through a starry night sky above a glowing miniature model of Victorian London with a clock tower, a bridge and the winding river below, sparkling golden dust trailing behind, no people, no text, no logos",
+            "file": "media/bibbidi-bobbidi-magic--enchanted-attractions-400.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Name this classic Adventureland show where the birds and flowers sing.",
+          "answer": "Walt Disney's Enchanted Tiki Room",
+          "accept": [
+            "enchanted tiki room",
+            "tiki room",
+            "walt disney's enchanted tiki room",
+            "the enchanted tiki room"
+          ],
+          "choices": [
+            "Walt Disney's Enchanted Tiki Room",
+            "Jungle Cruise",
+            "Swiss Family Treehouse",
+            "Walt Disney's Carousel of Progress"
+          ],
+          "reveal": "The correct answer is the Enchanted Tiki Room! [singing] In the tiki tiki tiki tiki tiki room! [laughs] Sorry, it's stuck in my head now, and yours too.",
+          "media": {
+            "type": "image",
+            "prompt": "Interior of a thatched Polynesian show room, carved wooden tiki poles, bright tropical parrots perched on hanging perches, a central fountain of tropical flowers, warm torch light and colorful lanterns, theme park photo, no people, no text, no logos",
+            "file": "media/bibbidi-bobbidi-magic--enchanted-attractions-600.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Guests can tiptoe past this sleeping creature in a lair beneath the castle. Which Disney park is it in?",
+          "answer": "Disneyland Paris",
+          "accept": [
+            "disneyland paris",
+            "disneyland park paris",
+            "euro disney",
+            "paris"
+          ],
+          "choices": [
+            "Disneyland Paris",
+            "Disneyland",
+            "Tokyo Disneyland",
+            "Hong Kong Disneyland"
+          ],
+          "reveal": "The correct answer is Disneyland Paris! [whispers] It's called La Taniere du Dragon. [gasps] And yes, it opens its eyes and roars. Tread lightly!",
+          "media": {
+            "type": "image",
+            "prompt": "Enormous sleeping dragon with emerald and violet scales, chained in a misty underground stone cavern lit by flickering green light, shallow pools of water, carved gothic arches overhead, dramatic theme park dungeon atmosphere, no people, no text, no logos",
+            "file": "media/bibbidi-bobbidi-magic--enchanted-attractions-800.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "This enchanted object waits in Fantasyland for a worthy kid to pull it free. Name it.",
+          "answer": "The Sword in the Stone",
+          "accept": [
+            "sword in the stone",
+            "the sword in the stone",
+            "excalibur"
+          ],
+          "choices": [
+            "The Sword in the Stone",
+            "The Golden Crown",
+            "The Enchanted Rose",
+            "The Trident"
+          ],
+          "reveal": "The correct answer is The Sword in the Stone! [chuckles] Whoever pulls it out becomes king. I've tried. Many times. Still not king.",
+          "media": {
+            "type": "image",
+            "prompt": "Medieval sword with a golden hilt plunged into an iron anvil set on a mossy stone block, glowing beam of sunlight from above, a colorful carousel with golden poles blurred in the background of a fairy-tale village plaza, no people, no text, no logos",
+            "file": "media/bibbidi-bobbidi-magic--enchanted-attractions-1000.jpg"
+          },
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "enchanted-objects",
+      "title": "Enchanted Objects",
+      "kind": "fan",
+      "intro": "And the fan category is Enchanted Objects! I'll describe a magical item from a Disney film. [mischievously] You tell me what it is. No peeking in the crystal ball.",
+      "art": {
+        "prompt": "A cluttered wizard's shelf of magical objects: a golden lamp, an ornate hand mirror, a glowing golden flower, a lit candle in a window and a spiral green stone, all softly glowing, 16:9 widescreen, vibrant cinematic lighting, original artwork, no text, no logos, no characters, no people",
+        "file": "media/bibbidi-bobbidi-magic--enchanted-objects.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "The Genie lives inside this golden object until someone rubs it.",
+          "answer": "A lamp",
+          "accept": [
+            "lamp",
+            "a lamp",
+            "magic lamp",
+            "the lamp",
+            "oil lamp"
+          ],
+          "choices": [
+            "A lamp",
+            "A ring",
+            "A bottle",
+            "A box"
+          ],
+          "reveal": "The correct answer is a lamp! [laughs] Phenomenal cosmic powers... itty bitty living space.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "The Evil Queen asks this, on the wall, who's the fairest one of all.",
+          "answer": "The Magic Mirror",
+          "accept": [
+            "mirror",
+            "magic mirror",
+            "the magic mirror",
+            "the mirror"
+          ],
+          "choices": [
+            "The Magic Mirror",
+            "A crystal ball",
+            "A portrait",
+            "A window"
+          ],
+          "reveal": "The correct answer is the Magic Mirror! [sighs] Brutally honest. Every single time. I would NOT want that in my bathroom.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "In Tangled, Rapunzel's magic hair comes from a single drop of sunlight that grew into this.",
+          "answer": "A golden flower",
+          "accept": [
+            "golden flower",
+            "a golden flower",
+            "flower",
+            "magic flower",
+            "sundrop flower"
+          ],
+          "choices": [
+            "A golden flower",
+            "A golden apple",
+            "A sun stone",
+            "A crystal"
+          ],
+          "reveal": "The correct answer is a golden flower! Flower, gleam and glow... [whispers] and maybe don't let Gothel find it.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In Encanto, the Madrigal family's gifts come from this magical item that never burns out.",
+          "answer": "A candle",
+          "accept": [
+            "candle",
+            "a candle",
+            "the candle",
+            "magic candle"
+          ],
+          "choices": [
+            "A candle",
+            "A lantern",
+            "A torch",
+            "A campfire"
+          ],
+          "reveal": "The correct answer is a candle! It sits in the window of Casita. [laughs] Imagine the electric bill if it was a lightbulb.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "In Moana, the heart of Te Fiti is a small spiral of this kind of stone.",
+          "answer": "Greenstone",
+          "accept": [
+            "greenstone",
+            "pounamu",
+            "jade",
+            "green stone"
+          ],
+          "choices": [
+            "Greenstone",
+            "Obsidian",
+            "Amber",
+            "Opal"
+          ],
+          "reveal": "The correct answer is greenstone, also called pounamu! [excited] Treasured in Maori culture, and apparently VERY easy to lose to a crab.",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}
