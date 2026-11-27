@@ -1,0 +1,548 @@
+{
+  "id": "snack-attack",
+  "title": "Snack Attack",
+  "theme": "Park Food",
+  "tags": [
+    "parks",
+    "food",
+    "snacks"
+  ],
+  "intro": "Welcome in to Disney Jeopardy! I hope you came hungry, because tonight's episode is a Snack Attack. Churros, Dole Whip, turkey legs, it's all on the menu. Let's dig in.",
+  "categories": [
+    {
+      "id": "anyone-can-cook",
+      "title": "Anyone Can Cook",
+      "kind": "film",
+      "intro": "Our film category is cooking up something special. It's Pixar's 2007 masterpiece, Ratatouille. Wash your paws first.",
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "What kind of animal is Remy, the little chef with big dreams?",
+          "answer": "A rat",
+          "accept": [
+            "a rat",
+            "rat",
+            "the rat"
+          ],
+          "choices": [
+            "A rat",
+            "A mouse",
+            "A hamster",
+            "A squirrel"
+          ],
+          "reveal": "The correct answer is a rat. Not a mouse. Mickey would like to clarify that he is not involved.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "In which city does Remy chase his dream of cooking at Gusteau's?",
+          "answer": "Paris",
+          "accept": [
+            "paris",
+            "paris france"
+          ],
+          "choices": [
+            "Paris",
+            "Lyon",
+            "Rome",
+            "Marseille"
+          ],
+          "reveal": "The correct answer is Paris. And you can visit his rooftop world at Epcot's France pavilion. Ooh la la.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Which talented cook at Gusteau's teaches Linguini the ropes, and how to keep his station clean?",
+          "answer": "Colette",
+          "accept": [
+            "colette",
+            "colette tatou"
+          ],
+          "choices": [
+            "Colette",
+            "Celine",
+            "Mimi",
+            "Giselle"
+          ],
+          "reveal": "The correct answer is Colette. Keep your station clean or she will absolutely make you regret it.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Which tiny head chef schemes to slap Gusteau's face on frozen foods?",
+          "answer": "Skinner",
+          "accept": [
+            "skinner",
+            "chef skinner"
+          ],
+          "choices": [
+            "Skinner",
+            "Anton Ego",
+            "Horst",
+            "Lalo"
+          ],
+          "reveal": "The correct answer is Chef Skinner. Frozen burritos with Gusteau's name on them. The horror.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "What is the name of Remy's big, always-hungry brother?",
+          "answer": "Emile",
+          "accept": [
+            "emile",
+            "emeal",
+            "emil"
+          ],
+          "choices": [
+            "Emile",
+            "Django",
+            "Git",
+            "Lalo"
+          ],
+          "reveal": "The correct answer is Emile. Django is their dad. Emile would eat literally anything, garbage included.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "iconic-park-snacks",
+      "title": "Snackin' in the Parks",
+      "kind": "theme",
+      "intro": "These are the snacks people plan entire vacations around. And I mean entire vacations.",
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Which swirly pineapple soft-serve treat is a must at Adventureland, near the Enchanted Tiki Room?",
+          "answer": "Dole Whip",
+          "accept": [
+            "dole whip",
+            "dole whips",
+            "dolewhip",
+            "pineapple dole whip"
+          ],
+          "choices": [
+            "Dole Whip",
+            "Mango Freeze",
+            "Lemon Swirl",
+            "Pineapple Float"
+          ],
+          "reveal": "The correct answer is Dole Whip. If you skip it, did you even go to Disney?",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Which giant smoky meat snack makes everyone eating it look like a medieval king?",
+          "answer": "A turkey leg",
+          "accept": [
+            "a turkey leg",
+            "smoked turkey leg",
+            "turkey leg",
+            "turkey legs"
+          ],
+          "choices": [
+            "A turkey leg",
+            "A beef rib",
+            "A pork shank",
+            "A chicken wing"
+          ],
+          "reveal": "The correct answer is a turkey leg. Napkins are optional, dignity is not included.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "At Disneyland's New Orleans Square, which powdered sugar pastries, often shaped like Mickey, are a fan favorite?",
+          "answer": "Beignets",
+          "accept": [
+            "beignets",
+            "beignet",
+            "mickey beignet",
+            "mickey beignets"
+          ],
+          "choices": [
+            "Beignets",
+            "Funnel cakes",
+            "Churros",
+            "Croissants"
+          ],
+          "reveal": "The correct answer is beignets. Pro tip, do not breathe in while taking a bite. Powdered sugar everywhere.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Kringla Bakeri og Kafe, home of the sweet custard-filled school bread, is in which Epcot pavilion?",
+          "answer": "Norway",
+          "accept": [
+            "norway",
+            "norway pavilion",
+            "the norway pavilion"
+          ],
+          "choices": [
+            "Norway",
+            "Germany",
+            "Sweden",
+            "Denmark"
+          ],
+          "reveal": "The correct answer is Norway. Grab a school bread after Frozen Ever After. Elsa would approve.",
+          "dailyDouble": true
+        },
+        {
+          "value": 1000,
+          "clue": "In Star Wars: Galaxy's Edge, a podracer engine turns the roasting spit at which eatery famous for the Ronto Wrap?",
+          "answer": "Ronto Roasters",
+          "accept": [
+            "ronto roasters",
+            "ronto roaster"
+          ],
+          "choices": [
+            "Ronto Roasters",
+            "Docking Bay 7",
+            "Oga's Cantina",
+            "The Milk Stand"
+          ],
+          "reveal": "The correct answer is Ronto Roasters. A droid named 8D-J8 runs the spit, which is the most Star Wars job description ever.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "snack-zoom",
+      "title": "Snack Zoom",
+      "kind": "media",
+      "intro": "Our picture category: I'm zooming way, way in on a famous park snack. The image slowly zooms out. Buzz in when you know it.",
+      "format": "zoom",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Zoomed way in. What park snack is this?",
+          "answer": "Popcorn",
+          "accept": [
+            "popcorn",
+            "a popcorn bucket",
+            "pop corn",
+            "popcorn bucket"
+          ],
+          "choices": [
+            "Popcorn",
+            "Kettle corn",
+            "Cotton candy",
+            "Puffed rice"
+          ],
+          "reveal": "The correct answer is popcorn. And the collectible popcorn bucket probably cost more than your ticket.",
+          "media": {
+            "type": "image",
+            "prompt": "Extreme close-up macro photo, shallow depth of field, theme park daylight, appetizing food photography, no people, no logos, no text: fluffy buttery popcorn spilling from a red and white striped paper box",
+            "file": "media/snack-attack--snack-zoom-200.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Zoomed way in. What park snack is this?",
+          "answer": "A churro",
+          "accept": [
+            "a churro",
+            "churro",
+            "churros"
+          ],
+          "choices": [
+            "A churro",
+            "A pretzel rod",
+            "A breadstick",
+            "A funnel cake"
+          ],
+          "reveal": "The correct answer is a churro. Ridges, cinnamon, sugar. The perfect walking snack.",
+          "media": {
+            "type": "image",
+            "prompt": "Extreme close-up macro photo, shallow depth of field, theme park daylight, appetizing food photography, no people, no logos, no text: a long ridged golden churro rolled in cinnamon sugar, held in a paper sleeve",
+            "file": "media/snack-attack--snack-zoom-400.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Zoomed way in. What famous Disney snack is this?",
+          "answer": "A Mickey pretzel",
+          "accept": [
+            "a mickey pretzel",
+            "a pretzel",
+            "mickey pretzel",
+            "mickey shaped pretzel",
+            "pretzel",
+            "soft pretzel"
+          ],
+          "choices": [
+            "A Mickey pretzel",
+            "A Mickey waffle",
+            "A Mickey beignet",
+            "A Mickey cookie"
+          ],
+          "reveal": "The correct answer is a Mickey pretzel. Three circles, coarse salt, and a side of cheese sauce. Perfection.",
+          "media": {
+            "type": "image",
+            "prompt": "Extreme close-up macro photo, shallow depth of field, theme park daylight, appetizing food photography, no people, no logos, no text: a soft baked pretzel shaped like one big circle with two smaller circles on top, glossy brown crust with coarse salt",
+            "file": "media/snack-attack--snack-zoom-600.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Zoomed way in. What frozen park treat is this?",
+          "answer": "A Mickey ice cream bar",
+          "accept": [
+            "a mickey ice cream bar",
+            "ice cream bar",
+            "mickey bar",
+            "mickey ice cream bar",
+            "mickey premium ice cream bar"
+          ],
+          "choices": [
+            "A Mickey ice cream bar",
+            "A Dole Whip",
+            "A frozen lemonade",
+            "A sundae"
+          ],
+          "reveal": "The correct answer is the Mickey ice cream bar. Vanilla inside, chocolate shell outside, melting down your arm in Florida heat.",
+          "media": {
+            "type": "image",
+            "prompt": "Extreme close-up macro photo, shallow depth of field, theme park daylight, appetizing food photography, no people, no logos, no text: a chocolate-coated vanilla ice cream bar on a wooden stick, shaped like one large circle with two smaller circles on top, a bite taken out",
+            "file": "media/snack-attack--snack-zoom-800.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Zoomed way in. What classic Disneyland snack is this?",
+          "answer": "A frozen banana",
+          "accept": [
+            "a frozen banana",
+            "chocolate banana",
+            "chocolate covered banana",
+            "chocolate dipped banana",
+            "frozen banana"
+          ],
+          "choices": [
+            "A frozen banana",
+            "A chocolate eclair",
+            "A corn dog",
+            "A churro"
+          ],
+          "reveal": "The correct answer is a frozen banana. Dipped in chocolate and nuts, it's been a Disneyland classic for decades.",
+          "media": {
+            "type": "image",
+            "prompt": "Extreme close-up macro photo, shallow depth of field, theme park daylight, appetizing food photography, no people, no logos, no text: a frozen banana on a stick dipped in dark chocolate and rolled in chopped peanuts",
+            "file": "media/snack-attack--snack-zoom-1000.jpg"
+          },
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "where-am-i-eating",
+      "title": "Where Am I Eating?",
+      "kind": "parks",
+      "intro": "Reservations, please! I'll describe a Disney restaurant, and you tell me where it is or what it's themed to.",
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Be Our Guest Restaurant in Magic Kingdom is themed to which film?",
+          "answer": "Beauty and the Beast",
+          "accept": [
+            "beauty and the beast",
+            "beauty & the beast"
+          ],
+          "choices": [
+            "Beauty and the Beast",
+            "Cinderella",
+            "Tangled",
+            "Frozen"
+          ],
+          "reveal": "The correct answer is Beauty and the Beast. Be our guest! And yes, I sang it in my head. You did too.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Cinderella's Royal Table serves princess meals inside which Magic Kingdom landmark?",
+          "answer": "Cinderella Castle",
+          "accept": [
+            "cinderella castle",
+            "cinderella's castle",
+            "cinderellas castle",
+            "the castle"
+          ],
+          "choices": [
+            "Cinderella Castle",
+            "Main Street Station",
+            "Liberty Square Tavern",
+            "Prince Charming Regal Carrousel"
+          ],
+          "reveal": "The correct answer is Cinderella Castle. Eating dinner inside the castle is the closest most of us will ever get to royalty.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "At Sci-Fi Dine-In Theater, you eat in a classic car while watching old monster movie clips. Which park is it in?",
+          "answer": "Disney's Hollywood Studios",
+          "accept": [
+            "disney's hollywood studios",
+            "disney mgm studios",
+            "hollywood studios",
+            "mgm",
+            "the studios"
+          ],
+          "choices": [
+            "Disney's Hollywood Studios",
+            "Epcot",
+            "Magic Kingdom",
+            "Disney's Animal Kingdom"
+          ],
+          "reveal": "The correct answer is Disney's Hollywood Studios. Dinner and a drive-in movie, minus the actual driving.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Disneyland's Blue Bayou restaurant sits in eternal twilight overlooking which ride?",
+          "answer": "Pirates of the Caribbean",
+          "accept": [
+            "pirates of the caribbean",
+            "pirates",
+            "pirates of the caribbean ride"
+          ],
+          "choices": [
+            "Pirates of the Caribbean",
+            "Haunted Mansion",
+            "Jungle Cruise",
+            "Tiana's Bayou Adventure"
+          ],
+          "reveal": "The correct answer is Pirates of the Caribbean. Wave to the boats as they float past your Monte Cristo sandwich.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Topolino's Terrace, a rooftop restaurant with a character breakfast, crowns which Walt Disney World resort?",
+          "answer": "Disney's Riviera Resort",
+          "accept": [
+            "disney's riviera resort",
+            "riviera",
+            "riviera resort",
+            "the riviera"
+          ],
+          "choices": [
+            "Disney's Riviera Resort",
+            "Disney's BoardWalk Inn",
+            "Disney's Yacht Club Resort",
+            "Disney's Contemporary Resort"
+          ],
+          "reveal": "The correct answer is Disney's Riviera Resort. Topolino is Mickey's name in Italian. Molto bene!",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "toon-food",
+      "title": "Toon Food",
+      "kind": "fan",
+      "intro": "Club DJ picked this one: famous foods from Disney movies. Try not to get hungry. I already failed.",
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "The Evil Queen tricks Snow White into taking a bite of a poisoned what?",
+          "answer": "Apple",
+          "accept": [
+            "apple",
+            "a poisoned apple",
+            "an apple",
+            "poison apple",
+            "poisoned apple",
+            "red apple"
+          ],
+          "choices": [
+            "Apple",
+            "Pear",
+            "Peach",
+            "Plum"
+          ],
+          "reveal": "The correct answer is an apple. Just one bite. Worst snack in Disney history.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Lady and the Tramp share a romantic plate of what at Tony's restaurant?",
+          "answer": "Spaghetti",
+          "accept": [
+            "spaghetti",
+            "pasta",
+            "spaghetti and meatballs",
+            "spaghetti with meatballs"
+          ],
+          "choices": [
+            "Spaghetti",
+            "Lasagna",
+            "Pizza",
+            "Ravioli"
+          ],
+          "reveal": "The correct answer is spaghetti and meatballs. And one very famous accidental noodle kiss.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "During Be Our Guest, Lumiere tells Belle to try what mysterious dish, because it's delicious?",
+          "answer": "The grey stuff",
+          "accept": [
+            "the grey stuff",
+            "gray stuff",
+            "grey stuff",
+            "the gray stuff"
+          ],
+          "choices": [
+            "The grey stuff",
+            "The cheese souffle",
+            "The beef ragout",
+            "The pie and pudding"
+          ],
+          "reveal": "The correct answer is the grey stuff. Don't believe me? Ask the dishes. You can even order it at Be Our Guest.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "As a little girl, Tiana cooks a big pot of which dish with her daddy and shares it with the neighbors?",
+          "answer": "Gumbo",
+          "accept": [
+            "gumbo",
+            "gumbo soup",
+            "seafood gumbo"
+          ],
+          "choices": [
+            "Gumbo",
+            "Jambalaya",
+            "Etouffee",
+            "Red beans and rice"
+          ],
+          "reveal": "The correct answer is gumbo. Tiana's daddy taught her that good food brings people together.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "In The Emperor's New Groove, Kronk is a surprisingly gifted chef famous for which appetizer?",
+          "answer": "Spinach puffs",
+          "accept": [
+            "spinach puffs",
+            "kronk's spinach puffs",
+            "spinach puff"
+          ],
+          "choices": [
+            "Spinach puffs",
+            "Cheese puffs",
+            "Mushroom tarts",
+            "Crab cakes"
+          ],
+          "reveal": "The correct answer is spinach puffs. Kronk, why do we even have that lever?",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,524 @@
+{
+  "id": "resort-hotels",
+  "title": "Check-In Time",
+  "theme": "Resort Hotels",
+  "tags": [
+    "parks",
+    "hotels",
+    "resorts",
+    "walt-disney-world"
+  ],
+  "intro": "Welcome in to Disney Jeopardy! Tonight's episode is all about the places we crash after a twelve hour park day: Disney's resort hotels. Your room is ready, your Magic Band is charged, so let's check in.",
+  "categories": [
+    {
+      "id": "aloha-lilo",
+      "title": "Aloha, Lilo",
+      "kind": "film",
+      "intro": "Our film category has some serious Polynesian Village energy. It's Lilo and Stitch, the 2002 animated original.",
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Stitch was created as an alien experiment. What is his experiment number?",
+          "answer": "626",
+          "accept": [
+            "626",
+            "experiment 626",
+            "six twenty six",
+            "six two six"
+          ],
+          "choices": [
+            "626",
+            "625",
+            "221",
+            "007"
+          ],
+          "reveal": "The correct answer is 626. Even his number sounds a little chaotic.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "What Hawaiian word means family, where nobody gets left behind or forgotten?",
+          "answer": "Ohana",
+          "accept": [
+            "ohana",
+            "'ohana",
+            "o'hana"
+          ],
+          "choices": [
+            "Ohana",
+            "Aloha",
+            "Mahalo",
+            "Lanai"
+          ],
+          "reveal": "The correct answer is ohana. Also the name of a famous restaurant at the Polynesian Village, with all you care to enjoy skewers.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Lilo is a huge fan of which singer, whose songs fill the movie's soundtrack?",
+          "answer": "Elvis Presley",
+          "accept": [
+            "elvis presley",
+            "elvis",
+            "presley"
+          ],
+          "choices": [
+            "Elvis Presley",
+            "Frank Sinatra",
+            "Buddy Holly",
+            "Johnny Cash"
+          ],
+          "reveal": "The correct answer is Elvis Presley. Lilo even tries to teach Stitch to be a model citizen by acting like the King. Thank you very much.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Which mad scientist alien created Experiment 626?",
+          "answer": "Jumba Jookiba",
+          "accept": [
+            "jumba jookiba",
+            "doctor jumba",
+            "dr jumba",
+            "dr. jumba jookiba",
+            "jumba"
+          ],
+          "choices": [
+            "Jumba Jookiba",
+            "Pleakley",
+            "Captain Gantu",
+            "Cobra Bubbles"
+          ],
+          "reveal": "The correct answer is Jumba Jookiba. He calls it evil genius. Personally, I call it a very fluffy lawsuit waiting to happen.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "What is the name of Lilo's lumpy homemade doll?",
+          "answer": "Scrump",
+          "accept": [
+            "scrump",
+            "scrumps"
+          ],
+          "choices": [
+            "Scrump",
+            "Pudge",
+            "Mertle",
+            "Kiki"
+          ],
+          "reveal": "The correct answer is Scrump. Lilo made it herself, and it is adorable and terrifying at the same time.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "room-with-a-view",
+      "title": "Room With a View",
+      "kind": "theme",
+      "intro": "Let's tour the Walt Disney World resorts. Some of these views are worth the room rate. Some of them are a parking lot. Let's find out.",
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "The monorail glides right through the giant A-frame building of which Walt Disney World resort?",
+          "answer": "Disney's Contemporary Resort",
+          "accept": [
+            "disney's contemporary resort",
+            "contemporary",
+            "contemporary resort",
+            "the contemporary"
+          ],
+          "choices": [
+            "Disney's Contemporary Resort",
+            "Disney's Polynesian Village Resort",
+            "Disney's Grand Floridian Resort",
+            "Disney's Wilderness Lodge"
+          ],
+          "reveal": "The correct answer is the Contemporary Resort. Where else can you eat breakfast while a train zooms through the lobby?",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Which flagship resort, with white Victorian architecture and red roofs, sits on the Seven Seas Lagoon?",
+          "answer": "Disney's Grand Floridian Resort",
+          "accept": [
+            "disney's grand floridian resort",
+            "grand floridian",
+            "grand floridian resort and spa",
+            "the grand floridian"
+          ],
+          "choices": [
+            "Disney's Grand Floridian Resort",
+            "Disney's Beach Club Resort",
+            "Disney's BoardWalk Inn",
+            "Disney's Yacht Club Resort"
+          ],
+          "reveal": "The correct answer is the Grand Floridian Resort and Spa. Fancy, fancy. Pinkies up for afternoon tea.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "At Disney's Animal Kingdom Lodge, guests can watch giraffes and zebras from their balconies across grassy areas called what?",
+          "answer": "Savannas",
+          "accept": [
+            "savannas",
+            "savanna",
+            "savannah",
+            "savannahs",
+            "the savanna"
+          ],
+          "choices": [
+            "Savannas",
+            "Safaris",
+            "Pastures",
+            "Prairies"
+          ],
+          "reveal": "The correct answer is savannas. Waking up to a giraffe outside your window beats waking up to an alarm clock.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Disney's Wilderness Lodge, with its own erupting geyser, takes inspiration from which national park?",
+          "answer": "Yellowstone",
+          "accept": [
+            "yellowstone",
+            "yellowstone national park"
+          ],
+          "choices": [
+            "Yellowstone",
+            "Yosemite",
+            "Grand Canyon",
+            "Glacier"
+          ],
+          "reveal": "The correct answer is Yellowstone. The lodge is modeled on the Old Faithful Inn, and the geyser is a lot easier to visit.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Two resorts opened alongside Magic Kingdom on October 1, 1971: the Contemporary and which other?",
+          "answer": "Disney's Polynesian Village Resort",
+          "accept": [
+            "disney's polynesian village resort",
+            "polynesian",
+            "polynesian resort",
+            "polynesian village",
+            "polynesian village resort",
+            "the polynesian"
+          ],
+          "choices": [
+            "Disney's Polynesian Village Resort",
+            "Disney's Grand Floridian Resort",
+            "Disney's Wilderness Lodge",
+            "Disney's Caribbean Beach Resort"
+          ],
+          "reveal": "The correct answer is the Polynesian Village Resort. Over fifty years of Dole Whip on the beach. Not a bad retirement plan.",
+          "dailyDouble": true
+        }
+      ]
+    },
+    {
+      "id": "resorts-around-the-world",
+      "title": "Passport Check-In",
+      "kind": "parks",
+      "intro": "Pack your bags. We're leaving Florida to visit Disney hotels around the globe, from Hawaii to Tokyo to Paris.",
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Which Disney resort and spa sits on the island of Oahu in Hawaii?",
+          "answer": "Aulani",
+          "accept": [
+            "aulani",
+            "aulani a disney resort",
+            "aulani a disney resort and spa",
+            "aulani resort"
+          ],
+          "choices": [
+            "Aulani",
+            "Disney's Polynesian Village Resort",
+            "Disney's Vero Beach Resort",
+            "Disney's Hilton Head Island Resort"
+          ],
+          "reveal": "The correct answer is Aulani. Mickey in a Hawaiian shirt is the vacation energy we all need.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Which Tokyo DisneySea hotel is built right into the park itself, with Italian-style architecture?",
+          "answer": "Hotel MiraCosta",
+          "accept": [
+            "hotel miracosta",
+            "mira costa",
+            "miracosta",
+            "tokyo disneysea hotel miracosta"
+          ],
+          "choices": [
+            "Hotel MiraCosta",
+            "Tokyo Disneyland Hotel",
+            "Disney Ambassador Hotel",
+            "Toy Story Hotel"
+          ],
+          "reveal": "The correct answer is Hotel MiraCosta. Some rooms overlook the park, so you can watch the shows in your pajamas.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Disney's Grand Californian Hotel in Anaheim celebrates which architectural style?",
+          "answer": "Arts and Crafts",
+          "accept": [
+            "arts and crafts",
+            "american arts and crafts",
+            "arts & crafts",
+            "arts and crafts movement",
+            "craftsman"
+          ],
+          "choices": [
+            "Arts and Crafts",
+            "Art Deco",
+            "Victorian",
+            "Mission Revival"
+          ],
+          "reveal": "The correct answer is Arts and Crafts, also called Craftsman style. So much wood. So many cozy fireplaces.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "The Disneyland Hotel's three towers are named Adventure, Frontier, and what?",
+          "answer": "Fantasy",
+          "accept": [
+            "fantasy",
+            "fantasy tower",
+            "the fantasy tower"
+          ],
+          "choices": [
+            "Fantasy",
+            "Tomorrow",
+            "Discovery",
+            "Main Street"
+          ],
+          "reveal": "The correct answer is Fantasy. Each tower is themed to its land, right down to the headboards that light up with fireworks.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Which Disneyland Paris hotel reopened in 2021 as a showcase for Marvel artwork?",
+          "answer": "Disney's Hotel New York",
+          "accept": [
+            "disney's hotel new york",
+            "disney's hotel new york the art of marvel",
+            "hotel new york",
+            "hotel new york the art of marvel",
+            "new york"
+          ],
+          "choices": [
+            "Disney's Hotel New York",
+            "Disney's Sequoia Lodge",
+            "Disney's Newport Bay Club",
+            "Disney's Hotel Cheyenne"
+          ],
+          "reveal": "The correct answer is Disney's Hotel New York, The Art of Marvel. Superheroes in the hallways. Excelsior!",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "rhyme-time-check-in",
+      "title": "Rhyme Time: Check-In",
+      "kind": "media",
+      "intro": "It's Rhyme Time, hotel edition! Every answer is two words that rhyme. Think fast, and tip your bellhop.",
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "A hotel just for Mickey and Minnie, which is also a nickname for the whole Disney company.",
+          "answer": "Mouse House",
+          "accept": [
+            "mouse house",
+            "the mouse house"
+          ],
+          "choices": [
+            "Mouse House",
+            "Duck Truck",
+            "Dog Log",
+            "Cat Hat"
+          ],
+          "reveal": "The correct answer is Mouse House. Mickey's place, and also where all of our vacation money ends up.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "A giant room service dinner delivered to the castle's furry, grumpy prince.",
+          "answer": "Beast Feast",
+          "accept": [
+            "beast feast",
+            "beast's feast"
+          ],
+          "choices": [
+            "Beast Feast",
+            "Prince Mince",
+            "Rose Throws",
+            "Castle Hassle"
+          ],
+          "reveal": "The correct answer is Beast Feast. Be our guest, put our service to the test, and please use a napkin this time.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "A cozy little reading corner reserved for Peter Pan's pirate nemesis.",
+          "answer": "Hook Nook",
+          "accept": [
+            "hook nook",
+            "hook's nook",
+            "hook-nook"
+          ],
+          "choices": [
+            "Hook Nook",
+            "Croc Dock",
+            "Smee Tea",
+            "Pan Van"
+          ],
+          "reveal": "The correct answer is Hook Nook. Just don't bring a ticking clock in there. He gets very jumpy.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Fantasia's magical mop-pusher, hired by housekeeping to sweep your suite.",
+          "answer": "Room Broom",
+          "accept": [
+            "room broom",
+            "broom room",
+            "room-broom"
+          ],
+          "choices": [
+            "Room Broom",
+            "Hall Mall",
+            "Suite Sweep",
+            "Bucket Duck"
+          ],
+          "reveal": "The correct answer is Room Broom. Just never let Mickey give it a wizard hat. The flooding is not covered by the deposit.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "The sleepwear of the Emperor's New Groove villain who turned Kuzco into a llama.",
+          "answer": "Yzma's Pajamas",
+          "accept": [
+            "yzma's pajamas",
+            "izma's pajamas",
+            "yzma pajamas",
+            "yzma's pyjamas",
+            "yzmas pajamas",
+            "yzmas pyjamas"
+          ],
+          "choices": [
+            "Yzma's Pajamas",
+            "Kronk's Honks",
+            "Kuzco's Clothes",
+            "Pacha's Pashmina"
+          ],
+          "reveal": "The correct answer is Yzma's Pajamas. Pull the lever, Kronk! Wrong lever!",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "do-not-disturb",
+      "title": "Do Not Disturb",
+      "kind": "fan",
+      "intro": "After all that check-in excitement, our fan category is about Disney characters who really love a good nap. Hang that sign on the door.",
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Which of the Seven Dwarfs can barely keep his eyes open?",
+          "answer": "Sleepy",
+          "accept": [
+            "sleepy",
+            "sleepy dwarf"
+          ],
+          "choices": [
+            "Sleepy",
+            "Dopey",
+            "Bashful",
+            "Happy"
+          ],
+          "reveal": "The correct answer is Sleepy. Honestly, after a park day, we are all Sleepy.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Princess Aurora falls into an enchanted sleep after pricking her finger on what?",
+          "answer": "A spinning wheel",
+          "accept": [
+            "a spinning wheel",
+            "a spindle",
+            "spindle",
+            "spindle of a spinning wheel",
+            "spinning wheel",
+            "the spinning wheel"
+          ],
+          "choices": [
+            "A spinning wheel",
+            "A rose thorn",
+            "A sewing needle",
+            "A golden comb"
+          ],
+          "reveal": "The correct answer is the spindle of a spinning wheel. Maleficent did not hold back on the birthday gift.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Which Jungle Book python sings Trust in Me while trying to hypnotize Mowgli to sleep?",
+          "answer": "Kaa",
+          "accept": [
+            "kaa",
+            "ka"
+          ],
+          "choices": [
+            "Kaa",
+            "Shere Khan",
+            "Bagheera",
+            "Hathi"
+          ],
+          "reveal": "The correct answer is Kaa. Those spiral eyes are the original screensaver.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Which Alice in Wonderland tea party guest keeps dozing off and ends up stuffed in a teapot?",
+          "answer": "The Dormouse",
+          "accept": [
+            "the dormouse",
+            "dor mouse",
+            "dormouse"
+          ],
+          "choices": [
+            "The Dormouse",
+            "The March Hare",
+            "The Cheshire Cat",
+            "The White Rabbit"
+          ],
+          "reveal": "The correct answer is the Dormouse. Calm him down with a little jam on his nose. That's real advice from the movie.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "In Sleeping Beauty, which good fairy decides to put the whole kingdom to sleep until Briar Rose awakens?",
+          "answer": "Flora",
+          "accept": [
+            "flora",
+            "flora the fairy"
+          ],
+          "choices": [
+            "Flora",
+            "Fauna",
+            "Merryweather",
+            "The Fairy Godmother"
+          ],
+          "reveal": "The correct answer is Flora, the fairy in red. Leadership qualities, and she's still wrong about the dress being pink.",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}

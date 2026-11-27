@@ -1,0 +1,519 @@
+{
+  "id": "disneyland-resort",
+  "title": "Walt's Original Magic Kingdom",
+  "theme": "Disneyland Resort",
+  "tags": [
+    "parks",
+    "disneyland",
+    "california",
+    "history"
+  ],
+  "intro": "Welcome in to Disney Jeopardy! Tonight we are heading west to Anaheim, the place where it all began, the Disneyland Resort. Grab your Mickey ears and a churro, because Walt's original park is the star of the show.",
+  "categories": [
+    {
+      "id": "yo-ho-yo-ho",
+      "title": "Yo Ho, Yo Ho",
+      "kind": "film",
+      "intro": "Our film category sails straight out of a Disneyland ride. It's Pirates of the Caribbean: The Curse of the Black Pearl. Savvy?",
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Johnny Depp's swaggering pirate in The Curse of the Black Pearl insists you add the title Captain to his name. Who is he?",
+          "answer": "Jack Sparrow",
+          "accept": [
+            "jack sparrow",
+            "captain jack sparrow",
+            "jack"
+          ],
+          "choices": [
+            "Jack Sparrow",
+            "Hector Barbossa",
+            "Will Turner",
+            "Davy Jones"
+          ],
+          "reveal": "The correct answer is Captain Jack Sparrow. Captain! Never forget the Captain, or he will give you that look.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "What is the name of the fast ship with black sails that Jack Sparrow wants back?",
+          "answer": "The Black Pearl",
+          "accept": [
+            "the black pearl",
+            "black pearl",
+            "pearl"
+          ],
+          "choices": [
+            "The Black Pearl",
+            "The Flying Dutchman",
+            "The Interceptor",
+            "Queen Anne's Revenge"
+          ],
+          "reveal": "The correct answer is the Black Pearl. It's right there in the title, folks. Free points for paying attention.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Barbossa's cursed crew are revealed as walking skeletons whenever they step into what?",
+          "answer": "Moonlight",
+          "accept": [
+            "moonlight",
+            "moon light",
+            "the moon",
+            "the moonlight"
+          ],
+          "choices": [
+            "Moonlight",
+            "Sunlight",
+            "Seawater",
+            "Fog"
+          ],
+          "reveal": "The correct answer is moonlight. Great news for their tanning budget, terrible news for their dating lives.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Barbossa's cursed pet monkey shares his name with which other pirate?",
+          "answer": "Jack",
+          "accept": [
+            "jack",
+            "jack sparrow",
+            "jack the monkey"
+          ],
+          "choices": [
+            "Jack",
+            "Will",
+            "Gibbs",
+            "Pintel"
+          ],
+          "reveal": "The correct answer is Jack. Barbossa named his monkey after his old captain, which is the pettiest thing a pirate has ever done.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "The cursed Aztec gold is stashed on which island that can only be found by those who already know where it is?",
+          "answer": "Isla de Muerta",
+          "accept": [
+            "isla de muerta",
+            "isla de la muerta",
+            "isla muerta",
+            "isle de muerta"
+          ],
+          "choices": [
+            "Isla de Muerta",
+            "Tortuga",
+            "Port Royal",
+            "Shipwreck Cove"
+          ],
+          "reveal": "The correct answer is Isla de Muerta, the Island of the Dead. Not a great spot for a beach vacation.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "walts-happy-place",
+      "title": "Walt's Happy Place",
+      "kind": "theme",
+      "intro": "Time for a little history class. These clues are all about Disneyland's past, from opening day to Walt's secret hideaways.",
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Disneyland is located in which California city?",
+          "answer": "Anaheim",
+          "accept": [
+            "anaheim"
+          ],
+          "choices": [
+            "Anaheim",
+            "Burbank",
+            "Los Angeles",
+            "San Diego"
+          ],
+          "reveal": "The correct answer is Anaheim. Walt bought orange groves there, so technically the happiest place on Earth used to be a juice farm.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "In what year did Disneyland first open its gates?",
+          "answer": "1955",
+          "accept": [
+            "1955",
+            "nineteen fifty five"
+          ],
+          "choices": [
+            "1955",
+            "1950",
+            "1960",
+            "1971"
+          ],
+          "reveal": "The correct answer is 1955. July 17th, to be exact. Happy birthday, Disneyland!",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Walt Disney had a private apartment hidden above which Main Street building?",
+          "answer": "The Fire Station",
+          "accept": [
+            "the fire station",
+            "fire department",
+            "fire house",
+            "fire station",
+            "firehouse",
+            "main street fire station",
+            "the firehouse"
+          ],
+          "choices": [
+            "The Fire Station",
+            "City Hall",
+            "The Emporium",
+            "The Main Street Cinema"
+          ],
+          "reveal": "The correct answer is the Fire Station. A lamp still glows in the window to show Walt is always with us. I'm not crying, you're crying.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Opening day in 1955 was so chaotic, with melted asphalt and broken water fountains, that employees nicknamed it what?",
+          "answer": "Black Sunday",
+          "accept": [
+            "black sunday",
+            "black sunday 1955"
+          ],
+          "choices": [
+            "Black Sunday",
+            "Mad Monday",
+            "Meltdown Day",
+            "Terrible Tuesday"
+          ],
+          "reveal": "The correct answer is Black Sunday. High heels got stuck in the fresh asphalt. Rough first day at the office.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Which Disneyland attraction, opened in 1959, was the world's first tubular steel roller coaster?",
+          "answer": "Matterhorn Bobsleds",
+          "accept": [
+            "matterhorn bobsleds",
+            "matterhorn",
+            "matterhorn bobsled",
+            "the matterhorn"
+          ],
+          "choices": [
+            "Matterhorn Bobsleds",
+            "Space Mountain",
+            "Big Thunder Mountain Railroad",
+            "Gadget's Go Coaster"
+          ],
+          "reveal": "The correct answer is the Matterhorn Bobsleds. Every steel coaster you love owes a thank you to this mountain.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "across-the-esplanade",
+      "title": "Across the Esplanade",
+      "kind": "parks",
+      "intro": "Let's walk across the plaza to Disneyland's sister park, Disney California Adventure. Watch out for the Incredicoaster screams.",
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Which Disney California Adventure land brings Radiator Springs to life?",
+          "answer": "Cars Land",
+          "accept": [
+            "cars land",
+            "cars",
+            "carsland"
+          ],
+          "choices": [
+            "Cars Land",
+            "Pixar Pier",
+            "Hollywood Land",
+            "Grizzly Peak"
+          ],
+          "reveal": "The correct answer is Cars Land. Ka-chow! The Cadillac Range glows at sunset and it is gorgeous.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Which Cars Land attraction races guests side by side through Ornament Valley?",
+          "answer": "Radiator Springs Racers",
+          "accept": [
+            "radiator springs racers",
+            "racers",
+            "radiator springs racer"
+          ],
+          "choices": [
+            "Radiator Springs Racers",
+            "Luigi's Rollickin' Roadsters",
+            "Mater's Junkyard Jamboree",
+            "Test Track"
+          ],
+          "reveal": "The correct answer is Radiator Springs Racers. Pro tip, the winning car is random, so stop leaning forward. It doesn't help.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Grizzly River Run splashes riders at the base of a mountain shaped like which animal?",
+          "answer": "A grizzly bear",
+          "accept": [
+            "a grizzly bear",
+            "a bear",
+            "bear",
+            "grizzly",
+            "grizzly bear"
+          ],
+          "choices": [
+            "A grizzly bear",
+            "An eagle",
+            "A bighorn sheep",
+            "A wolf"
+          ],
+          "reveal": "The correct answer is a grizzly bear. The land is literally called Grizzly Peak. Did the bear give it away?",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Before it became the Incredicoaster in 2018, Pixar Pier's big coaster went by what name?",
+          "answer": "California Screamin'",
+          "accept": [
+            "california screamin'",
+            "california screamin",
+            "california screaming",
+            "screamin"
+          ],
+          "choices": [
+            "California Screamin'",
+            "Rock 'n' Roller Coaster",
+            "Goofy's Sky School",
+            "Soarin' Over California"
+          ],
+          "reveal": "The correct answer is California Screamin'. Now the Incredibles chase baby Jack-Jack around the track instead.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "In what year did Disney California Adventure open next door to Disneyland?",
+          "answer": "2001",
+          "accept": [
+            "2001",
+            "two thousand one"
+          ],
+          "choices": [
+            "2001",
+            "1998",
+            "2003",
+            "2005"
+          ],
+          "reveal": "The correct answer is 2001. It has had a big glow-up since then. We don't talk about the early years.",
+          "dailyDouble": true
+        }
+      ]
+    },
+    {
+      "id": "emoji-land",
+      "title": "Emoji-Land",
+      "kind": "media",
+      "intro": "Name the Disneyland attraction from the emoji. I'll throw in a hint, because I am a generous host.",
+      "format": "emoji",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "🐘👂✈️  Name this Fantasyland attraction. Hint: an elephant who learned to fly.",
+          "answer": "Dumbo the Flying Elephant",
+          "accept": [
+            "dumbo the flying elephant",
+            "dumbo",
+            "dumbo the flying elephant ride"
+          ],
+          "choices": [
+            "Dumbo the Flying Elephant",
+            "Casey Jr. Circus Train",
+            "Mad Tea Party",
+            "King Arthur Carrousel"
+          ],
+          "reveal": "The correct answer is Dumbo the Flying Elephant. Big ears, big smiles, and a very long line for a ninety second spin.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "🌍👧🎶⛵  Name this boat ride. Hint: the happiest cruise that ever sailed.",
+          "answer": "It's a Small World",
+          "accept": [
+            "it's a small world",
+            "it's a small world after all",
+            "its a small world",
+            "small world"
+          ],
+          "choices": [
+            "It's a Small World",
+            "Storybook Land Canal Boats",
+            "Jungle Cruise",
+            "Pirates of the Caribbean"
+          ],
+          "reveal": "The correct answer is it's a small world. And now that song is stuck in your head for the rest of the night. You're welcome.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "👻🏚️🕰️  Name this New Orleans Square attraction. Hint: 999 happy haunts.",
+          "answer": "Haunted Mansion",
+          "accept": [
+            "haunted mansion",
+            "the haunted mansion"
+          ],
+          "choices": [
+            "Haunted Mansion",
+            "Pirates of the Caribbean",
+            "Phantom Manor",
+            "Tower of Terror"
+          ],
+          "reveal": "The correct answer is the Haunted Mansion. There's always room for one more, so hurry back.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "🦜🌺🗿🎶  Name this Adventureland show from 1963. Hint: the birds sing words and the flowers croon.",
+          "answer": "Walt Disney's Enchanted Tiki Room",
+          "accept": [
+            "walt disney's enchanted tiki room",
+            "enchanted tiki room",
+            "the enchanted tiki room",
+            "tiki room"
+          ],
+          "choices": [
+            "Walt Disney's Enchanted Tiki Room",
+            "Jungle Cruise",
+            "Adventureland Treehouse",
+            "Indiana Jones Adventure"
+          ],
+          "reveal": "The correct answer is Walt Disney's Enchanted Tiki Room, the first attraction to use Audio-Animatronics. Those birds were pioneers.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "🐸🚗💨🔥  Name this opening-day Fantasyland dark ride. Hint: a reckless amphibian behind the wheel.",
+          "answer": "Mr. Toad's Wild Ride",
+          "accept": [
+            "mr. toad's wild ride",
+            "mr toad",
+            "mr toads wild ride",
+            "mr. toad",
+            "toad's wild ride"
+          ],
+          "choices": [
+            "Mr. Toad's Wild Ride",
+            "Alice in Wonderland",
+            "Pinocchio's Daring Journey",
+            "Snow White's Enchanted Wish"
+          ],
+          "reveal": "The correct answer is Mr. Toad's Wild Ride. It's been running since 1955 and the ending still goes somewhere very warm.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "disneyland-deep-cuts",
+      "title": "Disneyland Deep Cuts",
+      "kind": "fan",
+      "intro": "The Club DJ crowd asked for Disneyland secrets, so let's dig into the stuff only the superfans know.",
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Which castle stands at the heart of Disneyland park?",
+          "answer": "Sleeping Beauty Castle",
+          "accept": [
+            "sleeping beauty castle",
+            "sleeping beauty",
+            "sleeping beauty's castle"
+          ],
+          "choices": [
+            "Sleeping Beauty Castle",
+            "Cinderella Castle",
+            "Castle of Magical Dreams",
+            "Enchanted Storybook Castle"
+          ],
+          "reveal": "The correct answer is Sleeping Beauty Castle. It's smaller than Cinderella's castle in Florida, but it's the original, baby.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "A colony of cats roams Disneyland at night, helping keep the park free of which pests?",
+          "answer": "Mice",
+          "accept": [
+            "mice",
+            "mouse",
+            "rats",
+            "rodent",
+            "rodents"
+          ],
+          "choices": [
+            "Mice",
+            "Pigeons",
+            "Squirrels",
+            "Snakes"
+          ],
+          "reveal": "The correct answer is mice. The irony of cats patrolling Mickey's house is not lost on me.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Disneyland's ultra-exclusive private dining club, Club 33, is tucked away in which land?",
+          "answer": "New Orleans Square",
+          "accept": [
+            "new orleans square",
+            "new orleans",
+            "new orleans sq"
+          ],
+          "choices": [
+            "New Orleans Square",
+            "Main Street, U.S.A.",
+            "Adventureland",
+            "Frontierland"
+          ],
+          "reveal": "The correct answer is New Orleans Square. Look for the little 33 by the door. No, you can't just walk in. I tried.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Sleeping Beauty Castle's design was inspired by which real castle in Bavaria, Germany?",
+          "answer": "Neuschwanstein Castle",
+          "accept": [
+            "neuschwanstein castle",
+            "neuschwanstein",
+            "neuschwanstein castle germany",
+            "neuschwanstien"
+          ],
+          "choices": [
+            "Neuschwanstein Castle",
+            "Hohenzollern Castle",
+            "Lichtenstein Castle",
+            "Eltz Castle"
+          ],
+          "reveal": "The correct answer is Neuschwanstein Castle. King Ludwig the Second built it in the 1800s, and Walt borrowed the vibe.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "The castle drawbridge has only been lowered twice: on opening day in 1955 and in what year, when a new Fantasyland debuted?",
+          "answer": "1983",
+          "accept": [
+            "1983",
+            "nineteen eighty three"
+          ],
+          "choices": [
+            "1983",
+            "1971",
+            "1995",
+            "2005"
+          ],
+          "reveal": "The correct answer is 1983, when the New Fantasyland opened. If you saw it, you are an elite Disney nerd and I salute you.",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}

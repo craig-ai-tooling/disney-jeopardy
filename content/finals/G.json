@@ -1,0 +1,149 @@
+[
+  {
+    "film": "Elemental",
+    "category": "Element City",
+    "clue": "In Elemental, Ember's family runs a shop in Firetown. What is the name of the shop?",
+    "answer": "The Fireplace",
+    "accept": [
+      "the fireplace",
+      "fire place",
+      "fireplace",
+      "the fire place"
+    ],
+    "choices": [
+      "The Fireplace",
+      "The Hearth",
+      "The Spark Shop",
+      "The Ember Emporium"
+    ],
+    "reveal": "The correct answer is the Fireplace. Ember's dad Bernie built it from nothing, and she nearly burned it down with that temper."
+  },
+  {
+    "film": "Luca",
+    "category": "Under the Italian Sun",
+    "clue": "In Luca, what is the name of the Italian seaside town where Luca and Alberto spend their summer?",
+    "answer": "Portorosso",
+    "accept": [
+      "portorosso",
+      "porto rosso",
+      "portorosa"
+    ],
+    "choices": [
+      "Portorosso",
+      "Portofino",
+      "Positano",
+      "Monterosso"
+    ],
+    "reveal": "The correct answer is Portorosso. It's fictional, inspired by the real towns of the Cinque Terre. Silenzio, Bruno!"
+  },
+  {
+    "film": "Turning Red",
+    "category": "Panda Mania",
+    "clue": "Turning Red follows Mei Lee as she turns into a giant red panda. In which Canadian city is the movie set?",
+    "answer": "Toronto",
+    "accept": [
+      "toronto",
+      "toronto canada",
+      "toronto ontario"
+    ],
+    "choices": [
+      "Toronto",
+      "Vancouver",
+      "Montreal",
+      "Ottawa"
+    ],
+    "reveal": "The correct answer is Toronto. The CN Tower even shows up in the big finale. Very Canadian, very red panda."
+  },
+  {
+    "film": "Onward",
+    "category": "Quest Mode",
+    "clue": "In Onward, what is the name of Barley's beloved purple van?",
+    "answer": "Guinevere",
+    "accept": [
+      "guinevere",
+      "guinevere the van",
+      "guinevere van",
+      "gwinevere"
+    ],
+    "choices": [
+      "Guinevere",
+      "Excalibur",
+      "Lady Bluebelle",
+      "Brigadoon"
+    ],
+    "reveal": "The correct answer is Guinevere. Barley loved that van like it was a noble steed. Rest in peace, Guinevere."
+  },
+  {
+    "film": "Soul",
+    "category": "Jazz Hands",
+    "clue": "In Soul, Joe Gardner's big break is a chance to play piano with which jazz legend's quartet?",
+    "answer": "Dorothea Williams",
+    "accept": [
+      "dorothea williams",
+      "dorothea",
+      "dorothea williams quartet"
+    ],
+    "choices": [
+      "Dorothea Williams",
+      "Ella Mae Jones",
+      "Billie Holloway",
+      "Nina Clarke"
+    ],
+    "reveal": "The correct answer is Dorothea Williams, the saxophone legend. Joe gets the gig, and then life gets very complicated."
+  },
+  {
+    "film": "A Bug's Life",
+    "category": "Under the Big Top",
+    "clue": "In A Bug's Life, Flik recruits a troupe of circus bugs who work for which flea ringmaster?",
+    "answer": "P.T. Flea",
+    "accept": [
+      "p.t. flea",
+      "p t flea",
+      "pt flea"
+    ],
+    "choices": [
+      "P.T. Flea",
+      "Molt",
+      "Slim",
+      "Thumper"
+    ],
+    "reveal": "The correct answer is P.T. Flea. Sorry, Molt and Thumper are grasshoppers, and they are definitely not circus material."
+  },
+  {
+    "film": "The Good Dinosaur",
+    "category": "Prehistoric Pals",
+    "clue": "In The Good Dinosaur, Arlo the Apatosaurus befriends a wild human boy. What name does Arlo give him?",
+    "answer": "Spot",
+    "accept": [
+      "spot",
+      "spot the boy"
+    ],
+    "choices": [
+      "Spot",
+      "Rover",
+      "Buddy",
+      "Scout"
+    ],
+    "reveal": "The correct answer is Spot. He acts more like a puppy than a boy, so honestly, fair name."
+  },
+  {
+    "film": "Incredibles 2",
+    "category": "Super Villains",
+    "clue": "In Incredibles 2, which villain hypnotizes people through their screens?",
+    "answer": "Screenslaver",
+    "accept": [
+      "screenslaver",
+      "evelyn",
+      "evelyn deavor",
+      "screen slaver",
+      "the screenslaver"
+    ],
+    "choices": [
+      "Screenslaver",
+      "Syndrome",
+      "The Underminer",
+      "Bomb Voyage"
+    ],
+    "reveal": "The correct answer is the Screenslaver, secretly Evelyn Deavor. A good reminder to put your phone down once in a while."
+  }
+]
