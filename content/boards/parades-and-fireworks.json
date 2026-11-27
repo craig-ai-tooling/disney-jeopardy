@@ -9,13 +9,21 @@
     "fireworks",
     "nighttime"
   ],
-  "intro": "Welcome in to Disney Jeopardy! Grab your spot on the curb early, because tonight is all about parades, fireworks, and nighttime spectaculars. The lights are dimming, the music is swelling, and it's showtime.",
+  "intro": "[excited] Welcome in to Disney Jeopardy! Grab your spot on the curb early, because tonight is all about parades, fireworks, and nighttime spectaculars. [whispers] The lights are dimming... [dramatic pause] and it's SHOWTIME.",
+  "art": {
+    "prompt": "Original digital painting, cinematic 16:9, rich saturated colors, warm magical lighting, storybook theme-park atmosphere, no text, no logos, no recognizable characters, no people's faces: a nighttime parade of glowing floats covered in thousands of twinkling lights rolling down a Victorian main street while huge colorful fireworks burst over a fairytale castle",
+    "file": "media/parades-and-fireworks.jpg"
+  },
   "categories": [
     {
       "id": "i-see-the-light",
       "title": "I See the Light",
       "kind": "film",
-      "intro": "Our film category features the most beautiful lantern scene in Disney history. It's 2010's Tangled. Let your hair down!",
+      "intro": "Our film category features the most beautiful lantern scene in Disney history... [sighs] I get chills. It's 2010's Tangled. Let your hair down!",
+      "art": {
+        "prompt": "Original digital painting, cinematic 16:9, rich saturated colors, warm magical lighting, storybook theme-park atmosphere, no text, no logos, no recognizable characters, no people's faces: thousands of glowing golden floating lanterns over a lake at night beside a medieval island kingdom, a small rowboat on the water",
+        "file": "media/parades-and-fireworks--i-see-the-light.jpg"
+      },
       "format": "text",
       "clues": [
         {
@@ -34,7 +42,7 @@
             "An iguana",
             "A gecko"
           ],
-          "reveal": "The correct answer is a chameleon. Pascal changes color to hide, but he can never hide that attitude.",
+          "reveal": "The correct answer is a chameleon. [laughs] Pascal changes color to hide, but he can NEVER hide that attitude.",
           "dailyDouble": false
         },
         {
@@ -54,7 +62,7 @@
             "A broom",
             "A paintbrush"
           ],
-          "reveal": "The correct answer is a frying pan. Frying pans, who knew, right? Flynn certainly didn't.",
+          "reveal": "[excited] The correct answer is a frying pan. Frying pans, who knew, right? Flynn certainly didn't.",
           "dailyDouble": false
         },
         {
@@ -72,7 +80,7 @@
             "Frederick Fitzgerald",
             "Edmund Fletcher"
           ],
-          "reveal": "The correct answer is Eugene Fitzherbert. Not quite as dashing as Flynn Rider, but unlike the wanted posters, his nose is perfect.",
+          "reveal": "The correct answer is Eugene Fitzherbert. [chuckles] Not quite as dashing as Flynn Rider, but unlike the wanted posters, his nose is perfect.",
           "dailyDouble": false
         },
         {
@@ -90,7 +98,7 @@
             "The Rusty Anchor",
             "The Cozy Cub"
           ],
-          "reveal": "The correct answer is the Snuggly Duckling. Hook Hand wanted to be a concert pianist. We love a dreamer.",
+          "reveal": "And the correct answer is the Snuggly Duckling. [mischievously] Hook Hand wanted to be a concert pianist. We love a dreamer.",
           "dailyDouble": false
         },
         {
@@ -108,7 +116,7 @@
             "17",
             "21"
           ],
-          "reveal": "The correct answer is 18. Eighteen years of lanterns, and she finally got to see them up close. Cue happy tears.",
+          "reveal": "[gasps] Oh, this one is TOUGH. The correct answer is... 18. Eighteen years of lanterns, and she finally got to see them up close. [sniffles] Cue happy tears.",
           "dailyDouble": false
         }
       ]
@@ -117,8 +125,12 @@
       "id": "light-up-the-sky",
       "title": "Light Up the Sky",
       "kind": "theme",
-      "intro": "Fireworks and nighttime spectaculars! Ooh and aah as you answer. I'll be listening for the ooh.",
-      "format": "text",
+      "intro": "[excited] Fireworks and nighttime spectaculars, in PICTURES! Ooh and aah as you answer. [chuckles] I'll be listening for the ooh.",
+      "art": {
+        "prompt": "Original digital painting, cinematic 16:9, rich saturated colors, warm magical lighting, storybook theme-park atmosphere, no text, no logos, no recognizable characters, no people's faces: brilliant fireworks exploding over a lagoon with colorful water fountains and glowing reflections, night sky full of sparkles",
+        "file": "media/parades-and-fireworks--light-up-the-sky.jpg"
+      },
+      "format": "picture",
       "clues": [
         {
           "value": 200,
@@ -136,8 +148,13 @@
             "Silvermist",
             "The Blue Fairy"
           ],
-          "reveal": "The correct answer is Tinker Bell. She has been flying over the castle since the 1960s, and she's never once missed her mark.",
-          "dailyDouble": false
+          "reveal": "[chuckles] The correct answer is Tinker Bell. [laughs] She has been flying over the castle since the 1960s, and she's never once missed her mark.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "Original illustration, 16:9, vivid colors, theme-park concept-art style, no text, no logos, no characters, no people: a glowing trail of golden pixie dust streaking down from the top spire of a fairytale castle into the night sky",
+            "file": "media/parades-and-fireworks--light-up-the-sky-200.jpg"
+          }
         },
         {
           "value": 400,
@@ -155,7 +172,12 @@
             "Wondrous Journeys"
           ],
           "reveal": "The correct answer is Fantasmic! Some imagination, huh? Mickey versus a giant dragon is never a fair fight for the dragon.",
-          "dailyDouble": false
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "Original illustration, 16:9, vivid colors, theme-park concept-art style, no text, no logos, no characters, no people: a nighttime river show with giant mist screens, flames dancing on the water and a lit-up paddlewheel riverboat",
+            "file": "media/parades-and-fireworks--light-up-the-sky-400.jpg"
+          }
         },
         {
           "value": 600,
@@ -173,8 +195,13 @@
             "Epcot",
             "Disney's Hollywood Studios"
           ],
-          "reveal": "The correct answer is Disney California Adventure. Stand in the splash zone at your own risk. You have been warned.",
-          "dailyDouble": false
+          "reveal": "[excited] The correct answer is Disney California Adventure. [laughs] Stand in the splash zone at your own risk. You have been warned.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "Original illustration, 16:9, vivid colors, theme-park concept-art style, no text, no logos, no characters, no people: huge rainbow-lit dancing water fountains in a bay at night with a seaside pier and big wheel glowing behind",
+            "file": "media/parades-and-fireworks--light-up-the-sky-600.jpg"
+          }
         },
         {
           "value": 800,
@@ -191,7 +218,12 @@
             "Fantasy in the Sky"
           ],
           "reveal": "The correct answer is Happily Ever After. Disney fans begged and begged, and their wish came true.",
-          "dailyDouble": false
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "Original illustration, 16:9, vivid colors, theme-park concept-art style, no text, no logos, no characters, no people: colorful fireworks bursting over a fairytale castle with dreamy colored light projected onto its towers",
+            "file": "media/parades-and-fireworks--light-up-the-sky-800.jpg"
+          }
         },
         {
           "value": 1000,
@@ -207,8 +239,13 @@
             "2017",
             "2020"
           ],
-          "reveal": "The correct answer is 2019. After about twenty years over World Showcase Lagoon, that giant Earth globe finally rested.",
-          "dailyDouble": false
+          "reveal": "[whispers] Only the true Disney nerds got this one. The correct answer is... 2019. [chuckles] After about twenty years over World Showcase Lagoon, that giant Earth globe finally rested.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "Original illustration, 16:9, vivid colors, theme-park concept-art style, no text, no logos, no characters, no people: a giant glowing globe floating on a dark lagoon ringed by flaming torches and fireworks, world-pavilion skyline around it",
+            "file": "media/parades-and-fireworks--light-up-the-sky-1000.jpg"
+          }
         }
       ]
     },
@@ -216,7 +253,11 @@
       "id": "parade-palettes",
       "title": "Parade Palettes",
       "kind": "media",
-      "intro": "Color Palettes are back! These are the outfit colors of characters you'd see in a Disney parade. Name the character.",
+      "intro": "Color Palettes are BACK! These are the outfit colors of characters you'd see in a Disney parade. [dramatic pause] Name the character.",
+      "art": {
+        "prompt": "Original digital painting, cinematic 16:9, rich saturated colors, warm magical lighting, storybook theme-park atmosphere, no text, no logos, no recognizable characters, no people's faces: an artist's palette with bold paint swatches beside a parade float covered in glittering lights and confetti",
+        "file": "media/parades-and-fireworks--parade-palettes.jpg"
+      },
       "format": "palette",
       "clues": [
         {
@@ -234,7 +275,7 @@
             "Tinker Bell",
             "Mulan"
           ],
-          "reveal": "The correct answer is Ariel. Green tail, purple seashells, and that famous red hair. You can spot her float from a mile away.",
+          "reveal": "The correct answer is Ariel. [mischievously] Green tail, purple seashells, and that famous red hair. You can spot her float from a mile away.",
           "palette": [
             "#1FA37A",
             "#7A4BA3",
@@ -257,7 +298,7 @@
             "Pluto",
             "Chip"
           ],
-          "reveal": "The correct answer is Donald Duck. A sailor shirt and hat, but famously, no pants. Classic Donald.",
+          "reveal": "[chuckles] The correct answer is Donald Duck. A sailor shirt and hat, but famously, no pants. Classic Donald.",
           "palette": [
             "#FFFFFF",
             "#1E4FA0",
@@ -281,7 +322,7 @@
             "Aurora",
             "Rapunzel"
           ],
-          "reveal": "The correct answer is Belle. That golden ball gown is one of the most iconic dresses in animation.",
+          "reveal": "The correct answer is Belle. [laughs] That golden ball gown is one of the most iconic dresses in animation.",
           "palette": [
             "#F6CF3E",
             "#E2A91E",
@@ -304,7 +345,7 @@
             "Mulan",
             "Ariel"
           ],
-          "reveal": "The correct answer is Snow White. Blue bodice, yellow skirt, red bow, and the original Disney princess.",
+          "reveal": "[excited] The correct answer is Snow White. Blue bodice, yellow skirt, red bow, and the original Disney princess.",
           "palette": [
             "#1C4E9D",
             "#F8D74A",
@@ -328,7 +369,7 @@
             "Horace Horsecollar",
             "Pete"
           ],
-          "reveal": "The correct answer is Goofy. Orange turtleneck, black vest, blue pants, and that floppy green hat. Ah-hyuck!",
+          "reveal": "[dramatic pause] And the correct answer is... Goofy. [laughs] Orange turtleneck, black vest, blue pants, and that floppy green hat. Ah-hyuck!",
           "palette": [
             "#F37A1F",
             "#111111",
@@ -344,7 +385,11 @@
       "id": "parade-route",
       "title": "Parade Route",
       "kind": "parks",
-      "intro": "Let's head to Main Street and grab a curb spot. This category is all about Disney parades, past and present.",
+      "intro": "Let's head to Main Street and grab a curb spot. [whispers] Don't let anyone take it. This category is all about Disney parades, past and present.",
+      "art": {
+        "prompt": "Original digital painting, cinematic 16:9, rich saturated colors, warm magical lighting, storybook theme-park atmosphere, no text, no logos, no recognizable characters, no people's faces: a nighttime parade float shaped like a glowing dragon rolling down a crowd-free Victorian main street, strings of twinkling lights",
+        "file": "media/parades-and-fireworks--parade-route.jpg"
+      },
       "format": "text",
       "clues": [
         {
@@ -363,7 +408,7 @@
             "SpectroMagic",
             "Festival of Fantasy"
           ],
-          "reveal": "The correct answer is the Main Street Electrical Parade. Ladies and gentlemen, boys and girls! You know the rest.",
+          "reveal": "And the correct answer is the Main Street Electrical Parade. Ladies and gentlemen, boys and girls! You know the rest.",
           "dailyDouble": false
         },
         {
@@ -380,7 +425,7 @@
             "Pete's Dragon",
             "Raya and the Last Dragon"
           ],
-          "reveal": "The correct answer is Sleeping Beauty. It's Maleficent, in her full steampunk dragon form, breathing real fire.",
+          "reveal": "The correct answer is Sleeping Beauty. [chuckles] It's Maleficent, in her full steampunk dragon form, breathing real fire.",
           "dailyDouble": false
         },
         {
@@ -399,7 +444,7 @@
             "Tokyo Disneyland",
             "Shanghai Disneyland"
           ],
-          "reveal": "The correct answer is Hong Kong Disneyland. It came to Disneyland a year later for the 60th anniversary.",
+          "reveal": "[chuckles] The correct answer is Hong Kong Disneyland. [mischievously] It came to Disneyland a year later for the 60th anniversary.",
           "dailyDouble": false
         },
         {
@@ -416,7 +461,7 @@
             "Light Fantastic",
             "Glow Waltz"
           ],
-          "reveal": "The correct answer is Baroque Hoedown. Beep boop boop beep boop. You heard it. Don't lie.",
+          "reveal": "[dramatic pause] The correct answer is... Baroque Hoedown. Beep boop boop beep boop. You heard it. Don't lie.",
           "dailyDouble": true
         },
         {
@@ -434,7 +479,7 @@
             "Epcot",
             "Tokyo Disneyland"
           ],
-          "reveal": "The correct answer is Magic Kingdom. SpectroMagic had fiber optics everywhere, and fans still miss it.",
+          "reveal": "Drumroll, please... the correct answer is Magic Kingdom. [laughs] SpectroMagic had fiber optics everywhere, and fans still miss it.",
           "dailyDouble": false
         }
       ]
@@ -443,7 +488,11 @@
       "id": "showstoppers",
       "title": "Showstoppers",
       "kind": "fan",
-      "intro": "Club DJ wanted stage shows! These are the live shows and theaters where you get to sit down, cool off, and be amazed.",
+      "intro": "Club DJ wanted stage shows! [excited] These are the live shows where you get to sit down, cool off, and be AMAZED.",
+      "art": {
+        "prompt": "Original digital painting, cinematic 16:9, rich saturated colors, warm magical lighting, storybook theme-park atmosphere, no text, no logos, no recognizable characters, no people's faces: an empty grand theater stage with red velvet curtains opening, spotlights, stage smoke and a huge golden proscenium arch",
+        "file": "media/parades-and-fireworks--showstoppers.jpg"
+      },
       "format": "text",
       "clues": [
         {
@@ -460,7 +509,7 @@
             "Tarzan",
             "Zootopia"
           ],
-          "reveal": "The correct answer is The Lion King. Cupcake round, folks. The title gave it away.",
+          "reveal": "The correct answer is The Lion King. [sarcastic] Cupcake round, folks. The title gave it away.",
           "dailyDouble": false
         },
         {
@@ -478,7 +527,7 @@
             "Aladdin",
             "Cinderella"
           ],
-          "reveal": "The correct answer is Beauty and the Beast. Live on stage since 1991. No one performs like Gaston.",
+          "reveal": "And the correct answer is Beauty and the Beast. [laughs] Live on stage since 1991. No one performs like Gaston.",
           "dailyDouble": false
         },
         {
@@ -519,7 +568,7 @@
             "His magic wand",
             "His golden key"
           ],
-          "reveal": "The correct answer is Mickey's sorcerer hat. Donald never learns. Not from Fantasia, not from anything.",
+          "reveal": "[chuckles] The correct answer is Mickey's sorcerer hat. Donald never learns. Not from Fantasia, not from anything.",
           "dailyDouble": false
         },
         {
@@ -537,7 +586,7 @@
             "Edgar Allan Poe",
             "Washington Irving"
           ],
-          "reveal": "The correct answer is Mark Twain. Ben Franklin even climbs a staircase in that show. Pretty impressive for a robot.",
+          "reveal": "[gasps] Oh, this one is TOUGH. The correct answer is... Mark Twain. [mischievously] Ben Franklin even climbs a staircase in that show. Pretty impressive for a robot.",
           "dailyDouble": false
         }
       ]

@@ -8,13 +8,21 @@
     "california",
     "history"
   ],
-  "intro": "Welcome in to Disney Jeopardy! Tonight we are heading west to Anaheim, the place where it all began, the Disneyland Resort. Grab your Mickey ears and a churro, because Walt's original park is the star of the show.",
+  "intro": "[excited] Welcome in to Disney Jeopardy! Tonight we are heading WEST to Anaheim... the place where it all began, the Disneyland Resort. Grab your ears and a churro, [chuckles] because Walt's original park is the star of the show.",
+  "art": {
+    "prompt": "Original digital painting, cinematic 16:9, rich saturated colors, warm magical lighting, storybook theme-park atmosphere, no text, no logos, no recognizable characters, no people's faces: a pink-and-blue fairytale castle at golden hour seen down a gaslit Victorian main street, a red horse-drawn streetcar, orange groves on the horizon, balloons and bunting, 1950s California charm",
+    "file": "media/disneyland-resort.jpg"
+  },
   "categories": [
     {
       "id": "yo-ho-yo-ho",
       "title": "Yo Ho, Yo Ho",
       "kind": "film",
-      "intro": "Our film category sails straight out of a Disneyland ride. It's Pirates of the Caribbean: The Curse of the Black Pearl. Savvy?",
+      "intro": "[mischievously] Our film category sails straight out of a Disneyland ride. It's Pirates of the Caribbean: The Curse of the Black Pearl. Savvy?",
+      "art": {
+        "prompt": "Original digital painting, cinematic 16:9, rich saturated colors, warm magical lighting, storybook theme-park atmosphere, no text, no logos, no recognizable characters, no people's faces: a black-sailed pirate galleon under a full moon on a misty Caribbean sea, a treasure chest of glowing gold coins on a cave shore",
+        "file": "media/disneyland-resort--yo-ho-yo-ho.jpg"
+      },
       "format": "text",
       "clues": [
         {
@@ -32,7 +40,7 @@
             "Will Turner",
             "Davy Jones"
           ],
-          "reveal": "The correct answer is Captain Jack Sparrow. Captain! Never forget the Captain, or he will give you that look.",
+          "reveal": "The correct answer is Captain Jack Sparrow. [laughs] Captain! Never forget the Captain, or he will give you that look.",
           "dailyDouble": false
         },
         {
@@ -50,7 +58,7 @@
             "The Interceptor",
             "Queen Anne's Revenge"
           ],
-          "reveal": "The correct answer is the Black Pearl. It's right there in the title, folks. Free points for paying attention.",
+          "reveal": "[excited] The correct answer is the Black Pearl. It's right there in the title, folks. [chuckles] Free points for paying attention.",
           "dailyDouble": false
         },
         {
@@ -69,7 +77,7 @@
             "Seawater",
             "Fog"
           ],
-          "reveal": "The correct answer is moonlight. Great news for their tanning budget, terrible news for their dating lives.",
+          "reveal": "The correct answer is moonlight. [chuckles] Great news for their tanning budget, terrible news for their dating lives.",
           "dailyDouble": false
         },
         {
@@ -87,7 +95,7 @@
             "Gibbs",
             "Pintel"
           ],
-          "reveal": "The correct answer is Jack. Barbossa named his monkey after his old captain, which is the pettiest thing a pirate has ever done.",
+          "reveal": "And the correct answer is Jack. [mischievously] Barbossa named his monkey after his old captain, which is the pettiest thing a pirate has ever done.",
           "dailyDouble": false
         },
         {
@@ -106,7 +114,7 @@
             "Port Royal",
             "Shipwreck Cove"
           ],
-          "reveal": "The correct answer is Isla de Muerta, the Island of the Dead. Not a great spot for a beach vacation.",
+          "reveal": "[dramatic pause] The correct answer is... Isla de Muerta, the Island of the Dead. Not a great spot for a beach vacation.",
           "dailyDouble": false
         }
       ]
@@ -115,7 +123,11 @@
       "id": "walts-happy-place",
       "title": "Walt's Happy Place",
       "kind": "theme",
-      "intro": "Time for a little history class. These clues are all about Disneyland's past, from opening day to Walt's secret hideaways.",
+      "intro": "Time for a little history class. [chuckles] Don't worry, there's no homework. These clues are all about Disneyland's past, from opening day to Walt's secret hideaways.",
+      "art": {
+        "prompt": "Original digital painting, cinematic 16:9, rich saturated colors, warm magical lighting, storybook theme-park atmosphere, no text, no logos, no recognizable characters, no people's faces: a vintage 1955 opening-day scene: a hand-painted map of a theme park, a glowing lamp in a firehouse window, sepia tones mixed with bright colors",
+        "file": "media/disneyland-resort--walts-happy-place.jpg"
+      },
       "format": "text",
       "clues": [
         {
@@ -131,7 +143,7 @@
             "Los Angeles",
             "San Diego"
           ],
-          "reveal": "The correct answer is Anaheim. Walt bought orange groves there, so technically the happiest place on Earth used to be a juice farm.",
+          "reveal": "[chuckles] The correct answer is Anaheim. [laughs] Walt bought orange groves there, so technically the happiest place on Earth used to be a juice farm.",
           "dailyDouble": false
         },
         {
@@ -170,7 +182,7 @@
             "The Emporium",
             "The Main Street Cinema"
           ],
-          "reveal": "The correct answer is the Fire Station. A lamp still glows in the window to show Walt is always with us. I'm not crying, you're crying.",
+          "reveal": "[excited] The correct answer is the Fire Station. A lamp still glows in the window to show Walt is always with us. [sniffles] I'm not crying, you're crying.",
           "dailyDouble": false
         },
         {
@@ -206,7 +218,7 @@
             "Big Thunder Mountain Railroad",
             "Gadget's Go Coaster"
           ],
-          "reveal": "The correct answer is the Matterhorn Bobsleds. Every steel coaster you love owes a thank you to this mountain.",
+          "reveal": "Drumroll, please... the correct answer is the Matterhorn Bobsleds. [chuckles] Every steel coaster you love owes a thank you to this mountain.",
           "dailyDouble": false
         }
       ]
@@ -215,8 +227,12 @@
       "id": "across-the-esplanade",
       "title": "Across the Esplanade",
       "kind": "parks",
-      "intro": "Let's walk across the plaza to Disneyland's sister park, Disney California Adventure. Watch out for the Incredicoaster screams.",
-      "format": "text",
+      "intro": "Let's walk across the plaza to Disneyland's sister park, Disney California Adventure. [excited] It's a PICTURE category, so feast your eyes!",
+      "art": {
+        "prompt": "Original digital painting, cinematic 16:9, rich saturated colors, warm magical lighting, storybook theme-park atmosphere, no text, no logos, no recognizable characters, no people's faces: a sunlit California seaside pier with a big wheel and a looping coaster, red-rock desert mountains shaped like car tail fins in the distance",
+        "file": "media/disneyland-resort--across-the-esplanade.jpg"
+      },
+      "format": "picture",
       "clues": [
         {
           "value": 200,
@@ -233,8 +249,13 @@
             "Hollywood Land",
             "Grizzly Peak"
           ],
-          "reveal": "The correct answer is Cars Land. Ka-chow! The Cadillac Range glows at sunset and it is gorgeous.",
-          "dailyDouble": false
+          "reveal": "The correct answer is Cars Land. [mischievously] Ka-chow! The Cadillac Range glows at sunset and it is gorgeous.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "Original illustration, 16:9, vivid colors, theme-park concept-art style, no text, no logos, no characters, no people: a desert-town main street at sunset with vintage gas stations and neon motel signs, red-rock mountains shaped like classic car tail fins behind",
+            "file": "media/disneyland-resort--across-the-esplanade-200.jpg"
+          }
         },
         {
           "value": 400,
@@ -251,8 +272,13 @@
             "Mater's Junkyard Jamboree",
             "Test Track"
           ],
-          "reveal": "The correct answer is Radiator Springs Racers. Pro tip, the winning car is random, so stop leaning forward. It doesn't help.",
-          "dailyDouble": false
+          "reveal": "[chuckles] The correct answer is Radiator Springs Racers. [whispers] Pro tip, the winning car is random, so stop leaning forward. It doesn't help.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "Original illustration, 16:9, vivid colors, theme-park concept-art style, no text, no logos, no characters, no people: an empty winding racetrack curving through red-rock buttes and desert canyons at golden hour, dust in the air",
+            "file": "media/disneyland-resort--across-the-esplanade-400.jpg"
+          }
         },
         {
           "value": 600,
@@ -271,8 +297,13 @@
             "A bighorn sheep",
             "A wolf"
           ],
-          "reveal": "The correct answer is a grizzly bear. The land is literally called Grizzly Peak. Did the bear give it away?",
-          "dailyDouble": false
+          "reveal": "The correct answer is a grizzly bear. The land is LITERALLY called Grizzly Peak. [sarcastic] Did the bear give it away?",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "Original illustration, 16:9, vivid colors, theme-park concept-art style, no text, no logos, no characters, no people: a rocky mountain peak carved by nature into the shape of a roaring bear's head above a whitewater river with round rafts",
+            "file": "media/disneyland-resort--across-the-esplanade-600.jpg"
+          }
         },
         {
           "value": 800,
@@ -290,8 +321,13 @@
             "Goofy's Sky School",
             "Soarin' Over California"
           ],
-          "reveal": "The correct answer is California Screamin'. Now the Incredibles chase baby Jack-Jack around the track instead.",
-          "dailyDouble": false
+          "reveal": "[excited] The correct answer is California Screamin'. Now the Incredibles chase baby Jack-Jack around the track instead.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "Original illustration, 16:9, vivid colors, theme-park concept-art style, no text, no logos, no characters, no people: a long white steel roller coaster with a big loop on a seaside boardwalk pier at dusk, carnival lights",
+            "file": "media/disneyland-resort--across-the-esplanade-800.jpg"
+          }
         },
         {
           "value": 1000,
@@ -307,8 +343,13 @@
             "2003",
             "2005"
           ],
-          "reveal": "The correct answer is 2001. It has had a big glow-up since then. We don't talk about the early years.",
-          "dailyDouble": true
+          "reveal": "[gasps] Oh, this one is TOUGH. The correct answer is... 2001. [laughs] It has had a big glow-up since then. We don't talk about the early years.",
+          "dailyDouble": true,
+          "media": {
+            "type": "image",
+            "prompt": "Original illustration, 16:9, vivid colors, theme-park concept-art style, no text, no logos, no characters, no people: a bright California-themed theme-park entrance plaza with a golden bridge sculpture and blue sky, dated postcard feel",
+            "file": "media/disneyland-resort--across-the-esplanade-1000.jpg"
+          }
         }
       ]
     },
@@ -316,7 +357,11 @@
       "id": "emoji-land",
       "title": "Emoji-Land",
       "kind": "media",
-      "intro": "Name the Disneyland attraction from the emoji. I'll throw in a hint, because I am a generous host.",
+      "intro": "Name the Disneyland attraction from the emoji. I'll throw in a hint... [sarcastic] because I am SUCH a generous host.",
+      "art": {
+        "prompt": "Original digital painting, cinematic 16:9, rich saturated colors, warm magical lighting, storybook theme-park atmosphere, no text, no logos, no recognizable characters, no people's faces: giant glossy cartoon emoji-style bubbles floating over a fantasy theme-park skyline: an elephant ear, a ghost, a tropical flower, a little green car, a world globe",
+        "file": "media/disneyland-resort--emoji-land.jpg"
+      },
       "format": "emoji",
       "clues": [
         {
@@ -334,7 +379,7 @@
             "Mad Tea Party",
             "King Arthur Carrousel"
           ],
-          "reveal": "The correct answer is Dumbo the Flying Elephant. Big ears, big smiles, and a very long line for a ninety second spin.",
+          "reveal": "And the correct answer is Dumbo the Flying Elephant. Big ears, big smiles, and a VERY long line for a ninety second spin.",
           "dailyDouble": false
         },
         {
@@ -353,7 +398,7 @@
             "Jungle Cruise",
             "Pirates of the Caribbean"
           ],
-          "reveal": "The correct answer is it's a small world. And now that song is stuck in your head for the rest of the night. You're welcome.",
+          "reveal": "The correct answer is it's a small world. And now that song is stuck in your head for the rest of the night. [laughs] You're welcome.",
           "dailyDouble": false
         },
         {
@@ -370,7 +415,7 @@
             "Phantom Manor",
             "Tower of Terror"
           ],
-          "reveal": "The correct answer is the Haunted Mansion. There's always room for one more, so hurry back.",
+          "reveal": "[chuckles] The correct answer is the Haunted Mansion. [mischievously] There's always room for one more, so hurry back.",
           "dailyDouble": false
         },
         {
@@ -409,7 +454,7 @@
             "Pinocchio's Daring Journey",
             "Snow White's Enchanted Wish"
           ],
-          "reveal": "The correct answer is Mr. Toad's Wild Ride. It's been running since 1955 and the ending still goes somewhere very warm.",
+          "reveal": "[whispers] Only the true Disney nerds got this one. The correct answer is... Mr. Toad's Wild Ride. [laughs] It's been running since 1955 and the ending still goes somewhere very warm.",
           "dailyDouble": false
         }
       ]
@@ -418,7 +463,11 @@
       "id": "disneyland-deep-cuts",
       "title": "Disneyland Deep Cuts",
       "kind": "fan",
-      "intro": "The Club DJ crowd asked for Disneyland secrets, so let's dig into the stuff only the superfans know.",
+      "intro": "[whispers] The Club DJ crowd asked for Disneyland secrets... so let's dig into the stuff only the superfans know.",
+      "art": {
+        "prompt": "Original digital painting, cinematic 16:9, rich saturated colors, warm magical lighting, storybook theme-park atmosphere, no text, no logos, no recognizable characters, no people's faces: a hidden ornate door with brass fixtures in a New Orleans-style courtyard at night, a sleepy cat on a bench, lantern light",
+        "file": "media/disneyland-resort--disneyland-deep-cuts.jpg"
+      },
       "format": "text",
       "clues": [
         {
@@ -456,7 +505,7 @@
             "Squirrels",
             "Snakes"
           ],
-          "reveal": "The correct answer is mice. The irony of cats patrolling Mickey's house is not lost on me.",
+          "reveal": "And the correct answer is mice. [laughs] The irony of cats patrolling Mickey's house is not lost on me.",
           "dailyDouble": false
         },
         {
@@ -474,7 +523,7 @@
             "Adventureland",
             "Frontierland"
           ],
-          "reveal": "The correct answer is New Orleans Square. Look for the little 33 by the door. No, you can't just walk in. I tried.",
+          "reveal": "The correct answer is New Orleans Square. Look for the little 33 by the door. No, you can't just walk in. [sighs] I tried.",
           "dailyDouble": false
         },
         {
@@ -493,7 +542,7 @@
             "Lichtenstein Castle",
             "Eltz Castle"
           ],
-          "reveal": "The correct answer is Neuschwanstein Castle. King Ludwig the Second built it in the 1800s, and Walt borrowed the vibe.",
+          "reveal": "[chuckles] The correct answer is Neuschwanstein Castle. King Ludwig the Second built it in the 1800s, and Walt borrowed the vibe.",
           "dailyDouble": false
         },
         {
@@ -510,7 +559,7 @@
             "1995",
             "2005"
           ],
-          "reveal": "The correct answer is 1983, when the New Fantasyland opened. If you saw it, you are an elite Disney nerd and I salute you.",
+          "reveal": "[dramatic pause] And the correct answer is... 1983, when the New Fantasyland opened. [mischievously] If you saw it, you are an elite Disney nerd and I salute you.",
           "dailyDouble": false
         }
       ]

@@ -7,13 +7,21 @@
     "food",
     "snacks"
   ],
-  "intro": "Welcome in to Disney Jeopardy! I hope you came hungry, because tonight's episode is a Snack Attack. Churros, Dole Whip, turkey legs, it's all on the menu. Let's dig in.",
+  "intro": "[excited] Welcome in to Disney Jeopardy! I hope you came HUNGRY, because tonight's episode is a Snack Attack. Churros, Dole Whip, turkey legs... [laughs] it's all on the menu. Let's dig in.",
+  "art": {
+    "prompt": "Original digital painting, cinematic 16:9, rich saturated colors, warm magical lighting, storybook theme-park atmosphere, no text, no logos, no recognizable characters, no people's faces: a sunny theme-park snack cart bursting with treats: churros in paper sleeves, a swirled pineapple soft-serve cone, a smoked turkey leg, striped popcorn boxes, pretzels and frozen bananas, castle spires blurred in the background",
+    "file": "media/snack-attack.jpg"
+  },
   "categories": [
     {
       "id": "anyone-can-cook",
       "title": "Anyone Can Cook",
       "kind": "film",
-      "intro": "Our film category is cooking up something special. It's Pixar's 2007 masterpiece, Ratatouille. Wash your paws first.",
+      "intro": "Our film category is cooking up something SPECIAL. It's Pixar's 2007 masterpiece, Ratatouille. [chuckles] Wash your paws first.",
+      "art": {
+        "prompt": "Original digital painting, cinematic 16:9, rich saturated colors, warm magical lighting, storybook theme-park atmosphere, no text, no logos, no recognizable characters, no people's faces: a bustling Parisian restaurant kitchen at night with copper pots, a bubbling pot of vegetable stew, a tiny chef's hat on the counter and Paris rooftops through the window",
+        "file": "media/snack-attack--anyone-can-cook.jpg"
+      },
       "format": "text",
       "clues": [
         {
@@ -31,7 +39,7 @@
             "A hamster",
             "A squirrel"
           ],
-          "reveal": "The correct answer is a rat. Not a mouse. Mickey would like to clarify that he is not involved.",
+          "reveal": "The correct answer is a rat. [laughs] Not a mouse. Mickey would like to clarify that he is not involved.",
           "dailyDouble": false
         },
         {
@@ -48,7 +56,7 @@
             "Rome",
             "Marseille"
           ],
-          "reveal": "The correct answer is Paris. And you can visit his rooftop world at Epcot's France pavilion. Ooh la la.",
+          "reveal": "[excited] The correct answer is Paris. And you can visit his rooftop world at Epcot's France pavilion. Ooh la la.",
           "dailyDouble": false
         },
         {
@@ -65,7 +73,7 @@
             "Mimi",
             "Giselle"
           ],
-          "reveal": "The correct answer is Colette. Keep your station clean or she will absolutely make you regret it.",
+          "reveal": "The correct answer is Colette. [chuckles] Keep your station clean or she will absolutely make you regret it.",
           "dailyDouble": false
         },
         {
@@ -82,7 +90,7 @@
             "Horst",
             "Lalo"
           ],
-          "reveal": "The correct answer is Chef Skinner. Frozen burritos with Gusteau's name on them. The horror.",
+          "reveal": "And the correct answer is Chef Skinner. Frozen burritos with Gusteau's name on them. [gasps] The horror.",
           "dailyDouble": false
         },
         {
@@ -100,7 +108,7 @@
             "Git",
             "Lalo"
           ],
-          "reveal": "The correct answer is Emile. Django is their dad. Emile would eat literally anything, garbage included.",
+          "reveal": "[dramatic pause] The correct answer is... Emile. Django is their dad. Emile would eat literally anything, garbage included.",
           "dailyDouble": false
         }
       ]
@@ -109,7 +117,11 @@
       "id": "iconic-park-snacks",
       "title": "Snackin' in the Parks",
       "kind": "theme",
-      "intro": "These are the snacks people plan entire vacations around. And I mean entire vacations.",
+      "intro": "These are the snacks people plan ENTIRE vacations around. [laughs] And I mean entire vacations.",
+      "art": {
+        "prompt": "Original digital painting, cinematic 16:9, rich saturated colors, warm magical lighting, storybook theme-park atmosphere, no text, no logos, no recognizable characters, no people's faces: a colorful flat-lay of theme-park snacks on a sunny table: pineapple soft-serve swirl, powdered beignets, a turkey leg and custard buns",
+        "file": "media/snack-attack--iconic-park-snacks.jpg"
+      },
       "format": "text",
       "clues": [
         {
@@ -128,7 +140,7 @@
             "Lemon Swirl",
             "Pineapple Float"
           ],
-          "reveal": "The correct answer is Dole Whip. If you skip it, did you even go to Disney?",
+          "reveal": "[chuckles] The correct answer is Dole Whip. [laughs] If you skip it, did you even go to Disney?",
           "dailyDouble": false
         },
         {
@@ -166,7 +178,7 @@
             "Churros",
             "Croissants"
           ],
-          "reveal": "The correct answer is beignets. Pro tip, do not breathe in while taking a bite. Powdered sugar everywhere.",
+          "reveal": "[excited] The correct answer is beignets. [whispers] Pro tip, do not breathe in while taking a bite. Powdered sugar everywhere.",
           "dailyDouble": false
         },
         {
@@ -184,7 +196,7 @@
             "Sweden",
             "Denmark"
           ],
-          "reveal": "The correct answer is Norway. Grab a school bread after Frozen Ever After. Elsa would approve.",
+          "reveal": "Drumroll, please... the correct answer is Norway. Grab a school bread after Frozen Ever After. Elsa would approve.",
           "dailyDouble": true
         },
         {
@@ -201,7 +213,7 @@
             "Oga's Cantina",
             "The Milk Stand"
           ],
-          "reveal": "The correct answer is Ronto Roasters. A droid named 8D-J8 runs the spit, which is the most Star Wars job description ever.",
+          "reveal": "[gasps] Oh, this one is TOUGH. The correct answer is... Ronto Roasters. [chuckles] A droid named 8D-J8 runs the spit, which is the most Star Wars job description ever.",
           "dailyDouble": false
         }
       ]
@@ -210,7 +222,11 @@
       "id": "snack-zoom",
       "title": "Snack Zoom",
       "kind": "media",
-      "intro": "Our picture category: I'm zooming way, way in on a famous park snack. The image slowly zooms out. Buzz in when you know it.",
+      "intro": "[mischievously] Our first picture category: I'm zooming way, WAY in on a famous park snack. The image slowly zooms out. Buzz in when you know it.",
+      "art": {
+        "prompt": "Original digital painting, cinematic 16:9, rich saturated colors, warm magical lighting, storybook theme-park atmosphere, no text, no logos, no recognizable characters, no people's faces: an extreme macro magnifying glass hovering over sugary cinnamon crystals and popcorn kernels, playful food photography",
+        "file": "media/snack-attack--snack-zoom.jpg"
+      },
       "format": "zoom",
       "clues": [
         {
@@ -229,7 +245,7 @@
             "Cotton candy",
             "Puffed rice"
           ],
-          "reveal": "The correct answer is popcorn. And the collectible popcorn bucket probably cost more than your ticket.",
+          "reveal": "The correct answer is popcorn. [mischievously] And the collectible popcorn bucket probably cost more than your ticket.",
           "media": {
             "type": "image",
             "prompt": "Extreme close-up macro photo, shallow depth of field, theme park daylight, appetizing food photography, no people, no logos, no text: fluffy buttery popcorn spilling from a red and white striped paper box",
@@ -252,7 +268,7 @@
             "A breadstick",
             "A funnel cake"
           ],
-          "reveal": "The correct answer is a churro. Ridges, cinnamon, sugar. The perfect walking snack.",
+          "reveal": "[chuckles] The correct answer is a churro. Ridges, cinnamon, sugar. The perfect walking snack.",
           "media": {
             "type": "image",
             "prompt": "Extreme close-up macro photo, shallow depth of field, theme park daylight, appetizing food photography, no people, no logos, no text: a long ridged golden churro rolled in cinnamon sugar, held in a paper sleeve",
@@ -278,7 +294,7 @@
             "A Mickey beignet",
             "A Mickey cookie"
           ],
-          "reveal": "The correct answer is a Mickey pretzel. Three circles, coarse salt, and a side of cheese sauce. Perfection.",
+          "reveal": "The correct answer is a Mickey pretzel. [laughs] Three circles, coarse salt, and a side of cheese sauce. Perfection.",
           "media": {
             "type": "image",
             "prompt": "Extreme close-up macro photo, shallow depth of field, theme park daylight, appetizing food photography, no people, no logos, no text: a soft baked pretzel shaped like one big circle with two smaller circles on top, glossy brown crust with coarse salt",
@@ -303,7 +319,7 @@
             "A frozen lemonade",
             "A sundae"
           ],
-          "reveal": "The correct answer is the Mickey ice cream bar. Vanilla inside, chocolate shell outside, melting down your arm in Florida heat.",
+          "reveal": "[excited] The correct answer is the Mickey ice cream bar. Vanilla inside, chocolate shell outside, melting down your arm in Florida heat.",
           "media": {
             "type": "image",
             "prompt": "Extreme close-up macro photo, shallow depth of field, theme park daylight, appetizing food photography, no people, no logos, no text: a chocolate-coated vanilla ice cream bar on a wooden stick, shaped like one large circle with two smaller circles on top, a bite taken out",
@@ -328,7 +344,7 @@
             "A corn dog",
             "A churro"
           ],
-          "reveal": "The correct answer is a frozen banana. Dipped in chocolate and nuts, it's been a Disneyland classic for decades.",
+          "reveal": "[whispers] Only the true Disney nerds got this one. The correct answer is... a frozen banana. [laughs] Dipped in chocolate and nuts, it's been a Disneyland classic for decades.",
           "media": {
             "type": "image",
             "prompt": "Extreme close-up macro photo, shallow depth of field, theme park daylight, appetizing food photography, no people, no logos, no text: a frozen banana on a stick dipped in dark chocolate and rolled in chopped peanuts",
@@ -342,8 +358,12 @@
       "id": "where-am-i-eating",
       "title": "Where Am I Eating?",
       "kind": "parks",
-      "intro": "Reservations, please! I'll describe a Disney restaurant, and you tell me where it is or what it's themed to.",
-      "format": "text",
+      "intro": "Reservations, please! [excited] It's another PICTURE category. I'll show you a Disney restaurant, and you tell me where it is or what it's themed to.",
+      "art": {
+        "prompt": "Original digital painting, cinematic 16:9, rich saturated colors, warm magical lighting, storybook theme-park atmosphere, no text, no logos, no recognizable characters, no people's faces: an elegant candlelit restaurant table set for dinner with fancy plates and a folded napkin, twilight fireflies glowing outside the window",
+        "file": "media/snack-attack--where-am-i-eating.jpg"
+      },
+      "format": "picture",
       "clues": [
         {
           "value": 200,
@@ -359,8 +379,13 @@
             "Tangled",
             "Frozen"
           ],
-          "reveal": "The correct answer is Beauty and the Beast. Be our guest! And yes, I sang it in my head. You did too.",
-          "dailyDouble": false
+          "reveal": "And the correct answer is Beauty and the Beast. Be our guest! And yes, I sang it in my head. You did too.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "Original illustration, 16:9, vivid colors, theme-park concept-art style, no text, no logos, no characters, no people: an opulent French castle ballroom dining hall with crystal chandeliers, gold trim and a painted starry ceiling, tables set for dinner",
+            "file": "media/snack-attack--where-am-i-eating-200.jpg"
+          }
         },
         {
           "value": 400,
@@ -378,8 +403,13 @@
             "Liberty Square Tavern",
             "Prince Charming Regal Carrousel"
           ],
-          "reveal": "The correct answer is Cinderella Castle. Eating dinner inside the castle is the closest most of us will ever get to royalty.",
-          "dailyDouble": false
+          "reveal": "The correct answer is Cinderella Castle. [chuckles] Eating dinner inside the castle is the closest most of us will ever get to royalty.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "Original illustration, 16:9, vivid colors, theme-park concept-art style, no text, no logos, no characters, no people: a medieval great hall restaurant with heraldic banners, stained glass windows and goblets, seen from high inside a castle tower",
+            "file": "media/snack-attack--where-am-i-eating-400.jpg"
+          }
         },
         {
           "value": 600,
@@ -398,8 +428,13 @@
             "Magic Kingdom",
             "Disney's Animal Kingdom"
           ],
-          "reveal": "The correct answer is Disney's Hollywood Studios. Dinner and a drive-in movie, minus the actual driving.",
-          "dailyDouble": false
+          "reveal": "[chuckles] The correct answer is Disney's Hollywood Studios. [mischievously] Dinner and a drive-in movie, minus the actual driving.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "Original illustration, 16:9, vivid colors, theme-park concept-art style, no text, no logos, no characters, no people: an indoor 1950s drive-in movie theater at night with dining tables built into vintage convertible cars facing a big screen glowing with a black-and-white flying saucer",
+            "file": "media/snack-attack--where-am-i-eating-600.jpg"
+          }
         },
         {
           "value": 800,
@@ -417,7 +452,12 @@
             "Tiana's Bayou Adventure"
           ],
           "reveal": "The correct answer is Pirates of the Caribbean. Wave to the boats as they float past your Monte Cristo sandwich.",
-          "dailyDouble": false
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "Original illustration, 16:9, vivid colors, theme-park concept-art style, no text, no logos, no characters, no people: a candlelit restaurant on a bayou in eternal twilight, fireflies, a wooden houseboat and lantern-lit boats drifting past on dark water",
+            "file": "media/snack-attack--where-am-i-eating-800.jpg"
+          }
         },
         {
           "value": 1000,
@@ -435,8 +475,13 @@
             "Disney's Yacht Club Resort",
             "Disney's Contemporary Resort"
           ],
-          "reveal": "The correct answer is Disney's Riviera Resort. Topolino is Mickey's name in Italian. Molto bene!",
-          "dailyDouble": false
+          "reveal": "[dramatic pause] And the correct answer is... Disney's Riviera Resort. [laughs] Topolino is Mickey's name in Italian. Molto bene!",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "Original illustration, 16:9, vivid colors, theme-park concept-art style, no text, no logos, no characters, no people: a sunny Mediterranean rooftop terrace restaurant overlooking a lagoon and resort gardens, Italian Riviera style with striped umbrellas",
+            "file": "media/snack-attack--where-am-i-eating-1000.jpg"
+          }
         }
       ]
     },
@@ -444,7 +489,11 @@
       "id": "toon-food",
       "title": "Toon Food",
       "kind": "fan",
-      "intro": "Club DJ picked this one: famous foods from Disney movies. Try not to get hungry. I already failed.",
+      "intro": "Club DJ picked this one: famous foods from Disney movies. Try not to get hungry... [sighs] I already failed.",
+      "art": {
+        "prompt": "Original digital painting, cinematic 16:9, rich saturated colors, warm magical lighting, storybook theme-park atmosphere, no text, no logos, no recognizable characters, no people's faces: a whimsical storybook banquet: a shiny red apple, a plate of spaghetti and meatballs, a steaming pot of gumbo, and a tray of golden puff pastries",
+        "file": "media/snack-attack--toon-food.jpg"
+      },
       "format": "text",
       "clues": [
         {
@@ -484,7 +533,7 @@
             "Pizza",
             "Ravioli"
           ],
-          "reveal": "The correct answer is spaghetti and meatballs. And one very famous accidental noodle kiss.",
+          "reveal": "And the correct answer is spaghetti and meatballs. [laughs] And one VERY famous accidental noodle kiss.",
           "dailyDouble": false
         },
         {
@@ -521,7 +570,7 @@
             "Etouffee",
             "Red beans and rice"
           ],
-          "reveal": "The correct answer is gumbo. Tiana's daddy taught her that good food brings people together.",
+          "reveal": "[chuckles] The correct answer is gumbo. Tiana's daddy taught her that good food brings people together.",
           "dailyDouble": false
         },
         {
@@ -539,7 +588,7 @@
             "Mushroom tarts",
             "Crab cakes"
           ],
-          "reveal": "The correct answer is spinach puffs. Kronk, why do we even have that lever?",
+          "reveal": "[dramatic pause] The correct answer is... spinach puffs. [mischievously] Kronk, why do we even have that lever?",
           "dailyDouble": false
         }
       ]

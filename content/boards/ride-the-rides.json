@@ -7,13 +7,21 @@
     "attractions",
     "rides"
   ],
-  "intro": "Welcome in to Disney Jeopardy! Please keep your arms and legs inside the vehicle at all times, because tonight we are riding the rides. Coasters, dark rides, and songs you can't get out of your head.",
+  "intro": "[mischievously] Please keep your arms and legs inside the vehicle at ALL times... Welcome in to Disney Jeopardy! Tonight we are riding the rides. Coasters, dark rides, [laughs] and songs you will NOT get out of your head.",
+  "art": {
+    "prompt": "Original digital painting, cinematic 16:9, rich saturated colors, warm magical lighting, storybook theme-park atmosphere, no text, no logos, no recognizable characters, no people's faces: a dazzling theme-park skyline at dusk: a white cone-shaped space dome, a red-rock mine train mountain, a snowy peak coaster, spinning teacups and a pirate ship flying over glowing city lights, all lit with neon ride lights",
+    "file": "media/ride-the-rides.jpg"
+  },
   "categories": [
     {
       "id": "to-infinity",
       "title": "To Infinity and Beyond",
       "kind": "film",
-      "intro": "Our film category has inspired more rides than I can count. It's Pixar's Toy Story films. Reach for the sky!",
+      "intro": "Our film category has inspired more rides than I can count. It's Pixar's Toy Story films. [excited] Reach for the SKY!",
+      "art": {
+        "prompt": "Original digital painting, cinematic 16:9, rich saturated colors, warm magical lighting, storybook theme-park atmosphere, no text, no logos, no recognizable characters, no people's faces: a kid's bedroom from a toy's-eye view: wall wallpaper of blue sky and fluffy clouds, a toy rocket, wooden blocks and a cowboy hat on the bed",
+        "file": "media/ride-the-rides--to-infinity.jpg"
+      },
       "format": "text",
       "clues": [
         {
@@ -30,7 +38,7 @@
             "Al",
             "Bonnie"
           ],
-          "reveal": "The correct answer is Andy. His name is literally written on Woody's boot. Free points.",
+          "reveal": "The correct answer is Andy. His name is LITERALLY written on Woody's boot. [chuckles] Free points.",
           "dailyDouble": false
         },
         {
@@ -48,7 +56,7 @@
             "The Button",
             "The Ring"
           ],
-          "reveal": "The correct answer is the Claw. It moves. It chooses who will go and who will stay. Ooooh.",
+          "reveal": "[excited] The correct answer is the Claw. It moves. It chooses who will go and who will stay. [whispers] Ooooh.",
           "dailyDouble": false
         },
         {
@@ -67,7 +75,7 @@
             "Cowboy Corral",
             "Prospector Pete's Ranch"
           ],
-          "reveal": "The correct answer is Woody's Roundup. Yodel-ay-hee-hoo! Jessie, Bullseye, and the Prospector were all there too.",
+          "reveal": "The correct answer is Woody's Roundup. [chuckles] Yodel-ay-hee-hoo! Jessie, Bullseye, and the Prospector were all there too.",
           "dailyDouble": false
         },
         {
@@ -86,7 +94,7 @@
             "Toy Kingdom",
             "Al's Toy Planet"
           ],
-          "reveal": "The correct answer is Al's Toy Barn. Bonus points if you can do the chicken suit commercial voice.",
+          "reveal": "And the correct answer is Al's Toy Barn. [mischievously] Bonus points if you can do the chicken suit commercial voice.",
           "dailyDouble": false
         },
         {
@@ -103,7 +111,7 @@
             "Butch",
             "Sparky"
           ],
-          "reveal": "The correct answer is Scud. Buster is Andy's dog. Scud is the reason no toy wants to visit the neighbors.",
+          "reveal": "Drumroll, please... the correct answer is Scud. Buster is Andy's dog. Scud is the reason no toy wants to visit the neighbors.",
           "dailyDouble": false
         }
       ]
@@ -112,7 +120,11 @@
       "id": "coaster-crazy",
       "title": "Coaster Crazy",
       "kind": "theme",
-      "intro": "This category is for the thrill seekers. Hands up for some Disney roller coasters!",
+      "intro": "This category is for the THRILL seekers. [laughs] Hands up for some Disney roller coasters!",
+      "art": {
+        "prompt": "Original digital painting, cinematic 16:9, rich saturated colors, warm magical lighting, storybook theme-park atmosphere, no text, no logos, no recognizable characters, no people's faces: a twisting roller coaster track racing through a snowy Himalayan mountain and a gem-filled mine at sunset, motion blur and sparks",
+        "file": "media/ride-the-rides--coaster-crazy.jpg"
+      },
       "format": "text",
       "clues": [
         {
@@ -130,7 +142,7 @@
             "Cinderella",
             "Pinocchio"
           ],
-          "reveal": "The correct answer is Snow White and the Seven Dwarfs. Heigh-ho, heigh-ho, it's off to the standby line we go.",
+          "reveal": "[chuckles] The correct answer is Snow White and the Seven Dwarfs. [laughs] Heigh-ho, heigh-ho, it's off to the standby line we go.",
           "dailyDouble": false
         },
         {
@@ -166,7 +178,7 @@
             "Sunset Boulevard",
             "Animation Courtyard"
           ],
-          "reveal": "The correct answer is Toy Story Land. You are shrunk down to the size of a toy in Andy's backyard. Watch out for giant Woody.",
+          "reveal": "[excited] The correct answer is Toy Story Land. [laughs] You are shrunk down to the size of a toy in Andy's backyard. Watch out for giant Woody.",
           "dailyDouble": false
         },
         {
@@ -206,7 +218,7 @@
             "Tokyo Disneyland",
             "Disneyland Paris"
           ],
-          "reveal": "The correct answer is Magic Kingdom. Disneyland didn't get its own Space Mountain until 1977. Florida was first for once!",
+          "reveal": "[gasps] Oh, this one is TOUGH. The correct answer is... Magic Kingdom. [chuckles] Disneyland didn't get its own Space Mountain until 1977. Florida was FIRST for once!",
           "dailyDouble": false
         }
       ]
@@ -215,7 +227,11 @@
       "id": "ride-tunes",
       "title": "Ride Tunes: Finish the Lyric",
       "kind": "media",
-      "intro": "Sing it with me! I'll give you a lyric from a classic attraction song, and you finish it. Bonus points for singing out loud.",
+      "intro": "[excited] Sing it with me! I'll give you a lyric from a classic attraction song, and you finish it. Bonus points for singing out loud... [chuckles] your family will love it.",
+      "art": {
+        "prompt": "Original digital painting, cinematic 16:9, rich saturated colors, warm magical lighting, storybook theme-park atmosphere, no text, no logos, no recognizable characters, no people's faces: giant colorful musical notes floating over a little boat ride through a world of dancing dolls, tiki drums and a moonlit haunted manor",
+        "file": "media/ride-the-rides--ride-tunes.jpg"
+      },
       "format": "text",
       "clues": [
         {
@@ -233,7 +249,7 @@
             "We",
             "Free"
           ],
-          "reveal": "The correct answer is me. A pirate's life for me! Drink up, me hearties, yo ho.",
+          "reveal": "The correct answer is me. [mischievously] A pirate's life for me! Drink up, me hearties, yo ho.",
           "dailyDouble": false
         },
         {
@@ -251,7 +267,7 @@
             "Lounge",
             "Tune"
           ],
-          "reveal": "The correct answer is room. All together now, in the Tiki Tiki Tiki Tiki Tiki Room!",
+          "reveal": "[chuckles] The correct answer is room. All together now, in the Tiki Tiki Tiki Tiki Tiki Room!",
           "dailyDouble": false
         },
         {
@@ -268,7 +284,7 @@
             "Fears",
             "Dreams"
           ],
-          "reveal": "The correct answer is tears. A world of hopes and a world of fears, too. Very emotional for a boat ride.",
+          "reveal": "The correct answer is tears. [laughs] A world of hopes and a world of fears, too. Very emotional for a boat ride.",
           "dailyDouble": false
         },
         {
@@ -285,7 +301,7 @@
             "Fair",
             "Prepared"
           ],
-          "reveal": "The correct answer is aware. It's a small world after all. Sorry, it's going to be in your head all week.",
+          "reveal": "[whispers] Only the true Disney nerds got this one. The correct answer is... aware. It's a small world after all. [sighs] Sorry, it's going to be in your head all week.",
           "dailyDouble": true
         },
         {
@@ -303,7 +319,7 @@
             "Materialize",
             "Terrorize"
           ],
-          "reveal": "The correct answer is socialize. Even ghosts need a party. Grim Grinning Ghosts was sung by Thurl Ravenscroft and friends.",
+          "reveal": "[dramatic pause] And the correct answer is... socialize. [laughs] Even ghosts need a party. Grim Grinning Ghosts was sung by Thurl Ravenscroft and friends.",
           "dailyDouble": false
         }
       ]
@@ -312,8 +328,12 @@
       "id": "which-park",
       "title": "Which Park Is It In?",
       "kind": "parks",
-      "intro": "Every one of these attractions is at Walt Disney World. Your job? Tell me which of the four parks it calls home.",
-      "format": "text",
+      "intro": "Every one of these attractions is at Walt Disney World. [mischievously] Your job? Look at the picture and tell me which of the four parks it calls home.",
+      "art": {
+        "prompt": "Original digital painting, cinematic 16:9, rich saturated colors, warm magical lighting, storybook theme-park atmosphere, no text, no logos, no recognizable characters, no people's faces: four glowing theme-park icons in one panorama: a fairytale castle, a giant silver geodesic sphere, a hollywood-style water tower and a giant sculpted tree of life",
+        "file": "media/ride-the-rides--which-park.jpg"
+      },
+      "format": "picture",
       "clues": [
         {
           "value": 200,
@@ -329,8 +349,13 @@
             "Disney's Hollywood Studios",
             "Disney's Animal Kingdom"
           ],
-          "reveal": "The correct answer is Epcot. Zoom zoom. Just like real life, your car design is probably not as good as you think.",
-          "dailyDouble": false
+          "reveal": "And the correct answer is Epcot. Zoom zoom. Just like REAL life, your car design is probably not as good as you think.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "Original illustration, 16:9, vivid colors, theme-park concept-art style, no text, no logos, no characters, no people: a sleek futuristic concept car speeding along a test track at night with glowing blue speed lines and a sensor tunnel",
+            "file": "media/ride-the-rides--which-park-200.jpg"
+          }
         },
         {
           "value": 400,
@@ -347,8 +372,13 @@
             "Magic Kingdom",
             "Disney's Hollywood Studios"
           ],
-          "reveal": "The correct answer is Disney's Animal Kingdom. Every ride is different, depending on which animals are awake.",
-          "dailyDouble": false
+          "reveal": "The correct answer is Disney's Animal Kingdom. [chuckles] Every ride is different, depending on which animals are awake.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "Original illustration, 16:9, vivid colors, theme-park concept-art style, no text, no logos, no characters, no people: an open-sided safari truck bumping along a dirt road past elephants, a baobab tree and a savanna sunrise",
+            "file": "media/ride-the-rides--which-park-400.jpg"
+          }
         },
         {
           "value": 600,
@@ -366,8 +396,13 @@
             "Magic Kingdom",
             "Disney's Animal Kingdom"
           ],
-          "reveal": "The correct answer is Disney's Hollywood Studios. Check in to the Hollywood Tower Hotel. Check out is optional.",
-          "dailyDouble": false
+          "reveal": "[chuckles] The correct answer is Disney's Hollywood Studios. [mischievously] Check in to the Hollywood Tower Hotel. Check out is optional.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "Original illustration, 16:9, vivid colors, theme-park concept-art style, no text, no logos, no characters, no people: a crumbling 1930s Hollywood hotel tower with a broken neon-free sign frame, struck by lightning in a purple night sky",
+            "file": "media/ride-the-rides--which-park-600.jpg"
+          }
         },
         {
           "value": 800,
@@ -385,7 +420,12 @@
             "Disney's Animal Kingdom"
           ],
           "reveal": "The correct answer is Epcot, in the France pavilion. You get to scurry through Gusteau's kitchen in 3D. Delicious.",
-          "dailyDouble": false
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "Original illustration, 16:9, vivid colors, theme-park concept-art style, no text, no logos, no characters, no people: a giant-scale Parisian restaurant kitchen seen from a tiny rat's-eye view, huge copper pots and enormous cheese wheels",
+            "file": "media/ride-the-rides--which-park-800.jpg"
+          }
         },
         {
           "value": 1000,
@@ -401,8 +441,13 @@
             "Disney's Hollywood Studios",
             "Disney's Animal Kingdom"
           ],
-          "reveal": "The correct answer is Magic Kingdom, over in Storybook Circus. Great first coaster for the little ones.",
-          "dailyDouble": false
+          "reveal": "[dramatic pause] The correct answer is... Magic Kingdom, over in Storybook Circus. [laughs] Great first coaster for the little ones.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "Original illustration, 16:9, vivid colors, theme-park concept-art style, no text, no logos, no characters, no people: a red barn with a crop-duster biplane crashing through its roof beside a small kid-sized roller coaster in a circus-themed fairground",
+            "file": "media/ride-the-rides--which-park-1000.jpg"
+          }
         }
       ]
     },
@@ -410,7 +455,11 @@
       "id": "all-aboard",
       "title": "All Aboard!",
       "kind": "fan",
-      "intro": "Club DJ chose ride vehicles! Teacups, doom buggies, honey pots. Tell me what you're riding in, or who's driving.",
+      "intro": "Club DJ chose ride vehicles! Teacups, doom buggies, honey pots... [laughs] tell me what you're riding in, or who's driving.",
+      "art": {
+        "prompt": "Original digital painting, cinematic 16:9, rich saturated colors, warm magical lighting, storybook theme-park atmosphere, no text, no logos, no recognizable characters, no people's faces: a whimsical lineup of empty ride vehicles: a giant pastel teacup, a black clamshell-shaped buggy, a honey pot car and a flying pirate ship",
+        "file": "media/ride-the-rides--all-aboard.jpg"
+      },
       "format": "text",
       "clues": [
         {
@@ -430,7 +479,7 @@
             "Honey pots",
             "Mushrooms"
           ],
-          "reveal": "The correct answer is teacups. Pro tip, do not eat a turkey leg right before this ride.",
+          "reveal": "The correct answer is teacups. [whispers] Pro tip, do not eat a turkey leg right before this ride.",
           "dailyDouble": false
         },
         {
@@ -450,7 +499,7 @@
             "Hot air balloon",
             "Rowboat"
           ],
-          "reveal": "The correct answer is a pirate ship. Think happy thoughts and sprinkle a little pixie dust.",
+          "reveal": "And the correct answer is a pirate ship. [laughs] Think happy thoughts and sprinkle a little pixie dust.",
           "dailyDouble": false
         },
         {
@@ -489,7 +538,7 @@
             "Hollow logs",
             "Umbrellas"
           ],
-          "reveal": "The correct answer is hunny pots. Spelled H U N N Y, the Pooh way. Oh bother.",
+          "reveal": "[chuckles] The correct answer is hunny pots. Spelled H U N N Y, the Pooh way. Oh bother.",
           "dailyDouble": false
         },
         {
@@ -506,7 +555,7 @@
             "Pluto",
             "Pete"
           ],
-          "reveal": "The correct answer is Goofy. Which explains why the train ends up literally everywhere but on the tracks.",
+          "reveal": "Drumroll, please... the correct answer is Goofy. [mischievously] Which explains why the train ends up LITERALLY everywhere but on the tracks.",
           "dailyDouble": false
         }
       ]

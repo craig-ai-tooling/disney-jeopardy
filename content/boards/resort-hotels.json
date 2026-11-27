@@ -8,13 +8,21 @@
     "resorts",
     "walt-disney-world"
   ],
-  "intro": "Welcome in to Disney Jeopardy! Tonight's episode is all about the places we crash after a twelve hour park day: Disney's resort hotels. Your room is ready, your Magic Band is charged, so let's check in.",
+  "intro": "[excited] Welcome in to Disney Jeopardy! Tonight's episode is all about the places we crash after a twelve hour park day... [sighs] my feet still hurt. It's Disney's resort hotels! Your room is ready, so let's CHECK IN.",
+  "art": {
+    "prompt": "Original digital painting, cinematic 16:9, rich saturated colors, warm magical lighting, storybook theme-park atmosphere, no text, no logos, no recognizable characters, no people's faces: a grand hotel lobby fantasy mashup: a soaring timber lodge atrium, tropical torches and palms, a sleek monorail gliding through a modern A-frame, an ornate brass luggage cart piled with suitcases and a glowing room key on the front desk",
+    "file": "media/resort-hotels.jpg"
+  },
   "categories": [
     {
       "id": "aloha-lilo",
       "title": "Aloha, Lilo",
       "kind": "film",
-      "intro": "Our film category has some serious Polynesian Village energy. It's Lilo and Stitch, the 2002 animated original.",
+      "intro": "[excited] Aloha! Our film category has some serious Polynesian Village energy. It's Lilo and Stitch, the 2002 animated original.",
+      "art": {
+        "prompt": "Original digital painting, cinematic 16:9, rich saturated colors, warm magical lighting, storybook theme-park atmosphere, no text, no logos, no recognizable characters, no people's faces: a Hawaiian beach at sunset with a surfboard in the sand, a ukulele, hibiscus flowers and a tiny blue spaceship crash-landed in the palms",
+        "file": "media/resort-hotels--aloha-lilo.jpg"
+      },
       "format": "text",
       "clues": [
         {
@@ -33,7 +41,7 @@
             "221",
             "007"
           ],
-          "reveal": "The correct answer is 626. Even his number sounds a little chaotic.",
+          "reveal": "The correct answer is 626. [laughs] Even his number sounds a little chaotic.",
           "dailyDouble": false
         },
         {
@@ -51,7 +59,7 @@
             "Mahalo",
             "Lanai"
           ],
-          "reveal": "The correct answer is ohana. Also the name of a famous restaurant at the Polynesian Village, with all you care to enjoy skewers.",
+          "reveal": "[excited] The correct answer is ohana. Also the name of a famous restaurant at the Polynesian Village, with all you care to enjoy skewers.",
           "dailyDouble": false
         },
         {
@@ -69,7 +77,7 @@
             "Buddy Holly",
             "Johnny Cash"
           ],
-          "reveal": "The correct answer is Elvis Presley. Lilo even tries to teach Stitch to be a model citizen by acting like the King. Thank you very much.",
+          "reveal": "The correct answer is Elvis Presley. [chuckles] Lilo even tries to teach Stitch to be a model citizen by acting like the King. Thank you very much.",
           "dailyDouble": false
         },
         {
@@ -89,7 +97,7 @@
             "Captain Gantu",
             "Cobra Bubbles"
           ],
-          "reveal": "The correct answer is Jumba Jookiba. He calls it evil genius. Personally, I call it a very fluffy lawsuit waiting to happen.",
+          "reveal": "And the correct answer is Jumba Jookiba. [mischievously] He calls it evil genius. Personally, I call it a VERY fluffy lawsuit waiting to happen.",
           "dailyDouble": false
         },
         {
@@ -106,7 +114,7 @@
             "Mertle",
             "Kiki"
           ],
-          "reveal": "The correct answer is Scrump. Lilo made it herself, and it is adorable and terrifying at the same time.",
+          "reveal": "[dramatic pause] The correct answer is... Scrump. Lilo made it herself, and it is adorable and terrifying at the same time.",
           "dailyDouble": false
         }
       ]
@@ -115,8 +123,12 @@
       "id": "room-with-a-view",
       "title": "Room With a View",
       "kind": "theme",
-      "intro": "Let's tour the Walt Disney World resorts. Some of these views are worth the room rate. Some of them are a parking lot. Let's find out.",
-      "format": "text",
+      "intro": "Let's tour the Walt Disney World resorts in PICTURES. Some of these views are worth the room rate... [laughs] some of them are a parking lot.",
+      "art": {
+        "prompt": "Original digital painting, cinematic 16:9, rich saturated colors, warm magical lighting, storybook theme-park atmosphere, no text, no logos, no recognizable characters, no people's faces: a hotel balcony at sunrise overlooking a sparkling lagoon with a monorail track and distant castle spires, room service tray on a small table",
+        "file": "media/resort-hotels--room-with-a-view.jpg"
+      },
+      "format": "picture",
       "clues": [
         {
           "value": 200,
@@ -134,8 +146,13 @@
             "Disney's Grand Floridian Resort",
             "Disney's Wilderness Lodge"
           ],
-          "reveal": "The correct answer is the Contemporary Resort. Where else can you eat breakfast while a train zooms through the lobby?",
-          "dailyDouble": false
+          "reveal": "[chuckles] The correct answer is the Contemporary Resort. [laughs] Where else can you eat breakfast while a train zooms through the lobby?",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "Original illustration, 16:9, vivid colors, theme-park concept-art style, no text, no logos, no characters, no people: a sleek 1970s modern A-frame hotel tower with a monorail track running straight into a soaring indoor concourse lined with a giant tile mural",
+            "file": "media/resort-hotels--room-with-a-view-200.jpg"
+          }
         },
         {
           "value": 400,
@@ -154,7 +171,12 @@
             "Disney's Yacht Club Resort"
           ],
           "reveal": "The correct answer is the Grand Floridian Resort and Spa. Fancy, fancy. Pinkies up for afternoon tea.",
-          "dailyDouble": false
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "Original illustration, 16:9, vivid colors, theme-park concept-art style, no text, no logos, no characters, no people: a white Victorian seaside grand hotel with red shingled roofs and turrets on a calm lagoon at golden hour",
+            "file": "media/resort-hotels--room-with-a-view-400.jpg"
+          }
         },
         {
           "value": 600,
@@ -173,8 +195,13 @@
             "Pastures",
             "Prairies"
           ],
-          "reveal": "The correct answer is savannas. Waking up to a giraffe outside your window beats waking up to an alarm clock.",
-          "dailyDouble": false
+          "reveal": "[excited] The correct answer is savannas. [laughs] Waking up to a giraffe outside your window beats waking up to an alarm clock.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "Original illustration, 16:9, vivid colors, theme-park concept-art style, no text, no logos, no characters, no people: giraffes and zebras grazing on a grassy savanna just below wooden balconies of an African-style lodge with thatched roofs",
+            "file": "media/resort-hotels--room-with-a-view-600.jpg"
+          }
         },
         {
           "value": 800,
@@ -191,7 +218,12 @@
             "Glacier"
           ],
           "reveal": "The correct answer is Yellowstone. The lodge is modeled on the Old Faithful Inn, and the geyser is a lot easier to visit.",
-          "dailyDouble": false
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "Original illustration, 16:9, vivid colors, theme-park concept-art style, no text, no logos, no characters, no people: a massive log-built national-park-style lodge beside a lake with a tall steaming geyser erupting among pine trees",
+            "file": "media/resort-hotels--room-with-a-view-800.jpg"
+          }
         },
         {
           "value": 1000,
@@ -211,8 +243,13 @@
             "Disney's Wilderness Lodge",
             "Disney's Caribbean Beach Resort"
           ],
-          "reveal": "The correct answer is the Polynesian Village Resort. Over fifty years of Dole Whip on the beach. Not a bad retirement plan.",
-          "dailyDouble": true
+          "reveal": "Drumroll, please... the correct answer is the Polynesian Village Resort. [chuckles] Over fifty years of Dole Whip on the beach. Not a bad retirement plan.",
+          "dailyDouble": true,
+          "media": {
+            "type": "image",
+            "prompt": "Original illustration, 16:9, vivid colors, theme-park concept-art style, no text, no logos, no characters, no people: a tropical South Seas longhouse hotel with tiki torches, palm trees and a white sand beach on a lagoon at sunset",
+            "file": "media/resort-hotels--room-with-a-view-1000.jpg"
+          }
         }
       ]
     },
@@ -220,7 +257,11 @@
       "id": "resorts-around-the-world",
       "title": "Passport Check-In",
       "kind": "parks",
-      "intro": "Pack your bags. We're leaving Florida to visit Disney hotels around the globe, from Hawaii to Tokyo to Paris.",
+      "intro": "Pack your bags! [excited] We're leaving Florida to visit Disney hotels around the globe, from Hawaii to Tokyo to Paris.",
+      "art": {
+        "prompt": "Original digital painting, cinematic 16:9, rich saturated colors, warm magical lighting, storybook theme-park atmosphere, no text, no logos, no recognizable characters, no people's faces: a stack of vintage travel suitcases covered in colorful travel stickers of a Hawaiian beach, an Italian harbor and a Paris skyline, with a world map behind",
+        "file": "media/resort-hotels--resorts-around-the-world.jpg"
+      },
       "format": "text",
       "clues": [
         {
@@ -239,7 +280,7 @@
             "Disney's Vero Beach Resort",
             "Disney's Hilton Head Island Resort"
           ],
-          "reveal": "The correct answer is Aulani. Mickey in a Hawaiian shirt is the vacation energy we all need.",
+          "reveal": "The correct answer is Aulani. [mischievously] Mickey in a Hawaiian shirt is the vacation energy we all need.",
           "dailyDouble": false
         },
         {
@@ -258,7 +299,7 @@
             "Disney Ambassador Hotel",
             "Toy Story Hotel"
           ],
-          "reveal": "The correct answer is Hotel MiraCosta. Some rooms overlook the park, so you can watch the shows in your pajamas.",
+          "reveal": "[chuckles] The correct answer is Hotel MiraCosta. Some rooms overlook the park, so you can watch the shows in your pajamas.",
           "dailyDouble": false
         },
         {
@@ -278,7 +319,7 @@
             "Victorian",
             "Mission Revival"
           ],
-          "reveal": "The correct answer is Arts and Crafts, also called Craftsman style. So much wood. So many cozy fireplaces.",
+          "reveal": "The correct answer is Arts and Crafts, also called Craftsman style. [laughs] So much wood. So many cozy fireplaces.",
           "dailyDouble": false
         },
         {
@@ -296,7 +337,7 @@
             "Discovery",
             "Main Street"
           ],
-          "reveal": "The correct answer is Fantasy. Each tower is themed to its land, right down to the headboards that light up with fireworks.",
+          "reveal": "[excited] The correct answer is Fantasy. Each tower is themed to its land, right down to the headboards that light up with fireworks.",
           "dailyDouble": false
         },
         {
@@ -316,7 +357,7 @@
             "Disney's Newport Bay Club",
             "Disney's Hotel Cheyenne"
           ],
-          "reveal": "The correct answer is Disney's Hotel New York, The Art of Marvel. Superheroes in the hallways. Excelsior!",
+          "reveal": "[gasps] Oh, this one is TOUGH. The correct answer is... Disney's Hotel New York, The Art of Marvel. [laughs] Superheroes in the hallways. Excelsior!",
           "dailyDouble": false
         }
       ]
@@ -325,7 +366,11 @@
       "id": "rhyme-time-check-in",
       "title": "Rhyme Time: Check-In",
       "kind": "media",
-      "intro": "It's Rhyme Time, hotel edition! Every answer is two words that rhyme. Think fast, and tip your bellhop.",
+      "intro": "[excited] It's RHYME TIME, hotel edition! Every answer is two words that rhyme. Think fast... and tip your bellhop.",
+      "art": {
+        "prompt": "Original digital painting, cinematic 16:9, rich saturated colors, warm magical lighting, storybook theme-park atmosphere, no text, no logos, no recognizable characters, no people's faces: a brass hotel service bell on a polished front desk with whimsical swirling musical notes and rhyming-poem ribbons floating above it",
+        "file": "media/resort-hotels--rhyme-time-check-in.jpg"
+      },
       "format": "text",
       "clues": [
         {
@@ -342,7 +387,7 @@
             "Dog Log",
             "Cat Hat"
           ],
-          "reveal": "The correct answer is Mouse House. Mickey's place, and also where all of our vacation money ends up.",
+          "reveal": "And the correct answer is Mouse House. Mickey's place, and also where all of our vacation money ends up.",
           "dailyDouble": false
         },
         {
@@ -359,7 +404,7 @@
             "Rose Throws",
             "Castle Hassle"
           ],
-          "reveal": "The correct answer is Beast Feast. Be our guest, put our service to the test, and please use a napkin this time.",
+          "reveal": "The correct answer is Beast Feast. [chuckles] Be our guest, put our service to the test, and please use a napkin this time.",
           "dailyDouble": false
         },
         {
@@ -377,7 +422,7 @@
             "Smee Tea",
             "Pan Van"
           ],
-          "reveal": "The correct answer is Hook Nook. Just don't bring a ticking clock in there. He gets very jumpy.",
+          "reveal": "[chuckles] The correct answer is Hook Nook. [mischievously] Just don't bring a ticking clock in there. He gets very jumpy.",
           "dailyDouble": false
         },
         {
@@ -395,7 +440,7 @@
             "Suite Sweep",
             "Bucket Duck"
           ],
-          "reveal": "The correct answer is Room Broom. Just never let Mickey give it a wizard hat. The flooding is not covered by the deposit.",
+          "reveal": "The correct answer is Room Broom. Just NEVER let Mickey give it a wizard hat. The flooding is not covered by the deposit.",
           "dailyDouble": false
         },
         {
@@ -414,7 +459,7 @@
             "Genie's Martini",
             "Sultan's Wagon"
           ],
-          "reveal": "The correct answer is Jafar's Car. Please do not tip the valet with a snake staff. Iago will want a receipt.",
+          "reveal": "[whispers] Only the true Disney nerds got this one. The correct answer is... Jafar's Car. [laughs] Please do not tip the valet with a snake staff. Iago will want a receipt.",
           "dailyDouble": false
         }
       ]
@@ -423,7 +468,11 @@
       "id": "do-not-disturb",
       "title": "Do Not Disturb",
       "kind": "fan",
-      "intro": "After all that check-in excitement, our fan category is about Disney characters who really love a good nap. Hang that sign on the door.",
+      "intro": "[yawns] After all that check-in excitement, our fan category is about Disney characters who really love a good nap. Hang that sign on the door.",
+      "art": {
+        "prompt": "Original digital painting, cinematic 16:9, rich saturated colors, warm magical lighting, storybook theme-park atmosphere, no text, no logos, no recognizable characters, no people's faces: a cozy fairytale bedroom at night with a canopy bed, a spinning wheel in the corner, a tiny teapot, moonlight through the window and a hanging door sign with no words, just a moon symbol",
+        "file": "media/resort-hotels--do-not-disturb.jpg"
+      },
       "format": "text",
       "clues": [
         {
@@ -461,7 +510,7 @@
             "A sewing needle",
             "A golden comb"
           ],
-          "reveal": "The correct answer is the spindle of a spinning wheel. Maleficent did not hold back on the birthday gift.",
+          "reveal": "And the correct answer is the spindle of a spinning wheel. [laughs] Maleficent did not hold back on the birthday gift.",
           "dailyDouble": false
         },
         {
@@ -496,7 +545,7 @@
             "The Cheshire Cat",
             "The White Rabbit"
           ],
-          "reveal": "The correct answer is the Dormouse. Calm him down with a little jam on his nose. That's real advice from the movie.",
+          "reveal": "[chuckles] The correct answer is the Dormouse. Calm him down with a little jam on his nose. That's real advice from the movie.",
           "dailyDouble": false
         },
         {
@@ -513,7 +562,7 @@
             "Merryweather",
             "The Fairy Godmother"
           ],
-          "reveal": "The correct answer is Flora, the fairy in red. Leadership qualities, and she's still wrong about the dress being pink.",
+          "reveal": "[dramatic pause] And the correct answer is... Flora, the fairy in red. [mischievously] Leadership qualities, and she's still wrong about the dress being pink.",
           "dailyDouble": false
         }
       ]
