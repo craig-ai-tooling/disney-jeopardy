@@ -1,0 +1,500 @@
+{
+  "id": "epcot-world-tour",
+  "title": "EPCOT World Tour",
+  "theme": "EPCOT and World Showcase",
+  "tags": [
+    "parks",
+    "travel",
+    "epcot",
+    "world"
+  ],
+  "intro": "[excited] Passports out, everybody! Tonight we're strolling all the way around World Showcase, and no, you cannot stop for a churro between every clue. Let's see who's a globe-trotter and who's just lost in Canada.",
+  "art": {
+    "prompt": "A glittering geodesic silver sphere rising above a lagoon at twilight, ringed by a fantasy skyline of world landmarks: a Mayan-style pyramid, a pagoda, a Bavarian clock tower, a Moroccan minaret, and a miniature Eiffel-style tower, fireworks and string lights reflecting on the water Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+    "file": "media/epcot-world-tour.jpg"
+  },
+  "categories": [
+    {
+      "id": "little-chef-big-paris",
+      "title": "Little Chef, Big Paris",
+      "kind": "film",
+      "intro": "We start in France with a film about a rat who can cook. [mischievously] If you can't answer these, I'm sending you to the kitchen to peel potatoes.",
+      "format": "text",
+      "art": {
+        "prompt": "A cozy Parisian rooftop at night overlooking a glowing city of zinc roofs and chimneys, a tiny copper saucepan of bubbling soup and a sprig of fresh herbs on the ledge, a big round moon Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/epcot-world-tour--little-chef-big-paris.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In Ratatouille, Remy the rat dreams of becoming one of these.",
+          "answer": "A chef",
+          "accept": [
+            "chef",
+            "a chef",
+            "cook",
+            "a cook"
+          ],
+          "choices": [
+            "A chef",
+            "A painter",
+            "A singer",
+            "A detective"
+          ],
+          "reveal": "[cheerful] The correct answer is a chef! And in EPCOT's France pavilion, you can shrink down to Remy size on Remy's Ratatouille Adventure. Hairnets not included.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "The famous Paris restaurant founded by Chef Auguste Gusteau.",
+          "answer": "Gusteau's",
+          "accept": [
+            "gusteau's",
+            "gusteaus",
+            "gusteau"
+          ],
+          "choices": [
+            "Gusteau's",
+            "Chez Skinner",
+            "Le Petit Chef",
+            "Bistro Linguini"
+          ],
+          "reveal": "[chuckles] The correct answer is Gusteau's! Five stars, then four, then a very grumpy review. [whispers] Restaurants are tough, folks.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Gusteau's famous motto, which is also the title of his cookbook.",
+          "answer": "Anyone Can Cook",
+          "accept": [
+            "anyone can cook",
+            "anyone can cook!"
+          ],
+          "choices": [
+            "Anyone Can Cook",
+            "Cook With Love",
+            "Taste Everything",
+            "Never Stop Stirring"
+          ],
+          "reveal": "[playfully] The correct answer is Anyone Can Cook! Which is true, unless you're me with a microwave burrito. [laughs] Then it's anyone can burn.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Peter O'Toole voiced this terrifying food critic who writes in a coffin-shaped office.",
+          "answer": "Anton Ego",
+          "accept": [
+            "anton ego",
+            "ego"
+          ],
+          "choices": [
+            "Anton Ego",
+            "Chef Skinner",
+            "Auguste Gusteau",
+            "Horst"
+          ],
+          "reveal": "[impressed] The correct answer is Anton Ego! One bite of Remy's ratatouille sent him straight back to his mom's kitchen. That's the power of comfort food.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Remy's fancy layered ratatouille was inspired by this dish, a version made for the film's consultant, chef Thomas Keller.",
+          "answer": "Confit byaldi",
+          "accept": [
+            "confit byaldi",
+            "byaldi"
+          ],
+          "choices": [
+            "Confit byaldi",
+            "Bouillabaisse",
+            "Coq au vin",
+            "Tian provencal"
+          ],
+          "reveal": "[whispers] The correct answer is confit byaldi! Thomas Keller of The French Laundry helped Pixar design the dish. [chuckles] True Disney nerd points if you got that one.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "postcards-from-the-movies",
+      "title": "Postcards from the Movies",
+      "kind": "theme",
+      "intro": "Disney storytellers love a real-world road trip. [laughs] Name the real place that shows up in, or inspired, these films.",
+      "format": "text",
+      "art": {
+        "prompt": "A vintage traveler's corkboard covered in blank illustrated postcards of a Gothic cathedral, a misty Hawaiian beach, a Bavarian castle on a cliff, and a pastel Italian fishing village, with string, pins, and a brass compass Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/epcot-world-tour--postcards-from-the-movies.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Quasimodo rings the bells high above Paris in this famous cathedral.",
+          "answer": "Notre-Dame",
+          "accept": [
+            "notre-dame",
+            "notre dame",
+            "notre dame cathedral",
+            "notre-dame de paris"
+          ],
+          "choices": [
+            "Notre-Dame",
+            "Sacre-Coeur",
+            "Westminster Abbey",
+            "St. Peter's Basilica"
+          ],
+          "reveal": "[excited] The correct answer is Notre-Dame! The Hunchback of Notre Dame is set there, and the real cathedral reopened in 2024 after the big fire. [mischievously] Bells and all.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "The Princess and the Frog is set in this jazzy U.S. city famous for beignets.",
+          "answer": "New Orleans",
+          "accept": [
+            "new orleans",
+            "nola"
+          ],
+          "choices": [
+            "New Orleans",
+            "Memphis",
+            "Atlanta",
+            "Savannah"
+          ],
+          "reveal": "[excited] The correct answer is New Orleans! And Disneyland's New Orleans Square serves Mickey-shaped beignets. Powdered sugar on your shirt is mandatory.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Lilo and Stitch live on this lush Hawaiian island, known as the Garden Isle.",
+          "answer": "Kauai",
+          "accept": [
+            "kauai",
+            "kaua'i"
+          ],
+          "choices": [
+            "Kauai",
+            "Maui",
+            "Oahu",
+            "Molokai"
+          ],
+          "reveal": "[excited] The correct answer is Kauai! The Garden Isle. Stitch would like to remind you that he is not a dog. He is a koala. [sarcastic] Allegedly.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "This real Bavarian castle in Germany is often named as an inspiration for Sleeping Beauty Castle at Disneyland.",
+          "answer": "Neuschwanstein Castle",
+          "accept": [
+            "neuschwanstein",
+            "neuschwanstein castle"
+          ],
+          "choices": [
+            "Neuschwanstein Castle",
+            "Hohenzollern Castle",
+            "Edinburgh Castle",
+            "Chateau de Chambord"
+          ],
+          "reveal": "The correct answer is Neuschwanstein Castle! [laughs] Built by King Ludwig the Second, it's the fairy-tale castle fairy-tale castles want to be when they grow up.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Luca's seaside town of Portorosso is a love letter to this group of five Italian Riviera villages.",
+          "answer": "Cinque Terre",
+          "accept": [
+            "cinque terre",
+            "the cinque terre"
+          ],
+          "choices": [
+            "Cinque Terre",
+            "Amalfi Coast",
+            "Lake Como",
+            "Capri"
+          ],
+          "reveal": "[impressed] The correct answer is Cinque Terre! Director Enrico Casarosa grew up near there, and the Portorosso piazza borrows from the village of Vernazza. Silenzio, Bruno!",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "emoji-passport",
+      "title": "Emoji Passport",
+      "kind": "media",
+      "intro": "[dramatic pause] Every one of these films is set somewhere you can sort of visit in World Showcase. I'll give you emoji and a hint. You give me the movie.",
+      "format": "emoji",
+      "art": {
+        "prompt": "An open passport with rows of colorful blank stamp shapes floating up off the pages like glowing bubbles, a world globe and a paper airplane in the background, playful pop-art style Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/epcot-world-tour--emoji-passport.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Hint: a chilly musical about two royal sisters. ❄️👭⛄",
+          "answer": "Frozen",
+          "accept": [
+            "frozen"
+          ],
+          "choices": [
+            "Frozen",
+            "Brave",
+            "Tangled",
+            "Encanto"
+          ],
+          "reveal": "The correct answer is Frozen! Arendelle is inspired by Norway, and you can ride Frozen Ever After in EPCOT's Norway pavilion. [whispers] Let it go, let it go.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Hint: a family, a guitar, and a holiday in Mexico. 💀🎸🌼",
+          "answer": "Coco",
+          "accept": [
+            "coco"
+          ],
+          "choices": [
+            "Coco",
+            "Encanto",
+            "The Book of Life",
+            "The Three Caballeros"
+          ],
+          "reveal": "The correct answer is Coco! Those marigold petals guide the family home. [laughs] And if you said The Book of Life, nice try, but that one isn't even Disney.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Hint: a princess with a bow in the Scottish Highlands. 🏹🐻👑",
+          "answer": "Brave",
+          "accept": [
+            "brave"
+          ],
+          "choices": [
+            "Brave",
+            "Tangled",
+            "Mulan",
+            "Frozen"
+          ],
+          "reveal": "The correct answer is Brave! Merida shot for her own hand, and the closest World Showcase stop is the United Kingdom pavilion. Bring a bear-proof bag.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Hint: a warrior who takes her father's place, with a tiny dragon. 🗡️🐉🏯",
+          "answer": "Mulan",
+          "accept": [
+            "mulan"
+          ],
+          "choices": [
+            "Mulan",
+            "Raya and the Last Dragon",
+            "Kung Fu Panda",
+            "Turning Red"
+          ],
+          "reveal": "[dramatic pause] The correct answer is Mulan! The China pavilion is the perfect spot to strike a pose. Dishonor on anyone who missed this one. [chuckles] Dishonor on your cow!",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Hint: a Pixar teen who poofs into an animal in Canada's biggest city. 🐼🔴🇨🇦",
+          "answer": "Turning Red",
+          "accept": [
+            "turning red"
+          ],
+          "choices": [
+            "Turning Red",
+            "Elemental",
+            "Luca",
+            "Inside Out"
+          ],
+          "reveal": "[gasps] The correct answer is Turning Red! Mei poofs into a red panda in Toronto. Nobody tell her the Canada pavilion has lumberjacks. [mischievously] She'll get excited.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "passport-please",
+      "title": "Passport, Please",
+      "kind": "parks",
+      "intro": "Time for a lap around World Showcase. I describe the spot, you name the pavilion's country. [chuckles] Comfortable shoes recommended.",
+      "format": "text",
+      "art": {
+        "prompt": "A sunlit promenade around a lagoon lined with miniature country pavilions: a Norwegian stave church, a Moroccan gate with mosaic tiles, a red Japanese torii gate in the water, a German biergarten, a Mexican pyramid Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/epcot-world-tour--passport-please.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "You can sail into Arendelle on the Frozen Ever After boat ride in this pavilion.",
+          "answer": "Norway",
+          "accept": [
+            "norway"
+          ],
+          "choices": [
+            "Norway",
+            "Germany",
+            "Canada",
+            "United Kingdom"
+          ],
+          "reveal": "[cheerful] The correct answer is Norway! Frozen Ever After replaced the old Maelstrom ride in 2016. Trolls, polar bears, and now a snowman who loves warm hugs.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "This pavilion's centerpiece is a pyramid inspired by Mesoamerican temples, and the Three Caballeros ride boats inside it.",
+          "answer": "Mexico",
+          "accept": [
+            "mexico"
+          ],
+          "choices": [
+            "Mexico",
+            "Morocco",
+            "China",
+            "Italy"
+          ],
+          "reveal": "[chuckles] The correct answer is Mexico! It's always twilight inside that pyramid, which is the perfect excuse for a margarita at any hour. [sarcastic] For the grown-ups.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "A miniature Bavarian village with model trains chugging through it sits right next to this pavilion.",
+          "answer": "Germany",
+          "accept": [
+            "germany"
+          ],
+          "choices": [
+            "Germany",
+            "Norway",
+            "Italy",
+            "France"
+          ],
+          "reveal": "[playfully] The correct answer is Germany! The little train village debuted at the 1995 Flower and Garden Festival and was supposed to be temporary. [laughs] Nobody let it leave.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "King Hassan the Second sent skilled artisans to create the hand-cut tile mosaics in this pavilion, which opened in 1984.",
+          "answer": "Morocco",
+          "accept": [
+            "morocco"
+          ],
+          "choices": [
+            "Morocco",
+            "Japan",
+            "Mexico",
+            "Italy"
+          ],
+          "reveal": "[impressed] The correct answer is Morocco! It was the first pavilion added after World Showcase opened. Those tiles were made by hand, so please don't lick them.",
+          "dailyDouble": true
+        },
+        {
+          "value": 1000,
+          "clue": "This pavilion's Mitsukoshi store is run by a retailer that traces its roots back to a kimono shop opened in 1673.",
+          "answer": "Japan",
+          "accept": [
+            "japan"
+          ],
+          "choices": [
+            "Japan",
+            "China",
+            "Morocco",
+            "United Kingdom"
+          ],
+          "reveal": "[whispers] The correct answer is Japan! Mitsukoshi started as a kimono shop called Echigoya. Three hundred and fifty years of shopping, and I still can't find my wallet.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "spaceship-earthlings",
+      "title": "Spaceship Earthlings",
+      "kind": "fan",
+      "intro": "[excited] Our fans asked for EPCOT deep cuts, so here they are. Hope you remember the old days, or at least the big golf ball.",
+      "format": "text",
+      "art": {
+        "prompt": "Interior of a futuristic 1980s-style pavilion glowing with purple and teal neon, a giant faceted silver sphere overhead, a fountain of leaping water arcs, retro-futurist monorail track sweeping past Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/epcot-world-tour--spaceship-earthlings.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This giant geodesic sphere at the front of EPCOT is also a slow-moving dark ride.",
+          "answer": "Spaceship Earth",
+          "accept": [
+            "spaceship earth"
+          ],
+          "choices": [
+            "Spaceship Earth",
+            "Mission: SPACE",
+            "Test Track",
+            "Soarin'"
+          ],
+          "reveal": "[excited] The correct answer is Spaceship Earth! Yes, the golf ball. Everybody calls it the golf ball. [laughs] Please don't try to tee off.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "EPCOT Center first opened its gates in this year.",
+          "answer": "1982",
+          "accept": [
+            "1982",
+            "nineteen eighty two"
+          ],
+          "choices": [
+            "1982",
+            "1971",
+            "1986",
+            "1979"
+          ],
+          "reveal": "[excited] The correct answer is 1982! October 1, 1982, exactly eleven years after Magic Kingdom opened. Happy birthday, EPCOT.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "One little spark! This purple dragon-like creature is the star of Journey Into Imagination.",
+          "answer": "Figment",
+          "accept": [
+            "figment"
+          ],
+          "choices": [
+            "Figment",
+            "Elliott",
+            "Mushu",
+            "Spyro"
+          ],
+          "reveal": "[excited] The correct answer is Figment! Two tiny wings, eyes big and yellow, horns of a steer, what a lovable fellow. Spyro? [chuckles] Wrong company, buddy.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "EPCOT began as an acronym. The E-P-C-O-T stands for this.",
+          "answer": "Experimental Prototype Community of Tomorrow",
+          "accept": [
+            "experimental prototype community of tomorrow"
+          ],
+          "choices": [
+            "Experimental Prototype Community of Tomorrow",
+            "Every Person Comes Out Tired",
+            "Experimental Park of Culture and Technology",
+            "Exploring Planet Communities of Tomorrow"
+          ],
+          "reveal": "The correct answer is Experimental Prototype Community of Tomorrow! [mischievously] Although Every Person Comes Out Tired is also technically accurate after a full day of World Showcase.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Figment's original bearded human companion, who flew a dream-catching machine on the 1983 version of Journey Into Imagination.",
+          "answer": "Dreamfinder",
+          "accept": [
+            "dreamfinder",
+            "the dreamfinder"
+          ],
+          "choices": [
+            "Dreamfinder",
+            "The Imagineer",
+            "Professor Wonder",
+            "Dr. Channing"
+          ],
+          "reveal": "[impressed] The correct answer is Dreamfinder! He left the ride in 1998, and EPCOT fans have been asking for him back ever since. We miss you, big red beard.",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}

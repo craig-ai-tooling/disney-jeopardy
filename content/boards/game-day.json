@@ -1,0 +1,532 @@
+{
+  "id": "game-day",
+  "title": "Game Day",
+  "theme": "Sports and games",
+  "tags": [
+    "sports",
+    "games",
+    "competition"
+  ],
+  "intro": "[excited] It's GAME DAY, everybody! Tonight we've got heroes, hockey, bobsleds, and board games. [laughs] Stretch those buzzer fingers, because nobody is getting a participation trophy.",
+  "art": {
+    "prompt": "A sunny sports stadium transformed into a fairy-tale arena, castle turrets on the scoreboard, pennant flags, a hockey stick, a bobsled, a football, golden trophies and confetti raining down Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+    "file": "media/game-day.jpg"
+  },
+  "categories": [
+    {
+      "id": "zero-to-hero",
+      "title": "Zero to Hero",
+      "kind": "film",
+      "intro": "Our film category is the ultimate sports movie... set on Mount Olympus. [dramatic pause] Go the distance, people!",
+      "format": "text",
+      "art": {
+        "prompt": "An ancient Greek training ground at sunrise on a mountaintop, marble columns, a bronze discus and laurel wreath, a winged horse statue silhouette, clouds swirling below Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/game-day--zero-to-hero.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Hercules' winged horse friend.",
+          "answer": "Pegasus",
+          "accept": [
+            "pegasus"
+          ],
+          "choices": [
+            "Pegasus",
+            "Phil",
+            "Pain",
+            "Panic"
+          ],
+          "reveal": "The correct answer is Pegasus! [laughs] Zeus made him out of clouds. Pretty fluffy for a stallion.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "This grumpy satyr trains heroes, including Hercules.",
+          "answer": "Phil",
+          "accept": [
+            "phil",
+            "philoctetes"
+          ],
+          "choices": [
+            "Phil",
+            "Hades",
+            "Chiron",
+            "Hermes"
+          ],
+          "reveal": "The correct answer is Phil, short for Philoctetes! [sighs] Rule number 95, kid: concentrate.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Hercules' fiery-haired villain, lord of the underworld.",
+          "answer": "Hades",
+          "accept": [
+            "hades"
+          ],
+          "choices": [
+            "Hades",
+            "Zeus",
+            "Ares",
+            "Pain"
+          ],
+          "reveal": "The correct answer is Hades! [chuckles] His hair literally turns red when he's angry. Relatable, honestly.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "The gospel-singing Muses narrate Hercules. How many of them are there in the film?",
+          "answer": "Five",
+          "accept": [
+            "five",
+            "5"
+          ],
+          "choices": [
+            "Five",
+            "Three",
+            "Seven",
+            "Nine"
+          ],
+          "reveal": "The correct answer is five! [excited] Greek mythology has NINE Muses, but Disney trimmed the choir down to five. Honey, you mean HUNK-ules!",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "This actor gives Phil his gravelly voice.",
+          "answer": "Danny DeVito",
+          "accept": [
+            "danny devito",
+            "devito",
+            "danny de vito"
+          ],
+          "choices": [
+            "Danny DeVito",
+            "Rip Torn",
+            "James Woods",
+            "Bobcat Goldthwait"
+          ],
+          "reveal": "[impressed] The correct answer is Danny DeVito! Rip Torn voiced Zeus, James Woods was Hades, and Bobcat Goldthwait was Pain. Nerd trophy for you.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "sports-center",
+      "title": "The Sports Center",
+      "kind": "theme",
+      "intro": "Disney loves an underdog sports story. [mischievously] So do I... because tonight, that's most of you.",
+      "format": "text",
+      "art": {
+        "prompt": "A row of lockers in a vintage locker room holding a hockey stick, a bobsled helmet, a football, and a team jacket, sunlight streaming through high windows Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/game-day--sports-center.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In Monsters University, Mike and Sulley join Oozma Kappa to compete in these campus games.",
+          "answer": "The Scare Games",
+          "accept": [
+            "the scare games",
+            "scare games"
+          ],
+          "choices": [
+            "The Scare Games",
+            "The Scream Olympics",
+            "The Monster Bowl",
+            "The Fright Fest"
+          ],
+          "reveal": "The correct answer is the Scare Games! [laughs] Oozma Kappa: proof that the nerds can win the tournament.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Emilio Estevez coaches a hockey team of misfits in this 1992 Disney film.",
+          "answer": "The Mighty Ducks",
+          "accept": [
+            "the mighty ducks",
+            "mighty ducks"
+          ],
+          "choices": [
+            "The Mighty Ducks",
+            "Miracle",
+            "Slap Shot",
+            "Cool Runnings"
+          ],
+          "reveal": "The correct answer is The Mighty Ducks! [excited] Quack, quack, QUACK! The movie even inspired a real NHL team.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "This 1993 Disney comedy follows Jamaica's first Olympic bobsled team.",
+          "answer": "Cool Runnings",
+          "accept": [
+            "cool runnings"
+          ],
+          "choices": [
+            "Cool Runnings",
+            "Eddie the Eagle",
+            "Glory Road",
+            "Miracle"
+          ],
+          "reveal": "The correct answer is Cool Runnings! [chuckles] Feel the rhythm, feel the rhyme, get on up, it's bobsled time!",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Denzel Washington coaches a newly integrated high school football team in this 2000 Disney film.",
+          "answer": "Remember the Titans",
+          "accept": [
+            "remember the titans",
+            "titans"
+          ],
+          "choices": [
+            "Remember the Titans",
+            "Glory Road",
+            "The Rookie",
+            "Invincible"
+          ],
+          "reveal": "The correct answer is Remember the Titans! [excited] Left side, strong side! Based on the real 1971 T.C. Williams High School team.",
+          "dailyDouble": true
+        },
+        {
+          "value": 1000,
+          "clue": "Kurt Russell plays coach Herb Brooks in this 2004 Disney film about the 1980 US Olympic hockey team.",
+          "answer": "Miracle",
+          "accept": [
+            "miracle"
+          ],
+          "choices": [
+            "Miracle",
+            "The Mighty Ducks",
+            "Invincible",
+            "The Game Plan"
+          ],
+          "reveal": "[gasps] The correct answer is Miracle! Do you believe in miracles? YES! Brooks's real team beat the Soviets at Lake Placid.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "team-colors",
+      "title": "Team Colors",
+      "kind": "media",
+      "intro": "Every team needs colors! Name the character wearing these. [whispers] No peeking at your merch.",
+      "format": "palette",
+      "art": {
+        "prompt": "Colorful team jerseys hanging on a laundry line against a blue sky, pennants and paint swatches in bold primary colors, sporty and cheerful Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/game-day--team-colors.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Red shorts, black, bright yellow shoes, and white gloves. Hint: he started it all.",
+          "answer": "Mickey Mouse",
+          "accept": [
+            "mickey mouse",
+            "mickey"
+          ],
+          "choices": [
+            "Mickey Mouse",
+            "Minnie Mouse",
+            "Donald Duck",
+            "Goofy"
+          ],
+          "reveal": "The correct answer is Mickey Mouse! [cheerful] The big cheese himself, and the original team captain.",
+          "palette": [
+            "#D7262E",
+            "#000000",
+            "#FFD100",
+            "#FFFFFF"
+          ],
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "A blue bodice, a yellow skirt, and a red bow. Hint: she whistles while she works.",
+          "answer": "Snow White",
+          "accept": [
+            "snow white",
+            "snow"
+          ],
+          "choices": [
+            "Snow White",
+            "Belle",
+            "Cinderella",
+            "Aurora"
+          ],
+          "reveal": "The correct answer is Snow White! [laughs] Seven dwarfs is basically a full starting lineup with a sub.",
+          "palette": [
+            "#1F4E9E",
+            "#F7D547",
+            "#D2232A"
+          ],
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "White, lime green, and purple. Hint: he's a space ranger.",
+          "answer": "Buzz Lightyear",
+          "accept": [
+            "buzz lightyear",
+            "buzz"
+          ],
+          "choices": [
+            "Buzz Lightyear",
+            "Emperor Zurg",
+            "Rex",
+            "Green Army Men"
+          ],
+          "reveal": "The correct answer is Buzz Lightyear! [chuckles] Those wings pop out, but please don't try to fly off the bleachers.",
+          "palette": [
+            "#FFFFFF",
+            "#7CC242",
+            "#6A3FA0"
+          ],
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Black, deep purple, and a sickly green glow. Hint: she was NOT invited to the party.",
+          "answer": "Maleficent",
+          "accept": [
+            "maleficent"
+          ],
+          "choices": [
+            "Maleficent",
+            "Ursula",
+            "The Evil Queen",
+            "Yzma"
+          ],
+          "reveal": "The correct answer is Maleficent! [mischievously] Imagine her at a tailgate. She would curse every hot dog.",
+          "palette": [
+            "#111111",
+            "#5B2C83",
+            "#7FD13B"
+          ],
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "A yellow cap with a red feather, red shorts, a blue bow tie, and white gloves. Hint: always let your conscience be your guide.",
+          "answer": "Pinocchio",
+          "accept": [
+            "pinocchio"
+          ],
+          "choices": [
+            "Pinocchio",
+            "Geppetto",
+            "Jiminy Cricket",
+            "Peter Pan"
+          ],
+          "reveal": "The correct answer is Pinocchio! [laughs] If he said he was the team MVP, we would all know by his nose.",
+          "palette": [
+            "#F2C230",
+            "#D32F2F",
+            "#1E3F8C",
+            "#FFFFFF"
+          ],
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "home-field-advantage",
+      "title": "Home Field Advantage",
+      "kind": "parks",
+      "intro": "Now it's off to the parks, where the sports are wet, wild, and sometimes miniature. [laughs] Mostly miniature.",
+      "format": "text",
+      "art": {
+        "prompt": "A melting snowy ski mountain turned into a tropical water park, a giant ski-jump water slide, chairlift, palm trees, and a mini golf course with snowmen in the foreground Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/game-day--home-field-advantage.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This Disney World mini golf spot has a summer course and a winter course, and is themed to Santa's Florida vacation.",
+          "answer": "Winter Summerland",
+          "accept": [
+            "winter summerland",
+            "winter summerland miniature golf",
+            "winter summerland mini golf"
+          ],
+          "choices": [
+            "Winter Summerland",
+            "Fantasia Gardens",
+            "Fairways Miniature Golf",
+            "Polar Putt"
+          ],
+          "reveal": "The correct answer is Winter Summerland! [cheerful] Snowy holes in the Florida heat. Even the elves need a vacation.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "This Disney World sports complex shares its name with a Disney-owned sports TV network.",
+          "answer": "ESPN Wide World of Sports",
+          "accept": [
+            "espn wide world of sports",
+            "espn wide world of sports complex",
+            "wide world of sports",
+            "espn"
+          ],
+          "choices": [
+            "ESPN Wide World of Sports",
+            "Disney Sports Center",
+            "Champion Stadium",
+            "Disney's Athletic Club"
+          ],
+          "reveal": "The correct answer is ESPN Wide World of Sports! [excited] It opened in 1997 as Disney's Wide World of Sports and got the ESPN name in 2010.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "The runDisney challenge for running a half marathon and a full marathon on back-to-back days is named for this character.",
+          "answer": "Goofy",
+          "accept": [
+            "goofy",
+            "goofy's race and a half",
+            "goofy's race and a half challenge"
+          ],
+          "choices": [
+            "Goofy",
+            "Dopey",
+            "Donald",
+            "Mickey"
+          ],
+          "reveal": "The correct answer is Goofy! [laughs] Goofy's Race and a Half Challenge. Dopey gets the four-race challenge, because of course he does.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Blizzard Beach's super-steep ski jump body slide, one of the tallest free-fall slides in the world.",
+          "answer": "Summit Plummet",
+          "accept": [
+            "summit plummet"
+          ],
+          "choices": [
+            "Summit Plummet",
+            "Slush Gusher",
+            "Humunga Kowabunga",
+            "Crush 'n' Gusher"
+          ],
+          "reveal": "The correct answer is Summit Plummet! [gasps] Twelve stories, straight down. [whispers] Your swimsuit may not make it.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Blizzard Beach is built around this snowy mountain that supposedly melted into a water park.",
+          "answer": "Mount Gushmore",
+          "accept": [
+            "mount gushmore",
+            "mt gushmore",
+            "mt. gushmore",
+            "gushmore"
+          ],
+          "choices": [
+            "Mount Gushmore",
+            "Mount Mayday",
+            "Mount Splashmore",
+            "Mount Slushmore"
+          ],
+          "reveal": "The correct answer is Mount Gushmore! [chuckles] Typhoon Lagoon has Mount Mayday, but Gushmore gets the best pun. Take a bow, nerd.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "game-night",
+      "title": "Game Night",
+      "kind": "fan",
+      "intro": "Our wildcard category is game night, Disney style. [mischievously] Fair warning: I cheat at Monopoly.",
+      "format": "text",
+      "art": {
+        "prompt": "A cozy game night table with dice, a croquet mallet, playing cards, a vintage arcade cabinet glowing neon blue, candy-colored race karts, and a pirate treasure chest Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/game-day--game-night.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In Wreck-It Ralph, Vanellope races in this candy-coated video game.",
+          "answer": "Sugar Rush",
+          "accept": [
+            "sugar rush"
+          ],
+          "choices": [
+            "Sugar Rush",
+            "Hero's Duty",
+            "Fix-It Felix Jr.",
+            "Slaughter Race"
+          ],
+          "reveal": "The correct answer is Sugar Rush! [laughs] Racing karts made of cookies. Pit stops have never been so delicious.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "In Alice in Wonderland, the Queen of Hearts plays croquet using these birds as mallets.",
+          "answer": "Flamingos",
+          "accept": [
+            "flamingos",
+            "flamingo"
+          ],
+          "choices": [
+            "Flamingos",
+            "Peacocks",
+            "Storks",
+            "Ostriches"
+          ],
+          "reveal": "The correct answer is flamingos! [sarcastic] And she still has to win. Off with your head if you don't let her.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "In Inside Out, Riley loves to play this sport.",
+          "answer": "Hockey",
+          "accept": [
+            "hockey",
+            "ice hockey"
+          ],
+          "choices": [
+            "Hockey",
+            "Soccer",
+            "Figure skating",
+            "Basketball"
+          ],
+          "reveal": "The correct answer is hockey! [excited] Hockey Island is one of her core memory islands. Goofball Island is mine.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In Pirates of the Caribbean: Dead Man's Chest, Will Turner bets his soul against Davy Jones in this dice game.",
+          "answer": "Liar's Dice",
+          "accept": [
+            "liar's dice",
+            "liars dice"
+          ],
+          "choices": [
+            "Liar's Dice",
+            "Pirate's Craps",
+            "Dead Man's Dice",
+            "Shut the Box"
+          ],
+          "reveal": "The correct answer is Liar's Dice! [chuckles] Pro tip: never gamble against a guy with a squid for a face.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "In the 1982 film Tron, Kevin Flynn is a former engineer at this software company.",
+          "answer": "ENCOM",
+          "accept": [
+            "encom"
+          ],
+          "choices": [
+            "ENCOM",
+            "Flynn's Arcade",
+            "Digicorp",
+            "GridCorp"
+          ],
+          "reveal": "[impressed] The correct answer is ENCOM! Flynn's Arcade is the arcade he runs on the side. End of line, nerd.",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}

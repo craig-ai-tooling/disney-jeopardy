@@ -1,0 +1,515 @@
+{
+  "id": "family-matters",
+  "title": "Family Matters",
+  "theme": "Parents and siblings",
+  "tags": [
+    "family",
+    "parents",
+    "siblings"
+  ],
+  "intro": "[excited] Welcome to the family reunion episode! Tonight it's moms, dads, big sisters, little brothers, and at least one wicked stepmother. Grab a seat at the kids' table, because some of you are going to need it.",
+  "art": {
+    "prompt": "A giant cozy family dinner table in a warm cottage dining room set for a reunion, mismatched chairs from tiny to huge, a roast and a towering cake, framed silhouette portraits on the walls, a crackling fireplace Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+    "file": "media/family-matters.jpg"
+  },
+  "categories": [
+    {
+      "id": "supers-family-dinner",
+      "title": "Supers at the Dinner Table",
+      "kind": "film",
+      "intro": "Our film category stars the most super family in animation. [chuckles] Please, no capes.",
+      "format": "text",
+      "art": {
+        "prompt": "A sleek mid-century modern suburban dining room mid-chaos, a dinner table with a stretched-out spilled pitcher, a scorched high chair, plates flying, red and orange retro supersuit fabrics draped over chairs Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/family-matters--supers-family-dinner.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Mr. Incredible's super-stretchy wife goes by this hero name.",
+          "answer": "Elastigirl",
+          "accept": [
+            "elastigirl",
+            "elasti-girl",
+            "mrs. incredible",
+            "mrs incredible",
+            "helen",
+            "helen parr"
+          ],
+          "choices": [
+            "Elastigirl",
+            "Frozone",
+            "Mirage",
+            "Voyd"
+          ],
+          "reveal": "The correct answer is Elastigirl! Also known as Helen Parr, super mom. [sarcastic] She can stretch across a room, which is exactly how far my mom could reach in the car.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "The Parr family's super-speedy son.",
+          "answer": "Dash",
+          "accept": [
+            "dash",
+            "dashiell",
+            "dash parr"
+          ],
+          "choices": [
+            "Dash",
+            "Jack-Jack",
+            "Flash",
+            "Tony"
+          ],
+          "reveal": "The correct answer is Dash! He's so fast he can run on water. [laughs] Also very fast at escaping homework.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "The Parrs' baby turns out to have a whole bunch of powers, including turning into a fiery little monster.",
+          "answer": "Jack-Jack",
+          "accept": [
+            "jack-jack",
+            "jack jack",
+            "jackjack",
+            "jack-jack parr"
+          ],
+          "choices": [
+            "Jack-Jack",
+            "Dash",
+            "Syndrome",
+            "Dicker"
+          ],
+          "reveal": "The correct answer is Jack-Jack! He even fought a raccoon. Every parent knows the feeling of a baby with too many powers.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "This tiny fashion designer to the supers insists: No capes!",
+          "answer": "Edna Mode",
+          "accept": [
+            "edna mode",
+            "edna",
+            "e"
+          ],
+          "choices": [
+            "Edna Mode",
+            "Evelyn Deavor",
+            "Mirage",
+            "Rick Dicker"
+          ],
+          "reveal": "[dramatic pause] The correct answer is Edna Mode! Darling, she does not do capes. [whispers] But she did babysit Jack-Jack in Incredibles 2, and loved every minute of it.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "The Incredibles' writer and director also provides the voice of Edna Mode himself.",
+          "answer": "Brad Bird",
+          "accept": [
+            "brad bird",
+            "bird"
+          ],
+          "choices": [
+            "Brad Bird",
+            "Pete Docter",
+            "Andrew Stanton",
+            "John Lasseter"
+          ],
+          "reveal": "[gasps] The correct answer is Brad Bird! His scratch voice was so good that Lily Tomlin reportedly told him to just do it himself. [laughs] True Pixar nerds, take a bow.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "sibling-rivalry",
+      "title": "Sibling Rivalry",
+      "kind": "theme",
+      "intro": "[excited] Brothers, sisters, and the occasional jealous uncle. If you have a sibling, they are probably going to beat you in this category.",
+      "format": "text",
+      "art": {
+        "prompt": "Two matching bedroom doors side by side in a castle hallway, one frosted with ice crystals and one decorated with sunny paint and flowers, a single snowflake and a single paintbrush on the floor between them Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/family-matters--sibling-rivalry.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Elsa's fearless little sister, who just wants to build a snowman.",
+          "answer": "Anna",
+          "accept": [
+            "anna",
+            "princess anna"
+          ],
+          "choices": [
+            "Anna",
+            "Olaf",
+            "Kristoff",
+            "Iduna"
+          ],
+          "reveal": "[cheerful] The correct answer is Anna! Do you want to build a snowman? Okay, bye. Classic little sister move, knocking on the door forty times.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Mufasa's jealous little brother, who has a scar over his eye and a pack of hyenas.",
+          "answer": "Scar",
+          "accept": [
+            "scar",
+            "taka"
+          ],
+          "choices": [
+            "Scar",
+            "Zazu",
+            "Rafiki",
+            "Shenzi"
+          ],
+          "reveal": "[chuckles] The correct answer is Scar! Life's not fair, is it? Proof that some sibling rivalries really get out of hand.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "In Brother Bear, the youngest of three brothers is magically turned into a bear.",
+          "answer": "Kenai",
+          "accept": [
+            "kenai"
+          ],
+          "choices": [
+            "Kenai",
+            "Denahi",
+            "Sitka",
+            "Koda"
+          ],
+          "reveal": "[playfully] The correct answer is Kenai! Big brothers Sitka and Denahi round out the trio, and Koda is the chatty cub who tags along. Plus the moose. [mischievously] Eh, the moose.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Cinderella's red-haired stepsister, the one who plays the flute.",
+          "answer": "Anastasia",
+          "accept": [
+            "anastasia",
+            "anastasia tremaine"
+          ],
+          "choices": [
+            "Anastasia",
+            "Drizella",
+            "Lady Tremaine",
+            "Gisele"
+          ],
+          "reveal": "[impressed] The correct answer is Anastasia! Drizella sings while Anastasia plays the flute, and nobody's ears survive. Those dark curls belong to Drizella.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "In Onward, brothers Ian and Barley share this family last name.",
+          "answer": "Lightfoot",
+          "accept": [
+            "lightfoot"
+          ],
+          "choices": [
+            "Lightfoot",
+            "Lightwood",
+            "Swiftfoot",
+            "Stonebrook"
+          ],
+          "reveal": "[whispers] The correct answer is Lightfoot! Tom Holland and Chris Pratt voiced the elf brothers, and their dad was a pair of walking pants. [sarcastic] Family is complicated.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "because-i-said-so",
+      "title": "Because I Said So",
+      "kind": "media",
+      "intro": "You'll hear a famous line from a Disney parent or grandparent. Tell me who said it. [mischievously] And sit up straight while you do it.",
+      "format": "quote",
+      "art": {
+        "prompt": "A grand throne room drawing room with a long dramatic shadow of a pointing finger across a marble floor, an hourglass, a stack of rule scrolls and a stern golden armchair Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/family-matters--because-i-said-so.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Which Disney parent figure said this?",
+          "answer": "Mother Gothel",
+          "accept": [
+            "mother gothel",
+            "gothel"
+          ],
+          "choices": [
+            "Mother Gothel",
+            "Lady Tremaine",
+            "Queen Elinor",
+            "The Evil Queen"
+          ],
+          "reveal": "[excited] The correct answer is Mother Gothel! Rapunzel's not-actually-mom from Tangled. [laughs] Spoiler alert: mother did not, in fact, know best.",
+          "quote": "Mother knows best.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Which Disney dad said this?",
+          "answer": "Mufasa",
+          "accept": [
+            "mufasa"
+          ],
+          "choices": [
+            "Mufasa",
+            "Simba",
+            "King Triton",
+            "Rafiki"
+          ],
+          "reveal": "[excited] The correct answer is Mufasa! He said it from the stars. Remember who you are. Also remember to wear sunscreen, that's from my dad.",
+          "quote": "Remember who you are.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Which Disney grandma said this, over and over?",
+          "answer": "Abuelita",
+          "accept": [
+            "abuelita",
+            "elena",
+            "elena rivera",
+            "abuelita elena"
+          ],
+          "choices": [
+            "Abuelita",
+            "Abuela Alma",
+            "Mama Imelda",
+            "Gramma Tala"
+          ],
+          "reveal": "[excited] The correct answer is Abuelita from Coco! Her name is Elena, and her chancla is legendary. [whispers] Mama Imelda banned music first, but Abuelita enforces it.",
+          "quote": "No music!",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Which Disney dad said this?",
+          "answer": "King Triton",
+          "accept": [
+            "king triton",
+            "triton"
+          ],
+          "choices": [
+            "King Triton",
+            "King Stefan",
+            "Chief Tui",
+            "Fa Zhou"
+          ],
+          "reveal": "The correct answer is King Triton! Right before he trashed Ariel's grotto. Reasonable merman? [laughs] Ask the statue of Prince Eric.",
+          "quote": "I consider myself a reasonable merman.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Which Disney mom said this at the dinner table?",
+          "answer": "Queen Elinor",
+          "accept": [
+            "queen elinor",
+            "elinor"
+          ],
+          "choices": [
+            "Queen Elinor",
+            "Queen Iduna",
+            "Sarabi",
+            "Helen Parr"
+          ],
+          "reveal": "[impressed] The correct answer is Queen Elinor! Merida's mum in Brave, right before Merida plops her bow down anyway. Moms, keep fighting the good fight.",
+          "quote": "Merida, a princess does not place her weapons on the table.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "family-vacation",
+      "title": "Family Vacation",
+      "kind": "parks",
+      "intro": "Load the minivan, kids, we're going to the parks. [laughs] These clues are all about family time at Disney.",
+      "format": "text",
+      "art": {
+        "prompt": "A sunny theme park entrance plaza with a flower bed shaped like a round face, a stroller parked with balloons tied to it, a red steam train station, a fairy-tale castle in the distance Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/family-matters--family-vacation.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Cinderella Castle is the centerpiece of this Walt Disney World theme park.",
+          "answer": "Magic Kingdom",
+          "accept": [
+            "magic kingdom",
+            "the magic kingdom"
+          ],
+          "choices": [
+            "Magic Kingdom",
+            "EPCOT",
+            "Disneyland",
+            "Disney's Hollywood Studios"
+          ],
+          "reveal": "The correct answer is Magic Kingdom! Disneyland has Sleeping Beauty Castle. [chuckles] Get the castles mixed up at a family dinner and see what happens.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "This Disney service lets one grown-up ride while the other waits with a little one, then swap without waiting in line again.",
+          "answer": "Rider Switch",
+          "accept": [
+            "rider switch",
+            "rider swap",
+            "child swap"
+          ],
+          "choices": [
+            "Rider Switch",
+            "Lightning Lane",
+            "Single Rider",
+            "Virtual Queue"
+          ],
+          "reveal": "The correct answer is Rider Switch! Parents everywhere, rejoice. [mischievously] You can both ride Space Mountain and still have someone holding the stroller.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "The Swiss Family Treehouse is in this land at Magic Kingdom.",
+          "answer": "Adventureland",
+          "accept": [
+            "adventureland"
+          ],
+          "choices": [
+            "Adventureland",
+            "Frontierland",
+            "Fantasyland",
+            "Liberty Square"
+          ],
+          "reveal": "The correct answer is Adventureland! The tree is not real, but the climb up those stairs absolutely is. Your legs will remember this family vacation.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In Walt Disney's Carousel of Progress, the cheerful father who guides you through each era is named this.",
+          "answer": "John",
+          "accept": [
+            "john"
+          ],
+          "choices": [
+            "John",
+            "George",
+            "Walt",
+            "Fred"
+          ],
+          "reveal": "[dramatic pause] The correct answer is John! He's joined by his wife Sarah and the family dog Rover. [sarcastic] There's a great big beautiful tomorrow, and John is always excited about it.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Walt said the idea for Disneyland came to him while watching his daughters ride the merry-go-round at this Los Angeles park.",
+          "answer": "Griffith Park",
+          "accept": [
+            "griffith park",
+            "griffith"
+          ],
+          "choices": [
+            "Griffith Park",
+            "Echo Park",
+            "Elysian Park",
+            "MacArthur Park"
+          ],
+          "reveal": "[gasps] The correct answer is Griffith Park! Walt sat on a bench watching Diane and Sharon ride the carousel. That bench is now at Disneyland. [laughs] Dads really do dream big.",
+          "dailyDouble": true
+        }
+      ]
+    },
+    {
+      "id": "whos-your-daddy",
+      "title": "Who's Your Daddy?",
+      "kind": "fan",
+      "intro": "[dramatic pause] The Club DJ members wanted to celebrate Disney dads. I name the kid, you name the father. Dad jokes come free.",
+      "format": "text",
+      "art": {
+        "prompt": "A dad's workshop and den filled with treasures: a clownfish anemone fish tank, a quirky wood-chopping invention with gears, a ceremonial carved oar, a chef's toque, and a lacquered paper lantern Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/family-matters--whos-your-daddy.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This clownfish swims across the ocean to find his son, Nemo.",
+          "answer": "Marlin",
+          "accept": [
+            "marlin"
+          ],
+          "choices": [
+            "Marlin",
+            "Gill",
+            "Crush",
+            "Bruce"
+          ],
+          "reveal": "[cheerful] The correct answer is Marlin! An overprotective dad who crossed the entire ocean. I can't even get my dad to cross the parking lot.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Belle's eccentric inventor father.",
+          "answer": "Maurice",
+          "accept": [
+            "maurice"
+          ],
+          "choices": [
+            "Maurice",
+            "Gaston",
+            "Lumiere",
+            "Philippe"
+          ],
+          "reveal": "[chuckles] The correct answer is Maurice! Philippe is the horse. [whispers] Gaston is not anyone's dad, but he does use antlers in all of his decorating.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Moana's father, the chief of Motunui, who warns her not to go past the reef.",
+          "answer": "Chief Tui",
+          "accept": [
+            "chief tui",
+            "tui"
+          ],
+          "choices": [
+            "Chief Tui",
+            "Chief Powhatan",
+            "Maui",
+            "Chief Bogo"
+          ],
+          "reveal": "[playfully] The correct answer is Chief Tui! He sings Where You Are. Spoiler, Moana goes beyond the reef anyway. [laughs] Kids never listen.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Tiana's dad, who dreamed of opening a restaurant with her.",
+          "answer": "James",
+          "accept": [
+            "james"
+          ],
+          "choices": [
+            "James",
+            "Louis",
+            "Ray",
+            "Eli"
+          ],
+          "reveal": "[impressed] The correct answer is James! Voiced by Terrence Howard. His gumbo inspired Tiana's Palace. Eli is Charlotte's dad, Big Daddy La Bouff.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Mulan's father, whose place she takes in the army.",
+          "answer": "Fa Zhou",
+          "accept": [
+            "fa zhou",
+            "zhou"
+          ],
+          "choices": [
+            "Fa Zhou",
+            "Fa Li",
+            "Li Shang",
+            "Chi Fu"
+          ],
+          "reveal": "[whispers] The correct answer is Fa Zhou! Fa Li is her mom. Mulan took his armor and his sword, and he was proud of her anyway. [chuckles] Best dad ever.",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}

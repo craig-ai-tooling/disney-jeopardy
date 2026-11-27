@@ -1,0 +1,531 @@
+{
+  "id": "best-friends",
+  "title": "Best Friends Forever",
+  "theme": "Friendship",
+  "tags": [
+    "friendship",
+    "sidekicks",
+    "buddies"
+  ],
+  "intro": "[excited] Welcome, welcome, WELCOME to the Best Friends Forever episode! Tonight it's sidekicks, buddies, and partners in crime. [mischievously] Look to your left... that person is your best friend for exactly one more category.",
+  "art": {
+    "prompt": "Two mismatched swings hanging side by side from a huge old oak tree on a grassy hill at sunset, friendship bracelets tied to the ropes, a treehouse above, fireflies, and two glowing lanterns Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+    "file": "media/best-friends.jpg"
+  },
+  "categories": [
+    {
+      "id": "youve-got-a-friend",
+      "title": "You've Got a Friend in Me",
+      "kind": "film",
+      "intro": "Our film category is all about the most famous toy friendship ever. [laughs] Reach for the sky, partner!",
+      "format": "text",
+      "art": {
+        "prompt": "A child's bedroom with cloud-patterned wallpaper, a toy cowboy hat and a toy space helmet side by side on the bed, a toy rocket and building blocks on the floor, warm morning light Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/best-friends--youve-got-a-friend.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This pull-string cowboy doll is Andy's favorite toy... at least until a space ranger shows up.",
+          "answer": "Woody",
+          "accept": [
+            "woody",
+            "sheriff woody"
+          ],
+          "choices": [
+            "Woody",
+            "Jessie",
+            "Bullseye",
+            "Stinky Pete"
+          ],
+          "reveal": "[cheerful] The correct answer is Woody! There's a snake in his boot, and a friend in his heart. Awww.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "This space ranger's famous catchphrase is To infinity and beyond!",
+          "answer": "Buzz Lightyear",
+          "accept": [
+            "buzz lightyear",
+            "buzz"
+          ],
+          "choices": [
+            "Buzz Lightyear",
+            "Emperor Zurg",
+            "Rex",
+            "Hamm"
+          ],
+          "reveal": "The correct answer is Buzz Lightyear! [laughs] He's not flying, he's falling WITH STYLE.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Woody and Buzz both have this kid's name written on the bottom of their boots.",
+          "answer": "Andy",
+          "accept": [
+            "andy",
+            "andy davis"
+          ],
+          "choices": [
+            "Andy",
+            "Sid",
+            "Bonnie",
+            "Al"
+          ],
+          "reveal": "The correct answer is Andy! [chuckles] Writing your name on your friends is a big commitment. Please don't try that at school.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "This singer-songwriter wrote and performed the Toy Story theme, You've Got a Friend in Me.",
+          "answer": "Randy Newman",
+          "accept": [
+            "randy newman",
+            "newman"
+          ],
+          "choices": [
+            "Randy Newman",
+            "Phil Collins",
+            "Alan Menken",
+            "Elton John"
+          ],
+          "reveal": "The correct answer is Randy Newman! [excited] He finally won his first Oscar for a Pixar song, If I Didn't Have You, from Monsters, Inc.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "In Toy Story 4, Bo Peep's three-headed sheep are named Billy, Goat, and this.",
+          "answer": "Gruff",
+          "accept": [
+            "gruff"
+          ],
+          "choices": [
+            "Gruff",
+            "Fluffy",
+            "Woolly",
+            "Baa"
+          ],
+          "reveal": "[gasps] The correct answer is Gruff! Billy, Goat, and Gruff, a fairy tale joke hiding in plain sight. Give yourself a gold star, nerd.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "sidekick-squad",
+      "title": "Sidekick Squad",
+      "kind": "theme",
+      "intro": "[dramatic pause] Every hero needs a sidekick. Tonight the sidekicks finally get the spotlight. [whispers] Don't tell the princesses.",
+      "format": "text",
+      "art": {
+        "prompt": "A lineup of tiny sidekick accessories on a stage: a seashell, a little red-and-gold gong, a glowing firefly lantern, a tiny paintbrush, a bundle of grubs on a leaf, under a spotlight Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/best-friends--sidekick-squad.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Ariel's yellow and blue best fish friend.",
+          "answer": "Flounder",
+          "accept": [
+            "flounder"
+          ],
+          "choices": [
+            "Flounder",
+            "Sebastian",
+            "Scuttle",
+            "Nemo"
+          ],
+          "reveal": "The correct answer is Flounder! [laughs] Ariel calls him a guppy, which is honestly a little rude.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Pumbaa's best friend is this wisecracking meerkat.",
+          "answer": "Timon",
+          "accept": [
+            "timon"
+          ],
+          "choices": [
+            "Timon",
+            "Zazu",
+            "Rafiki",
+            "Ed"
+          ],
+          "reveal": "The correct answer is Timon! Hakuna Matata, it means no worries for the rest of your days. [chuckles] Unless you're on this board.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Mulan's tiny dragon buddy, voiced by Eddie Murphy.",
+          "answer": "Mushu",
+          "accept": [
+            "mushu"
+          ],
+          "choices": [
+            "Mushu",
+            "Cri-Kee",
+            "Khan",
+            "Chi Fu"
+          ],
+          "reveal": "The correct answer is Mushu! [sarcastic] He's not a lizard, he's a DRAGON. Please, get it right.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Tiana's lovesick firefly friend, who's head over heels for the Evening Star.",
+          "answer": "Ray",
+          "accept": [
+            "ray",
+            "raymond"
+          ],
+          "choices": [
+            "Ray",
+            "Louis",
+            "Juju",
+            "Lawrence"
+          ],
+          "reveal": "[sighs] The correct answer is Ray! Spoiler, his Evangeline is the Evening Star, and he ends up right next to her. Pass the tissues.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "In Pocahontas, this is the name of the tiny hummingbird pal.",
+          "answer": "Flit",
+          "accept": [
+            "flit"
+          ],
+          "choices": [
+            "Flit",
+            "Meeko",
+            "Percy",
+            "Nakoma"
+          ],
+          "reveal": "The correct answer is Flit! [impressed] Meeko the raccoon steals the snacks, but Flit steals the show. True nerd points for you.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "friendship-zoom",
+      "title": "Friendship Under the Microscope",
+      "kind": "media",
+      "intro": "Our picture category starts SUPER zoomed in and slowly pulls back. [mischievously] Buzz in early for glory, or wait and look like a genius.",
+      "format": "zoom",
+      "art": {
+        "prompt": "A giant brass magnifying glass over a scrapbook of friendship mementos: bottle caps, concert ticket stubs, pressed flowers, a seashell, and a friendship bracelet Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/best-friends--friendship-zoom.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Zoom out on this scene. Which movie about an old man and a Wilderness Explorer does it come from?",
+          "answer": "Up",
+          "accept": [
+            "up"
+          ],
+          "choices": [
+            "Up",
+            "Coco",
+            "Luca",
+            "Inside Out"
+          ],
+          "reveal": "The correct answer is Up! [excited] The grape soda bottle cap, the Ellie Badge, is the best friendship award ever made.",
+          "media": {
+            "type": "image",
+            "prompt": "Extreme close-up of a weathered orange grape-soda bottle cap pinned like a badge onto a khaki scout sash covered in merit patches, a bunch of colorful helium balloons blurred in the background, golden late-afternoon light. Original illustration, cinematic lighting, no people, no characters, no text, no logos.",
+            "file": "media/best-friends--friendship-zoom-200.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Zoom out on this beach scene. Which film's friendship teaches us that ohana means family?",
+          "answer": "Lilo & Stitch",
+          "accept": [
+            "lilo & stitch",
+            "lilo and stitch",
+            "lilo stitch"
+          ],
+          "choices": [
+            "Lilo & Stitch",
+            "Moana",
+            "Brother Bear",
+            "Surf's Up"
+          ],
+          "reveal": "The correct answer is Lilo and Stitch! [chuckles] Peanut butter sandwiches for the fish, of course. Ohana means nobody gets left behind.",
+          "media": {
+            "type": "image",
+            "prompt": "A Hawaiian beach at sunset, a small ukulele leaning on a surfboard in the sand, a peanut butter sandwich on a paper plate next to a tide pool, a little red wagon, warm pink and orange sky. Original illustration, cinematic lighting, no people, no characters, no text, no logos.",
+            "file": "media/best-friends--friendship-zoom-400.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Zoom out on this city scene. Which movie pairs a bunny cop with a fox con artist?",
+          "answer": "Zootopia",
+          "accept": [
+            "zootopia",
+            "zootropolis"
+          ],
+          "choices": [
+            "Zootopia",
+            "Robin Hood",
+            "Bolt",
+            "Big Hero 6"
+          ],
+          "reveal": "The correct answer is Zootopia! [laughs] It's called a hustle, sweetheart. That carrot pen recorder deserves its own award.",
+          "media": {
+            "type": "image",
+            "prompt": "A carrot-shaped pen recorder lying on a police desk beside a parking ticket pad and a tiny traffic cone, rainy window behind showing a glowing city with districts of rainforest, ice, and desert skyscrapers. Original illustration, cinematic lighting, no people, no characters, no text, no logos.",
+            "file": "media/best-friends--friendship-zoom-600.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Zoom out on this seaside scene. In which film do two sea monster friends dream of owning this?",
+          "answer": "Luca",
+          "accept": [
+            "luca"
+          ],
+          "choices": [
+            "Luca",
+            "Ratatouille",
+            "Onward",
+            "Elemental"
+          ],
+          "reveal": "The correct answer is Luca! [excited] Silenzio, Bruno! A homemade scooter is the ultimate symbol of best-friend teamwork.",
+          "media": {
+            "type": "image",
+            "prompt": "A rickety homemade scooter built from scrap wood, rope, and old wheels perched on a sunny Italian seaside cliff, a colorful fishing village and turquoise sea below, a poster-free stone wall, summer haze. Original illustration, cinematic lighting, no people, no characters, no text, no logos.",
+            "file": "media/best-friends--friendship-zoom-800.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Zoom out on this farm scene. Which 1981 Disney film is about two pals who are told they're supposed to be enemies?",
+          "answer": "The Fox and the Hound",
+          "accept": [
+            "the fox and the hound",
+            "fox and the hound",
+            "fox and hound"
+          ],
+          "choices": [
+            "The Fox and the Hound",
+            "Lady and the Tramp",
+            "Robin Hood",
+            "Bambi"
+          ],
+          "reveal": "[sighs] The correct answer is The Fox and the Hound! Tod and Copper, friends forever, no matter what. Somebody hand me a hanky.",
+          "media": {
+            "type": "image",
+            "prompt": "A rustic wooden farm fence at the edge of an autumn forest, a worn leather hound's collar hanging on a post, a fox den tucked under tree roots nearby, morning mist and falling orange leaves. Original illustration, cinematic lighting, no people, no characters, no text, no logos.",
+            "file": "media/best-friends--friendship-zoom-1000.jpg"
+          },
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "friends-like-me",
+      "title": "Friends Like Me",
+      "kind": "parks",
+      "intro": "Now let's head to the parks, where the BFFs have their own rides, shows, and statues. [laughs] Yes, statues. We'll get there.",
+      "format": "text",
+      "art": {
+        "prompt": "A theme park hub at dusk with a fairy-tale castle, a bronze statue base wrapped in flowers, a small striped circus-tent kid coaster, and a whimsical cartoon town with crooked buildings Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/best-friends--friends-like-me.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Mickey's tall, clumsy best pal has his own kid coaster in Magic Kingdom's Storybook Circus, called this character's Barnstormer.",
+          "answer": "Goofy",
+          "accept": [
+            "goofy",
+            "the great goofini",
+            "great goofini"
+          ],
+          "choices": [
+            "Goofy",
+            "Donald Duck",
+            "Pluto",
+            "Chip"
+          ],
+          "reveal": "The correct answer is Goofy! [laughs] Gawrsh! He's billed as the Great Goofini, a daredevil stunt pilot. Brave? Yes. Skilled? Debatable.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Mike and Sulley host this comedy show in Magic Kingdom's Tomorrowland, where your laughs power the city.",
+          "answer": "Monsters, Inc. Laugh Floor",
+          "accept": [
+            "monsters, inc. laugh floor",
+            "monsters inc laugh floor",
+            "laugh floor"
+          ],
+          "choices": [
+            "Monsters, Inc. Laugh Floor",
+            "Mike and Sulley to the Rescue!",
+            "Monsters, Inc. Ride and Go Seek",
+            "Stitch's Great Escape"
+          ],
+          "reveal": "The correct answer is Monsters, Inc. Laugh Floor! [chuckles] You can text in your own jokes. Please, send better ones than mine.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "These two chipmunk best friends have their names on a kid coaster in Disneyland's Mickey's Toontown.",
+          "answer": "Chip 'n' Dale",
+          "accept": [
+            "chip 'n' dale",
+            "chip n dale",
+            "chip and dale"
+          ],
+          "choices": [
+            "Chip 'n' Dale",
+            "Huey, Dewey and Louie",
+            "Mickey and Minnie",
+            "Donald and Daisy"
+          ],
+          "reveal": "The correct answer is Chip 'n' Dale! [excited] Their GADGETcoaster was built by inventor mouse Gadget Hackwrench out of, yes, giant acorns.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Mickey and his sweetheart take a wild train ride through cartoon world in this attraction inside Hollywood Studios' Chinese Theater.",
+          "answer": "Mickey & Minnie's Runaway Railway",
+          "accept": [
+            "mickey & minnie's runaway railway",
+            "mickey and minnie's runaway railway",
+            "runaway railway"
+          ],
+          "choices": [
+            "Mickey & Minnie's Runaway Railway",
+            "Mickey's PhilharMagic",
+            "Mickey's Toontown Trolley",
+            "The Great Movie Ride"
+          ],
+          "reveal": "The correct answer is Mickey and Minnie's Runaway Railway! [laughs] Goofy is the engineer, which explains a LOT about the driving.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "The famous statue of Walt Disney holding hands with his best pal Mickey Mouse in front of the castle has this one-word name.",
+          "answer": "Partners",
+          "accept": [
+            "partners",
+            "the partners statue",
+            "partners statue"
+          ],
+          "choices": [
+            "Partners",
+            "Dreamers",
+            "Friends",
+            "Pals"
+          ],
+          "reveal": "[whispers] The correct answer is Partners. Sculpted by legendary Imagineer Blaine Gibson. [excited] Okay, you can stop pretending you knew that.",
+          "dailyDouble": true
+        }
+      ]
+    },
+    {
+      "id": "better-together",
+      "title": "Better Together",
+      "kind": "fan",
+      "intro": "Our wildcard category is all about the dynamic duos. [chuckles] Name the missing half, and no phoning a friend.",
+      "format": "text",
+      "art": {
+        "prompt": "Perfect pairs arranged like a puzzle: peanut butter and jelly, salt and pepper shakers, two puzzle pieces clicking together, two acorns, and two old theater balcony seats Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/best-friends--better-together.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Mickey Mouse's loyal pup.",
+          "answer": "Pluto",
+          "accept": [
+            "pluto"
+          ],
+          "choices": [
+            "Pluto",
+            "Goofy",
+            "Max",
+            "Butch"
+          ],
+          "reveal": "The correct answer is Pluto! [laughs] Goofy is a dog who talks and wears pants. Pluto is a dog who does not. Don't ask.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Winnie the Pooh's very small, very nervous best friend.",
+          "answer": "Piglet",
+          "accept": [
+            "piglet"
+          ],
+          "choices": [
+            "Piglet",
+            "Roo",
+            "Eeyore",
+            "Rabbit"
+          ],
+          "reveal": "The correct answer is Piglet! Oh d-d-dear. [cheerful] Pooh says it's never too small to be a big friend.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Kristoff's best friend is this reindeer, who's better than people.",
+          "answer": "Sven",
+          "accept": [
+            "sven"
+          ],
+          "choices": [
+            "Sven",
+            "Olaf",
+            "Marshmallow",
+            "Bruni"
+          ],
+          "reveal": "The correct answer is Sven! [chuckles] Kristoff does all of Sven's talking for him, which is the most best friend thing ever.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "These two grumpy old pals heckle everyone from their balcony seats on The Muppet Show.",
+          "answer": "Statler and Waldorf",
+          "accept": [
+            "statler and waldorf",
+            "statler & waldorf",
+            "waldorf and statler"
+          ],
+          "choices": [
+            "Statler and Waldorf",
+            "Gonzo and Rizzo",
+            "Bunsen and Beaker",
+            "Bert and Ernie"
+          ],
+          "reveal": "The correct answer is Statler and Waldorf! [sarcastic] Oh, they would LOVE my jokes tonight. Doh ho ho ho!",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "In The Rescuers, mice Bernard and Miss Bianca are agents of this international mouse organization.",
+          "answer": "Rescue Aid Society",
+          "accept": [
+            "rescue aid society",
+            "the rescue aid society",
+            "ras"
+          ],
+          "choices": [
+            "Rescue Aid Society",
+            "Mouse Rescue League",
+            "International Mouse Patrol",
+            "Mice Aid Society"
+          ],
+          "reveal": "[impressed] The correct answer is the Rescue Aid Society! Headquartered in the basement of the United Nations. Best friends AND international spies.",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}

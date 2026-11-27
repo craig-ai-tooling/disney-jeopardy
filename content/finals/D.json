@@ -1,0 +1,142 @@
+[
+  {
+    "film": "The Lion King",
+    "category": "Pride Rock Records",
+    "clue": "Elton John wrote the music for The Lion King's songs, and this lyricist wrote the words, winning an Oscar for Can You Feel the Love Tonight.",
+    "answer": "Tim Rice",
+    "accept": [
+      "tim rice",
+      "sir tim rice",
+      "rice"
+    ],
+    "choices": [
+      "Tim Rice",
+      "Howard Ashman",
+      "Stephen Schwartz",
+      "Lin-Manuel Miranda"
+    ],
+    "reveal": "[dramatic pause] The correct answer is Tim Rice! He also wrote lyrics for Aladdin after Howard Ashman passed away. [excited] Hakuna matata, nerds!"
+  },
+  {
+    "film": "Beauty and the Beast",
+    "category": "Tale as Old as Oscar",
+    "clue": "In 1992, Beauty and the Beast became the first animated feature ever nominated for this Academy Award.",
+    "answer": "Best Picture",
+    "accept": [
+      "best picture",
+      "best picture award",
+      "picture"
+    ],
+    "choices": [
+      "Best Picture",
+      "Best Director",
+      "Best Original Screenplay",
+      "Best Animated Feature"
+    ],
+    "reveal": "[gasps] The correct answer is Best Picture! The Best Animated Feature category didn't even exist until 2001. Be our guest, champion!"
+  },
+  {
+    "film": "Frozen",
+    "category": "Once Upon a Snowflake",
+    "clue": "Frozen was loosely inspired by this Hans Christian Andersen fairy tale.",
+    "answer": "The Snow Queen",
+    "accept": [
+      "the snow queen",
+      "snow queen"
+    ],
+    "choices": [
+      "The Snow Queen",
+      "The Ice Maiden",
+      "The Little Match Girl",
+      "The Little Mermaid"
+    ],
+    "reveal": "The correct answer is The Snow Queen! [chuckles] Disney tried to adapt it for decades before finally letting it go."
+  },
+  {
+    "film": "Moana",
+    "category": "Chicken of the Sea",
+    "clue": "This actor provides the clucks and squawks of Moana's dim-witted rooster, Heihei.",
+    "answer": "Alan Tudyk",
+    "accept": [
+      "alan tudyk",
+      "tudyk"
+    ],
+    "choices": [
+      "Alan Tudyk",
+      "Jemaine Clement",
+      "Temuera Morrison",
+      "Eddie Murphy"
+    ],
+    "reveal": "The correct answer is Alan Tudyk! [laughs] He's Disney's good-luck voice, from King Candy to the Duke of Weselton. Not bad for a chicken."
+  },
+  {
+    "film": "Bambi",
+    "category": "Deer Literature",
+    "clue": "Disney's Bambi is based on a 1923 novel by this Austrian author.",
+    "answer": "Felix Salten",
+    "accept": [
+      "felix salten",
+      "salten"
+    ],
+    "choices": [
+      "Felix Salten",
+      "Carlo Collodi",
+      "Kenneth Grahame",
+      "Erich Kastner"
+    ],
+    "reveal": "[impressed] The correct answer is Felix Salten! His book was called Bambi, A Life in the Woods. [whispers] Much sadder than the movie, if you can believe it."
+  },
+  {
+    "film": "Dumbo",
+    "category": "What's in a Name?",
+    "clue": "Before the other elephants mock him as Dumbo, Mrs. Jumbo gives her baby this official name.",
+    "answer": "Jumbo Junior",
+    "accept": [
+      "jumbo junior",
+      "jumbo jr",
+      "jumbo jr.",
+      "jumbo"
+    ],
+    "choices": [
+      "Jumbo Junior",
+      "Baby Jumbo",
+      "Little Jumbo",
+      "Timothy"
+    ],
+    "reveal": "[sighs] The correct answer is Jumbo Junior! The meanies renamed him Dumbo, and he turned it into a legend. Baby mine, don't you cry."
+  },
+  {
+    "film": "The Jungle Book",
+    "category": "Bare Necessities of Casting",
+    "clue": "In the 1967 film, Baloo the bear is voiced by this bandleader and comedian.",
+    "answer": "Phil Harris",
+    "accept": [
+      "phil harris",
+      "harris"
+    ],
+    "choices": [
+      "Phil Harris",
+      "Louis Prima",
+      "Sebastian Cabot",
+      "Sterling Holloway"
+    ],
+    "reveal": "The correct answer is Phil Harris! [excited] Louis Prima was King Louie, Sebastian Cabot was Bagheera, and Sterling Holloway was Kaa. Ooby doo, nerd!"
+  },
+  {
+    "film": "One Hundred and One Dalmatians",
+    "category": "Barking Up the Right Tree",
+    "clue": "In the 1961 film, dogs all over London pass along news of the stolen puppies using this nighttime barking network.",
+    "answer": "The Twilight Bark",
+    "accept": [
+      "the twilight bark",
+      "twilight bark"
+    ],
+    "choices": [
+      "The Twilight Bark",
+      "The Midnight Howl",
+      "The Moonlight Bark",
+      "The Evening Yap"
+    ],
+    "reveal": "[mischievously] The correct answer is the Twilight Bark! The original doggy group chat, and it worked faster than my Wi-Fi."
+  }
+]
