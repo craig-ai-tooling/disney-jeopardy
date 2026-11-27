@@ -4,14 +4,14 @@ import path from 'node:path';
 import crypto from 'node:crypto';
 
 const KEY = process.env.ELEVENLABS_API_KEY || '';
-const MODEL = process.env.ELEVENLABS_MODEL || 'eleven_flash_v2_5';
+const MODEL = process.env.ELEVENLABS_MODEL || 'eleven_v3';
 export const VOICES = {
   host: process.env.HOST_VOICE_ID || '',
   character: process.env.CHARACTER_VOICE_ID || 'dEc1rkm0ul0kDedEuETS',
 };
 const SETTINGS = {
-  host: { stability: 0.3, similarity_boost: 0.8, style: 0.65, use_speaker_boost: true },
-  character: { stability: 0.35, similarity_boost: 0.75, style: 0.8, use_speaker_boost: true },
+  host: { stability: 0.0, similarity_boost: 0.8 },
+  character: { stability: 0.0, similarity_boost: 0.75 },
 };
 
 export class Voice {
