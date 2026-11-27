@@ -1,0 +1,43 @@
+name: android
+on:
+  push:
+    branches: [main]
+    tags: ["v*"]
+    paths: [android/**, .github/workflows/android.yml]
+  pull_request:
+    paths: [android/**, .github/workflows/android.yml]
+permissions:
+  contents: write
+jobs:
+  apk:
+    runs-on: smc
+    container: ghcr.io/cirruslabs/android-sdk:35
+    defaults:
+      run:
+        working-directory: android
+    steps:
+      - uses: actions/checkout@v4
+      - name: Version
+        id: ver
+        run: |
+          if [ "${GITHUB_REF_TYPE}" = tag ]; then name="${GITHUB_REF_NAME#v}"; else name="1.0.0-ci.${GITHUB_RUN_NUMBER}"; fi
+          echo "name=$name" >> "$GITHUB_OUTPUT"
+      - name: Build release APK
+        run: |
+          echo "sdk.dir=$ANDROID_HOME" > local.properties
+          chmod +x gradlew
+          ./gradlew --no-daemon assembleRelease -PappVersionName=${{ steps.ver.outputs.name }} -PappVersionCode=${{ github.run_number }}
+          cp app/build/outputs/apk/release/app-release.apk disney-jeopardy.apk
+      # The org's Actions artifact storage can run out (billing); the build result is what gates the PR.
+      - uses: actions/upload-artifact@v4
+        continue-on-error: true
+        with:
+          retention-days: 14
+          name: disney-jeopardy-apk
+          path: android/disney-jeopardy.apk
+      - name: Attach APK to release
+        if: github.ref_type == 'tag'
+        uses: softprops/action-gh-release@v2
+        with:
+          files: android/disney-jeopardy.apk
+          generate_release_notes: true
