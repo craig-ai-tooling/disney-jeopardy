@@ -178,7 +178,7 @@
         },
         {
           "value": 800,
-          "clue": "Which Magic Kingdom fireworks show debuted in 2017, left in 2020, and made a triumphant return in 2023?",
+          "clue": "Which Magic Kingdom fireworks show debuted in 2017, was replaced by Disney Enchantment in 2021, and made a triumphant return in 2023?",
           "answer": "Happily Ever After",
           "accept": [
             "happily ever after",
@@ -187,8 +187,8 @@
           "choices": [
             "Happily Ever After",
             "Wishes",
-            "Enchantment",
-            "Wondrous Journeys"
+            "Wondrous Journeys",
+            "Fantasy in the Sky"
           ],
           "reveal": "The correct answer is Happily Ever After. Disney fans begged and begged, and their wish came true.",
           "dailyDouble": false
@@ -222,23 +222,24 @@
         {
           "value": 200,
           "clue": "These are the colors of which character's classic parade look?",
-          "answer": "Mickey Mouse",
+          "answer": "Ariel",
           "accept": [
-            "mickey mouse",
-            "mickey"
+            "ariel",
+            "princess ariel",
+            "the little mermaid"
           ],
           "choices": [
-            "Mickey Mouse",
-            "Minnie Mouse",
-            "Goofy",
-            "Donald Duck"
+            "Ariel",
+            "Moana",
+            "Tinker Bell",
+            "Mulan"
           ],
-          "reveal": "The correct answer is Mickey Mouse. Red shorts, yellow shoes, white gloves. The boss never goes out of style.",
+          "reveal": "The correct answer is Ariel. Green tail, purple seashells, and that famous red hair. You can spot her float from a mile away.",
           "palette": [
-            "#111111",
-            "#D7141A",
-            "#FFD100",
-            "#FFFFFF"
+            "#1FA37A",
+            "#7A4BA3",
+            "#D62B2B",
+            "#F6D7C3"
           ],
           "dailyDouble": false
         },

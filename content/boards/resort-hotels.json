@@ -400,23 +400,21 @@
         },
         {
           "value": 1000,
-          "clue": "The sleepwear of the Emperor's New Groove villain who turned Kuzco into a llama.",
-          "answer": "Yzma's Pajamas",
+          "clue": "The ride of the Aladdin villain who wants to be sultan, handed over to the hotel valet.",
+          "answer": "Jafar's Car",
           "accept": [
-            "yzma's pajamas",
-            "izma's pajamas",
-            "yzma pajamas",
-            "yzma's pyjamas",
-            "yzmas pajamas",
-            "yzmas pyjamas"
+            "jafar's car",
+            "jafar car",
+            "jafar's cars",
+            "jafars car"
           ],
           "choices": [
-            "Yzma's Pajamas",
-            "Kronk's Honks",
-            "Kuzco's Clothes",
-            "Pacha's Pashmina"
+            "Jafar's Car",
+            "Abu's Canoe",
+            "Genie's Martini",
+            "Sultan's Wagon"
           ],
-          "reveal": "The correct answer is Yzma's Pajamas. Pull the lever, Kronk! Wrong lever!",
+          "reveal": "The correct answer is Jafar's Car. Please do not tip the valet with a snake staff. Iago will want a receipt.",
           "dailyDouble": false
         }
       ]
