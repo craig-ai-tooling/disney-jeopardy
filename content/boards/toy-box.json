@@ -1,0 +1,519 @@
+{
+  "id": "toy-box",
+  "title": "The Toy Box",
+  "theme": "Toys",
+  "tags": [
+    "toys",
+    "pixar",
+    "kids"
+  ],
+  "intro": "[whispers] Shhh, Andy's gone. [excited] Welcome in to Disney Jeopardy, toy box edition! Tonight it is cowboys, space rangers, piggy banks and puppets. When the humans leave the room... the trivia comes to LIFE.",
+  "art": {
+    "prompt": "A giant open wooden toy chest in a sunny kid's bedroom spilling out toys: a cowboy hat, a toy rocket, building blocks, a wind-up robot and a piggy bank, cloud wallpaper. Wide 16:9 composition, original painterly animated-film style artwork, no text, no logos, no recognizable copyrighted characters.",
+    "file": "media/toy-box.jpg"
+  },
+  "categories": [
+    {
+      "id": "youve-got-a-friend-in-me",
+      "title": "You've Got a Friend in Me",
+      "kind": "film",
+      "intro": "We start with the film that started it all for Pixar. It is Toy Story. Reach for the sky, partner.",
+      "art": {
+        "prompt": "A child's bedroom with blue cloud wallpaper, a cowboy hat on a bed, a toy rocket on a shelf, a pull-string toy box, warm afternoon light. Wide 16:9 composition, original painterly animated-film style artwork, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/toy-box--youve-got-a-friend-in-me.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Woody's high-flying rival is this space ranger who thinks he can fly.",
+          "answer": "Buzz Lightyear",
+          "accept": [
+            "buzz",
+            "buzz lightyear"
+          ],
+          "choices": [
+            "Buzz Lightyear",
+            "Rex",
+            "Hamm",
+            "Zurg"
+          ],
+          "reveal": "[excited] The correct answer is Buzz Lightyear. That is not flying. That is falling, with style.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Woody, Buzz and the gang belong to this boy, who writes his name on their boots.",
+          "answer": "Andy",
+          "accept": [
+            "andy",
+            "andy davis"
+          ],
+          "choices": [
+            "Andy",
+            "Sid",
+            "Bonnie",
+            "Al"
+          ],
+          "reveal": "The correct answer is Andy. Woody spends the whole first movie worried about being replaced. [laughs] Relatable.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Buzz meets a crowd of three-eyed squeaky aliens at this rocket-themed restaurant.",
+          "answer": "Pizza Planet",
+          "accept": [
+            "pizza planet"
+          ],
+          "choices": [
+            "Pizza Planet",
+            "Al's Toy Barn",
+            "Planet Pizza",
+            "Cosmic Burger"
+          ],
+          "reveal": "The correct answer is... Pizza Planet. And that Pizza Planet truck shows up in almost every Pixar movie. Keep your eyes peeled.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "The aliens inside the claw machine worship this, saying it chooses who will go and who will stay.",
+          "answer": "The Claw",
+          "accept": [
+            "the claw",
+            "claw"
+          ],
+          "choices": [
+            "The Claw",
+            "The Rocket",
+            "The Crane",
+            "The Grabber"
+          ],
+          "reveal": "The correct answer is the Claw. [high-pitched] Ooooooh. You saved our lives. We are eternally grateful.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "In Toy Story 2, toy collector Al of Al's Toy Barn has this last name.",
+          "answer": "McWhiggin",
+          "accept": [
+            "mcwhiggin",
+            "al mcwhiggin"
+          ],
+          "choices": [
+            "McWhiggin",
+            "McGillicuddy",
+            "McWhorter",
+            "McDougal"
+          ],
+          "reveal": "The correct answer is McWhiggin. Al McWhiggin, the chicken-suited TV pitchman. Only TRUE toy nerds had that one.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "toys-will-be-toys",
+      "title": "Toys Will Be Toys",
+      "kind": "theme",
+      "intro": "[excited] Our next category is about toys outside of Toy Story. Puppets, stuffed bears, arcade games, the whole toy chest.",
+      "art": {
+        "prompt": "A woodcarver's workshop full of handmade toys: wooden puppets on strings, cuckoo clocks, a stuffed teddy bear and a tin one-man-band toy. Wide 16:9 composition, original painterly animated-film style artwork, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/toy-box--toys-will-be-toys.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Geppetto carves this wooden puppet who dreams of becoming a real boy.",
+          "answer": "Pinocchio",
+          "accept": [
+            "pinocchio"
+          ],
+          "choices": [
+            "Pinocchio",
+            "Jiminy Cricket",
+            "Figaro",
+            "Gideon"
+          ],
+          "reveal": "[excited] The correct answer is Pinocchio. Just don't ask him if he likes your trivia skills. Watch the nose.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Winnie the Pooh and his friends are stuffed animals belonging to this boy.",
+          "answer": "Christopher Robin",
+          "accept": [
+            "christopher robin",
+            "christopher"
+          ],
+          "choices": [
+            "Christopher Robin",
+            "Andy",
+            "Robin Hood",
+            "Peter"
+          ],
+          "reveal": "The correct answer is Christopher Robin. The Hundred Acre Wood was based on a real forest in England. [laughs] Bring honey.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Wreck-It Ralph is the bad guy in this arcade game, but the hero gets all the pies.",
+          "answer": "Fix-It Felix Jr.",
+          "accept": [
+            "fix-it felix jr",
+            "fix it felix jr",
+            "fix-it felix",
+            "fix it felix"
+          ],
+          "choices": [
+            "Fix-It Felix Jr.",
+            "Hero's Duty",
+            "Sugar Rush",
+            "Turbo Time"
+          ],
+          "reveal": "The correct answer is... Fix-It Felix Jr. Thirty years of getting thrown off a building. Ralph deserves that medal.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "This 1988 Pixar short about a one-man-band toy fleeing a baby was the first computer-animated film to win an Oscar.",
+          "answer": "Tin Toy",
+          "accept": [
+            "tin toy"
+          ],
+          "choices": [
+            "Tin Toy",
+            "Luxo Jr.",
+            "Knick Knack",
+            "Red's Dream"
+          ],
+          "reveal": "The correct answer is Tin Toy, starring a toy named Tinny. It inspired Toy Story. [shudders] That baby still gives me nightmares.",
+          "dailyDouble": true
+        },
+        {
+          "value": 1000,
+          "clue": "Annette Funicello played Mary Contrary in this 1961 Disney live-action musical about a toy-filled land.",
+          "answer": "Babes in Toyland",
+          "accept": [
+            "babes in toyland"
+          ],
+          "choices": [
+            "Babes in Toyland",
+            "The Nutcracker and the Four Realms",
+            "Toy Tinkers",
+            "Bedknobs and Broomsticks"
+          ],
+          "reveal": "The correct answer is Babes in Toyland, with Ray Bolger as the villain Barnaby. Yes, the Scarecrow from Oz played a bad guy.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "alpha-bet-you-cant",
+      "title": "Alpha-Bet You Can't",
+      "kind": "media",
+      "intro": "[mischievously] Time for Alphabetize This. I will describe three toys. Figure out who they are, then put their names in alphabetical order.",
+      "art": {
+        "prompt": "Colorful wooden alphabet blocks stacked in a tumbling tower on a playroom rug, a few toys peeking from behind. Wide 16:9 composition, original painterly animated-film style artwork, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/toy-box--alpha-bet-you-cant.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Alphabetize these toys: the cowboy, the piggy bank, the dinosaur.",
+          "answer": "Hamm, Rex, Woody",
+          "accept": [
+            "hamm rex woody",
+            "hamm, rex, woody"
+          ],
+          "choices": [
+            "Hamm, Rex, Woody",
+            "Rex, Hamm, Woody",
+            "Woody, Hamm, Rex",
+            "Hamm, Woody, Rex"
+          ],
+          "reveal": "[excited] The correct answer is Hamm, Rex, Woody. H, R, W. Even a T. rex with tiny arms can count to three.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Alphabetize these toys: the cowgirl, the space ranger, the horse.",
+          "answer": "Bullseye, Buzz Lightyear, Jessie",
+          "accept": [
+            "bullseye buzz lightyear jessie",
+            "bullseye buzz jessie",
+            "bullseye, buzz, jessie",
+            "bullseye, buzz lightyear, jessie"
+          ],
+          "choices": [
+            "Bullseye, Buzz Lightyear, Jessie",
+            "Buzz Lightyear, Bullseye, Jessie",
+            "Jessie, Bullseye, Buzz Lightyear",
+            "Bullseye, Jessie, Buzz Lightyear"
+          ],
+          "reveal": "The correct answer is Bullseye, Buzz, Jessie. Bul beats Buz, so the horse wins by a nose. [laughs] Giddy up!",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Alphabetize these toys: the spork, the pink bear that smells like strawberries, the Canadian stunt rider.",
+          "answer": "Duke Caboom, Forky, Lotso",
+          "accept": [
+            "duke caboom forky lotso",
+            "duke forky lotso",
+            "duke caboom, forky, lotso"
+          ],
+          "choices": [
+            "Duke Caboom, Forky, Lotso",
+            "Forky, Lotso, Duke Caboom",
+            "Lotso, Duke Caboom, Forky",
+            "Forky, Duke Caboom, Lotso"
+          ],
+          "reveal": "The correct answer is... Duke Caboom, Forky, Lotso. D, F, L. Lotso still smells great, even in last place.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Alphabetize these toys: the penguin with a broken squeaker, the porcelain shepherdess, the coiled-spring dachshund.",
+          "answer": "Bo Peep, Slinky Dog, Wheezy",
+          "accept": [
+            "bo peep slinky dog wheezy",
+            "bo peep slinky wheezy",
+            "bo peep, slinky, wheezy",
+            "bo peep, slinky dog, wheezy"
+          ],
+          "choices": [
+            "Bo Peep, Slinky Dog, Wheezy",
+            "Wheezy, Bo Peep, Slinky Dog",
+            "Slinky Dog, Bo Peep, Wheezy",
+            "Bo Peep, Wheezy, Slinky Dog"
+          ],
+          "reveal": "The correct answer is Bo Peep, Slinky Dog, Wheezy. [chuckles] Wheezy got his squeaker fixed and sang You've Got a Friend in Me. Legend.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Alphabetize these toys: Buzz's evil emperor arch-enemy, the Woody's Roundup prospector, the 1950s pull-string doll with a broken voice box.",
+          "answer": "Gabby Gabby, Stinky Pete, Zurg",
+          "accept": [
+            "gabby gabby stinky pete zurg",
+            "gabby stinky pete zurg",
+            "gabby gabby, stinky pete, zurg",
+            "gabby gabby prospector zurg"
+          ],
+          "choices": [
+            "Gabby Gabby, Stinky Pete, Zurg",
+            "Stinky Pete, Gabby Gabby, Zurg",
+            "Zurg, Gabby Gabby, Stinky Pete",
+            "Gabby Gabby, Zurg, Stinky Pete"
+          ],
+          "reveal": "The correct answer is Gabby Gabby, Stinky Pete, Zurg. Call him the Prospector and it still works. G, P, Z. Villains in order, how tidy.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "playtime-in-the-parks",
+      "title": "Playtime in the Parks",
+      "kind": "parks",
+      "intro": "Now we shrink down to toy size and visit the parks. [chuckles] This category is called Playtime in the Parks.",
+      "art": {
+        "prompt": "A theme park land built at toy scale: giant building blocks, oversized crayons and a roller coaster track that looks like a bendy toy, blue sky. Wide 16:9 composition, original painterly animated-film style artwork, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/toy-box--playtime-in-the-parks.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In Toy Story Land you can zoom around a roller coaster themed to this springy pup.",
+          "answer": "Slinky Dog",
+          "accept": [
+            "slinky dog",
+            "slinky",
+            "slinky dog dash"
+          ],
+          "choices": [
+            "Slinky Dog",
+            "Bullseye",
+            "Buster",
+            "Rex"
+          ],
+          "reveal": "[excited] The correct answer is Slinky Dog, on Slinky Dog Dash. Andy built that coaster himself, according to the story. Talented kid.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Toy Story Land is found in this Walt Disney World park.",
+          "answer": "Disney's Hollywood Studios",
+          "accept": [
+            "hollywood studios",
+            "disney's hollywood studios",
+            "disneys hollywood studios"
+          ],
+          "choices": [
+            "Disney's Hollywood Studios",
+            "Magic Kingdom",
+            "Epcot",
+            "Disney's Animal Kingdom"
+          ],
+          "reveal": "The correct answer is Disney's Hollywood Studios. You are shrunk down to the size of a toy in Andy's backyard. [laughs] Watch out for the sprinkler.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "This Toy Story Land quick-service spot serves grilled cheese and totchos from a giant lunch box.",
+          "answer": "Woody's Lunch Box",
+          "accept": [
+            "woodys lunch box",
+            "woody's lunch box",
+            "woodys lunchbox",
+            "woody's lunchbox"
+          ],
+          "choices": [
+            "Woody's Lunch Box",
+            "Pizza Planet",
+            "Jessie's Snack Roundup",
+            "Al's Toy Barn"
+          ],
+          "reveal": "The correct answer is... Woody's Lunch Box. Order the totchos. Trust me. Your diet can start in the 800 round.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "To play the carnival games on Toy Story Mania!, guests must wear these.",
+          "answer": "3D glasses",
+          "accept": [
+            "3d glasses",
+            "3-d glasses",
+            "glasses"
+          ],
+          "choices": [
+            "3D glasses",
+            "Space ranger helmets",
+            "Cowboy hats",
+            "Headphones"
+          ],
+          "reveal": "The correct answer is 3D glasses. [chuckles] You fire virtual darts and pies at the screen. It is the only place pie throwing is encouraged.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Toy Story Land opened at Walt Disney World in this year.",
+          "answer": "2018",
+          "accept": [
+            "2018",
+            "twenty eighteen"
+          ],
+          "choices": [
+            "2018",
+            "2016",
+            "2017",
+            "2019"
+          ],
+          "reveal": "The correct answer is 2018, on June 30th. Slinky Dog Dash and Alien Swirling Saucers both opened that day.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "whos-pulling-the-string",
+      "title": "Who's Pulling the String?",
+      "kind": "fan",
+      "intro": "The Club DJ members chose voice actors. I name the toy, you name the star who voices it. Reach for the sky!",
+      "art": {
+        "prompt": "A pull-string with a ring dangling from a toy's back against a backstage recording studio with microphones and headphones, playful lighting. Wide 16:9 composition, original painterly animated-film style artwork, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/toy-box--whos-pulling-the-string.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This two-time Oscar winner voices Sheriff Woody.",
+          "answer": "Tom Hanks",
+          "accept": [
+            "tom hanks",
+            "hanks"
+          ],
+          "choices": [
+            "Tom Hanks",
+            "Tim Allen",
+            "Billy Crystal",
+            "Tom Cruise"
+          ],
+          "reveal": "[excited] The correct answer is Tom Hanks. His brother Jim Hanks voices Woody for a lot of the toys and video games.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "To infinity and beyond! This comedian voices Buzz Lightyear in the main Toy Story films.",
+          "answer": "Tim Allen",
+          "accept": [
+            "tim allen",
+            "allen"
+          ],
+          "choices": [
+            "Tim Allen",
+            "Chris Evans",
+            "Tom Hanks",
+            "Steve Carell"
+          ],
+          "reveal": "The correct answer is Tim Allen. Chris Evans voiced the movie Buzz in the 2022 film Lightyear. [laughs] Different Buzz, same buzz.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "The Matrix star Keanu Reeves voices this Canadian stuntman toy in Toy Story 4.",
+          "answer": "Duke Caboom",
+          "accept": [
+            "duke caboom",
+            "duke"
+          ],
+          "choices": [
+            "Duke Caboom",
+            "Forky",
+            "Ducky",
+            "Combat Carl"
+          ],
+          "reveal": "The correct answer is... Duke Caboom, Canada's greatest stuntman. Yes, Keanu. You're breathtaking.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Yodel-ay-hee-hoo! Joan Cusack voices this cowgirl.",
+          "answer": "Jessie",
+          "accept": [
+            "jessie",
+            "jessie the yodeling cowgirl"
+          ],
+          "choices": [
+            "Jessie",
+            "Bo Peep",
+            "Gabby Gabby",
+            "Trixie"
+          ],
+          "reveal": "The correct answer is Jessie. When She Loved Me still makes grown adults cry. [sniffles] Grab a tissue.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Ned Beatty voices this huggable villain in Toy Story 3.",
+          "answer": "Lotso",
+          "accept": [
+            "lotso",
+            "lots-o'-huggin' bear",
+            "lotso huggin bear",
+            "lots o huggin bear"
+          ],
+          "choices": [
+            "Lotso",
+            "Big Baby",
+            "Chuckles",
+            "Ken"
+          ],
+          "reveal": "The correct answer is Lots-o'-Huggin' Bear. Smells like strawberries, runs Sunnyside Daycare like a prison. Classic.",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}
