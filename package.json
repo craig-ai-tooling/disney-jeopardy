@@ -1,0 +1,19 @@
+{
+  "name": "disney-jeopardy",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Disney Jeopardy party game: Android TV board + phone buzzers",
+  "main": "server/index.mjs",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "start": "node server/index.mjs",
+    "dev": "DATA_DIR=.data node --watch server/index.mjs",
+    "test": "node --test test/",
+    "validate": "node tools/validate-content.mjs"
+  },
+  "dependencies": {
+    "qrcode": "^1.5.4",
+    "ws": "^8.18.0"
+  }
+}

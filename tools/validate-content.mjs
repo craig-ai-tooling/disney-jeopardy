@@ -33,6 +33,12 @@ function checkBoard(f, b) {
   seenBoards.add(b.id);
   for (const k of ['title', 'theme', 'intro']) if (!str(b[k])) err(f, `${k} missing`);
   if (!Array.isArray(b.tags) || !b.tags.length) err(f, 'tags missing');
+  const checkArt = (w, art, want) => {
+    if (art === undefined) return;
+    if (!str(art.prompt)) err(f, `${w}: art.prompt missing`);
+    if (art.file !== want) err(f, `${w}: art.file should be ${want}`);
+  };
+  checkArt('board', b.art, `media/${b.id}.jpg`);
   if (!Array.isArray(b.categories) || b.categories.length !== 5) return err(f, 'need exactly 5 categories');
   let dd = 0;
   const catIds = new Set();
@@ -44,6 +50,7 @@ function checkBoard(f, b) {
     if (!KINDS.includes(cat.kind)) err(f, `${w}: kind must be one of ${KINDS}`);
     if (!FORMATS.includes(cat.format)) err(f, `${w}: format must be one of ${FORMATS}`);
     if (!str(cat.intro)) err(f, `${w}: intro missing`);
+    checkArt(w, cat.art, `media/${b.id}--${cat.id}.jpg`);
     if (!Array.isArray(cat.clues) || cat.clues.length !== 5) { err(f, `${w}: need 5 clues`); continue; }
     cat.clues.forEach((c, i) => {
       const cw = `${w} ${c.value}`;

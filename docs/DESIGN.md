@@ -38,6 +38,7 @@ Real Inside the Magic transcripts are in docs/research/*.txt (style + example cl
   "theme": "Thanksgiving",                // short theme label
   "tags": ["holiday","food"],            // used for remix
   "intro": "Host opening line for the episode (1-3 sentences, playful, TTS friendly).",
+  "art": {"prompt": "16:9 title-card scene evoking the theme, ORIGINAL art, no text/logos/characters", "file": "media/<board-id>.jpg"},
   "categories": [ <category> x5 ]         // exactly one clue on the whole board has dailyDouble:true (value 600-1000)
 }
 
@@ -45,6 +46,7 @@ Real Inside the Magic transcripts are in docs/research/*.txt (style + example cl
   "id": "pass-the-gravy",                 // kebab-case, unique within the board (global id = board/category)
   "title": "Pass the Gravy", "kind": "film|theme|media|parks|fan",
   "intro": "Host line introducing the category (1-2 sentences, playful).",
+  "art": {"prompt": "16:9 category card art, ORIGINAL, no text/logos/characters", "file": "media/<board-id>--<category-id>.jpg"},
   "format": "text|picture|zoom|video|palette|quote|emoji",
   "clues": [ {
     "value": 200,
