@@ -25,21 +25,39 @@ Inspired by Inside the Magic "Disney Jeopardy" (host Brian Perry). Format observ
 - Deploy: ghcr.io/craig-ai-tooling/disney-jeopardy via CI on runs-on: smc; smc-platform apps/disney-jeopardy (like apps/game-night,
   stateless, no PVC); cloudflared ingress.json rule jeopardy.craigcloud.io; DNS via apply-ingress.sh / Cloudflare MCP.
 
-## Category JSON schema (content/categories/<id>.json)
+## Content: themed boards (content/boards/<board-id>.json)
+Craig: "Notice the theme of the entirety of the boards and then the categories. That's going to be really important, so it's not just random scoring."
+Every board is an EPISODE with one theme (e.g. Thanksgiving, Black Friday, Halloween); all 5 categories tie to that theme, with the show's mix:
+1 film-ish category, 1-2 themed trivia categories, 1 media/gimmick category, 1 Parks category, 1 "fan" wildcard. Values 200 ("cupcake", easy for kids) .. 1000 (true Disney nerd).
+Replayability: ~40 boards (~1000 clues) + ~64 Final films. Server tracks seen clues per TV and can remix unseen categories by tag.
+Real Inside the Magic transcripts are in docs/research/*.txt (style + example clue reference; do not copy whole boards verbatim).
+
 {
-  "id": "aladdin", "title": "Aladdin", "kind": "film|theme|media|parks|fan",
-  "intro": "Host line introducing the category (1-2 sentences, playful).",
-  "format": "text|picture|video|audio|palette|zoom|quote",
-  "clues": [ {
-     "value": 200,
-     "clue": "Clue text shown on screen and read aloud (Jeopardy style statement, <= 200 chars)",
-     "answer": "Canonical answer (short)",
-     "accept": ["lowercase alternates accepted for typed answers"],
-     "choices": ["correct answer", "3 plausible wrong answers"],   // 4 total, first is correct (shuffled at runtime)
-     "reveal": "Host line after reveal: 'The correct answer is X.' + short fun fact / joke (<= 220 chars)",
-     "media": {"type":"image|video|audio", "prompt":"Higgsfield prompt for ORIGINAL artwork (no logos, no real characters)", "file":"media/<id>-<value>.jpg"},
-     "palette": ["#hex", ...],     // format=palette only: 4-6 colors of a character's outfit
-     "quote": "line read by voice actor", // format=quote only
-     "dailyDouble": false
-  } x5 ]
+  "id": "thanksgiving-feast",            // kebab-case, globally unique, = file name
+  "title": "Thanksgiving Feast",          // episode title shown on TV
+  "theme": "Thanksgiving",                // short theme label
+  "tags": ["holiday","food"],            // used for remix
+  "intro": "Host opening line for the episode (1-3 sentences, playful, TTS friendly).",
+  "categories": [ <category> x5 ]         // exactly one clue on the whole board has dailyDouble:true (value 600-1000)
 }
+
+<category> = {
+  "id": "pass-the-gravy",                 // kebab-case, unique within the board (global id = board/category)
+  "title": "Pass the Gravy", "kind": "film|theme|media|parks|fan",
+  "intro": "Host line introducing the category (1-2 sentences, playful).",
+  "format": "text|picture|zoom|video|palette|quote|emoji",
+  "clues": [ {
+    "value": 200,
+    "clue": "Clue shown on screen and read aloud (<= 200 chars, TTS friendly)",
+    "answer": "Canonical short answer",
+    "accept": ["lowercase alternates for typed answers"],
+    "choices": ["correct answer (== answer)", "3 plausible wrong answers of the same type"],
+    "reveal": "Host line after reveal: 'The correct answer is X.' + short fun fact / joke (<= 220 chars)",
+    "media": {"type":"image|video", "prompt":"prompt for ORIGINAL AI artwork (no logos/real characters/text)", "file":"media/<board-id>--<category-id>-<value>.jpg|.mp4"},  // optional
+    "palette": ["#hex", ...],             // format=palette only: 4-6 outfit colours
+    "quote": "short iconic line (<=15 words) read by a voice actor",  // format=quote only
+    "dailyDouble": false
+  } x5 values 200,400,600,800,1000 ]
+}
+
+## Finals (content/finals/<part>.json): array of {"film","category","clue","answer","accept","choices","reveal"} - one per wheel film.
