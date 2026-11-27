@@ -89,7 +89,9 @@ class MainActivity : Activity() {
     private val utteranceSeq = AtomicInteger()
 
     private val prefs by lazy { getSharedPreferences("dj", Context.MODE_PRIVATE) }
-    private val serverUrl: String get() = prefs.getString(KEY_URL, null) ?: BuildConfig.DEFAULT_URL
+    /** Set by a launch intent's `url` extra; lasts for this process only so other apps can't repoint the kiosk for good. */
+    private var launchUrl: String? = null
+    private val serverUrl: String get() = launchUrl ?: prefs.getString(KEY_URL, null) ?: BuildConfig.DEFAULT_URL
 
     private val longPressRunnable = Runnable {
         okLongPressed = true
@@ -139,11 +141,11 @@ class MainActivity : Activity() {
         if (applyIntentUrl(intent)) loadBoard()
     }
 
-    /** `adb shell am start -n io.craigcloud.disneyjeopardy/.MainActivity -e url http://host/tv` sets the server URL. */
+    /** `adb shell am start -n io.craigcloud.disneyjeopardy/.MainActivity -e url http://host/tv` points this run at a URL. */
     private fun applyIntentUrl(intent: Intent): Boolean {
         val url = intent.getStringExtra("url")?.trim().orEmpty()
         if (url.isEmpty() || !isHttpUrl(url)) return false
-        prefs.edit().putString(KEY_URL, url).apply()
+        launchUrl = url
         return true
     }
 
@@ -494,6 +496,7 @@ class MainActivity : Activity() {
             .setPositiveButton("Save & reload") { _, _ ->
                 val url = input.text.toString().trim()
                 if (isHttpUrl(url)) {
+                    launchUrl = null
                     prefs.edit().putString(KEY_URL, url).apply()
                     loadBoard()
                 } else {
@@ -501,6 +504,7 @@ class MainActivity : Activity() {
                 }
             }
             .setNeutralButton("Reset to default") { _, _ ->
+                launchUrl = null
                 prefs.edit().remove(KEY_URL).apply()
                 loadBoard()
             }

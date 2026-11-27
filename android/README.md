@@ -29,7 +29,7 @@ The APK comes from the latest `v*` GitHub release (`disney-jeopardy.apk`) or the
 If the server can't be reached the app shows a "Can't reach the game board" screen and retries every 5 s, and immediately when
 the network comes back. OK retries at once.
 
-Changing the server from adb (handy for testing): `adb shell am start -n io.craigcloud.disneyjeopardy/.MainActivity -e url http://<host>:<port>/tv`.
+Pointing the app at another server from adb (handy for testing): `adb shell am start -n io.craigcloud.disneyjeopardy/.MainActivity -e url http://<host>:<port>/tv`. This lasts only until the app process exits; to change the server for good, use the settings dialog.
 The URL is saved, so it sticks until changed again or reset in the dialog.
 
 ## Page contract (`window.DJ_TV`)
