@@ -126,7 +126,7 @@ class MainActivity : Activity() {
         buildOverlay()
         createWebView()
         intent?.let { applyIntentUrl(it) }
-        tts = TextToSpeech(applicationContext) { status -> onTtsInit(status) }
+        tts = TextToSpeech(applicationContext) { status -> handler.post { onTtsInit(status) } }
         val cm = getSystemService(Context.CONNECTIVITY_SERVICE) as ConnectivityManager
         if (Build.VERSION.SDK_INT >= 24) cm.registerDefaultNetworkCallback(networkCallback)
         else cm.registerNetworkCallback(NetworkRequest.Builder().addCapability(NetworkCapabilities.NET_CAPABILITY_INTERNET).build(), networkCallback)
