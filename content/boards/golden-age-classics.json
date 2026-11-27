@@ -1,0 +1,562 @@
+{
+  "id": "golden-age-classics",
+  "title": "Golden Age Gold",
+  "theme": "Golden Age Classics (1937-1970)",
+  "tags": [
+    "classics",
+    "history",
+    "golden-age",
+    "animation"
+  ],
+  "intro": "[excited] Dust off your VHS clamshells, friends, because tonight we are traveling back to the golden age of Disney, 1937 to 1970! Snow White, Sleeping Beauty, Mary Poppins, the classics. If you were born after the year 2000, don't worry, I'll go easy on you... [mischievously] probably.",
+  "art": {
+    "prompt": "A golden 1940s movie palace interior with red velvet seats and gilded balconies, a glowing projector beam, a storybook lying open on the stage spilling golden sparkles, Art Deco details. Original painterly storybook illustration, 16:9, cinematic lighting, rich color, no people, no characters, no text, no logos.",
+    "file": "media/golden-age-classics.jpg"
+  },
+  "categories": [
+    {
+      "id": "once-upon-a-dream",
+      "title": "Once Upon a Dream",
+      "kind": "film",
+      "format": "text",
+      "intro": "We open with Sleeping Beauty, the 1959 masterpiece. Grab your pillow, but please... [whispers] do NOT fall asleep on me.",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In Sleeping Beauty, Maleficent's curse says Princess Aurora will prick her finger on the spindle of one of these.",
+          "answer": "A spinning wheel",
+          "accept": [
+            "spinning wheel",
+            "spindle",
+            "a spindle"
+          ],
+          "choices": [
+            "A spinning wheel",
+            "A sewing machine",
+            "A rose bush",
+            "A knitting needle"
+          ],
+          "reveal": "The correct answer is a spinning wheel! Which is why King Stefan had every single one in the kingdom burned. [chuckles] Honestly, a BIT of an overreaction, but it is a fairy tale.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Flora loves pink and Fauna loves green, but this third good fairy insists that Aurora's gown should be blue.",
+          "answer": "Merryweather",
+          "accept": [
+            "merryweather",
+            "merry weather"
+          ],
+          "choices": [
+            "Merryweather",
+            "Buttercup",
+            "Bluebell",
+            "Primrose"
+          ],
+          "reveal": "The correct answer is Merryweather! The pink versus blue dress battle is still going on at the end of the movie. [laughs] I am TEAM BLUE, sorry Flora.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "While she is hidden away in the forest cottage, Aurora goes by this flowery name.",
+          "answer": "Briar Rose",
+          "accept": [
+            "briar rose",
+            "brier rose"
+          ],
+          "choices": [
+            "Briar Rose",
+            "Wild Rose",
+            "Little Rose",
+            "Rose Red"
+          ],
+          "reveal": "The correct answer is Briar Rose! It is a nod to the Brothers Grimm version of the story, which is actually titled Little Briar Rose.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Much of the music in Sleeping Beauty, including Once Upon a Dream, is adapted from a ballet by this Russian composer.",
+          "answer": "Pyotr Ilyich Tchaikovsky",
+          "accept": [
+            "tchaikovsky",
+            "pyotr tchaikovsky",
+            "peter tchaikovsky",
+            "tchaikovski"
+          ],
+          "choices": [
+            "Pyotr Ilyich Tchaikovsky",
+            "Sergei Rachmaninoff",
+            "Igor Stravinsky",
+            "Nikolai Rimsky-Korsakov"
+          ],
+          "reveal": "The correct answer is Tchaikovsky! Once Upon a Dream is built on the Garland Waltz from his 1890 ballet. [chuckles] Not bad for a guy who never got a Disney paycheck.",
+          "dailyDouble": true
+        },
+        {
+          "value": 1000,
+          "clue": "Sleeping Beauty was the first animated feature shot in this super-wide 70 millimeter format.",
+          "answer": "Super Technirama 70",
+          "accept": [
+            "super technirama 70",
+            "super technirama",
+            "technirama"
+          ],
+          "choices": [
+            "Super Technirama 70",
+            "CinemaScope",
+            "VistaVision",
+            "Cinerama"
+          ],
+          "reveal": "The correct answer is Super Technirama 70! That giant canvas is why every background looks like a medieval tapestry. It also made the film wildly expensive. [sighs] Worth it.",
+          "dailyDouble": false
+        }
+      ],
+      "art": {
+        "prompt": "A medieval spinning wheel glowing with an eerie green light in a stone tower room, thorny briar roses climbing the walls, a distant castle in mist through a narrow window. Original painterly storybook illustration, 16:9, cinematic lighting, rich color, no people, no characters, no text, no logos.",
+        "file": "media/golden-age-classics--once-upon-a-dream.jpg"
+      }
+    },
+    {
+      "id": "firsts-and-forevers",
+      "title": "Firsts and Forevers",
+      "kind": "theme",
+      "format": "text",
+      "intro": "The golden age was full of firsts. Name the movie or the character that made Disney history.",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Released in 1937, this was Walt Disney's very first full-length animated feature film.",
+          "answer": "Snow White and the Seven Dwarfs",
+          "accept": [
+            "snow white and the seven dwarfs",
+            "snow white"
+          ],
+          "choices": [
+            "Snow White and the Seven Dwarfs",
+            "Pinocchio",
+            "Fantasia",
+            "Bambi"
+          ],
+          "reveal": "The correct answer is Snow White and the Seven Dwarfs! Hollywood called it Disney's Folly before it came out. Then it became the highest grossing film of its time. [laughs] Who's laughing NOW?",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "The Blue Fairy appoints this character to be Pinocchio's official conscience.",
+          "answer": "Jiminy Cricket",
+          "accept": [
+            "jiminy cricket",
+            "jiminy"
+          ],
+          "choices": [
+            "Jiminy Cricket",
+            "Figaro",
+            "Cleo",
+            "Gideon"
+          ],
+          "reveal": "The correct answer is Jiminy Cricket! He even got a fancy gold badge for the job. Lord High Keeper of the Knowledge of Right and Wrong. [chuckles] Put THAT on a resume.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "This 1950 adventure about young Jim Hawkins and Long John Silver was Disney's first completely live-action feature.",
+          "answer": "Treasure Island",
+          "accept": [
+            "treasure island"
+          ],
+          "choices": [
+            "Treasure Island",
+            "20,000 Leagues Under the Sea",
+            "Swiss Family Robinson",
+            "Old Yeller"
+          ],
+          "reveal": "The correct answer is Treasure Island! It was filmed in England, partly because Disney had money stuck there after the war. [mischievously] Pirates, but make it a tax strategy.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Released in 1955, this romance was Disney's first animated feature filmed in widescreen CinemaScope.",
+          "answer": "Lady and the Tramp",
+          "accept": [
+            "lady and the tramp"
+          ],
+          "choices": [
+            "Lady and the Tramp",
+            "Peter Pan",
+            "Cinderella",
+            "Sleeping Beauty"
+          ],
+          "reveal": "The correct answer is Lady and the Tramp! Bella Notte, a plate of spaghetti, one meatball. [sighs] The most romantic noodle in film history.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "This 1961 film was the first Disney animated feature to use xerography to copy the animators' drawings straight onto cels.",
+          "answer": "One Hundred and One Dalmatians",
+          "accept": [
+            "101 dalmatians",
+            "one hundred and one dalmatians",
+            "101 dalmations",
+            "dalmatians"
+          ],
+          "choices": [
+            "One Hundred and One Dalmatians",
+            "Sleeping Beauty",
+            "The Sword in the Stone",
+            "The Jungle Book"
+          ],
+          "reveal": "The correct answer is One Hundred and One Dalmatians! [gasps] Imagine hand-inking all those spots! Xerography saved the ink department.",
+          "dailyDouble": false
+        }
+      ],
+      "art": {
+        "prompt": "A row of antique leather-bound storybooks on a wooden shelf, a red apple, a wooden puppet's tiny hat, a pirate treasure map and a plate of spaghetti with one meatball, warm candlelight. Original painterly storybook illustration, 16:9, cinematic lighting, rich color, no people, no characters, no text, no logos.",
+        "file": "media/golden-age-classics--firsts-and-forevers.jpg"
+      }
+    },
+    {
+      "id": "classic-couture",
+      "title": "Classic Couture",
+      "kind": "media",
+      "format": "palette",
+      "intro": "[excited] It's color palettes! I'll show you the colors of a classic character's outfit, and you tell me who is wearing them.",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Royal blue, sunny yellow, a splash of red, and a crisp white collar. Who wears it?",
+          "answer": "Snow White",
+          "accept": [
+            "snow white"
+          ],
+          "choices": [
+            "Snow White",
+            "Cinderella",
+            "Aurora",
+            "Alice"
+          ],
+          "reveal": "The correct answer is Snow White! Blue bodice, yellow skirt, red bow. That outfit has not gone out of style since 1937. [chuckles] Iconic.",
+          "palette": [
+            "#1F4E9C",
+            "#F5D33B",
+            "#C8102E",
+            "#FFFFFF"
+          ],
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Powder blue, a white pinafore, a black hair bow, and golden hair. Who wears it?",
+          "answer": "Alice",
+          "accept": [
+            "alice"
+          ],
+          "choices": [
+            "Alice",
+            "Wendy Darling",
+            "Cinderella",
+            "Snow White"
+          ],
+          "reveal": "The correct answer is Alice! She wore that dress through the entire trip down the rabbit hole. Not a single wardrobe change... [laughs] very low maintenance.",
+          "palette": [
+            "#8EC1EA",
+            "#FFFFFF",
+            "#111111",
+            "#F6D66B"
+          ],
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Forest green, a darker green cap, a bright red feather, and brown shoes. Who wears it?",
+          "answer": "Peter Pan",
+          "accept": [
+            "peter pan",
+            "peter"
+          ],
+          "choices": [
+            "Peter Pan",
+            "Robin Hood",
+            "Tinker Bell",
+            "Captain Hook"
+          ],
+          "reveal": "The correct answer is Peter Pan! That red feather in his cap is the boy who never grows up's only accessory. [mischievously] Robin Hood fans, I see you squinting.",
+          "palette": [
+            "#3E8E3E",
+            "#2B6430",
+            "#D7262B",
+            "#7A4A2A"
+          ],
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Snowy white fur, a black dress, long red gloves, and hair split right down the middle. Who wears it?",
+          "answer": "Cruella De Vil",
+          "accept": [
+            "cruella de vil",
+            "cruella",
+            "cruella deville",
+            "cruella de ville"
+          ],
+          "choices": [
+            "Cruella De Vil",
+            "Maleficent",
+            "Madame Medusa",
+            "Lady Tremaine"
+          ],
+          "reveal": "The correct answer is Cruella De Vil! [dramatic pause] If she doesn't scare you, no evil thing will. Fun fact, she was supposedly drawn partly from actress Tallulah Bankhead.",
+          "palette": [
+            "#F4F1EA",
+            "#111111",
+            "#C8102E",
+            "#FFFFFF",
+            "#2A2A2A"
+          ],
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Deep purple, a black cape with a blood red lining, a tall white collar, and a gold crown. Who wears it?",
+          "answer": "The Evil Queen",
+          "accept": [
+            "evil queen",
+            "the evil queen",
+            "the queen",
+            "queen grimhilde",
+            "grimhilde"
+          ],
+          "choices": [
+            "The Evil Queen",
+            "Maleficent",
+            "Lady Tremaine",
+            "Madam Mim"
+          ],
+          "reveal": "The correct answer is the Evil Queen from Snow White! [sighs] Maleficent fans, I know, I KNOW. But the high white collar and the red lining are pure Queen.",
+          "palette": [
+            "#5B2A86",
+            "#111111",
+            "#B22222",
+            "#FFFFFF",
+            "#D4AF37"
+          ],
+          "dailyDouble": false
+        }
+      ],
+      "art": {
+        "prompt": "A vintage dressmaker's atelier with bolts of royal blue, sunny yellow, powder blue and deep purple fabric, a dress form, spools of thread and a pincushion, soft window light. Original painterly storybook illustration, 16:9, cinematic lighting, rich color, no people, no characters, no text, no logos.",
+        "file": "media/golden-age-classics--classic-couture.jpg"
+      }
+    },
+    {
+      "id": "ride-the-classics",
+      "title": "Ride the Classics",
+      "kind": "parks",
+      "format": "text",
+      "intro": "To the parks! These attractions are all based on golden age films. [excited] Many of them have been delighting guests since opening day.",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "At Disneyland and Magic Kingdom, you fly over London aboard a pirate galleon on this Fantasyland dark ride.",
+          "answer": "Peter Pan's Flight",
+          "accept": [
+            "peter pan's flight",
+            "peter pans flight",
+            "peter pan"
+          ],
+          "choices": [
+            "Peter Pan's Flight",
+            "Dumbo the Flying Elephant",
+            "Mr. Toad's Wild Ride",
+            "Alice in Wonderland"
+          ],
+          "reveal": "The correct answer is Peter Pan's Flight! It opened with Disneyland in 1955 and still has one of the longest lines in the park. [laughs] Faith, trust, and a Lightning Lane.",
+          "media": {
+            "type": "image",
+            "prompt": "A small wooden pirate galleon ride vehicle with billowing sails flying through a starry night sky above a miniature glowing London with a clock tower and a winding river. Original painterly storybook illustration, 16:9, cinematic lighting, rich color, no people, no characters, no text, no logos.",
+            "file": "media/golden-age-classics--ride-the-classics-200.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Guests spin themselves silly in giant teacups on this Fantasyland ride, inspired by a 1951 unbirthday party.",
+          "answer": "Mad Tea Party",
+          "accept": [
+            "mad tea party",
+            "the mad tea party",
+            "teacups",
+            "the teacups"
+          ],
+          "choices": [
+            "Mad Tea Party",
+            "Alice in Wonderland",
+            "King Arthur Carrousel",
+            "Casey Jr. Circus Train"
+          ],
+          "reveal": "The correct answer is the Mad Tea Party! [mischievously] Pro tip, if you spin the wheel in the middle hard enough, your lunch will also experience an unbirthday.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "This opening day Disneyland dark ride, based on a 1949 film, sends you on a reckless motorcar trip that ends in a very hot place.",
+          "answer": "Mr. Toad's Wild Ride",
+          "accept": [
+            "mr. toad's wild ride",
+            "mr toad's wild ride",
+            "mr toads wild ride",
+            "mr. toad"
+          ],
+          "choices": [
+            "Mr. Toad's Wild Ride",
+            "Snow White's Enchanted Wish",
+            "Pinocchio's Daring Journey",
+            "Peter Pan's Flight"
+          ],
+          "reveal": "The correct answer is Mr. Toad's Wild Ride! Yes, the ride literally sends you to the underworld. [chuckles] Disney in the 1950s was a LOT more metal than people remember.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "At Disneyland, these little boats sail past miniature fairy tale villages after floating right through the mouth of Monstro the whale.",
+          "answer": "Storybook Land Canal Boats",
+          "accept": [
+            "storybook land canal boats",
+            "storybook land",
+            "canal boats"
+          ],
+          "choices": [
+            "Storybook Land Canal Boats",
+            "Casey Jr. Circus Train",
+            "It's a Small World",
+            "Pinocchio's Daring Journey"
+          ],
+          "reveal": "The correct answer is the Storybook Land Canal Boats! Walt reportedly picked many of the miniatures himself. [whispers] Tiny buildings... enormous charm.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "In 2021, Disneyland's Snow White's Scary Adventures reopened with a softer story and this new name.",
+          "answer": "Snow White's Enchanted Wish",
+          "accept": [
+            "snow white's enchanted wish",
+            "snow whites enchanted wish",
+            "enchanted wish"
+          ],
+          "choices": [
+            "Snow White's Enchanted Wish",
+            "Snow White's Wishing Well",
+            "Seven Dwarfs Mine Train",
+            "Snow White's Magic Mirror"
+          ],
+          "reveal": "The correct answer is Snow White's Enchanted Wish! A little less scary, a lot more sparkle. The Queen still shows up though. [laughs] She never misses a cameo.",
+          "media": {
+            "type": "image",
+            "prompt": "A shimmering golden wishing well in a dark enchanted forest, a glowing magic mirror on a castle wall, sparkles rising like fireflies. Original painterly storybook illustration, 16:9, cinematic lighting, rich color, no people, no characters, no text, no logos.",
+            "file": "media/golden-age-classics--ride-the-classics-1000.jpg"
+          },
+          "dailyDouble": false
+        }
+      ],
+      "art": {
+        "prompt": "A whimsical 1955 fairy-tale amusement park at night, a pirate galleon ride vehicle flying over a miniature moonlit London, giant teacups glowing beneath paper lanterns. Original painterly storybook illustration, 16:9, cinematic lighting, rich color, no people, no characters, no text, no logos.",
+        "file": "media/golden-age-classics--ride-the-classics.jpg"
+      }
+    },
+    {
+      "id": "golden-oldies",
+      "title": "Golden Oldies",
+      "kind": "fan",
+      "format": "text",
+      "intro": "You voted for music, so here are golden age songs. Name the movie or the song. [chuckles] Singing along is encouraged, but NOT graded.",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "The Fairy Godmother sings Bibbidi-Bobbidi-Boo as she whips up a pumpkin coach in this 1950 film.",
+          "answer": "Cinderella",
+          "accept": [
+            "cinderella"
+          ],
+          "choices": [
+            "Cinderella",
+            "Sleeping Beauty",
+            "Snow White and the Seven Dwarfs",
+            "Alice in Wonderland"
+          ],
+          "reveal": "The correct answer is Cinderella! Put 'em together and what have you got? [excited] Two hundred easy points, that's what!",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Baloo the bear teaches Mowgli to forget about his worries and his strife in The Bare Necessities, from this 1967 film.",
+          "answer": "The Jungle Book",
+          "accept": [
+            "the jungle book",
+            "jungle book"
+          ],
+          "choices": [
+            "The Jungle Book",
+            "Robin Hood",
+            "The Aristocats",
+            "The Sword in the Stone"
+          ],
+          "reveal": "The correct answer is The Jungle Book! [sighs] It was the last animated feature Walt personally worked on before he passed away in 1966.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "When You Wish Upon a Star won the Academy Award for Best Original Song for this 1940 film.",
+          "answer": "Pinocchio",
+          "accept": [
+            "pinocchio"
+          ],
+          "choices": [
+            "Pinocchio",
+            "Snow White and the Seven Dwarfs",
+            "Dumbo",
+            "Bambi"
+          ],
+          "reveal": "The correct answer is Pinocchio! Jiminy Cricket sings it, and decades later it became the Disney anthem you hear before nearly every movie.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Sung by Bert the chimney sweep, this Sherman Brothers song from Mary Poppins won the Oscar for Best Original Song.",
+          "answer": "Chim Chim Cher-ee",
+          "accept": [
+            "chim chim cher-ee",
+            "chim chim cheree",
+            "chim chim chiree"
+          ],
+          "choices": [
+            "Chim Chim Cher-ee",
+            "A Spoonful of Sugar",
+            "Feed the Birds",
+            "Supercalifragilisticexpialidocious"
+          ],
+          "reveal": "The correct answer is Chim Chim Cher-ee! Feed the Birds was Walt's personal favorite, though. [whispers] He'd ask Richard Sherman to play it for him in his office.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "In Dumbo, Mrs. Jumbo cradles her son through the bars of her circus wagon while this Oscar-nominated lullaby plays.",
+          "answer": "Baby Mine",
+          "accept": [
+            "baby mine"
+          ],
+          "choices": [
+            "Baby Mine",
+            "Casey Junior",
+            "Pink Elephants on Parade",
+            "When I See an Elephant Fly"
+          ],
+          "reveal": "The correct answer is Baby Mine! [sighs] And if you didn't cry during that scene, please check your pulse. Mine is still recovering.",
+          "dailyDouble": false
+        }
+      ],
+      "art": {
+        "prompt": "An old wooden radio and a stack of vinyl records on a parlor table, musical notes drifting through the air as golden sparkles, a wishing star shining through the window. Original painterly storybook illustration, 16:9, cinematic lighting, rich color, no people, no characters, no text, no logos.",
+        "file": "media/golden-age-classics--golden-oldies.jpg"
+      }
+    }
+  ]
+}

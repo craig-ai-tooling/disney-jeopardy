@@ -1,0 +1,513 @@
+{
+  "id": "renaissance-era",
+  "title": "The Renaissance Faire",
+  "theme": "The Disney Renaissance (1989-1999)",
+  "tags": [
+    "renaissance",
+    "90s",
+    "animation",
+    "music"
+  ],
+  "intro": "[excited] Welcome to the Renaissance Faire! [sighs] No turkey legs, sadly, but we do have the decade that saved Disney animation, 1989 to 1999. Mermaids, lions, genies, gargoyles. If you grew up rewinding these VHS tapes until they snapped, this is YOUR night.",
+  "art": {
+    "prompt": "A festive Renaissance fair reimagined as a Disney-style celebration, colorful banners, a glowing magic lamp on a velvet pillow, a red rose under a glass dome, a seashell, and a carved wooden mask, sunset light. Original painterly storybook illustration, 16:9, cinematic lighting, rich color, no people, no characters, no text, no logos.",
+    "file": "media/renaissance-era.jpg"
+  },
+  "categories": [
+    {
+      "id": "part-of-your-world",
+      "title": "Part of Your World",
+      "kind": "film",
+      "format": "text",
+      "intro": "The movie that kicked off the whole Renaissance, The Little Mermaid. Let's dive in. I promise this is the only water pun... [laughs] it is not.",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Ariel's nervous best friend is this yellow and blue tropical fish.",
+          "answer": "Flounder",
+          "accept": [
+            "flounder"
+          ],
+          "choices": [
+            "Flounder",
+            "Sebastian",
+            "Scuttle",
+            "Max"
+          ],
+          "reveal": "The correct answer is Flounder! Fun fact, Flounder is not actually a flounder. A real flounder is flat and brown. [chuckles] Disney took some creative liberties.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "As payment for a pair of human legs, Ursula takes this from Ariel.",
+          "answer": "Her voice",
+          "accept": [
+            "voice",
+            "her voice"
+          ],
+          "choices": [
+            "Her voice",
+            "Her hair",
+            "Her tail",
+            "Her memories"
+          ],
+          "reveal": "The correct answer is her voice! Ursula keeps it in a glowing seashell necklace. [sighs] Terrible deal, Ariel. ALWAYS read the contract.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Scuttle confidently tells Ariel that a fork is called this, and that humans use it to straighten their hair.",
+          "answer": "A dinglehopper",
+          "accept": [
+            "dinglehopper",
+            "a dinglehopper"
+          ],
+          "choices": [
+            "A dinglehopper",
+            "A snarfblatt",
+            "A whozit",
+            "A thingamabob"
+          ],
+          "reveal": "The correct answer is a dinglehopper! And the snarfblatt is the pipe. [laughs] If you picked snarfblatt, Scuttle would be VERY proud of you.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "These two slippery moray eels do Ursula's dirty work.",
+          "answer": "Flotsam and Jetsam",
+          "accept": [
+            "flotsam and jetsam",
+            "jetsam and flotsam"
+          ],
+          "choices": [
+            "Flotsam and Jetsam",
+            "Pain and Panic",
+            "Shenzi and Banzai",
+            "Horace and Jasper"
+          ],
+          "reveal": "The correct answer is Flotsam and Jetsam! They always swim as a pair and finish each other's hisses. [whispers] Poor unfortunate souls who have to work for Ursula.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "This directing duo made The Little Mermaid, then went on to direct Aladdin, Hercules, and Moana.",
+          "answer": "Ron Clements and John Musker",
+          "accept": [
+            "ron clements and john musker",
+            "clements and musker",
+            "musker and clements",
+            "john musker and ron clements"
+          ],
+          "choices": [
+            "Ron Clements and John Musker",
+            "Gary Trousdale and Kirk Wise",
+            "Roger Allers and Rob Minkoff",
+            "Chris Buck and Jennifer Lee"
+          ],
+          "reveal": "The correct answer is Ron Clements and John Musker! [excited] Without these two, the nineties would have had a lot less singing crabs and wisecracking genies.",
+          "dailyDouble": true
+        }
+      ],
+      "art": {
+        "prompt": "A sunlit underwater grotto full of human treasures, a fork, a pipe, a pocket watch and old paintings, schools of tropical fish, shafts of light from the surface. Original painterly storybook illustration, 16:9, cinematic lighting, rich color, no people, no characters, no text, no logos.",
+        "file": "media/renaissance-era--part-of-your-world.jpg"
+      }
+    },
+    {
+      "id": "renaissance-roll-call",
+      "title": "Renaissance Roll Call",
+      "kind": "theme",
+      "format": "text",
+      "intro": "Ten years, ten movies, a whole lot of unforgettable sidekicks. [chuckles] Name the character.",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This wise baboon holds baby Simba high above Pride Rock for all the animals to see.",
+          "answer": "Rafiki",
+          "accept": [
+            "rafiki"
+          ],
+          "choices": [
+            "Rafiki",
+            "Zazu",
+            "Timon",
+            "Pumbaa"
+          ],
+          "reveal": "The correct answer is Rafiki! His name means friend in Swahili. [laughs] Also, getting smacked on the head with his stick builds character.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Aladdin's light-fingered monkey sidekick.",
+          "answer": "Abu",
+          "accept": [
+            "abu"
+          ],
+          "choices": [
+            "Abu",
+            "Rajah",
+            "Iago",
+            "Meeko"
+          ],
+          "reveal": "The correct answer is Abu! Voiced by Frank Welker, who has done more animal noises for Disney than I have had churros. [chuckles] And that's a LOT.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "In Beauty and the Beast, this charming enchanted candelabra leads the dinner show Be Our Guest.",
+          "answer": "Lumiere",
+          "accept": [
+            "lumiere",
+            "lumière"
+          ],
+          "choices": [
+            "Lumiere",
+            "Cogsworth",
+            "Chip",
+            "Babette"
+          ],
+          "reveal": "The correct answer is Lumiere! His name is French for light. [mischievously] Cogsworth, meanwhile, is just a clock with anxiety.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In Hercules, these five gospel-singing goddesses narrate the story.",
+          "answer": "The Muses",
+          "accept": [
+            "the muses",
+            "muses"
+          ],
+          "choices": [
+            "The Muses",
+            "The Fates",
+            "The Graces",
+            "The Sirens"
+          ],
+          "reveal": "The correct answer is the Muses! They are Calliope, Clio, Melpomene, Terpsichore, and Thalia. Try saying that five times fast... [laughs] or once. Once is hard.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Released in 1990, this was Disney's first animated theatrical sequel, sending two mice to Australia.",
+          "answer": "The Rescuers Down Under",
+          "accept": [
+            "the rescuers down under",
+            "rescuers down under"
+          ],
+          "choices": [
+            "The Rescuers Down Under",
+            "The Return of Jafar",
+            "Fantasia 2000",
+            "The Lion King II: Simba's Pride"
+          ],
+          "reveal": "The correct answer is The Rescuers Down Under! It was also the first Disney feature made entirely with the digital CAPS ink and paint system. [whispers] A quiet pioneer.",
+          "dailyDouble": false
+        }
+      ],
+      "art": {
+        "prompt": "A rocky African cliff at sunrise over the savanna, a Parisian bell tower, a glowing candelabra and an Arabian palace, all blending together like a dreamy montage. Original painterly storybook illustration, 16:9, cinematic lighting, rich color, no people, no characters, no text, no logos.",
+        "file": "media/renaissance-era--renaissance-roll-call.jpg"
+      }
+    },
+    {
+      "id": "emoji-renaissance",
+      "title": "Emoji Renaissance",
+      "kind": "media",
+      "format": "emoji",
+      "intro": "[excited] Emojis! I'll give you a string of little pictures and a hint, you tell me which Renaissance film it is.",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "🦁👑🌅🐗 Hint: The circle of life.",
+          "answer": "The Lion King",
+          "accept": [
+            "the lion king",
+            "lion king"
+          ],
+          "choices": [
+            "The Lion King",
+            "The Jungle Book",
+            "Tarzan",
+            "Robin Hood"
+          ],
+          "reveal": "The correct answer is The Lion King! [laughs] Hakuna matata, you got the cupcake.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "🧞🪔🐒🕌 Hint: Three wishes.",
+          "answer": "Aladdin",
+          "accept": [
+            "aladdin"
+          ],
+          "choices": [
+            "Aladdin",
+            "The Return of Jafar",
+            "Hercules",
+            "Mulan"
+          ],
+          "reveal": "The correct answer is Aladdin! [gasps] Robin Williams recorded so much improvised material that the animators had hours of jokes to choose from.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "🐉🦗🗡️🏯 Hint: A lucky cricket tags along to war.",
+          "answer": "Mulan",
+          "accept": [
+            "mulan"
+          ],
+          "choices": [
+            "Mulan",
+            "Pocahontas",
+            "Hercules",
+            "Aladdin"
+          ],
+          "reveal": "The correct answer is Mulan! Cri-Kee is the lucky cricket. [chuckles] Whether he is actually lucky is still being debated.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "🔔⛪🎭🗿 Hint: The Feast of Fools in 1482 Paris.",
+          "answer": "The Hunchback of Notre Dame",
+          "accept": [
+            "the hunchback of notre dame",
+            "hunchback of notre dame",
+            "hunchback"
+          ],
+          "choices": [
+            "The Hunchback of Notre Dame",
+            "Beauty and the Beast",
+            "Pocahontas",
+            "Hercules"
+          ],
+          "reveal": "The correct answer is The Hunchback of Notre Dame! The bell, the cathedral, the masks of the Topsy Turvy festival, and the gargoyles. [mischievously] Victor, Hugo, and Laverne. Get it?",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "🦍👶🌿🎶 Hint: Two worlds, one family.",
+          "answer": "Tarzan",
+          "accept": [
+            "tarzan"
+          ],
+          "choices": [
+            "Tarzan",
+            "The Jungle Book",
+            "The Lion King",
+            "Pocahontas"
+          ],
+          "reveal": "The correct answer is Tarzan! Two Worlds is a Phil Collins song, and he recorded the soundtrack in several languages including German and Spanish. [excited] What a guy.",
+          "dailyDouble": false
+        }
+      ],
+      "art": {
+        "prompt": "A whimsical collage of glowing floating icons in the sky, a crown, a lamp, a bell, a cherry blossom, and a jungle leaf, painted like stained glass. Original painterly storybook illustration, 16:9, cinematic lighting, rich color, no people, no characters, no text, no logos.",
+        "file": "media/renaissance-era--emoji-renaissance.jpg"
+      }
+    },
+    {
+      "id": "renaissance-in-the-parks",
+      "title": "Renaissance in the Parks",
+      "kind": "parks",
+      "format": "text",
+      "intro": "The Renaissance did not stay on the screen. [excited] These clues are about the films living on in the Disney parks.",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "At Magic Kingdom, you ride a clamshell under the sea with Ariel on this Fantasyland dark ride.",
+          "answer": "Under the Sea - Journey of the Little Mermaid",
+          "accept": [
+            "under the sea",
+            "journey of the little mermaid",
+            "under the sea journey of the little mermaid",
+            "the little mermaid ride"
+          ],
+          "choices": [
+            "Under the Sea - Journey of the Little Mermaid",
+            "Ariel's Grotto",
+            "King Triton's Carousel",
+            "Prince Eric's Voyage"
+          ],
+          "reveal": "The correct answer is Under the Sea, Journey of the Little Mermaid! [laughs] Darling, it's better... down where it's wetter. Take it from me.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "At Animal Kingdom, this Broadway-style show in the round stars music from Simba's story.",
+          "answer": "Festival of the Lion King",
+          "accept": [
+            "festival of the lion king",
+            "the festival of the lion king"
+          ],
+          "choices": [
+            "Festival of the Lion King",
+            "Finding Nemo: The Big Blue and Beyond",
+            "Beauty and the Beast Live on Stage",
+            "Indiana Jones Epic Stunt Spectacular"
+          ],
+          "reveal": "The correct answer is Festival of the Lion King! Acrobats, stilt walkers, and giant floats. [sighs] And the air conditioning is a festival all by itself.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "This Magic Kingdom restaurant lets you dine inside the Beast's castle, including the ballroom and the West Wing.",
+          "answer": "Be Our Guest Restaurant",
+          "accept": [
+            "be our guest restaurant",
+            "be our guest"
+          ],
+          "choices": [
+            "Be Our Guest Restaurant",
+            "Cinderella's Royal Table",
+            "Gaston's Tavern",
+            "Pinocchio Village Haus"
+          ],
+          "reveal": "The correct answer is Be Our Guest Restaurant! Try the grey stuff, it's delicious. [chuckles] Don't believe me? Ask the dishes.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "At Gaston's Tavern in Magic Kingdom, this signature frozen apple drink is topped with passion fruit mango foam.",
+          "answer": "LeFou's Brew",
+          "accept": [
+            "lefou's brew",
+            "lefous brew",
+            "le fou's brew",
+            "lefou brew"
+          ],
+          "choices": [
+            "LeFou's Brew",
+            "Gaston's Grog",
+            "Beast's Brew",
+            "Belle's Cider"
+          ],
+          "reveal": "The correct answer is LeFou's Brew! Named after Gaston's loyal sidekick. [laughs] No one sips like LeFou.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Beauty and the Beast Live on Stage performs at this outdoor theater on Sunset Boulevard at Disney's Hollywood Studios.",
+          "answer": "Theater of the Stars",
+          "accept": [
+            "theater of the stars",
+            "theatre of the stars"
+          ],
+          "choices": [
+            "Theater of the Stars",
+            "Hyperion Theater",
+            "Fantasyland Theatre",
+            "Theater in the Wild"
+          ],
+          "reveal": "The correct answer is Theater of the Stars! The show has been running since 1991. [mischievously] That's older than half the people playing tonight.",
+          "dailyDouble": false
+        }
+      ],
+      "art": {
+        "prompt": "A Magic Kingdom-style Fantasyland village at dusk, a grand castle ballroom glowing through tall windows, flying carpet ride vehicles spinning in the Adventureland sky nearby. Original painterly storybook illustration, 16:9, cinematic lighting, rich color, no people, no characters, no text, no logos.",
+        "file": "media/renaissance-era--renaissance-in-the-parks.jpg"
+      }
+    },
+    {
+      "id": "renaissance-rogues",
+      "title": "Renaissance Rogues",
+      "kind": "fan",
+      "format": "text",
+      "intro": "Club fans asked for villains, so here come the baddies of the Renaissance. [mischievously] Hiss and boo as you see fit.",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This scarred lion is Simba's evil uncle.",
+          "answer": "Scar",
+          "accept": [
+            "scar"
+          ],
+          "choices": [
+            "Scar",
+            "Mufasa",
+            "Zira",
+            "Kovu"
+          ],
+          "reveal": "The correct answer is Scar! [dramatic pause] Be prepared. That song still gives me chills.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "This Lord of the Underworld in Hercules has a fast mouth and flaming blue hair.",
+          "answer": "Hades",
+          "accept": [
+            "hades"
+          ],
+          "choices": [
+            "Hades",
+            "Zeus",
+            "Jafar",
+            "Ares"
+          ],
+          "reveal": "The correct answer is Hades! Voiced by James Woods. He's technically the god of the dead, but honestly... [laughs] he's the life of the party.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Jafar's sinister staff is shaped like the head of this animal.",
+          "answer": "A cobra",
+          "accept": [
+            "cobra",
+            "a cobra",
+            "snake",
+            "a snake"
+          ],
+          "choices": [
+            "A cobra",
+            "A parrot",
+            "A scorpion",
+            "A tiger"
+          ],
+          "reveal": "The correct answer is a cobra! And when he finally turns into one in the climax, it all makes sense. [chuckles] Foreshadowing, people.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "This judge, who raised Quasimodo in the bell tower, sings the dark and fiery Hellfire.",
+          "answer": "Judge Claude Frollo",
+          "accept": [
+            "frollo",
+            "claude frollo",
+            "judge frollo",
+            "judge claude frollo"
+          ],
+          "choices": [
+            "Judge Claude Frollo",
+            "Jafar",
+            "Clayton",
+            "Hades"
+          ],
+          "reveal": "The correct answer is Judge Claude Frollo! Many fans call Hellfire the greatest Disney villain song ever. [mischievously] Fight me in the comments.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "David Ogden Stiers voiced Cogsworth in Beauty and the Beast and this greedy villain in Pocahontas.",
+          "answer": "Governor Ratcliffe",
+          "accept": [
+            "ratcliffe",
+            "governor ratcliffe",
+            "governor ratcliff",
+            "ratcliff"
+          ],
+          "choices": [
+            "Governor Ratcliffe",
+            "Clayton",
+            "Shan Yu",
+            "Professor Ratigan"
+          ],
+          "reveal": "The correct answer is Governor Ratcliffe! Stiers also voiced Ratcliffe's servant Wiggins in the same movie. [laughs] Two roles, one man, zero pay raise.",
+          "dailyDouble": false
+        }
+      ],
+      "art": {
+        "prompt": "A dark villain lair montage, a cobra-headed staff glowing red, flames of blue fire, a cauldron, a stormy sea and swirling green smoke. Original painterly storybook illustration, 16:9, cinematic lighting, rich color, no people, no characters, no text, no logos.",
+        "file": "media/renaissance-era--renaissance-rogues.jpg"
+      }
+    }
+  ]
+}
