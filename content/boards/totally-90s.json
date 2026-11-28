@@ -64,7 +64,6 @@
           "answer": "The Mighty Ducks",
           "accept": [
             "the mighty ducks",
-            "d2",
             "mighty ducks"
           ],
           "choices": [
@@ -225,7 +224,7 @@
       "clues": [
         {
           "value": 200,
-          "clue": "Which 1990s animated movie do these props come from?",
+          "clue": "A magic lamp in a cave of treasure. Which 1990s animated movie is this?",
           "answer": "Aladdin",
           "accept": [
             "aladdin"
@@ -246,7 +245,7 @@
         },
         {
           "value": 400,
-          "clue": "Which 1990s animated movie do these props come from?",
+          "clue": "A rose under glass in a cursed castle. Which 1990s animated movie is this?",
           "answer": "Beauty and the Beast",
           "accept": [
             "beauty and the beast"
@@ -267,7 +266,7 @@
         },
         {
           "value": 600,
-          "clue": "Which 1990s animated movie do these props come from?",
+          "clue": "Giant bells and stone gargoyles high above Paris. Which 1990s animated movie is this?",
           "answer": "The Hunchback of Notre Dame",
           "accept": [
             "the hunchback of notre dame",
@@ -290,7 +289,7 @@
         },
         {
           "value": 800,
-          "clue": "Which 1990s animated movie do these props come from?",
+          "clue": "A lucky cricket, a hair comb and a sword. Which 1990s animated movie is this?",
           "answer": "Mulan",
           "accept": [
             "mulan"
@@ -311,7 +310,7 @@
         },
         {
           "value": 1000,
-          "clue": "Which 1990s animated movie do these props come from?",
+          "clue": "A Victorian tea set in a jungle treehouse. Which 1990s animated movie is this?",
           "answer": "Tarzan",
           "accept": [
             "tarzan"

@@ -219,7 +219,7 @@
       "clues": [
         {
           "value": 200,
-          "clue": "Look at this house! Which movie is it from?",
+          "clue": "Look at this house lifted by balloons! Which movie is it from?",
           "answer": "Up",
           "accept": [
             "up"
