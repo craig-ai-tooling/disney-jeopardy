@@ -409,8 +409,7 @@
           "accept": [
             "monsters, inc.",
             "monsters inc",
-            "monsters inc.",
-            "monstropolis"
+            "monsters inc."
           ],
           "choices": [
             "Monsters, Inc.",
@@ -457,7 +456,7 @@
         },
         {
           "value": 1000,
-          "clue": "A second Muppet*Vision 3D theater ran from 2001 to 2014 at this California park.",
+          "clue": "Florida's Muppet*Vision 3D theater, seen here, had a twin from 2001 to 2014 at this California park.",
           "answer": "Disney California Adventure",
           "accept": [
             "disney california adventure",

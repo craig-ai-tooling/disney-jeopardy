@@ -84,7 +84,6 @@
       "marley brothers",
       "the marleys",
       "jacob and robert marley",
-      "marley",
       "the marley brothers"
     ],
     "choices": [
@@ -98,21 +97,22 @@
   {
     "film": "Avengers: Endgame",
     "category": "Avengers: Endgame",
-    "clue": "Tony Stark's daughter Morgan tells him she loves him this much, and he says it back in his farewell message.",
-    "answer": "3000",
+    "clue": "In the final battle, Captain America proves he is worthy by wielding this weapon.",
+    "answer": "Mjolnir",
     "accept": [
-      "3000",
-      "three thousand",
-      "i love you 3000",
-      "3,000"
+      "mjolnir",
+      "thor's hammer",
+      "thors hammer",
+      "the hammer",
+      "mjölnir"
     ],
     "choices": [
-      "3000",
-      "1000",
-      "A million",
-      "To infinity"
+      "Mjolnir",
+      "Stormbreaker",
+      "Gungnir",
+      "Jarnbjorn"
     ],
-    "reveal": "[sighs] The correct answer is 3000! Robert Downey Jr. has said the line came from his own kids. [whispers] Pass the tissues."
+    "reveal": "[excited] The correct answer is Mjolnir! Cap catches Thor's hammer, and Thor shouts, \"I knew it!\" [laughs] Best payoff in the whole saga."
   },
   {
     "film": "Raya and the Last Dragon",
