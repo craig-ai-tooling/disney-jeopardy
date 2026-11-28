@@ -232,8 +232,11 @@ export class Room {
 
   // Fallback in case the TV's readDone never arrives (e.g. a later line interrupted this one).
   narrate(text, tag) {
-    this.say(text, true, tag);
-    this.setTimer(6000 + plain(text).split(/\s+/).length * 450, () => this.advance());
+    this.clearTimer();
+    this.narrating = tag;
+    Promise.resolve(this.say(text, true, tag)).then(() => {
+      if (this.narrating === tag && !this.timer) this.setTimer(6000 + plain(text).split(/\s+/).length * 450, () => this.advance());
+    });
     this.broadcast();
   }
 
@@ -305,6 +308,7 @@ export class Room {
   }
 
   readDone(seq) {
+    if (seq === this.narrating) this.narrating = null;
     if ((this.phase === 'intro' && seq === 'intro') || (this.phase === 'categories' && seq === `cat:${this.catIdx}`)) return this.setTimer(900, () => this.advance());
     if (this.phase === 'reveal' && !this.ruling && this.clue && seq === `rev-${this.clue.seq}`) return this.setTimer(2500, () => this.afterReveal());
     if (this.phase !== 'reading' || !this.clue || (seq && seq !== this.clue.seq)) return;
@@ -606,7 +610,7 @@ export class Room {
     const ready = this.settings.voice ? v.cached(text, voiceId) : null;
     if (ready || !this.settings.voice || v.disabled) return send(ready);
     // Wait for a fresh clip; if ElevenLabs never delivers, the TV shows the line as a subtitle only.
-    Promise.race([v.get(text, voiceId), new Promise((r) => setTimeout(() => r(null), wait ? 9000 : 5000))]).then(send, () => send(null));
+    return Promise.race([v.get(text, voiceId), new Promise((r) => setTimeout(() => r(null), wait ? 9000 : 5000))]).then(send, () => send(null));
   }
 
   publicClue() {
