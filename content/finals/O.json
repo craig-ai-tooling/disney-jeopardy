@@ -1,0 +1,142 @@
+[
+  {
+    "film": "Treasure Planet",
+    "category": "Treasure Planet",
+    "clue": "Captain Amelia commands this solar-sailing ship that carries Jim Hawkins across space.",
+    "answer": "RLS Legacy",
+    "accept": [
+      "rls legacy",
+      "legacy",
+      "the legacy",
+      "the rls legacy"
+    ],
+    "choices": [
+      "RLS Legacy",
+      "The Black Pearl",
+      "Nautilus",
+      "The Millennium Falcon"
+    ],
+    "reveal": "The correct answer is the RLS Legacy! [chuckles] RLS for Robert Louis Stevenson, who wrote Treasure Island. Nice one, Disney."
+  },
+  {
+    "film": "Fantasia 2000",
+    "category": "Fantasia 2000",
+    "clue": "The Fantasia 2000 segment drawn in the style of Al Hirschfeld, set in 1930s New York, uses this George Gershwin piece.",
+    "answer": "Rhapsody in Blue",
+    "accept": [
+      "rhapsody in blue"
+    ],
+    "choices": [
+      "Rhapsody in Blue",
+      "An American in Paris",
+      "Summertime",
+      "Bolero"
+    ],
+    "reveal": "[excited] The correct answer is Rhapsody in Blue! Gershwin's jazzy classic, and the segment is a love letter to New York City."
+  },
+  {
+    "film": "Finding Dory",
+    "category": "Finding Dory",
+    "clue": "Dory was born and raised at this California aquarium, narrated by Sigourney Weaver.",
+    "answer": "Marine Life Institute",
+    "accept": [
+      "marine life institute",
+      "the marine life institute",
+      "mli"
+    ],
+    "choices": [
+      "Marine Life Institute",
+      "Monterey Bay Aquarium",
+      "SeaWorld",
+      "Fish Tank Institute"
+    ],
+    "reveal": "The correct answer is the Marine Life Institute! [laughs] And the voice on the speakers is Sigourney Weaver herself."
+  },
+  {
+    "film": "Toy Story 2",
+    "category": "Toy Story 2",
+    "clue": "In Toy Story 2, the toy collector Al runs this toy store, and wears a chicken suit in its TV commercials.",
+    "answer": "Al's Toy Barn",
+    "accept": [
+      "al's toy barn",
+      "als toy barn",
+      "toy barn"
+    ],
+    "choices": [
+      "Al's Toy Barn",
+      "Pizza Planet",
+      "Toys R Us",
+      "Sunnyside"
+    ],
+    "reveal": "The correct answer is Al's Toy Barn! [chuckles] Al the chicken man. He bought Woody at a yard sale and almost shipped him to Japan."
+  },
+  {
+    "film": "Enchanted",
+    "category": "Enchanted",
+    "clue": "In Enchanted, Giselle cleans Robert's apartment with rats, pigeons and cockroaches while singing this song.",
+    "answer": "Happy Working Song",
+    "accept": [
+      "happy working song",
+      "the happy working song"
+    ],
+    "choices": [
+      "Happy Working Song",
+      "Whistle While You Work",
+      "That's How You Know",
+      "True Love's Kiss"
+    ],
+    "reveal": "[laughs] The correct answer is Happy Working Song! It's a sweet parody of Whistle While You Work, but with New York cockroaches."
+  },
+  {
+    "film": "Pirates of the Caribbean: The Curse of the Black Pearl",
+    "category": "Pirates of the Caribbean: The Curse of the Black Pearl",
+    "clue": "In Pirates of the Caribbean: The Curse of the Black Pearl, Will Turner's pirate father went by this nickname.",
+    "answer": "Bootstrap Bill",
+    "accept": [
+      "bootstrap bill",
+      "bootstrap",
+      "bootstrap bill turner"
+    ],
+    "choices": [
+      "Bootstrap Bill",
+      "Calico Jack",
+      "Bloody Bill",
+      "Blackbeard"
+    ],
+    "reveal": "The correct answer is Bootstrap Bill Turner! He sent a piece of the cursed gold to his son. [whispers] Which is how all this mess started."
+  },
+  {
+    "film": "Frozen II",
+    "category": "Frozen II",
+    "clue": "In Frozen II, the people who live in the Enchanted Forest, Elsa and Anna's mother's people, are called this.",
+    "answer": "Northuldra",
+    "accept": [
+      "northuldra",
+      "the northuldra"
+    ],
+    "choices": [
+      "Northuldra",
+      "Arendellians",
+      "Sami",
+      "Earth Giants"
+    ],
+    "reveal": "[excited] The correct answer is the Northuldra! Queen Iduna was Northuldra, so Elsa and Anna are half Arendelle, half Enchanted Forest."
+  },
+  {
+    "film": "Ralph Breaks the Internet",
+    "category": "Ralph Breaks the Internet",
+    "clue": "In Ralph Breaks the Internet, Ralph and Vanellope travel online to buy a new steering wheel for Sugar Rush on this auction website.",
+    "answer": "eBay",
+    "accept": [
+      "ebay",
+      "e bay"
+    ],
+    "choices": [
+      "eBay",
+      "Amazon",
+      "Craigslist",
+      "BuzzzTube"
+    ],
+    "reveal": "The correct answer is eBay! [laughs] They bid $27,001 because they didn't understand how bidding works. Relatable."
+  }
+]

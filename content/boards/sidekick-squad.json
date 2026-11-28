@@ -1,0 +1,532 @@
+{
+  "id": "sidekick-squad",
+  "title": "Second Bananas",
+  "theme": "Sidekicks",
+  "tags": [
+    "sidekicks",
+    "friends",
+    "characters"
+  ],
+  "intro": "[excited] Ladies and gentlemen, tonight the heroes are sitting in the audience! It's a whole board of sidekicks, henchmen and loyal best buds. [laughs] Every great hero needs a second banana.",
+  "art": {
+    "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A grand theatre stage with the spotlight pointing not at the centre but at a small side wing, where a tiny stool, a little top hat and a bunch of bananas wait in the warm light.",
+    "file": "media/sidekick-squad.jpg"
+  },
+  "categories": [
+    {
+      "id": "gargoyle-gang",
+      "title": "Gargoyle Gang",
+      "kind": "film",
+      "intro": "Our film category is The Hunchback of Notre Dame! Bells, gargoyles and one very judgy judge.",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. The bell tower of a gothic Paris cathedral at sunset, huge bronze bells, three stone gargoyle statues perched on the ledge overlooking the rooftops of the city.",
+        "file": "media/sidekick-squad--gargoyle-gang.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Quasimodo lives high in the bell tower of this famous Paris cathedral.",
+          "answer": "Notre-Dame",
+          "accept": [
+            "notre dame",
+            "notre-dame",
+            "notre dame cathedral",
+            "notre-dame de paris"
+          ],
+          "choices": [
+            "Notre-Dame",
+            "Sacré-Cœur",
+            "Saint-Denis",
+            "Sainte-Chapelle"
+          ],
+          "reveal": "The correct answer is Notre-Dame! It's right there in the title. [laughs] Hope you rang that buzzer like a bell.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Esmeralda's clever little pet, who head-butts Frollo's guards, is this kind of animal.",
+          "answer": "A goat",
+          "accept": [
+            "goat",
+            "a goat",
+            "djali"
+          ],
+          "choices": [
+            "A goat",
+            "A sheep",
+            "A donkey",
+            "A dog"
+          ],
+          "reveal": "The correct answer is a goat! His name is Djali, and he has a mean head-butt. [chuckles] Never mess with a goat with a gymnast for an owner.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "The bell tower's three gargoyle pals are Hugo, Victor and this wise, pigeon-shooing lady.",
+          "answer": "Laverne",
+          "accept": [
+            "laverne"
+          ],
+          "choices": [
+            "Laverne",
+            "Esmeralda",
+            "Madeline",
+            "Clopin"
+          ],
+          "reveal": "The correct answer is Laverne! Hugo and Victor are named after author Victor Hugo, who wrote the original novel. Laverne just had to deal with them.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Quasimodo's cruel guardian, the Minister of Justice, is named this.",
+          "answer": "Frollo",
+          "accept": [
+            "frollo",
+            "claude frollo",
+            "judge frollo"
+          ],
+          "choices": [
+            "Frollo",
+            "Clopin",
+            "Phoebus",
+            "Gaston"
+          ],
+          "reveal": "The correct answer is Judge Claude Frollo! [whispers] His song Hellfire is so dark it's honestly amazing it's in a Disney movie.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Laverne's voice actress Mary Wickes died during production, so this former child movie star finished recording her lines.",
+          "answer": "Jane Withers",
+          "accept": [
+            "jane withers",
+            "withers"
+          ],
+          "choices": [
+            "Jane Withers",
+            "Shirley Temple",
+            "Angela Lansbury",
+            "Betty White"
+          ],
+          "reveal": "[excited] The correct answer is Jane Withers! She was a big child star in the 1930s and stepped in to finish Laverne after Mary Wickes passed away in 1995.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "villains-little-helpers",
+      "title": "Villains' Little Helpers",
+      "kind": "theme",
+      "intro": "Next, Villains' Little Helpers! Even bad guys need an assistant to fetch the coffee. [chuckles]",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A villain's dim throne room lit by green candles, a tiny footstool next to a giant throne, a feather duster, a raven perch and a stack of crumpled evil plans.",
+        "file": "media/sidekick-squad--villains-little-helpers.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Captain Hook's round, rosy-cheeked first mate is named this.",
+          "answer": "Mr. Smee",
+          "accept": [
+            "smee",
+            "mr. smee",
+            "mr smee"
+          ],
+          "choices": [
+            "Mr. Smee",
+            "Starkey",
+            "Mr. Snoops",
+            "Bill Jukes"
+          ],
+          "reveal": "The correct answer is Mr. Smee! [laughs] Captain Hook's assistant, barber, and emotional support pirate.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "In The Emperor's New Groove, Yzma's lovable, spinach-puff-cooking henchman is named this.",
+          "answer": "Kronk",
+          "accept": [
+            "kronk"
+          ],
+          "choices": [
+            "Kronk",
+            "Pacha",
+            "Bucky",
+            "Kuzco"
+          ],
+          "reveal": "The correct answer is Kronk! Pull the lever, Kronk! [laughs] WRONG LEVERRR! Best henchman ever, and an excellent cook.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Maleficent's loyal black raven, who searches for Aurora for 16 years, is named this.",
+          "answer": "Diablo",
+          "accept": [
+            "diablo"
+          ],
+          "choices": [
+            "Diablo",
+            "Lucifer",
+            "Iago",
+            "Nightshade"
+          ],
+          "reveal": "The correct answer is Diablo! While the goons look for a baby for 16 years, Diablo actually does the job. [chuckles] Employee of the century.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In Robin Hood, Prince John's sneaky snake advisor, who keeps getting stuffed in a basket, is named this.",
+          "answer": "Sir Hiss",
+          "accept": [
+            "sir hiss",
+            "hiss"
+          ],
+          "choices": [
+            "Sir Hiss",
+            "Kaa",
+            "Nutsy",
+            "Trigger"
+          ],
+          "reveal": "The correct answer is Sir Hiss! [laughs] He hypnotises people, and somehow always ends up in a basket or a jar. Rough job.",
+          "dailyDouble": true
+        },
+        {
+          "value": 1000,
+          "clue": "In The Rescuers, Madame Medusa's two pet alligators who guard Penny are named Brutus and this.",
+          "answer": "Nero",
+          "accept": [
+            "nero",
+            "brutus and nero"
+          ],
+          "choices": [
+            "Nero",
+            "Caesar",
+            "Nemo",
+            "Caligula"
+          ],
+          "reveal": "The correct answer is Nero! Brutus and Nero, named after Roman history's not-so-nice guys. [whispers] Medusa picked fitting names.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "whose-stuff-is-this",
+      "title": "Whose Stuff Is This?",
+      "kind": "media",
+      "intro": "Picture category! Each image shows a sidekick's favourite things. Name the sidekick!",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A lost-and-found shelf stacked with tiny objects: a little collar, a miniature cage, a trumpet, a stolen cookie and a scrap of fabric, lit by a desk lamp.",
+        "file": "media/sidekick-squad--whose-stuff-is-this.jpg"
+      },
+      "format": "picture",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This sidekick can't resist a snack. Name him.",
+          "answer": "Meeko",
+          "accept": [
+            "meeko"
+          ],
+          "choices": [
+            "Meeko",
+            "Flit",
+            "Percy",
+            "Rocket"
+          ],
+          "reveal": "The correct answer is Meeko! Pocahontas's raccoon pal will braid your hair or eat all your biscuits, depending on the day. [chuckles] Mostly biscuits.",
+          "media": {
+            "type": "image",
+            "prompt": "Original painterly digital illustration, 4:3, no people, no characters, no logos, no text or lettering. A forest riverbank in Virginia with autumn leaves, a small ringed raccoon-sized tail track in the mud leading to a ship captain's open leather bag spilling round ship biscuits and a brass compass.",
+            "file": "media/sidekick-squad--whose-stuff-is-this-200.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "This palace pet is fiercely protective of a princess. Name him.",
+          "answer": "Rajah",
+          "accept": [
+            "rajah"
+          ],
+          "choices": [
+            "Rajah",
+            "Abu",
+            "Sultan",
+            "Shere Khan"
+          ],
+          "reveal": "The correct answer is Rajah! [laughs] Jasmine's tiger bit the seat right out of Prince Achmed's pants. Fantastic boyfriend screening.",
+          "media": {
+            "type": "image",
+            "prompt": "Original painterly digital illustration, 4:3, no people, no characters, no logos, no text or lettering. A moonlit Arabian palace garden with a fountain, a huge jewelled tiger collar on a silk cushion, and a torn scrap of fancy white trouser fabric with little red hearts caught on a thorny bush.",
+            "file": "media/sidekick-squad--whose-stuff-is-this-400.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "This swamp sidekick dreams of playing with the big bands. Name him.",
+          "answer": "Louis",
+          "accept": [
+            "louis",
+            "louis the alligator"
+          ],
+          "choices": [
+            "Louis",
+            "Ray",
+            "Mama Odie",
+            "Tick-Tock"
+          ],
+          "reveal": "The correct answer is Louis! The trumpet-playing alligator from The Princess and the Frog. [excited] He just wants to be human so he can jam on stage!",
+          "media": {
+            "type": "image",
+            "prompt": "Original painterly digital illustration, 4:3, no people, no characters, no logos, no text or lettering. A Louisiana bayou at dusk with Spanish moss and fireflies, a shiny brass trumpet resting on a wooden dock beside a huge scaly footprint in the mud, a jazz club glowing in the distance.",
+            "file": "media/sidekick-squad--whose-stuff-is-this-600.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "This pampered pet loves luxury on a voyage to the New World. Name him.",
+          "answer": "Percy",
+          "accept": [
+            "percy"
+          ],
+          "choices": [
+            "Percy",
+            "Meeko",
+            "Flit",
+            "Pua"
+          ],
+          "reveal": "The correct answer is Percy! Governor Ratcliffe's spoiled pug. [laughs] He starts out the villain's pet and ends up best friends with Meeko.",
+          "media": {
+            "type": "image",
+            "prompt": "Original painterly digital illustration, 4:3, no people, no characters, no logos, no text or lettering. The cabin of an English sailing ship in 1607, a tiny ruffled lace dog collar on a plush purple velvet pillow, a silver bowl of cherries and a powdered wig on a stand.",
+            "file": "media/sidekick-squad--whose-stuff-is-this-800.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "This tiny sidekick was supposed to bring good luck. Name him.",
+          "answer": "Cri-Kee",
+          "accept": [
+            "cri-kee",
+            "crikee",
+            "cri kee"
+          ],
+          "choices": [
+            "Cri-Kee",
+            "Jiminy Cricket",
+            "Khan",
+            "Little Brother"
+          ],
+          "reveal": "[excited] The correct answer is Cri-Kee! Grandmother Fa's lucky cricket. [chuckles] Whether he's actually lucky is still up for debate.",
+          "media": {
+            "type": "image",
+            "prompt": "Original painterly digital illustration, 4:3, no people, no characters, no logos, no text or lettering. A small bamboo cricket cage on a stone wall in a misty Chinese garden with cherry blossoms, a grandmother's walking stick leaning nearby and a jade pendant.",
+            "file": "media/sidekick-squad--whose-stuff-is-this-1000.jpg"
+          },
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "sidekicks-at-the-parks",
+      "title": "Sidekicks at the Parks",
+      "kind": "parks",
+      "intro": "Parks time! Sometimes the sidekicks get the spotlight at the parks. [laughs] Finally!",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A colourful theme park plaza with a small comedy club marquee light, a parrot perch, a fiesta papel picado canopy and a scout badge sash hung on a fence.",
+        "file": "media/sidekick-squad--sidekicks-at-the-parks.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Mike Wazowski hosts this live, interactive comedy show in Magic Kingdom's Tomorrowland.",
+          "answer": "Monsters, Inc. Laugh Floor",
+          "accept": [
+            "monsters inc laugh floor",
+            "monsters, inc. laugh floor",
+            "laugh floor",
+            "monsters inc. laugh floor"
+          ],
+          "choices": [
+            "Monsters, Inc. Laugh Floor",
+            "Mickey's PhilharMagic",
+            "Stitch's Great Escape",
+            "Turtle Talk with Crush"
+          ],
+          "reveal": "The correct answer is Monsters, Inc. Laugh Floor! The monsters collect your laughs to power the city. [laughs] Mine is mostly snorting.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "On Gran Fiesta Tour in EPCOT's Mexico pavilion, José Carioca and Panchito search for this missing pal.",
+          "answer": "Donald Duck",
+          "accept": [
+            "donald",
+            "donald duck"
+          ],
+          "choices": [
+            "Donald Duck",
+            "Goofy",
+            "Pluto",
+            "Daisy Duck"
+          ],
+          "reveal": "The correct answer is Donald Duck! The Three Caballeros have a show to do and Donald is off sightseeing. [chuckles] Classic Donald.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Disney's Animal Kingdom's Wilderness Explorers badge program is inspired by this young scout from Up.",
+          "answer": "Russell",
+          "accept": [
+            "russell"
+          ],
+          "choices": [
+            "Russell",
+            "Carl",
+            "Dug",
+            "Kevin"
+          ],
+          "reveal": "The correct answer is Russell! Carl's tag-along sidekick just needed his Assisting the Elderly badge. [excited] Now kids earn badges all over the park!",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "From 1998 to 2011, Iago and Zazu took over Magic Kingdom's Tiki Room in a version with this subtitle.",
+          "answer": "Under New Management",
+          "accept": [
+            "under new management",
+            "the enchanted tiki room under new management"
+          ],
+          "choices": [
+            "Under New Management",
+            "Now Playing",
+            "Tiki Takeover",
+            "The Birds Strike Back"
+          ],
+          "reveal": "The correct answer is Under New Management! [laughs] Iago heckled the birds for over a decade before the classic show came back in 2011.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "In 2021 at Shanghai Disneyland, Duffy the Disney Bear got this pink fox friend, a curious detective.",
+          "answer": "LinaBell",
+          "accept": [
+            "linabell",
+            "lina bell"
+          ],
+          "choices": [
+            "LinaBell",
+            "ShellieMay",
+            "Gelatoni",
+            "CookieAnn"
+          ],
+          "reveal": "[excited] The correct answer is LinaBell! She debuted for Shanghai's fifth anniversary and fans line up for hours to meet her. [gasps] Hours!",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "whos-the-boss",
+      "title": "Who's the Boss?",
+      "kind": "fan",
+      "intro": "Our fan category! I'll name the sidekick, you name the hero they work for. [chuckles] Every sidekick has a boss.",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A row of tiny empty chairs around a big director chair on a film set, a clapperboard without writing, spotlights and a coffee cup.",
+        "file": "media/sidekick-squad--whos-the-boss.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This hero's best buddy is a crab named Sebastian.",
+          "answer": "Ariel",
+          "accept": [
+            "ariel",
+            "the little mermaid"
+          ],
+          "choices": [
+            "Ariel",
+            "Moana",
+            "Elsa",
+            "Tiana"
+          ],
+          "reveal": "The correct answer is Ariel! [laughs] Sebastian was assigned as a babysitter and ended up a sidekick. Happens to the best of us.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "This hero's best friend is a tiny pixie named Tinker Bell.",
+          "answer": "Peter Pan",
+          "accept": [
+            "peter pan",
+            "peter"
+          ],
+          "choices": [
+            "Peter Pan",
+            "Wendy",
+            "Captain Hook",
+            "Pinocchio"
+          ],
+          "reveal": "The correct answer is Peter Pan! Tink is loyal, sparkly... [whispers] and extremely jealous of Wendy.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "This hero's helpers include two mice named Jaq and Gus.",
+          "answer": "Cinderella",
+          "accept": [
+            "cinderella"
+          ],
+          "choices": [
+            "Cinderella",
+            "Snow White",
+            "Aurora",
+            "Belle"
+          ],
+          "reveal": "The correct answer is Cinderella! Jaq and Gus help sew her a dress. [chuckles] Small paws, big talent.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "This hero rides a giant, adorable roly-poly creature named Tuk Tuk.",
+          "answer": "Raya",
+          "accept": [
+            "raya",
+            "raya and the last dragon"
+          ],
+          "choices": [
+            "Raya",
+            "Mulan",
+            "Moana",
+            "Mirabel"
+          ],
+          "reveal": "The correct answer is Raya! Tuk Tuk started out pocket-sized and grew into a full-size ride. [laughs] Kids grow up so fast.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "This hero's loyal black horse is named Khan.",
+          "answer": "Mulan",
+          "accept": [
+            "mulan",
+            "fa mulan"
+          ],
+          "choices": [
+            "Mulan",
+            "Merida",
+            "Pocahontas",
+            "Eugene Fitzherbert"
+          ],
+          "reveal": "[excited] The correct answer is Mulan! Khan carries her into battle and to the Emperor's palace. [chuckles] Way more reliable than a dragon.",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}

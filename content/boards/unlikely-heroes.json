@@ -1,0 +1,541 @@
+{
+  "id": "unlikely-heroes",
+  "title": "Unlikely Heroes",
+  "theme": "Underdogs who save the day",
+  "tags": [
+    "heroes",
+    "underdogs",
+    "adventure"
+  ],
+  "intro": "[excited] Tonight's heroes are the little guys! Ants, robots, rats, mice and bad guys who want to be good. [laughs] If you've ever been picked last for kickball, this board is for you.",
+  "art": {
+    "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A tiny glowing hero cape lying across a giant boulder on a mountaintop at sunrise, a small trail of footprints leading up to it, dramatic clouds parting.",
+    "file": "media/unlikely-heroes.jpg"
+  },
+  "categories": [
+    {
+      "id": "bug-heroics",
+      "title": "Bug Heroics",
+      "kind": "film",
+      "intro": "Our film category is A Bug's Life! One clumsy inventor ant versus a gang of greedy grasshoppers.",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. An anthill colony on a tiny island under a giant dandelion, seed-pod harvest piles, a dry riverbed, leaves the size of sails, golden late-summer light.",
+        "file": "media/unlikely-heroes--bug-heroics.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Flik, the clumsy inventor hero of A Bug's Life, is this kind of insect.",
+          "answer": "An ant",
+          "accept": [
+            "ant",
+            "an ant"
+          ],
+          "choices": [
+            "An ant",
+            "A grasshopper",
+            "A ladybug",
+            "A beetle"
+          ],
+          "reveal": "The correct answer is an ant! [chuckles] He's tiny, he's clumsy, and he invented a harvester that wrecks the food offering. Hero material.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "This bossy leader of the grasshopper gang demands food from the ants every summer.",
+          "answer": "Hopper",
+          "accept": [
+            "hopper"
+          ],
+          "choices": [
+            "Hopper",
+            "Molt",
+            "Thumper",
+            "Heimlich"
+          ],
+          "reveal": "The correct answer is Hopper! [whispers] He's one of Pixar's scariest villains, because he knows the ants outnumber him 100 to 1.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "The ants' young royal, who becomes queen by the end of the film, is named this.",
+          "answer": "Princess Atta",
+          "accept": [
+            "atta",
+            "princess atta",
+            "queen atta"
+          ],
+          "choices": [
+            "Princess Atta",
+            "Princess Dot",
+            "Rosie",
+            "Gypsy"
+          ],
+          "reveal": "The correct answer is Princess Atta! Her little sister Dot is the one who believes in Flik from the start. [chuckles] Little sisters always know.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "To scare off the grasshoppers, Flik and the circus bugs build a fake one of these.",
+          "answer": "A bird",
+          "accept": [
+            "bird",
+            "a bird",
+            "fake bird"
+          ],
+          "choices": [
+            "A bird",
+            "A spider",
+            "A frog",
+            "A lizard"
+          ],
+          "reveal": "The correct answer is a bird! Grasshoppers are terrified of birds. [laughs] Until it catches fire. Oops.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Flik's warrior squad is actually a group of out-of-work circus performers from the circus run by this flea.",
+          "answer": "P.T. Flea",
+          "accept": [
+            "p.t. flea",
+            "pt flea",
+            "p t flea"
+          ],
+          "choices": [
+            "P.T. Flea",
+            "Heimlich",
+            "Manny",
+            "Mr. Soil"
+          ],
+          "reveal": "[excited] The correct answer is P.T. Flea! A pun on P.T. Barnum. He fires his whole troupe, and they turn into heroes. [chuckles] Talk about a career change.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "underdog-days",
+      "title": "Underdog Days",
+      "kind": "theme",
+      "intro": "Next, Underdog Days! These characters were doubted, laughed at or picked last, and they saved the day anyway.",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A tiny glowing medal on a ribbon resting on a dusty wooden step, a beam of sunlight streaming down on it from a high window.",
+        "file": "media/unlikely-heroes--underdog-days.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This nine-foot arcade bad guy with giant fists goes game-jumping to prove he can be a good guy.",
+          "answer": "Wreck-It Ralph",
+          "accept": [
+            "ralph",
+            "wreck-it ralph",
+            "wreck it ralph"
+          ],
+          "choices": [
+            "Wreck-It Ralph",
+            "Fix-It Felix",
+            "King Candy",
+            "Sergeant Calhoun"
+          ],
+          "reveal": "The correct answer is Wreck-It Ralph! [chuckles] I'm bad, and that's good. I will never be good, and that's not bad.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "This little bird in a 2005 Disney film says the sky is falling. Nobody believes him, but he's sort of right.",
+          "answer": "Chicken Little",
+          "accept": [
+            "chicken little"
+          ],
+          "choices": [
+            "Chicken Little",
+            "Henny Penny",
+            "Foxy Loxy",
+            "Turkey Lurkey"
+          ],
+          "reveal": "The correct answer is Chicken Little! It was an alien spaceship. [laughs] So, technically, the sky was falling. Vindicated.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "In Zootopia, she becomes the city's first bunny police officer.",
+          "answer": "Judy Hopps",
+          "accept": [
+            "judy",
+            "judy hopps",
+            "officer hopps"
+          ],
+          "choices": [
+            "Judy Hopps",
+            "Bonnie Hopps",
+            "Bellwether",
+            "Gazelle"
+          ],
+          "reveal": "The correct answer is Judy Hopps! Everyone told her bunnies can't be cops. [excited] Then she cracked the biggest case in Zootopia!",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In The Great Mouse Detective, this Baker Street mouse is the hero who matches wits with Ratigan.",
+          "answer": "Basil",
+          "accept": [
+            "basil",
+            "basil of baker street"
+          ],
+          "choices": [
+            "Basil",
+            "Dawson",
+            "Olivia",
+            "Fidget"
+          ],
+          "reveal": "The correct answer is Basil of Baker Street! He lives under Sherlock Holmes. [chuckles] Literally, in the basement.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "In The Black Cauldron, the hero is a young assistant to a pig keeper named this.",
+          "answer": "Taran",
+          "accept": [
+            "taran"
+          ],
+          "choices": [
+            "Taran",
+            "Gurgi",
+            "Eilonwy",
+            "Fflewddur"
+          ],
+          "reveal": "[excited] The correct answer is Taran! An assistant pig-keeper who saves the world. [laughs] Talk about a resume booster.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "zoom-to-the-rescue",
+      "title": "Zoom to the Rescue",
+      "kind": "media",
+      "intro": "It's a zoom category! We're starting super close. Each image is an object tied to an unlikely hero. Name the hero as fast as you can.",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A giant magnifying glass held over a tiny backpack of heroic gear: a feather, a small boot, a leather journal and a chef hat, on a sunlit wooden desk.",
+        "file": "media/unlikely-heroes--zoom-to-the-rescue.jpg"
+      },
+      "format": "zoom",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Name the unlikely hero linked to this object.",
+          "answer": "WALL-E",
+          "accept": [
+            "wall-e",
+            "walle",
+            "wall e"
+          ],
+          "choices": [
+            "WALL-E",
+            "EVE",
+            "M-O",
+            "Johnny 5"
+          ],
+          "reveal": "The correct answer is WALL-E! A trash-compacting robot keeps a tiny plant in an old boot, and saves all of humanity. [sighs] Plants are hard to keep alive.",
+          "media": {
+            "type": "image",
+            "prompt": "Original painterly digital illustration, 4:3, no people, no characters, no logos, no text or lettering. A small green seedling with two leaves planted in a dirty old work boot, sitting on a rusty metal shelf beside stacked cubes of compacted trash, a hazy orange sky outside.",
+            "file": "media/unlikely-heroes--zoom-to-the-rescue-200.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Name the unlikely hero linked to this object.",
+          "answer": "Dumbo",
+          "accept": [
+            "dumbo"
+          ],
+          "choices": [
+            "Dumbo",
+            "Bambi",
+            "Timothy Q. Mouse",
+            "Pegasus"
+          ],
+          "reveal": "The correct answer is Dumbo! The crows gave him a magic feather, but it turns out the magic was in his ears all along. [chuckles] What a twist.",
+          "media": {
+            "type": "image",
+            "prompt": "Original painterly digital illustration, 4:3, no people, no characters, no logos, no text or lettering. A single glossy black crow feather drifting through the air above a red-and-white striped circus tent, a tiny round peanut on the ground.",
+            "file": "media/unlikely-heroes--zoom-to-the-rescue-400.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Name the unlikely hero linked to this object.",
+          "answer": "Remy",
+          "accept": [
+            "remy",
+            "remy the rat"
+          ],
+          "choices": [
+            "Remy",
+            "Emile",
+            "Linguini",
+            "Basil"
+          ],
+          "reveal": "The correct answer is Remy! A rat who can cook. [laughs] Health inspectors everywhere hate this movie.",
+          "media": {
+            "type": "image",
+            "prompt": "Original painterly digital illustration, 4:3, no people, no characters, no logos, no text or lettering. A tiny white chef's toque the size of a thimble on a gleaming steel kitchen counter, a sprig of thyme and a tiny wooden spoon beside a huge copper pot.",
+            "file": "media/unlikely-heroes--zoom-to-the-rescue-600.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Name the unlikely hero linked to this object.",
+          "answer": "Bolt",
+          "accept": [
+            "bolt"
+          ],
+          "choices": [
+            "Bolt",
+            "Pongo",
+            "Dug",
+            "Tramp"
+          ],
+          "reveal": "The correct answer is Bolt! A TV-star dog who thinks he has superpowers learns he's an ordinary pup who's a hero anyway. [chuckles] Just a really good boy.",
+          "media": {
+            "type": "image",
+            "prompt": "Original painterly digital illustration, 4:3, no people, no characters, no logos, no text or lettering. A white dog collar with a painted black lightning bolt lying on a Hollywood soundstage floor beside a squeaky toy carrot, spotlights and camera rigs.",
+            "file": "media/unlikely-heroes--zoom-to-the-rescue-800.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Name the unlikely hero linked to this object.",
+          "answer": "Milo Thatch",
+          "accept": [
+            "milo",
+            "milo thatch"
+          ],
+          "choices": [
+            "Milo Thatch",
+            "Kida",
+            "Lyle Rourke",
+            "Indiana Jones"
+          ],
+          "reveal": "[excited] The correct answer is Milo Thatch! A linguist with a dusty journal leads the way to Atlantis. [laughs] Turns out reading IS a superpower.",
+          "media": {
+            "type": "image",
+            "prompt": "Original painterly digital illustration, 4:3, no people, no characters, no logos, no text or lettering. An old leather journal open on a desk to a map of a sunken city, a glowing blue crystal pendant on a cord lying across the pages, a pair of round glasses, a submarine visible through a porthole.",
+            "file": "media/unlikely-heroes--zoom-to-the-rescue-1000.jpg"
+          },
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "heroes-in-the-making",
+      "title": "Heroes in the Making",
+      "kind": "parks",
+      "intro": "Parks time! At the parks, YOU get to be the unlikely hero. [laughs] Even if you can barely carry your churro.",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A theme park queue line with a space-ranger badge, a tiny train engine on a track and a giant tree trunk carved with animal shapes, sunny afternoon.",
+        "file": "media/unlikely-heroes--heroes-in-the-making.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "At Magic Kingdom, guests spin their cars and zap Zurg as space rangers on this Tomorrowland ride.",
+          "answer": "Buzz Lightyear's Space Ranger Spin",
+          "accept": [
+            "buzz lightyear's space ranger spin",
+            "buzz lightyears space ranger spin",
+            "space ranger spin",
+            "buzz lightyear"
+          ],
+          "choices": [
+            "Buzz Lightyear's Space Ranger Spin",
+            "Astro Orbiter",
+            "Tomorrowland Speedway",
+            "Space Mountain"
+          ],
+          "reveal": "The correct answer is Buzz Lightyear's Space Ranger Spin! [laughs] My score proves I am NOT a space ranger.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "This little circus engine from Dumbo puffs I think I can up a hill, and gives his name to a Disneyland train ride.",
+          "answer": "Casey Jr.",
+          "accept": [
+            "casey jr",
+            "casey jr.",
+            "casey junior",
+            "casey jr. circus train"
+          ],
+          "choices": [
+            "Casey Jr.",
+            "Thomas",
+            "Lilly Belle",
+            "The Little Engine That Could"
+          ],
+          "reveal": "The correct answer is Casey Jr.! [excited] The Casey Jr. Circus Train has been chugging around Fantasyland since 1955. I think I can, I think I can!",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Flik starred in this 3D show inside Animal Kingdom's Tree of Life from 1998 until it closed in 2025.",
+          "answer": "It's Tough to Be a Bug!",
+          "accept": [
+            "it's tough to be a bug",
+            "its tough to be a bug",
+            "tough to be a bug"
+          ],
+          "choices": [
+            "It's Tough to Be a Bug!",
+            "A Bug's Land",
+            "Honey, I Shrunk the Audience",
+            "Flik's Flyers"
+          ],
+          "reveal": "The correct answer is It's Tough to Be a Bug! [laughs] The stink bug. The seats that poke you. Classic theme park chaos.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In 2025, a new 3D show starring Judy Hopps and Nick Wilde opened in the Tree of Life. It's based on this film.",
+          "answer": "Zootopia",
+          "accept": [
+            "zootopia",
+            "zootopia better zoogether",
+            "zootopia: better zoogether!"
+          ],
+          "choices": [
+            "Zootopia",
+            "Robin Hood",
+            "Sing",
+            "The Lion King"
+          ],
+          "reveal": "[excited] The correct answer is Zootopia! The show is called Zootopia: Better Zoogether, and it opened in November 2025. Bunny cops, assemble!",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Pinocchio's Daring Journey, about a puppet who becomes a real boy, is at Disneyland, Tokyo Disneyland and this third park.",
+          "answer": "Disneyland Paris",
+          "accept": [
+            "disneyland paris",
+            "paris",
+            "disneyland park paris"
+          ],
+          "choices": [
+            "Disneyland Paris",
+            "Magic Kingdom",
+            "Hong Kong Disneyland",
+            "Shanghai Disneyland"
+          ],
+          "reveal": "The correct answer is Disneyland Paris! [chuckles] Magic Kingdom never got one. Pinocchio is a little wooden boy with a very exclusive travel schedule.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "mighty-mice",
+      "title": "Mighty Mice",
+      "kind": "fan",
+      "intro": "Our fan category! Small but mighty. All these heroes are mice. [chuckles] Squeak your answer in.",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A tiny mouse-sized doorway in a baseboard, with a miniature welcome mat, a thimble for a bucket and a matchbox suitcase, in warm lamplight.",
+        "file": "media/unlikely-heroes--mighty-mice.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Mickey Mouse became a star in this 1928 cartoon, where he whistles at the wheel of a riverboat.",
+          "answer": "Steamboat Willie",
+          "accept": [
+            "steamboat willie"
+          ],
+          "choices": [
+            "Steamboat Willie",
+            "Plane Crazy",
+            "The Band Concert",
+            "Mickey's Revue"
+          ],
+          "reveal": "The correct answer is Steamboat Willie! [excited] One of the first cartoons with synchronised sound. The mouse that started it all.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "In The Rescuers, Bernard's partner is this elegant Hungarian mouse.",
+          "answer": "Miss Bianca",
+          "accept": [
+            "bianca",
+            "miss bianca"
+          ],
+          "choices": [
+            "Miss Bianca",
+            "Miss Kitty",
+            "Penny",
+            "Olivia"
+          ],
+          "reveal": "The correct answer is Miss Bianca! [chuckles] Elegant, brave, and great in a crisis. Bernard is the nervous one.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "The Rescue Aid Society holds its meetings secretly in the basement of this New York building.",
+          "answer": "The United Nations",
+          "accept": [
+            "united nations",
+            "the united nations",
+            "un",
+            "the un",
+            "un headquarters"
+          ],
+          "choices": [
+            "The United Nations",
+            "The Empire State Building",
+            "The Statue of Liberty",
+            "Grand Central Terminal"
+          ],
+          "reveal": "The correct answer is the United Nations! The mice have their own UN, right underneath the human one. [laughs] With better snacks, probably.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In The Great Mouse Detective, Basil's archenemy, who insists he's a big mouse, is named this.",
+          "answer": "Professor Ratigan",
+          "accept": [
+            "ratigan",
+            "professor ratigan"
+          ],
+          "choices": [
+            "Professor Ratigan",
+            "Fidget",
+            "Moriarty",
+            "Mr. Snoops"
+          ],
+          "reveal": "The correct answer is Professor Ratigan! Voiced by Vincent Price. [whispers] And whatever you do, don't call him a rat.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "In The Rescuers, Bernard and Bianca fly to the swamp on Orville, an albatross. In the sequel, they fly with his brother, named this.",
+          "answer": "Wilbur",
+          "accept": [
+            "wilbur"
+          ],
+          "choices": [
+            "Wilbur",
+            "Jake",
+            "Marahute",
+            "Waldo"
+          ],
+          "reveal": "[excited] The correct answer is Wilbur! Orville and Wilbur, named for the Wright brothers, the first in flight. [laughs] Airline humour.",
+          "dailyDouble": true
+        }
+      ]
+    }
+  ]
+}

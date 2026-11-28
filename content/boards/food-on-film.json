@@ -1,0 +1,542 @@
+{
+  "id": "food-on-film",
+  "title": "Food on Film",
+  "theme": "Famous foods in Disney and Pixar films",
+  "tags": [
+    "food",
+    "film",
+    "cooking"
+  ],
+  "intro": "[excited] Hello, hungry people! Tonight's board is a movie buffet: famous foods from Disney and Pixar films. Pasta, porridge, pies, and one very suspicious bowl of cream. [chuckles] Let's eat!",
+  "art": {
+    "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A cinema-style banquet: a long table under a glowing movie screen piled with a bowl of pesto pasta, a lattice-top pie, a plate of golden arepas, a glass of milk and a bowl of popcorn, red velvet curtains.",
+    "file": "media/food-on-film.jpg"
+  },
+  "categories": [
+    {
+      "id": "pasta-in-portorosso",
+      "title": "Pasta in Portorosso",
+      "kind": "film",
+      "intro": "Our film category is Luca! A seaside Italian town, two sea monster boys, and a whole lot of pasta.",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A sunny Italian Riviera fishing village with pastel houses, a harbour full of little boats, a cobblestone piazza with a plate of green pesto pasta on a café table and a red scooter parked nearby.",
+        "file": "media/food-on-film--pasta-in-portorosso.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Luca and Alberto look like regular boys on land, but they're secretly these.",
+          "answer": "Sea monsters",
+          "accept": [
+            "sea monsters",
+            "sea monster",
+            "sea creatures"
+          ],
+          "choices": [
+            "Sea monsters",
+            "Mermaids",
+            "Fish people",
+            "Dragons"
+          ],
+          "reveal": "The correct answer is sea monsters! [gasps] Get wet and the scales pop right out. Not ideal on a rainy day.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Luca and Alberto dream of owning one of these Italian scooters.",
+          "answer": "A Vespa",
+          "accept": [
+            "vespa",
+            "a vespa"
+          ],
+          "choices": [
+            "A Vespa",
+            "A Ferrari",
+            "A Fiat",
+            "A Ducati"
+          ],
+          "reveal": "The correct answer is a Vespa! [laughs] Piacere, Girolamo Trombetta! They just want to ride off and see the world.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Besides swimming and biking, Portorosso Cup racers must eat a big plate of this.",
+          "answer": "Pasta",
+          "accept": [
+            "pasta",
+            "a plate of pasta",
+            "trenette"
+          ],
+          "choices": [
+            "Pasta",
+            "Pizza",
+            "Gelato",
+            "Fish"
+          ],
+          "reveal": "The correct answer is pasta! [chuckles] A triathlon where one event is eating. Sign me up immediately.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "The smug local bully who has won the Portorosso Cup five years in a row is named this.",
+          "answer": "Ercole Visconti",
+          "accept": [
+            "ercole",
+            "ercole visconti"
+          ],
+          "choices": [
+            "Ercole Visconti",
+            "Massimo",
+            "Ciccio",
+            "Guido"
+          ],
+          "reveal": "The correct answer is Ercole Visconti! [sighs] Ercole and his Vespa. Nobody likes him, and he likes himself enough for everybody.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Giulia's dad Massimo serves the boys this specific pasta dish, which Luca loves.",
+          "answer": "Trenette al pesto",
+          "accept": [
+            "trenette al pesto",
+            "trenette",
+            "pesto pasta",
+            "pasta al pesto",
+            "pesto"
+          ],
+          "choices": [
+            "Trenette al pesto",
+            "Spaghetti carbonara",
+            "Lasagna",
+            "Penne arrabbiata"
+          ],
+          "reveal": "[excited] The correct answer is trenette al pesto! A flat ribbon pasta with basil pesto, a specialty of the Italian Riviera, where Luca is set. Delizioso!",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "movie-munchies",
+      "title": "Movie Munchies",
+      "kind": "theme",
+      "intro": "Next up, Movie Munchies! Name the famous foods characters crave, cook, or refuse to eat.",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A cosy movie-night living room with a honey pot, a peanut butter sandwich, a slice of broccoli pizza and a steaming bowl of soup on a coffee table.",
+        "file": "media/food-on-film--movie-munchies.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Winnie the Pooh can never get enough of this sticky treat, which he keeps in pots.",
+          "answer": "Honey",
+          "accept": [
+            "honey",
+            "hunny"
+          ],
+          "choices": [
+            "Honey",
+            "Jam",
+            "Maple syrup",
+            "Peanut butter"
+          ],
+          "reveal": "The correct answer is honey! [chuckles] Or as Pooh spells it, H-U-N-N-Y. Oh bother.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Lilo leaves this kind of sandwich for Pudge the fish, because she's sure he controls the weather.",
+          "answer": "Peanut butter",
+          "accept": [
+            "peanut butter",
+            "a peanut butter sandwich",
+            "peanut butter sandwich"
+          ],
+          "choices": [
+            "Peanut butter",
+            "Tuna",
+            "Grilled cheese",
+            "Ham"
+          ],
+          "reveal": "The correct answer is peanut butter! [laughs] Pudge controls the weather, so you have to keep him happy. That's just science.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "In Inside Out, Riley's Disgust goes wild when a San Francisco pizza place only serves pizza with this topping.",
+          "answer": "Broccoli",
+          "accept": [
+            "broccoli"
+          ],
+          "choices": [
+            "Broccoli",
+            "Pineapple",
+            "Anchovies",
+            "Spinach"
+          ],
+          "reveal": "The correct answer is broccoli! [laughs] Congratulations, San Francisco, you ruined pizza. Anger said it best.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In Tangled, Mother Gothel promises to make this soup, Rapunzel's favourite, for dinner.",
+          "answer": "Hazelnut soup",
+          "accept": [
+            "hazelnut soup",
+            "hazelnut"
+          ],
+          "choices": [
+            "Hazelnut soup",
+            "Chicken noodle soup",
+            "Tomato soup",
+            "Potato soup"
+          ],
+          "reveal": "[excited] The correct answer is hazelnut soup! [whispers] Mother Gothel's way of saying I love you. Totally not a manipulation tactic.",
+          "dailyDouble": true
+        },
+        {
+          "value": 1000,
+          "clue": "Snow White bakes this kind of pie for Grumpy, just before the Evil Queen comes calling.",
+          "answer": "Gooseberry",
+          "accept": [
+            "gooseberry",
+            "gooseberry pie"
+          ],
+          "choices": [
+            "Gooseberry",
+            "Apple",
+            "Cherry",
+            "Blueberry"
+          ],
+          "reveal": "The correct answer is gooseberry pie! [chuckles] Grumpy pretends not to care, but you know he wanted a slice.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "name-that-movie-meal",
+      "title": "Name That Movie Meal",
+      "kind": "media",
+      "intro": "Picture category! Each image shows a famous dish from a film. Name the movie it comes from!",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A white restaurant tablecloth with five covered silver serving domes, one slightly lifted to reveal a warm golden glow, candles and a menu without writing.",
+        "file": "media/food-on-film--name-that-movie-meal.jpg"
+      },
+      "format": "picture",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Name the movie that made this dish famous.",
+          "answer": "Ratatouille",
+          "accept": [
+            "ratatouille"
+          ],
+          "choices": [
+            "Ratatouille",
+            "Luca",
+            "Chef",
+            "The Princess and the Frog"
+          ],
+          "reveal": "The correct answer is Ratatouille! A peasant dish that made the toughest food critic in Paris remember his mom's cooking. [sighs] Beautiful.",
+          "media": {
+            "type": "image",
+            "prompt": "Original painterly digital illustration, 4:3, no people, no characters, no logos, no text or lettering. An elegant white plate with a spiral of thinly sliced zucchini, eggplant, tomato and yellow squash arranged in a neat fan over red pepper sauce, a sprig of herb on top, in a candlelit Paris bistro.",
+            "file": "media/food-on-film--name-that-movie-meal-200.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Name the movie where these powdered treats are a dream come true.",
+          "answer": "The Princess and the Frog",
+          "accept": [
+            "the princess and the frog",
+            "princess and the frog"
+          ],
+          "choices": [
+            "The Princess and the Frog",
+            "Ratatouille",
+            "Coco",
+            "Encanto"
+          ],
+          "reveal": "The correct answer is The Princess and the Frog! Tiana's beignets are so good Charlotte orders them by the dozen. [laughs] Okay, by the hundred.",
+          "media": {
+            "type": "image",
+            "prompt": "Original painterly digital illustration, 4:3, no people, no characters, no logos, no text or lettering. A plate stacked high with square fried beignets buried in powdered sugar on a café table in 1920s New Orleans, a brass trumpet and a lily pad nearby, a riverboat on the river at dusk.",
+            "file": "media/food-on-film--name-that-movie-meal-400.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Name the movie where this food can heal any cut or bruise.",
+          "answer": "Encanto",
+          "accept": [
+            "encanto"
+          ],
+          "choices": [
+            "Encanto",
+            "Coco",
+            "Moana",
+            "Wish"
+          ],
+          "reveal": "The correct answer is Encanto! Julieta's arepas con queso heal anything. [chuckles] Bruno's gift would be more useful if it came with arepas.",
+          "media": {
+            "type": "image",
+            "prompt": "Original painterly digital illustration, 4:3, no people, no characters, no logos, no text or lettering. A plate of golden grilled corn cakes stuffed with melting white cheese on a colourful tiled kitchen counter, a small bandage beside the plate, yellow butterflies floating in the sunlight.",
+            "file": "media/food-on-film--name-that-movie-meal-600.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Name the movie where a tiny guardian cooks this cheerful breakfast.",
+          "answer": "Mulan",
+          "accept": [
+            "mulan"
+          ],
+          "choices": [
+            "Mulan",
+            "Kung Fu Panda",
+            "Raya and the Last Dragon",
+            "Turning Red"
+          ],
+          "reveal": "The correct answer is Mulan! Mushu makes her porridge with egg eyes and a bacon smile. [laughs] Then the porridge looks back at her.",
+          "media": {
+            "type": "image",
+            "prompt": "Original painterly digital illustration, 4:3, no people, no characters, no logos, no text or lettering. A wooden bowl of rice porridge with two fried eggs for eyes and a strip of bacon for a smiling mouth, on a table in a traditional Chinese farmhouse at dawn, a rooster outside the window.",
+            "file": "media/food-on-film--name-that-movie-meal-800.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Name the movie where this drink's bottle cap becomes a badge of friendship.",
+          "answer": "Up",
+          "accept": [
+            "up"
+          ],
+          "choices": [
+            "Up",
+            "Toy Story",
+            "Inside Out",
+            "WALL-E"
+          ],
+          "reveal": "[excited] The correct answer is Up! Little Ellie gives Carl a grape soda cap and makes him a member of her club. [sighs] Now I need a moment.",
+          "media": {
+            "type": "image",
+            "prompt": "Original painterly digital illustration, 4:3, no people, no characters, no logos, no text or lettering. A purple grape soda bottle cap pinned like a badge onto a knitted sweater vest, next to an empty glass jar and a tiny wooden toy blimp, warm attic light.",
+            "file": "media/food-on-film--name-that-movie-meal-1000.jpg"
+          },
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "dine-like-the-movies",
+      "title": "Dine Like the Movies",
+      "kind": "parks",
+      "intro": "Parks time! At the parks, you can eat inside the movies. [laughs] Just don't feed the animatronics.",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A theme park dining terrace with tables under strings of lights, a bayou-style restaurant, a giant oversized sandwich on a lab bench and a glass of blue milk on a desert counter.",
+        "file": "media/food-on-film--dine-like-the-movies.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This New Orleans Square restaurant at Disneyland, opened in 2023, is named after Tiana's dream restaurant.",
+          "answer": "Tiana's Palace",
+          "accept": [
+            "tiana's palace",
+            "tianas palace"
+          ],
+          "choices": [
+            "Tiana's Palace",
+            "Café Orleans",
+            "Blue Bayou",
+            "Tiana's Kitchen"
+          ],
+          "reveal": "The correct answer is Tiana's Palace! [excited] Beignets AND gumbo. Tiana finally got her restaurant... and so did we.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Satu'li Canteen at Animal Kingdom serves food inspired by the moon Pandora from this James Cameron film.",
+          "answer": "Avatar",
+          "accept": [
+            "avatar"
+          ],
+          "choices": [
+            "Avatar",
+            "Titanic",
+            "Dune",
+            "The Abyss"
+          ],
+          "reveal": "The correct answer is Avatar! [laughs] Pandora: The World of Avatar opened in 2017. The food is not blue. I checked.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "At Galaxy's Edge, guests can drink this colour of milk, which Luke Skywalker sips at home on Tatooine.",
+          "answer": "Blue",
+          "accept": [
+            "blue",
+            "blue milk"
+          ],
+          "choices": [
+            "Blue",
+            "Green",
+            "Purple",
+            "Pink"
+          ],
+          "reveal": "The correct answer is blue milk! [chuckles] Green milk is also on the menu, which comes from a sea cow. Bon appétit, galaxy.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Pym Test Kitchen in Avengers Campus serves super-sized and shrunken food inspired by this size-changing hero.",
+          "answer": "Ant-Man",
+          "accept": [
+            "ant-man",
+            "ant man",
+            "antman",
+            "ant-man and the wasp"
+          ],
+          "choices": [
+            "Ant-Man",
+            "Spider-Man",
+            "Hulk",
+            "Doctor Strange"
+          ],
+          "reveal": "The correct answer is Ant-Man! [laughs] Giant pretzels, tiny burgers. Pym particles are great for portion control.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "At Disneyland Paris, this Ratatouille-themed restaurant makes guests feel rat-sized, surrounded by giant plates, utensils and bottles.",
+          "answer": "Bistrot Chez Rémy",
+          "accept": [
+            "bistrot chez remy",
+            "bistrot chez rémy",
+            "chez remy",
+            "chez rémy"
+          ],
+          "choices": [
+            "Bistrot Chez Rémy",
+            "Gusteau's",
+            "Les Chefs de France",
+            "Le Cellier"
+          ],
+          "reveal": "[excited] The correct answer is Bistrot Chez Rémy! Giant plates, giant forks, and you're the size of a rat. [chuckles] Ego would approve.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "just-desserts",
+      "title": "Just Desserts",
+      "kind": "fan",
+      "intro": "Our fan category is Just Desserts! Sweets, treats and one dessert that a villain definitely shouldn't have served. [chuckles]",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A candy-coloured dessert cart piled with frosted cakes, swirled lollipops, a fizzy cola bottle and a little bottle of cream, in a whimsical striped kitchen.",
+        "file": "media/food-on-film--just-desserts.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In Wreck-It Ralph, Vanellope races in Sugar Rush, a game world made almost entirely out of this.",
+          "answer": "Candy",
+          "accept": [
+            "candy",
+            "sweets",
+            "sugar"
+          ],
+          "choices": [
+            "Candy",
+            "Fruit",
+            "Cheese",
+            "Ice"
+          ],
+          "reveal": "The correct answer is candy! [laughs] The cops are donuts and the race track is frosting. My dentist hates this game.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "In Alice in Wonderland, a cookie labelled with these two words makes Alice grow giant.",
+          "answer": "Eat Me",
+          "accept": [
+            "eat me"
+          ],
+          "choices": [
+            "Eat Me",
+            "Drink Me",
+            "Try Me",
+            "Bite Me"
+          ],
+          "reveal": "The correct answer is Eat Me! Drink Me shrinks her, Eat Me makes her grow. [chuckles] Wonderland portion sizes are wild.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "In The Aristocats, the butler Edgar puts sleeping pills in this milky dish named after himself.",
+          "answer": "Crème de la crème à la Edgar",
+          "accept": [
+            "creme de la creme a la edgar",
+            "crème de la crème à la edgar",
+            "creme de la creme",
+            "cream",
+            "milk"
+          ],
+          "choices": [
+            "Crème de la crème à la Edgar",
+            "Café au lait Edgar",
+            "Milk à la Madame",
+            "Soufflé Edgar"
+          ],
+          "reveal": "The correct answer is crème de la crème à la Edgar! [gasps] Rule number one: never trust a butler who names dessert after himself.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In Pinocchio, naughty boys gorge on cake, pie and candy at this island, until they turn into donkeys.",
+          "answer": "Pleasure Island",
+          "accept": [
+            "pleasure island"
+          ],
+          "choices": [
+            "Pleasure Island",
+            "Treasure Island",
+            "Neverland",
+            "Candy Island"
+          ],
+          "reveal": "The correct answer is Pleasure Island! [whispers] And then the donkeys get shipped off. Kids' movie, everybody.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "In Wreck-It Ralph, Sugar Rush's volcano is a fizzy mountain built from these two ingredients.",
+          "answer": "Diet Cola and Mentos",
+          "accept": [
+            "diet cola and mentos",
+            "diet cola mountain",
+            "mentos and diet cola",
+            "cola and mentos",
+            "diet cola",
+            "mentos"
+          ],
+          "choices": [
+            "Diet Cola and Mentos",
+            "Baking soda and vinegar",
+            "Pop rocks and soda",
+            "Lava cake and cream"
+          ],
+          "reveal": "[excited] The correct answer is Diet Cola and Mentos! Diet Cola Mountain, where Ralph saves the day with a very big fizz. [laughs] Do not try this at home.",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}

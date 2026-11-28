@@ -1,0 +1,527 @@
+{
+  "id": "family-ties",
+  "title": "Family Ties",
+  "theme": "Disney families",
+  "tags": [
+    "family",
+    "parents",
+    "siblings"
+  ],
+  "intro": "[excited] Welcome, welcome, welcome to the family reunion! Tonight it's all about Disney moms, dads, brothers and sisters. Grab a seat at the kids' table... [chuckles] and try not to start a sibling rivalry.",
+  "art": {
+    "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A long candlelit family dinner table on a moonlit patio strung with paper lanterns, mismatched chairs of every size from a tall armchair to a tiny high chair, framed family photos and marigold petals scattered across the tablecloth.",
+    "file": "media/family-ties.jpg"
+  },
+  "categories": [
+    {
+      "id": "rivera-family-reunion",
+      "title": "Rivera Family Reunion",
+      "kind": "film",
+      "intro": "Our film category is Coco! The Riveras are a big, loud, shoe-making family... and boy, do they have opinions about music.",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A colourful Mexican family ofrenda glowing with candles, marigold petals, sugar skulls, framed old photographs and a white guitar leaning beside it, a cobblestone plaza at dusk beyond.",
+        "file": "media/family-ties--rivera-family-reunion.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Miguel's sweet, elderly great-grandmother gives the movie its title. What's her name?",
+          "answer": "Mamá Coco",
+          "accept": [
+            "coco",
+            "mama coco",
+            "mamá coco"
+          ],
+          "choices": [
+            "Mamá Coco",
+            "Mamá Imelda",
+            "Abuelita",
+            "Rosita"
+          ],
+          "reveal": "The correct answer is Mamá Coco! [laughs] Getting your name on the movie poster is the ultimate great-grandma flex.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "After Mamá Imelda banned music, the Rivera family built its business making these.",
+          "answer": "Shoes",
+          "accept": [
+            "shoes",
+            "shoe",
+            "shoemaking",
+            "shoemakers"
+          ],
+          "choices": [
+            "Shoes",
+            "Guitars",
+            "Piñatas",
+            "Tortillas"
+          ],
+          "reveal": "The correct answer is shoes! [chuckles] No guitars allowed, but you will get excellent arch support.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "This skeleton trickster, who hangs out in the Land of the Dead, turns out to be Miguel's real great-great-grandfather.",
+          "answer": "Héctor",
+          "accept": [
+            "hector",
+            "héctor",
+            "hector rivera"
+          ],
+          "choices": [
+            "Héctor",
+            "Ernesto de la Cruz",
+            "Chicharrón",
+            "Papá Julio"
+          ],
+          "reveal": "[gasps] The correct answer is Héctor! He wrote Remember Me for his little girl, Coco. Excuse me, I have something in my eye.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "At first, Miguel believes his great-great-grandfather is this famous movie-star singer.",
+          "answer": "Ernesto de la Cruz",
+          "accept": [
+            "ernesto de la cruz",
+            "ernesto",
+            "de la cruz"
+          ],
+          "choices": [
+            "Ernesto de la Cruz",
+            "Héctor",
+            "Pedro Infante",
+            "Chicharrón"
+          ],
+          "reveal": "The correct answer is Ernesto de la Cruz! [sighs] Turns out the guy with the giant guitar statue was a thief. Never trust a man with his own mausoleum.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "In the Land of the Dead, Miguel's twin great-great-uncles are Óscar and this brother, who finish each other's sentences.",
+          "answer": "Felipe",
+          "accept": [
+            "felipe"
+          ],
+          "choices": [
+            "Felipe",
+            "Julio",
+            "Luis",
+            "Rosita"
+          ],
+          "reveal": "[excited] The correct answer is Felipe! Óscar and Felipe are Mamá Imelda's twin brothers and they still help out in the shoe workshop, even after death. Now that's a family business.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "brothers-and-sisters",
+      "title": "Brothers and Sisters",
+      "kind": "theme",
+      "intro": "Next up, Brothers and Sisters! Siblings who annoy each other, rescue each other, and steal each other's dessert.",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A cosy bedroom with bunk beds, a pillow fort, two mismatched toothbrushes in a cup and a hand-drawn treasure map pinned to the wall, morning sunlight.",
+        "file": "media/family-ties--brothers-and-sisters.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Lilo's big sister, who works hard to keep the family together in Hawaii, is named this.",
+          "answer": "Nani",
+          "accept": [
+            "nani",
+            "nani pelekai"
+          ],
+          "choices": [
+            "Nani",
+            "Moana",
+            "Mertle",
+            "Sina"
+          ],
+          "reveal": "The correct answer is Nani! She's a big sister, a mom figure, AND she has to deal with an alien. Give that woman a vacation.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "In Peter Pan, Wendy flies off to Neverland with her younger brothers, John and this boy.",
+          "answer": "Michael",
+          "accept": [
+            "michael",
+            "michael darling"
+          ],
+          "choices": [
+            "Michael",
+            "George",
+            "Nigel",
+            "Jack"
+          ],
+          "reveal": "The correct answer is Michael! [laughs] The little one with the teddy bear. Bringing a stuffed bear to a pirate fight is a choice.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "In Onward, Ian Lightfoot's loud, lovable big brother, who's obsessed with a fantasy role-playing game, is named this.",
+          "answer": "Barley",
+          "accept": [
+            "barley",
+            "barley lightfoot"
+          ],
+          "choices": [
+            "Barley",
+            "Colt",
+            "Wilden",
+            "Corey"
+          ],
+          "reveal": "The correct answer is Barley! He drives a van called Guinevere and knows every rule of Quests of Yore. Every family has one.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Merida's mischievous little triplet brothers are Hamish, Hubert and this boy.",
+          "answer": "Harris",
+          "accept": [
+            "harris"
+          ],
+          "choices": [
+            "Harris",
+            "Angus",
+            "Fergus",
+            "Dingwall"
+          ],
+          "reveal": "The correct answer is Harris! [chuckles] Three tiny redheads, one plate of magic cake, and suddenly there are three bear cubs in the castle.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "In Brother Bear, this eldest of the three brothers becomes a spirit eagle after he sacrifices himself.",
+          "answer": "Sitka",
+          "accept": [
+            "sitka"
+          ],
+          "choices": [
+            "Sitka",
+            "Denahi",
+            "Kenai",
+            "Koda"
+          ],
+          "reveal": "The correct answer is Sitka! Denahi is the middle brother and Kenai is the youngest. Sitka's eagle spirit is the one who turns Kenai into a bear.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "family-heirlooms",
+      "title": "Family Heirlooms",
+      "kind": "media",
+      "intro": "It's a picture category! Each image shows treasures from a famous film family's home. Name the movie!",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A dusty attic full of family treasures: an old trunk, a framed photo, a quilt, a toy rocket and a pressed flower in a book, warm afternoon light through a round window.",
+        "file": "media/family-ties--family-heirlooms.jpg"
+      },
+      "format": "picture",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "These belong to one very super family. Name the movie.",
+          "answer": "The Incredibles",
+          "accept": [
+            "the incredibles",
+            "incredibles"
+          ],
+          "choices": [
+            "The Incredibles",
+            "Big Hero 6",
+            "Sky High",
+            "Bolt"
+          ],
+          "reveal": "The correct answer is The Incredibles! Five suits for five Parrs. [whispers] And Edna would want you to notice: no capes.",
+          "media": {
+            "type": "image",
+            "prompt": "Original painterly digital illustration, 4:3, no people, no characters, no logos, no text or lettering. Five sleek red-and-black superhero suits on hangers in a mid-century modern closet, sized from a tall muscular adult down to a tiny baby onesie, a pair of black eye masks on a shelf.",
+            "file": "media/family-ties--family-heirlooms-200.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "This glowing family home has a door for every relative. Name the movie.",
+          "answer": "Encanto",
+          "accept": [
+            "encanto"
+          ],
+          "choices": [
+            "Encanto",
+            "Coco",
+            "Moana",
+            "Turning Red"
+          ],
+          "reveal": "The correct answer is Encanto! Casita glows thanks to a magic candle, and every Madrigal gets a door. [laughs] Except, you know, one.",
+          "media": {
+            "type": "image",
+            "prompt": "Original painterly digital illustration, 4:3, no people, no characters, no logos, no text or lettering. A colourful two-storey Colombian hacienda courtyard in the mountains, a row of glowing carved wooden doors on the upper balcony, a single candle burning in a window, yellow butterflies in the air.",
+            "file": "media/family-ties--family-heirlooms-400.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "A family photo with one face torn away sits on this altar. Name the movie.",
+          "answer": "Coco",
+          "accept": [
+            "coco"
+          ],
+          "choices": [
+            "Coco",
+            "Encanto",
+            "The Book of Life",
+            "Onward"
+          ],
+          "reveal": "The correct answer is Coco! That missing face is the whole mystery of the movie. [sighs] Family photos: always more drama than you think.",
+          "media": {
+            "type": "image",
+            "prompt": "Original painterly digital illustration, 4:3, no people, no characters, no logos, no text or lettering. A candlelit altar covered in orange marigold petals, sugar skulls, pan de muerto bread and an old sepia family photograph with one corner torn off, a white guitar leaning nearby.",
+            "file": "media/family-ties--family-heirlooms-600.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "A mother and daughter tore this family treasure in two. Name the movie.",
+          "answer": "Brave",
+          "accept": [
+            "brave"
+          ],
+          "choices": [
+            "Brave",
+            "Frozen",
+            "Tangled",
+            "Brother Bear"
+          ],
+          "reveal": "The correct answer is Brave! Merida slashes the family tapestry, then has to stitch it back before her mum stays a bear forever. [chuckles] Arts and crafts can be dangerous.",
+          "media": {
+            "type": "image",
+            "prompt": "Original painterly digital illustration, 4:3, no people, no characters, no logos, no text or lettering. A large medieval embroidered family tapestry hanging in a stone Scottish castle hall, torn down the middle between two stitched figures, a sewing needle and thread on a wooden table, a large bear claw mark on the floor.",
+            "file": "media/family-ties--family-heirlooms-800.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Two brothers used a wizard's staff to bring back half of their dad. Name the movie.",
+          "answer": "Onward",
+          "accept": [
+            "onward"
+          ],
+          "choices": [
+            "Onward",
+            "Soul",
+            "Luca",
+            "Elemental"
+          ],
+          "reveal": "[excited] The correct answer is Onward! Ian and Barley's spell only gets their dad's legs. [laughs] Khakis, socks and dance moves, but no top half.",
+          "media": {
+            "type": "image",
+            "prompt": "Original painterly digital illustration, 4:3, no people, no characters, no logos, no text or lettering. A pair of men's khaki trousers and loafers standing upright on their own in a suburban living room with nothing above the belt, a carved wooden wizard staff glowing with a blue gem leaning nearby.",
+            "file": "media/family-ties--family-heirlooms-1000.jpg"
+          },
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "all-in-the-family",
+      "title": "All in the Family",
+      "kind": "parks",
+      "intro": "Parks time! Disneyland was built so families could have fun together, so let's talk family at the parks.",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A sunny turn-of-the-century theme park main street with a horse-drawn trolley, balloon bunches, a vintage carousel and a fairy-tale castle at the end of the street.",
+        "file": "media/family-ties--all-in-the-family.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Walt Disney built Disneyland so parents and kids could have fun together. It opened in 1955 in this California city.",
+          "answer": "Anaheim",
+          "accept": [
+            "anaheim",
+            "anaheim california"
+          ],
+          "choices": [
+            "Anaheim",
+            "Burbank",
+            "Los Angeles",
+            "Orlando"
+          ],
+          "reveal": "The correct answer is Anaheim! [excited] Opening day was July 17, 1955. Walt called it a place where parents and children could have fun together.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Magic Kingdom's giant treehouse is based on this 1960 Disney film about a shipwrecked family.",
+          "answer": "Swiss Family Robinson",
+          "accept": [
+            "swiss family robinson",
+            "the swiss family robinson"
+          ],
+          "choices": [
+            "Swiss Family Robinson",
+            "Treasure Island",
+            "Robinson Crusoe",
+            "The Island at the Top of the World"
+          ],
+          "reveal": "The correct answer is Swiss Family Robinson! The family builds a dream treehouse with running water. [laughs] Meanwhile, I can't build a bookshelf.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Walt said the idea for Disneyland came while he sat on a bench watching his two daughters, Diane and this girl, ride a merry-go-round.",
+          "answer": "Sharon",
+          "accept": [
+            "sharon",
+            "sharon disney"
+          ],
+          "choices": [
+            "Sharon",
+            "Lillian",
+            "Edna",
+            "Ruth"
+          ],
+          "reveal": "The correct answer is Sharon! Diane and Sharon Disney. That famous bench now sits in Disneyland's Main Street Opera House.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "After Walt died, his big brother Roy insisted the Florida resort get this name, so the world would know it was Walt's dream.",
+          "answer": "Walt Disney World",
+          "accept": [
+            "walt disney world",
+            "walt disney world resort"
+          ],
+          "choices": [
+            "Walt Disney World",
+            "Disney World",
+            "Florida Disneyland",
+            "EPCOT"
+          ],
+          "reveal": "[sighs] The correct answer is Walt Disney World! Roy came out of retirement to finish it and dedicated it in 1971. Big brothers, man.",
+          "dailyDouble": true
+        },
+        {
+          "value": 1000,
+          "clue": "Main Street, U.S.A. is said to be inspired by this small Missouri town, where Walt lived as a boy.",
+          "answer": "Marceline",
+          "accept": [
+            "marceline",
+            "marceline missouri"
+          ],
+          "choices": [
+            "Marceline",
+            "Kansas City",
+            "Hannibal",
+            "Chicago"
+          ],
+          "reveal": "The correct answer is Marceline, Missouri! Walt lived on the family farm there as a little boy. [chuckles] Fun fact: the town still celebrates him every year.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "moms-the-word",
+      "title": "Mom's the Word",
+      "kind": "fan",
+      "intro": "Our fan category is all about Disney moms! [chuckles] Name the mother, and call yours after the show.",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A sunny kitchen windowsill with a vase of fresh flowers, a plate of warm cookies, a knitted blanket and a child-sized handprint drawing taped to the cabinet.",
+        "file": "media/family-ties--moms-the-word.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Dumbo's devoted circus mom, who sings him Baby Mine, goes by this name.",
+          "answer": "Mrs. Jumbo",
+          "accept": [
+            "mrs. jumbo",
+            "mrs jumbo",
+            "jumbo"
+          ],
+          "choices": [
+            "Mrs. Jumbo",
+            "Mrs. Potts",
+            "Mrs. Darling",
+            "Matriarch"
+          ],
+          "reveal": "The correct answer is Mrs. Jumbo! [sighs] Baby Mine through the bars of a circus wagon. Pass the tissues, please.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "In Finding Nemo, Nemo's mother, seen only in the opening scene, is named this.",
+          "answer": "Coral",
+          "accept": [
+            "coral"
+          ],
+          "choices": [
+            "Coral",
+            "Pearl",
+            "Shelly",
+            "Anemone"
+          ],
+          "reveal": "The correct answer is Coral! She picked the name Nemo. [whispers] And that is the saddest four minutes in Pixar history.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "In Tarzan, this gentle gorilla adopts the baby boy as her own.",
+          "answer": "Kala",
+          "accept": [
+            "kala"
+          ],
+          "choices": [
+            "Kala",
+            "Terk",
+            "Kerchak",
+            "Jane"
+          ],
+          "reveal": "The correct answer is Kala! Kerchak is her mate and Terk is Tarzan's goofy best friend. Kala is the one who says, close your eyes.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Moana's mother, who helps her pack for her voyage, is named this.",
+          "answer": "Sina",
+          "accept": [
+            "sina"
+          ],
+          "choices": [
+            "Sina",
+            "Tala",
+            "Tui",
+            "Malia"
+          ],
+          "reveal": "The correct answer is Sina! Gramma Tala is the one with the manta ray tattoo. Sina is the mom who quietly helps Moana leave. [chuckles] Moms know.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "In Finding Dory, Dory's mom, who helps lay trails of shells to lead her home, is named this.",
+          "answer": "Jenny",
+          "accept": [
+            "jenny"
+          ],
+          "choices": [
+            "Jenny",
+            "Charlie",
+            "Destiny",
+            "Becky"
+          ],
+          "reveal": "[excited] The correct answer is Jenny! Charlie is Dory's dad. Together they spent years laying shell trails, just in case she came back.",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}
