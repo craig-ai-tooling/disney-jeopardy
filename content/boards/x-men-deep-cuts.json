@@ -292,10 +292,11 @@
         },
         {
           "value": 800,
-          "clue": "Irish mutant Sean Cassidy unleashes this. Name him. Pictured: visible rippling sonic shock waves blasting over green Irish sea cliffs.",
+          "clue": "This Irish mutant, a longtime X-Men mentor, unleashes this. Give his code name. Pictured: visible rippling sonic shock waves blasting over green Irish sea cliffs.",
           "answer": "Banshee",
           "accept": [
-            "banshee"
+            "banshee",
+            "sean cassidy"
           ],
           "choices": [
             "Banshee",

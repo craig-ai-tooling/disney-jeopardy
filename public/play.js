@@ -166,7 +166,7 @@ function lobby() {
     </div>
     ${captain ? `<div class="card"><div class="muted">You're the captain</div>
       <button id="start">Start the show</button><button class="secondary" id="shuffle">Different episode</button>
-      <div class="row">${['easy', 'medium', 'hard', 'superfan'].map((d) => `<button class="${S.board?.difficulty === d ? '' : 'secondary'}" data-diff="${d}" style="font-size:13px;padding:6px 4px">🎲 ${d}</button>`).join('')}</div>
+      <div class="row">${['easy', 'medium', 'hard', 'superfan'].map((d) => `<button class="${S.board?.difficulty === d ? '' : 'secondary'}" data-diff="${d}" style="font-size:13px;padding:6px 4px">${d}</button>`).join('')}</div>
       <label class="toggle">Host controls pacing <input type="checkbox" id="pace" ${set.autoAdvance === false ? 'checked' : ''}></label>
       <div class="row">${['mc', 'typed', 'mixed'].map((m) => `<button class="${set.mode === m ? '' : 'secondary'}" data-mode="${m}" style="font-size:15px">${{ mc: 'Multiple choice', typed: 'Type/speak', mixed: 'Mixed' }[m]}</button>`).join('')}</div></div>`
       : '<div class="muted">Waiting for the captain to start…</div>'}`;
