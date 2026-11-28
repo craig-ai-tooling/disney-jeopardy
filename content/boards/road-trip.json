@@ -1,0 +1,522 @@
+{
+  "id": "road-trip",
+  "title": "Road Trip!",
+  "theme": "Cars, vehicles and travel",
+  "tags": [
+    "travel",
+    "vehicles",
+    "cars"
+  ],
+  "intro": "[excited] Buckle up, everybody, and no, we are not there yet. Tonight's board is all about cars, carriages, ships, and anything with wheels or wings. Snacks are in the cooler, and the first person to say are we there yet loses 200 points.",
+  "art": {
+    "prompt": "A sunny desert highway stretching toward red rock buttes shaped like classic car hood ornaments, a vintage neon-lit roadside motel with cone-shaped rooms, a checkered flag fluttering, a picnic cooler and a folded road map on the shoulder Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+    "file": "media/road-trip.jpg"
+  },
+  "categories": [
+    {
+      "id": "life-is-a-highway",
+      "title": "Life Is a Highway",
+      "kind": "film",
+      "intro": "[chuckles] We kick things off on Route 66 with the movie that made every kid say ka-chow for a whole year.",
+      "format": "text",
+      "art": {
+        "prompt": "Route 66 style desert town at golden hour, an old radiator-shaped rock formation, a glowing neon tire shop, a dusty racetrack curve with tire marks, cactus and tumbleweeds Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/road-trip--life-is-a-highway.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Lightning McQueen proudly races with this number on his side.",
+          "answer": "95",
+          "accept": [
+            "95",
+            "ninety five",
+            "ninety-five"
+          ],
+          "choices": [
+            "95",
+            "43",
+            "86",
+            "1"
+          ],
+          "reveal": "[excited] The correct answer is 95! It's a nod to 1995, the year Toy Story came out. Ka-chow! [laughs] Kids, go ahead and say it, I know you want to.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Lightning gets stuck in this sleepy Route 66 town after tearing up its main road.",
+          "answer": "Radiator Springs",
+          "accept": [
+            "radiator springs"
+          ],
+          "choices": [
+            "Radiator Springs",
+            "Carburetor County",
+            "Ornament Valley",
+            "Tailfin Junction"
+          ],
+          "reveal": "[excited] The correct answer is Radiator Springs! You can visit a full-size version in Cars Land at Disney California Adventure. The neon at dusk is gorgeous.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Before he was Radiator Springs' town judge, Doc Hudson won three Piston Cups under this racing name.",
+          "answer": "The Fabulous Hudson Hornet",
+          "accept": [
+            "the fabulous hudson hornet",
+            "fabulous hudson hornet",
+            "hudson hornet",
+            "the hudson hornet"
+          ],
+          "choices": [
+            "The Fabulous Hudson Hornet",
+            "The Flying Fender",
+            "The Motor City Missile",
+            "The Silver Streak"
+          ],
+          "reveal": "[excited] The correct answer is the Fabulous Hudson Hornet! Voiced by the legendary Paul Newman. Doc's three Piston Cups gathered dust in his garage. [chuckles] Humble car.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Lightning's first sponsor, a bumper ointment for rusty old cars.",
+          "answer": "Rust-eze",
+          "accept": [
+            "rust-eze",
+            "rusteze",
+            "rust eze",
+            "rust-eeze"
+          ],
+          "choices": [
+            "Rust-eze",
+            "Dinoco",
+            "Lightyear",
+            "Gasprin"
+          ],
+          "reveal": "The correct answer is Rust-eze! Medicated bumper ointment. [mischievously] Lightning dreamed of Dinoco, but Rust-eze stuck with him, which is more than I can say for my car insurance.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "This real-life NASCAR legend with 200 career wins voiced Strip Weathers, better known as The King.",
+          "answer": "Richard Petty",
+          "accept": [
+            "richard petty",
+            "petty"
+          ],
+          "choices": [
+            "Richard Petty",
+            "Darrell Waltrip",
+            "Dale Earnhardt Jr.",
+            "Jeff Gordon"
+          ],
+          "reveal": "[impressed] The correct answer is Richard Petty! The King voiced The King. Darrell Waltrip is in the movie too, as Darrell Cartrip. Boogity boogity boogity!",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "sweet-rides",
+      "title": "Sweet Rides",
+      "kind": "theme",
+      "intro": "[excited] Every great Disney story needs a great set of wheels, or hooves, or sails. Name these famous rides.",
+      "format": "text",
+      "art": {
+        "prompt": "A whimsical garage showcasing a sparkling pumpkin-shaped carriage, a little white vintage bug-style car, a beat-up yellow delivery truck with a rocket on top, and a pirate ship model, all lit by a spotlight Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/road-trip--sweet-rides.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "The Fairy Godmother turned this vegetable into Cinderella's coach.",
+          "answer": "A pumpkin",
+          "accept": [
+            "pumpkin",
+            "a pumpkin"
+          ],
+          "choices": [
+            "A pumpkin",
+            "An apple",
+            "A melon",
+            "A turnip"
+          ],
+          "reveal": "The correct answer is a pumpkin! Bibbidi-bobbidi-boo. [sarcastic] It turns back at midnight, so I hope she didn't leave anything in the cup holder.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Herbie the Love Bug is this kind of car.",
+          "answer": "A Volkswagen Beetle",
+          "accept": [
+            "volkswagen beetle",
+            "a volkswagen beetle",
+            "vw beetle",
+            "beetle",
+            "vw bug",
+            "volkswagen"
+          ],
+          "choices": [
+            "A Volkswagen Beetle",
+            "A Mini Cooper",
+            "A Fiat 500",
+            "A Ford Model T"
+          ],
+          "reveal": "The correct answer is a Volkswagen Beetle! Number 53, with a mind of his own. [laughs] Honestly, that car has more personality than half my relatives.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "This delivery truck from Toy Story is hidden in almost every Pixar film.",
+          "answer": "The Pizza Planet truck",
+          "accept": [
+            "pizza planet truck",
+            "the pizza planet truck",
+            "pizza planet"
+          ],
+          "choices": [
+            "The Pizza Planet truck",
+            "The Dinoco truck",
+            "The Mack truck",
+            "Al's Toy Barn van"
+          ],
+          "reveal": "The correct answer is the Pizza Planet truck! The yellow truck with the rocket on top. Spotting it has become a sport for Pixar fans. The claw chooses who drives.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Captain Hook sails Neverland's waters aboard this pirate ship.",
+          "answer": "The Jolly Roger",
+          "accept": [
+            "jolly roger",
+            "the jolly roger"
+          ],
+          "choices": [
+            "The Jolly Roger",
+            "The Black Pearl",
+            "The Flying Dutchman",
+            "The Queen Anne's Revenge"
+          ],
+          "reveal": "[dramatic pause] The correct answer is the Jolly Roger! The Black Pearl belongs to Jack Sparrow, savvy? [whispers] Tick tock, tick tock, Hook's ship is the Jolly Roger.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "In Atlantis: The Lost Empire, Milo's expedition sets off aboard this massive submarine.",
+          "answer": "The Ulysses",
+          "accept": [
+            "ulysses",
+            "the ulysses"
+          ],
+          "choices": [
+            "The Ulysses",
+            "The Nautilus",
+            "The Leviathan",
+            "The Odyssey"
+          ],
+          "reveal": "[gasps] The correct answer is the Ulysses! Sadly, it met the Leviathan, a giant robot lobster. The Nautilus? [laughs] That's Captain Nemo's sub, a different Disney classic.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "finish-the-ride-lyric",
+      "title": "Finish the Ride Lyric",
+      "kind": "media",
+      "intro": "Every song in this category comes with a ride, a road, or a magic carpet. I give you the lyric, you fill in the missing word. [mischievously] Singing along is encouraged, but my ears are not insured.",
+      "format": "text",
+      "art": {
+        "prompt": "A car radio dial glowing in a dark dashboard, musical notes floating out the open window over a starry desert highway, retro cassette tapes on the seat Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/road-trip--finish-the-ride-lyric.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "From Cars: Life is a highway, I wanna ride it all night ___.",
+          "answer": "long",
+          "accept": [
+            "long"
+          ],
+          "choices": [
+            "long",
+            "strong",
+            "through",
+            "home"
+          ],
+          "reveal": "[cheerful] The correct answer is long! Rascal Flatts recorded it for Cars. Now it is stuck in your head for the rest of the game. You're welcome.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "From Aladdin's magic carpet ride: A whole new world, a new fantastic point of ___.",
+          "answer": "view",
+          "accept": [
+            "view"
+          ],
+          "choices": [
+            "view",
+            "you",
+            "light",
+            "flight"
+          ],
+          "reveal": "[chuckles] The correct answer is view! Unbelievable sights, indescribable feelings. That song won the Oscar for Best Original Song. Carpet not included.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "From the famous boat ride: It's a world of laughter, a world of ___.",
+          "answer": "tears",
+          "accept": [
+            "tears"
+          ],
+          "choices": [
+            "tears",
+            "cheers",
+            "hope",
+            "fears"
+          ],
+          "reveal": "[playfully] The correct answer is tears! A world of hopes and a world of fears. [mischievously] The Sherman Brothers wrote it, and it never, ever leaves your brain.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Yo ho, yo ho! We pillage, we plunder, we rifle and ___.",
+          "answer": "loot",
+          "accept": [
+            "loot"
+          ],
+          "choices": [
+            "loot",
+            "shoot",
+            "steal",
+            "plot"
+          ],
+          "reveal": "[impressed] The correct answer is loot! Drink up, me hearties, yo ho! Written by X Atencio for Pirates of the Caribbean. Pirates, they're bad eggs.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "From your Doom Buggy: When the crypt doors creak and the tombstones quake, spooks come out for a swinging ___.",
+          "answer": "wake",
+          "accept": [
+            "wake"
+          ],
+          "choices": [
+            "wake",
+            "break",
+            "shake",
+            "party"
+          ],
+          "reveal": "[whispers] The correct answer is wake! Grim Grinning Ghosts from the Haunted Mansion, also by X Atencio. Happy haunts materialize. [sarcastic] If you got this one, you might be a ghost.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "keep-your-arms-inside",
+      "title": "Keep Your Arms Inside",
+      "kind": "parks",
+      "intro": "Parks time! I'll describe the ride vehicle, you name the attraction. [laughs] Please remain seated until the clue comes to a complete stop.",
+      "format": "text",
+      "art": {
+        "prompt": "A colorful collage of theme park ride vehicles: pastel spinning teacups, a flying gray elephant ride car without a face, a rugged army-green troop transport, a honey-pot car, and a sleek blue futuristic tram on an elevated track Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/road-trip--keep-your-arms-inside.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "You spin in a giant teacup on this Fantasyland ride.",
+          "answer": "Mad Tea Party",
+          "accept": [
+            "mad tea party",
+            "the mad tea party",
+            "teacups",
+            "the teacups",
+            "mad teacups"
+          ],
+          "choices": [
+            "Mad Tea Party",
+            "Dumbo the Flying Elephant",
+            "Prince Charming Regal Carrousel",
+            "The Barnstormer"
+          ],
+          "reveal": "[excited] The correct answer is the Mad Tea Party! [laughs] Pro tip from your host: spin the wheel hard, then never eat a turkey leg right before.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "You fly in circles aboard a big-eared elephant on this classic ride.",
+          "answer": "Dumbo the Flying Elephant",
+          "accept": [
+            "dumbo the flying elephant",
+            "dumbo",
+            "dumbo ride"
+          ],
+          "choices": [
+            "Dumbo the Flying Elephant",
+            "The Magic Carpets of Aladdin",
+            "Astro Orbiter",
+            "Mad Tea Party"
+          ],
+          "reveal": "[excited] The correct answer is Dumbo the Flying Elephant! It first took flight at Disneyland in August 1955, about a month after the park opened. Grab a feather, it helps. Trust me.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "At Disneyland, you bounce through a cursed temple in a rugged troop transport on this adventure.",
+          "answer": "Indiana Jones Adventure",
+          "accept": [
+            "indiana jones adventure",
+            "indiana jones",
+            "temple of the forbidden eye"
+          ],
+          "choices": [
+            "Indiana Jones Adventure",
+            "Jungle Cruise",
+            "Big Thunder Mountain Railroad",
+            "Expedition Everest"
+          ],
+          "reveal": "[excited] The correct answer is Indiana Jones Adventure! Do not look into the eyes of the idol. Seriously. [whispers] I did once and I lost my fast pass.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "At Magic Kingdom, you ride a hunny pot through the Hundred Acre Wood on this dark ride.",
+          "answer": "The Many Adventures of Winnie the Pooh",
+          "accept": [
+            "the many adventures of winnie the pooh",
+            "many adventures of winnie the pooh",
+            "winnie the pooh",
+            "pooh"
+          ],
+          "choices": [
+            "The Many Adventures of Winnie the Pooh",
+            "Peter Pan's Flight",
+            "Under the Sea",
+            "Seven Dwarfs Mine Train"
+          ],
+          "reveal": "The correct answer is The Many Adventures of Winnie the Pooh! Watch out for the Heffalumps and Woozles. And for Tigger. [laughs] He bounces.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Originally the WEDway PeopleMover, this Magic Kingdom ride glides above Tomorrowland on linear induction motors.",
+          "answer": "Tomorrowland Transit Authority PeopleMover",
+          "accept": [
+            "tomorrowland transit authority peoplemover",
+            "tomorrowland transit authority",
+            "peoplemover",
+            "the peoplemover",
+            "tta"
+          ],
+          "choices": [
+            "Tomorrowland Transit Authority PeopleMover",
+            "Tomorrowland Speedway",
+            "Walt Disney World Monorail",
+            "Astro Orbiter"
+          ],
+          "reveal": "[impressed] The correct answer is the Tomorrowland Transit Authority PeopleMover! No seatbelts, no lines, just vibes. Possibly the greatest ride ever built. Fight me.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "are-we-there-yet",
+      "title": "Are We There Yet?",
+      "kind": "fan",
+      "intro": "[dramatic pause] Our Club DJ fans picked travel trivia from all over the Disney universe. Seat backs and tray tables in the upright position.",
+      "format": "text",
+      "art": {
+        "prompt": "The back seat of a family station wagon piled with balloons, snacks, a mouse-ear-shaped travel pillow, a map and a pair of binoculars, a castle spire just visible on the horizon through the windshield Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/road-trip--are-we-there-yet.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Carl Fredricksen tied thousands of these to his house to fly it in Up.",
+          "answer": "Balloons",
+          "accept": [
+            "balloons",
+            "balloon"
+          ],
+          "choices": [
+            "Balloons",
+            "Kites",
+            "Propellers",
+            "Umbrellas"
+          ],
+          "reveal": "The correct answer is balloons! Lots and lots of balloons. Adventure is out there! [chuckles] And so is my electricity bill for blowing them all up.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Up's Paradise Falls is on this continent.",
+          "answer": "South America",
+          "accept": [
+            "south america"
+          ],
+          "choices": [
+            "South America",
+            "Africa",
+            "Australia",
+            "Asia"
+          ],
+          "reveal": "The correct answer is South America! Pixar artists took inspiration from the tepui mountains of Venezuela. [mischievously] Squirrel!",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Besides Magic Kingdom, this is the only Walt Disney World theme park you can reach by monorail.",
+          "answer": "EPCOT",
+          "accept": [
+            "epcot",
+            "epcot center"
+          ],
+          "choices": [
+            "EPCOT",
+            "Disney's Hollywood Studios",
+            "Disney's Animal Kingdom",
+            "Disney Springs"
+          ],
+          "reveal": "The correct answer is EPCOT! Please stand clear of the doors. Por favor, mantenganse alejados de las puertas. Every fan can recite that in their sleep.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Disney Cruise Line's very first ship, which set sail in 1998.",
+          "answer": "Disney Magic",
+          "accept": [
+            "disney magic",
+            "the disney magic",
+            "magic"
+          ],
+          "choices": [
+            "Disney Magic",
+            "Disney Wonder",
+            "Disney Dream",
+            "Disney Fantasy"
+          ],
+          "reveal": "[dramatic pause] The correct answer is the Disney Magic! The Wonder followed in 1999. And yes, the ship's horn plays When You Wish Upon a Star. [sarcastic] Chills.",
+          "dailyDouble": true
+        },
+        {
+          "value": 1000,
+          "clue": "Walt Disney's backyard miniature railroad at his Los Angeles home was called this.",
+          "answer": "Carolwood Pacific Railroad",
+          "accept": [
+            "carolwood pacific railroad",
+            "carolwood pacific",
+            "the carolwood pacific"
+          ],
+          "choices": [
+            "Carolwood Pacific Railroad",
+            "Santa Fe and Disneyland Railroad",
+            "Holmby Hills Express",
+            "Lilly Belle Line"
+          ],
+          "reveal": "[gasps] The correct answer is the Carolwood Pacific Railroad! Walt's locomotive was named the Lilly Belle after his wife, Lillian. [laughs] That little train helped inspire Disneyland.",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}
