@@ -2,6 +2,7 @@ import { $, $$, esc, money, AVATARS, bgFor, Socket, countdown, sfx, thinkMusic }
 
 const app = $('#app');
 const tvId = localStorage.djTv || (localStorage.djTv = crypto.randomUUID?.() || String(Math.random()).slice(2));
+let pitchIdx = -1;
 let S = null, prev = {}, overlay = null, joinBase = location.origin, zoomTimer = null;
 const isNative = Boolean(window.DJ_TV);
 
@@ -28,7 +29,7 @@ function speakNative(text, done) {
 }
 function say(m) {
   let fired = false;
-  const done = () => { if (fired) return; fired = true; if (m.tag === 'cold' && S?.phase === 'coldOpen') return sock.send({ t: 'next' }); if (m.tag) sock.send({ t: 'readDone', seq: S?.clue?.id && m.tag !== 'intro' && m.tag !== 'cat' ? m.tag : undefined }); };
+  const done = () => { if (fired) return; fired = true; if (m.tag === 'cold' && S?.phase === 'coldOpen') return sock.send({ t: 'next' }); if (m.tag?.startsWith('pitch:')) { pitchIdx = Number(m.tag.slice(6)) + 1; render(); if (S?.phase === 'hostDraft' && pitchIdx < 6) setTimeout(() => sock.send({ t: 'pitch', i: pitchIdx }), 400); return; } if (m.tag) sock.send({ t: 'readDone', seq: S?.clue?.id && m.tag !== 'intro' && m.tag !== 'cat' ? m.tag : undefined }); };
   speaking = m;
   if (m.url) {
     audio.src = m.url; audio.onended = done; audio.onerror = () => speakNative(m.text, done);
@@ -100,6 +101,8 @@ function scores(hl) {
     <div class="n">${AVATARS[p.avatar] || ''} ${esc(p.name)}</div><div class="s ${p.score < 0 ? 'neg' : ''}">${money(p.score)}</div></div>`).join('')}</div>`;
 }
 
+const nextHost = (cur) => { const ids = ['draft', ...(S.hosts || []).map((h) => h.id)]; return ids[(ids.indexOf(cur) + 1) % ids.length]; };
+
 function lobby() {
   const b = S.board; const set = S.settings;
   const modeBtn = (m, label) => `<button data-nav data-act="set" data-v='${JSON.stringify({ mode: m })}' class="${set.mode === m ? '' : 'secondary'}">${label}</button>`;
@@ -127,15 +130,23 @@ function lobby() {
         ${modeBtn('mc', 'Multiple choice')}${modeBtn('typed', 'Type / speak')}${modeBtn('mixed', 'Mixed')}
         <button data-nav data-act="set" data-v='${JSON.stringify({ negatives: !set.negatives })}' class="secondary">Wrong answers: ${set.negatives ? 'lose $' : 'no penalty'}</button>
         <button data-nav data-act="set" data-v='${JSON.stringify({ voice: !set.voice })}' class="secondary">Host voice: ${set.voice ? 'on' : 'off'}</button>
+        <button data-nav data-act="set" data-v='${JSON.stringify({ host: nextHost(set.host) })}' class="secondary">Host: ${set.host === 'draft' ? 'vote each game' : esc((S.hosts || []).find((h) => h.id === set.host)?.name || set.host)}</button>
       </div>
       <div class="hint" style="margin:1vw 0 1.5vw">Mixed = type or speak the 200s & 400s, multiple choice from 600 up. Any player can turn on "always multiple choice" or become moderator on their phone.</div>
     </div></div>
     ${overlay === 'boards' ? `<div class="boardlist">${(S.boards || []).map((x) => `<button data-nav data-act="board" data-id="${x.id}" class="${x.played ? 'played' : ''}" style="background-image:url(${x.art || `/theme/bg-${bgFor(x)}.webp`})">${esc(x.title)}${x.played ? ' ✓' : ''}</button>`).join('')}</div>` : ''}`;
 }
 
+function hostDraft() {
+  const speakingIdx = pitchIdx >= 0 && pitchIdx < 6 && speaking?.tag?.startsWith('pitch:') ? Number(speaking.tag.slice(6)) : -1;
+  return `<div class="center"><h1 class="gold" style="font-size:3.6vw;margin:0">PICK TONIGHT'S HOST!</h1><div class="subtitle" style="margin:.4vw 0 1vw">Vote on your phones · ${[...(S.hosts || [])].reduce((a, h) => a + h.votes, 0)}/${S.players.filter((p) => p.online).length} votes</div>
+    <div class="hostrow">${(S.hosts || []).map((h, i) => `<div class="hostcard ${i === speakingIdx ? 'talking' : ''}"><img src="${h.img}" alt=""><div class="hn">${esc(h.name)}</div><div class="hv">${'★'.repeat(h.votes)}</div></div>`).join('')}</div>
+    <button data-nav data-act="draftDone" style="margin-top:1.2vw">Done voting ▶</button></div><div class="timer" id="timer" style="position:fixed"></div>`;
+}
+
 function coldOpenView() {
-  return `<div class="center"><div class="hostwrap"><img class="hostimg" src="/theme/host.webp" alt="" onerror="this.style.display='none'"></div>
-    <h1 class="gold" style="font-size:3.4vw;margin:1vw 0 0">${esc(S.host)}</h1><div class="subtitle" style="max-width:70vw">${esc(speaking?.text || '')}</div>
+  return `<div class="center"><div class="hostwrap"><img class="hostimg" src="${S.host.img}" alt=""></div>
+    <h1 class="gold" style="font-size:3.4vw;margin:1vw 0 0">${esc(S.host.name)}</h1><div class="subtitle" style="max-width:70vw">${esc(speaking?.text || '')}</div>
     <button data-nav data-act="next" style="margin-top:1.5vw">Skip ▶</button></div>`;
 }
 
@@ -263,6 +274,7 @@ function effects() {
     if (ph === 'ddWager') sfx('dd');
     if (ph === 'finalThink') thinkMusic(34);
     if (ph === 'podium') { sfx('fanfare'); confetti(200); }
+    if (ph === 'hostDraft') { pitchIdx = 0; sock.send({ t: 'pitch', i: 0 }); }
     if (ph === 'finalWheel') setTimeout(() => { const w = $('#wheel'); if (w) w.style.transform = `rotate(${w.dataset.target}deg)`; }, 300);
   }
   if (ph === 'answering' && pp !== 'answering') sfx('buzz');
@@ -285,7 +297,7 @@ function render() {
   const keepZoom = $('#zoomimg') && S.phase !== 'reveal' && prev.clue?.id === S.clue?.id;
   const focusedId = document.activeElement?.dataset?.id || document.activeElement?.dataset?.act;
   const ph = S.phase;
-  const html = ph === 'lobby' ? lobby() : ph === 'coldOpen' ? coldOpenView() : ph === 'intro' ? intro() : ph === 'categories' ? categories() : ph === 'board' ? board()
+  const html = ph === 'lobby' ? lobby() : ph === 'hostDraft' ? hostDraft() : ph === 'coldOpen' ? coldOpenView() : ph === 'intro' ? intro() : ph === 'categories' ? categories() : ph === 'board' ? board()
     : ph === 'ddWager' ? ddWager() : ['reading', 'buzzing', 'answering', 'reveal'].includes(ph) ? clue()
       : ph.startsWith('final') ? final() : ph === 'podium' ? podium() : '';
   if (keepZoom) {

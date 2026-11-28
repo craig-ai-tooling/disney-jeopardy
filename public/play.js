@@ -176,6 +176,7 @@ function render() {
   lastPhase = ph;
   let h = '';
   if (ph === 'lobby') h = lobby();
+  else if (ph === 'hostDraft') h = `${top()}<h2 class="gold">Vote for tonight's host!</h2><div class="hostpick">${S.hosts.map((x) => `<button data-host="${x.id}" class="${S.myVote === x.id ? '' : 'secondary'}"><img src="${x.img}" alt=""><span>${esc(x.name)}</span></button>`).join('')}</div>`;
   else if (ph === 'coldOpen' || ph === 'intro' || ph === 'categories') h = `${top()}<img class="logo" src="/theme/logo.webp" alt=""><h2>${ph === 'categories' ? `Category ${S.catIdx + 1}: ${esc(S.board.categories[S.catIdx].title)}` : esc(S.board.title)}</h2><div class="muted">Eyes on the TV!</div>${S.captain === me ? '<button class="secondary" id="next">Skip ▶</button>' : ''}`;
   else if (ph === 'board') h = S.control === me ? boardPick() : `${top()}<h2>${esc(P(S.control)?.name)} is picking…</h2><div class="muted">Get your thumb ready.</div>`;
   else if (ph === 'ddWager') h = S.control === me ? `${top()}<h2 class="gold">DAILY DOUBLE!</h2>${wagerBox(Math.max(mine().score, 1000), 'How much do you wager?')}` : `${top()}<h2 class="gold">Daily Double!</h2><div class="muted">${esc(P(S.control)?.name)} is wagering…</div>`;
@@ -203,6 +204,7 @@ function render() {
   if (ph === 'lobby') bindLobby();
   $$('[data-pick]').forEach((b) => b.onclick = () => { sfx('pick'); send({ t: 'pick', clue: b.dataset.pick }); });
   $('#buzz') && $('#buzz').addEventListener('pointerdown', (e) => { e.preventDefault(); vibrate(40); send({ t: 'buzz' }); });
+  $$('[data-host]').forEach((b) => b.onclick = () => { sfx('pick'); vibrate(20); send({ t: 'voteHost', id: b.dataset.host }); });
   $('#next') && ($('#next').onclick = () => send({ t: 'next' }));
   $('#again') && ($('#again').onclick = () => send({ t: 'newGame' }));
   $('#challenge') && ($('#challenge').onclick = () => send({ t: 'challenge' }));

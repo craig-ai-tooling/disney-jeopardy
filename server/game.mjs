@@ -3,14 +3,14 @@ import crypto from 'node:crypto';
 import { judge } from './match.mjs';
 import { pick as line, plain } from './lines.mjs';
 import { coldOpen } from './coldopens.mjs';
-const HOST_NAME = process.env.HOST_NAME || 'Your Host';
+import { HOSTS, hostById, voiceFor } from './hosts.mjs';
 
 const VALUES = [200, 400, 600, 800, 1000];
 const COLORS = ['#ffcf3f', '#4fc3ff', '#ff6fae', '#7dff8a', '#c08cff', '#ff8a3d', '#3dffe0', '#ff4f4f', '#b6ff3d', '#ffffff', '#ffa8e0', '#8ab4ff'];
 const AVATARS = ['castle', 'star', 'crown', 'rocket', 'shell', 'apple', 'lamp', 'slipper', 'rose', 'wand', 'balloon', 'teacup'];
 const CODE_CHARS = 'ABCDEFGHJKMNPQRSTUVWXYZ';
 const SCALE = Number(process.env.TIME_SCALE || 1);
-const T = { buzz: 9000, answer: 15000, answerTyped: 22000, ddWager: 25000, finalWager: 35000, finalThink: 35000, ruling: 20000, reveal: 6000, earlyLock: 300 };
+const T = { buzz: 9000, answer: 15000, answerTyped: 22000, ddWager: 25000, finalWager: 35000, finalThink: 35000, ruling: 20000, reveal: 6000, earlyLock: 300, draft: 30000 };
 
 const shuffle = (a) => { a = [...a]; for (let i = a.length - 1; i > 0; i--) { const j = crypto.randomInt(i + 1); [a[i], a[j]] = [a[j], a[i]]; } return a; };
 const now = () => Date.now();
@@ -46,7 +46,9 @@ export class Room {
     this.tvId = tvId;
     this.tv = null;
     this.players = new Map();
-    this.settings = { mode: 'mixed', moderator: null, negatives: true, buzzMs: T.buzz, voice: true };
+    this.settings = { mode: 'mixed', moderator: null, negatives: true, buzzMs: T.buzz, voice: true, host: 'draft' };
+    this.host = HOSTS[0];
+    this.hostVotes = new Map();
     this.phase = 'lobby';
     this.touched = now();
     this.timer = null;
@@ -67,7 +69,6 @@ export class Room {
       this.board = scored[0]?.b || content.boards[0] || null;
     }
     this.used = new Set();
-    this.prefetchBoard();
     this.broadcast();
   }
 
@@ -75,10 +76,11 @@ export class Room {
     const b = this.board;
     if (!b || !this.settings.voice) return;
     const v = this.rooms.voice;
-    const lines = [[b.intro, 'host']];
+    const who = voiceFor(this.host);
+    const lines = [[b.intro, who]];
     for (const c of b.categories) {
-      lines.push([c.intro, 'host']);
-      for (const q of c.clues) lines.push([q.clue, 'host'], [q.reveal, 'host']);
+      lines.push([c.intro, who]);
+      for (const q of c.clues) lines.push([q.clue, who], [q.reveal, who]);
     }
     v.prefetch(lines);
   }
@@ -135,6 +137,8 @@ export class Room {
       case 'settings': return this.applySettings(m.settings);
       case 'kick': this.players.delete(m.pid); return this.broadcast();
       case 'newGame': return this.reset();
+      case 'draftDone': return this.finishDraft();
+      case 'pitch': { const h = HOSTS[m.i]; if (h && this.phase === 'hostDraft') this.say(h.pitch, false, `pitch:${m.i}`, voiceFor(h)); return this.broadcast(); }
       case 'resetHistory': this.rooms.store.reset(this.tvId); return this.chooseBoard();
       case 'override': return this.override(m.pid, m.correct);
     }
@@ -158,6 +162,7 @@ export class Room {
       case 'settings': return p.id === this.captain() && this.applySettings(m.settings);
       case 'shuffle': return p.id === this.captain() && this.phase === 'lobby' && this.chooseBoard();
       case 'board': return p.id === this.captain() && this.phase === 'lobby' && this.chooseBoard(m.id);
+      case 'voteHost': return this.voteHost(p, m.id);
       case 'moderate': this.settings.moderator = m.on ? p.id : (this.settings.moderator === p.id ? null : this.settings.moderator); return this.broadcast();
     }
   }
@@ -166,6 +171,7 @@ export class Room {
     if (['mc', 'typed', 'mixed'].includes(s.mode)) this.settings.mode = s.mode;
     if (typeof s.negatives === 'boolean') this.settings.negatives = s.negatives;
     if (typeof s.voice === 'boolean') this.settings.voice = s.voice;
+    if (s.host === 'draft' || HOSTS.some((h) => h.id === s.host)) this.settings.host = s.host;
     if ('moderator' in s) this.settings.moderator = this.players.has(s.moderator) ? s.moderator : null;
     if ([6000, 9000, 12000, 15000].includes(s.buzzMs)) this.settings.buzzMs = s.buzzMs;
     this.broadcast();
@@ -185,8 +191,39 @@ export class Room {
     this.rooms.store.markBoard(this.tvId, this.board.id);
     this.used = new Set();
     this.control = shuffle([...this.players.keys()])[0];
+    if (this.settings.host === 'draft') {
+      this.phase = 'hostDraft';
+      this.hostVotes = new Map();
+      this.draftIdx = 0;
+      this.setTimer(T.draft, () => this.finishDraft());
+      return this.broadcast();
+    }
+    this.host = hostById(this.settings.host);
+    this.coldOpen();
+  }
+
+  voteHost(p, hid) {
+    if (this.phase !== 'hostDraft' || !HOSTS.some((h) => h.id === hid)) return;
+    this.hostVotes.set(p.id, hid);
+    if ([...this.players.values()].filter((x) => x.ws).every((x) => this.hostVotes.has(x.id))) return this.finishDraft();
+    this.broadcast();
+  }
+
+  finishDraft() {
+    if (this.phase !== 'hostDraft') return;
+    this.clearTimer();
+    const tally = new Map();
+    for (const h of this.hostVotes.values()) tally.set(h, (tally.get(h) || 0) + 1);
+    const top = Math.max(0, ...tally.values());
+    const tied = top ? [...tally].filter(([, n]) => n === top).map(([h]) => h) : HOSTS.map((h) => h.id);
+    this.host = hostById(shuffle(tied)[0]);
+    this.coldOpen();
+  }
+
+  coldOpen() {
     this.phase = 'coldOpen';
-    this.say(coldOpen({ host: HOST_NAME, players: [...this.players.values()].map((p) => p.name), theme: this.board.theme }), true, 'cold');
+    this.prefetchBoard();
+    this.say(coldOpen({ host: this.host.name, players: [...this.players.values()].map((p) => p.name), theme: this.board.theme }), true, 'cold');
     this.broadcast();
   }
 
@@ -441,7 +478,7 @@ export class Room {
     this.final = { wheel: wheel.map((f) => f.film), chosen, entrants: new Set(entrants), wagers: new Map(), answers: new Map(), order: [], step: -1, choices: shuffle(chosen.choices) };
     this.phase = 'finalWheel';
     this.say(line('finalIntro'), true);
-    this.rooms.voice.prefetch([[chosen.clue, 'host'], [chosen.reveal, 'host']]);
+    this.rooms.voice.prefetch([[chosen.clue, voiceFor(this.host)], [chosen.reveal, voiceFor(this.host)]]);
     this.setTimer(12000, () => this.finalWagerPhase());
     this.broadcast();
   }
@@ -532,15 +569,15 @@ export class Room {
   clearTimer() { clearTimeout(this.timer); this.timer = null; this.deadline = 0; }
 
   // Narration goes to the TV only. `wait` means the TV should report readDone when it finishes speaking.
-  say(text, wait, tag) {
+  say(text, wait, tag, voiceId = voiceFor(this.host)) {
     if (!text || !this.tv) return;
     const v = this.rooms.voice;
     const msg = { t: 'say', text: plain(text), tag: tag || null };
     const send = (url) => this.sendTo(this.tv, { ...msg, url: this.settings.voice ? url : null });
-    const ready = this.settings.voice ? v.cached(text) : null;
+    const ready = this.settings.voice ? v.cached(text, voiceId) : null;
     if (ready || !this.settings.voice || v.disabled) return send(ready);
     // Short wait for a fresh clip; if ElevenLabs is slow the TV speaks it natively instead.
-    Promise.race([v.get(text), new Promise((r) => setTimeout(() => r(null), wait ? 2500 : 1200))]).then(send, () => send(null));
+    Promise.race([v.get(text, voiceId), new Promise((r) => setTimeout(() => r(null), wait ? 2500 : 1200))]).then(send, () => send(null));
   }
 
   publicClue() {
@@ -564,7 +601,7 @@ export class Room {
     const b = this.board;
     const media = this.rooms.media;
     const s = {
-      t: 'state', role, host: HOST_NAME, code: this.code, phase: this.phase, settings: this.settings, captain: this.captain(), control: this.control || null,
+      t: 'state', role, host: { id: this.host.id, name: this.host.name, img: this.host.img }, hosts: this.phase === 'hostDraft' || this.phase === 'lobby' ? HOSTS.map((h) => ({ id: h.id, name: h.name, img: h.img, votes: [...this.hostVotes.values()].filter((x) => x === h.id).length })) : null, myVote: undefined, code: this.code, phase: this.phase, settings: this.settings, captain: this.captain(), control: this.control || null,
       deadline: this.deadline ? this.deadline - now() : 0, players,
       board: b && {
         id: b.id, title: b.title, theme: b.theme, art: media.url(b.art?.file),
@@ -581,6 +618,7 @@ export class Room {
     if (role === 'player') {
       const p = this.players.get(pid);
       s.you = pid;
+      s.myVote = this.hostVotes.get(pid) || null;
       s.answerMode = p ? this.answerMode(p) : 'mc';
       if (this.phase === 'lobby' && pid === this.captain()) s.boards = this.boardList();
     }

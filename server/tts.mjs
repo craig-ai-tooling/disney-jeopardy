@@ -26,7 +26,7 @@ export class Voice {
   }
 
   key(text, who = 'host') {
-    return crypto.createHash('sha1').update(`${VOICES[who]}|${MODEL}|${text}`).digest('hex').slice(0, 20);
+    return crypto.createHash('sha1').update(`${VOICES[who] || who}|${MODEL}|${text}`).digest('hex').slice(0, 20);
   }
 
   file(id) { return path.join(this.dir, `${id}.mp3`); }
@@ -65,10 +65,10 @@ export class Voice {
   }
 
   async #generate(id, text, who) {
-    const res = await fetch(`https://api.elevenlabs.io/v1/text-to-speech/${VOICES[who]}?output_format=mp3_44100_96`, {
+    const res = await fetch(`https://api.elevenlabs.io/v1/text-to-speech/${VOICES[who] || who}?output_format=mp3_44100_96`, {
       method: 'POST',
       headers: { 'xi-api-key': KEY, 'content-type': 'application/json', accept: 'audio/mpeg' },
-      body: JSON.stringify({ text, model_id: MODEL, voice_settings: SETTINGS[who] }),
+      body: JSON.stringify({ text, model_id: MODEL, voice_settings: SETTINGS[who] || SETTINGS.host }),
       signal: AbortSignal.timeout(20000),
     });
     if (!res.ok) {

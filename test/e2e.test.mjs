@@ -34,6 +34,7 @@ test('full game: lobby -> clues -> final -> podium', { timeout: 60000 }, async (
       sends[name] = await client({ role: 'player', room: tv.code }, (m, send) => {
         if (m.t === 'state') {
           states[name] = m; const me = m.you; const c = m.clue;
+          if (m.phase === 'hostDraft' && !m.myVote) send({ t: 'voteHost', id: name === 'Ana' ? 'chet' : 'gourd' });
           if (m.phase === 'board' && m.control === me) send({ t: 'pick', clue: m.board.categories.flatMap((x) => x.clues).find((q) => !q.used).id });
           if (m.phase === 'ddWager' && m.control === me) send({ t: 'wager', amount: 500 });
           if (m.phase === 'buzzing' && name === 'Ana' && !c.attempted.includes(me)) send({ t: 'buzz' });
@@ -54,7 +55,7 @@ test('full game: lobby -> clues -> final -> podium', { timeout: 60000 }, async (
       await sleep(30);
     }
     assert.equal(tv.phase, 'podium', `stuck in ${tv.phase}\n${log.slice(-2000)}`);
-    for (const p of ['coldOpen', 'intro', 'categories', 'board', 'reading', 'buzzing', 'answering', 'reveal', 'finalWheel', 'finalWager', 'finalThink', 'finalReveal']) assert.ok(phases.has(p), `never saw ${p}`);
+    for (const p of ['hostDraft', 'coldOpen', 'intro', 'categories', 'board', 'reading', 'buzzing', 'answering', 'reveal', 'finalWheel', 'finalWager', 'finalThink', 'finalReveal']) assert.ok(phases.has(p), `never saw ${p}`);
     assert.ok(!/Error|at .*\.mjs/.test(log), log);
   } finally { srv.kill(); }
 });
