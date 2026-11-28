@@ -45,8 +45,7 @@
           "clue": "Arlo is this kind of long-necked plant-eating dinosaur.",
           "answer": "Apatosaurus",
           "accept": [
-            "apatosaurus",
-            "brontosaurus"
+            "apatosaurus"
           ],
           "choices": [
             "Apatosaurus",
