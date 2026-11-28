@@ -1,0 +1,564 @@
+{
+  "id": "ride-the-rides",
+  "title": "Ride the Rides",
+  "theme": "Attractions",
+  "tags": [
+    "parks",
+    "attractions",
+    "rides"
+  ],
+  "intro": "[mischievously] Please keep your arms and legs inside the vehicle at ALL times... Welcome in to Disney Jeopardy! Tonight we are riding the rides. Coasters, dark rides, [laughs] and songs you will NOT get out of your head.",
+  "art": {
+    "prompt": "Original digital painting, cinematic 16:9, rich saturated colors, warm magical lighting, storybook theme-park atmosphere, no text, no logos, no recognizable characters, no people's faces: a dazzling theme-park skyline at dusk: a white cone-shaped space dome, a red-rock mine train mountain, a snowy peak coaster, spinning teacups and a pirate ship flying over glowing city lights, all lit with neon ride lights",
+    "file": "media/ride-the-rides.jpg"
+  },
+  "categories": [
+    {
+      "id": "to-infinity",
+      "title": "To Infinity and Beyond",
+      "kind": "film",
+      "intro": "Our film category has inspired more rides than I can count. It's Pixar's Toy Story films. [excited] Reach for the SKY!",
+      "art": {
+        "prompt": "Original digital painting, cinematic 16:9, rich saturated colors, warm magical lighting, storybook theme-park atmosphere, no text, no logos, no recognizable characters, no people's faces: a kid's bedroom from a toy's-eye view: wall wallpaper of blue sky and fluffy clouds, a toy rocket, wooden blocks and a cowboy hat on the bed",
+        "file": "media/ride-the-rides--to-infinity.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "What is the name of the boy who owns Woody and Buzz in the first Toy Story?",
+          "answer": "Andy",
+          "accept": [
+            "andy",
+            "andy davis"
+          ],
+          "choices": [
+            "Andy",
+            "Sid",
+            "Al",
+            "Bonnie"
+          ],
+          "reveal": "The correct answer is Andy. His name is LITERALLY written on Woody's boot. [chuckles] Free points.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "The three-eyed aliens in the Pizza Planet crane game worship what?",
+          "answer": "The Claw",
+          "accept": [
+            "the claw",
+            "claw",
+            "the claaaw"
+          ],
+          "choices": [
+            "The Claw",
+            "The Rocket",
+            "The Button",
+            "The Ring"
+          ],
+          "reveal": "[excited] The correct answer is the Claw. It moves. It chooses who will go and who will stay. [whispers] Ooooh.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "In Toy Story 2, Woody learns he was the star of which 1950s TV show?",
+          "answer": "Woody's Roundup",
+          "accept": [
+            "woody's roundup",
+            "woody's round up",
+            "woodys round up",
+            "woodys roundup"
+          ],
+          "choices": [
+            "Woody's Roundup",
+            "The Sheriff Woody Hour",
+            "Cowboy Corral",
+            "Prospector Pete's Ranch"
+          ],
+          "reveal": "The correct answer is Woody's Roundup. [chuckles] Yodel-ay-hee-hoo! Jessie, Bullseye, and the Prospector were all there too.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "What is the name of the toy store owned by Al, the toy collector in Toy Story 2?",
+          "answer": "Al's Toy Barn",
+          "accept": [
+            "al's toy barn",
+            "al's toybarn",
+            "als toy barn",
+            "toy barn"
+          ],
+          "choices": [
+            "Al's Toy Barn",
+            "Al's Toy Box",
+            "Toy Kingdom",
+            "Al's Toy Planet"
+          ],
+          "reveal": "And the correct answer is Al's Toy Barn. [mischievously] Bonus points if you can do the chicken suit commercial voice.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "What is the name of Sid's scary dog in the first Toy Story?",
+          "answer": "Scud",
+          "accept": [
+            "scud",
+            "scudd"
+          ],
+          "choices": [
+            "Scud",
+            "Buster",
+            "Butch",
+            "Sparky"
+          ],
+          "reveal": "Drumroll, please... the correct answer is Scud. Buster is Andy's dog. Scud is the reason no toy wants to visit the neighbors.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "coaster-crazy",
+      "title": "Coaster Crazy",
+      "kind": "theme",
+      "intro": "This category is for the THRILL seekers. [laughs] Hands up for some Disney roller coasters!",
+      "art": {
+        "prompt": "Original digital painting, cinematic 16:9, rich saturated colors, warm magical lighting, storybook theme-park atmosphere, no text, no logos, no recognizable characters, no people's faces: a twisting roller coaster track racing through a snowy Himalayan mountain and a gem-filled mine at sunset, motion blur and sparks",
+        "file": "media/ride-the-rides--coaster-crazy.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Seven Dwarfs Mine Train in Magic Kingdom is themed to which classic film?",
+          "answer": "Snow White and the Seven Dwarfs",
+          "accept": [
+            "snow white and the seven dwarfs",
+            "snow white",
+            "snow white and the 7 dwarfs"
+          ],
+          "choices": [
+            "Snow White and the Seven Dwarfs",
+            "Sleeping Beauty",
+            "Cinderella",
+            "Pinocchio"
+          ],
+          "reveal": "[chuckles] The correct answer is Snow White and the Seven Dwarfs. [laughs] Heigh-ho, heigh-ho, it's off to the standby line we go.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Expedition Everest at Animal Kingdom is guarded by which legendary snowy creature?",
+          "answer": "The Yeti",
+          "accept": [
+            "the yeti",
+            "abominable snowman",
+            "the abominable snowman",
+            "yeti"
+          ],
+          "choices": [
+            "The Yeti",
+            "Bigfoot",
+            "The Chupacabra",
+            "The Loch Ness Monster"
+          ],
+          "reveal": "The correct answer is the Yeti. He is giant, he is angry, and he really does not want you on his mountain.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Slinky Dog Dash zooms around which land at Disney's Hollywood Studios?",
+          "answer": "Toy Story Land",
+          "accept": [
+            "toy story land",
+            "toy story"
+          ],
+          "choices": [
+            "Toy Story Land",
+            "Pixar Place",
+            "Sunset Boulevard",
+            "Animation Courtyard"
+          ],
+          "reveal": "[excited] The correct answer is Toy Story Land. [laughs] You are shrunk down to the size of a toy in Andy's backyard. Watch out for giant Woody.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "On Magic Kingdom's TRON Lightcycle Run, riders lean forward on vehicles shaped like what?",
+          "answer": "Lightcycles",
+          "accept": [
+            "lightcycles",
+            "light cycle",
+            "light cycles",
+            "lightcycle",
+            "motorbikes",
+            "motorcycles"
+          ],
+          "choices": [
+            "Lightcycles",
+            "Hoverboards",
+            "Rocket sleds",
+            "Race cars"
+          ],
+          "reveal": "The correct answer is lightcycles. It's one of the fastest coasters at Walt Disney World. Hold on to your hat. Actually, put the hat in the locker.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Space Mountain first launched riders in 1975 at which Disney park?",
+          "answer": "Magic Kingdom",
+          "accept": [
+            "magic kingdom",
+            "magic kingdom park",
+            "the magic kingdom",
+            "walt disney world"
+          ],
+          "choices": [
+            "Magic Kingdom",
+            "Disneyland",
+            "Tokyo Disneyland",
+            "Disneyland Paris"
+          ],
+          "reveal": "[gasps] Oh, this one is TOUGH. The correct answer is... Magic Kingdom. [chuckles] Disneyland didn't get its own Space Mountain until 1977. Florida was FIRST for once!",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "ride-tunes",
+      "title": "Ride Tunes: Finish the Lyric",
+      "kind": "media",
+      "intro": "[excited] Sing it with me! I'll give you a lyric from a classic attraction song, and you finish it. Bonus points for singing out loud... [chuckles] your family will love it.",
+      "art": {
+        "prompt": "Original digital painting, cinematic 16:9, rich saturated colors, warm magical lighting, storybook theme-park atmosphere, no text, no logos, no recognizable characters, no people's faces: giant colorful musical notes floating over a little boat ride through a world of dancing dolls, tiki drums and a moonlit haunted manor",
+        "file": "media/ride-the-rides--ride-tunes.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Pirates of the Caribbean: Yo ho, yo ho, a pirate's life for ___.",
+          "answer": "Me",
+          "accept": [
+            "me",
+            "a pirate's life for me",
+            "for me"
+          ],
+          "choices": [
+            "Me",
+            "Thee",
+            "We",
+            "Free"
+          ],
+          "reveal": "The correct answer is me. [mischievously] A pirate's life for me! Drink up, me hearties, yo ho.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Walt Disney's Enchanted Tiki Room: In the Tiki Tiki Tiki Tiki Tiki ___.",
+          "answer": "Room",
+          "accept": [
+            "room",
+            "the tiki room",
+            "tiki room"
+          ],
+          "choices": [
+            "Room",
+            "Hut",
+            "Lounge",
+            "Tune"
+          ],
+          "reveal": "[chuckles] The correct answer is room. All together now, in the Tiki Tiki Tiki Tiki Tiki Room!",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "It's a Small World: It's a world of laughter, a world of ___.",
+          "answer": "Tears",
+          "accept": [
+            "tears",
+            "a world of tears"
+          ],
+          "choices": [
+            "Tears",
+            "Cheers",
+            "Fears",
+            "Dreams"
+          ],
+          "reveal": "The correct answer is tears. [laughs] A world of hopes and a world of fears, too. Very emotional for a boat ride.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "It's a Small World: There's so much that we share, that it's time we're ___.",
+          "answer": "Aware",
+          "accept": [
+            "aware",
+            "time we're aware"
+          ],
+          "choices": [
+            "Aware",
+            "There",
+            "Fair",
+            "Prepared"
+          ],
+          "reveal": "[whispers] Only the true Disney nerds got this one. The correct answer is... aware. It's a small world after all. [sighs] Sorry, it's going to be in your head all week.",
+          "dailyDouble": true
+        },
+        {
+          "value": 1000,
+          "clue": "Haunted Mansion: When the crypt doors creak and the tombstones quake, grim grinning ghosts come out to ___.",
+          "answer": "Socialize",
+          "accept": [
+            "socialize",
+            "come out to socialize",
+            "socialise"
+          ],
+          "choices": [
+            "Socialize",
+            "Harmonize",
+            "Materialize",
+            "Terrorize"
+          ],
+          "reveal": "[dramatic pause] And the correct answer is... socialize. [laughs] Even ghosts need a party. Grim Grinning Ghosts was sung by Thurl Ravenscroft and friends.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "which-park",
+      "title": "Which Park Is It In?",
+      "kind": "parks",
+      "intro": "Every one of these attractions is at Walt Disney World. [mischievously] Your job? Look at the picture and tell me which of the four parks it calls home.",
+      "art": {
+        "prompt": "Original digital painting, cinematic 16:9, rich saturated colors, warm magical lighting, storybook theme-park atmosphere, no text, no logos, no recognizable characters, no people's faces: four glowing theme-park icons in one panorama: a fairytale castle, a giant silver geodesic sphere, a hollywood-style water tower and a giant sculpted tree of life",
+        "file": "media/ride-the-rides--which-park.jpg"
+      },
+      "format": "picture",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "At Walt Disney World, Test Track lets you design and test your own car in which park?",
+          "answer": "Epcot",
+          "accept": [
+            "epcot",
+            "epcot center"
+          ],
+          "choices": [
+            "Epcot",
+            "Magic Kingdom",
+            "Disney's Hollywood Studios",
+            "Disney's Animal Kingdom"
+          ],
+          "reveal": "And the correct answer is Epcot. Zoom zoom. Just like REAL life, your car design is probably not as good as you think.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "Original illustration, 16:9, vivid colors, theme-park concept-art style, no text, no logos, no characters, no people: a sleek futuristic concept car speeding along a test track at night with glowing blue speed lines and a sensor tunnel",
+            "file": "media/ride-the-rides--which-park-200.jpg"
+          }
+        },
+        {
+          "value": 400,
+          "clue": "At Walt Disney World, Kilimanjaro Safaris takes guests on a bumpy ride past real African animals in which park?",
+          "answer": "Disney's Animal Kingdom",
+          "accept": [
+            "disney's animal kingdom",
+            "animal kingdom",
+            "dak"
+          ],
+          "choices": [
+            "Disney's Animal Kingdom",
+            "Epcot",
+            "Magic Kingdom",
+            "Disney's Hollywood Studios"
+          ],
+          "reveal": "The correct answer is Disney's Animal Kingdom. [chuckles] Every ride is different, depending on which animals are awake.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "Original illustration, 16:9, vivid colors, theme-park concept-art style, no text, no logos, no characters, no people: an open-sided safari truck bumping along a dirt road past elephants, a baobab tree and a savanna sunrise",
+            "file": "media/ride-the-rides--which-park-400.jpg"
+          }
+        },
+        {
+          "value": 600,
+          "clue": "At Walt Disney World, The Twilight Zone Tower of Terror drops guests in a haunted hotel elevator in which park?",
+          "answer": "Disney's Hollywood Studios",
+          "accept": [
+            "disney's hollywood studios",
+            "hollywood studios",
+            "mgm",
+            "the studios"
+          ],
+          "choices": [
+            "Disney's Hollywood Studios",
+            "Epcot",
+            "Magic Kingdom",
+            "Disney's Animal Kingdom"
+          ],
+          "reveal": "[chuckles] The correct answer is Disney's Hollywood Studios. [mischievously] Check in to the Hollywood Tower Hotel. Check out is optional.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "Original illustration, 16:9, vivid colors, theme-park concept-art style, no text, no logos, no characters, no people: a crumbling 1930s Hollywood hotel tower with a broken neon-free sign frame, struck by lightning in a purple night sky",
+            "file": "media/ride-the-rides--which-park-600.jpg"
+          }
+        },
+        {
+          "value": 800,
+          "clue": "At Walt Disney World, Remy's Ratatouille Adventure shrinks you down to rat size in which park?",
+          "answer": "Epcot",
+          "accept": [
+            "epcot",
+            "epcot france",
+            "france pavilion"
+          ],
+          "choices": [
+            "Epcot",
+            "Magic Kingdom",
+            "Disney's Hollywood Studios",
+            "Disney's Animal Kingdom"
+          ],
+          "reveal": "The correct answer is Epcot, in the France pavilion. You get to scurry through Gusteau's kitchen in 3D. Delicious.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "Original illustration, 16:9, vivid colors, theme-park concept-art style, no text, no logos, no characters, no people: a giant-scale Parisian restaurant kitchen seen from a tiny rat's-eye view, huge copper pots and enormous cheese wheels",
+            "file": "media/ride-the-rides--which-park-800.jpg"
+          }
+        },
+        {
+          "value": 1000,
+          "clue": "At Walt Disney World, The Barnstormer, a junior coaster starring Goofy as a stunt pilot, is in which park?",
+          "answer": "Magic Kingdom",
+          "accept": [
+            "magic kingdom",
+            "the magic kingdom"
+          ],
+          "choices": [
+            "Magic Kingdom",
+            "Epcot",
+            "Disney's Hollywood Studios",
+            "Disney's Animal Kingdom"
+          ],
+          "reveal": "[dramatic pause] The correct answer is... Magic Kingdom, over in Storybook Circus. [laughs] Great first coaster for the little ones.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "Original illustration, 16:9, vivid colors, theme-park concept-art style, no text, no logos, no characters, no people: a red barn with a crop-duster biplane crashing through its roof beside a small kid-sized roller coaster in a circus-themed fairground",
+            "file": "media/ride-the-rides--which-park-1000.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "all-aboard",
+      "title": "All Aboard!",
+      "kind": "fan",
+      "intro": "Club DJ chose ride vehicles! Teacups, doom buggies, honey pots... [laughs] tell me what you're riding in, or who's driving.",
+      "art": {
+        "prompt": "Original digital painting, cinematic 16:9, rich saturated colors, warm magical lighting, storybook theme-park atmosphere, no text, no logos, no recognizable characters, no people's faces: a whimsical lineup of empty ride vehicles: a giant pastel teacup, a black clamshell-shaped buggy, a honey pot car and a flying pirate ship",
+        "file": "media/ride-the-rides--all-aboard.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "On the Mad Tea Party, guests spin around in giant what?",
+          "answer": "Teacups",
+          "accept": [
+            "teacups",
+            "cups",
+            "tea cup",
+            "tea cups",
+            "teacup"
+          ],
+          "choices": [
+            "Teacups",
+            "Flowers",
+            "Honey pots",
+            "Mushrooms"
+          ],
+          "reveal": "The correct answer is teacups. [whispers] Pro tip, do not eat a turkey leg right before this ride.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "On Peter Pan's Flight, guests soar over London in a flying what?",
+          "answer": "Pirate ship",
+          "accept": [
+            "pirate ship",
+            "a flying pirate ship",
+            "a pirate ship",
+            "flying pirate ship",
+            "ship"
+          ],
+          "choices": [
+            "Pirate ship",
+            "Magic carpet",
+            "Hot air balloon",
+            "Rowboat"
+          ],
+          "reveal": "And the correct answer is a pirate ship. [laughs] Think happy thoughts and sprinkle a little pixie dust.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "The ride vehicles in the Haunted Mansion are known as what?",
+          "answer": "Doom Buggies",
+          "accept": [
+            "doom buggies",
+            "doom buggy",
+            "doom buggys",
+            "doombuggies"
+          ],
+          "choices": [
+            "Doom Buggies",
+            "Ghoul Carts",
+            "Spook Sleds",
+            "Creep Coaches"
+          ],
+          "reveal": "The correct answer is Doom Buggies. Please keep your hands inside, the hitchhiking ghosts are watching.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "At Magic Kingdom's The Many Adventures of Winnie the Pooh, riders bounce along in giant what?",
+          "answer": "Hunny pots",
+          "accept": [
+            "hunny pots",
+            "a honey pot",
+            "honey pot",
+            "honey pots",
+            "hunny pot"
+          ],
+          "choices": [
+            "Hunny pots",
+            "Balloons",
+            "Hollow logs",
+            "Umbrellas"
+          ],
+          "reveal": "[chuckles] The correct answer is hunny pots. Spelled H U N N Y, the Pooh way. Oh bother.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Mickey and Minnie's Runaway Railway is a wild train ride. Which character is the train's engineer?",
+          "answer": "Goofy",
+          "accept": [
+            "goofy",
+            "goofy the engineer"
+          ],
+          "choices": [
+            "Goofy",
+            "Donald Duck",
+            "Pluto",
+            "Pete"
+          ],
+          "reveal": "Drumroll, please... the correct answer is Goofy. [mischievously] Which explains why the train ends up LITERALLY everywhere but on the tracks.",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}
