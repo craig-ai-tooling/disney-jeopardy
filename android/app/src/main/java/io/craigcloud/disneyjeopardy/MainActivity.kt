@@ -64,15 +64,17 @@ class MainActivity : Activity() {
     private lateinit var root: FrameLayout
     private var webView: WebView? = null
     private lateinit var theme: ThemePack
-    private lateinit var overlay: LinearLayout
+    private lateinit var overlay: FrameLayout
     private lateinit var overlayTitle: TextView
     private lateinit var overlayMessage: TextView
     private lateinit var overlaySpinner: ProgressBar
     private lateinit var retryButton: Button
+    private lateinit var settingsButton: Button
 
     private val handler = Handler(Looper.getMainLooper())
     private var mainFrameError = false
-    private var retryCountdown = 0
+    private var retryAttempt = 0
+    private val probeSeq = AtomicInteger()
     private var pageTopLevel = false
     private var lastBackAt = 0L
     private var okLongPressed = false
@@ -99,22 +101,17 @@ class MainActivity : Activity() {
         openSettings()
     }
 
-    private val retryTick = object : Runnable {
-        override fun run() {
-            if (!mainFrameError) return
-            retryCountdown--
-            if (retryCountdown <= 0) {
-                loadBoard()
-            } else {
-                overlayMessage.text = errorText()
-                handler.postDelayed(this, 1000)
-            }
-        }
-    }
+    /** Quiet background check while the error screen is up: the screen is only touched once the server answers. */
+    private val retryTick = Runnable { if (mainFrameError) probe(quiet = true) }
 
     private val networkCallback = object : ConnectivityManager.NetworkCallback() {
         override fun onAvailable(network: Network) {
-            handler.post { if (mainFrameError) loadBoard() }
+            handler.post {
+                if (mainFrameError) {
+                    handler.removeCallbacks(retryTick)
+                    handler.postDelayed(retryTick, 2000)
+                }
+            }
         }
     }
 
@@ -263,10 +260,48 @@ class MainActivity : Activity() {
         return b.build().toString()
     }
 
+    /** Checks the server first so a dead backend never shows a raw proxy error page; on the error screen only the status line changes. */
     private fun loadBoard() {
+        handler.removeCallbacks(retryTick)
+        if (mainFrameError) {
+            overlayMessage.text = "Checking…"
+            overlaySpinner.visibility = View.VISIBLE
+        } else {
+            showOverlay(loading = true)
+        }
+        probe(quiet = false)
+    }
+
+    private fun probe(quiet: Boolean) {
+        val seq = probeSeq.incrementAndGet()
+        val target = healthUrl()
+        Thread {
+            val ok = runCatching {
+                val c = java.net.URL(target).openConnection() as java.net.HttpURLConnection
+                c.connectTimeout = PROBE_TIMEOUT_MS
+                c.readTimeout = PROBE_TIMEOUT_MS
+                c.useCaches = false
+                try { c.responseCode in 200..299 } finally { c.disconnect() }
+            }.getOrDefault(false)
+            handler.post {
+                if (seq != probeSeq.get() || isFinishing) return@post
+                if (ok) startWebLoad()
+                else if (quiet) scheduleRetry()
+                else showError("health check failed")
+            }
+        }.start()
+    }
+
+    private fun healthUrl(): String {
+        val u = Uri.parse(serverUrl)
+        return Uri.Builder().scheme(u.scheme).encodedAuthority(u.encodedAuthority).path("/healthz").build().toString()
+    }
+
+    private fun startWebLoad() {
         handler.removeCallbacks(retryTick)
         mainFrameError = false
         pageTopLevel = false
+        retryAttempt = 0
         showOverlay(loading = true)
         val wv = webView ?: return
         val url = boardUrl()
@@ -275,31 +310,37 @@ class MainActivity : Activity() {
         wv.loadUrl(url)
     }
 
-    private fun showError(reason: String) {
-        if (mainFrameError) return
-        Log.w(TAG, "main frame error: $reason")
-        mainFrameError = true
-        pageTopLevel = true
-        retryCountdown = RETRY_SECONDS
-        overlayTitle.text = "Can't reach the game board"
-        overlayMessage.text = errorText()
-        overlaySpinner.visibility = View.GONE
-        retryButton.visibility = View.VISIBLE
-        overlay.visibility = View.VISIBLE
-        retryButton.requestFocus()
+    private fun scheduleRetry() {
         handler.removeCallbacks(retryTick)
-        handler.postDelayed(retryTick, 1000)
+        val delay = RETRY_BACKOFF_S[retryAttempt.coerceAtMost(RETRY_BACKOFF_S.size - 1)] * 1000L
+        retryAttempt++
+        handler.postDelayed(retryTick, delay)
     }
 
-    private fun errorText(): String =
-        "${Uri.parse(serverUrl).host ?: serverUrl} isn't answering. Check the Wi-Fi.\n" +
-            "Trying again in ${retryCountdown}s  ·  OK = retry now  ·  MENU or hold OK = change server"
+    private fun showError(reason: String) {
+        Log.w(TAG, "main frame error: $reason")
+        val wasShowing = mainFrameError
+        mainFrameError = true
+        pageTopLevel = true
+        overlaySpinner.visibility = View.INVISIBLE
+        overlayMessage.text = "We'll keep checking in the background and jump right in when it's back."
+        if (!wasShowing) {
+            webView?.let { it.stopLoading(); it.loadUrl("about:blank") }
+            overlayTitle.text = "The server can't be reached"
+            retryButton.visibility = View.VISIBLE
+            settingsButton.visibility = View.VISIBLE
+            overlay.visibility = View.VISIBLE
+            retryButton.requestFocus()
+        }
+        scheduleRetry()
+    }
 
     private fun showOverlay(loading: Boolean) {
         overlayTitle.text = "Disney Jeopardy"
         overlayMessage.text = if (loading) "Warming up the board…" else ""
         overlaySpinner.visibility = View.VISIBLE
         retryButton.visibility = View.GONE
+        settingsButton.visibility = View.GONE
         overlay.visibility = View.VISIBLE
     }
 
@@ -336,7 +377,10 @@ class MainActivity : Activity() {
         }
 
         override fun onReceivedHttpError(view: WebView, request: WebResourceRequest, response: WebResourceResponse) {
-            if (request.isForMainFrame && response.statusCode >= 500) showError("HTTP ${response.statusCode}")
+            if (request.isForMainFrame && response.statusCode >= 500) {
+                view.stopLoading()
+                showError("HTTP ${response.statusCode}")
+            }
         }
 
         override fun onRenderProcessGone(view: WebView, detail: RenderProcessGoneDetail): Boolean {
@@ -609,57 +653,98 @@ class MainActivity : Activity() {
     // ---------------------------------------------------------------- Loading / error overlay
 
     private fun buildOverlay() {
-        overlay = LinearLayout(this).apply {
-            orientation = LinearLayout.VERTICAL
-            gravity = Gravity.CENTER
+        val display = font("fonts/LuckiestGuy-Regular.ttf") ?: Typeface.create(Typeface.SANS_SERIF, Typeface.BOLD)
+        val body = font("fonts/Nunito.ttf") ?: Typeface.SANS_SERIF
+        overlay = FrameLayout(this).apply {
             setBackgroundColor(BOARD_BLUE)
             isClickable = true
         }
-        overlayTitle = TextView(this).apply {
-            textSize = 44f
-            setTextColor(GOLD)
-            typeface = Typeface.create(Typeface.SERIF, Typeface.BOLD)
-            setShadowLayer(12f, 0f, 4f, Color.BLACK)
+        bundledImage(BACKDROP)?.let { bg ->
+            overlay.addView(ImageView(this).apply {
+                setImageBitmap(bg)
+                scaleType = ImageView.ScaleType.CENTER_CROP
+            }, FrameLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT))
+        }
+        overlay.addView(View(this).apply {
+            background = GradientDrawable(
+                GradientDrawable.Orientation.TOP_BOTTOM,
+                intArrayOf(Color.parseColor("#330A0F3C"), Color.parseColor("#990A0F3C"), Color.parseColor("#E60A0F3C"))
+            )
+        }, FrameLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT))
+        val content = LinearLayout(this).apply {
+            orientation = LinearLayout.VERTICAL
             gravity = Gravity.CENTER
         }
-        overlaySpinner = ProgressBar(this).apply { isIndeterminate = true }
+        overlayTitle = TextView(this).apply {
+            textSize = 46f
+            setTextColor(GOLD)
+            typeface = display
+            letterSpacing = 0.03f
+            setShadowLayer(16f, 0f, 6f, Color.BLACK)
+            gravity = Gravity.CENTER
+        }
+        overlaySpinner = ProgressBar(this).apply {
+            isIndeterminate = true
+            indeterminateTintList = android.content.res.ColorStateList.valueOf(GOLD)
+        }
         overlayMessage = TextView(this).apply {
             textSize = 20f
             setTextColor(Color.WHITE)
+            typeface = body
             gravity = Gravity.CENTER
-            setLineSpacing(0f, 1.3f)
-            setPadding(dp(40), dp(16), dp(40), dp(16))
+            setShadowLayer(8f, 0f, 2f, Color.BLACK)
+            setPadding(dp(40), dp(8), dp(40), dp(24))
         }
-        retryButton = Button(this).apply {
-            text = "Retry now"
-            textSize = 20f
-            setTextColor(BOARD_BLUE)
-            isAllCaps = false
-            background = GradientDrawable().apply { cornerRadius = dp(28).toFloat(); setColor(GOLD) }
-            setPadding(dp(36), dp(12), dp(36), dp(12))
-            isFocusable = true
-            setOnFocusChangeListener { v, f -> v.animate().scaleX(if (f) 1.1f else 1f).scaleY(if (f) 1.1f else 1f).setDuration(120).start() }
-            setOnClickListener { loadBoard() }
-        }
-        bundledLogo()?.let { logo ->
-            val h = minOf(dp(180), resources.displayMetrics.heightPixels / 4)
+        retryButton = pillButton("Retry", display, primary = true).apply { setOnClickListener { loadBoard() } }
+        settingsButton = pillButton("Server settings", body, primary = false).apply { setOnClickListener { openSettings() } }
+        bundledImage(LOGO)?.let { logo ->
+            val h = minOf(dp(200), resources.displayMetrics.heightPixels / 3)
             val w = (h * logo.width / logo.height.coerceAtLeast(1)).coerceAtMost(dp(640))
-            overlay.addView(ImageView(this).apply {
+            content.addView(ImageView(this).apply {
                 setImageBitmap(logo)
                 scaleType = ImageView.ScaleType.FIT_CENTER
                 adjustViewBounds = true
-            }, LinearLayout.LayoutParams(w, h).apply { bottomMargin = dp(16) })
+            }, LinearLayout.LayoutParams(w, h).apply { bottomMargin = dp(12) })
         }
-        overlay.addView(overlayTitle)
-        overlay.addView(overlaySpinner, LinearLayout.LayoutParams(dp(56), dp(56)).apply { topMargin = dp(24) })
-        overlay.addView(overlayMessage)
-        overlay.addView(retryButton, LinearLayout.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT))
+        content.addView(overlayTitle)
+        content.addView(overlaySpinner, LinearLayout.LayoutParams(dp(40), dp(40)).apply { topMargin = dp(16) })
+        content.addView(overlayMessage)
+        val buttons = LinearLayout(this).apply {
+            orientation = LinearLayout.HORIZONTAL
+            gravity = Gravity.CENTER
+        }
+        buttons.addView(retryButton, LinearLayout.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT).apply { marginEnd = dp(24) })
+        buttons.addView(settingsButton, LinearLayout.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT))
+        content.addView(buttons)
+        overlay.addView(content, FrameLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT))
         root.addView(overlay, FrameLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT))
     }
 
-    private fun bundledLogo(): Bitmap? {
-        if (!theme.has(LOGO)) return null
-        return runCatching { theme.open(LOGO).use { BitmapFactory.decodeStream(it) } }.getOrNull()
+    private fun pillButton(label: String, face: Typeface, primary: Boolean) = Button(this).apply {
+        text = label
+        textSize = if (primary) 26f else 18f
+        typeface = face
+        isAllCaps = false
+        setTextColor(if (primary) BOARD_BLUE else GOLD)
+        background = GradientDrawable().apply {
+            cornerRadius = dp(32).toFloat()
+            if (primary) setColor(GOLD) else { setColor(Color.parseColor("#660A0F3C")); setStroke(dp(2), GOLD) }
+        }
+        setPadding(dp(if (primary) 56 else 32), dp(14), dp(if (primary) 56 else 32), dp(14))
+        isFocusable = true
+        stateListAnimator = null
+        setOnFocusChangeListener { v, f ->
+            v.animate().scaleX(if (f) 1.12f else 1f).scaleY(if (f) 1.12f else 1f).setDuration(120).start()
+            v.alpha = if (f || primary) 1f else 0.8f
+        }
+        visibility = View.GONE
+    }
+
+    private fun font(path: String): Typeface? = runCatching { Typeface.createFromAsset(assets, path) }.getOrNull()
+
+    private fun bundledImage(name: String): Bitmap? {
+        if (!theme.has(name)) return null
+        return runCatching { theme.open(name).use { BitmapFactory.decodeStream(it) } }.getOrNull()
     }
 
     private fun dp(v: Int) = (v * resources.displayMetrics.density).toInt()
@@ -668,7 +753,9 @@ class MainActivity : Activity() {
         private const val TAG = "DisneyJeopardy"
         private const val KEY_URL = "url"
         private const val LOGO = "logo.png"
-        private const val RETRY_SECONDS = 5
+        private const val BACKDROP = "bg-castle.webp"
+        private val RETRY_BACKOFF_S = intArrayOf(15, 30, 60, 120)
+        private const val PROBE_TIMEOUT_MS = 6000
         private const val LONG_PRESS_MS = 700L
         private const val EXIT_WINDOW_MS = 2000L
         private val BOARD_BLUE = Color.parseColor("#0A0F3C")
