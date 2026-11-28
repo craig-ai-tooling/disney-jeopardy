@@ -68,7 +68,8 @@
           "accept": [
             "oozma kappa",
             "ok",
-            "oozma"
+            "oozma",
+            "o k"
           ],
           "choices": [
             "Oozma Kappa",
@@ -81,7 +82,7 @@
         },
         {
           "value": 800,
-          "clue": "To impress the cool kids, Mike and Sulley try to steal Archie, the scare pig mascot of this rival school.",
+          "clue": "To get into the cool fraternity, Sulley swipes Archie, the scare pig mascot of this rival school, and Mike ends up chasing it across campus.",
           "answer": "Fear Tech",
           "accept": [
             "fear tech"
