@@ -1,0 +1,563 @@
+{
+  "id": "merch-and-ears",
+  "title": "Shop Till You Drop",
+  "theme": "Disney merchandise, pins, ear hats and souvenirs",
+  "tags": [
+    "merch",
+    "souvenirs",
+    "pins",
+    "ears",
+    "fan"
+  ],
+  "intro": "[excited] Wallets out, everybody! Tonight is all about Disney souvenirs: ear hats, spirit jerseys, trading pins and popcorn buckets. [laughs] Exit through the gift shop, please!",
+  "art": {
+    "prompt": "A glowing theme park gift shop window at dusk overflowing with souvenirs: rows of round-eared hats on display stands, colorful sweatshirts on hangers, a corkboard of sparkly enamel pins and towers of novelty popcorn buckets Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+    "file": "media/merch-and-ears.jpg"
+  },
+  "categories": [
+    {
+      "id": "collectible-toys",
+      "title": "Collectible Toys",
+      "kind": "film",
+      "intro": "Before you buy toys at the parks, meet the most famous toys in movie history. [chuckles] It's Toy Story time!",
+      "format": "text",
+      "art": {
+        "prompt": "A child's bedroom floor at night with a cowboy hat, a toy rocket, a plush teddy bear that smells sweet, an antique shop sign-free display cabinet and a glowing claw machine Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/merch-and-ears--collectible-toys.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In Toy Story 2, greedy Al plans to sell Woody to a toy museum in this country.",
+          "answer": "Japan",
+          "accept": [
+            "japan",
+            "tokyo"
+          ],
+          "choices": [
+            "Japan",
+            "Germany",
+            "England",
+            "Canada"
+          ],
+          "reveal": "[excited] The correct answer is Japan! Woody was headed to a museum in Tokyo. [laughs] Not without Andy!",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Woody's Roundup gang includes Jessie, Stinky Pete and this loyal horse.",
+          "answer": "Bullseye",
+          "accept": [
+            "bullseye",
+            "bulls-eye",
+            "bull's-eye"
+          ],
+          "choices": [
+            "Bullseye",
+            "Buttercup",
+            "Trixie",
+            "Rex"
+          ],
+          "reveal": "The correct answer is Bullseye! [chuckles] Ride like the wind, Bullseye!",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "In Toy Story, Buzz Lightyear first learns he's a toy when he sees a TV ad for this toy store.",
+          "answer": "Al's Toy Barn",
+          "accept": [
+            "al's toy barn",
+            "als toy barn",
+            "toy barn"
+          ],
+          "choices": [
+            "Al's Toy Barn",
+            "Pizza Planet",
+            "Toys R Us",
+            "Second Chance Antiques"
+          ],
+          "reveal": "[gasps] The correct answer is Al's Toy Barn! [laughs] Not a flying toy. A falling-with-style toy.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Lotso, the bear in charge of Sunnyside Daycare in Toy Story 3, smells like this fruit.",
+          "answer": "Strawberries",
+          "accept": [
+            "strawberries",
+            "strawberry"
+          ],
+          "choices": [
+            "Strawberries",
+            "Bananas",
+            "Cherries",
+            "Grapes"
+          ],
+          "reveal": "The correct answer is strawberries! [whispers] Sweet smell, sour bear. Don't trust him.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "In Toy Story 4, Woody finds Gabby Gabby at this antique store.",
+          "answer": "Second Chance Antiques",
+          "accept": [
+            "second chance antiques",
+            "second chance"
+          ],
+          "choices": [
+            "Second Chance Antiques",
+            "Golden Oldies Antiques",
+            "Grandma's Attic",
+            "Bo's Peep Shop"
+          ],
+          "reveal": "[impressed] The correct answer is Second Chance Antiques! That's where the creepy dummies live. True Toy Story nerd points!",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "souvenir-silhouettes",
+      "title": "Souvenir Silhouettes",
+      "kind": "media",
+      "intro": "Look at these souvenir pictures and name what you see. [chuckles] Don't buy anything yet!",
+      "format": "picture",
+      "art": {
+        "prompt": "A sunny souvenir shop shelf with mystery items covered by silky sheets, lit by a spotlight, with price tags dangling Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/merch-and-ears--souvenir-silhouettes.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This classic black souvenir hat has two big round ears. Kids have worn them since the 1950s.",
+          "answer": "Mickey Mouse ears",
+          "accept": [
+            "mickey ears",
+            "mickey mouse ears",
+            "mouse ears",
+            "ear hat",
+            "ears",
+            "mouseketeer ears"
+          ],
+          "choices": [
+            "Mickey Mouse ears",
+            "A Goofy hat",
+            "A Mad Hatter hat",
+            "A bucket hat"
+          ],
+          "reveal": "[excited] The correct answer is Mickey Mouse ears! [laughs] Ears up, everybody!",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "A classic black felt beanie cap with two large round black ears attached on top, sitting on a wooden shop counter, warm studio lighting Original artwork, no people, no characters, no text, no logos.",
+            "file": "media/merch-and-ears--souvenir-silhouettes-200.jpg"
+          }
+        },
+        {
+          "value": 400,
+          "clue": "This roomy long-sleeved shirt with arched lettering on the front is a huge Disney fan favorite. It's called this.",
+          "answer": "A spirit jersey",
+          "accept": [
+            "spirit jersey",
+            "a spirit jersey",
+            "spirit jerseys"
+          ],
+          "choices": [
+            "A spirit jersey",
+            "A park hoodie",
+            "A varsity tee",
+            "A sports jersey"
+          ],
+          "reveal": "The correct answer is a spirit jersey! [chuckles] Comfy, colorful and in about a hundred shades.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "An oversized pastel lavender long-sleeve crewneck sweatshirt laid flat on a white table, with blank arched decorative stitching across the chest and dropped shoulders Original artwork, no people, no characters, no text, no logos.",
+            "file": "media/merch-and-ears--souvenir-silhouettes-400.jpg"
+          }
+        },
+        {
+          "value": 600,
+          "clue": "This wearable band, introduced at Walt Disney World in 2013, can be your park ticket and hotel room key.",
+          "answer": "MagicBand",
+          "accept": [
+            "magicband",
+            "magic band",
+            "magic bands",
+            "magicbands"
+          ],
+          "choices": [
+            "MagicBand",
+            "FastBand",
+            "PixieBand",
+            "Mouse Bracelet"
+          ],
+          "reveal": "[excited] The correct answer is MagicBand! Tap and go. [laughs] It's magic on your wrist.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "A colorful rubber wristband with a small round sensor disc in the middle, resting on a turnstile beside a glowing circular reader light Original artwork, no people, no characters, no text, no logos.",
+            "file": "media/merch-and-ears--souvenir-silhouettes-600.jpg"
+          }
+        },
+        {
+          "value": 800,
+          "clue": "These crank machines squash a coin into an oval souvenir with a picture on it. Name the souvenir.",
+          "answer": "Pressed pennies",
+          "accept": [
+            "pressed pennies",
+            "pressed penny",
+            "smashed pennies",
+            "squished pennies",
+            "elongated pennies",
+            "elongated coins",
+            "pressed coins"
+          ],
+          "choices": [
+            "Pressed pennies",
+            "Gold coins",
+            "Wooden nickels",
+            "Collector tokens"
+          ],
+          "reveal": "The correct answer is pressed pennies! [chuckles] Fifty cents plus a penny. The best cheap souvenir in the park.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "An old-fashioned brass penny-pressing machine with a big crank handle, and a few stretched oval copper coins scattered on a velvet tray Original artwork, no people, no characters, no text, no logos.",
+            "file": "media/merch-and-ears--souvenir-silhouettes-800.jpg"
+          }
+        },
+        {
+          "value": 1000,
+          "clue": "Before 1982, Disneyland's most thrilling rides needed this top-level ticket from a ticket book.",
+          "answer": "The E-ticket",
+          "accept": [
+            "e-ticket",
+            "e ticket",
+            "the e-ticket",
+            "the e ticket",
+            "e"
+          ],
+          "choices": [
+            "The E-ticket",
+            "The A-ticket",
+            "The C-ticket",
+            "The Z-ticket"
+          ],
+          "reveal": "[impressed] The correct answer is the E-ticket! It's why people still call a great ride an E-ticket ride. True Disney nerd points!",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "A vintage paper ticket booklet from the 1960s, with colorful perforated coupons in a row from cheapest to fanciest, a blank top coupon glowing, on an old wooden ticket booth counter Original artwork, no people, no characters, no text, no logos.",
+            "file": "media/merch-and-ears--souvenir-silhouettes-1000.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ears-to-you",
+      "title": "Ears to You",
+      "kind": "theme",
+      "intro": "Ear hats are the most iconic Disney souvenir. [laughs] Let's hear it for the ears!",
+      "format": "text",
+      "art": {
+        "prompt": "A long wall display of colorful ear headbands in every color and sparkle, glowing ears in the middle, and a sewing machine with spools of thread Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/merch-and-ears--ears-to-you.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "The first Mickey ears were worn by kids called Mouseketeers on this 1950s TV show.",
+          "answer": "The Mickey Mouse Club",
+          "accept": [
+            "the mickey mouse club",
+            "mickey mouse club",
+            "mmc"
+          ],
+          "choices": [
+            "The Mickey Mouse Club",
+            "The Wonderful World of Disney",
+            "Disneyland",
+            "Mickey's Clubhouse"
+          ],
+          "reveal": "[excited] The correct answer is The Mickey Mouse Club! M-I-C, see you real soon! [laughs] It debuted in 1955.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Minnie Mouse ears usually come with this accessory on top.",
+          "answer": "A bow",
+          "accept": [
+            "bow",
+            "a bow",
+            "a hair bow",
+            "hair bow",
+            "ribbon"
+          ],
+          "choices": [
+            "A bow",
+            "A crown",
+            "A flower",
+            "A star"
+          ],
+          "reveal": "The correct answer is a bow! [chuckles] Polka dots are optional, but highly recommended.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "At some Disney shops, cast members will stitch this onto the back of your classic ear hat for free or a small fee.",
+          "answer": "Your name",
+          "accept": [
+            "your name",
+            "name",
+            "my name",
+            "a name",
+            "name embroidery"
+          ],
+          "choices": [
+            "Your name",
+            "Your birthday",
+            "Your hometown",
+            "Your favorite ride"
+          ],
+          "reveal": "The correct answer is your name! [laughs] That way nobody steals your ears.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In 2012, Disney California Adventure sold light-up ears that sync with the World of Color show, called this.",
+          "answer": "Glow with the Show ears",
+          "accept": [
+            "glow with the show",
+            "glow with the show ears",
+            "glow ears"
+          ],
+          "choices": [
+            "Glow with the Show ears",
+            "Light Up the Night ears",
+            "Lumiere ears",
+            "Electric ears"
+          ],
+          "reveal": "[gasps] The correct answer is Glow with the Show ears! The ears change color with the music. [laughs] Very futuristic.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "The original Mouseketeer ears were created by this Disney artist known as the Big Mooseketeer.",
+          "answer": "Roy Williams",
+          "accept": [
+            "roy williams"
+          ],
+          "choices": [
+            "Roy Williams",
+            "Roy O. Disney",
+            "Ub Iwerks",
+            "Ward Kimball"
+          ],
+          "reveal": "[impressed] The correct answer is Roy Williams! He was a Disney animator and storyman. True Disney nerd points!",
+          "dailyDouble": true
+        }
+      ]
+    },
+    {
+      "id": "pin-trading-post",
+      "title": "Pin Trading Post",
+      "kind": "parks",
+      "intro": "Disney pin trading is a whole sport. [laughs] Trade you a question for an answer!",
+      "format": "text",
+      "art": {
+        "prompt": "A corkboard and a long cord lanyard covered in shiny enamel pins of castles, stars, rockets and hearts, with a magnifying glass and a pin backing on the table Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/merch-and-ears--pin-trading-post.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Cast members wear pins for trading on this kind of neck cord.",
+          "answer": "A lanyard",
+          "accept": [
+            "lanyard",
+            "a lanyard",
+            "lanyards"
+          ],
+          "choices": [
+            "A lanyard",
+            "A sash",
+            "A bandana",
+            "A belt"
+          ],
+          "reveal": "[excited] The correct answer is a lanyard! [chuckles] Just ask a cast member to see their pins.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Official Disney pin trading began at Walt Disney World in this year, during the Millennium Celebration.",
+          "answer": "1999",
+          "accept": [
+            "1999"
+          ],
+          "choices": [
+            "1999",
+            "1987",
+            "1995",
+            "2005"
+          ],
+          "reveal": "The correct answer is 1999! [laughs] Pins went crazy for Y2K.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Cast-member-only pins with a tiny Mickey head icon on the front are called these kind of pins.",
+          "answer": "Hidden Mickey pins",
+          "accept": [
+            "hidden mickey pins",
+            "hidden mickey",
+            "hidden mickeys",
+            "hidden mickey pin"
+          ],
+          "choices": [
+            "Hidden Mickey pins",
+            "Mickey Mystery pins",
+            "Secret Mickey pins",
+            "Lucky Mickey pins"
+          ],
+          "reveal": "The correct answer is Hidden Mickey pins! [whispers] Look for the little Mickey head icon.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Pin traders call fake or unauthorized Disney pins by this name.",
+          "answer": "Scrappers",
+          "accept": [
+            "scrappers",
+            "scrapper",
+            "scrapper pins",
+            "fakes",
+            "fake pins"
+          ],
+          "choices": [
+            "Scrappers",
+            "Swappers",
+            "Clunkers",
+            "Rattlers"
+          ],
+          "reveal": "[gasps] The correct answer is scrappers! [sighs] Watch out for weird colors and messy edges.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Many genuine Disney pins have a pattern of tiny Mickey heads on the back with this breakfast-food name.",
+          "answer": "Waffle pattern",
+          "accept": [
+            "waffle",
+            "waffle pattern",
+            "mickey waffle",
+            "waffle back"
+          ],
+          "choices": [
+            "Waffle pattern",
+            "Pancake pattern",
+            "Toast pattern",
+            "Biscuit pattern"
+          ],
+          "reveal": "[impressed] The correct answer is a waffle pattern! It's a sign the pin is official. True pin-trader points!",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "shop-talk",
+      "title": "Shop Talk",
+      "kind": "fan",
+      "intro": "The fan side of Disney shopping, from giant stores to viral buckets. [laughs] Add to cart!",
+      "format": "text",
+      "art": {
+        "prompt": "A huge flagship gift shop interior with towering shelves of plush toys, mini backpacks on hooks and a glowing purple popcorn bucket on a spotlit pedestal Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/merch-and-ears--shop-talk.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This giant store at Disney Springs is one of the largest Disney stores in the world.",
+          "answer": "World of Disney",
+          "accept": [
+            "world of disney"
+          ],
+          "choices": [
+            "World of Disney",
+            "Disney Emporium",
+            "Mickey's Mart",
+            "Disney Megastore"
+          ],
+          "reveal": "[excited] The correct answer is World of Disney! [laughs] Bring an extra bag. Or three.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "This brand's mini backpacks and wallets are a huge hit with Disney fans.",
+          "answer": "Loungefly",
+          "accept": [
+            "loungefly",
+            "lounge fly"
+          ],
+          "choices": [
+            "Loungefly",
+            "Vera Bradley",
+            "Kate Spade",
+            "Coach"
+          ],
+          "reveal": "The correct answer is Loungefly! [chuckles] Fans collect them like trading pins.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "The very first Disney Store opened in 1987 inside a shopping mall in this Southern California city.",
+          "answer": "Glendale",
+          "accept": [
+            "glendale",
+            "glendale california",
+            "glendale galleria"
+          ],
+          "choices": [
+            "Glendale",
+            "Anaheim",
+            "Burbank",
+            "Pasadena"
+          ],
+          "reveal": "[gasps] The correct answer is Glendale! The Glendale Galleria. [laughs] Right near Walt Disney Imagineering's headquarters.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In 2024, a popcorn bucket of this little purple dragon from Epcot became a viral, hard-to-get souvenir.",
+          "answer": "Figment",
+          "accept": [
+            "figment"
+          ],
+          "choices": [
+            "Figment",
+            "Elliott",
+            "Spike",
+            "Mushu"
+          ],
+          "reveal": "The correct answer is Figment! [laughs] One little spark, and a lot of internet memes. Fans waited hours.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "In 2017, this shiny pinkish metallic color became a huge Disney merch trend, appearing on Minnie ears and more.",
+          "answer": "Rose gold",
+          "accept": [
+            "rose gold"
+          ],
+          "choices": [
+            "Rose gold",
+            "Millennial pink",
+            "Champagne",
+            "Copper"
+          ],
+          "reveal": "[impressed] The correct answer is rose gold! [chuckles] Rose gold ears were everywhere. True fashionista points!",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,564 @@
+{
+  "id": "springs-and-water-parks",
+  "title": "Splash, Shop and Slide",
+  "theme": "Disney Springs, Typhoon Lagoon and Blizzard Beach",
+  "tags": [
+    "parks",
+    "water-parks",
+    "shopping",
+    "walt-disney-world",
+    "history"
+  ],
+  "intro": "[excited] Sunscreen on, shopping bags ready! Tonight we're skipping the castle and heading to Disney Springs, Typhoon Lagoon and Blizzard Beach. [laughs] Warning: some of these questions are slippery!",
+  "art": {
+    "prompt": "A sunny Florida panorama: a waterfront shopping district with a hot-air balloon overhead, a giant wave crashing in a tropical lagoon beneath a shipwrecked shrimp boat on a mountaintop, and a melting snow-capped mountain with ski lifts and water slides Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+    "file": "media/springs-and-water-parks.jpg"
+  },
+  "categories": [
+    {
+      "id": "making-waves-on-screen",
+      "title": "Making Waves on Screen",
+      "kind": "film",
+      "intro": "Water parks love a water movie. [chuckles] Dive into these splashy Disney films.",
+      "format": "text",
+      "art": {
+        "prompt": "An underwater coral reef glowing with sunlight, a sea turtle shell silhouette in the current, a coconut-shell boat bobbing on the surface and a tiny snowflake drifting down from above Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/springs-and-water-parks--making-waves-on-screen.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In Finding Nemo, this laid-back sea turtle surfs the East Australian Current. Typhoon Lagoon's water coaster is named for him.",
+          "answer": "Crush",
+          "accept": [
+            "crush"
+          ],
+          "choices": [
+            "Crush",
+            "Squirt",
+            "Bruce",
+            "Gill"
+          ],
+          "reveal": "[laughs] The correct answer is Crush! Totally righteous, dude. His water coaster, Crush 'n' Gusher, opened at Typhoon Lagoon in 2005.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Frozen's snowman dreams of sunshine in this song. Good thing he never visited Blizzard Beach!",
+          "answer": "In Summer",
+          "accept": [
+            "in summer",
+            "summer"
+          ],
+          "choices": [
+            "In Summer",
+            "Let It Go",
+            "Do You Want to Build a Snowman?",
+            "For the First Time in Forever"
+          ],
+          "reveal": "The correct answer is In Summer! [chuckles] A snowman who loves heat. Olaf would melt right along with Blizzard Beach's story.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "In Luca, sea monsters turn into humans whenever they get dry, then visit this Italian seaside town.",
+          "answer": "Portorosso",
+          "accept": [
+            "portorosso",
+            "porto rosso"
+          ],
+          "choices": [
+            "Portorosso",
+            "Portofino",
+            "Monterosso",
+            "Isola Bella"
+          ],
+          "reveal": "[excited] The correct answer is Portorosso! Gelato, Vespas and a pasta-eating triathlon. Silenzio, Bruno!",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In Finding Nemo, the dentist's fish-tank gang is led by this scarred Moorish idol.",
+          "answer": "Gill",
+          "accept": [
+            "gill"
+          ],
+          "choices": [
+            "Gill",
+            "Bloat",
+            "Jacques",
+            "Peach"
+          ],
+          "reveal": "The correct answer is Gill! [whispers] He plans the great escape. Shark bait, ooh ha ha!",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "In Moana, these tiny pirates armor themselves in coconuts and attack on a fleet of boats.",
+          "answer": "The Kakamora",
+          "accept": [
+            "kakamora",
+            "the kakamora",
+            "kakamoras"
+          ],
+          "choices": [
+            "The Kakamora",
+            "The Tamatoa",
+            "The Menehune",
+            "The Tiki Tribe"
+          ],
+          "reveal": "[gasps] The correct answer is the Kakamora! Small, cute, and absolutely terrifying. True Disney nerd points!",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "storm-surge-stories",
+      "title": "Storm Surge Stories",
+      "kind": "parks",
+      "intro": "Typhoon Lagoon's story says a giant storm blew everything into place. [laughs] Hang on to your swimsuit!",
+      "format": "text",
+      "art": {
+        "prompt": "A tropical lagoon after a storm: a rusty shrimp boat impaled on the peak of a craggy mountain, surfboards stuck in palm trees, and a giant blue wave rolling across a huge pool Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/springs-and-water-parks--storm-surge-stories.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Typhoon Lagoon's giant wave pool is so big that guests have taken lessons there in this board sport.",
+          "answer": "Surfing",
+          "accept": [
+            "surf",
+            "surfing",
+            "surf lessons",
+            "learn to surf"
+          ],
+          "choices": [
+            "Surfing",
+            "Skateboarding",
+            "Snowboarding",
+            "Water skiing"
+          ],
+          "reveal": "[excited] The correct answer is surfing! Typhoon Lagoon's wave pool is so big, guests have taken surfing lessons there. Cowabunga!",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "A shrimp boat named Miss Tilly is stuck on top of this mountain in the middle of Typhoon Lagoon.",
+          "answer": "Mount Mayday",
+          "accept": [
+            "mount mayday",
+            "mt mayday",
+            "mt. mayday",
+            "mayday"
+          ],
+          "choices": [
+            "Mount Mayday",
+            "Mount Gushmore",
+            "Mount Monsoon",
+            "Mount Splashmore"
+          ],
+          "reveal": "The correct answer is Mount Mayday! [laughs] Mayday, mayday! Every so often Miss Tilly blasts water into the sky.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Typhoon Lagoon's water coaster uses jets of water to push rafts uphill. Name it.",
+          "answer": "Crush 'n' Gusher",
+          "accept": [
+            "crush 'n' gusher",
+            "crush n gusher",
+            "crush and gusher",
+            "crush 'n gusher"
+          ],
+          "choices": [
+            "Crush 'n' Gusher",
+            "Humunga Kowabunga",
+            "Gangplank Falls",
+            "Miss Adventure Falls"
+          ],
+          "reveal": "[gasps] The correct answer is Crush 'n' Gusher! Water coasters go UP. [laughs] Physics at the water park!",
+          "dailyDouble": true
+        },
+        {
+          "value": 800,
+          "clue": "Typhoon Lagoon opened in this year, the same year as Disney-MGM Studios.",
+          "answer": "1989",
+          "accept": [
+            "1989"
+          ],
+          "choices": [
+            "1989",
+            "1982",
+            "1995",
+            "1998"
+          ],
+          "reveal": "The correct answer is 1989! [chuckles] A busy year at Walt Disney World. Pleasure Island opened that year too.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "For years, this Typhoon Lagoon attraction let guests snorkel in a saltwater pool with tropical fish and small sharks.",
+          "answer": "Shark Reef",
+          "accept": [
+            "shark reef"
+          ],
+          "choices": [
+            "Shark Reef",
+            "Coral Cove",
+            "Stingray Bay",
+            "Reef Runner"
+          ],
+          "reveal": "[impressed] The correct answer is Shark Reef! The saltwater snorkel pool is gone now. True water park nerd points!",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "snowmelt-summit",
+      "title": "Snowmelt Summit",
+      "kind": "theme",
+      "intro": "Blizzard Beach has a wild backstory about snow in Florida. [laughs] Only in Florida! Bundle up for this one.",
+      "format": "text",
+      "art": {
+        "prompt": "A melting snowy mountain in tropical sunshine with icicles dripping, an empty ski chairlift climbing the slope, skis stuck in the snow and long water slides winding down to a pool Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/springs-and-water-parks--snowmelt-summit.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Blizzard Beach's theme is a melting version of this kind of winter vacation spot.",
+          "answer": "A ski resort",
+          "accept": [
+            "ski resort",
+            "a ski resort",
+            "ski lodge",
+            "a ski lodge"
+          ],
+          "choices": [
+            "A ski resort",
+            "An ice rink",
+            "A toy shop",
+            "A polar research station"
+          ],
+          "reveal": "[excited] The correct answer is a ski resort! Ski slopes in Florida melted into water slides. [laughs] Genius.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Water slides run down this mountain at the center of Blizzard Beach.",
+          "answer": "Mount Gushmore",
+          "accept": [
+            "mount gushmore",
+            "mt gushmore",
+            "mt. gushmore",
+            "gushmore"
+          ],
+          "choices": [
+            "Mount Gushmore",
+            "Mount Mayday",
+            "Mount Slushmore",
+            "Mount Icebreaker"
+          ],
+          "reveal": "The correct answer is Mount Gushmore! [chuckles] Like Mount Rushmore, but much wetter.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Guests can ride this up Mount Gushmore, just like at a real ski resort.",
+          "answer": "A chairlift",
+          "accept": [
+            "chairlift",
+            "a chairlift",
+            "chair lift",
+            "ski lift",
+            "a ski lift"
+          ],
+          "choices": [
+            "A chairlift",
+            "A gondola",
+            "A cog railway",
+            "A monorail"
+          ],
+          "reveal": "The correct answer is a chairlift! [laughs] Feet dangling over Florida. A ski resort classic.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "This Blizzard Beach speed slide drops riders 120 feet from a ski jump at the top of the mountain.",
+          "answer": "Summit Plummet",
+          "accept": [
+            "summit plummet"
+          ],
+          "choices": [
+            "Summit Plummet",
+            "Slush Gusher",
+            "Downhill Double Dipper",
+            "Toboggan Racers"
+          ],
+          "reveal": "[gasps] The correct answer is Summit Plummet! It's one of the tallest free-fall speed slides anywhere. [whispers] Cross your arms and your ankles.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Blizzard Beach, which opened in 1995, has this cool mascot: a reptile wearing a scarf and ski cap.",
+          "answer": "Ice Gator",
+          "accept": [
+            "ice gator",
+            "the ice gator",
+            "icegator"
+          ],
+          "choices": [
+            "Ice Gator",
+            "Frosty Croc",
+            "Snowy Snapper",
+            "Chilly Lizard"
+          ],
+          "reveal": "[impressed] The correct answer is Ice Gator! He's an alligator who loves the snow. True Disney nerd points!",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "springs-snapshots",
+      "title": "Springs Snapshots",
+      "kind": "media",
+      "intro": "Real photos from Disney Springs and its water parks. [chuckles] Tell me what you're looking at!",
+      "format": "picture",
+      "art": {
+        "prompt": "A sunny waterfront promenade with a vintage boat dock, a hot-air balloon tethered over a lake and shopping bags on a wooden bench Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/springs-and-water-parks--springs-snapshots.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This soda brand's giant store at Disney Springs has a rooftop bar with drinks from around the world. Name the brand.",
+          "answer": "Coca-Cola",
+          "accept": [
+            "coca-cola",
+            "coca cola",
+            "coke"
+          ],
+          "choices": [
+            "Coca-Cola",
+            "Pepsi",
+            "Dr Pepper",
+            "Sprite"
+          ],
+          "reveal": "[excited] The correct answer is Coca-Cola! The store opened in 2015. [laughs] Go upstairs and taste sodas from around the world.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "file": "media/springs-and-water-parks--springs-snapshots-200.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Coca-Cola_store,_Disney_Springs.jpg",
+              "license": "CC BY-SA 4.0",
+              "author": "Michael Rivera"
+            }
+          }
+        },
+        {
+          "value": 400,
+          "clue": "This gas fills the giant tethered balloon that lifts guests up to 400 feet above Disney Springs.",
+          "answer": "Helium",
+          "accept": [
+            "helium",
+            "helium gas"
+          ],
+          "choices": [
+            "Helium",
+            "Hydrogen",
+            "Hot air",
+            "Nitrogen"
+          ],
+          "reveal": "The correct answer is helium! It's the Aerophile balloon, and it's tethered to the ground. [laughs] Up, up and away!",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "file": "media/springs-and-water-parks--springs-snapshots-400.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:DowntownDisney-Balloon-2093.jpg",
+              "license": "CC BY-SA 3.0",
+              "author": "Loadmaster (David R. Tribble)"
+            }
+          }
+        },
+        {
+          "value": 600,
+          "clue": "At this Disney Springs restaurant, guests can ride in vintage Amphicars, cars that drive right into the lake.",
+          "answer": "The Boathouse",
+          "accept": [
+            "the boathouse",
+            "boathouse"
+          ],
+          "choices": [
+            "The Boathouse",
+            "Raglan Road",
+            "The Edison",
+            "Paddlefish"
+          ],
+          "reveal": "[gasps] The correct answer is the Boathouse! Amphicars are part car, part boat. [laughs] Floor it into the lagoon!",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "file": "media/springs-and-water-parks--springs-snapshots-600.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:The_Boathouse%27s_Amphicar_Launch_(24251049474).jpg",
+              "license": "CC BY 2.0",
+              "author": "Forsaken Fotos from  , Maryland"
+            }
+          }
+        },
+        {
+          "value": 800,
+          "clue": "At which Disney water park can families ride Teamboat Springs, a long white-water raft ride for big groups?",
+          "answer": "Blizzard Beach",
+          "accept": [
+            "blizzard beach"
+          ],
+          "choices": [
+            "Blizzard Beach",
+            "Typhoon Lagoon",
+            "River Country",
+            "Aulani"
+          ],
+          "reveal": "The correct answer is Blizzard Beach! [chuckles] Teamboat Springs is a family raft ride, so the whole team spins down the mountain together.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "file": "media/springs-and-water-parks--springs-snapshots-800.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Team_Boat_Springs.jpg",
+              "license": "Public domain",
+              "author": "Dr latino999 at English Wikipedia"
+            }
+          }
+        },
+        {
+          "value": 1000,
+          "clue": "The springs that gave Disney Springs its name bubble up in this central area of the district, between Marketplace and West Side.",
+          "answer": "Town Center",
+          "accept": [
+            "town center",
+            "the town center",
+            "town centre"
+          ],
+          "choices": [
+            "Town Center",
+            "The Landing",
+            "Pleasure Island",
+            "Hyperion Wharf"
+          ],
+          "reveal": "[impressed] The correct answer is Town Center! Its springs are part of the story behind the 2015 rename. True Springs scholar!",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "file": "media/springs-and-water-parks--springs-snapshots-1000.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:The_Springs_of_Disney_Springs_-_Town_Center_(26499507463).jpg",
+              "license": "CC BY-SA 2.0",
+              "author": "elisfkc from Orlando, FL, United States"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "before-it-was-springs",
+      "title": "Before It Was Springs",
+      "kind": "fan",
+      "intro": "Disney Springs has had a lot of names and a lot of lives. [whispers] Let's dig up some history.",
+      "format": "text",
+      "art": {
+        "prompt": "A faded vintage postcard collage of a lakeside shopping village from the 1970s, a neon nightclub district and an old wooden water park dock overgrown with leaves Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/springs-and-water-parks--before-it-was-springs.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This Downtown Disney nightclub island famously celebrated New Year's Eve every single night.",
+          "answer": "Pleasure Island",
+          "accept": [
+            "pleasure island"
+          ],
+          "choices": [
+            "Pleasure Island",
+            "Treasure Island",
+            "Party Island",
+            "Discovery Island"
+          ],
+          "reveal": "[laughs] The correct answer is Pleasure Island! Countdown, confetti and fireworks every night. Happy New Year... again!",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "From 1998 to 2017, this five-story indoor arcade at Downtown Disney let guests play video games and virtual-reality rides.",
+          "answer": "DisneyQuest",
+          "accept": [
+            "disneyquest",
+            "disney quest"
+          ],
+          "choices": [
+            "DisneyQuest",
+            "Disney Arcade",
+            "GameWorks",
+            "Imagination Station"
+          ],
+          "reveal": "The correct answer is DisneyQuest! [sighs] Fans still miss it. You could design your own roller coaster and then ride it in a simulator.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "When it opened in 1975, the shopping area we now call Disney Springs was known by this name.",
+          "answer": "Lake Buena Vista Shopping Village",
+          "accept": [
+            "lake buena vista shopping village",
+            "shopping village",
+            "walt disney world shopping village"
+          ],
+          "choices": [
+            "Lake Buena Vista Shopping Village",
+            "Disney Marketplace",
+            "Downtown Disney",
+            "Disney Village"
+          ],
+          "reveal": "[gasps] The correct answer is Lake Buena Vista Shopping Village! A little lakeside village that grew into a huge district.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Downtown Disney became Disney Springs in this year, after a big makeover.",
+          "answer": "2015",
+          "accept": [
+            "2015"
+          ],
+          "choices": [
+            "2015",
+            "2010",
+            "2012",
+            "2019"
+          ],
+          "reveal": "The correct answer is 2015! [chuckles] The new name came with new shops and dining. Then Town Center opened in 2016.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Before Typhoon Lagoon and Blizzard Beach, this was Walt Disney World's first water park. It opened in 1976 and closed in 2001.",
+          "answer": "River Country",
+          "accept": [
+            "river country",
+            "disney's river country"
+          ],
+          "choices": [
+            "River Country",
+            "Pleasure Island",
+            "Discovery Island",
+            "Treasure Island"
+          ],
+          "reveal": "[impressed] The correct answer is River Country! A rustic swimming hole on Bay Lake. It never reopened after 2001. True Disney nerd points!",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}

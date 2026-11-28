@@ -1,0 +1,152 @@
+[
+  {
+    "film": "Davy Crockett, King of the Wild Frontier",
+    "category": "Davy Crockett, King of the Wild Frontier",
+    "clue": "Fess Parker's 1955 frontier hero started a nationwide merch craze for this furry hat with a striped tail.",
+    "answer": "A coonskin cap",
+    "accept": [
+      "coonskin cap",
+      "a coonskin cap",
+      "coonskin hat",
+      "raccoon hat",
+      "raccoon skin cap",
+      "coon skin cap",
+      "raccoon cap",
+      "raccoonskin cap",
+      "raccoon skin hat",
+      "raccoon-skin cap"
+    ],
+    "choices": [
+      "A coonskin cap",
+      "A cowboy hat",
+      "A Mouseketeer cap",
+      "A ten-gallon hat"
+    ],
+    "reveal": "[dramatic pause] The correct answer is a coonskin cap! [laughs] Kids everywhere wanted one. It was one of Disney's first giant souvenir crazes."
+  },
+  {
+    "film": "Pollyanna",
+    "category": "Pollyanna",
+    "clue": "In the 1960 film, Hayley Mills's cheerful orphan teaches a gloomy town to play this game of finding something to be happy about.",
+    "answer": "The Glad Game",
+    "accept": [
+      "the glad game",
+      "glad game",
+      "the glad game game"
+    ],
+    "choices": [
+      "The Glad Game",
+      "The Happy Game",
+      "The Smile Game",
+      "The Sunshine Game"
+    ],
+    "reveal": "[dramatic pause] The correct answer is the Glad Game! [chuckles] Hayley Mills won a special juvenile Academy Award for the role."
+  },
+  {
+    "film": "The Shaggy Dog",
+    "category": "The Shaggy Dog",
+    "clue": "In the 1959 comedy, teenager Wilby Daniels turns into an Old English Sheepdog after reading the inscription on this cursed piece of jewelry.",
+    "answer": "A ring",
+    "accept": [
+      "a ring",
+      "ring",
+      "the borgia ring",
+      "borgia ring",
+      "a magic ring",
+      "the ring"
+    ],
+    "choices": [
+      "A ring",
+      "A necklace",
+      "A bracelet",
+      "A brooch"
+    ],
+    "reveal": "[dramatic pause] The correct answer is a ring! [laughs] An old ring of the Borgias. Woof!"
+  },
+  {
+    "film": "The Country Bears",
+    "category": "The Country Bears",
+    "clue": "This 2002 movie about a bear band was based on this Magic Kingdom attraction, which opened with the park in 1971.",
+    "answer": "Country Bear Jamboree",
+    "accept": [
+      "country bear jamboree",
+      "the country bear jamboree",
+      "country bear musical jamboree"
+    ],
+    "choices": [
+      "Country Bear Jamboree",
+      "Enchanted Tiki Room",
+      "Hall of Presidents",
+      "Carousel of Progress"
+    ],
+    "reveal": "[dramatic pause] The correct answer is Country Bear Jamboree! [laughs] Big Al finally made it to the big screen."
+  },
+  {
+    "film": "The Nightmare Before Christmas",
+    "category": "The Nightmare Before Christmas",
+    "clue": "Jack Skellington's ghost dog has a glowing pumpkin nose that lights the way for Jack's sleigh. Name the dog.",
+    "answer": "Zero",
+    "accept": [
+      "zero"
+    ],
+    "choices": [
+      "Zero",
+      "Scraps",
+      "Sparky",
+      "Bones"
+    ],
+    "reveal": "[dramatic pause] The correct answer is Zero! [chuckles] A little Rudolph for Halloween Town."
+  },
+  {
+    "film": "Tomorrowland",
+    "category": "Tomorrowland",
+    "clue": "In the 2015 film, Casey Newton glimpses a futuristic city by touching a pin with a T on it. The pin was slipped to her by this mysterious robot girl.",
+    "answer": "Athena",
+    "accept": [
+      "athena"
+    ],
+    "choices": [
+      "Athena",
+      "Aurora",
+      "Ada",
+      "Iris"
+    ],
+    "reveal": "[dramatic pause] The correct answer is Athena! [gasps] She's an Audio-Animatronic recruiter for Tomorrowland. [laughs] Talk about a pin worth trading for!"
+  },
+  {
+    "film": "Haunted Mansion",
+    "category": "Haunted Mansion",
+    "clue": "The 2023 movie based on the classic ride moves the haunted house to this American city.",
+    "answer": "New Orleans",
+    "accept": [
+      "new orleans",
+      "nola",
+      "new orleans louisiana"
+    ],
+    "choices": [
+      "New Orleans",
+      "Salem",
+      "Savannah",
+      "Charleston"
+    ],
+    "reveal": "[dramatic pause] The correct answer is New Orleans! [whispers] Fitting, since Disneyland's mansion sits in New Orleans Square."
+  },
+  {
+    "film": "The Muppets",
+    "category": "The Muppets",
+    "clue": "This song from the 2011 film, sung by Jason Segel and Walter's alter egos, won the Oscar for Best Original Song.",
+    "answer": "Man or Muppet",
+    "accept": [
+      "man or muppet",
+      "man or a muppet",
+      "am i a man or a muppet"
+    ],
+    "choices": [
+      "Man or Muppet",
+      "Life's a Happy Song",
+      "Rainbow Connection",
+      "Pictures in My Head"
+    ],
+    "reveal": "[dramatic pause] The correct answer is Man or Muppet! [laughs] Am I a man, or am I a Muppet? Why not both?"
+  }
+]

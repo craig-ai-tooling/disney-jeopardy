@@ -1,0 +1,559 @@
+{
+  "id": "around-the-world-parks",
+  "title": "Disney Around the Globe",
+  "theme": "Disney parks around the world",
+  "tags": [
+    "parks",
+    "travel",
+    "international",
+    "tokyo",
+    "paris",
+    "shanghai",
+    "hong-kong"
+  ],
+  "intro": "[excited] Grab your passport and your neck pillow, everybody! Tonight we're leaving Florida and California behind and hopping between Paris, Tokyo, Hong Kong and Shanghai. [laughs] No jet lag allowed!",
+  "art": {
+    "prompt": "A glowing night skyline mashup of fantasy theme park icons from around the world: a pink-spired fairy-tale castle, a smoking volcano over a harbor, a glass-roofed Victorian arcade and red paper lanterns, all connected by dotted airplane flight paths across a vintage world map Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+    "file": "media/around-the-world-parks.jpg"
+  },
+  "categories": [
+    {
+      "id": "try-everything",
+      "title": "Try Everything",
+      "kind": "film",
+      "intro": "Shanghai Disneyland opened a whole land based on Zootopia, so our film category is going full mammal. [chuckles] Sloths, please answer quickly.",
+      "format": "text",
+      "art": {
+        "prompt": "A sleek futuristic animal city skyline with a rainforest district, a snowy tundra district and a desert district side by side under a sunrise, a tiny carrot-shaped pen and a police badge on a ledge in the foreground Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/around-the-world-parks--try-everything.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Zootopia's hero Judy Hopps, the city's first officer of her kind, is this kind of animal.",
+          "answer": "A rabbit",
+          "accept": [
+            "rabbit",
+            "a rabbit",
+            "bunny",
+            "a bunny"
+          ],
+          "choices": [
+            "A rabbit",
+            "A fox",
+            "A sloth",
+            "A mouse"
+          ],
+          "reveal": "[cheerful] The correct answer is a rabbit! Judy proves that a little bunny can be a big cop. [laughs] Just don't call her cute.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Judy grew up on a carrot farm in this rural hometown, far from the big city.",
+          "answer": "Bunnyburrow",
+          "accept": [
+            "bunnyburrow",
+            "bunny burrow"
+          ],
+          "choices": [
+            "Bunnyburrow",
+            "Sahara Square",
+            "Tundratown",
+            "Little Rodentia"
+          ],
+          "reveal": "The correct answer is Bunnyburrow! [chuckles] Population: a whole lot of bunnies, and growing every minute.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Shakira voices this pop-star gazelle who sings Try Everything.",
+          "answer": "Gazelle",
+          "accept": [
+            "gazelle"
+          ],
+          "choices": [
+            "Gazelle",
+            "Bellwether",
+            "Fru Fru",
+            "Clawhauser"
+          ],
+          "reveal": "[excited] The correct answer is Gazelle! And Benjamin Clawhauser is her number one fan. [laughs] He has the app and everything.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "This no-nonsense Cape buffalo is the chief of the Zootopia Police Department.",
+          "answer": "Chief Bogo",
+          "accept": [
+            "chief bogo",
+            "bogo"
+          ],
+          "choices": [
+            "Chief Bogo",
+            "Mayor Lionheart",
+            "Officer McHorn",
+            "Mr. Big"
+          ],
+          "reveal": "The correct answer is Chief Bogo! [laughs] He puts Judy on parking duty on day one. Rough first day at the office.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Zootopia land opened at Shanghai Disneyland in December of this year, the first land of its kind in the world.",
+          "answer": "2023",
+          "accept": [
+            "2023"
+          ],
+          "choices": [
+            "2023",
+            "2019",
+            "2021",
+            "2025"
+          ],
+          "reveal": "[gasps] The correct answer is 2023! Shanghai got the world's first Zootopia land, with a trackless ride called Zootopia: Hot Pursuit. True Disney nerd points!",
+          "dailyDouble": true
+        }
+      ]
+    },
+    {
+      "id": "only-over-there",
+      "title": "Only Over There",
+      "kind": "theme",
+      "intro": "These lands and rides exist only outside the United States. [whispers] Sorry, Florida.",
+      "format": "text",
+      "art": {
+        "prompt": "A world traveler's scrapbook spread open on a desk with illustrated sketches of an exotic harbor, a retro-futurist brass rocket, a Victorian mansion, a gold-rush mine town and a pirate galleon, plus a stack of foreign coins Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/around-the-world-parks--only-over-there.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Instead of Main Street, U.S.A., Shanghai Disneyland welcomes you on this street named after a very famous mouse.",
+          "answer": "Mickey Avenue",
+          "accept": [
+            "mickey avenue",
+            "mickey ave"
+          ],
+          "choices": [
+            "Mickey Avenue",
+            "Mickey Boulevard",
+            "Mouse Street",
+            "Ears Lane"
+          ],
+          "reveal": "[laughs] The correct answer is Mickey Avenue! Shanghai skipped the small-town America theme and went straight to the main mouse.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Disneyland Paris swaps Tomorrowland for this retro-futuristic land inspired by Jules Verne and H.G. Wells.",
+          "answer": "Discoveryland",
+          "accept": [
+            "discoveryland",
+            "discovery land"
+          ],
+          "choices": [
+            "Discoveryland",
+            "Futureland",
+            "Galaxyland",
+            "Inventionland"
+          ],
+          "reveal": "The correct answer is Discoveryland! [excited] Brass rockets, submarines and big dreamers of Europe. Very steampunk, very French.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Shanghai Disneyland's Pirates of the Caribbean ride has this subtitle, with an epic underwater battle.",
+          "answer": "Battle for the Sunken Treasure",
+          "accept": [
+            "battle for the sunken treasure",
+            "battle for sunken treasure"
+          ],
+          "choices": [
+            "Battle for the Sunken Treasure",
+            "Curse of the Black Pearl",
+            "At World's End",
+            "Dead Men Tell No Tales"
+          ],
+          "reveal": "[gasps] The correct answer is Battle for the Sunken Treasure! Huge screens plus real sets. You ride right under the sea with Jack Sparrow.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In Tokyo DisneySea, this port is home to the smoking volcano Mount Prometheus and Journey to the Center of the Earth.",
+          "answer": "Mysterious Island",
+          "accept": [
+            "mysterious island"
+          ],
+          "choices": [
+            "Mysterious Island",
+            "Port Discovery",
+            "Lost River Delta",
+            "Arabian Coast"
+          ],
+          "reveal": "The correct answer is Mysterious Island! [whispers] It's Captain Nemo's secret base. And yes, the volcano really erupts.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Hong Kong Disneyland's gold-rush land, home of Big Grizzly Mountain Runaway Mine Cars, is called this.",
+          "answer": "Grizzly Gulch",
+          "accept": [
+            "grizzly gulch"
+          ],
+          "choices": [
+            "Grizzly Gulch",
+            "Gold Rush Gulch",
+            "Bear Country",
+            "Thunder Mesa"
+          ],
+          "reveal": "[impressed] The correct answer is Grizzly Gulch! A Wild West boomtown in Hong Kong, with a coaster that runs backwards. [laughs] Hold on to your hat!",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "postcards-from-abroad",
+      "title": "Postcards from Abroad",
+      "kind": "media",
+      "intro": "Real photos from Disney parks overseas. Tell me where in the world you are! [chuckles] No peeking at your passport stamps.",
+      "format": "picture",
+      "art": {
+        "prompt": "A wire rack of blank vintage postcards spinning in a souvenir shop window, sunlight streaming in, with a world globe, a compass and an airplane ticket stub nearby Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/around-the-world-parks--postcards-from-abroad.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This castle, the biggest Disney has ever built, is the centerpiece of the Disney park in which city?",
+          "answer": "Shanghai",
+          "accept": [
+            "shanghai",
+            "shanghai disneyland"
+          ],
+          "choices": [
+            "Shanghai",
+            "Hong Kong",
+            "Tokyo",
+            "Paris"
+          ],
+          "reveal": "[excited] The correct answer is Shanghai! The Enchanted Storybook Castle opened with the park in 2016, and it's honoring every Disney princess.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "file": "media/around-the-world-parks--postcards-from-abroad-200.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Enchanted_Storybook_Castle_(125424).jpg",
+              "license": "CC0",
+              "author": "Riku Lu"
+            }
+          }
+        },
+        {
+          "value": 400,
+          "clue": "This glass-roofed shopping street replaces Main Street, U.S.A. at which park? It keeps shoppers dry on rainy days.",
+          "answer": "Tokyo Disneyland",
+          "accept": [
+            "tokyo disneyland",
+            "tokyo"
+          ],
+          "choices": [
+            "Tokyo Disneyland",
+            "Tokyo DisneySea",
+            "Hong Kong Disneyland",
+            "Disneyland Paris"
+          ],
+          "reveal": "The correct answer is Tokyo Disneyland! It's called World Bazaar. [laughs] Rain or shine, the shopping never stops.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "file": "media/around-the-world-parks--postcards-from-abroad-400.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:World_Bazaar,_Tokyo_Disneyland_(9409949418).jpg",
+              "license": "CC BY 2.0",
+              "author": "Rob Young from United Kingdom"
+            }
+          }
+        },
+        {
+          "value": 600,
+          "clue": "This rocky volcano, which rumbles and erupts, is the icon of which Disney park?",
+          "answer": "Tokyo DisneySea",
+          "accept": [
+            "tokyo disneysea",
+            "disneysea",
+            "disney sea",
+            "tokyo disney sea"
+          ],
+          "choices": [
+            "Tokyo DisneySea",
+            "Tokyo Disneyland",
+            "Shanghai Disneyland",
+            "Hong Kong Disneyland"
+          ],
+          "reveal": "[gasps] The correct answer is Tokyo DisneySea! That's Mount Prometheus. The park opened in 2001 and fans call it one of the most beautiful parks on Earth.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "file": "media/around-the-world-parks--postcards-from-abroad-600.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Tokyo_DisneySea_-_A_Walk_Along_Mount_Prometheus.jpg",
+              "license": "CC BY-SA 2.5",
+              "author": "Okwhatev at en.wikipedia"
+            }
+          }
+        },
+        {
+          "value": 800,
+          "clue": "Name this Hong Kong Disneyland attraction, where a monkey named Albert opens a magic music box and brings a whole house to life.",
+          "answer": "Mystic Manor",
+          "accept": [
+            "mystic manor"
+          ],
+          "choices": [
+            "Mystic Manor",
+            "Phantom Manor",
+            "Haunted Mansion",
+            "Tower of Terror"
+          ],
+          "reveal": "The correct answer is Mystic Manor! [chuckles] Lord Henry Mystic's collection goes wild, all to a Danny Elfman score. No ghosts, just mischief.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "file": "media/around-the-world-parks--postcards-from-abroad-800.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Disneyland_Hong_Kong_Mystic_Manor_IMG_5468.JPG",
+              "license": "CC BY-SA 3.0",
+              "author": "Deror Avi"
+            }
+          }
+        },
+        {
+          "value": 1000,
+          "clue": "This glowing lightcycle coaster debuted in 2016 at which park, seven years before Magic Kingdom got its own version?",
+          "answer": "Shanghai Disneyland",
+          "accept": [
+            "shanghai disneyland",
+            "shanghai"
+          ],
+          "choices": [
+            "Shanghai Disneyland",
+            "Tokyo Disneyland",
+            "Hong Kong Disneyland",
+            "Disneyland Paris"
+          ],
+          "reveal": "[excited] The correct answer is Shanghai Disneyland! TRON Lightcycle Power Run opened there first. Magic Kingdom's twin arrived in 2023.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "file": "media/around-the-world-parks--postcards-from-abroad-1000.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Tron_Lightcycles_Power_Run_(29586661836).jpg",
+              "license": "CC BY 2.0",
+              "author": "Jeremy Thompson from Los Angeles, California"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "grand-openings-abroad",
+      "title": "Grand Openings Abroad",
+      "kind": "parks",
+      "intro": "When did the castle gates swing open overseas? [laughs] Dust off your history books.",
+      "format": "text",
+      "art": {
+        "prompt": "A giant ceremonial gold ribbon and oversized scissors in front of a fairy-tale castle gate, confetti and fireworks bursting in the sky, flags of many nations fluttering Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/around-the-world-parks--grand-openings-abroad.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "The very first Disney park outside the United States opened in 1983 in this country.",
+          "answer": "Japan",
+          "accept": [
+            "japan"
+          ],
+          "choices": [
+            "Japan",
+            "France",
+            "China",
+            "England"
+          ],
+          "reveal": "[excited] The correct answer is Japan! Tokyo Disneyland opened on April 15, 1983. Konnichiwa, Mickey!",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "When it opened in 1992, Disneyland Paris went by this name.",
+          "answer": "Euro Disneyland",
+          "accept": [
+            "euro disneyland",
+            "euro disney",
+            "euro disney resort"
+          ],
+          "choices": [
+            "Euro Disneyland",
+            "Disneyland Europe",
+            "Disney France",
+            "Magic Kingdom Paris"
+          ],
+          "reveal": "The correct answer is Euro Disneyland! [chuckles] The name changed in the 1990s. Paris just sounded more magical.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Hong Kong Disneyland opened its gates on Lantau Island in this year.",
+          "answer": "2005",
+          "accept": [
+            "2005"
+          ],
+          "choices": [
+            "2005",
+            "1999",
+            "2001",
+            "2010"
+          ],
+          "reveal": "The correct answer is 2005! Opening day was September 12, 2005, and in 2023 it added the world's first World of Frozen.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Disney does not own Tokyo Disney Resort. It's owned and run by this Japanese company, which licenses the magic from Disney.",
+          "answer": "The Oriental Land Company",
+          "accept": [
+            "oriental land company",
+            "the oriental land company",
+            "olc"
+          ],
+          "choices": [
+            "The Oriental Land Company",
+            "Tokyo Mouse Corporation",
+            "Sanrio",
+            "Nintendo"
+          ],
+          "reveal": "[impressed] The correct answer is the Oriental Land Company! That's why Tokyo's parks feel so unique. They do things their own way.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "In 2026, Disneyland Paris's second park, Walt Disney Studios Park, reopened under this new name.",
+          "answer": "Disney Adventure World",
+          "accept": [
+            "disney adventure world",
+            "adventure world"
+          ],
+          "choices": [
+            "Disney Adventure World",
+            "Disney Studios Paris",
+            "Disney Discovery Park",
+            "Disney Imagination World"
+          ],
+          "reveal": "[gasps] The correct answer is Disney Adventure World! The rename arrived with the park's own World of Frozen. True globe-trotter points!",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "snack-passport",
+      "title": "Snack Passport",
+      "kind": "fan",
+      "intro": "Our fan category is all about the treats you can only eat overseas. [laughs] Bring stretchy pants.",
+      "format": "text",
+      "art": {
+        "prompt": "A colorful street-food spread on a wooden counter: buckets of popcorn in many flavors, a bubbly golden egg waffle, a long dumpling-stuffed bun and a little bowl of ratatouille, with paper lanterns overhead Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/around-the-world-parks--snack-passport.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Tokyo Disney Resort is famous for selling this snack in flavors like curry, honey, and soy sauce and butter.",
+          "answer": "Popcorn",
+          "accept": [
+            "popcorn"
+          ],
+          "choices": [
+            "Popcorn",
+            "Ice cream",
+            "Churros",
+            "Cotton candy"
+          ],
+          "reveal": "[excited] The correct answer is popcorn! Fans hop from cart to cart collecting flavors. [laughs] Curry popcorn. Don't knock it till you try it.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Hong Kong Disneyland makes a Mickey-shaped version of this bubbly, crispy Hong Kong street-food treat.",
+          "answer": "Egg waffle",
+          "accept": [
+            "egg waffle",
+            "egg waffles",
+            "eggette",
+            "gai daan jai",
+            "bubble waffle"
+          ],
+          "choices": [
+            "Egg waffle",
+            "Mooncake",
+            "Pineapple bun",
+            "Egg tart"
+          ],
+          "reveal": "The correct answer is the egg waffle! [chuckles] Little golden bubbles you can pull apart. Pure happiness on a stick.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Tokyo DisneySea's cult-favorite Mysterious Island snack stuffs dumpling filling into a long bun. It's called this.",
+          "answer": "Gyoza Dog",
+          "accept": [
+            "gyoza dog",
+            "gyoza dogs",
+            "gyoza bun"
+          ],
+          "choices": [
+            "Gyoza Dog",
+            "Dumpling Roll",
+            "Ramen Dog",
+            "Sushi Sub"
+          ],
+          "reveal": "[laughs] The correct answer is the Gyoza Dog! Half hot dog, half dumpling, all delicious. The line is part of the experience.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In Paris, Remy's Ratatouille Adventure exits into this restaurant, where diners feel rat-sized among giant plates and bottles.",
+          "answer": "Bistrot Chez Remy",
+          "accept": [
+            "bistrot chez remy",
+            "bistro chez remy",
+            "chez remy",
+            "bistrot chez rémy"
+          ],
+          "choices": [
+            "Bistrot Chez Remy",
+            "Gusteau's",
+            "Les Halles",
+            "Chez Skinner"
+          ],
+          "reveal": "The correct answer is Bistrot Chez Remy! [whispers] Try the ratatouille. Obviously. It opened in 2014.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Tokyo DisneySea opened this port in 2024, with lands themed to Frozen, Tangled and Peter Pan.",
+          "answer": "Fantasy Springs",
+          "accept": [
+            "fantasy springs"
+          ],
+          "choices": [
+            "Fantasy Springs",
+            "Fantasy Harbor",
+            "Dream Cove",
+            "Wishing Bay"
+          ],
+          "reveal": "[gasps] The correct answer is Fantasy Springs! The park's eighth port, with its own luxury hotel. Arendelle, Rapunzel's forest and Never Land, all in one place.",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}
