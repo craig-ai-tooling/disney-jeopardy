@@ -136,7 +136,7 @@
           ],
           "choices": [
             "A pumpkin",
-            "A squash",
+            "An apple",
             "A melon",
             "A turnip"
           ],
@@ -357,7 +357,7 @@
             "Astro Orbiter",
             "Mad Tea Party"
           ],
-          "reveal": "[excited] The correct answer is Dumbo the Flying Elephant! An opening-day ride at Disneyland in 1955. Grab a feather, it helps. Trust me.",
+          "reveal": "[excited] The correct answer is Dumbo the Flying Elephant! It first took flight at Disneyland in August 1955, about a month after the park opened. Grab a feather, it helps. Trust me.",
           "dailyDouble": false
         },
         {
