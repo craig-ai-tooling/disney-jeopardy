@@ -397,15 +397,16 @@
           "answer": "DINOSAUR",
           "accept": [
             "dinosaur",
-            "dinosaur the ride"
+            "dinosaur the ride",
+            "countdown to extinction"
           ],
           "choices": [
             "DINOSAUR",
-            "Countdown to Extinction",
+            "Kilimanjaro Safaris",
             "TriceraTop Spin",
             "Primeval Whirl"
           ],
-          "reveal": "[mischievously] The correct answer is DINOSAUR! Trick question bonus: it opened in 1998 as Countdown to Extinction and was renamed in 2000.",
+          "reveal": "[mischievously] The correct answer is DINOSAUR! Bonus fact: it opened in 1998 as Countdown to Extinction and was renamed in 2000.",
           "media": {
             "type": "image",
             "file": "media/dino-mite--fossil-record-800.jpg",
