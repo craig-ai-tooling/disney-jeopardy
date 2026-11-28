@@ -1,4 +1,4 @@
-import { $, $$, esc, money, AVATARS, bgFor, Socket, countdown, sfx, thinkMusic } from './common.js';
+import { $, $$, esc, money, avatarImg, bgFor, Socket, countdown, sfx, thinkMusic } from './common.js';
 
 const app = $('#app');
 const tvId = localStorage.djTv || (localStorage.djTv = crypto.randomUUID?.() || String(Math.random()).slice(2));
@@ -7,14 +7,16 @@ let S = null, prev = {}, overlay = null, joinBase = location.origin, zoomTimer =
 const isNative = Boolean(window.DJ_TV || window.DJ_TV_NATIVE) || new URLSearchParams(location.search).has('app');
 
 // ---------- background rotation ----------
-let bgSlot = 0, bgName = '';
-function setBg(name) {
-  if (name === bgName) return; bgName = name;
+let bgSlot = 0, bgUrl = '';
+const themeBg = (b) => `/theme/bg-${bgFor(b)}.webp`;
+const artOf = (b) => b?.art || themeBg(b);
+function setBg(url) {
+  if (url === bgUrl) return; bgUrl = url;
   const els = $$('.bgimg'); bgSlot ^= 1;
-  els[bgSlot].style.backgroundImage = `url(/theme/bg-${name}.webp)`;
+  els[bgSlot].style.backgroundImage = `url("${url}")`;
   els[bgSlot].classList.add('on'); els[bgSlot ^ 1].classList.remove('on');
 }
-setBg('castle');
+setBg(themeBg(null));
 
 // ---------- narration ----------
 const audio = new Audio(); audio.preload = 'auto';
@@ -87,31 +89,81 @@ const sock = new Socket({ role: 'tv', tv: tvId }, (m) => {
 fetch('/api/info').then((r) => r.json()).then((i) => { joinBase = i.joinBase; }).catch(() => {});
 
 // ---------- D-pad navigation ----------
-function focusables() { return $$('[data-nav]').filter((e) => e.offsetParent !== null && !e.disabled); }
+// The TV re-renders on every state broadcast, so focus is tracked by a stable key per screen
+// (data-key, else act/id) and restored after each render; if that element is gone, the
+// spatially nearest one wins. While an overlay is open, only its elements are reachable.
+let screen = '', lastScreen = '', lastHtml = null, moving = false;
+const navMem = {};
+const keyOf = (e) => e.dataset.key || [e.dataset.act, e.dataset.id, e.dataset.pid].filter(Boolean).join(':');
+function focusables() {
+  const root = $('.overlay', app) || document;
+  return $$('[data-nav]', root).filter((e) => e.getClientRects().length && !e.disabled && !e.closest('[hidden]'));
+}
+const center = (r) => ({ x: r.left + r.width / 2, y: r.top + r.height / 2 });
+function nearest(els, rect) {
+  const a = center(rect); let best = null, bd = Infinity;
+  for (const e of els) { const b = center(e.getBoundingClientRect()); const d = Math.hypot(b.x - a.x, b.y - a.y); if (d < bd) { bd = d; best = e; } }
+  return best;
+}
+const defaultEl = (els) => els.find((e) => e.hasAttribute('data-default')) || els[0];
+function reveal(el) {
+  const box = el.closest('.ovscroll'); if (!box) return;
+  const r = el.getBoundingClientRect(), b = box.getBoundingClientRect(), pad = b.height * 0.08;
+  if (r.top < b.top + pad) box.scrollTop -= b.top + pad - r.top;
+  else if (r.bottom > b.bottom - pad) box.scrollTop += r.bottom - (b.bottom - pad);
+}
+function focusEl(el) { if (!el) return; el.focus({ preventScroll: true }); reveal(el); }
+function restoreFocus() {
+  const els = focusables(); if (!els.length) return;
+  const cur = document.activeElement;
+  const mem = navMem[screen];
+  // Until the viewer moves, follow the screen's default (e.g. Start once the first player joins).
+  if (screen === lastScreen && els.includes(cur) && (mem?.user || cur === defaultEl(els))) return reveal(cur);
+  if (screen === lastScreen && !mem?.user) return focusEl(defaultEl(els));
+  focusEl((mem && (els.find((e) => keyOf(e) === mem.key) || nearest(els, mem.rect))) || defaultEl(els));
+}
+document.addEventListener('focusin', (e) => {
+  const el = e.target.closest?.('[data-nav]'); if (!el || !screen) return;
+  navMem[screen] = { key: keyOf(el), rect: el.getBoundingClientRect(), user: navMem[screen]?.user || moving };
+  if (el.dataset.art) setBg(el.dataset.art);
+});
+// Row/column search: among elements in the arrow's direction, take the nearest line (edge gap
+// within half the current element's size of the closest one), then the one best aligned with
+// the current element, preferring those that overlap it across the direction of travel.
 function moveFocus(dx, dy) {
   const els = focusables(); if (!els.length) return;
-  const cur = document.activeElement?.matches('[data-nav]') ? document.activeElement : null;
-  if (!cur) return els[0].focus();
-  const a = cur.getBoundingClientRect(); const ax = a.left + a.width / 2, ay = a.top + a.height / 2;
-  let best = null, bd = Infinity;
+  const cur = els.includes(document.activeElement) ? document.activeElement : null;
+  if (!cur) return restoreFocus();
+  const a = cur.getBoundingClientRect(), ca = center(a);
+  const cands = [];
   for (const e of els) {
     if (e === cur) continue;
-    const b = e.getBoundingClientRect(); const bx = b.left + b.width / 2, by = b.top + b.height / 2;
-    const ddx = bx - ax, ddy = by - ay;
-    if ((dx && Math.sign(ddx) !== dx) || (dy && Math.sign(ddy) !== dy)) continue;
-    if (dx && Math.abs(ddx) < 4) continue; if (dy && Math.abs(ddy) < 4) continue;
-    const d = (dx ? Math.abs(ddx) : Math.abs(ddy)) + (dx ? Math.abs(ddy) : Math.abs(ddx)) * 2.5;
-    if (d < bd) { bd = d; best = e; }
+    const b = e.getBoundingClientRect(), cb = center(b);
+    if ((dx ? (cb.x - ca.x) * dx : (cb.y - ca.y) * dy) <= 2) continue;
+    const gap = Math.max(0, dx > 0 ? b.left - a.right : dx < 0 ? a.left - b.right : dy > 0 ? b.top - a.bottom : a.top - b.bottom);
+    const overlap = dx ? Math.min(a.bottom, b.bottom) - Math.max(a.top, b.top) : Math.min(a.right, b.right) - Math.max(a.left, b.left);
+    cands.push({ e, gap, overlap, off: dx ? Math.abs(cb.y - ca.y) : Math.abs(cb.x - ca.x) });
   }
-  best?.focus();
+  // Left/right stay within the current row; up/down may change column.
+  if (dx) cands.splice(0, cands.length, ...cands.filter((c) => c.overlap > 0));
+  if (!cands.length) return;
+  const minGap = Math.min(...cands.map((c) => c.gap)), tol = (dx ? a.width : a.height) / 2;
+  const line = cands.filter((c) => c.gap <= minGap + tol);
+  line.sort((p, q) => (q.overlap > 0) - (p.overlap > 0) || p.off - q.off);
+  moving = true; focusEl(line[0].e); moving = false; sfx('tick');
 }
+const closeOverlay = () => { overlay = null; setBg(S?.board ? artOf(S.board) : themeBg(null)); render(); };
 document.addEventListener('keydown', (e) => {
   const k = e.key;
   if (k === 'ArrowLeft') moveFocus(-1, 0); else if (k === 'ArrowRight') moveFocus(1, 0);
   else if (k === 'ArrowUp') moveFocus(0, -1); else if (k === 'ArrowDown') moveFocus(0, 1);
-  else if (k === 'Escape' || k === 'Backspace' || k === 'GoBack') { if (overlay) { overlay = null; render(); } else return; }
-  else if ((k === 'Enter' || k === ' ') && !document.activeElement?.matches('[data-nav]')) { const f = focusables()[0]; if (f) f.click(); else sock.send({ t: 'next' }); }
-  else return;
+  else if (k === 'Escape' || k === 'Backspace' || k === 'GoBack') { if (overlay) closeOverlay(); else return; }
+  else if (k === 'Enter' || k === ' ') {
+    if (e.repeat) { e.preventDefault(); return; }
+    const els = focusables(); const cur = els.includes(document.activeElement) ? document.activeElement : null;
+    if (cur) cur.click();
+    else if (els.length) { restoreFocus(); } else sock.send({ t: 'next' });
+  } else return;
   e.preventDefault();
 });
 app.addEventListener('click', (e) => {
@@ -119,8 +171,9 @@ app.addEventListener('click', (e) => {
   const a = el.dataset.act;
   sfx('pick');
   if (a === 'pick') sock.send({ t: 'pick', clue: el.dataset.id });
-  else if (a === 'boards') { overlay = 'boards'; render(); }
-  else if (a === 'board') { overlay = null; sock.send({ t: 'board', id: el.dataset.id }); }
+  else if (a === 'boards' || a === 'settings') { overlay = a; render(); }
+  else if (a === 'close') closeOverlay();
+  else if (a === 'board') { sock.send({ t: 'board', id: el.dataset.id }); overlay = null; render(); }
   else if (a === 'set') { const v = JSON.parse(el.dataset.v); sock.send({ t: 'settings', settings: v }); }
   else if (a === 'override') sock.send({ t: 'override', pid: el.dataset.pid, correct: el.dataset.c === '1' });
   else sock.send({ t: a });
@@ -143,46 +196,68 @@ if (!isNative) {
 const P = (id) => S.players.find((p) => p.id === id);
 const pname = (id) => esc(P(id)?.name || '?');
 
+// Gold logo-style headline: the element's own text is the blue outline, ::after paints the gold.
+const gt = (text, cls = '') => `<span class="goldtxt ${cls}" data-t="${esc(text)}">${esc(text)}</span>`;
+
 function scores(hl) {
   if (!S.players.length) return '';
   return `<div class="scores">${S.players.map((p) => `<div class="score ${p.id === S.control ? 'ctrl' : ''} ${p.id === hl ? 'buzzed' : ''} ${p.online ? '' : 'off'}" style="--c:${p.color}">
-    <div class="n">${AVATARS[p.avatar] || ''} ${esc(p.name)}</div><div class="s ${p.score < 0 ? 'neg' : ''}">${money(p.score)}</div></div>`).join('')}</div>`;
+    ${avatarImg(p.avatar)}<div class="sc"><div class="s ${p.score < 0 ? 'neg' : ''}">${money(p.score)}</div><div class="n">${esc(p.name)}</div></div></div>`).join('')}</div>`;
 }
 
 const nextHost = (cur) => { const ids = ['draft', ...(S.hosts || []).map((h) => h.id)]; return ids[(ids.indexOf(cur) + 1) % ids.length]; };
 
+const MODES = { mc: 'Multiple choice', typed: 'Type / speak', mixed: 'Mixed' };
+const hostLabel = (id) => (id === 'draft' ? 'Vote each game' : (S.hosts || []).find((h) => h.id === id)?.name || id);
+
 function lobby() {
   const b = S.board; const set = S.settings;
-  const modeBtn = (m, label) => `<button data-nav data-act="set" data-v='${JSON.stringify({ mode: m })}' class="${set.mode === m ? '' : 'secondary'}">${label}</button>`;
   const host = joinBase.replace(/^https?:\/\//, '');
+  const n = S.players.length; const sz = n > 8 ? 4.2 : n > 5 ? 5.2 : 6.4;
+  const cast = S.players.map((p) => `<div class="pl ${p.online ? '' : 'off'}" style="--c:${p.color}">${avatarImg(p.avatar)}<div class="pn">${esc(p.name)}</div>
+    <div class="tags">${p.id === S.captain ? '<span class="badge">CAPTAIN</span>' : ''}${p.id === set.moderator ? '<span class="badge">MOD</span>' : ''}${p.alwaysMc ? '<span class="badge">ABCD</span>' : ''}</div></div>`).join('')
+    + Array.from({ length: Math.max(0, 4 - n) }, () => '<div class="pl empty"><div class="av">?</div><div class="pn">Join in!</div><div class="tags"></div></div>').join('');
   return `<div class="lobby">
-    <div class="joinbox">
-      <img class="qr" src="/api/qr?code=${S.code}" alt="QR">
-      <div class="hint">Scan to join, or go to</div>
-      <div class="url">${esc(host)}</div>
-      <div class="code">${S.code}</div>
+    <div class="lb-main">
+      <img class="brand" src="/theme/logo-cut.webp" alt="Disney Jeopardy">
+      ${b ? `<div class="tonight">Tonight's episode</div><h1 class="eptitle">${gt(b.title)}</h1>
+        <div class="cats">${b.categories.map((c) => `<div class="plaque">${esc(c.title)}</div>`).join('')}</div>` : '<h2>No boards loaded</h2>'}
+      <div class="cast" style="--sz:${sz}vw">${cast}</div>
+      <div class="actions">
+        <button data-nav data-key="start" data-act="start" data-default ${n ? '' : 'disabled'}>▶ Start the show</button>
+        <button data-nav data-key="boards" data-act="boards" class="secondary">Pick episode</button>
+        <button data-nav data-key="shuffle" data-act="shuffle" class="secondary">Surprise me</button>
+        <button data-nav data-key="settings" data-act="settings" class="secondary">Settings</button>
+      </div>
+      <div class="setline">${MODES[set.mode] || esc(set.mode)} answers · Wrong answers ${set.negatives ? 'lose $' : 'cost nothing'} · Host voice ${set.voice ? 'on' : 'off'} · Host: ${esc(hostLabel(set.host))}</div>
     </div>
-    <div style="display:flex;flex-direction:column;min-height:0">
-      <div class="row"><img class="logo" src="/theme/logo.webp" alt="Disney Jeopardy"><div class="grow"></div></div>
-      ${b ? `<div class="episode"><div class="art" style="background-image:url(${b.art || `/theme/bg-${bgFor(b)}.webp`})"></div>
-        <div class="info"><div class="hint">TONIGHT'S EPISODE</div><h2 class="gold">${esc(b.title)}</h2>
-        <div class="cats">${b.categories.map((c) => `<span class="chip">${esc(c.title)}</span>`).join('')}</div></div></div>` : '<h2>No boards loaded</h2>'}
-      <div class="players">${S.players.map((p) => `<div class="pchip ${p.online ? '' : 'off'}" style="--c:${p.color}"><span class="av">${AVATARS[p.avatar] || '⭐'}</span>${esc(p.name)}
-        ${p.id === S.captain ? '<span class="badge">CAPTAIN</span>' : ''}${p.id === set.moderator ? '<span class="badge">MOD</span>' : ''}${p.alwaysMc ? '<span class="badge">ABCD</span>' : ''}</div>`).join('') || '<div class="hint">Waiting for players… scan the code!</div>'}</div>
-      <div class="settings">
-        <button data-nav data-act="start" ${S.players.length ? '' : 'disabled'}>▶ Start show</button>
-        <button data-nav data-act="shuffle" class="secondary">🎲 Different episode</button>
-        <button data-nav data-act="boards" class="secondary">📺 Pick episode</button>
-      </div>
-      <div class="settings" style="margin-top:1vw">
-        ${modeBtn('mc', 'Multiple choice')}${modeBtn('typed', 'Type / speak')}${modeBtn('mixed', 'Mixed')}
-        <button data-nav data-act="set" data-v='${JSON.stringify({ negatives: !set.negatives })}' class="secondary">Wrong answers: ${set.negatives ? 'lose $' : 'no penalty'}</button>
-        <button data-nav data-act="set" data-v='${JSON.stringify({ voice: !set.voice })}' class="secondary">Host voice: ${set.voice ? 'on' : 'off'}</button>
-        <button data-nav data-act="set" data-v='${JSON.stringify({ host: nextHost(set.host) })}' class="secondary">Host: ${set.host === 'draft' ? 'vote each game' : esc((S.hosts || []).find((h) => h.id === set.host)?.name || set.host)}</button>
-      </div>
-      <div class="hint" style="margin:1vw 0 1.5vw">Mixed = type or speak the 200s & 400s, multiple choice from 600 up. Any player can turn on "always multiple choice" or become moderator on their phone.</div>
-    </div></div>
-    ${overlay === 'boards' ? `<div class="boardlist">${(S.boards || []).map((x) => `<button data-nav data-act="board" data-id="${x.id}" class="${x.played ? 'played' : ''}" style="background-image:url(${x.art || `/theme/bg-${bgFor(x)}.webp`})">${esc(x.title)}${x.played ? ' ✓' : ''}</button>`).join('')}</div>` : ''}`;
+    <aside class="join">
+      <div class="jtitle">Grab your phone!</div>
+      <img class="qr" src="/api/qr?code=${S.code}" alt="QR">
+      <div class="url">${esc(host)}</div>
+      <div class="jlabel">ROOM CODE</div><div class="code">${S.code}</div>
+    </aside>
+  </div>${overlay === 'boards' ? episodes() : overlay === 'settings' ? settingsPanel() : ''}`;
+}
+
+function episodes() {
+  const cur = S.board?.id;
+  return `<div class="overlay eps"><div class="ovhead"><h1 class="ovtitle">${gt("Pick tonight's episode")}</h1><div class="hint">OK to choose · BACK to close</div></div>
+    <div class="ovscroll"><div class="epgrid">${(S.boards || []).map((x) => `<button data-nav data-key="board:${x.id}" data-act="board" data-id="${x.id}" data-art="${esc(artOf(x))}" class="ep ${x.played ? 'played' : ''}" ${x.id === cur ? 'data-default' : ''}>
+      <img loading="lazy" src="${esc(artOf(x))}" alt=""><span class="et">${esc(x.title)}</span>${x.id === cur ? '<span class="tag">TONIGHT</span>' : x.played ? '<span class="tag pl">PLAYED</span>' : ''}</button>`).join('')}</div></div></div>`;
+}
+
+function settingsPanel() {
+  const set = S.settings;
+  const opt = (key, v, label, on) => `<button data-nav data-key="${key}" data-act="set" data-v='${JSON.stringify(v)}' class="opt ${on ? 'on' : 'secondary'}" ${on && key.startsWith('mode') ? 'data-default' : ''}>${esc(label)}</button>`;
+  const row = (label, opts, note = '') => `<div class="setrow"><div class="lbl">${label}</div><div class="opts">${opts}${note ? `<div class="note">${note}</div>` : ''}</div></div>`;
+  return `<div class="overlay settings"><div class="setpanel"><h1 class="ovtitle">${gt('Game settings')}</h1>
+    ${row('Answers', Object.entries(MODES).map(([m, l]) => opt(`mode:${m}`, { mode: m }, l, set.mode === m)).join(''), 'Mixed = type or speak the 200s & 400s, multiple choice from 600 up.')}
+    ${row('Wrong answers', opt('neg:1', { negatives: true }, 'Lose $', set.negatives) + opt('neg:0', { negatives: false }, 'No penalty', !set.negatives))}
+    ${row('Host voice', opt('voice:1', { voice: true }, 'On', set.voice) + opt('voice:0', { voice: false }, 'Off', !set.voice))}
+    ${row('Host', ['draft', ...(S.hosts || []).map((h) => h.id)].map((id) => opt(`host:${id}`, { host: id }, hostLabel(id), set.host === id)).join(''))}
+    <div class="note" style="margin-top:1vw">Players can turn on "always multiple choice" or become moderator on their phones.</div>
+    <button data-nav data-key="close" data-act="close" style="margin-top:1.4vw">Done</button></div></div>`;
 }
 
 function hostDraft() {
@@ -201,28 +276,28 @@ function coldOpenView() {
 
 function intro() {
   const b = S.board;
-  return `<div class="center"><div class="titlecard" style="background-image:url(${b.art || `/theme/bg-${bgFor(b)}.webp`})"><h1 class="gold">${esc(b.title)}</h1></div>
+  return `<div class="center"><div class="titlecard" style="background-image:url(${b.art || `/theme/bg-${bgFor(b)}.webp`})"><h1>${gt(b.title)}</h1></div>
     <div class="subtitle">Tonight's theme: <b>${esc(b.theme)}</b></div><button data-nav data-act="next" style="margin-top:1.5vw">Let's see the categories ▶</button></div>${scores()}`;
 }
 
 function categories() {
   const c = S.board.categories[S.catIdx];
   return `<div class="center"><div class="hint">CATEGORY ${S.catIdx + 1} OF 5</div>
-    <div class="titlecard" style="background-image:url(${c.art || `/theme/bg-${bgFor(S.board)}.webp`})"><h1 class="gold">${esc(c.title)}</h1></div>
+    <div class="titlecard" style="background-image:url(${c.art || `/theme/bg-${bgFor(S.board)}.webp`})"><h1>${gt(c.title)}</h1></div>
     <button data-nav data-act="next" style="margin-top:1.5vw">${S.catIdx < 4 ? 'Next category ▶' : 'To the board! ▶'}</button></div>${scores()}`;
 }
 
 function board() {
   const b = S.board;
-  const cats = b.categories.map((c) => `<div class="cat" style="background-image:url(${c.art || ''})"><span>${esc(c.title)}</span></div>`).join('');
+  const cats = b.categories.map((c) => `<div class="cat"><div class="cart" style="background-image:url(${c.art || ''})"></div><span>${esc(c.title)}</span></div>`).join('');
   let cells = '';
   for (let r = 0; r < 5; r++) for (const c of b.categories) {
     const q = c.clues[r];
-    cells += q.used ? '<div class="cell used"></div>' : `<div class="cell" data-nav tabindex="0" data-act="pick" data-id="${q.id}">${q.value}</div>`;
+    cells += q.used ? '<div class="cell used"></div>' : `<button class="cell" data-nav data-key="pick:${q.id}" data-act="pick" data-id="${q.id}"><span>$${q.value}</span></button>`;
   }
   const ctrl = P(S.control);
-  return `<div class="board">${cats}${cells}</div>
-    <div class="hint" style="text-align:center">${ctrl ? `<b style="color:${ctrl.color}">${esc(ctrl.name)}</b> picks the next clue (on their phone or with the remote)` : 'Pick a clue'}</div>${scores()}`;
+  return `<div class="wall"><div class="board">${cats}${cells}</div></div>
+    <div class="hint pickhint">${ctrl ? `<b style="color:${ctrl.color}">${esc(ctrl.name)}</b> picks the next clue (on their phone or with the remote)` : 'Pick a clue'}</div>${scores()}`;
 }
 
 function clueMedia(c) {
@@ -298,10 +373,13 @@ function final() {
 function podium() {
   const ranked = [...S.players].sort((a, b) => b.score - a.score);
   const order = [ranked[1], ranked[0], ranked[2]].filter(Boolean);
-  const h = { 0: '22vw', 1: '15vw', 2: '10vw' };
-  return `<div class="center"><img class="logo" src="/theme/logo.webp" alt=""><h1 class="gold" style="font-size:4vw;margin:.5vw 0">${esc(ranked[0]?.name || '')} WINS!</h1>
-    <div class="podium">${order.map((p) => { const r = ranked.indexOf(p); return `<div class="p"><div style="font-size:4vw">${AVATARS[p.avatar] || ''}</div><div style="font-weight:900;font-size:1.8vw;color:${p.color}">${esc(p.name)}</div><div class="gold" style="font-size:2.2vw">${money(p.score)}</div><div class="stand" style="height:${h[r]}">${r + 1}</div></div>`; }).join('')}</div>
-    <div class="row" style="margin-top:2vw"><button data-nav data-act="newGame">Play another episode ▶</button></div></div>`;
+  const rest = ranked.slice(3);
+  return `<div class="finale"><h1 class="winner">${gt(`${ranked[0]?.name || ''} wins!`)}</h1>
+    <div class="champsub">Tonight's champion · ${money(ranked[0]?.score || 0)}</div>
+    <div class="podium">${order.map((p) => { const r = ranked.indexOf(p) + 1; return `<div class="p r${r}" style="--c:${p.color}"><div class="pa">${avatarImg(p.avatar, 'pav')}</div>
+      <div class="pname">${esc(p.name)}</div><div class="pscore">${money(p.score)}</div><div class="stand"><span>${r}</span></div></div>`; }).join('')}</div>
+    ${rest.length ? `<div class="rest">${rest.map((p, i) => `<div class="rp">${i + 4}. ${avatarImg(p.avatar)} ${esc(p.name)} · ${money(p.score)}</div>`).join('')}</div>` : ''}
+    <button data-nav data-key="newGame" data-act="newGame" data-default>Play another episode ▶</button></div>`;
 }
 
 function confetti(n = 120) {
@@ -352,10 +430,13 @@ function render() {
   if (!S) return;
   // Lets the TV app's Back button exit (press twice) whenever no overlay is open.
   window.DJ_TV_NATIVE?.setTopLevel?.(!overlay);
-  if (S.board) setBg(bgFor(S.board));
+  if (S.phase === 'podium') setBg(themeBg(S.board));
+  else if (overlay !== 'boards' && S.board) setBg(artOf(S.board));
   const keepZoom = $('#zoomimg') && S.phase !== 'reveal' && prev.clue?.id === S.clue?.id;
-  const focusedId = document.activeElement?.dataset?.id || document.activeElement?.dataset?.act;
   const ph = S.phase;
+  if (overlay && ph !== 'lobby') overlay = null;
+  lastScreen = screen; screen = overlay ? `${ph}:${overlay}` : ph;
+  const scroll = $('.ovscroll', app)?.scrollTop;
   const html = ph === 'lobby' ? lobby() : ph === 'hostDraft' ? hostDraft() : ph === 'coldOpen' ? coldOpenView() : ph === 'intro' ? intro() : ph === 'categories' ? categories() : ph === 'board' ? board()
     : ph === 'ddWager' ? ddWager() : ['reading', 'buzzing', 'answering', 'reveal'].includes(ph) ? clue()
       : ph.startsWith('final') ? final() : ph === 'podium' ? podium() : '';
@@ -363,12 +444,15 @@ function render() {
     // Don't restart the zoom animation on every state update: patch only the status, choices and scores.
     const tmp = document.createElement('div'); tmp.innerHTML = html;
     for (const sel of ['.status', '.choices', '.scores']) { const a = $(sel, app), b = $(sel, tmp); if (a && b) a.replaceWith(b); }
-  } else { app.innerHTML = html; effects(); }
+    lastHtml = null;
+  } else {
+    // Identical markup is left alone so focus, scroll and playing media are untouched.
+    if (html !== lastHtml) { app.innerHTML = html; lastHtml = html; const box = $('.ovscroll', app); if (box && scroll != null && screen === lastScreen) box.scrollTop = scroll; }
+    effects();
+  }
   updateCam();
   countdown($('#timer'), S.deadline);
-  const els = focusables();
-  const again = els.find((e) => (e.dataset.id || e.dataset.act) === focusedId);
-  (again || els[0])?.focus({ preventScroll: true });
+  restoreFocus();
   if (keepZoom) effectsLight();
 }
 function effectsLight() {

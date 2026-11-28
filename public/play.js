@@ -1,4 +1,4 @@
-import { $, $$, esc, money, AVATARS, Socket, countdown, sfx } from './common.js';
+import { $, $$, esc, money, AVATARS, avatarImg, Socket, countdown, sfx } from './common.js';
 
 const app = $('#app');
 const code = (new URLSearchParams(location.search).get('code') || location.pathname.split('/').filter(Boolean).pop() || '').toUpperCase().replace(/[^A-Z]/g, '').slice(0, 4);
@@ -26,11 +26,11 @@ function connect(name) {
 }
 
 function renderJoin(err = '') {
-  app.innerHTML = `<img class="logo" src="/theme/logo.webp" alt="Disney Jeopardy">
+  app.innerHTML = `<img class="logo" src="/theme/logo-cut.webp" alt="Disney Jeopardy">
     <div class="card"><div class="muted">Room</div>
       <input id="code" type="text" maxlength="4" value="${esc(code)}" autocapitalize="characters" placeholder="CODE">
       <input id="name" type="text" maxlength="16" placeholder="Your name" value="${esc(prefName)}" autocomplete="nickname">
-      <div class="avatars">${Object.entries(AVATARS).map(([k, v]) => `<button data-av="${k}" class="${k === avatar ? 'sel' : ''}">${v}</button>`).join('')}</div>
+      <div class="avatars">${Object.keys(AVATARS).map((k) => `<button data-av="${k}" class="${k === avatar ? 'sel' : ''}">${avatarImg(k)}</button>`).join('')}</div>
       <button id="go" style="margin-top:12px">Join the game!</button>
       ${err ? `<div class="muted" style="color:#ffb0b0">${esc(err)}</div>` : ''}</div>`;
   $$('[data-av]').forEach((b) => b.onclick = () => { avatar = b.dataset.av; $$('[data-av]').forEach((x) => x.classList.toggle('sel', x === b)); });
@@ -52,7 +52,7 @@ function onPhase(prev) {
   if (ph === 'finalThink' || ph === 'finalWager') draft = '';
 }
 
-const top = () => { const p = mine(); return p ? `<div class="top"><div class="me" style="--c:${p.color}">${AVATARS[p.avatar] || ''} ${esc(p.name)}</div><div class="score">${money(p.score)}</div></div>` : ''; };
+const top = () => { const p = mine(); return p ? `<div class="top"><div class="me" style="--c:${p.color}">${avatarImg(p.avatar)} ${esc(p.name)}</div><div class="score">${money(p.score)}</div></div>` : ''; };
 
 function answerBox(kind) {
   // kind: 'clue' | 'final'
@@ -127,13 +127,13 @@ function bindWager(max) {
 
 function lobby() {
   const p = mine(); const captain = S.captain === me; const set = S.settings;
-  return `${top()}<img class="logo" src="/theme/logo.webp" alt="">
+  return `${top()}<img class="logo" src="/theme/logo-cut.webp" alt="">
     <div class="card"><div class="muted">Tonight's episode</div><h2 class="gold" style="margin:4px 0">${esc(S.board?.title || '')}</h2>
       <div class="muted">${S.players.length} player${S.players.length === 1 ? '' : 's'} in · room ${esc(S.code)}</div></div>
     <div class="card">
       <label class="toggle">Always multiple choice <input type="checkbox" id="mc" ${p?.alwaysMc ? 'checked' : ''}></label>
       <label class="toggle">I'll be the moderator (still playing) <input type="checkbox" id="mod" ${set.moderator === me ? 'checked' : ''}></label>
-      <div class="avatars" style="margin-top:6px">${Object.entries(AVATARS).map(([k, v]) => `<button data-av="${k}" class="${k === p?.avatar ? 'sel' : ''}">${v}</button>`).join('')}</div>
+      <div class="avatars" style="margin-top:6px">${Object.keys(AVATARS).map((k) => `<button data-av="${k}" class="${k === p?.avatar ? 'sel' : ''}">${avatarImg(k)}</button>`).join('')}</div>
     </div>
     ${captain ? `<div class="card"><div class="muted">You're the captain 👑</div>
       <button id="start">▶ Start the show</button><button class="secondary" id="shuffle">🎲 Different episode</button>
