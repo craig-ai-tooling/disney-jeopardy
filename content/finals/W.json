@@ -1,0 +1,138 @@
+[
+  {
+    "film": "Treasure Planet",
+    "category": "Treasure Planet",
+    "clue": "Jim Hawkins sails the stars to find Flint's trove aboard this solar-sailing galleon, captained by Amelia.",
+    "answer": "The RLS Legacy",
+    "accept": [
+      "rls legacy",
+      "the rls legacy",
+      "legacy",
+      "the legacy"
+    ],
+    "choices": [
+      "The RLS Legacy",
+      "The Hispaniola",
+      "The Black Pearl",
+      "The Ulysses"
+    ],
+    "reveal": "The correct answer is the RLS Legacy! [excited] RLS for Robert Louis Stevenson. The Hispaniola was the ship in his original novel."
+  },
+  {
+    "film": "The Rescuers",
+    "category": "The Rescuers",
+    "clue": "Bernard and Bianca are agents of this mouse organization that meets in the basement of the United Nations building.",
+    "answer": "The Rescue Aid Society",
+    "accept": [
+      "rescue aid society",
+      "the rescue aid society"
+    ],
+    "choices": [
+      "The Rescue Aid Society",
+      "The Mouse Rescue League",
+      "The International Mouse Guild",
+      "The Society of Brave Mice"
+    ],
+    "reveal": "The correct answer is the Rescue Aid Society! [chuckles] The world's most adorable international spy agency."
+  },
+  {
+    "film": "Chicken Little",
+    "category": "Chicken Little",
+    "clue": "Chicken Little's widowed dad, a former baseball star, has this name.",
+    "answer": "Buck Cluck",
+    "accept": [
+      "buck cluck",
+      "buck"
+    ],
+    "choices": [
+      "Buck Cluck",
+      "Turkey Lurkey",
+      "Foxy Loxy",
+      "Morkubine Porcupine"
+    ],
+    "reveal": "The correct answer is Buck Cluck! [laughs] Garry Marshall voiced him. Turkey Lurkey is the mayor."
+  },
+  {
+    "film": "Frozen II",
+    "category": "Frozen II",
+    "clue": "In the Enchanted Forest, Elsa befriends the fire spirit, a little salamander with this name.",
+    "answer": "Bruni",
+    "accept": [
+      "bruni"
+    ],
+    "choices": [
+      "Bruni",
+      "Gale",
+      "Nokk",
+      "Sven"
+    ],
+    "reveal": "The correct answer is Bruni! [excited] Gale is the wind and the Nokk is the water horse. Snowflakes for Bruni!"
+  },
+  {
+    "film": "Toy Story 3",
+    "category": "Toy Story 3",
+    "clue": "Andy's toys end up at this daycare, ruled by a strawberry-scented bear.",
+    "answer": "Sunnyside Daycare",
+    "accept": [
+      "sunnyside",
+      "sunnyside daycare"
+    ],
+    "choices": [
+      "Sunnyside Daycare",
+      "Sunnydale Daycare",
+      "Happy Hills Preschool",
+      "Butterfly Room Daycare"
+    ],
+    "reveal": "The correct answer is Sunnyside Daycare! [sarcastic] Sunny? Not with Lotso in charge. The Butterfly Room is just one room there."
+  },
+  {
+    "film": "Finding Dory",
+    "category": "Finding Dory",
+    "clue": "The Marine Life Institute in Finding Dory is in this real California coastal town.",
+    "answer": "Morro Bay",
+    "accept": [
+      "morro bay"
+    ],
+    "choices": [
+      "Morro Bay",
+      "Monterey",
+      "San Diego",
+      "Santa Cruz"
+    ],
+    "reveal": "The correct answer is Morro Bay! [whispers] Dory always remembered... the jewel of Morro Bay, California."
+  },
+  {
+    "film": "Ralph Breaks the Internet",
+    "category": "Ralph Breaks the Internet",
+    "clue": "Vanellope falls for this gritty online racing game, home of the street racer Shank.",
+    "answer": "Slaughter Race",
+    "accept": [
+      "slaughter race"
+    ],
+    "choices": [
+      "Slaughter Race",
+      "Sugar Rush",
+      "Hero's Duty",
+      "Fix-It Felix Jr."
+    ],
+    "reveal": "The correct answer is Slaughter Race! [laughs] Sugar Rush was her home game. Gal Gadot voiced Shank."
+  },
+  {
+    "film": "Monsters University",
+    "category": "Monsters University",
+    "clue": "Mike and Sulley join this nerdy fraternity to compete in the Scare Games.",
+    "answer": "Oozma Kappa",
+    "accept": [
+      "oozma kappa",
+      "ok",
+      "ozma kappa"
+    ],
+    "choices": [
+      "Oozma Kappa",
+      "Roar Omega Roar",
+      "Jaws Theta Chi",
+      "Python Nu Kappa"
+    ],
+    "reveal": "The correct answer is Oozma Kappa! [excited] OK for short. Roar Omega Roar were the cool kids."
+  }
+]

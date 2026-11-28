@@ -1,0 +1,561 @@
+{
+  "id": "sky-high",
+  "title": "Sky-High",
+  "theme": "Castles, Towers and Heights",
+  "tags": [
+    "castles",
+    "towers",
+    "heights",
+    "parks",
+    "tangled"
+  ],
+  "intro": "[excited] Look UP, everybody! Tonight it's castles, towers and heights. [whispers] If you're afraid of heights... maybe sit closer to the floor.",
+  "art": {
+    "prompt": "A dreamy skyline of fairy-tale spires and towers rising above the clouds at sunrise: a slender ivy-covered tower, a castle turret with flags, a snowy mountain peak and a cluster of floating balloons drifting by. Original painterly storybook illustration, 16:9, cinematic lighting, rich color, no people, no characters, no text, no logos.",
+    "file": "media/sky-high.jpg"
+  },
+  "categories": [
+    {
+      "id": "let-down-your-hair",
+      "title": "Let Down Your Hair",
+      "kind": "film",
+      "format": "text",
+      "intro": "[laughs] Seventy feet of golden hair and one VERY tall tower. It's all about Tangled!",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In Tangled, Rapunzel spends 18 years locked away in one of these.",
+          "answer": "A tower",
+          "accept": [
+            "tower",
+            "a tower",
+            "the tower"
+          ],
+          "choices": [
+            "A tower",
+            "A castle",
+            "A cave",
+            "A lighthouse"
+          ],
+          "reveal": "The correct answer is a tower! [chuckles] No stairs, no doors, just a whole lot of hair.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "This palace horse hunts Flynn Rider like a bloodhound.",
+          "answer": "Maximus",
+          "accept": [
+            "maximus",
+            "max"
+          ],
+          "choices": [
+            "Maximus",
+            "Philippe",
+            "Samson",
+            "Bullseye"
+          ],
+          "reveal": "The correct answer is Maximus! [laughs] Best horse in the kingdom. Don't tell Bullseye.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Mother Gothel warns Rapunzel about the scary outside world in this song.",
+          "answer": "Mother Knows Best",
+          "accept": [
+            "mother knows best"
+          ],
+          "choices": [
+            "Mother Knows Best",
+            "When Will My Life Begin",
+            "I See the Light",
+            "I've Got a Dream"
+          ],
+          "reveal": "The correct answer is Mother Knows Best! [sarcastic] Spoiler: Mother did NOT know best.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Rapunzel sings through her daily tower chores, from painting to candle-making, in this song.",
+          "answer": "When Will My Life Begin",
+          "accept": [
+            "when will my life begin"
+          ],
+          "choices": [
+            "When Will My Life Begin",
+            "I See the Light",
+            "Healing Incantation",
+            "I've Got a Dream"
+          ],
+          "reveal": "The correct answer is When Will My Life Begin! [excited] Chores never sounded so peppy. My kitchen is jealous.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Tangled was celebrated as this milestone number in Walt Disney Animation Studios' feature list.",
+          "answer": "50th",
+          "accept": [
+            "50th",
+            "50",
+            "fiftieth",
+            "the 50th"
+          ],
+          "choices": [
+            "50th",
+            "49th",
+            "51st",
+            "45th"
+          ],
+          "reveal": "The correct answer is the 50th! [dramatic pause] Fifty films... and still letting down their hair. Big nerd points.",
+          "dailyDouble": false
+        }
+      ],
+      "art": {
+        "prompt": "A tall stone tower with a single window in a hidden valley at golden hour, a waterfall beside it, hundreds of floating paper lanterns rising into a purple sky. Original painterly storybook illustration, 16:9, cinematic lighting, rich color, no people, no characters, no text, no logos.",
+        "file": "media/sky-high--let-down-your-hair.jpg"
+      }
+    },
+    {
+      "id": "up-up-and-away",
+      "title": "Up, Up and Away",
+      "kind": "theme",
+      "format": "text",
+      "intro": "Things that FLY, float and soar in Disney films. [chuckles] Fasten your seatbelts.",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Peter Pan flies Wendy and her brothers to this magical island.",
+          "answer": "Neverland",
+          "accept": [
+            "neverland",
+            "never land",
+            "never never land"
+          ],
+          "choices": [
+            "Neverland",
+            "Treasure Island",
+            "Skull Rock",
+            "Pleasure Island"
+          ],
+          "reveal": "The correct answer is Neverland! [chuckles] Where you never grow up. My kind of place.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Mary Poppins floats down from the clouds holding this.",
+          "answer": "An umbrella",
+          "accept": [
+            "umbrella",
+            "an umbrella",
+            "parasol"
+          ],
+          "choices": [
+            "An umbrella",
+            "A kite",
+            "A carpet bag",
+            "A broom"
+          ],
+          "reveal": "The correct answer is an umbrella! [chuckles] Practically perfect in every way, including air travel.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Carl and Ellie dreamed of moving to this South American waterfall.",
+          "answer": "Paradise Falls",
+          "accept": [
+            "paradise falls"
+          ],
+          "choices": [
+            "Paradise Falls",
+            "Angel Falls",
+            "Iguazu Falls",
+            "Victoria Falls"
+          ],
+          "reveal": "The correct answer is Paradise Falls! [sighs] And yes, Angel Falls was a real-life inspiration. Close, but no cross your heart.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Dumbo's mouse friend Timothy gives him this 'magic' object so he'll believe he can fly.",
+          "answer": "A magic feather",
+          "accept": [
+            "feather",
+            "a feather",
+            "magic feather",
+            "a magic feather"
+          ],
+          "choices": [
+            "A magic feather",
+            "A golden peanut",
+            "A lucky horseshoe",
+            "A tiny umbrella"
+          ],
+          "reveal": "The correct answer is a magic feather! [whispers] Spoiler: the magic was in Dumbo all along. Aww.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "In Up, explorer Charles Muntz flies a giant airship named this.",
+          "answer": "The Spirit of Adventure",
+          "accept": [
+            "spirit of adventure",
+            "the spirit of adventure"
+          ],
+          "choices": [
+            "The Spirit of Adventure",
+            "The Spirit of Discovery",
+            "The Sky Voyager",
+            "The Spirit of St. Louis"
+          ],
+          "reveal": "The correct answer is the Spirit of Adventure! [dramatic pause] Adventure is out there... and so is Muntz. Yikes.",
+          "dailyDouble": false
+        }
+      ],
+      "art": {
+        "prompt": "A cheerful sky full of drifting things: a bundle of colorful balloons, a striped umbrella, a white feather and sparkling dust trailing among fluffy pink clouds. Original painterly storybook illustration, 16:9, cinematic lighting, rich color, no people, no characters, no text, no logos.",
+        "file": "media/sky-high--up-up-and-away.jpg"
+      }
+    },
+    {
+      "id": "look-up",
+      "title": "Look Up!",
+      "kind": "parks",
+      "format": "picture",
+      "intro": "[excited] Real photos of the tallest sights in the parks! Crane your neck and buzz in.",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This tower stands in Magic Kingdom's Fantasyland. Which film's heroine does it honor?",
+          "answer": "Tangled",
+          "accept": [
+            "tangled",
+            "rapunzel"
+          ],
+          "choices": [
+            "Tangled",
+            "Frozen",
+            "Brave",
+            "Sleeping Beauty"
+          ],
+          "reveal": "The correct answer is Tangled! [laughs] Rapunzel's tower, right next to some VERY convenient restrooms.",
+          "media": {
+            "type": "image",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Rapunzel%27s_Tower_WDW.jpg",
+              "license": "CC BY 2.0",
+              "author": "AmyBPerrault"
+            },
+            "file": "media/sky-high--look-up-200.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Name the drop ride inside this spooky hotel at Disney's Hollywood Studios.",
+          "answer": "The Twilight Zone Tower of Terror",
+          "accept": [
+            "tower of terror",
+            "twilight zone tower of terror",
+            "the tower of terror",
+            "the twilight zone tower of terror"
+          ],
+          "choices": [
+            "The Twilight Zone Tower of Terror",
+            "Rock 'n' Roller Coaster",
+            "Guardians of the Galaxy: Mission BREAKOUT!",
+            "Haunted Mansion"
+          ],
+          "reveal": "The correct answer is The Twilight Zone Tower of Terror! [gasps] Going DOWN! And up. And down again.",
+          "media": {
+            "type": "image",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Hollywood_Tower_Hotel.jpg",
+              "license": "CC BY-SA 4.0",
+              "author": "Benjamin D. Esham (bdesham)"
+            },
+            "file": "media/sky-high--look-up-400.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Name this Animal Kingdom coaster that races up a snowy Himalayan peak.",
+          "answer": "Expedition Everest",
+          "accept": [
+            "expedition everest",
+            "everest"
+          ],
+          "choices": [
+            "Expedition Everest",
+            "Big Thunder Mountain Railroad",
+            "Matterhorn Bobsleds",
+            "Slinky Dog Dash"
+          ],
+          "reveal": "The correct answer is Expedition Everest! [whispers] Watch out for the locals. They're big. And furry.",
+          "media": {
+            "type": "image",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Expedition_Everest.jpg",
+              "license": "CC BY-SA 4.0",
+              "author": "Benjamin D. Esham (bdesham)"
+            },
+            "file": "media/sky-high--look-up-600.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Disneyland's Matterhorn is a 1/100 scale model of a real peak on the border of Switzerland and this country.",
+          "answer": "Italy",
+          "accept": [
+            "italy"
+          ],
+          "choices": [
+            "Italy",
+            "France",
+            "Austria",
+            "Germany"
+          ],
+          "reveal": "The correct answer is Italy! [chuckles] Half Swiss, half Italian. Fondue AND pasta. Perfect mountain.",
+          "media": {
+            "type": "image",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Matterhorn_Mountain.JPG",
+              "license": "Public domain",
+              "author": "SolarSurfer"
+            },
+            "file": "media/sky-high--look-up-800.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "EPCOT's 180-foot sphere is covered with roughly this many triangular panels.",
+          "answer": "11,324",
+          "accept": [
+            "11324",
+            "11,324",
+            "eleven thousand three hundred twenty four"
+          ],
+          "choices": [
+            "11,324",
+            "5,000",
+            "8,200",
+            "20,000"
+          ],
+          "reveal": "The correct answer is 11,324! [laughs] Imagineers counted every single one. I tried once. I got to twelve.",
+          "media": {
+            "type": "image",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Spaceship_Earth_2.jpg",
+              "license": "CC BY-SA 4.0",
+              "author": "Katie Rommel-Esham (contact via bdesham)"
+            },
+            "file": "media/sky-high--look-up-1000.jpg"
+          },
+          "dailyDouble": false
+        }
+      ],
+      "art": {
+        "prompt": "A low-angle view from a theme-park walkway looking up at a mix of tall landmarks against bright blue sky: a snowy peak, a geodesic sphere and a slender storybook tower. Original painterly storybook illustration, 16:9, cinematic lighting, rich color, no people, no characters, no text, no logos.",
+        "file": "media/sky-high--look-up.jpg"
+      }
+    },
+    {
+      "id": "castle-in-the-sky",
+      "title": "Castle in the Sky",
+      "kind": "parks",
+      "format": "text",
+      "intro": "[dramatic pause] Every great park has a great castle. Let's storm the gates!",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Cinderella Castle and Sleeping Beauty Castle are each surrounded by this water-filled ditch.",
+          "answer": "A moat",
+          "accept": [
+            "moat",
+            "a moat"
+          ],
+          "choices": [
+            "A moat",
+            "A canal",
+            "A lake",
+            "A river"
+          ],
+          "reveal": "The correct answer is a moat! [chuckles] Keeps out dragons. And people who skip the line.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Disneyland Paris's castle, like the one in California, is named for this princess.",
+          "answer": "Sleeping Beauty",
+          "accept": [
+            "sleeping beauty",
+            "aurora",
+            "princess aurora"
+          ],
+          "choices": [
+            "Sleeping Beauty",
+            "Cinderella",
+            "Snow White",
+            "Belle"
+          ],
+          "reveal": "The correct answer is Sleeping Beauty! [excited] Le Chateau de la Belle au Bois Dormant. Say THAT five times fast.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "A hidden suite inside Cinderella Castle was first planned as an apartment for this man's family.",
+          "answer": "Walt Disney",
+          "accept": [
+            "walt",
+            "walt disney"
+          ],
+          "choices": [
+            "Walt Disney",
+            "Roy O. Disney",
+            "Ub Iwerks",
+            "Michael Eisner"
+          ],
+          "reveal": "The correct answer is Walt Disney! [whispers] Now lucky guests sometimes win a night inside. Pack your glass slippers.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Sleeping Beauty Castle at Disneyland uses this design trick, with smaller details higher up, to look taller.",
+          "answer": "Forced perspective",
+          "accept": [
+            "forced perspective"
+          ],
+          "choices": [
+            "Forced perspective",
+            "Pepper's ghost",
+            "Blue screen",
+            "Matte painting"
+          ],
+          "reveal": "The correct answer is forced perspective! [laughs] The castle's like me in photos. Just angles.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Before Walt picked Sleeping Beauty, Disneyland's castle was first planned to be named for this princess.",
+          "answer": "Snow White",
+          "accept": [
+            "snow white"
+          ],
+          "choices": [
+            "Snow White",
+            "Cinderella",
+            "Rapunzel",
+            "Ariel"
+          ],
+          "reveal": "The correct answer is Snow White! [gasps] Sleeping Beauty got the castle to promote her 1959 film. Sneaky marketing!",
+          "dailyDouble": true
+        }
+      ],
+      "art": {
+        "prompt": "A storybook castle with blue and gold turrets reflected in a moat, a drawbridge lowered, swans gliding and fireworks bursting high above at night. Original painterly storybook illustration, 16:9, cinematic lighting, rich color, no people, no characters, no text, no logos.",
+        "file": "media/sky-high--castle-in-the-sky.jpg"
+      }
+    },
+    {
+      "id": "head-in-the-clouds",
+      "title": "Head in the Clouds",
+      "kind": "fan",
+      "format": "text",
+      "intro": "A sky-high grab bag from the fans! [mischievously] Try not to float away.",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Dumbo learns to fly by flapping his enormous these.",
+          "answer": "Ears",
+          "accept": [
+            "ears",
+            "his ears",
+            "ear"
+          ],
+          "choices": [
+            "Ears",
+            "Wings",
+            "Trunk",
+            "Feet"
+          ],
+          "reveal": "The correct answer is his ears! [excited] Best ears in the business. Flap flap flap!",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "In Frozen, Elsa builds her ice palace on this mountain.",
+          "answer": "The North Mountain",
+          "accept": [
+            "north mountain",
+            "the north mountain"
+          ],
+          "choices": [
+            "The North Mountain",
+            "Mount Arendelle",
+            "Glacier Peak",
+            "Troll Mountain"
+          ],
+          "reveal": "The correct answer is the North Mountain! [chuckles] Let it go... and let it go UP. Very high up.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "In Mary Poppins, Uncle Albert floats to the ceiling because he can't stop doing this.",
+          "answer": "Laughing",
+          "accept": [
+            "laughing",
+            "laugh",
+            "laughter"
+          ],
+          "choices": [
+            "Laughing",
+            "Singing",
+            "Sneezing",
+            "Dancing"
+          ],
+          "reveal": "The correct answer is laughing! [laughs] I love to laugh... and now I'm floating. Uh oh.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Peter Pan's directions to Neverland: second star to the right and straight on till this.",
+          "answer": "Morning",
+          "accept": [
+            "morning",
+            "till morning",
+            "the morning"
+          ],
+          "choices": [
+            "Morning",
+            "Midnight",
+            "Sunrise",
+            "Dawn"
+          ],
+          "reveal": "The correct answer is morning! [whispers] Second star to the right... GPS could never.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Quasimodo's three gargoyle friends are Victor, Hugo, and this one.",
+          "answer": "Laverne",
+          "accept": [
+            "laverne"
+          ],
+          "choices": [
+            "Laverne",
+            "Esmeralda",
+            "Djali",
+            "Clopin"
+          ],
+          "reveal": "The correct answer is Laverne! [laughs] Victor Hugo wrote the book, so the third one HAD to be different.",
+          "dailyDouble": false
+        }
+      ],
+      "art": {
+        "prompt": "A flying woven carpet soaring over moonlit desert domes, a gothic cathedral bell tower in the distance and a starry night sky with one bright star. Original painterly storybook illustration, 16:9, cinematic lighting, rich color, no people, no characters, no text, no logos.",
+        "file": "media/sky-high--head-in-the-clouds.jpg"
+      }
+    }
+  ]
+}
