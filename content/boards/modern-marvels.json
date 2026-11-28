@@ -1,0 +1,542 @@
+{
+  "id": "modern-marvels",
+  "title": "New Wave Wonders",
+  "theme": "Disney's modern animated features of the 2010s and 2020s, from Tangled and Frozen to Encanto, Moana, Zootopia and Wish",
+  "tags": [
+    "modern",
+    "2010s",
+    "2020s",
+    "encanto",
+    "moana",
+    "zootopia",
+    "wish"
+  ],
+  "intro": "[excited] Hold onto your snowflakes! Tonight is NEW WAVE WONDERS, all about Disney animation from the 2010s and 2020s. [laughs] Ice palaces, magic houses, rabbit cops and wishing stars. If you have a little sibling, they might crush you in this one.",
+  "art": {
+    "prompt": "Wide 16:9 title card: a glowing modern fantasy skyline at twilight where a frosty ice palace, a colorful Colombian-style hillside house with glowing windows, an island volcano and a futuristic fusion city sit side by side under a sky full of sparkling wishing stars, vibrant CG-animation style No people, no recognizable characters, no text or logos.",
+    "file": "media/modern-marvels.jpg"
+  },
+  "categories": [
+    {
+      "id": "miracle-madrigals",
+      "title": "Miracle Madrigals",
+      "kind": "film",
+      "intro": "[excited] Our film category is 2021's Encanto! [whispers] Yes, we are going to talk about Bruno.",
+      "art": {
+        "prompt": "16:9 card art: a magical colorful casita in the Colombian mountains glowing from within, its shutters and roof tiles rippling as if alive, golden butterflies and a single glowing candle in the window No people, no recognizable characters, no text or logos.",
+        "file": "media/modern-marvels--miracle-madrigals.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "The only Madrigal kid in Encanto who did not receive a magical gift.",
+          "answer": "Mirabel",
+          "accept": [
+            "mirabel"
+          ],
+          "choices": [
+            "Mirabel",
+            "Isabela",
+            "Luisa",
+            "Dolores"
+          ],
+          "reveal": "The correct answer is Mirabel! [excited] No gift, and yet she saves the whole family. Glasses girls, unite.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Tio Bruno's magical gift.",
+          "answer": "Seeing the future",
+          "accept": [
+            "seeing the future",
+            "see the future",
+            "visions",
+            "visions of the future",
+            "predicting the future",
+            "prophecy"
+          ],
+          "choices": [
+            "Seeing the future",
+            "Shapeshifting",
+            "Controlling the weather",
+            "Super hearing"
+          ],
+          "reveal": "The correct answer is seeing the future. [whispers] We don't talk about Bruno... no, no, no. [laughs] Except right now.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Luisa, the eldest sister who sings Surface Pressure, has this gift.",
+          "answer": "Super strength",
+          "accept": [
+            "super strength",
+            "strength",
+            "superhuman strength"
+          ],
+          "choices": [
+            "Super strength",
+            "Super speed",
+            "Talking to animals",
+            "Making flowers grow"
+          ],
+          "reveal": "The correct answer is super strength! [chuckles] She can move a church, a donkey, and a river. Just give her a nap.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Encanto is set in this South American country.",
+          "answer": "Colombia",
+          "accept": [
+            "colombia",
+            "columbia"
+          ],
+          "choices": [
+            "Colombia",
+            "Mexico",
+            "Peru",
+            "Brazil"
+          ],
+          "reveal": "The correct answer is Colombia! [excited] And it's spelled with two O's, folks. The music is full of Colombian rhythms.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "The name of Abuela Alma's late husband, whose sacrifice created the miracle.",
+          "answer": "Pedro",
+          "accept": [
+            "pedro",
+            "abuelo pedro"
+          ],
+          "choices": [
+            "Pedro",
+            "Agustin",
+            "Felix",
+            "Mariano"
+          ],
+          "reveal": "[sighs] The correct answer is Pedro. His candle became the miracle that built the casita. Pass the tissues, please.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "new-kids-on-the-block",
+      "title": "New Kids on the Block",
+      "kind": "theme",
+      "intro": "[excited] This themed category is all about the newer stars of Disney animation. Chickens, bunnies, sloths and kings!",
+      "art": {
+        "prompt": "16:9 card art: a sunny brand-new storybook neighborhood street where every house is a different fantasy style: a tropical hut, a fox-sized city apartment, a sparkling wish-shaped tower, bright confetti in the air No people, no recognizable characters, no text or logos.",
+        "file": "media/modern-marvels--new-kids-on-the-block.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In Moana, this silly rooster stows away on the canoe.",
+          "answer": "Heihei",
+          "accept": [
+            "heihei",
+            "hei hei",
+            "hei-hei"
+          ],
+          "choices": [
+            "Heihei",
+            "Pua",
+            "Tamatoa",
+            "Kakamora"
+          ],
+          "reveal": "The correct answer is Heihei! [laughs] He tried to eat a rock. Several times. Bless him.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "In Zootopia, police officer Judy Hopps is this kind of animal.",
+          "answer": "A rabbit",
+          "accept": [
+            "rabbit",
+            "a rabbit",
+            "bunny",
+            "a bunny"
+          ],
+          "choices": [
+            "A rabbit",
+            "A fox",
+            "A sheep",
+            "A raccoon"
+          ],
+          "reveal": "The correct answer is a rabbit! [chuckles] Only a bunny can call another bunny cute. Everyone else, watch it.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "The super-slow sloth who works at the Zootopia DMV.",
+          "answer": "Flash",
+          "accept": [
+            "flash"
+          ],
+          "choices": [
+            "Flash",
+            "Speedy",
+            "Slick",
+            "Sid"
+          ],
+          "reveal": "The correct answer is... [dramatic pause] Flash. [laughs] Took me that long to say it. Very on brand.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In 2023's Wish, Asha's wish summons this glowing little friend from the sky.",
+          "answer": "Star",
+          "accept": [
+            "star"
+          ],
+          "choices": [
+            "Star",
+            "Spark",
+            "Twinkle",
+            "Nova"
+          ],
+          "reveal": "The correct answer is Star! [excited] Wish came out for Disney's 100th birthday, and that little ball of light stole the show.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "The sorcerer king who keeps everyone's wishes locked away in the kingdom of Rosas.",
+          "answer": "King Magnifico",
+          "accept": [
+            "king magnifico",
+            "magnifico"
+          ],
+          "choices": [
+            "King Magnifico",
+            "King Fergus",
+            "King Frederic",
+            "King Hubert"
+          ],
+          "reveal": "[mischievously] The correct answer is King Magnifico! Voiced by Chris Pine, and his villain song is called This Is the Thanks I Get. Rude!",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "modern-masterpieces",
+      "title": "Modern Masterpieces",
+      "kind": "fan",
+      "intro": "[excited] It's PICTURE time! Each scene comes from a modern Disney animated film. No characters, just clues. Name the movie.",
+      "art": {
+        "prompt": "16:9 card art: a modern art gallery with glowing framed canvases of an ice palace, floating lanterns, an ocean canoe and a neon fusion city, visitors' benches empty, cool gallery lighting No people, no recognizable characters, no text or logos.",
+        "file": "media/modern-marvels--modern-masterpieces.jpg"
+      },
+      "format": "picture",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Name the film.",
+          "answer": "Frozen",
+          "accept": [
+            "frozen"
+          ],
+          "choices": [
+            "Frozen",
+            "Frozen II",
+            "Brave",
+            "Tangled"
+          ],
+          "reveal": "The correct answer is Frozen! [laughs] A glittering ice palace on a mountaintop. Somebody just let it go.",
+          "media": {
+            "type": "image",
+            "prompt": "A towering glittering ice palace with snowflake-patterned walls on a lonely frozen mountain peak under swirling green northern lights, a frozen fjord far below. Original illustration, no people, no recognizable characters, no text or logos.",
+            "file": "media/modern-marvels--modern-masterpieces-200.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Name the film.",
+          "answer": "Zootopia",
+          "accept": [
+            "zootopia",
+            "zootropolis"
+          ],
+          "choices": [
+            "Zootopia",
+            "Bolt",
+            "Robin Hood",
+            "Wreck-It Ralph"
+          ],
+          "reveal": "The correct answer is Zootopia! [excited] A frozen tundra right next to a steamy rainforest. Anyone can be anything... except warm in Tundratown.",
+          "media": {
+            "type": "image",
+            "prompt": "A gleaming modern metropolis skyline where an icy snow-covered tundra district, a steamy misty rainforest district and a sun-baked desert district sit side by side, tiny trains with doors of every size, and a carrot-shaped pen resting on a park bench in the foreground. Original illustration, no people, no recognizable characters, no text or logos.",
+            "file": "media/modern-marvels--modern-masterpieces-400.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Name the film.",
+          "answer": "Moana",
+          "accept": [
+            "moana"
+          ],
+          "choices": [
+            "Moana",
+            "Lilo & Stitch",
+            "Raya and the Last Dragon",
+            "Luca"
+          ],
+          "reveal": "The correct answer is Moana! [excited] A canoe, a glowing green spiral stone, and the open ocean. How far will you go?",
+          "media": {
+            "type": "image",
+            "prompt": "A Polynesian-style outrigger voyaging canoe with a woven sail on a glowing turquoise ocean at sunrise, a small green spiral-carved stone glowing on the deck, a lush volcanic island ahead. Original illustration, no people, no recognizable characters, no text or logos.",
+            "file": "media/modern-marvels--modern-masterpieces-600.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Name the film.",
+          "answer": "Big Hero 6",
+          "accept": [
+            "big hero 6",
+            "big hero six"
+          ],
+          "choices": [
+            "Big Hero 6",
+            "Zootopia",
+            "Bolt",
+            "Meet the Robinsons"
+          ],
+          "reveal": "The correct answer is Big Hero 6! [chuckles] Victorian houses plus pagoda rooftops. That can only be San Fransokyo.",
+          "media": {
+            "type": "image",
+            "prompt": "A hybrid futuristic city at dusk where hilly Victorian row houses have pagoda-style rooftops, floating wind-turbine blimps in a pink sky and a giant red suspension bridge with torii-gate towers. Original illustration, no people, no recognizable characters, no text or logos.",
+            "file": "media/modern-marvels--modern-masterpieces-800.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Name the film.",
+          "answer": "Raya and the Last Dragon",
+          "accept": [
+            "raya and the last dragon",
+            "raya"
+          ],
+          "choices": [
+            "Raya and the Last Dragon",
+            "Mulan",
+            "Moana",
+            "Strange World"
+          ],
+          "reveal": "[gasps] The correct answer is Raya and the Last Dragon! A dragon gem broken into five pieces, one for each land of Kumandra.",
+          "media": {
+            "type": "image",
+            "prompt": "A glowing blue-violet crystal gem shattered into five shards resting on carved stone pedestals in a misty Southeast-Asian-inspired temple, water channels and lotus flowers surrounding it. Original illustration, no people, no recognizable characters, no text or logos.",
+            "file": "media/modern-marvels--modern-masterpieces-1000.jpg"
+          },
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "fresh-magic-in-the-parks",
+      "title": "Fresh Magic in the Parks",
+      "kind": "parks",
+      "intro": "[excited] Our parks category puts modern Disney films on the map, from Epcot to Tokyo. Passports out!",
+      "art": {
+        "prompt": "16:9 card art: a frosty Scandinavian village with grass-roofed buildings beside a turquoise water trail winding through tropical rocks, and far away a fairy-tale lantern-lit forest springs, bright travel-poster style No people, no recognizable characters, no text or logos.",
+        "file": "media/modern-marvels--fresh-magic-in-the-parks.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "The Epcot boat ride where you sail through Arendelle with Anna and Elsa.",
+          "answer": "Frozen Ever After",
+          "accept": [
+            "frozen ever after"
+          ],
+          "choices": [
+            "Frozen Ever After",
+            "Let It Go Log Ride",
+            "Arendelle Adventure",
+            "Frozen: The Ice Voyage"
+          ],
+          "reveal": "The correct answer is Frozen Ever After! [laughs] Watch out for that backwards drop. Olaf did warn you.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Frozen Ever After sits in this World Showcase pavilion at Epcot.",
+          "answer": "Norway",
+          "accept": [
+            "norway",
+            "norway pavilion"
+          ],
+          "choices": [
+            "Norway",
+            "Germany",
+            "Canada",
+            "United Kingdom"
+          ],
+          "reveal": "The correct answer is Norway! [chuckles] It replaced a Viking boat ride called Maelstrom in 2016. Vikings out, snowmen in.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "This walk-through Epcot attraction, which opened in 2023, lets you play with living water.",
+          "answer": "Journey of Water, Inspired by Moana",
+          "accept": [
+            "journey of water",
+            "journey of water inspired by moana",
+            "moana journey of water"
+          ],
+          "choices": [
+            "Journey of Water, Inspired by Moana",
+            "Moana's Ocean Voyage",
+            "Te Fiti Water Trail",
+            "Wayfinding with Moana"
+          ],
+          "reveal": "The correct answer is Journey of Water, Inspired by Moana! [excited] The water wiggles, splashes and plays hide and seek. Bring a towel.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "The very first World of Frozen land opened in 2023 at this Disney park.",
+          "answer": "Hong Kong Disneyland",
+          "accept": [
+            "hong kong disneyland",
+            "hong kong",
+            "hkdl"
+          ],
+          "choices": [
+            "Hong Kong Disneyland",
+            "Tokyo Disneyland",
+            "Shanghai Disneyland",
+            "Disneyland Paris"
+          ],
+          "reveal": "[gasps] The correct answer is Hong Kong Disneyland! A whole walkable Arendelle, with a ride and a coaster. Do you wanna build a vacation?",
+          "dailyDouble": true
+        },
+        {
+          "value": 1000,
+          "clue": "Tokyo DisneySea's Fantasy Springs, which opened in 2024, has areas themed to Frozen, Peter Pan and this 2010 film.",
+          "answer": "Tangled",
+          "accept": [
+            "tangled"
+          ],
+          "choices": [
+            "Tangled",
+            "Moana",
+            "Zootopia",
+            "Encanto"
+          ],
+          "reveal": "The correct answer is Tangled! [excited] Rapunzel's Forest, with lanterns of course. Tokyo DisneySea does NOT play around.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "say-that-again",
+      "title": "Say That Again?",
+      "kind": "media",
+      "intro": "[chuckles] Our voice actor reads a famous line. You tell me which modern Disney character said it. [whispers] No peeking at the subtitles.",
+      "art": {
+        "prompt": "16:9 card art: a vintage studio microphone in a recording booth with soundwave ribbons of color swirling out across a starry backdrop, a pair of headphones on a stool No people, no recognizable characters, no text or logos.",
+        "file": "media/modern-marvels--say-that-again.jpg"
+      },
+      "format": "quote",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Which character said this?",
+          "answer": "Olaf",
+          "accept": [
+            "olaf"
+          ],
+          "choices": [
+            "Olaf",
+            "Sven",
+            "Kristoff",
+            "Anna"
+          ],
+          "reveal": "The correct answer is Olaf! [sighs] Some people are worth melting for. A snowman with a heart of gold.",
+          "quote": "Some people are worth melting for.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Which character said this?",
+          "answer": "Maui",
+          "accept": [
+            "maui"
+          ],
+          "choices": [
+            "Maui",
+            "Tamatoa",
+            "Moana",
+            "Te Ka"
+          ],
+          "reveal": "[laughs] The correct answer is Maui! Voiced by Dwayne Johnson. What can he say except... you're welcome?",
+          "quote": "You're welcome!",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Which character said this?",
+          "answer": "Baymax",
+          "accept": [
+            "baymax"
+          ],
+          "choices": [
+            "Baymax",
+            "Hiro Hamada",
+            "Fred",
+            "Wasabi"
+          ],
+          "reveal": "The correct answer is Baymax! [chuckles] On a scale of one to ten, how would you rate your trivia skills?",
+          "quote": "Hello. I am Baymax, your personal healthcare companion.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Which character said this?",
+          "answer": "Ralph",
+          "accept": [
+            "ralph",
+            "wreck-it ralph",
+            "wreck it ralph"
+          ],
+          "choices": [
+            "Ralph",
+            "Fix-It Felix Jr.",
+            "King Candy",
+            "Sergeant Calhoun"
+          ],
+          "reveal": "The correct answer is Wreck-It Ralph! [laughs] He's bad, and that's good. He'll never be good, and that's not bad.",
+          "quote": "I'm gonna wreck it!",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Which character said this?",
+          "answer": "Chief Bogo",
+          "accept": [
+            "chief bogo",
+            "bogo"
+          ],
+          "choices": [
+            "Chief Bogo",
+            "Mayor Lionheart",
+            "Assistant Mayor Bellwether",
+            "Benjamin Clawhauser"
+          ],
+          "reveal": "[mischievously] The correct answer is Chief Bogo, the grumpy Cape buffalo from Zootopia. Yes, he really did slip a Frozen joke into a cop movie.",
+          "quote": "Life isn't some cartoon musical where you sing a little song and all your insipid dreams magically come true. So let it go.",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}

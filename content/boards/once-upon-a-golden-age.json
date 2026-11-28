@@ -1,0 +1,551 @@
+{
+  "id": "once-upon-a-golden-age",
+  "title": "Once Upon a Golden Age",
+  "theme": "Disney's classic animated features from 1937 to 1967",
+  "tags": [
+    "classics",
+    "golden age",
+    "snow white",
+    "fantasia",
+    "1937-1967"
+  ],
+  "intro": "[excited] Dust off the storybook and fluff up your petticoats! Tonight is ONCE UPON A GOLDEN AGE, celebrating Disney classics from Snow White in 1937 all the way to The Jungle Book in 1967. [chuckles] Thirty years of hand-drawn magic, and zero of it is in my hand-drawn handwriting.",
+  "art": {
+    "prompt": "Wide 16:9 title card: an enormous leather-bound storybook opening by itself in a candlelit library, golden light spilling out with swirling fairy dust, silhouettes of a glass slipper, a spinning wheel, a poisoned red apple and a wizard's starry hat drifting up from the pages, rich gouache painting No people, no recognizable characters, no text or logos.",
+    "file": "media/once-upon-a-golden-age.jpg"
+  },
+  "categories": [
+    {
+      "id": "mirror-mirror",
+      "title": "Mirror, Mirror",
+      "kind": "film",
+      "intro": "[mischievously] Mirror, mirror, on the wall, who knows the most about the fairest film of all? Our film category is 1937's Snow White and the Seven Dwarfs.",
+      "art": {
+        "prompt": "16:9 card art: an ornate gilded magic mirror on a stone castle wall glowing green, a shiny red apple on a velvet cushion before it, a dark forest and a tiny cottage reflected in the glass No people, no recognizable characters, no text or logos.",
+        "file": "media/once-upon-a-golden-age--mirror-mirror.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In Snow White, the wicked Queen tricks Snow White into biting a poisoned piece of this fruit.",
+          "answer": "An apple",
+          "accept": [
+            "apple",
+            "an apple",
+            "a red apple",
+            "poisoned apple",
+            "poison apple"
+          ],
+          "choices": [
+            "An apple",
+            "A pear",
+            "A peach",
+            "A plum"
+          ],
+          "reveal": "The correct answer is an apple! [laughs] Rule number one of fairy tales: never take fruit from a stranger in a cloak.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "This dwarf never says a word.",
+          "answer": "Dopey",
+          "accept": [
+            "dopey"
+          ],
+          "choices": [
+            "Dopey",
+            "Bashful",
+            "Sleepy",
+            "Doc"
+          ],
+          "reveal": "The correct answer is Dopey. [chuckles] He does not talk, but those ears say plenty.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "The dwarfs sing this song as they march home from the mine.",
+          "answer": "Heigh-Ho",
+          "accept": [
+            "heigh-ho",
+            "heigh ho",
+            "hi ho",
+            "hi-ho",
+            "heigh ho heigh ho"
+          ],
+          "choices": [
+            "Heigh-Ho",
+            "Whistle While You Work",
+            "The Silly Song",
+            "Someday My Prince Will Come"
+          ],
+          "reveal": "The correct answer is Heigh-Ho! [excited] It's home from work we go. Nobody has ever been this happy about a commute.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Snow White and the Seven Dwarfs premiered in this year, as Disney's first full-length animated feature.",
+          "answer": "1937",
+          "accept": [
+            "1937",
+            "nineteen thirty seven"
+          ],
+          "choices": [
+            "1937",
+            "1934",
+            "1940",
+            "1942"
+          ],
+          "reveal": "The correct answer is 1937. Hollywood called it Disney's Folly. [laughs] It became one of the biggest hits of its time. Folly THAT.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "For Snow White, Walt received an honorary Oscar: one full-size statuette plus this many miniature ones.",
+          "answer": "Seven",
+          "accept": [
+            "seven",
+            "7"
+          ],
+          "choices": [
+            "Seven",
+            "Six",
+            "Five",
+            "Eight"
+          ],
+          "reveal": "The correct answer is seven! [gasps] One big Oscar and seven tiny ones, presented by Shirley Temple in 1939. The cutest trophy ever made.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "golden-greats",
+      "title": "Golden Greats",
+      "kind": "theme",
+      "intro": "[excited] This themed category spans the whole golden age. Puppets, pixies, bunnies and cats. Let's GO.",
+      "art": {
+        "prompt": "16:9 card art: a vintage movie palace marquee glowing at night with golden curtains drawn back to reveal a sparkling sky full of floating story objects: a wooden puppet's tiny hat, pixie dust trails, a bunny-shaped cloud and a pair of teacups No people, no recognizable characters, no text or logos.",
+        "file": "media/once-upon-a-golden-age--golden-greats.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Pinocchio's nose grows whenever he tells one of these.",
+          "answer": "A lie",
+          "accept": [
+            "lie",
+            "a lie",
+            "lies",
+            "fib",
+            "a fib"
+          ],
+          "choices": [
+            "A lie",
+            "A joke",
+            "A secret",
+            "A riddle"
+          ],
+          "reveal": "The correct answer is a lie! [chuckles] Good thing that doesn't happen to game show hosts. My nose would be out the door by now.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "This fairy sprinkles pixie dust in the 1953 film Peter Pan.",
+          "answer": "Tinker Bell",
+          "accept": [
+            "tinker bell",
+            "tinkerbell",
+            "tink"
+          ],
+          "choices": [
+            "Tinker Bell",
+            "Silvermist",
+            "Fairy Godmother",
+            "The Blue Fairy"
+          ],
+          "reveal": "The correct answer is Tinker Bell! [excited] All it takes is faith and trust... and a little bit of pixie dust.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Bambi's rabbit best friend, who thumps his foot.",
+          "answer": "Thumper",
+          "accept": [
+            "thumper"
+          ],
+          "choices": [
+            "Thumper",
+            "Flower",
+            "Friend Owl",
+            "Miss Bunny"
+          ],
+          "reveal": "The correct answer is Thumper. [mischievously] If you can't say something nice, don't say nothing at all. Words to live by.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "The pair of troublemaking Siamese cats in 1955's Lady and the Tramp.",
+          "answer": "Si and Am",
+          "accept": [
+            "si and am",
+            "si & am",
+            "si am"
+          ],
+          "choices": [
+            "Si and Am",
+            "Ping and Pong",
+            "Mei and Lin",
+            "Sun and Moon"
+          ],
+          "reveal": "The correct answer is Si and Am. [sighs] They wrecked the goldfish bowl and blamed the dog. Classic cats.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "The last animated feature Walt Disney personally worked on, released in 1967 after his death.",
+          "answer": "The Jungle Book",
+          "accept": [
+            "the jungle book",
+            "jungle book"
+          ],
+          "choices": [
+            "The Jungle Book",
+            "The Aristocats",
+            "The Sword in the Stone",
+            "One Hundred and One Dalmatians"
+          ],
+          "reveal": "The correct answer is The Jungle Book. [sighs] Walt passed away in December 1966, and the film came out the next fall. What a way to say goodbye.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "prop-shop",
+      "title": "Prop Shop",
+      "kind": "media",
+      "intro": "[excited] Welcome to the Prop Shop! Each picture shows the objects and settings from a golden-age classic. Name the film.",
+      "art": {
+        "prompt": "16:9 card art: a dusty backstage prop room lit by a single spotlight, shelves of whimsical objects: a glass slipper, a cuckoo clock, a spinning wheel, a wizard's hat, a lantern and a jack-o'-lantern, warm storybook painting No people, no recognizable characters, no text or logos.",
+        "file": "media/once-upon-a-golden-age--prop-shop.jpg"
+      },
+      "format": "picture",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Name the film.",
+          "answer": "Cinderella",
+          "accept": [
+            "cinderella"
+          ],
+          "choices": [
+            "Cinderella",
+            "Sleeping Beauty",
+            "Snow White and the Seven Dwarfs",
+            "Alice in Wonderland"
+          ],
+          "reveal": "The correct answer is Cinderella! [laughs] One glass slipper left on the palace steps at midnight. Least practical shoe ever, best plot device ever.",
+          "media": {
+            "type": "image",
+            "prompt": "A single sparkling glass slipper resting on a sweeping marble palace staircase at midnight, a giant clock tower glowing in the background and a pumpkin-shaped silhouette rolling away under moonlight. Original illustration, no people, no recognizable characters, no text or logos.",
+            "file": "media/once-upon-a-golden-age--prop-shop-200.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Name the film.",
+          "answer": "Pinocchio",
+          "accept": [
+            "pinocchio"
+          ],
+          "choices": [
+            "Pinocchio",
+            "Fantasia",
+            "The Sword in the Stone",
+            "Dumbo"
+          ],
+          "reveal": "The correct answer is Pinocchio. [chuckles] A woodcarver's workshop full of cuckoo clocks? It has to be Geppetto's place.",
+          "media": {
+            "type": "image",
+            "prompt": "A cozy Old World woodcarver's workshop at night packed with hand-carved cuckoo clocks and music boxes, wood shavings on a bench, a goldfish bowl on the windowsill and a bright wishing star shining through the window. Original illustration, no people, no recognizable characters, no text or logos.",
+            "file": "media/once-upon-a-golden-age--prop-shop-400.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Name the film.",
+          "answer": "Sleeping Beauty",
+          "accept": [
+            "sleeping beauty"
+          ],
+          "choices": [
+            "Sleeping Beauty",
+            "Snow White and the Seven Dwarfs",
+            "Cinderella",
+            "Peter Pan"
+          ],
+          "reveal": "[whispers] The correct answer is Sleeping Beauty. Touch the spindle of a spinning wheel... and down you go. Spooky.",
+          "media": {
+            "type": "image",
+            "prompt": "An antique wooden spinning wheel in a dark stone tower room, its spindle glowing with an eerie green light, swirling green mist and thorny vines creeping through a narrow window. Original illustration, no people, no recognizable characters, no text or logos.",
+            "file": "media/once-upon-a-golden-age--prop-shop-600.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Name the film.",
+          "answer": "Fantasia",
+          "accept": [
+            "fantasia",
+            "fantasia 1940"
+          ],
+          "choices": [
+            "Fantasia",
+            "Pinocchio",
+            "Make Mine Music",
+            "Melody Time"
+          ],
+          "reveal": "[laughs] The correct answer is Fantasia! The Sorcerer's Apprentice. Never let a broom do your chores. It will NOT stop.",
+          "media": {
+            "type": "image",
+            "prompt": "A tall pointed deep-blue wizard's hat decorated with silver stars and crescent moons floating in a flooding stone cellar, wooden buckets and an army of straw brooms marching through the rising water. Original illustration, no people, no recognizable characters, no text or logos.",
+            "file": "media/once-upon-a-golden-age--prop-shop-800.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Name the film.",
+          "answer": "The Adventures of Ichabod and Mr. Toad",
+          "accept": [
+            "the adventures of ichabod and mr toad",
+            "the adventures of ichabod and mr. toad",
+            "ichabod and mr toad",
+            "ichabod and mr. toad",
+            "the legend of sleepy hollow"
+          ],
+          "choices": [
+            "The Adventures of Ichabod and Mr. Toad",
+            "Fun and Fancy Free",
+            "The Wind in the Willows",
+            "Make Mine Music"
+          ],
+          "reveal": "The correct answer is The Adventures of Ichabod and Mr. Toad, from 1949. [excited] A flaming pumpkin for Sleepy Hollow and a wild motorcar for Mr. Toad. Two stories, one film!",
+          "media": {
+            "type": "image",
+            "prompt": "A misty moonlit covered wooden bridge with a glowing, flaming jack-o'-lantern lying in the road, and parked beside it a shiny bright red vintage 1900s motorcar with goggles on the seat. Original illustration, no people, no recognizable characters, no text or logos.",
+            "file": "media/once-upon-a-golden-age--prop-shop-1000.jpg"
+          },
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "fantasyland-favorites",
+      "title": "Fantasyland Favorites",
+      "kind": "parks",
+      "intro": "[excited] Our parks category is Fantasyland, where the golden-age classics turned into rides. Keep your arms and legs inside the category at all times.",
+      "art": {
+        "prompt": "16:9 card art: a whimsical fairy-tale village of attraction facades at dusk: giant spinning teacups under paper lanterns, flying elephant ride vehicles with blank sides, a pirate galleon floating above rooftops, glowing string lights No people, no recognizable characters, no text or logos.",
+        "file": "media/once-upon-a-golden-age--fantasyland-favorites.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "On this ride at Disneyland and Magic Kingdom, you soar over London in a flying pirate ship.",
+          "answer": "Peter Pan's Flight",
+          "accept": [
+            "peter pan's flight",
+            "peter pans flight",
+            "peter pan flight",
+            "peter pan"
+          ],
+          "choices": [
+            "Peter Pan's Flight",
+            "Dumbo the Flying Elephant",
+            "Mad Tea Party",
+            "Alice in Wonderland"
+          ],
+          "reveal": "The correct answer is Peter Pan's Flight. [laughs] The lines are long... but you get to FLY. Worth it.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "This spinning teacup ride is based on 1951's Alice in Wonderland.",
+          "answer": "Mad Tea Party",
+          "accept": [
+            "mad tea party",
+            "the mad tea party",
+            "teacups",
+            "the teacups",
+            "tea cups"
+          ],
+          "choices": [
+            "Mad Tea Party",
+            "Alice's Teacup Twirl",
+            "Unbirthday Spin",
+            "Wonderland Whirl"
+          ],
+          "reveal": "The correct answer is the Mad Tea Party! [chuckles] Spin that wheel hard. A very merry unbirthday to your stomach.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "On this Fantasyland classic, you circle above the park aboard flying elephants.",
+          "answer": "Dumbo the Flying Elephant",
+          "accept": [
+            "dumbo the flying elephant",
+            "dumbo",
+            "dumbo ride",
+            "dumbo flying elephant"
+          ],
+          "choices": [
+            "Dumbo the Flying Elephant",
+            "Casey Jr. Circus Train",
+            "Astro Orbiter",
+            "The Magic Carpets of Aladdin"
+          ],
+          "reveal": "The correct answer is Dumbo the Flying Elephant! [excited] Pro tip: hold the lever all the way up. You deserve the altitude.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Opened in 1955, this Disneyland dark ride lets you drive a motorcar on a madcap journey to nowhere in particular.",
+          "answer": "Mr. Toad's Wild Ride",
+          "accept": [
+            "mr toad's wild ride",
+            "mr. toad's wild ride",
+            "mr toads wild ride",
+            "mr toad",
+            "mr. toad"
+          ],
+          "choices": [
+            "Mr. Toad's Wild Ride",
+            "Pinocchio's Daring Journey",
+            "Alice in Wonderland",
+            "Peter Pan's Flight"
+          ],
+          "reveal": "[laughs] The correct answer is Mr. Toad's Wild Ride! Spoiler alert, the ride literally ends somewhere very hot. Wild indeed.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Disneyland's Storybook Land Canal Boats begin their voyage by sailing into the mouth of this whale from Pinocchio.",
+          "answer": "Monstro",
+          "accept": [
+            "monstro",
+            "monstro the whale"
+          ],
+          "choices": [
+            "Monstro",
+            "Willie",
+            "Moby",
+            "Gulpo"
+          ],
+          "reveal": "[gasps] The correct answer is Monstro! Just like Geppetto, you get swallowed... but these boats sail right back out into miniature fairy-tale villages.",
+          "dailyDouble": true
+        }
+      ]
+    },
+    {
+      "id": "sing-along-classics",
+      "title": "Sing-Along Classics",
+      "kind": "fan",
+      "intro": "[excited] Warm up those vocal cords! Finish the lyric from a golden-age classic. [chuckles] Singing your answer is optional. Encouraged. But optional.",
+      "art": {
+        "prompt": "16:9 card art: a vintage gramophone horn spilling golden musical notes into a starry night sky over rooftops, sheet music pages fluttering like birds, a wishing star shining bright No people, no recognizable characters, no text or logos.",
+        "file": "media/once-upon-a-golden-age--sing-along-classics.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Finish the lyric from Pinocchio: \"When you wish upon a ___\"",
+          "answer": "Star",
+          "accept": [
+            "star",
+            "a star"
+          ],
+          "choices": [
+            "Star",
+            "Moon",
+            "Dream",
+            "Rainbow"
+          ],
+          "reveal": "The correct answer is star! [sighs] Makes no difference who you are. This one is basically the Disney national anthem.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Finish the lyric from Cinderella: \"Salagadoola mechicka boola, Bibbidi-Bobbidi-___\"",
+          "answer": "Boo",
+          "accept": [
+            "boo"
+          ],
+          "choices": [
+            "Boo",
+            "Bop",
+            "Bee",
+            "Bah"
+          ],
+          "reveal": "The correct answer is Boo! [laughs] Put 'em together and what have you got? A pumpkin carriage and a great answer.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Finish the lyric from Mary Poppins: \"Just a spoonful of sugar helps the medicine go ___\"",
+          "answer": "Down",
+          "accept": [
+            "down"
+          ],
+          "choices": [
+            "Down",
+            "Round",
+            "Away",
+            "Smooth"
+          ],
+          "reveal": "The correct answer is down! [chuckles] In the most delightful way. Doctors everywhere still have mixed feelings.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Finish the lyric from Sleeping Beauty: \"I know you, I walked with you once upon a ___\"",
+          "answer": "Dream",
+          "accept": [
+            "dream",
+            "a dream"
+          ],
+          "choices": [
+            "Dream",
+            "Time",
+            "Star",
+            "Song"
+          ],
+          "reveal": "The correct answer is dream! Once Upon a Dream, and the tune comes from Tchaikovsky's ballet. [whispers] Fancy.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Finish the lyric from Lady and the Tramp: \"Oh, this is the night, it's a beautiful night, and we call it ___\"",
+          "answer": "Bella Notte",
+          "accept": [
+            "bella notte",
+            "bella note"
+          ],
+          "choices": [
+            "Bella Notte",
+            "Buona Sera",
+            "Bella Luna",
+            "Dolce Vita"
+          ],
+          "reveal": "[excited] The correct answer is Bella Notte! Sung by Tony and Joe while two dogs share one noodle. Peak romance.",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}
