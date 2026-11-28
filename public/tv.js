@@ -19,13 +19,9 @@ setBg('castle');
 // ---------- narration ----------
 const audio = new Audio(); audio.preload = 'auto';
 let speaking = null;
+// Only Chet's real voice clips are played; when a clip is missing the line stays on screen as a subtitle.
 function speakNative(text, done) {
-  if (window.DJ_TV?.speak) { window.DJ_TV.speak(text, 1.05, 1.0); setTimeout(done, 900 + text.split(/\s+/).length * 380); return; }
-  if ('speechSynthesis' in window) {
-    const u = new SpeechSynthesisUtterance(text); u.rate = 1.05; u.pitch = 1.05;
-    u.onend = done; u.onerror = done; speechSynthesis.cancel(); speechSynthesis.speak(u);
-    setTimeout(done, 2500 + text.split(/\s+/).length * 500);
-  } else setTimeout(done, 1500 + text.split(/\s+/).length * 350);
+  setTimeout(done, 1200 + String(text || '').split(/\s+/).length * 380);
 }
 // ---------- animated host ----------
 // Every mood loop plays continuously (muted) so switching moods is an instant crossfade, not a reload.
@@ -67,7 +63,7 @@ function updateCam() {
 
 function say(m) {
   let fired = false;
-  let done = () => { if (fired) return; fired = true; if (m.tag === 'cold' && S?.phase === 'coldOpen') return sock.send({ t: 'next' }); if (m.tag?.startsWith('pitch:')) { pitchIdx = Number(m.tag.slice(6)) + 1; render(); if (S?.phase === 'hostDraft' && pitchIdx < 6) setTimeout(() => sock.send({ t: 'pitch', i: pitchIdx }), 400); return; } if (m.tag) sock.send({ t: 'readDone', seq: S?.clue?.id && m.tag !== 'intro' && m.tag !== 'cat' ? m.tag : undefined }); };
+  let done = () => { if (fired) return; fired = true; if (m.tag === 'cold' && S?.phase === 'coldOpen') return sock.send({ t: 'next' }); if (m.tag?.startsWith('pitch:')) { pitchIdx = Number(m.tag.slice(6)) + 1; render(); if (S?.phase === 'hostDraft' && pitchIdx < 6) setTimeout(() => sock.send({ t: 'pitch', i: pitchIdx }), 400); return; } if (m.tag) sock.send({ t: 'readDone', seq: m.tag }); };
   speaking = m;
   const ownLine = !m.tag?.startsWith('pitch:');
   if (ownLine) hostMood('talk');

@@ -44,10 +44,14 @@ function renderJoin(err = '') {
   };
 }
 
+let buzzSeenAt = 0, answerAt = 0;
+const CHOICE_LOCK_MS = 1000;
+
 function onPhase(prev) {
   const ph = S.phase; if (ph === prev) return;
+  if (ph === 'buzzing') buzzSeenAt = performance.now();
   if (ph === 'buzzing' && !S.clue?.attempted.includes(me)) vibrate(60);
-  if (ph === 'answering' && S.clue?.answerer === me) { vibrate([80, 40, 80]); draft = ''; }
+  if (ph === 'answering' && S.clue?.answerer === me) { vibrate([80, 40, 80]); draft = ''; answerAt = performance.now(); }
   if (ph === 'ddWager' && S.control === me) vibrate([100, 50, 100]);
   if (ph === 'finalThink' || ph === 'finalWager') draft = '';
 }
@@ -68,7 +72,12 @@ function answerBox(kind) {
 }
 
 function bindAnswer() {
-  $$('[data-choice]').forEach((b) => b.onclick = () => { sfx('pick'); send({ t: 'answer', choice: b.dataset.choice }); b.disabled = true; });
+  // Choices stay locked briefly after winning the buzz so a leftover buzzer tap can't pick an answer.
+  const wait = answerAt + CHOICE_LOCK_MS - performance.now();
+  $$('[data-choice]').forEach((b) => {
+    b.onclick = () => { sfx('pick'); send({ t: 'answer', choice: b.dataset.choice }); b.disabled = true; };
+    if (wait > 0 && !b.disabled) { b.disabled = true; b.classList.add('arming'); setTimeout(() => { b.disabled = false; b.classList.remove('arming'); }, wait); }
+  });
   const inp = $('#ans');
   if (inp) {
     inp.oninput = () => { draft = inp.value; };
@@ -195,7 +204,7 @@ function render() {
       ${rulingBox()}${r && r.verdict !== 'correct' && !S.ruling && S.settings.moderator !== me ? '<button class="secondary" id="challenge">🙋 I was right! (challenge)</button>' : ''}
       ${(S.captain === me || S.settings.moderator === me) && !S.ruling ? '<button id="next">Continue ▶</button>' : ''}`;
   } else if (ph === 'finalWheel') h = `${top()}<h2 class="gold">FINAL JEOPARDY</h2><div class="muted">Watch the wheel!</div>`;
-  else if (ph === 'finalWager') h = F.entrants.includes(me) ? (F.wagered.includes(me) ? `${top()}<h2>Wager locked 🔒</h2>` : `${top()}<h2 class="gold">${esc(F.film)}</h2>${wagerBox(Math.max(mine().score, 0), 'Final wager')}`) : `${top()}<h2>Sitting this one out</h2><div class="muted">You need more than $0 to play Final Jeopardy.</div>`;
+  else if (ph === 'finalWager') h = F.entrants.includes(me) ? (F.wagered.includes(me) ? (mine().score <= 0 ? `${top()}<h2 class="gold">${esc(F.film)}</h2><h2>Playing for pride!</h2><div class="muted">No wager this time, but you still get to answer.</div>` : `${top()}<h2>Wager locked 🔒</h2>`) : `${top()}<h2 class="gold">${esc(F.film)}</h2>${wagerBox(Math.max(mine().score, 0), 'Final wager')}`) : `${top()}<h2>Sitting this one out</h2><div class="muted">You need more than $0 to play Final Jeopardy.</div>`;
   else if (ph === 'finalClue' || ph === 'finalThink') h = F.entrants.includes(me) && !F.answered.includes(me) && ph === 'finalThink' ? `${top()}<h2 class="gold">${esc(F.film)}</h2><div class="timer"></div>${answerBox('final')}` : `${top()}<h2>${F.answered.includes(me) ? 'Answer locked 🔒' : 'Read the clue on the TV…'}</h2>`;
   else if (ph === 'finalReveal') h = `${top()}<h2>Final Jeopardy reveal…</h2>${rulingBox()}${S.captain === me && !S.ruling ? '<button id="next">Next ▶</button>' : ''}`;
   else if (ph === 'podium') { const rank = [...S.players].sort((a, b) => b.score - a.score).findIndex((p) => p.id === me) + 1; h = `${top()}<div class="verdict">${rank === 1 ? '👑' : rank === 2 ? '🥈' : rank === 3 ? '🥉' : '🎉'}</div><h2>You finished #${rank}!</h2>${S.captain === me ? '<button id="again">Play another episode</button>' : ''}`; }
@@ -203,7 +212,7 @@ function render() {
   countdown($('.timer'), S.deadline);
   if (ph === 'lobby') bindLobby();
   $$('[data-pick]').forEach((b) => b.onclick = () => { sfx('pick'); send({ t: 'pick', clue: b.dataset.pick }); });
-  $('#buzz') && $('#buzz').addEventListener('pointerdown', (e) => { e.preventDefault(); vibrate(40); send({ t: 'buzz' }); });
+  $('#buzz') && $('#buzz').addEventListener('pointerdown', (e) => { e.preventDefault(); vibrate(40); send({ t: 'buzz', rt: buzzSeenAt ? Math.round(performance.now() - buzzSeenAt) : undefined }); });
   $$('[data-host]').forEach((b) => b.onclick = () => { sfx('pick'); vibrate(20); send({ t: 'voteHost', id: b.dataset.host }); });
   $('#next') && ($('#next').onclick = () => send({ t: 'next' }));
   $('#again') && ($('#again').onclick = () => send({ t: 'newGame' }));
