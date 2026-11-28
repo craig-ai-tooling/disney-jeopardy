@@ -1,0 +1,578 @@
+{
+  "id": "walt-and-the-early-days",
+  "title": "It All Started with a Mouse",
+  "theme": "Walt Disney, Mickey's origins, Oswald, early shorts and Disneyland's 1955 opening",
+  "tags": [
+    "history",
+    "walt disney",
+    "mickey mouse",
+    "disneyland",
+    "1955"
+  ],
+  "intro": "[excited] Grab your straw boater and whistle a happy tune, because tonight IT ALL STARTED WITH A MOUSE! We are going way back to Walt, the early shorts, a lucky rabbit and opening day at Disneyland. [chuckles] Black and white answers only... just kidding.",
+  "art": {
+    "prompt": "Wide 16:9 title card: a vintage 1920s animation desk under a warm lamp, pencil sketches pinned to the wall, a reel of nitrate film, an old riverboat steam whistle, and through the window a glowing pink fairy-tale castle and a 1950s amusement park at dusk, sepia fading into Technicolor No people, no recognizable characters, no text or logos.",
+    "file": "media/walt-and-the-early-days.jpg"
+  },
+  "categories": [
+    {
+      "id": "steamboat-shorts",
+      "title": "Steamboat Willie and Friends",
+      "kind": "film",
+      "intro": "[excited] Our film category is all about the cartoon shorts that started it all. Toot toot! All aboard.",
+      "art": {
+        "prompt": "16:9 card art: a tiny paddle steamboat puffing round smoke rings on a black-and-white river, a hand-cranked film projector and a gramophone on a wooden dock, vintage cartoon style fading to color No people, no recognizable characters, no text or logos.",
+        "file": "media/walt-and-the-early-days--steamboat-shorts.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In the 1928 cartoon Steamboat Willie, Mickey is at the wheel of this kind of vehicle.",
+          "answer": "A steamboat",
+          "accept": [
+            "steamboat",
+            "a steamboat",
+            "boat",
+            "riverboat",
+            "steam boat"
+          ],
+          "choices": [
+            "A steamboat",
+            "A train",
+            "An airplane",
+            "A race car"
+          ],
+          "reveal": "The correct answer is a steamboat! [laughs] It is right there in the title, folks. Mickey whistles while he steers, and a legend is born.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "This mouse, Mickey's sweetheart, also appears in Steamboat Willie, playing music with the farm animals.",
+          "answer": "Minnie Mouse",
+          "accept": [
+            "minnie",
+            "minnie mouse"
+          ],
+          "choices": [
+            "Minnie Mouse",
+            "Clarabelle Cow",
+            "Daisy Duck",
+            "Mortimer Mouse"
+          ],
+          "reveal": "The correct answer is Minnie Mouse. She was there from the very beginning, and she has been stealing scenes ever since.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Disney's musical cartoon series that began in 1929 with The Skeleton Dance.",
+          "answer": "Silly Symphonies",
+          "accept": [
+            "silly symphonies",
+            "silly symphony",
+            "the silly symphonies"
+          ],
+          "choices": [
+            "Silly Symphonies",
+            "Merrie Melodies",
+            "Laugh-O-Grams",
+            "Looney Tunes"
+          ],
+          "reveal": "[chuckles] The correct answer is Silly Symphonies. Dancing skeletons in 1929! Walt was doing spooky season before it was cool.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "The 1932 Silly Symphony Flowers and Trees was the first commercially released cartoon in full three-strip form of this color process.",
+          "answer": "Technicolor",
+          "accept": [
+            "technicolor",
+            "three strip technicolor",
+            "three-strip technicolor"
+          ],
+          "choices": [
+            "Technicolor",
+            "Kodachrome",
+            "Cinecolor",
+            "Eastmancolor"
+          ],
+          "reveal": "The correct answer is Technicolor. And Flowers and Trees won the very first Academy Award for an animated short. [excited] Trees, you love to see it.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Mickey's first cartoon, test screened in 1928 as a silent short, has him copying aviator Charles Lindbergh.",
+          "answer": "Plane Crazy",
+          "accept": [
+            "plane crazy"
+          ],
+          "choices": [
+            "Plane Crazy",
+            "The Gallopin' Gaucho",
+            "The Barn Dance",
+            "The Karnival Kid"
+          ],
+          "reveal": "[gasps] The correct answer is Plane Crazy! It was made first, but Steamboat Willie, with its synchronized sound, got released first. Talk about a plot twist.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "lucky-rabbits-foot",
+      "title": "Lucky Rabbit's Foot",
+      "kind": "theme",
+      "intro": "[mischievously] This category hops through the people, and the rabbit, behind the birth of the Disney studio. Rub that lucky foot.",
+      "art": {
+        "prompt": "16:9 card art: a 1920s cartoon studio storefront at twilight with a rabbit-ear shaped shadow on the window, inkwells, a rabbit's foot charm on a desk beside a film canister, warm vintage palette No people, no recognizable characters, no text or logos.",
+        "file": "media/walt-and-the-early-days--lucky-rabbits-foot.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Walt Disney himself provided the original voice of this famous character.",
+          "answer": "Mickey Mouse",
+          "accept": [
+            "mickey",
+            "mickey mouse"
+          ],
+          "choices": [
+            "Mickey Mouse",
+            "Donald Duck",
+            "Goofy",
+            "Pluto"
+          ],
+          "reveal": "The correct answer is Mickey Mouse. Walt voiced Mickey until 1947. [laughs] Hot dog!",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Before Mickey, Walt created this 'Lucky Rabbit' in 1927.",
+          "answer": "Oswald",
+          "accept": [
+            "oswald",
+            "oswald the lucky rabbit"
+          ],
+          "choices": [
+            "Oswald",
+            "Peter Cottontail",
+            "Roger Rabbit",
+            "Bucky O'Hare"
+          ],
+          "reveal": "The correct answer is Oswald the Lucky Rabbit. Walt lost the rights to him, and that heartbreak led straight to a mouse. [sighs] Unlucky for Walt, lucky for us.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Walt founded the studio in 1923 with this older brother, who handled the money.",
+          "answer": "Roy O. Disney",
+          "accept": [
+            "roy",
+            "roy disney",
+            "roy o disney",
+            "roy o. disney",
+            "roy oliver disney"
+          ],
+          "choices": [
+            "Roy O. Disney",
+            "Herbert Disney",
+            "Raymond Disney",
+            "Elias Disney"
+          ],
+          "reveal": "The correct answer is Roy O. Disney. Walt dreamed it, Roy figured out how to pay for it. [chuckles] Every family needs a Roy.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "This animator, Walt's longtime partner, did most of the original drawing of Mickey Mouse.",
+          "answer": "Ub Iwerks",
+          "accept": [
+            "ub iwerks",
+            "iwerks",
+            "ub",
+            "ub iwerkes"
+          ],
+          "choices": [
+            "Ub Iwerks",
+            "Les Clark",
+            "Hugh Harman",
+            "Ollie Johnston"
+          ],
+          "reveal": "The correct answer is Ub Iwerks! [excited] He reportedly drew around 700 drawings a day for Plane Crazy. My hand hurts just thinking about it.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "In 2006, Disney got the rights to Oswald back from NBCUniversal in a trade that sent this sportscaster to NBC.",
+          "answer": "Al Michaels",
+          "accept": [
+            "al michaels",
+            "michaels"
+          ],
+          "choices": [
+            "Al Michaels",
+            "John Madden",
+            "Bob Costas",
+            "Brent Musburger"
+          ],
+          "reveal": "[laughs] The correct answer is Al Michaels! A rabbit traded for a play-by-play legend. Easily the weirdest trade in sports history.",
+          "dailyDouble": true
+        }
+      ]
+    },
+    {
+      "id": "original-attractions",
+      "title": "Original Attractions",
+      "kind": "media",
+      "intro": "[excited] It's PICTURE time! Every photo shows something that has been at Disneyland since its very first summer, 1955. Name what you see.",
+      "art": {
+        "prompt": "16:9 card art: a sunny 1955-style amusement park midway seen from above: a white paddle-wheel riverboat on a river, a jeweled carousel, tiny vintage race cars on a winding track, and a pink castle in the distance, nostalgic postcard style No people, no recognizable characters, no text or logos.",
+        "file": "media/walt-and-the-early-days--original-attractions.jpg"
+      },
+      "format": "picture",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This castle has stood at the end of Main Street, U.S.A. since Disneyland opened in 1955. Name it.",
+          "answer": "Sleeping Beauty Castle",
+          "accept": [
+            "sleeping beauty castle",
+            "sleeping beauty's castle",
+            "sleeping beauty"
+          ],
+          "choices": [
+            "Sleeping Beauty Castle",
+            "Cinderella Castle",
+            "Enchanted Storybook Castle",
+            "Castle of Magical Dreams"
+          ],
+          "reveal": "The correct answer is Sleeping Beauty Castle. And it has a real working drawbridge! [whispers] It has only been lowered twice.",
+          "media": {
+            "type": "image",
+            "file": "media/walt-and-the-early-days--original-attractions-200.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Sleeping_Beauty_Castle_Disneyland_Anaheim_2013.jpg",
+              "license": "CC BY-SA 3.0",
+              "author": "Tuxyso"
+            }
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "This paddle-wheeler has cruised the Rivers of America since 1955. Name it.",
+          "answer": "Mark Twain Riverboat",
+          "accept": [
+            "mark twain riverboat",
+            "mark twain",
+            "the mark twain",
+            "mark twain river boat"
+          ],
+          "choices": [
+            "Mark Twain Riverboat",
+            "Liberty Belle Riverboat",
+            "Sailing Ship Columbia",
+            "Delta Queen"
+          ],
+          "reveal": "The correct answer is the Mark Twain Riverboat. Walt and Lillian kicked off their 30th anniversary party aboard it, four days before opening. [chuckles] Full steam ahead.",
+          "media": {
+            "type": "image",
+            "file": "media/walt-and-the-early-days--original-attractions-400.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Mark_Twain_Riverboat,_Disneyland.jpg",
+              "license": "CC BY 4.0",
+              "author": "Contributor19"
+            }
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "This Fantasyland ride, with its jumping horses, has been spinning at Disneyland since 1955. Name it.",
+          "answer": "King Arthur Carrousel",
+          "accept": [
+            "king arthur carrousel",
+            "king arthur carousel",
+            "king arthur's carrousel",
+            "carrousel",
+            "carousel"
+          ],
+          "choices": [
+            "King Arthur Carrousel",
+            "Prince Charming Regal Carrousel",
+            "Le Carrousel de Lancelot",
+            "Dumbo the Flying Elephant"
+          ],
+          "reveal": "The correct answer is King Arthur Carrousel. Walt loved watching his daughters ride carousels, and that is part of how Disneyland was born. [sighs] Sweet.",
+          "media": {
+            "type": "image",
+            "file": "media/walt-and-the-early-days--original-attractions-600.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:King_Arthur_Carrousel_July_2022.JPG",
+              "license": "CC0",
+              "author": "Benoît Prieur"
+            }
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Tomorrowland guests have been driving these little cars since opening day in 1955. Name the attraction.",
+          "answer": "Autopia",
+          "accept": [
+            "autopia",
+            "the autopia",
+            "tomorrowland autopia"
+          ],
+          "choices": [
+            "Autopia",
+            "Tomorrowland Speedway",
+            "Grand Prix Raceway",
+            "Radiator Springs Racers"
+          ],
+          "reveal": "[excited] The correct answer is Autopia! Back in 1955, kids got a taste of the brand new freeway life. Today it is the only ride where your little brother is allowed to drive.",
+          "media": {
+            "type": "image",
+            "file": "media/walt-and-the-early-days--original-attractions-800.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Autopia_at_Disneyland,_Nov_2005_-_DL05_039.jpg",
+              "license": "CC BY-SA 3.0",
+              "author": "Randomgbear at English Wikipedia"
+            }
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "This little Fantasyland train has chugged around Disneyland since the park's first summer of 1955. Its engine comes from what 1941 film?",
+          "answer": "Dumbo",
+          "accept": [
+            "dumbo"
+          ],
+          "choices": [
+            "Dumbo",
+            "Pinocchio",
+            "Fantasia",
+            "The Reluctant Dragon"
+          ],
+          "reveal": "The correct answer is Dumbo! That is the Casey Junior Circus Train. [chuckles] I think I can, I think I can... name the movie.",
+          "media": {
+            "type": "image",
+            "file": "media/walt-and-the-early-days--original-attractions-1000.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:CaseyJrCircusTrain_at_Disneyland.JPG",
+              "license": "CC BY-SA 4.0",
+              "author": "Bytebear"
+            }
+          },
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "dateline-1955",
+      "title": "Dateline: 1955",
+      "kind": "parks",
+      "intro": "[dramatic] Picture it. July 17th, 1955. Orange groves, fresh paint, and a dream about to open its gates. This category is all about Disneyland's opening.",
+      "art": {
+        "prompt": "16:9 card art: a 1955 newspaper-style scene without any lettering: a golden ribbon across ornate park gates, orange groves on the horizon, vintage TV cameras on tripods, balloons drifting into a blue California sky No people, no recognizable characters, no text or logos.",
+        "file": "media/walt-and-the-early-days--dateline-1955.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Disneyland opened in 1955 in this sunny U.S. state.",
+          "answer": "California",
+          "accept": [
+            "california",
+            "ca",
+            "calif"
+          ],
+          "choices": [
+            "California",
+            "Florida",
+            "Texas",
+            "Arizona"
+          ],
+          "reveal": "The correct answer is California! Florida got its turn in 1971. [laughs] Walt liked his parks the way he liked his oranges... sunny.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Disneyland's famous nickname is The ___ Place on Earth. Fill in the blank, then name the whole thing.",
+          "answer": "The Happiest Place on Earth",
+          "accept": [
+            "the happiest place on earth",
+            "happiest place on earth"
+          ],
+          "choices": [
+            "The Happiest Place on Earth",
+            "The Most Magical Place on Earth",
+            "The Land of Dreams",
+            "Where Dreams Come True"
+          ],
+          "reveal": "The correct answer is The Happiest Place on Earth. The Most Magical Place on Earth? That's Walt Disney World. [chuckles] Do not mix them up at a family reunion.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Opening day was broadcast live on TV, and this future U.S. president was one of the hosts.",
+          "answer": "Ronald Reagan",
+          "accept": [
+            "ronald reagan",
+            "reagan"
+          ],
+          "choices": [
+            "Ronald Reagan",
+            "Richard Nixon",
+            "John F. Kennedy",
+            "Dwight Eisenhower"
+          ],
+          "reveal": "[gasps] The correct answer is Ronald Reagan! He co-hosted with Art Linkletter and Bob Cummings, and some 90 million viewers may have tuned in.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "On a scorching opening day, women's high heels sank into this freshly poured Main Street surface.",
+          "answer": "Asphalt",
+          "accept": [
+            "asphalt",
+            "fresh asphalt",
+            "blacktop",
+            "tar"
+          ],
+          "choices": [
+            "Asphalt",
+            "Concrete",
+            "Cobblestone",
+            "Wet paint"
+          ],
+          "reveal": "The correct answer is asphalt. [sighs] The day got nicknamed Black Sunday. Overcrowding, broken fountains, sticky streets. And yet... look at it now.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Walt's private Disneyland apartment sits above this Main Street building, and a lamp stays lit in its window in his honor.",
+          "answer": "The Fire Station",
+          "accept": [
+            "fire station",
+            "the fire station",
+            "firehouse",
+            "fire house",
+            "the firehouse",
+            "main street fire station"
+          ],
+          "choices": [
+            "The Fire Station",
+            "City Hall",
+            "The Emporium",
+            "Main Street Cinema"
+          ],
+          "reveal": "The correct answer is the Fire Station. [whispers] When the lamp was on, cast members knew Walt was home. It still glows today.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "walt-er-cooler-talk",
+      "title": "Walt-er Cooler Talk",
+      "kind": "fan",
+      "intro": "[chuckles] Gather 'round the Walt-er cooler. This fan category is all about the man himself. Get it? Walt-er. [laughs] I'll be here all week.",
+      "art": {
+        "prompt": "16:9 card art: a cozy 1950s office with a model steam locomotive on a desk, a framed farm landscape painting, an oval office water cooler, a fedora on a coat rack and a wall of golden trophy statuettes glowing softly No people, no recognizable characters, no text or logos.",
+        "file": "media/walt-and-the-early-days--walt-er-cooler-talk.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Walt Disney was born in 1901 in this big Illinois city, home of the Cubs and the Bears.",
+          "answer": "Chicago",
+          "accept": [
+            "chicago",
+            "chicago illinois"
+          ],
+          "choices": [
+            "Chicago",
+            "Kansas City",
+            "St. Louis",
+            "Detroit"
+          ],
+          "reveal": "The correct answer is Chicago! Walt was born there on December 5th, 1901. [excited] Deep dish and Disney, what a combo.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Walt's middle name, which he shared with his father.",
+          "answer": "Elias",
+          "accept": [
+            "elias"
+          ],
+          "choices": [
+            "Elias",
+            "Edward",
+            "Elmer",
+            "Ernest"
+          ],
+          "reveal": "The correct answer is Elias. Walter Elias Disney. [chuckles] Fancy.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "This small Missouri farm town where Walt spent part of his childhood is said to have inspired Main Street, U.S.A.",
+          "answer": "Marceline",
+          "accept": [
+            "marceline",
+            "marceline missouri"
+          ],
+          "choices": [
+            "Marceline",
+            "Hannibal",
+            "Independence",
+            "Branson"
+          ],
+          "reveal": "The correct answer is Marceline, Missouri. Walt said more things happened to him there than in any other town. [sighs] Heartwarming.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Walt built a backyard railroad, the Carolwood Pacific. His locomotive was named after his wife Lillian. Name the engine.",
+          "answer": "Lilly Belle",
+          "accept": [
+            "lilly belle",
+            "lily belle",
+            "the lilly belle",
+            "lillybelle"
+          ],
+          "choices": [
+            "Lilly Belle",
+            "Lady Lillian",
+            "Lady Belle",
+            "Lilly Ann"
+          ],
+          "reveal": "[excited] The correct answer is Lilly Belle! And the name lives on in a fancy parlor car on the Disneyland Railroad. Choo choo!",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Walt holds the record for the most competitive Academy Awards won by one person. How many?",
+          "answer": "22",
+          "accept": [
+            "22",
+            "twenty two",
+            "twenty-two"
+          ],
+          "choices": [
+            "22",
+            "18",
+            "12",
+            "31"
+          ],
+          "reveal": "The correct answer is 22! Add in his honorary awards and it goes even higher. [laughs] At some point you need a bigger shelf.",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}

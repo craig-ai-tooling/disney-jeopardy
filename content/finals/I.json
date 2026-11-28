@@ -1,0 +1,135 @@
+[
+  {
+    "film": "Saludos Amigos",
+    "category": "Saludos Amigos",
+    "clue": "Born from Walt's 1941 goodwill tour of South America, this 1942 film introduced the Brazilian parrot Jose Carioca.",
+    "answer": "Saludos Amigos",
+    "accept": [
+      "saludos amigos"
+    ],
+    "choices": [
+      "Saludos Amigos",
+      "The Three Caballeros",
+      "Fun and Fancy Free",
+      "Make Mine Music"
+    ],
+    "reveal": "[excited] The correct answer is Saludos Amigos! Donald visits Lake Titicaca and Goofy becomes a gaucho. [laughs] Hello, friends, indeed."
+  },
+  {
+    "film": "Fantasia 2000",
+    "category": "Fantasia 2000",
+    "clue": "In this 1999 sequel to a 1940 classic, Donald Duck helps Noah load the ark to Pomp and Circumstance, and New York swings to Rhapsody in Blue.",
+    "answer": "Fantasia 2000",
+    "accept": [
+      "fantasia 2000",
+      "fantasia two thousand"
+    ],
+    "choices": [
+      "Fantasia 2000",
+      "Fantasia",
+      "Melody Time",
+      "Make Mine Music"
+    ],
+    "reveal": "The correct answer is Fantasia 2000! [chuckles] It even brought back The Sorcerer's Apprentice from the original. Brooms everywhere, still."
+  },
+  {
+    "film": "Home on the Range",
+    "category": "Home on the Range",
+    "clue": "In this 2004 film, three dairy cows try to save their farm, Patch of Heaven, by catching the yodeling cattle rustler Alameda Slim.",
+    "answer": "Home on the Range",
+    "accept": [
+      "home on the range"
+    ],
+    "choices": [
+      "Home on the Range",
+      "Brother Bear",
+      "Chicken Little",
+      "The Emperor's New Groove"
+    ],
+    "reveal": "[laughs] The correct answer is Home on the Range! A cow named Maggie, voiced by Roseanne Barr, plus Judi Dench as a proper British cow. Moo-velous."
+  },
+  {
+    "film": "Wish",
+    "category": "Wish",
+    "clue": "Released for The Walt Disney Company's 100th anniversary in 2023, this film follows Asha in the kingdom of Rosas.",
+    "answer": "Wish",
+    "accept": [
+      "wish"
+    ],
+    "choices": [
+      "Wish",
+      "Strange World",
+      "Encanto",
+      "Raya and the Last Dragon"
+    ],
+    "reveal": "The correct answer is Wish! [sighs] A hundred years of wishing on stars, wrapped up in one movie. Sweet."
+  },
+  {
+    "film": "The Parent Trap",
+    "category": "The Parent Trap",
+    "clue": "In this 1961 film, Hayley Mills plays twin sisters who meet at summer camp and swap places to reunite their parents.",
+    "answer": "The Parent Trap",
+    "accept": [
+      "the parent trap",
+      "parent trap"
+    ],
+    "choices": [
+      "The Parent Trap",
+      "Pollyanna",
+      "Freaky Friday",
+      "The Princess Diaries"
+    ],
+    "reveal": "The correct answer is The Parent Trap! [excited] Hayley Mills played both twins thanks to clever split-screen tricks. Let's get together, yeah yeah yeah!"
+  },
+  {
+    "film": "The Three Caballeros",
+    "category": "The Three Caballeros",
+    "clue": "In this 1944 film, Donald Duck teams up with a Brazilian parrot named José Carioca and a Mexican rooster named Panchito Pistoles.",
+    "answer": "The Three Caballeros",
+    "accept": [
+      "the three caballeros",
+      "three caballeros"
+    ],
+    "choices": [
+      "The Three Caballeros",
+      "Saludos Amigos",
+      "Fun and Fancy Free",
+      "Melody Time"
+    ],
+    "reveal": "[excited] The correct answer is The Three Caballeros! You can still find all three birds together at Epcot's Mexico pavilion boat ride. Ay, caramba!"
+  },
+  {
+    "film": "Dinosaur",
+    "category": "Dinosaur",
+    "clue": "This 2000 Disney film placed computer-animated creatures, including an iguanodon named Aladar, over real live-action backgrounds.",
+    "answer": "Dinosaur",
+    "accept": [
+      "dinosaur",
+      "disney's dinosaur"
+    ],
+    "choices": [
+      "Dinosaur",
+      "The Good Dinosaur",
+      "Tarzan",
+      "Fantasia 2000"
+    ],
+    "reveal": "The correct answer is Dinosaur! [laughs] Not to be confused with Pixar's The Good Dinosaur. Those are two very different reptiles."
+  },
+  {
+    "film": "Pete's Dragon",
+    "category": "Pete's Dragon",
+    "clue": "In this 1977 film mixing live action and animation, an orphan boy's best friend is a sometimes-invisible dragon named Elliott.",
+    "answer": "Pete's Dragon",
+    "accept": [
+      "pete's dragon",
+      "petes dragon"
+    ],
+    "choices": [
+      "Pete's Dragon",
+      "Bedknobs and Broomsticks",
+      "Escape to Witch Mountain",
+      "The Reluctant Dragon"
+    ],
+    "reveal": "[chuckles] The correct answer is Pete's Dragon! Elliott the dragon lights the lighthouse in a little Maine town. Handy friend to have."
+  }
+]

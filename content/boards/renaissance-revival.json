@@ -1,0 +1,529 @@
+{
+  "id": "renaissance-revival",
+  "title": "The Renaissance Revival",
+  "theme": "The Disney Renaissance, from The Little Mermaid in 1989 to Tarzan in 1999",
+  "tags": [
+    "renaissance",
+    "1990s",
+    "aladdin",
+    "musicals",
+    "1989-1999"
+  ],
+  "intro": "[excited] Rewind the VHS tape and grab your clamshell case! Tonight is THE RENAISSANCE REVIVAL, ten glorious years from 1989 to 1999 when Disney animation came roaring back. [laughs] Mermaids, genies, lions, gargoyles... it was a LOT, and we loved every minute.",
+  "art": {
+    "prompt": "Wide 16:9 title card: a grand Renaissance-style art studio bathed in golden afternoon light, an easel with a blank canvas, a glowing golden oil lamp, a red rose under a glass dome, a jade comb and a seashell on a marble table, oil-painting style No people, no recognizable characters, no text or logos.",
+    "file": "media/renaissance-revival.jpg"
+  },
+  "categories": [
+    {
+      "id": "a-whole-new-quiz",
+      "title": "A Whole New Quiz",
+      "kind": "film",
+      "intro": "[excited] Hop on the carpet! Our film category is 1992's Aladdin. [chuckles] A whole new world of trivia awaits.",
+      "art": {
+        "prompt": "16:9 card art: a magic carpet with gold tassels floating above a desert city of domes and minarets under a giant moon, a golden oil lamp glowing on a balcony No people, no recognizable characters, no text or logos.",
+        "file": "media/renaissance-revival--a-whole-new-quiz.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Aladdin's mischievous pet monkey.",
+          "answer": "Abu",
+          "accept": [
+            "abu"
+          ],
+          "choices": [
+            "Abu",
+            "Rajah",
+            "Iago",
+            "Meeko"
+          ],
+          "reveal": "The correct answer is Abu! [laughs] Touch the treasure, Abu, and the whole cave falls in. Cute AND chaotic.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "The Genie grants how many wishes?",
+          "answer": "Three",
+          "accept": [
+            "three",
+            "3",
+            "3 wishes",
+            "three wishes"
+          ],
+          "choices": [
+            "Three",
+            "One",
+            "Five",
+            "Unlimited"
+          ],
+          "reveal": "The correct answer is three! [chuckles] And no wishing for more wishes. The Genie has rules.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Jafar's loud-mouthed parrot sidekick.",
+          "answer": "Iago",
+          "accept": [
+            "iago"
+          ],
+          "choices": [
+            "Iago",
+            "Zazu",
+            "Scuttle",
+            "Rajah"
+          ],
+          "reveal": "The correct answer is Iago, voiced by Gilbert Gottfried. [laughs] Squawk! The loudest bird in Agrabah.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "This comedian voiced the Genie in the 1992 film.",
+          "answer": "Robin Williams",
+          "accept": [
+            "robin williams",
+            "williams",
+            "robin"
+          ],
+          "choices": [
+            "Robin Williams",
+            "Will Smith",
+            "Billy Crystal",
+            "Eddie Murphy"
+          ],
+          "reveal": "[excited] The correct answer is Robin Williams! He improvised so much that the animators had hours of material to play with. Phenomenal cosmic powers.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "This 1994 direct-to-video sequel brought back Aladdin's old enemy as a genie.",
+          "answer": "The Return of Jafar",
+          "accept": [
+            "the return of jafar",
+            "return of jafar"
+          ],
+          "choices": [
+            "The Return of Jafar",
+            "Aladdin and the King of Thieves",
+            "Jafar's Revenge",
+            "Aladdin and the Cave of Wonders"
+          ],
+          "reveal": "The correct answer is The Return of Jafar! [mischievously] It also launched the Aladdin TV series. Jafar just would not stay in the lamp.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "rebirth-of-cool",
+      "title": "Rebirth of Cool",
+      "kind": "theme",
+      "intro": "[excited] This themed category covers the whole Renaissance. Heroes, dragons, gorillas and gargoyles. Let's go!",
+      "art": {
+        "prompt": "16:9 card art: a sunrise breaking over a valley of iconic 1990s-storybook landmarks: a Greek temple on a mountain, a Chinese palace roof, a jungle treehouse and a Gothic cathedral bell tower, warm golden painterly light No people, no recognizable characters, no text or logos.",
+        "file": "media/renaissance-revival--rebirth-of-cool.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "The winged horse who helps Hercules.",
+          "answer": "Pegasus",
+          "accept": [
+            "pegasus"
+          ],
+          "choices": [
+            "Pegasus",
+            "Phil",
+            "Achilles",
+            "Zeus"
+          ],
+          "reveal": "The correct answer is Pegasus! [chuckles] Made from clouds by Zeus himself. Best birthday present ever.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Mulan's tiny, fast-talking dragon guardian.",
+          "answer": "Mushu",
+          "accept": [
+            "mushu"
+          ],
+          "choices": [
+            "Mushu",
+            "Cri-Kee",
+            "Khan",
+            "Shan Yu"
+          ],
+          "reveal": "The correct answer is Mushu! [laughs] Dishonor on you, dishonor on your cow... unless you got this one right.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "This rock star wrote and sang the songs for Tarzan, winning an Oscar for You'll Be in My Heart.",
+          "answer": "Phil Collins",
+          "accept": [
+            "phil collins",
+            "collins"
+          ],
+          "choices": [
+            "Phil Collins",
+            "Elton John",
+            "Sting",
+            "Peter Gabriel"
+          ],
+          "reveal": "The correct answer is Phil Collins! [excited] He even re-recorded the songs in German, French, Italian and Spanish. Talk about range.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In 1991, Beauty and the Beast became the first animated feature nominated for this Academy Award.",
+          "answer": "Best Picture",
+          "accept": [
+            "best picture",
+            "best picture oscar",
+            "picture"
+          ],
+          "choices": [
+            "Best Picture",
+            "Best Director",
+            "Best Animated Feature",
+            "Best Original Screenplay"
+          ],
+          "reveal": "[gasps] The correct answer is Best Picture! The Best Animated Feature category didn't even exist until 2001. A tale as old as... ten years later.",
+          "dailyDouble": true
+        },
+        {
+          "value": 1000,
+          "clue": "In The Hunchback of Notre Dame, Quasimodo's gargoyle friends are Victor, Hugo and this one.",
+          "answer": "Laverne",
+          "accept": [
+            "laverne"
+          ],
+          "choices": [
+            "Laverne",
+            "Bernadette",
+            "Gertrude",
+            "Louise"
+          ],
+          "reveal": "The correct answer is Laverne! [laughs] Victor, Hugo... put those together and you get the author of the original novel. Sneaky, Disney.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "emoji-naissance",
+      "title": "Emoji-naissance",
+      "kind": "media",
+      "intro": "[chuckles] Our gimmick category is emoji! Decode the little pictures to name a Renaissance-era Disney film.",
+      "art": {
+        "prompt": "16:9 card art: a vintage CRT television in a 1990s living room, its glowing screen filled with abstract colorful bubble shapes and stars floating out into the room, VHS tapes stacked nearby with blank labels No people, no recognizable characters, no text or logos.",
+        "file": "media/renaissance-revival--emoji-naissance.jpg"
+      },
+      "format": "emoji",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "🦁👑🌅 Hint: Hakuna matata!",
+          "answer": "The Lion King",
+          "accept": [
+            "the lion king",
+            "lion king"
+          ],
+          "choices": [
+            "The Lion King",
+            "The Jungle Book",
+            "Tarzan",
+            "Brother Bear"
+          ],
+          "reveal": "The correct answer is The Lion King! [excited] It means no worries, for the rest of your days.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "🏹🍂🌬️ Hint: Colors of the Wind.",
+          "answer": "Pocahontas",
+          "accept": [
+            "pocahontas"
+          ],
+          "choices": [
+            "Pocahontas",
+            "Brother Bear",
+            "Mulan",
+            "Brave"
+          ],
+          "reveal": "The correct answer is Pocahontas! [sighs] Can you paint with all the colors of the wind? I can barely paint a fence.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "💪⚡🏛️ Hint: Zero to hero.",
+          "answer": "Hercules",
+          "accept": [
+            "hercules"
+          ],
+          "choices": [
+            "Hercules",
+            "Mulan",
+            "Tarzan",
+            "Aladdin"
+          ],
+          "reveal": "The correct answer is Hercules! [laughs] Zero to hero, just like that. Honey, you mean HUNK-ules.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "🔔⛪🧱 Hint: Sanctuary!",
+          "answer": "The Hunchback of Notre Dame",
+          "accept": [
+            "the hunchback of notre dame",
+            "hunchback of notre dame",
+            "hunchback"
+          ],
+          "choices": [
+            "The Hunchback of Notre Dame",
+            "Beauty and the Beast",
+            "The Black Cauldron",
+            "Hercules"
+          ],
+          "reveal": "The correct answer is The Hunchback of Notre Dame! [dramatic] Bells, a cathedral and stone gargoyles. Paris in 1482 was quite a vibe.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "🦩🪀🎻 Hint: A 1999 concert film sequel.",
+          "answer": "Fantasia 2000",
+          "accept": [
+            "fantasia 2000",
+            "fantasia two thousand"
+          ],
+          "choices": [
+            "Fantasia 2000",
+            "Fantasia",
+            "Melody Time",
+            "Make Mine Music"
+          ],
+          "reveal": "[excited] The correct answer is Fantasia 2000! A flamingo with a yo-yo, from the Carnival of the Animals segment. Nerd points for you.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "zoom-with-a-view",
+      "title": "Zoom with a View",
+      "kind": "fan",
+      "intro": "[mischievously] We start super close and slowly zoom out. Buzz in the moment you know which Renaissance film this scene comes from. [whispers] The sooner, the braver.",
+      "art": {
+        "prompt": "16:9 card art: an antique brass magnifying glass hovering over a sunlit map of fairy-tale kingdoms, its lens revealing a sparkle of a rose petal, a seashell and a jungle leaf No people, no recognizable characters, no text or logos.",
+        "file": "media/renaissance-revival--zoom-with-a-view.jpg"
+      },
+      "format": "zoom",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Name the film.",
+          "answer": "Beauty and the Beast",
+          "accept": [
+            "beauty and the beast"
+          ],
+          "choices": [
+            "Beauty and the Beast",
+            "Sleeping Beauty",
+            "Tangled",
+            "Cinderella"
+          ],
+          "reveal": "The correct answer is Beauty and the Beast! [sighs] A rose under glass, dropping one petal at a time. Talk about pressure.",
+          "media": {
+            "type": "image",
+            "prompt": "Extreme close-up composition of a single glowing red rose floating under a glass bell jar on a small table in a shadowy castle west wing, one petal falling, candlelight and moonlight through tall torn curtains. Original illustration, no people, no recognizable characters, no text or logos.",
+            "file": "media/renaissance-revival--zoom-with-a-view-200.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Name the film.",
+          "answer": "The Little Mermaid",
+          "accept": [
+            "the little mermaid",
+            "little mermaid"
+          ],
+          "choices": [
+            "The Little Mermaid",
+            "Finding Nemo",
+            "Moana",
+            "Pocahontas"
+          ],
+          "reveal": "The correct answer is The Little Mermaid! [laughs] It's a dinglehopper, obviously. Everybody knows that's for combing your hair.",
+          "media": {
+            "type": "image",
+            "prompt": "A shiny silver dinner fork lying on a wet rock in a sea grotto, a treasure trove of human objects behind it: a candelabra, a pipe, a pocket watch and a glass bottle, shafts of blue underwater light. Original illustration, no people, no recognizable characters, no text or logos.",
+            "file": "media/renaissance-revival--zoom-with-a-view-400.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Name the film.",
+          "answer": "Mulan",
+          "accept": [
+            "mulan"
+          ],
+          "choices": [
+            "Mulan",
+            "Raya and the Last Dragon",
+            "Kung Fu Panda",
+            "Pocahontas"
+          ],
+          "reveal": "The correct answer is Mulan! [whispers] She left her comb behind and took her father's place in the army. Legend.",
+          "media": {
+            "type": "image",
+            "prompt": "A delicate jade hair comb resting on a folded conscription scroll beside a set of ancient armor and a sword, snow falling outside a paper-screen window, cherry blossom branches. Original illustration, no people, no recognizable characters, no text or logos.",
+            "file": "media/renaissance-revival--zoom-with-a-view-600.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Name the film.",
+          "answer": "Tarzan",
+          "accept": [
+            "tarzan"
+          ],
+          "choices": [
+            "Tarzan",
+            "The Jungle Book",
+            "Brother Bear",
+            "The Lion King"
+          ],
+          "reveal": "The correct answer is Tarzan! [chuckles] A ruined jungle treehouse and a tea set? Jane brought the tea, but the treehouse came first.",
+          "media": {
+            "type": "image",
+            "prompt": "An old ruined wooden treehouse high in a misty rainforest canopy, wrapped in vines, a delicate china tea set and a leather-bound sketchbook left on a table inside, dappled green light. Original illustration, no people, no recognizable characters, no text or logos.",
+            "file": "media/renaissance-revival--zoom-with-a-view-800.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Name the film.",
+          "answer": "The Rescuers Down Under",
+          "accept": [
+            "the rescuers down under",
+            "rescuers down under"
+          ],
+          "choices": [
+            "The Rescuers Down Under",
+            "The Rescuers",
+            "Brother Bear",
+            "The Fox and the Hound"
+          ],
+          "reveal": "[excited] The correct answer is The Rescuers Down Under, from 1990! Disney animation's first theatrical sequel, starring a giant golden eagle named Marahute.",
+          "media": {
+            "type": "image",
+            "prompt": "A huge golden eagle feather caught on a sandstone cliff edge high above a red-rock Australian outback canyon at sunset, a waterfall glinting in the distance. Original illustration, no people, no recognizable characters, no text or logos.",
+            "file": "media/renaissance-revival--zoom-with-a-view-1000.jpg"
+          },
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "renaissance-rides",
+      "title": "Renaissance Rides",
+      "kind": "parks",
+      "intro": "[excited] Our parks category is where you can find the Renaissance in the theme parks. Magic carpets, Tiki birds and lions, oh my!",
+      "art": {
+        "prompt": "16:9 card art: a theme-park plaza at golden hour with a carpet-shaped spinning ride, a colorful tiki hut surrounded by tropical flowers and a grand open-air theater with banners of savanna sunsets, no signage No people, no recognizable characters, no text or logos.",
+        "file": "media/renaissance-revival--renaissance-rides.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "At Magic Kingdom's Adventureland, you can spin through the air on The Magic Carpets of this hero.",
+          "answer": "Aladdin",
+          "accept": [
+            "aladdin"
+          ],
+          "choices": [
+            "Aladdin",
+            "Jafar",
+            "Sinbad",
+            "Ali Baba"
+          ],
+          "reveal": "The correct answer is Aladdin! [laughs] Watch out for the spitting camels. They have terrible aim... or great aim.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Festival of the Lion King is a big stage show in this Walt Disney World park.",
+          "answer": "Animal Kingdom",
+          "accept": [
+            "animal kingdom",
+            "disney's animal kingdom",
+            "dak"
+          ],
+          "choices": [
+            "Animal Kingdom",
+            "Magic Kingdom",
+            "Hollywood Studios",
+            "Epcot"
+          ],
+          "reveal": "The correct answer is Animal Kingdom! [excited] Acrobats, giant puppets and a whole lot of Circle of Life.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "At Magic Kingdom, you can dine inside the Beast's castle at this restaurant named after a famous song.",
+          "answer": "Be Our Guest Restaurant",
+          "accept": [
+            "be our guest restaurant",
+            "be our guest",
+            "be our guest restaraunt"
+          ],
+          "choices": [
+            "Be Our Guest Restaurant",
+            "Cinderella's Royal Table",
+            "Gaston's Tavern",
+            "Enchanted Rose Lounge"
+          ],
+          "reveal": "The correct answer is Be Our Guest Restaurant! [whispers] Ask nicely and you might peek into the West Wing. Do NOT touch the rose.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Beauty and the Beast Live on Stage plays at this outdoor theater on Sunset Boulevard at Disney's Hollywood Studios.",
+          "answer": "Theater of the Stars",
+          "accept": [
+            "theater of the stars",
+            "theatre of the stars"
+          ],
+          "choices": [
+            "Theater of the Stars",
+            "Hyperion Theater",
+            "Fantasyland Theatre",
+            "Sunset Showcase Theater"
+          ],
+          "reveal": "The correct answer is Theater of the Stars! [sighs] Be our guest, take a seat, and try not to cry at the ballroom dance.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "From 1998 to 2011, Magic Kingdom's Enchanted Tiki Room was 'Under New Management,' run by Iago and this hornbill from The Lion King.",
+          "answer": "Zazu",
+          "accept": [
+            "zazu"
+          ],
+          "choices": [
+            "Zazu",
+            "Rafiki",
+            "Scuttle",
+            "Flit"
+          ],
+          "reveal": "[laughs] The correct answer is Zazu! Iago and Zazu bossing around the Tiki birds. The original birds took the place back, and frankly, good for them.",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}

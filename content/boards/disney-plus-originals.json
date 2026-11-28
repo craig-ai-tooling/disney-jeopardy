@@ -1,0 +1,552 @@
+{
+  "id": "disney-plus-originals",
+  "title": "Press Play!",
+  "theme": "Disney+ original series and films, from The Mandalorian to Hocus Pocus 2",
+  "tags": [
+    "disney plus",
+    "streaming",
+    "star wars",
+    "marvel",
+    "originals"
+  ],
+  "intro": "[excited] Grab the remote, the snacks and the comfiest blanket in the house! Tonight is PRESS PLAY, all about Disney Plus originals. [laughs] If you have ever said just one more episode at two in the morning... this board is for you.",
+  "art": {
+    "prompt": "Wide 16:9 title card: a cozy living room at night lit only by a giant glowing TV screen showing a swirling starfield, popcorn bowls and a fuzzy blanket on the couch, a remote control on the cushion, light beams forming shapes of a spaceship, a witch's candle and a city skyline No people, no recognizable characters, no text or logos.",
+    "file": "media/disney-plus-originals.jpg"
+  },
+  "categories": [
+    {
+      "id": "this-is-the-way",
+      "title": "This Is the Way",
+      "kind": "film",
+      "intro": "[dramatic] This... is the way. Our film-and-series category is The Mandalorian, the show that launched Disney Plus in 2019.",
+      "art": {
+        "prompt": "16:9 card art: a battered silver bounty hunter's helmet resting on a rocky desert planet ridge under two suns, a small floating hover-pram glowing nearby, dust swirling, cinematic sci-fi lighting No people, no recognizable characters, no text or logos.",
+        "file": "media/disney-plus-originals--this-is-the-way.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Fans first called him Baby Yoda, but the little green foundling's real name is this.",
+          "answer": "Grogu",
+          "accept": [
+            "grogu"
+          ],
+          "choices": [
+            "Grogu",
+            "Yaddle",
+            "Gonk",
+            "Nubs"
+          ],
+          "reveal": "The correct answer is Grogu! [gasps] Those ears! That little sip of soup! Cutest thing in the galaxy.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "The Mandalorian's real name.",
+          "answer": "Din Djarin",
+          "accept": [
+            "din djarin",
+            "din",
+            "djarin",
+            "din jarin"
+          ],
+          "choices": [
+            "Din Djarin",
+            "Boba Fett",
+            "Cad Bane",
+            "Paz Vizsla"
+          ],
+          "reveal": "The correct answer is Din Djarin! [chuckles] Most folks just call him Mando. He's not much of a talker.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "This actor plays Din Djarin.",
+          "answer": "Pedro Pascal",
+          "accept": [
+            "pedro pascal",
+            "pascal"
+          ],
+          "choices": [
+            "Pedro Pascal",
+            "Oscar Isaac",
+            "Diego Luna",
+            "Giancarlo Esposito"
+          ],
+          "reveal": "The correct answer is Pedro Pascal! [laughs] He spends most of the show under a helmet, and still makes us cry.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "This director and actor created The Mandalorian.",
+          "answer": "Jon Favreau",
+          "accept": [
+            "jon favreau",
+            "favreau",
+            "john favreau"
+          ],
+          "choices": [
+            "Jon Favreau",
+            "Dave Filoni",
+            "George Lucas",
+            "J.J. Abrams"
+          ],
+          "reveal": "The correct answer is Jon Favreau! [excited] Yes, the same guy who directed Iron Man and played Happy Hogan. Busy man.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "This composer wrote The Mandalorian's theme music, and won Oscars for Black Panther and Oppenheimer.",
+          "answer": "Ludwig Göransson",
+          "accept": [
+            "ludwig goransson",
+            "ludwig göransson",
+            "goransson",
+            "göransson",
+            "ludwig"
+          ],
+          "choices": [
+            "Ludwig Göransson",
+            "Michael Giacchino",
+            "John Williams",
+            "Kevin Kiner"
+          ],
+          "reveal": "[excited] The correct answer is Ludwig Goransson! He played a lot of that theme on a recorder. Yes, the instrument from music class.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "streaming-sensations",
+      "title": "Streaming Sensations",
+      "kind": "theme",
+      "intro": "[excited] This themed category is a channel-surf through Disney Plus hits. Witches, sitcoms and time cops. Let's binge!",
+      "art": {
+        "prompt": "16:9 card art: a wall of floating glowing TV screens of all eras, from a black-and-white 1950s set to a sleek modern panel, each one showing abstract swirls of color, a spellbook and a sci-fi clock floating among them No people, no recognizable characters, no text or logos.",
+        "file": "media/disney-plus-originals--streaming-sensations.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Hocus Pocus 2 brought back this trio of witches.",
+          "answer": "The Sanderson Sisters",
+          "accept": [
+            "the sanderson sisters",
+            "sanderson sisters",
+            "sandersons",
+            "the sandersons"
+          ],
+          "choices": [
+            "The Sanderson Sisters",
+            "The Halliwell Sisters",
+            "The Owens Sisters",
+            "The Weird Sisters"
+          ],
+          "reveal": "[mischievously] The correct answer is the Sanderson Sisters! Winifred, Mary and Sarah. [laughs] Amok, amok, amok!",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "The sitcom-style New Jersey town where WandaVision takes place.",
+          "answer": "Westview",
+          "accept": [
+            "westview",
+            "west view"
+          ],
+          "choices": [
+            "Westview",
+            "Pleasantville",
+            "Sunnydale",
+            "Stars Hollow"
+          ],
+          "reveal": "The correct answer is Westview! [chuckles] Every decade of TV in one little town. And Agnes was behind it all along.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "In Loki, the agency that polices the timeline goes by these three letters.",
+          "answer": "TVA",
+          "accept": [
+            "tva",
+            "the tva",
+            "time variance authority",
+            "the time variance authority"
+          ],
+          "choices": [
+            "TVA",
+            "SHIELD",
+            "AIM",
+            "SWORD"
+          ],
+          "reveal": "The correct answer is the TVA, the Time Variance Authority! [laughs] Their mascot is a talking clock named Miss Minutes. Paperwork has never been so cute.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Hocus Pocus 2 premiered on Disney Plus in this year, 29 years after the original film.",
+          "answer": "2022",
+          "accept": [
+            "2022",
+            "twenty twenty two"
+          ],
+          "choices": [
+            "2022",
+            "2021",
+            "2023",
+            "2020"
+          ],
+          "reveal": "The correct answer is 2022! [excited] 1993 plus 29. The witches were back, and so was the black flame candle.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "This actor stars as Cassian Andor in the Star Wars series Andor.",
+          "answer": "Diego Luna",
+          "accept": [
+            "diego luna",
+            "luna"
+          ],
+          "choices": [
+            "Diego Luna",
+            "Oscar Isaac",
+            "Gael Garcia Bernal",
+            "Pedro Pascal"
+          ],
+          "reveal": "The correct answer is Diego Luna! [sighs] He first played Cassian in Rogue One back in 2016. Andor tells the story before that.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "stream-scenes",
+      "title": "Stream Scenes",
+      "kind": "media",
+      "intro": "[excited] It's PICTURE time! Each picture shows a scene from a Disney Plus original series or movie. No faces, just clues. Name the show.",
+      "art": {
+        "prompt": "16:9 card art: a movie-theater-style screen glowing in a dark room with silhouettes of objects drifting out of it: a black candle, a basketball, a purple archery bow and a bronze pen, starry cinematic light No people, no recognizable characters, no text or logos.",
+        "file": "media/disney-plus-originals--stream-scenes.jpg"
+      },
+      "format": "picture",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Name the movie.",
+          "answer": "Hocus Pocus 2",
+          "accept": [
+            "hocus pocus 2",
+            "hocus pocus two",
+            "hocus pocus"
+          ],
+          "choices": [
+            "Hocus Pocus 2",
+            "Halloweentown",
+            "Descendants",
+            "Twitches"
+          ],
+          "reveal": "[mischievously] The correct answer is Hocus Pocus 2! Light the black flame candle and the Sanderson Sisters come back. [laughs] Please don't try that at home.",
+          "media": {
+            "type": "image",
+            "prompt": "A tall black candle burning with an eerie pale flame in a dusty old Salem witch's cottage, a leathery spellbook with a single stitched eye clasp on a table, full moon in the window and fallen autumn leaves. Original illustration, no people, no recognizable characters, no text or logos.",
+            "file": "media/disney-plus-originals--stream-scenes-200.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Name the series.",
+          "answer": "High School Musical: The Musical: The Series",
+          "accept": [
+            "high school musical the musical the series",
+            "high school musical: the musical: the series",
+            "hsmtmts",
+            "high school musical the series",
+            "high school musical"
+          ],
+          "choices": [
+            "High School Musical: The Musical: The Series",
+            "Zombies",
+            "Descendants: The Rise of Red",
+            "Big Shot"
+          ],
+          "reveal": "The correct answer is High School Musical: The Musical: The Series! [laughs] Possibly the longest title ever. We're all in this together.",
+          "media": {
+            "type": "image",
+            "prompt": "An empty high school auditorium stage with red velvet curtains half open, a basketball resting under the spotlight beside a script and a pair of sneakers, school lockers visible through the side door. Original illustration, no people, no recognizable characters, no text or logos.",
+            "file": "media/disney-plus-originals--stream-scenes-400.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Name the series.",
+          "answer": "Hawkeye",
+          "accept": [
+            "hawkeye"
+          ],
+          "choices": [
+            "Hawkeye",
+            "Ms. Marvel",
+            "Moon Knight",
+            "Daredevil: Born Again"
+          ],
+          "reveal": "The correct answer is Hawkeye! [chuckles] Trick arrows, snowy New York and Christmas. Superhero holiday cheer.",
+          "media": {
+            "type": "image",
+            "prompt": "A sleek purple archery bow and a quiver of high-tech trick arrows leaning against a decorated Christmas tree in a snowy New York apartment, an ice rink and city lights glowing through the window. Original illustration, no people, no recognizable characters, no text or logos.",
+            "file": "media/disney-plus-originals--stream-scenes-600.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Name the series.",
+          "answer": "WandaVision",
+          "accept": [
+            "wandavision",
+            "wanda vision"
+          ],
+          "choices": [
+            "WandaVision",
+            "Loki",
+            "Agatha All Along",
+            "The Falcon and the Winter Soldier"
+          ],
+          "reveal": "The correct answer is WandaVision! [gasps] A black-and-white sitcom living room slowly bleeding into color. Something is VERY wrong in that suburb.",
+          "media": {
+            "type": "image",
+            "prompt": "A 1950s suburban living room filmed in black and white, with a boxy television and a couch, where vivid red color is slowly seeping in from one corner and the edges glitch like a broken broadcast. Original illustration, no people, no recognizable characters, no text or logos.",
+            "file": "media/disney-plus-originals--stream-scenes-800.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Name the series.",
+          "answer": "Percy Jackson and the Olympians",
+          "accept": [
+            "percy jackson and the olympians",
+            "percy jackson"
+          ],
+          "choices": [
+            "Percy Jackson and the Olympians",
+            "Willow",
+            "Hercules",
+            "Andor"
+          ],
+          "reveal": "[excited] The correct answer is Percy Jackson and the Olympians! That's a bronze pen called Riptide that turns into a sword. Best school supply ever.",
+          "media": {
+            "type": "image",
+            "prompt": "A bronze ballpoint pen glowing and morphing into a gleaming Greek bronze sword on the wooden dock of a summer camp lake, a lightning bolt crackling across a stormy sky and Greek columns on the shore. Original illustration, no people, no recognizable characters, no text or logos.",
+            "file": "media/disney-plus-originals--stream-scenes-1000.jpg"
+          },
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "from-screen-to-scene",
+      "title": "From Screen to Scene",
+      "kind": "parks",
+      "intro": "[excited] Our parks category is where streaming meets the theme parks. Docuseries, haunted specials and a galaxy far, far away.",
+      "art": {
+        "prompt": "16:9 card art: a theme-park pathway lit by lanterns leading to a mysterious hillside mansion on one side and a rugged sci-fi spaceport on the other, a vintage film camera on a tripod in the foreground No people, no recognizable characters, no text or logos.",
+        "file": "media/disney-plus-originals--from-screen-to-scene.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "At Disneyland and Hollywood Studios, you can pilot the Millennium Falcon in this land.",
+          "answer": "Star Wars: Galaxy's Edge",
+          "accept": [
+            "star wars galaxy's edge",
+            "star wars: galaxy's edge",
+            "galaxy's edge",
+            "galaxys edge",
+            "batuu"
+          ],
+          "choices": [
+            "Star Wars: Galaxy's Edge",
+            "Tomorrowland",
+            "Avengers Campus",
+            "Pandora - The World of Avatar"
+          ],
+          "reveal": "The correct answer is Star Wars: Galaxy's Edge! [laughs] Punch it, Chewie. Just maybe don't crash into the walls, like I did.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "This 2021 Dwayne Johnson movie, based on a classic riverboat ride, debuted in theaters and on Disney Plus Premier Access.",
+          "answer": "Jungle Cruise",
+          "accept": [
+            "jungle cruise",
+            "the jungle cruise"
+          ],
+          "choices": [
+            "Jungle Cruise",
+            "Pirates of the Caribbean",
+            "The Haunted Mansion",
+            "Tomorrowland"
+          ],
+          "reveal": "The correct answer is Jungle Cruise! [chuckles] It's loaded with ride puns. Just like this show. You're welcome.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "The 2019 Disney Plus docuseries The Imagineering Story is about the designers who build the parks. What does Disney call them?",
+          "answer": "Imagineers",
+          "accept": [
+            "imagineers",
+            "imagineer",
+            "walt disney imagineers"
+          ],
+          "choices": [
+            "Imagineers",
+            "Dreamfinders",
+            "Ride Wizards",
+            "Mouseketeers"
+          ],
+          "reveal": "The correct answer is Imagineers! [excited] Imagination plus engineering. Best job title on the planet.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In a 2021 Disney Plus Halloween special, Gonzo spends a spooky night in this attraction.",
+          "answer": "The Haunted Mansion",
+          "accept": [
+            "the haunted mansion",
+            "haunted mansion",
+            "muppets haunted mansion"
+          ],
+          "choices": [
+            "The Haunted Mansion",
+            "The Twilight Zone Tower of Terror",
+            "The Enchanted Tiki Room",
+            "Phantom Manor"
+          ],
+          "reveal": "[laughs] The correct answer is The Haunted Mansion! Muppets Haunted Mansion. Nine hundred ninety nine happy haunts, and one very nervous Gonzo.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "The Imagineering Story was directed by this filmmaker, the granddaughter of Mickey co-creator Ub Iwerks.",
+          "answer": "Leslie Iwerks",
+          "accept": [
+            "leslie iwerks",
+            "iwerks",
+            "leslie"
+          ],
+          "choices": [
+            "Leslie Iwerks",
+            "Diane Disney Miller",
+            "Abigail Disney",
+            "Margaret Kerry"
+          ],
+          "reveal": "[gasps] The correct answer is Leslie Iwerks! The granddaughter of the man who drew Mickey told the story of the people who built the parks. Full circle!",
+          "dailyDouble": true
+        }
+      ]
+    },
+    {
+      "id": "plus-size-trivia",
+      "title": "Plus-Size Trivia",
+      "kind": "fan",
+      "intro": "[chuckles] Our fan category is about Disney Plus itself. Launch days, brand tiles and surprise premieres. [whispers] Your watch history can't help you now.",
+      "art": {
+        "prompt": "16:9 card art: a giant glowing play button floating above a city of stacked streaming tiles like a candy-colored skyline, a calendar page flying past, confetti and spotlights No people, no recognizable characters, no text or logos.",
+        "file": "media/disney-plus-originals--plus-size-trivia.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Disney Plus launched in the United States in this year.",
+          "answer": "2019",
+          "accept": [
+            "2019",
+            "twenty nineteen"
+          ],
+          "choices": [
+            "2019",
+            "2017",
+            "2020",
+            "2018"
+          ],
+          "reveal": "The correct answer is 2019! [excited] November 12th, 2019. Sleep schedules have never been the same.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "The Disney Plus home screen has brand tiles for Disney, Pixar, Marvel, Star Wars and this yellow-bordered brand.",
+          "answer": "National Geographic",
+          "accept": [
+            "national geographic",
+            "nat geo",
+            "natgeo",
+            "nat geo wild"
+          ],
+          "choices": [
+            "National Geographic",
+            "Discovery",
+            "Animal Planet",
+            "Smithsonian"
+          ],
+          "reveal": "The correct answer is National Geographic! [chuckles] That famous yellow rectangle. Penguins, sharks and space, all one click away.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "This live-action remake, starring a real rescue dog, premiered on Disney Plus on launch day in 2019.",
+          "answer": "Lady and the Tramp",
+          "accept": [
+            "lady and the tramp",
+            "lady & the tramp"
+          ],
+          "choices": [
+            "Lady and the Tramp",
+            "Pinocchio",
+            "Peter Pan & Wendy",
+            "Mulan"
+          ],
+          "reveal": "The correct answer is Lady and the Tramp! [laughs] The dog who played Tramp was a real shelter pup named Monte. Good boy!",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In July 2020, Disney Plus premiered the filmed stage version of this Broadway smash by Lin-Manuel Miranda.",
+          "answer": "Hamilton",
+          "accept": [
+            "hamilton"
+          ],
+          "choices": [
+            "Hamilton",
+            "In the Heights",
+            "Dear Evan Hansen",
+            "Wicked"
+          ],
+          "reveal": "The correct answer is Hamilton! [excited] Not throwing away my shot... at this answer.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Anna Kendrick played Santa's daughter in this Disney Plus launch-day holiday movie.",
+          "answer": "Noelle",
+          "accept": [
+            "noelle"
+          ],
+          "choices": [
+            "Noelle",
+            "Godmothered",
+            "The Princess Switch",
+            "Holidate"
+          ],
+          "reveal": "The correct answer is Noelle! [chuckles] Santa retires, his son panics, and his daughter saves Christmas. Classic.",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}
