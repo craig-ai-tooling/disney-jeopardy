@@ -176,8 +176,12 @@
           "dailyDouble": false,
           "media": {
             "type": "image",
-            "prompt": "Original illustration, 16:9, vivid colors, theme-park concept-art style, no text, no logos, no characters, no people: a nighttime river show with giant mist screens, flames dancing on the water and a lit-up paddlewheel riverboat",
-            "file": "media/parades-and-fireworks--light-up-the-sky-400.jpg"
+            "file": "media/parades-and-fireworks--light-up-the-sky-400.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Fantasmic!_Evil_Queen_spell.jpg",
+              "license": "CC BY 2.0",
+              "author": "HarshLight"
+            }
           }
         },
         {
@@ -200,8 +204,12 @@
           "dailyDouble": false,
           "media": {
             "type": "image",
-            "prompt": "Original illustration, 16:9, vivid colors, theme-park concept-art style, no text, no logos, no characters, no people: huge rainbow-lit dancing water fountains in a bay at night with a seaside pier and big wheel glowing behind",
-            "file": "media/parades-and-fireworks--light-up-the-sky-600.jpg"
+            "file": "media/parades-and-fireworks--light-up-the-sky-600.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Disney%27s_California_Adventure_World_of_Color_IMG_4151.jpg",
+              "license": "CC BY-SA 3.0",
+              "author": "deror_avi"
+            }
           }
         },
         {

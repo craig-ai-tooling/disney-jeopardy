@@ -229,7 +229,7 @@
       "clues": [
         {
           "value": 200,
-          "clue": "Look closely! Three circles hidden in this rock wall make a secret shape fans hunt for all over the parks. What's it called?",
+          "clue": "Look closely! Three circles hidden in this shop door make a secret shape fans hunt for all over the parks. What's it called?",
           "answer": "Hidden Mickey",
           "accept": [
             "hidden mickey",
@@ -245,8 +245,12 @@
           "reveal": "The correct answer is a Hidden Mickey! [excited] Once you start finding them, you'll NEVER stop.",
           "media": {
             "type": "image",
-            "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A rough stone wall in warm sunlight where three round mossy stones, one large and two smaller on top, form a subtle mouse-head silhouette hidden among other stones.",
-            "file": "media/backstage-pass--behind-the-berm-200.jpg"
+            "file": "media/backstage-pass--behind-the-berm-200.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:HiddenMickeyEpcot.JPG",
+              "license": "CC BY-SA 3.0",
+              "author": "UpstateNYer"
+            }
           },
           "dailyDouble": false
         },

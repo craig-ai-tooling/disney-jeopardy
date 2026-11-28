@@ -236,8 +236,12 @@
           "reveal": "[excited] The correct answer is Cinderella Castle! It's about 189 feet tall, and it's a little taller than it looks thanks to forced perspective.",
           "media": {
             "type": "image",
-            "prompt": "Extreme close-up, original painterly digital illustration, no people, no characters, no logos, no text. A grand fairy-tale castle with tall slender blue-roofed spires, gold finials and pale stone walls, under a bright Florida sky with puffy clouds, seen from a tree-lined plaza.",
-            "file": "media/magic-kingdom-magic--zoomed-in-magic-200.jpg"
+            "file": "media/magic-kingdom-magic--zoomed-in-magic-200.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Cinderella_Castle.jpg",
+              "license": "CC BY-SA 4.0",
+              "author": "Katie Rommel-Esham (contact via bdesham)"
+            }
           },
           "dailyDouble": false
         },

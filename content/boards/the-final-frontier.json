@@ -277,8 +277,12 @@
           "dailyDouble": false,
           "media": {
             "type": "image",
-            "prompt": "A dark blacklight theme park ride with two-seat spinning space cruisers, each with a mounted laser cannon and a joystick, aiming at glowing neon targets on alien planets and robot silhouettes Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
-            "file": "media/the-final-frontier--tomorrowland-and-beyond-400.jpg"
+            "file": "media/the-final-frontier--tomorrowland-and-beyond-400.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Buzz_Lightyear%27s_Space_Ranger_Spin.jpg",
+              "license": "CC BY-SA 4.0",
+              "author": "Freddo"
+            }
           }
         },
         {

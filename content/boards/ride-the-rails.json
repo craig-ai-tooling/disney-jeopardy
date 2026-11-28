@@ -242,8 +242,12 @@
           "reveal": "The correct answer is the monorail! [excited] Please stand clear of the doors... por favor manténganse alejados de las puertas.",
           "media": {
             "type": "image",
-            "prompt": "Extreme close-up, Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A gleaming white streamlined monorail with a coloured stripe gliding on a single concrete beam over palm trees and a turquoise lagoon.",
-            "file": "media/ride-the-rails--next-stop-200.jpg"
+            "file": "media/ride-the-rails--next-stop-200.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Walt_Disney_World_Monorail_(2755527924).jpg",
+              "license": "CC BY 2.0",
+              "author": "BestofWDW from USA"
+            }
           },
           "dailyDouble": false
         },
@@ -266,8 +270,12 @@
           "reveal": "The correct answer is Casey Jr. Circus Train! It's been chugging since 1955. [laughs] Yes, you can ride in a monkey cage.",
           "media": {
             "type": "image",
-            "prompt": "Extreme close-up, Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A tiny brightly painted circus train with an ornate red and gold locomotive and open cage-shaped passenger cars, winding past miniature storybook villages.",
-            "file": "media/ride-the-rails--next-stop-400.jpg"
+            "file": "media/ride-the-rails--next-stop-400.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:CaseyJrCircusTrain_at_Disneyland.JPG",
+              "license": "CC BY-SA 4.0",
+              "author": "Bytebear"
+            }
           },
           "dailyDouble": false
         },
@@ -289,8 +297,12 @@
           "reveal": "The correct answer is the Grand Canyon! [gasps] Painted red rock walls, a thunderstorm and wildlife. All in one tunnel.",
           "media": {
             "type": "image",
-            "prompt": "Extreme close-up, Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A huge indoor painted diorama of layered red and orange canyon walls at sunset, a dusting of snow, a deer on a ledge and a train track along the front.",
-            "file": "media/ride-the-rails--next-stop-600.jpg"
+            "file": "media/ride-the-rails--next-stop-600.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:DRR_-_Grand_Canyon_Diorama.jpg",
+              "license": "CC BY 2.0",
+              "author": "Jeremy Thompson"
+            }
           },
           "dailyDouble": false
         },
@@ -335,8 +347,12 @@
           "reveal": "The correct answer is the Lilly Belle! [whispers] Riding it is a rare treat, so if a conductor offers... SAY YES.",
           "media": {
             "type": "image",
-            "prompt": "Extreme close-up, Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A luxurious Victorian railway parlor car interior with dark wood panelling, plush red velvet chairs, fringed lamps, lace curtains and stained-glass windows.",
-            "file": "media/ride-the-rails--next-stop-1000.jpg"
+            "file": "media/ride-the-rails--next-stop-1000.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Lilly-belle-interior-looking-forward.jpg",
+              "license": "CC BY-SA 4.0",
+              "author": "Eeekster"
+            }
           },
           "dailyDouble": false
         }

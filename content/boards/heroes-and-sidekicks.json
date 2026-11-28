@@ -423,8 +423,12 @@
           "dailyDouble": false,
           "media": {
             "type": "image",
-            "prompt": "Original painterly digital illustration, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A vast cluttered cosmic trophy room full of glass display cases holding strange alien creatures and artifacts, purple and gold light.",
-            "file": "media/heroes-and-sidekicks--heroic-hangouts-1000.jpg"
+            "file": "media/heroes-and-sidekicks--heroic-hangouts-1000.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Guardians_of_the_Galaxy_-_Mission_BREAKOUT!_pre-show.jpg",
+              "license": "CC BY 2.0",
+              "author": "Jeremy Thompson"
+            }
           }
         }
       ]

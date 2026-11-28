@@ -341,8 +341,12 @@
           "reveal": "The correct answer is Radiator Springs Racers! [excited] It hits about 40 miles per hour. Not bad for a car with eyes.",
           "media": {
             "type": "image",
-            "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. Two convertible ride cars racing side by side on a curving road through towering red sandstone buttes under a bright blue desert sky.",
-            "file": "media/open-road--cars-land-cruise-200.jpg"
+            "file": "media/open-road--cars-land-cruise-200.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Radiator_Springs_Racers_July_2022_(3).jpg",
+              "license": "CC0",
+              "author": "Benoît Prieur"
+            }
           },
           "dailyDouble": false
         },
@@ -364,8 +368,12 @@
           "reveal": "The correct answer is Luigi's Rollickin' Roadsters! They took over from Luigi's Flying Tires in 2016. [laughs] Bellissimo.",
           "media": {
             "type": "image",
-            "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A charming courtyard of an Italian tire shop with tall stacks of tires, green-white-red bunting, string lights, and tiny round convertibles twirling on a smooth floor.",
-            "file": "media/open-road--cars-land-cruise-400.jpg"
+            "file": "media/open-road--cars-land-cruise-400.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Luigi%27s_Rollickin%27_Roadsters_1.jpg",
+              "license": "CC BY-SA 2.0",
+              "author": "mliu92"
+            }
           },
           "dailyDouble": false
         },
@@ -387,8 +395,12 @@
           "reveal": "The correct answer is Mater's Junkyard Jamboree! Yee-haw! It's the only square dance where your partner has a tow hook.",
           "media": {
             "type": "image",
-            "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A dusty junkyard under a corrugated tin roof full of rusty hubcaps, old signs with no lettering and fairy lights, little tractor ride vehicles whipping in loops.",
-            "file": "media/open-road--cars-land-cruise-600.jpg"
+            "file": "media/open-road--cars-land-cruise-600.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Mater%27s_Junkyard_Jamboree_(9761223271).jpg",
+              "license": "CC BY 2.0",
+              "author": "Steven Miller"
+            }
           },
           "dailyDouble": false
         },
@@ -410,8 +422,12 @@
           "reveal": "The correct answer is the Cozy Cone Motel! [chuckles] Snacks in a traffic cone. Somebody give that Imagineer a raise.",
           "media": {
             "type": "image",
-            "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. Giant bright orange traffic cone shaped buildings with windows and neon trim along a desert roadside at sunset, a churro cart in front.",
-            "file": "media/open-road--cars-land-cruise-800.jpg"
+            "file": "media/open-road--cars-land-cruise-800.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Disney%27s_California_Adventure_Cars_Land_Cozy_Cone.JPG",
+              "license": "CC BY-SA 3.0",
+              "author": "Hcallas"
+            }
           },
           "dailyDouble": false
         },
