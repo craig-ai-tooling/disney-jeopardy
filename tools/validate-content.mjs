@@ -84,8 +84,10 @@ function checkFinals(f, arr) {
   arr.forEach((x, i) => {
     const w = `final ${i} (${x.film})`;
     if (!str(x.film) || !str(x.category)) err(f, `${w}: film/category missing`);
-    if (seenFilms.has(x.film)) err(f, `${w}: duplicate film`);
-    seenFilms.add(x.film);
+    // The same film may appear in several finals files as long as the clue differs.
+    const k = `${x.film}|${String(x.clue).toLowerCase()}`;
+    if (seenFilms.has(k)) err(f, `${w}: duplicate final`);
+    seenFilms.add(k);
     checkAnswerBlock(f, w, x);
   });
 }
