@@ -426,12 +426,11 @@
         },
         {
           "value": 1000,
-          "clue": "A Bug's Land had a kiddie train ride named after this hungry German caterpillar",
+          "clue": "A Bug's Land had this kiddie train ride, named after a hungry German caterpillar",
           "answer": "Heimlich's Chew Chew Train",
           "accept": [
             "heimlichs chew chew train",
             "heimlich's chew chew train",
-            "heimlich",
             "chew chew train"
           ],
           "choices": [
