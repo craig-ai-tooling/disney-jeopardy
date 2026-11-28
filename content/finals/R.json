@@ -17,73 +17,72 @@
     "reveal": "[excited] The correct answer is the Communiverse! Elio has been sending messages into space hoping for exactly this. [laughs] Careful what you wish for, kid."
   },
   {
-    "film": "High School Musical",
-    "category": "High School Musical",
-    "clue": "In the 2006 Disney Channel movie High School Musical, Troy and Gabriella's East High teams go by this name.",
-    "answer": "Wildcats",
+    "film": "Escape to Witch Mountain",
+    "category": "Escape to Witch Mountain",
+    "clue": "In Disney's 1975 film Escape to Witch Mountain, orphaned siblings with psychic powers are named Tony and this sister.",
+    "answer": "Tia",
     "accept": [
-      "east high wildcats",
-      "the wildcats",
-      "wildcats"
+      "tia",
+      "tia malone"
     ],
     "choices": [
-      "Wildcats",
-      "Knights",
-      "Eagles",
-      "Panthers"
+      "Tia",
+      "Tina",
+      "Tara",
+      "Tess"
     ],
-    "reveal": "The correct answer is the Wildcats! [laughs] What team? WILDCATS! We're all in this together, and we're all still singing it."
+    "reveal": "[excited] The correct answer is Tia! Tony and Tia Malone were played by Ike Eisenmann and Kim Richards. [chuckles] Sibling telepathy beats texting any day."
   },
   {
-    "film": "Descendants",
-    "category": "Descendants",
-    "clue": "In 2015's Descendants, Mal, a teen from the Isle of the Lost, is the daughter of this Sleeping Beauty villain.",
-    "answer": "Maleficent",
+    "film": "Zombies",
+    "category": "Zombies",
+    "clue": "In the 2018 Disney Channel movie Zombies, the undead live walled off in Zombietown on the edge of this cookie-cutter suburb.",
+    "answer": "Seabrook",
     "accept": [
-      "maleficent"
+      "seabrook"
     ],
     "choices": [
-      "Maleficent",
-      "The Evil Queen",
-      "Cruella de Vil",
-      "Lady Tremaine"
+      "Seabrook",
+      "Sunnyvale",
+      "Shadyside",
+      "Seaside"
     ],
-    "reveal": "[excited] The correct answer is Maleficent! Mal's friends are the kids of the Evil Queen, Jafar and Cruella. [chuckles] Rotten to the core!"
+    "reveal": "[excited] The correct answer is Seabrook! Zed and Addison prove a zombie and a cheerleader can rule the school. [laughs] Brains AND pom-poms!"
   },
   {
-    "film": "The Mighty Ducks",
-    "category": "The Mighty Ducks",
-    "clue": "In 1992's The Mighty Ducks, Coach Gordon Bombay's District 5 peewee team pulls off this famous formation play.",
-    "answer": "The Flying V",
+    "film": "Chip 'n Dale: Rescue Rangers",
+    "category": "Chip 'n Dale: Rescue Rangers",
+    "clue": "In the 2022 Chip 'n Dale: Rescue Rangers movie, the bootlegging villain Sweet Pete is a grown-up version of this Disney character.",
+    "answer": "Peter Pan",
     "accept": [
-      "flying v",
-      "the flying v"
+      "peter pan",
+      "peter",
+      "pan"
     ],
     "choices": [
-      "The Flying V",
-      "The Triple Deke",
-      "The Knucklepuck",
-      "The Duck Dive"
+      "Peter Pan",
+      "Pinocchio",
+      "Christopher Robin",
+      "Robin Hood"
     ],
-    "reveal": "The correct answer is the Flying V! [laughs] Quack, quack, quack! The movie was such a hit that Disney named a real NHL team the Mighty Ducks of Anaheim."
+    "reveal": "[gasps] The correct answer is Peter Pan! Voiced by Will Arnett, Sweet Pete grew up after all. [laughs] Never Land would be so disappointed."
   },
   {
-    "film": "Holes",
-    "category": "Holes",
-    "clue": "In 2003's Holes, Stanley digs at Camp Green Lake, and his last name reads the same backwards as his first. Name him: Stanley who?",
-    "answer": "Yelnats",
+    "film": "The Haunted Mansion",
+    "category": "The Haunted Mansion",
+    "clue": "In Disney's 2003 film The Haunted Mansion starring Eddie Murphy, this actress plays Madame Leota, the head in the crystal ball.",
+    "answer": "Jennifer Tilly",
     "accept": [
-      "stanley yelnats",
-      "stanley yelnats iv",
-      "yelnats"
+      "jennifer tilly",
+      "tilly"
     ],
     "choices": [
-      "Yelnats",
-      "Stanton",
-      "Sterling",
-      "Stevens"
+      "Jennifer Tilly",
+      "Jennifer Coolidge",
+      "Kathy Najimy",
+      "Bette Midler"
     ],
-    "reveal": "[excited] The correct answer is Yelnats! Stanley Yelnats, the fourth. [chuckles] Blame his no-good-dirty-rotten-pig-stealing great-great-grandfather."
+    "reveal": "[whispers] The correct answer is Jennifer Tilly. [excited] Her floating head channels the ride's famous seance room! [chuckles] Talk about a heady role."
   },
   {
     "film": "Flubber",
@@ -125,9 +124,7 @@
     "answer": "Hero Support",
     "accept": [
       "hero support",
-      "hero support track",
-      "sidekick",
-      "sidekicks"
+      "hero support track"
     ],
     "choices": [
       "Hero Support",
