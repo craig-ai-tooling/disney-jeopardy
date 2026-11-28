@@ -1,1 +1,21 @@
-{"version":1,"files":[]}
+{
+ "version": 1,
+ "files": [
+  "bg-autumn.webp",
+  "bg-beach.webp",
+  "bg-castle.webp",
+  "bg-lagoon.webp",
+  "bg-mainstreet.webp",
+  "bg-ocean.webp",
+  "bg-space.webp",
+  "bg-stage.webp",
+  "bg-villains.webp",
+  "bg-winter.webp",
+  "daily-double.webp",
+  "icon-192.png",
+  "icon-512.png",
+  "logo.png",
+  "logo.webp",
+  "wheel.webp"
+ ]
+}
