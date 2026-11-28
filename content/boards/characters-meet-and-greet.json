@@ -1,0 +1,565 @@
+{
+  "id": "characters-meet-and-greet",
+  "title": "Characters and Meet & Greets",
+  "theme": "Rare characters, meet spots, and character dining",
+  "tags": [
+    "characters",
+    "dining",
+    "parks",
+    "meet-and-greet"
+  ],
+  "intro": "[excited] Hugs, autographs and waffles! Tonight is all about meeting Disney characters and eating with them. [laughs] Get those autograph books ready!",
+  "art": {
+    "prompt": "A whimsical outdoor character meet spot with a velvet rope line, a decorated photo backdrop, an open autograph book and a breakfast table, golden morning light Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+    "file": "media/characters-meet-and-greet.jpg"
+  },
+  "categories": [
+    {
+      "id": "rare-character-sightings",
+      "title": "Rare Character Sightings",
+      "kind": "fan",
+      "intro": "[gasps] Autograph books ready! These characters don't come out very often, so spotting them is like finding a hidden Mickey. [excited] Let's go hunting!",
+      "format": "text",
+      "art": {
+        "prompt": "An open autograph book with a fancy pen on a park bench, glowing sparkles drifting up toward a castle at golden hour, no writing on the pages Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/characters-meet-and-greet--rare-character-sightings.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Tokyo DisneySea made this sailor-suited teddy bear, Mickey's gift from Minnie, a superstar starting in 2005.",
+          "answer": "Duffy",
+          "accept": [
+            "duffy",
+            "duffy the disney bear",
+            "duffy bear"
+          ],
+          "choices": [
+            "Duffy",
+            "Gelatoni",
+            "ShellieMay",
+            "Lotso"
+          ],
+          "reveal": "[excited] The correct answer is Duffy! In Japan, he's an absolute rock star. Fans carry him everywhere.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "This little purple dragon from EPCOT's Journey Into Imagination sometimes pops up to meet his fans.",
+          "answer": "Figment",
+          "accept": [
+            "figment"
+          ],
+          "choices": [
+            "Figment",
+            "Elliott",
+            "Mushu",
+            "Dreamfinder"
+          ],
+          "reveal": "[laughs] The correct answer is Figment! One little spark of imagination is all it takes.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "This citrus-headed bird debuted at Magic Kingdom's Sunshine Tree Terrace in 1971 and became a cult favorite.",
+          "answer": "Orange Bird",
+          "accept": [
+            "orange bird",
+            "the orange bird"
+          ],
+          "choices": [
+            "Orange Bird",
+            "Citrus Swirl Bird",
+            "Tiki Bird",
+            "Sunshine Bird"
+          ],
+          "reveal": "[excited] The correct answer is the Orange Bird! Created to promote Florida oranges, and now fans line up for him.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "This pink fox with a magnifying glass joined Duffy and Friends after first appearing at Shanghai Disneyland.",
+          "answer": "LinaBell",
+          "accept": [
+            "linabell",
+            "lina bell"
+          ],
+          "choices": [
+            "LinaBell",
+            "CookieAnn",
+            "StellaLou",
+            "Olu Mel"
+          ],
+          "reveal": "[gasps] The correct answer is LinaBell! She solves mysteries and breaks the internet. Very busy fox.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "This pistol-packing rooster from The Three Caballeros is one of the rarest characters to meet in the parks.",
+          "answer": "Panchito Pistoles",
+          "accept": [
+            "panchito",
+            "panchito pistoles"
+          ],
+          "choices": [
+            "Panchito Pistoles",
+            "José Carioca",
+            "Señor Gallo",
+            "Pedro"
+          ],
+          "reveal": "[excited] The correct answer is Panchito Pistoles! The third caballero. Ay, ay, ay!",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "breakfast-with-friends",
+      "title": "Breakfast with Friends",
+      "kind": "parks",
+      "intro": "[excited] Who's hungry? I'll show you a photo of a place where you can eat with Disney characters. You tell me the name of the place.",
+      "format": "picture",
+      "art": {
+        "prompt": "A sunny breakfast table set with Mickey-shaped waffles, fruit, juice and a castle visible through a big arched window, pastel morning light Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/characters-meet-and-greet--breakfast-with-friends.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Princesses host meals inside this Magic Kingdom landmark's restaurant. Name the restaurant.",
+          "answer": "Cinderella's Royal Table",
+          "accept": [
+            "cinderella's royal table",
+            "cinderellas royal table",
+            "royal table"
+          ],
+          "choices": [
+            "Cinderella's Royal Table",
+            "Be Our Guest Restaurant",
+            "Akershus Royal Banquet Hall",
+            "Bon Voyage Adventure Breakfast"
+          ],
+          "reveal": "[excited] The correct answer is Cinderella's Royal Table! You eat inside the castle. Up the stairs, past the mosaics, very fancy.",
+          "media": {
+            "type": "image",
+            "file": "media/characters-meet-and-greet--breakfast-with-friends-200.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Cinderella_Castle_-_Walt_Disney_World_Resort_.jpg",
+              "license": "CC BY-SA 3.0",
+              "author": "Cuauh34"
+            }
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Pooh and his pals host meals at this Victorian glass restaurant on Main Street. Name it.",
+          "answer": "The Crystal Palace",
+          "accept": [
+            "crystal palace",
+            "the crystal palace"
+          ],
+          "choices": [
+            "The Crystal Palace",
+            "The Plaza Restaurant",
+            "Tony's Town Square",
+            "Liberty Tree Tavern"
+          ],
+          "reveal": "[chuckles] The correct answer is The Crystal Palace! Tigger will bounce right up to your table.",
+          "media": {
+            "type": "image",
+            "file": "media/characters-meet-and-greet--breakfast-with-friends-400.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Crystal_Palace_Restaurant_by_BestOfWDW.jpg",
+              "license": "CC BY 2.0",
+              "author": "BestofWDW from USA"
+            }
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Chef Mickey's is inside this resort, where the monorail runs through the building. Name the resort.",
+          "answer": "Disney's Contemporary Resort",
+          "accept": [
+            "contemporary",
+            "the contemporary",
+            "disney's contemporary resort",
+            "contemporary resort"
+          ],
+          "choices": [
+            "Disney's Contemporary Resort",
+            "Disney's Polynesian Village Resort",
+            "Disney's Grand Floridian Resort",
+            "Disney's Wilderness Lodge"
+          ],
+          "reveal": "[excited] The correct answer is Disney's Contemporary Resort! Eat with Mickey while a monorail flies by. Peak Disney.",
+          "media": {
+            "type": "image",
+            "file": "media/characters-meet-and-greet--breakfast-with-friends-600.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Disney%27s_Contemporary_Resort_Arriving_Monorail_Teal.jpg",
+              "license": "CC BY-SA 4.0",
+              "author": "Quarax"
+            }
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "This building hosts 'Ohana and a Lilo and Stitch breakfast. Name the resort it's in.",
+          "answer": "Disney's Polynesian Village Resort",
+          "accept": [
+            "polynesian",
+            "the polynesian",
+            "disney's polynesian village resort",
+            "polynesian village resort",
+            "polynesian resort"
+          ],
+          "choices": [
+            "Disney's Polynesian Village Resort",
+            "Disney's Contemporary Resort",
+            "Disney's Caribbean Beach Resort",
+            "Aulani"
+          ],
+          "reveal": "[laughs] The correct answer is Disney's Polynesian Village Resort! The Great Ceremonial House. Aloha to you too.",
+          "media": {
+            "type": "image",
+            "file": "media/characters-meet-and-greet--breakfast-with-friends-800.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Great_Ceremonial_House_(8378349758).jpg",
+              "license": "CC BY 2.0",
+              "author": "Sam Howzit"
+            }
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "This EPCOT restaurant hosts a princess meal and takes its name from a fortress in Oslo. Name it.",
+          "answer": "Akershus Royal Banquet Hall",
+          "accept": [
+            "akershus",
+            "akershus royal banquet hall"
+          ],
+          "choices": [
+            "Akershus Royal Banquet Hall",
+            "Restaurant Marrakesh",
+            "Biergarten",
+            "Rose & Crown Dining Room"
+          ],
+          "reveal": "[excited] The correct answer is Akershus Royal Banquet Hall! A princess meal in Norway. Very regal.",
+          "media": {
+            "type": "image",
+            "file": "media/characters-meet-and-greet--breakfast-with-friends-1000.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Akershus_Royal_Banquet_Hall_(41459064680).jpg",
+              "license": "CC BY 2.0",
+              "author": "HarshLight from San Jose, CA, USA"
+            }
+          },
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "where-to-find-them",
+      "title": "Where to Find Them",
+      "kind": "parks",
+      "intro": "[whispers] Insider tip time. I'll describe a meet spot, and you tell me where it is. [chuckles] No maps allowed.",
+      "format": "text",
+      "art": {
+        "prompt": "A treasure map style illustration of a whimsical theme park with dotted paths, small stars marking meeting spots, a compass rose, no text Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/characters-meet-and-greet--where-to-find-them.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "At Magic Kingdom, Mickey meets guests in a theater named after this square at the start of Main Street, U.S.A.",
+          "answer": "Town Square",
+          "accept": [
+            "town square",
+            "town square theater"
+          ],
+          "choices": [
+            "Town Square",
+            "Central Plaza",
+            "Liberty Square",
+            "Market Square"
+          ],
+          "reveal": "[excited] The correct answer is Town Square! Mickey even does magic there. Abracadabra.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Minnie, Daisy, Donald and Goofy have met guests in Pete's Silly Sideshow, in this circus-themed area of Fantasyland.",
+          "answer": "Storybook Circus",
+          "accept": [
+            "storybook circus"
+          ],
+          "choices": [
+            "Storybook Circus",
+            "Mickey's Toontown Fair",
+            "Adventureland",
+            "Fantasyland Forest"
+          ],
+          "reveal": "The correct answer is Storybook Circus! [laughs] Step right up, folks.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "At Disneyland, you can visit Mickey's house in this colorful land that opened in 1993.",
+          "answer": "Mickey's Toontown",
+          "accept": [
+            "toontown",
+            "mickey's toontown",
+            "mickeys toontown"
+          ],
+          "choices": [
+            "Mickey's Toontown",
+            "Fantasyland",
+            "Critter Country",
+            "Frontierland"
+          ],
+          "reveal": "[excited] The correct answer is Mickey's Toontown! It's a whole cartoon town. Toot toot.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Opened in 2016, Adventurers Outpost lets guests meet Mickey and Minnie in safari gear in this park.",
+          "answer": "Disney's Animal Kingdom",
+          "accept": [
+            "animal kingdom",
+            "disney's animal kingdom",
+            "dak"
+          ],
+          "choices": [
+            "Disney's Animal Kingdom",
+            "EPCOT",
+            "Disney's Hollywood Studios",
+            "Magic Kingdom"
+          ],
+          "reveal": "[laughs] The correct answer is Disney's Animal Kingdom! Mickey in a safari hat. It's adorable.",
+          "dailyDouble": true
+        },
+        {
+          "value": 1000,
+          "clue": "Opened in 2016 in EPCOT's Norway pavilion, this cottage is where guests meet Anna and Elsa.",
+          "answer": "Royal Sommerhus",
+          "accept": [
+            "royal sommerhus",
+            "sommerhus"
+          ],
+          "choices": [
+            "Royal Sommerhus",
+            "Arendelle Hall",
+            "Stave Church Gallery",
+            "Kringla Bakeri og Kafe"
+          ],
+          "reveal": "[gasps] The correct answer is Royal Sommerhus! The royal summer house. Bring your Frozen gloves.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "dine-like-a-character",
+      "title": "Dine Like a Character",
+      "kind": "film",
+      "intro": "Grab a fork! Every answer here is a famous food from a Disney or Pixar film. [laughs] Don't eat the screen.",
+      "format": "text",
+      "art": {
+        "prompt": "A long banquet table filled with sugary beignets, a plate of spaghetti and meatballs, colorful vegetables in a spiral, and a covered silver dish, candle light Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/characters-meet-and-greet--dine-like-a-character.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Tiana is famous for these powdered-sugar pastries in The Princess and the Frog.",
+          "answer": "Beignets",
+          "accept": [
+            "beignets",
+            "beignet"
+          ],
+          "choices": [
+            "Beignets",
+            "Churros",
+            "Donuts",
+            "Croissants"
+          ],
+          "reveal": "[excited] The correct answer is beignets! Tiana's beignets. Watch out for the powdered sugar.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Gaston brags that as a boy he ate four dozen of these every morning. Now, he eats five dozen.",
+          "answer": "Eggs",
+          "accept": [
+            "eggs",
+            "egg"
+          ],
+          "choices": [
+            "Eggs",
+            "Biscuits",
+            "Pancakes",
+            "Sausages"
+          ],
+          "reveal": "[laughs] The correct answer is eggs! Five dozen. That's sixty eggs. Gaston, buddy, see a doctor.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "In Be Our Guest, Lumiere tells Belle to try this, saying it's delicious.",
+          "answer": "The grey stuff",
+          "accept": [
+            "the grey stuff",
+            "grey stuff",
+            "gray stuff",
+            "the gray stuff"
+          ],
+          "choices": [
+            "The grey stuff",
+            "The blue stuff",
+            "The pink cream",
+            "The cheese souffle"
+          ],
+          "reveal": "[chuckles] The correct answer is the grey stuff! Don't believe me? Ask the dishes.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Lady and the Tramp share spaghetti at Tony's restaurant. This chef helps serve it.",
+          "answer": "Joe",
+          "accept": [
+            "joe"
+          ],
+          "choices": [
+            "Joe",
+            "Gino",
+            "Luigi",
+            "Mario"
+          ],
+          "reveal": "[sighs] The correct answer is Joe! He sings Bella Notte while they share a noodle. It's the most romantic noodle ever.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Remy's famous ratatouille is actually a fancy version of the dish called this.",
+          "answer": "Confit byaldi",
+          "accept": [
+            "confit byaldi",
+            "byaldi"
+          ],
+          "choices": [
+            "Confit byaldi",
+            "Ratatouille niçoise",
+            "Tian provençal",
+            "Bouillabaisse"
+          ],
+          "reveal": "[excited] The correct answer is confit byaldi! Thinly sliced veggies in a pretty spiral. Anton Ego cried. I would too.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "seasonal-sightings",
+      "title": "Seasonal Sightings",
+      "kind": "fan",
+      "intro": "[laughs] Some characters only show up during the holidays! You tell me who or where. [whispers] They might be watching you right now.",
+      "format": "text",
+      "art": {
+        "prompt": "A park street half decorated for Halloween with jack-o'-lanterns and half for Christmas with twinkling lights and snow, a giant moon overhead Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/characters-meet-and-greet--seasonal-sightings.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In Magic Kingdom's Christmas parade, this jolly man in red rides on the last float.",
+          "answer": "Santa Claus",
+          "accept": [
+            "santa",
+            "santa claus",
+            "father christmas"
+          ],
+          "choices": [
+            "Santa Claus",
+            "Jack Frost",
+            "The Nutcracker",
+            "Mrs. Claus"
+          ],
+          "reveal": "[excited] The correct answer is Santa Claus! He saves the best for last. Ho ho ho!",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "The Pumpkin King from The Nightmare Before Christmas appears with Sally during Disney Halloween parties.",
+          "answer": "Jack Skellington",
+          "accept": [
+            "jack",
+            "jack skellington"
+          ],
+          "choices": [
+            "Jack Skellington",
+            "Oogie Boogie",
+            "Zero",
+            "The Mayor"
+          ],
+          "reveal": "[laughs] The correct answer is Jack Skellington! What's this? What's this? A Halloween party!",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "The Hocus Pocus Villain Spelltacular stage show at Magic Kingdom starred these three witches.",
+          "answer": "The Sanderson Sisters",
+          "accept": [
+            "the sanderson sisters",
+            "sanderson sisters",
+            "sandersons"
+          ],
+          "choices": [
+            "The Sanderson Sisters",
+            "The Three Witches",
+            "The Weird Sisters",
+            "The Fates"
+          ],
+          "reveal": "[gasps] The correct answer is the Sanderson Sisters! Amok, amok, amok!",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Before the Boo-to-You Halloween parade, this spooky rider gallops down Main Street on his horse.",
+          "answer": "The Headless Horseman",
+          "accept": [
+            "headless horseman",
+            "the headless horseman"
+          ],
+          "choices": [
+            "The Headless Horseman",
+            "Ichabod Crane",
+            "The Phantom Rider",
+            "The Pumpkin King"
+          ],
+          "reveal": "[gasps] The correct answer is the Headless Horseman! Hold on to your heads, folks.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "The Halloween event called Oogie Boogie Bash takes place in this Disneyland Resort park.",
+          "answer": "Disney California Adventure",
+          "accept": [
+            "california adventure",
+            "disney california adventure",
+            "dca",
+            "disney california adventure park"
+          ],
+          "choices": [
+            "Disney California Adventure",
+            "Disneyland Park",
+            "Magic Kingdom",
+            "Disney's Hollywood Studios"
+          ],
+          "reveal": "[laughs] The correct answer is Disney California Adventure! Oogie Boogie throws a great party. Just don't play dice with him.",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}
