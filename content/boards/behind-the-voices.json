@@ -1,0 +1,536 @@
+{
+  "id": "behind-the-voices",
+  "title": "Behind the Voices",
+  "theme": "Disney voice actors and the voices of the parks",
+  "tags": [
+    "voice actors",
+    "voices",
+    "cast",
+    "parks"
+  ],
+  "intro": "[whispers] Shhh... hear that? That's the sound of tonight's theme. [excited] It's BEHIND THE VOICES! The legends who gave Disney characters their laughs, their songs, and their very loud parrot squawks.",
+  "art": {
+    "prompt": "A vintage voice recording booth glowing in warm amber light, a classic studio microphone with a pop filter, headphones on a stand, a script on a music stand, sound waves rippling through the air as colorful ribbons, 16:9, original artwork, no text, no logos, no characters, no people",
+    "file": "media/behind-the-voices.jpg"
+  },
+  "categories": [
+    {
+      "id": "phenomenal-cosmic-voices",
+      "title": "Phenomenal Cosmic Voices",
+      "kind": "film",
+      "intro": "[excited] Rub the lamp! This category is all about the voices of Aladdin. Phenomenal cosmic powers, itty bitty recording booth.",
+      "art": {
+        "prompt": "A moonlit desert palace balcony with a glowing golden oil lamp on a cushion, a studio microphone beside it, a flying carpet silhouette against the stars and wisps of blue magic smoke, 16:9, original artwork, no text, no logos, no characters, no people",
+        "file": "media/behind-the-voices--phenomenal-cosmic-voices.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Robin Williams improvised hours of material as this blue, shape-shifting wish-granter.",
+          "answer": "The Genie",
+          "accept": [
+            "the genie",
+            "genie"
+          ],
+          "choices": [
+            "The Genie",
+            "Iago",
+            "Abu",
+            "The Sultan"
+          ],
+          "reveal": "The correct answer is the Genie! [laughs] Robin Williams recorded hours of improv. Hours! The animators had to sprint to keep up.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Comedian Gilbert Gottfried gave his famously loud voice to this sarcastic red parrot.",
+          "answer": "Iago",
+          "accept": [
+            "iago"
+          ],
+          "choices": [
+            "Iago",
+            "Zazu",
+            "Abu",
+            "Rajah"
+          ],
+          "reveal": "The correct answer is Iago! [sarcastic] Gilbert Gottfried, known for his soft gentle whisper. Kidding. My ears are still ringing.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "This Tony-winning star from the Philippines provided Jasmine's singing voice, including A Whole New World.",
+          "answer": "Lea Salonga",
+          "accept": [
+            "lea salonga",
+            "salonga"
+          ],
+          "choices": [
+            "Lea Salonga",
+            "Idina Menzel",
+            "Audra McDonald",
+            "Jodi Benson"
+          ],
+          "reveal": "The correct answer is Lea Salonga! [excited] And she sang for Mulan too. Two princesses, one incredible voice.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Broadway actor Jonathan Freeman voiced this villain in the 1992 film, then played him again on Broadway.",
+          "answer": "Jafar",
+          "accept": [
+            "jafar"
+          ],
+          "choices": [
+            "Jafar",
+            "Gaston",
+            "Hades",
+            "Ratcliffe"
+          ],
+          "reveal": "The correct answer is Jafar! [mischievously] Jonathan Freeman has been delightfully evil in that role for over thirty years.",
+          "dailyDouble": true
+        },
+        {
+          "value": 1000,
+          "clue": "Linda Larkin provided the SPEAKING voice of this character.",
+          "answer": "Princess Jasmine",
+          "accept": [
+            "princess jasmine",
+            "jasmine"
+          ],
+          "choices": [
+            "Princess Jasmine",
+            "Princess Ariel",
+            "Belle",
+            "Pocahontas"
+          ],
+          "reveal": "[dramatic pause] The correct answer is Princess Jasmine! Linda Larkin talked, Lea Salonga sang. Teamwork makes the dream work.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "name-that-character",
+      "title": "Name That Character",
+      "kind": "theme",
+      "intro": "[chuckles] I give you the famous voice, you give me the character they played. Simple! [whispers] Mostly simple.",
+      "art": {
+        "prompt": "A dark velvet theater with a row of spotlit empty character costumes on hangers: a cowboy hat, a scarf, a warrior helmet and a purple feathered headdress, each beside a microphone, 16:9, original artwork, no text, no logos, no characters, no people",
+        "file": "media/behind-the-voices--name-that-character.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Tom Hanks voices this pull-string cowboy sheriff.",
+          "answer": "Woody",
+          "accept": [
+            "woody",
+            "sheriff woody"
+          ],
+          "choices": [
+            "Woody",
+            "Buzz Lightyear",
+            "Jessie",
+            "Bullseye"
+          ],
+          "reveal": "The correct answer is Woody! [excited] Reach for the sky! Tom's brother Jim voices Woody on lots of toys and games, too.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Ellen DeGeneres voices this forgetful blue tang fish.",
+          "answer": "Dory",
+          "accept": [
+            "dory"
+          ],
+          "choices": [
+            "Dory",
+            "Nemo",
+            "Marlin",
+            "Squirt"
+          ],
+          "reveal": "The correct answer is Dory! [laughs] Just keep swimming. And keep forgetting. And keep swimming.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Ming-Na Wen voices this warrior, who disguises herself as Ping.",
+          "answer": "Mulan",
+          "accept": [
+            "mulan",
+            "fa mulan"
+          ],
+          "choices": [
+            "Mulan",
+            "Shang",
+            "Mushu",
+            "Jasmine"
+          ],
+          "reveal": "The correct answer is Mulan! [excited] Ming-Na Wen later went on to Star Wars. A true warrior in two galaxies.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Ed Asner voiced this grumpy widower who flies his house to South America with balloons.",
+          "answer": "Carl Fredricksen",
+          "accept": [
+            "carl fredricksen",
+            "carl",
+            "mr. fredricksen",
+            "mr fredricksen"
+          ],
+          "choices": [
+            "Carl Fredricksen",
+            "Charles Muntz",
+            "Russell",
+            "Dug"
+          ],
+          "reveal": "The correct answer is Carl Fredricksen! [sighs] And the first ten minutes of that movie still wreck me.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Singer Eartha Kitt purred her way through this power-hungry royal adviser in The Emperor's New Groove.",
+          "answer": "Yzma",
+          "accept": [
+            "yzma"
+          ],
+          "choices": [
+            "Yzma",
+            "Kronk",
+            "Mother Gothel",
+            "Madam Mim"
+          ],
+          "reveal": "The correct answer is Yzma! [laughs] Pull the lever, Kronk! WRONG LEVERRRR!",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "voice-booth-props",
+      "title": "Voice Booth Props",
+      "kind": "media",
+      "intro": "[mischievously] These props belong to famous characters. I'll tell you who voices them, you tell me who OWNS the stuff!",
+      "art": {
+        "prompt": "A cluttered voice-over studio shelf full of mysterious props: a toy helmet, a frying pan, a chef's hat, round glasses and a jar of fireflies, lit by a warm studio lamp, 16:9, original artwork, no text, no logos, no characters, no people",
+        "file": "media/behind-the-voices--voice-booth-props.jpg"
+      },
+      "format": "picture",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Tim Allen voices the owner of this gear. Who is it?",
+          "answer": "Buzz Lightyear",
+          "accept": [
+            "buzz lightyear",
+            "buzz"
+          ],
+          "choices": [
+            "Buzz Lightyear",
+            "Woody",
+            "Zurg",
+            "Emperor Zurg"
+          ],
+          "reveal": "The correct answer is Buzz Lightyear! [excited] To infinity and beyond! Tim Allen has been voicing him since 1995.",
+          "media": {
+            "type": "image",
+            "prompt": "A child's bedroom floor with a toy astronaut helmet, folded toy spaceship wings and a toy laser beam blaster under a window of glowing star decals and a cloud-painted wall, no people, no text, no logos, no copyrighted characters",
+            "file": "media/behind-the-voices--voice-booth-props-200.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Mandy Moore voices the owner of these things. Who is it?",
+          "answer": "Rapunzel",
+          "accept": [
+            "rapunzel"
+          ],
+          "choices": [
+            "Rapunzel",
+            "Cinderella",
+            "Aurora",
+            "Anna"
+          ],
+          "reveal": "The correct answer is Rapunzel! [laughs] Who knew a frying pan would be the greatest weapon of all time?",
+          "media": {
+            "type": "image",
+            "prompt": "A tall stone tower window with an extremely long golden braid spilling out, a cast-iron frying pan, a paintbrush and a small crown on the sill, floating lanterns in the distance, no people, no text, no logos, no copyrighted characters",
+            "file": "media/behind-the-voices--voice-booth-props-400.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Patton Oswalt voices the owner of this tiny chef's hat. Who is it?",
+          "answer": "Remy",
+          "accept": [
+            "remy"
+          ],
+          "choices": [
+            "Remy",
+            "Emile",
+            "Linguini",
+            "Gusteau"
+          ],
+          "reveal": "The correct answer is Remy! [chuckles] A rat with better knife skills than me. Anyone can cook!",
+          "media": {
+            "type": "image",
+            "prompt": "A tiny white chef's hat sitting beside a big pot of ratatouille in a bustling Paris restaurant kitchen at night, copper pans and the Eiffel Tower in the window, no people, no text, no logos, no copyrighted characters",
+            "file": "media/behind-the-voices--voice-booth-props-600.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "The film's own director voiced the owner of these big round glasses. Who is it?",
+          "answer": "Edna Mode",
+          "accept": [
+            "edna mode",
+            "edna",
+            "e"
+          ],
+          "choices": [
+            "Edna Mode",
+            "Mirage",
+            "Helen Parr",
+            "Frozone"
+          ],
+          "reveal": "The correct answer is Edna Mode! Brad Bird voiced her himself. [sarcastic] And she has ONE rule for superhero costumes. No capes!",
+          "media": {
+            "type": "image",
+            "prompt": "A sleek modern fashion design studio with oversized round black glasses resting on a sketchbook full of superhero costume drawings, fabric swatches and a mannequin, no people, no text, no logos, no copyrighted characters",
+            "file": "media/behind-the-voices--voice-booth-props-800.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Jim Cummings, the voice of Winnie the Pooh, also voices the owner of this glowing back end. Who is it?",
+          "answer": "Ray",
+          "accept": [
+            "ray",
+            "raymond",
+            "ray the firefly"
+          ],
+          "choices": [
+            "Ray",
+            "Louis",
+            "Mama Odie",
+            "Juju"
+          ],
+          "reveal": "The correct answer is Ray! [sighs] That sweet firefly in love with his Evangeline. Somebody hand me a tissue.",
+          "media": {
+            "type": "image",
+            "prompt": "A glowing firefly light hovering over a misty Louisiana bayou at night, cypress trees with Spanish moss, lily pads and a bright evening star above, no people, no text, no logos, no copyrighted characters",
+            "file": "media/behind-the-voices--voice-booth-props-1000.jpg"
+          },
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "voices-in-the-parks",
+      "title": "Voices in the Parks",
+      "kind": "parks",
+      "intro": "[excited] Some of the most famous Disney voices never appear on screen. They live in the PARKS! Let's listen in.",
+      "art": {
+        "prompt": "A dusky theme park scene with a misty river boat dock, a monorail beam curving past, a spooky manor silhouette on a hill and a giant geodesic sphere glowing in the distance, sound waves drifting through the air, 16:9, original artwork, no text, no logos, no characters, no people",
+        "file": "media/behind-the-voices--voices-in-the-parks.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "On the Jungle Cruise, these boat guides tell terrible puns into a microphone.",
+          "answer": "Skippers",
+          "accept": [
+            "skippers",
+            "skipper",
+            "jungle cruise skippers"
+          ],
+          "choices": [
+            "Skippers",
+            "Captains",
+            "Rangers",
+            "Pilots"
+          ],
+          "reveal": "The correct answer is Skippers! [laughs] The backside of water. Every. Single. Time. And we still laugh.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Please stand clear of the doors, followed by the same line in Spanish, is the famous announcement on this Walt Disney World ride.",
+          "answer": "The monorail",
+          "accept": [
+            "the monorail",
+            "monorail",
+            "walt disney world monorail"
+          ],
+          "choices": [
+            "The monorail",
+            "The Skyliner",
+            "The PeopleMover",
+            "The Walt Disney World Railroad"
+          ],
+          "reveal": "The correct answer is the monorail! [chuckles] Por favor manténganse alejados de las puertas. We all know it by heart.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "In the Haunted Mansion, the unseen narrator who welcomes foolish mortals is known as this.",
+          "answer": "The Ghost Host",
+          "accept": [
+            "the ghost host",
+            "ghost host"
+          ],
+          "choices": [
+            "The Ghost Host",
+            "Madame Leota",
+            "The Caretaker",
+            "The Hatbox Ghost"
+          ],
+          "reveal": "The correct answer is the Ghost Host! [whispers] And our tour begins here, in this gallery...",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "This voice actor was the Haunted Mansion's Ghost Host and also the Pirates of the Caribbean auctioneer.",
+          "answer": "Paul Frees",
+          "accept": [
+            "paul frees",
+            "frees"
+          ],
+          "choices": [
+            "Paul Frees",
+            "Thurl Ravenscroft",
+            "Corey Burton",
+            "X Atencio"
+          ],
+          "reveal": "The correct answer is Paul Frees! [laughs] He also voiced Ludwig Von Drake. One voice, a hundred ghosts and pirates.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "From 1994 to 2007, Spaceship Earth was narrated by this Oscar-winning actor, who also voiced Scar.",
+          "answer": "Jeremy Irons",
+          "accept": [
+            "jeremy irons",
+            "irons"
+          ],
+          "choices": [
+            "Jeremy Irons",
+            "Walter Cronkite",
+            "Ian McKellen",
+            "Patrick Stewart"
+          ],
+          "reveal": "The correct answer is Jeremy Irons! [chuckles] Today Dame Judi Dench is your time-travel tour guide.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "name-that-actor",
+      "title": "Name That Actor",
+      "kind": "fan",
+      "intro": "[mischievously] Now we flip it! I tell you the role, you tell me the human behind the microphone.",
+      "art": {
+        "prompt": "A Hollywood walk-of-fame style sidewalk of blank golden stars under spotlights leading to a glowing recording studio door, film reels and microphones in soft focus, 16:9, original artwork, no text, no logos, no characters, no people",
+        "file": "media/behind-the-voices--name-that-actor.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This singer-actress voices Elsa and belted out Let It Go.",
+          "answer": "Idina Menzel",
+          "accept": [
+            "idina menzel",
+            "menzel"
+          ],
+          "choices": [
+            "Idina Menzel",
+            "Kristen Bell",
+            "Lea Michele",
+            "Kristin Chenoweth"
+          ],
+          "reveal": "The correct answer is Idina Menzel! [excited] She held that final note so long the castle built itself.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Nicknamed The Rock, he voices the demigod Maui.",
+          "answer": "Dwayne Johnson",
+          "accept": [
+            "dwayne johnson",
+            "the rock",
+            "dwayne the rock johnson"
+          ],
+          "choices": [
+            "Dwayne Johnson",
+            "Jason Momoa",
+            "Vin Diesel",
+            "John Cena"
+          ],
+          "reveal": "The correct answer is Dwayne Johnson! [laughs] What can I say except... you're welcome.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "This Book of Mormon Broadway star voices Olaf.",
+          "answer": "Josh Gad",
+          "accept": [
+            "josh gad",
+            "gad"
+          ],
+          "choices": [
+            "Josh Gad",
+            "Jonathan Groff",
+            "Andrew Rannells",
+            "Alan Tudyk"
+          ],
+          "reveal": "The correct answer is Josh Gad! [chuckles] Some people are worth melting for. Some actors are worth casting for.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "He gave Donald Duck his quack from 1934 until his death in 1985.",
+          "answer": "Clarence Nash",
+          "accept": [
+            "clarence nash",
+            "ducky nash",
+            "clarence ducky nash",
+            "nash"
+          ],
+          "choices": [
+            "Clarence Nash",
+            "Tony Anselmo",
+            "Pinto Colvig",
+            "Jimmy MacDonald"
+          ],
+          "reveal": "The correct answer is Clarence Ducky Nash! [laughs] Over fifty years of quacking. My throat hurts just thinking about it.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Wayne Allwine voiced Mickey Mouse for over thirty years, and he was married to this actress, the voice of Minnie.",
+          "answer": "Russi Taylor",
+          "accept": [
+            "russi taylor",
+            "taylor"
+          ],
+          "choices": [
+            "Russi Taylor",
+            "Marcellite Garner",
+            "Kaye Ballard",
+            "June Foray"
+          ],
+          "reveal": "The correct answer is Russi Taylor! [sighs] Mickey and Minnie, married in real life. That's the sweetest fact in show business.",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}

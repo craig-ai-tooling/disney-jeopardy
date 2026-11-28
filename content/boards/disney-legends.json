@@ -1,0 +1,573 @@
+{
+  "id": "disney-legends",
+  "title": "Disney Legends",
+  "theme": "Disney Legends: Imagineers, the Nine Old Men and the Disney Legends award",
+  "tags": [
+    "disney legends",
+    "imagineers",
+    "animators",
+    "history"
+  ],
+  "intro": "[dramatic pause] Ladies and gentlemen... tonight we honor the LEGENDS! The Imagineers, the animators and the stars who built the magic. [excited] Handprints in cement, everybody. Let's go!",
+  "art": {
+    "prompt": "A grand moonlit plaza with a towering abstract bronze sculpture of a spiraling film strip rising into a star-tipped wand, bronze handprint plaques set into the stone pillars, warm uplighting and drifting golden sparkles, 16:9, original artwork, no text, no logos, no characters, no people",
+    "file": "media/disney-legends.jpg"
+  },
+  "categories": [
+    {
+      "id": "second-star-to-the-right",
+      "title": "Second Star to the Right",
+      "kind": "film",
+      "intro": "[excited] Think happy thoughts! Our film is Peter Pan, a 1953 classic animated by Walt's greatest legends.",
+      "art": {
+        "prompt": "A starry night sky over London rooftops with a glowing trail of golden pixie dust swirling toward a bright second star, a pirate galleon silhouette sailing among the clouds and a ticking clock on a chimney, 16:9, original artwork, no text, no logos, no characters, no people",
+        "file": "media/disney-legends--second-star-to-the-right.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This tiny pixie sprinkles the pixie dust that lets the Darling children fly.",
+          "answer": "Tinker Bell",
+          "accept": [
+            "tinker bell",
+            "tinkerbell",
+            "tink"
+          ],
+          "choices": [
+            "Tinker Bell",
+            "Silvermist",
+            "The Blue Fairy",
+            "Fawn"
+          ],
+          "reveal": "The correct answer is Tinker Bell! [laughs] Small fairy, BIG attitude. Do NOT get on her bad side.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Peter Pan lives on this island, second star to the right and straight on till morning.",
+          "answer": "Neverland",
+          "accept": [
+            "neverland",
+            "never land",
+            "never never land"
+          ],
+          "choices": [
+            "Neverland",
+            "Treasure Island",
+            "Pleasure Island",
+            "Skull Island"
+          ],
+          "reveal": "The correct answer is Neverland! [excited] Where you never grow up. Which is basically my lifestyle.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "The crocodile that chases Captain Hook swallowed one of these, so you can always hear him coming.",
+          "answer": "A clock",
+          "accept": [
+            "a clock",
+            "clock",
+            "an alarm clock",
+            "alarm clock"
+          ],
+          "choices": [
+            "A clock",
+            "A bell",
+            "A drum",
+            "A pocket watch chain"
+          ],
+          "reveal": "The correct answer is a clock! [whispers] Tick tock... tick tock... RUN, Captain!",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Disney Legend Kathryn Beaumont voiced Wendy Darling, and two years earlier she voiced this curious girl.",
+          "answer": "Alice",
+          "accept": [
+            "alice"
+          ],
+          "choices": [
+            "Alice",
+            "Dorothy",
+            "Cinderella",
+            "Aurora"
+          ],
+          "reveal": "The correct answer is Alice! [chuckles] Down the rabbit hole AND off to Neverland. Busiest kid in Burbank.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "This Disney Legend, one of the Nine Old Men, animated Tinker Bell, using actress Margaret Kerry as his live-action reference.",
+          "answer": "Marc Davis",
+          "accept": [
+            "marc davis",
+            "davis"
+          ],
+          "choices": [
+            "Marc Davis",
+            "Milt Kahl",
+            "Frank Thomas",
+            "Les Clark"
+          ],
+          "reveal": "The correct answer is Marc Davis! He told Margaret, we want her to be YOU. [chuckles] He later designed Haunted Mansion and Pirates gags, too.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "walts-animation-all-stars",
+      "title": "Walt's Animation All-Stars",
+      "kind": "theme",
+      "intro": "[chuckles] Walt jokingly named his top animators after a nickname for the Supreme Court. Let's honor the Nine Old Men!",
+      "art": {
+        "prompt": "A 1940s animation studio desk with a glowing light table, stacks of pencil sketches of fluttering pages, a mirror for practicing expressions, sharpened pencils and a vintage cup of coffee, warm nostalgic light, 16:9, original artwork, no text, no logos, no characters, no people",
+        "file": "media/disney-legends--walts-animation-all-stars.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Walt's core group of legendary animators was nicknamed the Old Men. How many of them were there?",
+          "answer": "Nine",
+          "accept": [
+            "nine",
+            "9",
+            "the nine old men"
+          ],
+          "choices": [
+            "Nine",
+            "Seven",
+            "Twelve",
+            "Five"
+          ],
+          "reveal": "The correct answer is nine! [laughs] The Nine Old Men. And they weren't even old at the time. Rude, Walt.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Nine Old Men member Milt Kahl animated this smooth, menacing tiger in The Jungle Book.",
+          "answer": "Shere Khan",
+          "accept": [
+            "shere khan",
+            "sher khan"
+          ],
+          "choices": [
+            "Shere Khan",
+            "Rajah",
+            "Tigger",
+            "Sabor"
+          ],
+          "reveal": "The correct answer is Shere Khan! [mischievously] Milt Kahl was famous for animating the toughest characters. And the toughest tigers.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Frank Thomas brought back a cut scene and animated this romantic spaghetti dinner. Name the movie.",
+          "answer": "Lady and the Tramp",
+          "accept": [
+            "lady and the tramp",
+            "lady & the tramp"
+          ],
+          "choices": [
+            "Lady and the Tramp",
+            "One Hundred and One Dalmatians",
+            "The Aristocats",
+            "Oliver & Company"
+          ],
+          "reveal": "The correct answer is Lady and the Tramp! [sighs] Walt almost cut it. Then he said, I hear you've got the best scene in the picture.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Frank Thomas and Ollie Johnston wrote this famous 1981 animation book, still called the animator's bible.",
+          "answer": "The Illusion of Life",
+          "accept": [
+            "the illusion of life",
+            "illusion of life",
+            "the illusion of life: disney animation"
+          ],
+          "choices": [
+            "The Illusion of Life",
+            "The Art of Animation",
+            "Drawn to Life",
+            "The Animator's Survival Kit"
+          ],
+          "reveal": "The correct answer is The Illusion of Life! [excited] It's where the twelve principles of animation come from. Squash and stretch, baby!",
+          "dailyDouble": true
+        },
+        {
+          "value": 1000,
+          "clue": "This animator, Frank Thomas's best friend, was the last surviving member of the Nine Old Men when he died in 2008.",
+          "answer": "Ollie Johnston",
+          "accept": [
+            "ollie johnston",
+            "johnston",
+            "oliver johnston"
+          ],
+          "choices": [
+            "Ollie Johnston",
+            "Eric Larson",
+            "Ward Kimball",
+            "Les Clark"
+          ],
+          "reveal": "[sighs] The correct answer is Ollie Johnston! He and Frank lived next door to each other for decades. Best friends till the very end.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "emoji-legends",
+      "title": "Emoji Legends",
+      "kind": "media",
+      "intro": "[excited] Every Disney Legend's career, squeezed into a few tiny pictures! Read the emoji, use the hint, and name the legend.",
+      "art": {
+        "prompt": "A colorful pop-art wall covered in floating glossy emoji-style icons of a top hat, a teapot, a tiny television and a steamboat, under a spotlight, 16:9, original artwork, no text, no logos, no characters, no people",
+        "file": "media/disney-legends--emoji-legends.jpg"
+      },
+      "format": "emoji",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "🎩🧹🐧🕺 Hint: danced with cartoon penguins as Bert",
+          "answer": "Dick Van Dyke",
+          "accept": [
+            "dick van dyke",
+            "van dyke"
+          ],
+          "choices": [
+            "Dick Van Dyke",
+            "Julie Andrews",
+            "David Tomlinson",
+            "Ed Wynn"
+          ],
+          "reveal": "The correct answer is Dick Van Dyke! [laughs] Step in time! Even if that accent did NOT.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "🫖🌹🎶🏰 Hint: sang Tale as Old as Time as a teapot",
+          "answer": "Angela Lansbury",
+          "accept": [
+            "angela lansbury",
+            "lansbury"
+          ],
+          "choices": [
+            "Angela Lansbury",
+            "Julie Andrews",
+            "Paige O'Hara",
+            "Jodi Benson"
+          ],
+          "reveal": "The correct answer is Angela Lansbury! [sighs] She recorded that song in just one take. ONE. TAKE.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "👯‍♀️🏕️💌🎭 Hint: played twin sisters in 1961's The Parent Trap",
+          "answer": "Hayley Mills",
+          "accept": [
+            "hayley mills",
+            "mills"
+          ],
+          "choices": [
+            "Hayley Mills",
+            "Lindsay Lohan",
+            "Annette Funicello",
+            "Kurt Russell"
+          ],
+          "reveal": "The correct answer is Hayley Mills! [chuckles] Lindsay Lohan got the 1998 remake. Hayley had to act opposite... herself.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "🐭👂📺🏖️ Hint: an original 1950s Mouseketeer who went on to Beach Party movies",
+          "answer": "Annette Funicello",
+          "accept": [
+            "annette funicello",
+            "annette",
+            "funicello"
+          ],
+          "choices": [
+            "Annette Funicello",
+            "Shelley Fabares",
+            "Hayley Mills",
+            "Darlene Gillespie"
+          ],
+          "reveal": "The correct answer is Annette Funicello! [excited] The most famous Mouseketeer of them all. M-I-C... see ya real soon!",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "🐭✏️🚢📽️ Hint: animated Steamboat Willie almost single-handedly",
+          "answer": "Ub Iwerks",
+          "accept": [
+            "ub iwerks",
+            "iwerks",
+            "ub"
+          ],
+          "choices": [
+            "Ub Iwerks",
+            "Les Clark",
+            "Ward Kimball",
+            "Roy O. Disney"
+          ],
+          "reveal": "[gasps] The correct answer is Ub Iwerks! Walt's earliest partner and a genius inventor. He later won Oscars for special effects.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "imagineered-icons",
+      "title": "Imagineered Icons",
+      "kind": "parks",
+      "intro": "[whispers] Behold... real photos of icons built by legendary Imagineers. [excited] Name the landmark!",
+      "art": {
+        "prompt": "A dreamy theme park skyline at golden hour combining a giant silver geodesic sphere, a snowy alpine peak, a colossal carved tree and a red-rock desert mountain, with a sleek monorail gliding through the scene, 16:9, original artwork, no text, no logos, no characters, no people",
+        "file": "media/disney-legends--imagineered-icons.jpg"
+      },
+      "format": "picture",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Imagineers built this 18-story geodesic sphere as the icon of EPCOT. Name it.",
+          "answer": "Spaceship Earth",
+          "accept": [
+            "spaceship earth"
+          ],
+          "choices": [
+            "Spaceship Earth",
+            "Mission: SPACE",
+            "The Land",
+            "Imagination!"
+          ],
+          "reveal": "The correct answer is Spaceship Earth! [chuckles] Some people call it the giant golf ball. Those people are correct.",
+          "media": {
+            "type": "image",
+            "file": "media/disney-legends--imagineered-icons-200.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Spaceship_Earth_2.jpg",
+              "license": "CC BY-SA 4.0",
+              "author": "Katie Rommel-Esham (contact via bdesham)"
+            }
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Opened in 1959, this Disneyland mountain was home to the world's first tubular steel roller coaster.",
+          "answer": "Matterhorn Bobsleds",
+          "accept": [
+            "matterhorn bobsleds",
+            "the matterhorn",
+            "matterhorn",
+            "matterhorn mountain"
+          ],
+          "choices": [
+            "Matterhorn Bobsleds",
+            "Space Mountain",
+            "Big Thunder Mountain Railroad",
+            "Expedition Everest"
+          ],
+          "reveal": "The correct answer is the Matterhorn Bobsleds! [laughs] Watch out for Harold, the abominable snowman. He has NOT had his coffee.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "file": "media/disney-legends--imagineered-icons-400.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Matterhorn_Bobsleds_2012.jpg",
+              "license": "CC BY 2.0",
+              "author": "HarshLight from San Jose, CA, USA"
+            }
+          }
+        },
+        {
+          "value": 600,
+          "clue": "More than 300 animals are carved into this 145-foot icon of Disney's Animal Kingdom.",
+          "answer": "The Tree of Life",
+          "accept": [
+            "the tree of life",
+            "tree of life"
+          ],
+          "choices": [
+            "The Tree of Life",
+            "The Wishing Tree",
+            "Pride Rock",
+            "The Swiss Family Treehouse"
+          ],
+          "reveal": "The correct answer is the Tree of Life! [excited] Walk around it and you'll spot a lion, a hippo, an eagle... and probably a dozen you missed.",
+          "media": {
+            "type": "image",
+            "file": "media/disney-legends--imagineered-icons-600.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Tree_of_Life,_Disney%27s_Animal_Kingdom.jpg",
+              "license": "CC BY-SA 4.0",
+              "author": "Jedi94"
+            }
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Disney Legend Tony Baxter dreamed up this wildest ride in the wilderness, a runaway mine train coaster.",
+          "answer": "Big Thunder Mountain Railroad",
+          "accept": [
+            "big thunder mountain railroad",
+            "big thunder mountain",
+            "big thunder",
+            "thunder mountain"
+          ],
+          "choices": [
+            "Big Thunder Mountain Railroad",
+            "Seven Dwarfs Mine Train",
+            "Splash Mountain",
+            "Expedition Everest"
+          ],
+          "reveal": "The correct answer is Big Thunder Mountain Railroad! [laughs] Hang on to them hats and glasses, folks!",
+          "media": {
+            "type": "image",
+            "file": "media/disney-legends--imagineered-icons-800.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Big_Thunder_Mountain_Railroad_2.jpg",
+              "license": "CC BY-SA 4.0",
+              "author": "AmaryllisGardener"
+            }
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Disney Legend Mary Blair designed the giant 90-foot tile mural inside this Walt Disney World hotel, which the monorail glides through.",
+          "answer": "Disney's Contemporary Resort",
+          "accept": [
+            "disney's contemporary resort",
+            "contemporary resort",
+            "the contemporary",
+            "contemporary",
+            "disneys contemporary resort"
+          ],
+          "choices": [
+            "Disney's Contemporary Resort",
+            "Disney's Polynesian Village Resort",
+            "Disney's Grand Floridian Resort",
+            "Disney's Wilderness Lodge"
+          ],
+          "reveal": "The correct answer is Disney's Contemporary Resort! [whispers] Look closely and find the famous five-legged goat. Legend says Mary hid it on purpose.",
+          "media": {
+            "type": "image",
+            "file": "media/disney-legends--imagineered-icons-1000.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Disney%27s_Contemporary_Resort_Arriving_Monorail_Teal.jpg",
+              "license": "CC BY-SA 4.0",
+              "author": "Quarax"
+            }
+          },
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "legend-has-it",
+      "title": "Legend Has It",
+      "kind": "fan",
+      "intro": "[mischievously] Now for the award itself! How well do you know the Disney Legends program?",
+      "art": {
+        "prompt": "A sunlit studio plaza with rows of bronze handprint plaques on stone pillars, a velvet display case holding an abstract bronze star-tipped wand sculpture, palm trees and a classic studio water tower shape, 16:9, original artwork, no text, no logos, no characters, no people",
+        "file": "media/disney-legends--legend-has-it.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "The Disney Legends award sculpture shows Mickey's gloved Sorcerer's Apprentice hand holding one of these.",
+          "answer": "A magic wand",
+          "accept": [
+            "a magic wand",
+            "magic wand",
+            "a wand",
+            "wand",
+            "a star-tipped wand"
+          ],
+          "choices": [
+            "A magic wand",
+            "A paintbrush",
+            "A pencil",
+            "A golden key"
+          ],
+          "reveal": "The correct answer is a magic wand! [excited] With a star on top. Because Disney Legends ARE magic.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "In 1987, this Shaggy Dog and Absent-Minded Professor star became the very first Disney Legend.",
+          "answer": "Fred MacMurray",
+          "accept": [
+            "fred macmurray",
+            "macmurray",
+            "fred mcmurray"
+          ],
+          "choices": [
+            "Fred MacMurray",
+            "Dean Jones",
+            "Fess Parker",
+            "Kurt Russell"
+          ],
+          "reveal": "The correct answer is Fred MacMurray! [laughs] The very first Legend... and he starred in a movie about turning into a dog.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Since 2009, new Disney Legends have been named every two years at this official Disney fan event.",
+          "answer": "D23 Expo",
+          "accept": [
+            "d23 expo",
+            "d23",
+            "the d23 expo",
+            "d23: the ultimate disney fan event"
+          ],
+          "choices": [
+            "D23 Expo",
+            "Comic-Con",
+            "EPCOT Festival of the Arts",
+            "CinemaCon"
+          ],
+          "reveal": "The correct answer is the D23 Expo! [chuckles] Thousands of fans cheering for their heroes. It's basically the Disney Oscars.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "The bronze handprint plaques of the Disney Legends line a plaza at the Walt Disney Studios in this California city.",
+          "answer": "Burbank",
+          "accept": [
+            "burbank",
+            "burbank california"
+          ],
+          "choices": [
+            "Burbank",
+            "Anaheim",
+            "Glendale",
+            "Hollywood"
+          ],
+          "reveal": "The correct answer is Burbank! [excited] Walt's studio home since 1940. Go high-five a legend's handprint.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Named a Disney Legend in 1991, this actor became a coonskin-cap craze as Davy Crockett, King of the Wild Frontier.",
+          "answer": "Fess Parker",
+          "accept": [
+            "fess parker",
+            "parker"
+          ],
+          "choices": [
+            "Fess Parker",
+            "Buddy Ebsen",
+            "Guy Williams",
+            "Tommy Kirk"
+          ],
+          "reveal": "The correct answer is Fess Parker! [laughs] Kids across America BEGGED for raccoon hats in 1955. Raccoons were less excited.",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}

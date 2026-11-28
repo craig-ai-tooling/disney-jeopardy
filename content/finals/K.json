@@ -1,0 +1,143 @@
+[
+  {
+    "film": "Home on the Range",
+    "category": "Home on the Range",
+    "clue": "Three dairy cows chase the yodeling outlaw Alameda Slim to save their farm, which goes by this heavenly name.",
+    "answer": "Patch of Heaven",
+    "accept": [
+      "patch of heaven",
+      "the patch of heaven",
+      "little patch of heaven"
+    ],
+    "choices": [
+      "Patch of Heaven",
+      "Green Acres",
+      "Sunny Meadows",
+      "Cloud Nine Ranch"
+    ],
+    "reveal": "The correct answer is Patch of Heaven! [laughs] Saved by three cows and a reward poster. Udderly heroic."
+  },
+  {
+    "film": "Ralph Breaks the Internet",
+    "category": "Ralph Breaks the Internet",
+    "clue": "Ralph and Vanellope enter the internet to buy a new steering wheel for her broken game on this real auction website.",
+    "answer": "eBay",
+    "accept": [
+      "ebay",
+      "e-bay",
+      "e bay"
+    ],
+    "choices": [
+      "eBay",
+      "Amazon",
+      "BuzzzTube",
+      "Craigslist"
+    ],
+    "reveal": "The correct answer is eBay! [sarcastic] They bid the price up to twenty-seven THOUSAND and one dollars. Never let Ralph near an auction."
+  },
+  {
+    "film": "Toy Story 3",
+    "category": "Toy Story 3",
+    "clue": "Andy's toys are accidentally donated to this daycare, ruled by a strawberry-scented bear.",
+    "answer": "Sunnyside Daycare",
+    "accept": [
+      "sunnyside daycare",
+      "sunnyside",
+      "sunnyside day care"
+    ],
+    "choices": [
+      "Sunnyside Daycare",
+      "Tri-County Daycare",
+      "Happy Hearts Daycare",
+      "Bonnie's Playhouse"
+    ],
+    "reveal": "The correct answer is Sunnyside Daycare! [whispers] Sunny on the outside... toddler prison on the inside."
+  },
+  {
+    "film": "Pete's Dragon",
+    "category": "Pete's Dragon (1977)",
+    "clue": "In the 1977 musical, Pete's mostly invisible dragon best friend is named this.",
+    "answer": "Elliott",
+    "accept": [
+      "elliott",
+      "elliot"
+    ],
+    "choices": [
+      "Elliott",
+      "Figment",
+      "Puff",
+      "Mushu"
+    ],
+    "reveal": "The correct answer is Elliott! [laughs] Green, goofy and great at lighting lighthouses. Every kid needs an Elliott."
+  },
+  {
+    "film": "The Love Bug",
+    "category": "The Love Bug",
+    "clue": "In the 1968 film The Love Bug, Herbie the Volkswagen Beetle races wearing this number.",
+    "answer": "53",
+    "accept": [
+      "53",
+      "fifty-three",
+      "fifty three",
+      "number 53"
+    ],
+    "choices": [
+      "53",
+      "95",
+      "42",
+      "7"
+    ],
+    "reveal": "The correct answer is 53! [excited] A little bug with a big heart, and a racing stripe to match."
+  },
+  {
+    "film": "Cool Runnings",
+    "category": "Cool Runnings",
+    "clue": "Cool Runnings follows Jamaica's bobsled team at the 1988 Winter Olympics, held in this Canadian city.",
+    "answer": "Calgary",
+    "accept": [
+      "calgary",
+      "calgary alberta"
+    ],
+    "choices": [
+      "Calgary",
+      "Vancouver",
+      "Montreal",
+      "Lake Placid"
+    ],
+    "reveal": "The correct answer is Calgary! [laughs] Feel the rhythm, feel the rhyme... get on up, it's bobsled time!"
+  },
+  {
+    "film": "Dinosaur",
+    "category": "Dinosaur",
+    "clue": "In Disney's 2000 film Dinosaur, the hero Aladar is a dinosaur of this kind, raised by lemurs.",
+    "answer": "Iguanodon",
+    "accept": [
+      "iguanodon",
+      "an iguanodon"
+    ],
+    "choices": [
+      "Iguanodon",
+      "Triceratops",
+      "Brachiosaurus",
+      "Parasaurolophus"
+    ],
+    "reveal": "The correct answer is an Iguanodon! [laughs] Raised by lemurs, chased by a Carnotaurus. Rough childhood."
+  },
+  {
+    "film": "Fantasia 2000",
+    "category": "Fantasia 2000",
+    "clue": "In Fantasia 2000, Donald Duck helps Noah load animals onto the ark set to this Edward Elgar march.",
+    "answer": "Pomp and Circumstance",
+    "accept": [
+      "pomp and circumstance",
+      "pomp & circumstance"
+    ],
+    "choices": [
+      "Pomp and Circumstance",
+      "Rhapsody in Blue",
+      "The Firebird Suite",
+      "Carnival of the Animals"
+    ],
+    "reveal": "[gasps] The correct answer is Pomp and Circumstance! Usually a graduation song. For Donald? Graduation from DUCK to boat captain."
+  }
+]
