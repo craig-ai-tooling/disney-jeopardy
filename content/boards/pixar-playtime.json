@@ -38,7 +38,7 @@
             "Bullseye",
             "Stinky Pete"
           ],
-          "reveal": "The correct answer is Woody! [laughs] [laughs] There's a snake in his boot, and a whole lot of jealousy in his heart.",
+          "reveal": "The correct answer is Woody! [laughs] There's a snake in his boot, and a whole lot of jealousy in his heart.",
           "dailyDouble": false
         },
         {
@@ -92,7 +92,7 @@
             "Will Arnett",
             "Michael Keaton"
           ],
-          "reveal": "[excited] [excited] The correct answer is Keanu Reeves! Yes, we can Keanu. Duke still has not landed that jump, by the way.",
+          "reveal": "[excited] The correct answer is Keanu Reeves! Yes, we can Keanu. Duke still has not landed that jump, by the way.",
           "dailyDouble": true
         },
         {
@@ -108,7 +108,7 @@
             "Butch",
             "Bruno"
           ],
-          "reveal": "The correct answer is Scud! [mischievously] [mischievously] Not to be confused with Buster, Andy's sweet dachshund. One chews toys, one cuddles them.",
+          "reveal": "The correct answer is Scud! [mischievously] Not to be confused with Buster, Andy's sweet dachshund. One chews toys, one cuddles them.",
           "dailyDouble": false
         }
       ]
@@ -139,7 +139,7 @@
             "Rex",
             "Slinky Dog"
           ],
-          "reveal": "The correct answer is Mr. Potato Head! [chuckles] [chuckles] He's been a toy since 1952, so he's earned the right to be cranky.",
+          "reveal": "The correct answer is Mr. Potato Head! [chuckles] He's been a toy since 1952, so he's earned the right to be cranky.",
           "dailyDouble": false
         },
         {
@@ -174,7 +174,7 @@
             "Spirograph",
             "Magna Doodle"
           ],
-          "reveal": "The correct answer is Etch A Sketch! [sarcastic] [sarcastic] Woody calls him the fastest draw in the west. Shake him and his art is gone.",
+          "reveal": "The correct answer is Etch A Sketch! [sarcastic] Woody calls him the fastest draw in the west. Shake him and his art is gone.",
           "dailyDouble": false
         },
         {
@@ -193,7 +193,7 @@
             "Porcelain dolls",
             "Wind-up robots"
           ],
-          "reveal": "The correct answer is ventriloquist dummies! [whispers] [whispers] The Bensons never say a word, which is somehow way scarier.",
+          "reveal": "The correct answer is ventriloquist dummies! [whispers] The Bensons never say a word, which is somehow way scarier.",
           "dailyDouble": false
         },
         {
@@ -209,7 +209,7 @@
             "Luxo Jr.",
             "Red's Dream"
           ],
-          "reveal": "[excited] [excited] The correct answer is Tin Toy! Its little hero Tinny helped inspire the whole idea of Toy Story.",
+          "reveal": "[excited] The correct answer is Tin Toy! Its little hero Tinny helped inspire the whole idea of Toy Story.",
           "dailyDouble": false
         }
       ]
@@ -239,7 +239,7 @@
             "Zurg",
             "Rex"
           ],
-          "reveal": "The correct answer is Buzz Lightyear! [laughs] [laughs] White, purple and that very lime green. To infinity and beyond the fashion police.",
+          "reveal": "The correct answer is Buzz Lightyear! [laughs] White, purple and that very lime green. To infinity and beyond the fashion police.",
           "palette": [
             "#FFFFFF",
             "#6A3D9A",
@@ -285,7 +285,7 @@
             "Disgust",
             "Bing Bong"
           ],
-          "reveal": "[excited] [excited] The correct answer is Joy! Glowing yellow, electric blue hair and a little green dress. She lights up every room, literally.",
+          "reveal": "[excited] The correct answer is Joy! Glowing yellow, electric blue hair and a little green dress. She lights up every room, literally.",
           "palette": [
             "#FFE14D",
             "#1F8FFF",
@@ -331,7 +331,7 @@
             "Dug",
             "Kevin"
           ],
-          "reveal": "The correct answer is Russell! [chuckles] [chuckles] Yellow cap and shirt, orange neckerchief and a brown sash full of badges. Assisting the elderly badge, coming right up.",
+          "reveal": "The correct answer is Russell! [chuckles] Yellow cap and shirt, orange neckerchief and a brown sash full of badges. Assisting the elderly badge, coming right up.",
           "palette": [
             "#F2C230",
             "#F28C28",
@@ -367,7 +367,7 @@
             "Pixar Place",
             "Andy's Backyard"
           ],
-          "reveal": "The correct answer is Toy Story Land! [gasps] [gasps] Look down and the footprints in the path are giant sneaker prints.",
+          "reveal": "The correct answer is Toy Story Land! [gasps] Look down and the footprints in the path are giant sneaker prints.",
           "dailyDouble": false,
           "media": {
             "type": "image",
@@ -412,7 +412,7 @@
             "Jack-Jack Express",
             "Elastic Drop"
           ],
-          "reveal": "The correct answer is the Incredicoaster! [laughs] [laughs] The story? The Parr family is chasing baby Jack-Jack. Relatable for every parent at the parks.",
+          "reveal": "The correct answer is the Incredicoaster! [laughs] The story? The Parr family is chasing baby Jack-Jack. Relatable for every parent at the parks.",
           "dailyDouble": false,
           "media": {
             "type": "image",
@@ -457,7 +457,7 @@
             "Who Wants to Be a Millionaire Play It",
             "Golden Dreams"
           ],
-          "reveal": "The correct answer is Superstar Limo! [sarcastic] [sarcastic] A ride so short-lived, even Roz would have closed the file on it.",
+          "reveal": "The correct answer is Superstar Limo! [sarcastic] A ride so short-lived, even Roz would have closed the file on it.",
           "dailyDouble": false,
           "media": {
             "type": "image",
@@ -493,7 +493,7 @@
             "X",
             "R"
           ],
-          "reveal": "The correct answer is the letter I! [chuckles] [chuckles] The lamp is named Luxo Jr., and he hops on that poor I every single movie.",
+          "reveal": "The correct answer is the letter I! [chuckles] The lamp is named Luxo Jr., and he hops on that poor I every single movie.",
           "dailyDouble": false
         },
         {
@@ -546,7 +546,7 @@
             "USC",
             "Sheridan College"
           ],
-          "reveal": "[excited] [excited] The correct answer is CalArts! A113 shows up on license plates, doors and even a camera in Toy Story 3.",
+          "reveal": "[excited] The correct answer is CalArts! A113 shows up on license plates, doors and even a camera in Toy Story 3.",
           "dailyDouble": false
         },
         {
@@ -563,7 +563,7 @@
             "Don Rickles",
             "Jim Varney"
           ],
-          "reveal": "The correct answer is John Ratzenberger! [laughs] [laughs] He's been Hamm, the Abominable Snowman, P.T. Flea and more. Cheers to that.",
+          "reveal": "The correct answer is John Ratzenberger! [laughs] He's been Hamm, the Abominable Snowman, P.T. Flea and more. Cheers to that.",
           "dailyDouble": false
         }
       ]

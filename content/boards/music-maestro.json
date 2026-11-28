@@ -36,7 +36,7 @@
             "Rafiki",
             "Zazu"
           ],
-          "reveal": "The correct answer is Mufasa! [dramatic] [dramatic] Long live the king. And remember who you are.",
+          "reveal": "The correct answer is Mufasa! [dramatic] Long live the king. And remember who you are.",
           "dailyDouble": false
         },
         {
@@ -52,7 +52,7 @@
             "Circle of Life",
             "Under the Sea"
           ],
-          "reveal": "The correct answer is Hakuna Matata! [sighs] [sighs] It means no worries for the rest of your days. Must be nice.",
+          "reveal": "The correct answer is Hakuna Matata! [sighs] It means no worries for the rest of your days. Must be nice.",
           "dailyDouble": false
         },
         {
@@ -68,7 +68,7 @@
             "Mine Mine Mine",
             "Savages"
           ],
-          "reveal": "The correct answer is Be Prepared! [sarcastic] [sarcastic] The hyenas goose-step and Scar plots. Not a great work environment.",
+          "reveal": "The correct answer is Be Prepared! [sarcastic] The hyenas goose-step and Scar plots. Not a great work environment.",
           "dailyDouble": false
         },
         {
@@ -101,7 +101,7 @@
             "Hakuna Matata",
             "I Just Can't Wait to Be King"
           ],
-          "reveal": "The correct answer is Can You Feel the Love Tonight! [laughs] [laughs] Circle of Life and Hakuna Matata were nominated too. Timon and Pumbaa were robbed, honestly.",
+          "reveal": "The correct answer is Can You Feel the Love Tonight! [laughs] Circle of Life and Hakuna Matata were nominated too. Timon and Pumbaa were robbed, honestly.",
           "dailyDouble": false
         }
       ]
@@ -131,7 +131,7 @@
             "Rapunzel",
             "Moana"
           ],
-          "reveal": "The correct answer is Elsa! [mischievously] [mischievously] And now it's stuck in your head again. You're welcome.",
+          "reveal": "The correct answer is Elsa! [mischievously] And now it's stuck in your head again. You're welcome.",
           "dailyDouble": false
         },
         {
@@ -163,7 +163,7 @@
             "Chief Tui",
             "Gramma Tala"
           ],
-          "reveal": "The correct answer is Maui! [laughs] [laughs] What can he say except, well, you know. The demigod has a way with a chorus.",
+          "reveal": "The correct answer is Maui! [laughs] What can he say except, well, you know. The demigod has a way with a chorus.",
           "dailyDouble": false
         },
         {
@@ -180,7 +180,7 @@
             "Lady Tremaine",
             "The Evil Queen"
           ],
-          "reveal": "The correct answer is Mother Gothel! [sighs] [sighs] A guilt trip set to music. Rapunzel deserved better.",
+          "reveal": "The correct answer is Mother Gothel! [sighs] A guilt trip set to music. Rapunzel deserved better.",
           "dailyDouble": false
         },
         {
@@ -196,7 +196,7 @@
             "Guido",
             "Mario"
           ],
-          "reveal": "[excited] [excited] The correct answer is Tony! Joe plays the accordion, Tony sings, and the dogs share some spaghetti. Bella Notte!",
+          "reveal": "[excited] The correct answer is Tony! Joe plays the accordion, Tony sings, and the dogs share some spaghetti. Bella Notte!",
           "dailyDouble": true
         }
       ]
@@ -214,20 +214,19 @@
       "clues": [
         {
           "value": 200,
-          "clue": "You've Got a Friend Like Me",
-          "answer": "You've Got a Friend in Me and Friend Like Me",
+          "clue": "Circle of Life Is a Highway",
+          "answer": "Circle of Life and Life Is a Highway",
           "accept": [
-            "you've got a friend in me and friend like me",
-            "youve got a friend in me and friend like me",
-            "friend like me and you've got a friend in me"
+            "circle of life and life is a highway",
+            "life is a highway and circle of life"
           ],
           "choices": [
-            "You've Got a Friend in Me and Friend Like Me",
-            "You've Got a Friend in Me and Strangers Like Me",
-            "Count on Me and Friend Like Me",
-            "You'll Be in My Heart and Friend Like Me"
+            "Circle of Life and Life Is a Highway",
+            "Circle of Life and Real Gone",
+            "Hakuna Matata and Life Is a Highway",
+            "Colors of the Wind and Life Is a Highway"
           ],
-          "reveal": "The correct answer is You've Got a Friend in Me from Toy Story, and Friend Like Me from Aladdin. Woody and Genie, best buds.",
+          "reveal": "The correct answer is Circle of Life from The Lion King and Life Is a Highway from Cars! [laughs] Simba and Lightning McQueen, cruising down Pride Rock Route 66.",
           "dailyDouble": false
         },
         {
@@ -244,7 +243,7 @@
             "Let Her Go and Go the Distance",
             "Let It Go and I'll Go the Distance"
           ],
-          "reveal": "The correct answer is Let It Go from Frozen and Go the Distance from Hercules. [excited] [excited] Elsa and Herc, a power duo.",
+          "reveal": "The correct answer is Let It Go from Frozen and Go the Distance from Hercules. [excited] Elsa and Herc, a power duo.",
           "dailyDouble": false
         },
         {
@@ -278,7 +277,7 @@
             "Can You Feel the Love Tonight and Love Is an Open Door",
             "I Won't Say I'm in Love and When Will My Life Begin"
           ],
-          "reveal": "The correct answer is I Won't Say I'm in Love from Hercules and Love Is an Open Door from Frozen. [chuckles] [chuckles] Meg would never fall for Hans.",
+          "reveal": "The correct answer is I Won't Say I'm in Love from Hercules and Love Is an Open Door from Frozen. [chuckles] Meg would never fall for Hans.",
           "dailyDouble": false
         },
         {
@@ -295,7 +294,7 @@
             "I See the Light and A Dream Is a Wish Your Heart Makes",
             "Once Upon a Dream and So This Is Love"
           ],
-          "reveal": "The correct answer is Once Upon a Dream from Sleeping Beauty and A Dream Is a Wish Your Heart Makes from Cinderella. [laughs] [laughs] Two princesses, one very sleepy combo.",
+          "reveal": "The correct answer is Once Upon a Dream from Sleeping Beauty and A Dream Is a Wish Your Heart Makes from Cinderella. [laughs] Two princesses, one very sleepy combo.",
           "dailyDouble": false
         }
       ]
@@ -326,7 +325,7 @@
             "Jungle Cruise",
             "Living with the Land"
           ],
-          "reveal": "The correct answer is it's a small world! [laughs] [laughs] And yes, you will be humming it for the rest of the day.",
+          "reveal": "The correct answer is it's a small world! [laughs] And yes, you will be humming it for the rest of the day.",
           "dailyDouble": false
         },
         {
@@ -343,7 +342,7 @@
             "Peter Pan's Flight",
             "Gran Fiesta Tour"
           ],
-          "reveal": "The correct answer is Pirates of the Caribbean! [sings] [sings] Drink up, me hearties, yo ho. Root beer only, kids.",
+          "reveal": "The correct answer is Pirates of the Caribbean! [sings] Drink up, me hearties, yo ho. Root beer only, kids.",
           "dailyDouble": false
         },
         {
@@ -358,9 +357,9 @@
             "Haunted Mansion",
             "Tower of Terror",
             "Snow White's Enchanted Wish",
-            "Phantom Manor"
+            "Big Thunder Mountain Railroad"
           ],
-          "reveal": "The correct answer is the Haunted Mansion! [whispers] [whispers] Even the singing busts in the graveyard are happy to haunt you.",
+          "reveal": "The correct answer is the Haunted Mansion! [whispers] Even the singing busts in the graveyard are happy to haunt you.",
           "dailyDouble": false
         },
         {
@@ -394,7 +393,7 @@
             "Spaceship Earth",
             "Impressions de France"
           ],
-          "reveal": "The correct answer is The American Adventure! [chuckles] [chuckles] Ben Franklin even climbs stairs in it. That's some serious animatronic cardio.",
+          "reveal": "The correct answer is The American Adventure! [chuckles] Ben Franklin even climbs stairs in it. That's some serious animatronic cardio.",
           "dailyDouble": false
         }
       ]
@@ -440,7 +439,7 @@
             "Play",
             "Sweep"
           ],
-          "reveal": "The correct answer is work! [chuckles] [chuckles] The Seven Dwarfs' cleaning crew. Snow White had those animals scrubbing dishes in no time.",
+          "reveal": "The correct answer is work! [chuckles] The Seven Dwarfs' cleaning crew. Snow White had those animals scrubbing dishes in no time.",
           "dailyDouble": false
         },
         {
@@ -473,7 +472,7 @@
             "Sweet",
             "Nice"
           ],
-          "reveal": "The correct answer is neat! [mischievously] [mischievously] Wouldn't you think her collection's complete? Spoiler: Ariel wants more.",
+          "reveal": "The correct answer is neat! [mischievously] Wouldn't you think her collection's complete? Spoiler: Ariel wants more.",
           "dailyDouble": false
         },
         {
@@ -489,7 +488,7 @@
             "Cares",
             "Plight"
           ],
-          "reveal": "[excited] [excited] The correct answer is strife! Baloo says forget about your worries, and he means it. Mother Nature's recipes, coming right up.",
+          "reveal": "[excited] The correct answer is strife! Baloo says forget about your worries, and he means it. Mother Nature's recipes, coming right up.",
           "dailyDouble": false
         }
       ]

@@ -48,8 +48,7 @@
           "accept": [
             "midnight",
             "twelve o'clock",
-            "12 o'clock",
-            "12"
+            "12 o'clock"
           ],
           "choices": [
             "Midnight",
@@ -82,7 +81,8 @@
           "clue": "Disney's Cinderella premiered in this year, helping rescue the studio's finances after World War Two.",
           "answer": "1950",
           "accept": [
-            "1950"
+            "1950",
+            "nineteen fifty"
           ],
           "choices": [
             "1950",
@@ -419,7 +419,9 @@
           "clue": "Magic Kingdom's Space Mountain opened in this year, two years before Disneyland's version.",
           "answer": "1975",
           "accept": [
-            "1975"
+            "1975",
+            "nineteen seventy five",
+            "nineteen seventy-five"
           ],
           "choices": [
             "1975",
