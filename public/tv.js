@@ -169,6 +169,8 @@ document.addEventListener('keydown', (e) => {
 app.addEventListener('click', (e) => {
   const el = e.target.closest('[data-act]'); if (!el) return;
   const a = el.dataset.act;
+  // Activating an element (OK, Tab+Enter, mouse) counts as the viewer choosing it, like an arrow move.
+  if (navMem[screen] && keyOf(el) === navMem[screen].key) navMem[screen].user = true;
   sfx('pick');
   if (a === 'pick') sock.send({ t: 'pick', clue: el.dataset.id });
   else if (a === 'boards' || a === 'settings') { delete navMem[`${S.phase}:${a}`]; overlay = a; render(); }
