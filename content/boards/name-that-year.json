@@ -1,0 +1,551 @@
+{
+  "id": "name-that-year",
+  "title": "Name That Year",
+  "theme": "Dates in Disney history",
+  "tags": [
+    "history",
+    "years",
+    "anniversaries",
+    "nostalgia"
+  ],
+  "intro": "[excited] Hop in the time machine, folks! Tonight's episode is Name That Year, a trip through a century of Disney history. [chuckles] No peeking at your phone calendars... I SEE you!",
+  "art": {
+    "prompt": "A whimsical brass time machine with spinning clock dials sitting on a glowing timeline road that passes vintage 1920s, 1950s, 1980s and futuristic city skylines Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
+    "file": "media/name-that-year.jpg"
+  },
+  "categories": [
+    {
+      "id": "practically-perfect",
+      "title": "Practically Perfect",
+      "kind": "film",
+      "intro": "[laughs] Our first stop on the timeline is Cherry Tree Lane. Every clue is from Mary Poppins!",
+      "art": {
+        "prompt": "A London rooftop at dusk with chimney sweep brushes, a flying umbrella, a carpet bag and kites drifting over the cherry trees Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
+        "file": "media/name-that-year--practically-perfect.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Mary Poppins' umbrella has a handle shaped like the head of this talking bird",
+          "answer": "A parrot",
+          "accept": [
+            "parrot",
+            "a parrot"
+          ],
+          "choices": [
+            "A parrot",
+            "An owl",
+            "A crow",
+            "A swan"
+          ],
+          "reveal": "The correct answer is a parrot! [chuckles] And it has opinions. LOTS of opinions.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Dick Van Dyke plays this cheerful chimney sweep and friend of Mary Poppins",
+          "answer": "Bert",
+          "accept": [
+            "bert"
+          ],
+          "choices": [
+            "Bert",
+            "George Banks",
+            "Admiral Boom",
+            "Uncle Albert"
+          ],
+          "reveal": "The correct answer is Bert! Chim chiminey, chim chiminey... [laughs] you know the rest.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Mary Poppins premiered in this year, the same year it's a small world debuted at the New York World's Fair",
+          "answer": "1964",
+          "accept": [
+            "1964",
+            "nineteen sixty four",
+            "nineteen sixty-four"
+          ],
+          "choices": [
+            "1964",
+            "1959",
+            "1967",
+            "1971"
+          ],
+          "reveal": "The correct answer is 1964! [excited] What a year for Walt and the Sherman Brothers.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "The Banks family lives at this house number on Cherry Tree Lane",
+          "answer": "17",
+          "accept": [
+            "17",
+            "seventeen"
+          ],
+          "choices": [
+            "17",
+            "21",
+            "42",
+            "12"
+          ],
+          "reveal": "The correct answer is number 17, Cherry Tree Lane! [whispers] Watch out for the Admiral's cannon.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Mary Poppins Returns arrived in theaters in 2018, this many years after the original film",
+          "answer": "54",
+          "accept": [
+            "54",
+            "fifty four",
+            "fifty-four"
+          ],
+          "choices": [
+            "54",
+            "50",
+            "46",
+            "60"
+          ],
+          "reveal": "[dramatic pause] The correct answer is 54 years! Practically perfect timing, if you ask me.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "premiere-night",
+      "title": "Premiere Night",
+      "kind": "theme",
+      "intro": "[excited] Roll out the red carpet! Name the year each of these classics premiered.",
+      "art": {
+        "prompt": "A glamorous vintage movie palace marquee at night with spotlights sweeping the sky, a red carpet and velvet ropes, bulbs glowing, no text on the marquee Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
+        "file": "media/name-that-year--premiere-night.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Name the year this film premiered: Frozen",
+          "answer": "2013",
+          "accept": [
+            "2013",
+            "twenty thirteen",
+            "two thousand thirteen"
+          ],
+          "choices": [
+            "2013",
+            "2010",
+            "2016",
+            "2019"
+          ],
+          "reveal": "The correct answer is 2013! [laughs] And we still can't let it go.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Name the year this film premiered: The Lion King",
+          "answer": "1994",
+          "accept": [
+            "1994",
+            "nineteen ninety four",
+            "nineteen ninety-four"
+          ],
+          "choices": [
+            "1994",
+            "1989",
+            "1991",
+            "1998"
+          ],
+          "reveal": "The correct answer is 1994! [excited] The circle of life started spinning thirty-plus years ago.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Name the year this film premiered: Beauty and the Beast (the animated original)",
+          "answer": "1991",
+          "accept": [
+            "1991",
+            "nineteen ninety one",
+            "nineteen ninety-one"
+          ],
+          "choices": [
+            "1991",
+            "1989",
+            "1994",
+            "1987"
+          ],
+          "reveal": "The correct answer is 1991! A tale as old as time... well, as old as 1991.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Name the year this film premiered: Peter Pan",
+          "answer": "1953",
+          "accept": [
+            "1953",
+            "nineteen fifty three",
+            "nineteen fifty-three"
+          ],
+          "choices": [
+            "1953",
+            "1950",
+            "1955",
+            "1959"
+          ],
+          "reveal": "The correct answer is 1953! [chuckles] Peter never grew up, but the film sure did.",
+          "dailyDouble": true
+        },
+        {
+          "value": 1000,
+          "clue": "Name the year this film premiered: Bambi",
+          "answer": "1942",
+          "accept": [
+            "1942",
+            "nineteen forty two",
+            "nineteen forty-two"
+          ],
+          "choices": [
+            "1942",
+            "1940",
+            "1937",
+            "1946"
+          ],
+          "reveal": "[gasps] The correct answer is 1942! Released in the middle of World War Two.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "snapshot-in-time",
+      "title": "Snapshot in Time",
+      "kind": "parks",
+      "intro": "[mischievously] Look closely at the cars, clothes and buildings. These are park opening days... name the year!",
+      "art": {
+        "prompt": "A stack of old photographs and Polaroids from different decades fanned out on a wooden table, faded colors and film grain Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
+        "file": "media/name-that-year--snapshot-in-time.jpg"
+      },
+      "format": "picture",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Snapshot in time! This park opening day scene is from which year? (Hint: Disneyland in California)",
+          "answer": "1955",
+          "accept": [
+            "1955",
+            "nineteen fifty five",
+            "nineteen fifty-five"
+          ],
+          "choices": [
+            "1955",
+            "1951",
+            "1959",
+            "1963"
+          ],
+          "reveal": "The correct answer is 1955! [excited] July 17th, the day Walt's dream opened its gates.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "A sunny 1950s opening day at a new California theme park: families in 1950s dresses, hats and suits, tail-finned cars in a dirt parking lot, a Victorian main street with a horse-drawn streetcar and a small pastel castle, warm Kodachrome photo look Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
+            "file": "media/name-that-year--snapshot-in-time-200.jpg"
+          }
+        },
+        {
+          "value": 400,
+          "clue": "Snapshot in time! This park opening day scene is from which year? (Hint: Disney-MGM Studios in Florida)",
+          "answer": "1989",
+          "accept": [
+            "1989",
+            "nineteen eighty nine",
+            "nineteen eighty-nine"
+          ],
+          "choices": [
+            "1989",
+            "1985",
+            "1992",
+            "1995"
+          ],
+          "reveal": "The correct answer is 1989! Today we call it Disney's Hollywood Studios.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "A late-1980s opening day at a Florida movie-studio theme park: guests in neon windbreakers, big permed hair and fanny packs, an art deco Hollywood boulevard and a giant water tower, glossy 1980s snapshot look Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
+            "file": "media/name-that-year--snapshot-in-time-400.jpg"
+          }
+        },
+        {
+          "value": 600,
+          "clue": "Snapshot in time! This park opening day scene is from which year? (Hint: Euro Disney in France)",
+          "answer": "1992",
+          "accept": [
+            "1992",
+            "nineteen ninety two",
+            "nineteen ninety-two"
+          ],
+          "choices": [
+            "1992",
+            "1988",
+            "1995",
+            "1999"
+          ],
+          "reveal": "The correct answer is 1992! [laughs] Ooh la la! It's Disneyland Paris now.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "An early-1990s opening day at a new theme park outside Paris: crowds in oversized denim jackets, a pink fairy-tale castle with pointed blue turrets, French flags, misty April morning, 1990s disposable camera look Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
+            "file": "media/name-that-year--snapshot-in-time-600.jpg"
+          }
+        },
+        {
+          "value": 800,
+          "clue": "Snapshot in time! This park opening day scene is from which year? (Hint: Hong Kong Disneyland)",
+          "answer": "2005",
+          "accept": [
+            "2005",
+            "two thousand five",
+            "two thousand and five"
+          ],
+          "choices": [
+            "2005",
+            "2001",
+            "2008",
+            "2011"
+          ],
+          "reveal": "The correct answer is 2005! [chuckles] Same year Disneyland turned 50. Happy birthday, everybody!",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "A mid-2000s opening day at a theme park on Lantau Island in Hong Kong: guests with flip phones and early digital cameras, a white and blue castle with green mountains behind, tropical sunshine Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
+            "file": "media/name-that-year--snapshot-in-time-800.jpg"
+          }
+        },
+        {
+          "value": 1000,
+          "clue": "Snapshot in time! This park opening day scene is from which year? (Hint: Shanghai Disneyland)",
+          "answer": "2016",
+          "accept": [
+            "2016",
+            "twenty sixteen",
+            "two thousand sixteen"
+          ],
+          "choices": [
+            "2016",
+            "2012",
+            "2014",
+            "2019"
+          ],
+          "reveal": "The correct answer is 2016! [excited] Home of the biggest Disney castle in the world.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "A 2010s opening day at a huge new theme park in Shanghai: guests holding smartphones and selfie sticks, an enormous modern fairy-tale castle with many spires, a giant garden and a glittering skyline at dusk Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
+            "file": "media/name-that-year--snapshot-in-time-1000.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "anniversary-arithmetic",
+      "title": "Anniversary Arithmetic",
+      "kind": "theme",
+      "intro": "[sighs] Uh oh... math! [laughs] Don't worry, these are anniversary years, not homework.",
+      "art": {
+        "prompt": "A giant birthday cake shaped like a castle with rows of candles, confetti and an old-fashioned chalkboard full of doodled numbers Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
+        "file": "media/name-that-year--anniversary-arithmetic.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Mickey Mouse debuted in Steamboat Willie in 1928, so he turns 100 in this year",
+          "answer": "2028",
+          "accept": [
+            "2028",
+            "twenty twenty eight",
+            "two thousand twenty eight"
+          ],
+          "choices": [
+            "2028",
+            "2026",
+            "2030",
+            "2025"
+          ],
+          "reveal": "The correct answer is 2028! [excited] One hundred candles on one giant cake!",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Walt Disney World opened in October 1971 and kicked off its 50th anniversary celebration in this year",
+          "answer": "2021",
+          "accept": [
+            "2021",
+            "twenty twenty one",
+            "two thousand twenty one"
+          ],
+          "choices": [
+            "2021",
+            "2019",
+            "2020",
+            "2022"
+          ],
+          "reveal": "The correct answer is 2021! The World's Most Magical Celebration ran for eighteen months.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Tokyo Disneyland opened in 1983, so it celebrated its 40th anniversary in this year",
+          "answer": "2023",
+          "accept": [
+            "2023",
+            "twenty twenty three",
+            "two thousand twenty three"
+          ],
+          "choices": [
+            "2023",
+            "2021",
+            "2024",
+            "2020"
+          ],
+          "reveal": "The correct answer is 2023! [chuckles] Forty years young.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Disney+ launched in the United States in this year",
+          "answer": "2019",
+          "accept": [
+            "2019",
+            "twenty nineteen",
+            "two thousand nineteen"
+          ],
+          "choices": [
+            "2019",
+            "2017",
+            "2020",
+            "2021"
+          ],
+          "reveal": "The correct answer is 2019! November 12th, to be exact. [laughs] Goodbye, free time.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Disney bought Pixar in 2006 and completed its purchase of Marvel in this year",
+          "answer": "2009",
+          "accept": [
+            "2009",
+            "two thousand nine",
+            "two thousand and nine"
+          ],
+          "choices": [
+            "2009",
+            "2008",
+            "2012",
+            "2019"
+          ],
+          "reveal": "[dramatic pause] The correct answer is 2009! Lucasfilm followed in 2012.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "back-in-time",
+      "title": "Back in Time",
+      "kind": "fan",
+      "intro": "[whispers] Hold on tight... we're traveling through time! Name these time-twisting Disney details.",
+      "art": {
+        "prompt": "A swirling time vortex of clocks and gears pulling a little flying saucer-shaped time machine through glowing blue light Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
+        "file": "media/name-that-year--back-in-time.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In Meet the Robinsons, Wilbur takes Lewis to the future in this",
+          "answer": "A time machine",
+          "accept": [
+            "time machine",
+            "a time machine"
+          ],
+          "choices": [
+            "A time machine",
+            "A rocket ship",
+            "A hot air balloon",
+            "A flying car"
+          ],
+          "reveal": "The correct answer is a time machine! [laughs] Keep moving forward!",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "In The Sword in the Stone, this wizard has already visited the future and talks about things like airplanes",
+          "answer": "Merlin",
+          "accept": [
+            "merlin"
+          ],
+          "choices": [
+            "Merlin",
+            "Madam Mim",
+            "Yen Sid",
+            "Archimedes"
+          ],
+          "reveal": "The correct answer is Merlin! [chuckles] He even wears a Bermuda vacation outfit. Very trendy.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "In Avengers: Endgame, the heroes travel back in time to collect these six powerful gems",
+          "answer": "The Infinity Stones",
+          "accept": [
+            "infinity stones",
+            "the infinity stones",
+            "infinity gems"
+          ],
+          "choices": [
+            "The Infinity Stones",
+            "The Power Gems",
+            "The Time Crystals",
+            "The Tesseracts"
+          ],
+          "reveal": "The correct answer is the Infinity Stones! [excited] Whatever it takes!",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In Meet the Robinsons, young orphan Lewis grows up to become this famous inventor",
+          "answer": "Cornelius Robinson",
+          "accept": [
+            "cornelius robinson",
+            "cornelius"
+          ],
+          "choices": [
+            "Cornelius Robinson",
+            "Wilbur Robinson",
+            "Bud Robinson",
+            "Gaston Robinson"
+          ],
+          "reveal": "The correct answer is Cornelius Robinson! [gasps] Lewis was his own future all along.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "The Bowler Hat Guy in Meet the Robinsons is actually Lewis's grown-up, sleepy roommate with this nickname",
+          "answer": "Goob",
+          "accept": [
+            "goob",
+            "mike yagoobian",
+            "michael yagoobian",
+            "yagoobian"
+          ],
+          "choices": [
+            "Goob",
+            "Doris",
+            "Stanley",
+            "Frankie"
+          ],
+          "reveal": "The correct answer is Goob! [sighs] Catch the ball, Goob... CATCH THE BALL!",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}

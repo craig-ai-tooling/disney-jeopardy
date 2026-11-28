@@ -1,0 +1,534 @@
+{
+  "id": "friendship-is-magic",
+  "title": "Friendship Is Magic",
+  "theme": "Best friends and buddy duos",
+  "tags": [
+    "friends",
+    "friendship",
+    "duos"
+  ],
+  "intro": "[excited] Grab your best buddy and squeeze in tight, because tonight's episode is all about pals, partners and buddy duos! [laughs] Remember... friends don't let friends get Final Jeopardy wrong. Let's play!",
+  "art": {
+    "prompt": "Two mismatched tree houses connected by a rope bridge and a tin-can telephone at sunset, string lights, a shared picnic blanket below and fireflies Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
+    "file": "media/friendship-is-magic.jpg"
+  },
+  "categories": [
+    {
+      "id": "oh-bother",
+      "title": "Oh, Bother!",
+      "kind": "film",
+      "intro": "[chuckles] First, a trip to the Hundred Acre Wood, home of the most famous friend group in Disney history!",
+      "art": {
+        "prompt": "A cozy English forest clearing with a hollow tree door, honey pots, a wooden bridge over a stream and floating balloons Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
+        "file": "media/friendship-is-magic--oh-bother.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This is Winnie the Pooh's favorite food in the whole wide world",
+          "answer": "Honey",
+          "accept": [
+            "honey",
+            "hunny"
+          ],
+          "choices": [
+            "Honey",
+            "Haycorns",
+            "Thistles",
+            "Carrots"
+          ],
+          "reveal": "The correct answer is honey! [laughs] Or as Pooh spells it... H-U-N-N-Y.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Pooh's bounciest friend is a tiger who says he's the only one",
+          "answer": "Tigger",
+          "accept": [
+            "tigger"
+          ],
+          "choices": [
+            "Tigger",
+            "Roo",
+            "Rabbit",
+            "Kanga"
+          ],
+          "reveal": "The correct answer is Tigger! [excited] Hoo hoo hoo HOO!",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "This gloomy old donkey keeps losing his pinned-on tail",
+          "answer": "Eeyore",
+          "accept": [
+            "eeyore"
+          ],
+          "choices": [
+            "Eeyore",
+            "Gopher",
+            "Owl",
+            "Rabbit"
+          ],
+          "reveal": "The correct answer is Eeyore! [sighs] Thanks for noticing me.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In a wild dream song, Pooh is warned that Heffalumps and these will steal his honey",
+          "answer": "Woozles",
+          "accept": [
+            "woozles",
+            "woozle"
+          ],
+          "choices": [
+            "Woozles",
+            "Wizzles",
+            "Snorkles",
+            "Hoozits"
+          ],
+          "reveal": "The correct answer is Woozles! [whispers] They're black, they're brown... they're up, they're down.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Pooh lives in a tree house with this name written above the door",
+          "answer": "Mr. Sanders",
+          "accept": [
+            "mr sanders",
+            "mister sanders",
+            "sanders",
+            "mr. sanders"
+          ],
+          "choices": [
+            "Mr. Sanders",
+            "Mr. Robin",
+            "Mr. Bear",
+            "Mr. Hunny"
+          ],
+          "reveal": "[dramatic pause] The correct answer is Mr. Sanders! Pooh lives under the name, which means it's over his door.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "dynamic-duos",
+      "title": "Dynamic Duos",
+      "kind": "fan",
+      "intro": "[mischievously] Every hero needs a buddy. Name the other half of these Disney duos!",
+      "art": {
+        "prompt": "Two matching paper lanterns floating together over a calm lake at twilight, reflections touching Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
+        "file": "media/friendship-is-magic--dynamic-duos.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In Frozen, Anna's best friend is this big sister with icy powers",
+          "answer": "Elsa",
+          "accept": [
+            "elsa",
+            "queen elsa"
+          ],
+          "choices": [
+            "Elsa",
+            "Rapunzel",
+            "Merida",
+            "Moana"
+          ],
+          "reveal": "The correct answer is Elsa! [laughs] Do you wanna build a snowman? Obviously yes.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "In Lady and the Tramp, Lady's next-door pals are Scottish terrier Jock and this old bloodhound",
+          "answer": "Trusty",
+          "accept": [
+            "trusty"
+          ],
+          "choices": [
+            "Trusty",
+            "Bull",
+            "Pedro",
+            "Boris"
+          ],
+          "reveal": "The correct answer is Trusty! He's lost his sense of smell, but never his loyalty.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "In Luca, Luca's fearless sea monster best friend is this boy",
+          "answer": "Alberto",
+          "accept": [
+            "alberto",
+            "alberto scorfano"
+          ],
+          "choices": [
+            "Alberto",
+            "Giulia",
+            "Ercole",
+            "Massimo"
+          ],
+          "reveal": "The correct answer is Alberto! [excited] Silenzio, Bruno!",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In The Emperor's New Groove, llama Kuzco learns about friendship from this kind village leader",
+          "answer": "Pacha",
+          "accept": [
+            "pacha"
+          ],
+          "choices": [
+            "Pacha",
+            "Kronk",
+            "Chicha",
+            "Bucky"
+          ],
+          "reveal": "The correct answer is Pacha! [chuckles] Kuzco had to become a llama to finally make a friend.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "In Brother Bear, after Kenai is turned into a bear he's guided to the salmon run by this chatty cub",
+          "answer": "Koda",
+          "accept": [
+            "koda"
+          ],
+          "choices": [
+            "Koda",
+            "Rutt",
+            "Tuke",
+            "Denahi"
+          ],
+          "reveal": "The correct answer is Koda! [sighs] Get the tissues ready for that one.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "two-of-a-kind",
+      "title": "Two of a Kind",
+      "kind": "media",
+      "intro": "[excited] Every picture shows a pair of objects from a famous friendship. Name the movie!",
+      "art": {
+        "prompt": "Two different objects on a pedestal in a sunny friendship-themed gallery, gilded frames, playful lighting Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
+        "file": "media/friendship-is-magic--two-of-a-kind.jpg"
+      },
+      "format": "picture",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Two of a kind! These buddy-duo objects belong to which film?",
+          "answer": "The Lion King",
+          "accept": [
+            "lion king",
+            "the lion king"
+          ],
+          "choices": [
+            "The Lion King",
+            "The Jungle Book",
+            "Tarzan",
+            "Zootopia"
+          ],
+          "reveal": "The correct answer is The Lion King! [laughs] A hammock and a plate of bugs. Hakuna matata!",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "A woven grass hammock strung between two jungle palm trees beside a leaf plate piled with colorful wriggling grubs, a waterfall behind Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
+            "file": "media/friendship-is-magic--two-of-a-kind-200.jpg"
+          }
+        },
+        {
+          "value": 400,
+          "clue": "Two of a kind! These buddy-duo objects belong to which film?",
+          "answer": "Aladdin",
+          "accept": [
+            "aladdin"
+          ],
+          "choices": [
+            "Aladdin",
+            "The Thief and the Cobbler",
+            "Hercules",
+            "Mulan"
+          ],
+          "reveal": "The correct answer is Aladdin! You ain't never had a friend like Genie.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "A richly patterned flying carpet hovering beside a gleaming golden oil lamp above a moonlit desert palace with domes Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
+            "file": "media/friendship-is-magic--two-of-a-kind-400.jpg"
+          }
+        },
+        {
+          "value": 600,
+          "clue": "Two of a kind! These buddy-duo objects belong to which film?",
+          "answer": "Wreck-It Ralph",
+          "accept": [
+            "wreck it ralph",
+            "wreck-it ralph"
+          ],
+          "choices": [
+            "Wreck-It Ralph",
+            "Toy Story",
+            "Inside Out",
+            "Bolt"
+          ],
+          "reveal": "The correct answer is Wreck-It Ralph! [chuckles] A wrecker and a racer. Best friends forever.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "A candy-colored go-kart made of cookies and frosting parked next to an enormous cracked brick in a retro arcade with glowing cabinets Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
+            "file": "media/friendship-is-magic--two-of-a-kind-600.jpg"
+          }
+        },
+        {
+          "value": 800,
+          "clue": "Two of a kind! These buddy-duo objects belong to which film?",
+          "answer": "Beauty and the Beast",
+          "accept": [
+            "beauty and the beast"
+          ],
+          "choices": [
+            "Beauty and the Beast",
+            "Cinderella",
+            "Sleeping Beauty",
+            "Enchanted"
+          ],
+          "reveal": "The correct answer is Beauty and the Beast! Mrs. Potts and Chip, mother and son... and best friends.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "An elegant floral china teapot beside a tiny teacup with a chip in its rim on a castle kitchen counter in warm candlelight Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
+            "file": "media/friendship-is-magic--two-of-a-kind-800.jpg"
+          }
+        },
+        {
+          "value": 1000,
+          "clue": "Two of a kind! These buddy-duo objects belong to which film?",
+          "answer": "Robin Hood",
+          "accept": [
+            "robin hood"
+          ],
+          "choices": [
+            "Robin Hood",
+            "The Sword in the Stone",
+            "Brave",
+            "The Black Cauldron"
+          ],
+          "reveal": "[excited] The correct answer is Robin Hood! Robin and Little John, the original buddy duo of Sherwood Forest.",
+          "dailyDouble": true,
+          "media": {
+            "type": "image",
+            "prompt": "A small green feathered archer's cap next to an enormous wooden quarterstaff, a bow and arrows on a tree stump in a sunlit forest, an archery target behind Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
+            "file": "media/friendship-is-magic--two-of-a-kind-1000.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "pals-in-the-parks",
+      "title": "Pals in the Parks",
+      "kind": "parks",
+      "intro": "[laughs] The parks are full of friends. Let's go visit a few!",
+      "art": {
+        "prompt": "A theme park midway with a Ferris wheel, a carousel and two balloons tied together drifting into a pastel sky Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
+        "file": "media/friendship-is-magic--pals-in-the-parks.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Guests ride in giant honey pots and bounce along with Tigger on this Magic Kingdom dark ride",
+          "answer": "The Many Adventures of Winnie the Pooh",
+          "accept": [
+            "many adventures of winnie the pooh",
+            "the many adventures of winnie the pooh",
+            "winnie the pooh"
+          ],
+          "choices": [
+            "The Many Adventures of Winnie the Pooh",
+            "Peter Pan's Flight",
+            "Under the Sea: Journey of the Little Mermaid",
+            "Mickey's PhilharMagic"
+          ],
+          "reveal": "The correct answer is The Many Adventures of Winnie the Pooh! [whispers] Watch out for the Heffalumps.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "At Disney California Adventure's Cars Land, Lightning McQueen's rusty best friend hosts this square-dancing tractor ride",
+          "answer": "Mater's Junkyard Jamboree",
+          "accept": [
+            "maters junkyard jamboree",
+            "mater's junkyard jamboree",
+            "junkyard jamboree"
+          ],
+          "choices": [
+            "Mater's Junkyard Jamboree",
+            "Luigi's Rollickin' Roadsters",
+            "Radiator Springs Racers",
+            "Mater's Tractor Tippin'"
+          ],
+          "reveal": "The correct answer is Mater's Junkyard Jamboree! [laughs] Dad-gum, that's a fun ride.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Pooh, Tigger, Eeyore and Piglet greet hungry guests at this Magic Kingdom buffet named for a glass Victorian building",
+          "answer": "The Crystal Palace",
+          "accept": [
+            "crystal palace",
+            "the crystal palace"
+          ],
+          "choices": [
+            "The Crystal Palace",
+            "Cinderella's Royal Table",
+            "Liberty Tree Tavern",
+            "The Plaza Restaurant"
+          ],
+          "reveal": "The correct answer is The Crystal Palace! Breakfast with the Hundred Acre Wood crew. Bring your appetite!",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In this Magic Kingdom 3D show, Donald Duck borrows Mickey's sorcerer hat and gets swept through classic Disney songs",
+          "answer": "Mickey's PhilharMagic",
+          "accept": [
+            "mickeys philharmagic",
+            "mickey's philharmagic",
+            "philharmagic"
+          ],
+          "choices": [
+            "Mickey's PhilharMagic",
+            "Fantasmic!",
+            "Mickey Shorts Theater",
+            "Mickey's Magical Music Hall"
+          ],
+          "reveal": "The correct answer is Mickey's PhilharMagic! [sarcastic] Donald, buddy... you were told not to touch the hat.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Since 2018, the giant Ferris wheel on Disney California Adventure's Pixar Pier has had this name",
+          "answer": "Pixar Pal-A-Round",
+          "accept": [
+            "pixar pal-a-round",
+            "pixar pal a round",
+            "pal-a-round",
+            "pal a round"
+          ],
+          "choices": [
+            "Pixar Pal-A-Round",
+            "Mickey's Fun Wheel",
+            "Pixar Wonder Wheel",
+            "Incredi-Wheel"
+          ],
+          "reveal": "The correct answer is Pixar Pal-A-Round! [excited] Swinging gondolas with your best pal. Hold on tight!",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "friendly-words",
+      "title": "Friendly Words",
+      "kind": "media",
+      "intro": "[chuckles] Our voice actor is doing impressions of famous Disney friends. Name who said it!",
+      "art": {
+        "prompt": "A vintage radio studio microphone with two speech-bubble shaped spotlights on a stage curtain Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
+        "file": "media/friendship-is-magic--friendly-words.jpg"
+      },
+      "format": "quote",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Which friend says this line?",
+          "answer": "Woody",
+          "accept": [
+            "woody",
+            "sheriff woody"
+          ],
+          "choices": [
+            "Woody",
+            "Jessie",
+            "Buzz Lightyear",
+            "Stinky Pete"
+          ],
+          "reveal": "The correct answer is Woody! [laughs] Reach for the sky, partner.",
+          "quote": "There's a snake in my boot!",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Which friend says this line?",
+          "answer": "Dory",
+          "accept": [
+            "dory"
+          ],
+          "choices": [
+            "Dory",
+            "Marlin",
+            "Nemo",
+            "Hank"
+          ],
+          "reveal": "The correct answer is Dory! And yes... she called that jellyfish Squishy.",
+          "quote": "I shall call him Squishy, and he shall be mine.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Which sly friend first says this line to his future partner?",
+          "answer": "Nick Wilde",
+          "accept": [
+            "nick wilde",
+            "nick"
+          ],
+          "choices": [
+            "Nick Wilde",
+            "Duke Weaselton",
+            "Flash",
+            "Finnick"
+          ],
+          "reveal": "The correct answer is Nick Wilde! [mischievously] The fox with the hustle and the heart.",
+          "quote": "It's called a hustle, sweetheart.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Which friend says this line?",
+          "answer": "Russell",
+          "accept": [
+            "russell"
+          ],
+          "choices": [
+            "Russell",
+            "Carl",
+            "Dug",
+            "Kevin"
+          ],
+          "reveal": "The correct answer is Russell, Wilderness Explorer extraordinaire! Caw caw, ROAR!",
+          "quote": "The wilderness must be explored!",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Which friend says this line?",
+          "answer": "Stitch",
+          "accept": [
+            "stitch",
+            "experiment 626"
+          ],
+          "choices": [
+            "Stitch",
+            "Lilo",
+            "Jumba",
+            "Pleakley"
+          ],
+          "reveal": "[sighs] The correct answer is Stitch. Ohana means family, and family means nobody gets left behind.",
+          "quote": "This is my family. It's little, and broken, but still good.",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,556 @@
+{
+  "id": "x-marks-the-spot",
+  "title": "X Marks the Spot",
+  "theme": "Maps, treasure and hidden things",
+  "tags": [
+    "pirates",
+    "treasure",
+    "adventure"
+  ],
+  "intro": "[mischievously] Ahoy, treasure hunters! Grab your map, your compass and your shovel, because tonight... X marks the spot! [laughs] Buried gold, secret hideouts and hidden surprises are waiting. Let's go DIGGING!",
+  "art": {
+    "prompt": "A weathered parchment treasure map spread on a ship captain's wooden desk, a big red X, brass compass, spyglass, gold coins spilling from a chest, candlelight and a stormy sea through a porthole Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
+    "file": "media/x-marks-the-spot.jpg"
+  },
+  "categories": [
+    {
+      "id": "yo-ho",
+      "title": "Yo Ho, Yo Ho",
+      "kind": "film",
+      "intro": "[excited] First up, a pirate's life for me! Every clue is from Pirates of the Caribbean: The Curse of the Black Pearl. Savvy?",
+      "art": {
+        "prompt": "A pirate galleon with tattered black sails gliding through moonlit Caribbean fog, glowing lanterns, gold coins on the deck Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
+        "file": "media/x-marks-the-spot--yo-ho.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In Pirates of the Caribbean: The Curse of the Black Pearl, Johnny Depp plays this rum-loving captain",
+          "answer": "Jack Sparrow",
+          "accept": [
+            "jack sparrow",
+            "captain jack sparrow",
+            "sparrow",
+            "captain jack"
+          ],
+          "choices": [
+            "Jack Sparrow",
+            "Hector Barbossa",
+            "Davy Jones",
+            "Will Turner"
+          ],
+          "reveal": "The correct answer is CAPTAIN Jack Sparrow! [chuckles] He'd want me to say captain.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Captain Barbossa sails this ship with the famous black sails",
+          "answer": "The Black Pearl",
+          "accept": [
+            "black pearl",
+            "the black pearl",
+            "pearl"
+          ],
+          "choices": [
+            "The Black Pearl",
+            "The Flying Dutchman",
+            "The Interceptor",
+            "Queen Anne's Revenge"
+          ],
+          "reveal": "The correct answer is the Black Pearl, the fastest ship in the Caribbean... allegedly.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "In the moonlight, Barbossa's cursed crew is revealed to be these",
+          "answer": "Skeletons",
+          "accept": [
+            "skeletons",
+            "skeleton",
+            "skeleton pirates"
+          ],
+          "choices": [
+            "Skeletons",
+            "Ghosts",
+            "Zombies",
+            "Sea monsters"
+          ],
+          "reveal": "[gasps] The correct answer is skeletons! Moonlight shows them for what they really are. Spooky AND bony.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Jack's magical compass doesn't point north; instead it points to this",
+          "answer": "What you want most",
+          "accept": [
+            "what you want most",
+            "the thing you want most",
+            "what you want",
+            "what you desire most",
+            "your heart's desire"
+          ],
+          "choices": [
+            "What you want most",
+            "The nearest treasure",
+            "The way home",
+            "The closest ship"
+          ],
+          "reveal": "The correct answer is whatever you want most! [sighs] If only mine pointed to the nearest churro stand.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "The cursed Aztec gold is hidden in a cave on this island, which cannot be found except by those who already know where it is",
+          "answer": "Isla de Muerta",
+          "accept": [
+            "isla de muerta",
+            "isla de la muerta",
+            "island of the dead"
+          ],
+          "choices": [
+            "Isla de Muerta",
+            "Tortuga",
+            "Isla Cruces",
+            "Shipwreck Cove"
+          ],
+          "reveal": "[dramatic pause] The correct answer is Isla de Muerta, the Island of the Dead! You found it, so you must have known already.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "hidden-treasures",
+      "title": "Hidden Treasures",
+      "kind": "theme",
+      "intro": "[whispers] Shhh... these treasures are hidden all over Disney movies. Find them and the points are yours!",
+      "art": {
+        "prompt": "A secret cave glittering with heaps of gold, jewels and an ornate oil lamp on a stone pedestal, beams of light from above Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
+        "file": "media/x-marks-the-spot--hidden-treasures.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In Aladdin, Jafar needs a diamond in the rough to enter this tiger-headed cave full of treasure",
+          "answer": "Cave of Wonders",
+          "accept": [
+            "cave of wonders",
+            "the cave of wonders"
+          ],
+          "choices": [
+            "Cave of Wonders",
+            "Skull Rock",
+            "Cave of Secrets",
+            "Cave of Shadows"
+          ],
+          "reveal": "The correct answer is the Cave of Wonders! [laughs] Rule one: touch nothing but the lamp.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "In Peter Pan, Captain Hook kidnaps this princess to find out where Peter's hideout is",
+          "answer": "Tiger Lily",
+          "accept": [
+            "tiger lily"
+          ],
+          "choices": [
+            "Tiger Lily",
+            "Wendy",
+            "Tinker Bell",
+            "Jane"
+          ],
+          "reveal": "The correct answer is Tiger Lily! Hook wanted the hideout, but he got a crocodile instead.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "In Atlantis: The Lost Empire, Milo uses this ancient book to find the lost city",
+          "answer": "The Shepherd's Journal",
+          "accept": [
+            "shepherds journal",
+            "the shepherds journal",
+            "shepherd's journal",
+            "the shepherd's journal",
+            "the journal"
+          ],
+          "choices": [
+            "The Shepherd's Journal",
+            "The Crystal Codex",
+            "The Leviathan Log",
+            "The Atlantean Atlas"
+          ],
+          "reveal": "The correct answer is the Shepherd's Journal! Talk about a page-turner.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In The Rescuers, Madame Medusa makes little Penny search a pirate cave for this giant diamond",
+          "answer": "The Devil's Eye",
+          "accept": [
+            "devils eye",
+            "the devils eye",
+            "devil's eye",
+            "the devil's eye"
+          ],
+          "choices": [
+            "The Devil's Eye",
+            "The Heart of the Ocean",
+            "The Blue Moon",
+            "The Star of the Bayou"
+          ],
+          "reveal": "The correct answer is the Devil's Eye! [chuckles] Penny hid it in her teddy bear. Smart kid.",
+          "dailyDouble": true
+        },
+        {
+          "value": 1000,
+          "clue": "In this 1990 animated movie, Scrooge McDuck hunts for the lost treasure of the thief Collie Baba",
+          "answer": "DuckTales the Movie: Treasure of the Lost Lamp",
+          "accept": [
+            "ducktales the movie",
+            "ducktales",
+            "treasure of the lost lamp",
+            "ducktales the movie treasure of the lost lamp"
+          ],
+          "choices": [
+            "DuckTales the Movie: Treasure of the Lost Lamp",
+            "TaleSpin: Plunder and Lightning",
+            "A Goofy Movie",
+            "The Return of Jafar"
+          ],
+          "reveal": "[excited] The correct answer is DuckTales the Movie: Treasure of the Lost Lamp! Woo-oo!",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "hide-and-zoom",
+      "title": "Hide and Zoom",
+      "kind": "media",
+      "intro": "[mischievously] We zoomed WAY in and hid a movie in each picture. Buzz in the second you see it!",
+      "art": {
+        "prompt": "An antique brass magnifying glass over a mysterious painted canvas, the lens revealing sparkling hidden details Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
+        "file": "media/x-marks-the-spot--hide-and-zoom.jpg"
+      },
+      "format": "zoom",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Zoom out... which Disney film is hiding in this picture?",
+          "answer": "Cinderella",
+          "accept": [
+            "cinderella"
+          ],
+          "choices": [
+            "Cinderella",
+            "Sleeping Beauty",
+            "Snow White and the Seven Dwarfs",
+            "Tangled"
+          ],
+          "reveal": "The correct answer is Cinderella! [laughs] If the shoe fits... buzz in!",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "A single sparkling glass slipper resting on a red velvet cushion on a palace staircase at midnight, a clock tower glowing behind Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
+            "file": "media/x-marks-the-spot--hide-and-zoom-200.jpg"
+          }
+        },
+        {
+          "value": 400,
+          "clue": "Zoom out... which Disney film is hiding in this picture?",
+          "answer": "Pinocchio",
+          "accept": [
+            "pinocchio"
+          ],
+          "choices": [
+            "Pinocchio",
+            "The Sword in the Stone",
+            "Fantasia",
+            "Dumbo"
+          ],
+          "reveal": "The correct answer is Pinocchio! A real wooden head-scratcher.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "A small red-feathered alpine hat and tiny wooden puppet strings on a cluttered clockmaker's workbench full of cuckoo clocks Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
+            "file": "media/x-marks-the-spot--hide-and-zoom-400.jpg"
+          }
+        },
+        {
+          "value": 600,
+          "clue": "Zoom out... which Disney film is hiding in this picture?",
+          "answer": "Tangled",
+          "accept": [
+            "tangled"
+          ],
+          "choices": [
+            "Tangled",
+            "Frozen",
+            "Brave",
+            "Enchanted"
+          ],
+          "reveal": "The correct answer is Tangled! Frying pans... who knew, right?",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "A cast-iron frying pan and a jeweled golden tiara on the floor of a tall stone tower room painted with suns and flowers, floating lanterns outside the window Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
+            "file": "media/x-marks-the-spot--hide-and-zoom-600.jpg"
+          }
+        },
+        {
+          "value": 800,
+          "clue": "Zoom out... which Disney film is hiding in this picture?",
+          "answer": "Encanto",
+          "accept": [
+            "encanto"
+          ],
+          "choices": [
+            "Encanto",
+            "Coco",
+            "Wish",
+            "Raya and the Last Dragon"
+          ],
+          "reveal": "The correct answer is Encanto! [chuckles] We don't talk about how long that took you.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "A single magical candle glowing in the window of a colorful Colombian casa with yellow butterflies swirling around it and bright tiles Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
+            "file": "media/x-marks-the-spot--hide-and-zoom-800.jpg"
+          }
+        },
+        {
+          "value": 1000,
+          "clue": "Zoom out... which Disney film is hiding in this picture?",
+          "answer": "The Sword in the Stone",
+          "accept": [
+            "sword in the stone",
+            "the sword in the stone"
+          ],
+          "choices": [
+            "The Sword in the Stone",
+            "The Black Cauldron",
+            "Robin Hood",
+            "Sleeping Beauty"
+          ],
+          "reveal": "[dramatic pause] The correct answer is The Sword in the Stone! Only the true king of trivia pulls that one out.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "An ornate sword stuck in an anvil on top of a mossy stone in a misty medieval churchyard, a single ray of light on the hilt Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
+            "file": "media/x-marks-the-spot--hide-and-zoom-1000.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "park-treasure-hunt",
+      "title": "Park Treasure Hunt",
+      "kind": "parks",
+      "intro": "[excited] Disney Parks are PACKED with secrets, gold and hidden surprises. Let's go hunting!",
+      "art": {
+        "prompt": "A theme park adventure land at dusk with jungle vines, a rustic rope bridge, a mine train track and a treasure chest half buried in sand Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
+        "file": "media/x-marks-the-spot--park-treasure-hunt.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Imagineers hide these three-circle shapes all over the parks for eagle-eyed guests to spot",
+          "answer": "Hidden Mickeys",
+          "accept": [
+            "hidden mickeys",
+            "hidden mickey",
+            "hidden mickey mouse",
+            "mickey heads"
+          ],
+          "choices": [
+            "Hidden Mickeys",
+            "Secret Stitches",
+            "Lucky Ears",
+            "Tiny Tinks"
+          ],
+          "reveal": "The correct answer is Hidden Mickeys! [whispers] There's probably one near you right now.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "More than 300 animal carvings are hidden in the trunk of this Animal Kingdom icon",
+          "answer": "The Tree of Life",
+          "accept": [
+            "tree of life",
+            "the tree of life"
+          ],
+          "choices": [
+            "The Tree of Life",
+            "The Tree of Wisdom",
+            "The Great Banyan",
+            "The Swiss Family Treehouse"
+          ],
+          "reveal": "The correct answer is the Tree of Life! Look closely and you'll spot lions, eagles and more.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "file": "media/x-marks-the-spot--park-treasure-hunt-400.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Tree_of_Life,_Disney%27s_Animal_Kingdom.jpg",
+              "license": "CC BY-SA 4.0",
+              "author": "Jedi94"
+            }
+          }
+        },
+        {
+          "value": 600,
+          "clue": "Magic Kingdom's Big Thunder Mountain Railroad races through this flooded old mining town",
+          "answer": "Tumbleweed",
+          "accept": [
+            "tumbleweed"
+          ],
+          "choices": [
+            "Tumbleweed",
+            "Rainbow Ridge",
+            "Thunder Mesa",
+            "Frontierland Junction"
+          ],
+          "reveal": "The correct answer is Tumbleweed! [laughs] Their rainmaker did his job a little TOO well.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Disneyland's Indiana Jones Adventure takes you into the Temple of this",
+          "answer": "The Forbidden Eye",
+          "accept": [
+            "forbidden eye",
+            "the forbidden eye",
+            "temple of the forbidden eye"
+          ],
+          "choices": [
+            "The Forbidden Eye",
+            "The Crystal Skull",
+            "Doom",
+            "The Golden Idol"
+          ],
+          "reveal": "The correct answer is the Temple of the Forbidden Eye! [gasps] Whatever you do, don't look into its eyes.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "A members-only club with its own restaurant hides behind an unmarked door in Disneyland's New Orleans Square",
+          "answer": "Club 33",
+          "accept": [
+            "club 33",
+            "club thirty three",
+            "club thirty-three"
+          ],
+          "choices": [
+            "Club 33",
+            "Club 55",
+            "The 1955 Society",
+            "The Royal Street Club"
+          ],
+          "reveal": "The correct answer is Club 33! [mischievously] Very exclusive... and very, VERY secret.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "off-the-map",
+      "title": "Off the Map",
+      "kind": "fan",
+      "intro": "[chuckles] Grab your atlas! Name these Disney places you won't find on any regular map.",
+      "art": {
+        "prompt": "A fantastical hand-drawn world map with a floating island, an undersea kingdom, a tropical island and a cloud-topped mountain, parchment edges curling Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
+        "file": "media/x-marks-the-spot--off-the-map.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Peter Pan and the Lost Boys live on this island",
+          "answer": "Neverland",
+          "accept": [
+            "neverland",
+            "never land",
+            "never never land"
+          ],
+          "choices": [
+            "Neverland",
+            "Wonderland",
+            "Atlantica",
+            "Motunui"
+          ],
+          "reveal": "The correct answer is Neverland! Second star to the right and straight on till morning.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Ariel grows up in this undersea kingdom ruled by her father, King Triton",
+          "answer": "Atlantica",
+          "accept": [
+            "atlantica"
+          ],
+          "choices": [
+            "Atlantica",
+            "Atlantis",
+            "Coral Kingdom",
+            "Mer-topia"
+          ],
+          "reveal": "The correct answer is Atlantica! [excited] Life is the bubbles, under the sea!",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Lilo and Stitch live on this Hawaiian island",
+          "answer": "Kauai",
+          "accept": [
+            "kauai",
+            "kaua'i"
+          ],
+          "choices": [
+            "Kauai",
+            "Oahu",
+            "Maui",
+            "Molokai"
+          ],
+          "reveal": "The correct answer is Kauai, the Garden Isle! Ohana means family.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In Hercules, Zeus and the other gods live on top of this mountain",
+          "answer": "Mount Olympus",
+          "accept": [
+            "mount olympus",
+            "olympus",
+            "mt olympus"
+          ],
+          "choices": [
+            "Mount Olympus",
+            "Mount Ida",
+            "Mount Etna",
+            "Mount Parnassus"
+          ],
+          "reveal": "The correct answer is Mount Olympus! [laughs] Great view, terrible commute.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "In Raya and the Last Dragon, the lands of Kumandra (Fang, Heart, Spine, Talon and Tail) are named after the parts of this",
+          "answer": "A dragon",
+          "accept": [
+            "dragon",
+            "a dragon",
+            "the dragon"
+          ],
+          "choices": [
+            "A dragon",
+            "A tiger",
+            "A serpent",
+            "A phoenix"
+          ],
+          "reveal": "The correct answer is a dragon! The whole map is shaped like one. Sisu would be proud.",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}
