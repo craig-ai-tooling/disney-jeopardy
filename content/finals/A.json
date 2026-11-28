@@ -1,0 +1,145 @@
+[
+  {
+    "film": "Mary Poppins",
+    "category": "Mary Poppins",
+    "clue": "Besides playing Bert, Dick Van Dyke appears under heavy makeup as this elderly character, the head of the bank.",
+    "answer": "Mr. Dawes Sr.",
+    "accept": [
+      "mr dawes sr",
+      "mr. dawes sr.",
+      "mr dawes senior",
+      "dawes senior",
+      "mr dawes",
+      "dawes"
+    ],
+    "choices": [
+      "Mr. Dawes Sr.",
+      "Admiral Boom",
+      "Uncle Albert",
+      "Mr. Binnacle"
+    ],
+    "reveal": "[excited] The correct answer is Mr. Dawes Senior. Van Dyke was credited under the scrambled name Navckid Keyd. Unscramble it and you get Dick Van Dyke."
+  },
+  {
+    "film": "Cinderella",
+    "category": "Cinderella",
+    "clue": "While scrubbing the floor, Cinderella sings this song as her reflection appears in dozens of soap bubbles.",
+    "answer": "Sing Sweet Nightingale",
+    "accept": [
+      "sing sweet nightingale",
+      "sweet nightingale",
+      "oh sing sweet nightingale"
+    ],
+    "choices": [
+      "Sing Sweet Nightingale",
+      "A Dream Is a Wish Your Heart Makes",
+      "So This Is Love",
+      "Bibbidi-Bobbidi-Boo"
+    ],
+    "reveal": "The correct answer is Sing Sweet Nightingale. The stepsisters butcher it in the music lesson, and Cinderella sings it beautifully while she cleans. [laughs] Life is unfair."
+  },
+  {
+    "film": "The Little Mermaid",
+    "category": "The Little Mermaid",
+    "clue": "Ursula disguises herself as a human woman with this name to steal Prince Eric away from Ariel.",
+    "answer": "Vanessa",
+    "accept": [
+      "vanessa"
+    ],
+    "choices": [
+      "Vanessa",
+      "Morgana",
+      "Marina",
+      "Melody"
+    ],
+    "reveal": "The correct answer is... Vanessa. She uses Ariel's voice and nearly marries Eric on a wedding ship. Scuttle and a flock of birds save the day."
+  },
+  {
+    "film": "Mulan",
+    "category": "Mulan",
+    "clue": "To join the Imperial Army in her father's place, Mulan disguises herself as a soldier using this name.",
+    "answer": "Ping",
+    "accept": [
+      "ping",
+      "fa ping"
+    ],
+    "choices": [
+      "Ping",
+      "Ling",
+      "Shang",
+      "Yao"
+    ],
+    "reveal": "The correct answer is Ping. [chuckles] Ling and Yao are her army buddies, and Shang is her captain."
+  },
+  {
+    "film": "Peter Pan",
+    "category": "Peter Pan",
+    "clue": "The crocodile that ate Captain Hook's hand gives itself away with a tick tock because it also swallowed this.",
+    "answer": "An alarm clock",
+    "accept": [
+      "alarm clock",
+      "an alarm clock",
+      "a clock",
+      "clock"
+    ],
+    "choices": [
+      "An alarm clock",
+      "A pocket watch",
+      "A metronome",
+      "A cuckoo clock"
+    ],
+    "reveal": "The correct answer is an alarm clock. Tick tock, tick tock. Hook hears that sound and leaps straight into Mr. Smee's arms."
+  },
+  {
+    "film": "Hercules",
+    "category": "Hercules",
+    "clue": "In Disney's Hercules, Zeus creates the winged horse Pegasus out of these as a gift for his baby son.",
+    "answer": "Clouds",
+    "accept": [
+      "clouds",
+      "a cloud",
+      "cloud"
+    ],
+    "choices": [
+      "Clouds",
+      "Lightning bolts",
+      "Stardust",
+      "Sea foam"
+    ],
+    "reveal": "[excited] The correct answer is clouds. Zeus whips him up from a puff of cloud, which explains why Pegasus is so light on his feet. And so jealous of Meg."
+  },
+  {
+    "film": "Tangled",
+    "category": "Tangled",
+    "clue": "Flynn Rider admits to Rapunzel that this is his real name.",
+    "answer": "Eugene Fitzherbert",
+    "accept": [
+      "eugene fitzherbert",
+      "eugene",
+      "fitzherbert"
+    ],
+    "choices": [
+      "Eugene Fitzherbert",
+      "Frederick Fitzgerald",
+      "Eugene Fitzwilliam",
+      "Edmund Rider"
+    ],
+    "reveal": "The correct answer is Eugene Fitzherbert. He took the name Flynn Rider from a storybook hero. Rapunzel liked Eugene better. [laughs] So do we."
+  },
+  {
+    "film": "Ratatouille",
+    "category": "Ratatouille",
+    "clue": "Chef Auguste Gusteau's bestselling cookbook shares its title with his famous motto.",
+    "answer": "Anyone Can Cook",
+    "accept": [
+      "anyone can cook"
+    ],
+    "choices": [
+      "Anyone Can Cook",
+      "The Joy of Cooking",
+      "Cook From the Heart",
+      "Gusteau's Kitchen"
+    ],
+    "reveal": "The correct answer is... Anyone Can Cook. As Anton Ego says, not everyone can become a great artist, but a great artist can come from anywhere."
+  }
+]

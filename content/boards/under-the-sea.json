@@ -1,0 +1,535 @@
+{
+  "id": "under-the-sea",
+  "title": "Under the Sea",
+  "theme": "Ocean",
+  "tags": [
+    "ocean",
+    "water",
+    "summer"
+  ],
+  "intro": "[excited] Welcome in to a soaking WET episode of Disney Jeopardy! Tonight we are diving deep under the sea, so grab your snorkel, check your fins... and remember, darling, it's better down where it's wetter.",
+  "art": {
+    "prompt": "A vibrant coral reef kingdom deep under the ocean: shafts of sunlight, glowing anemones, bubbles, a sunken treasure chest overflowing with pearls and seashells. Wide 16:9 composition, original painterly animated-film style artwork, no text, no logos, no recognizable copyrighted characters.",
+    "file": "media/under-the-sea.jpg"
+  },
+  "categories": [
+    {
+      "id": "just-keep-swimming",
+      "title": "Just Keep Swimming",
+      "kind": "film",
+      "intro": "We start in the Great Barrier Reef with Finding Nemo. [chuckles] If you forget the answers, just keep swimming.",
+      "art": {
+        "prompt": "A colorful Great Barrier Reef scene with swaying anemones and a steep drop-off into deep blue, a lone white diving mask resting on the sand. Wide 16:9 composition, original painterly animated-film style artwork, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/under-the-sea--just-keep-swimming.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Nemo and his dad Marlin are this orange-and-white kind of fish.",
+          "answer": "Clownfish",
+          "accept": [
+            "clownfish",
+            "clown fish",
+            "a clownfish"
+          ],
+          "choices": [
+            "Clownfish",
+            "Blue tang",
+            "Angelfish",
+            "Pufferfish"
+          ],
+          "reveal": "[excited] The correct answer is clownfish. And no, Marlin is not funny. He will tell you that himself.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Marlin teams up with this forgetful blue tang to find his son.",
+          "answer": "Dory",
+          "accept": [
+            "dory"
+          ],
+          "choices": [
+            "Dory",
+            "Pearl",
+            "Peach",
+            "Destiny"
+          ],
+          "reveal": "The correct answer is Dory, voiced by Ellen DeGeneres. [laughs] She speaks whale, she reads, and she forgets all of it in about ten seconds.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Dory can never forget this address written on the diver's mask.",
+          "answer": "42 Wallaby Way, Sydney",
+          "accept": [
+            "42 wallaby way sydney",
+            "42 wallaby way",
+            "p sherman 42 wallaby way sydney",
+            "wallaby way"
+          ],
+          "choices": [
+            "42 Wallaby Way, Sydney",
+            "24 Kangaroo Lane, Sydney",
+            "42 Koala Court, Melbourne",
+            "12 Dingo Drive, Perth"
+          ],
+          "reveal": "The correct answer is... P. Sherman, 42 Wallaby Way, Sydney. Say it with me. If you can't, Dory can, forever.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "The totally chill sea turtle Crush tells Marlin he is this many years old, and still young, dude.",
+          "answer": "150",
+          "accept": [
+            "150",
+            "one hundred fifty",
+            "one hundred and fifty",
+            "150 years"
+          ],
+          "choices": [
+            "150",
+            "100",
+            "200",
+            "75"
+          ],
+          "reveal": "The correct answer is 150. [chuckles] A hundred and fifty, dude, and still young. Rock on. Director Andrew Stanton voiced Crush himself.",
+          "dailyDouble": true
+        },
+        {
+          "value": 1000,
+          "clue": "This scarred Moorish idol leads the Tank Gang in the dentist's office and plans the big escape.",
+          "answer": "Gill",
+          "accept": [
+            "gill"
+          ],
+          "choices": [
+            "Gill",
+            "Bloat",
+            "Jacques",
+            "Bubbles"
+          ],
+          "reveal": "The correct answer is Gill, voiced by Willem Dafoe. His escape plan works perfectly, if you ignore everything that went wrong.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "something-fishy",
+      "title": "Something Fishy",
+      "kind": "theme",
+      "intro": "Our next category is about all the fins, claws and tentacles swimming around Disney films. Something smells fishy, and it is not my lunch.",
+      "art": {
+        "prompt": "A sea floor gathering of shells, a golden trident stuck in the sand, crab claw shapes in silhouette, schools of colorful generic tropical fish. Wide 16:9 composition, original painterly animated-film style artwork, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/under-the-sea--something-fishy.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Ariel's nervous yellow-and-blue best friend.",
+          "answer": "Flounder",
+          "accept": [
+            "flounder"
+          ],
+          "choices": [
+            "Flounder",
+            "Sebastian",
+            "Scuttle",
+            "Nemo"
+          ],
+          "reveal": "The correct answer is Flounder. Fun fact, he is not actually a flounder. He looks a lot more like a tropical fish. [whispers] Don't tell him.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Sebastian the crab serves as court composer to this ruler of Atlantica.",
+          "answer": "King Triton",
+          "accept": [
+            "king triton",
+            "triton"
+          ],
+          "choices": [
+            "King Triton",
+            "Poseidon",
+            "King Neptune",
+            "Prince Eric"
+          ],
+          "reveal": "The correct answer is King Triton. [laughs] Seven daughters, one trident and zero tolerance for humans.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "This giant glittery crab from Moana sings about being Shiny.",
+          "answer": "Tamatoa",
+          "accept": [
+            "tamatoa"
+          ],
+          "choices": [
+            "Tamatoa",
+            "Te Ka",
+            "Kakamora",
+            "Heihei"
+          ],
+          "reveal": "The correct answer is... Tamatoa, voiced by Jemaine Clement. He is a coconut crab who really needs to work on his collecting habit.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "These two slithery eels work for Ursula and spy on Ariel.",
+          "answer": "Flotsam and Jetsam",
+          "accept": [
+            "flotsam and jetsam",
+            "flotsam jetsam",
+            "jetsam and flotsam"
+          ],
+          "choices": [
+            "Flotsam and Jetsam",
+            "Hermes and Pegasus",
+            "Pain and Panic",
+            "Bloat and Gill"
+          ],
+          "reveal": "The correct answer is Flotsam and Jetsam. [chuckles] Their names come from sailor slang for floating shipwreck junk. Fitting.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "In Finding Dory, Dory's nearsighted childhood pipe pal Destiny is this kind of animal.",
+          "answer": "A whale shark",
+          "accept": [
+            "whale shark",
+            "a whale shark"
+          ],
+          "choices": [
+            "A whale shark",
+            "A beluga whale",
+            "A blue whale",
+            "A hammerhead shark"
+          ],
+          "reveal": "The correct answer is a whale shark. Her buddy Bailey is the beluga with the busted echolocation. Great pair, terrible at parallel parking.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "treasures-of-the-deep",
+      "title": "Treasures of the Deep",
+      "kind": "media",
+      "intro": "[excited] Picture time! I will show you a picture of some treasures and a setting. No characters allowed. Name the watery Disney film it comes from.",
+      "art": {
+        "prompt": "A rocky underwater grotto filled with human treasures: forks, pipes, candlesticks, a ship's wheel, lit by beams of blue light. Wide 16:9 composition, original painterly animated-film style artwork, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/under-the-sea--treasures-of-the-deep.jpg"
+      },
+      "format": "picture",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Name the film this picture evokes.",
+          "answer": "The Little Mermaid",
+          "accept": [
+            "little mermaid",
+            "the little mermaid"
+          ],
+          "choices": [
+            "The Little Mermaid",
+            "Moana",
+            "Finding Nemo",
+            "Luca"
+          ],
+          "reveal": "[excited] The correct answer is The Little Mermaid. That is a dinglehopper, of course. Scuttle says you comb your hair with it.",
+          "media": {
+            "type": "image",
+            "prompt": "Underwater grotto lit by shafts of blue light, a silver dinner fork resting among seashells and pearls on a rock shelf, shelves of sunken human trinkets in the background, painterly animated film style, no characters, no text",
+            "file": "media/under-the-sea--treasures-of-the-deep-200.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Name the film this picture evokes.",
+          "answer": "Finding Nemo",
+          "accept": [
+            "finding nemo",
+            "nemo"
+          ],
+          "choices": [
+            "Finding Nemo",
+            "Finding Dory",
+            "The Little Mermaid",
+            "Shark Tale"
+          ],
+          "reveal": "The correct answer is Finding Nemo. A swaying sea anemone and a lost diver's mask on the sand. [laughs] Somewhere a dad is panicking.",
+          "media": {
+            "type": "image",
+            "prompt": "Sunlit coral reef with a large purple sea anemone, a white scuba diving mask lying in the sand nearby, a dark drop-off into deep blue water beyond, vibrant animated film style, no fish characters, no text or writing",
+            "file": "media/under-the-sea--treasures-of-the-deep-400.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Name the film this picture evokes.",
+          "answer": "Moana",
+          "accept": [
+            "moana"
+          ],
+          "choices": [
+            "Moana",
+            "Lilo and Stitch",
+            "The Little Mermaid",
+            "Raya and the Last Dragon"
+          ],
+          "reveal": "The correct answer is... Moana. That little green stone with the spiral is the heart of Te Fiti. Please return it, Maui.",
+          "media": {
+            "type": "image",
+            "prompt": "A small glowing green pounamu stone with a carved spiral, resting in a cupped seashell on a black lava rock beach, turquoise Pacific waves and a canoe sail on the horizon, warm sunset, animated film style, no people, no text",
+            "file": "media/under-the-sea--treasures-of-the-deep-600.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Name the film this picture evokes.",
+          "answer": "Luca",
+          "accept": [
+            "luca"
+          ],
+          "choices": [
+            "Luca",
+            "Ponyo",
+            "Moana",
+            "Turning Red"
+          ],
+          "reveal": "The correct answer is Luca. [chuckles] Two sea monsters building a homemade scooter. Silencio, Bruno!",
+          "media": {
+            "type": "image",
+            "prompt": "A rickety homemade scooter cobbled together from scrap wood, old pipes and a fruit crate, parked on a sunny rocky cliff above a turquoise Italian Riviera sea, colorful fishing village in the distance, animated film style, no people, no text",
+            "file": "media/under-the-sea--treasures-of-the-deep-800.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Name the film this picture evokes.",
+          "answer": "Atlantis: The Lost Empire",
+          "accept": [
+            "atlantis",
+            "atlantis the lost empire"
+          ],
+          "choices": [
+            "Atlantis: The Lost Empire",
+            "20,000 Leagues Under the Sea",
+            "The Little Mermaid",
+            "Treasure Planet"
+          ],
+          "reveal": "The correct answer is Atlantis: The Lost Empire from 2001. Milo's journal and a glowing crystal. Michael J. Fox voiced him. Underrated film!",
+          "media": {
+            "type": "image",
+            "prompt": "A glowing blue crystal pendant on a cord resting on an open weathered leather explorer's journal full of sketches of a sunken city, brass submarine porthole behind, deep ocean light, illustrated adventure film style, no people, no readable text",
+            "file": "media/under-the-sea--treasures-of-the-deep-1000.jpg"
+          },
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "make-a-splash",
+      "title": "Make a Splash",
+      "kind": "parks",
+      "intro": "[mischievously] Now we head to the parks to find the best places to get your feet wet. It is called Make a Splash.",
+      "art": {
+        "prompt": "A sunny theme park lagoon with a giant clamshell ride vehicle, splashing water fountains and a huge aquarium window full of fish. Wide 16:9 composition, original painterly animated-film style artwork, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/under-the-sea--make-a-splash.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "On Under the Sea, Journey of the Little Mermaid at Magic Kingdom, you ride through Ariel's story in one of these.",
+          "answer": "A clamshell",
+          "accept": [
+            "clamshell",
+            "a clamshell",
+            "clam shell",
+            "a clam",
+            "clam"
+          ],
+          "choices": [
+            "A clamshell",
+            "A submarine",
+            "A Doom Buggy",
+            "A spinning teacup"
+          ],
+          "reveal": "[excited] The correct answer is a clamshell. You'll find the ride in New Fantasyland, tucked under Prince Eric's castle on the cliff.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Epcot's giant saltwater aquarium pavilion is called The Seas with Nemo and these.",
+          "answer": "Friends",
+          "accept": [
+            "friends",
+            "the seas with nemo and friends",
+            "nemo and friends"
+          ],
+          "choices": [
+            "Friends",
+            "Family",
+            "Dory",
+            "Crush"
+          ],
+          "reveal": "The correct answer is friends. The Seas with Nemo and Friends holds millions of gallons of water. [laughs] That is a lot of bathwater.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "At Epcot you can chat live with this totally tubular sea turtle.",
+          "answer": "Crush",
+          "accept": [
+            "crush",
+            "turtle talk",
+            "turtle talk with crush"
+          ],
+          "choices": [
+            "Crush",
+            "Squirt",
+            "Shelly",
+            "Squirtle"
+          ],
+          "reveal": "The correct answer is... Crush, in Turtle Talk with Crush. The show is improvised, so every conversation is different. Totally.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "This private Bahamian island has been a regular stop for Disney Cruise Line since 1998.",
+          "answer": "Castaway Cay",
+          "accept": [
+            "castaway cay",
+            "castaway key"
+          ],
+          "choices": [
+            "Castaway Cay",
+            "Lookout Cay",
+            "Treasure Cay",
+            "Discovery Island"
+          ],
+          "reveal": "The correct answer is Castaway Cay. [chuckles] Lookout Cay at Lighthouse Point is the newer island destination. Both have very sandy feet.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "At Tokyo DisneySea, King Triton's coral castle anchors this themed port.",
+          "answer": "Mermaid Lagoon",
+          "accept": [
+            "mermaid lagoon"
+          ],
+          "choices": [
+            "Mermaid Lagoon",
+            "Mysterious Island",
+            "Arabian Coast",
+            "Port Discovery"
+          ],
+          "reveal": "The correct answer is Mermaid Lagoon, with an indoor under the sea area inside Triton's Kingdom. Tokyo DisneySea is pure magic.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "fin-ish-the-lyric",
+      "title": "Fin-ish the Lyric",
+      "kind": "fan",
+      "intro": "The Club DJ members chose Finish the Lyric, ocean edition. I give you the start of a watery song, you finish the line. [chuckles] Fin-tastic.",
+      "art": {
+        "prompt": "A calypso band of instruments under the sea: steel drums made from shells, a conch horn, bubbles forming musical notes. Wide 16:9 composition, original painterly animated-film style artwork, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/under-the-sea--fin-ish-the-lyric.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Under the sea, under the sea, darling it's better down where it's ...",
+          "answer": "Wetter",
+          "accept": [
+            "wetter",
+            "wetter take it from me"
+          ],
+          "choices": [
+            "Wetter",
+            "Better",
+            "Deeper",
+            "Colder"
+          ],
+          "reveal": "[excited] The correct answer is wetter, take it from me. Sebastian with the life advice and the calypso beat.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "I wanna be where the people are, I wanna see, wanna see 'em ...",
+          "answer": "Dancin'",
+          "accept": [
+            "dancing",
+            "dancin",
+            "dancin'"
+          ],
+          "choices": [
+            "Dancin'",
+            "Singin'",
+            "Walkin'",
+            "Swimmin'"
+          ],
+          "reveal": "The correct answer is dancing, walking around on those, what do you call 'em? Oh, feet. [laughs] Part of Your World.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "See the line where the sky meets the sea? It ...",
+          "answer": "Calls me",
+          "accept": [
+            "calls me",
+            "it calls me"
+          ],
+          "choices": [
+            "Calls me",
+            "Sings to me",
+            "Waits for me",
+            "Beckons me"
+          ],
+          "reveal": "The correct answer is... calls me. How Far I'll Go, written by Lin-Manuel Miranda. And no one knows how far it goes.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "My oh my, look like the boy too shy, ain't gonna ...",
+          "answer": "Kiss the girl",
+          "accept": [
+            "kiss the girl"
+          ],
+          "choices": [
+            "Kiss the girl",
+            "Ask her out",
+            "Hold her hand",
+            "Win her heart"
+          ],
+          "reveal": "The correct answer is kiss the girl. [chuckles] Sha la la la la la. Eric took about three whole days and still needed a lagoon full of help.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "In Poor Unfortunate Souls, Ursula sings: and don't underestimate the importance of ...",
+          "answer": "Body language",
+          "accept": [
+            "body language"
+          ],
+          "choices": [
+            "Body language",
+            "A pretty face",
+            "Good manners",
+            "Holding your tongue"
+          ],
+          "reveal": "The correct answer is body language. Ha! Ursula's whole pitch is that men up there don't like a lot of blabber. Iconic, and a little rude.",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}

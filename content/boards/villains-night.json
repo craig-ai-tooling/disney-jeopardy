@@ -1,0 +1,553 @@
+{
+  "id": "villains-night",
+  "title": "Villains Night",
+  "theme": "Disney Villains",
+  "tags": [
+    "villains",
+    "spooky",
+    "halloween"
+  ],
+  "intro": "[mischievously] Welcome in to a very WICKED episode of Disney Jeopardy! Tonight the bad guys finally get their moment in the spotlight... [evil laugh] so grab your poisoned apples and keep one eye on your score, because these villains do NOT play fair.",
+  "art": {
+    "prompt": "A grand gothic villain's lair at midnight: a green-flamed stone hall with a spinning wheel, a glowing poisoned red apple on a pedestal, a bubbling cauldron and an ornate magic mirror, purple and acid-green light, swirling smoke. Wide 16:9 composition, original painterly animated-film style artwork, no text, no logos, no recognizable copyrighted characters.",
+    "file": "media/villains-night.jpg"
+  },
+  "categories": [
+    {
+      "id": "mistress-of-all-evil",
+      "title": "Mistress of All Evil",
+      "kind": "film",
+      "intro": "[excited] We kick things off with Sleeping Beauty, the 1959 classic. Try not to doze off, or a certain horned lady might take it personally.",
+      "art": {
+        "prompt": "A dark thorny castle on a jagged mountain under a stormy green sky, a single spinning wheel glowing in a high tower window, a raven silhouette circling. Wide 16:9 composition, original painterly animated-film style artwork, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/villains-night--mistress-of-all-evil.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This horned evil fairy curses baby Aurora after she is not invited to the royal christening.",
+          "answer": "Maleficent",
+          "accept": [
+            "maleficent"
+          ],
+          "choices": [
+            "Maleficent",
+            "Ursula",
+            "Lady Tremaine",
+            "Mother Gothel"
+          ],
+          "reveal": "[excited] The correct answer is Maleficent. Lesson learned, kids: always invite the evil fairy. It saves everyone sixteen years of trouble.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Aurora is cursed to prick her finger on the spindle of one of these before the sun sets on her 16th birthday.",
+          "answer": "A spinning wheel",
+          "accept": [
+            "spinning wheel",
+            "a spinning wheel",
+            "spindle",
+            "spinning wheel spindle"
+          ],
+          "choices": [
+            "A spinning wheel",
+            "A sewing needle",
+            "A rose thorn",
+            "A knitting needle"
+          ],
+          "reveal": "The correct answer is a spinning wheel. [laughs] King Stefan had every one in the kingdom burned, which honestly seems like a lot of work for one bad party.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "To keep Aurora hidden in the forest cottage, the three good fairies raise her under this name.",
+          "answer": "Briar Rose",
+          "accept": [
+            "briar rose",
+            "briar"
+          ],
+          "choices": [
+            "Briar Rose",
+            "Rose Red",
+            "Wild Rose",
+            "Little Rose"
+          ],
+          "reveal": "The correct answer is Briar Rose. Sixteen years in a cottage with no magic allowed. Have you seen that birthday cake? [gasps] Yikes.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Prince Phillip rides to the rescue on this trusty horse, who was promised extra oats and carrots.",
+          "answer": "Samson",
+          "accept": [
+            "samson"
+          ],
+          "choices": [
+            "Samson",
+            "Philippe",
+            "Maximus",
+            "Khan"
+          ],
+          "reveal": "The correct answer is Samson. Phillip took those carrots back after a dunk in the creek. [sarcastic] Rude! Philippe, Maximus and Khan are horses from other films.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "The music of Sleeping Beauty is adapted from the ballet by this Russian composer.",
+          "answer": "Pyotr Ilyich Tchaikovsky",
+          "accept": [
+            "tchaikovsky",
+            "pyotr tchaikovsky",
+            "peter tchaikovsky",
+            "chaikovsky",
+            "tchaikovski"
+          ],
+          "choices": [
+            "Pyotr Ilyich Tchaikovsky",
+            "Sergei Rachmaninoff",
+            "Igor Stravinsky",
+            "Sergei Prokofiev"
+          ],
+          "reveal": "The correct answer is Tchaikovsky. Once Upon a Dream is built on a waltz from his 1890 ballet. Not bad for a guy who never got a Disney Plus residual.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "bad-to-the-bone",
+      "title": "Bad to the Bone",
+      "kind": "theme",
+      "intro": "[mischievously] Next up, a category about the meanest, greenest and most fashionable baddies Disney has to offer. It is called Bad to the Bone.",
+      "art": {
+        "prompt": "A villain's dressing table lit by candlelight: a black feather boa, a cobra-headed golden staff, a bubbling potion vial and a cracked crystal ball, dramatic red and purple shadows. Wide 16:9 composition, original painterly animated-film style artwork, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/villains-night--bad-to-the-bone.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In 101 Dalmatians, this fur-loving villain wants to turn the puppies into a spotted coat.",
+          "answer": "Cruella de Vil",
+          "accept": [
+            "cruella",
+            "cruella de vil",
+            "cruella deville",
+            "cruella de ville"
+          ],
+          "choices": [
+            "Cruella de Vil",
+            "Madam Mim",
+            "Madame Medusa",
+            "Lady Tremaine"
+          ],
+          "reveal": "[excited] The correct answer is Cruella de Vil. If she doesn't scare you, no evil thing will. And that driving? Absolutely villainous.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Jafar's final wish makes him the most powerful being on Earth, one of these, which sadly comes with a lamp.",
+          "answer": "A genie",
+          "accept": [
+            "genie",
+            "a genie"
+          ],
+          "choices": [
+            "A genie",
+            "A sultan",
+            "A sorcerer",
+            "A cobra"
+          ],
+          "reveal": "The correct answer is a genie. Phenomenal cosmic powers, itty bitty living space. [laughs] Iago gets dragged in too, poor guy.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "This smooth-talking voodoo man in The Princess and the Frog has friends on the other side.",
+          "answer": "Dr. Facilier",
+          "accept": [
+            "dr facilier",
+            "facilier",
+            "doctor facilier",
+            "the shadow man",
+            "shadow man"
+          ],
+          "choices": [
+            "Dr. Facilier",
+            "Mama Odie",
+            "Ratigan",
+            "Shere Khan"
+          ],
+          "reveal": "The correct answer is... Dr. Facilier, also known as the Shadow Man. Pro tip: never shake hands with a guy whose shadow moves on its own.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Judge Claude Frollo is the villain of this 1996 Disney animated film.",
+          "answer": "The Hunchback of Notre Dame",
+          "accept": [
+            "hunchback of notre dame",
+            "the hunchback of notre dame",
+            "hunchback"
+          ],
+          "choices": [
+            "The Hunchback of Notre Dame",
+            "Pocahontas",
+            "Hercules",
+            "Tarzan"
+          ],
+          "reveal": "The correct answer is The Hunchback of Notre Dame. [chuckles] His song Hellfire is maybe the darkest villain number Disney ever made. Not exactly a cupcake.",
+          "dailyDouble": true
+        },
+        {
+          "value": 1000,
+          "clue": "This skeletal villain hunts for the title object in Disney's 1985 film The Black Cauldron.",
+          "answer": "The Horned King",
+          "accept": [
+            "horned king",
+            "the horned king"
+          ],
+          "choices": [
+            "The Horned King",
+            "Chernabog",
+            "The Headless Horseman",
+            "Ratigan"
+          ],
+          "reveal": "The correct answer is the Horned King, voiced by John Hurt. The film was so dark it was the first Disney animated feature rated PG.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "wicked-wardrobes",
+      "title": "Wicked Wardrobes",
+      "kind": "media",
+      "intro": "Time for Color Palettes, villain edition. [chuckles] I will show you the colors of a baddie's outfit, and you name the fashion criminal.",
+      "art": {
+        "prompt": "A spooky haute couture atelier: dress forms draped in black, crimson, deep purple and gold fabrics, fabric swatches pinned on a board, moody spotlight. Wide 16:9 composition, original painterly animated-film style artwork, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/villains-night--wicked-wardrobes.jpg"
+      },
+      "format": "palette",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Name the villain wearing these colors. Hint: she has eight arms and a deal for you.",
+          "answer": "Ursula",
+          "accept": [
+            "ursula",
+            "the sea witch",
+            "sea witch"
+          ],
+          "choices": [
+            "Ursula",
+            "Maleficent",
+            "Yzma",
+            "Madam Mim"
+          ],
+          "reveal": "[excited] The correct answer is Ursula. Lavender skin, black gown, golden shell necklace. Ariel's voice is in there somewhere.",
+          "palette": [
+            "#121016",
+            "#b08bd6",
+            "#f1eef5",
+            "#c41e3a",
+            "#d9a93b"
+          ],
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Name the villain wearing these colors. Hint: he carries a cobra staff.",
+          "answer": "Jafar",
+          "accept": [
+            "jafar"
+          ],
+          "choices": [
+            "Jafar",
+            "Hades",
+            "Dr. Facilier",
+            "Ratcliffe"
+          ],
+          "reveal": "The correct answer is Jafar. [laughs] Black and crimson robes and a turban so tall it needs its own zip code.",
+          "palette": [
+            "#18141a",
+            "#9e1b22",
+            "#5e0f17",
+            "#c9a227"
+          ],
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Name the villain wearing these colors. Hint: nobody fights like him.",
+          "answer": "Gaston",
+          "accept": [
+            "gaston"
+          ],
+          "choices": [
+            "Gaston",
+            "Prince Hans",
+            "Clayton",
+            "Captain Hook"
+          ],
+          "reveal": "The correct answer is... Gaston. Red tunic, yellow collar, black tights, brown boots. He uses antlers in all of his decorating.",
+          "palette": [
+            "#b8222a",
+            "#e8b62f",
+            "#141414",
+            "#6b4423"
+          ],
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Name the villain wearing these colors.",
+          "answer": "Hades",
+          "accept": [
+            "hades"
+          ],
+          "choices": [
+            "Hades",
+            "Jafar",
+            "Pain",
+            "Chernabog"
+          ],
+          "reveal": "The correct answer is Hades. [chuckles] Grey skin, a black toga and hair made of blue fire. When he gets mad, that blue turns orange real fast.",
+          "palette": [
+            "#8e9aaf",
+            "#1fa2ff",
+            "#141418",
+            "#3b3f48"
+          ],
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Name the villain wearing these colors.",
+          "answer": "Captain Hook",
+          "accept": [
+            "captain hook",
+            "hook",
+            "james hook"
+          ],
+          "choices": [
+            "Captain Hook",
+            "Gaston",
+            "Governor Ratcliffe",
+            "Prince John"
+          ],
+          "reveal": "The correct answer is Captain Hook. Red coat with gold trim, a white cravat and rose colored pants. Tick tock, that was a tough one.",
+          "palette": [
+            "#b3202a",
+            "#d4a537",
+            "#f5f5f0",
+            "#151515",
+            "#d9788e"
+          ],
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "grim-grinning-ghosts",
+      "title": "Grim Grinning Ghosts",
+      "kind": "parks",
+      "intro": "Now we head to the parks for the spookiest house on the block. It is all about the Haunted Mansion. Your Doom Buggy awaits.",
+      "art": {
+        "prompt": "A creepy antebellum-style haunted manor on a hill at night, glowing windows, a hearse and crooked gravestones, translucent blue wisps drifting through the trees. Wide 16:9 composition, original painterly animated-film style artwork, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/villains-night--grim-grinning-ghosts.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Doom Buggies carry you through this spooky Liberty Square attraction at Magic Kingdom.",
+          "answer": "The Haunted Mansion",
+          "accept": [
+            "haunted mansion",
+            "the haunted mansion"
+          ],
+          "choices": [
+            "The Haunted Mansion",
+            "Tower of Terror",
+            "Pirates of the Caribbean",
+            "Phantom Manor"
+          ],
+          "reveal": "[excited] The correct answer is the Haunted Mansion. Welcome, foolish mortals. Please keep your hands, arms and ectoplasm inside the buggy.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "According to the Ghost Host, the mansion is home to this many happy haunts, with room for one more.",
+          "answer": "999",
+          "accept": [
+            "999",
+            "nine hundred ninety nine",
+            "nine hundred and ninety nine"
+          ],
+          "choices": [
+            "999",
+            "1,000",
+            "666",
+            "13"
+          ],
+          "reveal": "The correct answer is 999 happy haunts. There is always room for a thousand. Any volunteers? No? [laughs] Okay.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "This fortune teller's head floats inside a crystal ball during the seance.",
+          "answer": "Madame Leota",
+          "accept": [
+            "madame leota",
+            "leota"
+          ],
+          "choices": [
+            "Madame Leota",
+            "Constance Hatchaway",
+            "Little Leota",
+            "Madame Medusa"
+          ],
+          "reveal": "The correct answer is... Madame Leota. Rap on a table, it's time to respond. Little Leota says goodbye at the end of the ride.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "This Wild West spin on the Haunted Mansion sits in Frontierland at Disneyland Paris.",
+          "answer": "Phantom Manor",
+          "accept": [
+            "phantom manor"
+          ],
+          "choices": [
+            "Phantom Manor",
+            "Mystic Manor",
+            "Haunted Mansion Holiday",
+            "Thunder Mesa Mansion"
+          ],
+          "reveal": "The correct answer is Phantom Manor, overlooking the town of Thunder Mesa. [chuckles] Mystic Manor is the Hong Kong cousin with no ghosts at all.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "This hat-toting ghost vanished from Disneyland's Haunted Mansion soon after its 1969 opening and finally returned in 2015.",
+          "answer": "The Hatbox Ghost",
+          "accept": [
+            "hatbox ghost",
+            "the hatbox ghost"
+          ],
+          "choices": [
+            "The Hatbox Ghost",
+            "Constance Hatchaway",
+            "Ezra",
+            "The Ghost Host"
+          ],
+          "reveal": "The correct answer is the Hatbox Ghost. His head trick did not work well in 1969, so he disappeared for 46 years. Talk about a long coffee break.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "villainous-voices",
+      "title": "Villainous Voices",
+      "kind": "fan",
+      "intro": "[excited] The Club DJ members picked this one. Listen to an iconic villain line and tell me who said it. No evil laughing until the end, please.",
+      "art": {
+        "prompt": "A vintage microphone on a stage bathed in green and purple spotlight, curling smoke forming a sinister grin shape in the air, velvet curtains. Wide 16:9 composition, original painterly animated-film style artwork, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/villains-night--villainous-voices.jpg"
+      },
+      "format": "quote",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Which villain said this?",
+          "answer": "The Evil Queen",
+          "accept": [
+            "evil queen",
+            "the evil queen",
+            "the queen",
+            "queen grimhilde",
+            "grimhilde",
+            "wicked queen"
+          ],
+          "choices": [
+            "The Evil Queen",
+            "Maleficent",
+            "Lady Tremaine",
+            "Queen of Hearts"
+          ],
+          "reveal": "[excited] The correct answer is the Evil Queen from Snow White. Fun fact, she never says mirror mirror. It is magic mirror. Don't let anyone tell you otherwise.",
+          "quote": "Magic mirror on the wall, who is the fairest one of all?",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Which villain said this?",
+          "answer": "The Queen of Hearts",
+          "accept": [
+            "queen of hearts",
+            "the queen of hearts"
+          ],
+          "choices": [
+            "The Queen of Hearts",
+            "The Red Queen",
+            "Lady Tremaine",
+            "Madam Mim"
+          ],
+          "reveal": "The correct answer is the Queen of Hearts from Alice in Wonderland. [laughs] Painting the roses red sounds like a lot less work than losing your head.",
+          "quote": "Off with their heads!",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Which villain said this?",
+          "answer": "Scar",
+          "accept": [
+            "scar"
+          ],
+          "choices": [
+            "Scar",
+            "Mufasa",
+            "Shere Khan",
+            "Prince John"
+          ],
+          "reveal": "The correct answer is Scar, voiced by Jeremy Irons. [sighs] Saddest two seconds in Disney history, and you all know exactly which scene I mean.",
+          "quote": "Long live the king.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Which villain said this?",
+          "answer": "Yzma",
+          "accept": [
+            "yzma"
+          ],
+          "choices": [
+            "Yzma",
+            "Kronk",
+            "Madam Mim",
+            "Mother Gothel"
+          ],
+          "reveal": "The correct answer is Yzma from The Emperor's New Groove. [dramatic] Wrong lever! Why do we even have that lever?",
+          "quote": "Pull the lever, Kronk!",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Which villain said this?",
+          "answer": "Shan Yu",
+          "accept": [
+            "shan yu"
+          ],
+          "choices": [
+            "Shan Yu",
+            "Chi-Fu",
+            "General Li",
+            "The Emperor"
+          ],
+          "reveal": "The correct answer is Shan Yu, the Hun leader from Mulan. The answer was one, by the way. One man. [sighs] Grim stuff.",
+          "quote": "How many men does it take to deliver a message?",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}

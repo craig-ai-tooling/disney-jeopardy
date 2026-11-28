@@ -1,0 +1,509 @@
+{
+  "id": "wild-kingdom",
+  "title": "Wild Kingdom",
+  "theme": "Animals",
+  "tags": [
+    "animals",
+    "safari",
+    "nature"
+  ],
+  "intro": "[excited] Welcome in to a WILD episode of Disney Jeopardy! Tonight it is lions, sloths, rabbits and one very sassy hornbill. [laughs] Keep your hands inside the safari truck, because these clues BITE.",
+  "art": {
+    "prompt": "A golden African savanna at sunrise: acacia trees, a towering rocky outcrop, herds of zebras, elephants and giraffes, a giant baobab-like tree in the distance. Wide 16:9 composition, original painterly animated-film style artwork, no text, no logos, no recognizable copyrighted characters.",
+    "file": "media/wild-kingdom.jpg"
+  },
+  "categories": [
+    {
+      "id": "long-live-the-king",
+      "title": "Long Live the King",
+      "kind": "film",
+      "intro": "[excited] We begin on the African savanna with The Lion King. Remember who you are, and remember the answers too.",
+      "art": {
+        "prompt": "A towering rock outcrop jutting over a vast savanna at dawn, the sun rising behind it, birds in an orange sky. Wide 16:9 composition, original painterly animated-film style artwork, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/wild-kingdom--long-live-the-king.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Timon and Pumbaa teach Simba this Swahili phrase that means no worries.",
+          "answer": "Hakuna Matata",
+          "accept": [
+            "hakuna matata"
+          ],
+          "choices": [
+            "Hakuna Matata",
+            "Asante Sana",
+            "Jambo Bwana",
+            "Circle of Life"
+          ],
+          "reveal": "[excited] The correct answer is Hakuna Matata. It means no worries for the rest of your days. It is a problem-free philosophy.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Name the song that plays as the animals gather at Pride Rock in the opening scene, like the shot you just saw.",
+          "answer": "Circle of Life",
+          "accept": [
+            "circle of life",
+            "the circle of life"
+          ],
+          "choices": [
+            "Circle of Life",
+            "He Lives in You",
+            "I Just Can't Wait to Be King",
+            "Can You Feel the Love Tonight"
+          ],
+          "reveal": "The correct answer is Circle of Life, sung by Carmen Twillie with Lebo M on that famous opening chant. [sighs happily] Goosebumps... every single time.",
+          "media": {
+            "type": "video",
+            "prompt": "Five second cinematic shot: a huge golden sun rises over an African savanna, herds of zebras, elephants and giraffes walk toward a towering rocky outcrop, flocks of birds sweep across an orange sky, slow push in, painterly animated style, no recognizable characters, no text",
+            "file": "media/wild-kingdom--long-live-the-king-400.mp4"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Simba's mother, the queen of the Pride Lands, has this name.",
+          "answer": "Sarabi",
+          "accept": [
+            "sarabi"
+          ],
+          "choices": [
+            "Sarabi",
+            "Sarafina",
+            "Nala",
+            "Kiara"
+          ],
+          "reveal": "The correct answer is... Sarabi. Sarafina is Nala's mom, and Kiara is Simba's daughter in the sequel. So many lions, so many names.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Scar sings this villain song to the hyenas while they goose-step past him.",
+          "answer": "Be Prepared",
+          "accept": [
+            "be prepared"
+          ],
+          "choices": [
+            "Be Prepared",
+            "Chow Down",
+            "Hellfire",
+            "Poor Unfortunate Souls"
+          ],
+          "reveal": "The correct answer is Be Prepared. [chuckles] Jeremy Irons threw out his voice during recording, so Jim Cummings finished the final verse.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "An early working title for The Lion King wrongly placed its lions in this kind of habitat. Name the title.",
+          "answer": "King of the Jungle",
+          "accept": [
+            "king of the jungle"
+          ],
+          "choices": [
+            "King of the Jungle",
+            "King of the Beasts",
+            "The Lion Prince",
+            "Kingdom of Lions"
+          ],
+          "reveal": "The correct answer is King of the Jungle. Then someone pointed out lions live on the savanna, not in the jungle. [laughs] Oops.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "species-spotter",
+      "title": "Species Spotter",
+      "kind": "theme",
+      "intro": "[mischievously] Next up is Species Spotter. I name a Disney animal sidekick, you tell me exactly what kind of creature it is.",
+      "art": {
+        "prompt": "A naturalist's field journal desk with binoculars, a magnifying glass, feathers, paw print casts and colorful animal sketches with no writing. Wide 16:9 composition, original painterly animated-film style artwork, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/wild-kingdom--species-spotter.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Sven, Kristoff's carrot-loving best buddy in Frozen, is this kind of animal.",
+          "answer": "A reindeer",
+          "accept": [
+            "reindeer",
+            "a reindeer"
+          ],
+          "choices": [
+            "A reindeer",
+            "A moose",
+            "An elk",
+            "A horse"
+          ],
+          "reveal": "[excited] The correct answer is a reindeer. Reindeers are better than people. Kristoff said so, and Sven agreed.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Rapunzel's color-changing best friend Pascal is this kind of animal.",
+          "answer": "A chameleon",
+          "accept": [
+            "chameleon",
+            "a chameleon"
+          ],
+          "choices": [
+            "A chameleon",
+            "A gecko",
+            "An iguana",
+            "A frog"
+          ],
+          "reveal": "The correct answer is a chameleon. He turns pink when he's mad. [laughs] Not exactly intimidating, Pascal.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Flit, Pocahontas's tiny, grumpy feathered friend, is this kind of bird.",
+          "answer": "A hummingbird",
+          "accept": [
+            "hummingbird",
+            "a hummingbird"
+          ],
+          "choices": [
+            "A hummingbird",
+            "A bluebird",
+            "A finch",
+            "A sparrow"
+          ],
+          "reveal": "The correct answer is... a hummingbird. Small bird, big attitude. He and Meeko the raccoon bicker the whole film.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Benjamin Clawhauser, the donut-loving desk officer in Zootopia, is this kind of animal.",
+          "answer": "A cheetah",
+          "accept": [
+            "cheetah",
+            "a cheetah"
+          ],
+          "choices": [
+            "A cheetah",
+            "A leopard",
+            "A jaguar",
+            "A lynx"
+          ],
+          "reveal": "The correct answer is a cheetah. [chuckles] The fastest land animal, and he spends his whole shift sitting at a desk. Relatable.",
+          "dailyDouble": true
+        },
+        {
+          "value": 1000,
+          "clue": "Mr. Big, Zootopia's tiny but feared crime boss, is this kind of animal.",
+          "answer": "An arctic shrew",
+          "accept": [
+            "arctic shrew",
+            "shrew",
+            "an arctic shrew"
+          ],
+          "choices": [
+            "An arctic shrew",
+            "A dormouse",
+            "A vole",
+            "A mole"
+          ],
+          "reveal": "The correct answer is an arctic shrew. His big bodyguards are polar bears. Do not ice him, and definitely do not laugh.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "rhyme-in-the-jungle",
+      "title": "Rhyme in the Jungle",
+      "kind": "media",
+      "intro": "Time for Rhyme Time, animal edition. I give you two clues, and the answer is two rhyming words. Ready? Steady? [chuckles] Rhyme-y?",
+      "art": {
+        "prompt": "A lush jungle canopy with hanging vines forming swirling musical shapes, colorful parrots, monkeys and butterflies in silhouette. Wide 16:9 composition, original painterly animated-film style artwork, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/wild-kingdom--rhyme-in-the-jungle.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "The Jungle Book's laid-back bear plus a place full of animals in a city.",
+          "answer": "Baloo zoo",
+          "accept": [
+            "baloo zoo"
+          ],
+          "choices": [
+            "Baloo zoo",
+            "Baloo kangaroo",
+            "Bagheera zoo",
+            "Balloon zoo"
+          ],
+          "reveal": "[excited] The correct answer is Baloo zoo. He would not last a day. He would be out looking for the bare necessities.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "The flying baby elephant plus a word for extra large.",
+          "answer": "Dumbo jumbo",
+          "accept": [
+            "dumbo jumbo"
+          ],
+          "choices": [
+            "Dumbo jumbo",
+            "Dumbo gumbo",
+            "Timothy jumbo",
+            "Bumbo jumbo"
+          ],
+          "reveal": "The correct answer is Dumbo jumbo. Bonus fact, his mother is named Mrs. Jumbo. [laughs] So it really runs in the family.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "The Lion King's lovable warthog plus a Cuban ballroom dance.",
+          "answer": "Pumbaa rumba",
+          "accept": [
+            "pumbaa rumba",
+            "pumba rumba"
+          ],
+          "choices": [
+            "Pumbaa rumba",
+            "Timon samba",
+            "Pumbaa mambo",
+            "Rafiki tiki"
+          ],
+          "reveal": "The correct answer is... Pumbaa rumba. The rumba is all about swaying your hips, and Pumbaa was BUILT for it.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "The Jungle Book's hypnotic python plus a place to get a massage.",
+          "answer": "Kaa spa",
+          "accept": [
+            "kaa spa"
+          ],
+          "choices": [
+            "Kaa spa",
+            "Kaa bar",
+            "Shere spa",
+            "Hiss spa"
+          ],
+          "reveal": "The correct answer is Kaa spa. Trust in me, just relax. Then he tries to eat you. [sarcastic] Five stars, would not recommend.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Prince John's slithering royal adviser in Robin Hood plus a smooch.",
+          "answer": "Hiss kiss",
+          "accept": [
+            "hiss kiss",
+            "sir hiss kiss"
+          ],
+          "choices": [
+            "Hiss kiss",
+            "Hiss miss",
+            "Kaa kiss",
+            "Triss kiss"
+          ],
+          "reveal": "The correct answer is Hiss kiss, as in Sir Hiss, voiced by Terry-Thomas. Prince John would never. He is too busy sucking his thumb.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "party-animal-kingdom",
+      "title": "Party Animal Kingdom",
+      "kind": "parks",
+      "intro": "To the parks we go, and only one park will do for a wild night. It is all about Disney's Animal Kingdom.",
+      "art": {
+        "prompt": "A giant sculpted tree covered in carved animal shapes rising over a lush theme park, a snowy Himalayan-style mountain and a safari truck in the distance. Wide 16:9 composition, original painterly animated-film style artwork, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/wild-kingdom--party-animal-kingdom.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This giant artificial tree at the heart of Animal Kingdom has more than 300 animals carved into it.",
+          "answer": "The Tree of Life",
+          "accept": [
+            "tree of life",
+            "the tree of life"
+          ],
+          "choices": [
+            "The Tree of Life",
+            "The Swiss Family Treehouse",
+            "The Great Banyan",
+            "Pride Rock"
+          ],
+          "reveal": "[excited] The correct answer is the Tree of Life. It stands 145 feet tall. Try to spot all the animals and you'll be there until closing.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "On this coaster, you race up a mountain, go BACKWARD in the dark and meet the Yeti.",
+          "answer": "Expedition Everest",
+          "accept": [
+            "expedition everest",
+            "everest"
+          ],
+          "choices": [
+            "Expedition Everest",
+            "Big Thunder Mountain",
+            "Matterhorn Bobsleds",
+            "Kali River Rapids"
+          ],
+          "reveal": "The correct answer is Expedition Everest, Legend of the Forbidden Mountain. The Yeti says hello. [laughs] Loudly.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "You climb into an open-air truck to see giraffes, lions and elephants on this African attraction.",
+          "answer": "Kilimanjaro Safaris",
+          "accept": [
+            "kilimanjaro safaris",
+            "kilimanjaro safari",
+            "safari"
+          ],
+          "choices": [
+            "Kilimanjaro Safaris",
+            "Wildlife Express",
+            "Serengeti Safari",
+            "Jungle Cruise"
+          ],
+          "reveal": "The correct answer is... Kilimanjaro Safaris. Every ride is different, because the animals don't follow a script. Unlike me.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Disney's Animal Kingdom opened on Earth Day in this year.",
+          "answer": "1998",
+          "accept": [
+            "1998",
+            "nineteen ninety eight"
+          ],
+          "choices": [
+            "1998",
+            "1996",
+            "1999",
+            "2001"
+          ],
+          "reveal": "The correct answer is 1998, on April 22nd. Earth Day, naturally. [laughs] Get it? Naturally?",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "This Africa walking trail, renamed Pangani Forest for nearly two decades, went back to its original name in 2016.",
+          "answer": "Gorilla Falls Exploration Trail",
+          "accept": [
+            "gorilla falls exploration trail",
+            "gorilla falls"
+          ],
+          "choices": [
+            "Gorilla Falls Exploration Trail",
+            "Maharajah Jungle Trek",
+            "Discovery Island Trails",
+            "Wild Africa Trek"
+          ],
+          "reveal": "The correct answer is Gorilla Falls Exploration Trail. It was renamed Pangani in 1998, just months after opening, and switched back in 2016.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "hear-the-critter",
+      "title": "Hear the Critter",
+      "kind": "fan",
+      "intro": "[excited] The Club DJ members picked Hear the Critter. Our voice actor reads a famous animal line, you name the animal who said it.",
+      "art": {
+        "prompt": "A vintage studio microphone in the middle of a jungle clearing, surrounded by curious glowing animal eyes in the dark foliage. Wide 16:9 composition, original painterly animated-film style artwork, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/wild-kingdom--hear-the-critter.jpg"
+      },
+      "format": "quote",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Which animal character said this?",
+          "answer": "Dug",
+          "accept": [
+            "dug"
+          ],
+          "choices": [
+            "Dug",
+            "Kevin",
+            "Dante",
+            "Bolt"
+          ],
+          "reveal": "The correct answer is Dug, the talking golden retriever from Up. [excited] SQUIRREL! [clears throat] Sorry, where was I?",
+          "quote": "My name is Dug. I have just met you, and I love you.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Which animal character said this?",
+          "answer": "Thumper",
+          "accept": [
+            "thumper"
+          ],
+          "choices": [
+            "Thumper",
+            "Flower",
+            "Bambi",
+            "Friend Owl"
+          ],
+          "reveal": "The correct answer is Thumper from Bambi, quoting his dad. [laughs] Honestly, solid advice for the comment section.",
+          "quote": "If you can't say something nice, don't say nothing at all.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Which animal character said this?",
+          "answer": "Mushu",
+          "accept": [
+            "mushu"
+          ],
+          "choices": [
+            "Mushu",
+            "Cri-Kee",
+            "Sisu",
+            "Elliott"
+          ],
+          "reveal": "The correct answer is... Mushu, voiced by Eddie Murphy in Mulan. Dishonor on you, dishonor on your cow!",
+          "quote": "Dishonor! Dishonor on your whole family!",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Which animal character said this?",
+          "answer": "Stitch",
+          "accept": [
+            "stitch",
+            "experiment 626"
+          ],
+          "choices": [
+            "Stitch",
+            "Jumba",
+            "Pleakley",
+            "Angel"
+          ],
+          "reveal": "The correct answer is Stitch, Experiment 626, voiced by director Chris Sanders. [chuckles] Little and broken, but still good. Ohana means family.",
+          "dailyDouble": false,
+          "quote": "This is my family. I found it, all on my own."
+        },
+        {
+          "value": 1000,
+          "clue": "Which animal character said this?",
+          "answer": "Chief Bogo",
+          "accept": [
+            "chief bogo",
+            "bogo"
+          ],
+          "choices": [
+            "Chief Bogo",
+            "Mayor Lionheart",
+            "Bellwether",
+            "Mr. Big"
+          ],
+          "reveal": "The correct answer is Chief Bogo, the Cape buffalo, who then tells Judy to let it go. Idris Elba with the Frozen burn.",
+          "quote": "Life isn't some cartoon musical where you sing a little song.",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}

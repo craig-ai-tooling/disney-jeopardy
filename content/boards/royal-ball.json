@@ -1,0 +1,513 @@
+{
+  "id": "royal-ball",
+  "title": "The Royal Ball",
+  "theme": "Royalty",
+  "tags": [
+    "princesses",
+    "royalty",
+    "castles"
+  ],
+  "intro": "[excited] Hear ye, hear ye! Welcome in to a royal edition of Disney Jeopardy. Tonight we have princes, princesses, castles and crowns, so put on your finest ballgown... [chuckles] and try not to lose a slipper on the way out.",
+  "art": {
+    "prompt": "A sparkling palace ballroom at midnight: crystal chandeliers, a sweeping marble staircase, a single glass slipper on the steps, golden light and drifting confetti. Wide 16:9 composition, original painterly animated-film style artwork, no text, no logos, no recognizable copyrighted characters.",
+    "file": "media/royal-ball.jpg"
+  },
+  "categories": [
+    {
+      "id": "tale-as-old-as-time",
+      "title": "Tale as Old as Time",
+      "kind": "film",
+      "intro": "[mischievously] Our first category takes us to a certain enchanted castle in France. It is Beauty and the Beast. Be our guest, put your knowledge to the test.",
+      "art": {
+        "prompt": "An enchanted rose glowing under a glass bell jar on a table in a candlelit castle library, petals drifting, snow falling outside tall windows. Wide 16:9 composition, original painterly animated-film style artwork, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/royal-ball--tale-as-old-as-time.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "The Beast must learn to love before the last petal falls from this enchanted flower.",
+          "answer": "A rose",
+          "accept": [
+            "rose",
+            "a rose",
+            "the rose",
+            "enchanted rose"
+          ],
+          "choices": [
+            "A rose",
+            "A lily",
+            "A tulip",
+            "A daisy"
+          ],
+          "reveal": "[excited] The correct answer is a rose. No pressure, Beast, just find true love before your houseplant dies.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "This motherly teapot sings the film's title song as Belle and the Beast dance in the ballroom.",
+          "answer": "Mrs. Potts",
+          "accept": [
+            "mrs potts",
+            "mrs. potts",
+            "potts"
+          ],
+          "choices": [
+            "Mrs. Potts",
+            "Chip",
+            "Babette",
+            "Madame de la Grande Bouche"
+          ],
+          "reveal": "The correct answer is Mrs. Potts, voiced by Angela Lansbury, who nailed the song in a single take. [laughs] Tale as old as time indeed.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Belle's father, a quirky inventor, gets locked in the castle dungeon.",
+          "answer": "Maurice",
+          "accept": [
+            "maurice"
+          ],
+          "choices": [
+            "Maurice",
+            "Jacques",
+            "Gaston",
+            "LeFou"
+          ],
+          "reveal": "The correct answer is... Maurice. He asked for directions in the woods, which is already more than most dads do.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "This is the name of Belle's loyal horse, who carries her through the woods to find her father.",
+          "answer": "Philippe",
+          "accept": [
+            "philippe",
+            "phillipe",
+            "philip",
+            "phillip"
+          ],
+          "choices": [
+            "Philippe",
+            "Samson",
+            "Maximus",
+            "Frou-Frou"
+          ],
+          "reveal": "The correct answer is Philippe. [chuckles] He outran wolves twice. Somebody get that horse a carrot and a pay raise.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Beauty and the Beast was the first animated feature nominated for this top Academy Award.",
+          "answer": "Best Picture",
+          "accept": [
+            "best picture",
+            "picture"
+          ],
+          "choices": [
+            "Best Picture",
+            "Best Director",
+            "Best Animated Feature",
+            "Best Adapted Screenplay"
+          ],
+          "reveal": "The correct answer is Best Picture, for 1991. The Best Animated Feature award did not even exist until 2001.",
+          "dailyDouble": true
+        }
+      ]
+    },
+    {
+      "id": "crowning-achievements",
+      "title": "Crowning Achievements",
+      "kind": "theme",
+      "intro": "Now a category all about royal kingdoms, titles and family trees. It is called Crowning Achievements. [chuckles] Heavy is the head, folks.",
+      "art": {
+        "prompt": "A row of jeweled crowns and tiaras on velvet cushions in a treasure room, beams of sunlight, banners in royal blue and gold. Wide 16:9 composition, original painterly animated-film style artwork, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/royal-ball--crowning-achievements.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Elsa is crowned queen of this snowy kingdom in Frozen.",
+          "answer": "Arendelle",
+          "accept": [
+            "arendelle",
+            "arendell"
+          ],
+          "choices": [
+            "Arendelle",
+            "Corona",
+            "Weselton",
+            "Agrabah"
+          ],
+          "reveal": "[excited] The correct answer is Arendelle. A lovely place to visit, unless your sister has a bad day. Then pack a sweater.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Princess Jasmine's father rules Agrabah with this royal title.",
+          "answer": "Sultan",
+          "accept": [
+            "sultan",
+            "the sultan"
+          ],
+          "choices": [
+            "Sultan",
+            "Emperor",
+            "Pharaoh",
+            "Shah"
+          ],
+          "reveal": "The correct answer is the Sultan. [laughs] A man who loves toys and crackers, and trusts Jafar way too much.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Moana is the daughter of the chief of this Polynesian island.",
+          "answer": "Motunui",
+          "accept": [
+            "motunui",
+            "motu nui"
+          ],
+          "choices": [
+            "Motunui",
+            "Lalotai",
+            "Te Fiti",
+            "Mauna Loa"
+          ],
+          "reveal": "The correct answer is... Motunui. Everything you need is on the island, except a very bad chicken named Heihei. Okay, he's there too.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Princess Merida is heir to this Scottish clan in Brave.",
+          "answer": "DunBroch",
+          "accept": [
+            "dunbroch",
+            "dun broch",
+            "clan dunbroch"
+          ],
+          "choices": [
+            "DunBroch",
+            "MacGuffin",
+            "Dingwall",
+            "Macintosh"
+          ],
+          "reveal": "The correct answer is DunBroch. [chuckles] The other three clans are MacGuffin, Dingwall and Macintosh, all competing for Merida's hand. She shot that down.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Prince Naveen of The Princess and the Frog comes from this fictional kingdom.",
+          "answer": "Maldonia",
+          "accept": [
+            "maldonia"
+          ],
+          "choices": [
+            "Maldonia",
+            "Corona",
+            "Auradon",
+            "Genovia"
+          ],
+          "reveal": "The correct answer is Maldonia. His parents cut him off, so he ended up a frog in a New Orleans bayou. Rough gap year.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "royal-emoji",
+      "title": "Royal Emoji",
+      "kind": "media",
+      "intro": "Time for some royal hieroglyphics! I will give you a string of emoji and a hint. Name the royal film.",
+      "art": {
+        "prompt": "Playful royal objects floating in a pastel sky: a crown, a castle, a frog wearing a tiny crown made of leaves, a sword in a stone, sparkles, bright cartoon style. Wide 16:9 composition, original painterly animated-film style artwork, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/royal-ball--royal-emoji.jpg"
+      },
+      "format": "emoji",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "❄️👑🏰⛄  Hint: she just could not hold it back anymore.",
+          "answer": "Frozen",
+          "accept": [
+            "frozen"
+          ],
+          "choices": [
+            "Frozen",
+            "Frozen II",
+            "Tangled",
+            "Brave"
+          ],
+          "reveal": "[excited] The correct answer is Frozen. Snowflake, crown, castle, snowman. And now that song is stuck in your head. You're welcome.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "👸🍎😴⛏️  Hint: never take fruit from strangers.",
+          "answer": "Snow White and the Seven Dwarfs",
+          "accept": [
+            "snow white",
+            "snow white and the seven dwarfs"
+          ],
+          "choices": [
+            "Snow White and the Seven Dwarfs",
+            "Sleeping Beauty",
+            "Cinderella",
+            "Enchanted"
+          ],
+          "reveal": "The correct answer is Snow White and the Seven Dwarfs, Disney's very first feature film from 1937. [laughs] Heigh-ho to whoever got that.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "🐸👑💋🎺  Hint: a kiss in New Orleans goes very wrong.",
+          "answer": "The Princess and the Frog",
+          "accept": [
+            "princess and the frog",
+            "the princess and the frog"
+          ],
+          "choices": [
+            "The Princess and the Frog",
+            "The Frog Prince",
+            "Enchanted",
+            "Brave"
+          ],
+          "reveal": "The correct answer is... The Princess and the Frog. The trumpet belongs to Louis, the alligator who just wants to play jazz.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "🗡️🪨👑🦉  Hint: a scrawny boy named Wart.",
+          "answer": "The Sword in the Stone",
+          "accept": [
+            "sword in the stone",
+            "the sword in the stone"
+          ],
+          "choices": [
+            "The Sword in the Stone",
+            "Brave",
+            "The Black Cauldron",
+            "Robin Hood"
+          ],
+          "reveal": "The correct answer is The Sword in the Stone. [chuckles] Wart pulls the sword and becomes King Arthur. The owl is Archimedes, Merlin's very grumpy friend.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "🦊🏹👑👍  Hint: an outlaw versus a thumb-sucking prince.",
+          "answer": "Robin Hood",
+          "accept": [
+            "robin hood"
+          ],
+          "choices": [
+            "Robin Hood",
+            "The Fox and the Hound",
+            "Brave",
+            "Zootopia"
+          ],
+          "reveal": "The correct answer is Robin Hood, from 1973. Prince John sucks his thumb every time someone mentions his mother. Oo-de-lally.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "castle-crashers",
+      "title": "Castle Crashers",
+      "kind": "parks",
+      "intro": "[excited] To the parks we go! Every Disney park needs a castle, so this category is called Castle Crashers. No moats were harmed.",
+      "art": {
+        "prompt": "A fairytale castle with blue and gold spires glowing at dusk, fireworks bursting overhead, a flowered moat bridge in the foreground. Wide 16:9 composition, original painterly animated-film style artwork, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/royal-ball--castle-crashers.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "The castle at the center of Magic Kingdom is named for this princess.",
+          "answer": "Cinderella",
+          "accept": [
+            "cinderella",
+            "cinderella castle"
+          ],
+          "choices": [
+            "Cinderella",
+            "Sleeping Beauty",
+            "Snow White",
+            "Belle"
+          ],
+          "reveal": "[excited] The correct answer is Cinderella. Cinderella Castle has been the heart of Magic Kingdom since 1971.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Disneyland in California has a castle named for this sleepy princess.",
+          "answer": "Sleeping Beauty",
+          "accept": [
+            "sleeping beauty",
+            "aurora",
+            "sleeping beauty castle"
+          ],
+          "choices": [
+            "Sleeping Beauty",
+            "Cinderella",
+            "Snow White",
+            "Rapunzel"
+          ],
+          "reveal": "The correct answer is Sleeping Beauty. It opened with the park in 1955, four years before the movie even came out. [laughs] Talk about a sneak peek.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Shanghai Disneyland's castle, the largest Disney castle, has this name.",
+          "answer": "Enchanted Storybook Castle",
+          "accept": [
+            "enchanted storybook castle",
+            "storybook castle"
+          ],
+          "choices": [
+            "Enchanted Storybook Castle",
+            "Castle of Magical Dreams",
+            "Cinderella Castle",
+            "Sleeping Beauty Castle"
+          ],
+          "reveal": "The correct answer is... the Enchanted Storybook Castle. It does not belong to just one princess. It celebrates all of them.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Hong Kong Disneyland's castle was reimagined in 2020 to honor many Disney princesses and queens under this name.",
+          "answer": "Castle of Magical Dreams",
+          "accept": [
+            "castle of magical dreams"
+          ],
+          "choices": [
+            "Castle of Magical Dreams",
+            "Enchanted Storybook Castle",
+            "Castle of Royal Dreams",
+            "Sleeping Beauty Castle"
+          ],
+          "reveal": "The correct answer is the Castle of Magical Dreams. [chuckles] Each tower celebrates a different princess or queen. Fourteen royals in one castle. Crowded!",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Magic Kingdom's Cinderella Castle stands about this tall, more than double Sleeping Beauty Castle's 77 feet.",
+          "answer": "189 feet",
+          "accept": [
+            "189",
+            "189 feet",
+            "189 ft",
+            "one hundred eighty nine feet"
+          ],
+          "choices": [
+            "189 feet",
+            "150 feet",
+            "199 feet",
+            "225 feet"
+          ],
+          "reveal": "The correct answer is 189 feet. Imagineers used forced perspective so the upper bricks and windows are smaller, making it look even taller.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "royal-remix",
+      "title": "Royal Remix",
+      "kind": "fan",
+      "intro": "[mischievously] The Club DJ members chose Song Combos, royal edition. I have mashed together two royal Disney song titles. Name both songs.",
+      "art": {
+        "prompt": "Two ornate gramophones facing each other on a ballroom floor, golden musical notes swirling and braiding together between them. Wide 16:9 composition, original painterly animated-film style artwork, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/royal-ball--royal-remix.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Let It Go the Distance",
+          "answer": "Let It Go and Go the Distance",
+          "accept": [
+            "let it go and go the distance",
+            "let it go go the distance",
+            "go the distance and let it go"
+          ],
+          "choices": [
+            "Let It Go and Go the Distance",
+            "Let It Go and Into the Unknown",
+            "Let It Go and Reflection",
+            "Go the Distance and Into the Unknown"
+          ],
+          "reveal": "[excited] The correct answer is Let It Go from Frozen and Go the Distance from Hercules. Queen Elsa and a demigod. Now that is a royal duet.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Part of Your Whole New World",
+          "answer": "Part of Your World and A Whole New World",
+          "accept": [
+            "part of your world and a whole new world",
+            "part of your world a whole new world",
+            "a whole new world and part of your world"
+          ],
+          "choices": [
+            "Part of Your World and A Whole New World",
+            "Part of Your World and Under the Sea",
+            "A Whole New World and Prince Ali",
+            "Part of Your World and How Far I'll Go"
+          ],
+          "reveal": "The correct answer is Part of Your World and A Whole New World. Ariel wants legs, Jasmine wants a carpet ride. [laughs] Everyone wants out of the house.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Once Upon a Dream Is a Wish Your Heart Makes",
+          "answer": "Once Upon a Dream and A Dream Is a Wish Your Heart Makes",
+          "accept": [
+            "once upon a dream and a dream is a wish your heart makes",
+            "a dream is a wish your heart makes and once upon a dream"
+          ],
+          "choices": [
+            "Once Upon a Dream and A Dream Is a Wish Your Heart Makes",
+            "Once Upon a Dream and So This Is Love",
+            "A Dream Is a Wish Your Heart Makes and Someday My Prince Will Come",
+            "Once Upon a Dream and I See the Light"
+          ],
+          "reveal": "The correct answer is... Once Upon a Dream from Sleeping Beauty and A Dream Is a Wish Your Heart Makes from Cinderella. Two princesses, one dream.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Almost Something There",
+          "answer": "Almost There and Something There",
+          "accept": [
+            "almost there and something there",
+            "something there and almost there"
+          ],
+          "choices": [
+            "Almost There and Something There",
+            "Almost There and Down in New Orleans",
+            "Something There and Be Our Guest",
+            "Almost There and When Will My Life Begin"
+          ],
+          "reveal": "The correct answer is Almost There from The Princess and the Frog and Something There from Beauty and the Beast. [chuckles] So close, yet there there.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Someday My Prince Ali Will Come",
+          "answer": "Someday My Prince Will Come and Prince Ali",
+          "accept": [
+            "someday my prince will come and prince ali",
+            "prince ali and someday my prince will come"
+          ],
+          "choices": [
+            "Someday My Prince Will Come and Prince Ali",
+            "Some Day and Prince Ali",
+            "Someday My Prince Will Come and Arabian Nights",
+            "So This Is Love and Prince Ali"
+          ],
+          "reveal": "The correct answer is Someday My Prince Will Come from Snow White and Prince Ali from Aladdin. Snow White waited eighty years for that parade.",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}
