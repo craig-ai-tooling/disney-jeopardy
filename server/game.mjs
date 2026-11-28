@@ -230,12 +230,20 @@ export class Room {
     this.broadcast();
   }
 
+  // Fallback in case the TV's readDone never arrives (e.g. a later line interrupted this one).
+  narrate(text, tag) {
+    this.say(text, true, tag);
+    this.setTimer(6000 + plain(text).split(/\s+/).length * 450, () => this.advance());
+    this.broadcast();
+  }
+
   advance() {
-    if (this.phase === 'coldOpen') { this.phase = 'intro'; this.say(`${this.board.intro}`, true, 'intro'); return this.broadcast(); }
-    if (this.phase === 'intro') { this.phase = 'categories'; this.catIdx = 0; this.say(this.board.categories[0].intro, true, 'cat:0'); return this.broadcast(); }
+    this.clearTimer();
+    if (this.phase === 'coldOpen') { this.phase = 'intro'; return this.narrate(`${this.board.intro}`, 'intro'); }
+    if (this.phase === 'intro') { this.phase = 'categories'; this.catIdx = 0; return this.narrate(this.board.categories[0].intro, 'cat:0'); }
     if (this.phase === 'categories') {
       this.catIdx++;
-      if (this.catIdx < 5) { this.say(this.board.categories[this.catIdx].intro, true, `cat:${this.catIdx}`); return this.broadcast(); }
+      if (this.catIdx < 5) return this.narrate(this.board.categories[this.catIdx].intro, `cat:${this.catIdx}`);
       return this.toBoard();
     }
     if (this.phase === 'reveal') return this.afterReveal();
