@@ -1,139 +1,74 @@
 [
   {
-    "film": "Toy Story 2",
-    "category": "Toy Story 2",
-    "clue": "Jessie's heartbreaking flashback song When She Loved Me, written by Randy Newman, is sung by this Canadian singer",
-    "answer": "Sarah McLachlan",
-    "accept": [
-      "sarah mclachlan",
-      "mclachlan",
-      "sarah mclaughlin",
-      "sarah maclachlan"
-    ],
-    "choices": [
-      "Sarah McLachlan",
-      "Celine Dion",
-      "Sheryl Crow",
-      "Bonnie Raitt"
-    ],
-    "reveal": "[sighs] The correct answer is Sarah McLachlan. [dramatic pause] Excuse me, I have something in my eye. Every. Single. Time."
+    "film": "Saving Mr. Banks",
+    "category": "Saving Mr. Banks",
+    "clue": "In this 2013 film, Emma Thompson plays the author who spent years refusing to sell Walt Disney the rights to her famous nanny",
+    "answer": "P. L. Travers",
+    "accept": ["p l travers", "pl travers", "travers", "pamela travers", "pamela lyndon travers"],
+    "choices": ["P. L. Travers", "Dodie Smith", "Beatrix Potter", "Enid Blyton"],
+    "reveal": "The correct answer is P. L. Travers! [chuckles] Tom Hanks played Walt, and it took a LOT of spoonfuls of sugar to win her over."
   },
   {
-    "film": "Finding Dory",
-    "category": "Finding Dory",
-    "clue": "Dory finally reunites with her parents, who have these two names",
-    "answer": "Jenny and Charlie",
-    "accept": [
-      "jenny and charlie",
-      "charlie and jenny",
-      "jenny & charlie"
-    ],
-    "choices": [
-      "Jenny and Charlie",
-      "Coral and Marlin",
-      "Destiny and Bailey",
-      "Becky and Gerald"
-    ],
-    "reveal": "The correct answer is Jenny and Charlie! [excited] And they left a trail of seashells to lead her home. Just keep swimming!"
+    "film": "DuckTales the Movie: Treasure of the Lost Lamp",
+    "category": "DuckTales the Movie",
+    "clue": "In DuckTales the Movie: Treasure of the Lost Lamp, this evil sorcerer hunts Scrooge McDuck for the genie's lamp",
+    "answer": "Merlock",
+    "accept": ["merlock", "merlok"],
+    "choices": ["Merlock", "Dijon", "Flintheart Glomgold", "Magica De Spell"],
+    "reveal": "The correct answer is Merlock! [mischievously] Dijon was just his sneaky little sidekick... and Scrooge was NOT sharing that treasure."
   },
   {
-    "film": "Frozen II",
-    "category": "Frozen II",
-    "clue": "In Frozen II, Elsa tames this water spirit that takes the form of a powerful horse",
-    "answer": "The Nokk",
-    "accept": [
-      "nokk",
-      "the nokk",
-      "nok",
-      "the nok"
-    ],
-    "choices": [
-      "The Nokk",
-      "Gale",
-      "Bruni",
-      "The Kelpie"
-    ],
-    "reveal": "The correct answer is the Nokk! [gasps] Elsa rides it across the Dark Sea. Into the unknoooown!"
+    "film": "Frankenweenie",
+    "category": "Frankenweenie",
+    "clue": "Victor Frankenstein brings his dog Sparky back to life with lightning in this quiet town in Tim Burton's 2012 stop-motion Frankenweenie",
+    "answer": "New Holland",
+    "accept": ["new holland"],
+    "choices": ["New Holland", "Burbank", "Transylvania", "Maple Hill"],
+    "reveal": "[gasps] The correct answer is New Holland! It's ALIVE... and still wagging its stitched-up tail."
   },
   {
-    "film": "Ralph Breaks the Internet",
-    "category": "Ralph Breaks the Internet",
-    "clue": "Vanellope falls in love with this gritty online racing game, where she meets Shank",
-    "answer": "Slaughter Race",
-    "accept": [
-      "slaughter race"
-    ],
-    "choices": [
-      "Slaughter Race",
-      "Hero's Duty",
-      "Sugar Rush",
-      "Turbo Time"
-    ],
-    "reveal": "The correct answer is Slaughter Race! [laughs] Sorry, Sugar Rush. Vanellope needed a new set of wheels."
+    "film": "The Rocketeer",
+    "category": "The Rocketeer",
+    "clue": "In Disney's 1991 film The Rocketeer, stunt pilot Cliff Secord finds a prototype rocket pack stolen from this real-life aviation tycoon",
+    "answer": "Howard Hughes",
+    "accept": ["howard hughes", "hughes"],
+    "choices": ["Howard Hughes", "Jack Northrop", "Glenn Curtiss", "Donald Douglas"],
+    "reveal": "The correct answer is Howard Hughes! [excited] Strap a rocket to your back and SOAR over 1938 Los Angeles!"
   },
   {
-    "film": "Monsters University",
-    "category": "Monsters University",
-    "clue": "Mike and Sulley join this nerdy fraternity to compete in the Scare Games",
-    "answer": "Oozma Kappa",
-    "accept": [
-      "oozma kappa"
-    ],
-    "choices": [
-      "Oozma Kappa",
-      "Roar Omega Roar",
-      "Python Nu Kappa",
-      "Eta Hiss Hiss"
-    ],
-    "reveal": "The correct answer is Oozma Kappa! [chuckles] O.K. More than O.K., actually."
+    "film": "Maleficent",
+    "category": "Maleficent",
+    "clue": "In the 2014 film Maleficent, she saves this raven by turning him into a man, and he becomes her wings",
+    "answer": "Diaval",
+    "accept": ["diaval", "diavel", "diavol"],
+    "choices": ["Diaval", "Diablo", "Stefan", "Corvus"],
+    "reveal": "The correct answer is Diaval! [sarcastic] Diablo was the 1959 raven... this one got an upgrade AND a sense of humor."
   },
   {
-    "film": "Bedknobs and Broomsticks",
-    "category": "Bedknobs and Broomsticks",
-    "clue": "Apprentice witch Eglantine Price searches for this spell that brings objects to life",
-    "answer": "Substitutiary Locomotion",
-    "accept": [
-      "substitutiary locomotion",
-      "substitutionary locomotion"
-    ],
-    "choices": [
-      "Substitutiary Locomotion",
-      "Supercalifragilistic Expialidocious",
-      "Bibbidi-Bobbidi-Boo",
-      "Portobello Road"
-    ],
-    "reveal": "[mischievously] The correct answer is Substitutiary Locomotion! Treguna, mekoides, trecorum, satis dee... watch out, the armor is marching!"
+    "film": "Darby O'Gill and the Little People",
+    "category": "Darby O'Gill and the Little People",
+    "clue": "This future James Bond star sings Pretty Irish Girl in Disney's 1959 Darby O'Gill and the Little People",
+    "answer": "Sean Connery",
+    "accept": ["sean connery", "connery"],
+    "choices": ["Sean Connery", "Roger Moore", "Richard Harris", "Peter O'Toole"],
+    "reveal": "[laughs] The correct answer is Sean Connery! Shaken, not stirred... and singing to leprechauns."
   },
   {
-    "film": "The Rescuers",
-    "category": "The Rescuers",
-    "clue": "At Morningside Orphanage, Penny confides in this kindly old cat",
-    "answer": "Rufus",
-    "accept": [
-      "rufus"
-    ],
-    "choices": [
-      "Rufus",
-      "Figaro",
-      "Sergeant Tibbs",
-      "Toby"
-    ],
-    "reveal": "The correct answer is Rufus! [sighs] He tells Penny to have faith. What a good kitty."
+    "film": "The Tigger Movie",
+    "category": "The Tigger Movie",
+    "clue": "The new songs in 2000's The Tigger Movie were written by this legendary brother duo, who also wrote the original Winnie the Pooh songs",
+    "answer": "The Sherman Brothers",
+    "accept": ["sherman brothers", "the sherman brothers", "shermans", "richard and robert sherman", "robert and richard sherman"],
+    "choices": ["The Sherman Brothers", "Howard Ashman and Alan Menken", "Elton John and Tim Rice", "Kristen Anderson-Lopez and Robert Lopez"],
+    "reveal": "The correct answer is the Sherman Brothers! [excited] Hoo hoo hoo hoo! It was their final film score together."
   },
   {
-    "film": "Pete's Dragon",
-    "category": "Pete's Dragon",
-    "clue": "In the 1977 original, Pete and Elliott arrive in this Maine fishing town with a lighthouse",
-    "answer": "Passamaquoddy",
-    "accept": [
-      "passamaquoddy"
-    ],
-    "choices": [
-      "Passamaquoddy",
-      "Bar Harbor",
-      "Kennebunkport",
-      "Millhaven"
-    ],
-    "reveal": "The correct answer is Passamaquoddy! [laughs] Try saying that five times fast while hiding a dragon."
+    "film": "Rogue One: A Star Wars Story",
+    "category": "Rogue One",
+    "clue": "In Rogue One, the rebels steal the Death Star plans from the Imperial archive on this tropical planet",
+    "answer": "Scarif",
+    "accept": ["scarif", "scariff", "skarif"],
+    "choices": ["Scarif", "Jedha", "Eadu", "Yavin 4"],
+    "reveal": "The correct answer is Scarif! [whispers] Beaches, palm trees... and one VERY bad day for the Empire."
   }
 ]
