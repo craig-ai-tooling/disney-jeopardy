@@ -179,7 +179,7 @@ fun SettingsPanel(ctl: Controller, s: GameState, mem: FocusMemory) {
     @Composable fun Opt(key: String, label: String, on: Boolean, apply: (Settings) -> Settings) =
         TvButton(label, key, mem, secondary = !on, size = 1.15f) { ctl.sendSettings(apply(set)) }
     @Composable fun SetRow(label: String, note: String = "", opts: @Composable () -> Unit) = Row(Modifier.fillMaxWidth().padding(vertical = .7f.vw), verticalAlignment = Alignment.CenterVertically) {
-        Txt(label, 1.4f, Modifier.width(14.vw), color = Gold, align = androidx.compose.ui.text.style.TextAlign.Start)
+        Txt(label, 1.4f, Modifier.width(16.vw).padding(end = 1.vw), color = Gold, align = androidx.compose.ui.text.style.TextAlign.Start)
         Column { FlowRow(horizontalArrangement = Arrangement.spacedBy(.8f.vw), verticalArrangement = Arrangement.spacedBy(.6f.vw)) { opts() }; if (note.isNotEmpty()) Txt(note, 1f, Modifier.padding(top = .4f.vw), color = Color(0xBBFFFFFF), weight = FontWeight.Normal) }
     }
     Scrim {
@@ -188,6 +188,7 @@ fun SettingsPanel(ctl: Controller, s: GameState, mem: FocusMemory) {
             GoldText("Game settings", 3f)
             SetRow("Answers", "Mixed = type or speak the 200s & 400s, multiple choice from 600 up.") { MODES.forEach { (m, l) -> Opt("mode:$m", l, set.mode == m) { it.copy(mode = m) } } }
             SetRow("Wrong answers") { Opt("neg:1", "Lose $", set.negatives) { it.copy(negatives = true) }; Opt("neg:0", "No penalty", !set.negatives) { it.copy(negatives = false) } }
+            SetRow("Host controls pacing", "On = the game waits for OK after each answer.") { Opt("pace:1", "On", !set.autoAdvance) { it.copy(autoAdvance = false) }; Opt("pace:0", "Off", set.autoAdvance) { it.copy(autoAdvance = true) } }
             SetRow("Host voice") { Opt("voice:1", "On", set.voice) { it.copy(voice = true) }; Opt("voice:0", "Off", !set.voice) { it.copy(voice = false) } }
             SetRow("Host") { (listOf("draft") + s.hosts.orEmpty().map { it.id }).forEach { id -> Opt("host:$id", hostLabel(s, id), set.host == id) { it.copy(host = id) } } }
             Txt("Players can turn on \"always multiple choice\" or become moderator on their phones.", 1f, Modifier.padding(top = 1.vw), color = Color(0xBBFFFFFF), weight = FontWeight.Normal)

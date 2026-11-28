@@ -37,8 +37,13 @@ class Controller(private val ctx: Context, tvId: String) {
     var overlay by mutableStateOf<Overlay?>(null)
     var flash by mutableStateOf<String?>(null)
     var flashSeq by mutableIntStateOf(0)
-    var confetti by mutableIntStateOf(0)
-    var confettiSeq by mutableIntStateOf(0)
+    val fx = ConfettiFx()
+    var fxSeq by mutableIntStateOf(0)
+    var verdict by mutableStateOf<VerdictFx?>(null)
+    private var verdictSeq = 0
+    /** Lectern centres in root px, written on layout; read only when a score chip starts flying. */
+    val lecterns = HashMap<String, androidx.compose.ui.geometry.Offset>()
+    private var podiumGen = 0
     var wheelSpin by mutableStateOf(false)
     /** elapsedRealtime at which the server deadline expires (0 = no timer). */
     var deadlineAt by mutableLongStateOf(0L)
@@ -70,7 +75,7 @@ class Controller(private val ctx: Context, tvId: String) {
     fun send(t: String, vararg extra: Pair<String, Any?>) = client.send(t, *extra)
     fun sendSettings(s: Settings) = client.send("settings", "settings" to JsonObject(mapOf(
         "mode" to JsonPrimitive(s.mode), "negatives" to JsonPrimitive(s.negatives), "voice" to JsonPrimitive(s.voice),
-        "host" to JsonPrimitive(s.host), "buzzMs" to JsonPrimitive(s.buzzMs),
+        "host" to JsonPrimitive(s.host), "buzzMs" to JsonPrimitive(s.buzzMs), "autoAdvance" to JsonPrimitive(s.autoAdvance),
     )))
 
     private fun refreshInfo() {
@@ -126,7 +131,7 @@ class Controller(private val ctx: Context, tvId: String) {
             if (ph == "buzzing") sfx.play("open")
             if (ph == "ddWager") sfx.play("dd")
             sfx.think(ph == "finalThink")
-            if (ph == "podium") { sfx.play("fanfare"); burst(200); setMood(Mood.celebrate, 8000) }
+            if (ph == "podium") { sfx.play("fanfare"); podiumShow(); setMood(Mood.celebrate, 8000) }
             if (ph == "hostDraft") { pitchIdx = 0; send("pitch", "i" to 0) }
             if (ph == "finalWheel") { wheelSpin = false; main.postDelayed({ wheelSpin = true }, 300) }
         }
@@ -137,7 +142,7 @@ class Controller(private val ctx: Context, tvId: String) {
         val pr = if (sameClue) p?.clue?.results?.size ?: 0 else 0
         if (nr > pr) {
             val last = s.clue!!.results[nr - 1]
-            if (last.verdict == "correct") { sfx.play("correct"); doFlash("correct"); if (s.clue.dailyDouble) burst(80) }
+            if (last.verdict == "correct") { sfx.play("correct"); doFlash("correct"); if (s.clue.dailyDouble) { fx.cannons(220, .9f); fxSeq++ } }
             else if (last.verdict == "wrong") { sfx.play("wrong"); doFlash("wrong") }
         }
         val fr = s.fin?.results.orEmpty()
@@ -147,11 +152,29 @@ class Controller(private val ctx: Context, tvId: String) {
             list.withIndex().firstOrNull { (i, r) -> r.verdict in setOf("correct", "wrong") && r.verdict != before.getOrNull(i)?.verdict }?.value
         val r = settled(s.clue?.results.orEmpty(), if (sameClue) p?.clue?.results.orEmpty() else emptyList())
             ?: settled(fr, p?.fin?.results.orEmpty())
-        if (r != null) setMood(if (r.verdict == "correct") Mood.celebrate else Mood.wrong, 4000)
+        if (r != null) {
+            setMood(if (r.verdict == "correct") Mood.celebrate else Mood.wrong, 4000)
+            val inFinal = r !in s.clue?.results.orEmpty()
+            // The real score change: overrides and penalty settings make it differ from the clue value.
+            val amount = (s.players.firstOrNull { it.id == r.pid }?.score ?: 0) - (p?.players?.firstOrNull { it.id == r.pid }?.score ?: 0)
+            val answer = if (inFinal) r.heard else s.clue?.answer ?: r.heard
+            verdict = VerdictFx(++verdictSeq, r.pid, r.verdict == "correct", amount, answer)
+            if (r.verdict == "correct") { fx.puff(.5f, .42f, 70); fxSeq++ }
+        }
     }
 
     private fun doFlash(kind: String) { flash = kind; flashSeq++ }
-    private fun burst(n: Int) { confetti = n; confettiSeq++ }
+
+    /** Podium: both cannons, then firework shells for ~8 s and a second volley. */
+    private fun podiumShow() {
+        val gen = ++podiumGen
+        fx.cannons(440, 1.1f); fxSeq++
+        val rnd = java.util.Random()
+        for (i in 0 until 13) main.postDelayed({
+            if (gen == podiumGen && state?.phase == "podium") { fx.firework(.15f + rnd.nextFloat() * .7f, .12f + rnd.nextFloat() * .3f); fxSeq++ }
+        }, 350L + i * 600L)
+        main.postDelayed({ if (gen == podiumGen && state?.phase == "podium") { fx.cannons(260, 1f); fxSeq++ } }, 3800)
+    }
 
     /** Warm the caches with everything this board (and the next clue) will show. */
     private fun prefetch(s: GameState) {

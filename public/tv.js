@@ -195,11 +195,14 @@ const P = (id) => S.players.find((p) => p.id === id);
 const pname = (id) => esc(P(id)?.name || '?');
 
 // Gold logo-style headline: the element's own text is the blue outline, ::after paints the gold.
+const okHint = () => (S.settings?.autoAdvance === false ? '<div class="okhint">Press OK to continue</div>' : '');
+const BADGE_MARK = { correct: '<path class="mk" d="M11 21l6 6 12-13"/>', wrong: '<path class="mk" d="M14 14l12 12M26 14l-12 12"/>', close: '<text class="q" x="20" y="28" text-anchor="middle">?</text>' };
+const badge = (v) => { const k = BADGE_MARK[v] ? v : 'wrong'; return `<svg class="vb vb-${k}" viewBox="0 0 40 40" aria-label="${k}"><circle class="rim" cx="20" cy="20" r="19"/><circle class="face" cx="20" cy="20" r="15.5"/><circle class="ring" cx="20" cy="20" r="13.2"/><path class="glare" d="M9 15a12 12 0 0 1 10-8"/>${BADGE_MARK[k]}</svg>`; };
 const gt = (text, cls = '') => `<span class="goldtxt ${cls}" data-t="${esc(text)}">${esc(text)}</span>`;
 
 function scores(hl) {
   if (!S.players.length) return '';
-  return `<div class="scores">${S.players.map((p) => `<div class="score ${p.id === S.control ? 'ctrl' : ''} ${p.id === hl ? 'buzzed' : ''} ${p.online ? '' : 'off'}" style="--c:${p.color}">
+  return `<div class="scores">${S.players.map((p) => `<div data-pid="${p.id}" class="score ${lecternFx[p.id] > Date.now() ? lecternFx[p.id + ':c'] : ''} ${p.id === S.control ? 'ctrl' : ''} ${p.id === hl ? 'buzzed' : ''} ${p.online ? '' : 'off'}" style="--c:${p.color}">
     ${avatarImg(p.avatar)}<div class="sc"><div class="s ${p.score < 0 ? 'neg' : ''}">${money(p.score)}</div><div class="n">${esc(p.name)}</div></div></div>`).join('')}</div>`;
 }
 
@@ -252,6 +255,7 @@ function settingsPanel() {
   return `<div class="overlay settings"><div class="setpanel"><h1 class="ovtitle">${gt('Game settings')}</h1>
     ${row('Answers', Object.entries(MODES).map(([m, l]) => opt(`mode:${m}`, { mode: m }, l, set.mode === m)).join(''), 'Mixed = type or speak the 200s & 400s, multiple choice from 600 up.')}
     ${row('Wrong answers', opt('neg:1', { negatives: true }, 'Lose $', set.negatives) + opt('neg:0', { negatives: false }, 'No penalty', !set.negatives))}
+    ${row('Host controls pacing', opt('pace:1', { autoAdvance: false }, 'On', set.autoAdvance === false) + opt('pace:0', { autoAdvance: true }, 'Off', set.autoAdvance !== false), 'On = the game waits for OK after each answer.')}
     ${row('Host voice', opt('voice:1', { voice: true }, 'On', set.voice) + opt('voice:0', { voice: false }, 'Off', !set.voice))}
     ${row('Host', ['draft', ...(S.hosts || []).map((h) => h.id)].map((id) => opt(`host:${id}`, { host: id }, hostLabel(id), set.host === id)).join(''))}
     <div class="note" style="margin-top:1vw">Players can turn on "always multiple choice" or become moderator on their phones.</div>
@@ -319,10 +323,10 @@ function clue() {
   let reveal = '';
   if (ph === 'reveal') {
     reveal = `<div class="answer">${esc(c.answer)}</div><div class="reveal">${esc(c.reveal)}</div>
-      <div class="results">${c.results.map((r) => `<div style="--c:${P(r.pid)?.color}">${pname(r.pid)}: “${esc(r.heard || '—')}” ${r.verdict === 'correct' ? '✅' : r.verdict === 'close' ? '🤔' : '❌'} <button class="secondary" style="font-size:.9vw;padding:.2vw .6vw" data-nav data-act="override" data-pid="${r.pid}" data-c="${r.verdict === 'correct' ? 0 : 1}">${r.verdict === 'correct' ? 'undo' : 'accept'}</button></div>`).join('')}</div>
+      <div class="results">${c.results.map((r) => `<div style="--c:${P(r.pid)?.color}">${pname(r.pid)}: “${esc(r.heard || '—')}” ${badge(r.verdict)} <button class="secondary" style="font-size:.9vw;padding:.2vw .6vw" data-nav data-act="override" data-pid="${r.pid}" data-c="${r.verdict === 'correct' ? 0 : 1}">${r.verdict === 'correct' ? 'undo' : 'accept'}</button></div>`).join('')}</div>
       ${S.ruling ? `<div class="ruling">${S.ruling.challenge ? 'Challenge! ' : ''}${pname(S.ruling.pid)} said “${esc(S.ruling.heard)}” — ${S.ruling.by === 'moderator' ? `waiting for moderator ${pname(S.ruling.voters[0])}` : `players are voting (${S.ruling.votes}/${S.ruling.voters.length})`}…</div>` : ''}
-      ${S.lastRuling && !S.ruling && S.lastRuling.pid ? `<div class="ruling">Ruling: ${S.lastRuling.accept ? 'ACCEPTED ✅' : 'REJECTED ❌'}</div>` : ''}
-      <button data-nav data-act="next" style="margin-top:1.2vw">Continue ▶</button>`;
+      ${S.lastRuling && !S.ruling && S.lastRuling.pid ? `<div class="ruling">Ruling: ${badge(S.lastRuling.accept ? 'correct' : 'wrong')} ${S.lastRuling.accept ? 'ACCEPTED' : 'REJECTED'}</div>` : ''}
+      <button data-nav data-act="next" data-default style="margin-top:1.2vw">Continue ▶</button>${okHint()}`;
   }
   return `<div class="clue ${c.media || c.palette ? 'withmedia' : ''}">
     <div class="meta"><span>${esc(c.category)}</span><span>${c.dailyDouble ? `Daily Double · ${money(c.wager ?? 0)}` : money(c.value)}</span></div>
@@ -360,9 +364,9 @@ function final() {
     return `<div class="clue"><div class="meta"><span>Final Jeopardy · ${esc(F.film)}</span><span></span></div>
       <div class="text" style="font-size:2vw;opacity:.85">${esc(F.clue)}</div>
       ${F.answerShown ? `<div class="answer">${esc(F.answer)}</div><div class="reveal">${esc(F.reveal || '')}</div>` : ''}
-      <div class="results">${F.results.map((r) => `<div style="--c:${P(r.pid)?.color}">${pname(r.pid)}: “${esc(r.heard || '—')}” ${r.verdict === 'correct' ? '✅' : r.verdict === 'close' ? '🤔' : '❌'} · wagered ${money(F.wagers[r.pid] || 0)}</div>`).join('')}</div>
+      <div class="results">${F.results.map((r) => `<div style="--c:${P(r.pid)?.color}">${pname(r.pid)}: “${esc(r.heard || '—')}” ${badge(r.verdict)} · wagered ${money(F.wagers[r.pid] || 0)}</div>`).join('')}</div>
       ${S.ruling ? `<div class="ruling">Close call! ${S.ruling.by === 'moderator' ? 'Moderator' : 'Players'} deciding…</div>` : ''}
-      <button data-nav data-act="next" style="margin-top:1.2vw">${F.step + 1 < F.order.length ? 'Next player ▶' : F.answerShown ? 'Crown the champion! 👑' : 'Reveal the answer ▶'}</button>
+      <button data-nav data-act="next" style="margin-top:1.2vw">${F.step + 1 < F.order.length ? 'Next player ▶' : F.answerShown ? 'Crown the champion! ★' : 'Reveal the answer ▶'}</button>${okHint()}
       </div>${scores(cur?.pid)}`;
   }
   return '';
@@ -380,14 +384,79 @@ function podium() {
     <button data-nav data-key="newGame" data-act="newGame" data-default>Play another episode ▶</button></div>`;
 }
 
-function confetti(n = 120) {
-  const colors = ['#ffd34d', '#4fc3ff', '#ff6fae', '#7dff8a', '#c08cff', '#fff'];
-  for (let i = 0; i < n; i++) {
-    const d = document.createElement('div'); d.className = 'confetti';
-    d.style.left = `${Math.random() * 100}vw`; d.style.background = colors[i % colors.length];
-    d.style.animationDuration = `${2.5 + Math.random() * 2.5}s`; d.style.animationDelay = `${Math.random() * 1.2}s`;
-    document.body.appendChild(d); setTimeout(() => d.remove(), 6500);
+// Canvas confetti: corner cannons with gravity + drag, flipping paper, glitter, a few Mickey heads, firework shells.
+const fx = (() => {
+  const cv = document.createElement('canvas'); cv.id = 'fx'; document.body.appendChild(cv);
+  const g = cv.getContext('2d'); const A = 16 / 9; let P = [], S2 = [], raf = 0, last = 0;
+  const COL = ['#ffd34d', '#ffb300', '#4fc3ff', '#2457f5', '#ff6fae', '#e53935', '#7dff8a', '#c08cff', '#ffffff'];
+  const SPK = ['#ffe27a', '#ff8ad8', '#7fd8ff', '#ffffff', '#ff6a3d'];
+  const DRAG = [3, 1.7, 2.6];
+  const rnd = Math.random;
+  const add = (x, y, vx, vy, wait, k) => P.push({ x, y, vx, vy, t: -wait, k, rot: rnd() * 6.3, vr: (rnd() - .5) * 15, fl: rnd() * 6.3, vf: 5 + rnd() * 9, ph: rnd() * 6.3,
+    s: k === 1 ? .007 + rnd() * .005 : k === 2 ? .02 + rnd() * .008 : .012 + rnd() * .009, c: k === 1 ? (rnd() < .7 ? 0 : 8) : k === 2 ? 0 : (rnd() * COL.length) | 0, l: rnd() < .3 ? .6 : rnd() < .6 ? 1 : 1.4 });
+  const kind = () => { const r = rnd(); return r < .75 ? 0 : r < .96 ? 1 : 2; };
+  function loop(now) {
+    const dt = Math.min(.05, (now - last) / 1000 || .016); last = now;
+    if (cv.width !== innerWidth || cv.height !== innerHeight) { cv.width = innerWidth; cv.height = innerHeight; }
+    const W = cv.width, H = cv.height, u = W / A;
+    g.clearRect(0, 0, W, H);
+    for (const p of P) {
+      p.t += dt; if (p.t < 0) continue;
+      const d = DRAG[p.k]; p.vy += dt; p.vx -= p.vx * d * dt; p.vy -= p.vy * d * dt;
+      const fall = Math.max(0, Math.min(1, p.vy / .3));
+      p.x += p.vx * dt + Math.sin(p.ph + p.t * 2.6) * .16 * dt * fall; p.y += p.vy * dt; p.rot += p.vr * dt * (.4 + .6 * fall); p.fl += p.vf * dt;
+      const s = p.s * H * p.l, f = Math.cos(p.fl);
+      g.setTransform(f, 0, 0, 1, p.x * u, p.y * H); g.rotate(p.rot);
+      g.globalAlpha = p.l < 1 ? .7 : 1; g.fillStyle = COL[p.c];
+      if (p.k === 0) { g.fillRect(-s / 2, -s * .32, s, s * .64); g.fillStyle = `rgba(${f > 0 ? '255,255,255' : '0,0,0'},${.35 * (1 - Math.abs(f))})`; g.fillRect(-s / 2, -s * .32, s, s * .64); }
+      else if (p.k === 1) { g.globalAlpha = .4 + .6 * Math.abs(Math.sin(p.t * 9 + p.ph)); g.fillRect(-s * .6, -s * .1, s * 1.2, s * .2); g.fillRect(-s * .1, -s * .6, s * .2, s * 1.2); }
+      else { g.beginPath(); g.arc(0, 0, s * .4, 0, 6.3); g.arc(-s * .4, -s * .4, s * .26, 0, 6.3); g.arc(s * .4, -s * .4, s * .26, 0, 6.3); g.fill(); }
+    }
+    g.setTransform(1, 0, 0, 1, 0, 0); g.globalAlpha = 1; g.globalCompositeOperation = 'lighter'; g.lineCap = 'round';
+    for (const q of S2) {
+      q.t += dt; q.vy += .32 * dt; q.vx -= q.vx * 1.5 * dt; q.vy -= q.vy * 1.5 * dt; q.x += q.vx * dt; q.y += q.vy * dt;
+      const a = (1 - q.t / q.m) ** 2; g.strokeStyle = q.c; g.globalAlpha = Math.max(0, a); g.lineWidth = H * .0032;
+      g.beginPath(); g.moveTo(q.x * u, q.y * H); g.lineTo((q.x - q.vx * .09) * u, (q.y - q.vy * .09) * H); g.stroke();
+    }
+    g.globalCompositeOperation = 'source-over'; g.globalAlpha = 1;
+    P = P.filter((p) => !(p.y > 1.08 && p.vy > 0) && p.t < 11); S2 = S2.filter((q) => q.t < q.m);
+    raf = P.length || S2.length ? requestAnimationFrame(loop) : (g.clearRect(0, 0, W, H), 0);
   }
+  const start = () => { if (!raf) { last = performance.now(); raf = requestAnimationFrame(loop); } };
+  return {
+    cannons(n, power = 1) {
+      for (let i = 0; i < n; i++) { const left = i % 2 === 0, a = (60 + (rnd() - .5) * 22) * Math.PI / 180, sp = (2.4 + rnd() * 1.3) * power;
+        add(left ? -.01 : A + .01, 1.01, Math.cos(a) * sp * (left ? 1 : -1), -Math.sin(a) * sp, rnd() * .35, kind()); }
+      start();
+    },
+    firework(cx, cy) {
+      const c = SPK[(rnd() * SPK.length) | 0];
+      for (let i = 0; i < 80; i++) { const a = i * 6.283 / 80, sp = .5 + rnd() * .28; S2.push({ x: cx * A, y: cy, vx: Math.cos(a) * sp, vy: Math.sin(a) * sp, t: 0, m: 1.1 + rnd() * .7, c: rnd() < .8 ? c : '#fff' }); }
+      start();
+    },
+  };
+})();
+let podiumGen = 0;
+function podiumFx() {
+  const gen = ++podiumGen; fx.cannons(260, 1.1);
+  for (let i = 0; i < 12; i++) setTimeout(() => { if (gen === podiumGen && S.phase === 'podium') fx.firework(.15 + Math.random() * .7, .12 + Math.random() * .3); }, 350 + i * 650);
+  setTimeout(() => { if (gen === podiumGen && S.phase === 'podium') fx.cannons(160); }, 3800);
+}
+const lecternFx = {};
+function hitLectern(pid, cls, lost) {
+  lecternFx[pid] = Date.now() + 900; lecternFx[pid + ':c'] = cls;
+  const el = $(`.score[data-pid="${pid}"]`); if (el) { el.classList.remove(cls); void el.offsetWidth; el.classList.add(cls); }
+  if (lost > 0 && el) { const r = el.getBoundingClientRect(); const d = document.createElement('div'); d.className = 'lostamt'; d.textContent = `–${money(lost)}`;
+    d.style.left = `${r.left + r.width / 2}px`; d.style.top = `${r.top}px`; document.body.appendChild(d); setTimeout(() => d.remove(), 1500); }
+}
+function verdictBanner(r, answer, amount) {
+  const p = P(r.pid); if (!p) return;
+  $('.vbanner')?.remove();
+  const b = document.createElement('div'); b.className = 'vbanner';
+  b.innerHTML = `<div class="rays"></div><div class="ribbon">${avatarImg(p.avatar, 'bav')}${gt(p.name)}</div>
+    ${answer ? `<div class="banswer">${gt(answer)}</div>` : ''}${S.clue?.buzzOrder?.[0]?.pid === r.pid ? `<div class="bfast">Fastest finger · ${(S.clue.buzzOrder[0].rt / 1000).toFixed(2)}s</div>` : ''}${amount > 0 ? `<div class="bchip">+${money(amount)}</div>` : ''}`;
+  document.body.appendChild(b); setTimeout(() => b.remove(), 3200);
+  setTimeout(() => hitLectern(r.pid, 'gain'), 1500);
 }
 function flash(kind) { const f = $('#flash'); f.className = ''; void f.offsetWidth; f.className = kind; }
 
@@ -396,7 +465,17 @@ function hostReact() {
   const settled = (list = [], before = []) => list.find((r, i) => ['correct', 'wrong'].includes(r.verdict) && r.verdict !== before[i]?.verdict);
   const r = settled(S.clue?.results, prev.clue?.id === S.clue?.id ? prev.clue?.results : [])
     || settled(S.final?.results, prev.final?.results);
-  if (r) hostMood(r.verdict === 'correct' ? 'celebrate' : 'wrong', 4000);
+  if (!r) return;
+  hostMood(r.verdict === 'correct' ? 'celebrate' : 'wrong', 4000);
+  const inFinal = !S.clue?.results?.includes(r);
+  // Show the real score change: overrides and penalty settings make it differ from the clue value.
+  const delta = (P(r.pid)?.score ?? 0) - (prev.players?.find((x) => x.id === r.pid)?.score ?? 0);
+  if (r.verdict === 'correct') verdictBanner(r, inFinal ? r.heard : S.clue?.answer || r.heard, Math.max(delta, 0));
+  else {
+    document.body.classList.remove('glitching'); void document.body.offsetWidth; document.body.classList.add('glitching');
+    setTimeout(() => document.body.classList.remove('glitching'), 800);
+    setTimeout(() => hitLectern(r.pid, 'shake', Math.max(-delta, 0)), 0);
+  }
 }
 function effects() {
   const ph = S.phase, pp = prev.phase;
@@ -405,13 +484,13 @@ function effects() {
     if (ph === 'buzzing') sfx('open');
     if (ph === 'ddWager') sfx('dd');
     if (ph === 'finalThink') thinkMusic(34);
-    if (ph === 'podium') { sfx('fanfare'); confetti(200); hostMood('celebrate', 8000); }
+    if (ph === 'podium') { sfx('fanfare'); podiumFx(); hostMood('celebrate', 8000); }
     if (ph === 'hostDraft') { pitchIdx = 0; sock.send({ t: 'pitch', i: 0 }); }
     if (ph === 'finalWheel') setTimeout(() => { const w = $('#wheel'); if (w) w.style.transform = `rotate(${w.dataset.target}deg)`; }, 300);
   }
   if (ph === 'answering' && pp !== 'answering') sfx('buzz');
   const nr = S.clue?.results.length || 0, pr = prev.clue?.id === S.clue?.id ? prev.clue?.results.length || 0 : 0;
-  if (nr > pr) { const last = S.clue.results[nr - 1]; if (last.verdict === 'correct') { sfx('correct'); flash('correct'); if (S.clue.dailyDouble) confetti(80); } else if (last.verdict === 'wrong') { sfx('wrong'); flash('wrong'); } }
+  if (nr > pr) { const last = S.clue.results[nr - 1]; if (last.verdict === 'correct') { sfx('correct'); flash('correct'); if (S.clue.dailyDouble) fx.cannons(160, .9); } else if (last.verdict === 'wrong') { sfx('wrong'); flash('wrong'); } }
   if (S.final?.results.length > (prev.final?.results.length || 0)) { const r = S.final.results.at(-1); sfx(r.verdict === 'correct' ? 'correct' : 'wrong'); }
   hostReact();
   // Zoom clues start tight on a random spot and slowly pull back.

@@ -31,6 +31,7 @@ data class GameState(
 @Serializable data class Settings(
     val mode: String = "mixed", val moderator: String? = null, val negatives: Boolean = true,
     val voice: Boolean = true, val host: String = "draft", val buzzMs: Int = 9000,
+    val autoAdvance: Boolean = true,
 )
 @Serializable data class Player(
     val id: String, val name: String = "", val score: Int = 0, val color: String = "#ffcf3f",
@@ -52,7 +53,9 @@ data class GameState(
     val choices: List<String>? = null, val eliminated: List<String> = emptyList(), val attempted: List<String> = emptyList(),
     val answerer: String? = null, val mode: String? = null, val buzzOpen: Boolean = false, val buzzMs: Double? = null,
     val answer: String? = null, val reveal: String? = null, val results: List<Result> = emptyList(),
+    val buzzOrder: List<Buzz> = emptyList(),
 )
+@Serializable data class Buzz(val pid: String = "", val rt: Int = 0)
 @Serializable data class Ruling(val pid: String = "", val heard: String? = null, val by: String = "vote", val voters: List<String> = emptyList(), val votes: Int = 0, val challenge: Boolean = false)
 @Serializable data class LastRuling(val pid: String? = null, val accept: Boolean = false, val yes: Int = 0, val no: Int = 0)
 @Serializable data class Final(

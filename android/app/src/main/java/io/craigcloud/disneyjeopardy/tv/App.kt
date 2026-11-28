@@ -147,7 +147,8 @@ private fun Game(ctl: Controller, s: GameState) {
             Overlay.settings -> { val m = ctl.mem(screen); SettingsPanel(ctl, s, m); RestoreFocus(m, s, screen) }
             null -> preview = null
         }
+        VerdictBanner(ctl)
         Flash(ctl)
-        Confetti(ctl)
+        FxLayer(ctl)
     }
 }
