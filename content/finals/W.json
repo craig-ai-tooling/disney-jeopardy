@@ -1,138 +1,140 @@
 [
   {
-    "film": "Treasure Planet",
-    "category": "Treasure Planet",
-    "clue": "Jim Hawkins sails the stars to find Flint's trove aboard this solar-sailing galleon, captained by Amelia.",
-    "answer": "The RLS Legacy",
+    "film": "Winnie the Pooh",
+    "category": "Winnie the Pooh",
+    "clue": "Owl misreads Christopher Robin's note saying he'll be back soon, and the friends hunt this imaginary monster.",
+    "answer": "The Backson",
     "accept": [
-      "rls legacy",
-      "the rls legacy",
-      "legacy",
-      "the legacy"
+      "backson",
+      "the backson",
+      "a backson"
     ],
     "choices": [
-      "The RLS Legacy",
-      "The Hispaniola",
-      "The Black Pearl",
-      "The Ulysses"
+      "The Backson",
+      "The Heffalump",
+      "The Woozle",
+      "The Jagular"
     ],
-    "reveal": "The correct answer is the RLS Legacy! [excited] RLS for Robert Louis Stevenson. The Hispaniola was the ship in his original novel."
+    "reveal": "The correct answer is the Backson! [laughs] Back soon... Backson. Silly old Owl. Heffalumps and Woozles were a whole other scare."
   },
   {
-    "film": "The Rescuers",
-    "category": "The Rescuers",
-    "clue": "Bernard and Bianca are agents of this mouse organization that meets in the basement of the United Nations building.",
-    "answer": "The Rescue Aid Society",
+    "film": "The Lion King II: Simba's Pride",
+    "category": "The Lion King II: Simba's Pride",
+    "clue": "Zira raises this young lion to be Scar's heir, but he falls for Simba's daughter Kiara instead.",
+    "answer": "Kovu",
     "accept": [
-      "rescue aid society",
-      "the rescue aid society"
+      "kovu"
     ],
     "choices": [
-      "The Rescue Aid Society",
-      "The Mouse Rescue League",
-      "The International Mouse Guild",
-      "The Society of Brave Mice"
+      "Kovu",
+      "Nuka",
+      "Kion",
+      "Kopa"
     ],
-    "reveal": "The correct answer is the Rescue Aid Society! [chuckles] The world's most adorable international spy agency."
+    "reveal": "The correct answer is Kovu! [excited] Love will find a way. Nuka is his scruffy older brother."
   },
   {
-    "film": "Chicken Little",
-    "category": "Chicken Little",
-    "clue": "Chicken Little's widowed dad, a former baseball star, has this name.",
-    "answer": "Buck Cluck",
+    "film": "High School Musical",
+    "category": "High School Musical",
+    "clue": "Sharpay Evans' twin brother, her partner in every school show, is named this.",
+    "answer": "Ryan Evans",
     "accept": [
-      "buck cluck",
-      "buck"
+      "ryan",
+      "ryan evans"
     ],
     "choices": [
-      "Buck Cluck",
-      "Turkey Lurkey",
-      "Foxy Loxy",
-      "Morkubine Porcupine"
+      "Ryan Evans",
+      "Chad Danforth",
+      "Zeke Baylor",
+      "Jason Cross"
     ],
-    "reveal": "The correct answer is Buck Cluck! [laughs] Garry Marshall voiced him. Turkey Lurkey is the mayor."
+    "reveal": "The correct answer is Ryan Evans! [laughs] Fabulous hats, fabulous moves. Chad is Troy's best friend."
   },
   {
-    "film": "Frozen II",
-    "category": "Frozen II",
-    "clue": "In the Enchanted Forest, Elsa befriends the fire spirit, a little salamander with this name.",
-    "answer": "Bruni",
+    "film": "Descendants",
+    "category": "Descendants",
+    "clue": "Mal, Evie, Jay and Carlos leave this island prison for villains to attend Auradon Prep.",
+    "answer": "The Isle of the Lost",
     "accept": [
-      "bruni"
+      "isle of the lost",
+      "the isle of the lost",
+      "isle of lost"
     ],
     "choices": [
-      "Bruni",
-      "Gale",
-      "Nokk",
-      "Sven"
+      "The Isle of the Lost",
+      "The Isle of Misfit Villains",
+      "Skull Island",
+      "Pleasure Island"
     ],
-    "reveal": "The correct answer is Bruni! [excited] Gale is the wind and the Nokk is the water horse. Snowflakes for Bruni!"
+    "reveal": "The correct answer is the Isle of the Lost! [mischievously] Rotten to the core... and now headed to prep school."
   },
   {
-    "film": "Toy Story 3",
-    "category": "Toy Story 3",
-    "clue": "Andy's toys end up at this daycare, ruled by a strawberry-scented bear.",
-    "answer": "Sunnyside Daycare",
+    "film": "Planes",
+    "category": "Planes",
+    "clue": "Dusty Crophopper's mentor, a gruff Navy Corsair who flew in World War II, has this name.",
+    "answer": "Skipper",
     "accept": [
-      "sunnyside",
-      "sunnyside daycare"
+      "skipper",
+      "skipper riley"
     ],
     "choices": [
-      "Sunnyside Daycare",
-      "Sunnydale Daycare",
-      "Happy Hills Preschool",
-      "Butterfly Room Daycare"
+      "Skipper",
+      "El Chupacabra",
+      "Ripslinger",
+      "Bulldog"
     ],
-    "reveal": "The correct answer is Sunnyside Daycare! [sarcastic] Sunny? Not with Lotso in charge. The Butterfly Room is just one room there."
+    "reveal": "The correct answer is Skipper! [excited] Skipper Riley. Ripslinger is the villain, El Chupacabra is the dashing Mexican racer."
   },
   {
-    "film": "Finding Dory",
-    "category": "Finding Dory",
-    "clue": "The Marine Life Institute in Finding Dory is in this real California coastal town.",
-    "answer": "Morro Bay",
+    "film": "The Mighty Ducks",
+    "category": "The Mighty Ducks",
+    "clue": "Before they became the Ducks, Gordon Bombay's peewee hockey team was known by this district number.",
+    "answer": "District 5",
     "accept": [
-      "morro bay"
+      "district 5",
+      "district five",
+      "5",
+      "five"
     ],
     "choices": [
-      "Morro Bay",
-      "Monterey",
-      "San Diego",
-      "Santa Cruz"
+      "District 5",
+      "District 9",
+      "District 12",
+      "District 3"
     ],
-    "reveal": "The correct answer is Morro Bay! [whispers] Dory always remembered... the jewel of Morro Bay, California."
+    "reveal": "The correct answer is District 5! [laughs] Quack, quack, quack! Emilio Estevez coached them to glory."
   },
   {
-    "film": "Ralph Breaks the Internet",
-    "category": "Ralph Breaks the Internet",
-    "clue": "Vanellope falls for this gritty online racing game, home of the street racer Shank.",
-    "answer": "Slaughter Race",
+    "film": "Holes",
+    "category": "Holes",
+    "clue": "Stanley Yelnats is sent to dig holes all day at this camp, which has no lake and nothing green.",
+    "answer": "Camp Green Lake",
     "accept": [
-      "slaughter race"
+      "camp green lake",
+      "green lake"
     ],
     "choices": [
-      "Slaughter Race",
-      "Sugar Rush",
-      "Hero's Duty",
-      "Fix-It Felix Jr."
+      "Camp Green Lake",
+      "Camp Crystal Lake",
+      "Camp Silver Springs",
+      "Camp Dry Gulch"
     ],
-    "reveal": "The correct answer is Slaughter Race! [laughs] Sugar Rush was her home game. Gal Gadot voiced Shank."
+    "reveal": "The correct answer is Camp Green Lake! [sarcastic] Great name, no lake. Stanley's name is a palindrome, by the way."
   },
   {
-    "film": "Monsters University",
-    "category": "Monsters University",
-    "clue": "Mike and Sulley join this nerdy fraternity to compete in the Scare Games.",
-    "answer": "Oozma Kappa",
+    "film": "Peter Pan: Return to Never Land",
+    "category": "Peter Pan: Return to Never Land",
+    "clue": "In this 2002 sequel, Captain Hook kidnaps this daughter of Wendy, mistaking her for her mother.",
+    "answer": "Jane",
     "accept": [
-      "oozma kappa",
-      "ok",
-      "ozma kappa"
+      "jane"
     ],
     "choices": [
-      "Oozma Kappa",
-      "Roar Omega Roar",
-      "Jaws Theta Chi",
-      "Python Nu Kappa"
+      "Jane",
+      "Wendy",
+      "Margaret",
+      "Tiger Lily"
     ],
-    "reveal": "The correct answer is Oozma Kappa! [excited] OK for short. Roar Omega Roar were the cool kids."
+    "reveal": "The correct answer is Jane! [excited] Wendy's daughter. She doesn't believe in fairies... at first."
   }
 ]
