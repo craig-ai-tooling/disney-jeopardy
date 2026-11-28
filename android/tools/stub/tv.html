@@ -1,0 +1,75 @@
+<!doctype html>
+<!-- Test page for the TV app: shows remote keys, bridge state and autoplay results.
+     Serve with `python3 -m http.server 8000` from tools/stub, then on the emulator:
+     adb shell am start -n io.craigcloud.disneyjeopardy/.MainActivity -e url http://10.0.2.2:8000/tv.html -->
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>DJ TV stub</title>
+<style>
+ body{margin:0;background:#0a0f3c;color:#fff;font:22px/1.4 sans-serif;padding:32px}
+ h1{color:#ffd45a;margin:0 0 12px} .row{display:flex;gap:32px} .box{background:#141a5c;border-radius:12px;padding:16px;flex:1}
+ #log{font:18px monospace;white-space:pre;height:330px;overflow:hidden} .ok{color:#7CFC9A} .bad{color:#ff7b7b}
+ #level{font-weight:bold}
+</style></head><body>
+<h1>Disney Jeopardy - TV app stub</h1>
+<div class="row">
+ <div class="box">
+  <div>URL: <span id="url"></span></div>
+  <div>DJ_TV: <span id="bridge"></span></div>
+  <div>Audio autoplay: <span id="audio">pending</span></div>
+  <div>Video autoplay: <span id="video">pending</span></div>
+  <div>TTS: <span id="tts">pending</span></div>
+  <div>Theme pack: <span id="theme">pending</span></div>
+  <div>Page level: <span id="level"></span> (Enter toggles; Escape goes up)</div>
+  <video id="v" muted="false" playsinline width="320" height="180"></video>
+ </div>
+ <div class="box"><b>Keys</b><div id="log"></div></div>
+</div>
+<script>
+const $ = id => document.getElementById(id);
+$('url').textContent = location.href;
+const lines = [];
+function log(s){ lines.unshift(new Date().toISOString().slice(11,23)+' '+s); $('log').textContent = lines.slice(0,14).join('\n'); }
+function mark(id, ok, msg){ $(id).textContent = msg; $(id).className = ok ? 'ok' : 'bad'; }
+function bridgeInfo(){ const b = window.DJ_TV; $('bridge').textContent = b ? `isTV=${b.isTV} version=${b.version} tts=${b.hasTTS && b.hasTTS()}` : 'missing'; }
+bridgeInfo(); window.addEventListener('djtvready', () => { log('event djtvready'); bridgeInfo(); });
+
+// Theme pack: ?v=1 should come from the APK (X-DJ-Theme header), a newer ?v=999 must fall through to this server.
+Promise.all(['/theme/manifest.json?v=1', '/theme/manifest.json?v=999'].map(u =>
+  fetch(u).then(r => `${u.split('?')[1]}: ${r.status} ${r.headers.get('X-DJ-Theme') || 'network'}`).catch(e => `${u}: ${e.name}`)))
+  .then(rs => mark('theme', rs[0].includes('bundled') && !rs[1].includes('bundled'), rs.join(' | ')));
+
+// Board <-> clue "screens": top level means BACK should exit the app.
+let atTop = true;
+function setLevel(t){ atTop = t; $('level').textContent = t ? 'TOP (board)' : 'CLUE'; window.DJ_TV && DJ_TV.setTopLevel(t); }
+setLevel(true);
+document.addEventListener('keydown', e => {
+  if (e.key.startsWith('Arrow')) e.preventDefault();
+  log(`keydown key=${e.key} code=${e.code} keyCode=${e.keyCode} trusted=${e.isTrusted}`);
+  if (e.key === 'Enter') setLevel(!atTop);
+  if (e.key === 'Escape') setLevel(true);
+});
+document.addEventListener('keyup', e => log(`keyup   key=${e.key}`));
+
+// Audio: WebAudio tone + <audio> element generated as a WAV, both without a user gesture.
+function wav(sec, hz){
+  const rate = 22050, n = rate*sec, buf = new ArrayBuffer(44+n*2), d = new DataView(buf);
+  const w = (o,s) => [...s].forEach((c,i)=>d.setUint8(o+i,c.charCodeAt(0)));
+  w(0,'RIFF'); d.setUint32(4,36+n*2,true); w(8,'WAVEfmt '); d.setUint32(16,16,true); d.setUint16(20,1,true); d.setUint16(22,1,true);
+  d.setUint32(24,rate,true); d.setUint32(28,rate*2,true); d.setUint16(32,2,true); d.setUint16(34,16,true); w(36,'data'); d.setUint32(40,n*2,true);
+  for (let i=0;i<n;i++) d.setInt16(44+i*2, Math.sin(2*Math.PI*hz*i/rate)*8000*Math.min(1,(n-i)/2000), true);
+  return URL.createObjectURL(new Blob([buf],{type:'audio/wav'}));
+}
+const a = new Audio(wav(1.2, 660));
+a.play().then(() => mark('audio', true, 'playing (no gesture)')).catch(e => mark('audio', false, 'blocked: '+e.name));
+a.onended = () => log('audio ended');
+
+// Video with sound track: canvas stream is silent, so use the same WAV through a <video> element.
+const v = $('v'); v.muted = false; v.src = wav(1, 440);
+v.play().then(() => mark('video', true, 'playing unmuted (no gesture)')).catch(e => mark('video', false, 'blocked: '+e.name));
+
+window.onDJSpeakDone = id => { mark('tts', true, 'spoke, onDJSpeakDone('+id+')'); log('onDJSpeakDone '+id); };
+setTimeout(() => {
+  if (window.DJ_TV) { $('tts').textContent = 'speaking…'; DJ_TV.speak('Welcome to Disney Jeopardy! This category is for one thousand.', 1.0, 1.0); }
+  else mark('tts', false, 'no bridge');
+}, 1500);
+</script></body></html>
