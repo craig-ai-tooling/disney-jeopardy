@@ -88,21 +88,19 @@
   {
     "film": "The Mighty Ducks",
     "category": "The Mighty Ducks",
-    "clue": "Before they became the Ducks, Gordon Bombay's peewee hockey team was known by this district number.",
-    "answer": "District 5",
+    "clue": "This actor plays Gordon Bombay, the hotshot lawyer forced to coach a hopeless peewee hockey team.",
+    "answer": "Emilio Estevez",
     "accept": [
-      "district 5",
-      "district five",
-      "5",
-      "five"
+      "emilio estevez",
+      "estevez"
     ],
     "choices": [
-      "District 5",
-      "District 9",
-      "District 12",
-      "District 3"
+      "Emilio Estevez",
+      "Charlie Sheen",
+      "Rob Lowe",
+      "Matthew Broderick"
     ],
-    "reveal": "The correct answer is District 5! [laughs] Quack, quack, quack! Emilio Estevez coached them to glory."
+    "reveal": "The correct answer is Emilio Estevez! [laughs] Quack, quack, quack! Charlie Sheen is his brother, which is the trap here."
   },
   {
     "film": "Holes",
