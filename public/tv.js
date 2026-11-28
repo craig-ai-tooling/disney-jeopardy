@@ -120,7 +120,7 @@ function restoreFocus() {
   // Until the viewer moves, follow the screen's default (e.g. Start once the first player joins).
   if (screen === lastScreen && els.includes(cur) && (mem?.user || cur === defaultEl(els))) return reveal(cur);
   if (screen === lastScreen && !mem?.user) return focusEl(defaultEl(els));
-  focusEl((mem && (els.find((e) => keyOf(e) === mem.key) || nearest(els, mem.rect))) || defaultEl(els));
+  focusEl((mem?.user && (els.find((e) => keyOf(e) === mem.key) || nearest(els, mem.rect))) || defaultEl(els));
 }
 document.addEventListener('focusin', (e) => {
   const el = e.target.closest?.('[data-nav]'); if (!el || !screen) return;
