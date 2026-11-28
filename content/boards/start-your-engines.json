@@ -456,7 +456,11 @@
             "sixty-five",
             "sixty five",
             "65 miles per hour",
-            "sixty five miles per hour"
+            "sixty five miles per hour",
+            "64.9",
+            "64.9 mph",
+            "64.9 miles per hour",
+            "about 65 mph"
           ],
           "choices": [
             "65 mph",
