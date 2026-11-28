@@ -1,0 +1,523 @@
+{
+  "id": "galaxy-far-away",
+  "title": "A Galaxy Far, Far Away",
+  "theme": "Star Wars and outer space",
+  "tags": [
+    "star wars",
+    "space",
+    "sci-fi"
+  ],
+  "intro": "[dramatic pause] A long time ago, in a living room far, far away... [excited] it's our space episode! Buckle up, cadets, twenty-six clues are coming in at LIGHT SPEED.",
+  "art": {
+    "prompt": "A grand starfield with a swirling purple and teal nebula, twin suns setting over a desert spaceport with domed adobe buildings, a sleek retro rocket and distant planets. Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
+    "file": "media/galaxy-far-away.jpg"
+  },
+  "categories": [
+    {
+      "id": "directive-wall-e",
+      "title": "Directive: WALL-E",
+      "kind": "film",
+      "intro": "Our film category is WALL-E, the little trash-compacting robot with a big heart. [chuckles] Five clues, zero garbage. Well... mostly.",
+      "art": {
+        "prompt": "A sunset over towering stacks of compacted cube-shaped trash on an abandoned Earth city, a single green seedling growing in an old boot in the foreground. Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
+        "file": "media/galaxy-far-away--directive-wall-e.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In WALL-E, the lonely trash robot falls head over treads for this sleek white probe droid",
+          "answer": "EVE",
+          "accept": [
+            "eve",
+            "e.v.e."
+          ],
+          "choices": [
+            "EVE",
+            "M-O",
+            "AUTO",
+            "BURN-E"
+          ],
+          "reveal": "The correct answer is EVE! [laughs] Her name stands for Extraterrestrial Vegetation Evaluator. Romantic, right?",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "WALL-E's only friend on Earth is a tough little pet that's one of these indestructible insects",
+          "answer": "A cockroach",
+          "accept": [
+            "cockroach",
+            "a cockroach",
+            "roach"
+          ],
+          "choices": [
+            "A cockroach",
+            "A ladybug",
+            "A cricket",
+            "A beetle"
+          ],
+          "reveal": "The correct answer is a cockroach. [sarcastic] Nothing says cute sidekick like the one creature that survives EVERYTHING.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "The humans in WALL-E have spent 700 years aboard this giant luxury starliner",
+          "answer": "The Axiom",
+          "accept": [
+            "the axiom",
+            "axiom"
+          ],
+          "choices": [
+            "The Axiom",
+            "The Nostromo",
+            "The Ark",
+            "The Galaxia"
+          ],
+          "reveal": "The correct answer is the Axiom. Floating chairs, smoothies in a cup, never walking anywhere... [sighs] honestly it sounds like a cruise I'd book.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "WALL-E learns about love by watching a worn VHS tape of this 1969 movie musical",
+          "answer": "Hello, Dolly!",
+          "accept": [
+            "hello, dolly!",
+            "hello dolly",
+            "hello dolly!"
+          ],
+          "choices": [
+            "Hello, Dolly!",
+            "The Sound of Music",
+            "Singin' in the Rain",
+            "Mary Poppins"
+          ],
+          "reveal": "The correct answer is Hello, Dolly! WALL-E plays Put On Your Sunday Clothes on repeat. [chuckles] A robot with excellent taste.",
+          "dailyDouble": true
+        },
+        {
+          "value": 1000,
+          "clue": "This comedic actor played Buy n Large CEO Shelby Forthright, making him the first live-action star in a Pixar feature",
+          "answer": "Fred Willard",
+          "accept": [
+            "fred willard",
+            "willard"
+          ],
+          "choices": [
+            "Fred Willard",
+            "Eugene Levy",
+            "John Ratzenberger",
+            "Bob Odenkirk"
+          ],
+          "reveal": "The correct answer is Fred Willard! [excited] Pixar's first live-action role ever. Stay the course, everybody... stay the course.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "far-far-away",
+      "title": "A Galaxy Far, Far Away",
+      "kind": "theme",
+      "intro": "[whispers] Use the Force... because this category is all about Star Wars. The Force is strong with this one, hopefully.",
+      "art": {
+        "prompt": "Twin suns setting over vast desert dunes with a lonely domed homestead, starships streaking across a dusky sky, epic space-opera mood. Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
+        "file": "media/galaxy-far-away--far-far-away.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Luke Skywalker's famous father is this black-masked Sith Lord",
+          "answer": "Darth Vader",
+          "accept": [
+            "darth vader",
+            "vader",
+            "anakin skywalker",
+            "anakin"
+          ],
+          "choices": [
+            "Darth Vader",
+            "Darth Maul",
+            "Kylo Ren",
+            "Emperor Palpatine"
+          ],
+          "reveal": "The correct answer is Darth Vader! [laughs] Nooooo! Sorry, spoiler alert for a movie from 1980.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "The adorable green foundling fans first called 'Baby Yoda' is actually named this",
+          "answer": "Grogu",
+          "accept": [
+            "grogu",
+            "din grogu"
+          ],
+          "choices": [
+            "Grogu",
+            "Yaddle",
+            "Nubs",
+            "Gonk"
+          ],
+          "reveal": "The correct answer is Grogu! [excited] He was revealed by name in season two of The Mandalorian. Cutest thing in the galaxy, and he eats frog eggs like popcorn.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Chewbacca, Han Solo's furry co-pilot, belongs to this tall species from the planet Kashyyyk",
+          "answer": "Wookiee",
+          "accept": [
+            "wookiee",
+            "wookie",
+            "a wookiee"
+          ],
+          "choices": [
+            "Wookiee",
+            "Ewok",
+            "Gungan",
+            "Jawa"
+          ],
+          "reveal": "The correct answer is a Wookiee! [chuckles] Pro tip: let the Wookiee win at holochess. Trust me on this.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In A New Hope, Princess Leia's peaceful home planet is destroyed by the Death Star",
+          "answer": "Alderaan",
+          "accept": [
+            "alderaan",
+            "alderan"
+          ],
+          "choices": [
+            "Alderaan",
+            "Naboo",
+            "Dantooine",
+            "Corellia"
+          ],
+          "reveal": "The correct answer is Alderaan. [sighs] Leia even gave up the location of a decoy base to try to save it. Tarkin did NOT keep his promise.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "George Lucas sold Lucasfilm, and Star Wars with it, to Disney in this year",
+          "answer": "2012",
+          "accept": [
+            "2012",
+            "twenty twelve",
+            "two thousand twelve",
+            "two thousand and twelve"
+          ],
+          "choices": [
+            "2012",
+            "2009",
+            "2015",
+            "2006"
+          ],
+          "reveal": "The correct answer is 2012, for about four billion dollars. [laughs] Mickey Mouse with a lightsaber. Best purchase ever.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "alphabetize-galaxy",
+      "title": "Alphabetize the Galaxy",
+      "kind": "media",
+      "intro": "Alphabetize the Galaxy! I give you four out-of-this-world names, you tell me which comes FIRST or LAST alphabetically. [mischievously] No humming the alphabet song... out loud.",
+      "art": {
+        "prompt": "Glowing holographic alphabet blocks floating in deep space among asteroids and stars, arranged in a neat row, playful sci-fi mood. Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
+        "file": "media/galaxy-far-away--alphabetize-galaxy.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Which comes FIRST alphabetically: Yoda, Leia, Chewbacca, Rey?",
+          "answer": "Chewbacca",
+          "accept": [
+            "chewbacca",
+            "chewie"
+          ],
+          "choices": [
+            "Chewbacca",
+            "Leia",
+            "Rey",
+            "Yoda"
+          ],
+          "reveal": "The correct answer is Chewbacca! C beats L, R and Y. [laughs] And honestly, Chewie beats most things.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Which comes LAST alphabetically: Hoth, Endor, Naboo, Tatooine?",
+          "answer": "Tatooine",
+          "accept": [
+            "tatooine"
+          ],
+          "choices": [
+            "Tatooine",
+            "Naboo",
+            "Hoth",
+            "Endor"
+          ],
+          "reveal": "The correct answer is Tatooine. Last in the alphabet, but first in sand. [sighs] Coarse, rough, irritating sand.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Which comes FIRST alphabetically: Stitch, WALL-E, EVE, Buzz Lightyear?",
+          "answer": "Buzz Lightyear",
+          "accept": [
+            "buzz lightyear",
+            "buzz"
+          ],
+          "choices": [
+            "Buzz Lightyear",
+            "EVE",
+            "Stitch",
+            "WALL-E"
+          ],
+          "reveal": "The correct answer is Buzz Lightyear! To the front of the line... and beyond!",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Which comes LAST alphabetically: Mandalorian, Millennium Falcon, Mace Windu, Maz Kanata?",
+          "answer": "Millennium Falcon",
+          "accept": [
+            "millennium falcon",
+            "millenium falcon",
+            "the millennium falcon"
+          ],
+          "choices": [
+            "Millennium Falcon",
+            "Maz Kanata",
+            "Mandalorian",
+            "Mace Windu"
+          ],
+          "reveal": "The correct answer is the Millennium Falcon. All four start with M-A or M-I, and I comes after A. [chuckles] She may not look like much, but she's got it where it counts.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Which comes FIRST alphabetically: Kylo Ren, Kessel, Kashyyyk, Kenobi?",
+          "answer": "Kashyyyk",
+          "accept": [
+            "kashyyyk",
+            "kashyyk",
+            "kashyk"
+          ],
+          "choices": [
+            "Kashyyyk",
+            "Kenobi",
+            "Kessel",
+            "Kylo Ren"
+          ],
+          "reveal": "The correct answer is Kashyyyk! K-A beats K-E and K-Y. [laughs] Bonus points if you can spell it. Three Ys, people. THREE.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "galaxys-edge",
+      "title": "Galaxy's Edge and Beyond",
+      "kind": "parks",
+      "intro": "Our Disney Parks category is Galaxy's Edge and Beyond: space-age attractions from Batuu to Tomorrowland. [excited] Punch it!",
+      "art": {
+        "prompt": "A bustling alien marketplace at dusk with towering petrified stone spires, glowing lanterns, a parked weathered freighter starship and droids' workshops. Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
+        "file": "media/galaxy-far-away--galaxys-edge.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This Magic Kingdom roller coaster sends riders racing through the dark of outer space",
+          "answer": "Space Mountain",
+          "accept": [
+            "space mountain"
+          ],
+          "choices": [
+            "Space Mountain",
+            "Big Thunder Mountain",
+            "Splash Mountain",
+            "Expedition Everest"
+          ],
+          "reveal": "The correct answer is Space Mountain! It opened in Magic Kingdom in 1975. [whispers] And yes, it's even scarier in the dark... which is the whole time.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "A gleaming white ribbed cone-shaped futuristic building glowing at night under a starry sky, with soft blue lights and a sleek monorail track nearby. Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
+            "file": "media/galaxy-far-away--galaxys-edge-200.jpg"
+          }
+        },
+        {
+          "value": 400,
+          "clue": "At Savi's Workshop in Galaxy's Edge, guests build their very own one of these glowing weapons",
+          "answer": "A lightsaber",
+          "accept": [
+            "lightsaber",
+            "a lightsaber",
+            "light saber"
+          ],
+          "choices": [
+            "A lightsaber",
+            "A blaster",
+            "A thermal detonator",
+            "A bowcaster"
+          ],
+          "reveal": "The correct answer is a lightsaber! [excited] Your kyber crystal sets the color. Mine would be gold, obviously. Very sparkly.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "On Smugglers Run, crews of six pilot, shoot and engineer aboard this famous ship",
+          "answer": "The Millennium Falcon",
+          "accept": [
+            "the millennium falcon",
+            "millennium falcon",
+            "falcon"
+          ],
+          "choices": [
+            "The Millennium Falcon",
+            "The Ghost",
+            "Slave I",
+            "The Razor Crest"
+          ],
+          "reveal": "The correct answer is the Millennium Falcon! [laughs] Pilots, please be gentle. The engineers are the ones who get blamed when you crash.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Star Wars: Galaxy's Edge is set in Black Spire Outpost on this remote planet",
+          "answer": "Batuu",
+          "accept": [
+            "batuu"
+          ],
+          "choices": [
+            "Batuu",
+            "Jakku",
+            "Lothal",
+            "Takodana"
+          ],
+          "reveal": "The correct answer is Batuu! A planet on the edge of Wild Space. Locals say Bright suns instead of good morning. Bright suns, everybody!",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "Tall jagged petrified tree-trunk stone spires towering over a sandstone alien village with domed buildings, string lights, and a dusky orange sky. Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
+            "file": "media/galaxy-far-away--galaxys-edge-800.jpg"
+          }
+        },
+        {
+          "value": 1000,
+          "clue": "DJ R-3X, spinning tunes at Oga's Cantina, used to be the pilot droid on this original Disney attraction",
+          "answer": "Star Tours",
+          "accept": [
+            "star tours"
+          ],
+          "choices": [
+            "Star Tours",
+            "Mission: SPACE",
+            "Space Mountain",
+            "Smugglers Run"
+          ],
+          "reveal": "The correct answer is Star Tours! [chuckles] Rex was a famously terrible pilot, so the cantina really is the best career move for everyone.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "infinity-beyond",
+      "title": "To Infinity and Beyond",
+      "kind": "fan",
+      "intro": "Our fan category is To Infinity and Beyond: space adventures from all over the Disney universe. [excited] Ready for launch? Three, two, one...",
+      "art": {
+        "prompt": "A child's bedroom ceiling painted with stars and planets, a toy rocket launching through a window into a real starry galaxy with ringed planets. Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
+        "file": "media/galaxy-far-away--infinity-beyond.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Finish Buzz Lightyear's famous catchphrase: 'To infinity and...'",
+          "answer": "Beyond",
+          "accept": [
+            "beyond",
+            "and beyond"
+          ],
+          "choices": [
+            "Beyond",
+            "Back",
+            "Forever",
+            "Further"
+          ],
+          "reveal": "The correct answer is beyond! [laughs] Buzz, buddy, you're a toy. But we love the confidence.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "This tree-like member of the Guardians of the Galaxy only ever says three words, his own name included",
+          "answer": "Groot",
+          "accept": [
+            "groot",
+            "baby groot"
+          ],
+          "choices": [
+            "Groot",
+            "Rocket",
+            "Drax",
+            "Yondu"
+          ],
+          "reveal": "The correct answer is Groot! I am Groot. [chuckles] Which, roughly translated, means: great answer, partner.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Disney's 2002 film Treasure Planet reimagines this Robert Louis Stevenson adventure novel in outer space",
+          "answer": "Treasure Island",
+          "accept": [
+            "treasure island"
+          ],
+          "choices": [
+            "Treasure Island",
+            "Kidnapped",
+            "Robinson Crusoe",
+            "Twenty Thousand Leagues Under the Sea"
+          ],
+          "reveal": "The correct answer is Treasure Island. Long John Silver is a cyborg, the ships have solar sails... [excited] it's pirates in SPACE, people!",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In Lightyear, Buzz's robotic companion is a cat named this",
+          "answer": "Sox",
+          "accept": [
+            "sox",
+            "socks"
+          ],
+          "choices": [
+            "Sox",
+            "Mittens",
+            "Comet",
+            "Orbit"
+          ],
+          "reveal": "The correct answer is Sox, voiced by Peter Sohn, who later directed Elemental. [whispers] Personally, I'd adopt Sox in a heartbeat.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Disney's first PG-rated film, this 1979 sci-fi tale follows the crew of the USS Cygnus near a cosmic void",
+          "answer": "The Black Hole",
+          "accept": [
+            "the black hole",
+            "black hole"
+          ],
+          "choices": [
+            "The Black Hole",
+            "The Cat from Outer Space",
+            "Tron",
+            "Unidentified Flying Oddball"
+          ],
+          "reveal": "The correct answer is The Black Hole! [dramatic pause] It's still one of the darkest, weirdest movies Disney ever made. Maximilian the robot, shudder.",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}

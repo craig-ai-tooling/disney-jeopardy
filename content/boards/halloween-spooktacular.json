@@ -1,0 +1,551 @@
+{
+  "id": "halloween-spooktacular",
+  "title": "Halloween Spooktacular",
+  "theme": "Halloween",
+  "tags": [
+    "holiday",
+    "halloween",
+    "spooky"
+  ],
+  "intro": "[mischievously] Welcome, foolish mortals... to our Halloween Spooktacular! [laughs] Twenty-six clues are creeping your way, so grab your candy bucket and try not to SCREAM.",
+  "art": {
+    "prompt": "A moonlit pumpkin patch beside a crooked haunted mansion on a hill, glowing jack-o-lanterns, swirling purple fog, a full orange moon, playful spooky family-friendly mood. Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
+    "file": "media/halloween-spooktacular.jpg"
+  },
+  "categories": [
+    {
+      "id": "spell-on-you",
+      "title": "I Put a Spell on You",
+      "kind": "film",
+      "intro": "[dramatic pause] Our film category... is the 1993 cult classic Hocus Pocus! Amok, amok, amok, let's go.",
+      "art": {
+        "prompt": "A candlelit old colonial witch cottage at night with a bubbling cauldron, a leather spell book with an eye on its cover, and a single candle burning with a black flame. Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
+        "file": "media/halloween-spooktacular--spell-on-you.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In Hocus Pocus, the three witch sisters Winifred, Mary and Sarah share this last name",
+          "answer": "Sanderson",
+          "accept": [
+            "sanderson",
+            "the sanderson sisters",
+            "sandersons"
+          ],
+          "choices": [
+            "Sanderson",
+            "Sullivan",
+            "Spellman",
+            "Salem"
+          ],
+          "reveal": "[cackles] The correct answer is Sanderson! The Sanderson sisters, played by Bette Midler, Kathy Najimy and Sarah Jessica Parker. Run, Amok, amok!",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Thackery Binx is cursed to live forever as this animal after trying to save his sister",
+          "answer": "A black cat",
+          "accept": [
+            "black cat",
+            "a black cat",
+            "cat",
+            "a cat"
+          ],
+          "choices": [
+            "A black cat",
+            "A raven",
+            "A toad",
+            "A bat"
+          ],
+          "reveal": "The correct answer is a black cat. [sighs] Three hundred years of guarding a house with no snacks. That's the REAL curse.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Hocus Pocus is set on Halloween night in this Massachusetts town famous for its witch history",
+          "answer": "Salem",
+          "accept": [
+            "salem",
+            "salem massachusetts"
+          ],
+          "choices": [
+            "Salem",
+            "Boston",
+            "Sleepy Hollow",
+            "Plymouth"
+          ],
+          "reveal": "The correct answer is Salem, Massachusetts. Fans still visit Max's house there every October. Just... don't light any candles, okay?",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Max brings the witches back to life by lighting this enchanted candle",
+          "answer": "The Black Flame Candle",
+          "accept": [
+            "black flame candle",
+            "the black flame candle",
+            "black flame"
+          ],
+          "choices": [
+            "The Black Flame Candle",
+            "The Witch's Wick",
+            "The Midnight Candle",
+            "The Moon Candle"
+          ],
+          "reveal": "The correct answer is the Black Flame Candle. [gasps] Max, buddy, ONE rule. Don't light the spooky candle. One rule!",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "This actor, famous for playing creatures under heavy makeup, played the zombie Billy Butcherson",
+          "answer": "Doug Jones",
+          "accept": [
+            "doug jones"
+          ],
+          "choices": [
+            "Doug Jones",
+            "Andy Serkis",
+            "Ron Perlman",
+            "Tim Curry"
+          ],
+          "reveal": "The correct answer is Doug Jones, who also played the Faun in Pan's Labyrinth. Billy's mouth was sewn shut, so his best acting was all in the eyebrows. [chuckles]",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "villains-after-dark",
+      "title": "Villains After Dark",
+      "kind": "theme",
+      "intro": "When the sun goes down, the villains come out to play. [whispers] Villains After Dark... keep the lights on for this one.",
+      "art": {
+        "prompt": "Green magical fire and swirling smoke around a dark throne room silhouette, a spinning wheel, a crystal ball and scattered tarot cards under a stormy sky. Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
+        "file": "media/halloween-spooktacular--villains-after-dark.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Cruella De Vil wants to turn 99 of these spotted puppies into a fur coat",
+          "answer": "Dalmatians",
+          "accept": [
+            "dalmatians",
+            "dalmatian",
+            "dalmatian puppies"
+          ],
+          "choices": [
+            "Dalmatians",
+            "Beagles",
+            "Poodles",
+            "Corgis"
+          ],
+          "reveal": "The correct answer is Dalmatians! [sarcastic] Cruella, sweetie, have you tried a nice sweater? Way fewer puppies involved.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "This Sleeping Beauty villain with curved horns calls herself the 'Mistress of All Evil'",
+          "answer": "Maleficent",
+          "accept": [
+            "maleficent"
+          ],
+          "choices": [
+            "Maleficent",
+            "The Evil Queen",
+            "Ursula",
+            "Lady Tremaine"
+          ],
+          "reveal": "The correct answer is Maleficent. All because she didn't get an invite to a christening. Lesson learned: ALWAYS invite the fairy with horns.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "This smooth-talking New Orleans villain in The Princess and the Frog has 'friends on the other side'",
+          "answer": "Dr. Facilier",
+          "accept": [
+            "dr. facilier",
+            "dr facilier",
+            "facilier",
+            "the shadow man",
+            "doctor facilier"
+          ],
+          "choices": [
+            "Dr. Facilier",
+            "Ray",
+            "Lawrence",
+            "Big Daddy La Bouff"
+          ],
+          "reveal": "The correct answer is Dr. Facilier, the Shadow Man, voiced by Keith David. [chuckles] His shadow honestly has more personality than most people I know.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Hades sends this pair of bumbling, shape-shifting imp minions to get rid of baby Hercules",
+          "answer": "Pain and Panic",
+          "accept": [
+            "pain and panic",
+            "panic and pain"
+          ],
+          "choices": [
+            "Pain and Panic",
+            "Flotsam and Jetsam",
+            "Jasper and Horace",
+            "Shenzi and Banzai"
+          ],
+          "reveal": "The correct answer is Pain and Panic! [laughs] Pain was voiced by Bobcat Goldthwait and Panic by Matt Frewer. Not exactly employees of the month.",
+          "dailyDouble": true
+        },
+        {
+          "value": 1000,
+          "clue": "The Headless Horseman gallops after Ichabod Crane in this 1949 Disney package film",
+          "answer": "The Adventures of Ichabod and Mr. Toad",
+          "accept": [
+            "the adventures of ichabod and mr. toad",
+            "adventures of ichabod and mr toad",
+            "ichabod and mr. toad",
+            "ichabod and mr toad"
+          ],
+          "choices": [
+            "The Adventures of Ichabod and Mr. Toad",
+            "Fun and Fancy Free",
+            "Melody Time",
+            "Make Mine Music"
+          ],
+          "reveal": "The correct answer is The Adventures of Ichabod and Mr. Toad. Bing Crosby narrates the Sleepy Hollow half, and yes... that pumpkin STILL scares me.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "zoom-o-ween",
+      "title": "Zoom-O-Ween",
+      "kind": "media",
+      "intro": "Zoom-O-Ween! [excited] I'll show you a spooky scene REALLY zoomed in, then slowly pull back. Name the Disney film as fast as you can.",
+      "art": {
+        "prompt": "An antique magnifying glass hovering over a mysterious spooky landscape at dusk, with tiny glowing pumpkins and bats reflected in the lens. Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
+        "file": "media/halloween-spooktacular--zoom-o-ween.jpg"
+      },
+      "format": "zoom",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Zoom out and name the film this spooky scene comes from",
+          "answer": "The Nightmare Before Christmas",
+          "accept": [
+            "the nightmare before christmas",
+            "nightmare before christmas",
+            "nightmare"
+          ],
+          "choices": [
+            "The Nightmare Before Christmas",
+            "Coraline",
+            "Corpse Bride",
+            "Frankenweenie"
+          ],
+          "reveal": "The correct answer is The Nightmare Before Christmas! That curly hill under the full moon is where the Pumpkin King sings his heart out.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "A spiral-curled hill rising against a huge full moon over a gothic town full of jack-o-lanterns and crooked twisted trees, stylized stop-motion look. Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
+            "file": "media/halloween-spooktacular--zoom-o-ween-200.jpg"
+          }
+        },
+        {
+          "value": 400,
+          "clue": "Zoom out and name the film this eerie workplace comes from",
+          "answer": "Monsters, Inc.",
+          "accept": [
+            "monsters, inc.",
+            "monsters inc",
+            "monsters inc.",
+            "monsters incorporated"
+          ],
+          "choices": [
+            "Monsters, Inc.",
+            "Inside Out",
+            "Toy Story",
+            "Ralph Breaks the Internet"
+          ],
+          "reveal": "The correct answer is Monsters, Inc. Every one of those doors leads to a kid's bedroom. [whispers] Check your closet tonight.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "An enormous factory with endless rows of colorful bedroom closet doors hanging from overhead conveyor tracks, a single door glowing at the center. Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
+            "file": "media/halloween-spooktacular--zoom-o-ween-400.jpg"
+          }
+        },
+        {
+          "value": 600,
+          "clue": "Zoom out and name the film this cursed object comes from",
+          "answer": "Sleeping Beauty",
+          "accept": [
+            "sleeping beauty"
+          ],
+          "choices": [
+            "Sleeping Beauty",
+            "Snow White and the Seven Dwarfs",
+            "Tangled",
+            "Beauty and the Beast"
+          ],
+          "reveal": "The correct answer is Sleeping Beauty. Touch the spindle of a spinning wheel... and it's lights out. [yawns] Honestly, I could use the nap.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "An ancient wooden spinning wheel in a dark stone tower room, its spindle glowing with an eerie green light, wisps of green smoke curling around. Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
+            "file": "media/halloween-spooktacular--zoom-o-ween-600.jpg"
+          }
+        },
+        {
+          "value": 800,
+          "clue": "Zoom out and name the film this ghostly river comes from",
+          "answer": "Hercules",
+          "accept": [
+            "hercules"
+          ],
+          "choices": [
+            "Hercules",
+            "Coco",
+            "Fantasia",
+            "The Black Cauldron"
+          ],
+          "reveal": "The correct answer is Hercules! That's the swirling River Styx in the Underworld. [dramatic pause] Swimming is NOT recommended.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "A swirling glowing green river of misty ghostly wisps flowing through a vast dark Greek underworld cavern with ruined columns. Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
+            "file": "media/halloween-spooktacular--zoom-o-ween-800.jpg"
+          }
+        },
+        {
+          "value": 1000,
+          "clue": "Zoom out and name the film this haunted mountain comes from",
+          "answer": "Fantasia",
+          "accept": [
+            "fantasia",
+            "fantasia 1940"
+          ],
+          "choices": [
+            "Fantasia",
+            "The Black Cauldron",
+            "The Sword in the Stone",
+            "Fantasia 2000"
+          ],
+          "reveal": "The correct answer is Fantasia, from the Night on Bald Mountain sequence. [gasps] Then Ave Maria washes all that spooky away. Talk about a mood swing!",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "A massive jagged black mountain peak at night looming over a sleeping European village and graveyard, pale ghostly wisps spiraling up into the sky. Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
+            "file": "media/halloween-spooktacular--zoom-o-ween-1000.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "happy-haunts",
+      "title": "Happy Haunts",
+      "kind": "parks",
+      "intro": "Our Disney Parks category of the week... [whispers] Happy Haunts. Grim grinning ghosts, spooky towers, and a few heads in crystal balls.",
+      "art": {
+        "prompt": "An elegant Victorian manor at twilight with flickering candelabras, a ghostly ballroom glow in the windows, wrought iron gates and graveyard tombstones in fog. Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
+        "file": "media/halloween-spooktacular--happy-haunts.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This attraction is home to 999 happy haunts, with room for a thousand",
+          "answer": "The Haunted Mansion",
+          "accept": [
+            "the haunted mansion",
+            "haunted mansion"
+          ],
+          "choices": [
+            "The Haunted Mansion",
+            "Tower of Terror",
+            "Phantom Manor",
+            "Mystic Manor"
+          ],
+          "reveal": "The correct answer is the Haunted Mansion! [mischievously] There's always room for one more. Any volunteers?",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Hollywood Studios' Tower of Terror is themed to this classic Rod Serling TV series",
+          "answer": "The Twilight Zone",
+          "accept": [
+            "the twilight zone",
+            "twilight zone"
+          ],
+          "choices": [
+            "The Twilight Zone",
+            "The Outer Limits",
+            "Alfred Hitchcock Presents",
+            "Tales from the Crypt"
+          ],
+          "reveal": "The correct answer is The Twilight Zone. You've just crossed over into the Hollywood Tower Hotel. [laughs] Hope you like elevators... a LOT.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "In the Haunted Mansion, Madame this floating head in a crystal ball chants to summon the spirits",
+          "answer": "Leota",
+          "accept": [
+            "leota",
+            "madame leota"
+          ],
+          "choices": [
+            "Leota",
+            "Zeena",
+            "Esmeralda",
+            "Constance"
+          ],
+          "reveal": "The correct answer is Madame Leota. Her face belonged to Imagineer Leota Toombs. Talk about getting a-head in your career. [chuckles]",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "A glowing crystal ball on a round seance table in a dark room, surrounded by floating tambourines, a trumpet and flickering candles. Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
+            "file": "media/halloween-spooktacular--happy-haunts-600.jpg"
+          }
+        },
+        {
+          "value": 800,
+          "clue": "This top-hatted ghost, removed shortly after the Disneyland Haunted Mansion opened in 1969, returned there in 2015",
+          "answer": "The Hatbox Ghost",
+          "accept": [
+            "hatbox ghost",
+            "the hatbox ghost"
+          ],
+          "choices": [
+            "The Hatbox Ghost",
+            "The Ghost Host",
+            "The Caretaker",
+            "Constance Hatchaway"
+          ],
+          "reveal": "The correct answer is the Hatbox Ghost! His head pops between his shoulders and the hatbox. [excited] After 46 years, he's BACK, and he's in Magic Kingdom now too.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Disneyland Paris's Western-themed version of the Haunted Mansion, set in the town of Thunder Mesa, is called this",
+          "answer": "Phantom Manor",
+          "accept": [
+            "phantom manor"
+          ],
+          "choices": [
+            "Phantom Manor",
+            "Mystic Manor",
+            "Ravenswood Manor",
+            "Thunder Mesa Mansion"
+          ],
+          "reveal": "The correct answer is Phantom Manor. [dramatic pause] Instead of a happy wedding, there's a phantom who will NOT let the bride get married. Rude.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "monster-mash",
+      "title": "Monster Mash",
+      "kind": "fan",
+      "intro": "Our fan category is Monster Mash, all about the scariest company in the business: Monsters, Inc. [laughs] We scare because we care!",
+      "art": {
+        "prompt": "A colorful factory floor full of mismatched bedroom closet doors on conveyor tracks, big glowing yellow scream canisters, friendly monster-sized lockers. Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
+        "file": "media/halloween-spooktacular--monster-mash.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In Monsters, Inc., the monsters collect these from human kids to power the city of Monstropolis",
+          "answer": "Screams",
+          "accept": [
+            "screams",
+            "scream",
+            "kids' screams",
+            "children's screams"
+          ],
+          "choices": [
+            "Screams",
+            "Giggles",
+            "Dreams",
+            "Tears"
+          ],
+          "reveal": "The correct answer is screams! [excited] By the end, they learn laughter is ten times more powerful. Ha ha, power bill paid.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Sulley's best friend and scare assistant is this one-eyed green monster",
+          "answer": "Mike Wazowski",
+          "accept": [
+            "mike wazowski",
+            "mike",
+            "wazowski"
+          ],
+          "choices": [
+            "Mike Wazowski",
+            "Randall Boggs",
+            "George Sanderson",
+            "Fungus"
+          ],
+          "reveal": "The correct answer is Mike Wazowski, voiced by Billy Crystal. Put that thing back where it came from, or so help me!",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "This sneaky, color-changing lizard monster is Sulley's bitter scaring rival",
+          "answer": "Randall Boggs",
+          "accept": [
+            "randall boggs",
+            "randall"
+          ],
+          "choices": [
+            "Randall Boggs",
+            "Henry J. Waternoose",
+            "Johnny Worthington",
+            "Fungus"
+          ],
+          "reveal": "The correct answer is Randall Boggs, voiced by Steve Buscemi. [sarcastic] Nothing says trustworthy like a guy who can turn invisible.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Voiced by James Coburn, this crab-like CEO of Monsters, Inc. turns out to be a villain",
+          "answer": "Henry J. Waternoose",
+          "accept": [
+            "henry j. waternoose",
+            "waternoose",
+            "henry waternoose",
+            "mr. waternoose"
+          ],
+          "choices": [
+            "Henry J. Waternoose",
+            "Roz",
+            "Dean Hardscrabble",
+            "Jerry"
+          ],
+          "reveal": "The correct answer is Henry J. Waternoose the Third. Five eyes and he STILL didn't see the twist coming. [chuckles]",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "In Monsters University, Mike and Sulley join this lovable underdog fraternity",
+          "answer": "Oozma Kappa",
+          "accept": [
+            "oozma kappa",
+            "ok",
+            "o.k."
+          ],
+          "choices": [
+            "Oozma Kappa",
+            "Roar Omega Roar",
+            "Python Nu Kappa",
+            "Jaws Theta Chi"
+          ],
+          "reveal": "The correct answer is Oozma Kappa! [laughs] Oozma Kappa, also known as O K. Not great, not terrible, just... O K.",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}

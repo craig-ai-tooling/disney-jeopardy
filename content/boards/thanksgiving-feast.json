@@ -1,0 +1,531 @@
+{
+  "id": "thanksgiving-feast",
+  "title": "Thanksgiving Feast",
+  "theme": "Thanksgiving",
+  "tags": [
+    "holiday",
+    "food",
+    "autumn"
+  ],
+  "intro": "[excited] Happy Thanksgiving, everybody! Loosen those belts, because today's board is a five-course feast of Disney trivia. [laughs] Leftovers are NOT allowed, so clean your plates!",
+  "art": {
+    "prompt": "A cozy autumn harvest table piled with a golden roast turkey, pumpkin pies, cranberry sauce and a cornucopia, warm candlelight, falling maple leaves outside a window, a faint castle silhouette on the hill. Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
+    "file": "media/thanksgiving-feast.jpg"
+  },
+  "categories": [
+    {
+      "id": "little-chef",
+      "title": "Little Chef, Big Feast",
+      "kind": "film",
+      "intro": "Our film category is cooking up Ratatouille, the Pixar classic that proved anyone can cook. Even a rat. [chuckles] ESPECIALLY a rat.",
+      "art": {
+        "prompt": "A tiny chef's toque resting beside a bubbling copper pot in a bustling Parisian restaurant kitchen at night, the Eiffel Tower glowing through a window. Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
+        "file": "media/thanksgiving-feast--little-chef.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In Ratatouille, Remy the rat secretly cooks by tugging on the hair of this clumsy young kitchen worker",
+          "answer": "Linguini",
+          "accept": [
+            "linguini",
+            "alfredo linguini",
+            "alfredo"
+          ],
+          "choices": [
+            "Linguini",
+            "Skinner",
+            "Emile",
+            "Horst"
+          ],
+          "reveal": "The correct answer is Alfredo Linguini. [laughs] Named after a pasta, which is honestly the most chef thing ever.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Remy's culinary hero is this late chef, whose famous motto was 'Anyone can cook!'",
+          "answer": "Gusteau",
+          "accept": [
+            "gusteau",
+            "auguste gusteau",
+            "chef gusteau"
+          ],
+          "choices": [
+            "Gusteau",
+            "Skinner",
+            "Anton Ego",
+            "Django"
+          ],
+          "reveal": "The correct answer is Auguste Gusteau. He also appears as a figment of Remy's imagination, which is the best kind of cooking coach. [whispers] No yelling.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "This tough, motorcycle-riding chef is the only woman on the line in Gusteau's kitchen and trains Linguini",
+          "answer": "Colette",
+          "accept": [
+            "colette",
+            "colette tatou"
+          ],
+          "choices": [
+            "Colette",
+            "Mabel",
+            "Celia",
+            "Juliette"
+          ],
+          "reveal": "The correct answer is Colette Tatou. Her big rule: keep your station clean. [sighs] Words to live by during Thanksgiving dish duty.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "The star of Lawrence of Arabia gave voice to the fearsome food critic Anton Ego",
+          "answer": "Peter O'Toole",
+          "accept": [
+            "peter o'toole",
+            "peter otoole",
+            "o'toole",
+            "otoole"
+          ],
+          "choices": [
+            "Peter O'Toole",
+            "Ian Holm",
+            "Brad Garrett",
+            "Christopher Plummer"
+          ],
+          "reveal": "The correct answer is Peter O'Toole. Ego's office is shaped like a coffin, because he doesn't like food, he loves it. [dramatic pause] If he doesn't love it... he doesn't swallow.",
+          "dailyDouble": true
+        },
+        {
+          "value": 1000,
+          "clue": "The elegant, thinly sliced ratatouille Remy serves Ego was styled by chef Thomas Keller after this variation of the dish",
+          "answer": "Confit byaldi",
+          "accept": [
+            "confit byaldi",
+            "byaldi",
+            "confit biyaldi"
+          ],
+          "choices": [
+            "Confit byaldi",
+            "Bouillabaisse",
+            "Coq au vin",
+            "Pot-au-feu"
+          ],
+          "reveal": "The correct answer is confit byaldi, a version of ratatouille made popular by French chef Michel Guerard. Thomas Keller, of The French Laundry, consulted on the film. [excited] FANCY!",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "pass-the-gravy",
+      "title": "Pass the Gravy",
+      "kind": "theme",
+      "intro": "Pass the Gravy is all about the most memorable meals in Disney films. [mischievously] Napkins on laps, please.",
+      "art": {
+        "prompt": "An ornate gravy boat pouring rich gravy over mashed potatoes on a fancy banquet table with candelabras, a plate of spaghetti and a shiny red apple nearby. Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
+        "file": "media/thanksgiving-feast--pass-the-gravy.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Snow White falls into a sleeping death after one bite of this poisoned fruit",
+          "answer": "An apple",
+          "accept": [
+            "apple",
+            "an apple",
+            "poison apple",
+            "poisoned apple"
+          ],
+          "choices": [
+            "An apple",
+            "A pear",
+            "A plum",
+            "A peach"
+          ],
+          "reveal": "The correct answer is an apple. Moral of the story: [chuckles] always buy your produce from a licensed vendor, not a cackling old lady.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Behind Tony's restaurant, Lady and the Tramp share a plate of this dish, leading to their famous kiss",
+          "answer": "Spaghetti",
+          "accept": [
+            "spaghetti",
+            "spaghetti and meatballs",
+            "pasta"
+          ],
+          "choices": [
+            "Spaghetti",
+            "Lasagna",
+            "Ravioli",
+            "Fettuccine"
+          ],
+          "reveal": "The correct answer is spaghetti and meatballs. Walt Disney actually cut the noodle scene after seeing the storyboards, until animator Frank Thomas brought it back. [excited] ICONIC!",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "In The Princess and the Frog, Tiana's daddy taught her that this Louisiana stew brings people together",
+          "answer": "Gumbo",
+          "accept": [
+            "gumbo"
+          ],
+          "choices": [
+            "Gumbo",
+            "Jambalaya",
+            "Etouffee",
+            "Chili"
+          ],
+          "reveal": "The correct answer is gumbo. Tiana's dad James says food brings folks together from all walks of life. [sighs] That's the whole point of Thanksgiving, right there.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "During 'Be Our Guest', Lumiere urges Belle to try this mystery dish, adding 'it's delicious, don't believe me, ask the dishes'",
+          "answer": "The grey stuff",
+          "accept": [
+            "the grey stuff",
+            "grey stuff",
+            "gray stuff",
+            "the gray stuff"
+          ],
+          "choices": [
+            "The grey stuff",
+            "The cheese souffle",
+            "The pudding",
+            "The pate"
+          ],
+          "reveal": "The correct answer is the grey stuff. Be Our Guest Restaurant in Magic Kingdom has famously served its own sweet version for dessert. [laughs] Much better than it sounds.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "In Big Hero 6, Hiro and Tadashi's Aunt Cass runs this San Fransokyo coffee shop",
+          "answer": "Lucky Cat Cafe",
+          "accept": [
+            "lucky cat cafe",
+            "lucky cat café",
+            "lucky cat",
+            "the lucky cat cafe"
+          ],
+          "choices": [
+            "Lucky Cat Cafe",
+            "Golden Gate Cafe",
+            "Fortune Cookie Cafe",
+            "Maneki Bistro"
+          ],
+          "reveal": "The correct answer is the Lucky Cat Cafe. Aunt Cass stress-eats when she's worried, which is... exactly my Thanksgiving strategy too. [chuckles]",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "fowl-play",
+      "title": "Fowl Play",
+      "kind": "fan",
+      "intro": "It wouldn't be Thanksgiving without a bird on the table. Our fan category is Fowl Play: famous Disney birds. [laughs] Gobble gobble!",
+      "art": {
+        "prompt": "A playful barnyard of feathered birds: a proud turkey, a sailor-hat-shaped puddle, colorful parrot feathers floating through warm autumn light. Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
+        "file": "media/thanksgiving-feast--fowl-play.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This famous Disney duck wears a blue sailor shirt and cap, but never any pants",
+          "answer": "Donald Duck",
+          "accept": [
+            "donald duck",
+            "donald"
+          ],
+          "choices": [
+            "Donald Duck",
+            "Daisy Duck",
+            "Scrooge McDuck",
+            "Daffy Duck"
+          ],
+          "reveal": "The correct answer is Donald Duck. He's been skipping pants since 1934, and honestly, after a big Thanksgiving dinner... [sighs] I get it.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "In Aladdin, Jafar's loud-mouthed parrot sidekick is named this",
+          "answer": "Iago",
+          "accept": [
+            "iago"
+          ],
+          "choices": [
+            "Iago",
+            "Zazu",
+            "Abu",
+            "Scuttle"
+          ],
+          "reveal": "The correct answer is Iago, voiced by Gilbert Gottfried. Named after the villain from Shakespeare's Othello, because even parrots need a literary education. [chuckles]",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "In Up, Russell gives this name to the giant, chocolate-loving, rainbow-feathered bird, before learning she's a mom",
+          "answer": "Kevin",
+          "accept": [
+            "kevin"
+          ],
+          "choices": [
+            "Kevin",
+            "Dug",
+            "Kiki",
+            "Polly"
+          ],
+          "reveal": "The correct answer is Kevin. Fun fact: Kevin's colorful feathers were inspired by the Himalayan monal pheasant. [excited] Snipe hunting, but make it FANCY.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Zazu, the Lion King's fussy royal advisor, is this kind of bird",
+          "answer": "A hornbill",
+          "accept": [
+            "hornbill",
+            "a hornbill",
+            "red-billed hornbill"
+          ],
+          "choices": [
+            "A hornbill",
+            "A toucan",
+            "A parrot",
+            "A pelican"
+          ],
+          "reveal": "The correct answer is a red-billed hornbill. Rowan Atkinson voiced him in 1994, and honestly nobody does exasperated better than Mr. Bean. [laughs]",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "In The Rescuers, mice Bernard and Bianca catch a flight with Orville, a pilot who is this kind of big seabird",
+          "answer": "An albatross",
+          "accept": [
+            "albatross",
+            "an albatross"
+          ],
+          "choices": [
+            "An albatross",
+            "A pelican",
+            "A stork",
+            "A seagull"
+          ],
+          "reveal": "The correct answer is an albatross, voiced by Jim Jordan. In The Rescuers Down Under, his brother Wilbur takes over. Orville and Wilbur, like the Wright brothers. [laughs] Get it?",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "emoji-leftovers",
+      "title": "Emoji Leftovers",
+      "kind": "media",
+      "intro": "Emoji Leftovers! I'll serve you a plate of emoji plus a little hint, and you tell me the Disney film. [excited] Dig in!",
+      "art": {
+        "prompt": "Leftover containers in an open glowing refrigerator, each holding a different colorful smiley-face-shaped food, cozy late-night kitchen. Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
+        "file": "media/thanksgiving-feast--emoji-leftovers.jpg"
+      },
+      "format": "emoji",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "⛄❄️👭👑 Hint: Some people are worth melting for",
+          "answer": "Frozen",
+          "accept": [
+            "frozen"
+          ],
+          "choices": [
+            "Frozen",
+            "Moana",
+            "Tangled",
+            "Brave"
+          ],
+          "reveal": "The correct answer is Frozen. [singing] Let it go, let it go... and pass the cranberry sauce.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "🎈🏠👴👦 Hint: Adventure is out there!",
+          "answer": "Up",
+          "accept": [
+            "up"
+          ],
+          "choices": [
+            "Up",
+            "Inside Out",
+            "Coco",
+            "Luca"
+          ],
+          "reveal": "The correct answer is Up. That opening montage still gets me every single time. [sighs] Somebody pass me the tissues... and the pie.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "🐻🍯🎈🌳 Hint: Oh bother",
+          "answer": "Winnie the Pooh",
+          "accept": [
+            "winnie the pooh",
+            "pooh",
+            "the many adventures of winnie the pooh"
+          ],
+          "choices": [
+            "Winnie the Pooh",
+            "The Fox and the Hound",
+            "Bambi",
+            "The Jungle Book"
+          ],
+          "reveal": "The correct answer is Winnie the Pooh. The silly old bear's honey pot is the only side dish he needs this Thanksgiving.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "🏹👧🐻🎂 Hint: Mum, that's a lot of cake",
+          "answer": "Brave",
+          "accept": [
+            "brave"
+          ],
+          "choices": [
+            "Brave",
+            "Frozen",
+            "Tangled",
+            "Mulan"
+          ],
+          "reveal": "The correct answer is Brave. Moral of the story: never accept baked goods from a woodcarver-slash-witch. [laughs] Merida's mom learned that one the FURRY way.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "🧪🦙👑🕳️ Hint: Pull the lever, Kronk!",
+          "answer": "The Emperor's New Groove",
+          "accept": [
+            "the emperor's new groove",
+            "emperors new groove",
+            "emperor's new groove"
+          ],
+          "choices": [
+            "The Emperor's New Groove",
+            "Brother Bear",
+            "Atlantis: The Lost Empire",
+            "Home on the Range"
+          ],
+          "reveal": "The correct answer is The Emperor's New Groove. [sarcastic] Wrong lever! Why do we even HAVE that lever?",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "turkey-leg-tour",
+      "title": "Turkey Leg Tour",
+      "kind": "parks",
+      "intro": "Our Disney Parks category is the Turkey Leg Tour, all about the tastiest snacks and feasts in the parks. [chuckles] Bring your stretchy pants.",
+      "art": {
+        "prompt": "A theme park snack cart at golden hour with giant smoked turkey legs, pineapple soft-serve swirls, churros and pretzels, Victorian main street lamps behind. Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
+        "file": "media/thanksgiving-feast--turkey-leg-tour.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Sold at Aloha Isle in Magic Kingdom's Adventureland, this frozen pineapple soft-serve is a legendary park snack",
+          "answer": "Dole Whip",
+          "accept": [
+            "dole whip",
+            "pineapple dole whip",
+            "dole whips"
+          ],
+          "choices": [
+            "Dole Whip",
+            "Mickey Bar",
+            "Churro",
+            "Mickey Pretzel"
+          ],
+          "reveal": "The correct answer is the Dole Whip. Pro tip: get it as a float with pineapple juice. [excited] Your taste buds will thank you.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "A swirl of pale yellow pineapple soft-serve in a cup on a bamboo counter at a tiki-style snack hut, tropical torches and palm leaves around. Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
+            "file": "media/thanksgiving-feast--turkey-leg-tour-200.jpg"
+          }
+        },
+        {
+          "value": 400,
+          "clue": "These giant, smoky drumsticks are so famous at Disney parks that they have their own fan merchandise",
+          "answer": "Turkey legs",
+          "accept": [
+            "turkey leg",
+            "turkey legs",
+            "a turkey leg"
+          ],
+          "choices": [
+            "Turkey legs",
+            "Chicken wings",
+            "Pork ribs",
+            "Beef jerky"
+          ],
+          "reveal": "The correct answer is the turkey leg. It's basically Thanksgiving dinner you can carry in one hand. [laughs] Caveman chic!",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Named for a famous colonial symbol of protest, this Liberty Square restaurant at Magic Kingdom serves an all-you-care-to-enjoy, Thanksgiving-style feast of roast turkey and stuffing",
+          "answer": "Liberty Tree Tavern",
+          "accept": [
+            "liberty tree tavern",
+            "liberty tree"
+          ],
+          "choices": [
+            "Liberty Tree Tavern",
+            "Columbia Harbour House",
+            "The Crystal Palace",
+            "Tony's Town Square Restaurant"
+          ],
+          "reveal": "The correct answer is Liberty Tree Tavern. Thanksgiving dinner every day of the year, and nobody makes you do the dishes. [chuckles]",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "At Disneyland's Blue Bayou, overlooking Pirates of the Caribbean, guests famously order this deep-fried, powdered-sugar-dusted sandwich",
+          "answer": "Monte Cristo",
+          "accept": [
+            "monte cristo",
+            "the monte cristo",
+            "monte cristo sandwich"
+          ],
+          "choices": [
+            "Monte Cristo",
+            "Cuban sandwich",
+            "Po' boy",
+            "Croque monsieur"
+          ],
+          "reveal": "The correct answer is the Monte Cristo. Turkey, ham and cheese, battered, fried and dusted with sugar. [dramatic pause] It's not a sandwich... it's a LIFESTYLE.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "A golden deep-fried sandwich dusted with powdered sugar with a side of berry jam, on a candlelit table at twilight beside a misty bayou with fireflies. Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
+            "file": "media/thanksgiving-feast--turkey-leg-tour-800.jpg"
+          }
+        },
+        {
+          "value": 1000,
+          "clue": "Gaston's Tavern in Magic Kingdom serves this frozen apple-juice drink topped with passion-fruit-mango foam",
+          "answer": "LeFou's Brew",
+          "accept": [
+            "lefou's brew",
+            "lefous brew",
+            "le fou's brew",
+            "lefou brew"
+          ],
+          "choices": [
+            "LeFou's Brew",
+            "Gaston's Grog",
+            "Beast's Brew",
+            "Belle's Cider"
+          ],
+          "reveal": "The correct answer is LeFou's Brew. [excited] No one sips like LeFou! It tastes a bit like a toasted marshmallow apple, which is very on brand for autumn.",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}

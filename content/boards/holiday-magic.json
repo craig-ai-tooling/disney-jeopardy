@@ -1,0 +1,528 @@
+{
+  "id": "holiday-magic",
+  "title": "Holiday Magic",
+  "theme": "Christmas",
+  "tags": [
+    "holiday",
+    "christmas",
+    "winter"
+  ],
+  "intro": "[excited] Deck the halls and fire up the hot cocoa, because it's our Holiday Magic episode! Twenty-six festive clues are coming down the chimney. [mischievously] Naughty list players... I'm watching you.",
+  "art": {
+    "prompt": "A snowy Victorian main street at night strung with twinkling garland and lights, a giant decorated Christmas tree, a fairytale castle glittering with icicle lights, gentle snowfall. Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
+    "file": "media/holiday-magic.jpg"
+  },
+  "categories": [
+    {
+      "id": "bah-hum-mouse",
+      "title": "Bah, Hum-Mouse!",
+      "kind": "film",
+      "intro": "Our film category is the 1983 classic Mickey's Christmas Carol. Charles Dickens, but make it MICKEY. [chuckles] Five clues, no humbugs.",
+      "art": {
+        "prompt": "A candlelit Victorian counting house on a snowy London street, a tall stool and ledger desk, a single lump of coal in a tiny stove, mouse-sized boots by the door. Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
+        "file": "media/holiday-magic--bah-hum-mouse.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In Mickey's Christmas Carol, Mickey Mouse plays this kind-hearted, underpaid clerk",
+          "answer": "Bob Cratchit",
+          "accept": [
+            "bob cratchit",
+            "cratchit",
+            "bob"
+          ],
+          "choices": [
+            "Bob Cratchit",
+            "Ebenezer Scrooge",
+            "Jacob Marley",
+            "Fred"
+          ],
+          "reveal": "The correct answer is Bob Cratchit. Scrooge even scolds him for using one extra lump of coal. [sighs] Brrr.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Fittingly, this famously rich and stingy Disney duck plays Ebenezer Scrooge",
+          "answer": "Scrooge McDuck",
+          "accept": [
+            "scrooge mcduck",
+            "scrooge",
+            "uncle scrooge"
+          ],
+          "choices": [
+            "Scrooge McDuck",
+            "Donald Duck",
+            "Ludwig Von Drake",
+            "Daisy Duck"
+          ],
+          "reveal": "The correct answer is Scrooge McDuck. [laughs] Talk about typecasting! His name literally came from the original Dickens story.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Goofy rattles his chains as the ghost of this deceased business partner of Scrooge",
+          "answer": "Jacob Marley",
+          "accept": [
+            "jacob marley",
+            "marley"
+          ],
+          "choices": [
+            "Jacob Marley",
+            "Bob Cratchit",
+            "Fezziwig",
+            "Tiny Tim"
+          ],
+          "reveal": "The correct answer is Jacob Marley. Goofy as a clumsy, chain-rattling ghost is peak Goofy. [laughs] Gawrsh!",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Pinocchio's conscience, Jiminy Cricket, shows Scrooge his youth as this spirit",
+          "answer": "The Ghost of Christmas Past",
+          "accept": [
+            "ghost of christmas past",
+            "christmas past",
+            "the ghost of christmas past",
+            "past"
+          ],
+          "choices": [
+            "The Ghost of Christmas Past",
+            "The Ghost of Christmas Present",
+            "The Ghost of Christmas Yet to Come",
+            "The Ghost of Jacob Marley"
+          ],
+          "reveal": "The correct answer is the Ghost of Christmas Past. The Ghost of Christmas Present is Willie the Giant, and Yet to Come is none other than... [dramatic pause] Pete.",
+          "dailyDouble": true
+        },
+        {
+          "value": 1000,
+          "clue": "Willie the Giant, the Ghost of Christmas Present, first appeared in Mickey and the Beanstalk, part of this 1947 package film",
+          "answer": "Fun and Fancy Free",
+          "accept": [
+            "fun and fancy free",
+            "fun & fancy free"
+          ],
+          "choices": [
+            "Fun and Fancy Free",
+            "Melody Time",
+            "Make Mine Music",
+            "The Three Caballeros"
+          ],
+          "reveal": "The correct answer is Fun and Fancy Free. Willie can turn into anything he wants, even a pink bunny. [chuckles] He would be AMAZING at a holiday party.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "deck-the-halls",
+      "title": "Deck the Halls",
+      "kind": "theme",
+      "intro": "Deck the Halls is all about Disney's favorite holiday moments on screen. [singing] Fa la la la la... [laughs] buzz in!",
+      "art": {
+        "prompt": "A cozy living room on Christmas morning, a twinkling tree with wrapped presents, stockings on a fireplace, a snowman visible in the frosted window. Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
+        "file": "media/holiday-magic--deck-the-halls.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In a 2017 Frozen holiday featurette, this happy snowman goes door to door searching for holiday traditions for Anna and Elsa",
+          "answer": "Olaf",
+          "accept": [
+            "olaf"
+          ],
+          "choices": [
+            "Olaf",
+            "Sven",
+            "Marshmallow",
+            "Kristoff"
+          ],
+          "reveal": "The correct answer is Olaf. Fun fact: that short played in theaters before Pixar's Coco. [laughs] A snowman opening for a skeleton party!",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "This Home Improvement star becomes Santa after putting on the suit in 1994's The Santa Clause",
+          "answer": "Tim Allen",
+          "accept": [
+            "tim allen"
+          ],
+          "choices": [
+            "Tim Allen",
+            "Steve Martin",
+            "Chevy Chase",
+            "Martin Short"
+          ],
+          "reveal": "The correct answer is Tim Allen, who is also the voice of Buzz Lightyear. [excited] Santa AND a space ranger. Not bad for one resume.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "At the end of Toy Story, the toys panic on Christmas morning when Andy unwraps this kind of new pet",
+          "answer": "A puppy",
+          "accept": [
+            "puppy",
+            "a puppy",
+            "dog",
+            "a dog"
+          ],
+          "choices": [
+            "A puppy",
+            "A kitten",
+            "A hamster",
+            "A goldfish"
+          ],
+          "reveal": "The correct answer is a puppy, named Buster. Mrs. Potato Head also shows up that morning, so Mr. Potato Head had a VERY merry Christmas. [chuckles]",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In The Santa Clause, David Krumholtz plays this no-nonsense head elf who helps Scott Calvin become Santa",
+          "answer": "Bernard",
+          "accept": [
+            "bernard"
+          ],
+          "choices": [
+            "Bernard",
+            "Judy",
+            "Curtis",
+            "Quintin"
+          ],
+          "reveal": "The correct answer is Bernard. Elves in that movie are centuries old, which explains how he's so good at bossing around a grown man. [laughs]",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "In the 1952 cartoon Pluto's Christmas Tree, these two mischief makers are living in the tree Mickey brings home",
+          "answer": "Chip 'n' Dale",
+          "accept": [
+            "chip 'n' dale",
+            "chip and dale",
+            "chip n dale",
+            "chip & dale"
+          ],
+          "choices": [
+            "Chip 'n' Dale",
+            "Huey, Dewey and Louie",
+            "Figaro and Cleo",
+            "Max and P.J."
+          ],
+          "reveal": "The correct answer is Chip 'n' Dale. Pluto spends the whole cartoon trying to evict them. [whispers] Spoiler... chipmunks always win.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "ho-ho-who",
+      "title": "Ho-Ho-Who Said It?",
+      "kind": "media",
+      "intro": "Ho-Ho-Who Said It! I'll read you a famous festive line, and you tell me which character said it. [excited] Bonus points for doing the voice at home.",
+      "art": {
+        "prompt": "A vintage microphone wrapped in tinsel on a snowy stage, with glowing speech-bubble-shaped snowflakes swirling in a spotlight. Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
+        "file": "media/holiday-magic--ho-ho-who.jpg"
+      },
+      "format": "quote",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Name the character who sang this line atop a mountain.",
+          "answer": "Elsa",
+          "accept": [
+            "elsa",
+            "queen elsa"
+          ],
+          "choices": [
+            "Elsa",
+            "Anna",
+            "Olaf",
+            "Rapunzel"
+          ],
+          "reveal": "The correct answer is Elsa. The cold never bothered her anyway, but it definitely bothers my heating bill. [sighs]",
+          "quote": "The cold never bothered me anyway.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Name the character who serenades his best friend with this line.",
+          "answer": "Kristoff",
+          "accept": [
+            "kristoff"
+          ],
+          "choices": [
+            "Kristoff",
+            "Hans",
+            "Olaf",
+            "Oaken"
+          ],
+          "reveal": "The correct answer is Kristoff, singing to Sven. [chuckles] Grammatically questionable... emotionally accurate.",
+          "quote": "Reindeers are better than people.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Name the character who shouts this after a big idea strikes.",
+          "answer": "Jack Skellington",
+          "accept": [
+            "jack skellington",
+            "jack",
+            "the pumpkin king"
+          ],
+          "choices": [
+            "Jack Skellington",
+            "Oogie Boogie",
+            "The Mayor",
+            "Dr. Finkelstein"
+          ],
+          "reveal": "The correct answer is Jack Skellington, the Pumpkin King. [excited] His speaking voice is Chris Sarandon and his singing voice is composer Danny Elfman.",
+          "quote": "Eureka! This year, Christmas will be ours!",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Name the character who said this after waking up alone in his house.",
+          "answer": "Kevin McCallister",
+          "accept": [
+            "kevin mccallister",
+            "kevin",
+            "kevin mcallister"
+          ],
+          "choices": [
+            "Kevin McCallister",
+            "Buzz McCallister",
+            "Harry",
+            "Old Man Marley"
+          ],
+          "reveal": "The correct answer is Kevin McCallister from Home Alone, now part of the Disney family thanks to 20th Century Studios. [mischievously] Keep the change, ya filthy animal.",
+          "quote": "I made my family disappear!",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Name the character who offers this wisdom at the North Pole.",
+          "answer": "Judy the elf",
+          "accept": [
+            "judy",
+            "judy the elf"
+          ],
+          "choices": [
+            "Judy the elf",
+            "Bernard",
+            "Mrs. Claus",
+            "Comet"
+          ],
+          "reveal": "The correct answer is Judy the elf from The Santa Clause. She also makes a mean cup of hot cocoa. [laughs] Believing is tasting!",
+          "quote": "Seeing isn't believing. Believing is seeing.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "very-merry-parks",
+      "title": "Very Merry Parks",
+      "kind": "parks",
+      "intro": "Our Disney Parks category is Very Merry Parks, all about the holidays at Disney. [chuckles] Snow on Main Street is mandatory... even in Florida.",
+      "art": {
+        "prompt": "A theme park castle bathed in shimmering icicle lights, a holiday parade float with giant ornaments, fireworks bursting over snowy rooftops. Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
+        "file": "media/holiday-magic--very-merry-parks.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Magic Kingdom's after-hours holiday party is called Mickey's Very Merry this Party",
+          "answer": "Christmas",
+          "accept": [
+            "christmas",
+            "mickey's very merry christmas party"
+          ],
+          "choices": [
+            "Christmas",
+            "Holiday",
+            "Winter",
+            "Jolly"
+          ],
+          "reveal": "The correct answer is Christmas. Mickey's Very Merry Christmas Party, complete with parade, fireworks and plenty of free cookies. [excited] Yum!",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Epcot's World Showcase turns festive with storytellers and holiday kitchens during the Epcot International Festival of the this",
+          "answer": "Holidays",
+          "accept": [
+            "holidays",
+            "festival of the holidays",
+            "the holidays"
+          ],
+          "choices": [
+            "Holidays",
+            "Lights",
+            "Seasons",
+            "Arts"
+          ],
+          "reveal": "The correct answer is the Festival of the Holidays. [laughs] Eating your way around the world is basically a winter sport.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Each holiday season, the skippers of Jungle Cruise trade jokes for festive puns on this overlay version of the ride",
+          "answer": "Jingle Cruise",
+          "accept": [
+            "jingle cruise",
+            "the jingle cruise"
+          ],
+          "choices": [
+            "Jingle Cruise",
+            "Jungle Jingle",
+            "Santa's Safari",
+            "Merry Mekong"
+          ],
+          "reveal": "The correct answer is the Jingle Cruise. Same terrible puns, now with tinsel. [chuckles] My kind of ride.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Every holiday season, Disneyland's Haunted Mansion gets a makeover themed to this Tim Burton-produced film",
+          "answer": "The Nightmare Before Christmas",
+          "accept": [
+            "the nightmare before christmas",
+            "nightmare before christmas",
+            "nightmare"
+          ],
+          "choices": [
+            "The Nightmare Before Christmas",
+            "Corpse Bride",
+            "Frankenweenie",
+            "Beetlejuice"
+          ],
+          "reveal": "The correct answer is The Nightmare Before Christmas. Haunted Mansion Holiday has been scaring up seasonal cheer since 2001, complete with a GIANT gingerbread house.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "A spooky Victorian mansion ballroom decorated for Christmas with a giant whimsical gingerbread house centerpiece, jack-o-lanterns wearing Santa hats and eerie candlelight. Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
+            "file": "media/holiday-magic--very-merry-parks-800.jpg"
+          }
+        },
+        {
+          "value": 1000,
+          "clue": "This holiday tradition of a celebrity narrator, massed choir and orchestra began at Disneyland in 1958 and moved to Epcot in 1994",
+          "answer": "Candlelight Processional",
+          "accept": [
+            "candlelight processional",
+            "candlelight procession",
+            "the candlelight processional"
+          ],
+          "choices": [
+            "Candlelight Processional",
+            "Holiday Wishes",
+            "Joy to the World",
+            "A Christmas Fantasy"
+          ],
+          "reveal": "The correct answer is the Candlelight Processional. Stars like Cary Grant and James Earl Jones have narrated over the years. [gasps] Chills!",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "santas-workshop",
+      "title": "Santa's Workshop",
+      "kind": "fan",
+      "intro": "Our fan category is Santa's Workshop, where we unwrap the toys of Toy Story. [excited] You've got a friend in me... and a whole lot of trivia.",
+      "art": {
+        "prompt": "Santa's workshop bench overflowing with classic toys: a wooden pull-string cowboy doll's hat, a toy horse, a space rocket, a toy box, teddy bears, warm lamplight. Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
+        "file": "media/holiday-magic--santas-workshop.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In Toy Story 2, this trusty horse becomes Woody's loyal steed",
+          "answer": "Bullseye",
+          "accept": [
+            "bullseye",
+            "bulls eye",
+            "bulls-eye"
+          ],
+          "choices": [
+            "Bullseye",
+            "Buttercup",
+            "Trixie",
+            "Rex"
+          ],
+          "reveal": "The correct answer is Bullseye. He acts more like a puppy than a horse, which is adorable... [chuckles] and also a little confusing.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "In Toy Story 3, this pink, strawberry-scented teddy bear rules Sunnyside Daycare",
+          "answer": "Lotso",
+          "accept": [
+            "lotso",
+            "lotso-huggin' bear",
+            "lotso huggin bear",
+            "lots-o'-huggin' bear"
+          ],
+          "choices": [
+            "Lotso",
+            "Big Baby",
+            "Ken",
+            "Stretch"
+          ],
+          "reveal": "The correct answer is Lots-o'-Huggin' Bear, voiced by Ned Beatty. [sarcastic] He smells like strawberries and acts like a grumpy landlord.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "In Toy Story 2, Al McWhiggin is the owner of this toy store chain, whose ads feature him in a chicken suit",
+          "answer": "Al's Toy Barn",
+          "accept": [
+            "al's toy barn",
+            "als toy barn",
+            "toy barn"
+          ],
+          "choices": [
+            "Al's Toy Barn",
+            "Pizza Planet",
+            "Second Chance Antiques",
+            "Toys R Us"
+          ],
+          "reveal": "The correct answer is Al's Toy Barn. Al is so cheap he dresses up as a chicken for his own commercials. [laughs] Bawk bawk.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In Toy Story 4, Bo Peep's three-headed sheep are named Billy, Goat and this",
+          "answer": "Gruff",
+          "accept": [
+            "gruff"
+          ],
+          "choices": [
+            "Gruff",
+            "Buck",
+            "Fluffy",
+            "Clover"
+          ],
+          "reveal": "The correct answer is Gruff. Billy, Goat and Gruff, a sheep named after a goat fairy tale. [chuckles] Pixar loves a good pun as much as I do.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "In Toy Story 2, Al plans to sell the Woody's Roundup collection to a toy museum in this country",
+          "answer": "Japan",
+          "accept": [
+            "japan"
+          ],
+          "choices": [
+            "Japan",
+            "Germany",
+            "England",
+            "Canada"
+          ],
+          "reveal": "The correct answer is Japan, to the Konishi Toy Museum in Tokyo. Stinky Pete wanted to go so badly he'd rather live in a museum than a kid's room.",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}

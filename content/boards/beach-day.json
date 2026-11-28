@@ -1,0 +1,541 @@
+{
+  "id": "beach-day",
+  "title": "Beach Day",
+  "theme": "Beach and ocean",
+  "tags": [
+    "summer",
+    "ocean",
+    "water"
+  ],
+  "intro": "[excited] Grab your sunscreen, your flip flops and your sense of humor, because this episode is a Beach Day! Twenty-six clues are washing ashore, so let's dive right in... before the tide goes out! [laughs]",
+  "art": {
+    "prompt": "A sunny tropical beach with turquoise waves, a carved outrigger canoe on white sand, palm trees, seashells, a striped umbrella and a glowing sunset sky, joyful summer vacation mood. Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
+    "file": "media/beach-day.jpg"
+  },
+  "categories": [
+    {
+      "id": "making-waves",
+      "title": "Making Waves with Moana",
+      "kind": "film",
+      "intro": "Our film category sets sail with Moana. Five clues about the girl who answered the call of the ocean. [mischievously] No wayfinding cheat sheets allowed!",
+      "art": {
+        "prompt": "An outrigger sailing canoe with a woven crab-claw sail gliding across a glowing turquoise ocean toward a lush green volcanic island, stars beginning to appear. Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
+        "file": "media/beach-day--making-waves.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Moana's accidental stowaway on her voyage is Heihei, a hilariously clueless one of these birds",
+          "answer": "A rooster",
+          "accept": [
+            "rooster",
+            "chicken",
+            "a chicken"
+          ],
+          "choices": [
+            "A rooster",
+            "A parrot",
+            "A duck",
+            "A seagull"
+          ],
+          "reveal": "The correct answer is a rooster. Heihei's squawks come from Alan Tudyk, who also voiced King Candy. [laughs] Zero brain cells, one hundred percent heart.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "This shape-shifting demigod with a magical fishhook, voiced by Dwayne Johnson, stole the heart of Te Fiti",
+          "answer": "Maui",
+          "accept": [
+            "maui"
+          ],
+          "choices": [
+            "Maui",
+            "Tamatoa",
+            "Tui",
+            "Te Ka"
+          ],
+          "reveal": "The correct answer is Maui. [sarcastic] What can I say except... you're WELCOME! His animated tattoos, especially Mini Maui, were hand drawn by legendary Disney animator Eric Goldberg.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Moana is the daughter of the chief of this island, which she must leave to restore the heart of Te Fiti",
+          "answer": "Motunui",
+          "accept": [
+            "motunui",
+            "motu nui"
+          ],
+          "choices": [
+            "Motunui",
+            "Lalotai",
+            "Motufetu",
+            "Te Fiti"
+          ],
+          "reveal": "The correct answer is Motunui. Lalotai is the Realm of Monsters, and [whispers] trust me, you do NOT want to vacation there.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "This giant, treasure-obsessed coconut crab sings 'Shiny' down in the Realm of Monsters",
+          "answer": "Tamatoa",
+          "accept": [
+            "tamatoa"
+          ],
+          "choices": [
+            "Tamatoa",
+            "Kakamora",
+            "Te Ka",
+            "Matangi"
+          ],
+          "reveal": "The correct answer is Tamatoa, voiced by Jemaine Clement of Flight of the Conchords. Fun fact: he'd rather be shiny, like a treasure from a sunken pirate wreck.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Lin-Manuel Miranda and Mark Mancina wrote Moana's songs with this frontman of the Pacific band Te Vaka",
+          "answer": "Opetaia Foa'i",
+          "accept": [
+            "opetaia foa'i",
+            "opetaia foai",
+            "foa'i",
+            "foai",
+            "opetaia"
+          ],
+          "choices": [
+            "Opetaia Foa'i",
+            "Jemaine Clement",
+            "Tom MacDougall",
+            "Kristen Anderson-Lopez"
+          ],
+          "reveal": "The correct answer is Opetaia Foa'i. He sings on We Know The Way, and his band Te Vaka performs on the soundtrack. [excited] Give yourself a BIG pat on the back if you knew that one!",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "shell-yeah",
+      "title": "Shell Yeah!",
+      "kind": "theme",
+      "intro": "Time to meet the locals. These clues are all about the critters who live under the sea in Disney and Pixar films. [laughs] Shell yeah!",
+      "art": {
+        "prompt": "A vibrant coral reef teeming with colorful tropical fish, sea turtles, crabs and anemones, sunbeams streaming down through clear blue water. Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
+        "file": "media/beach-day--shell-yeah.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Sebastian, King Triton's court composer in The Little Mermaid, is this kind of sea creature",
+          "answer": "A crab",
+          "accept": [
+            "crab",
+            "a crab"
+          ],
+          "choices": [
+            "A crab",
+            "A lobster",
+            "A shrimp",
+            "A crayfish"
+          ],
+          "reveal": "The correct answer is a crab. And if you guessed lobster, Sebastian would like a word. [chuckles] Probably a very long, very Jamaican word.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "In Finding Nemo, this laid-back 150-year-old sea turtle rides the East Australian Current",
+          "answer": "Crush",
+          "accept": [
+            "crush"
+          ],
+          "choices": [
+            "Crush",
+            "Squirt",
+            "Bruce",
+            "Gill"
+          ],
+          "reveal": "The correct answer is Crush, totally voiced by director Andrew Stanton himself. [excited] Righteous! Grab some shell, dude.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "This know-it-all seagull tells Ariel that a fork is called a 'dinglehopper'",
+          "answer": "Scuttle",
+          "accept": [
+            "scuttle"
+          ],
+          "choices": [
+            "Scuttle",
+            "Flotsam",
+            "Flounder",
+            "Jetsam"
+          ],
+          "reveal": "The correct answer is Scuttle, voiced by Buddy Hackett. [chuckles] Fun fact: his snarfblatt, also known as a pipe, is apparently a musical instrument.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In Finding Dory, this grumpy octopus who is missing a tentacle gets called a 'septopus'",
+          "answer": "Hank",
+          "accept": [
+            "hank"
+          ],
+          "choices": [
+            "Hank",
+            "Destiny",
+            "Bailey",
+            "Gerald"
+          ],
+          "reveal": "The correct answer is Hank. He reportedly took Pixar about two years to build, so give him a round of applause. All seven arms worth.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Ariel has six older sisters. Which of these names does NOT belong to one of them?",
+          "answer": "Alexa",
+          "accept": [
+            "alexa"
+          ],
+          "choices": [
+            "Alexa",
+            "Aquata",
+            "Arista",
+            "Attina"
+          ],
+          "reveal": "The correct answer is Alexa. The real sisters are Aquata, Andrina, Arista, Attina, Adella and Alana. [laughs] King Triton REALLY committed to the letter A.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "swimsuit-season",
+      "title": "Swimsuit Season",
+      "kind": "media",
+      "intro": "It's swimsuit season! I'll show you the colors of a character's signature look, and you tell me who's wearing them. [whispers] No peeking at the beach towels.",
+      "art": {
+        "prompt": "Colorful beach towels, swimsuits and flip flops laid out on bright sand like a painter's palette of swatches, seen from above. Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
+        "file": "media/beach-day--swimsuit-season.jpg"
+      },
+      "format": "palette",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Sea-green fin, a lilac seashell top and bright red hair. Who's ready for a swim?",
+          "answer": "Ariel",
+          "accept": [
+            "ariel"
+          ],
+          "choices": [
+            "Ariel",
+            "Moana",
+            "Melody",
+            "Vanellope"
+          ],
+          "reveal": "The correct answer is Ariel. Fun fact: her shade of red hair needed its own custom paint color, named Ariel.",
+          "palette": [
+            "#1FA37A",
+            "#7A3FA0",
+            "#D7263D",
+            "#F4C7A1"
+          ],
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Fuzzy blue fur, a lighter blue tummy, big dark eyes and pink inside those huge ears.",
+          "answer": "Stitch",
+          "accept": [
+            "stitch",
+            "experiment 626"
+          ],
+          "choices": [
+            "Stitch",
+            "Sully",
+            "Angel",
+            "Grover"
+          ],
+          "reveal": "The correct answer is Stitch. Experiment 626 can't swim, so he's strictly a sand castle guy on beach day. [chuckles]",
+          "palette": [
+            "#3C6FD8",
+            "#9CC3F0",
+            "#1A1A40",
+            "#E58FB5"
+          ],
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "A red-orange woven top, a tan leafy skirt, a shell necklace and long dark curls.",
+          "answer": "Moana",
+          "accept": [
+            "moana"
+          ],
+          "choices": [
+            "Moana",
+            "Pocahontas",
+            "Lilo",
+            "Mirabel"
+          ],
+          "reveal": "The correct answer is Moana. Her necklace holds the heart of Te Fiti, so please... don't lose it in the sand.",
+          "palette": [
+            "#C1440E",
+            "#E2B97B",
+            "#F3EAD3",
+            "#3B2314"
+          ],
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Lavender skin, a black strapless gown, white swept-up hair and bold red lips.",
+          "answer": "Ursula",
+          "accept": [
+            "ursula",
+            "the sea witch"
+          ],
+          "choices": [
+            "Ursula",
+            "Maleficent",
+            "Yzma",
+            "Madam Mim"
+          ],
+          "reveal": "The correct answer is Ursula. Animators based her look partly on the drag performer Divine. [mischievously] Poor unfortunate souls who missed that one!",
+          "palette": [
+            "#A88BC7",
+            "#111111",
+            "#F2F2F2",
+            "#C8102E"
+          ],
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Snowy white hair, sun-kissed skin, blue face markings and a glowing blue crystal necklace.",
+          "answer": "Kida",
+          "accept": [
+            "kida",
+            "kidagakash",
+            "princess kida"
+          ],
+          "choices": [
+            "Kida",
+            "Nani",
+            "Pocahontas",
+            "Esmeralda"
+          ],
+          "reveal": "The correct answer is Kida, princess of Atlantis. Her full name is Kidagakash. [laughs] Bonus points if you can spell that without looking!",
+          "palette": [
+            "#F5F5F0",
+            "#B07A4F",
+            "#3FA7D6",
+            "#2E5A88",
+            "#6B4F3A"
+          ],
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "surfs-up",
+      "title": "Surf's Up",
+      "kind": "parks",
+      "intro": "Our Disney Parks category of the week is Surf's Up. Water parks, pools and sandy hideaways. [chuckles] Keep your arms and legs inside the lazy river at all times.",
+      "art": {
+        "prompt": "A cheerful resort water park with twisting water slides, a lazy river, a wave pool, and a shipwrecked shrimp boat perched on a rocky mountain top. Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
+        "file": "media/beach-day--surfs-up.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This Walt Disney World water park is themed to a ski resort where all the snow melted",
+          "answer": "Blizzard Beach",
+          "accept": [
+            "blizzard beach",
+            "blizzard"
+          ],
+          "choices": [
+            "Blizzard Beach",
+            "Typhoon Lagoon",
+            "Castaway Cay",
+            "Stormalong Bay"
+          ],
+          "reveal": "The correct answer is Blizzard Beach. It's home to Summit Plummet, one of the tallest, fastest free-fall slides around. [excited] Brrr-illiant!",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "A snowy-looking ski resort mountain with a chairlift and ski jumps that has turned into a bright Florida water park, sun shining, water slides where ski runs should be. Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
+            "file": "media/beach-day--surfs-up-200.jpg"
+          }
+        },
+        {
+          "value": 400,
+          "clue": "At Typhoon Lagoon, this shipwrecked shrimp boat sits atop Mount Mayday and blasts a geyser of water into the air",
+          "answer": "Miss Tilly",
+          "accept": [
+            "miss tilly",
+            "tilly"
+          ],
+          "choices": [
+            "Miss Tilly",
+            "Miss Adventure",
+            "Lady Lagoon",
+            "Sea Biscuit"
+          ],
+          "reveal": "The correct answer is Miss Tilly. Legend says a typhoon tossed her onto the mountain. [sighs] Talk about a rough day at the office.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "A battered wooden shrimp boat impaled on top of a rocky tropical mountain, spraying a tall geyser of water into the sky above a wave pool full of swimmers. Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
+            "file": "media/beach-day--surfs-up-400.jpg"
+          }
+        },
+        {
+          "value": 600,
+          "clue": "Opened in 1998, this was the first private island in the Bahamas for Disney Cruise Line guests",
+          "answer": "Castaway Cay",
+          "accept": [
+            "castaway cay",
+            "castaway key",
+            "castaway"
+          ],
+          "choices": [
+            "Castaway Cay",
+            "Lookout Cay",
+            "Treasure Cay",
+            "Discovery Island"
+          ],
+          "reveal": "The correct answer is Castaway Cay. And yes, Cay is pronounced key, so STOP saying 'Castaway Kay' at dinner parties. [laughs]",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "This Disney resort and spa on Oahu's Ko Olina coast opened in 2011",
+          "answer": "Aulani",
+          "accept": [
+            "aulani"
+          ],
+          "choices": [
+            "Aulani",
+            "Kailani",
+            "Ohana",
+            "Moana Surfrider"
+          ],
+          "reveal": "The correct answer is Aulani. Its name roughly means a messenger of a chief in Hawaiian, and it has its own lazy river called Waikolohe Stream.",
+          "dailyDouble": true
+        },
+        {
+          "value": 1000,
+          "clue": "Shared by Disney's Yacht Club and Beach Club, this three-acre pool area has a sandy bottom and a shipwreck slide",
+          "answer": "Stormalong Bay",
+          "accept": [
+            "stormalong bay",
+            "stormalong"
+          ],
+          "choices": [
+            "Stormalong Bay",
+            "Luna Park Pool",
+            "Shipwreck Cove",
+            "Mayday Falls"
+          ],
+          "reveal": "The correct answer is Stormalong Bay, named after the legendary giant sailor Alfred Bulltop Stormalong. [excited] Sand-bottom pools... all the beach, none of the seagulls.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "rhyme-tide",
+      "title": "Rhyme Tide",
+      "kind": "fan",
+      "intro": "Our fan category is Rhyme Tide. Every answer is a rhyming pair with an ocean-going Disney twist. Get your best poet hat on. Or a sun hat. [chuckles] Either works.",
+      "art": {
+        "prompt": "Message in a bottle washing ashore with poetry-like waves of sea foam, seashells and starfish arranged in pairs along the tide line. Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
+        "file": "media/beach-day--rhyme-tide.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "A bedtime tale all about Finding Nemo's forgetful blue tang",
+          "answer": "Dory Story",
+          "accept": [
+            "dory story",
+            "dory's story"
+          ],
+          "choices": [
+            "Dory Story",
+            "Nemo Memo",
+            "Marlin Yarn",
+            "Squirt Shirt"
+          ],
+          "reveal": "The correct answer is a Dory Story. [singing] Just keep reading, just keep reading... [dramatic pause] Wait, what were we doing?",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "A little bus that drives The Little Mermaid's know-it-all seagull around",
+          "answer": "Scuttle Shuttle",
+          "accept": [
+            "scuttle shuttle"
+          ],
+          "choices": [
+            "Scuttle Shuttle",
+            "Gull Bus",
+            "Flounder Rounder",
+            "Ariel Barrel"
+          ],
+          "reveal": "The correct answer is the Scuttle Shuttle. [laughs] Next stop, the dinglehopper store.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "A big hurry made by Finding Nemo's surfer-dude sea turtle",
+          "answer": "Crush Rush",
+          "accept": [
+            "crush rush"
+          ],
+          "choices": [
+            "Crush Rush",
+            "Squirt Spurt",
+            "Bruce Loose",
+            "Crush Brush"
+          ],
+          "reveal": "The correct answer is a Crush Rush. Totally gnarly traffic out on the East Australian Current today, dudes.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "An invoice from the scarred Moorish idol who leads the Tank Gang",
+          "answer": "Gill Bill",
+          "accept": [
+            "gill bill"
+          ],
+          "choices": [
+            "Gill Bill",
+            "Bloat Note",
+            "Dory Story",
+            "Crush Brush"
+          ],
+          "reveal": "The correct answer is a Gill Bill. [chuckles] Payment accepted in pebbles... and escape plans.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "A brand-new T-shirt for Crush's little son",
+          "answer": "Squirt Shirt",
+          "accept": [
+            "squirt shirt"
+          ],
+          "choices": [
+            "Squirt Shirt",
+            "Crush Brush",
+            "Bruce Juice",
+            "Nemo Memo"
+          ],
+          "reveal": "The correct answer is a Squirt Shirt. Squirt was voiced by Nicholas Bird, the son of Pixar director Brad Bird. [excited] Jellyman, offspring, offspring, jellyman!",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}
