@@ -33,7 +33,6 @@
             "a rabbit",
             "a bunny",
             "bunny",
-            "hare",
             "rabbit"
           ],
           "choices": [
@@ -74,9 +73,9 @@
           ],
           "choices": [
             "Gazelle",
-            "Antelope",
-            "Impala",
-            "Giraffe"
+            "Giraffe",
+            "Zebra",
+            "Flamingo"
           ],
           "reveal": "The correct answer is Gazelle! [excited] Shakira as a gazelle with tiger backup dancers. Peak casting.",
           "dailyDouble": false
