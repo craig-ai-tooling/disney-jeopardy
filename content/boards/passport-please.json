@@ -1,0 +1,533 @@
+{
+  "id": "passport-please",
+  "title": "Passport, Please!",
+  "theme": "Film settings around the world",
+  "tags": [
+    "travel",
+    "world",
+    "geography"
+  ],
+  "intro": "[excited] Fasten your seatbelts and put your tray tables up, tonight we're going AROUND THE WORLD! Passport, Please is all about the real places Disney films call home. [laughs] No jet lag, I promise.",
+  "art": {
+    "prompt": "Wide 16:9 title card: a vintage travel collage on a weathered world map, a leather suitcase plastered with stamps of fjords, deserts, savannas, Parisian rooftops and tropical islands, a propeller plane flying past, a small house lifted by colorful balloons on the horizon, warm retro travel-poster palette. No people, no recognizable characters, no text or logos.",
+    "file": "media/passport-please.jpg"
+  },
+  "categories": [
+    {
+      "id": "remember-me",
+      "title": "Remember Me",
+      "kind": "film",
+      "intro": "First stop, Mexico! Our film category is Pixar's 2017 hit Coco. [whispers] Grab your guitar... but don't let Abuelita see it.",
+      "art": {
+        "prompt": "16:9 card art: a glowing marigold petal bridge arching over a candlelit cemetery toward a towering vibrant city of lights, papel picado banners, a white guitar resting on an ofrenda with candles. No people, no recognizable characters, no text or logos.",
+        "file": "media/passport-please--remember-me.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Miguel's loyal, goofy street dog, a hairless Xoloitzcuintli, has this name.",
+          "answer": "Dante",
+          "accept": [
+            "dante"
+          ],
+          "choices": [
+            "Dante",
+            "Pepita",
+            "Bruno",
+            "Pascal"
+          ],
+          "reveal": "The correct answer is Dante! [chuckles] Named after the poet who wrote about a journey through the afterlife. Pepita is the giant winged alebrije cat.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Coco takes place during this holiday, when families honor loved ones who have passed away.",
+          "answer": "Día de los Muertos",
+          "accept": [
+            "dia de los muertos",
+            "día de los muertos",
+            "day of the dead",
+            "dia de muertos"
+          ],
+          "choices": [
+            "Día de los Muertos",
+            "Cinco de Mayo",
+            "Las Posadas",
+            "Mexican Independence Day"
+          ],
+          "reveal": "The correct answer is... Día de los Muertos, the Day of the Dead! Marigold petals form a bridge so spirits can visit their families.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "After Mama Imelda banned music, the Rivera family built its business in this trade.",
+          "answer": "Shoemaking",
+          "accept": [
+            "shoemaking",
+            "shoes",
+            "making shoes",
+            "shoemakers",
+            "shoe making",
+            "shoemaker"
+          ],
+          "choices": [
+            "Shoemaking",
+            "Baking",
+            "Weaving",
+            "Pottery"
+          ],
+          "reveal": "The correct answer is shoemaking! [laughs] Imelda swung a shoe like a weapon. Never cross a Rivera woman holding a shoe.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Miguel believes this famous singer and movie star is his great-great-grandfather.",
+          "answer": "Ernesto de la Cruz",
+          "accept": [
+            "ernesto de la cruz",
+            "de la cruz",
+            "ernesto"
+          ],
+          "choices": [
+            "Ernesto de la Cruz",
+            "Héctor",
+            "Chicharrón",
+            "Papá Julio"
+          ],
+          "reveal": "The correct answer is Ernesto de la Cruz! [whispers] Spoiler alert: it's actually Héctor, and Ernesto is a villain. Seize your moment, but not someone else's song.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Miguel and his family live in this fictional Mexican town, named after the patron saint of music.",
+          "answer": "Santa Cecilia",
+          "accept": [
+            "santa cecilia",
+            "santa cecelia"
+          ],
+          "choices": [
+            "Santa Cecilia",
+            "Santa Clara",
+            "San Miguel",
+            "Santa Rosa"
+          ],
+          "reveal": "The correct answer is Santa Cecilia! [mischievously] Saint Cecilia is the patron saint of musicians. A town named for music, in a family that bans it. Pixar loves irony.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "where-in-the-world",
+      "title": "Where in the World?",
+      "kind": "theme",
+      "intro": "Pull out the atlas! [chuckles] Where in the World is all about the real cities, countries and islands where Disney stories take place.",
+      "art": {
+        "prompt": "16:9 card art: a spinning antique globe on a desk surrounded by postcards of Paris rooftops, an Italian seaside town, a Canadian city skyline with a tall tower, a Hawaiian beach and a South American tabletop mountain with a waterfall. No people, no recognizable characters, no text or logos.",
+        "file": "media/passport-please--where-in-the-world.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Gusteau's restaurant in Ratatouille is located in this European city.",
+          "answer": "Paris",
+          "accept": [
+            "paris"
+          ],
+          "choices": [
+            "Paris",
+            "Rome",
+            "London",
+            "Venice"
+          ],
+          "reveal": "The correct answer is Paris! [laughs] Remy gets a gorgeous view of the city from the rooftops. Most rats only get a view of the sewer.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Pixar's Luca takes place on the seaside coast of this country.",
+          "answer": "Italy",
+          "accept": [
+            "italy"
+          ],
+          "choices": [
+            "Italy",
+            "Greece",
+            "Spain",
+            "France"
+          ],
+          "reveal": "The correct answer is Italy! [excited] The fictional town of Portorosso is on the Italian Riviera. Silenzio, Bruno!",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "In Turning Red, 13-year-old Mei Lee transforms into a giant red panda in this Canadian city.",
+          "answer": "Toronto",
+          "accept": [
+            "toronto"
+          ],
+          "choices": [
+            "Toronto",
+            "Vancouver",
+            "Montreal",
+            "Ottawa"
+          ],
+          "reveal": "The correct answer is Toronto! [chuckles] The CN Tower even gets a starring role. Big red panda energy.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Lilo and Stitch takes place on this Hawaiian island.",
+          "answer": "Kauai",
+          "accept": [
+            "kauai",
+            "kaua'i",
+            "kauaʻi"
+          ],
+          "choices": [
+            "Kauai",
+            "Oahu",
+            "Maui",
+            "The Big Island"
+          ],
+          "reveal": "The correct answer is... Kauai, the Garden Isle! Stitch lands on one of the most remote inhabited places on Earth, and still finds trouble.",
+          "dailyDouble": true
+        },
+        {
+          "value": 1000,
+          "clue": "Paradise Falls in Up was inspired by the tabletop mountains, or tepuis, of this South American country.",
+          "answer": "Venezuela",
+          "accept": [
+            "venezuela"
+          ],
+          "choices": [
+            "Venezuela",
+            "Brazil",
+            "Peru",
+            "Argentina"
+          ],
+          "reveal": "The correct answer is Venezuela! [gasps] Pixar artists traveled to the tepuis near Angel Falls, the tallest waterfall on Earth, for research.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "zoomed-in-postcards",
+      "title": "Zoomed-In Postcards",
+      "kind": "media",
+      "intro": "You'll see a postcard zoomed WAY, way in. It slowly zooms out. [excited] Buzz in as soon as you know which Disney film is set there!",
+      "art": {
+        "prompt": "16:9 card art: a magnifying glass hovering over a scattered pile of colorful travel postcards, the lens revealing an intricate close-up detail, warm desk lamp light. No people, no recognizable characters, no text or logos.",
+        "file": "media/passport-please--zoomed-in-postcards.jpg"
+      },
+      "format": "zoom",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Which Disney film is set here?",
+          "answer": "Frozen",
+          "accept": [
+            "frozen"
+          ],
+          "choices": [
+            "Frozen",
+            "Brave",
+            "Tangled",
+            "Brother Bear"
+          ],
+          "reveal": "The correct answer is... Frozen! Arendelle was inspired by Norway's fjords and stave churches. Do you want to build a snowman? Too late, next clue.",
+          "media": {
+            "type": "image",
+            "prompt": "Painterly storybook illustration of a Nordic fjord kingdom: a green-roofed castle with spires beside a frozen harbor, ice crystal patterns spreading across the water, snowy mountains, crocus purple and teal colors. No people, no characters, no text.",
+            "file": "media/passport-please--zoomed-in-postcards-200.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Which Disney film is set here?",
+          "answer": "Aladdin",
+          "accept": [
+            "aladdin"
+          ],
+          "choices": [
+            "Aladdin",
+            "The Jungle Book",
+            "Mulan",
+            "Moana"
+          ],
+          "reveal": "The correct answer is Aladdin! [excited] The fictional city of Agrabah, with its domed palace, busy market and one VERY famous lamp.",
+          "media": {
+            "type": "image",
+            "prompt": "Golden hour over a desert city of white domed palaces and minarets, a bustling bazaar of striped awnings, piled spices and woven rugs, and a single tarnished brass oil lamp resting on a cushion in the foreground. No people, no characters, no text.",
+            "file": "media/passport-please--zoomed-in-postcards-400.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Which Disney film is set here?",
+          "answer": "The Lion King",
+          "accept": [
+            "the lion king",
+            "lion king"
+          ],
+          "choices": [
+            "The Lion King",
+            "Tarzan",
+            "Zootopia",
+            "Dinosaur"
+          ],
+          "reveal": "The correct answer is The Lion King! [dramatic pause] Pride Rock at sunrise on the African savanna. Everything the light touches is our kingdom.",
+          "media": {
+            "type": "image",
+            "prompt": "A jutting granite rock formation rising over an African savanna at sunrise, acacia trees, golden grass, distant herds of zebra and antelope, warm orange sky. No people, no lions or other characters, no text.",
+            "file": "media/passport-please--zoomed-in-postcards-600.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Which Disney film is set here?",
+          "answer": "Luca",
+          "accept": [
+            "luca"
+          ],
+          "choices": [
+            "Luca",
+            "Ratatouille",
+            "Lady and the Tramp",
+            "Cars 2"
+          ],
+          "reveal": "The correct answer is Luca! [chuckles] An Italian Riviera fishing village with a Vespa dream. Pixar director Enrico Casarosa grew up in that part of Italy.",
+          "media": {
+            "type": "image",
+            "prompt": "Sunny pastel fishing village on the Italian Riviera, colorful stacked houses over a turquoise harbor, a small wooden boat, a red vintage scooter parked on cobblestones, a plate of trenette al pesto on a cafe table. No people, no characters, no text.",
+            "file": "media/passport-please--zoomed-in-postcards-800.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Which Disney film is set here?",
+          "answer": "The Hunchback of Notre Dame",
+          "accept": [
+            "the hunchback of notre dame",
+            "hunchback of notre dame",
+            "hunchback"
+          ],
+          "choices": [
+            "The Hunchback of Notre Dame",
+            "Ratatouille",
+            "Beauty and the Beast",
+            "The Aristocats"
+          ],
+          "reveal": "The correct answer is... The Hunchback of Notre Dame! Bells, gargoyles and the rooftops of medieval Paris. EVERY other choice was set in France too, so well done.",
+          "media": {
+            "type": "image",
+            "prompt": "View from a Gothic cathedral bell tower at dusk: a massive bronze bell, weathered stone gargoyle carvings, flying buttresses, and the rooftops of medieval Paris and the Seine below, dramatic purple sky. No people, no characters, no text.",
+            "file": "media/passport-please--zoomed-in-postcards-1000.jpg"
+          },
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "world-showcase",
+      "title": "World Showcase Stamps",
+      "kind": "parks",
+      "intro": "No passport required for this one. [laughs] We're strolling around EPCOT's World Showcase and collecting stamps.",
+      "art": {
+        "prompt": "16:9 card art: a sparkling lagoon at dusk ringed by miniature world landmarks, a small Eiffel-style tower, a Mayan pyramid, a Norwegian stave church, a Japanese pagoda, fireworks reflected on the water. No people, no recognizable characters, no text or logos.",
+        "file": "media/passport-please--world-showcase.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "EPCOT's France pavilion features a scaled-down replica of this famous Paris landmark.",
+          "answer": "The Eiffel Tower",
+          "accept": [
+            "eiffel tower",
+            "the eiffel tower"
+          ],
+          "choices": [
+            "The Eiffel Tower",
+            "The Leaning Tower of Pisa",
+            "Big Ben",
+            "The CN Tower"
+          ],
+          "reveal": "The correct answer is the Eiffel Tower! [whispers] It's only about a tenth of the size, but forced perspective makes it look far away. Bonjour!",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "The attraction Frozen Ever After is found in this World Showcase pavilion.",
+          "answer": "Norway",
+          "accept": [
+            "norway"
+          ],
+          "choices": [
+            "Norway",
+            "Germany",
+            "Canada",
+            "United Kingdom"
+          ],
+          "reveal": "The correct answer is Norway! [laughs] Fitting, since Arendelle was inspired by Norwegian fjords. Elsa felt right at home.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Remy's Ratatouille Adventure, the trackless ride where you shrink to the size of a rat, is in this pavilion.",
+          "answer": "France",
+          "accept": [
+            "france"
+          ],
+          "choices": [
+            "France",
+            "Italy",
+            "Germany",
+            "Morocco"
+          ],
+          "reveal": "The correct answer is France! [gasps] You get chased through Gusteau's kitchen at rat level. Delicious and slightly terrifying.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Gran Fiesta Tour Starring The Three Caballeros floats you through this pavilion, which is housed inside a pyramid.",
+          "answer": "Mexico",
+          "accept": [
+            "mexico"
+          ],
+          "choices": [
+            "Mexico",
+            "China",
+            "Japan",
+            "Morocco"
+          ],
+          "reveal": "The correct answer is Mexico! [chuckles] Inside it's always twilight, with a smoking volcano and Donald Duck going missing. Again.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "World Showcase is made up of pavilions for this many countries.",
+          "answer": "11",
+          "accept": [
+            "11",
+            "eleven"
+          ],
+          "choices": [
+            "11",
+            "9",
+            "12",
+            "14"
+          ],
+          "reveal": "The correct answer is... eleven! Mexico, Norway, China, Germany, Italy, the United States, Japan, Morocco, France, the United Kingdom and Canada. Drinking around the world is a long walk.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "frequent-flyers",
+      "title": "Frequent Flyers",
+      "kind": "fan",
+      "intro": "Club DJ chose Frequent Flyers: the ways Disney characters get around the world. [mischievously] No airport security required.",
+      "art": {
+        "prompt": "16:9 card art: a sky full of whimsical flying transport: a patterned flying carpet, a bundle of balloons, a trail of golden pixie dust, a seaplane-sized albatross silhouette, and a little crop-duster plane, soft clouds at sunrise. No people, no recognizable characters, no text or logos.",
+        "file": "media/passport-please--frequent-flyers.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Aladdin takes Jasmine on a whole new world tour aboard this.",
+          "answer": "A magic carpet",
+          "accept": [
+            "magic carpet",
+            "a magic carpet",
+            "carpet",
+            "the carpet"
+          ],
+          "choices": [
+            "A magic carpet",
+            "A flying horse",
+            "A hot air balloon",
+            "A dragon"
+          ],
+          "reveal": "The correct answer is the magic carpet! [laughs] Carpet is honestly the best actor in that movie, and he never says a word.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "In Up, Carl Fredricksen's house flies to South America lifted by thousands of these.",
+          "answer": "Balloons",
+          "accept": [
+            "balloons",
+            "balloon",
+            "helium balloons"
+          ],
+          "choices": [
+            "Balloons",
+            "Rockets",
+            "Kites",
+            "Umbrellas"
+          ],
+          "reveal": "The correct answer is balloons! [chuckles] Carl was a balloon salesman, so he had a good supplier.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "In Peter Pan, Wendy and her brothers need happy thoughts plus a sprinkle of this to fly to Neverland.",
+          "answer": "Pixie dust",
+          "accept": [
+            "pixie dust",
+            "fairy dust",
+            "tinker bell's dust"
+          ],
+          "choices": [
+            "Pixie dust",
+            "Stardust",
+            "Moon sand",
+            "Fairy wings"
+          ],
+          "reveal": "The correct answer is pixie dust! [excited] Faith, trust, and a little bit of pixie dust. Second star to the right, and straight on till morning.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In The Rescuers, Bernard and Bianca catch a ride with this albatross, who runs Albatross Air Charter Service.",
+          "answer": "Orville",
+          "accept": [
+            "orville"
+          ],
+          "choices": [
+            "Orville",
+            "Wilbur",
+            "Evinrude",
+            "Archimedes"
+          ],
+          "reveal": "The correct answer is... Orville! His brother Wilbur takes over in The Rescuers Down Under. Named after the Wright brothers, of course.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "In Disney's 2013 film Planes, crop duster Dusty Crophopper competes in this race around the world.",
+          "answer": "Wings Around the Globe",
+          "accept": [
+            "wings around the globe",
+            "wings around the globe rally"
+          ],
+          "choices": [
+            "Wings Around the Globe",
+            "The Piston Cup",
+            "The World Grand Prix",
+            "The Sky Kings Classic"
+          ],
+          "reveal": "The correct answer is the Wings Around the Globe rally! [excited] A crop duster afraid of heights winning a world race. That's the Disney dream.",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}

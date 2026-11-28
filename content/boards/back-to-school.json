@@ -1,0 +1,529 @@
+{
+  "id": "back-to-school",
+  "title": "Back to School",
+  "theme": "Mentors, teachers and learning",
+  "tags": [
+    "school",
+    "mentors",
+    "learning"
+  ],
+  "intro": "[excited] Sharpen your pencils and find your seat, class is in session! Tonight it's BACK TO SCHOOL, celebrating the mentors, teachers and lessons of Disney. There will be a quiz... [laughs] it's this whole show.",
+  "art": {
+    "prompt": "Wide 16:9 title card: a sunlit storybook schoolhouse classroom with a chalkboard covered in doodled stars and castles, a red apple on a wooden desk, stacks of old books, a globe, a wizard's hat on a hook and a glowing lantern, golden autumn leaves outside the window, warm painterly style. No people, no recognizable characters, no text or logos.",
+    "file": "media/back-to-school.jpg"
+  },
+  "categories": [
+    {
+      "id": "monsters-university",
+      "title": "Monsters University",
+      "kind": "film",
+      "intro": "Our film category is 2013's Monsters University! [chuckles] The only college where failing to scare is an actual failing grade.",
+      "art": {
+        "prompt": "16:9 card art: a grand collegiate campus quad at golden hour with ivy-covered brick halls shaped like friendly monster faces, pennants in blue and gold, a scream canister trophy in a display case, autumn trees. No people, no recognizable characters, no text or logos.",
+        "file": "media/back-to-school--monsters-university.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "At Monsters University, one-eyed Mike Wazowski starts out as rivals with this big, blue, furry legacy student.",
+          "answer": "Sulley",
+          "accept": [
+            "sulley",
+            "sully",
+            "james p sullivan",
+            "james sullivan"
+          ],
+          "choices": [
+            "Sulley",
+            "Randall",
+            "Squishy",
+            "Art"
+          ],
+          "reveal": "The correct answer is Sulley! [chuckles] James P. Sullivan, a scare legacy with zero study habits. Mike, meanwhile, read every textbook twice.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Voiced by Helen Mirren, this winged, centipede-like Dean of the School of Scaring strikes fear into every student.",
+          "answer": "Dean Hardscrabble",
+          "accept": [
+            "hardscrabble",
+            "dean hardscrabble",
+            "abigail hardscrabble"
+          ],
+          "choices": [
+            "Dean Hardscrabble",
+            "Professor Knight",
+            "Ms. Squibbles",
+            "Roz"
+          ],
+          "reveal": "The correct answer is... Dean Hardscrabble! Helen Mirren gave her that perfect icy calm. One raised eyebrow and I'd drop the class.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Mike and Sulley compete in the Scare Games for this underdog fraternity full of misfits.",
+          "answer": "Oozma Kappa",
+          "accept": [
+            "oozma kappa",
+            "ok",
+            "oozma",
+            "o k"
+          ],
+          "choices": [
+            "Oozma Kappa",
+            "Roar Omega Roar",
+            "Python Nu Kappa",
+            "Jaws Theta Chi"
+          ],
+          "reveal": "The correct answer is Oozma Kappa, or O K for short! [laughs] Squishy, Art, Don and Terri and Terry. The ultimate group project.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "To get into the cool fraternity, Sulley swipes Archie, the scare pig mascot of this rival school, and Mike ends up chasing it across campus.",
+          "answer": "Fear Tech",
+          "accept": [
+            "fear tech"
+          ],
+          "choices": [
+            "Fear Tech",
+            "Scare State",
+            "Monstropolis Tech",
+            "Frighton College"
+          ],
+          "reveal": "The correct answer is Fear Tech! [chuckles] Archie the Scare Pig led them on a chase across the whole campus. NEVER trust a pig with a cape.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Mike and Sulley's bickering ends with them knocking over Dean Hardscrabble's prized canister holding this.",
+          "answer": "Her record-breaking scream",
+          "accept": [
+            "scream",
+            "her scream",
+            "record scream",
+            "her record scream",
+            "record breaking scream",
+            "her record-breaking scream",
+            "a scream"
+          ],
+          "choices": [
+            "Her record-breaking scream",
+            "Her first-ever laugh",
+            "Her golden scare trophy",
+            "Her scaring license"
+          ],
+          "reveal": "The correct answer is her record-breaking scream! [gasps] It held the all-time scare record, and it shattered on the floor. Kicked out of the program, and they deserved it.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "teachers-pet",
+      "title": "Teacher's Pet",
+      "kind": "theme",
+      "intro": "Every hero needs a mentor. [mischievously] Teacher's Pet is all about the wise, weird and sometimes GRUMPY teachers of Disney.",
+      "art": {
+        "prompt": "16:9 card art: a mentor's training ground montage: a wooden walking stick with a gourd, a Greek training arena with broken columns, a chef's toque beside a cookbook, a woven sail on a Polynesian canoe, warm sunrise light. No people, no recognizable characters, no text or logos.",
+        "file": "media/back-to-school--teachers-pet.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In The Lion King, this wise mandrill bonks Simba on the head with his stick to teach him a lesson about the past.",
+          "answer": "Rafiki",
+          "accept": [
+            "rafiki"
+          ],
+          "choices": [
+            "Rafiki",
+            "Zazu",
+            "Timon",
+            "Pumbaa"
+          ],
+          "reveal": "The correct answer is Rafiki! [chuckles] The lesson: the past can hurt, but you can learn from it. The other lesson: duck.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "In Hercules, this grumpy satyr trainer has spent his career training heroes who all turned out to be duds.",
+          "answer": "Phil",
+          "accept": [
+            "phil",
+            "philoctetes"
+          ],
+          "choices": [
+            "Phil",
+            "Pegasus",
+            "Hermes",
+            "Pain"
+          ],
+          "reveal": "The correct answer is Phil, short for Philoctetes! [laughs] Voiced by Danny DeVito, and the only coach who complains more than I do.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "In Ratatouille, Remy learns to cook from a cookbook and the imaginary spirit of this late chef.",
+          "answer": "Gusteau",
+          "accept": [
+            "gusteau",
+            "auguste gusteau",
+            "chef gusteau"
+          ],
+          "choices": [
+            "Gusteau",
+            "Skinner",
+            "Colette",
+            "Anton Ego"
+          ],
+          "reveal": "The correct answer is Auguste Gusteau! [excited] Anyone can cook, he said, and a rat from the countryside proved him right.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In Moana, this grandmother who proudly calls herself the village crazy lady helps Moana answer the call of the ocean.",
+          "answer": "Gramma Tala",
+          "accept": [
+            "tala",
+            "gramma tala",
+            "grandma tala"
+          ],
+          "choices": [
+            "Gramma Tala",
+            "Grandmother Willow",
+            "Abuela Alma",
+            "Grandmother Fa"
+          ],
+          "reveal": "The correct answer is... Gramma Tala! She dances with the waves and returns as a glowing manta ray. BEST grandma in the Disney canon, sorry other grandmas.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "In Big Hero 6, Hiro is inspired to apply to his brother's tech school after meeting this famous robotics professor.",
+          "answer": "Robert Callaghan",
+          "accept": [
+            "callaghan",
+            "professor callaghan",
+            "robert callaghan"
+          ],
+          "choices": [
+            "Robert Callaghan",
+            "Alistair Krei",
+            "Tadashi Hamada",
+            "Professor Granville"
+          ],
+          "reveal": "The correct answer is Professor Robert Callaghan! [sarcastic] A great mentor right up until the masked villain reveal. Read your teacher reviews, kids.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "words-of-wisdom",
+      "title": "Words of Wisdom",
+      "kind": "media",
+      "intro": "You'll hear a famous piece of Disney advice. Tell me which character said it. [whispers] Take notes, this WILL be on the test.",
+      "art": {
+        "prompt": "16:9 card art: an ancient candlelit library with floating glowing quotation-mark shaped wisps of light, open books, a quill and inkwell, starry night through a round window, magical blue and gold. No people, no recognizable characters, no text or logos.",
+        "file": "media/back-to-school--words-of-wisdom.jpg"
+      },
+      "format": "quote",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Who gave this advice?",
+          "answer": "Dory",
+          "accept": [
+            "dory"
+          ],
+          "choices": [
+            "Dory",
+            "Marlin",
+            "Nemo",
+            "Crush"
+          ],
+          "reveal": "The correct answer is Dory! [excited] When life gets you down, you know what you gotta do. Just keep swimming.",
+          "quote": "Just keep swimming.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Who gave this advice?",
+          "answer": "Mufasa",
+          "accept": [
+            "mufasa"
+          ],
+          "choices": [
+            "Mufasa",
+            "Rafiki",
+            "Scar",
+            "Sarabi"
+          ],
+          "reveal": "The correct answer is Mufasa! [whispers] Speaking from the clouds, voiced by the legendary James Earl Jones. Goosebumps every time.",
+          "quote": "Remember who you are.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Who gave this advice?",
+          "answer": "Yoda",
+          "accept": [
+            "yoda",
+            "master yoda"
+          ],
+          "choices": [
+            "Yoda",
+            "Obi-Wan Kenobi",
+            "Qui-Gon Jinn",
+            "Mace Windu"
+          ],
+          "reveal": "The correct answer is Yoda! [chuckles] Said to Luke on Dagobah in The Empire Strikes Back. Luke tried, and the X-wing stayed in the swamp.",
+          "quote": "Do. Or do not. There is no try.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Who gave this advice?",
+          "answer": "The Emperor",
+          "accept": [
+            "the emperor",
+            "emperor",
+            "emperor of china"
+          ],
+          "choices": [
+            "The Emperor",
+            "Fa Zhou",
+            "Grandmother Fa",
+            "Mushu"
+          ],
+          "reveal": "The correct answer is... the Emperor of China! He says it to Shang about Mulan. Fa Zhou has a similar line about a late blooming flower, so that was a tricky one.",
+          "quote": "The flower that blooms in adversity is the most rare and beautiful of all.",
+          "dailyDouble": true
+        },
+        {
+          "value": 1000,
+          "clue": "Who gave this advice?",
+          "answer": "The Fairy Godmother",
+          "accept": [
+            "fairy godmother",
+            "the fairy godmother",
+            "cinderella's fairy godmother"
+          ],
+          "choices": [
+            "The Fairy Godmother",
+            "The Blue Fairy",
+            "Merryweather",
+            "Flora"
+          ],
+          "reveal": "The correct answer is Cinderella's Fairy Godmother! [laughs] Then she bibbidi bobbidi boos a pumpkin into a carriage. Fast miracles, honestly.",
+          "quote": "Even miracles take a little time.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "field-trip",
+      "title": "Field Trip!",
+      "kind": "parks",
+      "intro": "Permission slips signed? Good! [excited] We're taking a field trip to the most educational corners of the Disney parks.",
+      "art": {
+        "prompt": "16:9 card art: a yellow school bus parked before a futuristic theme park plaza with a giant silver geodesic sphere, fountains and greenhouse domes, bright blue sky, cheerful retro-futurist style. No people, no recognizable characters, no text or logos.",
+        "file": "media/back-to-school--field-trip.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This giant silver geodesic sphere at the front of EPCOT takes you on a ride through the history of human communication.",
+          "answer": "Spaceship Earth",
+          "accept": [
+            "spaceship earth"
+          ],
+          "choices": [
+            "Spaceship Earth",
+            "Tree of Life",
+            "Space Mountain",
+            "Mission: Space"
+          ],
+          "reveal": "The correct answer is Spaceship Earth! [mischievously] Some people call it the giant golf ball. Those people are correct, but don't tell the Imagineers.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "At EPCOT's The American Adventure, Benjamin Franklin co-hosts the history lesson with this famous author.",
+          "answer": "Mark Twain",
+          "accept": [
+            "mark twain",
+            "twain",
+            "samuel clemens"
+          ],
+          "choices": [
+            "Mark Twain",
+            "Abraham Lincoln",
+            "Thomas Edison",
+            "Walt Whitman"
+          ],
+          "reveal": "The correct answer is... Mark Twain! Franklin and Twain, two Audio-Animatronics walking us through American history. WAY more fun than my textbook.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "At EPCOT's The Land pavilion, this gentle boat ride floats you through real greenhouses growing crops.",
+          "answer": "Living with the Land",
+          "accept": [
+            "living with the land"
+          ],
+          "choices": [
+            "Living with the Land",
+            "Soarin' Around the World",
+            "Journey of Water",
+            "Awesome Planet"
+          ],
+          "reveal": "The correct answer is Living with the Land! [excited] The veggies you see often end up on plates in EPCOT restaurants. Talk about farm to table.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In this EPCOT show, kids can ask questions to a surfer dude sea turtle who answers them in real time.",
+          "answer": "Turtle Talk with Crush",
+          "accept": [
+            "turtle talk with crush",
+            "turtle talk"
+          ],
+          "choices": [
+            "Turtle Talk with Crush",
+            "The Seas with Nemo and Friends",
+            "Crush's Coaster",
+            "Finding Nemo: The Big Blue and Beyond"
+          ],
+          "reveal": "The correct answer is Turtle Talk with Crush! [laughs] Totally tubular, dude. Crush's Coaster is real too, but it's in Disneyland Paris.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Walt imagined EPCOT as a real city of the future. The letters EPCOT stand for this.",
+          "answer": "Experimental Prototype Community of Tomorrow",
+          "accept": [
+            "experimental prototype community of tomorrow"
+          ],
+          "choices": [
+            "Experimental Prototype Community of Tomorrow",
+            "Experimental Prototype City of Tomorrow",
+            "Environmental Prototype Community of Tomorrow",
+            "Experimental Planned Community of Tomorrow"
+          ],
+          "reveal": "The correct answer is Experimental Prototype Community of Tomorrow! [sighs] Walt's version had real residents. We got Figment instead, which I consider a fair trade.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "school-daze",
+      "title": "School Daze",
+      "kind": "fan",
+      "intro": "Club DJ voted for School Daze: classrooms, campuses and graduations from across Disney. [laughs] No hall pass needed.",
+      "art": {
+        "prompt": "16:9 card art: a high school hallway with red lockers, a basketball resting on a bench, graduation caps tossed in the air, a police academy badge on a desk, a broomstick leaning against a stack of mail-order lesson envelopes. No people, no recognizable characters, no text or logos.",
+        "file": "media/back-to-school--school-daze.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In Inside Out, Riley has a rough first day at a new school after her family moves from Minnesota to this city.",
+          "answer": "San Francisco",
+          "accept": [
+            "san francisco",
+            "sf"
+          ],
+          "choices": [
+            "San Francisco",
+            "Seattle",
+            "Los Angeles",
+            "Chicago"
+          ],
+          "reveal": "The correct answer is San Francisco! [gasps] Riley also discovers the horror of broccoli pizza. Sadness took the wheel, and honestly so would mine.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "In High School Musical, Troy Bolton and Gabriella sing their way through East High, home of these team mascots.",
+          "answer": "The Wildcats",
+          "accept": [
+            "wildcats",
+            "the wildcats",
+            "east high wildcats"
+          ],
+          "choices": [
+            "The Wildcats",
+            "The Knights",
+            "The Eagles",
+            "The Tigers"
+          ],
+          "reveal": "The correct answer is the Wildcats! [excited] What team? Wildcats! Get your head in the game, and that song will now be stuck there all night.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "In Zootopia, Judy Hopps graduates at the top of her class from this academy.",
+          "answer": "The Police Academy",
+          "accept": [
+            "police academy",
+            "the police academy",
+            "zootopia police academy",
+            "police"
+          ],
+          "choices": [
+            "The Police Academy",
+            "The Fire Academy",
+            "Law School",
+            "The Military Academy"
+          ],
+          "reveal": "The correct answer is the Zootopia Police Academy! [sarcastic] First bunny cop, valedictorian, and then they assign her to parking duty. Classic.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In this 2006 Disney Channel spinoff, a future emperor must pass his classes at Kuzco Academy before he can take the throne.",
+          "answer": "The Emperor's New School",
+          "accept": [
+            "the emperor's new school",
+            "emperor's new school",
+            "emperors new school"
+          ],
+          "choices": [
+            "The Emperor's New School",
+            "Kuzco Academy",
+            "The Emperor's New Class",
+            "Llama Academy"
+          ],
+          "reveal": "The correct answer is The Emperor's New School! [mischievously] Kuzco has to graduate to rule, and the principal is secretly Yzma in disguise. What could possibly go wrong?",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "In Bedknobs and Broomsticks, Eglantine Price is learning witchcraft through this kind of course run by Professor Emelius Browne.",
+          "answer": "A correspondence course",
+          "accept": [
+            "correspondence course",
+            "a correspondence course",
+            "correspondence",
+            "by mail",
+            "mail order",
+            "mail"
+          ],
+          "choices": [
+            "A correspondence course",
+            "A night school class",
+            "A summer camp",
+            "An online course"
+          ],
+          "reveal": "The correct answer is a correspondence course! [laughs] Lessons by mail from the College of Witchcraft. The professor turned out to be a street magician. Read your reviews.",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}

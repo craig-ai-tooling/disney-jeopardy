@@ -1,0 +1,144 @@
+[
+  {
+    "film": "The Fox and the Hound",
+    "category": "The Fox and the Hound",
+    "clue": "This kind-hearted farm owner adopts the orphaned fox cub Tod and later releases him into a game preserve.",
+    "answer": "Widow Tweed",
+    "accept": [
+      "widow tweed",
+      "tweed",
+      "mrs. tweed",
+      "mrs tweed"
+    ],
+    "choices": [
+      "Widow Tweed",
+      "Amos Slade",
+      "Big Mama",
+      "Vixey"
+    ],
+    "reveal": "The correct answer is Widow Tweed! [sighs] Her goodbye to Tod in the forest gets me EVERY time. Pass the tissues, please."
+  },
+  {
+    "film": "Oliver & Company",
+    "category": "Oliver & Company",
+    "clue": "Singer Billy Joel voices this streetwise, sunglasses-wearing dog who teaches Oliver how to survive in New York City.",
+    "answer": "Dodger",
+    "accept": [
+      "dodger"
+    ],
+    "choices": [
+      "Dodger",
+      "Tito",
+      "Francis",
+      "Einstein"
+    ],
+    "reveal": "The correct answer is Dodger! [excited] Why should I worry? Billy Joel sings it himself. Tito the chihuahua was voiced by Cheech Marin."
+  },
+  {
+    "film": "Brother Bear",
+    "category": "Brother Bear",
+    "clue": "At his manhood ceremony, Kenai is unhappy to receive a bear totem, which stands for this.",
+    "answer": "Love",
+    "accept": [
+      "love",
+      "the bear of love",
+      "bear of love"
+    ],
+    "choices": [
+      "Love",
+      "Wisdom",
+      "Guidance",
+      "Courage"
+    ],
+    "reveal": "The correct answer is love! [chuckles] Kenai wanted something tougher. Denahi got the wolf of wisdom, and Sitka the eagle of guidance. The joke's on Kenai, he becomes a bear."
+  },
+  {
+    "film": "Meet the Robinsons",
+    "category": "Meet the Robinsons",
+    "clue": "The Robinson family's motto, taken from a Walt Disney quote shown at the end of the film, is to keep doing this.",
+    "answer": "Keep moving forward",
+    "accept": [
+      "keep moving forward",
+      "moving forward",
+      "move forward"
+    ],
+    "choices": [
+      "Keep moving forward",
+      "Keep dreaming big",
+      "Keep reaching for the stars",
+      "Keep looking up"
+    ],
+    "reveal": "The correct answer is keep moving forward! [excited] The film closes with Walt's own words: we keep moving forward, opening new doors, and doing new things. Because we're curious."
+  },
+  {
+    "film": "Bolt",
+    "category": "Bolt",
+    "clue": "Bolt's biggest fan and traveling companion is this hamster who rolls everywhere inside a clear plastic ball.",
+    "answer": "Rhino",
+    "accept": [
+      "rhino"
+    ],
+    "choices": [
+      "Rhino",
+      "Mittens",
+      "Hammy",
+      "Penny"
+    ],
+    "reveal": "The correct answer is Rhino! [laughs] He's convinced Bolt is a real superhero and calls himself awesome. Mittens is the street cat, and Penny is Bolt's person."
+  },
+  {
+    "film": "The Great Mouse Detective",
+    "category": "The Great Mouse Detective",
+    "clue": "Horror legend Vincent Price voices this villain, the arch-nemesis of Basil of Baker Street.",
+    "answer": "Professor Ratigan",
+    "accept": [
+      "ratigan",
+      "professor ratigan"
+    ],
+    "choices": [
+      "Professor Ratigan",
+      "Fidget",
+      "Dr. Dawson",
+      "Toby"
+    ],
+    "reveal": "The correct answer is Professor Ratigan! [dramatic pause] The world's greatest criminal mind... who absolutely is NOT a rat. He's a big mouse. Just don't say the R word."
+  },
+  {
+    "film": "The Sword in the Stone",
+    "category": "The Sword in the Stone",
+    "clue": "Before he pulls the sword from the stone and becomes king, young Arthur goes by this nickname.",
+    "answer": "Wart",
+    "accept": [
+      "wart",
+      "the wart"
+    ],
+    "choices": [
+      "Wart",
+      "Kay",
+      "Squeak",
+      "Pip"
+    ],
+    "reveal": "The correct answer is Wart! [sarcastic] What a regal nickname. Sir Kay is his bullying foster brother. At least Merlin and Archimedes believed in him."
+  },
+  {
+    "film": "The Many Adventures of Winnie the Pooh",
+    "category": "The Many Adventures of Winnie the Pooh",
+    "clue": "Floating up to a beehive on a balloon, Pooh covers himself in mud to disguise himself as this.",
+    "answer": "A little black rain cloud",
+    "accept": [
+      "rain cloud",
+      "a rain cloud",
+      "a little black rain cloud",
+      "little black rain cloud",
+      "cloud",
+      "a cloud"
+    ],
+    "choices": [
+      "A little black rain cloud",
+      "A buzzing bumblebee",
+      "A tree branch",
+      "A tiny bird"
+    ],
+    "reveal": "The correct answer is a little black rain cloud! [laughs] The bees were NOT fooled. Christopher Robin even opened an umbrella to help sell it. Silly old bear."
+  }
+]
