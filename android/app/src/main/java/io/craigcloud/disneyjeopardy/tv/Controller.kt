@@ -90,7 +90,7 @@ class Controller(private val ctx: Context, tvId: String) {
         val ownLine = m.tag?.startsWith("pitch:") != true
         speaking = m
         if (ownLine) setMood(Mood.talk)
-        narrator.say(m) {
+        narrator.say(m.copy(url = abs(m.url))) {
             if (fired) return@say
             fired = true
             if (ownLine && speaking === m) { speaking = null; setMood(Mood.idle) }
