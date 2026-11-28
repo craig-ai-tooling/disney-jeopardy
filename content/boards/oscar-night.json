@@ -1,0 +1,536 @@
+{
+  "id": "oscar-night",
+  "title": "Oscar Night",
+  "theme": "Disney at the Academy Awards",
+  "tags": [
+    "oscars",
+    "academy awards",
+    "awards",
+    "history"
+  ],
+  "intro": "[excited] Roll out the red carpet and polish those golden statues, because tonight is OSCAR NIGHT! Disney's greatest Academy Award moments... [chuckles] and I promise my acceptance speech will be short. Ish.",
+  "art": {
+    "prompt": "A glamorous Hollywood awards night: a sweeping red carpet under golden searchlights, velvet ropes, a sea of camera flashes, a towering abstract golden statuette silhouette and a sealed envelope on a silver tray, 16:9, original artwork, no text, no logos, no characters, no people",
+    "file": "media/oscar-night.jpg"
+  },
+  "categories": [
+    {
+      "id": "adventure-is-out-there",
+      "title": "Adventure Is Out There!",
+      "kind": "film",
+      "intro": "[excited] Our film tonight won TWO Oscars and made everybody cry in the first ten minutes. It's Up!",
+      "art": {
+        "prompt": "A colorful house lifted into the sky by thousands of rainbow balloons, floating above a misty South American waterfall and flat-topped mountains at sunset, a grape soda bottle cap pin in the foreground, 16:9, original artwork, no text, no logos, no characters, no people",
+        "file": "media/oscar-night--adventure-is-out-there.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Carl ties thousands of these to his house to fly it to South America.",
+          "answer": "Balloons",
+          "accept": [
+            "balloons",
+            "balloon",
+            "helium balloons"
+          ],
+          "choices": [
+            "Balloons",
+            "Kites",
+            "Propellers",
+            "Umbrellas"
+          ],
+          "reveal": "The correct answer is balloons! [laughs] Pixar's animators figured it would take millions to really lift a house. Details, details.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "This eager young Wilderness Explorer stows away on Carl's flying house, hoping to earn his last badge.",
+          "answer": "Russell",
+          "accept": [
+            "russell"
+          ],
+          "choices": [
+            "Russell",
+            "Kevin",
+            "Ellie",
+            "Dug"
+          ],
+          "reveal": "The correct answer is Russell! [chuckles] Assisting the elderly badge: EARNED. And then some.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "This lovable golden retriever wears a collar that lets him talk.",
+          "answer": "Dug",
+          "accept": [
+            "dug"
+          ],
+          "choices": [
+            "Dug",
+            "Alpha",
+            "Beta",
+            "Gamma"
+          ],
+          "reveal": "The correct answer is Dug! [excited] I have just met you, and I love you. SQUIRREL!",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Up won the Oscar for Best Original Score for this composer, who also scored Ratatouille and Coco.",
+          "answer": "Michael Giacchino",
+          "accept": [
+            "michael giacchino",
+            "giacchino"
+          ],
+          "choices": [
+            "Michael Giacchino",
+            "Randy Newman",
+            "Thomas Newman",
+            "John Williams"
+          ],
+          "reveal": "The correct answer is Michael Giacchino! [sighs] His waltz Married Life is basically a box of tissues in musical form.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Up was only the second animated film nominated for Best Picture, after this 1991 film.",
+          "answer": "Beauty and the Beast",
+          "accept": [
+            "beauty and the beast"
+          ],
+          "choices": [
+            "Beauty and the Beast",
+            "The Lion King",
+            "Aladdin",
+            "Toy Story"
+          ],
+          "reveal": "[gasps] The correct answer is Beauty and the Beast! A tale as old as time, and a nomination for the ages.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "golden-statues",
+      "title": "Golden Statues",
+      "kind": "theme",
+      "intro": "[whispers] The envelope, please... It's Disney's history at the Academy Awards!",
+      "art": {
+        "prompt": "A row of gleaming golden award statuettes on a marble stage under a spotlight, with velvet curtains, an open envelope and drifting golden confetti, 16:9, original artwork, no text, no logos, no characters, no people",
+        "file": "media/oscar-night--golden-statues.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "With 22 competitive Oscars, this man holds the record for the most Academy Awards won by one person.",
+          "answer": "Walt Disney",
+          "accept": [
+            "walt disney",
+            "walt"
+          ],
+          "choices": [
+            "Walt Disney",
+            "John Williams",
+            "Steven Spielberg",
+            "Alan Menken"
+          ],
+          "reveal": "The correct answer is Walt Disney! [excited] Twenty-two competitive wins, plus four honorary awards. Walt's trophy shelf needed its own zip code.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "This 2003 movie about a clownfish dad was the first Pixar film to win Best Animated Feature.",
+          "answer": "Finding Nemo",
+          "accept": [
+            "finding nemo",
+            "nemo"
+          ],
+          "choices": [
+            "Finding Nemo",
+            "Monsters, Inc.",
+            "Toy Story 2",
+            "The Incredibles"
+          ],
+          "reveal": "The correct answer is Finding Nemo! [laughs] Fish are friends, AND fish are Oscar winners.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "This 2013 film was the first from Walt Disney Animation Studios to win the Oscar for Best Animated Feature.",
+          "answer": "Frozen",
+          "accept": [
+            "frozen"
+          ],
+          "choices": [
+            "Frozen",
+            "Tangled",
+            "Wreck-It Ralph",
+            "Bolt"
+          ],
+          "reveal": "The correct answer is Frozen! [chuckles] It also won Best Song. The Oscars just could not let it go.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "This star won Best Actress for her very first film role, as Mary Poppins.",
+          "answer": "Julie Andrews",
+          "accept": [
+            "julie andrews",
+            "andrews"
+          ],
+          "choices": [
+            "Julie Andrews",
+            "Dick Van Dyke",
+            "Angela Lansbury",
+            "Glynis Johns"
+          ],
+          "reveal": "The correct answer is Julie Andrews! [excited] First movie, first Oscar. Practically perfect in every way.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "This 1988 mix of live action and cartoons won three competitive Oscars, plus a special award for its animation director, Richard Williams.",
+          "answer": "Who Framed Roger Rabbit",
+          "accept": [
+            "who framed roger rabbit",
+            "roger rabbit"
+          ],
+          "choices": [
+            "Who Framed Roger Rabbit",
+            "Mary Poppins",
+            "Bedknobs and Broomsticks",
+            "Pete's Dragon"
+          ],
+          "reveal": "The correct answer is Who Framed Roger Rabbit! [laughs] P-p-p-please, give it up for the bunny.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "red-carpet-close-ups",
+      "title": "Red Carpet Close-Ups",
+      "kind": "media",
+      "intro": "[mischievously] Each of these scenes comes from a Best Animated Feature winner. We start REALLY zoomed in. Buzz in as soon as you recognize it!",
+      "art": {
+        "prompt": "A paparazzi camera lens extreme close-up reflecting a red carpet and golden searchlights, with a magnifying glass and film reel nearby, 16:9, original artwork, no text, no logos, no characters, no people",
+        "file": "media/oscar-night--red-carpet-close-ups.jpg"
+      },
+      "format": "zoom",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This zoomed-in scene comes from a Best Animated Feature winner. Name the film.",
+          "answer": "Encanto",
+          "accept": [
+            "encanto"
+          ],
+          "choices": [
+            "Encanto",
+            "Coco",
+            "Moana",
+            "Vivo"
+          ],
+          "reveal": "The correct answer is Encanto! [excited] A magical house, a miracle candle, and a family that needs therapy. In a good way.",
+          "media": {
+            "type": "image",
+            "prompt": "A colorful magical Colombian family home in the mountains with glowing doorways, yellow butterflies, a flickering candle in a window and tiles that ripple like waves, no people, no text, no logos, no copyrighted characters",
+            "file": "media/oscar-night--red-carpet-close-ups-200.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Zoom out on this Oscar-winning city. Name the film.",
+          "answer": "Zootopia",
+          "accept": [
+            "zootopia",
+            "zootropolis"
+          ],
+          "choices": [
+            "Zootopia",
+            "Sing",
+            "The Secret Life of Pets",
+            "Robin Hood"
+          ],
+          "reveal": "The correct answer is Zootopia! [laughs] A city with a tundra, a rainforest AND a desert. Pack layers.",
+          "media": {
+            "type": "image",
+            "prompt": "A futuristic city skyline split into icy tundra towers, a misty rainforest district and a sunny desert district, with a tiny carrot-shaped pen recorder on a train platform, no people, no text, no logos, no copyrighted characters",
+            "file": "media/oscar-night--red-carpet-close-ups-400.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Zoom out on this Oscar-winning headquarters. Name the film.",
+          "answer": "Inside Out",
+          "accept": [
+            "inside out"
+          ],
+          "choices": [
+            "Inside Out",
+            "Soul",
+            "Turning Red",
+            "Elemental"
+          ],
+          "reveal": "The correct answer is Inside Out! [sighs] Those memory orbs are just the cutest little feelings.",
+          "media": {
+            "type": "image",
+            "prompt": "An endless maze of tall shelves holding glowing colored memory orbs in yellow, blue, red, green and purple, inside a vast dreamlike mind landscape, no people, no text, no logos, no copyrighted characters",
+            "file": "media/oscar-night--red-carpet-close-ups-600.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Zoom out on this Oscar-winning skyline. Name the film.",
+          "answer": "Big Hero 6",
+          "accept": [
+            "big hero 6",
+            "big hero six"
+          ],
+          "choices": [
+            "Big Hero 6",
+            "Wreck-It Ralph",
+            "Meet the Robinsons",
+            "Lightyear"
+          ],
+          "reveal": "The correct answer is Big Hero 6! [excited] San Fransokyo, the city where the windsocks are koi fish. Hairy baby!",
+          "media": {
+            "type": "image",
+            "prompt": "A futuristic hybrid city of steep hills and cable cars with pagoda-style rooftops, a red suspension bridge with gateway-shaped towers and koi-fish wind turbines floating in the sky, no people, no text, no logos, no copyrighted characters",
+            "file": "media/oscar-night--red-carpet-close-ups-800.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Zoom out on this Oscar-winning landscape. Name the film.",
+          "answer": "Brave",
+          "accept": [
+            "brave"
+          ],
+          "choices": [
+            "Brave",
+            "How to Train Your Dragon",
+            "Frozen II",
+            "The Sword in the Stone"
+          ],
+          "reveal": "The correct answer is Brave! [whispers] Follow the wisps... they lead you to your fate. Or to a bear. Usually a bear.",
+          "media": {
+            "type": "image",
+            "prompt": "A misty ring of ancient standing stones in the Scottish Highlands, glowing blue will-o-the-wisps floating among them, a torn family tapestry and a longbow on a mossy rock, no people, no text, no logos, no copyrighted characters",
+            "file": "media/oscar-night--red-carpet-close-ups-1000.jpg"
+          },
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "award-winning-rides",
+      "title": "Award-Winning Rides",
+      "kind": "parks",
+      "intro": "[chuckles] Oscar winners don't just sit on a shelf. They get their own RIDES. Let's tour the parks!",
+      "art": {
+        "prompt": "A glittering theme park boulevard styled like old Hollywood at twilight, with a pagoda-roofed movie palace facade, golden searchlights, a spinning cartoon taxi ride and a giant chef's hat sculpture, 16:9, original artwork, no text, no logos, no characters, no people",
+        "file": "media/oscar-night--award-winning-rides.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "At Hollywood Studios, Mickey and Minnie's Runaway Railway is inside a replica of this famous Hollywood movie palace.",
+          "answer": "The Chinese Theatre",
+          "accept": [
+            "the chinese theatre",
+            "chinese theatre",
+            "chinese theater",
+            "grauman's chinese theatre",
+            "the chinese theater",
+            "tcl chinese theatre"
+          ],
+          "choices": [
+            "The Chinese Theatre",
+            "The Dolby Theatre",
+            "The Hollywood Bowl",
+            "The El Capitan Theatre"
+          ],
+          "reveal": "The correct answer is the Chinese Theatre! [excited] Where countless stars pressed their handprints in cement out in Hollywood. Mine would just be a smudge.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "This Oscar-winning rat's trackless 4D ride is in EPCOT's France pavilion.",
+          "answer": "Remy's Ratatouille Adventure",
+          "accept": [
+            "remy's ratatouille adventure",
+            "remys ratatouille adventure",
+            "ratatouille adventure",
+            "ratatouille"
+          ],
+          "choices": [
+            "Remy's Ratatouille Adventure",
+            "Le Cellier Express",
+            "Gran Fiesta Tour",
+            "Frozen Ever After"
+          ],
+          "reveal": "The correct answer is Remy's Ratatouille Adventure! [laughs] You get shrunk down to rat size. Finally, a ride where I'm the right height.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Toy Story 3 and Toy Story 4 both won Best Animated Feature. This themed land opened at Hollywood Studios in 2018.",
+          "answer": "Toy Story Land",
+          "accept": [
+            "toy story land"
+          ],
+          "choices": [
+            "Toy Story Land",
+            "Pixar Pier",
+            "Toy Story Playland",
+            "Andy's Backyard"
+          ],
+          "reveal": "The correct answer is Toy Story Land! [chuckles] Everything is giant, because YOU are the toy. Watch out for Andy's sneakers.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Roger Rabbit's Car Toon Spin is a spinning dark ride in this Disneyland land.",
+          "answer": "Mickey's Toontown",
+          "accept": [
+            "mickey's toontown",
+            "toontown",
+            "mickeys toontown"
+          ],
+          "choices": [
+            "Mickey's Toontown",
+            "Fantasyland",
+            "Critter Country",
+            "Tomorrowland"
+          ],
+          "reveal": "The correct answer is Mickey's Toontown! [mischievously] Just avoid the dip. Trust me on this one.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Zootopia, the 2016 Best Animated Feature winner, got its own full themed land in December 2023 at this park.",
+          "answer": "Shanghai Disneyland",
+          "accept": [
+            "shanghai disneyland",
+            "shanghai"
+          ],
+          "choices": [
+            "Shanghai Disneyland",
+            "Tokyo Disneyland",
+            "Hong Kong Disneyland",
+            "Disney California Adventure"
+          ],
+          "reveal": "The correct answer is Shanghai Disneyland! [excited] The world's first Zootopia land. Please do NOT let Flash run the ticket booth.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "short-and-golden",
+      "title": "Short and Golden",
+      "kind": "fan",
+      "intro": "[excited] Not every Oscar winner is feature-length! Let's celebrate Disney and Pixar's award-winning SHORTS.",
+      "art": {
+        "prompt": "A cozy miniature movie theater with a tiny glowing screen, a stack of short film reels, a toy one-man-band drum, a chessboard, a steamed dumpling and a seashell on velvet seats, 16:9, original artwork, no text, no logos, no characters, no people",
+        "file": "media/oscar-night--short-and-golden.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In Pixar's Oscar-winning short Bao, a lonely mom's homemade dumpling turns into one of these.",
+          "answer": "A baby boy",
+          "accept": [
+            "a baby boy",
+            "a baby",
+            "baby",
+            "a little boy",
+            "a son",
+            "baby boy"
+          ],
+          "choices": [
+            "A baby boy",
+            "A puppy",
+            "A bunny",
+            "A dragon"
+          ],
+          "reveal": "The correct answer is a baby boy! [sighs] I cried, then got really hungry. Classic Pixar combo.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Pixar's Oscar-winning short Geri's Game shows an old man playing this game against himself in a park.",
+          "answer": "Chess",
+          "accept": [
+            "chess"
+          ],
+          "choices": [
+            "Chess",
+            "Checkers",
+            "Poker",
+            "Dominoes"
+          ],
+          "reveal": "The correct answer is chess! [laughs] Geri later showed up in Toy Story 2 as the toy cleaner. Busy guy.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Pixar's 2016 Oscar-winning short Piper follows a baby of this kind of shorebird.",
+          "answer": "Sandpiper",
+          "accept": [
+            "sandpiper",
+            "a sandpiper",
+            "sandpipers"
+          ],
+          "choices": [
+            "Sandpiper",
+            "Seagull",
+            "Pelican",
+            "Puffin"
+          ],
+          "reveal": "The correct answer is a sandpiper! [excited] The feathers were so realistic, people asked if it was live action.",
+          "dailyDouble": true
+        },
+        {
+          "value": 800,
+          "clue": "This 1988 short about a one-man-band toy was the first Pixar film to win an Oscar.",
+          "answer": "Tin Toy",
+          "accept": [
+            "tin toy"
+          ],
+          "choices": [
+            "Tin Toy",
+            "Luxo Jr.",
+            "Red's Dream",
+            "Knick Knack"
+          ],
+          "reveal": "The correct answer is Tin Toy! [chuckles] That terrifying drooly baby helped inspire Toy Story. Thanks, baby.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "This 1937 Silly Symphony, the first film to use Disney's multiplane camera, won the Oscar for Best Cartoon.",
+          "answer": "The Old Mill",
+          "accept": [
+            "the old mill",
+            "old mill"
+          ],
+          "choices": [
+            "The Old Mill",
+            "Flowers and Trees",
+            "The Three Little Pigs",
+            "The Tortoise and the Hare"
+          ],
+          "reveal": "[gasps] The correct answer is The Old Mill! It won the cartoon Oscar AND a technical award for the camera itself.",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}

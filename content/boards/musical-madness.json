@@ -1,0 +1,545 @@
+{
+  "id": "musical-madness",
+  "title": "Musical Madness",
+  "theme": "Disney songs and songwriters: the Sherman Brothers, Alan Menken, Lin-Manuel Miranda and more",
+  "tags": [
+    "music",
+    "songs",
+    "composers",
+    "sherman brothers",
+    "menken"
+  ],
+  "intro": "[excited] Warm up those vocal cords, because tonight is MUSICAL MADNESS! The Sherman Brothers, Alan Menken, Lin-Manuel Miranda... [laughs] and me, singing badly between rounds. You've been warned.",
+  "art": {
+    "prompt": "A grand concert stage at night with a glowing grand piano, sheet music swirling into the air like birds, a golden spotlight, a conductor's baton on a music stand and musical-note shaped sparkles over a velvet red curtain, 16:9, original artwork, no text, no logos, no characters, no people",
+    "file": "media/musical-madness.jpg"
+  },
+  "categories": [
+    {
+      "id": "practically-perfect-pitch",
+      "title": "Practically Perfect Pitch",
+      "kind": "film",
+      "intro": "[chuckles] Spit spot! This category is all about Mary Poppins, the Sherman Brothers' masterpiece. Supercalifragilistic answers only.",
+      "art": {
+        "prompt": "A rooftop view of foggy Edwardian London at dusk with chimneys, a flying kite, a red umbrella floating on the wind, a carpetbag and chalk drawings on the pavement below, 16:9, original artwork, no text, no logos, no characters, no people",
+        "file": "media/musical-madness--practically-perfect-pitch.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Mary Poppins floats down from the sky over London holding onto this.",
+          "answer": "An umbrella",
+          "accept": [
+            "an umbrella",
+            "umbrella",
+            "her umbrella",
+            "a parrot umbrella"
+          ],
+          "choices": [
+            "An umbrella",
+            "A kite",
+            "A balloon",
+            "A carpetbag"
+          ],
+          "reveal": "The correct answer is an umbrella! [laughs] And hers has a talking parrot head handle. Mine just flips inside out.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Mary, Bert and the children jump right into one of these, drawn on the pavement, for a jolly holiday.",
+          "answer": "A chalk drawing",
+          "accept": [
+            "a chalk drawing",
+            "chalk drawing",
+            "chalk picture",
+            "a chalk painting",
+            "chalk art",
+            "a sidewalk drawing"
+          ],
+          "choices": [
+            "A chalk drawing",
+            "A puddle",
+            "A storybook",
+            "A mirror"
+          ],
+          "reveal": "The correct answer is a chalk drawing! [excited] Bert's sidewalk art had dancing penguins. Mine has a lopsided sun.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "This song about the Bird Woman on the steps of St. Paul's Cathedral was reportedly Walt Disney's favorite.",
+          "answer": "Feed the Birds",
+          "accept": [
+            "feed the birds",
+            "tuppence a bag"
+          ],
+          "choices": [
+            "Feed the Birds",
+            "Stay Awake",
+            "Let's Go Fly a Kite",
+            "A Man Has Dreams"
+          ],
+          "reveal": "The correct answer is Feed the Birds! [sighs] Walt would ask Richard Sherman to play it for him on Friday afternoons. Tuppence well spent.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Jane and Michael's stern banker father, who learns to fly a kite by the end of the film.",
+          "answer": "George Banks",
+          "accept": [
+            "george banks",
+            "mr. banks",
+            "mr banks",
+            "banks"
+          ],
+          "choices": [
+            "George Banks",
+            "Admiral Boom",
+            "Mr. Dawes",
+            "Uncle Albert"
+          ],
+          "reveal": "The correct answer is George Banks! [chuckles] He went from bank work to kite work. Honestly, a promotion.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Mary Poppins was adapted from the books of this author, who famously clashed with Walt over the film.",
+          "answer": "P. L. Travers",
+          "accept": [
+            "p. l. travers",
+            "pl travers",
+            "p.l. travers",
+            "travers",
+            "pamela travers"
+          ],
+          "choices": [
+            "P. L. Travers",
+            "Roald Dahl",
+            "Beatrix Potter",
+            "A. A. Milne"
+          ],
+          "reveal": "The correct answer is P. L. Travers! [sarcastic] She hated the animated penguins. Who hates PENGUINS?",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "composers-corner",
+      "title": "Composer's Corner",
+      "kind": "theme",
+      "intro": "[excited] The geniuses behind the music! Let's see if you know your Menken from your Miranda.",
+      "art": {
+        "prompt": "A cozy composer's studio with an upright piano covered in handwritten sheet music, coffee cups, crumpled paper, a desk lamp, a golden award statuette silhouette shape and a window looking out at a starry city, 16:9, original artwork, no text, no logos, no characters, no people",
+        "file": "media/musical-madness--composers-corner.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Lin-Manuel Miranda wrote We Don't Talk About Bruno for this 2021 movie about a magical family.",
+          "answer": "Encanto",
+          "accept": [
+            "encanto"
+          ],
+          "choices": [
+            "Encanto",
+            "Moana",
+            "Coco",
+            "Vivo"
+          ],
+          "reveal": "The correct answer is Encanto! [laughs] We don't talk about Bruno... except all the time, constantly, at every party.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "This composer wrote and sang You've Got a Friend in Me for Toy Story.",
+          "answer": "Randy Newman",
+          "accept": [
+            "randy newman",
+            "newman"
+          ],
+          "choices": [
+            "Randy Newman",
+            "Phil Collins",
+            "Elton John",
+            "Alan Menken"
+          ],
+          "reveal": "The correct answer is Randy Newman! [chuckles] That gravelly voice is basically a warm hug in song form.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Phil Collins wrote and performed You'll Be in My Heart for this 1999 jungle movie.",
+          "answer": "Tarzan",
+          "accept": [
+            "tarzan"
+          ],
+          "choices": [
+            "Tarzan",
+            "The Jungle Book",
+            "Brother Bear",
+            "The Lion King"
+          ],
+          "reveal": "The correct answer is Tarzan! [excited] And it won the Oscar. Phil even re-recorded the songs in several languages.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Alan Menken's original lyricist partner on The Little Mermaid and Beauty and the Beast, who died in 1991.",
+          "answer": "Howard Ashman",
+          "accept": [
+            "howard ashman",
+            "ashman"
+          ],
+          "choices": [
+            "Howard Ashman",
+            "Tim Rice",
+            "Stephen Schwartz",
+            "David Zippel"
+          ],
+          "reveal": "The correct answer is Howard Ashman! [sighs] Beauty and the Beast is dedicated to him. To our friend Howard, who gave a mermaid her voice.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Alan Menken has won this many Academy Awards, four for Best Song and four for Best Score.",
+          "answer": "Eight",
+          "accept": [
+            "eight",
+            "8"
+          ],
+          "choices": [
+            "Eight",
+            "Six",
+            "Ten",
+            "Five"
+          ],
+          "reveal": "[gasps] The correct answer is EIGHT! More Oscars than any other living person. He needs a bigger shelf.",
+          "dailyDouble": true
+        }
+      ]
+    },
+    {
+      "id": "sherman-showcase",
+      "title": "Sherman Showcase",
+      "kind": "fan",
+      "intro": "[laughs] Two brothers, one piano, and about a billion earworms. It's the Sherman Brothers showcase!",
+      "art": {
+        "prompt": "Two vintage upright pianos facing each other in a sunny 1960s songwriting office, sheet music, a bowl of honey, a kite on the wall and a small purple paper dragon on a shelf, 16:9, original artwork, no text, no logos, no characters, no people",
+        "file": "media/musical-madness--sherman-showcase.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "The Shermans wrote a bouncy song about this Hundred Acre Wood character, who's the only one.",
+          "answer": "Tigger",
+          "accept": [
+            "tigger"
+          ],
+          "choices": [
+            "Tigger",
+            "Rabbit",
+            "Roo",
+            "Eeyore"
+          ],
+          "reveal": "The correct answer is Tigger! [excited] Bouncy, trouncy, flouncy, pouncy... fun, fun, fun, fun, FUN!",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "The Sherman Brothers wrote I Wan'na Be Like You for this swinging jungle king.",
+          "answer": "King Louie",
+          "accept": [
+            "king louie",
+            "louie",
+            "king louis"
+          ],
+          "choices": [
+            "King Louie",
+            "Baloo",
+            "Shere Khan",
+            "Colonel Hathi"
+          ],
+          "reveal": "The correct answer is King Louie! [chuckles] He just wanted the secret of man's red fire. Relatable, honestly.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Outside of Disney, the Shermans wrote the songs for this 1968 movie about a flying car.",
+          "answer": "Chitty Chitty Bang Bang",
+          "accept": [
+            "chitty chitty bang bang",
+            "chitty chitty"
+          ],
+          "choices": [
+            "Chitty Chitty Bang Bang",
+            "The Love Bug",
+            "The Absent-Minded Professor",
+            "Herbie Rides Again"
+          ],
+          "reveal": "The correct answer is Chitty Chitty Bang Bang! [laughs] A car that flies AND floats. My car makes a weird noise when I turn left.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "The Shermans wrote One Little Spark for this purple dragon at EPCOT.",
+          "answer": "Figment",
+          "accept": [
+            "figment"
+          ],
+          "choices": [
+            "Figment",
+            "Elliott",
+            "Spike",
+            "Dreamfinder"
+          ],
+          "reveal": "The correct answer is Figment! [excited] One little spark of inspiration... and one purple dragon who lives rent free in our heads.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "In 2008 the Sherman Brothers received this, the highest award given to artists by the United States government.",
+          "answer": "The National Medal of Arts",
+          "accept": [
+            "national medal of arts",
+            "the national medal of arts",
+            "medal of arts"
+          ],
+          "choices": [
+            "The National Medal of Arts",
+            "The Presidential Medal of Freedom",
+            "The Kennedy Center Honors",
+            "The Congressional Gold Medal"
+          ],
+          "reveal": "The correct answer is the National Medal of Arts! [whispers] Presented at the White House. Not bad for a couple of guys who rhymed tuppence.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "picture-the-song",
+      "title": "Picture the Song",
+      "kind": "media",
+      "intro": "[excited] I'm showing you a scene inspired by a famous Disney song. You name that tune! Bonus points if you sing it. [laughs] Please don't sing it.",
+      "art": {
+        "prompt": "A giant open storybook whose pages burst into musical scenes: a coral reef, floating lanterns, swirling leaves and dancing teacups, all connected by a ribbon of golden music notes, 16:9, original artwork, no text, no logos, no characters, no people",
+        "file": "media/musical-madness--picture-the-song.jpg"
+      },
+      "format": "picture",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Name the Disney song this scene illustrates.",
+          "answer": "Under the Sea",
+          "accept": [
+            "under the sea"
+          ],
+          "choices": [
+            "Under the Sea",
+            "Part of Your World",
+            "Kiss the Girl",
+            "Les Poissons"
+          ],
+          "reveal": "The correct answer is Under the Sea! [laughs] Darling, it's better, down where it's wetter. Take it from me.",
+          "media": {
+            "type": "image",
+            "prompt": "A bright coral reef concert with seashell drums, a conch-shell horn, a kelp harp, a clam-shell xylophone and streams of bubbles in turquoise water, no people, no text, no logos, no copyrighted characters",
+            "file": "media/musical-madness--picture-the-song-200.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Name the Disney song this enchanted dinner scene illustrates.",
+          "answer": "Be Our Guest",
+          "accept": [
+            "be our guest"
+          ],
+          "choices": [
+            "Be Our Guest",
+            "Something There",
+            "Human Again",
+            "Gaston"
+          ],
+          "reveal": "The correct answer is Be Our Guest! [chuckles] Try the grey stuff. It's delicious. Don't believe me? Ask the dishes.",
+          "media": {
+            "type": "image",
+            "prompt": "An elegant candlelit castle dining hall where plates, napkins, teacups and silverware dance in the air above a long table, champagne fountain and fireworks of light, no people, no text, no logos, no copyrighted characters",
+            "file": "media/musical-madness--picture-the-song-400.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Name the Disney song this floating-lantern scene illustrates.",
+          "answer": "I See the Light",
+          "accept": [
+            "i see the light"
+          ],
+          "choices": [
+            "I See the Light",
+            "When Will My Life Begin",
+            "Mother Knows Best",
+            "I've Got a Dream"
+          ],
+          "reveal": "The correct answer is I See the Light! [sighs] Thousands of floating lanterns. Romance level: MAXIMUM.",
+          "media": {
+            "type": "image",
+            "prompt": "Thousands of glowing paper lanterns rising over a calm lake at night near a hilltop kingdom, with a small wooden rowboat drifting on the water, no people, no text, no logos, no copyrighted characters",
+            "file": "media/musical-madness--picture-the-song-600.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Name the Disney song this swirling autumn scene illustrates.",
+          "answer": "Colors of the Wind",
+          "accept": [
+            "colors of the wind",
+            "colours of the wind"
+          ],
+          "choices": [
+            "Colors of the Wind",
+            "Just Around the Riverbend",
+            "Savages",
+            "Listen with Your Heart"
+          ],
+          "reveal": "The correct answer is Colors of the Wind! It won the Oscar for Alan Menken and Stephen Schwartz. [whispers] Can you paint with all the colors?",
+          "media": {
+            "type": "image",
+            "prompt": "A rainbow of swirling autumn leaves carried by the wind over a waterfall cliff and a forest river in early America, a silver moon and a howling wolf silhouette on a ridge, no people, no text, no logos, no copyrighted characters",
+            "file": "media/musical-madness--picture-the-song-800.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Name the Disney song this surreal dream scene illustrates.",
+          "answer": "Pink Elephants on Parade",
+          "accept": [
+            "pink elephants on parade",
+            "pink elephants"
+          ],
+          "choices": [
+            "Pink Elephants on Parade",
+            "Casey Junior",
+            "When I See an Elephant Fly",
+            "Baby Mine"
+          ],
+          "reveal": "[gasps] The correct answer is Pink Elephants on Parade! From Dumbo, 1941. Still the trippiest four minutes in Disney history.",
+          "media": {
+            "type": "image",
+            "prompt": "A surreal pitch-black dreamscape with translucent glowing pink elephants made of soap bubbles marching in a line, playing trumpets and drums, swirling psychedelic colors, no people, no text, no logos, no copyrighted characters",
+            "file": "media/musical-madness--picture-the-song-1000.jpg"
+          },
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "songs-in-the-parks",
+      "title": "Songs in the Parks",
+      "kind": "parks",
+      "intro": "[chuckles] The parks are basically one giant playlist. Let's see which tunes are stuck in YOUR head.",
+      "art": {
+        "prompt": "A sunny turn-of-the-century theme park main street bandstand with a straw boater hat, a striped vest on a chair, a banjo, a twinkling night parade float made of colorful lights in the distance, 16:9, original artwork, no text, no logos, no characters, no people",
+        "file": "media/musical-madness--songs-in-the-parks.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "At Magic Kingdom's Country Bear Musical Jamboree, the singing animatronic performers are these animals.",
+          "answer": "Bears",
+          "accept": [
+            "bears",
+            "bear",
+            "country bears"
+          ],
+          "choices": [
+            "Bears",
+            "Raccoons",
+            "Possums",
+            "Beavers"
+          ],
+          "reveal": "The correct answer is bears! [laughs] Big Al has been off key since 1971 and we LOVE him for it.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "On Main Street, U.S.A., this barbershop quartet in striped vests and straw hats sings old-fashioned harmonies.",
+          "answer": "The Dapper Dans",
+          "accept": [
+            "the dapper dans",
+            "dapper dans"
+          ],
+          "choices": [
+            "The Dapper Dans",
+            "The Main Street Four",
+            "The Citizens of Main Street",
+            "The Vibe Setters"
+          ],
+          "reveal": "The correct answer is the Dapper Dans! [excited] They sing, they tap, and they ride a four-person bicycle. Showoffs.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "In this Fantasyland 3D show, Donald Duck borrows Mickey's sorcerer hat and gets swept through famous Disney songs.",
+          "answer": "Mickey's PhilharMagic",
+          "accept": [
+            "mickey's philharmagic",
+            "mickeys philharmagic",
+            "philharmagic"
+          ],
+          "choices": [
+            "Mickey's PhilharMagic",
+            "Fantasmic!",
+            "Mickey's Magical Music World",
+            "Fantasia Gardens"
+          ],
+          "reveal": "The correct answer is Mickey's PhilharMagic! [laughs] Donald should NEVER be trusted with a magic hat.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "The bouncy synthesizer tune Baroque Hoedown is the theme of this nighttime parade that first rolled at Disneyland in 1972.",
+          "answer": "Main Street Electrical Parade",
+          "accept": [
+            "main street electrical parade",
+            "the main street electrical parade",
+            "electrical parade"
+          ],
+          "choices": [
+            "Main Street Electrical Parade",
+            "Paint the Night",
+            "SpectroMagic",
+            "Disney Festival of Fantasy Parade"
+          ],
+          "reveal": "The correct answer is the Main Street Electrical Parade! [whispers] Ladies and gentlemen, boys and girls...",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Film composer Jerry Goldsmith, famous for Star Trek, wrote the soaring score for this hang-gliding attraction, which first flew in 2001.",
+          "answer": "Soarin'",
+          "accept": [
+            "soarin'",
+            "soarin",
+            "soaring",
+            "soarin over california"
+          ],
+          "choices": [
+            "Soarin'",
+            "Mission: SPACE",
+            "Test Track",
+            "Peter Pan's Flight"
+          ],
+          "reveal": "The correct answer is Soarin'! [sighs] He reportedly cried after his first ride. Me too, but that was the orange smell.",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,556 @@
+{
+  "id": "disney-channel-throwback",
+  "title": "Disney Channel Throwback",
+  "theme": "Disney Channel: DCOMs, sitcoms and High School Musical",
+  "tags": [
+    "disney channel",
+    "dcom",
+    "tv",
+    "2000s"
+  ],
+  "intro": "[excited] Grab your flip phone and your frosted tips, because tonight is a DISNEY CHANNEL THROWBACK! Original Movies, sitcoms, and one very sparkly high school musical... [laughs] Get your head in the game, people!",
+  "art": {
+    "prompt": "A glowing 2000s teen bedroom at night: a chunky retro CRT television casting colorful light, a flip phone, a sparkly microphone, a basketball, scattered DVDs, star-shaped fairy lights and a lava lamp, nostalgic Y2K colors of teal, purple and lime, 16:9, original artwork, no text, no logos, no characters, no people",
+    "file": "media/disney-channel-throwback.jpg"
+  },
+  "categories": [
+    {
+      "id": "were-all-in-this-together",
+      "title": "We're All in This Together",
+      "kind": "film",
+      "intro": "[excited] Wildcats, get your heads in the game! This whole category is High School Musical. Jazz squares are optional but encouraged.",
+      "art": {
+        "prompt": "A shiny high school gymnasium with a polished basketball court, red and white pennants, a spotlight on center court, a basketball resting beside a stage microphone, confetti in the air, 16:9, original artwork, no text, no logos, no characters, no people",
+        "file": "media/disney-channel-throwback--were-all-in-this-together.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In High School Musical, Troy Bolton is the star player on the East High Wildcats team for this sport.",
+          "answer": "Basketball",
+          "accept": [
+            "basketball",
+            "hoops"
+          ],
+          "choices": [
+            "Basketball",
+            "Football",
+            "Baseball",
+            "Soccer"
+          ],
+          "reveal": "The correct answer is basketball! [chuckles] Troy can sink a free throw AND hit a high note. Overachiever.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Troy and Gabriella first meet when they are pulled up to sing karaoke at a ski lodge party on this holiday.",
+          "answer": "New Year's Eve",
+          "accept": [
+            "new year's eve",
+            "new years eve",
+            "new year",
+            "new years"
+          ],
+          "choices": [
+            "New Year's Eve",
+            "Christmas Eve",
+            "Valentine's Day",
+            "Halloween"
+          ],
+          "reveal": "The correct answer is New Year's Eve! They sang Start of Something New, and wow, they were not kidding.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Sharpay Evans's twin brother, who co-stars with her in every show and owns a LOT of hats.",
+          "answer": "Ryan Evans",
+          "accept": [
+            "ryan evans",
+            "ryan"
+          ],
+          "choices": [
+            "Ryan Evans",
+            "Chad Danforth",
+            "Zeke Baylor",
+            "Jason Cross"
+          ],
+          "reveal": "The correct answer is Ryan Evans! [laughs] Every hat in that wardrobe deserves its own curtain call.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In High School Musical 2, the Wildcats spend their summer working at this fancy country club owned by Sharpay's family.",
+          "answer": "Lava Springs",
+          "accept": [
+            "lava springs",
+            "lava springs country club"
+          ],
+          "choices": [
+            "Lava Springs",
+            "Lake Tahoe Lodge",
+            "Sunset Shores",
+            "Pine Ridge Club"
+          ],
+          "reveal": "The correct answer is Lava Springs! [sarcastic] Nothing says relaxing summer job like Sharpay as your boss.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "East High is a real school, and much of the original High School Musical was filmed there, in this state capital.",
+          "answer": "Salt Lake City",
+          "accept": [
+            "salt lake city",
+            "salt lake",
+            "salt lake city utah"
+          ],
+          "choices": [
+            "Salt Lake City",
+            "Albuquerque",
+            "Denver",
+            "Phoenix"
+          ],
+          "reveal": "The correct answer is Salt Lake City, Utah! [whispers] The movie pretends it's Albuquerque... but the hallways are pure Utah.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "original-movie-marathon",
+      "title": "DCOM Marathon",
+      "kind": "theme",
+      "intro": "[mischievously] Pop the popcorn and fight your siblings for the remote. It's a Disney Channel Original Movie marathon!",
+      "art": {
+        "prompt": "A cozy living room movie marathon fort made of blankets and pillows, bowls of popcorn, a stack of glowing DVD cases, a jack-o-lantern, a snowboard leaning on the couch and a retro robot vacuum, warm TV glow, 16:9, original artwork, no text, no logos, no characters, no people",
+        "file": "media/disney-channel-throwback--original-movie-marathon.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In Halloweentown, Marnie discovers that she and her grandma Aggie are both these.",
+          "answer": "Witches",
+          "accept": [
+            "witches",
+            "a witch",
+            "witch"
+          ],
+          "choices": [
+            "Witches",
+            "Vampires",
+            "Ghosts",
+            "Werewolves"
+          ],
+          "reveal": "The correct answer is witches! [excited] Grandma Aggie brought the magic and the BEST candy.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Zenon Kar, the Girl of the 21st Century, lives in the year 2049 aboard one of these.",
+          "answer": "A space station",
+          "accept": [
+            "a space station",
+            "space station"
+          ],
+          "choices": [
+            "A space station",
+            "A submarine",
+            "A pirate ship",
+            "A flying school bus"
+          ],
+          "reveal": "The correct answer is a space station! [chuckles] Zoom zoom zoom, make my heart go boom boom.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "In 1999's Smart House, the computer program that runs the house and goes WAY too far is named this.",
+          "answer": "PAT",
+          "accept": [
+            "pat",
+            "p.a.t."
+          ],
+          "choices": [
+            "PAT",
+            "SAM",
+            "HAL",
+            "EVE"
+          ],
+          "reveal": "The correct answer is PAT, the Personal Applied Technology! [sighs] She just wanted to be the perfect mom. A little too perfect.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In Johnny Tsunami, a Hawaiian surfer moves to Vermont, where the skiers are feuding with kids who do this.",
+          "answer": "Snowboarding",
+          "accept": [
+            "snowboarding",
+            "snowboard",
+            "snowboarders"
+          ],
+          "choices": [
+            "Snowboarding",
+            "Ice skating",
+            "Sledding",
+            "Ice hockey"
+          ],
+          "reveal": "The correct answer is snowboarding! [laughs] It's surfing, but colder and with more falling down.",
+          "dailyDouble": true
+        },
+        {
+          "value": 1000,
+          "clue": "Released in 1997 and starring a friendly mummy, this is considered the very first Disney Channel Original Movie.",
+          "answer": "Under Wraps",
+          "accept": [
+            "under wraps"
+          ],
+          "choices": [
+            "Under Wraps",
+            "Halloweentown",
+            "Brink!",
+            "Zenon: Girl of the 21st Century"
+          ],
+          "reveal": "[gasps] The correct answer is Under Wraps! The DCOM dynasty started with a mummy. It's a WRAP, folks.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "throwback-zoom",
+      "title": "Throwback Zoom",
+      "kind": "media",
+      "intro": "[whispers] Lean in close... CLOSER. We start super zoomed in on a scene from a Disney Channel show, then slowly pull back. Buzz in when you know it!",
+      "art": {
+        "prompt": "A wall of glowing vintage television screens each showing a different colorful abstract pattern, a remote control and a magnifying glass in the foreground, neon teal and purple glow, 16:9, original artwork, no text, no logos, no characters, no people",
+        "file": "media/disney-channel-throwback--throwback-zoom.jpg"
+      },
+      "format": "zoom",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Zoom out on this pop-star secret. Which Disney Channel show is it?",
+          "answer": "Hannah Montana",
+          "accept": [
+            "hannah montana"
+          ],
+          "choices": [
+            "Hannah Montana",
+            "That's So Raven",
+            "Sonny with a Chance",
+            "Jonas"
+          ],
+          "reveal": "The correct answer is Hannah Montana! [laughs] One blonde wig, and NOBODY recognizes you. Best of both worlds.",
+          "media": {
+            "type": "image",
+            "prompt": "A long sparkly blonde pop-star wig on a mannequin head in front of a hidden walk-in closet full of glittering stage outfits, a bedazzled microphone and a beach house window overlooking the Malibu ocean, no people, no text, no logos, no copyrighted characters",
+            "file": "media/disney-channel-throwback--throwback-zoom-200.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Zoom out on this fancy lobby. Which Disney Channel show is it?",
+          "answer": "The Suite Life of Zack & Cody",
+          "accept": [
+            "the suite life of zack and cody",
+            "suite life of zack and cody",
+            "suite life",
+            "the suite life of zack & cody"
+          ],
+          "choices": [
+            "The Suite Life of Zack & Cody",
+            "Good Luck Charlie",
+            "Jessie",
+            "Even Stevens"
+          ],
+          "reveal": "The correct answer is The Suite Life of Zack and Cody! [chuckles] Somewhere a hotel manager is yelling about running in the lobby.",
+          "media": {
+            "type": "image",
+            "prompt": "A grand luxury hotel lobby in Boston with a polished marble floor, a brass luggage cart piled with suitcases, a front desk bell, a fragile tall vase on a pedestal and a candy counter, no people, no text, no logos, no copyrighted characters",
+            "file": "media/disney-channel-throwback--throwback-zoom-400.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Zoom out on this vision. Which Disney Channel show is it?",
+          "answer": "That's So Raven",
+          "accept": [
+            "that's so raven",
+            "thats so raven",
+            "raven"
+          ],
+          "choices": [
+            "That's So Raven",
+            "Lizzie McGuire",
+            "Hannah Montana",
+            "Kim Possible"
+          ],
+          "reveal": "The correct answer is That's So Raven! [gasps] Ya know... she saw that one coming.",
+          "media": {
+            "type": "image",
+            "prompt": "A colorful San Francisco row house kitchen where a swirling purple psychic vision glows in the air, a fashion sketchbook on the table and a cable car visible outside the window, no people, no text, no logos, no copyrighted characters",
+            "file": "media/disney-channel-throwback--throwback-zoom-600.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Zoom out on this summer project. Which Disney Channel show is it?",
+          "answer": "Phineas and Ferb",
+          "accept": [
+            "phineas and ferb",
+            "phineas & ferb"
+          ],
+          "choices": [
+            "Phineas and Ferb",
+            "Gravity Falls",
+            "Kim Possible",
+            "Fish Hooks"
+          ],
+          "reveal": "The correct answer is Phineas and Ferb! [excited] 104 days of summer vacation, and they built a roller coaster on day one.",
+          "media": {
+            "type": "image",
+            "prompt": "A suburban backyard with a giant wooden roller coaster rising from behind a picket fence, a big shady tree, blueprints on a picnic table and a teal fedora hanging on a garden gnome, no people, no text, no logos, no copyrighted characters",
+            "file": "media/disney-channel-throwback--throwback-zoom-800.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Zoom out on this tourist trap. Which Disney Channel show is it?",
+          "answer": "Gravity Falls",
+          "accept": [
+            "gravity falls"
+          ],
+          "choices": [
+            "Gravity Falls",
+            "Phineas and Ferb",
+            "The Owl House",
+            "Amphibia"
+          ],
+          "reveal": "The correct answer is Gravity Falls! [mischievously] Trust no one. Especially the guy selling mystery souvenirs.",
+          "media": {
+            "type": "image",
+            "prompt": "A crooked old wooden tourist-trap shack deep in an Oregon pine forest, with a lopsided rooftop sign shape, a totem pole, a golf cart, glowing journal with a six-fingered hand print and fog between the trees, no people, no text, no logos, no copyrighted characters",
+            "file": "media/disney-channel-throwback--throwback-zoom-1000.jpg"
+          },
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "channel-surfing-the-parks",
+      "title": "Channel Surfing the Parks",
+      "kind": "parks",
+      "intro": "[excited] Disney Channel didn't just stay on TV. It went to the PARKS! Let's channel surf our way around the resorts.",
+      "art": {
+        "prompt": "A sunny theme park street at golden hour with a vintage TV-studio soundstage facade, spotlights, a pair of round black mouse-ear headbands on a souvenir stand and a spy gadget phone on a bench, 16:9, original artwork, no text, no logos, no characters, no people",
+        "file": "media/disney-channel-throwback--channel-surfing-the-parks.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "The original Mouseketeers made this headgear famous, and guests still buy it at every Disney park.",
+          "answer": "Mouse ears",
+          "accept": [
+            "mouse ears",
+            "mickey ears",
+            "ears",
+            "mickey mouse ears"
+          ],
+          "choices": [
+            "Mouse ears",
+            "Propeller hats",
+            "Pirate hats",
+            "Princess tiaras"
+          ],
+          "reveal": "The correct answer is mouse ears! [laughs] Wearing them adds exactly zero IQ points and one thousand fun points.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Disney's Hollywood Studios' Tower of Terror is themed to this classic TV series hosted by Rod Serling.",
+          "answer": "The Twilight Zone",
+          "accept": [
+            "the twilight zone",
+            "twilight zone"
+          ],
+          "choices": [
+            "The Twilight Zone",
+            "The Outer Limits",
+            "Alfred Hitchcock Presents",
+            "Tales from the Crypt"
+          ],
+          "reveal": "The correct answer is The Twilight Zone! [whispers] Your next stop... is a thirteen-story drop.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "In 2009, EPCOT launched an interactive spy game across World Showcase starring this teen crime-fighter from Disney Channel.",
+          "answer": "Kim Possible",
+          "accept": [
+            "kim possible",
+            "kim"
+          ],
+          "choices": [
+            "Kim Possible",
+            "Lizzie McGuire",
+            "Raven Baxter",
+            "Penny Proud"
+          ],
+          "reveal": "The correct answer is Kim Possible! Guests carried special phones called Kimmunicators. [chuckles] Call me, beep me!",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In 2012, the World Showcase spy game switched to missions for this secret agent, the pet of two stepbrothers.",
+          "answer": "Perry the Platypus",
+          "accept": [
+            "perry the platypus",
+            "perry",
+            "agent p"
+          ],
+          "choices": [
+            "Perry the Platypus",
+            "Rufus",
+            "Gary the Snail",
+            "Waddles"
+          ],
+          "reveal": "The correct answer is Perry the Platypus, also known as Agent P! [laughs] He fought Dr. Doofenshmirtz in seven countries.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Future stars like Britney Spears, Justin Timberlake and Ryan Gosling taped the 1989 All New Mickey Mouse Club at this Walt Disney World park.",
+          "answer": "Disney-MGM Studios",
+          "accept": [
+            "disney-mgm studios",
+            "disney mgm studios",
+            "mgm studios",
+            "hollywood studios",
+            "disney's hollywood studios"
+          ],
+          "choices": [
+            "Disney-MGM Studios",
+            "EPCOT",
+            "Magic Kingdom",
+            "Disney's Animal Kingdom"
+          ],
+          "reveal": "The correct answer is Disney-MGM Studios, now Hollywood Studios! [gasps] Imagine buying a ticket and watching future pop royalty rehearse.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "catchphrase-channel",
+      "title": "Catchphrase Channel",
+      "kind": "fan",
+      "intro": "[mischievously] Our voice actor is about to do some VERY dramatic readings of famous Disney Channel catchphrases. You tell me who says it!",
+      "art": {
+        "prompt": "A retro recording studio vocal booth with a vintage microphone, colorful speech-bubble-shaped neon lights without letters, headphones and a stack of 2000s TV scripts, 16:9, original artwork, no text, no logos, no characters, no people",
+        "file": "media/disney-channel-throwback--catchphrase-channel.jpg"
+      },
+      "format": "quote",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Which Disney Channel character says this?",
+          "answer": "Raven Baxter",
+          "accept": [
+            "raven baxter",
+            "raven"
+          ],
+          "choices": [
+            "Raven Baxter",
+            "Lizzie McGuire",
+            "Alex Russo",
+            "Miley Stewart"
+          ],
+          "reveal": "The correct answer is Raven Baxter! [laughs] Two little words, and a whole generation started snapping.",
+          "quote": "Oh, snap!",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Which Disney Channel villain says this, over and over?",
+          "answer": "Dr. Heinz Doofenshmirtz",
+          "accept": [
+            "dr. heinz doofenshmirtz",
+            "doofenshmirtz",
+            "heinz doofenshmirtz",
+            "dr doofenshmirtz",
+            "doof"
+          ],
+          "choices": [
+            "Dr. Heinz Doofenshmirtz",
+            "Dr. Drakken",
+            "Professor Poopypants",
+            "Major Monogram"
+          ],
+          "reveal": "The correct answer is Dr. Doofenshmirtz! [sighs] Defeated by a platypus. Every. Single. Week.",
+          "quote": "Curse you, Perry the Platypus!",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Which Disney Channel character says this?",
+          "answer": "Miley Stewart",
+          "accept": [
+            "miley stewart",
+            "miley",
+            "hannah montana",
+            "hannah"
+          ],
+          "choices": [
+            "Miley Stewart",
+            "Lizzie McGuire",
+            "Raven Baxter",
+            "Sonny Munroe"
+          ],
+          "reveal": "The correct answer is Miley Stewart, a.k.a. Hannah Montana! [chuckles] Sweet niblets is still the best way to say wow.",
+          "quote": "Sweet niblets!",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Which Disney Channel hotel manager says this?",
+          "answer": "Mr. Moseby",
+          "accept": [
+            "mr. moseby",
+            "mr moseby",
+            "moseby",
+            "marion moseby"
+          ],
+          "choices": [
+            "Mr. Moseby",
+            "Mr. Tipton",
+            "Esteban",
+            "Arwin"
+          ],
+          "reveal": "The correct answer is Mr. Moseby! [laughs] That lobby was a sacred space, and the twins treated it like a racetrack.",
+          "quote": "No running in my lobby!",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Which Disney Channel sidekick shouts this when he's excited?",
+          "answer": "Ron Stoppable",
+          "accept": [
+            "ron stoppable",
+            "ron"
+          ],
+          "choices": [
+            "Ron Stoppable",
+            "Louis Stevens",
+            "Max Russo",
+            "Rufus"
+          ],
+          "reveal": "The correct answer is Ron Stoppable! [excited] BOOYAH! Kim Possible's best buddy, and owner of a naked mole rat.",
+          "dailyDouble": false,
+          "quote": "Booyah!"
+        }
+      ]
+    }
+  ]
+}
