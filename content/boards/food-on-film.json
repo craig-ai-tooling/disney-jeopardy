@@ -487,8 +487,7 @@
             "creme de la creme a la edgar",
             "crème de la crème à la edgar",
             "creme de la creme",
-            "cream",
-            "milk"
+            "crème de la crème"
           ],
           "choices": [
             "Crème de la crème à la Edgar",
@@ -521,11 +520,11 @@
           "answer": "Diet Cola and Mentos",
           "accept": [
             "diet cola and mentos",
-            "diet cola mountain",
             "mentos and diet cola",
             "cola and mentos",
-            "diet cola",
-            "mentos"
+            "mentos and cola",
+            "diet coke and mentos",
+            "mentos and diet coke"
           ],
           "choices": [
             "Diet Cola and Mentos",
