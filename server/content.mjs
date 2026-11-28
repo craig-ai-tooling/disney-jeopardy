@@ -2,7 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 
 export const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
-const CONTENT = path.join(ROOT, 'content');
+const CONTENT = path.resolve(process.env.CONTENT_DIR || path.join(ROOT, 'content'));
 
 function readDir(dir) {
   if (!fs.existsSync(dir)) return [];

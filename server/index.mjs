@@ -17,7 +17,7 @@ const PORT = Number(process.env.PORT || 8080);
 const DATA = path.resolve(process.env.DATA_DIR || path.join(ROOT, '.data'));
 const PUBLIC_URL = (process.env.PUBLIC_URL || '').replace(/\/$/, '');
 const PUB = path.join(ROOT, 'public');
-const CONTENT = path.join(ROOT, 'content');
+const CONTENT = path.resolve(process.env.CONTENT_DIR || path.join(ROOT, 'content'));
 fs.mkdirSync(DATA, { recursive: true });
 
 const MIME = { '.html': 'text/html; charset=utf-8', '.js': 'text/javascript', '.mjs': 'text/javascript', '.css': 'text/css', '.json': 'application/json', '.png': 'image/png', '.jpg': 'image/jpeg', '.jpeg': 'image/jpeg', '.webp': 'image/webp', '.svg': 'image/svg+xml', '.mp3': 'audio/mpeg', '.ogg': 'audio/ogg', '.mp4': 'video/mp4', '.webm': 'video/webm', '.woff2': 'font/woff2', '.apk': 'application/vnd.android.package-archive', '.ico': 'image/x-icon' };
