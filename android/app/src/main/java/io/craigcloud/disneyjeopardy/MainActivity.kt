@@ -642,7 +642,7 @@ class MainActivity : Activity() {
             setOnClickListener { loadBoard() }
         }
         bundledLogo()?.let { logo ->
-            val h = dp(180)
+            val h = minOf(dp(180), resources.displayMetrics.heightPixels / 4)
             val w = (h * logo.width / logo.height.coerceAtLeast(1)).coerceAtMost(dp(640))
             overlay.addView(ImageView(this).apply {
                 setImageBitmap(logo)
