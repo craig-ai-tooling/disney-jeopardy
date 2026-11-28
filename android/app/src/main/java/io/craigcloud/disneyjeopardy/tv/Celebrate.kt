@@ -178,7 +178,8 @@ class ConfettiFx {
         val u = size.width / ASPECT
         for (b in bt.indices) if (bt[b] < DEAD) {
             val a = 1f - bt[b] / .35f
-            drawCircle(SPARK[bc[b]].copy(alpha = .55f * a), h * (.03f + bt[b] * .25f), Offset(bx[b] * u, by[b] * h), blendMode = BlendMode.Plus)
+            drawCircle(SPARK[bc[b]].copy(alpha = .35f * a), h * (.02f + bt[b] * .2f), Offset(bx[b] * u, by[b] * h))
+            drawCircle(Color.White.copy(alpha = .8f * a), h * .012f, Offset(bx[b] * u, by[b] * h))
         }
         for (s in 0 until S) {
             if (sl[s] >= DEAD) continue
@@ -354,6 +355,8 @@ fun VerdictBanner(ctl: Controller) {
             }
             val ap = ((k - .4f) / .4f).coerceIn(0f, 1f)
             if (!v.answer.isNullOrBlank()) GoldText(v.answer, 5f, Modifier.padding(horizontal = 6.vw).graphicsLayer { alpha = ap; val s = .5f + .5f * overshoot(ap); scaleX = s; scaleY = s })
+            val first = ctl.state?.clue?.buzzOrder?.firstOrNull()
+            if (first?.pid == v.pid) Txt("Fastest finger · ${"%.2f".format(first.rt / 1000f)}s", 2f, Modifier.graphicsLayer { alpha = ap }, color = Color(0xFFFFE9A8))
             if (v.amount > 0) {
                 val fly = FastOutSlowInEasing.transform(((k - 1.15f) / .5f).coerceIn(0f, 1f))
                 Box(Modifier.onGloballyPositioned { if (chipStart[0].isNaN()) { val o = it.positionInRoot(); chipStart[0] = o.x + it.size.width / 2; chipStart[1] = o.y + it.size.height / 2 } }

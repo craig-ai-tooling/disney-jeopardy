@@ -454,7 +454,7 @@ function verdictBanner(r, answer, amount) {
   $('.vbanner')?.remove();
   const b = document.createElement('div'); b.className = 'vbanner';
   b.innerHTML = `<div class="rays"></div><div class="ribbon">${avatarImg(p.avatar, 'bav')}${gt(p.name)}</div>
-    ${answer ? `<div class="banswer">${gt(answer)}</div>` : ''}${amount > 0 ? `<div class="bchip">+${money(amount)}</div>` : ''}`;
+    ${answer ? `<div class="banswer">${gt(answer)}</div>` : ''}${S.clue?.buzzOrder?.[0]?.pid === r.pid ? `<div class="bfast">Fastest finger · ${(S.clue.buzzOrder[0].rt / 1000).toFixed(2)}s</div>` : ''}${amount > 0 ? `<div class="bchip">+${money(amount)}</div>` : ''}`;
   document.body.appendChild(b); setTimeout(() => b.remove(), 3200);
   setTimeout(() => hitLectern(r.pid, 'gain'), 1500);
 }
