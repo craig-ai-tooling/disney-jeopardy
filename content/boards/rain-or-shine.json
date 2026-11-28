@@ -1,0 +1,569 @@
+{
+  "id": "rain-or-shine",
+  "title": "Rain or Shine",
+  "theme": "Weather extremes in Disney films and parks",
+  "tags": [
+    "weather",
+    "storms",
+    "water parks",
+    "typhoon lagoon"
+  ],
+  "intro": "[excited] Grab your poncho AND your sunscreen, because tonight's forecast is Rain or Shine! [laughs] We've got storms, heat waves, hurricanes, and one very soggy water park legend. Hold onto your hats!",
+  "art": {
+    "prompt": "A theme-park landscape split down the middle: one side blazing sunshine over a tropical lagoon with a surf wave, the other a wild thunderstorm with lightning, a shipwreck and swirling clouds, a rainbow arching between Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+    "file": "media/rain-or-shine.jpg"
+  },
+  "categories": [
+    {
+      "id": "hot-and-cold-front",
+      "title": "Hot and Cold Front",
+      "kind": "film",
+      "intro": "Our film category is Pixar's Elemental, where the locals ARE the weather. [chuckles] Fire, water, air and earth, all stuck on the same subway.",
+      "format": "text",
+      "art": {
+        "prompt": "A glowing city of fire, water, earth and air districts at night, flickering flames, rippling water towers, leafy buildings and puffy cloud balconies, a canal reflecting it all Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/rain-or-shine--hot-and-cold-front.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Ember Lumen, the hot-tempered hero of Elemental, is made of this element.",
+          "answer": "Fire",
+          "accept": [
+            "fire"
+          ],
+          "choices": [
+            "Fire",
+            "Water",
+            "Air",
+            "Earth"
+          ],
+          "reveal": "The correct answer is fire! [excited] Ember has a temper. You'd be grumpy too if you could melt your chair.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Wade Ripple, the emotional city inspector who falls for Ember, is made of this.",
+          "answer": "Water",
+          "accept": [
+            "water"
+          ],
+          "choices": [
+            "Water",
+            "Air",
+            "Earth",
+            "Ice"
+          ],
+          "reveal": "The correct answer is water! [laughs] Wade cries at EVERYTHING. Honestly, he's my favorite.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Elemental takes place in this metropolis where all four elements live together.",
+          "answer": "Element City",
+          "accept": [
+            "element city"
+          ],
+          "choices": [
+            "Element City",
+            "Elemetropolis",
+            "Fire Town",
+            "Firetown Harbor"
+          ],
+          "reveal": "The correct answer is Element City! [cheerful] Picture New York, but some of the commuters are literally on fire.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Ember's family runs this convenience shop in Firetown.",
+          "answer": "The Fireplace",
+          "accept": [
+            "the fireplace",
+            "fireplace"
+          ],
+          "choices": [
+            "The Fireplace",
+            "The Hearth",
+            "The Ember Shop",
+            "The Torch"
+          ],
+          "reveal": "The correct answer is the Fireplace! [chuckles] Buy a snack, get a burn. That's a pun, not a review.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Ember's hardworking father, who built the family shop, has this first name.",
+          "answer": "Bernie",
+          "accept": [
+            "bernie",
+            "bernie lumen"
+          ],
+          "choices": [
+            "Bernie",
+            "Ernie",
+            "Bert",
+            "Brook"
+          ],
+          "reveal": "[impressed] The correct answer is Bernie! He brought the family's sacred Blue Flame from the old country. True nerds remember the bow.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "under-the-weather",
+      "title": "Under the Weather",
+      "kind": "theme",
+      "intro": "Disney storytellers LOVE a good storm. [dramatic pause] Thunder, lightning, whirlpools... name the weather or the soggy survivor.",
+      "format": "text",
+      "art": {
+        "prompt": "A stormy sea with a towering whirlpool, a tall sailing ship tilting in the waves, lightning bolts striking from purple clouds and wind swirling colorful leaves across the sky Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/rain-or-shine--under-the-weather.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Pocahontas asks if you can paint with all the colors of this.",
+          "answer": "The wind",
+          "accept": [
+            "the wind",
+            "wind"
+          ],
+          "choices": [
+            "The wind",
+            "The rain",
+            "The rainbow",
+            "The river"
+          ],
+          "reveal": "The correct answer is the wind! [cheerful] Colors of the Wind won the Oscar. Still trying to find the paintbrush for that.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Ariel rescues this prince from the sea when a storm wrecks his ship.",
+          "answer": "Prince Eric",
+          "accept": [
+            "prince eric",
+            "eric"
+          ],
+          "choices": [
+            "Prince Eric",
+            "Prince Phillip",
+            "Prince Naveen",
+            "Prince Hans"
+          ],
+          "reveal": "The correct answer is Prince Eric! [laughs] Lightning, a burning ship, and he STILL had perfect hair.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Under Scar's rule, the Pride Lands suffer from this weather disaster.",
+          "answer": "A drought",
+          "accept": [
+            "a drought",
+            "drought"
+          ],
+          "choices": [
+            "A drought",
+            "A flood",
+            "A blizzard",
+            "A tornado"
+          ],
+          "reveal": "The correct answer is a drought! [sighs] No food, no water, and hyenas everywhere. Scar: terrible king, worse landlord.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Pirates of the Caribbean: At World's End climaxes with a ship battle inside this giant whirlpool.",
+          "answer": "The maelstrom",
+          "accept": [
+            "the maelstrom",
+            "maelstrom",
+            "a maelstrom"
+          ],
+          "choices": [
+            "The maelstrom",
+            "The typhoon",
+            "The vortex of Davy",
+            "The Kraken's eye"
+          ],
+          "reveal": "The correct answer is the maelstrom! [gasps] A wedding in the middle of a sea battle. Captain Barbossa officiated. Romantic!",
+          "dailyDouble": true
+        },
+        {
+          "value": 1000,
+          "clue": "In Frozen 2, this playful wind spirit pushes Elsa and Anna around the Enchanted Forest.",
+          "answer": "Gale",
+          "accept": [
+            "gale"
+          ],
+          "choices": [
+            "Gale",
+            "Bruni",
+            "Nokk",
+            "Breeze"
+          ],
+          "reveal": "[impressed] The correct answer is Gale! [laughs] It loves stealing Olaf's carrot nose. Bruni is the fire salamander and the Nokk is the water horse.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "forecast-zoom",
+      "title": "Forecast: Zoom",
+      "kind": "media",
+      "intro": "We're zooming in on a weather-related movie moment. Name the film before the picture zooms out! [whispers] Bring an umbrella just in case.",
+      "format": "zoom",
+      "art": {
+        "prompt": "A vintage weather-station desk with a barometer, a spinning anemometer, rain gauge and a giant magnifying glass hovering over a tiny storm cloud Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/rain-or-shine--forecast-zoom.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Name the film from this windy close-up.",
+          "answer": "Mary Poppins",
+          "accept": [
+            "mary poppins"
+          ],
+          "choices": [
+            "Mary Poppins",
+            "Mary Poppins Returns",
+            "Bedknobs and Broomsticks",
+            "Pollyanna"
+          ],
+          "reveal": "The correct answer is Mary Poppins! [cheerful] When the wind changes, she arrives by umbrella. Better than any rideshare.",
+          "media": {
+            "type": "image",
+            "prompt": "Extreme close-up of a black umbrella handle carved like a parrot's head, floating above London rooftops and chimneys on a windy cloudy day, no people or characters",
+            "file": "media/rain-or-shine--forecast-zoom-200.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Name the film from this stormy sail.",
+          "answer": "Moana",
+          "accept": [
+            "moana"
+          ],
+          "choices": [
+            "Moana",
+            "Moana 2",
+            "Lilo & Stitch",
+            "Luca"
+          ],
+          "reveal": "The correct answer is Moana! [laughs] She knows how far she'll go, just not how to tie a knot... yet.",
+          "media": {
+            "type": "image",
+            "prompt": "Extreme close-up of an ocean-voyaging canoe's woven crab-claw sail snapping in the wind, dark storm clouds and towering turquoise waves behind, no people or characters",
+            "file": "media/rain-or-shine--forecast-zoom-400.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Name the film from this sky-high close-up.",
+          "answer": "Up",
+          "accept": [
+            "up"
+          ],
+          "choices": [
+            "Up",
+            "Toy Story 4",
+            "Lightyear",
+            "The Little Mermaid"
+          ],
+          "reveal": "The correct answer is Up! [gasps] Carl's house floats right through a thunderstorm. Nothing like a little turbulence.",
+          "media": {
+            "type": "image",
+            "prompt": "Extreme close-up of thousands of colorful balloon strings tied to a chimney of a small wooden house drifting through a dark thunderstorm with lightning, no people or characters",
+            "file": "media/rain-or-shine--forecast-zoom-600.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Name the film from this twisty close-up.",
+          "answer": "Oz the Great and Powerful",
+          "accept": [
+            "oz the great and powerful",
+            "oz"
+          ],
+          "choices": [
+            "Oz the Great and Powerful",
+            "Return to Oz",
+            "Alice in Wonderland",
+            "Into the Woods"
+          ],
+          "reveal": "The correct answer is Oz the Great and Powerful! [excited] Disney's 2013 prequel. A tornado swept a hot air balloon all the way to the Emerald City.",
+          "media": {
+            "type": "image",
+            "prompt": "Extreme close-up of a striped hot air balloon basket caught in a swirling black-and-white tornado funnel, debris spinning around, a hint of emerald green light ahead, no people or characters",
+            "file": "media/rain-or-shine--forecast-zoom-800.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Name the film from this stormy shoreline.",
+          "answer": "Pete's Dragon",
+          "accept": [
+            "pete's dragon",
+            "petes dragon"
+          ],
+          "choices": [
+            "Pete's Dragon",
+            "Pollyanna",
+            "Treasure Island",
+            "Swiss Family Robinson"
+          ],
+          "reveal": "[impressed] The correct answer is Pete's Dragon! The 1977 original. When the lighthouse lamp goes out in a storm, a friendly dragon lights it again.",
+          "media": {
+            "type": "image",
+            "prompt": "Extreme close-up of a seaside lighthouse lamp on a rocky Maine coast at night in a raging storm, waves crashing, an old wooden fishing boat struggling offshore, no people or characters",
+            "file": "media/rain-or-shine--forecast-zoom-1000.jpg"
+          },
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "blustery-bay",
+      "title": "The Blustery Bay Bulletin",
+      "kind": "parks",
+      "intro": "Real photos from Walt Disney World's soggiest legend. [mischievously] A storm wrecked the place, and the locals just added lounge chairs.",
+      "format": "picture",
+      "art": {
+        "prompt": "A storm-wrecked tropical lagoon village with tin-roofed shacks, surfboards and a shrimp boat stuck on top of a volcanic peak, palm trees bent from the wind, a turquoise wave pool Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/rain-or-shine--blustery-bay.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Legend says a furious storm swept ships ashore to create this Walt Disney World water park.",
+          "answer": "Disney's Typhoon Lagoon",
+          "accept": [
+            "disney's typhoon lagoon",
+            "typhoon lagoon"
+          ],
+          "choices": [
+            "Disney's Typhoon Lagoon",
+            "Disney's Blizzard Beach",
+            "River Country",
+            "Volcano Bay"
+          ],
+          "reveal": "The correct answer is Typhoon Lagoon! [excited] Instead of a certain and watery doom, the winds swept them here. Poetry AND lazy rivers.",
+          "media": {
+            "type": "image",
+            "file": "media/rain-or-shine--blustery-bay-200.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Walt_Disney_World_Typhoon_Lagoon_Entrance.JPG",
+              "license": "CC BY-SA 3.0",
+              "author": "JZ85"
+            }
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "This Typhoon Lagoon water coaster is themed to a storm-wrecked fruit company.",
+          "answer": "Crush 'n' Gusher",
+          "accept": [
+            "crush 'n' gusher",
+            "crush n gusher",
+            "crush and gusher"
+          ],
+          "choices": [
+            "Crush 'n' Gusher",
+            "Humunga Kowabunga",
+            "Miss Adventure Falls",
+            "Summit Plummet"
+          ],
+          "reveal": "The correct answer is Crush 'n' Gusher! [laughs] Tropical Amity Fruit Exporters. Our juices are crushed with flavor!",
+          "media": {
+            "type": "image",
+            "file": "media/rain-or-shine--blustery-bay-400.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:WDW_Crush_%27n%27_Gusher.JPG",
+              "license": "CC BY-SA 3.0",
+              "author": "JZ85"
+            }
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Before each new set of waves rolls across this pool, Miss Tilly warns guests with this sound.",
+          "answer": "A whistle",
+          "accept": [
+            "a whistle",
+            "whistle",
+            "her whistle",
+            "a boat whistle"
+          ],
+          "choices": [
+            "A whistle",
+            "A foghorn",
+            "A bell",
+            "A cannon"
+          ],
+          "reveal": "The correct answer is a whistle! [chuckles] Miss Tilly's whistle means the next big set is coming. Surfers, assume the position.",
+          "media": {
+            "type": "image",
+            "file": "media/rain-or-shine--blustery-bay-600.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:WDW_Typhoon_Lagoon_Surf_Pool.JPG",
+              "license": "CC BY-SA 3.0",
+              "author": "JZ85"
+            }
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "The storm struck the tropical region of Blustery Bay and this resort village, which shared its name with calm palms.",
+          "answer": "Placid Palms",
+          "accept": [
+            "placid palms"
+          ],
+          "choices": [
+            "Placid Palms",
+            "Leaning Palms",
+            "Safen Sound",
+            "Mount Mayday"
+          ],
+          "reveal": "The correct answer is Placid Palms! [sarcastic] Very placid... until it wasn't. Afterward the locals renamed it Leaning Palms.",
+          "media": {
+            "type": "image",
+            "prompt": "A ruined tropical resort village after a storm, tin-roofed huts with patched roofs, palm trees bent sideways, surfboards wedged into rooftops, a shrimp boat on top of a volcanic peak in the distance, sunny blue sky, no people or characters",
+            "file": "media/rain-or-shine--blustery-bay-800.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Miss Tilly's crew wrote a postcard to this bartender, now displayed in his Enchanted Tiki Bar at Disney's Polynesian Village Resort.",
+          "answer": "Trader Sam",
+          "accept": [
+            "trader sam",
+            "trader sam's"
+          ],
+          "choices": [
+            "Trader Sam",
+            "Trader Jack",
+            "Captain Cook",
+            "Tiki Tom"
+          ],
+          "reveal": "[impressed] The correct answer is Trader Sam! [laughs] Storm survivors still keep in touch. Probably asking for a tow.",
+          "media": {
+            "type": "image",
+            "prompt": "A dim, cozy tiki bar wall covered in vintage travel postcards, ship lanterns, carved tiki masks and a porthole window showing a stormy sea, no people or characters",
+            "file": "media/rain-or-shine--blustery-bay-1000.jpg"
+          },
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "sunny-chance",
+      "title": "Sunny With a Chance of Trivia",
+      "kind": "fan",
+      "intro": "Our wildcard is a forecast of fun. [cheerful] Mostly sunny, with a high chance of nerds. Carry an umbrella.",
+      "format": "text",
+      "art": {
+        "prompt": "An old mill on a pond at the edge of a thunderstorm, sun rays breaking through clouds on one side, a red umbrella and a lost toy car in a rain puddle in the foreground Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/rain-or-shine--sunny-chance.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In Frozen, Olaf sings about all the things he'll do in this season.",
+          "answer": "Summer",
+          "accept": [
+            "summer",
+            "in summer"
+          ],
+          "choices": [
+            "Summer",
+            "Winter",
+            "Spring",
+            "Autumn"
+          ],
+          "reveal": "The correct answer is summer! [laughs] A snowman who dreams of hot sand. What could go wrong?",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Blizzard Beach's mascot is this reptile wearing a scarf.",
+          "answer": "Ice Gator",
+          "accept": [
+            "ice gator",
+            "an alligator",
+            "alligator"
+          ],
+          "choices": [
+            "Ice Gator",
+            "Frosty Frog",
+            "Snow Turtle",
+            "Chilly Croc"
+          ],
+          "reveal": "The correct answer is Ice Gator! [chuckles] A gator in a ski resort in Florida. Somehow it all makes sense.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Toy Story 4 opens with Woody rescuing this remote control car from a rainy storm drain.",
+          "answer": "RC",
+          "accept": [
+            "rc",
+            "r.c."
+          ],
+          "choices": [
+            "RC",
+            "Wheezy",
+            "Slinky",
+            "Buster"
+          ],
+          "reveal": "The correct answer is RC! [whispers] A rainy rescue. Then Bo Peep goes away. Pixar breaks our hearts in the first ten minutes again.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Mary Poppins arrives with the wind blowing from this direction.",
+          "answer": "The east",
+          "accept": [
+            "the east",
+            "east",
+            "east wind",
+            "the east wind"
+          ],
+          "choices": [
+            "The east",
+            "The west",
+            "The north",
+            "The south"
+          ],
+          "reveal": "The correct answer is the east! [dramatic pause] Wind's in the east, mist coming in... Bert can feel what's to happen.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "This 1937 Silly Symphony shows a windmill in a thunderstorm and first used the multiplane camera.",
+          "answer": "The Old Mill",
+          "accept": [
+            "the old mill",
+            "old mill"
+          ],
+          "choices": [
+            "The Old Mill",
+            "Flowers and Trees",
+            "The Skeleton Dance",
+            "Water Babies"
+          ],
+          "reveal": "[impressed] The correct answer is The Old Mill! It won the Oscar and was a test run for Snow White. Big storm, bigger innovation.",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}

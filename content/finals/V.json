@@ -1,0 +1,137 @@
+[
+  {
+    "film": "Toy Story 4",
+    "category": "Pocket-Sized Police",
+    "clue": "In Toy Story 4, Bo Peep's tiny sidekick is this pocket-sized police officer toy who rides in a compact mirror.",
+    "answer": "Giggle McDimples",
+    "accept": [
+      "giggle mcdimples",
+      "giggle",
+      "officer giggle mcdimples"
+    ],
+    "choices": [
+      "Giggle McDimples",
+      "Duke Caboom",
+      "Bunny",
+      "Benson"
+    ],
+    "reveal": "[excited] The correct answer is Giggle McDimples! Small badge, BIG attitude. [laughs] She'd write you a ticket for that wrong answer."
+  },
+  {
+    "film": "Inside Out 2",
+    "category": "New Emotions",
+    "clue": "In Inside Out 2, this new emotion with heavy-lidded eyes and a French accent is voiced by Adèle Exarchopoulos.",
+    "answer": "Ennui",
+    "accept": [
+      "ennui"
+    ],
+    "choices": [
+      "Ennui",
+      "Anxiety",
+      "Embarrassment",
+      "Envy"
+    ],
+    "reveal": "[sighs] The correct answer is Ennui! Mostly she controls Riley from a phone on the couch. Honestly? Goals."
+  },
+  {
+    "film": "Moana 2",
+    "category": "Voyage of the Ancestors",
+    "clue": "In Moana 2, Moana sails to break the storm god Nalo's curse and raise this hidden island that once connected the peoples of the ocean.",
+    "answer": "Motufetu",
+    "accept": [
+      "motufetu"
+    ],
+    "choices": [
+      "Motufetu",
+      "Motunui",
+      "Te Fiti",
+      "Lalotai"
+    ],
+    "reveal": "[gasps] The correct answer is Motufetu! [chuckles] Raise one island, reconnect a whole ocean. Easy Tuesday for a wayfinder."
+  },
+  {
+    "film": "Cars 3",
+    "category": "Mentor Mode",
+    "clue": "In Cars 3, this young trainer helps Lightning McQueen and ends up racing as number 51 in honor of Doc Hudson.",
+    "answer": "Cruz Ramirez",
+    "accept": [
+      "cruz ramirez",
+      "cruz"
+    ],
+    "choices": [
+      "Cruz Ramirez",
+      "Natalie Certain",
+      "Jackson Storm",
+      "Sally Carrera"
+    ],
+    "reveal": "[cheerful] The correct answer is Cruz Ramirez! She went from the treadmill to the Florida 500. Ka-chow!"
+  },
+  {
+    "film": "The Rescuers Down Under",
+    "category": "Wings Over the Outback",
+    "clue": "In The Rescuers Down Under, young Cody frees this rare giant golden eagle from a poacher's trap.",
+    "answer": "Marahute",
+    "accept": [
+      "marahute"
+    ],
+    "choices": [
+      "Marahute",
+      "Joanna",
+      "Wilbur",
+      "Frank"
+    ],
+    "reveal": "[excited] The correct answer is Marahute! [whispers] Her opening flight is one of the most breathtaking animation sequences Disney ever made."
+  },
+  {
+    "film": "20,000 Leagues Under the Sea",
+    "category": "Songs of the Nautilus",
+    "clue": "In Disney's 1954 film 20,000 Leagues Under the Sea, Kirk Douglas as harpooner Ned Land sings this sea shanty.",
+    "answer": "A Whale of a Tale",
+    "accept": [
+      "a whale of a tale",
+      "whale of a tale"
+    ],
+    "choices": [
+      "A Whale of a Tale",
+      "Yo Ho (A Pirate's Life for Me)",
+      "Sailing, Sailing",
+      "Heigh-Ho"
+    ],
+    "reveal": "[laughs] The correct answer is A Whale of a Tale! Kirk Douglas sings to a seal named Esmeralda. Hollywood, folks."
+  },
+  {
+    "film": "Swiss Family Robinson",
+    "category": "Treehouse Takeover",
+    "clue": "In 1999, Disneyland's treehouse inspired by the 1960 film Swiss Family Robinson was rethemed to this jungle hero.",
+    "answer": "Tarzan",
+    "accept": [
+      "tarzan",
+      "tarzan's treehouse",
+      "tarzans treehouse"
+    ],
+    "choices": [
+      "Tarzan",
+      "Mowgli",
+      "Indiana Jones",
+      "Baloo"
+    ],
+    "reveal": "[dramatic pause] The correct answer is Tarzan! Then in 2023 it became the Adventureland Treehouse, and the Robinson spirit swung back in."
+  },
+  {
+    "film": "Fun and Fancy Free",
+    "category": "Fee-Fi-Fo-Funny",
+    "clue": "In Mickey and the Beanstalk from 1947's Fun and Fancy Free, this shape-shifting giant steals the Singing Harp.",
+    "answer": "Willie the Giant",
+    "accept": [
+      "willie the giant",
+      "willie"
+    ],
+    "choices": [
+      "Willie the Giant",
+      "Gus the Giant",
+      "Pete the Giant",
+      "Big Bad Bart"
+    ],
+    "reveal": "[mischievously] The correct answer is Willie the Giant! He can turn into anything. Even a pink bunny. Fee-fi-fo-FUN."
+  }
+]

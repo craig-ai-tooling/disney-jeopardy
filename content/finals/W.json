@@ -1,0 +1,138 @@
+[
+  {
+    "film": "Winnie the Pooh",
+    "category": "Winnie the Pooh",
+    "clue": "Owl misreads Christopher Robin's note saying he'll be back soon, and the friends hunt this imaginary monster.",
+    "answer": "The Backson",
+    "accept": [
+      "backson",
+      "the backson",
+      "a backson"
+    ],
+    "choices": [
+      "The Backson",
+      "The Heffalump",
+      "The Woozle",
+      "The Jagular"
+    ],
+    "reveal": "The correct answer is the Backson! [laughs] Back soon... Backson. Silly old Owl. Heffalumps and Woozles were a whole other scare."
+  },
+  {
+    "film": "The Lion King II: Simba's Pride",
+    "category": "The Lion King II: Simba's Pride",
+    "clue": "Zira raises this young lion to be Scar's heir, but he falls for Simba's daughter Kiara instead.",
+    "answer": "Kovu",
+    "accept": [
+      "kovu"
+    ],
+    "choices": [
+      "Kovu",
+      "Nuka",
+      "Kion",
+      "Kopa"
+    ],
+    "reveal": "The correct answer is Kovu! [excited] Love will find a way. Nuka is his scruffy older brother."
+  },
+  {
+    "film": "High School Musical",
+    "category": "High School Musical",
+    "clue": "Sharpay Evans' twin brother, her partner in every school show, is named this.",
+    "answer": "Ryan Evans",
+    "accept": [
+      "ryan",
+      "ryan evans"
+    ],
+    "choices": [
+      "Ryan Evans",
+      "Chad Danforth",
+      "Zeke Baylor",
+      "Jason Cross"
+    ],
+    "reveal": "The correct answer is Ryan Evans! [laughs] Fabulous hats, fabulous moves. Chad is Troy's best friend."
+  },
+  {
+    "film": "Descendants",
+    "category": "Descendants",
+    "clue": "Mal, Evie, Jay and Carlos leave this island prison for villains to attend Auradon Prep.",
+    "answer": "The Isle of the Lost",
+    "accept": [
+      "isle of the lost",
+      "the isle of the lost",
+      "isle of lost"
+    ],
+    "choices": [
+      "The Isle of the Lost",
+      "The Isle of Misfit Villains",
+      "Skull Island",
+      "Pleasure Island"
+    ],
+    "reveal": "The correct answer is the Isle of the Lost! [mischievously] Rotten to the core... and now headed to prep school."
+  },
+  {
+    "film": "Planes",
+    "category": "Planes",
+    "clue": "Dusty Crophopper's mentor, a gruff Navy Corsair who flew in World War II, has this name.",
+    "answer": "Skipper",
+    "accept": [
+      "skipper",
+      "skipper riley"
+    ],
+    "choices": [
+      "Skipper",
+      "El Chupacabra",
+      "Ripslinger",
+      "Bulldog"
+    ],
+    "reveal": "The correct answer is Skipper! [excited] Skipper Riley. Ripslinger is the villain, El Chupacabra is the dashing Mexican racer."
+  },
+  {
+    "film": "The Mighty Ducks",
+    "category": "The Mighty Ducks",
+    "clue": "This actor plays Gordon Bombay, the hotshot lawyer forced to coach a hopeless peewee hockey team.",
+    "answer": "Emilio Estevez",
+    "accept": [
+      "emilio estevez",
+      "emilio"
+    ],
+    "choices": [
+      "Emilio Estevez",
+      "Charlie Sheen",
+      "Rob Lowe",
+      "Matthew Broderick"
+    ],
+    "reveal": "The correct answer is Emilio Estevez! [laughs] Quack, quack, quack! Charlie Sheen is his brother, which is the trap here."
+  },
+  {
+    "film": "Holes",
+    "category": "Holes",
+    "clue": "Stanley Yelnats is sent to dig holes all day at this camp, which has no lake and nothing green.",
+    "answer": "Camp Green Lake",
+    "accept": [
+      "camp green lake",
+      "green lake"
+    ],
+    "choices": [
+      "Camp Green Lake",
+      "Camp Crystal Lake",
+      "Camp Silver Springs",
+      "Camp Dry Gulch"
+    ],
+    "reveal": "The correct answer is Camp Green Lake! [sarcastic] Great name, no lake. Stanley's name is a palindrome, by the way."
+  },
+  {
+    "film": "Peter Pan: Return to Never Land",
+    "category": "Peter Pan: Return to Never Land",
+    "clue": "In this 2002 sequel, Captain Hook kidnaps this daughter of Wendy, mistaking her for her mother.",
+    "answer": "Jane",
+    "accept": [
+      "jane"
+    ],
+    "choices": [
+      "Jane",
+      "Wendy",
+      "Margaret",
+      "Tiger Lily"
+    ],
+    "reveal": "The correct answer is Jane! [excited] Wendy's daughter. She doesn't believe in fairies... at first."
+  }
+]

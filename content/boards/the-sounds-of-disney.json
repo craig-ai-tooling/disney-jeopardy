@@ -1,0 +1,553 @@
+{
+  "id": "the-sounds-of-disney",
+  "title": "The Sounds of Disney",
+  "theme": "Sound and Voices",
+  "tags": [
+    "sound",
+    "voices",
+    "music",
+    "parks",
+    "imagineering"
+  ],
+  "intro": "[whispers] Shhh... listen. [excited] Hear that? It's the SOUND of points! Tonight it's famous voices, sound effects and the noises of the parks.",
+  "art": {
+    "prompt": "A vintage sound stage bursting with music and noise: a ribbon microphone, a gramophone horn, film reels, a Foley table of coconut shells and bells, glowing sound waves swirling up into a starry sky. Original painterly storybook illustration, 16:9, cinematic lighting, rich color, no people, no characters, no text, no logos.",
+    "file": "media/the-sounds-of-disney.jpg"
+  },
+  "categories": [
+    {
+      "id": "beeps-and-boops",
+      "title": "Beeps and Boops",
+      "kind": "film",
+      "format": "text",
+      "intro": "[laughs] A little robot who barely says a word, and somehow made us all cry. It's WALL-E!",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "WALL-E's job is to squash this into neat little cubes.",
+          "answer": "Trash",
+          "accept": [
+            "trash",
+            "garbage",
+            "rubbish",
+            "junk",
+            "waste"
+          ],
+          "choices": [
+            "Trash",
+            "Snow",
+            "Sand",
+            "Rocks"
+          ],
+          "reveal": "The correct answer is trash! [chuckles] Seven hundred years of tidying up. My kids could never.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "WALL-E finds a tiny green plant and keeps it safe inside one of these.",
+          "answer": "An old boot",
+          "accept": [
+            "boot",
+            "a boot",
+            "an old boot",
+            "shoe"
+          ],
+          "choices": [
+            "An old boot",
+            "A teacup",
+            "A tin can",
+            "A lunch box"
+          ],
+          "reveal": "The correct answer is an old boot! [whispers] A little sprout in a big boot. The whole plot, really.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "The Axiom's villainous ship's-wheel autopilot robot is called this.",
+          "answer": "AUTO",
+          "accept": [
+            "auto",
+            "otto"
+          ],
+          "choices": [
+            "AUTO",
+            "HAL",
+            "M-O",
+            "GO-4"
+          ],
+          "reveal": "The correct answer is AUTO! [dramatic pause] A big red eye that will NOT let you go home. Sound familiar?",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "This sound designer gave WALL-E his voice. He also created the beeps of R2-D2.",
+          "answer": "Ben Burtt",
+          "accept": [
+            "ben burtt",
+            "burtt"
+          ],
+          "choices": [
+            "Ben Burtt",
+            "Gary Rydstrom",
+            "Randy Thom",
+            "John Williams"
+          ],
+          "reveal": "The correct answer is Ben Burtt! [excited] R2-D2 AND WALL-E. The man speaks fluent robot.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "WALL-E's name is short for Waste Allocation Load Lifter, this class.",
+          "answer": "Earth-Class",
+          "accept": [
+            "earth class",
+            "earth-class",
+            "earth"
+          ],
+          "choices": [
+            "Earth-Class",
+            "Mars-Class",
+            "Moon-Class",
+            "Space-Class"
+          ],
+          "reveal": "The correct answer is Earth-Class! [dramatic pause] Waste Allocation Load Lifter, Earth-Class. TRUE Pixar nerd!",
+          "dailyDouble": false
+        }
+      ],
+      "art": {
+        "prompt": "A dusty abandoned city of towering stacked trash cubes at golden hour, a little rusty boombox, a potted seedling in an old boot and a lonely sparkle in the sky. Original painterly storybook illustration, 16:9, cinematic lighting, rich color, no people, no characters, no text, no logos.",
+        "file": "media/the-sounds-of-disney--beeps-and-boops.jpg"
+      }
+    },
+    {
+      "id": "famous-voices",
+      "title": "Famous Voices",
+      "kind": "theme",
+      "format": "text",
+      "intro": "Close your eyes and listen... [chuckles] these famous voices brought Disney characters to life.",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Ellen DeGeneres voices this forgetful blue tang.",
+          "answer": "Dory",
+          "accept": [
+            "dory"
+          ],
+          "choices": [
+            "Dory",
+            "Nemo",
+            "Marlin",
+            "Gill"
+          ],
+          "reveal": "The correct answer is Dory! [laughs] Just keep swimming... and just keep scoring.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "This comedian improvised his way through the role of the Genie in 1992's Aladdin.",
+          "answer": "Robin Williams",
+          "accept": [
+            "robin williams",
+            "williams"
+          ],
+          "choices": [
+            "Robin Williams",
+            "Billy Crystal",
+            "Jim Carrey",
+            "Eddie Murphy"
+          ],
+          "reveal": "The correct answer is Robin Williams! [excited] Phenomenal cosmic powers... itty bitty recording booth.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Dwayne Johnson voices this shape-shifting demigod.",
+          "answer": "Maui",
+          "accept": [
+            "maui"
+          ],
+          "choices": [
+            "Maui",
+            "Hercules",
+            "Hades",
+            "Kronk"
+          ],
+          "reveal": "The correct answer is Maui! [chuckles] What can I say except... you got it right.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Clarence Nash voiced this hot-tempered character for over 50 years.",
+          "answer": "Donald Duck",
+          "accept": [
+            "donald",
+            "donald duck"
+          ],
+          "choices": [
+            "Donald Duck",
+            "Goofy",
+            "Pluto",
+            "Daisy Duck"
+          ],
+          "reveal": "The correct answer is Donald Duck! [laughs] Nobody could understand him... and that was the POINT.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Sterling Holloway voiced Winnie the Pooh, Kaa, and this grinning cat from 1951's Alice in Wonderland.",
+          "answer": "The Cheshire Cat",
+          "accept": [
+            "cheshire cat",
+            "the cheshire cat",
+            "cheshire"
+          ],
+          "choices": [
+            "The Cheshire Cat",
+            "Dinah",
+            "Figaro",
+            "Lucifer"
+          ],
+          "reveal": "The correct answer is the Cheshire Cat! [mischievously] We're all mad here. Especially the nerds who got that one.",
+          "dailyDouble": false
+        }
+      ],
+      "art": {
+        "prompt": "A cozy vintage recording booth: a big chrome microphone, headphones on a stool, a script stand and a warm red ON AIR style light glowing without letters. Original painterly storybook illustration, 16:9, cinematic lighting, rich color, no people, no characters, no text, no logos.",
+        "file": "media/the-sounds-of-disney--famous-voices.jpg"
+      }
+    },
+    {
+      "id": "hear-it-in-the-parks",
+      "title": "Hear It in the Parks",
+      "kind": "media",
+      "format": "picture",
+      "intro": "Each picture shows a Disney attraction famous for its SOUND. [whispers] Name the attraction.",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Name the attraction this creaky, ghostly scene evokes.",
+          "answer": "Haunted Mansion",
+          "accept": [
+            "haunted mansion",
+            "the haunted mansion"
+          ],
+          "choices": [
+            "Haunted Mansion",
+            "Phantom Manor",
+            "Tower of Terror",
+            "Pirates of the Caribbean"
+          ],
+          "reveal": "The correct answer is the Haunted Mansion! [laughs] That spooky organ music gets me every time. Foolish mortal!",
+          "media": {
+            "type": "image",
+            "prompt": "A dim ghostly ballroom with a cobwebbed pipe organ, flickering candelabras, a long dining table with toppled chairs and swirling translucent mist. Original painterly storybook illustration, 16:9, cinematic lighting, rich color, no people, no characters, no text, no logos.",
+            "file": "media/the-sounds-of-disney--hear-it-in-the-parks-200.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Skippers on this river ride are famous for their groan-worthy puns. Name it.",
+          "answer": "Jungle Cruise",
+          "accept": [
+            "jungle cruise",
+            "the jungle cruise"
+          ],
+          "choices": [
+            "Jungle Cruise",
+            "Kilimanjaro Safaris",
+            "Rivers of America",
+            "Liberty Belle Riverboat"
+          ],
+          "reveal": "The correct answer is the Jungle Cruise! [sarcastic] And the backside of water. Never gets old. Okay, it gets a LITTLE old.",
+          "media": {
+            "type": "image",
+            "prompt": "A small tramp-steamer river boat with a striped canvas canopy on a muddy jungle river, vines and waterfalls, an old wooden dock with crates and a hand-crank horn. Original painterly storybook illustration, 16:9, cinematic lighting, rich color, no people, no characters, no text, no logos.",
+            "file": "media/the-sounds-of-disney--hear-it-in-the-parks-400.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "In this 3D concert show, Donald chases a stolen sorcerer's hat through famous Disney songs.",
+          "answer": "Mickey's PhilharMagic",
+          "accept": [
+            "philharmagic",
+            "mickeys philharmagic",
+            "mickey's philharmagic"
+          ],
+          "choices": [
+            "Mickey's PhilharMagic",
+            "Fantasmic!",
+            "Muppet*Vision 3D",
+            "Wonderful World of Animation"
+          ],
+          "reveal": "The correct answer is Mickey's PhilharMagic! [laughs] Donald and an orchestra. What could POSSIBLY go wrong?",
+          "media": {
+            "type": "image",
+            "prompt": "A grand empty concert hall stage with a floating blue starry sorcerer's hat, a conductor's baton, music stands and swirling golden musical notes in the air. Original painterly storybook illustration, 16:9, cinematic lighting, rich color, no people, no characters, no text, no logos.",
+            "file": "media/the-sounds-of-disney--hear-it-in-the-parks-600.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Jerry Goldsmith composed the sweeping score for this hang-gliding flight attraction.",
+          "answer": "Soarin'",
+          "accept": [
+            "soarin",
+            "soarin'",
+            "soaring",
+            "soarin over california",
+            "soarin around the world"
+          ],
+          "choices": [
+            "Soarin'",
+            "Avatar Flight of Passage",
+            "Peter Pan's Flight",
+            "Mission: SPACE"
+          ],
+          "reveal": "The correct answer is Soarin'! [excited] That music, that breeze... and that smell of oranges. Chills.",
+          "media": {
+            "type": "image",
+            "prompt": "Rows of hang-glider-style seats with dangling feet lifted in front of a giant curved dome screen showing golden valleys and ocean, soft wind and orange-grove blossoms. Original painterly storybook illustration, 16:9, cinematic lighting, rich color, no people, no characters, no text, no logos.",
+            "file": "media/the-sounds-of-disney--hear-it-in-the-parks-800.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Disneyland's version of this coaster got an onboard score by Michael Giacchino in 2005.",
+          "answer": "Space Mountain",
+          "accept": [
+            "space mountain"
+          ],
+          "choices": [
+            "Space Mountain",
+            "Hyperspace Mountain",
+            "Rock 'n' Roller Coaster",
+            "TRON Lightcycle Run"
+          ],
+          "reveal": "The correct answer is Space Mountain! [gasps] Blasting through the stars with a Giacchino soundtrack. Pure magic.",
+          "media": {
+            "type": "image",
+            "prompt": "A pitch-black starfield inside a vast dome with streaking comets, a sleek rocket sled on a twisting track and glowing blue launch tunnel lights. Original painterly storybook illustration, 16:9, cinematic lighting, rich color, no people, no characters, no text, no logos.",
+            "file": "media/the-sounds-of-disney--hear-it-in-the-parks-1000.jpg"
+          },
+          "dailyDouble": false
+        }
+      ],
+      "art": {
+        "prompt": "A theme-park pathway at dusk where colorful sound waves ripple out of an old pipe organ, a jungle river boat horn and a dome of stars. Original painterly storybook illustration, 16:9, cinematic lighting, rich color, no people, no characters, no text, no logos.",
+        "file": "media/the-sounds-of-disney--hear-it-in-the-parks.jpg"
+      }
+    },
+    {
+      "id": "park-soundtrack",
+      "title": "Park Soundtrack",
+      "kind": "parks",
+      "format": "text",
+      "intro": "[excited] The parks are full of music and noise. [chuckles] Let's turn up the volume!",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Each night the sky over the castle fills with booms, music and these.",
+          "answer": "Fireworks",
+          "accept": [
+            "fireworks",
+            "firework",
+            "fireworks show"
+          ],
+          "choices": [
+            "Fireworks",
+            "Balloons",
+            "Lasers",
+            "Bubbles"
+          ],
+          "reveal": "The correct answer is fireworks! [excited] Kaboom! Ooh! Ahh! That was me, by the way.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "The singing hosts of Walt Disney's Enchanted Tiki Room are four of these birds.",
+          "answer": "Parrots",
+          "accept": [
+            "parrots",
+            "parrot",
+            "macaws",
+            "macaw"
+          ],
+          "choices": [
+            "Parrots",
+            "Toucans",
+            "Flamingos",
+            "Owls"
+          ],
+          "reveal": "The correct answer is parrots! [laughs] Jose, Michael, Pierre and Fritz. All the birds sing words!",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Steam whistles echo around Magic Kingdom from this train, which stops at Main Street, Frontierland and Fantasyland.",
+          "answer": "Walt Disney World Railroad",
+          "accept": [
+            "walt disney world railroad",
+            "wdw railroad",
+            "the railroad",
+            "disney world railroad"
+          ],
+          "choices": [
+            "Walt Disney World Railroad",
+            "Disneyland Railroad",
+            "Wildlife Express Train",
+            "Casey Jr. Circus Train"
+          ],
+          "reveal": "The correct answer is the Walt Disney World Railroad! [excited] All aboard! Toot toot! That one's for the train nerds.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "The Dapper Dans harmonize on Main Street, U.S.A. as this kind of singing group.",
+          "answer": "A barbershop quartet",
+          "accept": [
+            "barbershop quartet",
+            "a barbershop quartet",
+            "barbershop"
+          ],
+          "choices": [
+            "A barbershop quartet",
+            "A gospel choir",
+            "A doo-wop trio",
+            "A mariachi band"
+          ],
+          "reveal": "The correct answer is a barbershop quartet! [laughs] Straw hats, striped vests and perfect harmony.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "The Haunted Mansion's Ghost Host, who welcomes foolish mortals, is voiced by this actor.",
+          "answer": "Paul Frees",
+          "accept": [
+            "paul frees",
+            "frees"
+          ],
+          "choices": [
+            "Paul Frees",
+            "Thurl Ravenscroft",
+            "Vincent Price",
+            "Corey Burton"
+          ],
+          "reveal": "The correct answer is Paul Frees! [dramatic pause] Thurl Ravenscroft is a singing bust. TRUE mansion nerds knew it.",
+          "dailyDouble": true
+        }
+      ],
+      "art": {
+        "prompt": "A Victorian bandstand on a theme-park main street at night, brass instruments resting on chairs, fireworks blooming over distant castle spires. Original painterly storybook illustration, 16:9, cinematic lighting, rich color, no people, no characters, no text, no logos.",
+        "file": "media/the-sounds-of-disney--park-soundtrack.jpg"
+      }
+    },
+    {
+      "id": "making-some-noise",
+      "title": "Making Some Noise",
+      "kind": "fan",
+      "format": "text",
+      "intro": "A fan grab bag of Disney noise. [laughs] Feel free to make sound effects while you answer.",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Pull Woody's string and he might say: There's a ___ in my boot!",
+          "answer": "Snake",
+          "accept": [
+            "snake",
+            "a snake"
+          ],
+          "choices": [
+            "Snake",
+            "Spider",
+            "Rock",
+            "Scorpion"
+          ],
+          "reveal": "The correct answer is snake! [laughs] Reach for the sky! You got it, partner.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Louis, the jazz-loving alligator in The Princess and the Frog, plays this instrument.",
+          "answer": "Trumpet",
+          "accept": [
+            "trumpet",
+            "a trumpet",
+            "the trumpet"
+          ],
+          "choices": [
+            "Trumpet",
+            "Saxophone",
+            "Trombone",
+            "Clarinet"
+          ],
+          "reveal": "The correct answer is the trumpet! [excited] Toot toot! He just wants to play with the big boys.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "In Dumbo, the crows sing that they've seen a lot of things, but never seen an elephant do this.",
+          "answer": "Fly",
+          "accept": [
+            "fly",
+            "flying"
+          ],
+          "choices": [
+            "Fly",
+            "Sing",
+            "Dance",
+            "Swim"
+          ],
+          "reveal": "The correct answer is fly! [chuckles] When I See an Elephant Fly. Spoiler: they DO see it.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Disney's longtime sound-effects man, he took over as Mickey's voice from Walt in 1947.",
+          "answer": "Jimmy MacDonald",
+          "accept": [
+            "jimmy macdonald",
+            "jim macdonald",
+            "macdonald",
+            "jimmy mcdonald"
+          ],
+          "choices": [
+            "Jimmy MacDonald",
+            "Wayne Allwine",
+            "Bret Iwan",
+            "Clarence Nash"
+          ],
+          "reveal": "The correct answer is Jimmy MacDonald! [whispers] Wayne Allwine took the ears next. Ha-ha!",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "This South African singer belts the famous opening chant of Circle of Life.",
+          "answer": "Lebo M",
+          "accept": [
+            "lebo m",
+            "lebo",
+            "lebo m.",
+            "lebohang morake"
+          ],
+          "choices": [
+            "Lebo M",
+            "Miriam Makeba",
+            "Ladysmith Black Mambazo",
+            "Johnny Clegg"
+          ],
+          "reveal": "The correct answer is Lebo M! [excited] Naaants ingonyama! Sorry. I had to.",
+          "dailyDouble": false
+        }
+      ],
+      "art": {
+        "prompt": "A mad-scientist style Foley workshop: a golden trumpet, a squeaky rubber chicken, a thunder sheet, a cowboy boot and a bowl of popcorn under spotlight. Original painterly storybook illustration, 16:9, cinematic lighting, rich color, no people, no characters, no text, no logos.",
+        "file": "media/the-sounds-of-disney--making-some-noise.jpg"
+      }
+    }
+  ]
+}

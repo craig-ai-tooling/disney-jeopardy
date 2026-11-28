@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="board_blue">#0A0F3C</color>
+    <style name="Theme.DisneyJeopardy" parent="@android:style/Theme.DeviceDefault.NoActionBar.Fullscreen">
+        <item name="android:windowBackground">@color/board_blue</item>
+        <item name="android:colorBackground">@color/board_blue</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:colorAccent">#FFD45A</item>
+    </style>
+    <style name="Theme.DisneyJeopardy.Dialog" parent="@android:style/Theme.DeviceDefault.Dialog.Alert">
+        <item name="android:colorAccent">#FFD45A</item>
+    </style>
+</resources>

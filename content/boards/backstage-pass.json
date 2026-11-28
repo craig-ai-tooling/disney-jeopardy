@@ -1,0 +1,555 @@
+{
+  "id": "backstage-pass",
+  "title": "Backstage Pass",
+  "theme": "Behind the scenes: cast member lingo and park operations",
+  "tags": [
+    "behind the scenes",
+    "parks",
+    "cast members"
+  ],
+  "intro": "[whispers] Psst. Come on in, nobody's looking. [excited] Welcome to BACKSTAGE PASS, where we sneak behind the curtain at Disney: cast member lingo, secret tunnels and how the magic really works!",
+  "art": {
+    "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A half-open backstage door glowing with golden light, revealing a glimpse of a colourful theme park street beyond, while the dim backstage corridor is full of costume racks, tool carts and coiled cables.",
+    "file": "media/backstage-pass.jpg"
+  },
+  "categories": [
+    {
+      "id": "saving-mr-banks",
+      "title": "Saving Mr. Banks",
+      "kind": "film",
+      "intro": "Our film category is the ultimate behind-the-scenes movie: Saving Mr. Banks, all about the making of Mary Poppins. [chuckles] Spoonful of sugar not included.",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A 1960s Hollywood studio rehearsal room with an upright piano, scattered sheet music, a black umbrella hooked over a chair, and afternoon sun through venetian blinds.",
+        "file": "media/backstage-pass--saving-mr-banks.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In Saving Mr. Banks, Tom Hanks plays this famous studio boss who wants to make a movie from a beloved book.",
+          "answer": "Walt Disney",
+          "accept": [
+            "walt disney",
+            "walt"
+          ],
+          "choices": [
+            "Walt Disney",
+            "Roy Disney",
+            "Ub Iwerks",
+            "Marty Sklar"
+          ],
+          "reveal": "The correct answer is Walt Disney! [laughs] Tom Hanks even grew the moustache. Commitment!",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Emma Thompson plays P. L. Travers, the author who created this magical nanny.",
+          "answer": "Mary Poppins",
+          "accept": [
+            "mary poppins",
+            "poppins"
+          ],
+          "choices": [
+            "Mary Poppins",
+            "Nanny McPhee",
+            "Maria von Trapp",
+            "Eglantine Price"
+          ],
+          "reveal": "The correct answer is Mary Poppins! Practically perfect in every way. [sarcastic] Unlike Mrs. Travers's mood.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "In the film, Travers works on the songs with this famous pair of songwriting brothers.",
+          "answer": "The Sherman Brothers",
+          "accept": [
+            "the sherman brothers",
+            "sherman brothers",
+            "the shermans",
+            "shermans",
+            "richard and robert sherman"
+          ],
+          "choices": [
+            "The Sherman Brothers",
+            "The Gershwin Brothers",
+            "The Jonas Brothers",
+            "The Warner Brothers"
+          ],
+          "reveal": "The correct answer is the Sherman Brothers! Richard and Robert also wrote It's a Small World. [whispers] Sorry, now it's stuck in your head.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Travers makes a famous demand that this colour must not appear anywhere in the movie.",
+          "answer": "Red",
+          "accept": [
+            "red"
+          ],
+          "choices": [
+            "Red",
+            "Green",
+            "Purple",
+            "Yellow"
+          ],
+          "reveal": "The correct answer is red! [gasps] No red at ALL. The Disney team had to get very creative.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Paul Giamatti plays Ralph, the cheerful Los Angeles worker with this job who drives Travers around.",
+          "answer": "Chauffeur",
+          "accept": [
+            "chauffeur",
+            "driver",
+            "limo driver",
+            "her driver"
+          ],
+          "choices": [
+            "Chauffeur",
+            "Butler",
+            "Bellhop",
+            "Doorman"
+          ],
+          "reveal": "The correct answer is chauffeur! [chuckles] Ralph is the only person in Hollywood who gets a smile out of her.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "speak-like-a-cast-member",
+      "title": "Speak Like a Cast Member",
+      "kind": "theme",
+      "intro": "At Disney, everybody speaks the secret language of show business. [mischievously] Translate these words into cast member lingo!",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A cozy backstage break room with a long row of lockers, a cork bulletin board with blank paper notes, a pair of spotless shoes on a bench and a cup of coffee steaming.",
+        "file": "media/backstage-pass--speak-like-a-cast-member.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "At Disney parks, people who come to visit aren't called customers. They're called this.",
+          "answer": "Guests",
+          "accept": [
+            "guests",
+            "guest"
+          ],
+          "choices": [
+            "Guests",
+            "Visitors",
+            "Fans",
+            "Tourists"
+          ],
+          "reveal": "The correct answer is guests! [excited] Because you're not buying a ticket... you're visiting someone's home.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Disney park employees are called this, because they're part of the show.",
+          "answer": "Cast members",
+          "accept": [
+            "cast members",
+            "cast member",
+            "cast"
+          ],
+          "choices": [
+            "Cast members",
+            "Crew members",
+            "Team members",
+            "Show staff"
+          ],
+          "reveal": "The correct answer is cast members! Every single one of them, from the ride operator to the street sweeper.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Cast members don't wear uniforms. Instead, Disney calls their outfits these.",
+          "answer": "Costumes",
+          "accept": [
+            "costumes",
+            "costume"
+          ],
+          "choices": [
+            "Costumes",
+            "Wardrobes",
+            "Outfits",
+            "Garments"
+          ],
+          "reveal": "The correct answer is costumes! [laughs] Even if your costume is a polo shirt and a name tag.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Fences and walls Disney wants you to ignore are painted a dull colour nicknamed Go Away this.",
+          "answer": "Green",
+          "accept": [
+            "green",
+            "go away green"
+          ],
+          "choices": [
+            "Green",
+            "Grey",
+            "Beige",
+            "Brown"
+          ],
+          "reveal": "The correct answer is green! Go Away Green. [whispers] If you've never noticed it... it's working.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Disney's rules for cast member hair, makeup and grooming are called The Disney this.",
+          "answer": "Look",
+          "accept": [
+            "look",
+            "the disney look",
+            "disney look"
+          ],
+          "choices": [
+            "Look",
+            "Style",
+            "Image",
+            "Way"
+          ],
+          "reveal": "The correct answer is Look! The Disney Look. [chuckles] And yes, it has been updated over the years, so relax.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "behind-the-berm",
+      "title": "Behind the Berm",
+      "kind": "media",
+      "intro": "It's a picture category! Each image shows a secret trick Imagineers use to make the magic. [dramatic pause] Name the trick.",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A cutaway view of a grassy embankment surrounding a theme park, with railroad tracks along the top, a sunny storybook village inside and a busy gray highway hidden outside.",
+        "file": "media/backstage-pass--behind-the-berm.jpg"
+      },
+      "format": "picture",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Look closely! Three circles hidden in this rock wall make a secret shape fans hunt for all over the parks. What's it called?",
+          "answer": "Hidden Mickey",
+          "accept": [
+            "hidden mickey",
+            "hidden mickeys",
+            "a hidden mickey"
+          ],
+          "choices": [
+            "Hidden Mickey",
+            "Secret Castle",
+            "Magic Mark",
+            "Lucky Ears"
+          ],
+          "reveal": "The correct answer is a Hidden Mickey! [excited] Once you start finding them, you'll NEVER stop.",
+          "media": {
+            "type": "image",
+            "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A rough stone wall in warm sunlight where three round mossy stones, one large and two smaller on top, form a subtle mouse-head silhouette hidden among other stones.",
+            "file": "media/backstage-pass--behind-the-berm-200.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "This classic illusion uses angled glass to make see-through ghosts dance in a haunted ballroom.",
+          "answer": "Pepper's ghost",
+          "accept": [
+            "pepper's ghost",
+            "peppers ghost",
+            "peppers ghost illusion"
+          ],
+          "choices": [
+            "Pepper's ghost",
+            "Forced perspective",
+            "Projection mapping",
+            "Black light"
+          ],
+          "reveal": "The correct answer is Pepper's ghost! It's a stage trick from the 1860s. [mischievously] Ghosts have been reflecting on their lives for a LONG time.",
+          "media": {
+            "type": "image",
+            "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A dim Victorian ballroom seen from a high balcony, faint translucent glowing figures of light dancing above the floor, a giant sheet of glass angled in the foreground catching reflections.",
+            "file": "media/backstage-pass--behind-the-berm-400.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Disneyland is surrounded by this raised wall of earth and trees, so guests can't see the outside world.",
+          "answer": "Berm",
+          "accept": [
+            "berm",
+            "the berm",
+            "a berm",
+            "earth berm"
+          ],
+          "choices": [
+            "Berm",
+            "Moat",
+            "Levee",
+            "Hedge"
+          ],
+          "reveal": "The correct answer is the berm! Walt wanted guests to forget the real world. [chuckles] And the train rides on top of it.",
+          "media": {
+            "type": "image",
+            "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A tall grassy embankment covered with trees and shrubs, a small steam railroad track running along its top, seen from inside a sunny park.",
+            "file": "media/backstage-pass--behind-the-berm-600.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "This Imagineering device puffs scents like vanilla and fresh cookies into the air.",
+          "answer": "Smellitzer",
+          "accept": [
+            "smellitzer",
+            "smell-itzer",
+            "the smellitzer"
+          ],
+          "choices": [
+            "Smellitzer",
+            "Scentinator",
+            "Aroma Cannon",
+            "Sniffotron"
+          ],
+          "reveal": "The correct answer is the Smellitzer! [laughs] Ever wonder why you suddenly crave cookies on Main Street? Now you know.",
+          "media": {
+            "type": "image",
+            "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A small brass cannon-shaped device hidden in leafy bushes, puffing a soft swirl of glowing mist toward a cobblestone street with a bakery window.",
+            "file": "media/backstage-pass--behind-the-berm-800.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Magic Kingdom whisks trash away through underground pneumatic tubes in this system known by a four-letter acronym.",
+          "answer": "AVAC",
+          "accept": [
+            "avac",
+            "a v a c",
+            "automated vacuum collection"
+          ],
+          "choices": [
+            "AVAC",
+            "WEDS",
+            "PAVE",
+            "TUBE"
+          ],
+          "reveal": "The correct answer is AVAC! Garbage zooms through the tubes at around 60 miles per hour. [gasps] Faster than some rides!",
+          "media": {
+            "type": "image",
+            "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A clean industrial tunnel with large silver pneumatic tubes curving along the ceiling, pressure gauges and valves, soft blue utility lighting.",
+            "file": "media/backstage-pass--behind-the-berm-1000.jpg"
+          },
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "operation-magic",
+      "title": "Operation Magic",
+      "kind": "parks",
+      "intro": "Now for the rules of running a theme park. [chuckles] Some of these will make you say, WAIT, really?",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. An empty theme park street at dawn just before opening, a velvet rope stretched across it, a pushcart, a broom leaning on a lamppost and soft pink morning light.",
+        "file": "media/backstage-pass--operation-magic.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "To keep sidewalks clean, Disney World and Disneyland famously don't sell this sticky treat.",
+          "answer": "Chewing gum",
+          "accept": [
+            "gum",
+            "chewing gum",
+            "bubble gum"
+          ],
+          "choices": [
+            "Chewing gum",
+            "Cotton candy",
+            "Lollipops",
+            "Taffy"
+          ],
+          "reveal": "The correct answer is chewing gum! [laughs] Walt did not want to scrape it off his streets.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Instead of pointing with one finger, cast members point with an open hand or using this many fingers.",
+          "answer": "Two",
+          "accept": [
+            "two",
+            "2",
+            "two fingers"
+          ],
+          "choices": [
+            "Two",
+            "Three",
+            "Four",
+            "Zero"
+          ],
+          "reveal": "The correct answer is two! The famous Disney point. [chuckles] Some say it started because one finger can seem rude in some cultures.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Besides their first name, a cast member's name tag often lists this.",
+          "answer": "Their hometown",
+          "accept": [
+            "hometown",
+            "their hometown",
+            "home town",
+            "where they're from"
+          ],
+          "choices": [
+            "Their hometown",
+            "Their birthday",
+            "Their favorite ride",
+            "Their job title"
+          ],
+          "reveal": "The correct answer is their hometown! It's a great conversation starter. [excited] Oh, you're from Ohio TOO?",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Magic Kingdom sits on top of these tunnels that let cast members move around unseen.",
+          "answer": "Utilidors",
+          "accept": [
+            "utilidors",
+            "utilidor",
+            "utilidor tunnels",
+            "the utilidors"
+          ],
+          "choices": [
+            "Utilidors",
+            "Catacombs",
+            "Underpasses",
+            "Subways"
+          ],
+          "reveal": "The correct answer is the utilidors! [whispers] Technically they're at ground level, and the park is built on top. Sneaky.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Disneyland's exclusive members-only club, hidden in New Orleans Square, is called Club this number.",
+          "answer": "33",
+          "accept": [
+            "33",
+            "thirty three",
+            "thirty-three",
+            "club 33"
+          ],
+          "choices": [
+            "33",
+            "55",
+            "21",
+            "13"
+          ],
+          "reveal": "[dramatic pause] The correct answer is 33! Club 33. [sighs] And no, I have NOT been invited. Yet.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "imagineering-insiders",
+      "title": "Imagineering Insiders",
+      "kind": "fan",
+      "intro": "Our fan category: the people and words behind the magic. [excited] True Disney nerds, this one's for YOU.",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A cluttered Imagineering drafting table with pencil sketches of castles and rides, clay models, a desk lamp and a corkboard of unlabelled concept art.",
+        "file": "media/backstage-pass--imagineering-insiders.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Disney calls the areas guests can see, like park streets and rides, this.",
+          "answer": "Onstage",
+          "accept": [
+            "onstage",
+            "on stage"
+          ],
+          "choices": [
+            "Onstage",
+            "Frontstage",
+            "Showtime",
+            "Center stage"
+          ],
+          "reveal": "The correct answer is onstage! [chuckles] And everything you can't see? Backstage. Just like a theater.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Walt used this hot-dog nickname for a big landmark, like a castle, that pulls guests down the street.",
+          "answer": "Wienie",
+          "accept": [
+            "wienie",
+            "weenie",
+            "a wienie"
+          ],
+          "choices": [
+            "Wienie",
+            "Hot spot",
+            "Beacon",
+            "Topper"
+          ],
+          "reveal": "The correct answer is wienie! [laughs] Walt said it works like waving a hot dog in front of a puppy.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Before it was renamed Walt Disney Imagineering in 1986, Disney's design company spent decades under this name, made from Walt's initials.",
+          "answer": "WED Enterprises",
+          "accept": [
+            "wed enterprises",
+            "wed",
+            "w.e.d. enterprises"
+          ],
+          "choices": [
+            "WED Enterprises",
+            "WDP Studios",
+            "Disney Design Lab",
+            "Mickey Mouse Park Company"
+          ],
+          "reveal": "The correct answer is WED Enterprises! W, E, D for Walter Elias Disney.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "This longtime Imagineering leader wrote Mickey's Ten Commandments, rules for great theme park design.",
+          "answer": "Marty Sklar",
+          "accept": [
+            "marty sklar",
+            "sklar",
+            "martin sklar"
+          ],
+          "choices": [
+            "Marty Sklar",
+            "John Hench",
+            "Joe Rohde",
+            "Tony Baxter"
+          ],
+          "reveal": "The correct answer is Marty Sklar! [excited] Rule number one? Know your audience. Rule number two? Wear your guests' shoes.",
+          "dailyDouble": true
+        },
+        {
+          "value": 1000,
+          "clue": "Disney's famous Traditions orientation class for new cast members was started by this man in 1955.",
+          "answer": "Van France",
+          "accept": [
+            "van france",
+            "van arsdale france"
+          ],
+          "choices": [
+            "Van France",
+            "Dick Nunis",
+            "Card Walker",
+            "Bill Evans"
+          ],
+          "reveal": "The correct answer is Van France! He trained the very first Disneyland cast. [chuckles] Before that, nobody knew what a wienie was.",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}
