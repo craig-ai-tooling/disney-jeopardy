@@ -38,6 +38,8 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.draw.scale
 import androidx.compose.ui.draw.shadow
 import androidx.compose.ui.focus.onFocusChanged
+import androidx.compose.foundation.focusGroup
+import androidx.compose.ui.focus.focusProperties
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.asImageBitmap
@@ -127,7 +129,12 @@ fun qrBitmap(text: String): Bitmap {
 }
 
 @Composable
-fun Scrim(content: @Composable () -> Unit) = Box(Modifier.fillMaxSize().background(Color(0xE6040A28)), contentAlignment = Alignment.Center) { content() }
+@OptIn(androidx.compose.ui.ExperimentalComposeUiApi::class)
+fun Scrim(content: @Composable () -> Unit) = Box(
+    Modifier.fillMaxSize().background(Color(0xE6040A28))
+        .focusProperties { exit = { androidx.compose.ui.focus.FocusRequester.Cancel } }.focusGroup(),
+    contentAlignment = Alignment.Center
+) { content() }
 
 @Composable
 fun Episodes(ctl: Controller, s: GameState, mem: FocusMemory, onArt: (String?) -> Unit) {
@@ -173,7 +180,7 @@ fun SettingsPanel(ctl: Controller, s: GameState, mem: FocusMemory) {
         TvButton(label, key, mem, secondary = !on, size = 1.15f) { ctl.sendSettings(apply(set)) }
     @Composable fun SetRow(label: String, note: String = "", opts: @Composable () -> Unit) = Row(Modifier.fillMaxWidth().padding(vertical = .7f.vw), verticalAlignment = Alignment.CenterVertically) {
         Txt(label, 1.4f, Modifier.width(14.vw), color = Gold, align = androidx.compose.ui.text.style.TextAlign.Start)
-        Column { Row(horizontalArrangement = Arrangement.spacedBy(.8f.vw)) { opts() }; if (note.isNotEmpty()) Txt(note, 1f, Modifier.padding(top = .4f.vw), color = Color(0xBBFFFFFF), weight = FontWeight.Normal) }
+        Column { FlowRow(horizontalArrangement = Arrangement.spacedBy(.8f.vw), verticalArrangement = Arrangement.spacedBy(.6f.vw)) { opts() }; if (note.isNotEmpty()) Txt(note, 1f, Modifier.padding(top = .4f.vw), color = Color(0xBBFFFFFF), weight = FontWeight.Normal) }
     }
     Scrim {
         Column(Modifier.width(66.vw).background(Card, RoundedCornerShape(1.6f.vw)).border(.25f.vw, Gold.copy(alpha = .6f), RoundedCornerShape(1.6f.vw)).padding(2.vw),
