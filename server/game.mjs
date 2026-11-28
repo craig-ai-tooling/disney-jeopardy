@@ -653,7 +653,11 @@ export class Room {
       final: this.final && this.publicFinal(),
       stats: { boards: this.rooms.content.boards.length },
     };
-    if (role === 'tv') s.boards = this.boardList();
+    if (role === 'tv') {
+      s.boards = this.boardList();
+      // Clue media still to come on this board, so the TV app can warm its cache before a pick.
+      if (b) s.prefetch = b.categories.flatMap((c) => c.clues).filter((q) => !this.used.has(q.id) && q.media && !q.media.missing).map((q) => media.url(q.media.file)).filter(Boolean);
+    }
     if (role === 'player') {
       const p = this.players.get(pid);
       s.you = pid;

@@ -49,7 +49,10 @@ function sendFile(req, res, file, cache = 'public, max-age=300') {
     if (err || !st.isFile()) return notFound(res);
     const type = MIME[path.extname(file).toLowerCase()] || 'application/octet-stream';
     const range = req.headers.range && /bytes=(\d*)-(\d*)/.exec(req.headers.range);
-    const headers = { 'content-type': type, 'cache-control': cache, 'accept-ranges': 'bytes' };
+    const headers = { 'content-type': type, 'cache-control': cache, 'accept-ranges': 'bytes', 'last-modified': st.mtime.toUTCString() };
+    // Lets clients (the native TV app's HTTP cache) revalidate instead of re-downloading or showing stale art.
+    const since = Date.parse(req.headers['if-modified-since'] || '');
+    if (!range && since && Math.floor(st.mtimeMs / 1000) <= Math.floor(since / 1000)) { res.writeHead(304, headers); return res.end(); }
     if (range) {
       const start = range[1] ? Number(range[1]) : 0;
       const end = range[2] ? Math.min(Number(range[2]), st.size - 1) : st.size - 1;
@@ -61,6 +64,16 @@ function sendFile(req, res, file, cache = 'public, max-age=300') {
     if (req.method === 'HEAD') return res.end();
     fs.createReadStream(file).pipe(res);
   });
+}
+// The served sideload APK (data dir first, then the bundled copy) and its optional version file
+// `disney-jeopardy.json` ({"versionCode":101,"versionName":"2.0.1"}) alongside it, for the TV app's update badge.
+const apkFile = () => [path.join(DATA, 'disney-jeopardy.apk'), path.join(PUB, 'apk', 'disney-jeopardy.apk')].find((x) => fs.existsSync(x));
+function apkInfo() {
+  const f = apkFile(); if (!f) return null;
+  try {
+    const v = JSON.parse(fs.readFileSync(f.replace(/\.apk$/, '.json'), 'utf8'));
+    return Number.isInteger(v.versionCode) ? { versionCode: v.versionCode, versionName: String(v.versionName || v.versionCode) } : null;
+  } catch { return null; }
 }
 const notFound = (res) => { res.writeHead(404, { 'content-type': 'text/plain' }); res.end('not found'); };
 const json = (res, code, body) => { res.writeHead(code, { 'content-type': 'application/json', 'cache-control': 'no-store' }); res.end(JSON.stringify(body)); };
@@ -89,7 +102,7 @@ const server = http.createServer(async (req, res) => {
       res.writeHead(200, { 'content-type': 'image/svg+xml', 'cache-control': 'no-store' });
       return res.end(svg);
     }
-    if (p === '/api/info') return json(res, 200, { joinBase: origin(req), stt: sttEnabled(), voice: !voice.disabled, boards: content.boards.length, finals: content.finals.length });
+    if (p === '/api/info') return json(res, 200, { joinBase: origin(req), stt: sttEnabled(), voice: !voice.disabled, boards: content.boards.length, finals: content.finals.length, apk: apkInfo() });
     if (p === '/api/audio' && req.method === 'POST') {
       const room = rooms.get(url.searchParams.get('room'));
       const pid = url.searchParams.get('pid');
@@ -108,7 +121,7 @@ const server = http.createServer(async (req, res) => {
     if (p.startsWith('/m/')) { const f = media.map.get(p.slice(3)); return f ? sendFile(req, res, f, 'public, max-age=86400') : notFound(res); }
     if (p.startsWith('/voice/')) { const f = safeJoin(voice.dir, p.slice(7)); return f ? sendFile(req, res, f, 'public, max-age=31536000, immutable') : notFound(res); }
     if (p === '/apk' || p === '/disney-jeopardy.apk') {
-      const f = [path.join(DATA, 'disney-jeopardy.apk'), path.join(PUB, 'apk', 'disney-jeopardy.apk')].find((x) => fs.existsSync(x));
+      const f = apkFile();
       if (!f) return notFound(res);
       res.setHeader('content-disposition', 'attachment; filename="disney-jeopardy.apk"');
       return sendFile(req, res, f, 'no-cache');

@@ -533,6 +533,15 @@ class MainActivity : Activity() {
             setPadding(pad, dp(8), pad, 0)
             addView(input)
             addView(info)
+            addView(Button(this@MainActivity).apply {
+                text = "Switch to native mode"
+                setOnClickListener {
+                    prefs.edit().putBoolean(KEY_CLASSIC, false).apply()
+                    settingsDialog?.dismiss()
+                    startActivity(Intent(this@MainActivity, NativeActivity::class.java))
+                    finish()
+                }
+            })
         }
         val dialog = AlertDialog.Builder(this, R.style.Theme_DisneyJeopardy_Dialog)
             .setTitle("Game server URL")
@@ -751,7 +760,9 @@ class MainActivity : Activity() {
 
     companion object {
         private const val TAG = "DisneyJeopardy"
-        private const val KEY_URL = "url"
+        const val KEY_URL = "url"
+        /** Set by the native app's settings ("Classic web mode"); the launcher then opens this WebView activity. */
+        const val KEY_CLASSIC = "classic"
         private const val LOGO = "logo.png"
         private const val BACKDROP = "bg-castle.webp"
         private val RETRY_BACKOFF_S = intArrayOf(15, 30, 60, 120)

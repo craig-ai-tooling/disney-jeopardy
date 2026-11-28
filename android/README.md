@@ -1,8 +1,18 @@
 # Disney Jeopardy for Android TV
 
-Fullscreen WebView kiosk for the TV game board. It opens `https://jeopardy.craigcloud.io/tv?tv=1&app=<version>`; all game logic,
-art, sound and video come from the server, so updates to the game never need a reinstall. Package `io.craigcloud.disneyjeopardy`,
-minSdk 23 (Android 6), targetSdk 35. Shows up on the Android TV / Google TV home row (Leanback banner) and in normal launchers.
+Native TV board (Kotlin + Jetpack Compose for TV). All game logic, content and timing stay on the server: the app opens the
+same WebSocket as the web TV page (`/ws?role=tv&tv=<id>`, the id is a UUID kept in prefs), renders each `{t:'state'}` natively
+and plays each `{t:'say'}` clip, sending back the same `start`/`next`/`pick`/`readDone`/`pitch`/`override`/... messages as
+`public/tv.js`. Art, voice clips and host loops come from the server over HTTP and are cached on the device (images: 512 MB
+OkHttp cache with `Last-Modified` revalidation; voice/video/host loops: 1 GB Media3 cache), so game updates still never need a
+reinstall. The old fullscreen WebView kiosk is kept as **Classic web mode** (settings dialog). Package
+`io.craigcloud.disneyjeopardy`, minSdk 23 (Android 6), targetSdk 35. Shows up on the Android TV / Google TV home row (Leanback
+banner) and in normal launchers.
+
+Code: `NativeActivity` (launcher, remote keys, settings dialog), `tv/Net.kt` (WebSocket + reconnect), `tv/Controller.kt`
+(state, narration callbacks, host mood, sfx cues, prefetch), `tv/Screens.kt` + `tv/Play.kt` (one composable per phase),
+`tv/Fx.kt` (backdrop, lecterns, countdown, flash, confetti, host cam), `tv/Focus.kt` (focus memory), `tv/Media.kt`,
+`tv/Sfx.kt`. `MainActivity` is the classic WebView.
 
 ## Sideload onto the TV
 1. **Developer mode:** Settings → System → About (Google TV: Settings → System → About) → click **Android TV OS build** 7 times
@@ -22,17 +32,23 @@ The APK comes from the latest `v*` GitHub release (`disney-jeopardy.apk`) or the
 ## Using it
 | Remote | What happens |
 | --- | --- |
-| Arrows, OK | Passed to the page as `ArrowUp/Down/Left/Right` and `Enter` keydown/keyup (`event.code` is empty for D-pad keys; use `event.key`). |
-| BACK | Sends an `Escape` keydown+keyup into the page. When the page says it is at top level (`DJ_TV.setTopLevel(true)`), or the error screen is showing, BACK twice within 2 s exits. |
-| MENU, or hold OK (0.7 s) | Settings dialog: change the game server URL, reset to the default, reload. |
+| Arrows, OK | Move focus / press the focused button. Focus is remembered per screen by a stable key (button, board cell, episode id), so state updates never move it. |
+| BACK | Closes the episode picker / settings panel; at top level, BACK twice within 2 s exits ("Press BACK again to exit"). |
+| MENU, or hold OK (0.7 s) | Settings dialog: game server URL, reset to default, **Classic web mode**. |
 
-If the server can't be reached the app shows a "Can't reach the game board" screen and retries every 5 s, and immediately when
-the network comes back. OK retries at once.
+Voice: the server's clip is played; with no clip (voice off or a failed clip) the line is shown as a subtitle for
+`1200 + words × 380 ms`. Android Text-to-Speech is never used in native mode. Sound effects and the think music are
+synthesized on the device (same tones as `public/common.js`).
 
-Pointing the app at another server from adb (handy for testing): `adb shell am start -n io.craigcloud.disneyjeopardy/.MainActivity -e url http://<host>:<port>/tv`. This lasts only until the app process exits; to change the server for good, use the settings dialog.
-The URL is saved, so it sticks until changed again or reset in the dialog.
+If the server can't be reached the app shows "The server can't be reached" with a focused Retry and keeps retrying quietly
+(15 s, 30 s, 60 s, then every 120 s, and at once when the network comes back). During a short drop the last board stays on
+screen. When `/api/info` reports a newer `apk.versionCode` than the installed one, an "Update available" badge appears.
 
-## Page contract (`window.DJ_TV`)
+Pointing the app at another server from adb (handy for testing): `adb shell am start -n io.craigcloud.disneyjeopardy/.NativeActivity -e url http://<host>:<port>/tv`
+(`.MainActivity` for classic mode). The URL is saved, so it sticks until changed again or reset in the dialog.
+
+## Classic web mode
+### Page contract (`window.DJ_TV`)
 Defined before any page script runs (androidx.webkit document-start script; on very old WebViews it is injected at page start
 and a `djtvready` event fires on `window`). The app also adds `?tv=1&app=<versionName>` to the URL and
 `DisneyJeopardyTV/<version>` to the User-Agent, so the page can detect the TV app server-side too.
@@ -62,7 +78,9 @@ docker run --rm -u $(id -u):$(id -g) -e GRADLE_USER_HOME=/w/.gradle-home -v $PWD
 `-PappVersionName=1.2.3 -PappVersionCode=42` set the version (CI does this from the tag and run number).
 
 CI (`.github/workflows/android.yml`, runner from the `RUNNER` repo variable, default `ubuntu-latest`) builds on PRs touching `android/**` and on pushes to main; pushing a tag
-`v1.2.3` also attaches `disney-jeopardy.apk` to the GitHub release.
+`v1.2.3` also attaches `disney-jeopardy.apk` to the GitHub release. versionCode is `100 + run number`. CI also writes
+`disney-jeopardy.json` (`{"versionCode":…,"versionName":…}`); put it next to the served APK (`DATA_DIR` or `public/apk/`)
+and `/api/info` reports it as `apk`, which drives the app's "Update available" badge.
 
 **Signing:** release and debug builds are signed with `keystore/sideload.jks` (alias and passwords `disneyjeopardy`), committed
 on purpose so every build, local or CI, can update an installed copy. It is for sideloading only and is not a secret; never use it
