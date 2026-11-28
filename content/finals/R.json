@@ -1,0 +1,135 @@
+[
+  {
+    "film": "Elio",
+    "category": "Elio",
+    "clue": "In Pixar's 2025 film Elio, an 11-year-old boy is beamed up and mistaken for Earth's leader by this interplanetary organization.",
+    "answer": "The Communiverse",
+    "accept": [
+      "communiverse",
+      "the communiverse"
+    ],
+    "choices": [
+      "The Communiverse",
+      "The Galactic Federation",
+      "The Interstellar Council",
+      "The Star Command"
+    ],
+    "reveal": "[excited] The correct answer is the Communiverse! Elio has been sending messages into space hoping for exactly this. [laughs] Careful what you wish for, kid."
+  },
+  {
+    "film": "Escape to Witch Mountain",
+    "category": "Escape to Witch Mountain",
+    "clue": "In Disney's 1975 film Escape to Witch Mountain, orphaned siblings with psychic powers are named Tony and this sister.",
+    "answer": "Tia",
+    "accept": [
+      "tia",
+      "tia malone"
+    ],
+    "choices": [
+      "Tia",
+      "Tina",
+      "Tara",
+      "Tess"
+    ],
+    "reveal": "[excited] The correct answer is Tia! Tony and Tia Malone were played by Ike Eisenmann and Kim Richards. [chuckles] Sibling telepathy beats texting any day."
+  },
+  {
+    "film": "Zombies",
+    "category": "Zombies",
+    "clue": "In the 2018 Disney Channel movie Zombies, the undead live walled off in Zombietown on the edge of this cookie-cutter suburb.",
+    "answer": "Seabrook",
+    "accept": [
+      "seabrook"
+    ],
+    "choices": [
+      "Seabrook",
+      "Sunnyvale",
+      "Shadyside",
+      "Seaside"
+    ],
+    "reveal": "[excited] The correct answer is Seabrook! Zed and Addison prove a zombie and a cheerleader can rule the school. [laughs] Brains AND pom-poms!"
+  },
+  {
+    "film": "Chip 'n Dale: Rescue Rangers",
+    "category": "Chip 'n Dale: Rescue Rangers",
+    "clue": "In the 2022 Chip 'n Dale: Rescue Rangers movie, the bootlegging villain Sweet Pete is a grown-up version of this Disney character.",
+    "answer": "Peter Pan",
+    "accept": [
+      "peter pan"
+    ],
+    "choices": [
+      "Peter Pan",
+      "Pinocchio",
+      "Christopher Robin",
+      "Robin Hood"
+    ],
+    "reveal": "[gasps] The correct answer is Peter Pan! Voiced by Will Arnett, Sweet Pete grew up after all. [laughs] Never Land would be so disappointed."
+  },
+  {
+    "film": "The Haunted Mansion",
+    "category": "The Haunted Mansion",
+    "clue": "In Disney's 2003 film The Haunted Mansion starring Eddie Murphy, this actress plays Madame Leota, the head in the crystal ball.",
+    "answer": "Jennifer Tilly",
+    "accept": [
+      "jennifer tilly",
+      "tilly"
+    ],
+    "choices": [
+      "Jennifer Tilly",
+      "Jennifer Coolidge",
+      "Kathy Najimy",
+      "Bette Midler"
+    ],
+    "reveal": "[whispers] The correct answer is Jennifer Tilly. [excited] Her floating head channels the ride's famous seance room! [chuckles] Talk about a heady role."
+  },
+  {
+    "film": "Flubber",
+    "category": "Flubber",
+    "clue": "In 1997's Flubber, Robin Williams invents bouncing green goo. Its name is short for these two words.",
+    "answer": "Flying rubber",
+    "accept": [
+      "flying rubber"
+    ],
+    "choices": [
+      "Flying rubber",
+      "Flexible blubber",
+      "Flying blubber",
+      "Floating rubber"
+    ],
+    "reveal": "The correct answer is flying rubber! [laughs] It's a remake of The Absent-Minded Professor from 1961. That goo has a lot of personality."
+  },
+  {
+    "film": "Jungle Cruise",
+    "category": "Jungle Cruise",
+    "clue": "In the 2021 film Jungle Cruise, Lily Houghton hires skipper Frank Wolff to find a magic tree called this.",
+    "answer": "The Tears of the Moon",
+    "accept": [
+      "tears of the moon",
+      "the tears of the moon"
+    ],
+    "choices": [
+      "The Tears of the Moon",
+      "The Tree of Life",
+      "The Heart of the Jungle",
+      "The Moonflower"
+    ],
+    "reveal": "[excited] The correct answer is the Tears of the Moon! Its petals can heal anything and lift curses. [chuckles] And yes, Frank's puns came straight from the ride."
+  },
+  {
+    "film": "Sky High",
+    "category": "Sky High",
+    "clue": "At the superhero school in 2005's Sky High, students who are labeled sidekicks go into this track instead of the Hero track.",
+    "answer": "Hero Support",
+    "accept": [
+      "hero support",
+      "hero support track"
+    ],
+    "choices": [
+      "Hero Support",
+      "Hero Reserve",
+      "Backup Squad",
+      "Power Assist"
+    ],
+    "reveal": "The correct answer is Hero Support! [laughs] Coach Boomer decides it in Power Placement, and his word is law. No whiner babies!"
+  }
+]

@@ -1,0 +1,625 @@
+{
+  "id": "color-me-disney",
+  "title": "Color Me Disney",
+  "theme": "Colors, palettes and paint",
+  "tags": [
+    "palette",
+    "picture",
+    "colors",
+    "parks",
+    "fashion"
+  ],
+  "intro": "[excited] Grab your crayons, everybody! Tonight is Color Me Disney: color palettes, painted parks and every shade of the rainbow. [laughs] If you color outside the lines, that's fine. We're very supportive here.",
+  "art": {
+    "prompt": "A giant artist's palette covered in bright blobs of paint beside paintbrushes, paint jars and a rainbow arcing over a tiny fairy-tale castle on an easel canvas Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+    "file": "media/color-me-disney.jpg"
+  },
+  "categories": [
+    {
+      "id": "hero-hues",
+      "title": "Hero Hues",
+      "kind": "media",
+      "intro": "I'll show you a set of colors from a character's signature look. [chuckles] Name the character!",
+      "format": "palette",
+      "art": {
+        "prompt": "Rows of fabric swatches and paint chips fanned out on an artist's table, each set grouped like an outfit, with pins and a measuring tape Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/color-me-disney--hero-hues.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Fire-engine red, lightning-bolt yellow and a touch of orange. Ka-chow!",
+          "answer": "Lightning McQueen",
+          "accept": [
+            "lightning",
+            "lightning mcqueen",
+            "mcqueen"
+          ],
+          "choices": [
+            "Lightning McQueen",
+            "Mater",
+            "Sally Carrera",
+            "Doc Hudson"
+          ],
+          "reveal": "[excited] The correct answer is Lightning McQueen! Number 95, and he's speed. [laughs] I am also speed. Just not on a treadmill.",
+          "palette": [
+            "#D7261E",
+            "#FFD200",
+            "#F7941D",
+            "#FFFFFF"
+          ],
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Fluffy teal fur, big purple spots and two little horns. He's the top scarer.",
+          "answer": "Sulley",
+          "accept": [
+            "james p sullivan",
+            "james p. sullivan",
+            "james sullivan",
+            "sulley",
+            "sully"
+          ],
+          "choices": [
+            "Sulley",
+            "Mike Wazowski",
+            "Randall",
+            "Celia"
+          ],
+          "reveal": "The correct answer is Sulley! [chuckles] James P. Sullivan. Pixar animated over two million individual hairs on him.",
+          "palette": [
+            "#2EC4C4",
+            "#1B8F9C",
+            "#8E5BB4",
+            "#F3E9D2"
+          ],
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Layers of pale and deep lily-pad green with a golden flower crown. She's almost there.",
+          "answer": "Tiana",
+          "accept": [
+            "princess tiana",
+            "tiana"
+          ],
+          "choices": [
+            "Tiana",
+            "Rapunzel",
+            "Merida",
+            "Mirabel"
+          ],
+          "reveal": "[excited] The correct answer is Tiana! Her green ballgown is inspired by lily pads from the bayou. [laughs] Frog-approved fashion.",
+          "palette": [
+            "#B7D98B",
+            "#5E9B4E",
+            "#2F5F35",
+            "#E8C35A"
+          ],
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Dark forest-teal gown, a quiver of brown arrows and a giant mane of wild red-orange curls.",
+          "answer": "Merida",
+          "accept": [
+            "merida",
+            "princess merida"
+          ],
+          "choices": [
+            "Merida",
+            "Anna",
+            "Rapunzel",
+            "Elinor"
+          ],
+          "reveal": "The correct answer is Merida! [laughs] Pixar wrote new software just to animate her curly hair. Fifteen hundred curls, roughly!",
+          "palette": [
+            "#1F4D4A",
+            "#2F6B5E",
+            "#D4471F",
+            "#8A5A34"
+          ],
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Soft lavender chiton, a purple sash and a high auburn ponytail. She won't say she's in love.",
+          "answer": "Megara",
+          "accept": [
+            "meg",
+            "megara"
+          ],
+          "choices": [
+            "Megara",
+            "Esmeralda",
+            "Kida",
+            "Jasmine"
+          ],
+          "reveal": "[excited] The correct answer is Megara! Meg from Hercules. [chuckles] Wonder Breath, she's got a lot of attitude.",
+          "palette": [
+            "#CDB4E0",
+            "#9C6CC0",
+            "#6B3FA0",
+            "#8B2E1F"
+          ],
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "worlds-of-color",
+      "title": "Worlds of Color",
+      "kind": "film",
+      "intro": "These palettes come from the whole look of a movie world. [gasps] Name the film!",
+      "format": "palette",
+      "art": {
+        "prompt": "A long filmstrip unspooling across a dark table, each frame glowing a different color scheme: neon blue, marigold orange, hot pink and rainbow Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/color-me-disney--worlds-of-color.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Marigold orange, glowing magenta and deep purple. Remember me?",
+          "answer": "Coco",
+          "accept": [
+            "coco"
+          ],
+          "choices": [
+            "Coco",
+            "Encanto",
+            "The Book of Life",
+            "Luca"
+          ],
+          "reveal": "[excited] The correct answer is Coco! That marigold bridge leads to the Land of the Dead. [laughs] Even the skeletons are colorful.",
+          "palette": [
+            "#F7941D",
+            "#E2007A",
+            "#5B2A86",
+            "#1CA3A3"
+          ],
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Yellow, blue, red, green and purple. One color for each feeling running Riley's mind.",
+          "answer": "Inside Out",
+          "accept": [
+            "inside out"
+          ],
+          "choices": [
+            "Inside Out",
+            "Soul",
+            "Turning Red",
+            "Elemental"
+          ],
+          "reveal": "The correct answer is Inside Out! [chuckles] Joy, Sadness, Anger, Disgust and Fear. Every color is an emotion.",
+          "palette": [
+            "#FFD43B",
+            "#3D7CC9",
+            "#E03C31",
+            "#6BBF59",
+            "#8E5BB4"
+          ],
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Glowing electric cyan and orange lines on pure black. Welcome to the Grid.",
+          "answer": "Tron",
+          "accept": [
+            "tron",
+            "tron legacy",
+            "tron: legacy"
+          ],
+          "choices": [
+            "Tron",
+            "Wreck-It Ralph",
+            "Lightyear",
+            "The Black Hole"
+          ],
+          "reveal": "[excited] The correct answer is Tron! The 1982 original was one of the first movies to use extensive computer graphics. [laughs] Ride the light cycle!",
+          "palette": [
+            "#000000",
+            "#00E5FF",
+            "#0A1A2F",
+            "#FF7A00"
+          ],
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Big red fluffy panda, bubblegum pink and boy-band teal. Toronto, 2002.",
+          "answer": "Turning Red",
+          "accept": [
+            "turning red"
+          ],
+          "choices": [
+            "Turning Red",
+            "Luca",
+            "Inside Out 2",
+            "Elemental"
+          ],
+          "reveal": "The correct answer is Turning Red! [laughs] Mei turns into a giant red panda when she gets too excited. Relatable.",
+          "palette": [
+            "#C8342C",
+            "#F4A3C0",
+            "#2FB8AC",
+            "#F2D16B"
+          ],
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Hot pink, acid green and inky black. A 1941 nightmare sequence marching across the screen.",
+          "answer": "Dumbo",
+          "accept": [
+            "dumbo"
+          ],
+          "choices": [
+            "Dumbo",
+            "Fantasia",
+            "Pinocchio",
+            "The Three Caballeros"
+          ],
+          "reveal": "[gasps] The correct answer is Dumbo! The Pink Elephants on Parade sequence. [whispers] Surreal, spooky and totally unforgettable.",
+          "palette": [
+            "#FF3EA5",
+            "#9BE22E",
+            "#0B0B0B",
+            "#FFD400"
+          ],
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "paint-the-parks",
+      "title": "Paint the Parks",
+      "kind": "parks",
+      "intro": "Our Parks category is all real photos of the most colorful buildings in the parks. [excited] Name the place!",
+      "format": "picture",
+      "art": {
+        "prompt": "Brightly painted miniature resort buildings and attraction facades lined up on a sunny lagoon, paint cans and brushes in the foreground Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/color-me-disney--paint-the-parks.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This white-and-gold facade with a giant ticking clock is the entrance to which happy boat ride?",
+          "answer": "it's a small world",
+          "accept": [
+            "it's a small world",
+            "it's a small world after all",
+            "its a small world",
+            "small world"
+          ],
+          "choices": [
+            "it's a small world",
+            "Pirates of the Caribbean",
+            "Jungle Cruise",
+            "Storybook Land Canal Boats"
+          ],
+          "reveal": "[excited] The correct answer is it's a small world! Mary Blair's colorful style is everywhere inside. [laughs] And now the song is stuck in your head. You're welcome.",
+          "media": {
+            "type": "image",
+            "file": "media/color-me-disney--paint-the-parks-200.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Disneyland_Small_World_Facade_From_Left_2013.JPG",
+              "license": "CC BY-SA 3.0",
+              "author": "Patrick Pelletier"
+            }
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Bright red roofs and white Victorian gables on the Seven Seas Lagoon. Name this flagship Walt Disney World resort.",
+          "answer": "Grand Floridian",
+          "accept": [
+            "disney's grand floridian resort",
+            "grand floridian",
+            "grand floridian resort",
+            "grand floridian resort & spa"
+          ],
+          "choices": [
+            "Grand Floridian",
+            "Polynesian Village",
+            "Wilderness Lodge",
+            "Yacht Club"
+          ],
+          "reveal": "The correct answer is Disney's Grand Floridian Resort and Spa! [chuckles] Opened in 1988, and it's fancier than my Sunday best.",
+          "media": {
+            "type": "image",
+            "file": "media/color-me-disney--paint-the-parks-400.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Grand_Floridian_Resort_-_panoramio.jpg",
+              "license": "CC BY 3.0",
+              "author": "Eric Marshall"
+            }
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Opened in 1971, this A-frame resort has the monorail gliding right through it. Name it.",
+          "answer": "Contemporary Resort",
+          "accept": [
+            "contemporary",
+            "contemporary resort",
+            "disney's contemporary resort",
+            "the contemporary"
+          ],
+          "choices": [
+            "Contemporary Resort",
+            "Polynesian Village",
+            "Grand Floridian",
+            "Bay Lake Tower"
+          ],
+          "reveal": "[excited] The correct answer is Disney's Contemporary Resort! Inside is a 90-foot Mary Blair mural in bold colors. [whispers] Look for the five-legged goat!",
+          "media": {
+            "type": "image",
+            "file": "media/color-me-disney--paint-the-parks-600.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Disney%27s_Contemporary_Resort_Arriving_Monorail_Teal.jpg",
+              "license": "CC BY-SA 4.0",
+              "author": "Quarax"
+            }
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Giant brightly colored icons from every decade decorate this Walt Disney World value resort that opened in 2003.",
+          "answer": "Pop Century",
+          "accept": [
+            "disney's pop century resort",
+            "pop century",
+            "pop century resort"
+          ],
+          "choices": [
+            "Pop Century",
+            "All-Star Movies",
+            "Art of Animation",
+            "Caribbean Beach"
+          ],
+          "reveal": "The correct answer is Disney's Pop Century Resort! [laughs] Giant yo-yos, Rubik's cubes and bowling pins. It's a supersized toy box.",
+          "media": {
+            "type": "image",
+            "file": "media/color-me-disney--paint-the-parks-800.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Orlando2004_PopCentury90s3.jpg",
+              "license": "Public domain",
+              "author": "Aspersions at en.wikipedia"
+            }
+          },
+          "dailyDouble": true
+        },
+        {
+          "value": 1000,
+          "clue": "Opened in 1971 on the Seven Seas Lagoon, this South Seas resort names its longhouses after Pacific islands. Name it.",
+          "answer": "Polynesian Village Resort",
+          "accept": [
+            "disney's polynesian village resort",
+            "polynesian",
+            "polynesian village",
+            "polynesian village resort",
+            "the poly"
+          ],
+          "choices": [
+            "Polynesian Village Resort",
+            "Grand Floridian",
+            "Aulani",
+            "Caribbean Beach"
+          ],
+          "reveal": "[excited] The correct answer is Disney's Polynesian Village Resort! [sighs] Watching fireworks over the lagoon from the beach there? Pure magic.",
+          "media": {
+            "type": "image",
+            "file": "media/color-me-disney--paint-the-parks-1000.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Polynesian_Village_Resort_at_Sunset.jpg",
+              "license": "CC BY 2.0",
+              "author": "Lexi Scott (lxsscott) - https://www.flickr.com/photos/lexi_scott/"
+            }
+          },
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "color-commentary",
+      "title": "Color Commentary",
+      "kind": "theme",
+      "intro": "Every color has a story. [chuckles] Name the color, the song or the film!",
+      "format": "text",
+      "art": {
+        "prompt": "A rainbow of colored pencils fanned out over sketch paper with a little paint-splattered film reel and a watercolor sky Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/color-me-disney--color-commentary.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Pocahontas sings that you can paint with all the colors of the wind in this film.",
+          "answer": "Pocahontas",
+          "accept": [
+            "pocahontas"
+          ],
+          "choices": [
+            "Pocahontas",
+            "Moana",
+            "Brave",
+            "Brother Bear"
+          ],
+          "reveal": "[excited] The correct answer is Pocahontas! Colors of the Wind won the Oscar for Best Original Song. [laughs] Can you paint with all the colors? I can't even paint a fence.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "In Inside Out, Disgust is this color.",
+          "answer": "Green",
+          "accept": [
+            "green"
+          ],
+          "choices": [
+            "Green",
+            "Purple",
+            "Yellow",
+            "Orange"
+          ],
+          "reveal": "The correct answer is green! [chuckles] Like broccoli, which she will not eat. Not even a little.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "This glowing, starry-gowned fairy brings Pinocchio to life.",
+          "answer": "The Blue Fairy",
+          "accept": [
+            "blue fairy",
+            "the blue fairy"
+          ],
+          "choices": [
+            "The Blue Fairy",
+            "Tinker Bell",
+            "The Fairy Godmother",
+            "Flora"
+          ],
+          "reveal": "[gasps] The correct answer is the Blue Fairy! When you wish upon a star, she shows up. [laughs] Way better than a shooting star.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In Sleeping Beauty, Flora wants Aurora's gown pink, but Merryweather keeps zapping it this color.",
+          "answer": "Blue",
+          "accept": [
+            "blue"
+          ],
+          "choices": [
+            "Blue",
+            "Green",
+            "Gold",
+            "Purple"
+          ],
+          "reveal": "The correct answer is blue! [laughs] The magic wand battle is still going. Even in the parks, you'll see both colors.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Released in 1935, this was the first Mickey Mouse cartoon made in color.",
+          "answer": "The Band Concert",
+          "accept": [
+            "band concert",
+            "the band concert"
+          ],
+          "choices": [
+            "The Band Concert",
+            "Steamboat Willie",
+            "The Sorcerer's Apprentice",
+            "Mickey's Christmas Carol"
+          ],
+          "reveal": "[excited] The correct answer is The Band Concert! Mickey conducts the William Tell Overture through a tornado. [laughs] That's commitment.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "signature-shades",
+      "title": "Signature Shades",
+      "kind": "fan",
+      "intro": "Our fan category is all about Disney's most famous colors, including some you're not supposed to notice. [whispers] Ooooh.",
+      "format": "text",
+      "art": {
+        "prompt": "Paint-chip cards fanned out on a workbench in red, black, yellow and a dull minty green, a paintbrush and a tiny paint can Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/color-me-disney--signature-shades.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Mickey Mouse's classic shorts are this color.",
+          "answer": "Red",
+          "accept": [
+            "red"
+          ],
+          "choices": [
+            "Red",
+            "Blue",
+            "Yellow",
+            "Green"
+          ],
+          "reveal": "[excited] The correct answer is red! With two big white buttons. [laughs] Iconic. Timeless. Machine washable.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Minnie Mouse's classic bow is red with these white decorations.",
+          "answer": "Polka dots",
+          "accept": [
+            "dots",
+            "polka dots",
+            "polka-dots",
+            "white polka dots"
+          ],
+          "choices": [
+            "Polka dots",
+            "Stripes",
+            "Stars",
+            "Hearts"
+          ],
+          "reveal": "The correct answer is polka dots! [chuckles] Minnie made polka dots her whole look, and it works.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Imagineers paint fences and utility boxes in this shade so guests don't notice them. Name the color.",
+          "answer": "Go Away Green",
+          "accept": [
+            "go away gray",
+            "go away green",
+            "go away grey",
+            "go-away green"
+          ],
+          "choices": [
+            "Go Away Green",
+            "Hidden Teal",
+            "Backstage Beige",
+            "Disney Moss"
+          ],
+          "reveal": "[whispers] The correct answer is Go Away Green! [laughs] Now that you know about it, you'll see it everywhere. Sorry!",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "For Walt Disney World's 25th anniversary in 1996, Cinderella Castle was turned into a giant birthday cake in this color.",
+          "answer": "Pink",
+          "accept": [
+            "pink"
+          ],
+          "choices": [
+            "Pink",
+            "Blue",
+            "Gold",
+            "Purple"
+          ],
+          "reveal": "[gasps] The correct answer is pink! Pink frosting and giant candles. [laughs] Some fans loved it, and some wanted to call the cake police.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "The 1932 Silly Symphony Flowers and Trees was the first film released in full-color three-strip this.",
+          "answer": "Technicolor",
+          "accept": [
+            "technicolor",
+            "three-strip technicolor"
+          ],
+          "choices": [
+            "Technicolor",
+            "Kodachrome",
+            "Cinecolor",
+            "Eastmancolor"
+          ],
+          "reveal": "[excited] The correct answer is Technicolor! Flowers and Trees also won the first Oscar for animated short. [chuckles] Walt was way ahead of everyone.",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}
