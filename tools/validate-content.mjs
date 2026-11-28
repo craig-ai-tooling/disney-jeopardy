@@ -60,7 +60,12 @@ function checkBoard(f, b) {
       if (c.media) {
         const ext = c.media.type === 'video' ? 'mp4' : 'jpg';
         if (!['image', 'video'].includes(c.media.type)) err(f, `${cw}: media.type must be image|video`);
-        if (!str(c.media.prompt)) err(f, `${cw}: media.prompt missing`);
+        const src = c.media.source;
+        if (src) {
+          if (!/^https:\/\/(commons\.wikimedia\.org|upload\.wikimedia\.org)\//.test(src.url || '')) err(f, `${cw}: media.source.url must be a Wikimedia Commons URL`);
+          if (!str(src.license) || !str(src.author)) err(f, `${cw}: media.source needs license and author`);
+          if (!fs.existsSync(path.join(root, 'content', c.media.file))) err(f, `${cw}: sourced media file ${c.media.file} not committed`);
+        } else if (!str(c.media.prompt)) err(f, `${cw}: media.prompt (or media.source) missing`);
         const want = `media/${b.id}--${cat.id}-${c.value}.${ext}`;
         if (c.media.file !== want) err(f, `${cw}: media.file should be ${want}`);
       }

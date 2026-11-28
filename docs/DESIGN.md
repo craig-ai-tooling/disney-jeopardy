@@ -63,3 +63,8 @@ Real Inside the Magic transcripts are in docs/research/*.txt (style + example cl
 }
 
 ## Finals (content/finals/<part>.json): array of {"film","category","clue","answer","accept","choices","reveal"} - one per wheel film.
+
+## Real photos (Wikimedia Commons)
+Picture clues about real places (parks, attractions, castles, hotels, landmarks) may use a freely licensed photo from Wikimedia Commons instead of a prompt:
+`"media": {"type":"image","file":"media/<board-id>--<category-id>-<value>.jpg","source":{"url":"https://commons.wikimedia.org/wiki/File:...","license":"CC BY-SA 4.0","author":"..."}}`
+Download it, resize to max 1280px wide JPEG quality ~80 (< 300 KB), and commit it at that path. Only CC0/CC BY/CC BY-SA/public-domain files. Never use movie stills, posters or copyrighted character art; use an AI prompt (original art: objects, scenes, silhouettes, settings) for film clues.
