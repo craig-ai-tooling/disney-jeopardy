@@ -24,6 +24,7 @@ import coil3.SingletonImageLoader
 import coil3.disk.DiskCache
 import coil3.memory.MemoryCache
 import coil3.network.okhttp.OkHttpNetworkFetcherFactory
+import okhttp3.HttpUrl.Companion.toHttpUrlOrNull
 import coil3.request.crossfade
 import io.craigcloud.disneyjeopardy.tv.Controller
 import io.craigcloud.disneyjeopardy.tv.Dpad
@@ -46,7 +47,9 @@ class NativeActivity : ComponentActivity() {
     private var okLong = false
     private var netCb: ConnectivityManager.NetworkCallback? = null
 
-    private val serverUrl get() = prefs.getString(MainActivity.KEY_URL, null) ?: BuildConfig.DEFAULT_URL
+    private val serverUrl get() = prefs.getString(MainActivity.KEY_URL, null)?.takeIf(::validUrl) ?: BuildConfig.DEFAULT_URL
+
+    private fun validUrl(u: String) = (u.startsWith("http://") || u.startsWith("https://")) && u.toHttpUrlOrNull() != null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -84,7 +87,7 @@ class NativeActivity : ComponentActivity() {
     /** `adb shell am start -n io.craigcloud.disneyjeopardy/.NativeActivity -e url http://10.0.2.2:8080/tv` (saved like the setting). */
     private fun applyIntentUrl(i: Intent?): Boolean {
         val url = i?.getStringExtra("url")?.trim().orEmpty()
-        if (!url.startsWith("http://") && !url.startsWith("https://")) return false
+        if (!validUrl(url)) return false
         prefs.edit().putString(MainActivity.KEY_URL, url).apply()
         return true
     }
@@ -165,9 +168,9 @@ class NativeActivity : ComponentActivity() {
             .setView(box)
             .setPositiveButton("Save & reload") { _, _ ->
                 val url = input.text.toString().trim()
-                if (url.startsWith("http://") || url.startsWith("https://")) {
+                if (validUrl(url)) {
                     prefs.edit().putString(MainActivity.KEY_URL, url).apply(); ctl.start(originOf(url))
-                } else Toast.makeText(this, "URL must start with http:// or https://", Toast.LENGTH_LONG).show()
+                } else Toast.makeText(this, "Enter a full http:// or https:// URL", Toast.LENGTH_LONG).show()
             }
             .setNeutralButton("Reset to default") { _, _ -> prefs.edit().remove(MainActivity.KEY_URL).apply(); ctl.start(originOf(serverUrl)) }
             .setNegativeButton("Cancel", null)
