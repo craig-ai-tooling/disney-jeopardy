@@ -24,7 +24,7 @@ button:disabled { opacity: .45; }
 .top .me img { width: 34px; height: 34px; border-radius: 50%; }
 .toggle { display: flex; align-items: center; justify-content: space-between; gap: 10px; padding: 8px 0; font-weight: 900; }
 .toggle input { width: 26px; height: 26px; }
-.buzzer { flex: 1; min-height: 52vh; margin: 14px 0; border-radius: 50%; aspect-ratio: 1; align-self: center; width: min(86vw, 440px); font: 54px 'Luckiest Guy'; color: #fff; background: radial-gradient(circle at 35% 30%, #ff8080, #d01010 60%, #7a0000); box-shadow: 0 12px 0 #5a0000, 0 0 40px rgba(255,60,60,.6); text-shadow: 0 3px 0 #600; border: 6px solid #ffd34d; }
+.buzzer { flex: none; margin: 14px 0; border-radius: 50%; aspect-ratio: 1; align-self: center; width: min(86vw, 52vh, 440px); height: auto; font: 54px 'Luckiest Guy'; color: #fff; background: radial-gradient(circle at 35% 30%, #ff8080, #d01010 60%, #7a0000); box-shadow: 0 12px 0 #5a0000, 0 0 40px rgba(255,60,60,.6); text-shadow: 0 3px 0 #600; border: 6px solid #ffd34d; }
 .buzzer.wait { background: radial-gradient(circle at 35% 30%, #8090b0, #405070 60%, #202a40); box-shadow: 0 12px 0 #101828; border-color: #6070a0; color: #c0c8e0; text-shadow: none; }
 .buzzer.open { animation: pulse .7s infinite; }
 .choices button { text-align: left; font-size: 19px; padding: 16px; }
@@ -49,3 +49,51 @@ button:disabled { opacity: .45; }
 .hostpick img { width: 100%; aspect-ratio: 3/4; object-fit: cover; border-radius: 10px; }
 .choices button.arming { opacity: .6; background-image: linear-gradient(90deg, rgba(255,211,77,.35) 0 0); background-size: 0 100%; background-repeat: no-repeat; animation: arm 1s linear forwards; }
 @keyframes arm { to { background-size: 100% 100%; } }
+.standing { text-align: right; font-weight: 900; font-size: 13px; opacity: .85; margin-top: -2px; }
+.top .score { transition: transform .2s, color .2s; }
+.top .score.up { color: #fff6c0; transform: scale(1.15); text-shadow: 0 0 14px rgba(255,211,77,.9); }
+.top .score.down { color: #ff9a9a; transform: scale(.94); }
+.clueinfo { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; margin-top: 10px; font-weight: 900; text-transform: uppercase; font-size: 14px; letter-spacing: .03em; }
+.clueinfo b { font: 24px 'Luckiest Guy'; color: var(--gold); }
+.cluetext { font-size: 17px; line-height: 1.35; background: rgba(10,30,110,.7); border-radius: 12px; padding: 10px 12px; margin-top: 6px; }
+.buzzinfo { text-align: center; font-weight: 900; color: var(--gold); margin: 4px 0 8px; }
+.who { display: flex; flex-direction: column; align-items: center; margin-top: 18px; }
+.who img { width: 84px; height: 84px; border-radius: 50%; box-shadow: 0 0 0 3px var(--gold), 0 0 24px rgba(255,211,77,.6); }
+.who h2 { margin: 10px 0 4px; }
+.ico { width: 1.1em; height: 1.1em; vertical-align: -.18em; margin-right: 6px; }
+.recdot { display: inline-block; width: .7em; height: .7em; border-radius: 50%; background: #e00; margin-right: 6px; animation: pulse .6s infinite; }
+/* Reveal: full-screen color wash plus a sunburst hero. */
+body { transition: background-color .4s; }
+body.win::before { background: radial-gradient(circle at 50% 28%, rgba(255,200,40,.55), rgba(90,50,0,.82) 70%); }
+body.lose::before { background: radial-gradient(circle at 50% 28%, rgba(220,30,40,.5), rgba(40,0,10,.86) 70%); }
+body.close::before { background: radial-gradient(circle at 50% 28%, rgba(255,150,40,.45), rgba(40,20,0,.85) 70%); }
+body.done::before { background: radial-gradient(circle at 50% 28%, rgba(120,150,255,.4), rgba(5,10,42,.85) 70%); }
+.hero { position: relative; height: 210px; display: flex; flex-direction: column; align-items: center; justify-content: center; margin: 8px 0; overflow: hidden; }
+.hero .burst { position: absolute; width: 520px; height: 520px; left: 50%; top: 50%; margin: -260px 0 0 -260px; border-radius: 50%; background: repeating-conic-gradient(rgba(255,255,255,.22) 0 7deg, transparent 7deg 18deg); -webkit-mask: radial-gradient(circle, #000 18%, transparent 62%); mask: radial-gradient(circle, #000 18%, transparent 62%); animation: spin 14s linear infinite; }
+.hero.lose .burst { display: none; }
+.hero .word { position: relative; font: 54px/1 'Luckiest Guy'; letter-spacing: .03em; color: var(--gold); -webkit-text-stroke: 2px #6a3c00; text-shadow: 0 4px 0 #6a3c00, 0 0 30px rgba(255,220,100,.8); animation: slam .45s cubic-bezier(.2,1.6,.4,1) both; }
+.hero.lose .word { color: #ffd0d0; -webkit-text-stroke: 2px #600; text-shadow: 0 4px 0 #600; animation: shake .5s both; }
+.hero.close .word { color: #ffc070; }
+.hero .delta { position: relative; font: 40px 'Luckiest Guy'; margin-top: 8px; color: #fff; text-shadow: 0 3px 0 rgba(0,0,0,.4); animation: rise .6s .2s both; }
+.hero.lose .delta { color: #ff9a9a; }
+.said { text-align: center; font-weight: 900; font-size: 18px; margin: 4px 0 10px; }
+.list .li { display: flex; align-items: center; gap: 10px; padding: 6px 0; font-weight: 900; }
+.list .li + .li { border-top: 1px solid rgba(255,255,255,.12); }
+.list .li img { width: 32px; height: 32px; border-radius: 50%; }
+.list .li span { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; }
+.list .li b { width: 18px; color: var(--gold); }
+.list .li em { font: normal 20px 'Luckiest Guy'; color: var(--gold); }
+.list .li.me { color: var(--gold); }
+.tag { font: 13px 'Luckiest Guy'; letter-spacing: .06em; padding: 4px 8px 2px; border-radius: 6px; }
+.tag.correct { background: linear-gradient(#ffe27a, #e0a000); color: #3a2400; }
+.tag.wrong { background: #7a1018; color: #ffd0d0; }
+.tag.close { background: #8a5200; color: #ffe0b0; }
+.medal { width: 130px; height: 130px; margin: 14px auto 0; border-radius: 50%; display: flex; align-items: center; justify-content: center; font: 40px 'Luckiest Guy'; color: #3a2400; background: radial-gradient(circle at 35% 30%, #fff6c0, #ffd34d 45%, #a06a00); box-shadow: 0 0 0 6px rgba(255,255,255,.25), 0 0 40px rgba(255,211,77,.7); animation: slam .5s cubic-bezier(.2,1.6,.4,1) both; }
+.medal.r2 { background: radial-gradient(circle at 35% 30%, #fff, #c8d0e0 45%, #6a7490); box-shadow: 0 0 0 6px rgba(255,255,255,.2), 0 0 30px rgba(200,210,240,.5); }
+.medal.r3 { background: radial-gradient(circle at 35% 30%, #ffe0c0, #d08a4a 45%, #6a3a10); color: #2a1400; }
+.medal.r4 { background: radial-gradient(circle at 35% 30%, #c8d8ff, #4a68c0 50%, #1a2a60); color: #fff; }
+@keyframes spin { to { transform: rotate(360deg); } }
+@keyframes slam { from { transform: scale(2.4); opacity: 0; } to { transform: scale(1); opacity: 1; } }
+@keyframes rise { from { transform: translateY(20px); opacity: 0; } to { transform: none; opacity: 1; } }
+@keyframes shake { 0%, 100% { transform: none; } 20%, 60% { transform: translateX(-10px); } 40%, 80% { transform: translateX(10px); } }
+@media (prefers-reduced-motion: reduce) { .hero .burst, .hero .word, .hero .delta, .medal { animation: none; } }

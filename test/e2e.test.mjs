@@ -22,7 +22,7 @@ test('full game: lobby -> clues -> final -> podium', { timeout: 60000 }, async (
   let log = ''; srv.stdout.on('data', (d) => { log += d; }); srv.stderr.on('data', (d) => { log += d; });
   try {
     for (let i = 0; i < 50 && !/on :/.test(log); i++) await sleep(100);
-    let tv = null; const phases = new Set(); const firstAnswerers = new Set(); let finalEntrants = 0; let tvSend;
+    let tv = null; const phases = new Set(); const firstAnswerers = new Set(); let finalEntrants = 0; let tvSend; const buzzOrders = [];
     tvSend = await client({ role: 'tv', tv: 'test-tv' }, (m, send) => {
       if (m.t === 'state') { tv = m; phases.add(m.phase); if (m.phase === 'finalThink') finalEntrants = m.final.entrants.length; }
       if (m.t === 'say' && m.tag === 'cold') { phases.add('coldOpen'); setTimeout(() => send({ t: 'next' }), 20); }
@@ -36,6 +36,7 @@ test('full game: lobby -> clues -> final -> podium', { timeout: 60000 }, async (
         if (m.t === 'state') {
           states[name] = m; const me = m.you; const c = m.clue;
           if (m.phase === 'answering' && c.attempted.length === 1 && !c.dailyDouble) firstAnswerers.add(c.answerer);
+          if (m.phase === 'answering' && !c.dailyDouble && c.buzzOrder.length) buzzOrders.push(c.buzzOrder);
           if (m.phase === 'hostDraft' && !m.myVote) send({ t: 'voteHost', id: name === 'Ana' ? 'chet' : 'gourd' });
           if (m.phase === 'board' && m.control === me) send({ t: 'pick', clue: m.board.categories.flatMap((x) => x.clues).find((q) => !q.used).id });
           if (m.phase === 'ddWager' && m.control === me) send({ t: 'wager', amount: 500 });
@@ -55,13 +56,13 @@ test('full game: lobby -> clues -> final -> podium', { timeout: 60000 }, async (
     sends.Ana({ t: 'start' });
     const t0 = Date.now();
     while (tv.phase !== 'podium' && Date.now() - t0 < 50000) {
-      if (tv.phase === 'finalReveal' && !tv.ruling) tvSend({ t: 'next' });
       await sleep(30);
     }
     assert.equal(tv.phase, 'podium', `stuck in ${tv.phase}\n${log.slice(-2000)}`);
     for (const p of ['hostDraft', 'coldOpen', 'intro', 'categories', 'board', 'reading', 'buzzing', 'answering', 'reveal', 'finalWheel', 'finalThink', 'finalReveal']) assert.ok(phases.has(p), `never saw ${p}`);
     assert.ok(firstAnswerers.size > 0, 'no buzz-ins recorded');
     assert.deepEqual([...firstAnswerers], [states.Ana.you]);
+    assert.ok(buzzOrders.some((o) => o[0].pid === states.Ana.you && o.length === 2 && o[0].rt <= o[1].rt), 'buzz order lists both buzzers, fastest first');
     assert.equal(finalEntrants, 2, 'everyone plays Final Jeopardy, even at $0 or below');
     assert.ok(!/Error|at .*\.mjs/.test(log), log);
   } finally { srv.kill(); }

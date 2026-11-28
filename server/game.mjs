@@ -49,7 +49,7 @@ export class Room {
     this.tvId = tvId;
     this.tv = null;
     this.players = new Map();
-    this.settings = { mode: 'mixed', moderator: null, negatives: true, buzzMs: T.buzz, voice: true, host: 'draft' };
+    this.settings = { mode: 'mixed', moderator: null, negatives: true, buzzMs: T.buzz, voice: true, host: 'draft', autoAdvance: true };
     this.host = HOSTS[0];
     this.hostVotes = new Map();
     this.phase = 'lobby';
@@ -174,6 +174,7 @@ export class Room {
     if (['mc', 'typed', 'mixed'].includes(s.mode)) this.settings.mode = s.mode;
     if (typeof s.negatives === 'boolean') this.settings.negatives = s.negatives;
     if (typeof s.voice === 'boolean') this.settings.voice = s.voice;
+    if (typeof s.autoAdvance === 'boolean') this.settings.autoAdvance = s.autoAdvance;
     if (s.host === 'draft' || HOSTS.some((h) => h.id === s.host)) this.settings.host = s.host;
     if ('moderator' in s) this.settings.moderator = this.players.has(s.moderator) ? s.moderator : null;
     if ([6000, 9000, 12000, 15000].includes(s.buzzMs)) this.settings.buzzMs = s.buzzMs;
@@ -337,6 +338,10 @@ export class Room {
     const c = this.clue;
     if (!c || c.attempted.has(p.id)) return;
     if (this.phase === 'reading') { c.lockouts.set(p.id, now() + T.earlyLock); return this.sendTo(p.ws, { t: 'toast', msg: 'Too early! Wait for the lights.' }); }
+    if (this.phase === 'answering' && c.answerer && c.answerer !== p.id && !c.buzzOrder?.some((b) => b.pid === p.id)) {
+      const w = this.players.get(c.answerer);
+      return this.sendTo(p.ws, { t: 'toast', msg: `${w?.name || 'Someone'} beat you to it!` });
+    }
     if (this.phase !== 'buzzing' || c.buzzClosed || (c.lockouts.get(p.id) || 0) > now()) return;
     const elapsed = now() - c.openedAt;
     const rt = Number.isFinite(m?.rt) ? Math.max(0, Math.min(m.rt, elapsed + 50)) : elapsed;
@@ -349,7 +354,9 @@ export class Room {
       c.buzzes = new Map();
       if (this.phase !== 'buzzing' || this.clue !== c) return;
       if (!entries.length) return this.noBuzz();
-      const [id, best] = entries.sort((a, b) => a[1] - b[1])[0];
+      entries.sort((a, b) => a[1] - b[1]);
+      c.buzzOrder = entries.map(([pid, rt]) => ({ pid, rt: Math.round(rt) }));
+      const [id, best] = entries[0];
       this.clearTimer();
       c.buzzOpen = false;
       c.buzzMs = best;
@@ -424,7 +431,7 @@ export class Room {
     const text = winner ? `${this.cheer(winner, c.q.answer)} ${String(c.q.reveal || '').replace(/^\s*(\[[^\]]*\]\s*)?the correct answer is[^!.?]*[!.?]\s*/i, '')}` : c.q.reveal;
     this.say(text, true, `rev-${c.seq}`);
     if (pending) this.openRuling(pending);
-    else this.setTimer(4000 + plain(text).split(/\s+/).length * 450, () => this.afterReveal());
+    else this.autoNext(3000 + plain(text).split(/\s+/).length * 380, () => this.afterReveal());
     this.broadcast();
   }
 
@@ -463,7 +470,7 @@ export class Room {
     this.lastRuling = r;
     this.ruling = null;
     if (r.final) return this.finalStep(true);
-    this.setTimer(T.reveal, () => this.afterReveal());
+    this.autoNext(T.reveal, () => this.afterReveal());
     this.broadcast();
   }
 
@@ -567,6 +574,7 @@ export class Room {
     this.final.order = [...this.final.entrants].sort((a, b) => (this.players.get(a)?.score || 0) - (this.players.get(b)?.score || 0));
     this.phase = 'finalReveal';
     this.say(line('finalReveal'), true);
+    this.autoNext(4500, () => this.finalStep());
     this.broadcast();
   }
 
@@ -574,9 +582,15 @@ export class Room {
     const F = this.final;
     if (!fromRuling) {
       if (this.ruling) return;
+      this.clearTimer();
       F.step++;
       if (F.step >= F.order.length) {
-        if (!F.answerShown) { F.answerShown = true; this.say(F.chosen.reveal, true, 'final-rev'); return this.broadcast(); }
+        if (!F.answerShown) {
+          F.answerShown = true;
+          this.say(F.chosen.reveal, true, 'final-rev');
+          this.autoNext(5000 + plain(F.chosen.reveal).split(/\s+/).length * 380, () => this.finalStep());
+          return this.broadcast();
+        }
         return this.podium();
       }
       const a = F.answers.get(F.order[F.step]);
@@ -587,11 +601,13 @@ export class Room {
       }
       if (p) p.score += a.verdict === 'correct' ? a.amount : -a.amount;
       this.say(`${p?.name} wrote... ${a.heard || 'nothing'}! ${a.verdict === 'correct' ? 'CORRECT!' : 'Ohh, no.'} They wagered ${a.amount}.`, false);
+      this.autoNext(6500, () => this.finalStep());
     } else {
       // closeRuling already applied the wager for an accepted close answer; a rejected one still loses the wager (negatives or not).
       const a = F.current;
       const p = this.players.get(a.pid);
       if (a.verdict === 'wrong' && p && !this.settings.negatives) p.score -= a.amount;
+      this.autoNext(5000, () => this.finalStep());
     }
     this.broadcast();
   }
@@ -606,6 +622,8 @@ export class Room {
   // ---------- timers / output ----------
   setTimer(ms, fn) { this.clearTimer(); ms = Math.max(15, ms * SCALE); this.deadline = now() + ms; this.timer = setTimeout(() => { this.timer = null; this.deadline = 0; fn(); }, ms); }
   clearTimer() { clearTimeout(this.timer); this.timer = null; this.deadline = 0; }
+  // Pacing timers only run in auto mode; with autoAdvance off the captain, moderator or TV presses Continue.
+  autoNext(ms, fn) { if (this.settings.autoAdvance !== false) this.setTimer(ms, fn); }
 
   // Narration goes to the TV only. `wait` means the TV should report readDone when it finishes speaking.
   say(text, wait, tag, voiceId = voiceFor(this.host)) {
@@ -629,7 +647,7 @@ export class Room {
       palette: c.q.palette || null, quote: c.q.quote || null, emoji: c.q.emoji || null,
       dailyDouble: Boolean(this.dd), wager: this.dd?.wager ?? null, ddPlayer: this.dd?.pid || null,
       choices: c.choices, eliminated: [...c.eliminated], attempted: [...c.attempted], answerer: c.answerer, mode: c.mode || null,
-      buzzOpen: c.buzzOpen, buzzMs: c.buzzMs ?? null,
+      buzzOpen: c.buzzOpen, buzzMs: c.buzzMs ?? null, buzzOrder: c.buzzOrder || [],
       answer: revealed ? c.q.answer : null, reveal: revealed ? plain(c.q.reveal) : null,
       results: c.results.map((r) => ({ ...r })),
     };
