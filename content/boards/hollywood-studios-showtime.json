@@ -247,14 +247,14 @@
             "Toy Story Mania!",
             "Rock 'n' Roller Coaster"
           ],
-          "reveal": "The correct answer is Slinky Dog Dash! [laughs] The whole land makes you feel toy-sized in Andy's backyard.",
+          "reveal": "The correct answer is Slinky Dog Dash! [laughs] Slinky stretches his springy body around the whole track, and the land makes you feel toy-sized in Andy's backyard.",
           "media": {
             "type": "image",
             "file": "media/hollywood-studios-showtime--studio-snapshots-200.jpg",
             "source": {
-              "url": "https://commons.wikimedia.org/wiki/File:Slinky_Dog_Dash_1.jpg",
-              "license": "CC BY 2.0",
-              "author": "~Ealasaid~"
+              "url": "https://commons.wikimedia.org/wiki/File:Slinky_Dog_Dash_(29262611338)_(cropped).jpg",
+              "license": "CC BY-SA 2.0",
+              "author": "elisfkc from Orlando, FL, United States"
             }
           },
           "dailyDouble": false
@@ -560,7 +560,7 @@
         },
         {
           "value": 1000,
-          "clue": "Tucked near Grand Avenue, this Studios restaurant serves Italian dishes like flatbreads and pasta.",
+          "clue": "Until it closed in 2025 to make room for a Monsters, Inc. area, this Grand Avenue restaurant served Italian dishes like flatbreads and pasta.",
           "answer": "Mama Melrose's Ristorante Italiano",
           "accept": [
             "mama melrose's ristorante italiano",
@@ -574,7 +574,7 @@
             "Via Napoli",
             "Tutto Italia"
           ],
-          "reveal": "The correct answer is Mama Melrose's! [chuckles] Tony's is in Magic Kingdom, and Via Napoli is over at EPCOT's Italy. Mama is the Studios' own.",
+          "reveal": "The correct answer is Mama Melrose's! [sighs] Mama served her last flatbread in May 2025. Tony's and Via Napoli are still around if you need a pasta fix.",
           "dailyDouble": false
         }
       ]
