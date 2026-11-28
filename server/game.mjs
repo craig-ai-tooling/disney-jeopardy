@@ -601,7 +601,7 @@ export class Room {
     const b = this.board;
     const media = this.rooms.media;
     const s = {
-      t: 'state', role, host: { id: this.host.id, name: this.host.name, img: this.host.img }, hosts: this.phase === 'hostDraft' || this.phase === 'lobby' ? HOSTS.map((h) => ({ id: h.id, name: h.name, img: h.img, votes: [...this.hostVotes.values()].filter((x) => x === h.id).length })) : null, myVote: undefined, code: this.code, phase: this.phase, settings: this.settings, captain: this.captain(), control: this.control || null,
+      t: 'state', role, host: { id: this.host.id, name: this.host.name, img: this.host.img, anim: this.host.anim || null }, hosts: this.phase === 'hostDraft' || this.phase === 'lobby' ? HOSTS.map((h) => ({ id: h.id, name: h.name, img: h.img, votes: [...this.hostVotes.values()].filter((x) => x === h.id).length })) : null, myVote: undefined, code: this.code, phase: this.phase, settings: this.settings, captain: this.captain(), control: this.control || null,
       deadline: this.deadline ? this.deadline - now() : 0, players,
       board: b && {
         id: b.id, title: b.title, theme: b.theme, art: media.url(b.art?.file),

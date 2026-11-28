@@ -27,10 +27,52 @@ function speakNative(text, done) {
     setTimeout(done, 2500 + text.split(/\s+/).length * 500);
   } else setTimeout(done, 1500 + text.split(/\s+/).length * 350);
 }
+// ---------- animated host ----------
+// Every mood loop plays continuously (muted) so switching moods is an instant crossfade, not a reload.
+const MOODS = ['idle', 'talk', 'celebrate', 'wrong'];
+const cam = document.getElementById('hostcam');
+let camHost = null, mood = 'idle', moodUntil = 0, moodTimer = null;
+function hostMood(m, holdMs) {
+  if (holdMs) {
+    moodUntil = Date.now() + holdMs; clearTimeout(moodTimer);
+    moodTimer = setTimeout(() => { moodUntil = 0; hostMood(speaking ? 'talk' : 'idle'); }, holdMs);
+  } else if (Date.now() < moodUntil) return;
+  mood = m;
+  cam.querySelectorAll('video').forEach((v) => v.classList.toggle('on', v.dataset.mood === mood));
+}
+function updateCam() {
+  const h = S?.host, slot = $('.camslot', app);
+  const show = Boolean(h?.anim) && !['lobby', 'hostDraft'].includes(S.phase);
+  cam.hidden = !show;
+  document.body.classList.toggle('camside', show && !slot);
+  if (!show) { cam.querySelectorAll('video').forEach((v) => v.pause()); return; }
+  if (camHost !== h.anim) {
+    camHost = h.anim;
+    cam.querySelectorAll('video').forEach((v) => v.remove());
+    for (const m of MOODS) {
+      const v = document.createElement('video');
+      Object.assign(v, { muted: true, loop: true, autoplay: true, playsInline: true, preload: 'auto', poster: h.img, src: `${h.anim}-${m}.mp4` });
+      v.dataset.mood = m; cam.prepend(v);
+    }
+    cam.querySelector('.hcname').textContent = h.name;
+    hostMood(mood);
+  }
+  cam.querySelectorAll('video').forEach((v) => { if (v.paused) v.play().catch(() => {}); });
+  cam.classList.toggle('big', Boolean(slot));
+  if (slot) {
+    const r = slot.getBoundingClientRect();
+    Object.assign(cam.style, { left: `${r.left + r.width / 2}px`, top: `${r.top}px`, height: `${r.height}px` });
+  } else cam.removeAttribute('style');
+}
+
 function say(m) {
   let fired = false;
-  const done = () => { if (fired) return; fired = true; if (m.tag === 'cold' && S?.phase === 'coldOpen') return sock.send({ t: 'next' }); if (m.tag?.startsWith('pitch:')) { pitchIdx = Number(m.tag.slice(6)) + 1; render(); if (S?.phase === 'hostDraft' && pitchIdx < 6) setTimeout(() => sock.send({ t: 'pitch', i: pitchIdx }), 400); return; } if (m.tag) sock.send({ t: 'readDone', seq: S?.clue?.id && m.tag !== 'intro' && m.tag !== 'cat' ? m.tag : undefined }); };
+  let done = () => { if (fired) return; fired = true; if (m.tag === 'cold' && S?.phase === 'coldOpen') return sock.send({ t: 'next' }); if (m.tag?.startsWith('pitch:')) { pitchIdx = Number(m.tag.slice(6)) + 1; render(); if (S?.phase === 'hostDraft' && pitchIdx < 6) setTimeout(() => sock.send({ t: 'pitch', i: pitchIdx }), 400); return; } if (m.tag) sock.send({ t: 'readDone', seq: S?.clue?.id && m.tag !== 'intro' && m.tag !== 'cat' ? m.tag : undefined }); };
   speaking = m;
+  const ownLine = !m.tag?.startsWith('pitch:');
+  if (ownLine) hostMood('talk');
+  const end = done;
+  done = () => { if (!fired && ownLine && speaking === m) { speaking = null; hostMood('idle'); } end(); };
   if (m.url) {
     audio.src = m.url; audio.onended = done; audio.onerror = () => speakNative(m.text, done);
     audio.play().catch(() => speakNative(m.text, done));
@@ -151,7 +193,8 @@ function hostDraft() {
 }
 
 function coldOpenView() {
-  return `<div class="center"><div class="hostwrap"><img class="hostimg" src="${S.host.img}" alt=""></div>
+  const pic = S.host.anim ? '<div class="hostwrap camslot"></div>' : `<div class="hostwrap"><img class="hostimg" src="${S.host.img}" alt=""></div>`;
+  return `<div class="center">${pic}
     <h1 class="gold" style="font-size:3.4vw;margin:1vw 0 0">${esc(S.host.name)}</h1><div class="subtitle" style="max-width:70vw">${esc(speaking?.text || '')}</div>
     <button data-nav data-act="next" style="margin-top:1.5vw">Skip ▶</button></div>`;
 }
@@ -279,14 +322,14 @@ function effects() {
     if (ph === 'buzzing') sfx('open');
     if (ph === 'ddWager') sfx('dd');
     if (ph === 'finalThink') thinkMusic(34);
-    if (ph === 'podium') { sfx('fanfare'); confetti(200); }
+    if (ph === 'podium') { sfx('fanfare'); confetti(200); hostMood('celebrate', 8000); }
     if (ph === 'hostDraft') { pitchIdx = 0; sock.send({ t: 'pitch', i: 0 }); }
     if (ph === 'finalWheel') setTimeout(() => { const w = $('#wheel'); if (w) w.style.transform = `rotate(${w.dataset.target}deg)`; }, 300);
   }
   if (ph === 'answering' && pp !== 'answering') sfx('buzz');
   const nr = S.clue?.results.length || 0, pr = prev.clue?.id === S.clue?.id ? prev.clue?.results.length || 0 : 0;
-  if (nr > pr) { const last = S.clue.results[nr - 1]; if (last.verdict === 'correct') { sfx('correct'); flash('correct'); if (S.clue.dailyDouble) confetti(80); } else if (last.verdict === 'wrong') { sfx('wrong'); flash('wrong'); } }
-  if (S.final?.results.length > (prev.final?.results.length || 0)) { const r = S.final.results.at(-1); sfx(r.verdict === 'correct' ? 'correct' : 'wrong'); }
+  if (nr > pr) { const last = S.clue.results[nr - 1]; if (last.verdict === 'correct') { sfx('correct'); flash('correct'); hostMood('celebrate', 4000); if (S.clue.dailyDouble) confetti(80); } else if (last.verdict === 'wrong') { sfx('wrong'); flash('wrong'); hostMood('wrong', 4000); } }
+  if (S.final?.results.length > (prev.final?.results.length || 0)) { const r = S.final.results.at(-1); sfx(r.verdict === 'correct' ? 'correct' : 'wrong'); hostMood(r.verdict === 'correct' ? 'celebrate' : 'wrong', 3000); }
   // Zoom clues start tight on a random spot and slowly pull back.
   clearInterval(zoomTimer);
   const zi = $('#zoomimg');
@@ -313,6 +356,7 @@ function render() {
     const tmp = document.createElement('div'); tmp.innerHTML = html;
     for (const sel of ['.status', '.choices', '.scores']) { const a = $(sel, app), b = $(sel, tmp); if (a && b) a.replaceWith(b); }
   } else { app.innerHTML = html; effects(); }
+  updateCam();
   countdown($('#timer'), S.deadline);
   const els = focusables();
   const again = els.find((e) => (e.dataset.id || e.dataset.act) === focusedId);
@@ -324,5 +368,5 @@ function effectsLight() {
   if (ph === 'answering' && pp !== 'answering') sfx('buzz');
   if (ph === 'buzzing' && pp !== 'buzzing') sfx('open');
   const nr = S.clue?.results.length || 0, pr = prev.clue?.results.length || 0;
-  if (nr > pr) { const last = S.clue.results[nr - 1]; if (last.verdict === 'wrong') { sfx('wrong'); flash('wrong'); } }
+  if (nr > pr) { const last = S.clue.results[nr - 1]; if (last.verdict === 'wrong') { sfx('wrong'); flash('wrong'); hostMood('wrong', 4000); } }
 }
