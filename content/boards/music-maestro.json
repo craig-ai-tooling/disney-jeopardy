@@ -2,6 +2,7 @@
   "id": "music-maestro",
   "title": "Music, Maestro!",
   "theme": "Disney songs",
+  "difficulty": "medium",
   "tags": [
     "music",
     "songs"

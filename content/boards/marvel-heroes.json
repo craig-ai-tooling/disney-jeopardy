@@ -2,6 +2,7 @@
   "id": "marvel-heroes",
   "title": "Earth's Mightiest Heroes",
   "theme": "Marvel",
+  "difficulty": "medium",
   "tags": [
     "marvel",
     "superheroes",
