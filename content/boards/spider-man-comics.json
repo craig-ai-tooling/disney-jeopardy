@@ -324,7 +324,7 @@
       "clues": [
         {
           "value": 200,
-          "clue": "Peter's 1980s black costume turned out to be this. Pictured: a sleek black full-body costume with a large white spider emblem on the chest.",
+          "clue": "Peter's 1980s black costume turned out to be this.",
           "answer": "An alien symbiote",
           "accept": [
             "symbiote",
@@ -343,13 +343,17 @@
           "dailyDouble": false,
           "media": {
             "type": "image",
-            "prompt": "A sleek black full-body costume with a large white spider emblem on the chest, hanging in a dim closet, slightly oozing, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
-            "file": "media/spider-man-comics--spider-suits-200.jpg"
+            "file": "media/spider-man-comics--spider-suits-200.jpg",
+            "source": {
+              "url": "https://marvel.fandom.com/wiki/File:Marvel_Archive_Edition_Amazing_Spider-Man_-_The_Black_Costume_Year_One_HC_Vol_1_1_Frenz_variant.jpg",
+              "license": "Copyrighted; used under fair use",
+              "author": "Marvel Comics"
+            }
           }
         },
         {
           "value": 400,
-          "clue": "Tony Stark-designed armor with extra mechanical legs is called this. Pictured: a red and gold armored bodysuit on a display stand with four golden mechanical spider legs extending from its back.",
+          "clue": "Tony Stark-designed armor with extra mechanical legs is called this.",
           "answer": "Iron Spider",
           "accept": [
             "iron spider",
@@ -365,13 +369,17 @@
           "dailyDouble": false,
           "media": {
             "type": "image",
-            "prompt": "A red and gold armored bodysuit on a display stand with four golden mechanical spider legs extending from its back, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
-            "file": "media/spider-man-comics--spider-suits-400.jpg"
+            "file": "media/spider-man-comics--spider-suits-400.jpg",
+            "source": {
+              "url": "https://marvelcinematicuniverse.fandom.com/wiki/File:Spiderman_iron_spider_avengers_infinity_war.png",
+              "license": "Copyrighted; used under fair use",
+              "author": "Marvel Studios"
+            }
           }
         },
         {
           "value": 600,
-          "clue": "This rebel spider-hero plays guitar and wears spikes. Name him. Pictured: a patched denim jacket with metal spikes and safety pins next to a battered electric guitar.",
+          "clue": "This rebel spider-hero plays guitar and wears spikes. Name him.",
           "answer": "Spider-Punk",
           "accept": [
             "spider-punk",
@@ -388,13 +396,17 @@
           "dailyDouble": true,
           "media": {
             "type": "image",
-            "prompt": "A patched denim jacket with metal spikes and safety pins next to a battered electric guitar, punk rock club stage, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
-            "file": "media/spider-man-comics--spider-suits-600.jpg"
+            "file": "media/spider-man-comics--spider-suits-600.jpg",
+            "source": {
+              "url": "https://marvel.fandom.com/wiki/File:Edge_of_Spider-Geddon_Vol_1_1_Textless.jpg",
+              "license": "Copyrighted; used under fair use",
+              "author": "Marvel Comics"
+            }
           }
         },
         {
           "value": 800,
-          "clue": "This 1930s spider-hero sees the world in black and white. Name him. Pictured: a black and white rainy 1930s alley with a trench coat.",
+          "clue": "This 1930s spider-hero sees the world in black and white. Name him.",
           "answer": "Spider-Man Noir",
           "accept": [
             "spider-man noir",
@@ -412,13 +424,17 @@
           "dailyDouble": false,
           "media": {
             "type": "image",
-            "prompt": "A black and white rainy 1930s alley with a trench coat, a fedora and round goggles hanging from a fire escape, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
-            "file": "media/spider-man-comics--spider-suits-800.jpg"
+            "file": "media/spider-man-comics--spider-suits-800.jpg",
+            "source": {
+              "url": "https://marvel.fandom.com/wiki/File:Spider-Man_Noir_Vol_2_2_Textless.jpg",
+              "license": "Copyrighted; used under fair use",
+              "author": "Marvel Comics"
+            }
           }
         },
         {
           "value": 1000,
-          "clue": "Peni Parker pilots this spider-mech. Name it. Pictured: a cute pastel-colored giant robot with spider-like legs standing in a neon futuristic city street.",
+          "clue": "Peni Parker pilots this spider-mech. Name it.",
           "answer": "SP//dr",
           "accept": [
             "sp//dr",
@@ -436,8 +452,12 @@
           "dailyDouble": false,
           "media": {
             "type": "image",
-            "prompt": "A cute pastel-colored giant robot with spider-like legs standing in a neon futuristic city street, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
-            "file": "media/spider-man-comics--spider-suits-1000.jpg"
+            "file": "media/spider-man-comics--spider-suits-1000.jpg",
+            "source": {
+              "url": "https://marvel.fandom.com/wiki/File:Peni_Parker_(Earth-8)_from_Spider-Gwen_Vol_2_18_001.jpg",
+              "license": "Copyrighted; used under fair use",
+              "author": "Marvel Comics"
+            }
           }
         }
       ]

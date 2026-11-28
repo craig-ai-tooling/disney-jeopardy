@@ -255,8 +255,12 @@
           "reveal": "[excited] The correct answer is a lightsaber! An elegant weapon, for a more civilized age. Vwoom.",
           "media": {
             "type": "image",
-            "prompt": "A glowing blue laser sword with a silver metal hilt, ignited in a dark room, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
-            "file": "media/galaxy-far-far-away--galactic-close-ups-200.jpg"
+            "file": "media/galaxy-far-far-away--galactic-close-ups-200.jpg",
+            "source": {
+              "url": "https://starwars.fandom.com/wiki/File:Lightsabers-SWYBYNE.png",
+              "license": "Copyrighted; used under fair use",
+              "author": "Lucasfilm"
+            }
           },
           "dailyDouble": false
         },
@@ -277,8 +281,12 @@
           "reveal": "The correct answer is Tatooine! Two suns, endless sand, and Luke staring at that sunset like a teenager with big dreams.",
           "media": {
             "type": "image",
-            "prompt": "Two suns setting side by side over a vast sand desert with a lone domed hut and a tall moisture vaporator tower, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
-            "file": "media/galaxy-far-far-away--galactic-close-ups-400.jpg"
+            "file": "media/galaxy-far-far-away--galactic-close-ups-400.jpg",
+            "source": {
+              "url": "https://starwars.fandom.com/wiki/File:Tatooine_TPM.png",
+              "license": "Copyrighted; used under fair use",
+              "author": "Lucasfilm"
+            }
           },
           "dailyDouble": false
         },
@@ -299,8 +307,12 @@
           "reveal": "The correct answer is Hoth! [chuckles] The Rebels picked the coldest planet in the galaxy for a secret base. Bring a tauntaun.",
           "media": {
             "type": "image",
-            "prompt": "A frozen white snowfield with ice caves, trenches dug in the snow and distant snowy mountains under a pale sky, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
-            "file": "media/galaxy-far-far-away--galactic-close-ups-600.jpg"
+            "file": "media/galaxy-far-far-away--galactic-close-ups-600.jpg",
+            "source": {
+              "url": "https://starwars.fandom.com/wiki/File:Hoth-2024SWHyperspace.png",
+              "license": "Copyrighted; used under fair use",
+              "author": "Lucasfilm"
+            }
           },
           "dailyDouble": false
         },
@@ -322,8 +334,12 @@
           "reveal": "The correct answer is the forest moon of Endor! Those treetop villages belong to the Ewoks. Yub nub!",
           "media": {
             "type": "image",
-            "prompt": "Giant redwood forest with small wooden huts built high in the treetops connected by rope bridges, glowing campfires, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
-            "file": "media/galaxy-far-far-away--galactic-close-ups-800.jpg"
+            "file": "media/galaxy-far-far-away--galactic-close-ups-800.jpg",
+            "source": {
+              "url": "https://starwars.fandom.com/wiki/File:Endor_BF2.png",
+              "license": "Copyrighted; used under fair use",
+              "author": "Lucasfilm"
+            }
           },
           "dailyDouble": false
         },
@@ -345,8 +361,12 @@
           "reveal": "The correct answer is kyber crystals! They power lightsabers, and the Death Star too. [whispers] Very rare. Very shiny.",
           "media": {
             "type": "image",
-            "prompt": "A cluster of glowing translucent blue crystals in a dark cave wall, sparkling with inner light, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
-            "file": "media/galaxy-far-far-away--galactic-close-ups-1000.jpg"
+            "file": "media/galaxy-far-far-away--galactic-close-ups-1000.jpg",
+            "source": {
+              "url": "https://starwars.fandom.com/wiki/File:LightsaberCrystal-SWE.png",
+              "license": "Copyrighted; used under fair use",
+              "author": "Lucasfilm"
+            }
           },
           "dailyDouble": false
         }

@@ -236,8 +236,12 @@
           "dailyDouble": false,
           "media": {
             "type": "image",
-            "prompt": "A woven grass hammock strung between two jungle palm trees beside a leaf plate piled with colorful wriggling grubs, a waterfall behind Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
-            "file": "media/friendship-is-magic--two-of-a-kind-200.jpg"
+            "file": "media/friendship-is-magic--two-of-a-kind-200.jpg",
+            "source": {
+              "url": "https://disney.fandom.com/wiki/File:The-lion-king-timon-pumbaa.jpg",
+              "license": "Copyrighted; used under fair use",
+              "author": "Walt Disney Pictures / Disney Television"
+            }
           }
         },
         {
@@ -300,8 +304,12 @@
           "dailyDouble": false,
           "media": {
             "type": "image",
-            "prompt": "An elegant floral china teapot beside a tiny teacup with a chip in its rim on a castle kitchen counter in warm candlelight Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
-            "file": "media/friendship-is-magic--two-of-a-kind-800.jpg"
+            "file": "media/friendship-is-magic--two-of-a-kind-800.jpg",
+            "source": {
+              "url": "https://disney.fandom.com/wiki/File:Mrs._Potts_and_Chip_live_action.jpg",
+              "license": "Copyrighted; used under fair use",
+              "author": "Walt Disney Pictures / Disney Television"
+            }
           }
         },
         {
@@ -321,8 +329,12 @@
           "dailyDouble": true,
           "media": {
             "type": "image",
-            "prompt": "A small green feathered archer's cap next to an enormous wooden quarterstaff, a bow and arrows on a tree stump in a sunlit forest, an archery target behind Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
-            "file": "media/friendship-is-magic--two-of-a-kind-1000.jpg"
+            "file": "media/friendship-is-magic--two-of-a-kind-1000.jpg",
+            "source": {
+              "url": "https://disney.fandom.com/wiki/File:Robin-hood-little-john.png",
+              "license": "Copyrighted; used under fair use",
+              "author": "Walt Disney Pictures / Disney Television"
+            }
           }
         }
       ]

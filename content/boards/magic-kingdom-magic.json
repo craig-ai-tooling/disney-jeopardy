@@ -264,8 +264,12 @@
           "reveal": "The correct answer is the Mad Tea Party! [laughs] Spin the wheel in the middle as hard as you dare. Lunch afterward is not recommended.",
           "media": {
             "type": "image",
-            "prompt": "Extreme close-up, original painterly digital illustration, no people, no characters, no logos, no text. Giant pastel teacups with swirled patterns on a spinning platform under colourful paper lanterns and a striped festival canopy.",
-            "file": "media/magic-kingdom-magic--zoomed-in-magic-400.jpg"
+            "file": "media/magic-kingdom-magic--zoomed-in-magic-400.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Mad_Tea_Part_WDW.jpg",
+              "license": "CC BY 3.0",
+              "author": "Romulan248"
+            }
           },
           "dailyDouble": false
         },
@@ -286,8 +290,12 @@
           "reveal": "The correct answer is the Haunted Mansion! [whispers] Nine hundred ninety-nine happy haunts, but there's always room for one more.",
           "media": {
             "type": "image",
-            "prompt": "Extreme close-up, original painterly digital illustration, no people, no characters, no logos, no text. A stately red-brick Gothic manor with a tall tower and dark slate roof at dusk, wrought-iron fence, crooked tombstones and a lone hearse carriage on a winding path.",
-            "file": "media/magic-kingdom-magic--zoomed-in-magic-600.jpg"
+            "file": "media/magic-kingdom-magic--zoomed-in-magic-600.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:The_Haunted_Mansion.jpg",
+              "license": "CC BY-SA 4.0",
+              "author": "Benjamin D. Esham (bdesham)"
+            }
           },
           "dailyDouble": false
         },
@@ -332,8 +340,12 @@
           "reveal": "The correct answer is Prince Charming Regal Carrousel! Its horses were hand carved in 1917, and it has been turning in Fantasyland since 1971.",
           "media": {
             "type": "image",
-            "prompt": "Extreme close-up, original painterly digital illustration, no people, no characters, no logos, no text. Ornate white carved carousel horses with gold manes and jewelled saddles, under a gilded canopy with painted panels and warm twinkling lights.",
-            "file": "media/magic-kingdom-magic--zoomed-in-magic-1000.jpg"
+            "file": "media/magic-kingdom-magic--zoomed-in-magic-1000.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Carrusel_(66103729).jpeg",
+              "license": "CC BY 3.0",
+              "author": "Ernesto Viramontes"
+            }
           },
           "dailyDouble": false
         }

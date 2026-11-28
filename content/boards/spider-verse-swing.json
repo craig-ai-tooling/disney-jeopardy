@@ -258,7 +258,7 @@
         },
         {
           "value": 400,
-          "clue": "Which cackling villain zooms around on this? Pictured: a bat-winged green hover glider floating above a city street.",
+          "clue": "Which cackling villain zooms around on this?",
           "answer": "Green Goblin",
           "accept": [
             "green goblin",
@@ -276,8 +276,12 @@
           "dailyDouble": false,
           "media": {
             "type": "image",
-            "prompt": "A bat-winged green hover glider floating above a city street, with a satchel of small orange jack-o-lantern shaped bombs strapped to it, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
-            "file": "media/spider-verse-swing--friends-and-foes-400.jpg"
+            "file": "media/spider-verse-swing--friends-and-foes-400.jpg",
+            "source": {
+              "url": "https://marvel.fandom.com/wiki/File:Dark_Reign_The_List_-_Amazing_Spider-Man_Vol_1_1_Cho_Villain_Variant_Textless.jpg",
+              "license": "Copyrighted; used under fair use",
+              "author": "Marvel Comics"
+            }
           }
         },
         {
@@ -304,7 +308,7 @@
         },
         {
           "value": 800,
-          "clue": "Which brilliant villain uses these? Pictured: four long segmented metal mechanical tentacle arms with pincer claws attached to a harness.",
+          "clue": "Which brilliant villain uses these?",
           "answer": "Doctor Octopus",
           "accept": [
             "doctor octopus",
@@ -323,13 +327,17 @@
           "dailyDouble": false,
           "media": {
             "type": "image",
-            "prompt": "Four long segmented metal mechanical tentacle arms with pincer claws attached to a harness, in a dim laboratory, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
-            "file": "media/spider-verse-swing--friends-and-foes-800.jpg"
+            "file": "media/spider-verse-swing--friends-and-foes-800.jpg",
+            "source": {
+              "url": "https://marvel.fandom.com/wiki/File:Doctor_Octopus%27_Tentacles_from_Spider-Man_(1994_animated_series)_Season_3_3_001.jpg",
+              "license": "Copyrighted; used under fair use",
+              "author": "Marvel Comics"
+            }
           }
         },
         {
           "value": 1000,
-          "clue": "Name the villain whose body is made of this. Pictured: a huge swirling tower of golden sand rising from a beach in the shape of a giant fist.",
+          "clue": "Name the villain whose body is made of this.",
           "answer": "Sandman",
           "accept": [
             "sandman",
@@ -346,8 +354,12 @@
           "dailyDouble": false,
           "media": {
             "type": "image",
-            "prompt": "A huge swirling tower of golden sand rising from a beach in the shape of a giant fist, under a stormy sky, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
-            "file": "media/spider-verse-swing--friends-and-foes-1000.jpg"
+            "file": "media/spider-verse-swing--friends-and-foes-1000.jpg",
+            "source": {
+              "url": "https://marvel.fandom.com/wiki/File:Red_Goblin_Vol_1_3_Timeless_Variant.jpg",
+              "license": "Copyrighted; used under fair use",
+              "author": "Marvel Comics"
+            }
           }
         }
       ]

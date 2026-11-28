@@ -238,8 +238,12 @@
           "reveal": "The correct answer is Beauty and the Beast! [whispers] When that last petal falls, it's game over. No pressure.",
           "media": {
             "type": "image",
-            "prompt": "A single glowing red rose floating under a glass bell jar on a table in a dark gothic castle tower, a few fallen petals and an ornate hand mirror beside it, moonlight through a broken window, original artwork, no people, no characters, no text, no logos",
-            "file": "media/remakes-and-reimaginings--picture-the-remake-200.jpg"
+            "file": "media/remakes-and-reimaginings--picture-the-remake-200.jpg",
+            "source": {
+              "url": "https://disney.fandom.com/wiki/File:Beauty_and_the_Beast_2017-Belle_and_Enchanted_Rose.jpg",
+              "license": "Copyrighted; used under fair use",
+              "author": "Walt Disney Pictures / Disney Television"
+            }
           },
           "dailyDouble": false
         },

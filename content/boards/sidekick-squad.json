@@ -239,8 +239,12 @@
           "reveal": "The correct answer is Meeko! Pocahontas's raccoon pal will braid your hair or eat all your biscuits, depending on the day. [chuckles] Mostly biscuits.",
           "media": {
             "type": "image",
-            "prompt": "Original painterly digital illustration, 4:3, no people, no characters, no logos, no text or lettering. A forest riverbank in Virginia with autumn leaves, a small ringed raccoon-sized tail track in the mud leading to a ship captain's open leather bag spilling round ship biscuits and a brass compass.",
-            "file": "media/sidekick-squad--whose-stuff-is-this-200.jpg"
+            "file": "media/sidekick-squad--whose-stuff-is-this-200.jpg",
+            "source": {
+              "url": "https://disney.fandom.com/wiki/File:Meeko_(Pocahontas).jpg",
+              "license": "Copyrighted; used under fair use",
+              "author": "Walt Disney Pictures / Disney Television"
+            }
           },
           "dailyDouble": false
         },
@@ -260,8 +264,12 @@
           "reveal": "The correct answer is Rajah! [laughs] Jasmine's tiger bit the seat right out of Prince Achmed's pants. Fantastic boyfriend screening.",
           "media": {
             "type": "image",
-            "prompt": "Original painterly digital illustration, 4:3, no people, no characters, no logos, no text or lettering. A moonlit Arabian palace garden with a fountain, a huge jewelled tiger collar on a silk cushion, and a torn scrap of fancy white trouser fabric with little red hearts caught on a thorny bush.",
-            "file": "media/sidekick-squad--whose-stuff-is-this-400.jpg"
+            "file": "media/sidekick-squad--whose-stuff-is-this-400.jpg",
+            "source": {
+              "url": "https://disney.fandom.com/wiki/File:Profile_-_Rajah.jpeg",
+              "license": "Copyrighted; used under fair use",
+              "author": "Walt Disney Pictures / Disney Television"
+            }
           },
           "dailyDouble": false
         },
@@ -282,8 +290,12 @@
           "reveal": "The correct answer is Louis! The trumpet-playing alligator from The Princess and the Frog. [excited] He just wants to be human so he can jam on stage!",
           "media": {
             "type": "image",
-            "prompt": "Original painterly digital illustration, 4:3, no people, no characters, no logos, no text or lettering. A Louisiana bayou at dusk with Spanish moss and fireflies, a shiny brass trumpet resting on a wooden dock beside a huge scaly footprint in the mud, a jazz club glowing in the distance.",
-            "file": "media/sidekick-squad--whose-stuff-is-this-600.jpg"
+            "file": "media/sidekick-squad--whose-stuff-is-this-600.jpg",
+            "source": {
+              "url": "https://disney.fandom.com/wiki/File:Profile_-_Louis_the_alligator.jpeg",
+              "license": "Copyrighted; used under fair use",
+              "author": "Walt Disney Pictures / Disney Television"
+            }
           },
           "dailyDouble": false
         },
@@ -303,8 +315,12 @@
           "reveal": "The correct answer is Percy! Governor Ratcliffe's spoiled pug. [laughs] He starts out the villain's pet and ends up best friends with Meeko.",
           "media": {
             "type": "image",
-            "prompt": "Original painterly digital illustration, 4:3, no people, no characters, no logos, no text or lettering. The cabin of an English sailing ship in 1607, a tiny ruffled lace dog collar on a plush purple velvet pillow, a silver bowl of cherries and a powdered wig on a stand.",
-            "file": "media/sidekick-squad--whose-stuff-is-this-800.jpg"
+            "file": "media/sidekick-squad--whose-stuff-is-this-800.jpg",
+            "source": {
+              "url": "https://disney.fandom.com/wiki/File:Percy_(Pocahontas).jpg",
+              "license": "Copyrighted; used under fair use",
+              "author": "Walt Disney Pictures / Disney Television"
+            }
           },
           "dailyDouble": false
         },
@@ -326,8 +342,12 @@
           "reveal": "[excited] The correct answer is Cri-Kee! Grandmother Fa's lucky cricket. [chuckles] Whether he's actually lucky is still up for debate.",
           "media": {
             "type": "image",
-            "prompt": "Original painterly digital illustration, 4:3, no people, no characters, no logos, no text or lettering. A small bamboo cricket cage on a stone wall in a misty Chinese garden with cherry blossoms, a grandmother's walking stick leaning nearby and a jade pendant.",
-            "file": "media/sidekick-squad--whose-stuff-is-this-1000.jpg"
+            "file": "media/sidekick-squad--whose-stuff-is-this-1000.jpg",
+            "source": {
+              "url": "https://disney.fandom.com/wiki/File:Profile_Cri-Kee.png",
+              "license": "Copyrighted; used under fair use",
+              "author": "Walt Disney Pictures / Disney Television"
+            }
           },
           "dailyDouble": false
         }

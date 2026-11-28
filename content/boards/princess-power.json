@@ -254,8 +254,12 @@
           "reveal": "[excited] The correct answer is Rapunzel! Pascal the chameleon changes color when he's annoyed. Which is often.",
           "media": {
             "type": "image",
-            "prompt": "A small green chameleon perched on a sunny windowsill beside paint brushes and a long braid of golden hair, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
-            "file": "media/princess-power--pet-projects-200.jpg"
+            "file": "media/princess-power--pet-projects-200.jpg",
+            "source": {
+              "url": "https://disney.fandom.com/wiki/File:Profile_-_Pascal.png",
+              "license": "Copyrighted; used under fair use",
+              "author": "Walt Disney Pictures / Disney Television"
+            }
           },
           "dailyDouble": false
         },
@@ -276,8 +280,12 @@
           "reveal": "The correct answer is Jasmine! Rajah the tiger is basically a giant kitty. With very sharp manners.",
           "media": {
             "type": "image",
-            "prompt": "A large Bengal tiger lounging beside a fountain in a lush Arabian palace garden with domed towers behind, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
-            "file": "media/princess-power--pet-projects-400.jpg"
+            "file": "media/princess-power--pet-projects-400.jpg",
+            "source": {
+              "url": "https://disney.fandom.com/wiki/File:Profile_-_Rajah.jpeg",
+              "license": "Copyrighted; used under fair use",
+              "author": "Walt Disney Pictures / Disney Television"
+            }
           },
           "dailyDouble": false
         },
@@ -318,8 +326,12 @@
           "reveal": "The correct answer is Moana! Pua the pig and Heihei the rooster. [chuckles] One is smart. One is... Heihei.",
           "media": {
             "type": "image",
-            "prompt": "A small spotted pot-bellied piglet and a scruffy rooster in an outrigger canoe on a turquoise lagoon, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
-            "file": "media/princess-power--pet-projects-800.jpg"
+            "file": "media/princess-power--pet-projects-800.jpg",
+            "source": {
+              "url": "https://disney.fandom.com/wiki/File:Pua-heihei.png",
+              "license": "Copyrighted; used under fair use",
+              "author": "Walt Disney Pictures / Disney Television"
+            }
           },
           "dailyDouble": false
         },

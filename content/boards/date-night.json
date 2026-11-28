@@ -365,8 +365,12 @@
           "reveal": "The correct answer is Topolino's Terrace! Topolino means Mickey in Italian. [chuckles] Fireworks views AND pasta. Bellissimo.",
           "media": {
             "type": "image",
-            "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A Mediterranean-style rooftop dining terrace at dusk with arched windows, terracotta tiles, potted lemon trees and string lights, distant fireworks over a lake.",
-            "file": "media/date-night--table-for-two-400.jpg"
+            "file": "media/date-night--table-for-two-400.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Riviera_at_Night_(49560224208)_(cropped).jpg",
+              "license": "CC BY 2.0",
+              "author": "Eden, Janine and Jim from New York City"
+            }
           },
           "dailyDouble": false
         },

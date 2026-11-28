@@ -324,8 +324,12 @@
           "reveal": "The correct answer is Primeval World! [laughs] Those dinosaurs first appeared at the 1964 World's Fair before moving to Disneyland.",
           "media": {
             "type": "image",
-            "prompt": "Extreme close-up, Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. Prehistoric jungle diorama with ferns, steaming volcano, a towering long-necked dinosaur and a triceratops facing a predatory dinosaur under a stormy amber sky.",
-            "file": "media/ride-the-rails--next-stop-800.jpg"
+            "file": "media/ride-the-rails--next-stop-800.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Disneyland_200707_Number5_NewOrleansSquare.jpg",
+              "license": "CC BY-SA 3.0",
+              "author": "Hallidie1873"
+            }
           },
           "dailyDouble": false
         },

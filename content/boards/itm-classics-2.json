@@ -251,8 +251,12 @@
           "reveal": "[excited] The correct answer is Steamboat Willie! Mickey's big debut with synchronized sound. Toot toot!",
           "media": {
             "type": "image",
-            "prompt": "A wooden ship's steering wheel on the deck of an old paddle-wheel riverboat with smokestacks puffing, black-and-white film grain Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
-            "file": "media/itm-classics-2--mickeys-prop-closet-200.jpg"
+            "file": "media/itm-classics-2--mickeys-prop-closet-200.jpg",
+            "source": {
+              "url": "https://disney.fandom.com/wiki/File:Steamboat-willie-mickey-mouse-.jpg",
+              "license": "Copyrighted; used under fair use",
+              "author": "Walt Disney Pictures / Disney Television"
+            }
           },
           "dailyDouble": false
         },
@@ -272,8 +276,12 @@
           "reveal": "[laughs] The correct answer is Fantasia! The Sorcerer's Apprentice. Never borrow your boss's hat. Or his brooms.",
           "media": {
             "type": "image",
-            "prompt": "A tall deep-blue wizard's cone hat with silver stars and a crescent moon, beside two wooden buckets overflowing with water on a stone staircase Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
-            "file": "media/itm-classics-2--mickeys-prop-closet-400.jpg"
+            "file": "media/itm-classics-2--mickeys-prop-closet-400.jpg",
+            "source": {
+              "url": "https://disney.fandom.com/wiki/File:Sorcerer_Hat.jpg",
+              "license": "Copyrighted; used under fair use",
+              "author": "Walt Disney Pictures / Disney Television"
+            }
           },
           "dailyDouble": false
         },
@@ -317,8 +325,12 @@
           "reveal": "[sighs] The correct answer is Mickey's Christmas Carol! A little crutch by the fireplace. Excuse me, I have something in my eye.",
           "media": {
             "type": "image",
-            "prompt": "A small wooden crutch leaning against a warm Victorian brick fireplace with stockings and a tiny Christmas tree, snow at the window Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
-            "file": "media/itm-classics-2--mickeys-prop-closet-800.jpg"
+            "file": "media/itm-classics-2--mickeys-prop-closet-800.jpg",
+            "source": {
+              "url": "https://disney.fandom.com/wiki/File:Mickey%27s_Christmas_Carol_-_Ratty,_Mole,_Skippy_%26_Toby.jpg",
+              "license": "Copyrighted; used under fair use",
+              "author": "Walt Disney Pictures / Disney Television"
+            }
           },
           "dailyDouble": false
         },
@@ -339,8 +351,12 @@
           "reveal": "[excited] The correct answer is The Prince and the Pauper! Mickey plays the prince and the pauper. Double the Mickey, double the fun.",
           "media": {
             "type": "image",
-            "prompt": "A golden jeweled royal crown resting on a pile of patched, ragged peasant clothes on a castle flagstone floor, torchlight Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
-            "file": "media/itm-classics-2--mickeys-prop-closet-1000.jpg"
+            "file": "media/itm-classics-2--mickeys-prop-closet-1000.jpg",
+            "source": {
+              "url": "https://disney.fandom.com/wiki/File:The-prince-and-the-pauper-1990-85th-birthday-of-mickey-mouse-2013-sohelee.jpg",
+              "license": "Copyrighted; used under fair use",
+              "author": "Walt Disney Pictures / Disney Television"
+            }
           },
           "dailyDouble": false
         }

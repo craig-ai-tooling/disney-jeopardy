@@ -384,8 +384,12 @@
           "dailyDouble": false,
           "media": {
             "type": "image",
-            "prompt": "Original illustration, 16:9, vivid colors, theme-park concept-art style, no text, no logos, no characters, no people: an opulent French castle ballroom dining hall with crystal chandeliers, gold trim and a painted starry ceiling, tables set for dinner",
-            "file": "media/snack-attack--where-am-i-eating-200.jpg"
+            "file": "media/snack-attack--where-am-i-eating-200.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Be_Our_Guest_Restaurant_-_Magic_Kingdom_(8930509345).jpg",
+              "license": "CC BY-SA 2.0",
+              "author": "Josh Hallett from Winter Haven, FL, USA"
+            }
           }
         },
         {
@@ -408,8 +412,12 @@
           "dailyDouble": false,
           "media": {
             "type": "image",
-            "prompt": "Original illustration, 16:9, vivid colors, theme-park concept-art style, no text, no logos, no characters, no people: a medieval great hall restaurant with heraldic banners, stained glass windows and goblets, seen from high inside a castle tower",
-            "file": "media/snack-attack--where-am-i-eating-400.jpg"
+            "file": "media/snack-attack--where-am-i-eating-400.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Cinderella_Castle.jpg",
+              "license": "CC BY-SA 4.0",
+              "author": "Katie Rommel-Esham (contact via bdesham)"
+            }
           }
         },
         {
@@ -433,8 +441,12 @@
           "dailyDouble": false,
           "media": {
             "type": "image",
-            "prompt": "Original illustration, 16:9, vivid colors, theme-park concept-art style, no text, no logos, no characters, no people: an indoor 1950s drive-in movie theater at night with dining tables built into vintage convertible cars facing a big screen glowing with a black-and-white flying saucer",
-            "file": "media/snack-attack--where-am-i-eating-600.jpg"
+            "file": "media/snack-attack--where-am-i-eating-600.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Sci-Fi_Dine-In_Theater_interior_by_hyku.jpg",
+              "license": "CC BY-SA 2.0",
+              "author": "Josh Hallett from Winter Haven, FL, USA"
+            }
           }
         },
         {
@@ -480,8 +492,12 @@
           "dailyDouble": false,
           "media": {
             "type": "image",
-            "prompt": "Original illustration, 16:9, vivid colors, theme-park concept-art style, no text, no logos, no characters, no people: a sunny Mediterranean rooftop terrace restaurant overlooking a lagoon and resort gardens, Italian Riviera style with striped umbrellas",
-            "file": "media/snack-attack--where-am-i-eating-1000.jpg"
+            "file": "media/snack-attack--where-am-i-eating-1000.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Riviera_at_Night_(49560224208)_(cropped).jpg",
+              "license": "CC BY 2.0",
+              "author": "Eden, Janine and Jim from New York City"
+            }
           }
         }
       ]

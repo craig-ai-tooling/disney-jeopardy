@@ -281,8 +281,12 @@
           "reveal": "The correct answer is Cars! [excited] Ka-chow! That desert motel made of traffic cones gave it away.",
           "media": {
             "type": "image",
-            "prompt": "A sleepy desert town on an old highway at dusk: a motel whose rooms are giant orange traffic-cone shapes, glowing neon tubes, a red butte shaped like a car hood behind. Original painterly storybook illustration, 16:9, cinematic lighting, rich color, no people, no characters, no text, no logos.",
-            "file": "media/wild-west--frontier-snapshots-600.jpg"
+            "file": "media/wild-west--frontier-snapshots-600.jpg",
+            "source": {
+              "url": "https://pixar.fandom.com/wiki/File:Cozyconemotel.jpg",
+              "license": "Copyrighted; used under fair use",
+              "author": "Disney/Pixar"
+            }
           },
           "dailyDouble": false
         },

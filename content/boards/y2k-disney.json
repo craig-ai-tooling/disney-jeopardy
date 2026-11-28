@@ -284,8 +284,12 @@
           "reveal": "The correct answer is Cars! [excited] Radiator Springs, where the motel rooms are giant traffic cones. Ka-chow!",
           "media": {
             "type": "image",
-            "prompt": "Original painterly digital illustration, no people, no characters, no logos, no text or lettering. A sleepy desert town on an old highway at dusk, a motel made of giant orange traffic cones, glowing neon signs without lettering, red rock buttes in the distance.",
-            "file": "media/y2k-disney--pixar-prop-closet-600.jpg"
+            "file": "media/y2k-disney--pixar-prop-closet-600.jpg",
+            "source": {
+              "url": "https://pixar.fandom.com/wiki/File:Cozyconemotel.jpg",
+              "license": "Copyrighted; used under fair use",
+              "author": "Disney/Pixar"
+            }
           },
           "dailyDouble": false
         },
@@ -330,8 +334,12 @@
           "reveal": "The correct answer is WALL-E! [whispers] A single green seedling in an old boot. That's how you save a planet.",
           "media": {
             "type": "image",
-            "prompt": "Original painterly digital illustration, no people, no characters, no logos, no text or lettering. A single green seedling growing inside an old worn boot, surrounded by towers of stacked compacted trash cubes under a dusty orange sky, a cockroach on a rusty lunchbox.",
-            "file": "media/y2k-disney--pixar-prop-closet-1000.jpg"
+            "file": "media/y2k-disney--pixar-prop-closet-1000.jpg",
+            "source": {
+              "url": "https://pixar.fandom.com/wiki/File:WALL-E_plant1.jpg",
+              "license": "Copyrighted; used under fair use",
+              "author": "Disney/Pixar"
+            }
           },
           "dailyDouble": false
         }

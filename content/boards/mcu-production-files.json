@@ -347,7 +347,7 @@
         },
         {
           "value": 400,
-          "clue": "These let Scott Lang shrink and grow. Name them. Pictured: a small glass laboratory vial filled with glowing red swirling particles on a steel lab table.",
+          "clue": "These let Scott Lang shrink and grow. Name them.",
           "answer": "Pym Particles",
           "accept": [
             "pym particles",
@@ -363,13 +363,17 @@
           "dailyDouble": false,
           "media": {
             "type": "image",
-            "prompt": "A small glass laboratory vial filled with glowing red swirling particles on a steel lab table, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
-            "file": "media/mcu-production-files--prop-room-400.jpg"
+            "file": "media/mcu-production-files--prop-room-400.jpg",
+            "source": {
+              "url": "https://marvelcinematicuniverse.fandom.com/wiki/File:Pym_Particles.png",
+              "license": "Copyrighted; used under fair use",
+              "author": "Marvel Studios"
+            }
           }
         },
         {
           "value": 600,
-          "clue": "Drinking from this glowing plant grants the power of the Black Panther. Name it. Pictured: a glowing purple heart-shaped flower growing in a dark underground cave garden.",
+          "clue": "Drinking from this glowing plant grants the power of the Black Panther. Name it.",
           "answer": "Heart-Shaped Herb",
           "accept": [
             "heart-shaped herb",
@@ -386,8 +390,12 @@
           "dailyDouble": false,
           "media": {
             "type": "image",
-            "prompt": "A glowing purple heart-shaped flower growing in a dark underground cave garden, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
-            "file": "media/mcu-production-files--prop-room-600.jpg"
+            "file": "media/mcu-production-files--prop-room-600.jpg",
+            "source": {
+              "url": "https://marvelcinematicuniverse.fandom.com/wiki/File:BP_-_Heart-Shaped_Herb_(At_Hand).png",
+              "license": "Copyrighted; used under fair use",
+              "author": "Marvel Studios"
+            }
           }
         },
         {
@@ -415,7 +423,7 @@
         },
         {
           "value": 1000,
-          "clue": "Sorcerers slip this onto their fingers to open spinning portals. Name it. Pictured: a golden double finger ring with an ornate loop.",
+          "clue": "Sorcerers slip this onto their fingers to open spinning portals. Name it.",
           "answer": "Sling ring",
           "accept": [
             "sling ring",
@@ -432,8 +440,12 @@
           "dailyDouble": false,
           "media": {
             "type": "image",
-            "prompt": "A golden double finger ring with an ornate loop, a crackling circle of orange sparks forming in the air beside it, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
-            "file": "media/mcu-production-files--prop-room-1000.jpg"
+            "file": "media/mcu-production-files--prop-room-1000.jpg",
+            "source": {
+              "url": "https://marvelcinematicuniverse.fandom.com/wiki/File:SlingRing-FEtDAVD.jpg",
+              "license": "Copyrighted; used under fair use",
+              "author": "Marvel Studios"
+            }
           }
         }
       ]

@@ -246,8 +246,12 @@
           "reveal": "The correct answer is Frozen! [laughs] A glittering ice palace on a mountaintop. Somebody just let it go.",
           "media": {
             "type": "image",
-            "prompt": "A towering glittering ice palace with snowflake-patterned walls on a lonely frozen mountain peak under swirling green northern lights, a frozen fjord far below. Original illustration, no people, no recognizable characters, no text or logos.",
-            "file": "media/modern-marvels--modern-masterpieces-200.jpg"
+            "file": "media/modern-marvels--modern-masterpieces-200.jpg",
+            "source": {
+              "url": "https://disney.fandom.com/wiki/File:Arendelle-Castle-at-the-end-of-Frozen.png",
+              "license": "Copyrighted; used under fair use",
+              "author": "Walt Disney Pictures / Disney Television"
+            }
           },
           "dailyDouble": false
         },
@@ -289,8 +293,12 @@
           "reveal": "The correct answer is Moana! [excited] A canoe, a glowing green spiral stone, and the open ocean. How far will you go?",
           "media": {
             "type": "image",
-            "prompt": "A Polynesian-style outrigger voyaging canoe with a woven sail on a glowing turquoise ocean at sunrise, a small green spiral-carved stone glowing on the deck, a lush volcanic island ahead. Original illustration, no people, no recognizable characters, no text or logos.",
-            "file": "media/modern-marvels--modern-masterpieces-600.jpg"
+            "file": "media/modern-marvels--modern-masterpieces-600.jpg",
+            "source": {
+              "url": "https://disney.fandom.com/wiki/File:Ocean_and_Moana.jpg",
+              "license": "Copyrighted; used under fair use",
+              "author": "Walt Disney Pictures / Disney Television"
+            }
           },
           "dailyDouble": false
         },
@@ -311,8 +319,12 @@
           "reveal": "The correct answer is Big Hero 6! [chuckles] Victorian houses plus pagoda rooftops. That can only be San Fransokyo.",
           "media": {
             "type": "image",
-            "prompt": "A hybrid futuristic city at dusk where hilly Victorian row houses have pagoda-style rooftops, floating wind-turbine blimps in a pink sky and a giant red suspension bridge with torii-gate towers. Original illustration, no people, no recognizable characters, no text or logos.",
-            "file": "media/modern-marvels--modern-masterpieces-800.jpg"
+            "file": "media/modern-marvels--modern-masterpieces-800.jpg",
+            "source": {
+              "url": "https://disney.fandom.com/wiki/File:San-Fransokyo-Neighborhood-Big-Hero-6.jpg",
+              "license": "Copyrighted; used under fair use",
+              "author": "Walt Disney Pictures / Disney Television"
+            }
           },
           "dailyDouble": false
         },
@@ -333,8 +345,12 @@
           "reveal": "[gasps] The correct answer is Raya and the Last Dragon! A dragon gem broken into five pieces, one for each land of Kumandra.",
           "media": {
             "type": "image",
-            "prompt": "A glowing blue-violet crystal gem shattered into five shards resting on carved stone pedestals in a misty Southeast-Asian-inspired temple, water channels and lotus flowers surrounding it. Original illustration, no people, no recognizable characters, no text or logos.",
-            "file": "media/modern-marvels--modern-masterpieces-1000.jpg"
+            "file": "media/modern-marvels--modern-masterpieces-1000.jpg",
+            "source": {
+              "url": "https://disney.fandom.com/wiki/File:Kumandra.png",
+              "license": "Copyrighted; used under fair use",
+              "author": "Walt Disney Pictures / Disney Television"
+            }
           },
           "dailyDouble": false
         }

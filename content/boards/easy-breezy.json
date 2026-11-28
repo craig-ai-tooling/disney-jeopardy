@@ -234,8 +234,12 @@
           "reveal": "The correct answer is Up! [excited] Thousands and thousands of balloons. Adventure is out there!",
           "media": {
             "type": "image",
-            "prompt": "Original painterly digital illustration, no people, no characters, no logos, no text or lettering. A small old-fashioned wooden house with a porch floating high in the sky, lifted by thousands of colourful balloons tied to its chimney, puffy clouds below.",
-            "file": "media/easy-breezy--who-lives-here-200.jpg"
+            "file": "media/easy-breezy--who-lives-here-200.jpg",
+            "source": {
+              "url": "https://pixar.fandom.com/wiki/File:Up-Carl-House-web.jpg",
+              "license": "Copyrighted; used under fair use",
+              "author": "Disney/Pixar"
+            }
           },
           "dailyDouble": false
         },
@@ -255,8 +259,12 @@
           "reveal": "The correct answer is Tangled! [laughs] Eighteen years in one tower. Rapunzel deserved that adventure.",
           "media": {
             "type": "image",
-            "prompt": "Original painterly digital illustration, no people, no characters, no logos, no text or lettering. A tall round stone tower with one high window, hidden in a lush hidden valley with a waterfall, a frying pan leaning against the base, a glowing golden flower nearby.",
-            "file": "media/easy-breezy--who-lives-here-400.jpg"
+            "file": "media/easy-breezy--who-lives-here-400.jpg",
+            "source": {
+              "url": "https://disney.fandom.com/wiki/File:Tangled-Rapunzel-Tower.jpg",
+              "license": "Copyrighted; used under fair use",
+              "author": "Walt Disney Pictures / Disney Television"
+            }
           },
           "dailyDouble": false
         },
@@ -323,8 +331,12 @@
           "reveal": "The correct answer is Encanto! [excited] La Casita can move its tiles and shutters all by itself. A house with personality!",
           "media": {
             "type": "image",
-            "prompt": "Original painterly digital illustration, no people, no characters, no logos, no text or lettering. A colourful two-storey Colombian hacienda house nestled in green mountains, yellow butterflies swirling around it, flowers on every balcony, a single magical candle glowing in an upstairs window.",
-            "file": "media/easy-breezy--who-lives-here-1000.jpg"
+            "file": "media/easy-breezy--who-lives-here-1000.jpg",
+            "source": {
+              "url": "https://disney.fandom.com/wiki/File:Casa_Madrigal.jpg",
+              "license": "Copyrighted; used under fair use",
+              "author": "Walt Disney Pictures / Disney Television"
+            }
           },
           "dailyDouble": false
         }

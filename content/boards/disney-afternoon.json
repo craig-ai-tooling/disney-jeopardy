@@ -305,8 +305,12 @@
           "reveal": "The correct answer is Gargoyles! [gasps] Stone by day, warriors by night, perched on a castle on top of a skyscraper.",
           "media": {
             "type": "image",
-            "prompt": "A medieval Scottish castle perched on top of a modern Manhattan skyscraper at night, stone statues on the ledges cracking open with glowing light, moon over the city, original artwork, no people, no characters, no text, no logos",
-            "file": "media/disney-afternoon--after-school-zoom-800.jpg"
+            "file": "media/disney-afternoon--after-school-zoom-800.jpg",
+            "source": {
+              "url": "https://gargoyles.fandom.com/wiki/File:CastleWyvern.jpg",
+              "license": "Copyrighted; used under fair use",
+              "author": "Disney Television Animation"
+            }
           },
           "dailyDouble": false
         },
@@ -326,8 +330,12 @@
           "reveal": "The correct answer is Amphibia! [excited] A girl, a magic music box and a whole swamp town of frogs. Hop to it!",
           "media": {
             "type": "image",
-            "prompt": "A swampy village of mushroom houses and lily pads under a misty green sky, a glowing ornate music box with three colored gems sitting on a log, original artwork, no people, no characters, no text, no logos",
-            "file": "media/disney-afternoon--after-school-zoom-1000.jpg"
+            "file": "media/disney-afternoon--after-school-zoom-1000.jpg",
+            "source": {
+              "url": "https://amphibia.fandom.com/wiki/File:AnneorBeast14.png",
+              "license": "Copyrighted; used under fair use",
+              "author": "Disney Television Animation"
+            }
           },
           "dailyDouble": false
         }

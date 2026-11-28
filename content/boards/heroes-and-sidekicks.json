@@ -356,8 +356,12 @@
           "dailyDouble": false,
           "media": {
             "type": "image",
-            "prompt": "Original painterly digital illustration, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A tiny silver spider-shaped robot skittering across a futuristic lab workbench with glowing web-like holograms, no characters.",
-            "file": "media/heroes-and-sidekicks--heroic-hangouts-400.jpg"
+            "file": "media/heroes-and-sidekicks--heroic-hangouts-400.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Disney_California_Adventure_(51242306845).jpg",
+              "license": "CC BY 2.0",
+              "author": "Jeremy Thompson from Los Angeles, California"
+            }
           }
         },
         {
@@ -400,8 +404,12 @@
           "dailyDouble": false,
           "media": {
             "type": "image",
-            "prompt": "Original painterly digital illustration, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A tall industrial fortress tower with gold and dark metal plating, glowing windows and cosmic sparks at dusk, in a theme park setting.",
-            "file": "media/heroes-and-sidekicks--heroic-hangouts-800.jpg"
+            "file": "media/heroes-and-sidekicks--heroic-hangouts-800.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Tower_of_terror_dca.JPG",
+              "license": "Public domain",
+              "author": "User:Bray6265"
+            }
           }
         },
         {

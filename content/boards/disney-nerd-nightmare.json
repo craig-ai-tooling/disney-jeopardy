@@ -254,8 +254,12 @@
           "reveal": "The correct answer is Mr. Toad's Wild Ride! [laughs] A ride that ends with you in, well, a very warm place. Classic.",
           "media": {
             "type": "image",
-            "prompt": "Original painterly digital illustration, no people, no characters, no logos, no text or lettering. Extreme close-up of a green vintage open-top motorcar crashing through a painted English country manor, papers flying, crooked signposts, wild colourful set pieces.",
-            "file": "media/disney-nerd-nightmare--extinct-attractions-zoom-200.jpg"
+            "file": "media/disney-nerd-nightmare--extinct-attractions-zoom-200.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Mr_Toad%27s_Wild_Ride.JPG",
+              "license": "Public domain",
+              "author": "SolarSurfer"
+            }
           },
           "dailyDouble": false
         },
@@ -275,8 +279,12 @@
           "reveal": "The correct answer is Horizons! [sighs] Riders got to pick their own ending. Fans still miss it.",
           "media": {
             "type": "image",
-            "prompt": "Original painterly digital illustration, no people, no characters, no logos, no text or lettering. Extreme close-up of a glowing orange-lit space colony window looking out at a planet, a desert farm with hydroponic oranges below, and a city under the sea.",
-            "file": "media/disney-nerd-nightmare--extinct-attractions-zoom-400.jpg"
+            "file": "media/disney-nerd-nightmare--extinct-attractions-zoom-400.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Horizons_at_Twilight_Time_(10061798533).jpg",
+              "license": "CC BY 2.0",
+              "author": "Sam Howzit"
+            }
           },
           "dailyDouble": false
         },
@@ -302,8 +310,12 @@
           "reveal": "The correct answer is 20,000 Leagues Under the Sea! The subs didn't actually dive. They just sank a little and slid along a track.",
           "media": {
             "type": "image",
-            "prompt": "Original painterly digital illustration, no people, no characters, no logos, no text or lettering. Extreme close-up of a riveted grey-green Victorian-style submarine with a jagged dorsal fin and round portholes, gliding through a turquoise lagoon past fake coral and a sea serpent.",
-            "file": "media/disney-nerd-nightmare--extinct-attractions-zoom-600.jpg"
+            "file": "media/disney-nerd-nightmare--extinct-attractions-zoom-600.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:20000_Leagues_Ride_1979.jpg",
+              "license": "CC BY-SA 3.0",
+              "author": "Alex Reinhart"
+            }
           },
           "dailyDouble": false
         },
@@ -346,8 +358,12 @@
           "reveal": "The correct answer is Body Wars! [laughs] A shrinking mission inside the human body. Also known as the bumpiest ride at EPCOT.",
           "media": {
             "type": "image",
-            "prompt": "Original painterly digital illustration, no people, no characters, no logos, no text or lettering. Extreme close-up of a sleek miniature vehicle racing through a red tunnel of giant floating blood cells, glowing white cells and pulsing arteries.",
-            "file": "media/disney-nerd-nightmare--extinct-attractions-zoom-1000.jpg"
+            "file": "media/disney-nerd-nightmare--extinct-attractions-zoom-1000.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Epcot_International_Flower_%26_Garden_Festival_2013_(8550726711).jpg",
+              "license": "CC BY-SA 2.0",
+              "author": "zannaland"
+            }
           },
           "dailyDouble": false
         }

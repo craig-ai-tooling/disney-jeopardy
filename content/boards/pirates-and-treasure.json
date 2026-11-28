@@ -274,8 +274,12 @@
           "reveal": "The correct answer is Pirates of the Caribbean! Jack's compass doesn't point north. It points to what you want most.",
           "media": {
             "type": "image",
-            "prompt": "An antique wooden pocket compass with its lid open and the needle spinning, lying on a sandy beach, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
-            "file": "media/pirates-and-treasure--x-marks-the-zoom-400.jpg"
+            "file": "media/pirates-and-treasure--x-marks-the-zoom-400.jpg",
+            "source": {
+              "url": "https://disney.fandom.com/wiki/File:Jack_Sparrow%27s_Compass_Opened_and_Closed.png",
+              "license": "Copyrighted; used under fair use",
+              "author": "Walt Disney Pictures / Disney Television"
+            }
           },
           "dailyDouble": false
         },

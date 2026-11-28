@@ -401,8 +401,12 @@
           "dailyDouble": false,
           "media": {
             "type": "image",
-            "prompt": "Tall jagged petrified tree-trunk stone spires towering over a sandstone alien village with domed buildings, string lights, and a dusky orange sky. Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
-            "file": "media/galaxy-far-away--galaxys-edge-800.jpg"
+            "file": "media/galaxy-far-away--galaxys-edge-800.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Black_Spire_Outpost_(48512393802).jpg",
+              "license": "CC BY-SA 2.0",
+              "author": "elisfkc from Orlando, FL, United States"
+            }
           }
         },
         {

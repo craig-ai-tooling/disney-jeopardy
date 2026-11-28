@@ -401,8 +401,12 @@
           "dailyDouble": false,
           "media": {
             "type": "image",
-            "prompt": "A spooky Victorian mansion ballroom decorated for Christmas with a giant whimsical gingerbread house centerpiece, jack-o-lanterns wearing Santa hats and eerie candlelight. Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
-            "file": "media/holiday-magic--very-merry-parks-800.jpg"
+            "file": "media/holiday-magic--very-merry-parks-800.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Haunted_Mansion_Holiday_(33599320604).jpg",
+              "license": "CC BY 2.0",
+              "author": "HarshLight from San Jose, CA, USA"
+            }
           }
         },
         {

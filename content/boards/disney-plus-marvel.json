@@ -327,7 +327,7 @@
       "clues": [
         {
           "value": 200,
-          "clue": "This retro scene would fit right into which Disney+ series about two superpowered newlyweds? Pictured: a 1950s black and white living room with a boxy television.",
+          "clue": "This retro scene would fit right into which Disney+ series about two superpowered newlyweds?",
           "answer": "WandaVision",
           "accept": [
             "wandavision",
@@ -344,8 +344,12 @@
           "dailyDouble": false,
           "media": {
             "type": "image",
-            "prompt": "A 1950s black and white living room with a boxy television, a sofa and a lamp, everything in gentle sitcom style, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
-            "file": "media/disney-plus-marvel--binge-watch-picture-show-200.jpg"
+            "file": "media/disney-plus-marvel--binge-watch-picture-show-200.jpg",
+            "source": {
+              "url": "https://marvelcinematicuniverse.fandom.com/wiki/File:Wanda%27s_Sitcom_House.png",
+              "license": "Copyrighted; used under fair use",
+              "author": "Marvel Studios"
+            }
           }
         },
         {
@@ -375,7 +379,7 @@
         },
         {
           "value": 600,
-          "clue": "This snowy holiday scene sets the mood for which archery series? Pictured: a snowy New York evening with a busy outdoor ice rink under a giant decorated holiday tree and twinkling lights.",
+          "clue": "This snowy holiday scene sets the mood for which archery series?",
           "answer": "Hawkeye",
           "accept": [
             "hawkeye"
@@ -390,13 +394,17 @@
           "dailyDouble": false,
           "media": {
             "type": "image",
-            "prompt": "A snowy New York evening with a busy outdoor ice rink under a giant decorated holiday tree and twinkling lights, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
-            "file": "media/disney-plus-marvel--binge-watch-picture-show-600.jpg"
+            "file": "media/disney-plus-marvel--binge-watch-picture-show-600.jpg",
+            "source": {
+              "url": "https://marvelcinematicuniverse.fandom.com/wiki/File:Hawkeye_(Christmas_Eve).png",
+              "license": "Copyrighted; used under fair use",
+              "author": "Marvel Studios"
+            }
           }
         },
         {
           "value": 800,
-          "clue": "Kamala Khan's powers are unlocked by a family heirloom shaped like this. Pictured: a shimmering golden bangle bracelet glowing with soft purple and blue crystal light on a girl's bedroom desk.",
+          "clue": "Kamala Khan's powers are unlocked by a family heirloom shaped like this.",
           "answer": "A bangle",
           "accept": [
             "bangle",
@@ -415,8 +423,12 @@
           "dailyDouble": false,
           "media": {
             "type": "image",
-            "prompt": "A shimmering golden bangle bracelet glowing with soft purple and blue crystal light on a girl's bedroom desk, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
-            "file": "media/disney-plus-marvel--binge-watch-picture-show-800.jpg"
+            "file": "media/disney-plus-marvel--binge-watch-picture-show-800.jpg",
+            "source": {
+              "url": "https://marvelcinematicuniverse.fandom.com/wiki/File:Kamala_wearing_Aisha%27s_bangle.png",
+              "license": "Copyrighted; used under fair use",
+              "author": "Marvel Studios"
+            }
           }
         },
         {

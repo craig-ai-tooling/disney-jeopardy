@@ -441,8 +441,12 @@
           "dailyDouble": false,
           "media": {
             "type": "image",
-            "prompt": "Original painterly digital illustration, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. Giant oversized kitchen ingredients in a Parisian kitchen seen from floor level: towering tomatoes, a huge cheese wedge, rooftops of Paris outside.",
-            "file": "media/pixar-playtime--pixar-in-the-parks-800.jpg"
+            "file": "media/pixar-playtime--pixar-in-the-parks-800.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Remy%27s_Ratatouille_Adventure2.jpg",
+              "license": "CC BY 2.0",
+              "author": "Jeremy Thompson"
+            }
           }
         },
         {

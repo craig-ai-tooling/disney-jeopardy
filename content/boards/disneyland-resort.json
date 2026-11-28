@@ -254,8 +254,12 @@
           "dailyDouble": false,
           "media": {
             "type": "image",
-            "prompt": "Original illustration, 16:9, vivid colors, theme-park concept-art style, no text, no logos, no characters, no people: a desert-town main street at sunset with vintage gas stations and neon motel signs, red-rock mountains shaped like classic car tail fins behind",
-            "file": "media/disneyland-resort--across-the-esplanade-200.jpg"
+            "file": "media/disneyland-resort--across-the-esplanade-200.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Radiator_Springs_Route_66.jpg",
+              "license": "CC BY 2.0",
+              "author": "HarshLight from San Jose, CA, USA"
+            }
           }
         },
         {
@@ -277,8 +281,12 @@
           "dailyDouble": false,
           "media": {
             "type": "image",
-            "prompt": "Original illustration, 16:9, vivid colors, theme-park concept-art style, no text, no logos, no characters, no people: an empty winding racetrack curving through red-rock buttes and desert canyons at golden hour, dust in the air",
-            "file": "media/disneyland-resort--across-the-esplanade-400.jpg"
+            "file": "media/disneyland-resort--across-the-esplanade-400.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Radiator_Springs_Racers_DCA_Jan_2013.jpg",
+              "license": "CC BY-SA 3.0",
+              "author": "Alfred A. Si"
+            }
           }
         },
         {
@@ -326,8 +334,12 @@
           "dailyDouble": false,
           "media": {
             "type": "image",
-            "prompt": "Original illustration, 16:9, vivid colors, theme-park concept-art style, no text, no logos, no characters, no people: a long white steel roller coaster with a big loop on a seaside boardwalk pier at dusk, carnival lights",
-            "file": "media/disneyland-resort--across-the-esplanade-800.jpg"
+            "file": "media/disneyland-resort--across-the-esplanade-800.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Incredicoaster_1.jpg",
+              "license": "CC BY 2.0",
+              "author": "Jeremy Thompson"
+            }
           }
         },
         {

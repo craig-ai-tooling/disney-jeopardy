@@ -452,8 +452,12 @@
           "reveal": "The correct answer is Snow White's Enchanted Wish! A little less scary, a lot more sparkle. The Queen still shows up though. [laughs] She never misses a cameo.",
           "media": {
             "type": "image",
-            "prompt": "A shimmering golden wishing well in a dark enchanted forest, a glowing magic mirror on a castle wall, sparkles rising like fireflies. Original painterly storybook illustration, 16:9, cinematic lighting, rich color, no people, no characters, no text, no logos.",
-            "file": "media/golden-age-classics--ride-the-classics-1000.jpg"
+            "file": "media/golden-age-classics--ride-the-classics-1000.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Snow_White%27s_Enchanted_Wish_(embarking_area).jpg",
+              "license": "CC BY 2.0",
+              "author": "Jeremy Thompson"
+            }
           },
           "dailyDouble": false
         }

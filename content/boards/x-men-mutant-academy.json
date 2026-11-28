@@ -247,7 +247,7 @@
         },
         {
           "value": 400,
-          "clue": "Which team leader needs this to keep his powers in check? Pictured: a sleek golden visor with a single glowing red quartz lens across the eyes.",
+          "clue": "Which team leader needs this to keep his powers in check?",
           "answer": "Cyclops",
           "accept": [
             "cyclops",
@@ -263,13 +263,17 @@
           "dailyDouble": false,
           "media": {
             "type": "image",
-            "prompt": "A sleek golden visor with a single glowing red quartz lens across the eyes, resting on a desk, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
-            "file": "media/x-men-mutant-academy--mutant-gear-400.jpg"
+            "file": "media/x-men-mutant-academy--mutant-gear-400.jpg",
+            "source": {
+              "url": "https://marvel.fandom.com/wiki/File:Cyclops%27_Visor_from_Extermination_Vol_1_5_cover.jpg",
+              "license": "Copyrighted; used under fair use",
+              "author": "Marvel Comics"
+            }
           }
         },
         {
           "value": 600,
-          "clue": "Which charming mutant charges up these? Pictured: a fanned hand of playing cards glowing with crackling pink energy on a dark riverboat table.",
+          "clue": "Which charming mutant charges up these?",
           "answer": "Gambit",
           "accept": [
             "gambit",
@@ -286,13 +290,17 @@
           "dailyDouble": false,
           "media": {
             "type": "image",
-            "prompt": "A fanned hand of playing cards glowing with crackling pink energy on a dark riverboat table, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
-            "file": "media/x-men-mutant-academy--mutant-gear-600.jpg"
+            "file": "media/x-men-mutant-academy--mutant-gear-600.jpg",
+            "source": {
+              "url": "https://marvel.fandom.com/wiki/File:Remy_LeBeau_(Earth-616)_from_Marvel_Pepsi_Cards_(Trading_Cards)_001.jpg",
+              "license": "Copyrighted; used under fair use",
+              "author": "Marvel Comics"
+            }
           }
         },
         {
           "value": 800,
-          "clue": "Professor X sits in this machine to find mutants anywhere on Earth. Name it. Pictured: a giant spherical chamber of metal panels with a single walkway leading to a glowing helmet on a stand.",
+          "clue": "Professor X sits in this machine to find mutants anywhere on Earth. Name it.",
           "answer": "Cerebro",
           "accept": [
             "cerebro"
@@ -307,13 +315,17 @@
           "dailyDouble": false,
           "media": {
             "type": "image",
-            "prompt": "A giant spherical chamber of metal panels with a single walkway leading to a glowing helmet on a stand, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
-            "file": "media/x-men-mutant-academy--mutant-gear-800.jpg"
+            "file": "media/x-men-mutant-academy--mutant-gear-800.jpg",
+            "source": {
+              "url": "https://marvel.fandom.com/wiki/File:Marvel_Duel_Card_0432.png",
+              "license": "Copyrighted; used under fair use",
+              "author": "Marvel Comics"
+            }
           }
         },
         {
           "value": 1000,
-          "clue": "This helmet blocks telepaths. Which master of magnetism wears it? Pictured: a crimson metal helmet with a purple trim and angular cheek guards on a stone pedestal.",
+          "clue": "This helmet blocks telepaths. Which master of magnetism wears it?",
           "answer": "Magneto",
           "accept": [
             "magneto",
@@ -330,8 +342,12 @@
           "dailyDouble": false,
           "media": {
             "type": "image",
-            "prompt": "A crimson metal helmet with a purple trim and angular cheek guards on a stone pedestal, floating metal bolts around it, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
-            "file": "media/x-men-mutant-academy--mutant-gear-1000.jpg"
+            "file": "media/x-men-mutant-academy--mutant-gear-1000.jpg",
+            "source": {
+              "url": "https://marvel.fandom.com/wiki/File:Magneto%27s_Helmet_from_Uncanny_X-Men_Vol_1_350_001.jpg",
+              "license": "Copyrighted; used under fair use",
+              "author": "Marvel Comics"
+            }
           }
         }
       ]

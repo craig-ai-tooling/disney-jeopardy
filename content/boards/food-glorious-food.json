@@ -342,8 +342,12 @@
           "dailyDouble": false,
           "media": {
             "type": "image",
-            "prompt": "Original painterly digital illustration, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. Close-up of a chocolate-dipped vanilla ice cream bar shaped like a round head with two round ears, on a stick, held up against a sunny theme park street.",
-            "file": "media/food-glorious-food--snack-attack-200.jpg"
+            "file": "media/food-glorious-food--snack-attack-200.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Three_Mickey_Mouse_Ice_Cream_Bars.jpg",
+              "license": "CC BY 2.0",
+              "author": "rickpilot_2000"
+            }
           }
         },
         {
@@ -365,8 +369,12 @@
           "dailyDouble": false,
           "media": {
             "type": "image",
-            "prompt": "Original painterly digital illustration, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A swirl of bright yellow pineapple soft-serve in a cup with a pineapple wedge, tropical palm fronds and bamboo tiki-style decor behind it.",
-            "file": "media/food-glorious-food--snack-attack-400.jpg"
+            "file": "media/food-glorious-food--snack-attack-400.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Dole_Whip_Float_Disneyland_2014.jpg",
+              "license": "CC BY-SA 4.0",
+              "author": "Patrick Pelletier"
+            }
           }
         },
         {
@@ -410,8 +418,12 @@
           "dailyDouble": false,
           "media": {
             "type": "image",
-            "prompt": "Original painterly digital illustration, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A small round grey whipped cream dessert piped on a cookie, served on an elegant plate in a grand ballroom-style dining hall with chandeliers.",
-            "file": "media/food-glorious-food--snack-attack-800.jpg"
+            "file": "media/food-glorious-food--snack-attack-800.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Be_Our_Guest_Restaurant_-_Magic_Kingdom_(8930509345).jpg",
+              "license": "CC BY-SA 2.0",
+              "author": "Josh Hallett from Winter Haven, FL, USA"
+            }
           }
         },
         {

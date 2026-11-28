@@ -324,7 +324,7 @@
       "clues": [
         {
           "value": 200,
-          "clue": "This glowing object carries the Space Stone. Name it. Pictured: a glowing translucent blue cube crackling with energy.",
+          "clue": "This glowing object carries the Space Stone. Name it.",
           "answer": "Tesseract",
           "accept": [
             "tesseract",
@@ -341,13 +341,17 @@
           "dailyDouble": false,
           "media": {
             "type": "image",
-            "prompt": "A glowing translucent blue cube crackling with energy, floating above a metal laboratory pedestal, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
-            "file": "media/infinity-saga-stones--gem-gallery-200.jpg"
+            "file": "media/infinity-saga-stones--gem-gallery-200.jpg",
+            "source": {
+              "url": "https://marvelcinematicuniverse.fandom.com/wiki/File:Avengers_Tesseract2012.png",
+              "license": "Copyrighted; used under fair use",
+              "author": "Marvel Studios"
+            }
           }
         },
         {
           "value": 400,
-          "clue": "Which trickster swung this staff in The Avengers? Pictured: an ornate golden scepter with a curved blade and a glowing blue gem at its tip.",
+          "clue": "Which trickster swung this staff in The Avengers?",
           "answer": "Loki",
           "accept": [
             "loki",
@@ -363,13 +367,17 @@
           "dailyDouble": false,
           "media": {
             "type": "image",
-            "prompt": "An ornate golden scepter with a curved blade and a glowing blue gem at its tip, lying on a marble floor, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
-            "file": "media/infinity-saga-stones--gem-gallery-400.jpg"
+            "file": "media/infinity-saga-stones--gem-gallery-400.jpg",
+            "source": {
+              "url": "https://marvelcinematicuniverse.fandom.com/wiki/File:Scepter_Main.jpg",
+              "license": "Copyrighted; used under fair use",
+              "author": "Marvel Studios"
+            }
           }
         },
         {
           "value": 600,
-          "clue": "Name this mystical amulet. Pictured: a heavy golden eye-shaped amulet on a chain.",
+          "clue": "Name this mystical amulet.",
           "answer": "Eye of Agamotto",
           "accept": [
             "eye of agamotto",
@@ -386,13 +394,17 @@
           "dailyDouble": false,
           "media": {
             "type": "image",
-            "prompt": "A heavy golden eye-shaped amulet on a chain, glowing green from within, resting on an old spellbook, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
-            "file": "media/infinity-saga-stones--gem-gallery-600.jpg"
+            "file": "media/infinity-saga-stones--gem-gallery-600.jpg",
+            "source": {
+              "url": "https://marvelcinematicuniverse.fandom.com/wiki/File:Closed_Eye_of_Agamotto.png",
+              "license": "Copyrighted; used under fair use",
+              "author": "Marvel Studios"
+            }
           }
         },
         {
           "value": 800,
-          "clue": "Star-Lord swipes this metal sphere in Guardians of the Galaxy. Which Infinity Stone hides inside? Pictured: a battered silver metal orb about the size of a softball.",
+          "clue": "Star-Lord swipes this metal sphere in Guardians of the Galaxy. Which Infinity Stone hides inside?",
           "answer": "Power Stone",
           "accept": [
             "power stone",
@@ -408,8 +420,12 @@
           "dailyDouble": false,
           "media": {
             "type": "image",
-            "prompt": "A battered silver metal orb about the size of a softball, sitting in a dusty alien temple with a beam of light on it, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
-            "file": "media/infinity-saga-stones--gem-gallery-800.jpg"
+            "file": "media/infinity-saga-stones--gem-gallery-800.jpg",
+            "source": {
+              "url": "https://marvelcinematicuniverse.fandom.com/wiki/File:Orb_AAoU.png",
+              "license": "Copyrighted; used under fair use",
+              "author": "Marvel Studios"
+            }
           }
         },
         {

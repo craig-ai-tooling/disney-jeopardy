@@ -340,8 +340,12 @@
           "reveal": "The correct answer is Beauty and the Beast! The enchanted rose. [whispers] Last petal falls, and so does the spell.",
           "media": {
             "type": "image",
-            "prompt": "Original painterly digital illustration, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A single glowing red rose floating under a glass bell jar on a small table in a dark gothic castle wing, a few fallen petals beneath, moonlight through a tattered curtain",
-            "file": "media/springtime-blooms--in-full-bloom-200.jpg"
+            "file": "media/springtime-blooms--in-full-bloom-200.jpg",
+            "source": {
+              "url": "https://disney.fandom.com/wiki/File:Enchanted_rose_Glass_Statue.jpg",
+              "license": "Copyrighted; used under fair use",
+              "author": "Walt Disney Pictures / Disney Television"
+            }
           },
           "dailyDouble": false
         },
@@ -382,8 +386,12 @@
           "reveal": "The correct answer is Tangled! The golden flower grew from a drop of sunlight. [chuckles] Flower, gleam and glow!",
           "media": {
             "type": "image",
-            "prompt": "Original painterly digital illustration, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A single golden flower glowing with magical light on a seaside cliff at night, shimmering sparkles rising from its petals, a basket left on the ground nearby",
-            "file": "media/springtime-blooms--in-full-bloom-600.jpg"
+            "file": "media/springtime-blooms--in-full-bloom-600.jpg",
+            "source": {
+              "url": "https://disney.fandom.com/wiki/File:Sundrop_Flower.jpg",
+              "license": "Copyrighted; used under fair use",
+              "author": "Walt Disney Pictures / Disney Television"
+            }
           },
           "dailyDouble": false
         },

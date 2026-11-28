@@ -292,8 +292,12 @@
           "reveal": "The correct answer is Tangled! [excited] Thousands of lanterns light the sky every year on the lost princess's birthday.",
           "media": {
             "type": "image",
-            "prompt": "Close-up of glowing golden paper sky lanterns rising over a calm lake at night, one lantern with a sun emblem, a small rowboat silhouette below Original artwork, no people, no characters, no text, no logos.",
-            "file": "media/up-up-and-away--sky-high-close-ups-600.jpg"
+            "file": "media/up-up-and-away--sky-high-close-ups-600.jpg",
+            "source": {
+              "url": "https://disney.fandom.com/wiki/File:Tangled_-_Corona_lanterns.jpg",
+              "license": "Copyrighted; used under fair use",
+              "author": "Walt Disney Pictures / Disney Television"
+            }
           },
           "dailyDouble": false
         },
@@ -334,8 +338,12 @@
           "reveal": "The correct answer is Treasure Planet! [excited] Jim Hawkins solar surfs through space on a rocket-powered board.",
           "media": {
             "type": "image",
-            "prompt": "Close-up of a glowing golden solar sail fin on a sleek rocket-powered surfboard, swirling purple nebula and an old-fashioned galleon sailing among the stars Original artwork, no people, no characters, no text, no logos.",
-            "file": "media/up-up-and-away--sky-high-close-ups-1000.jpg"
+            "file": "media/up-up-and-away--sky-high-close-ups-1000.jpg",
+            "source": {
+              "url": "https://disney.fandom.com/wiki/File:Twenty-Years-of-Treasure-Planet.jpg",
+              "license": "Copyrighted; used under fair use",
+              "author": "Walt Disney Pictures / Disney Television"
+            }
           },
           "dailyDouble": false
         }

@@ -251,8 +251,12 @@
           "reveal": "The correct answer is China! [excited] Mulan's homeland. [laughs] Dishonor on... no wait, HONOR on you! And your cow.",
           "media": {
             "type": "image",
-            "prompt": "Extreme close-up that pulls back to reveal a long stone wall winding over misty green mountains, red paper lanterns, a folded paper fan and a delicate cherry-blossom branch. Original painterly storybook illustration, 16:9, cinematic lighting, rich color, no people, no characters, no text, no logos.",
-            "file": "media/small-world--zoom-around-the-world-200.jpg"
+            "file": "media/small-world--zoom-around-the-world-200.jpg",
+            "source": {
+              "url": "https://disney.fandom.com/wiki/File:Mulan_getting_rewarded_after_saving_China.jpeg",
+              "license": "Copyrighted; used under fair use",
+              "author": "Walt Disney Pictures / Disney Television"
+            }
           },
           "dailyDouble": false
         },
@@ -272,8 +276,12 @@
           "reveal": "The correct answer is Italy! [laughs] Luca's seaside summer. Silenzio, Bruno!",
           "media": {
             "type": "image",
-            "prompt": "Extreme close-up that pulls back to reveal a little seaside village of pastel houses, a scooter parked by the harbor, a bowl of pasta on a table and shimmering scales glinting in the waves. Original painterly storybook illustration, 16:9, cinematic lighting, rich color, no people, no characters, no text, no logos.",
-            "file": "media/small-world--zoom-around-the-world-400.jpg"
+            "file": "media/small-world--zoom-around-the-world-400.jpg",
+            "source": {
+              "url": "https://pixar.fandom.com/wiki/File:Luca-trailer-italy.jpg",
+              "license": "Copyrighted; used under fair use",
+              "author": "Disney/Pixar"
+            }
           },
           "dailyDouble": false
         },

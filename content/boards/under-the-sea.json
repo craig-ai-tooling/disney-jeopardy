@@ -283,8 +283,12 @@
           "reveal": "The correct answer is... Moana. That little green stone with the spiral is the heart of Te Fiti. Please return it, Maui.",
           "media": {
             "type": "image",
-            "prompt": "A small glowing green pounamu stone with a carved spiral, resting in a cupped seashell on a black lava rock beach, turquoise Pacific waves and a canoe sail on the horizon, warm sunset, animated film style, no people, no text",
-            "file": "media/under-the-sea--treasures-of-the-deep-600.jpg"
+            "file": "media/under-the-sea--treasures-of-the-deep-600.jpg",
+            "source": {
+              "url": "https://disney.fandom.com/wiki/File:Moana_ocean_high_five.jpg",
+              "license": "Copyrighted; used under fair use",
+              "author": "Walt Disney Pictures / Disney Television"
+            }
           },
           "dailyDouble": false
         },

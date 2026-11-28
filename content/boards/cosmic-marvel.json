@@ -328,7 +328,7 @@
       "clues": [
         {
           "value": 200,
-          "clue": "Whose ride through the cosmos is this? Pictured: a gleaming chrome surfboard soaring alone through a starfield.",
+          "clue": "Whose ride through the cosmos is this?",
           "answer": "Silver Surfer",
           "accept": [
             "silver surfer",
@@ -345,13 +345,17 @@
           "dailyDouble": false,
           "media": {
             "type": "image",
-            "prompt": "A gleaming chrome surfboard soaring alone through a starfield, leaving a silvery streak of light, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
-            "file": "media/cosmic-marvel--cosmic-picture-show-200.jpg"
+            "file": "media/cosmic-marvel--cosmic-picture-show-200.jpg",
+            "source": {
+              "url": "https://marvel.fandom.com/wiki/File:Silver_Surfer%27s_Surfboard_(Earth-19259)_from_Doctor_Strange_The_Best_Defense_Vol_1_1_0001.jpg",
+              "license": "Copyrighted; used under fair use",
+              "author": "Marvel Comics"
+            }
           }
         },
         {
           "value": 400,
-          "clue": "These intergalactic officers protect Xandar. Name them. Pictured: a fleet of small golden starfighters linking together into a glowing net over a futuristic city at night.",
+          "clue": "These intergalactic officers protect Xandar. Name them.",
           "answer": "Nova Corps",
           "accept": [
             "nova corps",
@@ -367,8 +371,12 @@
           "dailyDouble": false,
           "media": {
             "type": "image",
-            "prompt": "A fleet of small golden starfighters linking together into a glowing net over a futuristic city at night, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
-            "file": "media/cosmic-marvel--cosmic-picture-show-400.jpg"
+            "file": "media/cosmic-marvel--cosmic-picture-show-400.jpg",
+            "source": {
+              "url": "https://marvelcinematicuniverse.fandom.com/wiki/File:Nova_Corps.png",
+              "license": "Copyrighted; used under fair use",
+              "author": "Marvel Studios"
+            }
           }
         },
         {
@@ -394,7 +402,7 @@
         },
         {
           "value": 800,
-          "clue": "Who is this world-devouring giant? Pictured: a colossal armored cosmic giant wearing a tall purple helmet.",
+          "clue": "Who is this world-devouring giant?",
           "answer": "Galactus",
           "accept": [
             "galactus"
@@ -409,13 +417,17 @@
           "dailyDouble": false,
           "media": {
             "type": "image",
-            "prompt": "A colossal armored cosmic giant wearing a tall purple helmet, looming over a tiny blue planet, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
-            "file": "media/cosmic-marvel--cosmic-picture-show-800.jpg"
+            "file": "media/cosmic-marvel--cosmic-picture-show-800.jpg",
+            "source": {
+              "url": "https://marvel.fandom.com/wiki/File:Amazing_Spider-Man_Vol_5_12_Fantastic_Four_Villains_Variant_Textless.jpg",
+              "license": "Copyrighted; used under fair use",
+              "author": "Marvel Comics"
+            }
           }
         },
         {
           "value": 1000,
-          "clue": "This golden being emerges from here in Guardians Vol. 3. Name him. Pictured: a glowing golden cocoon floating in a dark chamber.",
+          "clue": "This golden being emerges from here in Guardians Vol. 3. Name him.",
           "answer": "Adam Warlock",
           "accept": [
             "adam warlock",
@@ -431,8 +443,12 @@
           "dailyDouble": false,
           "media": {
             "type": "image",
-            "prompt": "A glowing golden cocoon floating in a dark chamber, cracks of bright light shining out of it, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
-            "file": "media/cosmic-marvel--cosmic-picture-show-1000.jpg"
+            "file": "media/cosmic-marvel--cosmic-picture-show-1000.jpg",
+            "source": {
+              "url": "https://marvelcinematicuniverse.fandom.com/wiki/File:WarlockCocoon.jpg",
+              "license": "Copyrighted; used under fair use",
+              "author": "Marvel Studios"
+            }
           }
         }
       ]

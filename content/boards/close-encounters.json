@@ -277,8 +277,12 @@
           "reveal": "[excited] The correct answer is Bao! Directed by Domee Shi, it played before Incredibles 2 and won the Oscar for animated short. [laughs] Now I'm hungry.",
           "media": {
             "type": "image",
-            "prompt": "Close-up of a single plump steamed dumpling in a bamboo steamer basket on a kitchen counter, wisps of steam, a teapot and soft morning window light Original illustration, cinematic lighting, no people, no characters, no text, no logos.",
-            "file": "media/close-encounters--snack-close-ups-1000.jpg"
+            "file": "media/close-encounters--snack-close-ups-1000.jpg",
+            "source": {
+              "url": "https://pixar.fandom.com/wiki/File:Screen_Shot_2018-11-05_at_3.42.22_PM.png",
+              "license": "Copyrighted; used under fair use",
+              "author": "Disney/Pixar"
+            }
           },
           "dailyDouble": false
         }
@@ -355,8 +359,12 @@
           "reveal": "[laughs] The correct answer is The Little Mermaid! Scuttle says it's for combing your hair. [chuckles] Do not take grooming advice from a seagull.",
           "media": {
             "type": "image",
-            "prompt": "A silver dinner fork lying among seashells, pearls and a pocket watch inside an underwater grotto full of human treasures, shafts of sunlight from above Original illustration, cinematic lighting, no people, no characters, no text, no logos.",
-            "file": "media/close-encounters--tiny-details-600.jpg"
+            "file": "media/close-encounters--tiny-details-600.jpg",
+            "source": {
+              "url": "https://disney.fandom.com/wiki/File:Little-mermaid-1080p-disneyscreencaps.com-781.jpg",
+              "license": "Copyrighted; used under fair use",
+              "author": "Walt Disney Pictures / Disney Television"
+            }
           },
           "dailyDouble": false
         },
@@ -378,8 +386,12 @@
           "reveal": "The correct answer is WALL-E! [gasps] That little plant proves Earth can grow life again. The whole Axiom heads home because of it.",
           "media": {
             "type": "image",
-            "prompt": "A tiny green seedling growing inside an old worn work boot, sitting on a pile of rusty junk with towers of compacted trash and a hazy orange sky in the background Original illustration, cinematic lighting, no people, no characters, no text, no logos.",
-            "file": "media/close-encounters--tiny-details-800.jpg"
+            "file": "media/close-encounters--tiny-details-800.jpg",
+            "source": {
+              "url": "https://pixar.fandom.com/wiki/File:WALL-E_plant1.jpg",
+              "license": "Copyrighted; used under fair use",
+              "author": "Disney/Pixar"
+            }
           },
           "dailyDouble": false
         },
@@ -399,8 +411,12 @@
           "reveal": "[excited] The correct answer is Treasure Planet! It's Treasure Island in outer space, with solar-sail galleons. [chuckles] Arrr, matey, in zero gravity.",
           "media": {
             "type": "image",
-            "prompt": "A small golden metal sphere covered in engraved symbols, opening up and projecting a glowing holographic star map of planets and nebulae in a dark ship cabin Original illustration, cinematic lighting, no people, no characters, no text, no logos.",
-            "file": "media/close-encounters--tiny-details-1000.jpg"
+            "file": "media/close-encounters--tiny-details-1000.jpg",
+            "source": {
+              "url": "https://disney.fandom.com/wiki/File:Twenty-Years-of-Treasure-Planet.jpg",
+              "license": "Copyrighted; used under fair use",
+              "author": "Walt Disney Pictures / Disney Television"
+            }
           },
           "dailyDouble": false
         }

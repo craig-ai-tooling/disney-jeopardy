@@ -261,8 +261,12 @@
           "reveal": "The correct answer is Bolt! That hamster ball belongs to Rhino, the most confident hamster in the world. [laughs] Total awesomeness!",
           "media": {
             "type": "image",
-            "prompt": "Cinematic digital painting of a clear plastic hamster ball rolling alone down an empty desert highway at sunset, a glowing white lightning-bolt shape painted on a dusty road sign, a Hollywood film soundstage visible in the far distance, no people, no animals, no text",
-            "file": "media/cats-and-dogs--paws-for-a-close-up-400.jpg"
+            "file": "media/cats-and-dogs--paws-for-a-close-up-400.jpg",
+            "source": {
+              "url": "https://disney.fandom.com/wiki/File:Bolt_(film)_Bolt_super_bark.JPG",
+              "license": "Copyrighted; used under fair use",
+              "author": "Walt Disney Pictures / Disney Television"
+            }
           },
           "dailyDouble": false
         },

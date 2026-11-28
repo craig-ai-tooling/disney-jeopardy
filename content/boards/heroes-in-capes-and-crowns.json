@@ -239,8 +239,12 @@
           "reveal": "The correct answer is Cinderella! [laughs] Glass shoes. Dancing until midnight. Absolutely zero arch support.",
           "media": {
             "type": "image",
-            "prompt": "Extreme close-up of a single sparkling glass slipper resting on a velvet royal cushion on a palace staircase, moonlight glinting through the crystal, no people or characters",
-            "file": "media/heroes-in-capes-and-crowns--crown-jewels-200.jpg"
+            "file": "media/heroes-in-capes-and-crowns--crown-jewels-200.jpg",
+            "source": {
+              "url": "https://disney.fandom.com/wiki/File:Cinderella-s-Glass-Slipper-classic-disney-6344142-1024-768.jpg",
+              "license": "Copyrighted; used under fair use",
+              "author": "Walt Disney Pictures / Disney Television"
+            }
           },
           "dailyDouble": false
         },
@@ -260,8 +264,12 @@
           "reveal": "The correct answer is Moana! [cheerful] The heart of Te Fiti. Strictly speaking, she's returning it, not keeping it. Very hero of her.",
           "media": {
             "type": "image",
-            "prompt": "Extreme close-up of a small smooth green stone carved with a glowing spiral, resting in a hand-woven locket on a sandy beach with turquoise waves behind, no people or characters",
-            "file": "media/heroes-in-capes-and-crowns--crown-jewels-400.jpg"
+            "file": "media/heroes-in-capes-and-crowns--crown-jewels-400.jpg",
+            "source": {
+              "url": "https://disney.fandom.com/wiki/File:Moana-disneyscreencaps_com-10398.jpg",
+              "license": "Copyrighted; used under fair use",
+              "author": "Walt Disney Pictures / Disney Television"
+            }
           },
           "dailyDouble": false
         },

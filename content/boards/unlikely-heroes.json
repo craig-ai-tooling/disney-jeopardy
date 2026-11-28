@@ -241,8 +241,12 @@
           "reveal": "The correct answer is WALL-E! A trash-compacting robot keeps a tiny plant in an old boot, and saves all of humanity. [sighs] Plants are hard to keep alive.",
           "media": {
             "type": "image",
-            "prompt": "Original painterly digital illustration, 4:3, no people, no characters, no logos, no text or lettering. A small green seedling with two leaves planted in a dirty old work boot, sitting on a rusty metal shelf beside stacked cubes of compacted trash, a hazy orange sky outside.",
-            "file": "media/unlikely-heroes--zoom-to-the-rescue-200.jpg"
+            "file": "media/unlikely-heroes--zoom-to-the-rescue-200.jpg",
+            "source": {
+              "url": "https://pixar.fandom.com/wiki/File:WALL-E_plant1.jpg",
+              "license": "Copyrighted; used under fair use",
+              "author": "Disney/Pixar"
+            }
           },
           "dailyDouble": false
         },
@@ -284,8 +288,12 @@
           "reveal": "The correct answer is Remy! A rat who can cook. [laughs] Health inspectors everywhere hate this movie.",
           "media": {
             "type": "image",
-            "prompt": "Original painterly digital illustration, 4:3, no people, no characters, no logos, no text or lettering. A tiny white chef's toque the size of a thimble on a gleaming steel kitchen counter, a sprig of thyme and a tiny wooden spoon beside a huge copper pot.",
-            "file": "media/unlikely-heroes--zoom-to-the-rescue-600.jpg"
+            "file": "media/unlikely-heroes--zoom-to-the-rescue-600.jpg",
+            "source": {
+              "url": "https://pixar.fandom.com/wiki/File:Ratatouille-remy.jpg",
+              "license": "Copyrighted; used under fair use",
+              "author": "Disney/Pixar"
+            }
           },
           "dailyDouble": false
         },
@@ -327,8 +335,12 @@
           "reveal": "[excited] The correct answer is Milo Thatch! A linguist with a dusty journal leads the way to Atlantis. [laughs] Turns out reading IS a superpower.",
           "media": {
             "type": "image",
-            "prompt": "Original painterly digital illustration, 4:3, no people, no characters, no logos, no text or lettering. An old leather journal open on a desk to a map of a sunken city, a glowing blue crystal pendant on a cord lying across the pages, a pair of round glasses, a submarine visible through a porthole.",
-            "file": "media/unlikely-heroes--zoom-to-the-rescue-1000.jpg"
+            "file": "media/unlikely-heroes--zoom-to-the-rescue-1000.jpg",
+            "source": {
+              "url": "https://disney.fandom.com/wiki/File:Shepherd%27s-Journal-Over-The-Sea.JPG",
+              "license": "Copyrighted; used under fair use",
+              "author": "Walt Disney Pictures / Disney Television"
+            }
           },
           "dailyDouble": false
         }

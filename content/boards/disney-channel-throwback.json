@@ -289,8 +289,12 @@
           "reveal": "The correct answer is That's So Raven! [gasps] Ya know... she saw that one coming.",
           "media": {
             "type": "image",
-            "prompt": "A colorful San Francisco row house kitchen where a swirling purple psychic vision glows in the air, a fashion sketchbook on the table and a cable car visible outside the window, no people, no text, no logos, no copyrighted characters",
-            "file": "media/disney-channel-throwback--throwback-zoom-600.jpg"
+            "file": "media/disney-channel-throwback--throwback-zoom-600.jpg",
+            "source": {
+              "url": "https://disney.fandom.com/wiki/File:That%27s_So_Raven_-_To_See_or_Not_to_See_-_Vision.jpg",
+              "license": "Copyrighted; used under fair use",
+              "author": "Walt Disney Pictures / Disney Television"
+            }
           },
           "dailyDouble": false
         },

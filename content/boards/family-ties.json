@@ -261,8 +261,12 @@
           "reveal": "The correct answer is Encanto! Casita glows thanks to a magic candle, and every Madrigal gets a door. [laughs] Except, you know, one.",
           "media": {
             "type": "image",
-            "prompt": "Original painterly digital illustration, 4:3, no people, no characters, no logos, no text or lettering. A colourful two-storey Colombian hacienda courtyard in the mountains, a row of glowing carved wooden doors on the upper balcony, a single candle burning in a window, yellow butterflies in the air.",
-            "file": "media/family-ties--family-heirlooms-400.jpg"
+            "file": "media/family-ties--family-heirlooms-400.jpg",
+            "source": {
+              "url": "https://disney.fandom.com/wiki/File:Encanto_-_Doors_Concept_art.jpg",
+              "license": "Copyrighted; used under fair use",
+              "author": "Walt Disney Pictures / Disney Television"
+            }
           },
           "dailyDouble": false
         },

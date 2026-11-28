@@ -375,8 +375,12 @@
           "reveal": "The correct answer is The Magic Carpets of Aladdin! [laughs] Watch out for the spitting camel. He has excellent aim.",
           "media": {
             "type": "image",
-            "prompt": "Sunny Arabian bazaar courtyard with a ring of colorful flying-carpet ride vehicles circling a giant golden oil lamp on a pedestal, palm trees, striped awnings and brass lanterns, a stone camel statue in the background, theme park ride photo, no people, no text, no logos",
-            "file": "media/bibbidi-bobbidi-magic--enchanted-attractions-200.jpg"
+            "file": "media/bibbidi-bobbidi-magic--enchanted-attractions-200.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Tokyo_DisneySea_The_Magic_Carpets_of_Aladdin_201306.jpg",
+              "license": "CC BY 3.0",
+              "author": "Wing1990hk"
+            }
           },
           "dailyDouble": false
         },
@@ -398,8 +402,12 @@
           "reveal": "The correct answer is Peter Pan's Flight! [excited] Think happy thoughts! The line is long, but flying over London is worth it.",
           "media": {
             "type": "image",
-            "prompt": "Small wooden pirate-galleon ride vehicle hanging from an overhead track, flying through a starry night sky above a glowing miniature model of Victorian London with a clock tower, a bridge and the winding river below, sparkling golden dust trailing behind, no people, no text, no logos",
-            "file": "media/bibbidi-bobbidi-magic--enchanted-attractions-400.jpg"
+            "file": "media/bibbidi-bobbidi-magic--enchanted-attractions-400.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Peter_Pan%27s_Flight_Tokyo_Disneyland_-_5886484431.jpg",
+              "license": "CC BY 2.0",
+              "author": "Jeremy Thompson"
+            }
           },
           "dailyDouble": false
         },
@@ -422,8 +430,12 @@
           "reveal": "The correct answer is the Enchanted Tiki Room! [singing] In the tiki tiki tiki tiki tiki room! [laughs] Sorry, it's stuck in my head now, and yours too.",
           "media": {
             "type": "image",
-            "prompt": "Interior of a thatched Polynesian show room, carved wooden tiki poles, bright tropical parrots perched on hanging perches, a central fountain of tropical flowers, warm torch light and colorful lanterns, theme park photo, no people, no text, no logos",
-            "file": "media/bibbidi-bobbidi-magic--enchanted-attractions-600.jpg"
+            "file": "media/bibbidi-bobbidi-magic--enchanted-attractions-600.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Enchanted_Tiki_Room_at_Walt_Disney_World_Magic_Kingdom.JPG",
+              "license": "CC BY-SA 3.0",
+              "author": "Mttbme"
+            }
           },
           "dailyDouble": false
         },
@@ -469,8 +481,12 @@
           "reveal": "The correct answer is The Sword in the Stone! [chuckles] Whoever pulls it out becomes king. I've tried. Many times. Still not king.",
           "media": {
             "type": "image",
-            "prompt": "Medieval sword with a golden hilt plunged into an iron anvil set on a mossy stone block, glowing beam of sunlight from above, a colorful carousel with golden poles blurred in the background of a fairy-tale village plaza, no people, no text, no logos",
-            "file": "media/bibbidi-bobbidi-magic--enchanted-attractions-1000.jpg"
+            "file": "media/bibbidi-bobbidi-magic--enchanted-attractions-1000.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Disneyland_Sword_in_the_Stone_by_Dave_Q.jpg",
+              "license": "CC BY 2.0",
+              "author": "Dave Q from flickr.com - https://www.flickr.com/photos/goodspeed/"
+            }
           },
           "dailyDouble": false
         }
