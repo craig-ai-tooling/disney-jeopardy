@@ -301,7 +301,6 @@ class MainActivity : Activity() {
         handler.removeCallbacks(retryTick)
         mainFrameError = false
         pageTopLevel = false
-        retryAttempt = 0
         showOverlay(loading = true)
         val wv = webView ?: return
         val url = boardUrl()
@@ -345,6 +344,7 @@ class MainActivity : Activity() {
     }
 
     private fun hideOverlay() {
+        retryAttempt = 0
         overlay.visibility = View.GONE
         webView?.requestFocus()
     }
