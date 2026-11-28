@@ -54,12 +54,13 @@ function onPhase(prev) {
   if (ph === 'answering' && S.clue?.answerer === me) { vibrate([80, 40, 80]); draft = ''; answerAt = performance.now(); }
   if (ph === 'ddWager' && S.control === me) vibrate([100, 50, 100]);
   if (ph === 'reveal' || ph === 'buzzing') {
-    const r = S.clue?.results.findLast?.((x) => x.pid === me);
+    const r = lastOf(S.clue?.results, (x) => x.pid === me);
     if (r && r !== lastResult && (ph === 'reveal' || r.verdict === 'wrong')) { lastResult = r; vibrate(r.verdict === 'correct' ? [40, 40, 40, 40, 220] : r.verdict === 'wrong' ? [350] : [60, 60, 60]); }
   }
   if (ph === 'finalThink' || ph === 'finalWager') draft = '';
 }
 
+const lastOf = (arr, fn) => { for (let i = (arr || []).length - 1; i >= 0; i--) if (fn(arr[i])) return arr[i]; };
 const ORD = (n) => `${n}${['th', 'st', 'nd', 'rd'][(n % 100 > 10 && n % 100 < 14) || n % 10 > 3 ? 0 : n % 10]}`;
 const secs = (ms) => `${(ms / 1000).toFixed(2)}s`;
 const auto = () => S.settings.autoAdvance !== false;
@@ -207,7 +208,7 @@ function buzzLine() {
 }
 
 function revealView() {
-  const c = S.clue; const r = c.results.findLast((x) => x.pid === me);
+  const c = S.clue; const r = lastOf(c.results, (x) => x.pid === me);
   const win = c.results.find((x) => x.verdict === 'correct');
   const mood = r ? r.verdict === 'correct' ? 'win' : r.verdict === 'close' ? 'close' : 'lose' : '';
   document.body.classList.remove('win', 'lose', 'close', 'done'); if (mood) document.body.classList.add(mood);
@@ -251,7 +252,7 @@ function render() {
     if (c.dailyDouble) h = `${top()}<h2>Daily Double</h2><div class="muted">${c.ddPlayer === me ? 'Listen up — it\'s all yours.' : `${esc(P(c.ddPlayer)?.name)} is answering.`}</div>`;
     else {
       const out = c.attempted.includes(me);
-      const mineRes = c.results.findLast((x) => x.pid === me);
+      const mineRes = lastOf(c.results, (x) => x.pid === me);
       const why = out ? (mineRes ? `You said “${esc(mineRes.heard || '…')}”. Others can still steal it.` : 'You already took your shot.') : ph === 'reading' ? 'Wait for the lights. Buzz early and you\'re locked out for a moment!' : 'Buzzers are open!';
       h = `${top()}<div class="clueinfo"><span>${esc(c.category)}</span><b>${money(c.value)}</b></div>${c.text && !c.media ? `<div class="cluetext">${esc(c.text)}</div>` : ''}<button class="buzzer ${ph === 'buzzing' && !out ? 'open' : 'wait'}" id="buzz">${out ? 'LOCKED OUT' : ph === 'buzzing' ? 'BUZZ!' : 'wait…'}</button><div class="muted">${why}</div>`;
     }
