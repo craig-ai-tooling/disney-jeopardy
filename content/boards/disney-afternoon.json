@@ -519,17 +519,17 @@
         {
           "value": 1000,
           "clue": "Finish the theme song lyric: Dashing and daring, courageous and caring, faithful and friendly, with stories to...",
-          "answer": "Tell",
+          "answer": "Share",
           "accept": [
-            "tell"
+            "share"
           ],
           "choices": [
-            "Tell",
             "Share",
+            "Tell",
             "Spare",
-            "Sell"
+            "Bear"
           ],
-          "reveal": "The correct answer is tell! [excited] They're the Gummi Bears! Bouncing here and there and everywhere, since 1985.",
+          "reveal": "The correct answer is share! [excited] They're the Gummi Bears! Bouncing here and there and everywhere, since 1985.",
           "dailyDouble": false
         }
       ]
