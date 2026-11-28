@@ -1,0 +1,535 @@
+{
+  "id": "heroes-in-capes-and-crowns",
+  "title": "Heroes in Capes and Crowns",
+  "theme": "Superheroes and royalty",
+  "tags": [
+    "superheroes",
+    "royalty",
+    "marvel",
+    "kings",
+    "queens"
+  ],
+  "intro": "[excited] All rise! Tonight we honor the heroes who wear capes AND the royals who wear crowns... and the overachievers who wear both. [laughs] Long live the champion of Heroes in Capes and Crowns!",
+  "art": {
+    "prompt": "A dramatic throne room at dusk with a jeweled crown resting on a velvet cushion beside a heroic red cape billowing in the wind, stained-glass windows, lightning crackling over a futuristic skyline visible beyond the balcony Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+    "file": "media/heroes-in-capes-and-crowns.jpg"
+  },
+  "categories": [
+    {
+      "id": "king-of-wakanda",
+      "title": "Long Live the King",
+      "kind": "film",
+      "intro": "Our film category is Marvel's Black Panther, starring a superhero who also happens to run a whole country. [chuckles] Talk about a busy calendar.",
+      "format": "text",
+      "art": {
+        "prompt": "A lush hidden kingdom of glowing purple flowers, towering waterfalls cascading into a misty gorge, and a gleaming futuristic city with sleek towers beyond the jungle at sunset Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/heroes-in-capes-and-crowns--king-of-wakanda.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "T'Challa is king of this hidden African nation in Black Panther.",
+          "answer": "Wakanda",
+          "accept": [
+            "wakanda"
+          ],
+          "choices": [
+            "Wakanda",
+            "Zamunda",
+            "Genovia",
+            "Sokovia"
+          ],
+          "reveal": "[cheerful] The correct answer is Wakanda! Wakanda forever! Go ahead, cross those arms. I'll wait.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Wakanda's incredible technology is powered by this rare metal from a meteorite.",
+          "answer": "Vibranium",
+          "accept": [
+            "vibranium"
+          ],
+          "choices": [
+            "Vibranium",
+            "Adamantium",
+            "Uru",
+            "Kryptonite"
+          ],
+          "reveal": "The correct answer is vibranium! [chuckles] Captain America's shield is made of it too. Kryptonite is from a whole other comic universe.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Black Panther's powers come from eating this glowing purple plant.",
+          "answer": "The heart-shaped herb",
+          "accept": [
+            "the heart-shaped herb",
+            "heart-shaped herb",
+            "heart shaped herb",
+            "the heart shaped herb"
+          ],
+          "choices": [
+            "The heart-shaped herb",
+            "The moon flower",
+            "The sun drop",
+            "The golden lotus"
+          ],
+          "reveal": "The correct answer is the heart-shaped herb! [whispers] Not recommended for salads. Side effects include superpowers.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Challengers fight for Wakanda's throne in ritual combat at this cliffside location.",
+          "answer": "Warrior Falls",
+          "accept": [
+            "warrior falls"
+          ],
+          "choices": [
+            "Warrior Falls",
+            "Panther Peak",
+            "Jabari Gorge",
+            "Golden City Falls"
+          ],
+          "reveal": "The correct answer is Warrior Falls! [gasps] Nothing says job interview like fighting on the edge of a waterfall.",
+          "dailyDouble": true
+        },
+        {
+          "value": 1000,
+          "clue": "This Swedish composer won the Oscar for Black Panther's score.",
+          "answer": "Ludwig Göransson",
+          "accept": [
+            "ludwig göransson",
+            "ludwig goransson",
+            "göransson",
+            "goransson"
+          ],
+          "choices": [
+            "Ludwig Göransson",
+            "Alan Silvestri",
+            "Michael Giacchino",
+            "Hans Zimmer"
+          ],
+          "reveal": "[impressed] The correct answer is Ludwig Göransson! He traveled to Senegal and South Africa to research the music. Royal-level homework.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "super-royals",
+      "title": "Super Royals",
+      "kind": "theme",
+      "intro": "Name the royal with a heroic streak. [mischievously] Crowns are optional, but heroics are mandatory.",
+      "format": "text",
+      "art": {
+        "prompt": "A grand royal hall where a stone sword is wedged in an anvil, a mighty war hammer rests on a throne, and an icy blue undersea crown glows on a pedestal Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/heroes-in-capes-and-crowns--super-royals.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This Marvel god of thunder is a prince of Asgard.",
+          "answer": "Thor",
+          "accept": [
+            "thor"
+          ],
+          "choices": [
+            "Thor",
+            "Loki",
+            "Odin",
+            "Heimdall"
+          ],
+          "reveal": "The correct answer is Thor! [laughs] Prince, Avenger, and owner of the most stylish hammer in the galaxy.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Nicknamed Wart, this boy becomes king by pulling a sword from a stone.",
+          "answer": "Arthur",
+          "accept": [
+            "arthur",
+            "king arthur",
+            "wart"
+          ],
+          "choices": [
+            "Arthur",
+            "Merlin",
+            "Kay",
+            "Lancelot"
+          ],
+          "reveal": "The correct answer is Arthur! [cheerful] From kitchen scullery boy to King of England in one tug. Best career move ever.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "This warrior princess of Heart travels Kumandra to find the last dragon, Sisu.",
+          "answer": "Raya",
+          "accept": [
+            "raya",
+            "princess raya"
+          ],
+          "choices": [
+            "Raya",
+            "Namaari",
+            "Virana",
+            "Kida"
+          ],
+          "reveal": "The correct answer is Raya! [excited] Princess, warrior AND a world-class trust-issues haver. Relatable.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In Black Panther: Wakanda Forever, this underwater king rules the hidden kingdom of Talokan.",
+          "answer": "Namor",
+          "accept": [
+            "namor",
+            "k'uk'ulkan"
+          ],
+          "choices": [
+            "Namor",
+            "Attuma",
+            "Triton",
+            "Aquaman"
+          ],
+          "reveal": "The correct answer is Namor! [dramatic pause] Feathered serpent god to his people. Ankle wings to the rest of us.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "In the MCU, Loki's birth father is this king of the Frost Giants.",
+          "answer": "Laufey",
+          "accept": [
+            "laufey"
+          ],
+          "choices": [
+            "Laufey",
+            "Surtur",
+            "Bor",
+            "Ymir"
+          ],
+          "reveal": "[impressed] The correct answer is Laufey! [sarcastic] Family reunions in Asgard are just a LITTLE awkward.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "crown-jewels",
+      "title": "Crown Jewels and Utility Belts",
+      "kind": "media",
+      "intro": "We're zooming WAY in on a royal or heroic treasure. Name the character who owns it. [whispers] Squint harder.",
+      "format": "zoom",
+      "art": {
+        "prompt": "A treasure-vault display case under spotlights holding a sparkling glass slipper, a green spiral stone, a golden medallion and a glowing blue crystal pendant Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/heroes-in-capes-and-crowns--crown-jewels.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Whose sparkling treasure is this?",
+          "answer": "Cinderella",
+          "accept": [
+            "cinderella"
+          ],
+          "choices": [
+            "Cinderella",
+            "Aurora",
+            "Belle",
+            "Snow White"
+          ],
+          "reveal": "The correct answer is Cinderella! [laughs] Glass shoes. Dancing until midnight. Absolutely zero arch support.",
+          "media": {
+            "type": "image",
+            "prompt": "Extreme close-up of a single sparkling glass slipper resting on a velvet royal cushion on a palace staircase, moonlight glinting through the crystal, no people or characters",
+            "file": "media/heroes-in-capes-and-crowns--crown-jewels-200.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Whose island treasure is this?",
+          "answer": "Moana",
+          "accept": [
+            "moana"
+          ],
+          "choices": [
+            "Moana",
+            "Maui",
+            "Te Ka",
+            "Gramma Tala"
+          ],
+          "reveal": "The correct answer is Moana! [cheerful] The heart of Te Fiti. Strictly speaking, she's returning it, not keeping it. Very hero of her.",
+          "media": {
+            "type": "image",
+            "prompt": "Extreme close-up of a small smooth green stone carved with a glowing spiral, resting in a hand-woven locket on a sandy beach with turquoise waves behind, no people or characters",
+            "file": "media/heroes-in-capes-and-crowns--crown-jewels-400.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Whose heavenly keepsake is this?",
+          "answer": "Hercules",
+          "accept": [
+            "hercules",
+            "herc"
+          ],
+          "choices": [
+            "Hercules",
+            "Perseus",
+            "Achilles",
+            "Jason"
+          ],
+          "reveal": "The correct answer is Hercules! [excited] That lightning bolt medallion proves he's the son of Zeus. Go the distance, buddy!",
+          "media": {
+            "type": "image",
+            "prompt": "Extreme close-up of a round golden medallion stamped with a lightning bolt, hanging from a leather cord on a Greek marble column, golden clouds behind, no people or characters",
+            "file": "media/heroes-in-capes-and-crowns--crown-jewels-600.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Whose imperial reward is this?",
+          "answer": "Mulan",
+          "accept": [
+            "mulan",
+            "fa mulan"
+          ],
+          "choices": [
+            "Mulan",
+            "Shang",
+            "Mushu",
+            "Mei"
+          ],
+          "reveal": "The correct answer is Mulan! [whispers] The Emperor gave her his crest and the villain's sword, so the world knows what she did for China.",
+          "media": {
+            "type": "image",
+            "prompt": "Extreme close-up of a carved jade-and-gold imperial pendant on a red silk cord lying beside a curved sword on a lacquered table, cherry blossom petals scattered, no people or characters",
+            "file": "media/heroes-in-capes-and-crowns--crown-jewels-800.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Whose glowing heirloom is this?",
+          "answer": "Kida",
+          "accept": [
+            "kida",
+            "kidagakash",
+            "princess kida"
+          ],
+          "choices": [
+            "Kida",
+            "Audrey",
+            "Helga",
+            "Raya"
+          ],
+          "reveal": "[gasps] The correct answer is Kida! The Atlantean crystal. Princess of Atlantis, ancient lore expert, and fantastic swimmer.",
+          "media": {
+            "type": "image",
+            "prompt": "Extreme close-up of a glowing blue crystal pendant on a cord, floating above ancient carved stone glyphs in a dark underwater city, beams of light around it, no people or characters",
+            "file": "media/heroes-in-capes-and-crowns--crown-jewels-1000.jpg"
+          },
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "capes-and-castles",
+      "title": "Capes and Castles",
+      "kind": "parks",
+      "intro": "Disney Parks have room for royal makeovers AND super missions. [chuckles] Some days you need a tiara, some days you need a jetpack.",
+      "format": "text",
+      "art": {
+        "prompt": "A theme-park plaza at twilight with a fairy-tale castle on one side and a sleek superhero headquarters with a glowing launch pad on the other, banners fluttering, fireworks overhead Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/heroes-in-capes-and-crowns--capes-and-castles.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "At Magic Kingdom, kids get royal makeovers inside Cinderella Castle at this salon.",
+          "answer": "Bibbidi Bobbidi Boutique",
+          "accept": [
+            "bibbidi bobbidi boutique",
+            "bibbidi bobbidi"
+          ],
+          "choices": [
+            "Bibbidi Bobbidi Boutique",
+            "Royal Glamour Studio",
+            "Fairy Godmother's Salon",
+            "Castle Couture"
+          ],
+          "reveal": "The correct answer is Bibbidi Bobbidi Boutique! [excited] Walk in a kid, walk out a royal. Glitter will be found in your car for YEARS.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "This EPCOT coaster lets guests help the Guardians of the Galaxy with spinning ride vehicles and a reverse launch.",
+          "answer": "Guardians of the Galaxy: Cosmic Rewind",
+          "accept": [
+            "guardians of the galaxy cosmic rewind",
+            "cosmic rewind",
+            "guardians of the galaxy: cosmic rewind"
+          ],
+          "choices": [
+            "Guardians of the Galaxy: Cosmic Rewind",
+            "Guardians of the Galaxy: Mission BREAKOUT!",
+            "Test Track",
+            "Mission: SPACE"
+          ],
+          "reveal": "The correct answer is Cosmic Rewind! [laughs] It opened in 2022 and became one of the longest enclosed coasters in the world. Awesome Mix not included.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "At Avengers Campus, this restaurant uses shrinking and growing science to serve tiny and giant food.",
+          "answer": "Pym Test Kitchen",
+          "accept": [
+            "pym test kitchen",
+            "pym kitchen"
+          ],
+          "choices": [
+            "Pym Test Kitchen",
+            "Shawarma Palace",
+            "Stark Food Lab",
+            "Quantum Cafe"
+          ],
+          "reveal": "The correct answer is Pym Test Kitchen! [chuckles] Giant pretzels, teeny-tiny snacks. Ant-Man would be proud.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "At EPCOT's Norway pavilion, guests meet Anna and Elsa at this royal summer house.",
+          "answer": "Royal Sommerhus",
+          "accept": [
+            "royal sommerhus",
+            "sommerhus"
+          ],
+          "choices": [
+            "Royal Sommerhus",
+            "Akershus Royal Banquet Hall",
+            "Stave Church Gallery",
+            "Princess Fairytale Hall"
+          ],
+          "reveal": "The correct answer is Royal Sommerhus! [cheerful] Even queens need a vacation home. Elsa keeps the air conditioning very, VERY cold.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "At Disneyland Paris's Avengers Campus, Iron Man and Captain Marvel need your help on this launched coaster.",
+          "answer": "Avengers Assemble: Flight Force",
+          "accept": [
+            "avengers assemble flight force",
+            "flight force",
+            "avengers assemble: flight force"
+          ],
+          "choices": [
+            "Avengers Assemble: Flight Force",
+            "Iron Man Experience",
+            "Spider-Man W.E.B. Adventure",
+            "Rock 'n' Roller Coaster"
+          ],
+          "reveal": "[impressed] The correct answer is Avengers Assemble: Flight Force! It replaced the old Rock 'n' Roller Coaster in 2022. True nerds knew.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "heir-today",
+      "title": "Heir Today, Hero Tomorrow",
+      "kind": "fan",
+      "intro": "Our wildcard mixes royal families with heroic deeds. [sarcastic] Because being royalty is clearly not enough work already.",
+      "format": "text",
+      "art": {
+        "prompt": "A royal crown balancing on top of a superhero mask, resting on a stack of ancient scrolls and comic-style pages with no lettering, golden lightning flickering in the background Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/heroes-in-capes-and-crowns--heir-today.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "King of the gods on Mount Olympus and father of Hercules.",
+          "answer": "Zeus",
+          "accept": [
+            "zeus"
+          ],
+          "choices": [
+            "Zeus",
+            "Hades",
+            "Poseidon",
+            "Apollo"
+          ],
+          "reveal": "The correct answer is Zeus! [laughs] Throws lightning, rules Olympus, still gets lost looking for his son's baby pictures.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Prince Naveen comes to New Orleans from this faraway kingdom.",
+          "answer": "Maldonia",
+          "accept": [
+            "maldonia"
+          ],
+          "choices": [
+            "Maldonia",
+            "Corona",
+            "Arendelle",
+            "Agrabah"
+          ],
+          "reveal": "The correct answer is Maldonia! [chuckles] A prince with no money, a ukulele, and a frog problem.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Elsa gives Kristoff this official royal title at the end of Frozen.",
+          "answer": "Official Arendelle Ice Master and Deliverer",
+          "accept": [
+            "official arendelle ice master and deliverer",
+            "ice master and deliverer",
+            "ice master",
+            "royal ice master"
+          ],
+          "choices": [
+            "Official Arendelle Ice Master and Deliverer",
+            "Royal Reindeer Ranger",
+            "Keeper of the Northern Ice",
+            "Arendelle Ice Guard"
+          ],
+          "reveal": "The correct answer is Official Arendelle Ice Master and Deliverer! [laughs] He got a new sled AND a title. Best sled upgrade ever.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In the Kingdom Hearts video games, Donald and Goofy serve this king.",
+          "answer": "King Mickey",
+          "accept": [
+            "king mickey",
+            "mickey",
+            "mickey mouse"
+          ],
+          "choices": [
+            "King Mickey",
+            "King Triton",
+            "King Louie",
+            "King Hubert"
+          ],
+          "reveal": "The correct answer is King Mickey! [excited] Mouse, monarch, keyblade master. Not bad for a guy in red shorts.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "In this 2005 Disney movie set at a floating high school for teen superheroes, the villain calls herself Royal Pain.",
+          "answer": "Sky High",
+          "accept": [
+            "sky high"
+          ],
+          "choices": [
+            "Sky High",
+            "Zenon: Girl of the 21st Century",
+            "The Incredibles",
+            "Mighty Med"
+          ],
+          "reveal": "[impressed] The correct answer is Sky High! Hero or sidekick? Lunch table drama has never been so super.",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}

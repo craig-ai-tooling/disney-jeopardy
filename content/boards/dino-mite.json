@@ -1,0 +1,546 @@
+{
+  "id": "dino-mite",
+  "title": "Dino-Mite!",
+  "theme": "Dinosaurs in Disney",
+  "tags": [
+    "dinosaurs",
+    "prehistoric",
+    "fossils"
+  ],
+  "intro": "[excited] ROAR! Welcome to the Dino-Mite episode, where tonight's clues are big, toothy, and about sixty-five million years overdue. [laughs] Don't worry, nobody here is going extinct... except maybe your score.",
+  "art": {
+    "prompt": "A sunlit prehistoric valley with towering ferns, a smoking volcano and a glowing comet streaking across an orange sky, giant fossil skeletons half-buried in a dig site with brushes, picks and lanterns in the foreground Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+    "file": "media/dino-mite.jpg"
+  },
+  "categories": [
+    {
+      "id": "good-dino",
+      "title": "The Good, the Bad, and the Dino",
+      "kind": "film",
+      "intro": "Our film category stars a gentle giant who's afraid of, well, pretty much everything. [chuckles] Same, buddy. Same.",
+      "format": "text",
+      "art": {
+        "prompt": "A rustic stone silo and a golden cornfield on a misty mountain farm at dawn, enormous dinosaur footprints pressed into the dirt path, a jagged snowy mountain range and a winding river behind Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/dino-mite--good-dino.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In The Good Dinosaur, this little human boy acts a lot like a pet dog.",
+          "answer": "Spot",
+          "accept": [
+            "spot"
+          ],
+          "choices": [
+            "Spot",
+            "Butch",
+            "Thunderclap",
+            "Ramsey"
+          ],
+          "reveal": "[cheerful] The correct answer is Spot! He sniffs, he howls, he fetches. Best boy. Literally.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Arlo is this kind of long-necked plant-eating dinosaur.",
+          "answer": "Apatosaurus",
+          "accept": [
+            "apatosaurus"
+          ],
+          "choices": [
+            "Apatosaurus",
+            "Triceratops",
+            "Stegosaurus",
+            "Velociraptor"
+          ],
+          "reveal": "The correct answer is Apatosaurus! [laughs] Big neck, big heart, very big fear of chickens.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Arlo's family are farmers who store this crop in their silo.",
+          "answer": "Corn",
+          "accept": [
+            "corn",
+            "maize"
+          ],
+          "choices": [
+            "Corn",
+            "Wheat",
+            "Rice",
+            "Pumpkins"
+          ],
+          "reveal": "The correct answer is corn! [chuckles] A family of giant dinosaurs running a farm. Old MacDino had a farm, E I E I ROAR.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "This gruff Tyrannosaurus rancher in The Good Dinosaur is voiced by Sam Elliott.",
+          "answer": "Butch",
+          "accept": [
+            "butch"
+          ],
+          "choices": [
+            "Butch",
+            "Nash",
+            "Ramsey",
+            "Thunderclap"
+          ],
+          "reveal": "The correct answer is Butch! [whispers] That voice could make a cactus cry. Butch has a story for every scar.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "This director, who also voices Forrest Woodbush, is credited with directing The Good Dinosaur.",
+          "answer": "Peter Sohn",
+          "accept": [
+            "peter sohn",
+            "sohn"
+          ],
+          "choices": [
+            "Peter Sohn",
+            "Bob Peterson",
+            "Dan Scanlon",
+            "Lee Unkrich"
+          ],
+          "reveal": "[impressed] The correct answer is Peter Sohn! He later directed Elemental too. Real Pixar paleontologists dug that one up.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "jurassic-disney",
+      "title": "Jurassic Disney",
+      "kind": "theme",
+      "intro": "Disney has been drawing dinosaurs since before your grandparents were born. [mischievously] Let's see who did their homework.",
+      "format": "text",
+      "art": {
+        "prompt": "A dramatic mural-like scene of prehistoric silhouettes against a red volcanic sunset, an orchestra conductor's baton and sheet music floating in the smoky sky, a tropical island with lemur-shaped tree silhouettes on the horizon Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/dino-mite--jurassic-disney.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In Toy Story, this nervous green Tyrannosaurus toy just wants to be scary.",
+          "answer": "Rex",
+          "accept": [
+            "rex"
+          ],
+          "choices": [
+            "Rex",
+            "Hamm",
+            "Slinky",
+            "Trixie"
+          ],
+          "reveal": "The correct answer is Rex! [laughs] The only T. rex who's scared of confrontation. Relatable king.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Disney's 2000 film Dinosaur stars this young Iguanodon hero.",
+          "answer": "Aladar",
+          "accept": [
+            "aladar"
+          ],
+          "choices": [
+            "Aladar",
+            "Kron",
+            "Bruton",
+            "Zini"
+          ],
+          "reveal": "The correct answer is Aladar! [excited] Not to be confused with Aladdin. Fewer magic carpets, MORE meteors.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Fantasia's dinosaur segment is set to this ballet score by Igor Stravinsky.",
+          "answer": "The Rite of Spring",
+          "accept": [
+            "the rite of spring",
+            "rite of spring"
+          ],
+          "choices": [
+            "The Rite of Spring",
+            "The Firebird",
+            "Night on Bald Mountain",
+            "The Nutcracker Suite"
+          ],
+          "reveal": "The correct answer is The Rite of Spring! [dramatic pause] The original 1913 ballet caused a near riot in Paris. Fantasia just added dinosaurs. Huge improvement.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In the movie Dinosaur, Aladar is raised on an island by a family of these primates.",
+          "answer": "Lemurs",
+          "accept": [
+            "lemurs",
+            "lemur"
+          ],
+          "choices": [
+            "Lemurs",
+            "Monkeys",
+            "Chimpanzees",
+            "Sloths"
+          ],
+          "reveal": "The correct answer is lemurs! [chuckles] Grandpa Yar and the gang. Sort of a dino-sized adoption story.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "This ABC sitcom from 1991 to 1994, made with the Jim Henson Company, followed the Sinclair family of dinosaurs.",
+          "answer": "Dinosaurs",
+          "accept": [
+            "dinosaurs",
+            "dinosaurs the sitcom"
+          ],
+          "choices": [
+            "Dinosaurs",
+            "Dinosaucers",
+            "Denver, the Last Dinosaur",
+            "Barney & Friends"
+          ],
+          "reveal": "[gasps] The correct answer is Dinosaurs! Baby Sinclair's catchphrase? NOT THE MAMA! [laughs] Every nerd just yelled it with me.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "emoji-saurus",
+      "title": "Emoji-saurus",
+      "kind": "media",
+      "intro": "Name the Disney or Pixar movie from these emoji. [whispers] There's a dinosaur hiding in every single one.",
+      "format": "emoji",
+      "art": {
+        "prompt": "A playful 3D cluster of glossy cartoon emoji-style bubbles shaped like dinosaur heads, corn cobs, comets and music notes floating over a jungle backdrop, bright candy colors Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/dino-mite--emoji-saurus.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "🦖🤠🚀 Hint: playtime with a timid T. rex.",
+          "answer": "Toy Story",
+          "accept": [
+            "toy story"
+          ],
+          "choices": [
+            "Toy Story",
+            "Toy Story 4",
+            "Lightyear",
+            "Night at the Museum"
+          ],
+          "reveal": "The correct answer is Toy Story! [cheerful] The very first Pixar feature, from 1995, and Rex has been panicking ever since.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "🦕🌽👦 Hint: a farm boy meets a wild boy.",
+          "answer": "The Good Dinosaur",
+          "accept": [
+            "the good dinosaur",
+            "good dinosaur"
+          ],
+          "choices": [
+            "The Good Dinosaur",
+            "Dinosaur",
+            "Brother Bear",
+            "Ice Age"
+          ],
+          "reveal": "The correct answer is The Good Dinosaur! [chuckles] That corn emoji was doing a LOT of heavy lifting.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "🦕🐒☄️ Hint: a herd's long trek after a fiery fall from the sky.",
+          "answer": "Dinosaur",
+          "accept": [
+            "dinosaur",
+            "disney's dinosaur"
+          ],
+          "choices": [
+            "Dinosaur",
+            "The Good Dinosaur",
+            "Tarzan",
+            "The Land Before Time"
+          ],
+          "reveal": "The correct answer is Dinosaur! [excited] Released in 2000, it mixed computer-animated dinos with real filmed backgrounds.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "🦖🎩⏰ Hint: a time-traveling orphan and a bowler-hat villain.",
+          "answer": "Meet the Robinsons",
+          "accept": [
+            "meet the robinsons",
+            "the robinsons"
+          ],
+          "choices": [
+            "Meet the Robinsons",
+            "Bolt",
+            "Chicken Little",
+            "Treasure Planet"
+          ],
+          "reveal": "The correct answer is Meet the Robinsons! [laughs] The T. rex gets mind-controlled by a hat. Keep moving forward, folks.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "🦖🎼🌋 Hint: no words, just an orchestra.",
+          "answer": "Fantasia",
+          "accept": [
+            "fantasia"
+          ],
+          "choices": [
+            "Fantasia",
+            "Fantasia 2000",
+            "Make Mine Music",
+            "Melody Time"
+          ],
+          "reveal": "[impressed] The correct answer is Fantasia! The 1940 original. Fantasia 2000 swapped dinosaurs for flamingos with a yo-yo.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "fossil-record",
+      "title": "The Fossil Record",
+      "kind": "parks",
+      "intro": "Time to dig into some real park photos! [sighs] Some of these spots have gone extinct, so pour one out for the dinos.",
+      "format": "picture",
+      "art": {
+        "prompt": "A paleontology dig pit at a sunny theme-park-style excavation site, chalk grid lines, half-exposed giant fossil ribs, rope barriers, field tents, brushes and a straw hat on a crate Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/dino-mite--fossil-record.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This big green dinosaur on Echo Lake sells ice cream at which Walt Disney World park?",
+          "answer": "Disney's Hollywood Studios",
+          "accept": [
+            "disney's hollywood studios",
+            "hollywood studios",
+            "disney hollywood studios",
+            "mgm"
+          ],
+          "choices": [
+            "Disney's Hollywood Studios",
+            "Magic Kingdom",
+            "EPCOT",
+            "Disney's Animal Kingdom"
+          ],
+          "reveal": "The correct answer is Disney's Hollywood Studios! [excited] That's Dinosaur Gertie, a tribute to the 1914 cartoon Gertie the Dinosaur. Ice cream of extinction, anyone?",
+          "media": {
+            "type": "image",
+            "file": "media/dino-mite--fossil-record-200.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Echo_Lake_at_Disney%27s_Hollywood_Studios.jpg",
+              "license": "CC BY-SA 3.0",
+              "author": "Jedi94"
+            }
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "This dino-themed land, pictured at its entrance, closed in 2026. Which park was it in?",
+          "answer": "Disney's Animal Kingdom",
+          "accept": [
+            "disney's animal kingdom",
+            "animal kingdom",
+            "disney animal kingdom"
+          ],
+          "choices": [
+            "Disney's Animal Kingdom",
+            "Disney's Hollywood Studios",
+            "EPCOT",
+            "Disney California Adventure"
+          ],
+          "reveal": "The correct answer is Disney's Animal Kingdom! [sighs] DinoLand U.S.A. closed in February 2026 to make way for a new Tropical Americas area.",
+          "media": {
+            "type": "image",
+            "file": "media/dino-mite--fossil-record-400.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:DinolandEntrance.jpg",
+              "license": "CC BY-SA 4.0",
+              "author": "Windyshadow32"
+            }
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "A replica of this long-necked dinosaur's skeleton towered over the bridge into DinoLand U.S.A.",
+          "answer": "Brachiosaurus",
+          "accept": [
+            "brachiosaurus"
+          ],
+          "choices": [
+            "Brachiosaurus",
+            "Apatosaurus",
+            "Diplodocus",
+            "Stegosaurus"
+          ],
+          "reveal": "The correct answer is Brachiosaurus! [chuckles] The original fossil cast lives at Chicago's Field Museum. Talk about a long neck for a long commute.",
+          "media": {
+            "type": "image",
+            "file": "media/dino-mite--fossil-record-600.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Replica_Brachiosaurus_skeleton,_DinoLand_USA.JPG",
+              "license": "CC BY-SA 3.0",
+              "author": "BrokenSphere"
+            }
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "This was the home of the Dino Institute, where guests time-traveled on which thrill ride before it closed in 2026?",
+          "answer": "DINOSAUR",
+          "accept": [
+            "dinosaur",
+            "dinosaur the ride",
+            "countdown to extinction"
+          ],
+          "choices": [
+            "DINOSAUR",
+            "Kilimanjaro Safaris",
+            "TriceraTop Spin",
+            "Primeval Whirl"
+          ],
+          "reveal": "[mischievously] The correct answer is DINOSAUR! Bonus fact: it opened in 1998 as Countdown to Extinction and was renamed in 2000.",
+          "media": {
+            "type": "image",
+            "file": "media/dino-mite--fossil-record-800.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:DINOSAUR_attraction_building_facade,_The_Dino_Institute,_Disney%27s_Animal_Kingdom,_June_2006_-_ThrillZing.jpg",
+              "license": "CC BY 4.0",
+              "author": "ThrillZing"
+            }
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "This DinoLand quick-service restaurant, themed as a hangout for Dino Institute students, served its last burger in 2026.",
+          "answer": "Restaurantosaurus",
+          "accept": [
+            "restaurantosaurus"
+          ],
+          "choices": [
+            "Restaurantosaurus",
+            "Trilo-Bites",
+            "Dino-Bite Snacks",
+            "Pizzafari"
+          ],
+          "reveal": "[gasps] The correct answer is Restaurantosaurus! Best pun in park history. [whispers] Gone, but never fossil-gotten.",
+          "media": {
+            "type": "image",
+            "file": "media/dino-mite--fossil-record-1000.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Restaurantosaurus.jpg",
+              "license": "CC BY 2.0",
+              "author": "HarshLight"
+            }
+          },
+          "dailyDouble": true
+        }
+      ]
+    },
+    {
+      "id": "rex-marks-the-spot",
+      "title": "Rex Marks the Spot",
+      "kind": "fan",
+      "intro": "Our wildcard is all about the most anxious dinosaur in toy history. [laughs] Deep breaths, Rex. Deep breaths.",
+      "format": "text",
+      "art": {
+        "prompt": "A child's bedroom floor at toy scale: a plastic green toy dinosaur's shadow on a block tower, scattered building blocks, a toy treasure map with a big X, and a game controller, warm afternoon light Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/dino-mite--rex-marks-the-spot.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "What color is Rex from Toy Story?",
+          "answer": "Green",
+          "accept": [
+            "green"
+          ],
+          "choices": [
+            "Green",
+            "Purple",
+            "Blue",
+            "Orange"
+          ],
+          "reveal": "The correct answer is green! [cheerful] Green with nerves, mostly.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "This actor, famous for saying Inconceivable in The Princess Bride, voices Rex.",
+          "answer": "Wallace Shawn",
+          "accept": [
+            "wallace shawn",
+            "shawn"
+          ],
+          "choices": [
+            "Wallace Shawn",
+            "Don Rickles",
+            "Jim Varney",
+            "John Ratzenberger"
+          ],
+          "reveal": "The correct answer is Wallace Shawn! [laughs] Inconceivable! A dinosaur who apologizes for roaring.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Bonnie's blue Triceratops toy, who becomes Rex's dino pal.",
+          "answer": "Trixie",
+          "accept": [
+            "trixie"
+          ],
+          "choices": [
+            "Trixie",
+            "Dolly",
+            "Buttercup",
+            "Chuckles"
+          ],
+          "reveal": "The correct answer is Trixie! [excited] She's into computers, which makes her the smartest dinosaur in the toy box.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In Toy Story 3, Rex and pals get stuck in this rough toddler room at Sunnyside Daycare.",
+          "answer": "The Caterpillar Room",
+          "accept": [
+            "the caterpillar room",
+            "caterpillar room",
+            "caterpillar"
+          ],
+          "choices": [
+            "The Caterpillar Room",
+            "The Butterfly Room",
+            "The Ladybug Room",
+            "The Bumblebee Room"
+          ],
+          "reveal": "The correct answer is the Caterpillar Room! [sarcastic] Nothing says relaxing like toddlers using you as a drumstick.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "In the 2014 TV special Toy Story That Time Forgot, Trixie meets a line of warrior dinosaur toys called these.",
+          "answer": "Battlesaurs",
+          "accept": [
+            "battlesaurs",
+            "the battlesaurs"
+          ],
+          "choices": [
+            "Battlesaurs",
+            "Dino-Riders",
+            "Dinobots",
+            "Rexxons"
+          ],
+          "reveal": "[impressed] The correct answer is Battlesaurs! Led by Reptillus Maximus. [chuckles] True nerds watched the holiday specials.",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}
