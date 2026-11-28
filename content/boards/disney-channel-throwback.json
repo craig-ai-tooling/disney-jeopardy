@@ -49,8 +49,7 @@
           "accept": [
             "new year's eve",
             "new years eve",
-            "new year",
-            "new years"
+            "nye"
           ],
           "choices": [
             "New Year's Eve",
@@ -167,7 +166,8 @@
           "answer": "PAT",
           "accept": [
             "pat",
-            "p.a.t."
+            "p.a.t.",
+            "personal applied technology"
           ],
           "choices": [
             "PAT",
