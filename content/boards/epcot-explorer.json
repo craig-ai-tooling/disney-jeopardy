@@ -145,7 +145,7 @@
         },
         {
           "value": 400,
-          "clue": "At this EPCOT ride, reopened in 2025, guests design a virtual car before speeding around an outdoor loop.",
+          "clue": "This EPCOT ride, reopened in 2025, sends guests in a futuristic test car speeding around an outdoor loop.",
           "answer": "Test Track",
           "accept": [
             "test track"
@@ -156,7 +156,7 @@
             "Mission: SPACE",
             "Tomorrowland Speedway"
           ],
-          "reveal": "The correct answer is Test Track! [excited] Its 2025 version brought back the spirit of the old World of Motion ride. Vroom vroom, nostalgia!",
+          "reveal": "The correct answer is Test Track! [excited] Its 2025 version is packed with tributes to the old World of Motion ride. Vroom vroom, nostalgia!",
           "dailyDouble": false
         },
         {
@@ -335,7 +335,7 @@
         },
         {
           "value": 1000,
-          "clue": "This golden-domed EPCOT pavilion closed in 2007 but now serves as a festival center. What was it called?",
+          "clue": "This golden-domed EPCOT pavilion closed as a regular attraction in 2007 and later hosted festival events. What was it called?",
           "answer": "Wonders of Life",
           "accept": [
             "wonders of life",
@@ -347,7 +347,7 @@
             "Horizons",
             "CommuniCore"
           ],
-          "reveal": "The correct answer is Wonders of Life! [sighs] It was home to Body Wars and Cranium Command. Now it mostly hosts festival booths. RIP, little dome.",
+          "reveal": "The correct answer is Wonders of Life! [sighs] It was home to Body Wars and Cranium Command. Later it hosted festival events. RIP, little dome.",
           "media": {
             "type": "image",
             "file": "media/epcot-explorer--epcot-up-close-1000.jpg",
@@ -433,17 +433,17 @@
         {
           "value": 800,
           "clue": "EPCOT's International Food & Wine Festival was first held in this year.",
-          "answer": "1995",
+          "answer": "1996",
           "accept": [
-            "1995"
+            "1996"
           ],
           "choices": [
-            "1995",
+            "1996",
             "1982",
             "2001",
             "1989"
           ],
-          "reveal": "The correct answer is 1995! [laughs] It started as a smaller event and grew into a months-long snack marathon.",
+          "reveal": "The correct answer is 1996! [laughs] The first one ran for about a month that fall. Now it's a months-long snack marathon.",
           "dailyDouble": false
         },
         {
@@ -547,8 +547,7 @@
           "answer": "11,324",
           "accept": [
             "11,324",
-            "11324",
-            "eleven thousand three hundred twenty four"
+            "11324"
           ],
           "choices": [
             "11,324",
