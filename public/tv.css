@@ -109,3 +109,6 @@ button.secondary { background: linear-gradient(#e8efff, #a9bcff); box-shadow: 0 
 @keyframes pulse { 50% { filter: brightness(1.35); transform: scale(1.03); } }
 @keyframes flashg { 30% { background: rgba(60,255,120,.35); } }
 @keyframes flashr { 30% { background: rgba(255,60,60,.35); } }
+.hostwrap { height: 56vh; display: flex; align-items: end; }
+.hostimg { height: 100%; filter: drop-shadow(0 1vw 2vw rgba(0,0,0,.7)); animation: hostbob 1.2s ease-in-out infinite alternate, zoomin .8s cubic-bezier(.2,1.4,.4,1); transform-origin: bottom center; }
+@keyframes hostbob { from { transform: rotate(-2deg) scaleY(1); } to { transform: rotate(2deg) scaleY(1.03); } }

@@ -28,7 +28,7 @@ function speakNative(text, done) {
 }
 function say(m) {
   let fired = false;
-  const done = () => { if (fired) return; fired = true; if (m.tag) sock.send({ t: 'readDone', seq: S?.clue?.id && m.tag !== 'intro' && m.tag !== 'cat' ? m.tag : undefined }); };
+  const done = () => { if (fired) return; fired = true; if (m.tag === 'cold' && S?.phase === 'coldOpen') return sock.send({ t: 'next' }); if (m.tag) sock.send({ t: 'readDone', seq: S?.clue?.id && m.tag !== 'intro' && m.tag !== 'cat' ? m.tag : undefined }); };
   speaking = m;
   if (m.url) {
     audio.src = m.url; audio.onended = done; audio.onerror = () => speakNative(m.text, done);
@@ -131,6 +131,12 @@ function lobby() {
       <div class="hint" style="margin:1vw 0 1.5vw">Mixed = type or speak the 200s & 400s, multiple choice from 600 up. Any player can turn on "always multiple choice" or become moderator on their phone.</div>
     </div></div>
     ${overlay === 'boards' ? `<div class="boardlist">${(S.boards || []).map((x) => `<button data-nav data-act="board" data-id="${x.id}" class="${x.played ? 'played' : ''}" style="background-image:url(${x.art || `/theme/bg-${bgFor(x)}.webp`})">${esc(x.title)}${x.played ? ' ✓' : ''}</button>`).join('')}</div>` : ''}`;
+}
+
+function coldOpenView() {
+  return `<div class="center"><div class="hostwrap"><img class="hostimg" src="/theme/host.webp" alt="" onerror="this.style.display='none'"></div>
+    <h1 class="gold" style="font-size:3.4vw;margin:1vw 0 0">${esc(S.host)}</h1><div class="subtitle" style="max-width:70vw">${esc(speaking?.text || '')}</div>
+    <button data-nav data-act="next" style="margin-top:1.5vw">Skip ▶</button></div>`;
 }
 
 function intro() {
@@ -279,7 +285,7 @@ function render() {
   const keepZoom = $('#zoomimg') && S.phase !== 'reveal' && prev.clue?.id === S.clue?.id;
   const focusedId = document.activeElement?.dataset?.id || document.activeElement?.dataset?.act;
   const ph = S.phase;
-  const html = ph === 'lobby' ? lobby() : ph === 'intro' ? intro() : ph === 'categories' ? categories() : ph === 'board' ? board()
+  const html = ph === 'lobby' ? lobby() : ph === 'coldOpen' ? coldOpenView() : ph === 'intro' ? intro() : ph === 'categories' ? categories() : ph === 'board' ? board()
     : ph === 'ddWager' ? ddWager() : ['reading', 'buzzing', 'answering', 'reveal'].includes(ph) ? clue()
       : ph.startsWith('final') ? final() : ph === 'podium' ? podium() : '';
   if (keepZoom) {

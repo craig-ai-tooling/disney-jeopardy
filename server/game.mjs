@@ -2,6 +2,8 @@
 import crypto from 'node:crypto';
 import { judge } from './match.mjs';
 import { pick as line, plain } from './lines.mjs';
+import { coldOpen } from './coldopens.mjs';
+const HOST_NAME = process.env.HOST_NAME || 'Your Host';
 
 const VALUES = [200, 400, 600, 800, 1000];
 const COLORS = ['#ffcf3f', '#4fc3ff', '#ff6fae', '#7dff8a', '#c08cff', '#ff8a3d', '#3dffe0', '#ff4f4f', '#b6ff3d', '#ffffff', '#ffa8e0', '#8ab4ff'];
@@ -182,12 +184,13 @@ export class Room {
     this.rooms.store.markBoard(this.tvId, this.board.id);
     this.used = new Set();
     this.control = shuffle([...this.players.keys()])[0];
-    this.phase = 'intro';
-    this.say(`${this.board.intro}`, true, 'intro');
+    this.phase = 'coldOpen';
+    this.say(coldOpen({ host: HOST_NAME, players: [...this.players.values()].map((p) => p.name), theme: this.board.theme }), true, 'cold');
     this.broadcast();
   }
 
   advance() {
+    if (this.phase === 'coldOpen') { this.phase = 'intro'; this.say(`${this.board.intro}`, true, 'intro'); return this.broadcast(); }
     if (this.phase === 'intro') { this.phase = 'categories'; this.catIdx = 0; this.say(this.board.categories[0].intro, true, 'cat'); return this.broadcast(); }
     if (this.phase === 'categories') {
       this.catIdx++;
@@ -560,7 +563,7 @@ export class Room {
     const b = this.board;
     const media = this.rooms.media;
     const s = {
-      t: 'state', role, code: this.code, phase: this.phase, settings: this.settings, captain: this.captain(), control: this.control || null,
+      t: 'state', role, host: HOST_NAME, code: this.code, phase: this.phase, settings: this.settings, captain: this.captain(), control: this.control || null,
       deadline: this.deadline ? this.deadline - now() : 0, players,
       board: b && {
         id: b.id, title: b.title, theme: b.theme, art: media.url(b.art?.file),

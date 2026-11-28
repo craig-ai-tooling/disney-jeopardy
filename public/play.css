@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Nunito:wght@700;900&display=swap');
+:root { --gold: #ffd34d; --c: #ffd34d; }
+* { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+html, body { margin: 0; min-height: 100%; background: #071865 url(/theme/bg-castle.webp) center/cover fixed; color: #fff; font-family: Nunito, system-ui, sans-serif; }
+body::before { content: ''; position: fixed; inset: 0; background: rgba(5,10,42,.72); z-index: -1; }
+#app { min-height: 100dvh; display: flex; flex-direction: column; padding: 12px 16px 20px; max-width: 560px; margin: 0 auto; user-select: none; }
+.top { display: flex; align-items: center; gap: 10px; font-weight: 900; }
+.top .me { display: flex; align-items: center; gap: 6px; border-left: 5px solid var(--c); padding-left: 8px; }
+.top .score { margin-left: auto; font: 26px 'Luckiest Guy'; color: var(--gold); }
+.logo { width: 80%; max-width: 360px; display: block; margin: 8px auto; }
+.gold { font-family: 'Luckiest Guy', sans-serif; color: var(--gold); text-shadow: 0 2px 0 #7a5000; letter-spacing: .04em; }
+h2 { text-align: center; margin: 12px 0; }
+.card { background: rgba(10,30,110,.85); border: 2px solid rgba(255,211,77,.5); border-radius: 18px; padding: 16px; margin: 10px 0; }
+input[type=text], input[type=number] { width: 100%; font: 900 22px Nunito; padding: 14px; border-radius: 14px; border: 0; margin: 6px 0; text-align: center; }
+button { font: 900 20px Nunito; color: #102060; background: linear-gradient(#ffe27a, #ffb300); border: 0; border-radius: 14px; padding: 14px 18px; box-shadow: 0 4px 0 #a06a00; width: 100%; margin: 6px 0; }
+button:active { transform: translateY(3px); box-shadow: 0 1px 0 #a06a00; }
+button.secondary { background: linear-gradient(#e8efff, #a9bcff); box-shadow: 0 4px 0 #5468b0; }
+button:disabled { opacity: .45; }
+.avatars { display: grid; grid-template-columns: repeat(6, 1fr); gap: 6px; }
+.avatars button { font-size: 28px; padding: 8px 0; background: rgba(255,255,255,.12); box-shadow: none; }
+.avatars button.sel { background: var(--gold); }
+.toggle { display: flex; align-items: center; justify-content: space-between; gap: 10px; padding: 8px 0; font-weight: 900; }
+.toggle input { width: 26px; height: 26px; }
+.buzzer { flex: 1; min-height: 52vh; margin: 14px 0; border-radius: 50%; aspect-ratio: 1; align-self: center; width: min(86vw, 440px); font: 54px 'Luckiest Guy'; color: #fff; background: radial-gradient(circle at 35% 30%, #ff8080, #d01010 60%, #7a0000); box-shadow: 0 12px 0 #5a0000, 0 0 40px rgba(255,60,60,.6); text-shadow: 0 3px 0 #600; border: 6px solid #ffd34d; }
+.buzzer.wait { background: radial-gradient(circle at 35% 30%, #8090b0, #405070 60%, #202a40); box-shadow: 0 12px 0 #101828; border-color: #6070a0; color: #c0c8e0; text-shadow: none; }
+.buzzer.open { animation: pulse .7s infinite; }
+.choices button { text-align: left; font-size: 19px; padding: 16px; }
+.choices button.out { opacity: .3; text-decoration: line-through; }
+.mic { background: linear-gradient(#ff8a8a, #e02020); color: #fff; box-shadow: 0 4px 0 #700; font-size: 22px; padding: 22px; }
+.mic.rec { animation: pulse .6s infinite; background: linear-gradient(#fff, #ffb0b0); color: #c00; }
+.timer { height: 8px; background: var(--gold); transform-origin: left; border-radius: 4px; margin: 6px 0; }
+.big { font-size: 22px; text-align: center; font-weight: 900; margin: 10px 0; }
+.muted { opacity: .75; text-align: center; }
+.grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 4px; }
+.grid .h { font-size: 10px; font-weight: 900; text-align: center; text-transform: uppercase; min-height: 34px; display: flex; align-items: center; justify-content: center; }
+.grid button { font: 18px 'Luckiest Guy'; color: var(--gold); background: linear-gradient(#1c48d8, #0b237f); box-shadow: none; padding: 12px 0; margin: 0; }
+.grid button:disabled { opacity: .15; }
+.answer { font: 30px 'Luckiest Guy'; color: var(--gold); text-align: center; }
+.verdict { font-size: 64px; text-align: center; }
+.row { display: flex; gap: 10px; }
+#toast { position: fixed; left: 50%; bottom: 24px; transform: translateX(-50%); background: #fff; color: #102060; font-weight: 900; padding: 10px 18px; border-radius: 99px; opacity: 0; transition: opacity .3s; pointer-events: none; }
+#toast.on { opacity: 1; }
+@keyframes pulse { 50% { transform: scale(1.04); filter: brightness(1.25); } }
