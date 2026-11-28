@@ -1,0 +1,595 @@
+{
+  "id": "parades-and-fireworks",
+  "title": "Parades and Fireworks",
+  "theme": "Shows and Nighttime Spectaculars",
+  "tags": [
+    "parks",
+    "shows",
+    "parades",
+    "fireworks",
+    "nighttime"
+  ],
+  "intro": "[excited] Welcome in to Disney Jeopardy! Grab your spot on the curb early, because tonight is all about parades, fireworks, and nighttime spectaculars. [whispers] The lights are dimming... [dramatic pause] and it's SHOWTIME.",
+  "art": {
+    "prompt": "Original digital painting, cinematic 16:9, rich saturated colors, warm magical lighting, storybook theme-park atmosphere, no text, no logos, no recognizable characters, no people's faces: a nighttime parade of glowing floats covered in thousands of twinkling lights rolling down a Victorian main street while huge colorful fireworks burst over a fairytale castle",
+    "file": "media/parades-and-fireworks.jpg"
+  },
+  "categories": [
+    {
+      "id": "i-see-the-light",
+      "title": "I See the Light",
+      "kind": "film",
+      "intro": "Our film category features the most beautiful lantern scene in Disney history... [sighs] I get chills. It's 2010's Tangled. Let your hair down!",
+      "art": {
+        "prompt": "Original digital painting, cinematic 16:9, rich saturated colors, warm magical lighting, storybook theme-park atmosphere, no text, no logos, no recognizable characters, no people's faces: thousands of glowing golden floating lanterns over a lake at night beside a medieval island kingdom, a small rowboat on the water",
+        "file": "media/parades-and-fireworks--i-see-the-light.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "What kind of animal is Rapunzel's little sidekick Pascal?",
+          "answer": "A chameleon",
+          "accept": [
+            "a chameleon",
+            "a lizard",
+            "chameleon",
+            "lizard"
+          ],
+          "choices": [
+            "A chameleon",
+            "A frog",
+            "An iguana",
+            "A gecko"
+          ],
+          "reveal": "The correct answer is a chameleon. [laughs] Pascal changes color to hide, but he can NEVER hide that attitude.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "What household item does Rapunzel use as her weapon of choice?",
+          "answer": "A frying pan",
+          "accept": [
+            "a frying pan",
+            "a pan",
+            "frying pan",
+            "pan",
+            "skillet"
+          ],
+          "choices": [
+            "A frying pan",
+            "A rolling pin",
+            "A broom",
+            "A paintbrush"
+          ],
+          "reveal": "[excited] The correct answer is a frying pan. Frying pans, who knew, right? Flynn certainly didn't.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "What is the real name of the thief who calls himself Flynn Rider?",
+          "answer": "Eugene Fitzherbert",
+          "accept": [
+            "eugene fitzherbert",
+            "eugene",
+            "eugene fitzherbert flynn rider"
+          ],
+          "choices": [
+            "Eugene Fitzherbert",
+            "Eugene Rider",
+            "Frederick Fitzgerald",
+            "Edmund Fletcher"
+          ],
+          "reveal": "The correct answer is Eugene Fitzherbert. [chuckles] Not quite as dashing as Flynn Rider, but unlike the wanted posters, his nose is perfect.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "What is the name of the pub where Rapunzel learns that even ruffians have dreams?",
+          "answer": "The Snuggly Duckling",
+          "accept": [
+            "the snuggly duckling",
+            "snuggly duckling",
+            "the snuggly ducking"
+          ],
+          "choices": [
+            "The Snuggly Duckling",
+            "The Prancing Pony",
+            "The Rusty Anchor",
+            "The Cozy Cub"
+          ],
+          "reveal": "And the correct answer is the Snuggly Duckling. [mischievously] Hook Hand wanted to be a concert pianist. We love a dreamer.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "The kingdom releases lanterns every year on the lost princess's birthday. How old does Rapunzel turn in the film?",
+          "answer": "18",
+          "accept": [
+            "18",
+            "18 years old",
+            "eighteen"
+          ],
+          "choices": [
+            "18",
+            "16",
+            "17",
+            "21"
+          ],
+          "reveal": "[gasps] Oh, this one is TOUGH. The correct answer is... 18. Eighteen years of lanterns, and she finally got to see them up close. [sniffles] Cue happy tears.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "light-up-the-sky",
+      "title": "Light Up the Sky",
+      "kind": "theme",
+      "intro": "[excited] Fireworks and nighttime spectaculars, in PICTURES! Ooh and aah as you answer. [chuckles] I'll be listening for the ooh.",
+      "art": {
+        "prompt": "Original digital painting, cinematic 16:9, rich saturated colors, warm magical lighting, storybook theme-park atmosphere, no text, no logos, no recognizable characters, no people's faces: brilliant fireworks exploding over a lagoon with colorful water fountains and glowing reflections, night sky full of sparkles",
+        "file": "media/parades-and-fireworks--light-up-the-sky.jpg"
+      },
+      "format": "picture",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Before many Disney fireworks shows, which tiny pixie flies down from the top of the castle?",
+          "answer": "Tinker Bell",
+          "accept": [
+            "tinker bell",
+            "tink",
+            "tinker bel",
+            "tinkerbell"
+          ],
+          "choices": [
+            "Tinker Bell",
+            "Peter Pan",
+            "Silvermist",
+            "The Blue Fairy"
+          ],
+          "reveal": "[chuckles] The correct answer is Tinker Bell. [laughs] She has been flying over the castle since the 1960s, and she's never once missed her mark.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "Original illustration, 16:9, vivid colors, theme-park concept-art style, no text, no logos, no characters, no people: a glowing trail of golden pixie dust streaking down from the top spire of a fairytale castle into the night sky",
+            "file": "media/parades-and-fireworks--light-up-the-sky-200.jpg"
+          }
+        },
+        {
+          "value": 400,
+          "clue": "Which Disneyland nighttime show on the Rivers of America has Mickey battling villains with water, fire, and his imagination?",
+          "answer": "Fantasmic!",
+          "accept": [
+            "fantasmic!",
+            "fantasmic",
+            "fantasmic show"
+          ],
+          "choices": [
+            "Fantasmic!",
+            "World of Color",
+            "Harmonious",
+            "Wondrous Journeys"
+          ],
+          "reveal": "The correct answer is Fantasmic! Some imagination, huh? Mickey versus a giant dragon is never a fair fight for the dragon.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "Original illustration, 16:9, vivid colors, theme-park concept-art style, no text, no logos, no characters, no people: a nighttime river show with giant mist screens, flames dancing on the water and a lit-up paddlewheel riverboat",
+            "file": "media/parades-and-fireworks--light-up-the-sky-400.jpg"
+          }
+        },
+        {
+          "value": 600,
+          "clue": "World of Color lights up Paradise Bay with water fountains at which park?",
+          "answer": "Disney California Adventure",
+          "accept": [
+            "disney california adventure",
+            "california adventure",
+            "dca",
+            "disney's california adventure"
+          ],
+          "choices": [
+            "Disney California Adventure",
+            "Disneyland",
+            "Epcot",
+            "Disney's Hollywood Studios"
+          ],
+          "reveal": "[excited] The correct answer is Disney California Adventure. [laughs] Stand in the splash zone at your own risk. You have been warned.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "Original illustration, 16:9, vivid colors, theme-park concept-art style, no text, no logos, no characters, no people: huge rainbow-lit dancing water fountains in a bay at night with a seaside pier and big wheel glowing behind",
+            "file": "media/parades-and-fireworks--light-up-the-sky-600.jpg"
+          }
+        },
+        {
+          "value": 800,
+          "clue": "Which Magic Kingdom fireworks show debuted in 2017, was replaced by Disney Enchantment in 2021, and made a triumphant return in 2023?",
+          "answer": "Happily Ever After",
+          "accept": [
+            "happily ever after",
+            "happily ever after fireworks"
+          ],
+          "choices": [
+            "Happily Ever After",
+            "Wishes",
+            "Wondrous Journeys",
+            "Fantasy in the Sky"
+          ],
+          "reveal": "The correct answer is Happily Ever After. Disney fans begged and begged, and their wish came true.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "Original illustration, 16:9, vivid colors, theme-park concept-art style, no text, no logos, no characters, no people: colorful fireworks bursting over a fairytale castle with dreamy colored light projected onto its towers",
+            "file": "media/parades-and-fireworks--light-up-the-sky-800.jpg"
+          }
+        },
+        {
+          "value": 1000,
+          "clue": "Epcot's long-running nighttime show IllumiNations: Reflections of Earth took its final bow in what year?",
+          "answer": "2019",
+          "accept": [
+            "2019",
+            "twenty nineteen"
+          ],
+          "choices": [
+            "2019",
+            "2015",
+            "2017",
+            "2020"
+          ],
+          "reveal": "[whispers] Only the true Disney nerds got this one. The correct answer is... 2019. [chuckles] After about twenty years over World Showcase Lagoon, that giant Earth globe finally rested.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "Original illustration, 16:9, vivid colors, theme-park concept-art style, no text, no logos, no characters, no people: a giant glowing globe floating on a dark lagoon ringed by flaming torches and fireworks, world-pavilion skyline around it",
+            "file": "media/parades-and-fireworks--light-up-the-sky-1000.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "parade-palettes",
+      "title": "Parade Palettes",
+      "kind": "media",
+      "intro": "Color Palettes are BACK! These are the outfit colors of characters you'd see in a Disney parade. [dramatic pause] Name the character.",
+      "art": {
+        "prompt": "Original digital painting, cinematic 16:9, rich saturated colors, warm magical lighting, storybook theme-park atmosphere, no text, no logos, no recognizable characters, no people's faces: an artist's palette with bold paint swatches beside a parade float covered in glittering lights and confetti",
+        "file": "media/parades-and-fireworks--parade-palettes.jpg"
+      },
+      "format": "palette",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "These are the colors of which character's classic parade look?",
+          "answer": "Ariel",
+          "accept": [
+            "ariel",
+            "princess ariel",
+            "the little mermaid"
+          ],
+          "choices": [
+            "Ariel",
+            "Moana",
+            "Tinker Bell",
+            "Mulan"
+          ],
+          "reveal": "The correct answer is Ariel. [mischievously] Green tail, purple seashells, and that famous red hair. You can spot her float from a mile away.",
+          "palette": [
+            "#1FA37A",
+            "#7A4BA3",
+            "#D62B2B",
+            "#F6D7C3"
+          ],
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "These are the colors of which character's classic parade look?",
+          "answer": "Donald Duck",
+          "accept": [
+            "donald duck",
+            "donald"
+          ],
+          "choices": [
+            "Donald Duck",
+            "Daisy Duck",
+            "Pluto",
+            "Chip"
+          ],
+          "reveal": "[chuckles] The correct answer is Donald Duck. A sailor shirt and hat, but famously, no pants. Classic Donald.",
+          "palette": [
+            "#FFFFFF",
+            "#1E4FA0",
+            "#F59A1B",
+            "#C8102E"
+          ],
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "These are the colors of which character's classic parade look?",
+          "answer": "Belle",
+          "accept": [
+            "belle",
+            "belle from beauty and the beast",
+            "princess belle"
+          ],
+          "choices": [
+            "Belle",
+            "Cinderella",
+            "Aurora",
+            "Rapunzel"
+          ],
+          "reveal": "The correct answer is Belle. [laughs] That golden ball gown is one of the most iconic dresses in animation.",
+          "palette": [
+            "#F6CF3E",
+            "#E2A91E",
+            "#6B3E26",
+            "#F3D9B1"
+          ],
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "These are the colors of which character's classic parade look?",
+          "answer": "Snow White",
+          "accept": [
+            "snow white",
+            "snow white princess"
+          ],
+          "choices": [
+            "Snow White",
+            "Belle",
+            "Mulan",
+            "Ariel"
+          ],
+          "reveal": "[excited] The correct answer is Snow White. Blue bodice, yellow skirt, red bow, and the original Disney princess.",
+          "palette": [
+            "#1C4E9D",
+            "#F8D74A",
+            "#B31B1B",
+            "#111111",
+            "#F5E6D3"
+          ],
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "These are the colors of which character's classic parade look?",
+          "answer": "Goofy",
+          "accept": [
+            "goofy",
+            "goofy goof"
+          ],
+          "choices": [
+            "Goofy",
+            "Pluto",
+            "Horace Horsecollar",
+            "Pete"
+          ],
+          "reveal": "[dramatic pause] And the correct answer is... Goofy. [laughs] Orange turtleneck, black vest, blue pants, and that floppy green hat. Ah-hyuck!",
+          "palette": [
+            "#F37A1F",
+            "#111111",
+            "#1F4E9C",
+            "#3E8E41",
+            "#8C5A2B"
+          ],
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "parade-route",
+      "title": "Parade Route",
+      "kind": "parks",
+      "intro": "Let's head to Main Street and grab a curb spot. [whispers] Don't let anyone take it. This category is all about Disney parades, past and present.",
+      "art": {
+        "prompt": "Original digital painting, cinematic 16:9, rich saturated colors, warm magical lighting, storybook theme-park atmosphere, no text, no logos, no recognizable characters, no people's faces: a nighttime parade float shaped like a glowing dragon rolling down a crowd-free Victorian main street, strings of twinkling lights",
+        "file": "media/parades-and-fireworks--parade-route.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Which famous nighttime parade, covered in thousands of twinkling lights, debuted at Disneyland in 1972?",
+          "answer": "Main Street Electrical Parade",
+          "accept": [
+            "main street electrical parade",
+            "electrical parade",
+            "mainstreet electrical parade",
+            "the main street electrical parade"
+          ],
+          "choices": [
+            "Main Street Electrical Parade",
+            "Paint the Night",
+            "SpectroMagic",
+            "Festival of Fantasy"
+          ],
+          "reveal": "And the correct answer is the Main Street Electrical Parade. Ladies and gentlemen, boys and girls! You know the rest.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Magic Kingdom's Festival of Fantasy Parade features a fire-breathing dragon from which film?",
+          "answer": "Sleeping Beauty",
+          "accept": [
+            "sleeping beauty",
+            "sleeping beauty 1959"
+          ],
+          "choices": [
+            "Sleeping Beauty",
+            "Mulan",
+            "Pete's Dragon",
+            "Raya and the Last Dragon"
+          ],
+          "reveal": "The correct answer is Sleeping Beauty. [chuckles] It's Maleficent, in her full steampunk dragon form, breathing real fire.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "The Paint the Night parade, with its glowing floats, first debuted at which park in 2014?",
+          "answer": "Hong Kong Disneyland",
+          "accept": [
+            "hong kong disneyland",
+            "hk disneyland",
+            "hkdl",
+            "hong kong"
+          ],
+          "choices": [
+            "Hong Kong Disneyland",
+            "Disneyland",
+            "Tokyo Disneyland",
+            "Shanghai Disneyland"
+          ],
+          "reveal": "[chuckles] The correct answer is Hong Kong Disneyland. [mischievously] It came to Disneyland a year later for the 60th anniversary.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "What is the name of the bouncy electronic theme song of the Main Street Electrical Parade?",
+          "answer": "Baroque Hoedown",
+          "accept": [
+            "baroque hoedown",
+            "the baroque hoedown"
+          ],
+          "choices": [
+            "Baroque Hoedown",
+            "Electric Boogaloo",
+            "Light Fantastic",
+            "Glow Waltz"
+          ],
+          "reveal": "[dramatic pause] The correct answer is... Baroque Hoedown. Beep boop boop beep boop. You heard it. Don't lie.",
+          "dailyDouble": true
+        },
+        {
+          "value": 1000,
+          "clue": "Which park hosted the nighttime parade SpectroMagic from 1991 to 2010?",
+          "answer": "Magic Kingdom",
+          "accept": [
+            "magic kingdom",
+            "the magic kingdom",
+            "walt disney world"
+          ],
+          "choices": [
+            "Magic Kingdom",
+            "Disneyland",
+            "Epcot",
+            "Tokyo Disneyland"
+          ],
+          "reveal": "Drumroll, please... the correct answer is Magic Kingdom. [laughs] SpectroMagic had fiber optics everywhere, and fans still miss it.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "showstoppers",
+      "title": "Showstoppers",
+      "kind": "fan",
+      "intro": "Club DJ wanted stage shows! [excited] These are the live shows where you get to sit down, cool off, and be AMAZED.",
+      "art": {
+        "prompt": "Original digital painting, cinematic 16:9, rich saturated colors, warm magical lighting, storybook theme-park atmosphere, no text, no logos, no recognizable characters, no people's faces: an empty grand theater stage with red velvet curtains opening, spotlights, stage smoke and a huge golden proscenium arch",
+        "file": "media/parades-and-fireworks--showstoppers.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Animal Kingdom's big in-the-round musical show is called Festival of the Lion King. Which movie is it based on?",
+          "answer": "The Lion King",
+          "accept": [
+            "the lion king",
+            "lion king"
+          ],
+          "choices": [
+            "The Lion King",
+            "The Jungle Book",
+            "Tarzan",
+            "Zootopia"
+          ],
+          "reveal": "The correct answer is The Lion King. [sarcastic] Easy one, folks. The title gave it away.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "At Hollywood Studios, which film's live stage show features the songs Be Our Guest and Gaston?",
+          "answer": "Beauty and the Beast",
+          "accept": [
+            "beauty and the beast",
+            "beauty & the beast",
+            "beauty and the beast live on stage"
+          ],
+          "choices": [
+            "Beauty and the Beast",
+            "The Little Mermaid",
+            "Aladdin",
+            "Cinderella"
+          ],
+          "reveal": "And the correct answer is Beauty and the Beast. [laughs] Live on stage since 1991. No one performs like Gaston.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "The Indiana Jones Epic Stunt Spectacular recreates scenes from which Indiana Jones film?",
+          "answer": "Raiders of the Lost Ark",
+          "accept": [
+            "raiders of the lost ark",
+            "indiana jones and the raiders of the lost ark",
+            "raiders"
+          ],
+          "choices": [
+            "Raiders of the Lost Ark",
+            "Temple of Doom",
+            "The Last Crusade",
+            "Kingdom of the Crystal Skull"
+          ],
+          "reveal": "The correct answer is Raiders of the Lost Ark. Yes, the giant boulder rolls, and yes, they pick audience members as extras.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In Mickey's PhilharMagic, Donald gets into trouble after taking what from Mickey?",
+          "answer": "His sorcerer hat",
+          "accept": [
+            "his sorcerer hat",
+            "hat",
+            "his hat",
+            "magic hat",
+            "sorcerer hat",
+            "sorcerer's hat",
+            "the hat",
+            "the sorcerer's hat"
+          ],
+          "choices": [
+            "His sorcerer hat",
+            "His conductor's baton",
+            "His magic wand",
+            "His golden key"
+          ],
+          "reveal": "[chuckles] The correct answer is Mickey's sorcerer hat. Donald never learns. Not from Fantasia, not from anything.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Epcot's The American Adventure is hosted by Audio-Animatronic Benjamin Franklin and which famous author?",
+          "answer": "Mark Twain",
+          "accept": [
+            "mark twain",
+            "samuel clemens",
+            "twain"
+          ],
+          "choices": [
+            "Mark Twain",
+            "Walt Whitman",
+            "Edgar Allan Poe",
+            "Washington Irving"
+          ],
+          "reveal": "[gasps] Oh, this one is TOUGH. The correct answer is... Mark Twain. [mischievously] Ben Franklin even climbs a staircase in that show. Pretty impressive for a robot.",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}
