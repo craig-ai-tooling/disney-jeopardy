@@ -177,8 +177,8 @@
           "choices": [
             "Morning",
             "Midnight",
-            "Sunrise",
-            "Daybreak"
+            "Sunset",
+            "Noon"
           ],
           "reveal": "The correct answer is morning! [whispers] Think happy thoughts.",
           "dailyDouble": false
