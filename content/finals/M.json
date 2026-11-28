@@ -10,7 +10,12 @@
       "coonskin hat",
       "raccoon hat",
       "raccoon skin cap",
-      "coon skin cap"
+      "coon skin cap",
+      "raccoon cap",
+      "raccoonskin cap",
+      "raccoon skin hat",
+      "raccoon-skin cap",
+      "coonskin"
     ],
     "choices": [
       "A coonskin cap",
@@ -67,8 +72,7 @@
     "accept": [
       "country bear jamboree",
       "the country bear jamboree",
-      "country bear musical jamboree",
-      "country bears"
+      "country bear musical jamboree"
     ],
     "choices": [
       "Country Bear Jamboree",
@@ -97,23 +101,18 @@
   {
     "film": "Tomorrowland",
     "category": "Tomorrowland",
-    "clue": "In the 2015 film, Casey Newton gets a glimpse of a futuristic city just by touching this small souvenir with a T on it.",
-    "answer": "A pin",
+    "clue": "In the 2015 film, Casey Newton glimpses a futuristic city by touching a pin with a T on it. The pin was slipped to her by this mysterious robot girl.",
+    "answer": "Athena",
     "accept": [
-      "a pin",
-      "pin",
-      "the pin",
-      "a lapel pin",
-      "a t pin",
-      "tomorrowland pin"
+      "athena"
     ],
     "choices": [
-      "A pin",
-      "A coin",
-      "A ticket",
-      "A key"
+      "Athena",
+      "Aurora",
+      "Ada",
+      "Iris"
     ],
-    "reveal": "[dramatic pause] The correct answer is a pin! [gasps] One touch and she sees the future. Every pin trader's dream."
+    "reveal": "[dramatic pause] The correct answer is Athena! [gasps] She's an Audio-Animatronic recruiter for Tomorrowland. [laughs] Talk about a pin worth trading for!"
   },
   {
     "film": "Haunted Mansion",
