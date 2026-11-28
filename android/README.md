@@ -61,7 +61,7 @@ docker run --rm -u $(id -u):$(id -g) -e GRADLE_USER_HOME=/w/.gradle-home -v $PWD
 ```
 `-PappVersionName=1.2.3 -PappVersionCode=42` set the version (CI does this from the tag and run number).
 
-CI (`.github/workflows/android.yml`, `runs-on: smc`) builds on PRs touching `android/**` and on pushes to main; pushing a tag
+CI (`.github/workflows/android.yml`, runner from the `RUNNER` repo variable, default `ubuntu-latest`) builds on PRs touching `android/**` and on pushes to main; pushing a tag
 `v1.2.3` also attaches `disney-jeopardy.apk` to the GitHub release.
 
 **Signing:** release and debug builds are signed with `keystore/sideload.jks` (alias and passwords `disneyjeopardy`), committed
