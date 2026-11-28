@@ -315,6 +315,13 @@ function confetti(n = 120) {
 }
 function flash(kind) { const f = $('#flash'); f.className = ''; void f.offsetWidth; f.className = kind; }
 
+// React once a verdict settles: a new result, or a 'close' one decided later by a ruling.
+function hostReact() {
+  const settled = (list = [], before = []) => list.find((r, i) => ['correct', 'wrong'].includes(r.verdict) && r.verdict !== before[i]?.verdict);
+  const r = settled(S.clue?.results, prev.clue?.id === S.clue?.id ? prev.clue?.results : [])
+    || settled(S.final?.results, prev.final?.results);
+  if (r) hostMood(r.verdict === 'correct' ? 'celebrate' : 'wrong', 4000);
+}
 function effects() {
   const ph = S.phase, pp = prev.phase;
   if (S.players.length > (prev.players?.length || 0) && pp) sfx('join');
@@ -328,8 +335,9 @@ function effects() {
   }
   if (ph === 'answering' && pp !== 'answering') sfx('buzz');
   const nr = S.clue?.results.length || 0, pr = prev.clue?.id === S.clue?.id ? prev.clue?.results.length || 0 : 0;
-  if (nr > pr) { const last = S.clue.results[nr - 1]; if (last.verdict === 'correct') { sfx('correct'); flash('correct'); hostMood('celebrate', 4000); if (S.clue.dailyDouble) confetti(80); } else if (last.verdict === 'wrong') { sfx('wrong'); flash('wrong'); hostMood('wrong', 4000); } }
-  if (S.final?.results.length > (prev.final?.results.length || 0)) { const r = S.final.results.at(-1); sfx(r.verdict === 'correct' ? 'correct' : 'wrong'); hostMood(r.verdict === 'correct' ? 'celebrate' : 'wrong', 3000); }
+  if (nr > pr) { const last = S.clue.results[nr - 1]; if (last.verdict === 'correct') { sfx('correct'); flash('correct'); if (S.clue.dailyDouble) confetti(80); } else if (last.verdict === 'wrong') { sfx('wrong'); flash('wrong'); } }
+  if (S.final?.results.length > (prev.final?.results.length || 0)) { const r = S.final.results.at(-1); sfx(r.verdict === 'correct' ? 'correct' : 'wrong'); }
+  hostReact();
   // Zoom clues start tight on a random spot and slowly pull back.
   clearInterval(zoomTimer);
   const zi = $('#zoomimg');
@@ -368,5 +376,6 @@ function effectsLight() {
   if (ph === 'answering' && pp !== 'answering') sfx('buzz');
   if (ph === 'buzzing' && pp !== 'buzzing') sfx('open');
   const nr = S.clue?.results.length || 0, pr = prev.clue?.results.length || 0;
-  if (nr > pr) { const last = S.clue.results[nr - 1]; if (last.verdict === 'wrong') { sfx('wrong'); flash('wrong'); hostMood('wrong', 4000); } }
+  if (nr > pr) { const last = S.clue.results[nr - 1]; if (last.verdict === 'wrong') { sfx('wrong'); flash('wrong'); } }
+  hostReact();
 }
