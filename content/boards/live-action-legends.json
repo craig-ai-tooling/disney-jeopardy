@@ -1,0 +1,548 @@
+{
+  "id": "live-action-legends",
+  "title": "Live-Action Legends",
+  "theme": "Disney live-action classics",
+  "tags": [
+    "live-action",
+    "film",
+    "classics"
+  ],
+  "intro": "[excited] Lights, camera, ACTION! Welcome to Live-Action Legends, where the stars are real people... flying nannies, identical twins and at least one very sweaty pirate. Let's roll!",
+  "art": {
+    "prompt": "A golden-age Hollywood soundstage with a director's chair, a vintage film camera, a parrot-handled umbrella resting on a pirate treasure chest and a London rooftop set glowing under studio lights, 16:9 widescreen, vibrant cinematic lighting, original artwork, no text, no logos, no characters, no people",
+    "file": "media/live-action-legends.jpg"
+  },
+  "categories": [
+    {
+      "id": "spoonful-of-sugar",
+      "title": "A Spoonful of Sugar",
+      "kind": "film",
+      "format": "text",
+      "intro": "Our film category is A Spoonful of Sugar, all about 1964's Mary Poppins. [chuckles] Practically perfect clues, if I do say so myself.",
+      "art": {
+        "prompt": "Victorian London rooftops at sunset with smoking chimneys, a floating black umbrella, a carpetbag, kites drifting over St. Paul's dome and pigeons on a step, 16:9 widescreen, vibrant cinematic lighting, original artwork, no text, no logos, no characters, no people",
+        "file": "media/live-action-legends--spoonful-of-sugar.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Mary Poppins floats down from the sky onto Cherry Tree Lane holding on to this.",
+          "answer": "An umbrella",
+          "accept": [
+            "umbrella",
+            "an umbrella",
+            "her umbrella",
+            "parrot umbrella"
+          ],
+          "choices": [
+            "An umbrella",
+            "A kite",
+            "A balloon",
+            "A broomstick"
+          ],
+          "reveal": "The correct answer is an umbrella! And it has a talking parrot head handle. [laughs] Way better than an airplane, and no baggage fees.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Mary's cheerful chimney sweep friend, Bert, is played by this legendary comic actor.",
+          "answer": "Dick Van Dyke",
+          "accept": [
+            "dick van dyke",
+            "van dyke"
+          ],
+          "choices": [
+            "Dick Van Dyke",
+            "Danny Kaye",
+            "Gene Kelly",
+            "Bob Hope"
+          ],
+          "reveal": "The correct answer is Dick Van Dyke! [chuckles] He also played old Mr. Dawes Senior in a second role. And yes... about that accent.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Mary Poppins says this super-long song title is something to say when you have nothing to say.",
+          "answer": "Supercalifragilisticexpialidocious",
+          "accept": [
+            "supercalifragilisticexpialidocious",
+            "supercalifragilistic",
+            "supercalifragilisticexpialidotious",
+            "supercali"
+          ],
+          "choices": [
+            "Supercalifragilisticexpialidocious",
+            "Chim Chim Cher-ee",
+            "Feed the Birds",
+            "Jolly Holiday"
+          ],
+          "reveal": "The correct answer is Supercalifragilisticexpialidocious! [laughs] Try saying it backwards. Dociousaliexpilistic... you know what, never mind.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In Feed the Birds, the old Bird Woman on the steps of St. Paul's sells crumbs for this price per bag.",
+          "answer": "Tuppence",
+          "accept": [
+            "tuppence",
+            "two pence",
+            "twopence",
+            "2 pence",
+            "tuppence a bag"
+          ],
+          "choices": [
+            "Tuppence",
+            "Sixpence",
+            "A penny",
+            "A shilling"
+          ],
+          "reveal": "The correct answer is tuppence! [sighs] Walt Disney said Feed the Birds was his favorite song. The Sherman Brothers played it for him on Friday afternoons.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "When Mary Poppins measures herself with her magic tape measure, it reads this.",
+          "answer": "Practically perfect in every way",
+          "accept": [
+            "practically perfect in every way",
+            "practically perfect"
+          ],
+          "choices": [
+            "Practically perfect in every way",
+            "Extremely stubborn and suspicious",
+            "Rather inclined to giggle",
+            "Supercalifragilistic in every way"
+          ],
+          "reveal": "The correct answer is practically perfect in every way! [mischievously] Michael's said extremely stubborn and suspicious. Accurate, honestly.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "double-trouble",
+      "title": "Double Trouble",
+      "kind": "theme",
+      "format": "text",
+      "intro": "Next up, Double Trouble! Twins, body swaps and family chaos. [laughs] You'll be seeing double by the end of this.",
+      "art": {
+        "prompt": "A split-screen summer scene: a lakeside summer camp cabin with canoes on one side and a London townhouse on the other, two matching suitcases and two fortune cookies in the middle, 16:9 widescreen, vibrant cinematic lighting, original artwork, no text, no logos, no characters, no people",
+        "file": "media/live-action-legends--double-trouble.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In Freaky Friday, a mother and her teenage daughter magically do this.",
+          "answer": "Switch bodies",
+          "accept": [
+            "switch bodies",
+            "swap bodies",
+            "body swap",
+            "trade bodies",
+            "switch places"
+          ],
+          "choices": [
+            "Switch bodies",
+            "Shrink",
+            "Turn invisible",
+            "Travel back in time"
+          ],
+          "reveal": "The correct answer is switch bodies! [laughs] Suddenly Mom has to go to high school and the kid has to go to work. Nobody wins.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "In the 1998 Parent Trap, Lindsay Lohan plays twins Annie and this sister from California.",
+          "answer": "Hallie",
+          "accept": [
+            "hallie",
+            "hallie parker",
+            "halley",
+            "hally"
+          ],
+          "choices": [
+            "Hallie",
+            "Susan",
+            "Sharon",
+            "Holly"
+          ],
+          "reveal": "The correct answer is Hallie! Annie is the proper Londoner, Hallie the California girl. [chuckles] And they're both Lindsay Lohan.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "The 1998 Parent Trap twins first meet at this summer camp in Maine.",
+          "answer": "Camp Walden",
+          "accept": [
+            "camp walden",
+            "walden"
+          ],
+          "choices": [
+            "Camp Walden",
+            "Camp Inch",
+            "Camp Kikiwaka",
+            "Camp Rock"
+          ],
+          "reveal": "The correct answer is Camp Walden! [mischievously] They pull pranks, they go to isolation, they find out they're sisters. Classic camp.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In the original 1961 Parent Trap, this British actress played both twins, Susan and Sharon.",
+          "answer": "Hayley Mills",
+          "accept": [
+            "hayley mills",
+            "haley mills",
+            "hayley"
+          ],
+          "choices": [
+            "Hayley Mills",
+            "Annette Funicello",
+            "Julie Andrews",
+            "Patty Duke"
+          ],
+          "reveal": "The correct answer is Hayley Mills! [excited] And she sang Let's Get Together too. Double the twins, double the fun.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "In the 1976 Freaky Friday, the daughter, Annabel, is played by this future two-time Oscar winner.",
+          "answer": "Jodie Foster",
+          "accept": [
+            "jodie foster",
+            "jody foster",
+            "foster"
+          ],
+          "choices": [
+            "Jodie Foster",
+            "Kristy McNichol",
+            "Brooke Shields",
+            "Tatum O'Neal"
+          ],
+          "reveal": "The correct answer is Jodie Foster! [gasps] Her mom was Barbara Harris. Then in 2003, Lindsay Lohan and Jamie Lee Curtis swapped again.",
+          "dailyDouble": true
+        }
+      ]
+    },
+    {
+      "id": "prop-department",
+      "title": "Prop Department",
+      "kind": "media",
+      "format": "picture",
+      "intro": "It's our picture category, Prop Department! I'll show you a scene full of props from a Disney live-action film. [excited] Name the movie!",
+      "art": {
+        "prompt": "A dusty movie studio prop warehouse full of treasure chests, flying beds, glowing neon gadgets and a vintage car on shelves, warm dramatic light, 16:9 widescreen, vibrant cinematic lighting, original artwork, no text, no logos, no characters, no people",
+        "file": "media/live-action-legends--prop-department.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Name the Disney live-action film this scene evokes.",
+          "answer": "Hocus Pocus",
+          "accept": [
+            "hocus pocus"
+          ],
+          "choices": [
+            "Hocus Pocus",
+            "Halloweentown",
+            "Twitches",
+            "The Haunted Mansion"
+          ],
+          "reveal": "The correct answer is Hocus Pocus! [mischievously] Never light the black flame candle. Especially not in Salem. Especially not on Halloween.",
+          "media": {
+            "type": "image",
+            "prompt": "A spooky colonial Salem cottage at night on Halloween, a bubbling iron cauldron, a stitched leather spell book with a strange eye on the cover, and a single black candle with an eerie green flame, original artwork, no people, no characters, no text, no logos",
+            "file": "media/live-action-legends--prop-department-200.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Name the Disney live-action film this scene evokes.",
+          "answer": "Enchanted",
+          "accept": [
+            "enchanted"
+          ],
+          "choices": [
+            "Enchanted",
+            "Cinderella",
+            "The Princess Diaries",
+            "Into the Woods"
+          ],
+          "reveal": "The correct answer is Enchanted! [laughs] A storybook well that drops you into Times Square. Worst commute ever.",
+          "media": {
+            "type": "image",
+            "prompt": "A fairy-tale wishing well in a lush cartoon forest whose bottom opens into a busy New York City street with yellow taxis, a puffy white wedding gown caught on a manhole cover, original artwork, no people, no characters, no text, no logos",
+            "file": "media/live-action-legends--prop-department-400.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Name the Disney live-action film this scene evokes.",
+          "answer": "Bedknobs and Broomsticks",
+          "accept": [
+            "bedknobs and broomsticks",
+            "bedknobs & broomsticks",
+            "bed knobs and broomsticks"
+          ],
+          "choices": [
+            "Bedknobs and Broomsticks",
+            "Mary Poppins",
+            "Pete's Dragon",
+            "The Love Bug"
+          ],
+          "reveal": "The correct answer is Bedknobs and Broomsticks! [excited] A flying brass bed and an apprentice witch. Substitutiary locomotion!",
+          "media": {
+            "type": "image",
+            "prompt": "A brass bed with glowing magical bedknobs flying over a moonlit sea toward a tropical island, a witch's broomstick and a spell book resting on the quilt, original artwork, no people, no characters, no text, no logos",
+            "file": "media/live-action-legends--prop-department-600.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Name the Disney live-action film this scene evokes.",
+          "answer": "Tron",
+          "accept": [
+            "tron"
+          ],
+          "choices": [
+            "Tron",
+            "Flight of the Navigator",
+            "The Black Hole",
+            "WarGames"
+          ],
+          "reveal": "The correct answer is Tron! [gasps] 1982, and one of the first movies to use computer graphics in a big way. Ride its light cycle coaster at Magic Kingdom.",
+          "media": {
+            "type": "image",
+            "prompt": "An endless glowing digital landscape of neon blue grid lines, a glowing disc spinning in mid-air and a sleek light-trail motorcycle streak across black space, original artwork, no people, no characters, no text, no logos",
+            "file": "media/live-action-legends--prop-department-800.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Name the 1961 Disney live-action film this scene evokes.",
+          "answer": "The Absent-Minded Professor",
+          "accept": [
+            "the absent-minded professor",
+            "absent-minded professor",
+            "absent minded professor",
+            "the absent minded professor"
+          ],
+          "choices": [
+            "The Absent-Minded Professor",
+            "The Shaggy Dog",
+            "The Love Bug",
+            "Pollyanna"
+          ],
+          "reveal": "The correct answer is The Absent-Minded Professor! [laughs] Flying rubber and a flying Model T. It was remade in 1997 as Flubber.",
+          "media": {
+            "type": "image",
+            "prompt": "A cluttered 1960s college science lab with a bubbling beaker of bouncy green goo, a basketball floating mid-air, and a black vintage Model T car flying over a small-town college at night, original artwork, no people, no characters, no text, no logos",
+            "file": "media/live-action-legends--prop-department-1000.jpg"
+          },
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "rides-to-the-big-screen",
+      "title": "Rides to the Big Screen",
+      "kind": "parks",
+      "format": "text",
+      "intro": "Time for the parks: Rides to the Big Screen! These attractions became movies. [whispers] And some of them were... better than others.",
+      "art": {
+        "prompt": "A theme park ride boat and a haunted hotel elevator drifting into a giant glowing movie screen in a dark theater, popcorn floating in the air, 16:9 widescreen, vibrant cinematic lighting, original artwork, no text, no logos, no characters, no people",
+        "file": "media/live-action-legends--rides-to-the-big-screen.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This Disneyland boat ride, which opened in 1967, inspired a blockbuster movie franchise starring Johnny Depp.",
+          "answer": "Pirates of the Caribbean",
+          "accept": [
+            "pirates of the caribbean",
+            "pirates"
+          ],
+          "choices": [
+            "Pirates of the Caribbean",
+            "Jungle Cruise",
+            "Haunted Mansion",
+            "It's a Small World"
+          ],
+          "reveal": "The correct answer is Pirates of the Caribbean! [laughs] It was the last ride Walt Disney personally worked on. Yo ho, yo ho!",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "The 2021 Jungle Cruise movie starred Dwayne Johnson as skipper Frank and this actress as Lily.",
+          "answer": "Emily Blunt",
+          "accept": [
+            "emily blunt",
+            "blunt"
+          ],
+          "choices": [
+            "Emily Blunt",
+            "Amy Adams",
+            "Keira Knightley",
+            "Anne Hathaway"
+          ],
+          "reveal": "The correct answer is Emily Blunt! [chuckles] Bonus: Dwayne Johnson told the classic skipper puns. The backside of water, people!",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "The 2003 Haunted Mansion movie starred this comedian as a real estate agent.",
+          "answer": "Eddie Murphy",
+          "accept": [
+            "eddie murphy",
+            "murphy"
+          ],
+          "choices": [
+            "Eddie Murphy",
+            "Robin Williams",
+            "Steve Martin",
+            "Jim Carrey"
+          ],
+          "reveal": "The correct answer is Eddie Murphy! [mischievously] Another movie followed in 2023. The mansion has 999 happy haunts, and room for one more.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Magic Kingdom's musical bear show inspired this 2002 movie.",
+          "answer": "The Country Bears",
+          "accept": [
+            "the country bears",
+            "country bears"
+          ],
+          "choices": [
+            "The Country Bears",
+            "Bear Country",
+            "The Jamboree",
+            "Big Al"
+          ],
+          "reveal": "The correct answer is The Country Bears! [laughs] Not exactly a box office smash. But Big Al still has fans.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "The Tower of Terror inspired a 1997 TV movie starring Kirsten Dunst and this actor.",
+          "answer": "Steve Guttenberg",
+          "accept": [
+            "steve guttenberg",
+            "guttenberg"
+          ],
+          "choices": [
+            "Steve Guttenberg",
+            "Tom Hanks",
+            "Bill Paxton",
+            "Michael Keaton"
+          ],
+          "reveal": "The correct answer is Steve Guttenberg! [gasps] It aired on The Wonderful World of Disney, three years after the Florida ride opened in 1994. Going... DOWN!",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "real-life-royalty",
+      "title": "Real-Life Royalty",
+      "kind": "fan",
+      "format": "text",
+      "intro": "Our fan category is Real-Life Royalty: princesses, pirate queens and wicked queens, all played by real people. [excited] Curtsy and buzz in!",
+      "art": {
+        "prompt": "A palace ballroom where a jeweled tiara, a pirate captain's hat and a wicked queen's crown sit on velvet pillows, a magic mirror glowing in the background, 16:9 widescreen, vibrant cinematic lighting, original artwork, no text, no logos, no characters, no people",
+        "file": "media/live-action-legends--real-life-royalty.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In Enchanted, Giselle falls through a magic well from Andalasia and lands in this real city.",
+          "answer": "New York City",
+          "accept": [
+            "new york city",
+            "new york",
+            "nyc",
+            "manhattan",
+            "times square"
+          ],
+          "choices": [
+            "New York City",
+            "London",
+            "Paris",
+            "Los Angeles"
+          ],
+          "reveal": "The correct answer is New York City! [laughs] She wanders into Times Square in a gigantic wedding dress. Somehow nobody blinks.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Captain Jack Sparrow's beloved ship with black sails.",
+          "answer": "The Black Pearl",
+          "accept": [
+            "the black pearl",
+            "black pearl"
+          ],
+          "choices": [
+            "The Black Pearl",
+            "The Flying Dutchman",
+            "Queen Anne's Revenge",
+            "The Interceptor"
+          ],
+          "reveal": "The correct answer is the Black Pearl! [mischievously] The fastest ship in the Caribbean... when Jack can actually keep it.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "In Enchanted, Giselle cleans a messy apartment with pigeons, rats and cockroaches while singing this.",
+          "answer": "Happy Working Song",
+          "accept": [
+            "happy working song",
+            "the happy working song"
+          ],
+          "choices": [
+            "Happy Working Song",
+            "Whistle While You Work",
+            "That's How You Know",
+            "True Love's Kiss"
+          ],
+          "reveal": "The correct answer is Happy Working Song! [laughs] A loving parody of Whistle While You Work, but with New York wildlife. Ew. Adorable, but ew.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In The Princess Diaries, Mia Thermopolis learns she is heir to the throne of this European country.",
+          "answer": "Genovia",
+          "accept": [
+            "genovia"
+          ],
+          "choices": [
+            "Genovia",
+            "Andalasia",
+            "Corona",
+            "Arendelle"
+          ],
+          "reveal": "The correct answer is Genovia! [chuckles] Her grandmother, the queen, is played by Julie Andrews. Mary Poppins herself, giving princess lessons.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Enchanted's wicked Queen Narissa is played by this Oscar-winning actress.",
+          "answer": "Susan Sarandon",
+          "accept": [
+            "susan sarandon",
+            "sarandon"
+          ],
+          "choices": [
+            "Susan Sarandon",
+            "Glenn Close",
+            "Meryl Streep",
+            "Anjelica Huston"
+          ],
+          "reveal": "The correct answer is Susan Sarandon! [excited] She ends the film as a giant dragon on top of the Woolworth Building. As one does.",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}

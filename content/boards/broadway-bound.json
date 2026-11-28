@@ -1,0 +1,534 @@
+{
+  "id": "broadway-bound",
+  "title": "Broadway Bound",
+  "theme": "Disney on stage",
+  "tags": [
+    "broadway",
+    "theater",
+    "music"
+  ],
+  "intro": "[excited] Welcome to Broadway Bound! Tonight the curtain rises on Disney's stage shows, from Times Square to the theme parks. [whispers] Please silence your cell phones... unless you're buzzing in.",
+  "art": {
+    "prompt": "A glittering Broadway theater district at night, a red velvet curtain rising on an empty stage lit by a golden spotlight, giant savanna puppets and an ice palace set waiting in the wings, 16:9 widescreen, vibrant cinematic lighting, original artwork, no text, no logos, no characters, no people",
+    "file": "media/broadway-bound.jpg"
+  },
+  "categories": [
+    {
+      "id": "great-white-way",
+      "title": "The Great White Way",
+      "kind": "theme",
+      "format": "text",
+      "intro": "Our first category is The Great White Way, all about Disney on Broadway. [chuckles] Jazz hands are encouraged.",
+      "art": {
+        "prompt": "A row of glowing old-fashioned theater marquee lights with blank signs along a rainy Times Square street at night, reflections in the puddles, 16:9 widescreen, vibrant cinematic lighting, original artwork, no text, no logos, no characters, no people",
+        "file": "media/broadway-bound--great-white-way.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Disney's very first Broadway musical, which opened in 1994, was based on this 1991 animated film.",
+          "answer": "Beauty and the Beast",
+          "accept": [
+            "beauty and the beast"
+          ],
+          "choices": [
+            "Beauty and the Beast",
+            "The Lion King",
+            "Aladdin",
+            "The Little Mermaid"
+          ],
+          "reveal": "The correct answer is Beauty and the Beast! [excited] It ran for more than thirteen years. Be our guest, indeed.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Famous for giant puppet giraffes and elephants, this Disney musical is the highest-grossing show in Broadway history.",
+          "answer": "The Lion King",
+          "accept": [
+            "the lion king",
+            "lion king"
+          ],
+          "choices": [
+            "The Lion King",
+            "Wicked",
+            "Aladdin",
+            "Frozen"
+          ],
+          "reveal": "The correct answer is The Lion King! [gasps] It opened in 1997 and has earned BILLIONS. Hakuna matata, no money worries.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "This 2014 Disney musical stops the show with a huge tap-dancing Friend Like Me.",
+          "answer": "Aladdin",
+          "accept": [
+            "aladdin"
+          ],
+          "choices": [
+            "Aladdin",
+            "Newsies",
+            "Mary Poppins",
+            "Tarzan"
+          ],
+          "reveal": "The correct answer is Aladdin! [laughs] The Genie number gets a standing ovation in the middle of Act One. The actor needs a nap after.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "The Lion King's director made history in 1998 as the first woman to win the Tony for directing a musical.",
+          "answer": "Julie Taymor",
+          "accept": [
+            "julie taymor",
+            "taymor"
+          ],
+          "choices": [
+            "Julie Taymor",
+            "Susan Stroman",
+            "Kathleen Marshall",
+            "Diane Paulus"
+          ],
+          "reveal": "The correct answer is Julie Taymor! She also designed many of the masks and puppets. [excited] Talk about multitasking.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Disney restored this historic 42nd Street theater, which opened The Lion King on Broadway in 1997.",
+          "answer": "New Amsterdam Theatre",
+          "accept": [
+            "new amsterdam theatre",
+            "new amsterdam theater",
+            "new amsterdam",
+            "the new amsterdam"
+          ],
+          "choices": [
+            "New Amsterdam Theatre",
+            "Minskoff Theatre",
+            "Lunt-Fontanne Theatre",
+            "St. James Theatre"
+          ],
+          "reveal": "The correct answer is the New Amsterdam Theatre! [whispers] The Lion King later moved to the Minskoff in 2006. Tricky, tricky.",
+          "dailyDouble": true
+        }
+      ]
+    },
+    {
+      "id": "screen-to-stage",
+      "title": "From Screen to Stage",
+      "kind": "film",
+      "format": "text",
+      "intro": "Next up, From Screen to Stage! Every one of these musicals started as a Disney movie. [mischievously] Some were hits... and some were rescued by Broadway.",
+      "art": {
+        "prompt": "A film reel unspooling from a movie projector and turning into a theater stage floor with footlights, newspapers, jungle vines and snowflakes swirling above it, 16:9 widescreen, vibrant cinematic lighting, original artwork, no text, no logos, no characters, no people",
+        "file": "media/broadway-bound--screen-to-stage.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In the Broadway musical of this film, Elsa's Let It Go brings down the curtain on Act One.",
+          "answer": "Frozen",
+          "accept": [
+            "frozen"
+          ],
+          "choices": [
+            "Frozen",
+            "Tangled",
+            "Moana",
+            "Encanto"
+          ],
+          "reveal": "The correct answer is Frozen! [excited] Her dress transforms right on stage in the blink of an eye. Theater magic!",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "A young Christian Bale starred in this 1992 Disney movie musical about striking newsboys, which became a 2012 Broadway hit.",
+          "answer": "Newsies",
+          "accept": [
+            "newsies",
+            "the newsies"
+          ],
+          "choices": [
+            "Newsies",
+            "Oliver and Company",
+            "Annie",
+            "Pete's Dragon"
+          ],
+          "reveal": "The correct answer is Newsies! [laughs] The movie flopped, then kids wore out the VHS tapes. Now everybody wants to seize the day.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Tarzan's 2006 Broadway musical featured songs by this rock star, who also wrote the film's songs.",
+          "answer": "Phil Collins",
+          "accept": [
+            "phil collins",
+            "collins"
+          ],
+          "choices": [
+            "Phil Collins",
+            "Elton John",
+            "Sting",
+            "Peter Gabriel"
+          ],
+          "reveal": "The correct answer is Phil Collins! [chuckles] You'll Be in My Heart. And now you'll be humming it all night.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In The Little Mermaid on Broadway in 2008, the merfolk swam across the stage by gliding on these.",
+          "answer": "Heelys",
+          "accept": [
+            "heelys",
+            "heelies",
+            "wheeled shoes",
+            "wheelie shoes",
+            "roller shoes",
+            "shoes with wheels"
+          ],
+          "choices": [
+            "Heelys",
+            "Ice skates",
+            "Skateboards",
+            "Stilts"
+          ],
+          "reveal": "The correct answer is Heelys! [laughs] Sneakers with a wheel in the heel. Ariel's tail had a secret set of wheels.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Mary Poppins flew onto Broadway in 2006 as a co-production between Disney and this legendary British producer.",
+          "answer": "Cameron Mackintosh",
+          "accept": [
+            "cameron mackintosh",
+            "mackintosh",
+            "cameron mcintosh"
+          ],
+          "choices": [
+            "Cameron Mackintosh",
+            "Andrew Lloyd Webber",
+            "Thomas Schumacher",
+            "Harold Prince"
+          ],
+          "reveal": "The correct answer is Cameron Mackintosh! [excited] The man behind Les Miserables and Cats. And in the stage show, Mary flies right over the audience.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "spotlight-zoom",
+      "title": "Spotlight Zoom",
+      "kind": "media",
+      "format": "zoom",
+      "intro": "It's our zoom category, Spotlight Zoom! You'll start super close on a stage set and slowly pull back. [whispers] Break a leg.",
+      "art": {
+        "prompt": "A theater spotlight beam cutting through haze onto a stage covered with tiny miniature sets: a savanna, an ice palace, a golden cave, a city street and a jungle, 16:9 widescreen, vibrant cinematic lighting, original artwork, no text, no logos, no characters, no people",
+        "file": "media/broadway-bound--spotlight-zoom.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Zoom out on this stage set. Which Disney stage musical is it?",
+          "answer": "The Little Mermaid",
+          "accept": [
+            "the little mermaid",
+            "little mermaid"
+          ],
+          "choices": [
+            "The Little Mermaid",
+            "Frozen",
+            "Tarzan",
+            "Aida"
+          ],
+          "reveal": "The correct answer is The Little Mermaid! [excited] Under the sea, on a stage, with no actual water. Darling, it's better... down where it's dry.",
+          "media": {
+            "type": "image",
+            "prompt": "A stage set of an underwater kingdom with a giant scallop-shell throne, glowing jellyfish lanterns floating on wires and a rocky grotto shelf full of human trinkets like a fork and a pipe, original artwork, no people, no characters, no text, no logos",
+            "file": "media/broadway-bound--spotlight-zoom-200.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Zoom out on this stage set. Which Disney stage musical is it?",
+          "answer": "Mary Poppins",
+          "accept": [
+            "mary poppins"
+          ],
+          "choices": [
+            "Mary Poppins",
+            "Newsies",
+            "Beauty and the Beast",
+            "Aladdin"
+          ],
+          "reveal": "The correct answer is Mary Poppins! [chuckles] Chimneys, rooftops, and a nanny who flies over the audience. Step in time!",
+          "media": {
+            "type": "image",
+            "prompt": "A stage set of Victorian London rooftops at dusk with rows of smoking chimneys, chimney sweep brooms leaning on a ledge and a black umbrella hanging from the theater rigging, original artwork, no people, no characters, no text, no logos",
+            "file": "media/broadway-bound--spotlight-zoom-400.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Zoom out on this stage set. Which Disney stage musical is it?",
+          "answer": "The Hunchback of Notre Dame",
+          "accept": [
+            "the hunchback of notre dame",
+            "hunchback of notre dame",
+            "hunchback"
+          ],
+          "choices": [
+            "The Hunchback of Notre Dame",
+            "Beauty and the Beast",
+            "Aida",
+            "Tarzan"
+          ],
+          "reveal": "The correct answer is The Hunchback of Notre Dame! [whispers] The stage version features a full choir right on stage. Sanctuary!",
+          "media": {
+            "type": "image",
+            "prompt": "A stage set of a Gothic cathedral bell tower with enormous bronze bells hanging from wooden beams, stained-glass rose window glowing behind, a choir loft in shadow and a tiny carved wooden village on a table, original artwork, no people, no characters, no text, no logos",
+            "file": "media/broadway-bound--spotlight-zoom-600.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Zoom out on this stage set. Which Disney stage musical is it?",
+          "answer": "Tarzan",
+          "accept": [
+            "tarzan"
+          ],
+          "choices": [
+            "Tarzan",
+            "The Lion King",
+            "Frozen",
+            "The Little Mermaid"
+          ],
+          "reveal": "The correct answer is Tarzan! [excited] The actors swung on ropes right over the audience. Front-row seats came with a breeze.",
+          "media": {
+            "type": "image",
+            "prompt": "A vertical stage jungle with green fabric vines and ropes hanging from the ceiling high above the audience, a giant canopy of leaves and a treehouse built into the proscenium, original artwork, no people, no characters, no text, no logos",
+            "file": "media/broadway-bound--spotlight-zoom-800.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Zoom out on this stage set. Which Disney stage musical is it?",
+          "answer": "Aida",
+          "accept": [
+            "aida",
+            "elton john and tim rice's aida",
+            "elton john's aida"
+          ],
+          "choices": [
+            "Aida",
+            "The Hunchback of Notre Dame",
+            "Tarzan",
+            "Mary Poppins"
+          ],
+          "reveal": "The correct answer is Aida! [gasps] Disney's 2000 Broadway musical with songs by Elton John and Tim Rice. It won four Tony Awards, and it's not based on a cartoon at all.",
+          "media": {
+            "type": "image",
+            "prompt": "A stage set of an ancient Egyptian palace on the Nile at sunset, towering painted columns, a golden barge on blue silk water and a modern museum display case glowing at the edge of the stage, original artwork, no people, no characters, no text, no logos",
+            "file": "media/broadway-bound--spotlight-zoom-1000.jpg"
+          },
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "showtime-in-the-parks",
+      "title": "Showtime in the Parks",
+      "kind": "parks",
+      "format": "text",
+      "intro": "Time for the parks: Showtime in the Parks! [excited] No Broadway tickets needed. Just a park ticket... and a LOT of sunscreen.",
+      "art": {
+        "prompt": "An outdoor theme park amphitheater at night with a lagoon stage, water screens, colorful fountains and lights, with a jungle theater in the round nearby, 16:9 widescreen, vibrant cinematic lighting, original artwork, no text, no logos, no characters, no people",
+        "file": "media/broadway-bound--showtime-in-the-parks.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Festival of the Lion King is a big, colorful stage show at this Walt Disney World park.",
+          "answer": "Disney's Animal Kingdom",
+          "accept": [
+            "disney's animal kingdom",
+            "animal kingdom",
+            "disneys animal kingdom"
+          ],
+          "choices": [
+            "Disney's Animal Kingdom",
+            "EPCOT",
+            "Magic Kingdom",
+            "Disney's Hollywood Studios"
+          ],
+          "reveal": "The correct answer is Disney's Animal Kingdom! [excited] Stilt walkers, tumbling monkeys and giant floats. It's been roaring since 1998.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "In Fantasmic, Mickey wears the starry sorcerer's hat from this 1940 film.",
+          "answer": "Fantasia",
+          "accept": [
+            "fantasia"
+          ],
+          "choices": [
+            "Fantasia",
+            "Pinocchio",
+            "Dumbo",
+            "Steamboat Willie"
+          ],
+          "reveal": "The correct answer is Fantasia! [laughs] Mickey borrowed it from the sorcerer Yen Sid. Spoiler, it did not go well the first time.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "At Disney's Hollywood Studios, Fantasmic plays in this huge lakeside theater.",
+          "answer": "Hollywood Hills Amphitheater",
+          "accept": [
+            "hollywood hills amphitheater",
+            "hollywood hills amphitheatre",
+            "hollywood hills"
+          ],
+          "choices": [
+            "Hollywood Hills Amphitheater",
+            "Theater of the Stars",
+            "Hyperion Theater",
+            "Sunset Showcase"
+          ],
+          "reveal": "The correct answer is Hollywood Hills Amphitheater! [chuckles] Room for thousands of guests. Get there early, because it fills up FAST.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Beauty and the Beast Live on Stage plays at this outdoor Sunset Boulevard theater at Disney's Hollywood Studios.",
+          "answer": "Theater of the Stars",
+          "accept": [
+            "theater of the stars",
+            "theatre of the stars"
+          ],
+          "choices": [
+            "Theater of the Stars",
+            "Hollywood Hills Amphitheater",
+            "Hyperion Theater",
+            "Animation Courtyard"
+          ],
+          "reveal": "The correct answer is Theater of the Stars! [excited] Be Our Guest with dancing plates, live, under the Florida sun. Bravo!",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Disney California Adventure's Hyperion Theater is named after the street of Walt's studio, where this first full-length animated feature was made.",
+          "answer": "Snow White and the Seven Dwarfs",
+          "accept": [
+            "snow white and the seven dwarfs",
+            "snow white"
+          ],
+          "choices": [
+            "Snow White and the Seven Dwarfs",
+            "Pinocchio",
+            "Fantasia",
+            "Bambi"
+          ],
+          "reveal": "The correct answer is Snow White and the Seven Dwarfs! [whispers] Made on Hyperion Avenue in Los Angeles, released in 1937. Heigh-ho!",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "finish-the-showtune",
+      "title": "Finish the Showtune",
+      "kind": "fan",
+      "format": "text",
+      "intro": "Our fan category is Finish the Showtune! I'll sing the start, you finish the line. [laughs] Please, PLEASE buzz in fast so I stop singing.",
+      "art": {
+        "prompt": "Glowing golden music notes and lyrics swirling out of an old-fashioned theater orchestra pit into a starry sky above a red curtain, 16:9 widescreen, vibrant cinematic lighting, original artwork, no text, no logos, no characters, no people",
+        "file": "media/broadway-bound--finish-the-showtune.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Finish the lyric: Hakuna matata, what a wonderful...",
+          "answer": "Phrase",
+          "accept": [
+            "phrase"
+          ],
+          "choices": [
+            "Phrase",
+            "Day",
+            "Place",
+            "Craze"
+          ],
+          "reveal": "The correct answer is phrase! [laughs] Hakuna matata, ain't no passing craze. Okay, okay, I'll stop.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Finish the lyric: Be our guest, be our guest, put our... to the test.",
+          "answer": "Service",
+          "accept": [
+            "service",
+            "our service"
+          ],
+          "choices": [
+            "Service",
+            "Dinner",
+            "Kitchen",
+            "Talent"
+          ],
+          "reveal": "The correct answer is service! [excited] Tie your napkin round your neck, cherie. Dinner is served.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Finish the lyric: Wish I could be part of that...",
+          "answer": "World",
+          "accept": [
+            "world",
+            "that world"
+          ],
+          "choices": [
+            "World",
+            "Sea",
+            "Life",
+            "Crowd"
+          ],
+          "reveal": "The correct answer is world! [sighs] Ariel collecting forks and dreaming big. On Broadway she gets a whole new set of songs, too.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Finish the lyric: I can show you the world, shining, shimmering...",
+          "answer": "Splendid",
+          "accept": [
+            "splendid"
+          ],
+          "choices": [
+            "Splendid",
+            "Sparkling",
+            "Glittering",
+            "Wonderful"
+          ],
+          "reveal": "The correct answer is splendid! [chuckles] Tell me, princess, now when did you last let your heart decide? Romance on a rug.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Finish the lyric: He lives in you, he lives in me, he watches over everything we...",
+          "answer": "See",
+          "accept": [
+            "see"
+          ],
+          "choices": [
+            "See",
+            "Be",
+            "Need",
+            "Dream"
+          ],
+          "reveal": "The correct answer is see! [excited] He Lives in You is a showstopper in The Lion King on Broadway. Shivers!",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}

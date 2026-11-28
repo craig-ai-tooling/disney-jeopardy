@@ -1,0 +1,538 @@
+{
+  "id": "disney-afternoon",
+  "title": "The Disney Afternoon",
+  "theme": "Disney animated TV",
+  "tags": [
+    "tv",
+    "animation",
+    "nostalgia"
+  ],
+  "intro": "[excited] Grab a juice box and a snack, it's The Disney Afternoon! Tonight's board is all about Disney's animated TV shows, from DuckTales to Gravity Falls. [laughs] Homework can wait. This is IMPORTANT.",
+  "art": {
+    "prompt": "A cozy 1990s living room after school: a chunky CRT television glowing with colorful light, a beanbag chair, a backpack tossed on the floor, juice boxes and a bowl of cereal on the carpet, sunshine through the window, 16:9 widescreen, vibrant cinematic lighting, original artwork, no text, no logos, no characters, no people",
+    "file": "media/disney-afternoon.jpg"
+  },
+  "categories": [
+    {
+      "id": "life-is-like-a-hurricane",
+      "title": "Life Is Like a Hurricane",
+      "kind": "film",
+      "format": "text",
+      "intro": "Our first category is Life Is Like a Hurricane, all about DuckTales! [excited] Woo-oo! Sorry, it's the law. You have to say it.",
+      "art": {
+        "prompt": "A towering money bin vault on a hill overlooking a cartoon harbor city, gold coins spilling out of the top, a diving board over a sea of coins, a sunset sky, 16:9 widescreen, vibrant cinematic lighting, original artwork, no text, no logos, no characters, no people",
+        "file": "media/disney-afternoon--life-is-like-a-hurricane.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Scrooge McDuck's three grandnephews are Huey, Dewey and this duck.",
+          "answer": "Louie",
+          "accept": [
+            "louie",
+            "louis",
+            "louey"
+          ],
+          "choices": [
+            "Louie",
+            "Donald",
+            "Launchpad",
+            "Gyro"
+          ],
+          "reveal": "The correct answer is Louie! [laughs] Red, blue and green. In the 2017 series they finally got their own personalities.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Scrooge McDuck keeps his fortune in this giant building, and even dives into it like a swimming pool.",
+          "answer": "The Money Bin",
+          "accept": [
+            "the money bin",
+            "money bin",
+            "his money bin"
+          ],
+          "choices": [
+            "The Money Bin",
+            "The Gold Vault",
+            "The Coin Castle",
+            "The Treasure Tower"
+          ],
+          "reveal": "The correct answer is the Money Bin! [chuckles] Please, do not try diving into your piggy bank at home.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "This crash-prone pilot flies Scrooge around the world, and crashes almost every landing.",
+          "answer": "Launchpad McQuack",
+          "accept": [
+            "launchpad mcquack",
+            "launchpad",
+            "launch pad"
+          ],
+          "choices": [
+            "Launchpad McQuack",
+            "Gyro Gearloose",
+            "Fenton Crackshell",
+            "Darkwing Duck"
+          ],
+          "reveal": "The correct answer is Launchpad McQuack! [laughs] He later became Darkwing Duck's sidekick. Any landing you can walk away from, right?",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "This sorceress keeps trying to steal Scrooge's lucky Number One Dime.",
+          "answer": "Magica De Spell",
+          "accept": [
+            "magica de spell",
+            "magica",
+            "magica despell"
+          ],
+          "choices": [
+            "Magica De Spell",
+            "Ma Beagle",
+            "Goldie O'Gilt",
+            "Lena"
+          ],
+          "reveal": "The correct answer is Magica De Spell! [mischievously] She wants to melt it into a magic amulet. Scrooge would rather melt first.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "In the 1987 DuckTales, Scrooge's loyal English butler is named this.",
+          "answer": "Duckworth",
+          "accept": [
+            "duckworth"
+          ],
+          "choices": [
+            "Duckworth",
+            "Bentley",
+            "Jeeves",
+            "Mrs. Beakley"
+          ],
+          "reveal": "The correct answer is Duckworth! [chuckles] Prim, proper and always unimpressed. Mrs. Beakley ran the house, too.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "after-school-special",
+      "title": "After-School Special",
+      "kind": "theme",
+      "format": "text",
+      "intro": "Next up, After-School Special! The shows that ruled our afternoons. [excited] Prepare for some serious nostalgia.",
+      "art": {
+        "prompt": "A colorful collage of afternoon TV adventure: a cargo seaplane over a tropical harbor, stone statues on a Manhattan skyscraper, a detective agency treehouse and a cape fluttering on a bridge at night, 16:9 widescreen, vibrant cinematic lighting, original artwork, no text, no logos, no characters, no people",
+        "file": "media/disney-afternoon--after-school-special.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In Goof Troop, Goofy is a single dad raising his son, named this.",
+          "answer": "Max",
+          "accept": [
+            "max",
+            "max goof"
+          ],
+          "choices": [
+            "Max",
+            "PJ",
+            "Pete",
+            "Gilbert"
+          ],
+          "reveal": "The correct answer is Max! [laughs] He grew up to star in A Goofy Movie. Ah-hyuck!",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "In TaleSpin, this Jungle Book bear flies a cargo seaplane called the Sea Duck.",
+          "answer": "Baloo",
+          "accept": [
+            "baloo"
+          ],
+          "choices": [
+            "Baloo",
+            "Bagheera",
+            "Little John",
+            "King Louie"
+          ],
+          "reveal": "The correct answer is Baloo! [chuckles] From bare necessities to cargo deliveries. Still pretty relaxed about deadlines.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "This caped mallard introduces himself as the terror that flaps in the night.",
+          "answer": "Darkwing Duck",
+          "accept": [
+            "darkwing duck",
+            "darkwing",
+            "drake mallard"
+          ],
+          "choices": [
+            "Darkwing Duck",
+            "Duck Avenger",
+            "Gizmoduck",
+            "Negaduck"
+          ],
+          "reveal": "The correct answer is Darkwing Duck! [dramatic pause] Let's get dangerous! The most dramatic duck in Saint Canard.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In Gargoyles, the clan's winged leader, who turns to stone by day, is named this.",
+          "answer": "Goliath",
+          "accept": [
+            "goliath"
+          ],
+          "choices": [
+            "Goliath",
+            "Hudson",
+            "Brooklyn",
+            "Lexington"
+          ],
+          "reveal": "The correct answer is Goliath! [whispers] Asleep for a thousand years, then awakened in Manhattan. That's one long nap.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "The two-hour weekday block known as The Disney Afternoon premiered in syndication in this year.",
+          "answer": "1990",
+          "accept": [
+            "1990",
+            "nineteen ninety"
+          ],
+          "choices": [
+            "1990",
+            "1985",
+            "1987",
+            "1993"
+          ],
+          "reveal": "The correct answer is 1990! [excited] DuckTales, Rescue Rangers, Gummi Bears and TaleSpin, all in one afternoon. Peak childhood.",
+          "dailyDouble": true
+        }
+      ]
+    },
+    {
+      "id": "after-school-zoom",
+      "title": "After-School Zoom",
+      "kind": "media",
+      "format": "zoom",
+      "intro": "It's our zoom category, After-School Zoom! The picture starts super close and slowly pulls back. [excited] Name that TV show!",
+      "art": {
+        "prompt": "A retro TV remote control and a big magnifying lens hovering over a stack of colorful cartoon VHS tapes with blank labels, 16:9 widescreen, vibrant cinematic lighting, original artwork, no text, no logos, no characters, no people",
+        "file": "media/disney-afternoon--after-school-zoom.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This zoomed-in scene sets the stage for which Disney animated TV series?",
+          "answer": "Phineas and Ferb",
+          "accept": [
+            "phineas and ferb",
+            "phineas & ferb",
+            "phineas"
+          ],
+          "choices": [
+            "Phineas and Ferb",
+            "Fish Hooks",
+            "Kim Possible",
+            "Recess"
+          ],
+          "reveal": "The correct answer is Phineas and Ferb! [laughs] A giant backyard roller coaster, built in one afternoon. Mom will NEVER see it.",
+          "media": {
+            "type": "image",
+            "prompt": "A sunny suburban backyard with a towering homemade roller coaster built from wood and metal looping over a tall tree, a little teal fedora hat resting on the grass, original artwork, no people, no characters, no text, no logos",
+            "file": "media/disney-afternoon--after-school-zoom-200.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "This zoomed-in scene sets the stage for which Disney animated TV series?",
+          "answer": "Doc McStuffins",
+          "accept": [
+            "doc mcstuffins",
+            "doc mc stuffins"
+          ],
+          "choices": [
+            "Doc McStuffins",
+            "Sofia the First",
+            "Vampirina",
+            "Puppy Dog Pals"
+          ],
+          "reveal": "The correct answer is Doc McStuffins! [chuckles] A backyard clinic for toys. Time for your checkup!",
+          "media": {
+            "type": "image",
+            "prompt": "A cheerful backyard playhouse clinic for stuffed toys, a pink toy stethoscope and a doctor's bag on a little table, a big pastel checkup book and bandages for teddy bears, original artwork, no people, no characters, no text, no logos",
+            "file": "media/disney-afternoon--after-school-zoom-400.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "This zoomed-in scene sets the stage for which Disney animated TV series?",
+          "answer": "Gravity Falls",
+          "accept": [
+            "gravity falls"
+          ],
+          "choices": [
+            "Gravity Falls",
+            "The Owl House",
+            "Amphibia",
+            "Kim Possible"
+          ],
+          "reveal": "The correct answer is Gravity Falls! [whispers] Trust no one. Especially in the Mystery Shack gift shop.",
+          "media": {
+            "type": "image",
+            "prompt": "A spooky Oregon pine forest at night with a ramshackle wooden tourist-trap cabin, a weathered leather journal with a gold six-fingered hand on its cover lying on a stump, fireflies glowing, original artwork, no people, no characters, no text, no logos",
+            "file": "media/disney-afternoon--after-school-zoom-600.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "This zoomed-in scene sets the stage for which Disney animated TV series?",
+          "answer": "Gargoyles",
+          "accept": [
+            "gargoyles"
+          ],
+          "choices": [
+            "Gargoyles",
+            "Batman: The Animated Series",
+            "TaleSpin",
+            "Darkwing Duck"
+          ],
+          "reveal": "The correct answer is Gargoyles! [gasps] Stone by day, warriors by night, perched on a castle on top of a skyscraper.",
+          "media": {
+            "type": "image",
+            "prompt": "A medieval Scottish castle perched on top of a modern Manhattan skyscraper at night, stone statues on the ledges cracking open with glowing light, moon over the city, original artwork, no people, no characters, no text, no logos",
+            "file": "media/disney-afternoon--after-school-zoom-800.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "This zoomed-in scene sets the stage for which Disney animated TV series?",
+          "answer": "Amphibia",
+          "accept": [
+            "amphibia"
+          ],
+          "choices": [
+            "Amphibia",
+            "The Owl House",
+            "Gravity Falls",
+            "Star vs. the Forces of Evil"
+          ],
+          "reveal": "The correct answer is Amphibia! [excited] A girl, a magic music box and a whole swamp town of frogs. Hop to it!",
+          "media": {
+            "type": "image",
+            "prompt": "A swampy village of mushroom houses and lily pads under a misty green sky, a glowing ornate music box with three colored gems sitting on a log, original artwork, no people, no characters, no text, no logos",
+            "file": "media/disney-afternoon--after-school-zoom-1000.jpg"
+          },
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "toons-in-the-parks",
+      "title": "Toons in the Parks",
+      "kind": "parks",
+      "format": "text",
+      "intro": "Time for the parks: Toons in the Parks! [mischievously] Our TV pals don't just stay on TV, you know.",
+      "art": {
+        "prompt": "A whimsical cartoon town in a theme park with crooked candy-colored buildings, a tiny acorn-shaped coaster car on a twisting wooden track and a spy gadget glowing in a World Showcase plaza, 16:9 widescreen, vibrant cinematic lighting, original artwork, no text, no logos, no characters, no people",
+        "file": "media/disney-afternoon--toons-in-the-parks.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Mickey's Toontown opened in 1993 at this original Disney park.",
+          "answer": "Disneyland",
+          "accept": [
+            "disneyland",
+            "disneyland park"
+          ],
+          "choices": [
+            "Disneyland",
+            "Magic Kingdom",
+            "Disney California Adventure",
+            "EPCOT"
+          ],
+          "reveal": "The correct answer is Disneyland! [excited] A whole cartoon town where nothing is straight. Not even the lampposts.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Disneyland's Toontown kiddie coaster, rethemed in 2023, is now named after this Rescue Rangers duo.",
+          "answer": "Chip 'n' Dale",
+          "accept": [
+            "chip 'n' dale",
+            "chip and dale",
+            "chip n dale",
+            "chip & dale"
+          ],
+          "choices": [
+            "Chip 'n' Dale",
+            "Huey, Dewey and Louie",
+            "Timon and Pumbaa",
+            "Mickey and Minnie"
+          ],
+          "reveal": "The correct answer is Chip 'n' Dale! [laughs] It's Chip 'n' Dale's GADGETcoaster now. Gadget built it, but the chipmunks got top billing.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "In EPCOT's World Showcase, guests once played a secret agent game helping this Phineas and Ferb platypus.",
+          "answer": "Perry the Platypus",
+          "accept": [
+            "perry the platypus",
+            "perry",
+            "agent p"
+          ],
+          "choices": [
+            "Perry the Platypus",
+            "Dr. Doofenshmirtz",
+            "Major Monogram",
+            "Pinky"
+          ],
+          "reveal": "The correct answer is Perry the Platypus! [chuckles] Agent P's World Showcase Adventure ran from 2012 to 2020. Curse you, Perry the Platypus!",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "That Perry game replaced a 2009 World Showcase spy game starring this teen hero.",
+          "answer": "Kim Possible",
+          "accept": [
+            "kim possible",
+            "kim"
+          ],
+          "choices": [
+            "Kim Possible",
+            "Lizzie McGuire",
+            "Hannah Montana",
+            "Raven Baxter"
+          ],
+          "reveal": "The correct answer is Kim Possible! [excited] Call me, beep me, if you want to reach me. Mission accomplished.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "In 2022, that World Showcase game was rethemed yet again, this time to this series rebooted in 2017.",
+          "answer": "DuckTales",
+          "accept": [
+            "ducktales",
+            "duck tales",
+            "ducktales world showcase adventure"
+          ],
+          "choices": [
+            "DuckTales",
+            "Darkwing Duck",
+            "TaleSpin",
+            "Chip 'n Dale: Rescue Rangers"
+          ],
+          "reveal": "The correct answer is DuckTales! [laughs] Three games, one World Showcase. Even the spy games get remakes.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "theme-song-sing-along",
+      "title": "Theme Song Sing-Along",
+      "kind": "fan",
+      "format": "text",
+      "intro": "Our fan category is Theme Song Sing-Along! Finish the theme songs we all sang in the living room. [laughs] Neighbors, I apologize in advance.",
+      "art": {
+        "prompt": "Musical notes bursting out of a glowing old CRT television in a dark room, a microphone made from a hairbrush, cartoon starbursts in the air, 16:9 widescreen, vibrant cinematic lighting, original artwork, no text, no logos, no characters, no people",
+        "file": "media/disney-afternoon--theme-song-sing-along.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Finish the theme song lyric: There's a hundred and four days of summer vacation, and school comes along just to... it.",
+          "answer": "End",
+          "accept": [
+            "end",
+            "end it"
+          ],
+          "choices": [
+            "End",
+            "Ruin",
+            "Start",
+            "Stop"
+          ],
+          "reveal": "The correct answer is end! [laughs] Phineas and Ferb then spend all hundred and four days building rockets. Overachievers.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Finish the theme song lyric: Life is like a hurricane, here in...",
+          "answer": "Duckburg",
+          "accept": [
+            "duckburg",
+            "duckberg"
+          ],
+          "choices": [
+            "Duckburg",
+            "Duckville",
+            "Saint Canard",
+            "Spoonerville"
+          ],
+          "reveal": "The correct answer is Duckburg! [excited] Race cars, lasers, aeroplanes... it's a duck blur! Woo-oo!",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Finish the theme song lyric: Sometimes some crimes go slippin' through the cracks, but these two gumshoes are pickin' up the...",
+          "answer": "Slack",
+          "accept": [
+            "slack",
+            "the slack"
+          ],
+          "choices": [
+            "Slack",
+            "Tracks",
+            "Facts",
+            "Snacks"
+          ],
+          "reveal": "The correct answer is slack! [chuckles] Chip 'n Dale Rescue Rangers! No case is too big, no case is too small.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Finish the theme song lyric: Darkwing Duck! When there's trouble, you call...",
+          "answer": "D.W.",
+          "accept": [
+            "d.w.",
+            "dw",
+            "d w",
+            "d.w",
+            "dee double you"
+          ],
+          "choices": [
+            "D.W.",
+            "911",
+            "D.D.",
+            "The Rangers"
+          ],
+          "reveal": "The correct answer is D.W.! [dramatic pause] Let's get dangerous. He'd want me to say that.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Finish the theme song lyric: Dashing and daring, courageous and caring, faithful and friendly, with stories to...",
+          "answer": "Tell",
+          "accept": [
+            "tell"
+          ],
+          "choices": [
+            "Tell",
+            "Share",
+            "Spare",
+            "Sell"
+          ],
+          "reveal": "The correct answer is tell! [excited] They're the Gummi Bears! Bouncing here and there and everywhere, since 1985.",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}
