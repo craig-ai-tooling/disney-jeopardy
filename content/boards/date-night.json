@@ -337,8 +337,12 @@
           "reveal": "The correct answer is Blue Bayou Restaurant! [whispers] Fireflies, crickets, and a little splash from passing pirates. So romantic.",
           "media": {
             "type": "image",
-            "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A candlelit table on a wooden porch in a Louisiana bayou at permanent twilight, fireflies glowing, Spanish moss hanging from trees, a lantern-lit boat drifting past on dark water.",
-            "file": "media/date-night--table-for-two-200.jpg"
+            "file": "media/date-night--table-for-two-200.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Blue_Bayou_Restaurant_-_3.jpg",
+              "license": "CC BY 2.0",
+              "author": "Loren Javier"
+            }
           },
           "dailyDouble": false
         },
@@ -385,8 +389,12 @@
           "reveal": "The correct answer is Sci-Fi Dine-In Theater Restaurant! [laughs] The only drive-in where the car never needs gas.",
           "media": {
             "type": "image",
-            "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. An indoor night-time drive-in theater with booths shaped like 1950s convertibles with chrome fins, a starry painted sky, and a giant glowing movie screen.",
-            "file": "media/date-night--table-for-two-600.jpg"
+            "file": "media/date-night--table-for-two-600.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Sci-Fi_Dine-In_Theater_interior_by_hyku.jpg",
+              "license": "CC BY-SA 2.0",
+              "author": "Josh Hallett from Winter Haven, FL, USA"
+            }
           },
           "dailyDouble": false
         },
@@ -430,8 +438,12 @@
           "reveal": "The correct answer is Victoria and Albert's! Named for Queen Victoria and Prince Albert, the original royal power couple.",
           "media": {
             "type": "image",
-            "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. An intimate, opulent Victorian dining room with silk wallpaper, a glowing crystal chandelier, fine china and silver cloches on a table for two, a harp in the corner.",
-            "file": "media/date-night--table-for-two-1000.jpg"
+            "file": "media/date-night--table-for-two-1000.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Victoria_%26_Albert%27s_Restaurant_Grand_Floridian_chandelier.jpg",
+              "license": "CC BY-SA 2.0",
+              "author": "Haydn Blackey"
+            }
           },
           "dailyDouble": false
         }

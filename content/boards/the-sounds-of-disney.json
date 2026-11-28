@@ -241,8 +241,12 @@
           "reveal": "The correct answer is the Haunted Mansion! [laughs] That spooky organ music gets me every time. Foolish mortal!",
           "media": {
             "type": "image",
-            "prompt": "A dim ghostly ballroom with a cobwebbed pipe organ, flickering candelabras, a long dining table with toppled chairs and swirling translucent mist. Original painterly storybook illustration, 16:9, cinematic lighting, rich color, no people, no characters, no text, no logos.",
-            "file": "media/the-sounds-of-disney--hear-it-in-the-parks-200.jpg"
+            "file": "media/the-sounds-of-disney--hear-it-in-the-parks-200.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Disneyland_Haunted_Mansion_05.jpg",
+              "license": "CC BY-SA 3.0",
+              "author": "deror_avi"
+            }
           },
           "dailyDouble": false
         },
@@ -263,8 +267,12 @@
           "reveal": "The correct answer is the Jungle Cruise! [sarcastic] And the backside of water. Never gets old. Okay, it gets a LITTLE old.",
           "media": {
             "type": "image",
-            "prompt": "A small tramp-steamer river boat with a striped canvas canopy on a muddy jungle river, vines and waterfalls, an old wooden dock with crates and a hand-crank horn. Original painterly storybook illustration, 16:9, cinematic lighting, rich color, no people, no characters, no text, no logos.",
-            "file": "media/the-sounds-of-disney--hear-it-in-the-parks-400.jpg"
+            "file": "media/the-sounds-of-disney--hear-it-in-the-parks-400.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Disneyland_park_-_Anaheim_Los_Angeles_California_USA_(9894255866).jpg",
+              "license": "CC BY 2.0",
+              "author": "Boris  Dzhingarov"
+            }
           },
           "dailyDouble": false
         },
@@ -311,8 +319,12 @@
           "reveal": "The correct answer is Soarin'! [excited] That music, that breeze... and that smell of oranges. Chills.",
           "media": {
             "type": "image",
-            "prompt": "Rows of hang-glider-style seats with dangling feet lifted in front of a giant curved dome screen showing golden valleys and ocean, soft wind and orange-grove blossoms. Original painterly storybook illustration, 16:9, cinematic lighting, rich color, no people, no characters, no text, no logos.",
-            "file": "media/the-sounds-of-disney--hear-it-in-the-parks-800.jpg"
+            "file": "media/the-sounds-of-disney--hear-it-in-the-parks-800.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Soarin_-_EPCOT_-_3092034331.jpg",
+              "license": "CC BY-SA 2.0",
+              "author": "Josh Hallett"
+            }
           },
           "dailyDouble": false
         },
@@ -332,8 +344,12 @@
           "reveal": "The correct answer is Space Mountain! [gasps] Blasting through the stars with a Giacchino soundtrack. Pure magic.",
           "media": {
             "type": "image",
-            "prompt": "A pitch-black starfield inside a vast dome with streaking comets, a sleek rocket sled on a twisting track and glowing blue launch tunnel lights. Original painterly storybook illustration, 16:9, cinematic lighting, rich color, no people, no characters, no text, no logos.",
-            "file": "media/the-sounds-of-disney--hear-it-in-the-parks-1000.jpg"
+            "file": "media/the-sounds-of-disney--hear-it-in-the-parks-1000.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Space_Mountain_Top_Platform.JPG",
+              "license": "Public domain",
+              "author": "SolarSurfer"
+            }
           },
           "dailyDouble": false
         }

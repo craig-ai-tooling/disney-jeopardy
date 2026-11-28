@@ -196,8 +196,12 @@
           "dailyDouble": false,
           "media": {
             "type": "image",
-            "prompt": "A colorful rubber wristband with a small round sensor disc in the middle, resting on a turnstile beside a glowing circular reader light Original artwork, no people, no characters, no text, no logos.",
-            "file": "media/merch-and-ears--souvenir-silhouettes-600.jpg"
+            "file": "media/merch-and-ears--souvenir-silhouettes-600.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:MagicBands_(32967827571).jpg",
+              "license": "CC BY-SA 2.0",
+              "author": "elisfkc from Orlando, FL, United States"
+            }
           }
         },
         {
