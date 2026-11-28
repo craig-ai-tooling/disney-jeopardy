@@ -152,8 +152,7 @@
           "accept": [
             "spider-ham",
             "spider ham",
-            "spiderham",
-            "peter porker"
+            "spiderham"
           ],
           "choices": [
             "Spider-Ham",
@@ -234,7 +233,7 @@
       "clues": [
         {
           "value": 200,
-          "clue": "Spider-Man shoots this from the devices on his wrists. What is it?",
+          "clue": "Spider-Man shoots this from the devices on his wrists. What is it? Pictured: a close-up of a gloved wrist wearing a small metal gadget that shoots sticky white strands toward a lamppost.",
           "answer": "Webs",
           "accept": [
             "webs",
@@ -259,7 +258,7 @@
         },
         {
           "value": 400,
-          "clue": "Which cackling villain zooms around on this?",
+          "clue": "Which cackling villain zooms around on this? Pictured: a bat-winged green hover glider floating above a city street.",
           "answer": "Green Goblin",
           "accept": [
             "green goblin",
@@ -283,7 +282,7 @@
         },
         {
           "value": 600,
-          "clue": "Which master of illusion wears this?",
+          "clue": "Which master of illusion wears this? Pictured: a glass fishbowl dome helmet swirling with green smoke.",
           "answer": "Mysterio",
           "accept": [
             "mysterio",
@@ -305,7 +304,7 @@
         },
         {
           "value": 800,
-          "clue": "Which brilliant villain uses these?",
+          "clue": "Which brilliant villain uses these? Pictured: four long segmented metal mechanical tentacle arms with pincer claws attached to a harness.",
           "answer": "Doctor Octopus",
           "accept": [
             "doctor octopus",
@@ -330,7 +329,7 @@
         },
         {
           "value": 1000,
-          "clue": "Name the villain whose body is made of this.",
+          "clue": "Name the villain whose body is made of this. Pictured: a huge swirling tower of golden sand rising from a beach in the shape of a giant fist.",
           "answer": "Sandman",
           "accept": [
             "sandman",

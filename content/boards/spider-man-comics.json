@@ -148,8 +148,7 @@
           "answer": "The Lizard",
           "accept": [
             "lizard",
-            "the lizard",
-            "curt connors"
+            "the lizard"
           ],
           "choices": [
             "The Lizard",
@@ -166,8 +165,7 @@
           "answer": "Scorpion",
           "accept": [
             "scorpion",
-            "the scorpion",
-            "mac gargan"
+            "the scorpion"
           ],
           "choices": [
             "Scorpion",
@@ -266,8 +264,7 @@
           "clue": "Cindy Moon, bitten by the same spider as Peter, fights crime as this hero.",
           "answer": "Silk",
           "accept": [
-            "silk",
-            "cindy moon"
+            "silk"
           ],
           "choices": [
             "Silk",
@@ -284,8 +281,7 @@
           "answer": "Scarlet Spider",
           "accept": [
             "scarlet spider",
-            "the scarlet spider",
-            "ben reilly"
+            "the scarlet spider"
           ],
           "choices": [
             "Scarlet Spider",
@@ -302,8 +298,7 @@
           "answer": "Spider-Girl",
           "accept": [
             "spider-girl",
-            "spider girl",
-            "mayday parker"
+            "spider girl"
           ],
           "choices": [
             "Spider-Girl",
@@ -329,7 +324,7 @@
       "clues": [
         {
           "value": 200,
-          "clue": "Peter's 1980s black costume turned out to be this.",
+          "clue": "Peter's 1980s black costume turned out to be this. Pictured: a sleek black full-body costume with a large white spider emblem on the chest.",
           "answer": "An alien symbiote",
           "accept": [
             "symbiote",
@@ -354,7 +349,7 @@
         },
         {
           "value": 400,
-          "clue": "Tony Stark-designed armor with extra mechanical legs is called this.",
+          "clue": "Tony Stark-designed armor with extra mechanical legs is called this. Pictured: a red and gold armored bodysuit on a display stand with four golden mechanical spider legs extending from its back.",
           "answer": "Iron Spider",
           "accept": [
             "iron spider",
@@ -376,7 +371,7 @@
         },
         {
           "value": 600,
-          "clue": "This rebel spider-hero plays guitar and wears spikes. Name him.",
+          "clue": "This rebel spider-hero plays guitar and wears spikes. Name him. Pictured: a patched denim jacket with metal spikes and safety pins next to a battered electric guitar.",
           "answer": "Spider-Punk",
           "accept": [
             "spider-punk",
@@ -399,7 +394,7 @@
         },
         {
           "value": 800,
-          "clue": "This 1930s spider-hero sees the world in black and white. Name him.",
+          "clue": "This 1930s spider-hero sees the world in black and white. Name him. Pictured: a black and white rainy 1930s alley with a trench coat.",
           "answer": "Spider-Man Noir",
           "accept": [
             "spider-man noir",
@@ -423,7 +418,7 @@
         },
         {
           "value": 1000,
-          "clue": "Peni Parker pilots this spider-mech. Name it.",
+          "clue": "Peni Parker pilots this spider-mech. Name it. Pictured: a cute pastel-colored giant robot with spider-like legs standing in a neon futuristic city street.",
           "answer": "SP//dr",
           "accept": [
             "sp//dr",

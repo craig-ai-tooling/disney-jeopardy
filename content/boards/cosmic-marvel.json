@@ -262,7 +262,7 @@
         },
         {
           "value": 600,
-          "clue": "The Silver Surfer's real name is this.",
+          "clue": "In the classic comics, the original Silver Surfer's real name is this.",
           "answer": "Norrin Radd",
           "accept": [
             "norrin radd",
@@ -328,7 +328,7 @@
       "clues": [
         {
           "value": 200,
-          "clue": "Whose ride through the cosmos is this?",
+          "clue": "Whose ride through the cosmos is this? Pictured: a gleaming chrome surfboard soaring alone through a starfield.",
           "answer": "Silver Surfer",
           "accept": [
             "silver surfer",
@@ -351,7 +351,7 @@
         },
         {
           "value": 400,
-          "clue": "These intergalactic officers protect Xandar. Name them.",
+          "clue": "These intergalactic officers protect Xandar. Name them. Pictured: a fleet of small golden starfighters linking together into a glowing net over a futuristic city at night.",
           "answer": "Nova Corps",
           "accept": [
             "nova corps",
@@ -373,7 +373,7 @@
         },
         {
           "value": 600,
-          "clue": "Dwarves forge legendary weapons around a dying star here. Name it.",
+          "clue": "Dwarves forge legendary weapons around a dying star here. Name it. Pictured: an enormous metal ring forge wrapped around a dim dying star in deep space.",
           "answer": "Nidavellir",
           "accept": [
             "nidavellir"
@@ -394,7 +394,7 @@
         },
         {
           "value": 800,
-          "clue": "Who is this world-devouring giant?",
+          "clue": "Who is this world-devouring giant? Pictured: a colossal armored cosmic giant wearing a tall purple helmet.",
           "answer": "Galactus",
           "accept": [
             "galactus"
@@ -415,7 +415,7 @@
         },
         {
           "value": 1000,
-          "clue": "This golden being emerges from here in Guardians Vol. 3. Name him.",
+          "clue": "This golden being emerges from here in Guardians Vol. 3. Name him. Pictured: a glowing golden cocoon floating in a dark chamber.",
           "answer": "Adam Warlock",
           "accept": [
             "adam warlock",

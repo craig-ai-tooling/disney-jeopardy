@@ -256,11 +256,11 @@
           ],
           "reveal": "The correct answer is Loki! [chuckles] Glorious purpose, questionable plans.",
           "dailyDouble": false,
-          "quote": "I am Loki, of Asgard, and I am burdened with glorious purpose."
+          "quote": "I am burdened with glorious purpose."
         },
         {
           "value": 600,
-          "clue": "Agents of this evil group salute each other with these words. Name the group.",
+          "clue": "This evil group, hidden inside S.H.I.E.L.D. for decades, lives by this motto. Name the group.",
           "answer": "HYDRA",
           "accept": [
             "hydra"
@@ -273,7 +273,7 @@
           ],
           "reveal": "[dramatically] The correct answer is HYDRA! Cut off one head, two more appear.",
           "dailyDouble": false,
-          "quote": "Hail Hydra."
+          "quote": "Cut off one head, two more shall take its place."
         },
         {
           "value": 800,
@@ -324,7 +324,7 @@
       "clues": [
         {
           "value": 200,
-          "clue": "This garish palace rules a trash planet. Name the planet.",
+          "clue": "This garish palace rules a trash planet. Name the planet. Pictured: a gaudy colorful palace tower glowing with neon lights above a vast junkyard planet with portals in the sky.",
           "answer": "Sakaar",
           "accept": [
             "sakaar"
@@ -345,7 +345,7 @@
         },
         {
           "value": 400,
-          "clue": "This mining town is built inside a giant floating head. Name it.",
+          "clue": "This mining town is built inside a giant floating head. Name it. Pictured: a colossal stone-like severed head drifting in deep space.",
           "answer": "Knowhere",
           "accept": [
             "knowhere"
@@ -366,7 +366,7 @@
         },
         {
           "value": 600,
-          "clue": "This gloomy castle country is ruled by which iron-masked monarch?",
+          "clue": "This gloomy castle country is ruled by which iron-masked monarch? Pictured: a grim gothic stone castle on a snowy mountain ridge in a dark green forest.",
           "answer": "Doctor Doom",
           "accept": [
             "doctor doom",
@@ -390,7 +390,7 @@
         },
         {
           "value": 800,
-          "clue": "Loki was born in this frozen realm. Name it.",
+          "clue": "Loki was born in this frozen realm. Name it. Pictured: a frozen blue wasteland of jagged ice cliffs and ruined ice palaces under a dark sky.",
           "answer": "Jotunheim",
           "accept": [
             "jotunheim"
@@ -411,7 +411,7 @@
         },
         {
           "value": 1000,
-          "clue": "This hidden underwater kingdom is ruled by Namor in Wakanda Forever. Name it.",
+          "clue": "This hidden underwater kingdom is ruled by Namor in Wakanda Forever. Name it. Pictured: a glowing blue underwater city of carved stone temples and pyramids.",
           "answer": "Talokan",
           "accept": [
             "talokan"

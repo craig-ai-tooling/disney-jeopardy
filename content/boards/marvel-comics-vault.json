@@ -325,7 +325,7 @@
       "clues": [
         {
           "value": 200,
-          "clue": "Marvel Comics #1 starred an android who did this. Name him.",
+          "clue": "Marvel Comics #1 starred an android who did this. Name him. Pictured: a glowing humanoid figure made entirely of flames flying over a 1940s city skyline at night.",
           "answer": "The Human Torch",
           "accept": [
             "human torch",
@@ -348,7 +348,7 @@
         },
         {
           "value": 400,
-          "clue": "Bruce Banner was caught in the blast of this kind of bomb, shown here.",
+          "clue": "Bruce Banner was caught in the blast of this kind of bomb, shown here. Pictured: a desert test site with a huge glowing green blast cloud rising over the horizon and a small jeep in the foreground.",
           "answer": "Gamma bomb",
           "accept": [
             "gamma bomb",
@@ -372,7 +372,7 @@
         },
         {
           "value": 600,
-          "clue": "Exposure to these during a rocket flight gave the Fantastic Four their powers. What were they?",
+          "clue": "Exposure to these during a rocket flight gave the Fantastic Four their powers. What were they? Pictured: a small 1960s style rocket ship flying through a storm of glowing colorful energy streaks in space.",
           "answer": "Cosmic rays",
           "accept": [
             "cosmic rays",
@@ -395,7 +395,7 @@
         },
         {
           "value": 800,
-          "clue": "Tony Stark's first armor, built in captivity, was this color in his 1963 debut.",
+          "clue": "Tony Stark's first armor, built in captivity, was this color in his 1963 debut. Pictured: a bulky clunky iron suit of armor with rivets standing in a dim cave workshop full of scrap metal.",
           "answer": "Gray",
           "accept": [
             "gray",
@@ -417,7 +417,7 @@
         },
         {
           "value": 1000,
-          "clue": "In Thor's 1962 debut, Dr. Donald Blake transforms by striking this on the ground. What is it?",
+          "clue": "In Thor's 1962 debut, Dr. Donald Blake transforms by striking this on the ground. What is it? Pictured: a gnarled old wooden walking stick lying on the floor of a dark Norwegian sea cave.",
           "answer": "A walking stick",
           "accept": [
             "walking stick",

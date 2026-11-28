@@ -325,7 +325,7 @@
       "clues": [
         {
           "value": 200,
-          "clue": "This glowing device keeps Tony Stark's heart going. Name it.",
+          "clue": "This glowing device keeps Tony Stark's heart going. Name it. Pictured: a glowing circular blue-white device with copper coils set into a metal chest plate on a workbench.",
           "answer": "Arc reactor",
           "accept": [
             "arc reactor",
@@ -347,7 +347,7 @@
         },
         {
           "value": 400,
-          "clue": "These let Scott Lang shrink and grow. Name them.",
+          "clue": "These let Scott Lang shrink and grow. Name them. Pictured: a small glass laboratory vial filled with glowing red swirling particles on a steel lab table.",
           "answer": "Pym Particles",
           "accept": [
             "pym particles",
@@ -369,7 +369,7 @@
         },
         {
           "value": 600,
-          "clue": "Drinking from this glowing plant grants the power of the Black Panther. Name it.",
+          "clue": "Drinking from this glowing plant grants the power of the Black Panther. Name it. Pictured: a glowing purple heart-shaped flower growing in a dark underground cave garden.",
           "answer": "Heart-Shaped Herb",
           "accept": [
             "heart-shaped herb",
@@ -392,7 +392,7 @@
         },
         {
           "value": 800,
-          "clue": "Steve Rogers kept a photo of this woman inside a compass like this one.",
+          "clue": "Steve Rogers kept a photo of this woman inside a compass like this one. Pictured: a vintage open brass pocket compass with a tiny faded black and white photo tucked inside the lid.",
           "answer": "Peggy Carter",
           "accept": [
             "peggy carter",
@@ -415,7 +415,7 @@
         },
         {
           "value": 1000,
-          "clue": "Sorcerers slip this onto their fingers to open spinning portals. Name it.",
+          "clue": "Sorcerers slip this onto their fingers to open spinning portals. Name it. Pictured: a golden double finger ring with an ornate loop.",
           "answer": "Sling ring",
           "accept": [
             "sling ring",
@@ -456,7 +456,6 @@
           "accept": [
             "trilith",
             "trilith studios",
-            "pinewood atlanta",
             "pinewood atlanta studios"
           ],
           "choices": [

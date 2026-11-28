@@ -31,8 +31,7 @@
           "answer": "Iron Man",
           "accept": [
             "iron man",
-            "ironman",
-            "tony stark"
+            "ironman"
           ],
           "choices": [
             "Iron Man",
@@ -229,7 +228,7 @@
       "clues": [
         {
           "value": 200,
-          "clue": "Which god of thunder swings this?",
+          "clue": "Which god of thunder swings this? Pictured: a heavy short-handled stone-gray war hammer with a leather-wrapped grip.",
           "answer": "Thor",
           "accept": [
             "thor",
@@ -251,7 +250,7 @@
         },
         {
           "value": 400,
-          "clue": "Which sharpshooting Avenger uses this?",
+          "clue": "Which sharpshooting Avenger uses this? Pictured: a sleek purple and black recurve bow with a quiver of high-tech trick arrows with unusual tips.",
           "answer": "Hawkeye",
           "accept": [
             "hawkeye",
@@ -274,7 +273,7 @@
         },
         {
           "value": 600,
-          "clue": "Which flying hero straps on this?",
+          "clue": "Which flying hero straps on this? Pictured: a compact silver and red mechanical backpack with folding metal wings spread wide.",
           "answer": "Falcon",
           "accept": [
             "falcon",
@@ -297,7 +296,7 @@
         },
         {
           "value": 800,
-          "clue": "Which purple villain wore this to snap his fingers?",
+          "clue": "Which purple villain wore this to snap his fingers? Pictured: a large golden armored glove with six glowing colored gems set into the knuckles and back of the hand.",
           "answer": "Thanos",
           "accept": [
             "thanos"
@@ -318,7 +317,7 @@
         },
         {
           "value": 1000,
-          "clue": "This floating red garment, which has a mind of its own, is known as the Cloak of this.",
+          "clue": "This floating red garment, which has a mind of its own, is known as the Cloak of this. Pictured: a flowing crimson cape with a high stiff collar floating by itself in a candlelit library.",
           "answer": "Levitation",
           "accept": [
             "levitation",
@@ -353,7 +352,7 @@
       "clues": [
         {
           "value": 200,
-          "clue": "At Avengers Campus, this family ride hands you a web-slinging blaster to catch runaway Spider-Bots.",
+          "clue": "At Avengers Campus, this family ride lets you sling webs with your own hand motions to catch runaway Spider-Bots.",
           "answer": "WEB SLINGERS: A Spider-Man Adventure",
           "accept": [
             "web slingers",

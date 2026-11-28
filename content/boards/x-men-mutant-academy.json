@@ -30,8 +30,7 @@
           "clue": "Logan, a scrappy mutant with retractable claws, goes by this name.",
           "answer": "Wolverine",
           "accept": [
-            "wolverine",
-            "logan"
+            "wolverine"
           ],
           "choices": [
             "Wolverine",
@@ -47,8 +46,7 @@
           "clue": "Ororo Munroe, who commands the weather, is this X-Man.",
           "answer": "Storm",
           "accept": [
-            "storm",
-            "ororo munroe"
+            "storm"
           ],
           "choices": [
             "Storm",
@@ -64,8 +62,7 @@
           "clue": "Scott Summers fires blasts from his eyes as this team leader.",
           "answer": "Cyclops",
           "accept": [
-            "cyclops",
-            "scott summers"
+            "cyclops"
           ],
           "choices": [
             "Cyclops",
@@ -81,8 +78,7 @@
           "clue": "Kurt Wagner, a blue teleporter with a tail, is this mutant.",
           "answer": "Nightcrawler",
           "accept": [
-            "nightcrawler",
-            "kurt wagner"
+            "nightcrawler"
           ],
           "choices": [
             "Nightcrawler",
@@ -150,8 +146,7 @@
           "accept": [
             "magnetism",
             "magnetic fields",
-            "magnetic force",
-            "metal"
+            "magnetic force"
           ],
           "choices": [
             "Magnetism",
@@ -230,7 +225,7 @@
       "clues": [
         {
           "value": 200,
-          "clue": "Whose famous weapons are these?",
+          "clue": "Whose famous weapons are these? Pictured: three long gleaming metal claws lying side by side on a scratched wooden table.",
           "answer": "Wolverine",
           "accept": [
             "wolverine",
@@ -252,7 +247,7 @@
         },
         {
           "value": 400,
-          "clue": "Which team leader needs this to keep his powers in check?",
+          "clue": "Which team leader needs this to keep his powers in check? Pictured: a sleek golden visor with a single glowing red quartz lens across the eyes.",
           "answer": "Cyclops",
           "accept": [
             "cyclops",
@@ -274,7 +269,7 @@
         },
         {
           "value": 600,
-          "clue": "Which charming mutant charges up these?",
+          "clue": "Which charming mutant charges up these? Pictured: a fanned hand of playing cards glowing with crackling pink energy on a dark riverboat table.",
           "answer": "Gambit",
           "accept": [
             "gambit",
@@ -297,7 +292,7 @@
         },
         {
           "value": 800,
-          "clue": "Professor X sits in this machine to find mutants anywhere on Earth. Name it.",
+          "clue": "Professor X sits in this machine to find mutants anywhere on Earth. Name it. Pictured: a giant spherical chamber of metal panels with a single walkway leading to a glowing helmet on a stand.",
           "answer": "Cerebro",
           "accept": [
             "cerebro"
@@ -318,7 +313,7 @@
         },
         {
           "value": 1000,
-          "clue": "This helmet blocks telepaths. Which master of magnetism wears it?",
+          "clue": "This helmet blocks telepaths. Which master of magnetism wears it? Pictured: a crimson metal helmet with a purple trim and angular cheek guards on a stone pedestal.",
           "answer": "Magneto",
           "accept": [
             "magneto",

@@ -45,7 +45,7 @@
         },
         {
           "value": 400,
-          "clue": "This rebellious variant of Loki uses the name Sylvie.",
+          "clue": "This rebellious female Loki variant, who spent her life running from the TVA, goes by this name.",
           "answer": "Sylvie",
           "accept": [
             "sylvie",
@@ -248,8 +248,7 @@
           "answer": "Ms. Marvel",
           "accept": [
             "ms marvel",
-            "ms. marvel",
-            "kamala khan"
+            "ms. marvel"
           ],
           "choices": [
             "Ms. Marvel",
@@ -267,8 +266,7 @@
           "accept": [
             "she-hulk",
             "she hulk",
-            "shehulk",
-            "jennifer walters"
+            "shehulk"
           ],
           "choices": [
             "She-Hulk",
@@ -329,7 +327,7 @@
       "clues": [
         {
           "value": 200,
-          "clue": "This retro scene would fit right into which Disney+ series about two superpowered newlyweds?",
+          "clue": "This retro scene would fit right into which Disney+ series about two superpowered newlyweds? Pictured: a 1950s black and white living room with a boxy television.",
           "answer": "WandaVision",
           "accept": [
             "wandavision",
@@ -352,7 +350,7 @@
         },
         {
           "value": 400,
-          "clue": "In Loki's Season 2 finale, the god of mischief holds all the timelines together in this shape.",
+          "clue": "In Loki's Season 2 finale, the god of mischief holds all the timelines together in this shape. Pictured: a gigantic glowing tree of green and gold branches made of light.",
           "answer": "A tree",
           "accept": [
             "tree",
@@ -377,7 +375,7 @@
         },
         {
           "value": 600,
-          "clue": "This snowy holiday scene sets the mood for which archery series?",
+          "clue": "This snowy holiday scene sets the mood for which archery series? Pictured: a snowy New York evening with a busy outdoor ice rink under a giant decorated holiday tree and twinkling lights.",
           "answer": "Hawkeye",
           "accept": [
             "hawkeye"
@@ -398,7 +396,7 @@
         },
         {
           "value": 800,
-          "clue": "Kamala Khan's powers are unlocked by a family heirloom shaped like this.",
+          "clue": "Kamala Khan's powers are unlocked by a family heirloom shaped like this. Pictured: a shimmering golden bangle bracelet glowing with soft purple and blue crystal light on a girl's bedroom desk.",
           "answer": "A bangle",
           "accept": [
             "bangle",
@@ -423,7 +421,7 @@
         },
         {
           "value": 1000,
-          "clue": "This friendly hippo goddess helps Marc and Steven in the afterlife in Moon Knight. Name her.",
+          "clue": "This friendly hippo goddess helps Marc and Steven in the afterlife in Moon Knight. Name her. Pictured: a friendly hippopotamus wearing ancient Egyptian gold jewelry and a headdress.",
           "answer": "Taweret",
           "accept": [
             "taweret",

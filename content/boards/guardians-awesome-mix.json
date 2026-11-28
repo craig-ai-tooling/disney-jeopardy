@@ -33,8 +33,7 @@
           "accept": [
             "star-lord",
             "star lord",
-            "starlord",
-            "peter quill"
+            "starlord"
           ],
           "choices": [
             "Star-Lord",
@@ -416,7 +415,7 @@
       "clues": [
         {
           "value": 200,
-          "clue": "Peter's mom gave him his music on this format.",
+          "clue": "Peter's mom gave him his music on this format. Pictured: an orange and black cassette tape with a handwritten blank label lying on a worn spaceship seat.",
           "answer": "Cassette tape",
           "accept": [
             "cassette",
@@ -441,7 +440,7 @@
         },
         {
           "value": 400,
-          "clue": "This little sprout grows into which Guardian?",
+          "clue": "This little sprout grows into which Guardian? Pictured: a tiny cheerful tree sapling with two small arms dancing in a clay flowerpot on a control panel.",
           "answer": "Groot",
           "accept": [
             "groot",
@@ -463,7 +462,7 @@
         },
         {
           "value": 600,
-          "clue": "Star-Lord's ship shares its name with an actress he had a crush on. What's the ship called?",
+          "clue": "Star-Lord's ship shares its name with an actress he had a crush on. What's the ship called? Pictured: a sleek blue and orange retro spaceship parked on a rocky alien landing pad at sunset.",
           "answer": "The Milano",
           "accept": [
             "milano",
@@ -485,7 +484,7 @@
         },
         {
           "value": 800,
-          "clue": "These golden, easily offended aliens chase the Guardians in Vol. 2. Name them.",
+          "clue": "These golden, easily offended aliens chase the Guardians in Vol. 2. Name them. Pictured: a gleaming golden palace with golden statues and golden robed figures on a golden staircase.",
           "answer": "The Sovereign",
           "accept": [
             "sovereign",
@@ -507,7 +506,7 @@
         },
         {
           "value": 1000,
-          "clue": "Rocket swipes these valuable power cells from the Sovereign. Name them.",
+          "clue": "Rocket swipes these valuable power cells from the Sovereign. Name them. Pictured: a metal carrying case holding glowing blue cylindrical batteries humming with energy.",
           "answer": "Anulax batteries",
           "accept": [
             "anulax batteries",

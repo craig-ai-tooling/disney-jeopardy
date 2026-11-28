@@ -47,8 +47,7 @@
           "clue": "Natasha Romanoff, a master spy, fights under this code name.",
           "answer": "Black Widow",
           "accept": [
-            "black widow",
-            "natasha romanoff"
+            "black widow"
           ],
           "choices": [
             "Black Widow",
@@ -65,8 +64,7 @@
           "answer": "Scarlet Witch",
           "accept": [
             "scarlet witch",
-            "the scarlet witch",
-            "wanda"
+            "the scarlet witch"
           ],
           "choices": [
             "Scarlet Witch",
