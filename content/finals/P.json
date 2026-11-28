@@ -1,0 +1,138 @@
+[
+  {
+    "film": "The Santa Clause",
+    "category": "The Santa Clause",
+    "clue": "This head elf explains the 'Santa Clause' rules to Scott Calvin at the North Pole.",
+    "answer": "Bernard",
+    "accept": [
+      "bernard",
+      "bernard the elf"
+    ],
+    "choices": [
+      "Bernard",
+      "Curtis",
+      "Judy",
+      "Quintin"
+    ],
+    "reveal": "[excited] The correct answer is Bernard! Played by David Krumholtz. [laughs] He has seen a lot of new Santas."
+  },
+  {
+    "film": "Noelle",
+    "category": "Noelle",
+    "clue": "Santa's daughter Noelle, who has to take over Christmas, is played by this Pitch Perfect star.",
+    "answer": "Anna Kendrick",
+    "accept": [
+      "anna kendrick",
+      "kendrick"
+    ],
+    "choices": [
+      "Anna Kendrick",
+      "Kristen Bell",
+      "Rebel Wilson",
+      "Brittany Snow"
+    ],
+    "reveal": "[excited] The correct answer is Anna Kendrick! [laughs] Bill Hader plays her brother Nick, the Santa who ran off."
+  },
+  {
+    "film": "Halloweentown",
+    "category": "Halloweentown",
+    "clue": "Marnie, Dylan and Sophie learn they come from a family of witches with this last name.",
+    "answer": "Cromwell",
+    "accept": [
+      "cromwell",
+      "the cromwells"
+    ],
+    "choices": [
+      "Cromwell",
+      "Piper",
+      "Sanderson",
+      "Halliwell"
+    ],
+    "reveal": "[excited] The correct answer is Cromwell! Grandma Aggie Cromwell, to be exact. [laughs] Witches on Mom's side."
+  },
+  {
+    "film": "Tower of Terror",
+    "category": "Tower of Terror",
+    "clue": "In the 1997 TV movie based on the ride, this Police Academy actor plays tabloid reporter Buzzy Crocker.",
+    "answer": "Steve Guttenberg",
+    "accept": [
+      "steve guttenberg",
+      "guttenberg"
+    ],
+    "choices": [
+      "Steve Guttenberg",
+      "Tom Hanks",
+      "Michael Keaton",
+      "Dean Jones"
+    ],
+    "reveal": "[excited] The correct answer is Steve Guttenberg! [whispers] Kirsten Dunst plays his niece. They check in, and things go down from there."
+  },
+  {
+    "film": "A Goofy Movie",
+    "category": "A Goofy Movie",
+    "clue": "Max goes on the cross-country road trip hoping to impress this girl he likes.",
+    "answer": "Roxanne",
+    "accept": [
+      "roxanne"
+    ],
+    "choices": [
+      "Roxanne",
+      "Stacey",
+      "Penny",
+      "Daisy"
+    ],
+    "reveal": "[excited] The correct answer is Roxanne! [laughs] All he had to do was ask her out."
+  },
+  {
+    "film": "Teen Beach Movie",
+    "category": "Teen Beach Movie",
+    "clue": "Surfer Brady in Teen Beach Movie is played by this former R5 singer and Austin & Ally star.",
+    "answer": "Ross Lynch",
+    "accept": [
+      "ross lynch",
+      "lynch"
+    ],
+    "choices": [
+      "Ross Lynch",
+      "Joe Jonas",
+      "Cameron Boyce",
+      "Booboo Stewart"
+    ],
+    "reveal": "[excited] The correct answer is Ross Lynch! [laughs] Maia Mitchell co-stars as McKenzie."
+  },
+  {
+    "film": "Camp Rock",
+    "category": "Camp Rock",
+    "clue": "At Camp Rock, Shane Gray is the lead singer of this pop band.",
+    "answer": "Connect 3",
+    "accept": [
+      "connect 3",
+      "connect three"
+    ],
+    "choices": [
+      "Connect 3",
+      "Big Time Rush",
+      "Naturally 7",
+      "Three Lane Road"
+    ],
+    "reveal": "[excited] The correct answer is Connect 3! Played by the Jonas Brothers. [laughs] Rock star, meet summer camp."
+  },
+  {
+    "film": "Zenon: Girl of the 21st Century",
+    "category": "Zenon: Girl of the 21st Century",
+    "clue": "Zenon Kar, a teenager living on a space station in the year 2049, has this two-word catchphrase.",
+    "answer": "Zetus lapetus",
+    "accept": [
+      "zetus lapetus",
+      "zeetus lapeetus",
+      "zetus lepetus"
+    ],
+    "choices": [
+      "Zetus lapetus",
+      "Zoom zoom",
+      "Galaxy gazers",
+      "Hot diggity"
+    ],
+    "reveal": "[excited] The correct answer is Zetus lapetus! [laughs] Best catchphrase in orbit."
+  }
+]
