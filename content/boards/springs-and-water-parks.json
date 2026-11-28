@@ -116,7 +116,7 @@
       "id": "storm-surge-stories",
       "title": "Storm Surge Stories",
       "kind": "parks",
-      "intro": "Typhoon Lagoon opened in 1989, and its story says a storm blew everything into place. [laughs] Hang on to your swimsuit!",
+      "intro": "Typhoon Lagoon's story says a giant storm blew everything into place. [laughs] Hang on to your swimsuit!",
       "format": "text",
       "art": {
         "prompt": "A tropical lagoon after a storm: a rusty shrimp boat impaled on the peak of a craggy mountain, surfboards stuck in palm trees, and a giant blue wave rolling across a huge pool Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
@@ -218,7 +218,7 @@
       "id": "snowmelt-summit",
       "title": "Snowmelt Summit",
       "kind": "theme",
-      "intro": "Blizzard Beach's story says a freak snowstorm hit Florida, a ski resort opened, and then everything melted into a water park. [laughs] Only in Florida!",
+      "intro": "Blizzard Beach has a wild backstory about snow in Florida. [laughs] Only in Florida! Bundle up for this one.",
       "format": "text",
       "art": {
         "prompt": "A melting snowy mountain in tropical sunshine with icicles dripping, an empty ski chairlift climbing the slope, skis stuck in the snow and long water slides winding down to a pool Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
@@ -359,23 +359,19 @@
         },
         {
           "value": 400,
-          "clue": "This tethered helium balloon carries guests up to 400 feet above Disney Springs. Name this type of ride.",
-          "answer": "Hot-air balloon",
+          "clue": "This gas fills the giant tethered balloon that lifts guests up to 400 feet above Disney Springs.",
+          "answer": "Helium",
           "accept": [
-            "balloon",
-            "hot-air balloon",
-            "hot air balloon",
-            "helium balloon",
-            "aerophile",
-            "characters in flight"
+            "helium",
+            "helium gas"
           ],
           "choices": [
-            "Hot-air balloon",
-            "Zeppelin",
-            "Parachute drop",
-            "Gondola"
+            "Helium",
+            "Hydrogen",
+            "Hot air",
+            "Nitrogen"
           ],
-          "reveal": "The correct answer is a balloon! It's the Aerophile balloon, and it's tethered to the ground. [laughs] Up, up and away!",
+          "reveal": "The correct answer is helium! It's the Aerophile balloon, and it's tethered to the ground. [laughs] Up, up and away!",
           "dailyDouble": false,
           "media": {
             "type": "image",

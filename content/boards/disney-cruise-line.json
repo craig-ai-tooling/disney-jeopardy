@@ -371,7 +371,7 @@
       "id": "castaway-cay-days",
       "title": "Castaway Cay Days",
       "kind": "parks",
-      "intro": "Disney's private islands in the Bahamas. [excited] Sand between your toes and trivia in your brain!",
+      "intro": "Disney's private island getaways. [excited] Sand between your toes and trivia in your brain!",
       "format": "text",
       "art": {
         "prompt": "A sun-drenched private tropical island with a white-sand lagoon, a floating water-slide platform, hammocks between palm trees and a striped lighthouse on a rocky point Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
@@ -532,9 +532,7 @@
           "answer": "Aladdin and Jasmine",
           "accept": [
             "aladdin and jasmine",
-            "jasmine and aladdin",
-            "aladdin",
-            "jasmine"
+            "jasmine and aladdin"
           ],
           "choices": [
             "Aladdin and Jasmine",
