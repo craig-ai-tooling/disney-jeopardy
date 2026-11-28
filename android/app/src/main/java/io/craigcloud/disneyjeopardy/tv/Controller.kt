@@ -155,7 +155,8 @@ class Controller(private val ctx: Context, tvId: String) {
         if (r != null) {
             setMood(if (r.verdict == "correct") Mood.celebrate else Mood.wrong, 4000)
             val inFinal = r !in s.clue?.results.orEmpty()
-            val amount = if (inFinal) s.fin?.wagers?.get(r.pid) ?: r.amount else r.amount
+            // The real score change: overrides and penalty settings make it differ from the clue value.
+            val amount = (s.players.firstOrNull { it.id == r.pid }?.score ?: 0) - (p?.players?.firstOrNull { it.id == r.pid }?.score ?: 0)
             val answer = if (inFinal) r.heard else s.clue?.answer ?: r.heard
             verdict = VerdictFx(++verdictSeq, r.pid, r.verdict == "correct", amount, answer)
             if (r.verdict == "correct") { fx.puff(.5f, .42f, 70); fxSeq++ }

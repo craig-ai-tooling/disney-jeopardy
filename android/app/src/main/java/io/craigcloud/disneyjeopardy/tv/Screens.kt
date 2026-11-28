@@ -179,7 +179,7 @@ fun SettingsPanel(ctl: Controller, s: GameState, mem: FocusMemory) {
     @Composable fun Opt(key: String, label: String, on: Boolean, apply: (Settings) -> Settings) =
         TvButton(label, key, mem, secondary = !on, size = 1.15f) { ctl.sendSettings(apply(set)) }
     @Composable fun SetRow(label: String, note: String = "", opts: @Composable () -> Unit) = Row(Modifier.fillMaxWidth().padding(vertical = .7f.vw), verticalAlignment = Alignment.CenterVertically) {
-        Txt(label, 1.4f, Modifier.width(14.vw), color = Gold, align = androidx.compose.ui.text.style.TextAlign.Start)
+        Txt(label, 1.4f, Modifier.width(16.vw).padding(end = 1.vw), color = Gold, align = androidx.compose.ui.text.style.TextAlign.Start)
         Column { FlowRow(horizontalArrangement = Arrangement.spacedBy(.8f.vw), verticalArrangement = Arrangement.spacedBy(.6f.vw)) { opts() }; if (note.isNotEmpty()) Txt(note, 1f, Modifier.padding(top = .4f.vw), color = Color(0xBBFFFFFF), weight = FontWeight.Normal) }
     }
     Scrim {
