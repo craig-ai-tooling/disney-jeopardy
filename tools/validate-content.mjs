@@ -6,6 +6,7 @@ import path from 'node:path';
 const root = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
 const VALUES = [200, 400, 600, 800, 1000];
 const KINDS = ['film', 'theme', 'media', 'parks', 'fan'];
+const DIFFICULTIES = ['easy', 'medium', 'hard', 'superfan'];
 const FORMATS = ['text', 'picture', 'zoom', 'video', 'palette', 'quote', 'emoji'];
 const errors = [];
 const err = (f, m) => errors.push(`${f}: ${m}`);
@@ -33,6 +34,7 @@ function checkBoard(f, b) {
   seenBoards.add(b.id);
   for (const k of ['title', 'theme', 'intro']) if (!str(b[k])) err(f, `${k} missing`);
   if (!Array.isArray(b.tags) || !b.tags.length) err(f, 'tags missing');
+  if (!DIFFICULTIES.includes(b.difficulty)) err(f, `difficulty must be one of ${DIFFICULTIES}`);
   const checkArt = (w, art, want) => {
     if (art === undefined) return;
     if (!str(art.prompt)) err(f, `${w}: art.prompt missing`);

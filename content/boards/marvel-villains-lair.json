@@ -1,0 +1,533 @@
+{
+  "id": "marvel-villains-lair",
+  "title": "Villains' Night Out",
+  "theme": "Marvel",
+  "difficulty": "medium",
+  "tags": [
+    "marvel",
+    "villains",
+    "superheroes"
+  ],
+  "intro": "[dramatically] Welcome to Disney Jeopardy, where tonight the bad guys get the spotlight! Titans, tyrants and tricksters, all in one room. [chuckles] Chet has hidden the Infinity Stones under his desk. Just in case.",
+  "art": {
+    "prompt": "A dark throne room lit by purple torches, an empty spiky throne on a dais and a storm swirling beyond tall windows, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+    "file": "media/marvel-villains-lair.jpg"
+  },
+  "categories": [
+    {
+      "id": "big-bads",
+      "title": "Big Bads",
+      "kind": "film",
+      "intro": "We start with the big-screen baddies of the MCU. [dramatically] Boo. Hiss. Buzz in.",
+      "art": {
+        "prompt": "A row of shadowy villain silhouettes on a dark stage under red spotlights, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/marvel-villains-lair--big-bads.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This Mad Titan wanted to wipe out half of all life in the universe.",
+          "answer": "Thanos",
+          "accept": [
+            "thanos"
+          ],
+          "choices": [
+            "Thanos",
+            "Ronan",
+            "Ultron",
+            "Kang"
+          ],
+          "reveal": "[dramatically] The correct answer is Thanos! Perfectly balanced, as all answers should be.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "In Age of Ultron, Tony Stark's peacekeeping program becomes this rogue robot.",
+          "answer": "Ultron",
+          "accept": [
+            "ultron"
+          ],
+          "choices": [
+            "Ultron",
+            "Vision",
+            "J.A.R.V.I.S.",
+            "Ego"
+          ],
+          "reveal": "The correct answer is Ultron! [chuckles] Never let a robot read the news.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "In Black Panther, Killmonger's Wakandan birth name is this.",
+          "answer": "N'Jadaka",
+          "accept": [
+            "n'jadaka",
+            "njadaka"
+          ],
+          "choices": [
+            "N'Jadaka",
+            "N'Jobu",
+            "M'Baku",
+            "W'Kabi"
+          ],
+          "reveal": "[excited] The correct answer is N'Jadaka! N'Jobu was his father.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Ego, Star-Lord's father, is a living one of these.",
+          "answer": "Planet",
+          "accept": [
+            "planet",
+            "a planet",
+            "living planet"
+          ],
+          "choices": [
+            "Planet",
+            "Star",
+            "Moon",
+            "Comet"
+          ],
+          "reveal": "The correct answer is a planet! [laughs] Dad jokes on a cosmic scale.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Thor: Ragnarok's goddess of death, Hela, is this relation to Thor.",
+          "answer": "Older sister",
+          "accept": [
+            "older sister",
+            "sister",
+            "big sister"
+          ],
+          "choices": [
+            "Older sister",
+            "Cousin",
+            "Aunt",
+            "Mother"
+          ],
+          "reveal": "[dramatically] The correct answer is his older sister! Family secrets, Asgard style.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "comic-book-rogues",
+      "title": "Comic Book Rogues",
+      "kind": "theme",
+      "intro": "Into the comics for some classic troublemakers. [whispers] Mind the trap door.",
+      "art": {
+        "prompt": "A dusty comic shop back room with long boxes, a desk lamp and shadowy shapes on the wall, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/marvel-villains-lair--comic-book-rogues.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This masked monarch of Latveria is the Fantastic Four's greatest enemy.",
+          "answer": "Doctor Doom",
+          "accept": [
+            "doctor doom",
+            "dr doom",
+            "dr. doom",
+            "victor von doom",
+            "doom"
+          ],
+          "choices": [
+            "Doctor Doom",
+            "Mole Man",
+            "Annihilus",
+            "Galactus"
+          ],
+          "reveal": "[dramatically] The correct answer is Doctor Doom! He refers to himself in the third person. Doom approves.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "This planet-eating cosmic giant sends the Silver Surfer ahead as his herald.",
+          "answer": "Galactus",
+          "accept": [
+            "galactus"
+          ],
+          "choices": [
+            "Galactus",
+            "Ego",
+            "Thanos",
+            "Knull"
+          ],
+          "reveal": "The correct answer is Galactus! [chuckles] He's always hungry.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "This black alien symbiote with a white spider emblem became one of Spidey's fiercest foes.",
+          "answer": "Venom",
+          "accept": [
+            "venom",
+            "eddie brock"
+          ],
+          "choices": [
+            "Venom",
+            "Carnage",
+            "Toxin",
+            "Morbius"
+          ],
+          "reveal": "[excited] The correct answer is Venom! We are... the correct answer.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "The Kingpin of crime goes by Wilson this.",
+          "answer": "Fisk",
+          "accept": [
+            "fisk",
+            "wilson fisk"
+          ],
+          "choices": [
+            "Fisk",
+            "Fury",
+            "Felton",
+            "Frost"
+          ],
+          "reveal": "The correct answer is Fisk! [dramatically] Big suit, bigger temper.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "This gamma-powered genius with an enormous head is a classic Hulk foe.",
+          "answer": "The Leader",
+          "accept": [
+            "the leader",
+            "leader",
+            "samuel sterns"
+          ],
+          "choices": [
+            "The Leader",
+            "MODOK",
+            "The Thinker",
+            "Egghead"
+          ],
+          "reveal": "[excited] The correct answer is the Leader! He's very smart, and he wants you to know it.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "villain-voices",
+      "title": "Villain Voices",
+      "kind": "film",
+      "intro": "Quote round! Name the villain who said the line on screen. [dramatically] Read it with menace.",
+      "art": {
+        "prompt": "An old radio microphone in a dark studio with a red on-air light glowing, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/marvel-villains-lair--villain-voices.jpg"
+      },
+      "format": "quote",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Which villain said this?",
+          "answer": "Thanos",
+          "accept": [
+            "thanos"
+          ],
+          "choices": [
+            "Thanos",
+            "Ronan",
+            "Kang",
+            "Proxima Midnight"
+          ],
+          "reveal": "[dramatically] The correct answer is Thanos! And then Tony snapped back.",
+          "dailyDouble": false,
+          "quote": "I am inevitable."
+        },
+        {
+          "value": 400,
+          "clue": "Which villain announced himself with this line on arriving at Earth?",
+          "answer": "Loki",
+          "accept": [
+            "loki"
+          ],
+          "choices": [
+            "Loki",
+            "Thor",
+            "Malekith",
+            "The Grandmaster"
+          ],
+          "reveal": "The correct answer is Loki! [chuckles] Glorious purpose, questionable plans.",
+          "dailyDouble": false,
+          "quote": "I am burdened with glorious purpose."
+        },
+        {
+          "value": 600,
+          "clue": "This evil group, hidden inside S.H.I.E.L.D. for decades, lives by this motto. Name the group.",
+          "answer": "HYDRA",
+          "accept": [
+            "hydra"
+          ],
+          "choices": [
+            "HYDRA",
+            "A.I.M.",
+            "The Ten Rings",
+            "The Hand"
+          ],
+          "reveal": "[dramatically] The correct answer is HYDRA! Cut off one head, two more appear.",
+          "dailyDouble": false,
+          "quote": "Cut off one head, two more shall take its place."
+        },
+        {
+          "value": 800,
+          "clue": "Which robot villain twisted a famous song lyric into this?",
+          "answer": "Ultron",
+          "accept": [
+            "ultron"
+          ],
+          "choices": [
+            "Ultron",
+            "Vision",
+            "Whiplash",
+            "The Mandarin"
+          ],
+          "reveal": "The correct answer is Ultron! [laughs] A Pinocchio reference, very Disney of him.",
+          "dailyDouble": false,
+          "quote": "There are no strings on me."
+        },
+        {
+          "value": 1000,
+          "clue": "Doctor Strange says this again and again to which dark lord?",
+          "answer": "Dormammu",
+          "accept": [
+            "dormammu"
+          ],
+          "choices": [
+            "Dormammu",
+            "Kaecilius",
+            "Shuma-Gorath",
+            "Mordo"
+          ],
+          "reveal": "[excited] The correct answer is Dormammu! The most annoying time loop in history.",
+          "dailyDouble": false,
+          "quote": "I've come to bargain."
+        }
+      ]
+    },
+    {
+      "id": "villain-lairs",
+      "title": "Villain Lairs",
+      "kind": "media",
+      "intro": "Picture category! Each image shows a villain's hangout or home turf. Name what I'm asking for.",
+      "art": {
+        "prompt": "A rocky cliff fortress silhouetted against a red sky with lightning, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/marvel-villains-lair--villain-lairs.jpg"
+      },
+      "format": "picture",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This garish palace rules a trash planet. Name the planet. Pictured: a gaudy colorful palace tower glowing with neon lights above a vast junkyard planet with portals in the sky.",
+          "answer": "Sakaar",
+          "accept": [
+            "sakaar"
+          ],
+          "choices": [
+            "Sakaar",
+            "Xandar",
+            "Titan",
+            "Contraxia"
+          ],
+          "reveal": "[excited] The correct answer is Sakaar! The Grandmaster's party planet.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "A gaudy colorful palace tower glowing with neon lights above a vast junkyard planet with portals in the sky, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
+            "file": "media/marvel-villains-lair--villain-lairs-200.jpg"
+          }
+        },
+        {
+          "value": 400,
+          "clue": "This mining town is built inside a giant floating head. Name it. Pictured: a colossal stone-like severed head drifting in deep space.",
+          "answer": "Knowhere",
+          "accept": [
+            "knowhere"
+          ],
+          "choices": [
+            "Knowhere",
+            "Morag",
+            "Sakaar",
+            "Contraxia"
+          ],
+          "reveal": "The correct answer is Knowhere! [chuckles] The Collector's favorite neighborhood.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "A colossal stone-like severed head drifting in deep space, tiny lit buildings and mining ships clinging to it, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
+            "file": "media/marvel-villains-lair--villain-lairs-400.jpg"
+          }
+        },
+        {
+          "value": 600,
+          "clue": "This gloomy castle country is ruled by which iron-masked monarch? Pictured: a grim gothic stone castle on a snowy mountain ridge in a dark green forest.",
+          "answer": "Doctor Doom",
+          "accept": [
+            "doctor doom",
+            "dr doom",
+            "dr. doom",
+            "victor von doom"
+          ],
+          "choices": [
+            "Doctor Doom",
+            "Baron Zemo",
+            "Red Skull",
+            "Mephisto"
+          ],
+          "reveal": "[dramatically] The correct answer is Doctor Doom! Latveria's tourism board is very strict.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "A grim gothic stone castle on a snowy mountain ridge in a dark green forest, banners of green cloth flapping, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
+            "file": "media/marvel-villains-lair--villain-lairs-600.jpg"
+          }
+        },
+        {
+          "value": 800,
+          "clue": "Loki was born in this frozen realm. Name it. Pictured: a frozen blue wasteland of jagged ice cliffs and ruined ice palaces under a dark sky.",
+          "answer": "Jotunheim",
+          "accept": [
+            "jotunheim"
+          ],
+          "choices": [
+            "Jotunheim",
+            "Niflheim",
+            "Vanaheim",
+            "Svartalfheim"
+          ],
+          "reveal": "The correct answer is Jotunheim! [shivers] Land of the Frost Giants.",
+          "dailyDouble": true,
+          "media": {
+            "type": "image",
+            "prompt": "A frozen blue wasteland of jagged ice cliffs and ruined ice palaces under a dark sky, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
+            "file": "media/marvel-villains-lair--villain-lairs-800.jpg"
+          }
+        },
+        {
+          "value": 1000,
+          "clue": "This hidden underwater kingdom is ruled by Namor in Wakanda Forever. Name it. Pictured: a glowing blue underwater city of carved stone temples and pyramids.",
+          "answer": "Talokan",
+          "accept": [
+            "talokan"
+          ],
+          "choices": [
+            "Talokan",
+            "Atlantis",
+            "Lemuria",
+            "Genosha"
+          ],
+          "reveal": "[excited] The correct answer is Talokan! Inspired by Mesoamerican history.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "A glowing blue underwater city of carved stone temples and pyramids, fish swimming past in shafts of light, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
+            "file": "media/marvel-villains-lair--villain-lairs-1000.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "villains-at-the-parks",
+      "title": "Villains at the Parks",
+      "kind": "parks",
+      "intro": "To the parks, where the bad guys get their own rides. [chuckles] Keep hands and wallets inside the vehicle.",
+      "art": {
+        "prompt": "A theme park at night with a tall dark fortress tower glowing and searchlights in the sky, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/marvel-villains-lair--villains-at-the-parks.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In Mission: BREAKOUT!, the Guardians are trapped in this villain's fortress of collectibles.",
+          "answer": "The Collector",
+          "accept": [
+            "the collector",
+            "collector",
+            "taneleer tivan"
+          ],
+          "choices": [
+            "The Collector",
+            "The Grandmaster",
+            "Ego",
+            "Ronan"
+          ],
+          "reveal": "[excited] The correct answer is the Collector! He should have read the return policy.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "On Cosmic Rewind, the Guardians race to stop a world-eating Celestial known as this, the Searcher.",
+          "answer": "Eson",
+          "accept": [
+            "eson",
+            "eson the searcher"
+          ],
+          "choices": [
+            "Eson",
+            "Arishem",
+            "Tiamut",
+            "Ego"
+          ],
+          "reveal": "The correct answer is Eson the Searcher! [excited] Big, hungry, rewindable.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "In Hong Kong's Nano Battle!, riders blast swarm bots sent by this HYDRA scientist.",
+          "answer": "Arnim Zola",
+          "accept": [
+            "arnim zola",
+            "zola"
+          ],
+          "choices": [
+            "Arnim Zola",
+            "Red Skull",
+            "Baron Zemo",
+            "Doctor Faustus"
+          ],
+          "reveal": "[dramatically] The correct answer is Arnim Zola! Tiny bots, big lab coat.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "The Iron Man Experience sends riders soaring over the skyline of this city.",
+          "answer": "Hong Kong",
+          "accept": [
+            "hong kong"
+          ],
+          "choices": [
+            "Hong Kong",
+            "Tokyo",
+            "Shanghai",
+            "Singapore"
+          ],
+          "reveal": "The correct answer is Hong Kong! [excited] Victoria Harbour never looked so armored.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "This copycat villain from the Black Widow film has stalked the grounds of Avengers Campus.",
+          "answer": "Taskmaster",
+          "accept": [
+            "taskmaster"
+          ],
+          "choices": [
+            "Taskmaster",
+            "Crossbones",
+            "Batroc",
+            "Ghost"
+          ],
+          "reveal": "[dramatically] The correct answer is Taskmaster! Watch closely, they learn your moves.",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}

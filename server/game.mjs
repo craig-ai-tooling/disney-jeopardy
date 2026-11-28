@@ -8,6 +8,7 @@ import { HOSTS, hostById, voiceFor } from './hosts.mjs';
 const VALUES = [200, 400, 600, 800, 1000];
 const COLORS = ['#ffcf3f', '#4fc3ff', '#ff6fae', '#7dff8a', '#c08cff', '#ff8a3d', '#3dffe0', '#ff4f4f', '#b6ff3d', '#ffffff', '#ffa8e0', '#8ab4ff'];
 const AVATARS = ['castle', 'star', 'crown', 'rocket', 'shell', 'apple', 'lamp', 'slipper', 'rose', 'wand', 'balloon', 'teacup'];
+const DIFFICULTIES = ['easy', 'medium', 'hard', 'superfan'];
 const CODE_CHARS = 'ABCDEFGHJKMNPQRSTUVWXYZ';
 const SCALE = Number(process.env.TIME_SCALE || 1);
 const HYPE = ['[excited]', '[playfully]', '[dramatically]'];
@@ -61,15 +62,16 @@ export class Room {
   }
 
   // ---------- content selection ----------
-  chooseBoard(boardId) {
+  chooseBoard(boardId, difficulty) {
     const { content, store } = this.rooms;
     const hist = store.tv(this.tvId);
     if (boardId && content.byId.has(boardId)) this.board = content.byId.get(boardId);
     else {
-      const pool = content.boards.filter((b) => b.id !== this.board?.id);
+      const level = DIFFICULTIES.includes(difficulty) ? content.boards.filter((b) => b.difficulty === difficulty) : content.boards;
+      const pool = level.filter((b) => b.id !== this.board?.id);
       const scored = pool.map((b) => ({ b, played: hist.boards[b.id] || 0, seen: b.categories.flatMap((c) => c.clues).filter((c) => hist.seen[c.id]).length }));
       scored.sort((x, y) => (x.played - y.played) || (x.seen - y.seen) || (Math.random() - 0.5));
-      this.board = scored[0]?.b || content.boards[0] || null;
+      this.board = scored[0]?.b || level[0] || content.boards[0] || null;
     }
     this.used = new Set();
     this.broadcast();
@@ -90,7 +92,7 @@ export class Room {
 
   boardList() {
     const hist = this.rooms.store.tv(this.tvId);
-    return this.rooms.content.boards.map((b) => ({ id: b.id, title: b.title, theme: b.theme, played: Boolean(hist.boards[b.id]), art: this.rooms.media.url(b.art?.file) }));
+    return this.rooms.content.boards.map((b) => ({ id: b.id, title: b.title, theme: b.theme, difficulty: b.difficulty, played: Boolean(hist.boards[b.id]), art: this.rooms.media.url(b.art?.file) }));
   }
 
   // ---------- connections ----------
@@ -136,7 +138,7 @@ export class Room {
       case 'pick': return this.pick(m.clue, null);
       case 'readDone': return this.readDone(m.seq);
       case 'board': return this.phase === 'lobby' && this.chooseBoard(m.id);
-      case 'shuffle': return this.phase === 'lobby' && this.chooseBoard();
+      case 'shuffle': return this.phase === 'lobby' && this.chooseBoard(null, m.difficulty);
       case 'settings': return this.applySettings(m.settings);
       case 'kick': this.players.delete(m.pid); return this.broadcast();
       case 'newGame': return this.reset();
@@ -163,7 +165,7 @@ export class Room {
       case 'start': return p.id === this.captain() && this.start();
       case 'next': return (p.id === this.captain() || p.id === this.settings.moderator) && this.advance();
       case 'settings': return p.id === this.captain() && this.applySettings(m.settings);
-      case 'shuffle': return p.id === this.captain() && this.phase === 'lobby' && this.chooseBoard();
+      case 'shuffle': return p.id === this.captain() && this.phase === 'lobby' && this.chooseBoard(null, m.difficulty);
       case 'board': return p.id === this.captain() && this.phase === 'lobby' && this.chooseBoard(m.id);
       case 'voteHost': return this.voteHost(p, m.id);
       case 'moderate': this.settings.moderator = m.on ? p.id : (this.settings.moderator === p.id ? null : this.settings.moderator); return this.broadcast();
@@ -661,7 +663,7 @@ export class Room {
       t: 'state', role, host: { id: this.host.id, name: this.host.name, img: this.host.img, anim: this.host.anim || null }, hosts: this.phase === 'hostDraft' || this.phase === 'lobby' ? HOSTS.map((h) => ({ id: h.id, name: h.name, img: h.img, votes: [...this.hostVotes.values()].filter((x) => x === h.id).length })) : null, myVote: undefined, code: this.code, phase: this.phase, settings: this.settings, captain: this.captain(), control: this.control || null,
       deadline: this.deadline ? this.deadline - now() : 0, players,
       board: b && {
-        id: b.id, title: b.title, theme: b.theme, art: media.url(b.art?.file),
+        id: b.id, title: b.title, theme: b.theme, difficulty: b.difficulty, art: media.url(b.art?.file),
         categories: b.categories.map((c) => ({ id: c.id, title: c.title, art: media.url(c.art?.file), clues: VALUES.map((v) => { const q = c.clues.find((x) => x.value === v); return { id: q.id, value: v, used: this.used.has(q.id) }; }) })),
       },
       catIdx: this.phase === 'categories' ? this.catIdx : null,

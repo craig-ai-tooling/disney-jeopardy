@@ -1,0 +1,548 @@
+{
+  "id": "avengers-assemble-101",
+  "title": "Avengers Assemble 101",
+  "theme": "Marvel",
+  "difficulty": "easy",
+  "tags": [
+    "marvel",
+    "superheroes",
+    "family"
+  ],
+  "intro": "[excited] Welcome to Disney Jeopardy, everybody! Tonight's lesson is Avengers 101: the heroes, the colors, the gear, and a field trip or two. [chuckles] No homework, just glory.",
+  "art": {
+    "prompt": "A bright hero academy classroom with a chalkboard of doodled lightning bolts, stars and shields, desks lined up in sunlight, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+    "file": "media/avengers-assemble-101.jpg"
+  },
+  "categories": [
+    {
+      "id": "who-s-who",
+      "title": "Who's Who",
+      "kind": "theme",
+      "intro": "Let's meet the team! I'll describe a hero or a troublemaker, you give me the name. [winks] Easy peasy.",
+      "art": {
+        "prompt": "A long hallway lined with framed silhouettes of mysterious heroes in dramatic poses, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/avengers-assemble-101--who-s-who.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This horned god of mischief is Thor's adopted brother.",
+          "answer": "Loki",
+          "accept": [
+            "loki",
+            "loki laufeyson"
+          ],
+          "choices": [
+            "Loki",
+            "Heimdall",
+            "Odin",
+            "Korg"
+          ],
+          "reveal": "[laughs] The correct answer is Loki! He will be back. He's always back.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Natasha Romanoff, a master spy, fights under this code name.",
+          "answer": "Black Widow",
+          "accept": [
+            "black widow"
+          ],
+          "choices": [
+            "Black Widow",
+            "Scarlet Witch",
+            "Wasp",
+            "Mockingbird"
+          ],
+          "reveal": "The correct answer is Black Widow! [excited] Red in her ledger, gold on this board.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Wanda Maximoff's spellcasting hero name.",
+          "answer": "Scarlet Witch",
+          "accept": [
+            "scarlet witch",
+            "the scarlet witch"
+          ],
+          "choices": [
+            "Scarlet Witch",
+            "Enchantress",
+            "Black Widow",
+            "Captain Marvel"
+          ],
+          "reveal": "[dramatically] The correct answer is the Scarlet Witch! Chaos magic, wonderful hair.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "This walking tree of very few words protects the galaxy with his friends.",
+          "answer": "Groot",
+          "accept": [
+            "groot",
+            "baby groot"
+          ],
+          "choices": [
+            "Groot",
+            "Rocket",
+            "Drax",
+            "Mantis"
+          ],
+          "reveal": "The correct answer is Groot! [chuckles] I am Chet.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Shuri, T'Challa's genius little sister, later takes on this royal hero title.",
+          "answer": "Black Panther",
+          "accept": [
+            "black panther",
+            "the black panther"
+          ],
+          "choices": [
+            "Black Panther",
+            "White Tiger",
+            "Black Cat",
+            "Ironheart"
+          ],
+          "reveal": "[excited] The correct answer is Black Panther! Wakanda's brightest mind becomes its protector.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "marvel-emoji",
+      "title": "Marvel Emoji",
+      "kind": "fan",
+      "intro": "Emoji round! Decode the little pictures and name the Marvel hero. [chuckles] Thumbs up if you love emoji.",
+      "art": {
+        "prompt": "A giant glowing phone screen floating in a comic-book sky full of bubbles of tiny icons, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/avengers-assemble-101--marvel-emoji.jpg"
+      },
+      "format": "emoji",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "🕷️🧑🏙️ Name this hero from the emoji.",
+          "answer": "Spider-Man",
+          "accept": [
+            "spider-man",
+            "spider man",
+            "spiderman",
+            "spidey"
+          ],
+          "choices": [
+            "Spider-Man",
+            "Ant-Man",
+            "Iron Man",
+            "Hawkeye"
+          ],
+          "reveal": "[excited] The correct answer is Spider-Man! Thwip thwip.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "🐜🧑🔬 Name this tiny hero.",
+          "answer": "Ant-Man",
+          "accept": [
+            "ant-man",
+            "ant man",
+            "antman",
+            "scott lang"
+          ],
+          "choices": [
+            "Ant-Man",
+            "Spider-Man",
+            "Yellowjacket",
+            "The Wasp"
+          ],
+          "reveal": "The correct answer is Ant-Man! [laughs] Small hero, huge heart.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "🦝🔫🚀 Name this furry Guardian.",
+          "answer": "Rocket",
+          "accept": [
+            "rocket",
+            "rocket raccoon"
+          ],
+          "choices": [
+            "Rocket",
+            "Groot",
+            "Star-Lord",
+            "Drax"
+          ],
+          "reveal": "[excited] The correct answer is Rocket! Do not call him a trash panda.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "🧙‍♂️🔮🩺 Name this hero, a surgeon turned sorcerer.",
+          "answer": "Doctor Strange",
+          "accept": [
+            "doctor strange",
+            "dr strange",
+            "dr. strange",
+            "stephen strange"
+          ],
+          "choices": [
+            "Doctor Strange",
+            "Wong",
+            "The Ancient One",
+            "Doctor Doom"
+          ],
+          "reveal": "The correct answer is Doctor Strange! [chuckles] Still technically a doctor.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "🌙🪦🦅 Name this hero, the fist of an Egyptian moon god.",
+          "answer": "Moon Knight",
+          "accept": [
+            "moon knight",
+            "marc spector",
+            "steven grant"
+          ],
+          "choices": [
+            "Moon Knight",
+            "Black Knight",
+            "Nighthawk",
+            "Night Thrasher"
+          ],
+          "reveal": "[dramatically] The correct answer is Moon Knight! Marc, Steven, and a very bossy bird skull.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "costume-colors",
+      "title": "Costume Colors",
+      "kind": "theme",
+      "intro": "Palette round! Each set of colors comes from a famous Marvel costume. Name the hero who wears it.",
+      "art": {
+        "prompt": "An artist paint palette with bold primary color splotches next to a sketchbook of costume designs, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/avengers-assemble-101--costume-colors.jpg"
+      },
+      "format": "palette",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Which armored hero wears these colors?",
+          "answer": "Iron Man",
+          "accept": [
+            "iron man",
+            "ironman",
+            "tony stark"
+          ],
+          "choices": [
+            "Iron Man",
+            "Hulk",
+            "Black Widow",
+            "Thor"
+          ],
+          "reveal": "[excited] The correct answer is Iron Man! Hot rod red and gold. Very flashy.",
+          "dailyDouble": false,
+          "palette": [
+            "#b11f24",
+            "#f2c230",
+            "#7a1015"
+          ]
+        },
+        {
+          "value": 400,
+          "clue": "Whose big look is built from these colors?",
+          "answer": "Hulk",
+          "accept": [
+            "hulk",
+            "the hulk",
+            "bruce banner"
+          ],
+          "choices": [
+            "Hulk",
+            "Iron Man",
+            "Captain America",
+            "Black Panther"
+          ],
+          "reveal": "The correct answer is the Hulk! [laughs] Green skin, purple stretchy pants.",
+          "dailyDouble": false,
+          "palette": [
+            "#4ea83b",
+            "#6b2f8f",
+            "#2c5d23"
+          ]
+        },
+        {
+          "value": 600,
+          "clue": "Whose sleek suit glows in these shades?",
+          "answer": "Black Panther",
+          "accept": [
+            "black panther",
+            "the black panther",
+            "t'challa",
+            "tchalla"
+          ],
+          "choices": [
+            "Black Panther",
+            "Captain America",
+            "Thor",
+            "Hulk"
+          ],
+          "reveal": "[excited] The correct answer is Black Panther! Black vibranium with that purple kinetic glow.",
+          "dailyDouble": false,
+          "palette": [
+            "#141416",
+            "#7a3fa0",
+            "#b9b9c3"
+          ]
+        },
+        {
+          "value": 800,
+          "clue": "Which cosmic hero flies in these colors?",
+          "answer": "Captain Marvel",
+          "accept": [
+            "captain marvel",
+            "carol danvers"
+          ],
+          "choices": [
+            "Captain Marvel",
+            "Captain America",
+            "Spider-Man",
+            "Iron Man"
+          ],
+          "reveal": "The correct answer is Captain Marvel! [excited] Red, navy, and that golden star.",
+          "dailyDouble": false,
+          "palette": [
+            "#d81f2a",
+            "#1c2b6b",
+            "#f5c518"
+          ]
+        },
+        {
+          "value": 1000,
+          "clue": "Which tricky Asgardian struts in these colors?",
+          "answer": "Loki",
+          "accept": [
+            "loki",
+            "loki laufeyson"
+          ],
+          "choices": [
+            "Loki",
+            "Gamora",
+            "She-Hulk",
+            "Thor"
+          ],
+          "reveal": "[dramatically] The correct answer is Loki! Green, gold and black. Mischief has a dress code.",
+          "dailyDouble": false,
+          "palette": [
+            "#1f5f2e",
+            "#c9a227",
+            "#111111"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hero-field-trips",
+      "title": "Hero Field Trips",
+      "kind": "parks",
+      "intro": "Field trip! These heroes show up at Disney parks and ships around the world. [excited] Grab your permission slip.",
+      "art": {
+        "prompt": "A colorful map of the world with little glowing pins and a cruise ship sailing between continents, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/avengers-assemble-101--hero-field-trips.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Hong Kong Disneyland's first Marvel ride lets guests soar beside this armored hero.",
+          "answer": "Iron Man",
+          "accept": [
+            "iron man",
+            "ironman",
+            "iron man experience",
+            "tony stark"
+          ],
+          "choices": [
+            "Iron Man",
+            "Ant-Man",
+            "Spider-Man",
+            "Thor"
+          ],
+          "reveal": "[excited] The correct answer is Iron Man! The Iron Man Experience opened in 2017.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Hong Kong Disneyland's Nano Battle! stars Ant-Man and this winged partner.",
+          "answer": "The Wasp",
+          "accept": [
+            "wasp",
+            "the wasp",
+            "hope van dyne"
+          ],
+          "choices": [
+            "The Wasp",
+            "Falcon",
+            "Mantis",
+            "Black Widow"
+          ],
+          "reveal": "The correct answer is the Wasp! [excited] Tiny wings, big zap.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "On some Disney Cruise Line sailings, heroes take over the ship for this special themed day.",
+          "answer": "Marvel Day at Sea",
+          "accept": [
+            "marvel day at sea",
+            "day at sea"
+          ],
+          "choices": [
+            "Marvel Day at Sea",
+            "Avengers Voyage",
+            "Hero Night Out",
+            "Super Sail Day"
+          ],
+          "reveal": "[excited] The correct answer is Marvel Day at Sea! Heroes on deck, villains overboard.",
+          "dailyDouble": true
+        },
+        {
+          "value": 800,
+          "clue": "Because of an old theme park deal, many Marvel heroes appear at a rival resort in this state instead of at Walt Disney World.",
+          "answer": "Florida",
+          "accept": [
+            "florida",
+            "orlando"
+          ],
+          "choices": [
+            "Florida",
+            "California",
+            "Texas",
+            "Georgia"
+          ],
+          "reveal": "The correct answer is Florida! [chuckles] That's why Orlando's Disney heroes are mostly Guardians.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Disneyland's Avengers Campus tells a story that it was built on the old site of this famous hero's company.",
+          "answer": "Stark Industries",
+          "accept": [
+            "stark industries",
+            "stark"
+          ],
+          "choices": [
+            "Stark Industries",
+            "Pym Technologies",
+            "Oscorp",
+            "Roxxon"
+          ],
+          "reveal": "[excited] The correct answer is Stark Industries! Tony's old factory became a hero campus.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "big-screen-firsts",
+      "title": "Big Screen Firsts",
+      "kind": "film",
+      "intro": "Back to the movies, where it all began. [chuckles] Popcorn ready, true believers?",
+      "art": {
+        "prompt": "A grand old movie palace marquee glowing at night with empty frames for posters, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/avengers-assemble-101--big-screen-firsts.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "The very first movie of the Marvel Cinematic Universe, from 2008, was titled this.",
+          "answer": "Iron Man",
+          "accept": [
+            "iron man"
+          ],
+          "choices": [
+            "Iron Man",
+            "The Incredible Hulk",
+            "Thor",
+            "Captain America: The First Avenger"
+          ],
+          "reveal": "[excited] The correct answer is Iron Man! And just like that, a universe was born.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "In the first Avengers movie, the team battles an alien army in this big city.",
+          "answer": "New York City",
+          "accept": [
+            "new york",
+            "new york city",
+            "nyc",
+            "manhattan"
+          ],
+          "choices": [
+            "New York City",
+            "Washington, D.C.",
+            "London",
+            "Sokovia"
+          ],
+          "reveal": "The correct answer is New York City! [laughs] Then they all went out for shawarma.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Nick Fury runs this spy agency.",
+          "answer": "S.H.I.E.L.D.",
+          "accept": [
+            "shield",
+            "s.h.i.e.l.d.",
+            "s.h.i.e.l.d"
+          ],
+          "choices": [
+            "S.H.I.E.L.D.",
+            "HYDRA",
+            "A.I.M.",
+            "S.W.O.R.D."
+          ],
+          "reveal": "[excited] The correct answer is S.H.I.E.L.D.! Lots of secrets, lots of periods.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Thor and his family come from this golden realm.",
+          "answer": "Asgard",
+          "accept": [
+            "asgard"
+          ],
+          "choices": [
+            "Asgard",
+            "Jotunheim",
+            "Midgard",
+            "Xandar"
+          ],
+          "reveal": "The correct answer is Asgard! [dramatically] Shiny palace, rainbow bridge.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Steve Rogers wakes up in modern times after being frozen in ice for nearly this many years.",
+          "answer": "70",
+          "accept": [
+            "70",
+            "seventy",
+            "about 70"
+          ],
+          "choices": [
+            "70",
+            "25",
+            "50",
+            "100"
+          ],
+          "reveal": "[excited] The correct answer is about seventy! Talk about a long nap.",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}

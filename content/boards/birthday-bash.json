@@ -2,6 +2,7 @@
   "id": "birthday-bash",
   "title": "Birthday Bash",
   "theme": "Birthdays",
+  "difficulty": "medium",
   "tags": [
     "birthday",
     "party",

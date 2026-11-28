@@ -157,7 +157,7 @@ function bindWager(max) {
 function lobby() {
   const p = mine(); const captain = S.captain === me; const set = S.settings;
   return `${top()}<img class="logo" src="/theme/logo-cut.webp" alt="">
-    <div class="card"><div class="muted">Tonight's episode</div><h2 class="gold" style="margin:4px 0">${esc(S.board?.title || '')}</h2>
+    <div class="card"><div class="muted">Tonight's episode</div><h2 class="gold" style="margin:4px 0">${esc(S.board?.title || '')}</h2>${S.board?.difficulty ? `<div class="muted">Difficulty: ${esc(S.board.difficulty)}</div>` : ''}
       <div class="muted">${S.players.length} player${S.players.length === 1 ? '' : 's'} in · room ${esc(S.code)}</div></div>
     <div class="card">
       <label class="toggle">Always multiple choice <input type="checkbox" id="mc" ${p?.alwaysMc ? 'checked' : ''}></label>
@@ -166,6 +166,7 @@ function lobby() {
     </div>
     ${captain ? `<div class="card"><div class="muted">You're the captain</div>
       <button id="start">Start the show</button><button class="secondary" id="shuffle">Different episode</button>
+      <div class="row">${['easy', 'medium', 'hard', 'superfan'].map((d) => `<button class="${S.board?.difficulty === d ? '' : 'secondary'}" data-diff="${d}" style="font-size:13px;padding:6px 4px">${d}</button>`).join('')}</div>
       <label class="toggle">Host controls pacing <input type="checkbox" id="pace" ${set.autoAdvance === false ? 'checked' : ''}></label>
       <div class="row">${['mc', 'typed', 'mixed'].map((m) => `<button class="${set.mode === m ? '' : 'secondary'}" data-mode="${m}" style="font-size:15px">${{ mc: 'Multiple choice', typed: 'Type/speak', mixed: 'Mixed' }[m]}</button>`).join('')}</div></div>`
       : '<div class="muted">Waiting for the captain to start…</div>'}`;
@@ -177,6 +178,7 @@ function bindLobby() {
   $('#start') && ($('#start').onclick = () => send({ t: 'start' }));
   $('#shuffle') && ($('#shuffle').onclick = () => send({ t: 'shuffle' }));
   $('#pace') && ($('#pace').onchange = (e) => send({ t: 'settings', settings: { autoAdvance: !e.target.checked } }));
+  $$('[data-diff]').forEach((b) => b.onclick = () => send({ t: 'shuffle', difficulty: b.dataset.diff }));
   $$('[data-mode]').forEach((b) => b.onclick = () => send({ t: 'settings', settings: { mode: b.dataset.mode } }));
 }
 

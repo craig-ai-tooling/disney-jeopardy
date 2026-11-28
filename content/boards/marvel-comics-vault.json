@@ -1,0 +1,548 @@
+{
+  "id": "marvel-comics-vault",
+  "title": "The Marvel Comics Vault",
+  "theme": "Marvel",
+  "difficulty": "superfan",
+  "tags": [
+    "marvel",
+    "comics",
+    "history"
+  ],
+  "intro": "[whispers] Welcome to Disney Jeopardy, and welcome to the vault. Tonight we open the oldest long boxes in the House of Ideas, from the 1930s to the Disney deal. [chuckles] White gloves only, superfans.",
+  "art": {
+    "prompt": "A dim archive vault with tall metal shelves of protective comic boxes, a single reading lamp and a velvet rope, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+    "file": "media/marvel-comics-vault.jpg"
+  },
+  "categories": [
+    {
+      "id": "timely-beginnings",
+      "title": "Timely Beginnings",
+      "kind": "theme",
+      "intro": "We begin before the Marvel name, in the golden age of comics. [warmly] Grab your fedora.",
+      "art": {
+        "prompt": "A bustling 1940s publishing office with drafting tables, ink bottles and a city skyline in the window, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/marvel-comics-vault--timely-beginnings.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Marvel's publisher launched its first comics in 1939 under this company name.",
+          "answer": "Timely Comics",
+          "accept": [
+            "timely comics",
+            "timely",
+            "timely publications"
+          ],
+          "choices": [
+            "Timely Comics",
+            "Atlas Comics",
+            "Quality Comics",
+            "Dell Comics"
+          ],
+          "reveal": "[excited] The correct answer is Timely Comics! Where it all started.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Marvel Comics #1 introduced the android Human Torch and this hot-tempered undersea prince.",
+          "answer": "Namor the Sub-Mariner",
+          "accept": [
+            "namor the sub-mariner",
+            "namor",
+            "sub-mariner",
+            "the sub-mariner"
+          ],
+          "choices": [
+            "Namor the Sub-Mariner",
+            "Triton",
+            "Stingray",
+            "Attuma"
+          ],
+          "reveal": "The correct answer is Namor the Sub-Mariner! [chuckles] Ankle wings since 1939.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Captain America Comics #1 famously shows Cap punching this dictator on the cover, months before the U.S. entered the war.",
+          "answer": "Adolf Hitler",
+          "accept": [
+            "adolf hitler",
+            "hitler"
+          ],
+          "choices": [
+            "Adolf Hitler",
+            "Benito Mussolini",
+            "Hideki Tojo",
+            "Joseph Stalin"
+          ],
+          "reveal": "[excited] The correct answer is Hitler! A bold cover from March 1941.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Captain America was created by Joe Simon and this legendary artist.",
+          "answer": "Jack Kirby",
+          "accept": [
+            "jack kirby",
+            "kirby"
+          ],
+          "choices": [
+            "Jack Kirby",
+            "Steve Ditko",
+            "Bill Everett",
+            "Carl Burgos"
+          ],
+          "reveal": "The correct answer is Jack Kirby! [excited] The King of comics.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "In the 1950s, before taking the Marvel name, the company published as this.",
+          "answer": "Atlas Comics",
+          "accept": [
+            "atlas comics",
+            "atlas"
+          ],
+          "choices": [
+            "Atlas Comics",
+            "Goodman Comics",
+            "Star Comics",
+            "Magazine Management"
+          ],
+          "reveal": "[excited] The correct answer is Atlas Comics! Monsters, westerns, and a globe logo.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "silver-age-debuts",
+      "title": "Silver Age Debuts",
+      "kind": "theme",
+      "intro": "The early sixties, when heroes popped up in anthology comics. [excited] Name the issue, the year or the title.",
+      "art": {
+        "prompt": "A spinner rack of colorful 1960s comic books in a corner drugstore, no readable text, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/marvel-comics-vault--silver-age-debuts.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "The Incredible Hulk #1 smashed onto newsstands in this year.",
+          "answer": "1962",
+          "accept": [
+            "1962"
+          ],
+          "choices": [
+            "1962",
+            "1960",
+            "1964",
+            "1966"
+          ],
+          "reveal": "[excited] The correct answer is 1962! He was gray at first, by the way.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Iron Man debuted in 1963 in this anthology series.",
+          "answer": "Tales of Suspense",
+          "accept": [
+            "tales of suspense"
+          ],
+          "choices": [
+            "Tales of Suspense",
+            "Tales to Astonish",
+            "Strange Tales",
+            "Journey into Mystery"
+          ],
+          "reveal": "The correct answer is Tales of Suspense! [excited] Issue 39.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Hank Pym first shrank in the pages of this anthology series.",
+          "answer": "Tales to Astonish",
+          "accept": [
+            "tales to astonish"
+          ],
+          "choices": [
+            "Tales to Astonish",
+            "Tales of Suspense",
+            "Strange Tales",
+            "Amazing Adventures"
+          ],
+          "reveal": "[chuckles] The correct answer is Tales to Astonish! Small hero, big title.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Doctor Strange made his debut in 1963 in this fittingly named anthology.",
+          "answer": "Strange Tales",
+          "accept": [
+            "strange tales"
+          ],
+          "choices": [
+            "Strange Tales",
+            "Tales of Suspense",
+            "Journey into Mystery",
+            "Tales to Astonish"
+          ],
+          "reveal": "The correct answer is Strange Tales! [dramatically] Issue 110, by Lee and Ditko.",
+          "dailyDouble": true
+        },
+        {
+          "value": 1000,
+          "clue": "The Avengers #1 and The X-Men #1 share this cover-date month and year.",
+          "answer": "September 1963",
+          "accept": [
+            "september 1963",
+            "sept 1963",
+            "sep 1963"
+          ],
+          "choices": [
+            "September 1963",
+            "March 1962",
+            "July 1964",
+            "November 1961"
+          ],
+          "reveal": "[excited] The correct answer is September 1963! Two teams, one magical month.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "bullpen-bulletins",
+      "title": "Bullpen Bulletins",
+      "kind": "fan",
+      "intro": "Our fan category: the people and phrases behind the House of Ideas. [chuckles] Make mine Marvel.",
+      "art": {
+        "prompt": "A cluttered 1960s office bullpen with drafting tables in rows, full of sketches, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/marvel-comics-vault--bullpen-bulletins.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Stan Lee famously signed off his columns with this one-word cheer.",
+          "answer": "Excelsior",
+          "accept": [
+            "excelsior",
+            "excelsior!"
+          ],
+          "choices": [
+            "Excelsior",
+            "Shazam",
+            "Huzzah",
+            "Onward"
+          ],
+          "reveal": "[excited] The correct answer is Excelsior! Upward and onward, true believers.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Stan's columns called Marvel's staff of writers and artists this.",
+          "answer": "The Bullpen",
+          "accept": [
+            "the bullpen",
+            "bullpen",
+            "marvel bullpen",
+            "the marvel bullpen"
+          ],
+          "choices": [
+            "The Bullpen",
+            "The Studio",
+            "The Think Tank",
+            "The Clubhouse"
+          ],
+          "reveal": "The correct answer is the Bullpen! [chuckles] Rascally, merry and very busy.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "In this production style, artists drew from a plot outline and the writer added dialogue later.",
+          "answer": "The Marvel Method",
+          "accept": [
+            "marvel method",
+            "the marvel method"
+          ],
+          "choices": [
+            "The Marvel Method",
+            "The Kirby Method",
+            "Full Script",
+            "Bullpen Style"
+          ],
+          "reveal": "[excited] The correct answer is the Marvel Method! Fast, collaborative and still debated.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Marvel's official 1960s fan club had this alliterative name.",
+          "answer": "Merry Marvel Marching Society",
+          "accept": [
+            "merry marvel marching society",
+            "mmms",
+            "m.m.m.s."
+          ],
+          "choices": [
+            "Merry Marvel Marching Society",
+            "Mighty Marvel Fan Brigade",
+            "Marvel Maniacs Club",
+            "Friends of Ol' Marvel"
+          ],
+          "reveal": "The correct answer is the Merry Marvel Marching Society! [sings] Membership kit included a record.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Stan Lee was born with this name.",
+          "answer": "Stanley Lieber",
+          "accept": [
+            "stanley lieber",
+            "stanley martin lieber",
+            "lieber"
+          ],
+          "choices": [
+            "Stanley Lieber",
+            "Stanley Goodman",
+            "Stanley Lieberman",
+            "Stanley Kirby"
+          ],
+          "reveal": "[warmly] The correct answer is Stanley Lieber! Stan Lee was a pen name that stuck.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "key-issue-gallery",
+      "title": "Key Issue Gallery",
+      "kind": "media",
+      "intro": "Picture category! Each image is inspired by a key moment in early Marvel comics. Tell me what I'm asking for.",
+      "art": {
+        "prompt": "A museum gallery wall of empty gilded frames lit by spotlights, velvet benches in front, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/marvel-comics-vault--key-issue-gallery.jpg"
+      },
+      "format": "picture",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Marvel Comics #1 starred an android who did this. Name him. Pictured: a glowing humanoid figure made entirely of flames flying over a 1940s city skyline at night.",
+          "answer": "The Human Torch",
+          "accept": [
+            "human torch",
+            "the human torch",
+            "jim hammond"
+          ],
+          "choices": [
+            "The Human Torch",
+            "Firestar",
+            "Sunfire",
+            "Ghost Rider"
+          ],
+          "reveal": "[excited] The correct answer is the original Human Torch! An android, not Johnny Storm.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "A glowing humanoid figure made entirely of flames flying over a 1940s city skyline at night, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
+            "file": "media/marvel-comics-vault--key-issue-gallery-200.jpg"
+          }
+        },
+        {
+          "value": 400,
+          "clue": "Bruce Banner was caught in the blast of this kind of bomb, shown here. Pictured: a desert test site with a huge glowing green blast cloud rising over the horizon and a small jeep in the foreground.",
+          "answer": "Gamma bomb",
+          "accept": [
+            "gamma bomb",
+            "gamma",
+            "gamma radiation",
+            "a gamma bomb"
+          ],
+          "choices": [
+            "Gamma bomb",
+            "Atomic bomb",
+            "Cosmic ray bomb",
+            "Neutron bomb"
+          ],
+          "reveal": "The correct answer is a gamma bomb! [dramatically] He went to save a teenager. Hero move.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "A desert test site with a huge glowing green blast cloud rising over the horizon and a small jeep in the foreground, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
+            "file": "media/marvel-comics-vault--key-issue-gallery-400.jpg"
+          }
+        },
+        {
+          "value": 600,
+          "clue": "Exposure to these during a rocket flight gave the Fantastic Four their powers. What were they? Pictured: a small 1960s style rocket ship flying through a storm of glowing colorful energy streaks in space.",
+          "answer": "Cosmic rays",
+          "accept": [
+            "cosmic rays",
+            "cosmic radiation",
+            "cosmic ray"
+          ],
+          "choices": [
+            "Cosmic rays",
+            "Gamma rays",
+            "Terrigen Mist",
+            "Solar flares"
+          ],
+          "reveal": "[excited] The correct answer is cosmic rays! Shielding? Never heard of it.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "A small 1960s style rocket ship flying through a storm of glowing colorful energy streaks in space, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
+            "file": "media/marvel-comics-vault--key-issue-gallery-600.jpg"
+          }
+        },
+        {
+          "value": 800,
+          "clue": "Tony Stark's first armor, built in captivity, was this color in his 1963 debut. Pictured: a bulky clunky iron suit of armor with rivets standing in a dim cave workshop full of scrap metal.",
+          "answer": "Gray",
+          "accept": [
+            "gray",
+            "grey"
+          ],
+          "choices": [
+            "Gray",
+            "Gold",
+            "Red",
+            "Silver"
+          ],
+          "reveal": "The correct answer is gray! [chuckles] The gold paint came next issue.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "A bulky clunky iron suit of armor with rivets standing in a dim cave workshop full of scrap metal, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
+            "file": "media/marvel-comics-vault--key-issue-gallery-800.jpg"
+          }
+        },
+        {
+          "value": 1000,
+          "clue": "In Thor's 1962 debut, Dr. Donald Blake transforms by striking this on the ground. What is it? Pictured: a gnarled old wooden walking stick lying on the floor of a dark Norwegian sea cave.",
+          "answer": "A walking stick",
+          "accept": [
+            "walking stick",
+            "a walking stick",
+            "cane",
+            "a cane",
+            "stick",
+            "staff",
+            "wooden staff"
+          ],
+          "choices": [
+            "A walking stick",
+            "A shield",
+            "A stone",
+            "A sword"
+          ],
+          "reveal": "[dramatically] The correct answer is a walking stick! He found it in a cave in Norway.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "A gnarled old wooden walking stick lying on the floor of a dark Norwegian sea cave, glowing faintly, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
+            "file": "media/marvel-comics-vault--key-issue-gallery-1000.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "house-of-mouse-archive",
+      "title": "House of Mouse Archive",
+      "kind": "parks",
+      "intro": "To the parks archives: Marvel's road to Disney, and some early experiments. [whispers] Very deep cuts.",
+      "art": {
+        "prompt": "A dusty archive room with blueprints pinned up, scale models of park buildings and a desk lamp, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/marvel-comics-vault--house-of-mouse-archive.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Disney's deal to acquire Marvel Entertainment was announced in this year.",
+          "answer": "2009",
+          "accept": [
+            "2009"
+          ],
+          "choices": [
+            "2009",
+            "2006",
+            "2012",
+            "2015"
+          ],
+          "reveal": "[excited] The correct answer is 2009! The House of Mouse met the House of Ideas.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "The Marvel deal was valued at roughly this much.",
+          "answer": "$4 billion",
+          "accept": [
+            "4 billion",
+            "$4 billion",
+            "four billion",
+            "4 billion dollars"
+          ],
+          "choices": [
+            "$4 billion",
+            "$1 billion",
+            "$7 billion",
+            "$10 billion"
+          ],
+          "reveal": "The correct answer is about four billion dollars! [chuckles] Chet would have chipped in.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Before Avengers Campus, Disney California Adventure tested the waters with this 2017 Marvel seasonal event.",
+          "answer": "Summer of Heroes",
+          "accept": [
+            "summer of heroes"
+          ],
+          "choices": [
+            "Summer of Heroes",
+            "Heroes Fest",
+            "Marvel Days",
+            "Avengers Summer"
+          ],
+          "reveal": "[excited] The correct answer is Summer of Heroes! Guardians dance party included.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "At Disneyland's old Innoventions building, guests could meet the god of thunder at this attraction.",
+          "answer": "Thor: Treasures of Asgard",
+          "accept": [
+            "thor: treasures of asgard",
+            "thor treasures of asgard",
+            "treasures of asgard"
+          ],
+          "choices": [
+            "Thor: Treasures of Asgard",
+            "Halls of Asgard",
+            "Hall of Heroes",
+            "Odin's Vault"
+          ],
+          "reveal": "The correct answer is Thor: Treasures of Asgard! [excited] Tomorrowland had a little Asgard.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Hong Kong Disneyland's Ant-Man and The Wasp: Nano Battle! replaced this attraction.",
+          "answer": "Buzz Lightyear Astro Blasters",
+          "accept": [
+            "buzz lightyear astro blasters",
+            "astro blasters",
+            "buzz lightyear"
+          ],
+          "choices": [
+            "Buzz Lightyear Astro Blasters",
+            "Autopia",
+            "Orbitron",
+            "Space Mountain"
+          ],
+          "reveal": "[excited] The correct answer is Buzz Lightyear Astro Blasters! To infinity, and then very small.",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}

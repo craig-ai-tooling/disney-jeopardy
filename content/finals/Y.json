@@ -1,0 +1,142 @@
+[
+  {
+    "film": "Iron Man",
+    "category": "Iron Man",
+    "clue": "The film that launched the Marvel Cinematic Universe ends with Tony Stark telling a room of reporters these four words.",
+    "answer": "I am Iron Man",
+    "accept": [
+      "i am iron man",
+      "i'm iron man"
+    ],
+    "choices": [
+      "I am Iron Man",
+      "Avengers, assemble",
+      "I love you 3000",
+      "Genius, billionaire, playboy"
+    ],
+    "reveal": "[excited] The correct answer is I am Iron Man! Four words that started a universe."
+  },
+  {
+    "film": "Captain America: The Winter Soldier",
+    "category": "Captain America: The Winter Soldier",
+    "clue": "The masked assassin known as the Winter Soldier is unmasked as this man, Steve Rogers' childhood best friend.",
+    "answer": "Bucky Barnes",
+    "accept": [
+      "bucky barnes",
+      "bucky",
+      "james buchanan barnes",
+      "james barnes"
+    ],
+    "choices": [
+      "Bucky Barnes",
+      "Brock Rumlow",
+      "Sam Wilson",
+      "Alexander Pierce"
+    ],
+    "reveal": "[dramatically] The correct answer is Bucky Barnes! Who the hell is Bucky? Steve knew."
+  },
+  {
+    "film": "Thor: Ragnarok",
+    "category": "Thor: Ragnarok",
+    "clue": "On the planet Sakaar, Thor is thrown into the arena to battle this Avenger, his friend from work.",
+    "answer": "The Hulk",
+    "accept": [
+      "hulk",
+      "the hulk",
+      "bruce banner"
+    ],
+    "choices": [
+      "The Hulk",
+      "Valkyrie",
+      "Korg",
+      "The Grandmaster"
+    ],
+    "reveal": "[laughs] The correct answer is the Hulk! Thor yelled that he knew him from work."
+  },
+  {
+    "film": "Doctor Strange",
+    "category": "Doctor Strange",
+    "clue": "Stephen Strange turned to the mystic arts after this kind of accident wrecked his surgeon's hands.",
+    "answer": "A car accident",
+    "accept": [
+      "car accident",
+      "a car accident",
+      "car crash",
+      "a car crash"
+    ],
+    "choices": [
+      "A car accident",
+      "A lab explosion",
+      "A skiing accident",
+      "A plane crash"
+    ],
+    "reveal": "[dramatically] The correct answer is a car accident! Kids, don't text and drive. Especially sorcerers."
+  },
+  {
+    "film": "Spider-Man: Homecoming",
+    "category": "Spider-Man: Homecoming",
+    "clue": "Peter Parker discovers that the Vulture is the father of this classmate, his date to the dance.",
+    "answer": "Liz",
+    "accept": [
+      "liz",
+      "liz allan",
+      "liz toomes"
+    ],
+    "choices": [
+      "Liz",
+      "Michelle",
+      "Betty Brant",
+      "Gwen Stacy"
+    ],
+    "reveal": "[excited] The correct answer is Liz! The most awkward car ride in Marvel history."
+  },
+  {
+    "film": "Black Widow",
+    "category": "Black Widow",
+    "clue": "Natasha's sister from the Red Room, who teases her about her superhero pose, is this assassin.",
+    "answer": "Yelena Belova",
+    "accept": [
+      "yelena belova",
+      "yelena"
+    ],
+    "choices": [
+      "Yelena Belova",
+      "Melina Vostokoff",
+      "Antonia Dreykov",
+      "Maria Hill"
+    ],
+    "reveal": "[excited] The correct answer is Yelena Belova! She does not do the pose."
+  },
+  {
+    "film": "Shang-Chi and the Legend of the Ten Rings",
+    "category": "Shang-Chi and the Legend of the Ten Rings",
+    "clue": "Shang-Chi's travel companion Trevor is accompanied by this furry, faceless six-legged creature.",
+    "answer": "Morris",
+    "accept": [
+      "morris"
+    ],
+    "choices": [
+      "Morris",
+      "Mojo",
+      "Muffin",
+      "Mortimer"
+    ],
+    "reveal": "[laughs] The correct answer is Morris! A hundun with wings and no face, and somehow adorable."
+  },
+  {
+    "film": "Ant-Man",
+    "category": "Ant-Man",
+    "clue": "This ex-con pal of Scott Lang is famous for telling long, rambling stories about where he heard a tip.",
+    "answer": "Luis",
+    "accept": [
+      "luis"
+    ],
+    "choices": [
+      "Luis",
+      "Kurt",
+      "Dave",
+      "Jimmy"
+    ],
+    "reveal": "[excited] The correct answer is Luis! So check it, this host loves him."
+  }
+]

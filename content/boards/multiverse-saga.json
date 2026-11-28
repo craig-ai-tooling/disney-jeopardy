@@ -1,0 +1,539 @@
+{
+  "id": "multiverse-saga",
+  "title": "Mayhem in the Multiverse",
+  "theme": "Marvel",
+  "difficulty": "hard",
+  "tags": [
+    "marvel",
+    "mcu",
+    "multiverse"
+  ],
+  "intro": "[dramatically] Welcome to Disney Jeopardy, where tonight there are infinite universes and only one host. Probably. [chuckles] From time-keepers to conquerors, this is the Multiverse Saga. Mind the incursions.",
+  "art": {
+    "prompt": "A swirling cosmic portal of fractured kaleidoscopic city skylines folding in on themselves, rainbow light spilling out, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+    "file": "media/multiverse-saga.jpg"
+  },
+  "categories": [
+    {
+      "id": "phase-four-files",
+      "title": "Phase Four Files",
+      "kind": "film",
+      "intro": "We open the Phase Four case files. [whispers] Several are stamped classified.",
+      "art": {
+        "prompt": "A stack of sealed dossiers on a metal desk under a green banker lamp, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/multiverse-saga--phase-four-files.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Shang-Chi's father leads this ancient criminal organization.",
+          "answer": "The Ten Rings",
+          "accept": [
+            "ten rings",
+            "the ten rings"
+          ],
+          "choices": [
+            "The Ten Rings",
+            "The Hand",
+            "HYDRA",
+            "The Black Order"
+          ],
+          "reveal": "[excited] The correct answer is the Ten Rings! Ten rings, one very complicated dad.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Shang-Chi's mother came from this hidden magical village.",
+          "answer": "Ta Lo",
+          "accept": [
+            "ta lo",
+            "talo"
+          ],
+          "choices": [
+            "Ta Lo",
+            "Kamar-Taj",
+            "K'un-Lun",
+            "Talokan"
+          ],
+          "reveal": "The correct answer is Ta Lo! [warmly] Dragons, guardian lions and fancy fabric.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "In Eternals, a Celestial is growing inside the Earth. Its name is this.",
+          "answer": "Tiamut",
+          "accept": [
+            "tiamut"
+          ],
+          "choices": [
+            "Tiamut",
+            "Arishem",
+            "Eson",
+            "Ego"
+          ],
+          "reveal": "[dramatically] The correct answer is Tiamut! He left a very large hand in the ocean.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In Black Widow, this general runs the Red Room.",
+          "answer": "Dreykov",
+          "accept": [
+            "dreykov",
+            "general dreykov"
+          ],
+          "choices": [
+            "Dreykov",
+            "Shostakov",
+            "Karpov",
+            "Lukin"
+          ],
+          "reveal": "The correct answer is Dreykov! [dramatically] He didn't see that coming. He couldn't smell it either.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "America Chavez punches open portals between universes in this shape.",
+          "answer": "Star",
+          "accept": [
+            "star",
+            "stars",
+            "star-shaped",
+            "star shaped",
+            "five-pointed star"
+          ],
+          "choices": [
+            "Star",
+            "Hexagon",
+            "Circle",
+            "Diamond"
+          ],
+          "reveal": "[excited] The correct answer is a star! Five points of pure multiverse travel.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "kang-konundrums",
+      "title": "Kang Konundrums",
+      "kind": "theme",
+      "intro": "He who remains, he who conquers, he who confuses us all. [chuckles] Here come the Kang questions.",
+      "art": {
+        "prompt": "A towering throne of green and purple crystals inside a strange glowing subatomic city, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/multiverse-saga--kang-konundrums.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Ant-Man and the Wasp: Quantumania's main villain is this exiled conqueror.",
+          "answer": "Kang the Conqueror",
+          "accept": [
+            "kang the conqueror",
+            "kang"
+          ],
+          "choices": [
+            "Kang the Conqueror",
+            "Immortus",
+            "Ultron",
+            "The Leader"
+          ],
+          "reveal": "[dramatically] The correct answer is Kang the Conqueror! He conquers. It's right there in the name.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "In Quantumania, Darren Cross returns as this floating, big-headed villain.",
+          "answer": "M.O.D.O.K.",
+          "accept": [
+            "modok",
+            "m.o.d.o.k.",
+            "m.o.d.o.k"
+          ],
+          "choices": [
+            "M.O.D.O.K.",
+            "The Leader",
+            "Egghead",
+            "Whiplash"
+          ],
+          "reveal": "[laughs] The correct answer is MODOK! Mechanized Organism Designed Only for Killing. Rude.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "In Quantumania, the original Wasp, who spent 30 years trapped in the Quantum Realm, is this woman.",
+          "answer": "Janet van Dyne",
+          "accept": [
+            "janet van dyne",
+            "janet",
+            "janet pym"
+          ],
+          "choices": [
+            "Janet van Dyne",
+            "Hope van Dyne",
+            "Cassie Lang",
+            "Ava Starr"
+          ],
+          "reveal": "[excited] The correct answer is Janet van Dyne! She had some things to tell the family.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In Season 1 of Loki, this TVA judge oversees Loki's case.",
+          "answer": "Ravonna Renslayer",
+          "accept": [
+            "ravonna renslayer",
+            "renslayer",
+            "ravonna"
+          ],
+          "choices": [
+            "Ravonna Renslayer",
+            "Verity Willis",
+            "Hunter B-15",
+            "Mobius"
+          ],
+          "reveal": "The correct answer is Ravonna Renslayer! [dramatically] Her comic roots tie back to Kang.",
+          "dailyDouble": true
+        },
+        {
+          "value": 1000,
+          "clue": "Season 2 of Loki introduced this TVA repair technician who writes the manuals.",
+          "answer": "Ouroboros",
+          "accept": [
+            "ouroboros",
+            "o.b."
+          ],
+          "choices": [
+            "Ouroboros",
+            "Casey",
+            "Brad Wolfe",
+            "Hunter X-5"
+          ],
+          "reveal": "[excited] The correct answer is Ouroboros! O.B. to his friends. Read the manual.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "multiverse-map",
+      "title": "Multiverse Map",
+      "kind": "media",
+      "intro": "Picture category! Each image shows a strange place in the multiverse. Name it.",
+      "art": {
+        "prompt": "An old explorer map unrolled on a desk, covered in glowing swirling circles and branching lines, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/multiverse-saga--multiverse-map.jpg"
+      },
+      "format": "picture",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Doctor Strange folds whole cities in this pocket reality. Name it. Pictured: a city of skyscrapers folding and twisting like a kaleidoscope.",
+          "answer": "Mirror Dimension",
+          "accept": [
+            "mirror dimension",
+            "the mirror dimension"
+          ],
+          "choices": [
+            "Mirror Dimension",
+            "Dark Dimension",
+            "Quantum Realm",
+            "Astral Plane"
+          ],
+          "reveal": "[excited] The correct answer is the Mirror Dimension! Great for fights, terrible for directions.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "A city of skyscrapers folding and twisting like a kaleidoscope, streets curling up into the sky, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
+            "file": "media/multiverse-saga--multiverse-map-200.jpg"
+          }
+        },
+        {
+          "value": 400,
+          "clue": "The TVA protects this single approved flow of time. Name it. Pictured: a single bright golden line of light stretching through space with faint branches splitting off and being snipped away.",
+          "answer": "Sacred Timeline",
+          "accept": [
+            "sacred timeline",
+            "the sacred timeline"
+          ],
+          "choices": [
+            "Sacred Timeline",
+            "Prime Timeline",
+            "Golden Path",
+            "Main Line"
+          ],
+          "reveal": "The correct answer is the Sacred Timeline! [whispers] Stray from it and the TVA comes knocking.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "A single bright golden line of light stretching through space with faint branches splitting off and being snipped away, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
+            "file": "media/multiverse-saga--multiverse-map-400.jpg"
+          }
+        },
+        {
+          "value": 600,
+          "clue": "This realm outside of time is home to Dormammu. Name it. Pictured: a vast swirling purple and magenta cosmic realm with floating fragments of rock and a huge looming shape in the clouds.",
+          "answer": "Dark Dimension",
+          "accept": [
+            "dark dimension",
+            "the dark dimension"
+          ],
+          "choices": [
+            "Dark Dimension",
+            "Mirror Dimension",
+            "Negative Zone",
+            "Limbo"
+          ],
+          "reveal": "[dramatically] The correct answer is the Dark Dimension! Purple, endless and very loopy.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "A vast swirling purple and magenta cosmic realm with floating fragments of rock and a huge looming shape in the clouds, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
+            "file": "media/multiverse-saga--multiverse-map-600.jpg"
+          }
+        },
+        {
+          "value": 800,
+          "clue": "Scott Lang's family gets pulled into this subatomic world full of odd creatures. Name it. Pictured: a glowing subatomic landscape of floating islands.",
+          "answer": "Quantum Realm",
+          "accept": [
+            "quantum realm",
+            "the quantum realm"
+          ],
+          "choices": [
+            "Quantum Realm",
+            "Microverse",
+            "Negative Zone",
+            "Darkforce Dimension"
+          ],
+          "reveal": "The correct answer is the Quantum Realm! [chuckles] Bring snacks. Time is weird down there.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "A glowing subatomic landscape of floating islands, jellyfish-like creatures and crystal towers, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
+            "file": "media/multiverse-saga--multiverse-map-800.jpg"
+          }
+        },
+        {
+          "value": 1000,
+          "clue": "When two universes collide like this, heroes call it this. Pictured: two Earth-like planets colliding in the sky above a ruined city.",
+          "answer": "An incursion",
+          "accept": [
+            "incursion",
+            "an incursion",
+            "incursions"
+          ],
+          "choices": [
+            "An incursion",
+            "A convergence",
+            "A Nexus event",
+            "A collapse"
+          ],
+          "reveal": "[dramatically] The correct answer is an incursion! Two worlds enter, nobody leaves.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "Two Earth-like planets colliding in the sky above a ruined city, cracks of light between them, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
+            "file": "media/multiverse-saga--multiverse-map-1000.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "campus-construction",
+      "title": "Campus Construction",
+      "kind": "parks",
+      "intro": "To the parks for some harder hero history. [chuckles] Hard hats on, recruits.",
+      "art": {
+        "prompt": "A theme park construction site at dawn with cranes, scaffolding and a half-built futuristic tower, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/multiverse-saga--campus-construction.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Avengers Campus at Disney California Adventure was built mostly on the site of this former kid-sized land.",
+          "answer": "A bug's land",
+          "accept": [
+            "a bug's land",
+            "a bugs land",
+            "bugs land",
+            "bug's land"
+          ],
+          "choices": [
+            "A bug's land",
+            "Paradise Pier",
+            "Condor Flats",
+            "Cars Land"
+          ],
+          "reveal": "[excited] The correct answer is a bug's land! Out with Flik, in with the Avengers.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "A full-size version of this Avengers aircraft perches atop Avengers Headquarters at the campus.",
+          "answer": "Quinjet",
+          "accept": [
+            "quinjet",
+            "the quinjet"
+          ],
+          "choices": [
+            "Quinjet",
+            "Helicarrier",
+            "The Milano",
+            "The Benatar"
+          ],
+          "reveal": "The correct answer is the Quinjet! [excited] Parking is tricky up there.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Next door to Pym Test Kitchen, grown-ups sip craft beer at this lab.",
+          "answer": "Pym Tasting Lab",
+          "accept": [
+            "pym tasting lab",
+            "pym tasting"
+          ],
+          "choices": [
+            "Pym Tasting Lab",
+            "Pym Brew Works",
+            "Quantum Taproom",
+            "Stark Lounge"
+          ],
+          "reveal": "[chuckles] The correct answer is Pym Tasting Lab! Science, but make it a pint.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "At Disneyland Paris, this hero coaster took over the former Rock 'n' Roller Coaster building.",
+          "answer": "Avengers Assemble: Flight Force",
+          "accept": [
+            "avengers assemble flight force",
+            "flight force",
+            "avengers assemble: flight force"
+          ],
+          "choices": [
+            "Avengers Assemble: Flight Force",
+            "Crush's Coaster",
+            "RC Racer",
+            "Tower of Terror"
+          ],
+          "reveal": "[excited] The correct answer is Avengers Assemble: Flight Force! Iron Man and Captain Marvel drive. Very fast.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "At Hong Kong Disneyland, the Iron Man Experience and Stark Expo are found in this land.",
+          "answer": "Tomorrowland",
+          "accept": [
+            "tomorrowland"
+          ],
+          "choices": [
+            "Tomorrowland",
+            "Adventureland",
+            "Toy Story Land",
+            "Grizzly Gulch"
+          ],
+          "reveal": "The correct answer is Tomorrowland! [excited] Tony fits right in with the future.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "variant-trivia",
+      "title": "Variant Trivia",
+      "kind": "fan",
+      "intro": "Our fan category: variants, cameos and wild what-ifs. [whispers] Pay attention to the post-credits.",
+      "art": {
+        "prompt": "A hall of mirrors where each reflection shows a slightly different glowing silhouette, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/multiverse-saga--variant-trivia.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In What If...?, Peggy Carter takes the super-soldier serum and becomes this hero.",
+          "answer": "Captain Carter",
+          "accept": [
+            "captain carter"
+          ],
+          "choices": [
+            "Captain Carter",
+            "Captain Britain",
+            "Agent Carter",
+            "Union Jack"
+          ],
+          "reveal": "[excited] The correct answer is Captain Carter! Union Jack shield, perfect posture.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Spider-Man: No Way Home united this many live-action Spider-Men.",
+          "answer": "Three",
+          "accept": [
+            "3",
+            "three"
+          ],
+          "choices": [
+            "Three",
+            "Two",
+            "Four",
+            "Five"
+          ],
+          "reveal": "The correct answer is three! [laughs] The pointing meme, live and in person.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "In Multiverse of Madness, Earth-838 is protected by this secret council of heroes.",
+          "answer": "The Illuminati",
+          "accept": [
+            "the illuminati",
+            "illuminati"
+          ],
+          "choices": [
+            "The Illuminati",
+            "The Thunderbolts",
+            "The Defenders",
+            "The Council of Reeds"
+          ],
+          "reveal": "[dramatically] The correct answer is the Illuminati! Things did not go well for them.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Richard E. Grant plays this elderly Loki variant with a classic green-and-yellow costume.",
+          "answer": "Classic Loki",
+          "accept": [
+            "classic loki"
+          ],
+          "choices": [
+            "Classic Loki",
+            "Kid Loki",
+            "Boastful Loki",
+            "President Loki"
+          ],
+          "reveal": "The correct answer is Classic Loki! [excited] Glorious purpose, glorious horns.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "In Multiverse of Madness, this actor plays Earth-838's Reed Richards.",
+          "answer": "John Krasinski",
+          "accept": [
+            "john krasinski",
+            "krasinski"
+          ],
+          "choices": [
+            "John Krasinski",
+            "Ioan Gruffudd",
+            "Miles Teller",
+            "Pedro Pascal"
+          ],
+          "reveal": "[excited] The correct answer is John Krasinski! A fan-cast come true, briefly.",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}

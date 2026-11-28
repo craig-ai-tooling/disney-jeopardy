@@ -1,0 +1,542 @@
+{
+  "id": "marvel-mcu-starter",
+  "title": "Marvel Hero Training Day",
+  "theme": "Marvel",
+  "difficulty": "easy",
+  "tags": [
+    "marvel",
+    "superheroes",
+    "family"
+  ],
+  "intro": "[excited] Welcome, recruits, to Disney Jeopardy! Tonight is Marvel hero training day, and I am your very smooth drill instructor. Stretch those muscles, polish those capes, and remember... every hero starts somewhere.",
+  "art": {
+    "prompt": "A cheerful hero training obstacle course on a sunny rooftop, colorful targets, padded walls and a small jet parked nearby, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+    "file": "media/marvel-mcu-starter.jpg"
+  },
+  "categories": [
+    {
+      "id": "suit-up",
+      "title": "Suit Up",
+      "kind": "film",
+      "intro": "We start with the basics: big heroes, big gear, big screen. [chuckles] Suit up, everybody.",
+      "art": {
+        "prompt": "A row of glowing high-tech armor suits standing in a sleek workshop lit in red and gold, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/marvel-mcu-starter--suit-up.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Tony Stark builds high-tech armor and fights crime as this hero.",
+          "answer": "Iron Man",
+          "accept": [
+            "iron man",
+            "ironman"
+          ],
+          "choices": [
+            "Iron Man",
+            "War Machine",
+            "Ultron",
+            "Iron Patriot"
+          ],
+          "reveal": "[excited] The correct answer is Iron Man! Genius, billionaire, and the snappiest dresser in the Avengers.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "This huge green Avenger gets bigger and stronger when he gets angry.",
+          "answer": "Hulk",
+          "accept": [
+            "hulk",
+            "the hulk",
+            "incredible hulk",
+            "bruce banner"
+          ],
+          "choices": [
+            "Hulk",
+            "Groot",
+            "Abomination",
+            "The Thing"
+          ],
+          "reveal": "The correct answer is the Hulk! [laughs] Hulk smash... the competition.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Captain America's famous round shield is made mostly of this rare metal.",
+          "answer": "Vibranium",
+          "accept": [
+            "vibranium"
+          ],
+          "choices": [
+            "Vibranium",
+            "Adamantium",
+            "Uru",
+            "Carbonadium"
+          ],
+          "reveal": "[excited] The correct answer is vibranium! Light, tough, and it bounces back like your host after a bad joke.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In the movie Black Panther, T'Challa is king of this hidden African nation.",
+          "answer": "Wakanda",
+          "accept": [
+            "wakanda"
+          ],
+          "choices": [
+            "Wakanda",
+            "Sokovia",
+            "Latveria",
+            "Genosha"
+          ],
+          "reveal": "The correct answer is Wakanda! [excited] Wakanda forever!",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Star-Lord loves his Awesome Mix tapes, which he plays on this kind of portable cassette player.",
+          "answer": "Walkman",
+          "accept": [
+            "walkman",
+            "sony walkman"
+          ],
+          "choices": [
+            "Walkman",
+            "Discman",
+            "iPod",
+            "Boombox"
+          ],
+          "reveal": "[excited] The correct answer is a Walkman! Retro, portable, and full of seventies hits. Chet approves.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "hero-pets",
+      "title": "Hero Pets",
+      "kind": "theme",
+      "intro": "Even heroes need a furry friend. [chuckles] Name these Marvel pets and creatures. No petting the alien cat, please.",
+      "art": {
+        "prompt": "A cozy hero clubhouse living room with a dog bed, a cat tree and a tiny spacesuit hanging on a hook, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/marvel-mcu-starter--hero-pets.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Carol Danvers' cat Goose looks like an ordinary orange tabby but is really this tentacled alien creature.",
+          "answer": "Flerken",
+          "accept": [
+            "flerken",
+            "a flerken"
+          ],
+          "choices": [
+            "Flerken",
+            "Skrull",
+            "Kree",
+            "Chitauri"
+          ],
+          "reveal": "[excited] The correct answer is a Flerken! Tentacles in the tummy. [laughs] Do not scratch behind those ears.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Cosmo, the talking space dog in Guardians of the Galaxy Vol. 3, was once a test dog in this country's space program.",
+          "answer": "Soviet Union",
+          "accept": [
+            "soviet union",
+            "ussr",
+            "russia",
+            "soviet",
+            "the soviet union"
+          ],
+          "choices": [
+            "Soviet Union",
+            "United States",
+            "China",
+            "France"
+          ],
+          "reveal": "The correct answer is the Soviet Union! Cosmo is a very good girl. [excited] Good girl!",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Lockjaw, a giant teleporting bulldog with an antenna on his forehead, is the beloved pet of this royal family of heroes.",
+          "answer": "The Inhumans",
+          "accept": [
+            "inhumans",
+            "the inhumans"
+          ],
+          "choices": [
+            "The Inhumans",
+            "The Eternals",
+            "The X-Men",
+            "The Fantastic Four"
+          ],
+          "reveal": "[excited] The correct answer is the Inhumans! One sniff and poof, Lockjaw teleports you across town.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In Thor: Ragnarok, Hela rides into battle with this giant wolf at her side.",
+          "answer": "Fenris",
+          "accept": [
+            "fenris",
+            "fenris wolf",
+            "fenrir"
+          ],
+          "choices": [
+            "Fenris",
+            "Sleipnir",
+            "Jormungandr",
+            "Ratatoskr"
+          ],
+          "reveal": "The correct answer is Fenris! [dramatically] Big wolf, bad attitude.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "In the Disney+ series Hawkeye, Kate Bishop adopts this one-eyed golden retriever who loves pizza.",
+          "answer": "Lucky",
+          "accept": [
+            "lucky",
+            "lucky the pizza dog",
+            "pizza dog"
+          ],
+          "choices": [
+            "Lucky",
+            "Goose",
+            "Cosmo",
+            "Buddy"
+          ],
+          "reveal": "[excited] The correct answer is Lucky the Pizza Dog! One eye, all heart, extra cheese.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "whose-gear",
+      "title": "Whose Gear?",
+      "kind": "media",
+      "intro": "Picture category! Look at the gear on screen and tell me which hero or villain it belongs to.",
+      "art": {
+        "prompt": "A hero equipment locker room with open lockers holding mysterious glowing gadgets, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/marvel-mcu-starter--whose-gear.jpg"
+      },
+      "format": "picture",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Which god of thunder swings this? Pictured: a heavy short-handled stone-gray war hammer with a leather-wrapped grip.",
+          "answer": "Thor",
+          "accept": [
+            "thor",
+            "thor odinson"
+          ],
+          "choices": [
+            "Thor",
+            "Loki",
+            "Odin",
+            "Hela"
+          ],
+          "reveal": "[excited] The correct answer is Thor! Only the worthy may lift it. Chet tried. [laughs] Chet was not worthy.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "A heavy short-handled stone-gray war hammer with a leather-wrapped grip, crackling with blue lightning on a cloudy hilltop, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
+            "file": "media/marvel-mcu-starter--whose-gear-200.jpg"
+          }
+        },
+        {
+          "value": 400,
+          "clue": "Which sharpshooting Avenger uses this? Pictured: a sleek purple and black recurve bow with a quiver of high-tech trick arrows with unusual tips.",
+          "answer": "Hawkeye",
+          "accept": [
+            "hawkeye",
+            "clint barton",
+            "kate bishop"
+          ],
+          "choices": [
+            "Hawkeye",
+            "Black Widow",
+            "Falcon",
+            "Winter Soldier"
+          ],
+          "reveal": "The correct answer is Hawkeye! Never miss... unless it is on purpose.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "A sleek purple and black recurve bow with a quiver of high-tech trick arrows with unusual tips, lying on a rooftop, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
+            "file": "media/marvel-mcu-starter--whose-gear-400.jpg"
+          }
+        },
+        {
+          "value": 600,
+          "clue": "Which flying hero straps on this? Pictured: a compact silver and red mechanical backpack with folding metal wings spread wide.",
+          "answer": "Falcon",
+          "accept": [
+            "falcon",
+            "the falcon",
+            "sam wilson"
+          ],
+          "choices": [
+            "Falcon",
+            "War Machine",
+            "Ant-Man",
+            "Iron Man"
+          ],
+          "reveal": "[excited] The correct answer is the Falcon! Sam Wilson takes to the sky with a backpack and a smile.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "A compact silver and red mechanical backpack with folding metal wings spread wide, hovering against a blue sky, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
+            "file": "media/marvel-mcu-starter--whose-gear-600.jpg"
+          }
+        },
+        {
+          "value": 800,
+          "clue": "Which purple villain wore this to snap his fingers? Pictured: a large golden armored glove with six glowing colored gems set into the knuckles and back of the hand.",
+          "answer": "Thanos",
+          "accept": [
+            "thanos"
+          ],
+          "choices": [
+            "Thanos",
+            "Ronan",
+            "Loki",
+            "Ultron"
+          ],
+          "reveal": "The correct answer is Thanos! [dramatically] One snap and half the audience vanished. Rude.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "A large golden armored glove with six glowing colored gems set into the knuckles and back of the hand, on a stone pedestal, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
+            "file": "media/marvel-mcu-starter--whose-gear-800.jpg"
+          }
+        },
+        {
+          "value": 1000,
+          "clue": "This floating red garment, which has a mind of its own, is known as the Cloak of this. Pictured: a flowing crimson cape with a high stiff collar floating by itself in a candlelit library.",
+          "answer": "Levitation",
+          "accept": [
+            "levitation",
+            "cloak of levitation"
+          ],
+          "choices": [
+            "Levitation",
+            "Invisibility",
+            "Agamotto",
+            "Shadows"
+          ],
+          "reveal": "[excited] The correct answer is the Cloak of Levitation! It chose Doctor Strange. Chet's coat just chooses the floor.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "A flowing crimson cape with a high stiff collar floating by itself in a candlelit library, gold trim on the edges, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
+            "file": "media/marvel-mcu-starter--whose-gear-1000.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "recruit-report",
+      "title": "Recruit Report",
+      "kind": "parks",
+      "intro": "To the parks! Time for a field trip to the Marvel lands. [excited] Recruits, report for duty.",
+      "art": {
+        "prompt": "A bright modern hero training campus plaza with sleek buildings and a jet perched on a rooftop, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/marvel-mcu-starter--recruit-report.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "At Avengers Campus, this family ride lets you sling webs with your own hand motions to catch runaway Spider-Bots.",
+          "answer": "WEB SLINGERS: A Spider-Man Adventure",
+          "accept": [
+            "web slingers",
+            "web slingers a spider-man adventure",
+            "webslingers"
+          ],
+          "choices": [
+            "WEB SLINGERS: A Spider-Man Adventure",
+            "Spider-Bot Smash",
+            "Swing City",
+            "Web Warriors"
+          ],
+          "reveal": "[excited] The correct answer is WEB SLINGERS! Wave those arms, sling those webs, save the day.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Avengers Campus opened in 2021 inside this California theme park.",
+          "answer": "Disney California Adventure",
+          "accept": [
+            "disney california adventure",
+            "california adventure",
+            "dca"
+          ],
+          "choices": [
+            "Disney California Adventure",
+            "Disneyland Park",
+            "Disney Hollywood Studios",
+            "EPCOT"
+          ],
+          "reveal": "The correct answer is Disney California Adventure! [excited] Right across from Disneyland.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Guardians of the Galaxy - Mission: BREAKOUT! took over the building of this spooky drop ride.",
+          "answer": "The Twilight Zone Tower of Terror",
+          "accept": [
+            "tower of terror",
+            "twilight zone tower of terror",
+            "the twilight zone tower of terror"
+          ],
+          "choices": [
+            "The Twilight Zone Tower of Terror",
+            "Space Mountain",
+            "Haunted Mansion",
+            "Big Thunder Mountain"
+          ],
+          "reveal": "[excited] The correct answer is the Tower of Terror! Out with the haunted hotel, in with the dancing raccoon.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Guardians of the Galaxy: Cosmic Rewind, a spinning coaster set to classic hits, is found at this Walt Disney World park.",
+          "answer": "EPCOT",
+          "accept": [
+            "epcot"
+          ],
+          "choices": [
+            "EPCOT",
+            "Magic Kingdom",
+            "Disney Hollywood Studios",
+            "Disney Animal Kingdom"
+          ],
+          "reveal": "The correct answer is EPCOT! [excited] One of the longest enclosed coasters in the world.",
+          "dailyDouble": true
+        },
+        {
+          "value": 1000,
+          "clue": "At Disneyland Paris, the coaster Avengers Assemble: Flight Force teams riders with Iron Man and this cosmic hero.",
+          "answer": "Captain Marvel",
+          "accept": [
+            "captain marvel",
+            "carol danvers"
+          ],
+          "choices": [
+            "Captain Marvel",
+            "Thor",
+            "Doctor Strange",
+            "Black Widow"
+          ],
+          "reveal": "[excited] The correct answer is Captain Marvel! Higher, further, faster, and with a French accent.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "animated-avengers",
+      "title": "Animated Avengers",
+      "kind": "fan",
+      "intro": "Marvel heroes go animated! These cartoons and films are perfect for the whole family. [chuckles] Pass the popcorn.",
+      "art": {
+        "prompt": "A cozy living room at night with a glowing television, a bowl of popcorn and toy robots on the shelf, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/marvel-mcu-starter--animated-avengers.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This 2014 Disney animated film about Hiro and his huggable robot Baymax was inspired by a Marvel comic team.",
+          "answer": "Big Hero 6",
+          "accept": [
+            "big hero 6",
+            "big hero six"
+          ],
+          "choices": [
+            "Big Hero 6",
+            "Bolt",
+            "Meet the Robinsons",
+            "Wreck-It Ralph"
+          ],
+          "reveal": "[excited] The correct answer is Big Hero 6! It even won the Oscar for Best Animated Feature.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "On Disney Junior's Spidey and His Amazing Friends, Miles Morales goes by this hero name.",
+          "answer": "Spin",
+          "accept": [
+            "spin"
+          ],
+          "choices": [
+            "Spin",
+            "Spark",
+            "Webster",
+            "Spider-Kid"
+          ],
+          "reveal": "The correct answer is Spin! [excited] Peter, Gwen and Miles, the cutest web-slinging team on TV.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "On Moon Girl and Devil Dinosaur, Lunella Lafayette protects this Manhattan neighborhood.",
+          "answer": "Lower East Side",
+          "accept": [
+            "lower east side",
+            "the lower east side"
+          ],
+          "choices": [
+            "Lower East Side",
+            "Harlem",
+            "Hell's Kitchen",
+            "Greenwich Village"
+          ],
+          "reveal": "[excited] The correct answer is the Lower East Side! A genius kid, a giant red dinosaur, and one very lucky neighborhood.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Baymax asks every patient to rate this on a scale of one to ten.",
+          "answer": "Pain",
+          "accept": [
+            "pain",
+            "their pain",
+            "your pain",
+            "pain level"
+          ],
+          "choices": [
+            "Pain",
+            "Hunger",
+            "Happiness",
+            "Sleepiness"
+          ],
+          "reveal": "The correct answer is pain! [chuckles] Chet rates this category a solid ten.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Big Hero 6 takes place in this city, a mashup of two famous Pacific cities.",
+          "answer": "San Fransokyo",
+          "accept": [
+            "san fransokyo",
+            "sanfransokyo"
+          ],
+          "choices": [
+            "San Fransokyo",
+            "New Tokyo",
+            "Neo Angeles",
+            "Bay City"
+          ],
+          "reveal": "[excited] The correct answer is San Fransokyo! Cable cars, cherry blossoms, and robots. Dreamy.",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,536 @@
+{
+  "id": "x-men-deep-cuts",
+  "title": "Uncanny X-Men Deep Cuts",
+  "theme": "Marvel",
+  "difficulty": "superfan",
+  "tags": [
+    "marvel",
+    "x-men",
+    "comics"
+  ],
+  "intro": "[dramatically] Welcome to Disney Jeopardy, mutant scholars! Tonight we go deep into the uncanny archives: sagas, debuts, ships and secret loves. [chuckles] If you know Lockheed by name, you're in the right place.",
+  "art": {
+    "prompt": "A secret underground mutant library with curved metal walls, holographic files floating and an old armchair under a lamp, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+    "file": "media/x-men-deep-cuts.jpg"
+  },
+  "categories": [
+    {
+      "id": "mutant-debuts",
+      "title": "Mutant Debuts",
+      "kind": "theme",
+      "intro": "We start with first appearances and the people who made them. [whispers] Bag and board, please.",
+      "art": {
+        "prompt": "A pristine comic book in a protective sleeve on a velvet cushion, its cover blurred and unreadable, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/x-men-deep-cuts--mutant-debuts.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Hank McCoy, one of the original five X-Men, goes by this name.",
+          "answer": "Beast",
+          "accept": [
+            "beast",
+            "the beast"
+          ],
+          "choices": [
+            "Beast",
+            "Iceman",
+            "Angel",
+            "Havok"
+          ],
+          "reveal": "[excited] The correct answer is Beast! Big vocabulary, bigger feet.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Wolverine's first full appearance came in issue 181 of this hero's comic.",
+          "answer": "The Incredible Hulk",
+          "accept": [
+            "the incredible hulk",
+            "incredible hulk",
+            "hulk"
+          ],
+          "choices": [
+            "The Incredible Hulk",
+            "Captain America",
+            "Daredevil",
+            "The Avengers"
+          ],
+          "reveal": "The correct answer is The Incredible Hulk! [chuckles] He picked a fight with the biggest guy around.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "1975's Giant-Size X-Men #1 introduced Storm, Nightcrawler and this metal-skinned Russian.",
+          "answer": "Colossus",
+          "accept": [
+            "colossus",
+            "piotr rasputin",
+            "peter rasputin"
+          ],
+          "choices": [
+            "Colossus",
+            "Omega Red",
+            "Ursa Major",
+            "Darkstar"
+          ],
+          "reveal": "[excited] The correct answer is Colossus! Organic steel, gentle soul.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "This writer guided Uncanny X-Men for about sixteen years starting in 1975.",
+          "answer": "Chris Claremont",
+          "accept": [
+            "chris claremont",
+            "claremont"
+          ],
+          "choices": [
+            "Chris Claremont",
+            "Grant Morrison",
+            "Len Wein",
+            "Jonathan Hickman"
+          ],
+          "reveal": "The correct answer is Chris Claremont! [excited] The architect of modern mutant drama.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "In 2019's House of X, mutants build a nation on this living island.",
+          "answer": "Krakoa",
+          "accept": [
+            "krakoa"
+          ],
+          "choices": [
+            "Krakoa",
+            "Genosha",
+            "Madripoor",
+            "Utopia"
+          ],
+          "reveal": "[excited] The correct answer is Krakoa! The island that once tried to eat the X-Men.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "classic-sagas",
+      "title": "Classic Sagas",
+      "kind": "theme",
+      "intro": "Name the storyline. These are the epics mutant fans argue about at dinner. [chuckles] Pass the salt, Magneto.",
+      "art": {
+        "prompt": "A long shelf of thick leather-bound volumes with glowing spines in a candlelit study, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/x-men-deep-cuts--classic-sagas.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In this 1980 storyline, Jean Grey's cosmic power turns deadly and ends on the moon.",
+          "answer": "The Dark Phoenix Saga",
+          "accept": [
+            "the dark phoenix saga",
+            "dark phoenix saga",
+            "dark phoenix"
+          ],
+          "choices": [
+            "The Dark Phoenix Saga",
+            "Mutant Massacre",
+            "Fall of the Mutants",
+            "Inferno"
+          ],
+          "reveal": "[softly] The correct answer is the Dark Phoenix Saga. Comics' greatest tragedy, many say.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "This 1981 two-part story shows a grim future of Sentinel-run camps.",
+          "answer": "Days of Future Past",
+          "accept": [
+            "days of future past"
+          ],
+          "choices": [
+            "Days of Future Past",
+            "Age of Apocalypse",
+            "House of M",
+            "Messiah Complex"
+          ],
+          "reveal": "The correct answer is Days of Future Past! [dramatically] Later a movie, of course.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "In this 1995 event, Xavier dies in the past and Apocalypse rules the present.",
+          "answer": "Age of Apocalypse",
+          "accept": [
+            "age of apocalypse",
+            "the age of apocalypse"
+          ],
+          "choices": [
+            "Age of Apocalypse",
+            "Days of Future Past",
+            "Onslaught",
+            "Age of X"
+          ],
+          "reveal": "[excited] The correct answer is Age of Apocalypse! Every X-title got a makeover.",
+          "dailyDouble": true
+        },
+        {
+          "value": 800,
+          "clue": "In this 2005 event, the Scarlet Witch utters no more mutants.",
+          "answer": "House of M",
+          "accept": [
+            "house of m"
+          ],
+          "choices": [
+            "House of M",
+            "Decimation",
+            "Avengers Disassembled",
+            "Schism"
+          ],
+          "reveal": "[dramatically] The correct answer is House of M! Three words, millions powerless.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "In the 1982 graphic novel God Loves, Man Kills, the X-Men face this anti-mutant preacher.",
+          "answer": "William Stryker",
+          "accept": [
+            "william stryker",
+            "reverend stryker",
+            "stryker"
+          ],
+          "choices": [
+            "William Stryker",
+            "Graydon Creed",
+            "Bolivar Trask",
+            "Cameron Hodge"
+          ],
+          "reveal": "The correct answer is William Stryker! [dramatically] A chilling villain with a pulpit.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "mutant-mixtape",
+      "title": "Mutant Mixtape",
+      "kind": "media",
+      "intro": "Picture category! Each image shows a mutant power or vehicle. Name what I'm asking for.",
+      "art": {
+        "prompt": "A dark hangar with a sleek black jet under spotlights and frost on the floor, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/x-men-deep-cuts--mutant-mixtape.jpg"
+      },
+      "format": "picture",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Which original X-Man gets around like this? Pictured: a glittering slide of ice curving through the air between city rooftops on a sunny day.",
+          "answer": "Iceman",
+          "accept": [
+            "iceman",
+            "bobby drake"
+          ],
+          "choices": [
+            "Iceman",
+            "Storm",
+            "Cyclops",
+            "Angel"
+          ],
+          "reveal": "[excited] The correct answer is Iceman! [chuckles] Chill. Very chill.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "A glittering slide of ice curving through the air between city rooftops on a sunny day, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
+            "file": "media/x-men-deep-cuts--mutant-mixtape-200.jpg"
+          }
+        },
+        {
+          "value": 400,
+          "clue": "Warren Worthington III flies with these. Name his hero. Pictured: a pair of large pure white feathered wings spread wide on a rooftop at sunrise.",
+          "answer": "Angel",
+          "accept": [
+            "angel",
+            "archangel"
+          ],
+          "choices": [
+            "Angel",
+            "Banshee",
+            "Beast",
+            "Havok"
+          ],
+          "reveal": "The correct answer is Angel! [warmly] Rich, handsome, and feathery.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "A pair of large pure white feathered wings spread wide on a rooftop at sunrise, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
+            "file": "media/x-men-deep-cuts--mutant-mixtape-400.jpg"
+          }
+        },
+        {
+          "value": 600,
+          "clue": "The X-Men's classic jet, like this one, is nicknamed this. Pictured: a sleek black supersonic jet with angular wings parked in a hidden hangar beneath a mansion.",
+          "answer": "The Blackbird",
+          "accept": [
+            "blackbird",
+            "the blackbird",
+            "x-jet",
+            "the x-jet"
+          ],
+          "choices": [
+            "The Blackbird",
+            "The Quinjet",
+            "The Starjammer",
+            "The Velocity"
+          ],
+          "reveal": "[excited] The correct answer is the Blackbird! Inspired by a real spy plane.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "A sleek black supersonic jet with angular wings parked in a hidden hangar beneath a mansion, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
+            "file": "media/x-men-deep-cuts--mutant-mixtape-600.jpg"
+          }
+        },
+        {
+          "value": 800,
+          "clue": "This Irish mutant, a longtime X-Men mentor, unleashes this. Give his code name. Pictured: visible rippling sonic shock waves blasting over green Irish sea cliffs.",
+          "answer": "Banshee",
+          "accept": [
+            "banshee",
+            "sean cassidy"
+          ],
+          "choices": [
+            "Banshee",
+            "Siryn",
+            "Dazzler",
+            "Black Bolt"
+          ],
+          "reveal": "The correct answer is Banshee! [dramatically] Earplugs recommended.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "Visible rippling sonic shock waves blasting over green Irish sea cliffs, seabirds scattering, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
+            "file": "media/x-men-deep-cuts--mutant-mixtape-800.jpg"
+          }
+        },
+        {
+          "value": 1000,
+          "clue": "This telepathic ninja's power shows as a glowing image like this. Name her. Pictured: a glowing magenta psychic butterfly made of energy hovering over a nighttime city.",
+          "answer": "Psylocke",
+          "accept": [
+            "psylocke",
+            "betsy braddock"
+          ],
+          "choices": [
+            "Psylocke",
+            "Jean Grey",
+            "Emma Frost",
+            "Mirage"
+          ],
+          "reveal": "[excited] The correct answer is Psylocke! A psychic knife and a lot of style.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "A glowing magenta psychic butterfly made of energy hovering over a nighttime city, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
+            "file": "media/x-men-deep-cuts--mutant-mixtape-1000.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "mutants-on-screen",
+      "title": "Mutants on Screen",
+      "kind": "film",
+      "intro": "Now the movies and the mutant actors who brought them to life. [chuckles] Fox, Marvel and Disney, oh my.",
+      "art": {
+        "prompt": "A dark movie theater with red seats and a beam of projector light cutting through the air, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/x-men-deep-cuts--mutants-on-screen.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "The first live-action X-Men film hit theaters in this year.",
+          "answer": "2000",
+          "accept": [
+            "2000"
+          ],
+          "choices": [
+            "2000",
+            "1997",
+            "2003",
+            "2006"
+          ],
+          "reveal": "[excited] The correct answer is 2000! Black leather, big hair, millennium vibes.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Hugh Jackman's 2017 farewell film as Wolverine, before he returned, is titled this.",
+          "answer": "Logan",
+          "accept": [
+            "logan"
+          ],
+          "choices": [
+            "Logan",
+            "The Wolverine",
+            "Weapon X",
+            "Wolverine: Origins"
+          ],
+          "reveal": "[softly] The correct answer is Logan. Bring tissues.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "In Logan, young mutant Laura carries this code name from the comics.",
+          "answer": "X-23",
+          "accept": [
+            "x-23",
+            "x23",
+            "x 23"
+          ],
+          "choices": [
+            "X-23",
+            "Jubilee",
+            "Armor",
+            "Pixie"
+          ],
+          "reveal": "The correct answer is X-23! [excited] Same claws, smaller hero.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "X-Men: First Class is set during this 1962 standoff.",
+          "answer": "Cuban Missile Crisis",
+          "accept": [
+            "cuban missile crisis",
+            "the cuban missile crisis"
+          ],
+          "choices": [
+            "Cuban Missile Crisis",
+            "Bay of Pigs",
+            "Berlin Airlift",
+            "Suez Crisis"
+          ],
+          "reveal": "[dramatically] The correct answer is the Cuban Missile Crisis! With mutants helping, sort of.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "After the Disney deal, The New Mutants was released in 2020 under this studio name.",
+          "answer": "20th Century Studios",
+          "accept": [
+            "20th century studios",
+            "20th century fox",
+            "twentieth century studios"
+          ],
+          "choices": [
+            "20th Century Studios",
+            "Marvel Studios",
+            "Sony Pictures",
+            "Lionsgate"
+          ],
+          "reveal": "The correct answer is 20th Century Studios! [chuckles] It took a long time to arrive.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "danger-room-deep-cuts",
+      "title": "Danger Room Deep Cuts",
+      "kind": "fan",
+      "intro": "Our fan category: relatives, pets and loves from the deep end of the comics. [whispers] Only true mutant scholars.",
+      "art": {
+        "prompt": "A cluttered mansion attic with old photos, toy dragons and dusty training uniforms, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/x-men-deep-cuts--danger-room-deep-cuts.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Xavier's school was renamed for this fallen X-Man in 2011.",
+          "answer": "Jean Grey",
+          "accept": [
+            "jean grey",
+            "jean grey school",
+            "jean grey school for higher learning"
+          ],
+          "choices": [
+            "Jean Grey",
+            "Scott Summers",
+            "Kurt Wagner",
+            "Warren Worthington"
+          ],
+          "reveal": "[warmly] The correct answer is Jean Grey! The Jean Grey School for Higher Learning.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Kitty Pryde's loyal pet is this small purple alien dragon.",
+          "answer": "Lockheed",
+          "accept": [
+            "lockheed"
+          ],
+          "choices": [
+            "Lockheed",
+            "Lockjaw",
+            "Fin Fang Foom",
+            "Devil Dinosaur"
+          ],
+          "reveal": "[excited] The correct answer is Lockheed! Tiny, fiery, extremely loyal.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "This Shi'ar empress is Charles Xavier's longtime love.",
+          "answer": "Lilandra",
+          "accept": [
+            "lilandra",
+            "lilandra neramani"
+          ],
+          "choices": [
+            "Lilandra",
+            "Deathbird",
+            "Callisto",
+            "Selene"
+          ],
+          "reveal": "The correct answer is Lilandra! [warmly] Long-distance relationships, cosmic edition.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Cyclops and Havok's long-lost father leads the space pirate Starjammers under this name.",
+          "answer": "Corsair",
+          "accept": [
+            "corsair",
+            "christopher summers"
+          ],
+          "choices": [
+            "Corsair",
+            "Captain Universe",
+            "Raza",
+            "Ch'od"
+          ],
+          "reveal": "[excited] The correct answer is Corsair! Dad was a space pirate. Of course he was.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "In classic comics, Wolverine was engaged to this Japanese heiress.",
+          "answer": "Mariko Yashida",
+          "accept": [
+            "mariko yashida",
+            "mariko"
+          ],
+          "choices": [
+            "Mariko Yashida",
+            "Yukio",
+            "Silver Fox",
+            "Jean Grey"
+          ],
+          "reveal": "[softly] The correct answer is Mariko Yashida. A love story from Claremont and Miller.",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}
