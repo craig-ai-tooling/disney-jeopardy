@@ -1,0 +1,139 @@
+[
+  {
+    "film": "Toy Story 2",
+    "category": "Toy Story 2",
+    "clue": "Jessie's heartbreaking flashback song When She Loved Me, written by Randy Newman, is sung by this Canadian singer",
+    "answer": "Sarah McLachlan",
+    "accept": [
+      "sarah mclachlan",
+      "mclachlan",
+      "sarah mclaughlin",
+      "sarah maclachlan"
+    ],
+    "choices": [
+      "Sarah McLachlan",
+      "Celine Dion",
+      "Sheryl Crow",
+      "Bonnie Raitt"
+    ],
+    "reveal": "[sighs] The correct answer is Sarah McLachlan. [dramatic pause] Excuse me, I have something in my eye. Every. Single. Time."
+  },
+  {
+    "film": "Finding Dory",
+    "category": "Finding Dory",
+    "clue": "Dory finally reunites with her parents, who have these two names",
+    "answer": "Jenny and Charlie",
+    "accept": [
+      "jenny and charlie",
+      "charlie and jenny",
+      "jenny & charlie"
+    ],
+    "choices": [
+      "Jenny and Charlie",
+      "Coral and Marlin",
+      "Destiny and Bailey",
+      "Becky and Gerald"
+    ],
+    "reveal": "The correct answer is Jenny and Charlie! [excited] And they left a trail of seashells to lead her home. Just keep swimming!"
+  },
+  {
+    "film": "Frozen II",
+    "category": "Frozen II",
+    "clue": "In Frozen II, Elsa tames this water spirit that takes the form of a powerful horse",
+    "answer": "The Nokk",
+    "accept": [
+      "nokk",
+      "the nokk",
+      "nok",
+      "the nok"
+    ],
+    "choices": [
+      "The Nokk",
+      "Gale",
+      "Bruni",
+      "The Kelpie"
+    ],
+    "reveal": "The correct answer is the Nokk! [gasps] Elsa rides it across the Dark Sea. Into the unknoooown!"
+  },
+  {
+    "film": "Ralph Breaks the Internet",
+    "category": "Ralph Breaks the Internet",
+    "clue": "Vanellope falls in love with this gritty online racing game, where she meets Shank",
+    "answer": "Slaughter Race",
+    "accept": [
+      "slaughter race"
+    ],
+    "choices": [
+      "Slaughter Race",
+      "Hero's Duty",
+      "Sugar Rush",
+      "Turbo Time"
+    ],
+    "reveal": "The correct answer is Slaughter Race! [laughs] Sorry, Sugar Rush. Vanellope needed a new set of wheels."
+  },
+  {
+    "film": "Monsters University",
+    "category": "Monsters University",
+    "clue": "Mike and Sulley join this nerdy fraternity to compete in the Scare Games",
+    "answer": "Oozma Kappa",
+    "accept": [
+      "oozma kappa"
+    ],
+    "choices": [
+      "Oozma Kappa",
+      "Roar Omega Roar",
+      "Python Nu Kappa",
+      "Eta Hiss Hiss"
+    ],
+    "reveal": "The correct answer is Oozma Kappa! [chuckles] O.K. More than O.K., actually."
+  },
+  {
+    "film": "Bedknobs and Broomsticks",
+    "category": "Bedknobs and Broomsticks",
+    "clue": "Apprentice witch Eglantine Price searches for this spell that brings objects to life",
+    "answer": "Substitutiary Locomotion",
+    "accept": [
+      "substitutiary locomotion",
+      "substitutionary locomotion"
+    ],
+    "choices": [
+      "Substitutiary Locomotion",
+      "Supercalifragilistic Expialidocious",
+      "Bibbidi-Bobbidi-Boo",
+      "Portobello Road"
+    ],
+    "reveal": "[mischievously] The correct answer is Substitutiary Locomotion! Treguna, mekoides, trecorum, satis dee... watch out, the armor is marching!"
+  },
+  {
+    "film": "The Rescuers",
+    "category": "The Rescuers",
+    "clue": "At Morningside Orphanage, Penny confides in this kindly old cat",
+    "answer": "Rufus",
+    "accept": [
+      "rufus"
+    ],
+    "choices": [
+      "Rufus",
+      "Figaro",
+      "Sergeant Tibbs",
+      "Toby"
+    ],
+    "reveal": "The correct answer is Rufus! [sighs] He tells Penny to have faith. What a good kitty."
+  },
+  {
+    "film": "Pete's Dragon",
+    "category": "Pete's Dragon",
+    "clue": "In the 1977 original, Pete and Elliott arrive in this Maine fishing town with a lighthouse",
+    "answer": "Passamaquoddy",
+    "accept": [
+      "passamaquoddy"
+    ],
+    "choices": [
+      "Passamaquoddy",
+      "Bar Harbor",
+      "Kennebunkport",
+      "Millhaven"
+    ],
+    "reveal": "The correct answer is Passamaquoddy! [laughs] Try saying that five times fast while hiding a dragon."
+  }
+]

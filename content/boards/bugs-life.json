@@ -1,0 +1,549 @@
+{
+  "id": "bugs-life",
+  "title": "A Bug's Life",
+  "theme": "Insects and critters",
+  "tags": [
+    "bugs",
+    "insects",
+    "critters",
+    "nature"
+  ],
+  "intro": "[excited] Welcome, welcome! Tonight's episode is crawling with insects, critters and creepy-crawly clues. [chuckles] If something tickles your ankle... just keep playing. It's A BUG'S LIFE!",
+  "art": {
+    "prompt": "A giant dewy meadow seen from an ant's height, towering blades of grass, glowing mushrooms, a leaf canopy, ladybugs and fireflies sparkling in warm golden-hour light Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
+    "file": "media/bugs-life.jpg"
+  },
+  "categories": [
+    {
+      "id": "ant-ics",
+      "title": "Ant-ics",
+      "kind": "film",
+      "intro": "[laughs] This first category is all about A Bug's Life. Don't bug out!",
+      "art": {
+        "prompt": "A tiny ant colony village carved into a tree root with leaf-boat docks, seed stockpiles and a dandelion tower under morning sun Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
+        "file": "media/bugs-life--ant-ics.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In A Bug's Life, the ants must gather food every year for this gang of bullying insects",
+          "answer": "Grasshoppers",
+          "accept": [
+            "grasshoppers",
+            "grasshopper",
+            "the grasshoppers"
+          ],
+          "choices": [
+            "Grasshoppers",
+            "Beetles",
+            "Wasps",
+            "Locusts"
+          ],
+          "reveal": "The correct answer is grasshoppers! [sarcastic] Hopper and his gang. Real charmers.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Flik's love interest is this princess, who is next in line to become queen of the colony",
+          "answer": "Atta",
+          "accept": [
+            "atta",
+            "princess atta"
+          ],
+          "choices": [
+            "Atta",
+            "Dot",
+            "Rosie",
+            "Gypsy"
+          ],
+          "reveal": "The correct answer is Princess Atta! Her little sister Dot is the real scene-stealer though.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Flik recruits a group of 'warrior' bugs who turn out to be performers from this",
+          "answer": "A flea circus",
+          "accept": [
+            "circus",
+            "a circus",
+            "flea circus",
+            "a flea circus",
+            "circus performers"
+          ],
+          "choices": [
+            "A flea circus",
+            "A rock band",
+            "A theater troupe",
+            "A magic show"
+          ],
+          "reveal": "The correct answer is a flea circus! [chuckles] Run by P.T. Flea himself.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "To scare off Hopper, the ants build a fake one of these predators",
+          "answer": "A bird",
+          "accept": [
+            "bird",
+            "a bird",
+            "fake bird"
+          ],
+          "choices": [
+            "A bird",
+            "A frog",
+            "A lizard",
+            "A spider"
+          ],
+          "reveal": "The correct answer is a bird! [gasps] Grasshoppers' worst nightmare, made of leaves and twigs.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "A Bug's Life was Pixar's feature film number this",
+          "answer": "2",
+          "accept": [
+            "2",
+            "second",
+            "two",
+            "2nd",
+            "number two"
+          ],
+          "choices": [
+            "2",
+            "1",
+            "3",
+            "4"
+          ],
+          "reveal": "The correct answer is number two, released in 1998 right after Toy Story! [excited] TWO for the bugs!",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "creepy-crawlies",
+      "title": "Creepy Crawlies",
+      "kind": "theme",
+      "intro": "[whispers] Tiny legs, big personalities... name these Disney bugs!",
+      "art": {
+        "prompt": "A cozy nighttime garden with a cricket's tiny top hat and umbrella on a mushroom, fireflies and a dragonfly glowing nearby Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
+        "file": "media/bugs-life--creepy-crawlies.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In Pinocchio, this top-hatted insect sings When You Wish Upon a Star",
+          "answer": "Jiminy Cricket",
+          "accept": [
+            "jiminy cricket",
+            "jiminy",
+            "cricket"
+          ],
+          "choices": [
+            "Jiminy Cricket",
+            "Flik",
+            "Cri-Kee",
+            "Ray"
+          ],
+          "reveal": "The correct answer is Jiminy Cricket! [laughs] Always let your conscience be your guide.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "In Mulan, Grandmother Fa gives Mulan this lucky cricket",
+          "answer": "Cri-Kee",
+          "accept": [
+            "cri-kee",
+            "crikee",
+            "cri kee",
+            "cricky"
+          ],
+          "choices": [
+            "Cri-Kee",
+            "Mushu",
+            "Khan",
+            "Little Brother"
+          ],
+          "reveal": "The correct answer is Cri-Kee! Lucky? [sarcastic] Well... mostly.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "In Alice in Wonderland, this blue bug blows smoke letters and asks Alice, 'Who are you?'",
+          "answer": "The Caterpillar",
+          "accept": [
+            "caterpillar",
+            "the caterpillar",
+            "absolem"
+          ],
+          "choices": [
+            "The Caterpillar",
+            "The Cheshire Cat",
+            "The Dodo",
+            "The March Hare"
+          ],
+          "reveal": "The correct answer is the Caterpillar! W-H-O are YOU? [chuckles]",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In The Rescuers, Bernard and Bianca's swamp boat is powered by this hard-working dragonfly",
+          "answer": "Evinrude",
+          "accept": [
+            "evinrude"
+          ],
+          "choices": [
+            "Evinrude",
+            "Orville",
+            "Ray",
+            "Wilbur"
+          ],
+          "reveal": "The correct answer is Evinrude! Named after a famous brand of boat motor. [laughs] Vroom vroom!",
+          "dailyDouble": true
+        },
+        {
+          "value": 1000,
+          "clue": "In James and the Giant Peach, this nervous, gloomy critter travels with James, the Centipede and the Ladybug",
+          "answer": "The Earthworm",
+          "accept": [
+            "earthworm",
+            "the earthworm",
+            "worm"
+          ],
+          "choices": [
+            "The Earthworm",
+            "The Glowworm",
+            "Miss Spider",
+            "The Grasshopper"
+          ],
+          "reveal": "The correct answer is the Earthworm! [sighs] Nervous, but brave when it counts.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "bugs-eye-view",
+      "title": "Bug's-Eye View",
+      "kind": "media",
+      "intro": "[mischievously] We shrank our camera down to the size of a bug. Zoom out and name the movie!",
+      "art": {
+        "prompt": "An extreme macro shot of a dewdrop on a leaf reflecting a whole tiny magical world inside it Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
+        "file": "media/bugs-life--bugs-eye-view.jpg"
+      },
+      "format": "zoom",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Bug's-eye view! Which Disney film is this?",
+          "answer": "Cars",
+          "accept": [
+            "cars"
+          ],
+          "choices": [
+            "Cars",
+            "Planes",
+            "Turbo",
+            "Toy Story"
+          ],
+          "reveal": "The correct answer is Cars! [excited] Ka-chow... with a ladybug passenger.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "Extreme close-up of a ladybug sitting on the glossy red hood of a race car parked on a sunny desert racetrack, mesas in the distance Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
+            "file": "media/bugs-life--bugs-eye-view-200.jpg"
+          }
+        },
+        {
+          "value": 400,
+          "clue": "Bug's-eye view! Which Disney film is this?",
+          "answer": "The Many Adventures of Winnie the Pooh",
+          "accept": [
+            "winnie the pooh",
+            "the many adventures of winnie the pooh",
+            "many adventures of winnie the pooh",
+            "pooh"
+          ],
+          "choices": [
+            "The Many Adventures of Winnie the Pooh",
+            "Bambi",
+            "Robin Hood",
+            "The Fox and the Hound"
+          ],
+          "reveal": "The correct answer is The Many Adventures of Winnie the Pooh! Oh bother, those bees.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "Bumblebees buzzing around an overflowing clay honey pot inside a cozy hollow tree house in a misty English forest Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
+            "file": "media/bugs-life--bugs-eye-view-400.jpg"
+          }
+        },
+        {
+          "value": 600,
+          "clue": "Bug's-eye view! Which Disney film is this?",
+          "answer": "Beauty and the Beast",
+          "accept": [
+            "beauty and the beast"
+          ],
+          "choices": [
+            "Beauty and the Beast",
+            "Sleeping Beauty",
+            "Cinderella",
+            "Tangled"
+          ],
+          "reveal": "The correct answer is Beauty and the Beast! That rose is in a hurry... and so is that beetle.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "A small beetle resting beside an enchanted red rose glowing under a glass bell jar on a table in a dark castle, petals falling Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
+            "file": "media/bugs-life--bugs-eye-view-600.jpg"
+          }
+        },
+        {
+          "value": 800,
+          "clue": "Bug's-eye view! Which Disney film is this?",
+          "answer": "The Princess and the Frog",
+          "accept": [
+            "princess and the frog",
+            "the princess and the frog"
+          ],
+          "choices": [
+            "The Princess and the Frog",
+            "The Little Mermaid",
+            "Pocahontas",
+            "Brother Bear"
+          ],
+          "reveal": "The correct answer is The Princess and the Frog! [sighs] Fireflies on the bayou... so romantic.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "Hundreds of glowing fireflies drifting over a moonlit Louisiana bayou with lily pads, cypress trees and a single bright evening star Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
+            "file": "media/bugs-life--bugs-eye-view-800.jpg"
+          }
+        },
+        {
+          "value": 1000,
+          "clue": "Bug's-eye view! Which Disney film is this?",
+          "answer": "Fantasia",
+          "accept": [
+            "fantasia"
+          ],
+          "choices": [
+            "Fantasia",
+            "Bambi",
+            "Alice in Wonderland",
+            "Dumbo"
+          ],
+          "reveal": "[dramatic pause] The correct answer is Fantasia! Those dancing mushrooms gave it away.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "Tiny white mushrooms arranged like dancers on a dewy forest floor at night, flower petals twirling like ballerinas on a dark pond, glowing fairy sparkles Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
+            "file": "media/bugs-life--bugs-eye-view-1000.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "parks-are-buggin",
+      "title": "Parks Are Buggin'",
+      "kind": "parks",
+      "intro": "[excited] Bugs in the parks! Shows, lands and festivals all buzzing with critters.",
+      "art": {
+        "prompt": "A huge sculpted fantasy tree covered in carved animals at the center of a theme park, butterflies and flower topiaries all around Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
+        "file": "media/bugs-life--parks-are-buggin.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Before it closed in 2025, this 3D show inside Animal Kingdom's Tree of Life starred Flik and Hopper",
+          "answer": "It's Tough to Be a Bug!",
+          "accept": [
+            "its tough to be a bug",
+            "it's tough to be a bug",
+            "tough to be a bug"
+          ],
+          "choices": [
+            "It's Tough to Be a Bug!",
+            "Honey, I Shrunk the Audience",
+            "Bugs on Parade",
+            "Flik's Flying Circus"
+          ],
+          "reveal": "The correct answer is It's Tough to Be a Bug! [laughs] Remember the stink bug? Your nose does.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "It's Tough to Be a Bug was replaced in 2025 by a 4D show based on this animal-city film",
+          "answer": "Zootopia",
+          "accept": [
+            "zootopia",
+            "zootopia better zoogether",
+            "zootopia: better zoogether"
+          ],
+          "choices": [
+            "Zootopia",
+            "The Lion King",
+            "Robin Hood",
+            "Finding Nemo"
+          ],
+          "reveal": "The correct answer is Zootopia! The new show is Zootopia: Better Zoogether.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "During the EPCOT International Flower and Garden Festival, guests can walk through a tent full of these fluttering insects",
+          "answer": "Butterflies",
+          "accept": [
+            "butterflies",
+            "butterfly"
+          ],
+          "choices": [
+            "Butterflies",
+            "Ladybugs",
+            "Dragonflies",
+            "Fireflies"
+          ],
+          "reveal": "The correct answer is butterflies! [whispers] Stand still and one might land on you.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Disney California Adventure's A Bug's Land closed in 2018 to make room for this Marvel land",
+          "answer": "Avengers Campus",
+          "accept": [
+            "avengers campus",
+            "avengers"
+          ],
+          "choices": [
+            "Avengers Campus",
+            "Pixar Pier",
+            "Cars Land",
+            "Hollywood Land"
+          ],
+          "reveal": "The correct answer is Avengers Campus! From Flik to Spider-Man, still a land of web-slingers.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "A Bug's Land had a kiddie train ride named after this hungry German caterpillar",
+          "answer": "Heimlich's Chew Chew Train",
+          "accept": [
+            "heimlichs chew chew train",
+            "heimlich's chew chew train",
+            "heimlich",
+            "chew chew train"
+          ],
+          "choices": [
+            "Heimlich's Chew Chew Train",
+            "Francis' Ladybug Boogie",
+            "Flik's Flyers",
+            "Tuck and Roll's Drive 'Em Buggies"
+          ],
+          "reveal": "The correct answer is Heimlich's Chew Chew Train! [chuckles] Next stop... a candy corn!",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "small-wonders",
+      "title": "Small Wonders",
+      "kind": "fan",
+      "intro": "[chuckles] Not bugs, but tiny critters with HUGE personalities. Name them!",
+      "art": {
+        "prompt": "A miniature mouse-sized Victorian street made of teacups, thimbles and matchboxes, lit by tiny lanterns at dusk Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
+        "file": "media/bugs-life--small-wonders.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In Pocahontas, this mischievous raccoon loves to steal food",
+          "answer": "Meeko",
+          "accept": [
+            "meeko"
+          ],
+          "choices": [
+            "Meeko",
+            "Flit",
+            "Percy",
+            "Rajah"
+          ],
+          "reveal": "The correct answer is Meeko! [laughs] A bandit with a mask and everything.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "In Dumbo, this brave little mouse becomes Dumbo's best friend and manager",
+          "answer": "Timothy Q. Mouse",
+          "accept": [
+            "timothy",
+            "timothy mouse",
+            "timothy q mouse",
+            "timothy q. mouse"
+          ],
+          "choices": [
+            "Timothy Q. Mouse",
+            "Jaq",
+            "Gus",
+            "Roquefort"
+          ],
+          "reveal": "The correct answer is Timothy Q. Mouse! Small mouse, BIG pep talks.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "In Frozen II, Elsa befriends this little fire spirit salamander",
+          "answer": "Bruni",
+          "accept": [
+            "bruni"
+          ],
+          "choices": [
+            "Bruni",
+            "Gale",
+            "Sven",
+            "Nokk"
+          ],
+          "reveal": "The correct answer is Bruni! [excited] Cute, purple, and occasionally on fire.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In The Great Mouse Detective, Basil's arch-enemy is this sewer rat who insists he's a big mouse",
+          "answer": "Professor Ratigan",
+          "accept": [
+            "ratigan",
+            "professor ratigan"
+          ],
+          "choices": [
+            "Professor Ratigan",
+            "Fidget",
+            "Dr. Dawson",
+            "Toby"
+          ],
+          "reveal": "The correct answer is Professor Ratigan! [whispers] Don't call him a rat to his face.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Ratigan's sneaky henchman with a peg leg is this kind of animal",
+          "answer": "A bat",
+          "accept": [
+            "bat",
+            "a bat",
+            "fidget"
+          ],
+          "choices": [
+            "A bat",
+            "A lizard",
+            "A rat",
+            "A weasel"
+          ],
+          "reveal": "The correct answer is a bat, named Fidget! [mischievously] Peg leg, broken wing, and STILL causing trouble.",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}

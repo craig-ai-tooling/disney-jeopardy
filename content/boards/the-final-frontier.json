@@ -1,0 +1,561 @@
+{
+  "id": "the-final-frontier",
+  "title": "The Final Frontier",
+  "theme": "Outer space",
+  "tags": [
+    "space",
+    "sci-fi",
+    "stars",
+    "tomorrowland"
+  ],
+  "intro": "[dramatic pause] Three... two... one... BLAST OFF! [excited] Tonight we're leaving the atmosphere for The Final Frontier: rockets, robots, space rangers and stars. Buckle up, cadets!",
+  "art": {
+    "prompt": "A retro-futuristic spaceport at night with a gleaming rocket on the launch pad, swirling purple nebulae, ringed planets and a crescent moon over a glowing domed city Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
+    "file": "media/the-final-frontier.jpg"
+  },
+  "categories": [
+    {
+      "id": "solar-sails",
+      "title": "Solar Sails",
+      "kind": "film",
+      "intro": "[excited] First stop, the Etherium! Every clue is from Treasure Planet, Disney's swashbuckling space adventure.",
+      "art": {
+        "prompt": "An old-fashioned wooden sailing galleon with glowing solar sails flying through a golden nebula toward a crescent space station Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
+        "file": "media/the-final-frontier--solar-sails.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In Treasure Planet, Jim loves zooming through the sky on this rocket-powered board with a sail",
+          "answer": "A solar surfer",
+          "accept": [
+            "solar surfer",
+            "a solar surfer",
+            "solar surfboard",
+            "solar board"
+          ],
+          "choices": [
+            "A solar surfer",
+            "A hoverboard",
+            "A comet board",
+            "A star skiff"
+          ],
+          "reveal": "The correct answer is a solar surfer! [laughs] No helmet? Jim, come ON.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "This rebellious teenager is the hero of Treasure Planet",
+          "answer": "Jim Hawkins",
+          "accept": [
+            "jim hawkins",
+            "jim",
+            "james hawkins"
+          ],
+          "choices": [
+            "Jim Hawkins",
+            "Milo Thatch",
+            "Ben Gunn",
+            "Flynn Rider"
+          ],
+          "reveal": "The correct answer is Jim Hawkins! Proof that a troublemaker can become a captain.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "This tiny pink shape-shifting blob loves to mimic everyone on the ship",
+          "answer": "Morph",
+          "accept": [
+            "morph"
+          ],
+          "choices": [
+            "Morph",
+            "Flubber",
+            "Goop",
+            "Blobby"
+          ],
+          "reveal": "The correct answer is Morph! [chuckles] Morph, Morph, Morph... he'd copy that answer too.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "This cyborg ship's cook becomes a father figure to Jim, even though he's secretly a pirate",
+          "answer": "John Silver",
+          "accept": [
+            "john silver",
+            "long john silver",
+            "silver"
+          ],
+          "choices": [
+            "John Silver",
+            "Captain Flint",
+            "Mr. Arrow",
+            "Scroop"
+          ],
+          "reveal": "The correct answer is John Silver! [sighs] Half cyborg, all heart... and a little bit pirate.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "This Oscar-winning actress voices the cat-like Captain Amelia",
+          "answer": "Emma Thompson",
+          "accept": [
+            "emma thompson",
+            "thompson"
+          ],
+          "choices": [
+            "Emma Thompson",
+            "Helen Mirren",
+            "Judi Dench",
+            "Maggie Smith"
+          ],
+          "reveal": "[excited] The correct answer is Emma Thompson! A captain with a stiff upper lip and nine lives.",
+          "dailyDouble": true
+        }
+      ]
+    },
+    {
+      "id": "space-rangers",
+      "title": "Space Rangers",
+      "kind": "theme",
+      "intro": "[mischievously] Now, a mission for true Space Ranger cadets. These clues are all about Lightyear!",
+      "art": {
+        "prompt": "A sleek white and green spacecraft streaking past a hostile alien jungle planet with giant vines, hyperspace streaks of light Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
+        "file": "media/the-final-frontier--space-rangers.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In Lightyear, Buzz proudly serves in this elite corps of space heroes",
+          "answer": "Space Rangers",
+          "accept": [
+            "space rangers",
+            "space ranger",
+            "the space rangers",
+            "space ranger corps"
+          ],
+          "choices": [
+            "Space Rangers",
+            "Star Pilots",
+            "Galaxy Guardians",
+            "Rocket Rangers"
+          ],
+          "reveal": "The correct answer is the Space Rangers! [laughs] Buzz Lightyear, Space Ranger, reporting for duty.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "This actor voices Buzz in the 2022 film Lightyear",
+          "answer": "Chris Evans",
+          "accept": [
+            "chris evans",
+            "evans"
+          ],
+          "choices": [
+            "Chris Evans",
+            "Chris Pratt",
+            "Tim Allen",
+            "Taika Waititi"
+          ],
+          "reveal": "The correct answer is Chris Evans! From Captain America to Space Ranger. Not bad.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Buzz's robot-armored enemy in Lightyear turns out to be an older version of Buzz using this name",
+          "answer": "Zurg",
+          "accept": [
+            "zurg",
+            "emperor zurg"
+          ],
+          "choices": [
+            "Zurg",
+            "Zorg",
+            "Zeta",
+            "Xorn"
+          ],
+          "reveal": "[gasps] The correct answer is Zurg! Spoiler alert... he IS your future.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Buzz's best friend and fellow commander, who grows older while he tests hyperspeed fuel",
+          "answer": "Alisha Hawthorne",
+          "accept": [
+            "alisha hawthorne",
+            "alisha",
+            "hawthorne",
+            "commander hawthorne"
+          ],
+          "choices": [
+            "Alisha Hawthorne",
+            "Izzy Hawthorne",
+            "Mo Morrison",
+            "Darby Steel"
+          ],
+          "reveal": "The correct answer is Alisha Hawthorne! [sighs] Every time Buzz blinked, years flew by.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Buzz and his crew are marooned on this hostile planet at the start of Lightyear",
+          "answer": "T'Kani Prime",
+          "accept": [
+            "tkani prime",
+            "t'kani prime",
+            "t kani prime",
+            "tkani"
+          ],
+          "choices": [
+            "T'Kani Prime",
+            "Zeta Prime",
+            "Gamma Quadrant Four",
+            "Kepler Prime"
+          ],
+          "reveal": "The correct answer is T'Kani Prime! [chuckles] Lovely place... if you like killer vines.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "tomorrowland-and-beyond",
+      "title": "Tomorrowland and Beyond",
+      "kind": "parks",
+      "intro": "[excited] Real photos from the parks! Name these out-of-this-world attractions.",
+      "art": {
+        "prompt": "A futuristic theme park land at night with chrome rocket spires, a spinning ride and a white cone-shaped mountain glowing under stars Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
+        "file": "media/the-final-frontier--tomorrowland-and-beyond.jpg"
+      },
+      "format": "picture",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This spinning rocket ride sits high above Magic Kingdom's Tomorrowland",
+          "answer": "Astro Orbiter",
+          "accept": [
+            "astro orbiter",
+            "astro-orbiter",
+            "the astro orbiter"
+          ],
+          "choices": [
+            "Astro Orbiter",
+            "Rocket Jets",
+            "Tomorrowland Speedway",
+            "Tomorrowland Transit Authority PeopleMover"
+          ],
+          "reveal": "The correct answer is Astro Orbiter! [laughs] You take an elevator up just to ride the rockets.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "file": "media/the-final-frontier--tomorrowland-and-beyond-200.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Astro_Orbiter_(28581637303).jpg",
+              "license": "CC BY 2.0",
+              "author": "Theme Park Tourist"
+            }
+          }
+        },
+        {
+          "value": 400,
+          "clue": "On this Magic Kingdom ride, you fire laser cannons at Zurg's robots and rack up points",
+          "answer": "Buzz Lightyear's Space Ranger Spin",
+          "accept": [
+            "buzz lightyears space ranger spin",
+            "buzz lightyear's space ranger spin",
+            "space ranger spin",
+            "buzz lightyear"
+          ],
+          "choices": [
+            "Buzz Lightyear's Space Ranger Spin",
+            "Buzz Lightyear Astro Blasters",
+            "Toy Story Mania!",
+            "Zurg's Laser Blast"
+          ],
+          "reveal": "The correct answer is Buzz Lightyear's Space Ranger Spin! Astro Blasters is the Disneyland version. Nice try!",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "A dark blacklight theme park ride with two-seat spinning space cruisers, each with a mounted laser cannon and a joystick, aiming at glowing neon targets on alien planets and robot silhouettes Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
+            "file": "media/the-final-frontier--tomorrowland-and-beyond-400.jpg"
+          }
+        },
+        {
+          "value": 600,
+          "clue": "At EPCOT, this centrifuge ride lets you train for a mission to Mars",
+          "answer": "Mission: SPACE",
+          "accept": [
+            "mission space",
+            "mission: space"
+          ],
+          "choices": [
+            "Mission: SPACE",
+            "Test Track",
+            "Soarin'",
+            "Spaceship Earth"
+          ],
+          "reveal": "The correct answer is Mission: SPACE! [whispers] Pick the less intense green team if you had a big lunch.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "file": "media/the-final-frontier--tomorrowland-and-beyond-600.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Mission_Space_Epcot.jpg",
+              "license": "CC BY-SA 4.0",
+              "author": "Jedi94"
+            }
+          }
+        },
+        {
+          "value": 800,
+          "clue": "This EPCOT coaster spins and launches you backward on a cosmic chase through space",
+          "answer": "Guardians of the Galaxy: Cosmic Rewind",
+          "accept": [
+            "guardians of the galaxy cosmic rewind",
+            "cosmic rewind",
+            "guardians of the galaxy"
+          ],
+          "choices": [
+            "Guardians of the Galaxy: Cosmic Rewind",
+            "Hyperspace Mountain",
+            "Rock 'n' Roller Coaster",
+            "Mission: Breakout!"
+          ],
+          "reveal": "The correct answer is Guardians of the Galaxy: Cosmic Rewind! [excited] Every ride gets its own random eighties song.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "file": "media/the-final-frontier--tomorrowland-and-beyond-800.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Guardians_of_the_Galaxy_Cosmic_Rewind_at_EPCOT.jpg",
+              "license": "CC BY-SA 4.0",
+              "author": "Jedi94"
+            }
+          }
+        },
+        {
+          "value": 1000,
+          "clue": "Disneyland Paris's Space Mountain originally sent guests from the Earth to the Moon, in tribute to this French author",
+          "answer": "Jules Verne",
+          "accept": [
+            "jules verne",
+            "verne"
+          ],
+          "choices": [
+            "Jules Verne",
+            "Victor Hugo",
+            "Alexandre Dumas",
+            "H. G. Wells"
+          ],
+          "reveal": "[dramatic pause] The correct answer is Jules Verne! Inspired by his novel From the Earth to the Moon. Tres magnifique!",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "A brass-and-copper Victorian steampunk observatory dome with a giant riveted cannon aimed at the moon, a rocket train bursting out of it, French belle epoque gardens Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
+            "file": "media/the-final-frontier--tomorrowland-and-beyond-1000.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "emoji-orbit",
+      "title": "Emoji Orbit",
+      "kind": "media",
+      "intro": "[chuckles] Your mission: decode these emoji transmissions from deep space!",
+      "art": {
+        "prompt": "Colorful glowing orbs floating in orbit around a cartoon planet like little satellites, sparkly starfield Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
+        "file": "media/the-final-frontier--emoji-orbit.jpg"
+      },
+      "format": "emoji",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Name the Disney or Pixar film from these emoji. 🤖🌱🚀❤️ Hint: a trash-compacting robot falls in love",
+          "answer": "WALL-E",
+          "accept": [
+            "wall-e",
+            "wall e",
+            "walle"
+          ],
+          "choices": [
+            "WALL-E",
+            "Big Hero 6",
+            "Lightyear",
+            "Robots"
+          ],
+          "reveal": "The correct answer is WALL-E! [laughs] EVE-ahhh!",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Name the Disney or Pixar film from these emoji. 👽🌺🏄‍♀️🐶 Hint: Experiment 626 lands in Hawaii",
+          "answer": "Lilo & Stitch",
+          "accept": [
+            "lilo and stitch",
+            "lilo & stitch",
+            "lilo stitch"
+          ],
+          "choices": [
+            "Lilo & Stitch",
+            "Moana",
+            "Teen Beach Movie",
+            "Bolt"
+          ],
+          "reveal": "The correct answer is Lilo and Stitch! Ohana means family... even alien family.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Name the Disney or Pixar film from these emoji. 🚀🤠🍕👽 Hint: the little green aliens worship The Claw",
+          "answer": "Toy Story",
+          "accept": [
+            "toy story"
+          ],
+          "choices": [
+            "Toy Story",
+            "Toy Story 2",
+            "Lightyear",
+            "Wreck-It Ralph"
+          ],
+          "reveal": "The correct answer is Toy Story! [mischievously] Ooooh... the Claw.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Name the Disney or Pixar film from these emoji. 🐔🌰☁️👽 Hint: the sky is falling",
+          "answer": "Chicken Little",
+          "accept": [
+            "chicken little"
+          ],
+          "choices": [
+            "Chicken Little",
+            "Bolt",
+            "Meet the Robinsons",
+            "Home on the Range"
+          ],
+          "reveal": "The correct answer is Chicken Little! [gasps] That acorn was actually a piece of spaceship!",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Name the Disney or Pixar film from these emoji. 👦🛸⏳🚀 Hint: a 1986 Disney film about a boy who comes home eight years later without aging",
+          "answer": "Flight of the Navigator",
+          "accept": [
+            "flight of the navigator",
+            "navigator"
+          ],
+          "choices": [
+            "Flight of the Navigator",
+            "The Black Hole",
+            "Escape to Witch Mountain",
+            "Unidentified Flying Oddball"
+          ],
+          "reveal": "The correct answer is Flight of the Navigator! [chuckles] Compliance!",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "wish-upon-a-star",
+      "title": "Wish Upon a Star",
+      "kind": "fan",
+      "intro": "[whispers] Look up... way up. These clues are written in the stars.",
+      "art": {
+        "prompt": "A single bright wishing star above a sleeping village window at night, a telescope on the sill and a sky full of constellations Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
+        "file": "media/the-final-frontier--wish-upon-a-star.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In Pinocchio, Geppetto makes his wish for a real boy on this",
+          "answer": "A wishing star",
+          "accept": [
+            "wishing star",
+            "a wishing star",
+            "star",
+            "a star",
+            "the wishing star"
+          ],
+          "choices": [
+            "A wishing star",
+            "A full moon",
+            "A shooting comet",
+            "A birthday candle"
+          ],
+          "reveal": "The correct answer is a wishing star! [sighs] When you wish upon a star... it really works.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "In The Lion King, Mufasa tells young Simba that the great kings of the past look down on them from these",
+          "answer": "The stars",
+          "accept": [
+            "stars",
+            "the stars"
+          ],
+          "choices": [
+            "The stars",
+            "The clouds",
+            "Pride Rock",
+            "The moon"
+          ],
+          "reveal": "The correct answer is the stars! [whispers] Remember who you are.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "In 2023's Wish, Asha's wish brings down a lovable glowing ball of light with this simple name",
+          "answer": "Star",
+          "accept": [
+            "star"
+          ],
+          "choices": [
+            "Star",
+            "Twinkle",
+            "Lumi",
+            "Sparkle"
+          ],
+          "reveal": "The correct answer is Star! [laughs] Short, sweet and seriously sparkly.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "At the end of Hercules, Zeus honors his son by creating this in the night sky",
+          "answer": "A constellation",
+          "accept": [
+            "constellation",
+            "a constellation",
+            "star constellation"
+          ],
+          "choices": [
+            "A constellation",
+            "A rainbow",
+            "A comet",
+            "A new moon"
+          ],
+          "reveal": "The correct answer is a constellation! [excited] Herc became a true hero... AND a star map.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "In this 2011 Pixar short, a young boy helps his father and grandfather sweep fallen stars off the moon",
+          "answer": "La Luna",
+          "accept": [
+            "la luna",
+            "luna"
+          ],
+          "choices": [
+            "La Luna",
+            "Lava",
+            "Piper",
+            "Day & Night"
+          ],
+          "reveal": "The correct answer is La Luna! [chuckles] Sweeping stars beats sweeping the kitchen.",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}
