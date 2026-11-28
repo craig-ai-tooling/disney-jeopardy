@@ -31,6 +31,7 @@ data class GameState(
 @Serializable data class Settings(
     val mode: String = "mixed", val moderator: String? = null, val negatives: Boolean = true,
     val voice: Boolean = true, val host: String = "draft", val buzzMs: Int = 9000,
+    val autoAdvance: Boolean = true,
 )
 @Serializable data class Player(
     val id: String, val name: String = "", val score: Int = 0, val color: String = "#ffcf3f",

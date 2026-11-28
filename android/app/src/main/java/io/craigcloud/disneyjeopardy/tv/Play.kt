@@ -131,9 +131,9 @@ private fun Cell(ctl: Controller, q: CellInfo, mem: FocusMemory) {
 @Composable private fun Modifier.offset(v: Float) = this.then(Modifier.padding(start = v.vw, top = v.vw))
 
 @Composable
-fun ClueCard(modifier: Modifier = Modifier, content: @Composable androidx.compose.foundation.layout.ColumnScope.() -> Unit) {
+fun ClueCard(modifier: Modifier = Modifier, fx: Modifier = Modifier, content: @Composable androidx.compose.foundation.layout.ColumnScope.() -> Unit) {
     val shape = RoundedCornerShape(1.6f.vw)
-    Column(modifier.fillMaxWidth().padding(horizontal = 3.vw, vertical = 1.2f.vw).shadow(3.vw, shape)
+    Column(modifier.fillMaxWidth().padding(horizontal = 3.vw, vertical = 1.2f.vw).then(fx).shadow(3.vw, shape)
         .background(Brush.radialGradient(listOf(Color(0xFF1C48D8), Color(0xFF071865)), radius = 2200f), shape)
         .border(.3f.vw, Gold.copy(alpha = .8f), shape).clip(shape).padding(horizontal = 2.5f.vw, vertical = 1.4f.vw),
         horizontalAlignment = Alignment.CenterHorizontally, content = content)
@@ -181,20 +181,25 @@ private fun ClueVideo(ctl: Controller, url: String, modifier: Modifier) {
 }
 
 @Composable
+private fun ContinueHint() = Txt("Press OK to continue", 1.15f, Modifier.padding(top = .4f.vw), color = Color(0xCCFFFFFF), weight = FontWeight.Bold)
+
+@Composable
 fun ResultLine(s: GameState, r: Result, extra: String = "", button: (@Composable () -> Unit)? = null) {
     val p = s.players.firstOrNull { it.id == r.pid }
-    val mark = when (r.verdict) { "correct" -> "✅"; "close" -> "🤔"; else -> "❌" }
     Row(Modifier.padding(.3f.vw).clip(RoundedCornerShape(1.vw)).background(Color(0x73000000)).drawWithContent {
         drawContent(); drawRect(parseColor(p?.color), size = Size(.5f * size.height / 3, size.height)) }
         .padding(start = 1.4f.vw, end = 1.vw, top = .4f.vw, bottom = .4f.vw), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(.6f.vw)) {
-        Txt("${p?.name ?: "?"}: “${r.heard ?: "—"}” $mark$extra", 1.5f, weight = FontWeight.Bold)
+        Txt("${p?.name ?: "?"}: “${r.heard ?: "—"}”", 1.5f, weight = FontWeight.Bold)
+        VerdictBadge(r.verdict, 2.4f.vw)
+        if (extra.isNotEmpty()) Txt(extra, 1.5f, weight = FontWeight.Bold)
         button?.invoke()
     }
 }
 
 @Composable
-private fun Ruling(t: String) = Box(Modifier.padding(top = .6f.vw).clip(RoundedCornerShape(1.vw)).background(Color(0xCC5A3A00)).border(.15f.vw, Gold, RoundedCornerShape(1.vw)).padding(horizontal = 1.4f.vw, vertical = .5f.vw)) {
+private fun Ruling(t: String, verdict: String? = null) = Row(Modifier.padding(top = .6f.vw).clip(RoundedCornerShape(1.vw)).background(Color(0xCC5A3A00)).border(.15f.vw, Gold, RoundedCornerShape(1.vw)).padding(horizontal = 1.4f.vw, vertical = .5f.vw), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(.7f.vw)) {
     Txt(t, 1.5f, color = Gold)
+    if (verdict != null) { VerdictBadge(verdict, 2.4f.vw); Txt(if (verdict == "correct") "ACCEPTED" else "REJECTED", 1.5f, color = Gold) }
 }
 
 @Composable
@@ -212,7 +217,7 @@ fun ClueScreen(ctl: Controller, s: GameState, mem: FocusMemory) {
     val answerer = if (ph == "answering") s.players.firstOrNull { it.id == c.answerer } else null
     mem.default = "next"
     Column(Modifier.fillMaxSize()) {
-        ClueCard(Modifier.weight(1f)) {
+        ClueCard(Modifier.weight(1f), crtGlitch(ctl)) {
             Meta(c.category, if (c.dailyDouble) "Daily Double · ${money(c.wager ?: 0)}" else money(c.value))
             Column(Modifier.weight(1f).fillMaxWidth(), horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.SpaceEvenly) {
                 ClueMedia(ctl, c, ph, Modifier)
@@ -238,8 +243,9 @@ fun ClueScreen(ctl: Controller, s: GameState, mem: FocusMemory) {
                     val ru = s.ruling
                     if (ru != null) Ruling("${if (ru.challenge) "Challenge! " else ""}${name(ru.pid)} said “${ru.heard}” — " +
                         if (ru.by == "moderator") "waiting for moderator ${name(ru.voters.firstOrNull())}…" else "players are voting (${ru.votes}/${ru.voters.size})…")
-                    else if (s.lastRuling?.pid != null) Ruling("Ruling: ${if (s.lastRuling.accept) "ACCEPTED ✅" else "REJECTED ❌"}")
+                    else if (s.lastRuling?.pid != null) Ruling("Ruling:", if (s.lastRuling.accept) "correct" else "wrong")
                     TvButton("Continue ▶", "next", mem) { ctl.send("next") }
+                    if (!s.settings.autoAdvance) ContinueHint()
                 }
             }
             Box(Modifier.height(3.4f.vw), contentAlignment = Alignment.Center) {
@@ -315,7 +321,7 @@ fun FinalScreen(ctl: Controller, s: GameState, mem: FocusMemory) {
             Countdown(ctl, Modifier); Scores(s)
         }
         "finalClue", "finalThink" -> Column(Modifier.fillMaxSize()) {
-            ClueCard(Modifier.weight(1f)) {
+            ClueCard(Modifier.weight(1f), crtGlitch(ctl)) {
                 Meta("Final Jeopardy · ${f.film}", "${f.answered.size}/${f.entrants.size} answered")
                 Box(Modifier.weight(1f), contentAlignment = Alignment.Center) { Txt(f.clue ?: "", 3.4f, Modifier.padding(horizontal = 2.vw)) }
                 Box(Modifier.height(3.4f.vw)) { if (ph == "finalThink") Lights("Answer on your phones!") }
@@ -324,14 +330,15 @@ fun FinalScreen(ctl: Controller, s: GameState, mem: FocusMemory) {
             Scores(s)
         }
         "finalReveal" -> Column(Modifier.fillMaxSize()) {
-            ClueCard(Modifier.weight(1f)) {
+            ClueCard(Modifier.weight(1f), crtGlitch(ctl)) {
                 Meta("Final Jeopardy · ${f.film}", "")
                 Column(Modifier.weight(1f), horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.SpaceEvenly) {
                     Txt(f.clue ?: "", 2f, Modifier.alpha(.85f).padding(horizontal = 2.vw))
                     if (f.answerShown) { GoldText(f.answer ?: "", 3.6f); if (!f.reveal.isNullOrBlank()) Txt(f.reveal, 1.6f, weight = FontWeight.Bold) }
                     FlowRow(horizontalArrangement = Arrangement.Center) { for (r in f.results) ResultLine(s, r, " · wagered ${money(f.wagers[r.pid] ?: 0)}") }
                     if (s.ruling != null) Ruling("Close call! ${if (s.ruling.by == "moderator") "Moderator" else "Players"} deciding…")
-                    TvButton(if (f.step + 1 < f.order.size) "Next player ▶" else if (f.answerShown) "Crown the champion! 👑" else "Reveal the answer ▶", "next", mem) { ctl.send("next") }
+                    TvButton(if (f.step + 1 < f.order.size) "Next player ▶" else if (f.answerShown) "Crown the champion! ★" else "Reveal the answer ▶", "next", mem) { ctl.send("next") }
+                    if (!s.settings.autoAdvance) ContinueHint()
                 }
             }
             Scores(s, f.results.lastOrNull()?.pid)
