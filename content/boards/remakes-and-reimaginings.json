@@ -1,0 +1,529 @@
+{
+  "id": "remakes-and-reimaginings",
+  "title": "Remakes and Reimaginings",
+  "theme": "Live-action remakes vs. the originals",
+  "tags": [
+    "remakes",
+    "film",
+    "live-action"
+  ],
+  "intro": "[excited] Welcome to Remakes and Reimaginings! Tonight it's the originals versus the remakes. Same stories, new faces... and a LOT more CGI. [chuckles] Let's see if you've been paying attention, both times.",
+  "art": {
+    "prompt": "A grand old movie palace with two side-by-side screens, one glowing with hand-painted watercolor fairy-tale scenery, the other with a photo-realistic version of the same castle and forest, a velvet curtain between them, 16:9 widescreen, vibrant cinematic lighting, original artwork, no text, no logos, no characters, no people",
+    "file": "media/remakes-and-reimaginings.jpg"
+  },
+  "categories": [
+    {
+      "id": "circle-of-remakes",
+      "title": "The Circle of Remakes",
+      "kind": "film",
+      "format": "text",
+      "intro": "Our film category is The Circle of Remakes! It's all about who stepped into those iconic roles. [mischievously] No pressure, Genie.",
+      "art": {
+        "prompt": "A film director's chair on a photo-realistic African savanna at sunrise beside a glowing magic lamp, a seashell microphone and a red rose under glass, 16:9 widescreen, vibrant cinematic lighting, original artwork, no text, no logos, no characters, no people",
+        "file": "media/remakes-and-reimaginings--circle-of-remakes.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In 2019's live-action Aladdin, this superstar plays the big blue Genie.",
+          "answer": "Will Smith",
+          "accept": [
+            "will smith",
+            "smith"
+          ],
+          "choices": [
+            "Will Smith",
+            "Robin Williams",
+            "Eddie Murphy",
+            "Kevin Hart"
+          ],
+          "reveal": "The correct answer is Will Smith! [laughs] Robin Williams had the original 1992 role. Big shoes to fill... and big blue pants.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "In 2023's The Little Mermaid, Ariel is played by this singer and actress.",
+          "answer": "Halle Bailey",
+          "accept": [
+            "halle bailey",
+            "hallie bailey",
+            "halle"
+          ],
+          "choices": [
+            "Halle Bailey",
+            "Zendaya",
+            "Rachel Zegler",
+            "Auli'i Cravalho"
+          ],
+          "reveal": "The correct answer is Halle Bailey! [excited] She's also half of the singing duo Chloe x Halle with her sister. Talk about a voice worth trading for legs.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "The 2017 Beauty and the Beast stars this former Harry Potter actress as Belle.",
+          "answer": "Emma Watson",
+          "accept": [
+            "emma watson",
+            "watson"
+          ],
+          "choices": [
+            "Emma Watson",
+            "Emma Stone",
+            "Lily James",
+            "Keira Knightley"
+          ],
+          "reveal": "The correct answer is Emma Watson! [chuckles] From Hermione's library to the Beast's library. She really loves books.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In 2019's The Lion King, Beyonce voices this lioness.",
+          "answer": "Nala",
+          "accept": [
+            "nala"
+          ],
+          "choices": [
+            "Nala",
+            "Sarabi",
+            "Shenzi",
+            "Kiara"
+          ],
+          "reveal": "The correct answer is Nala! [excited] Queen B as a queen lioness. That's just good casting.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "This actor is the only main voice from the 1994 Lion King to return for the 2019 remake, reprising Mufasa.",
+          "answer": "James Earl Jones",
+          "accept": [
+            "james earl jones",
+            "james jones"
+          ],
+          "choices": [
+            "James Earl Jones",
+            "Jeremy Irons",
+            "Matthew Broderick",
+            "Chiwetel Ejiofor"
+          ],
+          "reveal": "The correct answer is James Earl Jones! [dramatic pause] Remember who you are. Nobody else could ever sound that much like a king.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "then-vs-now",
+      "title": "Then vs. Now",
+      "kind": "theme",
+      "format": "text",
+      "intro": "Next up, Then vs. Now! What changed when the cartoons came to life? [sighs] Spoiler: some sidekicks got left behind.",
+      "art": {
+        "prompt": "Two halves of one jungle scene: a hand-painted watercolor jungle on the left blending into a photo-realistic jungle on the right, a dalmatian-spotted fur coat on a hanger and a Chinese palace in the distance, 16:9 widescreen, vibrant cinematic lighting, original artwork, no text, no logos, no characters, no people",
+        "file": "media/remakes-and-reimaginings--then-vs-now.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "The 2021 movie Cruella, starring Emma Stone, tells the origin story of the villain who wants a coat made of these spotted puppies.",
+          "answer": "Dalmatians",
+          "accept": [
+            "dalmatians",
+            "dalmations",
+            "dalmatian puppies",
+            "dalmatian"
+          ],
+          "choices": [
+            "Dalmatians",
+            "Beagles",
+            "Poodles",
+            "Pugs"
+          ],
+          "reveal": "The correct answer is Dalmatians! [mischievously] She's very stylish, very punk rock... and still not allowed near puppies.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "The 2014 film Maleficent retells Sleeping Beauty from the villain's side, starring this actress in the horns.",
+          "answer": "Angelina Jolie",
+          "accept": [
+            "angelina jolie",
+            "jolie"
+          ],
+          "choices": [
+            "Angelina Jolie",
+            "Charlize Theron",
+            "Cate Blanchett",
+            "Nicole Kidman"
+          ],
+          "reveal": "The correct answer is Angelina Jolie! [laughs] Her real daughter Vivienne played little Aurora, because other kids were scared of her costume.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "The 2020 live-action Mulan left out this wisecracking little dragon.",
+          "answer": "Mushu",
+          "accept": [
+            "mushu"
+          ],
+          "choices": [
+            "Mushu",
+            "Cri-Kee",
+            "Khan",
+            "Shan Yu"
+          ],
+          "reveal": "The correct answer is Mushu! [sighs] Eddie Murphy's dragon didn't make the cut. A phoenix flew in instead. Dishonor on the whole remake!",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In 2016's The Jungle Book, this young actor played Mowgli, the only human actor in most of the film.",
+          "answer": "Neel Sethi",
+          "accept": [
+            "neel sethi",
+            "sethi"
+          ],
+          "choices": [
+            "Neel Sethi",
+            "Dev Patel",
+            "Jacob Tremblay",
+            "Sunny Pawar"
+          ],
+          "reveal": "The correct answer is Neel Sethi! [chuckles] He filmed almost everything on a blue screen stage, acting with puppets and people in blue suits. Bare necessities, indeed.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "In 2023's Peter Pan and Wendy on Disney Plus, this actor plays Captain Hook.",
+          "answer": "Jude Law",
+          "accept": [
+            "jude law",
+            "law"
+          ],
+          "choices": [
+            "Jude Law",
+            "Jason Isaacs",
+            "Colin Firth",
+            "Dustin Hoffman"
+          ],
+          "reveal": "The correct answer is Jude Law! [gasps] Tick-tock! Dustin Hoffman played Hook in 1991, but that was a different studio.",
+          "dailyDouble": true
+        }
+      ]
+    },
+    {
+      "id": "picture-the-remake",
+      "title": "Picture the Remake",
+      "kind": "media",
+      "format": "picture",
+      "intro": "It's our picture category, Picture the Remake! Each scene appears in both the cartoon AND the remake. [excited] Name that film!",
+      "art": {
+        "prompt": "A film projector beam shining through floating objects: a glass slipper, a magic lamp, a wooden puppet's hat and a striped circus tent, 16:9 widescreen, vibrant cinematic lighting, original artwork, no text, no logos, no characters, no people",
+        "file": "media/remakes-and-reimaginings--picture-the-remake.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Both an animated classic and its live-action remake feature this scene. Name the film.",
+          "answer": "Beauty and the Beast",
+          "accept": [
+            "beauty and the beast"
+          ],
+          "choices": [
+            "Beauty and the Beast",
+            "Cinderella",
+            "Sleeping Beauty",
+            "Snow White and the Seven Dwarfs"
+          ],
+          "reveal": "The correct answer is Beauty and the Beast! [whispers] When that last petal falls, it's game over. No pressure.",
+          "media": {
+            "type": "image",
+            "prompt": "A single glowing red rose floating under a glass bell jar on a table in a dark gothic castle tower, a few fallen petals and an ornate hand mirror beside it, moonlight through a broken window, original artwork, no people, no characters, no text, no logos",
+            "file": "media/remakes-and-reimaginings--picture-the-remake-200.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Both an animated classic and its live-action remake feature this scene. Name the film.",
+          "answer": "Aladdin",
+          "accept": [
+            "aladdin"
+          ],
+          "choices": [
+            "Aladdin",
+            "The Little Mermaid",
+            "Mulan",
+            "Raya and the Last Dragon"
+          ],
+          "reveal": "The correct answer is Aladdin! [mischievously] Rule number one in the Cave of Wonders: touch NOTHING but the lamp.",
+          "media": {
+            "type": "image",
+            "prompt": "A vast cave filled with mountains of golden treasure, a dusty brass oil lamp glowing on a rock pedestal at the top of a stone stairway, a rolled carpet resting nearby, original artwork, no people, no characters, no text, no logos",
+            "file": "media/remakes-and-reimaginings--picture-the-remake-400.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Both an animated classic and its live-action remake feature this scene. Name the film.",
+          "answer": "Cinderella",
+          "accept": [
+            "cinderella"
+          ],
+          "choices": [
+            "Cinderella",
+            "Sleeping Beauty",
+            "Enchanted",
+            "Beauty and the Beast"
+          ],
+          "reveal": "The correct answer is Cinderella! [laughs] One shoe left on the stairs at midnight. Sizing, people. It matters.",
+          "media": {
+            "type": "image",
+            "prompt": "A single sparkling glass slipper resting on the steps of a grand palace staircase at midnight, a clock tower glowing in the background, a pumpkin by the gate, original artwork, no people, no characters, no text, no logos",
+            "file": "media/remakes-and-reimaginings--picture-the-remake-600.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Both an animated classic and its live-action remake feature this scene. Name the film.",
+          "answer": "Pinocchio",
+          "accept": [
+            "pinocchio"
+          ],
+          "choices": [
+            "Pinocchio",
+            "The Sword in the Stone",
+            "Peter Pan",
+            "Dumbo"
+          ],
+          "reveal": "The correct answer is Pinocchio! The live-action remake came out in 2022 on Disney Plus. [chuckles] Am I lying? Check my nose.",
+          "media": {
+            "type": "image",
+            "prompt": "A cozy old woodcarver's workshop full of hand-carved cuckoo clocks and music boxes, a small wooden puppet's feathered hat on the workbench, a goldfish bowl and a wishing star in the window, original artwork, no people, no characters, no text, no logos",
+            "file": "media/remakes-and-reimaginings--picture-the-remake-800.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Both an animated classic and its live-action remake feature this scene. Name the film.",
+          "answer": "Dumbo",
+          "accept": [
+            "dumbo"
+          ],
+          "choices": [
+            "Dumbo",
+            "The Jungle Book",
+            "Lady and the Tramp",
+            "Bambi"
+          ],
+          "reveal": "The correct answer is Dumbo! Tim Burton directed the 2019 remake. [excited] Proof that big ears are a superpower.",
+          "media": {
+            "type": "image",
+            "prompt": "A vintage circus big top at night with a tiny clown-painted bucket on a high platform, a single white feather floating in a spotlight, and a train car painted in old circus colors parked outside, original artwork, no people, no characters, no text, no logos",
+            "file": "media/remakes-and-reimaginings--picture-the-remake-1000.jpg"
+          },
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "remade-in-the-parks",
+      "title": "Remade in the Parks",
+      "kind": "parks",
+      "format": "text",
+      "intro": "Time for the parks: Remade in the Parks! [chuckles] Disney doesn't just remake movies. It remakes RIDES.",
+      "art": {
+        "prompt": "A theme park construction scene at twilight: scaffolding around a mountain flume ride, a boat ride entrance being repainted with snowflakes and a submarine lagoon glowing turquoise, 16:9 widescreen, vibrant cinematic lighting, original artwork, no text, no logos, no characters, no people",
+        "file": "media/remakes-and-reimaginings--remade-in-the-parks.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Splash Mountain was reimagined into this Princess and the Frog log flume.",
+          "answer": "Tiana's Bayou Adventure",
+          "accept": [
+            "tiana's bayou adventure",
+            "tianas bayou adventure",
+            "tiana's bayou",
+            "tiana"
+          ],
+          "choices": [
+            "Tiana's Bayou Adventure",
+            "Tiana's Palace",
+            "Bayou Splash",
+            "Louisiana Log Ride"
+          ],
+          "reveal": "The correct answer is Tiana's Bayou Adventure! [excited] It opened in 2024, with music, critters and a party at the end. Dig a little deeper!",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "In EPCOT's Norway pavilion, the Maelstrom boat ride was reimagined in 2016 as this attraction.",
+          "answer": "Frozen Ever After",
+          "accept": [
+            "frozen ever after",
+            "frozen"
+          ],
+          "choices": [
+            "Frozen Ever After",
+            "For the First Time in Forever",
+            "Anna and Elsa's Royal Welcome",
+            "Arendelle Adventure"
+          ],
+          "reveal": "The correct answer is Frozen Ever After! [laughs] Goodbye, old trolls and polar bear. Hello, Olaf and a whole lot of snow. Let it go!",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "In 2021, Disneyland's Snow White's Scary Adventures reopened with this new name.",
+          "answer": "Snow White's Enchanted Wish",
+          "accept": [
+            "snow white's enchanted wish",
+            "snow whites enchanted wish",
+            "enchanted wish"
+          ],
+          "choices": [
+            "Snow White's Enchanted Wish",
+            "Seven Dwarfs Mine Train",
+            "Snow White's Grotto",
+            "Whistle While You Work"
+          ],
+          "reveal": "The correct answer is Snow White's Enchanted Wish! [chuckles] Fewer scares, more wishing. The witch still shows up though. She ALWAYS shows up.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "EPCOT's Universe of Energy pavilion was reimagined into this Marvel roller coaster, which opened in 2022.",
+          "answer": "Guardians of the Galaxy: Cosmic Rewind",
+          "accept": [
+            "guardians of the galaxy cosmic rewind",
+            "cosmic rewind",
+            "guardians of the galaxy"
+          ],
+          "choices": [
+            "Guardians of the Galaxy: Cosmic Rewind",
+            "Guardians of the Galaxy - Mission: BREAKOUT!",
+            "Avengers Assemble: Flight Force",
+            "Spider-Man W.E.B. Adventure"
+          ],
+          "reveal": "The correct answer is Guardians of the Galaxy: Cosmic Rewind! [excited] It goes BACKWARDS and the cars spin to face the action. Bye-bye, Ellen's dinosaurs.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Disneyland's Submarine Voyage was reimagined in 2007 around this Pixar film.",
+          "answer": "Finding Nemo",
+          "accept": [
+            "finding nemo",
+            "nemo"
+          ],
+          "choices": [
+            "Finding Nemo",
+            "The Little Mermaid",
+            "Luca",
+            "Finding Dory"
+          ],
+          "reveal": "The correct answer is Finding Nemo! [whispers] Look out the porthole and you might spot a certain fish who keeps forgetting things. Just keep swimming.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "remake-sing-along",
+      "title": "Remake Sing-Along",
+      "kind": "fan",
+      "format": "text",
+      "intro": "Our fan category is Remake Sing-Along: classic songs and brand-new ones from the remakes. [laughs] I'll try not to sing. I'll fail, but I'll try.",
+      "art": {
+        "prompt": "A grand piano on a stage with sheet music swirling up into the air and turning into roses, lanterns and seashells, warm golden spotlight, 16:9 widescreen, vibrant cinematic lighting, original artwork, no text, no logos, no characters, no people",
+        "file": "media/remakes-and-reimaginings--remake-sing-along.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In 2019's The Lion King, Timon and Pumbaa teach young Simba this carefree song, which means no worries.",
+          "answer": "Hakuna Matata",
+          "accept": [
+            "hakuna matata",
+            "hakuna mattata"
+          ],
+          "choices": [
+            "Hakuna Matata",
+            "Circle of Life",
+            "I Just Can't Wait to Be King",
+            "Be Prepared"
+          ],
+          "reveal": "The correct answer is Hakuna Matata! [laughs] Billy Eichner and Seth Rogen took over the grub-loving duo. Still no worries, for the rest of your days.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Naomi Scott's Jasmine gets this powerful new solo in 2019's Aladdin.",
+          "answer": "Speechless",
+          "accept": [
+            "speechless"
+          ],
+          "choices": [
+            "Speechless",
+            "Unstoppable",
+            "Breathless",
+            "Fearless"
+          ],
+          "reveal": "The correct answer is Speechless! [excited] Written by Alan Menken with the La La Land songwriters. Jasmine will not be silenced!",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "The new song Wild Uncharted Waters in 2023's The Little Mermaid is sung by this character.",
+          "answer": "Prince Eric",
+          "accept": [
+            "prince eric",
+            "eric"
+          ],
+          "choices": [
+            "Prince Eric",
+            "Ariel",
+            "Sebastian",
+            "King Triton"
+          ],
+          "reveal": "The correct answer is Prince Eric! [laughs] Finally, the prince gets his own song. He's singing about the sea. Again. Guy's got one topic.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Beyonce co-wrote and sang this new song for 2019's The Lion King.",
+          "answer": "Spirit",
+          "accept": [
+            "spirit"
+          ],
+          "choices": [
+            "Spirit",
+            "Pride",
+            "Shine",
+            "Brave"
+          ],
+          "reveal": "The correct answer is Spirit! [excited] It plays as Simba heads home to face Scar. Goosebumps, every single time.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "In the 2017 Beauty and the Beast, the Beast gets this brand-new solo ballad by Alan Menken and Tim Rice.",
+          "answer": "Evermore",
+          "accept": [
+            "evermore"
+          ],
+          "choices": [
+            "Evermore",
+            "If I Can't Love Her",
+            "Days in the Sun",
+            "How Does a Moment Last Forever"
+          ],
+          "reveal": "The correct answer is Evermore! [whispers] If I Can't Love Her was the Beast's ballad in the Broadway show. Tricky, tricky.",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}

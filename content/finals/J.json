@@ -1,0 +1,154 @@
+[
+  {
+    "film": "The Parent Trap",
+    "category": "Twin Tricks",
+    "clue": "In the 1998 Parent Trap, Hallie and Annie's mother, Elizabeth James, is a famous designer of these.",
+    "answer": "Wedding dresses",
+    "accept": [
+      "wedding dresses",
+      "wedding gowns",
+      "bridal gowns",
+      "wedding dress",
+      "bridal dresses"
+    ],
+    "choices": [
+      "Wedding dresses",
+      "Handbags",
+      "Hats",
+      "Shoes"
+    ],
+    "reveal": "The correct answer is wedding dresses! [chuckles] Which comes in very handy when the twins scheme to get their parents back together."
+  },
+  {
+    "film": "Pirates of the Caribbean: The Curse of the Black Pearl",
+    "category": "Cursed Gold",
+    "clue": "To lift the curse, Barbossa's crew must return every piece of Aztec gold and repay this.",
+    "answer": "Blood",
+    "accept": [
+      "blood",
+      "the blood",
+      "blood repaid",
+      "their blood"
+    ],
+    "choices": [
+      "Blood",
+      "Tears",
+      "Silver",
+      "A kiss"
+    ],
+    "reveal": "[dramatic pause] The correct answer is blood! [mischievously] Which is why they needed Will Turner, son of Bootstrap Bill. Never trust a pirate with a knife and a plan."
+  },
+  {
+    "film": "Freaky Friday",
+    "category": "Switching Places",
+    "clue": "In the 2003 Freaky Friday, Anna and her mom Tess swap bodies after eating these at a Chinese restaurant.",
+    "answer": "Fortune cookies",
+    "accept": [
+      "fortune cookies",
+      "fortune cookie",
+      "magic fortune cookies"
+    ],
+    "choices": [
+      "Fortune cookies",
+      "Dumplings",
+      "Egg rolls",
+      "Almond cookies"
+    ],
+    "reveal": "The correct answer is fortune cookies! [laughs] The lesson? Read the fortune before you eat it. Or maybe after. Actually, just order dessert somewhere else."
+  },
+  {
+    "film": "Monsters University",
+    "category": "Scare Games",
+    "clue": "This stern, centipede-like dean of the School of Scaring kicks Mike and Sulley out of the scaring program.",
+    "answer": "Dean Hardscrabble",
+    "accept": [
+      "dean hardscrabble",
+      "hardscrabble",
+      "abigail hardscrabble"
+    ],
+    "choices": [
+      "Dean Hardscrabble",
+      "Professor Knight",
+      "Ms. Squibbles",
+      "Johnny Worthington"
+    ],
+    "reveal": "The correct answer is Dean Hardscrabble! [whispers] Voiced by Helen Mirren. One look from her, and even the monsters get scared."
+  },
+  {
+    "film": "Newsies",
+    "category": "Extra! Extra!",
+    "clue": "In Newsies, the newsboys of 1899 New York go on strike against this real-life newspaper publisher, played by Robert Duvall.",
+    "answer": "Joseph Pulitzer",
+    "accept": [
+      "joseph pulitzer",
+      "pulitzer"
+    ],
+    "choices": [
+      "Joseph Pulitzer",
+      "William Randolph Hearst",
+      "Horace Greeley",
+      "Charles Foster Kane"
+    ],
+    "reveal": "[dramatic pause] The correct answer is Joseph Pulitzer! [laughs] Yes, the Pulitzer Prize guy. The newsies were NOT handing him any awards."
+  },
+  {
+    "film": "Toy Story 3",
+    "category": "So Long, Partner",
+    "clue": "At the end of Toy Story 3, Andy heads off to college and gives his toys to this little girl.",
+    "answer": "Bonnie",
+    "accept": [
+      "bonnie",
+      "bonnie anderson"
+    ],
+    "choices": [
+      "Bonnie",
+      "Molly",
+      "Hannah",
+      "Daisy"
+    ],
+    "reveal": "The correct answer is Bonnie! [sighs] Andy introduces every toy one last time, then plays with them. Excuse me, I have something in my eye."
+  },
+  {
+    "film": "Mary Poppins Returns",
+    "category": "Trip a Little Light Fantastic",
+    "clue": "In Mary Poppins Returns, Lin-Manuel Miranda plays Jack, who works as one of these around London.",
+    "answer": "A lamplighter",
+    "accept": [
+      "lamplighter",
+      "a lamplighter",
+      "lamp lighter",
+      "lamplighters",
+      "leerie",
+      "leeries",
+      "a leerie"
+    ],
+    "choices": [
+      "A lamplighter",
+      "A chimney sweep",
+      "A bank clerk",
+      "A kite maker"
+    ],
+    "reveal": "The correct answer is a lamplighter! [excited] He calls them leeries. Bert was a sweep, Jack lights lamps. Always somebody up high in London."
+  },
+  {
+    "film": "The Princess Diaries",
+    "category": "Royal Lessons",
+    "clue": "In The Princess Diaries, Mia and her mom live in San Francisco in a converted building that used to be this.",
+    "answer": "A firehouse",
+    "accept": [
+      "firehouse",
+      "a firehouse",
+      "fire house",
+      "fire station",
+      "a fire station",
+      "old firehouse"
+    ],
+    "choices": [
+      "A firehouse",
+      "A church",
+      "A lighthouse",
+      "A bakery"
+    ],
+    "reveal": "The correct answer is a firehouse! [chuckles] Complete with a fire pole. Way cooler than a palace, if you ask me."
+  }
+]

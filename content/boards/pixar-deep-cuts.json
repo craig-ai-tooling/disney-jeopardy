@@ -1,0 +1,554 @@
+{
+  "id": "pixar-deep-cuts",
+  "title": "Pixar Deep Cuts",
+  "theme": "Pixar features beyond the toy box",
+  "tags": [
+    "pixar",
+    "film",
+    "deep-cuts"
+  ],
+  "intro": "[excited] Welcome to Pixar Deep Cuts! Tonight we leave the toy box behind and dig into the corners of the Pixar library... the sea monsters, the jazz pianists and the little fire people. Grab your lamp, it's going to be a BRIGHT one!",
+  "art": {
+    "prompt": "A cozy animation studio at golden hour: a desk lamp casting a warm spotlight over storyboards, a gelato cone, a glowing jazz piano, a red panda plush and a tiny flame in a glass jar arranged on a drafting table, 16:9 widescreen, vibrant cinematic lighting, original artwork, no text, no logos, no characters, no people",
+    "file": "media/pixar-deep-cuts.jpg"
+  },
+  "categories": [
+    {
+      "id": "onward-and-upward",
+      "title": "Onward and Upward",
+      "kind": "film",
+      "format": "text",
+      "intro": "Our film category is Onward and Upward, all about Pixar's newer adventures. [chuckles] If you've only seen the toys, prepare to learn some things.",
+      "art": {
+        "prompt": "A sunlit Italian seaside village, a misty Toronto street, a magical blue van on a fantasy highway and a glowing city of fire and water drawn as four panels of one dreamy landscape, 16:9 widescreen, vibrant cinematic lighting, original artwork, no text, no logos, no characters, no people",
+        "file": "media/pixar-deep-cuts--onward-and-upward.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In Luca, sea monsters magically look human as long as they stay this way.",
+          "answer": "Dry",
+          "accept": [
+            "dry",
+            "staying dry",
+            "out of the water",
+            "dry out of water"
+          ],
+          "choices": [
+            "Dry",
+            "Warm",
+            "Quiet",
+            "Asleep"
+          ],
+          "reveal": "The correct answer is dry! One splash and the scales come right back. [laughs] Rainy days in Portorosso are VERY stressful.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "In Turning Red, Mei Lee poofs into a giant version of this fluffy animal whenever her emotions run wild.",
+          "answer": "Red panda",
+          "accept": [
+            "red panda",
+            "a red panda"
+          ],
+          "choices": [
+            "Red panda",
+            "Fox",
+            "Raccoon",
+            "Grizzly bear"
+          ],
+          "reveal": "The correct answer is a red panda! A GIANT ball of fluff and feelings. [chuckles] We've all had a day like that.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "In Onward, elf brothers Ian and Barley use a visitation spell to bring their late dad back for this long.",
+          "answer": "One day",
+          "accept": [
+            "one day",
+            "a day",
+            "1 day",
+            "24 hours",
+            "twenty four hours"
+          ],
+          "choices": [
+            "One day",
+            "One hour",
+            "One week",
+            "One night"
+          ],
+          "reveal": "The correct answer is one day! Unfortunately, the spell only brings back his legs at first. [laughs] Dad goes on the whole quest as a pair of khakis.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In Elemental, Ember's family runs a shop called the Fireplace in this neighborhood of Element City.",
+          "answer": "Firetown",
+          "accept": [
+            "firetown",
+            "fire town"
+          ],
+          "choices": [
+            "Firetown",
+            "Ember Heights",
+            "Cinder Corner",
+            "Flame District"
+          ],
+          "reveal": "The correct answer is Firetown! [excited] That's where Ember tries hard NOT to lose her temper with customers. Spoiler... she loses her temper with customers.",
+          "dailyDouble": true
+        },
+        {
+          "value": 1000,
+          "clue": "In Soul, Joe Gardner's dream gig is playing piano in the quartet of this jazz saxophonist.",
+          "answer": "Dorothea Williams",
+          "accept": [
+            "dorothea williams",
+            "dorothea"
+          ],
+          "choices": [
+            "Dorothea Williams",
+            "Ella Simmons",
+            "Libba Gardner",
+            "Connie Jones"
+          ],
+          "reveal": "The correct answer is Dorothea Williams! She's voiced by Angela Bassett. [whispers] Cool, calm and totally unimpressed by Joe at first.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "behind-the-lamp",
+      "title": "Behind the Lamp",
+      "kind": "theme",
+      "format": "text",
+      "intro": "Next up, Behind the Lamp! This is your Pixar history class. [mischievously] Don't worry, there's no homework... just public humiliation.",
+      "art": {
+        "prompt": "A vintage 1980s computer lab with chunky monitors glowing with wireframe shapes, floppy disks, a film reel and a desk lamp spotlighting a sketchbook full of early drawings, 16:9 widescreen, vibrant cinematic lighting, original artwork, no text, no logos, no characters, no people",
+        "file": "media/pixar-deep-cuts--behind-the-lamp.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Pixar's very first feature film, released in 1995, was this story about toys that come to life.",
+          "answer": "Toy Story",
+          "accept": [
+            "toy story"
+          ],
+          "choices": [
+            "Toy Story",
+            "A Bug's Life",
+            "Monsters, Inc.",
+            "Cars"
+          ],
+          "reveal": "The correct answer is Toy Story! The first feature film ever made entirely with computer animation. [excited] A pretty big deal for a cowboy and a spaceman.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "This 2009 Pixar film opens with the tear-jerking Married Life montage.",
+          "answer": "Up",
+          "accept": [
+            "up"
+          ],
+          "choices": [
+            "Up",
+            "WALL-E",
+            "Inside Out",
+            "Coco"
+          ],
+          "reveal": "The correct answer is Up! [sighs] Four minutes, no dialogue, and not a dry eye in the theater. Pass the tissues.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Disney officially bought Pixar in this year.",
+          "answer": "2006",
+          "accept": [
+            "2006",
+            "two thousand six"
+          ],
+          "choices": [
+            "2006",
+            "1999",
+            "2001",
+            "2010"
+          ],
+          "reveal": "The correct answer is 2006! The deal was worth about seven billion dollars. [laughs] That's a LOT of Pizza Planet pizza.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Pixar's headquarters sits in this small city on San Francisco Bay, right next to Oakland.",
+          "answer": "Emeryville",
+          "accept": [
+            "emeryville",
+            "emeryville california"
+          ],
+          "choices": [
+            "Emeryville",
+            "Burbank",
+            "Palo Alto",
+            "Glendale"
+          ],
+          "reveal": "The correct answer is Emeryville! The campus even has a giant Luxo lamp statue out front. [chuckles] It does not, however, hop.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Before Steve Jobs bought it in 1986, Pixar was the computer graphics group of this famous filmmaker's company.",
+          "answer": "George Lucas",
+          "accept": [
+            "george lucas",
+            "lucas",
+            "lucasfilm"
+          ],
+          "choices": [
+            "George Lucas",
+            "Steven Spielberg",
+            "Francis Ford Coppola",
+            "James Cameron"
+          ],
+          "reveal": "The correct answer is George Lucas! It was part of Lucasfilm. [gasps] So in a way, Woody and Darth Vader are cousins.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "pixar-prop-zoom",
+      "title": "Pixar Prop Zoom",
+      "kind": "media",
+      "format": "zoom",
+      "intro": "It's our zoom category, Pixar Prop Zoom! The picture starts super close and slowly pulls back. [excited] Buzz in as soon as you know the movie!",
+      "art": {
+        "prompt": "A giant magnifying glass hovering over a table of miniature movie props: a marigold petal, a gelato spoon, a wizard staff and a tiny circus tent made from a box, 16:9 widescreen, vibrant cinematic lighting, original artwork, no text, no logos, no characters, no people",
+        "file": "media/pixar-deep-cuts--pixar-prop-zoom.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Name the Pixar film this zoomed-in scene comes from.",
+          "answer": "Coco",
+          "accept": [
+            "coco"
+          ],
+          "choices": [
+            "Coco",
+            "Encanto",
+            "Onward",
+            "Soul"
+          ],
+          "reveal": "The correct answer is Coco! [excited] A glowing bridge made of marigold petals connecting the Land of the Living to the Land of the Dead. Remember me? We definitely do.",
+          "media": {
+            "type": "image",
+            "prompt": "A glowing bridge made entirely of bright orange marigold petals arching through a starry night sky toward a towering city of colorful lights, sugar skull decorations on a stone altar in the foreground, original artwork, no people, no characters, no text, no logos",
+            "file": "media/pixar-deep-cuts--pixar-prop-zoom-200.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Name the Pixar film this zoomed-in scene comes from.",
+          "answer": "Brave",
+          "accept": [
+            "brave"
+          ],
+          "choices": [
+            "Brave",
+            "Tangled",
+            "Frozen",
+            "Luca"
+          ],
+          "reveal": "The correct answer is Brave! [mischievously] A witch's cottage, a bubbling cauldron, and one very suspicious cake. Never eat dessert from a stranger in the woods.",
+          "media": {
+            "type": "image",
+            "prompt": "A misty Scottish highland forest at dawn, a ring of ancient standing stones, a tiny witch's cottage full of carved wooden bears, a bubbling cauldron and a suspicious little spell cake on a plate, original artwork, no people, no characters, no text, no logos",
+            "file": "media/pixar-deep-cuts--pixar-prop-zoom-400.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Name the Pixar film this zoomed-in scene comes from.",
+          "answer": "Luca",
+          "accept": [
+            "luca"
+          ],
+          "choices": [
+            "Luca",
+            "Turning Red",
+            "Ratatouille",
+            "Onward"
+          ],
+          "reveal": "The correct answer is Luca! [laughs] A beat-up Vespa poster, a seaside Italian town and a mountain of pasta. Silenzio, Bruno, you got this one.",
+          "media": {
+            "type": "image",
+            "prompt": "A colorful Italian Riviera fishing village on a cliff above a turquoise sea, a vintage scooter parked by a fountain, a homemade scooter built from junk on the shore, a plate of trenette al pesto on a café table, original artwork, no people, no characters, no text, no logos",
+            "file": "media/pixar-deep-cuts--pixar-prop-zoom-600.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Name the Pixar film this zoomed-in scene comes from.",
+          "answer": "Onward",
+          "accept": [
+            "onward"
+          ],
+          "choices": [
+            "Onward",
+            "Luca",
+            "Elemental",
+            "Soul"
+          ],
+          "reveal": "The correct answer is Onward! [chuckles] A purple van with a unicorn painted on the side and a wizard staff in the back seat. Basically every college student's car.",
+          "media": {
+            "type": "image",
+            "prompt": "A beat-up purple 1980s van with a painted mural of a winged unicorn on its side, parked on a suburban street where mushroom-shaped houses line the road, a carved wooden wizard staff with a glowing gem leaning on the bumper, original artwork, no people, no characters, no text, no logos",
+            "file": "media/pixar-deep-cuts--pixar-prop-zoom-800.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Name the Pixar film this zoomed-in scene comes from.",
+          "answer": "A Bug's Life",
+          "accept": [
+            "a bug's life",
+            "a bugs life",
+            "bugs life",
+            "bug's life"
+          ],
+          "choices": [
+            "A Bug's Life",
+            "The Good Dinosaur",
+            "Onward",
+            "Elemental"
+          ],
+          "reveal": "The correct answer is A Bug's Life! [laughs] A tiny circus built in an old cracker box under a trailer. Pixar's second feature, from 1998. Let's hear it for the flea circus!",
+          "media": {
+            "type": "image",
+            "prompt": "A tiny insect-sized circus built inside a discarded animal cracker box under a desert trailer, a striped canvas tent made from a sock, string lights made from fireflies, a giant dandelion and seeds piled on a leaf, original artwork, no people, no characters, no text, no logos",
+            "file": "media/pixar-deep-cuts--pixar-prop-zoom-1000.jpg"
+          },
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "pixar-in-the-parks",
+      "title": "Pixar Pals in the Parks",
+      "kind": "parks",
+      "format": "text",
+      "intro": "Time for the parks: Pixar Pals in the Parks! [excited] Coasters, comedy clubs and clamshells, oh my.",
+      "art": {
+        "prompt": "A sunny theme park boardwalk at dusk with a giant swinging Ferris wheel, a red-rock desert town with neon signs and a seaside coaster track all glowing together, 16:9 widescreen, vibrant cinematic lighting, original artwork, no text, no logos, no characters, no people",
+        "file": "media/pixar-deep-cuts--pixar-in-the-parks.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "At Magic Kingdom's Monsters, Inc. Laugh Floor, the monsters collect this from the audience instead of screams.",
+          "answer": "Laughs",
+          "accept": [
+            "laughs",
+            "laughter",
+            "laughing",
+            "jokes and laughs"
+          ],
+          "choices": [
+            "Laughs",
+            "Screams",
+            "Tears",
+            "Snores"
+          ],
+          "reveal": "The correct answer is laughs! Mike Wazowski is the host. [laughs] Text him a joke, and he might even use it. No promises it'll be good.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "At Disney California Adventure, this land recreates Radiator Springs, Route 66 town of Lightning McQueen.",
+          "answer": "Cars Land",
+          "accept": [
+            "cars land",
+            "carsland"
+          ],
+          "choices": [
+            "Cars Land",
+            "Pixar Pier",
+            "Hollywood Land",
+            "Grizzly Peak"
+          ],
+          "reveal": "The correct answer is Cars Land! Those red rock mountains are made of concrete and steel. [whispers] And they look even better at sunset.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "On EPCOT's The Seas with Nemo and Friends, guests ride through the reef in vehicles shaped like these.",
+          "answer": "Clamshells",
+          "accept": [
+            "clamshells",
+            "clam shells",
+            "clams",
+            "clam mobiles",
+            "clam-mobiles"
+          ],
+          "choices": [
+            "Clamshells",
+            "Sea turtles",
+            "Submarines",
+            "Jellyfish"
+          ],
+          "reveal": "The correct answer is clamshells! The clam-mobiles take you past Nemo and friends into a real aquarium. [chuckles] No seashell phones, sorry.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Pixar Pier's giant Ferris wheel, with gondolas that swing as well as stay still, goes by this punny name.",
+          "answer": "Pixar Pal-A-Round",
+          "accept": [
+            "pixar pal-a-round",
+            "pixar pal a round",
+            "pal-a-round",
+            "pal a round",
+            "pixar palaround"
+          ],
+          "choices": [
+            "Pixar Pal-A-Round",
+            "Incredi-Wheel",
+            "The Luxo Loop",
+            "Pixar Spin-Around"
+          ],
+          "reveal": "The correct answer is Pixar Pal-A-Round! [mischievously] Pro tip: pick the swinging gondola if you want screaming... and the stationary one if you want a snack.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "At Disneyland Paris, this spinning roller coaster sends riders down the East Australian Current with a laid-back sea turtle.",
+          "answer": "Crush's Coaster",
+          "accept": [
+            "crush's coaster",
+            "crushs coaster",
+            "crush coaster",
+            "crush"
+          ],
+          "choices": [
+            "Crush's Coaster",
+            "Nemo's Wild Ride",
+            "Squirt's Surf Spin",
+            "Dory's Deep Dive"
+          ],
+          "reveal": "The correct answer is Crush's Coaster! [excited] It's a family coaster with a SERIOUS line. Totally worth it, dude. Righteous!",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "quote-unquote-pixar",
+      "title": "Quote, Unquote Pixar",
+      "kind": "fan",
+      "format": "quote",
+      "intro": "Our fan category is Quote, Unquote Pixar. I'll read a famous line, you tell me who said it. [chuckles] My impressions are... a work in progress.",
+      "art": {
+        "prompt": "A vintage radio microphone on a stage surrounded by floating speech bubbles shaped like clouds, film reels and tiny glowing stars, warm spotlight, 16:9 widescreen, vibrant cinematic lighting, original artwork, no text, no logos, no characters, no people",
+        "file": "media/pixar-deep-cuts--quote-unquote-pixar.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Name the Pixar character who said this.",
+          "answer": "Lightning McQueen",
+          "accept": [
+            "lightning mcqueen",
+            "lightning",
+            "mcqueen"
+          ],
+          "choices": [
+            "Lightning McQueen",
+            "Mater",
+            "Doc Hudson",
+            "Chick Hicks"
+          ],
+          "reveal": "The correct answer is Lightning McQueen! [laughs] Ka-chow! He says it right before his very first race in Cars.",
+          "quote": "Float like a Cadillac, sting like a Beemer. I am speed.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Name the Pixar character who said this.",
+          "answer": "Frozone",
+          "accept": [
+            "frozone",
+            "lucius",
+            "lucius best"
+          ],
+          "choices": [
+            "Frozone",
+            "Mr. Incredible",
+            "Edna Mode",
+            "Syndrome"
+          ],
+          "reveal": "The correct answer is Frozone! [laughs] Shouting at his wife from across the apartment while a robot attacks the city. Relatable.",
+          "quote": "Honey! Where is my super suit?",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Name the Pixar character who said this.",
+          "answer": "Bing Bong",
+          "accept": [
+            "bing bong",
+            "bingbong"
+          ],
+          "choices": [
+            "Bing Bong",
+            "Joy",
+            "Sadness",
+            "Riley"
+          ],
+          "reveal": "The correct answer is Bing Bong! [sighs] Riley's imaginary friend, made of cotton candy, saying goodbye. I'm not crying, YOU'RE crying.",
+          "quote": "Take her to the moon for me. Okay?",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Name the Pixar character who said this.",
+          "answer": "Anton Ego",
+          "accept": [
+            "anton ego",
+            "ego"
+          ],
+          "choices": [
+            "Anton Ego",
+            "Skinner",
+            "Gusteau",
+            "Colette"
+          ],
+          "reveal": "The correct answer is Anton Ego! The scariest food critic in Paris, until one bite of ratatouille. [whispers] It tasted like his childhood.",
+          "quote": "In many ways, the work of a critic is easy.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Name the Pixar character who said this.",
+          "answer": "The Captain",
+          "accept": [
+            "the captain",
+            "captain",
+            "captain mccrea",
+            "mccrea",
+            "captain b mccrea"
+          ],
+          "choices": [
+            "The Captain",
+            "AUTO",
+            "M-O",
+            "John"
+          ],
+          "reveal": "The correct answer is the Captain of the Axiom from WALL-E! [excited] He finally stands up, literally, against AUTO. Best character growth in space history.",
+          "quote": "I don't want to survive. I want to live.",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}
