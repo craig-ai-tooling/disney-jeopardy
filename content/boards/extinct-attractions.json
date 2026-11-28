@@ -1,0 +1,562 @@
+{
+  "id": "extinct-attractions",
+  "title": "Extinct Attractions",
+  "theme": "Removed rides and lost places",
+  "tags": [
+    "parks",
+    "history",
+    "extinct-attractions",
+    "nostalgia"
+  ],
+  "intro": "[excited] Welcome to a very special episode. [whispers] Tonight we honor the dearly departed. Horizons, Mr. Toad, Maelstrom, Superstar Limo... [laughs] okay, maybe not everyone misses Superstar Limo. Let's play Extinct Attractions!",
+  "art": {
+    "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A moonlit theme park graveyard of retired ride vehicles: a vintage submarine, a Viking-style boat, a cartoon jalopy and a sky gondola resting among glowing fireflies and ivy, wistful and whimsical.",
+    "file": "media/extinct-attractions.jpg"
+  },
+  "categories": [
+    {
+      "id": "merrily-on-our-way",
+      "title": "Motor Mania",
+      "kind": "film",
+      "intro": "Our film category powered a ride that was famously retired from Magic Kingdom in 1998. [excited] It's The Adventures of Ichabod and Mr. Toad!",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A bright red vintage motorcar careening down a country lane past a stately English manor, autumn leaves swirling, a pumpkin and a lantern on a covered bridge in the misty distance.",
+        "file": "media/extinct-attractions--merrily-on-our-way.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Mr. Toad becomes completely obsessed with zooming around in one of these brand-new machines.",
+          "answer": "A motorcar",
+          "accept": [
+            "a motorcar",
+            "a car",
+            "automobile",
+            "car",
+            "motor car",
+            "motorcar"
+          ],
+          "choices": [
+            "A motorcar",
+            "A hot air balloon",
+            "A steamboat",
+            "A bicycle"
+          ],
+          "reveal": "The correct answer is a motorcar! [laughs] Toad's 'motor mania' got its own ride. Poop poop!",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Ichabod Crane rides for his life when this spooky rider chases him on Halloween night.",
+          "answer": "The Headless Horseman",
+          "accept": [
+            "the headless horseman",
+            "headless horseman"
+          ],
+          "choices": [
+            "The Headless Horseman",
+            "The Phantom Rider",
+            "The Ghost Coachman",
+            "The Black Knight"
+          ],
+          "reveal": "The correct answer is the Headless Horseman! [gasps] Still one of the scariest scenes Disney ever animated. Hold on to your pumpkin.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Mr. Toad's grand family estate goes by this name.",
+          "answer": "Toad Hall",
+          "accept": [
+            "toad hall"
+          ],
+          "choices": [
+            "Toad Hall",
+            "Toad Manor",
+            "Toadstool Castle",
+            "Willow Court"
+          ],
+          "reveal": "The correct answer is Toad Hall! [chuckles] Disneyland Paris even has a Toad Hall Restaurant. Toad lives on, in fish and chips form.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Toad's loyal, chatty horse is named Cyril this.",
+          "answer": "Proudbottom",
+          "accept": [
+            "proudbottom",
+            "cyril proudbottom"
+          ],
+          "choices": [
+            "Proudbottom",
+            "Proudfoot",
+            "Hoofington",
+            "Trotwell"
+          ],
+          "reveal": "The correct answer is Proudbottom! [laughs] Cyril Proudbottom. A name you will never, ever forget now.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "The Wind in the Willows half of the film is narrated by Basil Rathbone, famous for playing this detective.",
+          "answer": "Sherlock Holmes",
+          "accept": [
+            "sherlock holmes",
+            "holmes",
+            "sherlock"
+          ],
+          "choices": [
+            "Sherlock Holmes",
+            "Hercule Poirot",
+            "Inspector Clouseau",
+            "Philip Marlowe"
+          ],
+          "reveal": "The correct answer is Sherlock Holmes! [excited] Bing Crosby narrates the Sleepy Hollow half. Two legends, one film.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "out-with-the-old",
+      "title": "Out With the Old",
+      "kind": "theme",
+      "intro": "Next, Out With the Old! I'll name a departed attraction, you name what moved in. [sighs] Some of these still hurt.",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. An old carnival ride building half covered in construction scaffolding, its faded mural peeling to reveal a brand new colourful mural underneath, sunrise light breaking through.",
+        "file": "media/extinct-attractions--out-with-the-old.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "EPCOT's Viking boat ride Maelstrom closed in 2014, and this ride starring two royal sisters took its place.",
+          "answer": "Frozen Ever After",
+          "accept": [
+            "frozen ever after",
+            "frozen"
+          ],
+          "choices": [
+            "Frozen Ever After",
+            "Soarin'",
+            "Test Track",
+            "Remy's Ratatouille Adventure"
+          ],
+          "reveal": "The correct answer is Frozen Ever After! [laughs] Maelstrom sailed its last trolls on October 5, 2014. Fans still miss that backwards plunge. Let it go? Never.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Snow White's Scary Adventures closed at Magic Kingdom in 2012. Its space became this royal meet-and-greet.",
+          "answer": "Princess Fairytale Hall",
+          "accept": [
+            "princess fairytale hall",
+            "princess fairy tale hall"
+          ],
+          "choices": [
+            "Princess Fairytale Hall",
+            "Enchanted Tales with Belle",
+            "Cinderella's Royal Table",
+            "Bibbidi Bobbidi Boutique"
+          ],
+          "reveal": "The correct answer is Princess Fairytale Hall! [chuckles] The ride really was scary, by the way. That witch popped out a LOT.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Superstar Limo, which lasted less than a year at Disney California Adventure, was replaced by a ride based on this Pixar film.",
+          "answer": "Monsters, Inc.",
+          "accept": [
+            "monsters, inc.",
+            "mike and sulley to the rescue",
+            "monsters inc",
+            "monsters inc.",
+            "monsters, inc. mike & sulley to the rescue!"
+          ],
+          "choices": [
+            "Monsters, Inc.",
+            "Cars",
+            "Toy Story",
+            "A Bug's Life"
+          ],
+          "reveal": "The correct answer is Monsters, Inc.! [laughs] Superstar Limo opened in 2001 and closed in early 2002. Mike and Sulley came to the rescue. Literally, that's the ride name.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In 2004, Stitch's Great Escape replaced this terrifying Tomorrowland show about an alien on the loose.",
+          "answer": "ExtraTERRORestrial Alien Encounter",
+          "accept": [
+            "extraterrorestrial alien encounter",
+            "alien encounter",
+            "extraterrestrial alien encounter",
+            "the extraterrorestrial alien encounter"
+          ],
+          "choices": [
+            "ExtraTERRORestrial Alien Encounter",
+            "Mission to Mars",
+            "Flight to the Moon",
+            "Timekeeper"
+          ],
+          "reveal": "The correct answer is ExtraTERRORestrial Alien Encounter! [gasps] It was so scary that kids ran out crying. Stitch kept the shoulder restraints, though.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Disneyland's Adventure Thru Inner Space, where guests shrank to the size of an atom, closed to make way for this 1987 ride.",
+          "answer": "Star Tours",
+          "accept": [
+            "star tours",
+            "star tours: the adventures continue"
+          ],
+          "choices": [
+            "Star Tours",
+            "Space Mountain",
+            "Rocket Rods",
+            "Honey, I Shrunk the Audience"
+          ],
+          "reveal": "The correct answer is Star Tours! [excited] Look closely and you'll spot the old Mighty Microscope in the Star Tours ride film. Tribute achieved.",
+          "dailyDouble": true
+        }
+      ]
+    },
+    {
+      "id": "gone-but-not-forgotten",
+      "title": "Gone But Not Forgotten",
+      "kind": "media",
+      "intro": "Time for Gone But Not Forgotten! These are real photos of attractions that are no longer with us. [sighs] Get your tissues ready.",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A dusty shoebox full of faded vintage snapshots and old ride tickets, a pressed souvenir penny and a candle softly glowing beside them.",
+        "file": "media/extinct-attractions--gone-but-not-forgotten.jpg"
+      },
+      "format": "picture",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This Magic Kingdom log flume closed in 2023 and was reimagined as Tiana's Bayou Adventure. What was it?",
+          "answer": "Splash Mountain",
+          "accept": [
+            "splash mountain"
+          ],
+          "choices": [
+            "Splash Mountain",
+            "Big Thunder Mountain Railroad",
+            "Grizzly River Run",
+            "Kali River Rapids"
+          ],
+          "reveal": "The correct answer is Splash Mountain! [sighs] Five-story drop, one big splash. Tiana moved in and opened in 2024.",
+          "media": {
+            "type": "image",
+            "file": "media/extinct-attractions--gone-but-not-forgotten-200.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Splash_Mountain_-_Magic_Kingdom_-_Walt_Disney_World.JPG",
+              "license": "CC BY 3.0",
+              "author": "Andygalloway93"
+            }
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "From 1989 to 2017, this ride inside the Chinese Theater took guests through famous movie scenes. What was it?",
+          "answer": "The Great Movie Ride",
+          "accept": [
+            "the great movie ride",
+            "great movie ride"
+          ],
+          "choices": [
+            "The Great Movie Ride",
+            "Mickey & Minnie's Runaway Railway",
+            "Studio Backlot Tour",
+            "Star Tours"
+          ],
+          "reveal": "The correct answer is The Great Movie Ride! [excited] Gangsters, Gene Kelly, an Alien... and a live cast member in every car.",
+          "media": {
+            "type": "image",
+            "file": "media/extinct-attractions--gone-but-not-forgotten-400.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:The_Great_Movie_Ride_building.jpg",
+              "license": "CC BY-SA 3.0",
+              "author": "Jedi94"
+            }
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "These Nautilus-style subs sailed Magic Kingdom's lagoon from 1971 to 1994. Name the ride.",
+          "answer": "20,000 Leagues Under the Sea: Submarine Voyage",
+          "accept": [
+            "20,000 leagues under the sea: submarine voyage",
+            "20,000 leagues",
+            "20,000 leagues under the sea",
+            "20000 leagues under the sea",
+            "submarine voyage",
+            "the submarine ride"
+          ],
+          "choices": [
+            "20,000 Leagues Under the Sea: Submarine Voyage",
+            "Finding Nemo Submarine Voyage",
+            "The Living Seas",
+            "Captain Nemo's Lagoon"
+          ],
+          "reveal": "The correct answer is 20,000 Leagues Under the Sea! [laughs] The subs never fully submerged. Shh, it's still magic.",
+          "media": {
+            "type": "image",
+            "file": "media/extinct-attractions--gone-but-not-forgotten-600.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:20000_Leagues_Ride_1979.jpg",
+              "license": "CC BY-SA 3.0",
+              "author": "Alex Reinhart"
+            }
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "This EPCOT pavilion, open from 1983 to 1999, let riders choose their own ending. Name it.",
+          "answer": "Horizons",
+          "accept": [
+            "horizons"
+          ],
+          "choices": [
+            "Horizons",
+            "World of Motion",
+            "Universe of Energy",
+            "Wonders of Life"
+          ],
+          "reveal": "The correct answer is Horizons! [sighs] Desert farm, undersea city or space station. Mission: SPACE stands where it used to be.",
+          "media": {
+            "type": "image",
+            "file": "media/extinct-attractions--gone-but-not-forgotten-800.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Horizons_at_Twilight_Time_(10061798533).jpg",
+              "license": "CC BY 2.0",
+              "author": "Sam Howzit"
+            }
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "This Walt Disney World water park on Bay Lake, open from 1976 to 2001, was themed like an old swimming hole. Name it.",
+          "answer": "River Country",
+          "accept": [
+            "river country",
+            "disney's river country"
+          ],
+          "choices": [
+            "River Country",
+            "Typhoon Lagoon",
+            "Blizzard Beach",
+            "Discovery Island"
+          ],
+          "reveal": "The correct answer is River Country! [whispers] It was Disney's very first water park. Today you can still spot bits of it hidden in the trees.",
+          "media": {
+            "type": "image",
+            "file": "media/extinct-attractions--gone-but-not-forgotten-1000.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Disney%27s_River_Country_Slippery_Slide_Falls.jpg",
+              "license": "CC BY-SA 4.0",
+              "author": "Quarax"
+            }
+          },
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "lost-places",
+      "title": "Lost Places",
+      "kind": "parks",
+      "intro": "Our parks category is Lost Places! [mischievously] Not just rides. Whole parks, islands and neighborhoods have vanished too.",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. An abandoned tropical island with an overgrown boardwalk and a sun-bleached lighthouse, a tiny narrow-gauge steam train half hidden in pine trees, and faded neon nightclub lights across the water.",
+        "file": "media/extinct-attractions--lost-places.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Before it was renamed in 2015, Disney Springs was known by this name.",
+          "answer": "Downtown Disney",
+          "accept": [
+            "downtown disney",
+            "downtown disney marketplace"
+          ],
+          "choices": [
+            "Downtown Disney",
+            "Disney Village",
+            "Pleasure Island",
+            "Lake Buena Vista Shopping Village"
+          ],
+          "reveal": "The correct answer is Downtown Disney! [chuckles] Disneyland still uses the name. Florida got a fancy upgrade with springs.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "This indoor arcade at Walt Disney World let you design and ride your own virtual roller coaster before closing in 2017.",
+          "answer": "DisneyQuest",
+          "accept": [
+            "disneyquest",
+            "disney quest"
+          ],
+          "choices": [
+            "DisneyQuest",
+            "Innoventions",
+            "Game Works",
+            "Pixar Place"
+          ],
+          "reveal": "The correct answer is DisneyQuest! [laughs] Five floors of games. It opened in 1998 and closed in July 2017. The ultimate rainy-day spot.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "At this Walt Disney World nightlife island, it was New Year's Eve every single night until 2005.",
+          "answer": "Pleasure Island",
+          "accept": [
+            "pleasure island"
+          ],
+          "choices": [
+            "Pleasure Island",
+            "Treasure Island",
+            "Discovery Island",
+            "Castaway Cay"
+          ],
+          "reveal": "The correct answer is Pleasure Island! [excited] Fireworks and confetti at midnight, every night. Its clubs closed in 2008.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "This Bay Lake island was a zoo full of birds and animals until it closed to the public in 1999.",
+          "answer": "Discovery Island",
+          "accept": [
+            "discovery island"
+          ],
+          "choices": [
+            "Discovery Island",
+            "Tom Sawyer Island",
+            "Castaway Cay",
+            "Typhoon Lagoon"
+          ],
+          "reveal": "The correct answer is Discovery Island! [whispers] It first opened in 1974 as Treasure Island, and today it sits abandoned in the middle of the lake.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "This little steam railroad chugged around Fort Wilderness campground from the 1970s until it closed for good in 1980.",
+          "answer": "Fort Wilderness Railroad",
+          "accept": [
+            "fort wilderness railroad",
+            "fort wilderness train"
+          ],
+          "choices": [
+            "Fort Wilderness Railroad",
+            "Walt Disney World Railroad",
+            "Wildlife Express Train",
+            "Lilly Belle Express"
+          ],
+          "reveal": "The correct answer is the Fort Wilderness Railroad! [gasps] Noise, maintenance and pedestrian worries derailed it. Pieces of the track bed are still hidden in the woods.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "lost-ride-stars",
+      "title": "Lost Ride Stars",
+      "kind": "fan",
+      "intro": "Our fan category is Lost Ride Stars! [excited] Real celebrities who starred in attractions that are now gone.",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A dim, empty retro movie theater with 3D glasses resting on velvet seats, a spotlight on an empty stage, a star-shaped dressing room door slightly ajar.",
+        "file": "media/extinct-attractions--lost-ride-stars.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "The 3D film Captain EO, which debuted in 1986, starred this King of Pop.",
+          "answer": "Michael Jackson",
+          "accept": [
+            "michael jackson",
+            "mj"
+          ],
+          "choices": [
+            "Michael Jackson",
+            "Prince",
+            "Lionel Richie",
+            "Elton John"
+          ],
+          "reveal": "The correct answer is Michael Jackson! [excited] Dancing in space, fighting an evil queen. Very 1986. Very glorious.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "EPCOT's Universe of Energy show featured this comedian dreaming she was on Jeopardy!, with help from Bill Nye.",
+          "answer": "Ellen DeGeneres",
+          "accept": [
+            "ellen degeneres",
+            "ellen"
+          ],
+          "choices": [
+            "Ellen DeGeneres",
+            "Rosie O'Donnell",
+            "Whoopi Goldberg",
+            "Joan Rivers"
+          ],
+          "reveal": "The correct answer is Ellen DeGeneres! [laughs] Ellen's Energy Adventure. A Jeopardy! game inside a Disney ride. Sound familiar?",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Honey, I Shrunk the Audience, at EPCOT from 1994 to 2010, starred this actor as inventor Wayne Szalinski.",
+          "answer": "Rick Moranis",
+          "accept": [
+            "rick moranis",
+            "moranis"
+          ],
+          "choices": [
+            "Rick Moranis",
+            "Steve Martin",
+            "John Candy",
+            "Martin Short"
+          ],
+          "reveal": "The correct answer is Rick Moranis! [chuckles] Shrink ray, giant snake, sneezing dog. It was a full-body experience.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Body Wars, a simulator ride inside the human body at EPCOT, was directed by this Star Trek actor.",
+          "answer": "Leonard Nimoy",
+          "accept": [
+            "leonard nimoy",
+            "nimoy"
+          ],
+          "choices": [
+            "Leonard Nimoy",
+            "William Shatner",
+            "Patrick Stewart",
+            "George Takei"
+          ],
+          "reveal": "The correct answer is Leonard Nimoy! [laughs] Mr. Spock sending you into a bloodstream. Fascinating.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Captain EO was directed by Francis Ford Coppola, with this Star Wars creator as executive producer.",
+          "answer": "George Lucas",
+          "accept": [
+            "george lucas",
+            "lucas"
+          ],
+          "choices": [
+            "George Lucas",
+            "Steven Spielberg",
+            "James Cameron",
+            "Ron Howard"
+          ],
+          "reveal": "The correct answer is George Lucas! [excited] Coppola plus Lucas plus Michael Jackson. That's a lot of star power for 17 minutes.",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}

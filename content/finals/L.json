@@ -1,0 +1,144 @@
+[
+  {
+    "film": "Swiss Family Robinson",
+    "category": "Swiss Family Robinson",
+    "clue": "After building their amazing treehouse, the shipwrecked Robinsons must defend their island from a gang of these.",
+    "answer": "Pirates",
+    "accept": [
+      "pirates",
+      "pirate",
+      "a pirate gang"
+    ],
+    "choices": [
+      "Pirates",
+      "Tigers",
+      "Soldiers",
+      "Cannibals"
+    ],
+    "reveal": "[excited] The correct answer is pirates! Log traps, coconut bombs and tumbling boulders. And the treehouse lives on in Magic Kingdom's Adventureland."
+  },
+  {
+    "film": "Tron: Legacy",
+    "category": "Tron: Legacy",
+    "clue": "In 2010's Tron: Legacy, Sam Flynn learns his father Kevin was overthrown inside the Grid by this digital copy of himself.",
+    "answer": "CLU",
+    "accept": [
+      "clu",
+      "clu 2",
+      "clu 2.0"
+    ],
+    "choices": [
+      "CLU",
+      "Rinzler",
+      "Zuse",
+      "Sark"
+    ],
+    "reveal": "[excited] The correct answer is CLU! Jeff Bridges plays him too, digitally de-aged. [laughs] Imagine your own copy stealing your job. Rude."
+  },
+  {
+    "film": "Honey, I Shrunk the Kids",
+    "category": "Honey, I Shrunk the Kids",
+    "clue": "Shrunk to the size of bugs, the Szalinski kids ride across their backyard on a friendly one of these insects they nickname Anty.",
+    "answer": "An ant",
+    "accept": [
+      "ant",
+      "an ant",
+      "anty"
+    ],
+    "choices": [
+      "An ant",
+      "A bee",
+      "A ladybug",
+      "A beetle"
+    ],
+    "reveal": "[sighs] The correct answer is an ant! Anty bravely fights off a scorpion to save them. [laughs] EPCOT later shrunk whole audiences with Rick Moranis."
+  },
+  {
+    "film": "Avatar",
+    "category": "Avatar",
+    "clue": "In 2009's Avatar, Jake Sully learns the ways of the Na'vi from this Omaticaya princess.",
+    "answer": "Neytiri",
+    "accept": [
+      "neytiri"
+    ],
+    "choices": [
+      "Neytiri",
+      "Mo'at",
+      "Kiri",
+      "Trudy"
+    ],
+    "reveal": "[excited] The correct answer is Neytiri! Her world inspired Pandora at Animal Kingdom, banshees and all. [whispers] I see you."
+  },
+  {
+    "film": "20,000 Leagues Under the Sea",
+    "category": "20,000 Leagues Under the Sea",
+    "clue": "In Disney's 1954 film, Captain Nemo's crew on the Nautilus battles a giant one of these sea monsters.",
+    "answer": "Squid",
+    "accept": [
+      "squid",
+      "a squid",
+      "giant squid",
+      "a giant squid"
+    ],
+    "choices": [
+      "Squid",
+      "Shark",
+      "Whale",
+      "Sea serpent"
+    ],
+    "reveal": "[gasps] The correct answer is a giant squid! The film won an Oscar for its special effects, and Magic Kingdom sent guests sailing in Nautilus subs until 1994."
+  },
+  {
+    "film": "Who Framed Roger Rabbit",
+    "category": "Who Framed Roger Rabbit",
+    "clue": "Judge Doom plans to wipe out Toontown with this toxic mix of turpentine, acetone and benzene.",
+    "answer": "The Dip",
+    "accept": [
+      "the dip",
+      "dip"
+    ],
+    "choices": [
+      "The Dip",
+      "The Goo",
+      "The Melt",
+      "The Toon Tonic"
+    ],
+    "reveal": "[gasps] The correct answer is the Dip! The only thing that can kill a toon. Disneyland's Toontown has Roger's car-spinning ride to cheer you up."
+  },
+  {
+    "film": "The Rescuers Down Under",
+    "category": "The Rescuers Down Under",
+    "clue": "Bernard and Bianca fly to Australia on the back of this clumsy albatross, the brother of Orville.",
+    "answer": "Wilbur",
+    "accept": [
+      "wilbur"
+    ],
+    "choices": [
+      "Wilbur",
+      "Marahute",
+      "Jake",
+      "Joanna"
+    ],
+    "reveal": "[laughs] The correct answer is Wilbur! Orville and Wilbur, named after the Wright brothers. Albatross Air: not the smoothest landing."
+  },
+  {
+    "film": "Toy Story 4",
+    "category": "Toy Story 4",
+    "clue": "In Toy Story 4, the antique doll Gabby Gabby wants to take this working part from Woody.",
+    "answer": "His voice box",
+    "accept": [
+      "his voice box",
+      "voice box",
+      "voicebox",
+      "pull string",
+      "his pull string"
+    ],
+    "choices": [
+      "His voice box",
+      "His hat",
+      "His sheriff badge",
+      "His boots"
+    ],
+    "reveal": "[chuckles] The correct answer is his voice box! Gabby's was broken. Thankfully, there's a snake in Woody's boot... and a heart in his stuffing."
+  }
+]

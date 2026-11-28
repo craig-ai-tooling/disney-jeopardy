@@ -1,0 +1,583 @@
+{
+  "id": "hollywood-studios-showtime",
+  "title": "Hollywood Studios Showtime",
+  "theme": "Disney's Hollywood Studios",
+  "tags": [
+    "parks",
+    "hollywood-studios",
+    "walt-disney-world"
+  ],
+  "intro": "[excited] Lights! Camera! Buzzers! Tonight's whole board is Disney's Hollywood Studios: stunt shows, drop towers, launch coasters and dinner in a drive-in. [laughs] Places, everyone, we're rolling!",
+  "art": {
+    "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A glamorous old-Hollywood boulevard at dusk with neon marquees, a looming abandoned hotel tower struck by lightning, searchlights sweeping the sky and a vintage film camera on a tripod.",
+    "file": "media/hollywood-studios-showtime.jpg"
+  },
+  "categories": [
+    {
+      "id": "snakes-why-snakes",
+      "title": "Why'd It Have to Be Snakes?",
+      "kind": "film",
+      "intro": "Our film category has been doing stunts at the Studios since day one. [dramatic] It's Raiders of the Lost Ark! Grab your fedora.",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A worn brown fedora and coiled leather bullwhip resting on an ancient stone altar, a golden idol glinting in torchlight, a giant stone boulder looming in a dusty temple corridor.",
+        "file": "media/hollywood-studios-showtime--snakes-why-snakes.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Indiana Jones never leaves home without this long leather weapon, which he cracks to swing across pits.",
+          "answer": "A bullwhip",
+          "accept": [
+            "a bullwhip",
+            "a whip",
+            "bullwhip",
+            "whip"
+          ],
+          "choices": [
+            "A bullwhip",
+            "A lasso",
+            "A boomerang",
+            "A sword"
+          ],
+          "reveal": "The correct answer is a bullwhip! [laughs] And the fedora. Never forget the hat. He literally reaches back for it.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Indy is brave about almost everything except these slithering creatures.",
+          "answer": "Snakes",
+          "accept": [
+            "snakes",
+            "snake"
+          ],
+          "choices": [
+            "Snakes",
+            "Spiders",
+            "Rats",
+            "Bats"
+          ],
+          "reveal": "The correct answer is snakes! [whispers] And of course, the Well of Souls is absolutely full of them. Rough day at the office.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "In the film's famous opening, Indy runs for his life from a giant rolling one of these.",
+          "answer": "Boulder",
+          "accept": [
+            "boulder",
+            "a boulder",
+            "giant boulder",
+            "rock"
+          ],
+          "choices": [
+            "Boulder",
+            "Cannonball",
+            "Mine cart",
+            "Barrel"
+          ],
+          "reveal": "The correct answer is a boulder! [excited] The Indiana Jones Epic Stunt Spectacular recreates it live at the Studios. Run, Indy, run!",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Indy races the Nazis to find this sacred chest, said to hold the stone tablets of the Ten Commandments.",
+          "answer": "The Ark of the Covenant",
+          "accept": [
+            "the ark of the covenant",
+            "ark",
+            "ark of the covenant",
+            "the ark",
+            "the lost ark"
+          ],
+          "choices": [
+            "The Ark of the Covenant",
+            "The Holy Grail",
+            "The Crystal Skull",
+            "The Sankara Stones"
+          ],
+          "reveal": "The correct answer is the Ark of the Covenant! [gasps] Pro tip: if you ever find it, do NOT open it. Keep your eyes closed.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Indy finds his old flame Marion Ravenwood running a tough mountain bar in this country.",
+          "answer": "Nepal",
+          "accept": [
+            "nepal"
+          ],
+          "choices": [
+            "Nepal",
+            "Tibet",
+            "Egypt",
+            "Mongolia"
+          ],
+          "reveal": "The correct answer is Nepal! [laughs] Her bar is the Raven, and she can out-drink anyone in the room. Indy is not ready.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "ride-the-studios",
+      "title": "Ride the Studios",
+      "kind": "theme",
+      "intro": "Next, Ride the Studios! These are the big rides on the Studios' back lot. [chuckles] Keep your arms inside the limo.",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A glowing pink electric guitar-shaped roller coaster track twisting through a neon city night, giant toy carnival targets, and the silhouette of a starship hangar in the distance.",
+        "file": "media/hollywood-studios-showtime--ride-the-studios.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In this Toy Story Land ride, you wear 3D glasses and fire at carnival-style games with Woody and friends.",
+          "answer": "Toy Story Mania!",
+          "accept": [
+            "toy story mania!",
+            "toy story mania",
+            "toy story midway mania"
+          ],
+          "choices": [
+            "Toy Story Mania!",
+            "Slinky Dog Dash",
+            "Alien Swirling Saucers",
+            "Buzz Lightyear's Space Ranger Spin"
+          ],
+          "reveal": "The correct answer is Toy Story Mania! [excited] Pro tip: aim for the hidden targets. And yes, it's fine to be competitive with your grandma.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "This dark coaster on Sunset Boulevard launches riders from 0 to 57 miles per hour in about 2.8 seconds.",
+          "answer": "Rock 'n' Roller Coaster",
+          "accept": [
+            "rock 'n' roller coaster",
+            "rock and roller coaster",
+            "rock n roller coaster",
+            "rock n' roller coaster",
+            "rockin roller coaster"
+          ],
+          "choices": [
+            "Rock 'n' Roller Coaster",
+            "Tower of Terror",
+            "Slinky Dog Dash",
+            "Star Tours"
+          ],
+          "reveal": "The correct answer is Rock 'n' Roller Coaster! [gasps] Zero to highway speed before you can finish screaming 'wait'.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "From 1999 until 2026, riders on Rock 'n' Roller Coaster raced through L.A. to catch a concert by this band.",
+          "answer": "Aerosmith",
+          "accept": [
+            "aerosmith"
+          ],
+          "choices": [
+            "Aerosmith",
+            "The Muppets",
+            "KISS",
+            "Journey"
+          ],
+          "reveal": "The correct answer is Aerosmith! [laughs] In 2026 the Muppets took over the limo. Dr. Teeth and the Electric Mayhem, take it away!",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In this Galaxy's Edge ride, you get captured by the First Order and must escape their Star Destroyer.",
+          "answer": "Star Wars: Rise of the Resistance",
+          "accept": [
+            "star wars: rise of the resistance",
+            "rise of the resistance",
+            "star wars rise of the resistance"
+          ],
+          "choices": [
+            "Star Wars: Rise of the Resistance",
+            "Millennium Falcon: Smugglers Run",
+            "Star Tours: The Adventures Continue",
+            "Mission: SPACE"
+          ],
+          "reveal": "The correct answer is Rise of the Resistance! [whispers] It's long, it's epic, and you will absolutely hide from a stormtrooper at some point.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "This 3D Muppet show played at the Studios from 1991 to 2025, and it was the final major project of Jim Henson.",
+          "answer": "Muppet*Vision 3D",
+          "accept": [
+            "muppet*vision 3d",
+            "muppet vision",
+            "muppet vision 3d",
+            "muppetvision",
+            "muppetvision 3d"
+          ],
+          "choices": [
+            "Muppet*Vision 3D",
+            "The Muppet Show Live",
+            "Honey, I Shrunk the Audience",
+            "Captain EO"
+          ],
+          "reveal": "The correct answer is Muppet Vision 3D! [sighs] It opened a year to the day after Jim Henson died. Disney recorded it for preservation before it closed.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "studio-snapshots",
+      "title": "Studio Snapshots",
+      "kind": "media",
+      "intro": "Time for Studio Snapshots! These are real photos from Hollywood Studios. [excited] Name what you're looking at.",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A pile of glossy vintage photographs scattered on a director's chair, showing glimpses of a tower, a water tower and a movie palace, a clapperboard without writing beside them.",
+        "file": "media/hollywood-studios-showtime--studio-snapshots.jpg"
+      },
+      "format": "picture",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Name this Toy Story Land coaster.",
+          "answer": "Slinky Dog Dash",
+          "accept": [
+            "slinky dog dash",
+            "slinky dog"
+          ],
+          "choices": [
+            "Slinky Dog Dash",
+            "Alien Swirling Saucers",
+            "Toy Story Mania!",
+            "Rock 'n' Roller Coaster"
+          ],
+          "reveal": "The correct answer is Slinky Dog Dash! [laughs] The whole land makes you feel toy-sized in Andy's backyard.",
+          "media": {
+            "type": "image",
+            "file": "media/hollywood-studios-showtime--studio-snapshots-200.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Slinky_Dog_Dash_1.jpg",
+              "license": "CC BY 2.0",
+              "author": "~Ealasaid~"
+            }
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Name the scary ride inside this crumbling hotel.",
+          "answer": "The Twilight Zone Tower of Terror",
+          "accept": [
+            "the twilight zone tower of terror",
+            "the tower of terror",
+            "tower of terror",
+            "twilight zone tower of terror"
+          ],
+          "choices": [
+            "The Twilight Zone Tower of Terror",
+            "Rock 'n' Roller Coaster",
+            "Haunted Mansion",
+            "Mission: SPACE"
+          ],
+          "reveal": "The correct answer is the Tower of Terror! [gasps] The building is 199 feet tall, kept just under 200 so it wouldn't need an airplane warning light.",
+          "media": {
+            "type": "image",
+            "file": "media/hollywood-studios-showtime--studio-snapshots-400.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Hollywood_Tower_Hotel.jpg",
+              "license": "CC BY-SA 4.0",
+              "author": "Benjamin D. Esham (bdesham)"
+            }
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Today, this copy of a famous Hollywood movie palace houses which attraction?",
+          "answer": "Mickey & Minnie's Runaway Railway",
+          "accept": [
+            "mickey & minnie's runaway railway",
+            "mickey and minnie's runaway railway",
+            "mickey and minnies runaway railway",
+            "runaway railway"
+          ],
+          "choices": [
+            "Mickey & Minnie's Runaway Railway",
+            "The Great Movie Ride",
+            "Star Tours",
+            "Toy Story Mania!"
+          ],
+          "reveal": "The correct answer is Mickey and Minnie's Runaway Railway! [excited] It opened in 2020 inside the Chinese Theater, where the Great Movie Ride used to live.",
+          "media": {
+            "type": "image",
+            "file": "media/hollywood-studios-showtime--studio-snapshots-600.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Runaway_Railway_Chinese_Theater.jpg",
+              "license": "CC BY-SA 4.0",
+              "author": "Jedi94"
+            }
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "This giant icon stood in front of the Chinese Theater from 2001 to 2015. What was it?",
+          "answer": "The Sorcerer's Hat",
+          "accept": [
+            "the sorcerer's hat",
+            "mickey's sorcerer hat",
+            "sorcerer hat",
+            "sorcerer's hat",
+            "sorcerers hat",
+            "the sorcerer hat"
+          ],
+          "choices": [
+            "The Sorcerer's Hat",
+            "Partners Statue",
+            "The Earffel Tower",
+            "The Tree of Life"
+          ],
+          "reveal": "The correct answer is the Sorcerer's Hat! [sighs] It was over 120 feet tall and basically a giant pin-trading store. Gone, but not forgotten.",
+          "media": {
+            "type": "image",
+            "file": "media/hollywood-studios-showtime--studio-snapshots-800.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Sorcerer%27s_Hat_2008.jpg",
+              "license": "CC BY-SA 3.0",
+              "author": "Fabi1994 at German Wikipedia"
+            }
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "This water tower with a famous pair of ears stood over the Studios until 2016. What was it called?",
+          "answer": "The Earffel Tower",
+          "accept": [
+            "the earffel tower",
+            "earffel tower",
+            "earful tower",
+            "the earful tower"
+          ],
+          "choices": [
+            "The Earffel Tower",
+            "The Sorcerer's Hat",
+            "The Hollywood Tower",
+            "The Mickey Tower"
+          ],
+          "reveal": "The correct answer is the Earffel Tower! [laughs] A 130-foot water tower wearing Mickey ears. Peak theme park fashion.",
+          "media": {
+            "type": "image",
+            "file": "media/hollywood-studios-showtime--studio-snapshots-1000.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:DisneyMgmEarfulTower.jpg",
+              "license": "CC BY-SA 3.0",
+              "author": "Rmkf1982 (talk)"
+            }
+          },
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "backlot-backstory",
+      "title": "Backlot Backstory",
+      "kind": "parks",
+      "intro": "Our parks category is Backlot Backstory! [mischievously] How well do you know the Studios' own life story?",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. An old studio backlot at sunset with a tram winding past soundstages, a vintage city street facade, a fake canyon with a tanker truck and film reels stacked by a gate.",
+        "file": "media/hollywood-studios-showtime--backlot-backstory.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Guests enter Hollywood Studios onto this street, named for a famous road in Los Angeles.",
+          "answer": "Hollywood Boulevard",
+          "accept": [
+            "hollywood boulevard",
+            "hollywood blvd"
+          ],
+          "choices": [
+            "Hollywood Boulevard",
+            "Sunset Boulevard",
+            "Main Street, U.S.A.",
+            "Buena Vista Street"
+          ],
+          "reveal": "The correct answer is Hollywood Boulevard! [excited] Sunset Boulevard branches off it toward the Tower of Terror. Very L.A., minus the traffic.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Hollywood Studios first opened under this name, with a partner film studio in the title.",
+          "answer": "Disney-MGM Studios",
+          "accept": [
+            "disney-mgm studios",
+            "disney mgm studios",
+            "disney-mgm",
+            "mgm studios"
+          ],
+          "choices": [
+            "Disney-MGM Studios",
+            "Disney-Universal Studios",
+            "Disney-Paramount Studios",
+            "Disney-Warner Studios"
+          ],
+          "reveal": "The correct answer is Disney-MGM Studios! [chuckles] MGM's roaring lion and Mickey shared billing for almost twenty years.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Disney-MGM Studios opened on May 1 of this year.",
+          "answer": "1989",
+          "accept": [
+            "1989"
+          ],
+          "choices": [
+            "1989",
+            "1982",
+            "1994",
+            "1971"
+          ],
+          "reveal": "The correct answer is 1989! [laughs] It's the third Walt Disney World park, opened while there were real film and animation studios working inside.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "The park officially changed its name to Disney's Hollywood Studios in this year.",
+          "answer": "2008",
+          "accept": [
+            "2008"
+          ],
+          "choices": [
+            "2008",
+            "2001",
+            "2015",
+            "1999"
+          ],
+          "reveal": "The correct answer is 2008! [whispers] Fans still call it MGM sometimes. Old habits die hard.",
+          "dailyDouble": true
+        },
+        {
+          "value": 1000,
+          "clue": "The Studio Backlot Tour's tram ride ended in this fiery flash-flood canyon until the tour closed in 2014.",
+          "answer": "Catastrophe Canyon",
+          "accept": [
+            "catastrophe canyon"
+          ],
+          "choices": [
+            "Catastrophe Canyon",
+            "Disaster Gulch",
+            "Earthquake Canyon",
+            "Flash Flood Valley"
+          ],
+          "reveal": "The correct answer is Catastrophe Canyon! [gasps] Fire, explosions and a tidal wave of water, all on one tram. They did not skimp on drama.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "dinner-and-a-show",
+      "title": "Dinner and a Show",
+      "kind": "fan",
+      "intro": "Our fan category is Dinner and a Show! [excited] The Studios might have the most theatrical restaurants in all of Disney.",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A retro drive-in movie theater at night with diners seated in classic convertible cars, a giant green dinosaur-shaped ice cream stand by a lake, and a slice of grapefruit cake on a fancy plate.",
+        "file": "media/hollywood-studios-showtime--dinner-and-a-show.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Gertie, the giant green dinosaur by Echo Lake, is actually a stand that sells this sweet frozen treat.",
+          "answer": "Ice cream",
+          "accept": [
+            "ice cream",
+            "ice-cream",
+            "soft serve"
+          ],
+          "choices": [
+            "Ice cream",
+            "Popcorn",
+            "Cotton candy",
+            "Lemonade"
+          ],
+          "reveal": "The correct answer is ice cream! [laughs] Dinosaur Gertie's Ice Cream of Extinction. Best shop name in Florida, don't argue with me.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "At this Studios restaurant, you eat dinner sitting in a classic car while old sci-fi movies play on a giant screen.",
+          "answer": "Sci-Fi Dine-In Theater Restaurant",
+          "accept": [
+            "sci-fi dine-in theater restaurant",
+            "sci fi dine in",
+            "sci fi dine in theater restaurant",
+            "sci-fi dine in theater",
+            "sci-fi dine-in"
+          ],
+          "choices": [
+            "Sci-Fi Dine-In Theater Restaurant",
+            "50's Prime Time Café",
+            "Hollywood & Vine",
+            "ABC Commissary"
+          ],
+          "reveal": "The correct answer is the Sci-Fi Dine-In Theater Restaurant! [chuckles] Popcorn, burgers and alien invasions. Date night solved.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "At this Studios restaurant, servers act like your family members and nag you to keep your elbows off the table.",
+          "answer": "50's Prime Time Café",
+          "accept": [
+            "50's prime time café",
+            "50's prime time",
+            "50's prime time cafe",
+            "50s prime time cafe",
+            "prime time cafe"
+          ],
+          "choices": [
+            "50's Prime Time Café",
+            "Sci-Fi Dine-In Theater Restaurant",
+            "Hollywood & Vine",
+            "Mama Melrose's Ristorante Italiano"
+          ],
+          "reveal": "The correct answer is the 50's Prime Time Café! [laughs] Clean your plate, or no dessert. Mom's rules apply.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "The Hollywood Brown Derby is famous for the Cobb salad and for this citrus-filled dessert cake.",
+          "answer": "Grapefruit cake",
+          "accept": [
+            "grapefruit cake",
+            "grapefruit"
+          ],
+          "choices": [
+            "Grapefruit cake",
+            "Key lime cake",
+            "Lemon drizzle cake",
+            "Orange chiffon cake"
+          ],
+          "reveal": "The correct answer is grapefruit cake! [excited] It's a recipe from the original Brown Derby in Los Angeles. Tart, sweet, very old-Hollywood.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Tucked near Grand Avenue, this Studios restaurant serves Italian dishes like flatbreads and pasta.",
+          "answer": "Mama Melrose's Ristorante Italiano",
+          "accept": [
+            "mama melrose's ristorante italiano",
+            "mama melrose",
+            "mama melrose's",
+            "mama melroses"
+          ],
+          "choices": [
+            "Mama Melrose's Ristorante Italiano",
+            "Tony's Town Square Restaurant",
+            "Via Napoli",
+            "Tutto Italia"
+          ],
+          "reveal": "The correct answer is Mama Melrose's! [chuckles] Tony's is in Magic Kingdom, and Via Napoli is over at EPCOT's Italy. Mama is the Studios' own.",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}
