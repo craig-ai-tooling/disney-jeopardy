@@ -15,7 +15,7 @@ const P = (id) => S?.players.find((p) => p.id === id);
 const mine = () => P(me);
 
 function connect(name) {
-  sock = new Socket({ role: 'player', code }, (m) => {
+  sock = new Socket({ role: 'player', room: code }, (m) => {
     if (m.t === 'open') send({ t: 'join', pid: me, name, avatar });
     else if (m.t === 'joined') { me = m.pid; localStorage[key] = JSON.stringify({ pid: me }); }
     else if (m.t === 'state') { const prevPhase = S?.phase; S = m; onPhase(prevPhase); render(); }

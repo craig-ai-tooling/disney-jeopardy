@@ -9,6 +9,7 @@ const VALUES = [200, 400, 600, 800, 1000];
 const COLORS = ['#ffcf3f', '#4fc3ff', '#ff6fae', '#7dff8a', '#c08cff', '#ff8a3d', '#3dffe0', '#ff4f4f', '#b6ff3d', '#ffffff', '#ffa8e0', '#8ab4ff'];
 const AVATARS = ['castle', 'star', 'crown', 'rocket', 'shell', 'apple', 'lamp', 'slipper', 'rose', 'wand', 'balloon', 'teacup'];
 const CODE_CHARS = 'ABCDEFGHJKMNPQRSTUVWXYZ';
+const SCALE = Number(process.env.TIME_SCALE || 1);
 const T = { buzz: 9000, answer: 15000, answerTyped: 22000, ddWager: 25000, finalWager: 35000, finalThink: 35000, ruling: 20000, reveal: 6000, earlyLock: 300 };
 
 const shuffle = (a) => { a = [...a]; for (let i = a.length - 1; i > 0; i--) { const j = crypto.randomInt(i + 1); [a[i], a[j]] = [a[j], a[i]]; } return a; };
@@ -527,7 +528,7 @@ export class Room {
   }
 
   // ---------- timers / output ----------
-  setTimer(ms, fn) { this.clearTimer(); this.deadline = now() + ms; this.timer = setTimeout(() => { this.timer = null; this.deadline = 0; fn(); }, ms); }
+  setTimer(ms, fn) { this.clearTimer(); ms = Math.max(15, ms * SCALE); this.deadline = now() + ms; this.timer = setTimeout(() => { this.timer = null; this.deadline = 0; fn(); }, ms); }
   clearTimer() { clearTimeout(this.timer); this.timer = null; this.deadline = 0; }
 
   // Narration goes to the TV only. `wait` means the TV should report readDone when it finishes speaking.
