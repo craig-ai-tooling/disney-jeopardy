@@ -1,0 +1,139 @@
+[
+  {
+    "film": "Wreck-It Ralph",
+    "category": "Wreck-It Ralph",
+    "clue": "In Sugar Rush, King Candy is unmasked as this glitchy racer, whose jealousy once got his own game and another unplugged.",
+    "answer": "Turbo",
+    "accept": [
+      "turbo"
+    ],
+    "choices": [
+      "Turbo",
+      "Sour Bill",
+      "Taffyta Muttonfudge",
+      "Rancis Fluggerbutter"
+    ],
+    "reveal": "[gasps] The correct answer is Turbo! King Candy was Turbo all along. [laughs] Going Turbo is still arcade slang for wrecking somebody else's game."
+  },
+  {
+    "film": "The Emperor's New Groove",
+    "category": "The Emperor's New Groove",
+    "clue": "This kind-hearted village leader helps llama Kuzco get back to the palace, even after Kuzco planned to bulldoze his home.",
+    "answer": "Pacha",
+    "accept": [
+      "pacha"
+    ],
+    "choices": [
+      "Pacha",
+      "Kronk",
+      "Bucky",
+      "Chaca"
+    ],
+    "reveal": "The correct answer is Pacha! Voiced by John Goodman. [chuckles] And he still lets Kuzco build his summer getaway... on the NEXT hill over. Boom, baby!"
+  },
+  {
+    "film": "Robin Hood",
+    "category": "Robin Hood",
+    "clue": "In Disney's 1973 Robin Hood, this rooster minstrel narrates the story and strums the song Oo-De-Lally.",
+    "answer": "Alan-a-Dale",
+    "accept": [
+      "alan-a-dale",
+      "alan a dale",
+      "allan-a-dale",
+      "allan a dale"
+    ],
+    "choices": [
+      "Alan-a-Dale",
+      "Friar Tuck",
+      "Sir Hiss",
+      "Little John"
+    ],
+    "reveal": "The correct answer is Alan-a-Dale! Voiced by country singer Roger Miller, who wrote the songs too. [laughs] And yes, the whistle tune was later sped up into an internet sensation."
+  },
+  {
+    "film": "The Aristocats",
+    "category": "The Aristocats",
+    "clue": "In The Aristocats, this greedy butler kidnaps Duchess and her kittens after learning they will inherit Madame's fortune before him.",
+    "answer": "Edgar",
+    "accept": [
+      "edgar",
+      "edgar balthazar"
+    ],
+    "choices": [
+      "Edgar",
+      "Georges Hautecourt",
+      "Napoleon",
+      "Roquefort"
+    ],
+    "reveal": "The correct answer is Edgar! [sarcastic] Brilliant plan, Edgar, drugging cats with sleeping pills in warm milk. [chuckles] Everybody wants to be a cat, but nobody wants to be Edgar."
+  },
+  {
+    "film": "Fantasia",
+    "category": "Fantasia",
+    "clue": "This famous conductor leads the Philadelphia Orchestra in the 1940 film Fantasia, and even shakes hands with Mickey Mouse.",
+    "answer": "Leopold Stokowski",
+    "accept": [
+      "stokowski",
+      "leopold stokowski"
+    ],
+    "choices": [
+      "Leopold Stokowski",
+      "Arturo Toscanini",
+      "Leonard Bernstein",
+      "James Levine"
+    ],
+    "reveal": "The correct answer is Leopold Stokowski! [excited] Mickey tugs on his coattails and shakes his hand to congratulate him. James Levine conducted the sequel, Fantasia 2000, if you were tempted."
+  },
+  {
+    "film": "Raya and the Last Dragon",
+    "category": "Raya and the Last Dragon",
+    "clue": "Raya grew up in this one of Kumandra's five lands, home of the Dragon Gem.",
+    "answer": "Heart",
+    "accept": [
+      "heart"
+    ],
+    "choices": [
+      "Heart",
+      "Fang",
+      "Talon",
+      "Spine"
+    ],
+    "reveal": "The correct answer is Heart! The five lands are named for parts of the dragon: Fang, Heart, Spine, Talon, and Tail. [whispers] Sisu would be proud of you."
+  },
+  {
+    "film": "Atlantis: The Lost Empire",
+    "category": "Atlantis: The Lost Empire",
+    "clue": "In Atlantis: The Lost Empire, Milo's expedition sets off on this enormous submarine, which is destroyed by the Leviathan.",
+    "answer": "The Ulysses",
+    "accept": [
+      "ulysses",
+      "the ulysses"
+    ],
+    "choices": [
+      "The Ulysses",
+      "The Nautilus",
+      "The Odyssey",
+      "The Poseidon"
+    ],
+    "reveal": "The correct answer is the Ulysses! [dramatic pause] The Leviathan turns out to be a giant robot lobster guarding Atlantis. [laughs] Worst welcome committee ever."
+  },
+  {
+    "film": "Hocus Pocus",
+    "category": "Hocus Pocus",
+    "clue": "In Hocus Pocus, this boy was turned into an immortal black cat by the Sanderson sisters in 1693.",
+    "answer": "Thackery Binx",
+    "accept": [
+      "thackery binx",
+      "binx",
+      "thackary binx",
+      "thackery"
+    ],
+    "choices": [
+      "Thackery Binx",
+      "Billy Butcherson",
+      "Max Dennison",
+      "Ernie"
+    ],
+    "reveal": "The correct answer is Thackery Binx! [sighs] Three hundred years as a talking cat, guarding the Sanderson house. [laughs] Amok, amok, amok!"
+  }
+]

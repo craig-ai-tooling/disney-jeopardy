@@ -1,0 +1,523 @@
+{
+  "id": "walt-and-imagineering",
+  "title": "Behind the Magic",
+  "theme": "Walt and Imagineering",
+  "tags": [
+    "history",
+    "walt",
+    "imagineering",
+    "parks"
+  ],
+  "intro": "[excited] Welcome to the most HISTORIC episode we have ever done! Tonight it's all about Walt Disney and the Imagineers who built the magic. [chuckles] It all started with a mouse... and tonight it might end with your score.",
+  "art": {
+    "prompt": "A cluttered 1950s animation and design studio at night, a drafting table with pencil sketches of a castle and a riverboat, a scale model of a theme park under a desk lamp, a small model steam train on tracks around the room. Original painterly storybook illustration, 16:9, cinematic lighting, rich color, no people, no characters, no text, no logos.",
+    "file": "media/walt-and-imagineering.jpg"
+  },
+  "categories": [
+    {
+      "id": "the-mouse-that-started-it-all",
+      "title": "The Mouse That Started It All",
+      "kind": "film",
+      "format": "text",
+      "intro": "Our film category is all about the early cartoons, from Mickey's big debut to Walt's very first Oscar. [whispers] Old school.",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Mickey Mouse's famous 1928 sound cartoon shows him whistling as he steers a riverboat.",
+          "answer": "Steamboat Willie",
+          "accept": [
+            "steamboat willie"
+          ],
+          "choices": [
+            "Steamboat Willie",
+            "Plane Crazy",
+            "The Gallopin' Gaucho",
+            "The Band Concert"
+          ],
+          "reveal": "The correct answer is Steamboat Willie! [excited] November 18, 1928 is considered Mickey's birthday. Fun fact, Plane Crazy was actually made first, but it had no sound.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "For nearly two decades, Walt Disney himself provided the voice of this character.",
+          "answer": "Mickey Mouse",
+          "accept": [
+            "mickey mouse",
+            "mickey"
+          ],
+          "choices": [
+            "Mickey Mouse",
+            "Donald Duck",
+            "Goofy",
+            "Pluto"
+          ],
+          "reveal": "The correct answer is Mickey Mouse! [chuckles] Walt voiced him from 1928 until 1947. Donald, meanwhile, was Clarence Nash. Nobody else could make THAT noise.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Before Mickey, Walt created this lucky character, but lost the rights to him in 1928.",
+          "answer": "Oswald the Lucky Rabbit",
+          "accept": [
+            "oswald the lucky rabbit",
+            "oswald"
+          ],
+          "choices": [
+            "Oswald the Lucky Rabbit",
+            "Julius the Cat",
+            "Felix the Cat",
+            "Mortimer Mouse"
+          ],
+          "reveal": "The correct answer is Oswald the Lucky Rabbit! [sighs] Not so lucky for Walt. But in 2006 Disney finally got him back in a trade that involved a sportscaster. Seriously.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Legend says Walt first wanted to name his new mouse this, until his wife Lillian suggested Mickey.",
+          "answer": "Mortimer",
+          "accept": [
+            "mortimer",
+            "mortimer mouse"
+          ],
+          "choices": [
+            "Mortimer",
+            "Marvin",
+            "Milton",
+            "Maxwell"
+          ],
+          "reveal": "The correct answer is Mortimer! [laughs] Lillian thought it sounded too pompous. Mortimer Mouse did show up later, though, as Mickey's rival for Minnie.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Walt's first Academy Award came for this 1932 Silly Symphony, the first cartoon released in full three-strip Technicolor.",
+          "answer": "Flowers and Trees",
+          "accept": [
+            "flowers and trees"
+          ],
+          "choices": [
+            "Flowers and Trees",
+            "The Three Little Pigs",
+            "The Skeleton Dance",
+            "The Old Mill"
+          ],
+          "reveal": "The correct answer is Flowers and Trees! [gasps] It was originally started in black and white, then Walt had it redone in color. Talk about plussing.",
+          "dailyDouble": false
+        }
+      ],
+      "art": {
+        "prompt": "A vintage 1920s riverboat steamer paddling down a calm river in black and white with sepia tones, smoke puffing from twin stacks, an old film projector beam overlay. Original painterly storybook illustration, 16:9, cinematic lighting, rich color, no people, no characters, no text, no logos.",
+        "file": "media/walt-and-imagineering--the-mouse-that-started-it-all.jpg"
+      }
+    },
+    {
+      "id": "walts-story",
+      "title": "Walt's Story",
+      "kind": "theme",
+      "format": "text",
+      "intro": "Let's talk about the man himself. Walt's life, from the Midwest to Hollywood. [dramatic pause] How well do you know Uncle Walt?",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Walt's older brother, who co-founded the company with him and handled all the money.",
+          "answer": "Roy O. Disney",
+          "accept": [
+            "roy",
+            "roy disney",
+            "roy o. disney",
+            "roy o disney"
+          ],
+          "choices": [
+            "Roy O. Disney",
+            "Herbert Disney",
+            "Raymond Disney",
+            "Elias Disney"
+          ],
+          "reveal": "The correct answer is Roy O. Disney! [chuckles] Walt dreamed it, Roy figured out how to pay for it. Roy also delayed retirement to finish building Walt Disney World.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Walt Disney was born in 1901 in this big Midwestern city.",
+          "answer": "Chicago",
+          "accept": [
+            "chicago"
+          ],
+          "choices": [
+            "Chicago",
+            "Kansas City",
+            "St. Louis",
+            "Milwaukee"
+          ],
+          "reveal": "The correct answer is Chicago! [excited] December 5, 1901. Then the family moved to a farm in Marceline, Missouri, the town that inspired Main Street U.S.A.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Before moving to Hollywood, Walt ran this Kansas City animation studio, which went bankrupt in 1923.",
+          "answer": "Laugh-O-Gram Studio",
+          "accept": [
+            "laugh-o-gram",
+            "laugh-o-gram studio",
+            "laugh o gram",
+            "laugh o gram studio",
+            "laugh-o-gram films"
+          ],
+          "choices": [
+            "Laugh-O-Gram Studio",
+            "Disney Brothers Cartoon Studio",
+            "Hyperion Studio",
+            "Iwerks-Disney Commercial Artists"
+          ],
+          "reveal": "The correct answer is Laugh-O-Gram Studio! [sighs] Walt was so broke he reportedly lived in the office. Then he bought a train ticket west with what little he had left.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Walt's backyard miniature railroad at his Holmby Hills home was called this.",
+          "answer": "Carolwood Pacific Railroad",
+          "accept": [
+            "carolwood pacific railroad",
+            "carolwood pacific",
+            "carolwood"
+          ],
+          "choices": [
+            "Carolwood Pacific Railroad",
+            "Retlaw Pacific Railroad",
+            "Santa Fe and Disneyland Railroad",
+            "Lilly Belle Line"
+          ],
+          "reveal": "The correct answer is the Carolwood Pacific Railroad! [laughs] Named after his street, Carolwood Drive. Its engine was called the Lilly Belle, after Lillian.",
+          "dailyDouble": true
+        },
+        {
+          "value": 1000,
+          "clue": "When Walt and Roy opened their first Hollywood studio in 1923, it was called this.",
+          "answer": "Disney Brothers Cartoon Studio",
+          "accept": [
+            "disney brothers cartoon studio",
+            "disney brothers studio",
+            "disney brothers"
+          ],
+          "choices": [
+            "Disney Brothers Cartoon Studio",
+            "Laugh-O-Gram Studio",
+            "Walt Disney Productions",
+            "Hyperion Animation Company"
+          ],
+          "reveal": "The correct answer is the Disney Brothers Cartoon Studio! [mischievously] October 16, 1923, the official birthday of the company. Roy, of course, signed the checks.",
+          "dailyDouble": false
+        }
+      ],
+      "art": {
+        "prompt": "A small Midwestern farm at sunset with a red barn and a steam train passing on a distant track, a wooden desk in the foreground with a sketchbook and pencils. Original painterly storybook illustration, 16:9, cinematic lighting, rich color, no people, no characters, no text, no logos.",
+        "file": "media/walt-and-imagineering--walts-story.jpg"
+      }
+    },
+    {
+      "id": "before-and-after-imagineering",
+      "title": "Before and After",
+      "kind": "media",
+      "format": "text",
+      "intro": "It's Before and After! I'll describe two Disney things that share a word. You combine them into one phrase. [laughs] It's harder than it sounds.",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Walt's Florida resort meets EPCOT's lagoon ring of eleven nations.",
+          "answer": "Walt Disney World Showcase",
+          "accept": [
+            "walt disney world showcase",
+            "disney world showcase"
+          ],
+          "choices": [
+            "Walt Disney World Showcase",
+            "Walt Disney World Monorail",
+            "Magic Kingdom Showcase",
+            "EPCOT World Showcase Lagoon"
+          ],
+          "reveal": "The correct answer is Walt Disney World Showcase! [chuckles] Get it? World, World. Stack 'em up. You're a natural.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "A skipper-led boat ride full of terrible puns meets the company's fleet of ocean ships.",
+          "answer": "Jungle Cruise Line",
+          "accept": [
+            "jungle cruise line",
+            "the jungle cruise line"
+          ],
+          "choices": [
+            "Jungle Cruise Line",
+            "Pirates of the Caribbean Cruise",
+            "Jungle Cruise Ship",
+            "Adventureland Cruise Line"
+          ],
+          "reveal": "The correct answer is Jungle Cruise Line! [laughs] Imagine a whole cruise of skipper jokes. The backside of water, for seven nights.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Mickey's 1928 sound debut meets the giant who steals the magic harp in a 1947 beanstalk tale.",
+          "answer": "Steamboat Willie the Giant",
+          "accept": [
+            "steamboat willie the giant"
+          ],
+          "choices": [
+            "Steamboat Willie the Giant",
+            "Steamboat Beanstalk",
+            "Mickey and the Giant Willie",
+            "Plane Crazy Giant"
+          ],
+          "reveal": "The correct answer is Steamboat Willie the Giant! [gasps] Willie the Giant is from Mickey and the Beanstalk in Fun and Fancy Free. Fee fi fo fum, you got it.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Walt's 1955 TV show for kids with mouse ears meets Disneyland's secret, members-only dining spot in New Orleans Square.",
+          "answer": "Mickey Mouse Club 33",
+          "accept": [
+            "mickey mouse club 33"
+          ],
+          "choices": [
+            "Mickey Mouse Club 33",
+            "Mickey Mouse Club House",
+            "Club 33 Mouseketeers",
+            "Mickey Mouse Blue Bayou"
+          ],
+          "reveal": "The correct answer is Mickey Mouse Club 33! [whispers] Club 33 is the exclusive club Walt planned for VIPs. The waitlist is legendary. M-I-C, see you real soon.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Walt's rotating theater show from the 1964 World's Fair meets the giant scale model of his planned city of tomorrow, the original EPCOT.",
+          "answer": "Carousel of Progress City",
+          "accept": [
+            "carousel of progress city"
+          ],
+          "choices": [
+            "Carousel of Progress City",
+            "Tomorrowland Progress",
+            "Great Big Beautiful City",
+            "Carousel of Tomorrow"
+          ],
+          "reveal": "The correct answer is Carousel of Progress City! [excited] Progress City was Walt's dream community. The Carousel still spins at Magic Kingdom, with a great big beautiful tomorrow.",
+          "dailyDouble": false
+        }
+      ],
+      "art": {
+        "prompt": "Two halves of a blueprint merging together on a drafting table, one showing a rotating theater, the other a futuristic domed city, a compass and ruler resting on top. Original painterly storybook illustration, 16:9, cinematic lighting, rich color, no people, no characters, no text, no logos.",
+        "file": "media/walt-and-imagineering--before-and-after-imagineering.jpg"
+      }
+    },
+    {
+      "id": "opening-day-1955",
+      "title": "Opening Day 1955",
+      "kind": "parks",
+      "format": "text",
+      "intro": "It's July 17, 1955. Disneyland opens its gates. [dramatic pause] What could possibly go wrong? Spoiler... a lot.",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Disneyland opened in 1955 in this Southern California city.",
+          "answer": "Anaheim",
+          "accept": [
+            "anaheim"
+          ],
+          "choices": [
+            "Anaheim",
+            "Burbank",
+            "Los Angeles",
+            "Long Beach"
+          ],
+          "reveal": "The correct answer is Anaheim! [chuckles] Back then it was orange groves as far as the eye could see. Now it's churros as far as the eye can see.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "The castle at the heart of Disneyland is named after this princess.",
+          "answer": "Sleeping Beauty",
+          "accept": [
+            "sleeping beauty",
+            "aurora",
+            "princess aurora"
+          ],
+          "choices": [
+            "Sleeping Beauty",
+            "Cinderella",
+            "Snow White",
+            "Belle"
+          ],
+          "reveal": "The correct answer is Sleeping Beauty! [gasps] The castle opened four years BEFORE the movie came out. Talk about marketing.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Along with Main Street, Adventureland, Frontierland, and Fantasyland, this was one of Disneyland's original lands.",
+          "answer": "Tomorrowland",
+          "accept": [
+            "tomorrowland"
+          ],
+          "choices": [
+            "Tomorrowland",
+            "New Orleans Square",
+            "Critter Country",
+            "Mickey's Toontown"
+          ],
+          "reveal": "The correct answer is Tomorrowland! [laughs] It was so rushed on opening day that Walt covered the empty spots with balloons and banners. The future was... under construction.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Walt had a private apartment above this building on Main Street, U.S.A., and a lamp in the window is still kept lit.",
+          "answer": "The Fire Station",
+          "accept": [
+            "fire station",
+            "the fire station",
+            "firehouse",
+            "the firehouse",
+            "fire house"
+          ],
+          "choices": [
+            "The Fire Station",
+            "City Hall",
+            "The Emporium",
+            "Main Street Cinema"
+          ],
+          "reveal": "The correct answer is the Fire Station! [whispers] When the lamp is on, it means Walt is in the park. And they never turn it off.",
+          "media": {
+            "type": "image",
+            "prompt": "A red brick turn-of-the-century fire station on a quaint main street at dusk, an antique horse-drawn fire wagon parked in front, a single warm lamp glowing in an upstairs window. Original painterly storybook illustration, 16:9, cinematic lighting, rich color, no people, no characters, no text, no logos.",
+            "file": "media/walt-and-imagineering--opening-day-1955-800.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Because of melting asphalt, broken drinking fountains, and huge crowds, Disney staff gave opening day this nickname.",
+          "answer": "Black Sunday",
+          "accept": [
+            "black sunday"
+          ],
+          "choices": [
+            "Black Sunday",
+            "Dateline Disneyland",
+            "Blue Monday",
+            "Hot Asphalt Day"
+          ],
+          "reveal": "The correct answer is Black Sunday! [sighs] Dateline Disneyland was the live TV broadcast that day. Women's high heels were literally sinking into the fresh asphalt.",
+          "media": {
+            "type": "image",
+            "prompt": "A sweltering 1950s theme park main street on a crowded summer day, fresh black asphalt shimmering with heat waves, a lone high-heeled shoe stuck in the soft pavement, a broken drinking fountain. Original painterly storybook illustration, 16:9, cinematic lighting, rich color, no people, no characters, no text, no logos.",
+            "file": "media/walt-and-imagineering--opening-day-1955-1000.jpg"
+          },
+          "dailyDouble": false
+        }
+      ],
+      "art": {
+        "prompt": "A sunny 1955 opening day at a turn-of-the-century small-town main street, a red brick train station, a pink and blue fairy-tale castle at the far end, balloons and bunting, fresh asphalt shimmering in the heat. Original painterly storybook illustration, 16:9, cinematic lighting, rich color, no people, no characters, no text, no logos.",
+        "file": "media/walt-and-imagineering--opening-day-1955.jpg"
+      }
+    },
+    {
+      "id": "imagineering-101",
+      "title": "Imagineering 101",
+      "kind": "fan",
+      "format": "text",
+      "intro": "The fans asked for nerdy, so we're going behind the berm. [mischievously] Imagineering jargon, tricks, and secrets.",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Disney's theme park designers are called this, a mix of the words imagination and engineering.",
+          "answer": "Imagineers",
+          "accept": [
+            "imagineers",
+            "imagineer"
+          ],
+          "choices": [
+            "Imagineers",
+            "Dreamineers",
+            "Cast Members",
+            "Animators"
+          ],
+          "reveal": "The correct answer is Imagineers! [excited] Walt Disney Imagineering started back in 1952 as WED Enterprises. W, E, D, for Walter Elias Disney.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Imagineers invented these lifelike robotic figures, which first appeared in 1963 in the Enchanted Tiki Room.",
+          "answer": "Audio-Animatronics",
+          "accept": [
+            "audio-animatronics",
+            "audio animatronics",
+            "animatronics",
+            "animatronic"
+          ],
+          "choices": [
+            "Audio-Animatronics",
+            "Robotronics",
+            "Mechanimatics",
+            "Animagics"
+          ],
+          "reveal": "The correct answer is Audio-Animatronics! [laughs] In the tiki tiki tiki tiki tiki room. Dozens of singing birds, flowers, and tiki gods. ALL robots.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Imagineers make Main Street buildings look taller by building each upper floor smaller than the one below, a trick called this.",
+          "answer": "Forced perspective",
+          "accept": [
+            "forced perspective"
+          ],
+          "choices": [
+            "Forced perspective",
+            "Pepper's ghost",
+            "Hidden Mickey",
+            "Plussing"
+          ],
+          "reveal": "The correct answer is forced perspective! [chuckles] The castle uses it too. Your eye goes up, the castle feels HUGE. Your feet, meanwhile, feel the twenty thousand steps.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Walt's word for a tall landmark, like a castle or a mountain, that pulls guests deeper into a park.",
+          "answer": "Weenie",
+          "accept": [
+            "weenie",
+            "a weenie",
+            "wienie"
+          ],
+          "choices": [
+            "Weenie",
+            "Berm",
+            "Hub",
+            "Beacon"
+          ],
+          "reveal": "The correct answer is a weenie! [laughs] Walt supposedly named it after the hot dogs he used to lead his poodle around. Yes, really.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Walt's term for constantly improving an attraction or show, even after it's finished.",
+          "answer": "Plussing",
+          "accept": [
+            "plussing",
+            "plus",
+            "plus it"
+          ],
+          "choices": [
+            "Plussing",
+            "Blue-skying",
+            "Weenie-ing",
+            "Storyboarding"
+          ],
+          "reveal": "The correct answer is plussing! [excited] Walt said Disneyland will never be completed as long as there is imagination left in the world. Plus it up, people!",
+          "dailyDouble": false
+        }
+      ],
+      "art": {
+        "prompt": "An Imagineering workshop with a half-built robotic bird on a workbench, gears and wires exposed, a pane of angled glass reflecting a ghostly ballroom, foam castle models and paint swatches. Original painterly storybook illustration, 16:9, cinematic lighting, rich color, no people, no characters, no text, no logos.",
+        "file": "media/walt-and-imagineering--imagineering-101.jpg"
+      }
+    }
+  ]
+}

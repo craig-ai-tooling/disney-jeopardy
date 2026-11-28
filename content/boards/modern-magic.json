@@ -1,0 +1,519 @@
+{
+  "id": "modern-magic",
+  "title": "Modern Magic",
+  "theme": "Modern Disney (2010 onward)",
+  "tags": [
+    "modern",
+    "2010s",
+    "2020s",
+    "animation"
+  ],
+  "intro": "[excited] Tonight we FAST FORWARD to the modern era, 2010 and beyond! Snowmen, demigods, magical houses, and more songs stuck in your head than you can count. If you have kids, you have heard every one of these movies about four hundred times. [laughs] Time to put that to use.",
+  "art": {
+    "prompt": "A glowing modern fantasy panorama, an ice palace on a fjord, an ocean wave curling into a spiral, a colorful hillside house covered in flowers, a futuristic bay city with a red bridge, all under a starry sky. Original painterly storybook illustration, 16:9, cinematic lighting, rich color, no people, no characters, no text, no logos.",
+    "file": "media/modern-magic.jpg"
+  },
+  "categories": [
+    {
+      "id": "we-dont-talk-about-bruno",
+      "title": "We Do Talk About Bruno",
+      "kind": "film",
+      "format": "text",
+      "intro": "Our film category is Encanto. Yes, we are finally talking about Bruno... [whispers] no, no, no.",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Mirabel's big sister Luisa has this magical gift, and she can carry a church on her shoulders.",
+          "answer": "Super strength",
+          "accept": [
+            "super strength",
+            "strength"
+          ],
+          "choices": [
+            "Super strength",
+            "Shape-shifting",
+            "Super hearing",
+            "Healing with food"
+          ],
+          "reveal": "The correct answer is super strength! Luisa can move donkeys, pianos, and entire buildings. [sighs] Surface pressure, it's real.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Mirabel's Tío Bruno has this gift, which makes the rest of the family very nervous.",
+          "answer": "Seeing the future",
+          "accept": [
+            "seeing the future",
+            "see the future",
+            "visions of the future",
+            "future",
+            "prophecy"
+          ],
+          "choices": [
+            "Seeing the future",
+            "Controlling the weather",
+            "Talking to animals",
+            "Making flowers bloom"
+          ],
+          "reveal": "The correct answer is seeing the future! He told Pepa it looked like rain on her wedding day. [chuckles] He swears it was just a joke. Pepa controls the weather, so... that one's on HER.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Encanto is set in the mountains of this South American country.",
+          "answer": "Colombia",
+          "accept": [
+            "colombia",
+            "columbia"
+          ],
+          "choices": [
+            "Colombia",
+            "Peru",
+            "Venezuela",
+            "Ecuador"
+          ],
+          "reveal": "The correct answer is Colombia! The film's music is full of Colombian styles like cumbia and vallenato. [excited] Lin-Manuel Miranda did his homework.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "The Madrigals' magical, living house is affectionately called this.",
+          "answer": "Casita",
+          "accept": [
+            "casita",
+            "la casita"
+          ],
+          "choices": [
+            "Casita",
+            "La Casa",
+            "Hacienda",
+            "El Hogar"
+          ],
+          "reveal": "The correct answer is Casita! It opens doors, waves shutters, and passes Mirabel the salt. [laughs] Honestly, the best roommate in Disney history.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Abuela Alma's husband, who sacrificed himself at the river to protect the family, was named this.",
+          "answer": "Pedro",
+          "accept": [
+            "pedro",
+            "abuelo pedro",
+            "pedro madrigal"
+          ],
+          "choices": [
+            "Pedro",
+            "Félix",
+            "Agustín",
+            "Bruno"
+          ],
+          "reveal": "The correct answer is Pedro! His sacrifice is what created the miracle, the candle, and Casita itself. [sighs] Pass the tissues.",
+          "dailyDouble": false
+        }
+      ],
+      "art": {
+        "prompt": "A vibrant Colombian mountain village at golden hour, a two-story house with colorful tiles, open shutters and climbing flowers, a single magic candle glowing in an arched window, yellow butterflies. Original painterly storybook illustration, 16:9, cinematic lighting, rich color, no people, no characters, no text, no logos.",
+        "file": "media/modern-magic--we-dont-talk-about-bruno.jpg"
+      }
+    },
+    {
+      "id": "modern-marvels",
+      "title": "Modern Marvels",
+      "kind": "theme",
+      "format": "text",
+      "intro": "Name the character or the place from Disney's modern classics. [chuckles] These are the movies on repeat in every minivan in America.",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This summer-loving snowman from Frozen likes warm hugs.",
+          "answer": "Olaf",
+          "accept": [
+            "olaf"
+          ],
+          "choices": [
+            "Olaf",
+            "Marshmallow",
+            "Sven",
+            "Kristoff"
+          ],
+          "reveal": "The correct answer is Olaf! A snowman who dreams of summer. [laughs] What could POSSIBLY go wrong?",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Rapunzel's loyal pet chameleon in Tangled.",
+          "answer": "Pascal",
+          "accept": [
+            "pascal"
+          ],
+          "choices": [
+            "Pascal",
+            "Maximus",
+            "Heihei",
+            "Figaro"
+          ],
+          "reveal": "The correct answer is Pascal! He changes colors to show how he's feeling, which makes him... [chuckles] the most honest character in the movie.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "In Zootopia, Judy and Nick visit the DMV, where they meet this painfully slow sloth.",
+          "answer": "Flash",
+          "accept": [
+            "flash"
+          ],
+          "choices": [
+            "Flash",
+            "Speedy",
+            "Dash",
+            "Bolt"
+          ],
+          "reveal": "The correct answer is Flash! Flash, Flash, hundred yard dash. And yes, the DMV is staffed entirely by sloths. [sarcastic] Relatable.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Big Hero 6 takes place in this futuristic mashup of two famous cities.",
+          "answer": "San Fransokyo",
+          "accept": [
+            "san fransokyo",
+            "sanfransokyo"
+          ],
+          "choices": [
+            "San Fransokyo",
+            "Tokyopolis",
+            "Neo Francisco",
+            "New Tokyo Bay"
+          ],
+          "reveal": "The correct answer is San Fransokyo! Look closely and you'll see the Golden Gate Bridge with Japanese-style towers. [excited] Very cool design.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Frozen's Let It Go won the Oscar for this married songwriting duo, who also wrote the music for Coco's Remember Me.",
+          "answer": "Kristen Anderson-Lopez and Robert Lopez",
+          "accept": [
+            "kristen anderson-lopez and robert lopez",
+            "the lopezes",
+            "robert lopez and kristen anderson-lopez",
+            "kristen anderson lopez and robert lopez",
+            "lopez"
+          ],
+          "choices": [
+            "Kristen Anderson-Lopez and Robert Lopez",
+            "Benj Pasek and Justin Paul",
+            "Alan Menken and Howard Ashman",
+            "Robert and Richard Sherman"
+          ],
+          "reveal": "The correct answer is Kristen Anderson-Lopez and Robert Lopez! Robert is also one of the few people to win an Emmy, a Grammy, an Oscar, and a Tony. [sarcastic] Overachiever.",
+          "dailyDouble": false
+        }
+      ],
+      "art": {
+        "prompt": "A cozy winter fjord kingdom at twilight with a frozen fountain, a tall tower with paper lanterns rising into the night sky, a futuristic skyline with floating wind turbines in the distance. Original painterly storybook illustration, 16:9, cinematic lighting, rich color, no people, no characters, no text, no logos.",
+        "file": "media/modern-magic--modern-marvels.jpg"
+      }
+    },
+    {
+      "id": "who-said-it-modern",
+      "title": "Who Said It? Modern Edition",
+      "kind": "media",
+      "format": "quote",
+      "intro": "You'll hear a famous line from a modern Disney movie. Tell me who said it. [mischievously] Bonus points if you do the voice.",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Which demigod says this line?",
+          "answer": "Maui",
+          "accept": [
+            "maui"
+          ],
+          "choices": [
+            "Maui",
+            "Tamatoa",
+            "Moana",
+            "Te Kā"
+          ],
+          "reveal": "The correct answer is Maui! [laughs] What can I say except... you're welcome. That's right, I said it.",
+          "quote": "What can I say except you're welcome!",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Which Tangled character says this line while trying to charm his way out of trouble?",
+          "answer": "Flynn Rider",
+          "accept": [
+            "flynn rider",
+            "flynn",
+            "eugene",
+            "eugene fitzherbert"
+          ],
+          "choices": [
+            "Flynn Rider",
+            "Hans",
+            "Kristoff",
+            "Prince Naveen"
+          ],
+          "reveal": "The correct answer is Flynn Rider! Also known as Eugene Fitzherbert. [chuckles] The smolder never worked on Rapunzel, but it's legendary anyway.",
+          "quote": "All right, I didn't want to have to do this, but you leave me no choice. Here comes the smolder.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Which Zootopia character tells Judy Hopps this?",
+          "answer": "Nick Wilde",
+          "accept": [
+            "nick wilde",
+            "nick"
+          ],
+          "choices": [
+            "Nick Wilde",
+            "Finnick",
+            "Chief Bogo",
+            "Mayor Lionheart"
+          ],
+          "reveal": "The correct answer is Nick Wilde! The smoothest con artist fox in Zootopia. [mischievously] Judy got hustled, and so did the audience.",
+          "quote": "It's called a hustle, sweetheart.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Which Frozen character sings this line to his best friend?",
+          "answer": "Kristoff",
+          "accept": [
+            "kristoff"
+          ],
+          "choices": [
+            "Kristoff",
+            "Olaf",
+            "Hans",
+            "Oaken"
+          ],
+          "reveal": "The correct answer is Kristoff! Singing for Sven, too, since Sven can't talk. [excited] Jonathan Groff does both voices, and both are fantastic.",
+          "quote": "Reindeers are better than people. Sven, don't you think that's true?",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Which Big Hero 6 character teases his little brother with this line?",
+          "answer": "Tadashi Hamada",
+          "accept": [
+            "tadashi",
+            "tadashi hamada"
+          ],
+          "choices": [
+            "Tadashi Hamada",
+            "Hiro Hamada",
+            "Fred",
+            "Professor Callaghan"
+          ],
+          "reveal": "The correct answer is Tadashi! Hiro had just hit a creative wall, so his big brother hung him upside down. [laughs] Look for a new angle, indeed.",
+          "quote": "Wow. Washed up at fourteen. So sad.",
+          "dailyDouble": false
+        }
+      ],
+      "art": {
+        "prompt": "A glowing vintage microphone on a stage spotlit in teal and gold, sound waves rippling into sparkles, a curtain of stars behind it. Original painterly storybook illustration, 16:9, cinematic lighting, rich color, no people, no characters, no text, no logos.",
+        "file": "media/modern-magic--who-said-it-modern.jpg"
+      }
+    },
+    {
+      "id": "modern-park-magic",
+      "title": "Modern Park Magic",
+      "kind": "parks",
+      "format": "text",
+      "intro": "Modern movies, modern attractions. [excited] These all opened in the parks in the last decade or so.",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This EPCOT boat ride through Arendelle replaced Maelstrom in the Norway pavilion in 2016.",
+          "answer": "Frozen Ever After",
+          "accept": [
+            "frozen ever after"
+          ],
+          "choices": [
+            "Frozen Ever After",
+            "Elsa's Ice Palace Cruise",
+            "Arendelle Voyage",
+            "Frozen Sing-Along Celebration"
+          ],
+          "reveal": "The correct answer is Frozen Ever After! Good news, it has a backwards drop. [sighs] Bad news, everyone in line has Let It Go stuck in their head now.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "This Animal Kingdom land, opened in 2017, features floating mountains and bioluminescent plants inspired by James Cameron's films.",
+          "answer": "Pandora - The World of Avatar",
+          "accept": [
+            "pandora",
+            "pandora the world of avatar",
+            "world of avatar"
+          ],
+          "choices": [
+            "Pandora - The World of Avatar",
+            "DinoLand U.S.A.",
+            "Rafiki's Planet Watch",
+            "Discovery Island"
+          ],
+          "reveal": "The correct answer is Pandora, The World of Avatar! Go at night. The plants glow and it feels like you're on another planet. [whispers] Which, technically, you are.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Opened in 2014 in Magic Kingdom's Fantasyland, this family coaster swings you through a gem mine.",
+          "answer": "Seven Dwarfs Mine Train",
+          "accept": [
+            "seven dwarfs mine train",
+            "7 dwarfs mine train",
+            "mine train"
+          ],
+          "choices": [
+            "Seven Dwarfs Mine Train",
+            "Big Thunder Mountain Railroad",
+            "The Barnstormer",
+            "TRON Lightcycle Run"
+          ],
+          "reveal": "The correct answer is the Seven Dwarfs Mine Train! The ride vehicles swing side to side. [laughs] Heigh-ho, heigh-ho, it's off to the standby line we go.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "This EPCOT walk-through attraction, opened in 2023, lets guests play with living water inspired by a demigod's ocean adventure.",
+          "answer": "Journey of Water, Inspired by Moana",
+          "accept": [
+            "journey of water",
+            "journey of water inspired by moana"
+          ],
+          "choices": [
+            "Journey of Water, Inspired by Moana",
+            "Moana's Ocean Voyage",
+            "Wayfinder's Lagoon",
+            "The Ocean Calls"
+          ],
+          "reveal": "The correct answer is Journey of Water, Inspired by Moana! The water jumps away from you, chases you, and sometimes splashes you. Bring a towel, or don't... [chuckles] it's Florida.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "In November 2023, this park opened World of Frozen, the world's first Frozen-themed land.",
+          "answer": "Hong Kong Disneyland",
+          "accept": [
+            "hong kong disneyland",
+            "hong kong"
+          ],
+          "choices": [
+            "Hong Kong Disneyland",
+            "Tokyo DisneySea",
+            "Disneyland Paris",
+            "Shanghai Disneyland"
+          ],
+          "reveal": "The correct answer is Hong Kong Disneyland! [excited] You can ride Wandering Oaken's Sliding Sleighs and visit Arendelle itself. Tokyo DisneySea followed with its own Frozen Kingdom in 2024.",
+          "dailyDouble": false
+        }
+      ],
+      "art": {
+        "prompt": "A modern theme park at night, a glowing bioluminescent jungle with floating mountains, a mine coaster through gem-studded rocks, an icy Nordic village with sleigh rides. Original painterly storybook illustration, 16:9, cinematic lighting, rich color, no people, no characters, no text, no logos.",
+        "file": "media/modern-magic--modern-park-magic.jpg"
+      }
+    },
+    {
+      "id": "sidekick-squad",
+      "title": "Sidekick Squad",
+      "kind": "fan",
+      "format": "text",
+      "intro": "Fans love a good sidekick, so this category is all about the animal friends of modern Disney. [excited] Cuteness overload!",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Moana's very confused rooster stowaway.",
+          "answer": "Heihei",
+          "accept": [
+            "heihei",
+            "hei hei",
+            "hei-hei"
+          ],
+          "choices": [
+            "Heihei",
+            "Pua",
+            "Pascal",
+            "Abu"
+          ],
+          "reveal": "The correct answer is Heihei! Voiced by Alan Tudyk, who has a voice role in nearly every modern Disney animated movie. [laughs] Heihei is his finest work.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Tangled's palace guard sidekick Maximus is this kind of animal.",
+          "answer": "A horse",
+          "accept": [
+            "horse",
+            "a horse"
+          ],
+          "choices": [
+            "A horse",
+            "A dog",
+            "A donkey",
+            "A reindeer"
+          ],
+          "reveal": "The correct answer is a horse! But he acts like a bloodhound. [chuckles] Maximus is the only horse who could probably arrest you.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Zootopia's tiny but tough Finnick, who works scams with Nick, is this kind of animal.",
+          "answer": "A fennec fox",
+          "accept": [
+            "fennec fox",
+            "a fennec fox",
+            "fennec",
+            "fox"
+          ],
+          "choices": [
+            "A fennec fox",
+            "A chihuahua",
+            "A meerkat",
+            "A ferret"
+          ],
+          "reveal": "The correct answer is a fennec fox! He dresses up as an elephant baby to pull off cons. And he has the deepest voice in Zootopia. [whispers] Don't call him cute.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In Frozen II, the fire spirit of the Enchanted Forest is a little salamander named this.",
+          "answer": "Bruni",
+          "accept": [
+            "bruni"
+          ],
+          "choices": [
+            "Bruni",
+            "Gale",
+            "Nokk",
+            "Sparky"
+          ],
+          "reveal": "The correct answer is Bruni! A purple fire salamander who just wants a snowflake on the tongue. [laughs] Instant merchandise hit.",
+          "dailyDouble": true
+        },
+        {
+          "value": 1000,
+          "clue": "In 2023's Wish, Asha's pet goat, who suddenly gains the ability to talk, is named this.",
+          "answer": "Valentino",
+          "accept": [
+            "valentino"
+          ],
+          "choices": [
+            "Valentino",
+            "Bartholomew",
+            "Pepito",
+            "Fernando"
+          ],
+          "reveal": "The correct answer is Valentino! A goat in pajamas with a surprisingly deep voice. [excited] Somebody give him his own short!",
+          "dailyDouble": false
+        }
+      ],
+      "art": {
+        "prompt": "A cozy hollow tree house filled with tiny animal beds, a coconut cup, a woven leaf blanket, a small salamander-shaped warm glow in a fireplace, warm afternoon light. Original painterly storybook illustration, 16:9, cinematic lighting, rich color, no people, no characters, no text, no logos.",
+        "file": "media/modern-magic--sidekick-squad.jpg"
+      }
+    }
+  ]
+}

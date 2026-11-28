@@ -1,0 +1,540 @@
+{
+  "id": "sequels-and-spinoffs",
+  "title": "Seeing Double",
+  "theme": "Sequels and Spinoffs",
+  "tags": [
+    "sequels",
+    "spinoffs",
+    "pixar",
+    "tv"
+  ],
+  "intro": "[excited] Welcome back, welcome BACK, and welcome back again! Tonight's theme is sequels and spinoffs, which means everything on this board is... [dramatic pause] part two. Just like this joke. [laughs] Let's go round two!",
+  "art": {
+    "prompt": "A grand old movie palace marquee at dusk glowing with warm bulbs, two identical film reels side by side on a velvet stage, a second curtain opening behind the first, popcorn spilling from a striped bucket, sparkles in the air. Original painterly storybook illustration, 16:9, cinematic lighting, rich color, no people, no characters, no text, no logos.",
+    "file": "media/sequels-and-spinoffs.jpg"
+  },
+  "categories": [
+    {
+      "id": "to-infinity-and-beyond-again",
+      "title": "To Infinity and Beyond Again",
+      "kind": "film",
+      "format": "text",
+      "intro": "Our film category is the Toy Story sequels. Two, three, and four. [chuckles] Andy grew up, but we never did.",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In Toy Story 4, Bonnie builds this new friend out of a spork, pipe cleaners, and googly eyes.",
+          "answer": "Forky",
+          "accept": [
+            "forky"
+          ],
+          "choices": [
+            "Forky",
+            "Ducky",
+            "Bunny",
+            "Trixie"
+          ],
+          "reveal": "The correct answer is Forky! [laughs] He insists he's TRASH. Honestly, the most relatable toy in the franchise.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "In Toy Story 3, the toys get donated to this daycare, which turns out to be a toy prison.",
+          "answer": "Sunnyside Daycare",
+          "accept": [
+            "sunnyside daycare",
+            "sunnyside",
+            "sunny side"
+          ],
+          "choices": [
+            "Sunnyside Daycare",
+            "Happy Hills Daycare",
+            "Little Sprouts Daycare",
+            "Bright Beginnings Daycare"
+          ],
+          "reveal": "The correct answer is Sunnyside Daycare! It sounds so cheerful. [whispers] It is NOT cheerful. Ask the Caterpillar Room survivors.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Keanu Reeves voices this Canadian motorcycle stunt toy in Toy Story 4.",
+          "answer": "Duke Caboom",
+          "accept": [
+            "duke caboom",
+            "duke",
+            "caboom"
+          ],
+          "choices": [
+            "Duke Caboom",
+            "Combat Carl",
+            "Rocky Gibraltar",
+            "Captain Canuck"
+          ],
+          "reveal": "The correct answer is Duke Caboom! [excited] Yes I CAN-ada! He's Canada's greatest stuntman. Mostly because he never actually lands the jump.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In Toy Story 2, the still-in-the-box prospector who wants to go to a museum in Japan is known by this nickname.",
+          "answer": "Stinky Pete",
+          "accept": [
+            "stinky pete",
+            "the prospector",
+            "prospector",
+            "stinky pete the prospector"
+          ],
+          "choices": [
+            "Stinky Pete",
+            "Big Baby",
+            "Lotso",
+            "Gabby Gabby"
+          ],
+          "reveal": "The correct answer is Stinky Pete! [sarcastic] Shocking, a guy who never left his box turned out to be bitter. Kelsey Grammer voiced him, by the way.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "In Toy Story 3, Lotso turns villain after being lost by this girl, who then replaced him with a new bear.",
+          "answer": "Daisy",
+          "accept": [
+            "daisy"
+          ],
+          "choices": [
+            "Daisy",
+            "Molly",
+            "Emily",
+            "Bonnie"
+          ],
+          "reveal": "The correct answer is Daisy! [sighs] She lost Lotso, Big Baby, and Chuckles at a rest stop. Emily, by the way, was Jessie's girl. Not the Rick Springfield one.",
+          "dailyDouble": false
+        }
+      ],
+      "art": {
+        "prompt": "A child's sunlit bedroom floor scattered with classic wooden and plastic toys, a cowboy hat and a toy rocket ship beside a cardboard box, blue sky wallpaper with fluffy white clouds. Original painterly storybook illustration, 16:9, cinematic lighting, rich color, no people, no characters, no text, no logos.",
+        "file": "media/sequels-and-spinoffs--to-infinity-and-beyond-again.jpg"
+      }
+    },
+    {
+      "id": "back-for-seconds",
+      "title": "Back for Seconds",
+      "kind": "theme",
+      "format": "text",
+      "intro": "[mischievously] If at first you succeed... make another one. These are clues about Disney and Pixar sequels.",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In Frozen II, a mysterious voice calls Elsa away, and she sings that she is going Into the this.",
+          "answer": "Unknown",
+          "accept": [
+            "unknown",
+            "the unknown",
+            "into the unknown"
+          ],
+          "choices": [
+            "Unknown",
+            "Woods",
+            "Storm",
+            "Light"
+          ],
+          "reveal": "The correct answer is the Unknown! [laughs] Ahhh-ahhh, ahhh-ahhh. You hear it now. Sorry, it lives in your head forever.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "In Finding Dory, Dory searches for her parents at the Marine Life Institute in this U.S. state.",
+          "answer": "California",
+          "accept": [
+            "california"
+          ],
+          "choices": [
+            "California",
+            "Florida",
+            "Hawaii",
+            "Oregon"
+          ],
+          "reveal": "The correct answer is California! The institute is in Morro Bay. [chuckles] Unforgettable. Like Dory. Wait, no.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "In Incredibles 2, this Parr family member becomes the face of the superhero comeback while Bob stays home with the kids.",
+          "answer": "Elastigirl",
+          "accept": [
+            "elastigirl",
+            "helen",
+            "helen parr"
+          ],
+          "choices": [
+            "Elastigirl",
+            "Mr. Incredible",
+            "Violet",
+            "Frozone"
+          ],
+          "reveal": "The correct answer is Elastigirl! And Bob discovers that new math is harder than fighting supervillains. [sighs] Math is math, Bob.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In the prequel Monsters University, Mike and Sulley join this fraternity of misfits to compete in the Scare Games.",
+          "answer": "Oozma Kappa",
+          "accept": [
+            "oozma kappa",
+            "ok"
+          ],
+          "choices": [
+            "Oozma Kappa",
+            "Roar Omega Roar",
+            "Python Nu Kappa",
+            "Jaws Theta Chi"
+          ],
+          "reveal": "The correct answer is Oozma Kappa! O K, get it? [laughs] They were not okay at first. But they got there.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Released in 1994, this Aladdin follow-up was Disney's first direct-to-video animated sequel.",
+          "answer": "The Return of Jafar",
+          "accept": [
+            "the return of jafar",
+            "return of jafar"
+          ],
+          "choices": [
+            "The Return of Jafar",
+            "Aladdin and the King of Thieves",
+            "The Lion King II: Simba's Pride",
+            "Pocahontas II: Journey to a New World"
+          ],
+          "reveal": "The correct answer is The Return of Jafar! [dramatic pause] It sold millions of tapes and kicked off a whole decade of straight-to-VHS sequels. For better... or worse.",
+          "dailyDouble": false
+        }
+      ],
+      "art": {
+        "prompt": "A cozy diner counter with a second slice of pie arriving on a plate, an empty first plate beside it, a vintage film projector glowing in the background booth. Original painterly storybook illustration, 16:9, cinematic lighting, rich color, no people, no characters, no text, no logos.",
+        "file": "media/sequels-and-spinoffs--back-for-seconds.jpg"
+      }
+    },
+    {
+      "id": "zooming-back-in",
+      "title": "Zooming Back In",
+      "kind": "media",
+      "format": "zoom",
+      "intro": "It's a zoom category! I'll show you a scene from a sequel, VERY zoomed in. [whispers] It slowly zooms out. Buzz in when you know the movie.",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Which sequel is this scene from?",
+          "answer": "Frozen II",
+          "accept": [
+            "frozen ii",
+            "frozen 2",
+            "frozen two"
+          ],
+          "choices": [
+            "Frozen II",
+            "Frozen",
+            "Brave",
+            "Pocahontas II: Journey to a New World"
+          ],
+          "reveal": "The correct answer is Frozen II! The Enchanted Forest, trapped in mist for thirty four years. [gasps] Those autumn leaves though!",
+          "media": {
+            "type": "image",
+            "prompt": "An enchanted autumn birch forest wrapped in glowing silver mist, four towering ancient stone monoliths in a clearing, each carved with a simple elemental symbol for wind, fire, water, and earth, golden leaves swirling in the wind. Original painterly storybook illustration, 16:9, cinematic lighting, rich color, no people, no characters, no text, no logos.",
+            "file": "media/sequels-and-spinoffs--zooming-back-in-200.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Which sequel is this scene from?",
+          "answer": "Finding Dory",
+          "accept": [
+            "finding dory"
+          ],
+          "choices": [
+            "Finding Dory",
+            "Finding Nemo",
+            "Luca",
+            "The Little Mermaid II: Return to the Sea"
+          ],
+          "reveal": "The correct answer is Finding Dory! [excited] Just keep swimming... and follow the shells! That trail of seashells leads Dory home.",
+          "media": {
+            "type": "image",
+            "prompt": "Underwater view of a sunlit California kelp forest, a winding trail of pale seashells across the sandy sea floor leading toward a cozy rock nook, a coastal aquarium building on the cliffs seen far above the surface. Original painterly storybook illustration, 16:9, cinematic lighting, rich color, no people, no characters, no text, no logos.",
+            "file": "media/sequels-and-spinoffs--zooming-back-in-400.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Which sequel is this scene from?",
+          "answer": "Toy Story 3",
+          "accept": [
+            "toy story 3",
+            "toy story three"
+          ],
+          "choices": [
+            "Toy Story 3",
+            "Toy Story 2",
+            "Toy Story 4",
+            "WALL-E"
+          ],
+          "reveal": "The correct answer is Toy Story 3! [sighs] The incinerator scene. They all hold hands. I'm not crying, you're crying.",
+          "media": {
+            "type": "image",
+            "prompt": "The bottom of a vast landfill sorting facility, a conveyor belt of garbage descending into a glowing orange furnace pit, sparks and heat haze, dramatic red light against the dark walls. Original painterly storybook illustration, 16:9, cinematic lighting, rich color, no people, no characters, no text, no logos.",
+            "file": "media/sequels-and-spinoffs--zooming-back-in-600.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Which sequel is this scene from?",
+          "answer": "Incredibles 2",
+          "accept": [
+            "incredibles 2",
+            "the incredibles 2",
+            "incredibles two"
+          ],
+          "choices": [
+            "Incredibles 2",
+            "The Incredibles",
+            "Big Hero 6",
+            "Bolt"
+          ],
+          "reveal": "The correct answer is Incredibles 2! The Parrs' borrowed mansion has waterfalls in the living room. [chuckles] And a remote with WAY too many buttons.",
+          "media": {
+            "type": "image",
+            "prompt": "A sleek mid-century modern hillside mansion at night with floor-to-ceiling glass walls, an indoor waterfall cascading through the sunken living room, warm amber lights and a starry sky. Original painterly storybook illustration, 16:9, cinematic lighting, rich color, no people, no characters, no text, no logos.",
+            "file": "media/sequels-and-spinoffs--zooming-back-in-800.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Which sequel is this scene from?",
+          "answer": "Cars 3",
+          "accept": [
+            "cars 3",
+            "cars three"
+          ],
+          "choices": [
+            "Cars 3",
+            "Cars",
+            "Cars 2",
+            "Planes"
+          ],
+          "reveal": "The correct answer is Cars 3! That's the Thunder Hollow demolition derby. [laughs] Miss Fritter is the scariest school bus in cinema history.",
+          "media": {
+            "type": "image",
+            "prompt": "A muddy figure-eight dirt racetrack at night in the rural woods, stadium floodlights cutting through haze, battered rusty bleachers, puddles, a crumpled old school bus fender lying in the mud. Original painterly storybook illustration, 16:9, cinematic lighting, rich color, no people, no characters, no text, no logos.",
+            "file": "media/sequels-and-spinoffs--zooming-back-in-1000.jpg"
+          },
+          "dailyDouble": false
+        }
+      ],
+      "art": {
+        "prompt": "A giant brass magnifying glass hovering over a glowing movie screen, revealing swirling sparkles of color under the lens, dark theater seats in silhouette. Original painterly storybook illustration, 16:9, cinematic lighting, rich color, no people, no characters, no text, no logos.",
+        "file": "media/sequels-and-spinoffs--zooming-back-in.jpg"
+      }
+    },
+    {
+      "id": "spun-off-to-the-parks",
+      "title": "Spun Off to the Parks",
+      "kind": "parks",
+      "format": "text",
+      "intro": "Sometimes a movie gets a land. Sometimes a ride gets a MOVIE. [chuckles] It's spinoffs, theme park style.",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Hop aboard a giant toy dog on Slinky Dog Dash in this land at Disney's Hollywood Studios.",
+          "answer": "Toy Story Land",
+          "accept": [
+            "toy story land"
+          ],
+          "choices": [
+            "Toy Story Land",
+            "Pixar Pier",
+            "Galaxy's Edge",
+            "Animation Courtyard"
+          ],
+          "reveal": "The correct answer is Toy Story Land! [excited] You're shrunk down to toy size in Andy's backyard. Watch out for the giant popsicle sticks.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Radiator Springs Racers is the headliner of Cars Land in this park.",
+          "answer": "Disney California Adventure",
+          "accept": [
+            "disney california adventure",
+            "california adventure",
+            "dca"
+          ],
+          "choices": [
+            "Disney California Adventure",
+            "Disneyland Park",
+            "Disney's Hollywood Studios",
+            "Walt Disney Studios Park"
+          ],
+          "reveal": "The correct answer is Disney California Adventure! The Cadillac Range mountains look INCREDIBLE at sunset. [whispers] Ride it at night. Trust me.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "This classic boat ride inspired a 2003 movie that spawned four sequels.",
+          "answer": "Pirates of the Caribbean",
+          "accept": [
+            "pirates of the caribbean",
+            "pirates"
+          ],
+          "choices": [
+            "Pirates of the Caribbean",
+            "Haunted Mansion",
+            "Jungle Cruise",
+            "Big Thunder Mountain Railroad"
+          ],
+          "reveal": "The correct answer is Pirates of the Caribbean! [mischievously] Yo ho, a ride became a five movie franchise. Captain Jack would call that a very good haul.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Dwayne Johnson and Emily Blunt starred in this 2021 film based on a skipper-guided boat ride.",
+          "answer": "Jungle Cruise",
+          "accept": [
+            "jungle cruise",
+            "the jungle cruise"
+          ],
+          "choices": [
+            "Jungle Cruise",
+            "Tomorrowland",
+            "Haunted Mansion",
+            "The Country Bears"
+          ],
+          "reveal": "The correct answer is Jungle Cruise! [laughs] And yes, the movie has as many puns as the real skippers. Which is a LOT.",
+          "dailyDouble": true
+        },
+        {
+          "value": 1000,
+          "clue": "Steve Guttenberg and Kirsten Dunst starred in this 1997 TV movie based on a Disney attraction.",
+          "answer": "Tower of Terror",
+          "accept": [
+            "tower of terror",
+            "the twilight zone tower of terror",
+            "twilight zone tower of terror"
+          ],
+          "choices": [
+            "Tower of Terror",
+            "The Haunted Mansion",
+            "Mission to Mars",
+            "The Country Bears"
+          ],
+          "reveal": "The correct answer is Tower of Terror! [gasps] It aired on The Wonderful World of Disney, before Eddie Murphy's Haunted Mansion movie was even an idea.",
+          "dailyDouble": false
+        }
+      ],
+      "art": {
+        "prompt": "A colorful theme park midway at golden hour, a spinning carousel, a mountain coaster in the distance, a riverboat on a lagoon, strings of festoon lights. Original painterly storybook illustration, 16:9, cinematic lighting, rich color, no people, no characters, no text, no logos.",
+        "file": "media/sequels-and-spinoffs--spun-off-to-the-parks.jpg"
+      }
+    },
+    {
+      "id": "spinoff-city",
+      "title": "Spinoff City",
+      "kind": "fan",
+      "format": "text",
+      "intro": "The fans voted for TV and spinoffs. Movies that got their own shows, and shows that got their own movies. [excited] Here we go!",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This 2022 Pixar film is the movie Andy saw that made him want his very own space ranger toy.",
+          "answer": "Lightyear",
+          "accept": [
+            "lightyear",
+            "light year"
+          ],
+          "choices": [
+            "Lightyear",
+            "Buzz Lightyear of Star Command",
+            "Space Ranger",
+            "Beyond Infinity"
+          ],
+          "reveal": "The correct answer is Lightyear! [chuckles] It's a movie inside a movie inside a franchise. Inception, but make it Pixar.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "This 2013 spinoff takes the world of Cars into the sky with a crop duster named Dusty.",
+          "answer": "Planes",
+          "accept": [
+            "planes",
+            "disney's planes"
+          ],
+          "choices": [
+            "Planes",
+            "Wings",
+            "Up",
+            "Jet Set"
+          ],
+          "reveal": "The correct answer is Planes! [laughs] It was originally planned as a direct-to-video movie before landing in theaters. Get it? Landing. I'll stop.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "A meerkat and a warthog from The Lion King got their own 1995 TV series with this title.",
+          "answer": "Timon and Pumbaa",
+          "accept": [
+            "timon and pumbaa",
+            "timon & pumbaa",
+            "the lion king's timon and pumbaa"
+          ],
+          "choices": [
+            "Timon and Pumbaa",
+            "The Lion Guard",
+            "Hakuna Matata!",
+            "Pride Rock Pals"
+          ],
+          "reveal": "The correct answer is Timon and Pumbaa! [sighs] Hakuna matata. No worries, just years of globe-trotting and grubs. What a life.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Rapunzel's adventures continued in this 2017 Disney Channel series, later renamed Rapunzel's Tangled Adventure.",
+          "answer": "Tangled: The Series",
+          "accept": [
+            "tangled the series",
+            "tangled: the series",
+            "rapunzel's tangled adventure"
+          ],
+          "choices": [
+            "Tangled: The Series",
+            "Tangled Ever After",
+            "Rapunzel's Tower Tales",
+            "Tangled Forever"
+          ],
+          "reveal": "The correct answer is Tangled: The Series! [excited] Tangled Ever After is the short with the runaway wedding rings. Close, but no frying pan.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Launchpad McQuack first flew into this series, before teaming up with Darkwing Duck in his own spinoff.",
+          "answer": "DuckTales",
+          "accept": [
+            "ducktales",
+            "duck tales"
+          ],
+          "choices": [
+            "DuckTales",
+            "TaleSpin",
+            "Goof Troop",
+            "Chip 'n Dale: Rescue Rangers"
+          ],
+          "reveal": "The correct answer is DuckTales! Woo-oo! [laughs] Launchpad has crashed nearly every aircraft he has ever touched. Good thing he never flew ME anywhere.",
+          "dailyDouble": false
+        }
+      ],
+      "art": {
+        "prompt": "A retro living room TV set from the 1990s glowing on a shag rug, a stack of VHS tapes without labels, a bowl of cereal, Saturday morning sunlight through blinds. Original painterly storybook illustration, 16:9, cinematic lighting, rich color, no people, no characters, no text, no logos.",
+        "file": "media/sequels-and-spinoffs--spinoff-city.jpg"
+      }
+    }
+  ]
+}
