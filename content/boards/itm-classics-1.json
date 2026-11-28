@@ -1,0 +1,580 @@
+{
+  "id": "itm-classics-1",
+  "title": "Fan Favorites Rewind, Vol. 1",
+  "theme": "Classic Inside the Magic-style categories",
+  "tags": [
+    "classics",
+    "fan-favorites",
+    "mixed",
+    "parks"
+  ],
+  "intro": "[excited] Welcome back, Jeopardy fans! Tonight we're dusting off some all-time classic categories: wizards, farms, famous voices, and the coolest spots in the parks. [laughs] Let's rewind!",
+  "art": {
+    "prompt": "A retro game-show stage with a glowing blue board of 25 blank screens, golden spotlights, sparkling confetti, and a vintage VCR tape reel motif Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+    "file": "media/itm-classics-1.jpg"
+  },
+  "categories": [
+    {
+      "id": "wart-and-the-wizard",
+      "title": "Wart and the Wizard",
+      "kind": "film",
+      "intro": "[excited] We kick off with a boy, a sword, and a wizard with a very long beard. [chuckles] Pull these answers out of your brain like a sword from a stone.",
+      "format": "text",
+      "art": {
+        "prompt": "A lone sword plunged into a mossy anvil on a stone in a sunbeam-lit medieval churchyard, an old wizard's pointed blue hat and a stack of floating books nearby Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/itm-classics-1--wart-and-the-wizard.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "At the start of The Sword in the Stone, young Arthur heads into the forest to fetch one of these that Kay shot.",
+          "answer": "An arrow",
+          "accept": [
+            "arrow",
+            "an arrow"
+          ],
+          "choices": [
+            "An arrow",
+            "A sword",
+            "A deer",
+            "A goblet"
+          ],
+          "reveal": "[chuckles] The correct answer is an arrow! He goes looking for an arrow and finds a wizard. Talk about a lucky trip to the woods.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "After Arthur upsets him, Merlin blasts off on vacation to this sunny place, and the 20th century.",
+          "answer": "Bermuda",
+          "accept": [
+            "bermuda"
+          ],
+          "choices": [
+            "Bermuda",
+            "Hawaii",
+            "Paris",
+            "Atlantis"
+          ],
+          "reveal": "[laughs] The correct answer is Bermuda! He comes back in shorts and sunglasses. Honestly, the man earned a vacation.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Merlin's magic lessons turn Arthur into these three animals, in this order.",
+          "answer": "A fish, a squirrel and a bird",
+          "accept": [
+            "fish squirrel bird",
+            "fish, squirrel, bird",
+            "a fish, a squirrel and a bird",
+            "fish squirrel and bird"
+          ],
+          "choices": [
+            "A fish, a squirrel and a bird",
+            "A fish, a rabbit and an owl",
+            "A bird, a frog and a squirrel",
+            "A squirrel, a fish and a dog"
+          ],
+          "reveal": "The correct answer is a fish, a squirrel and a bird! [sighs] And poor little girl squirrel never got over it. Merlin, you owe her a card.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Arthur's foster father, Sir Ector, keeps calling Merlin by this wrong name.",
+          "answer": "Marvin",
+          "accept": [
+            "marvin"
+          ],
+          "choices": [
+            "Marvin",
+            "Melvin",
+            "Martin",
+            "Mervin"
+          ],
+          "reveal": "[laughs] The correct answer is Marvin! Make yourself at home, Marvin. If I got a name that wrong, I'd turn into a fish too.",
+          "dailyDouble": true
+        },
+        {
+          "value": 1000,
+          "clue": "To win the Wizards' Duel, Merlin turns into this rare germ that gives Madam Mim spots and sniffles.",
+          "answer": "Malignalitaloptereosis",
+          "accept": [
+            "malignalitaloptereosis",
+            "a germ",
+            "germ",
+            "disease"
+          ],
+          "choices": [
+            "Malignalitaloptereosis",
+            "Chickenpoxiosis",
+            "Wartinfectiosis",
+            "Mimsneezalitis"
+          ],
+          "reveal": "The correct answer is malignalitaloptereosis! Try saying that three times fast. [whispers] I can't even say it once.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "old-macdisney-had-a-farm",
+      "title": "Old MacDisney Had a Farm",
+      "kind": "theme",
+      "intro": "Grab your overalls! Every clue in this one is about farms, farmers, and ranch hands in the Disney universe. [laughs] E-I-E-I-oh no.",
+      "format": "text",
+      "art": {
+        "prompt": "A cheerful red barn at sunrise surrounded by golden hay bales, a tractor, a windmill, and fields of glowing green crops under a pastel sky Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/itm-classics-1--old-macdisney-had-a-farm.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This rusty, buck-toothed tow truck from Cars loves sneaking out at night to go tractor tipping.",
+          "answer": "Mater",
+          "accept": [
+            "mater",
+            "tow mater"
+          ],
+          "choices": [
+            "Mater",
+            "Luigi",
+            "Guido",
+            "Fillmore"
+          ],
+          "reveal": "[laughs] The correct answer is Mater! He's the world's best backwards driver and the world's worst at keeping quiet near sleeping tractors.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Three dairy cows try to save the Patch of Heaven farm in this 2004 film, with songs by Alan Menken.",
+          "answer": "Home on the Range",
+          "accept": [
+            "home on the range"
+          ],
+          "choices": [
+            "Home on the Range",
+            "Brother Bear",
+            "Chicken Little",
+            "The Fox and the Hound"
+          ],
+          "reveal": "The correct answer is Home on the Range! [chuckles] It's the Disney movie everybody forgets, which makes it perfect for a game show.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Butch, Nash and Ramsey are T. rex ranchers herding longhorns in this Pixar film.",
+          "answer": "The Good Dinosaur",
+          "accept": [
+            "the good dinosaur",
+            "good dinosaur"
+          ],
+          "choices": [
+            "The Good Dinosaur",
+            "Toy Story",
+            "Cars 3",
+            "Elemental"
+          ],
+          "reveal": "[excited] The correct answer is The Good Dinosaur! Dinosaur cowboys. Somebody at Pixar had a really great Tuesday.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "He doesn't own a single cow, but this man has been the voice of Goofy since 1987, and his last name is a farm job.",
+          "answer": "Bill Farmer",
+          "accept": [
+            "bill farmer",
+            "farmer"
+          ],
+          "choices": [
+            "Bill Farmer",
+            "Tony Anselmo",
+            "Jim Cummings",
+            "Bill Rancher"
+          ],
+          "reveal": "[laughs] The correct answer is Bill Farmer! Gawrsh. He's been Goofy for over three decades, and his name is the best part of this category.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "In Strange World, Searcher Clade farms this glowing green plant that powers the land of Avalonia.",
+          "answer": "Pando",
+          "accept": [
+            "pando"
+          ],
+          "choices": [
+            "Pando",
+            "Splatter",
+            "Verdana",
+            "Glowroot"
+          ],
+          "reveal": "The correct answer is Pando! And spoiler alert, farming it turns out to be a really bad idea for a very big turtle.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "lend-me-your-ears",
+      "title": "Lend Me Your Ears",
+      "kind": "media",
+      "intro": "Listen up! I'll play you a line from a Disney or Pixar film. You tell me which character said it. [whispers] Ears on, folks.",
+      "format": "quote",
+      "art": {
+        "prompt": "A vintage golden gramophone horn blooming with glowing musical notes and swirling sound waves over a red velvet theater stage Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/itm-classics-1--lend-me-your-ears.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Name the character who says this famous line.",
+          "answer": "Buzz Lightyear",
+          "accept": [
+            "buzz lightyear",
+            "buzz"
+          ],
+          "choices": [
+            "Buzz Lightyear",
+            "Woody",
+            "Zurg",
+            "Rex"
+          ],
+          "reveal": "[excited] The correct answer is Buzz Lightyear! Falling with style since 1995.",
+          "quote": "To infinity and beyond!",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Name the warm-hearted character who says this line.",
+          "answer": "Olaf",
+          "accept": [
+            "olaf"
+          ],
+          "choices": [
+            "Olaf",
+            "Kristoff",
+            "Sven",
+            "Anna"
+          ],
+          "reveal": "[sighs] The correct answer is Olaf! The only snowman who would happily melt for a friend. Somebody get him a fan.",
+          "quote": "Some people are worth melting for.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Name the little girl who teaches her alien pet this line.",
+          "answer": "Lilo",
+          "accept": [
+            "lilo",
+            "lilo pelekai"
+          ],
+          "choices": [
+            "Lilo",
+            "Nani",
+            "Moana",
+            "Boo"
+          ],
+          "reveal": "[chuckles] The correct answer is Lilo! Ohana means family, and family means even a blue alien gets a hug.",
+          "quote": "Ohana means family. Family means nobody gets left behind.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Name the skeleton who says this line to his songwriting partner.",
+          "answer": "Hector",
+          "accept": [
+            "hector",
+            "héctor",
+            "hector rivera"
+          ],
+          "choices": [
+            "Hector",
+            "Ernesto de la Cruz",
+            "Miguel",
+            "Chicharron"
+          ],
+          "reveal": "[gasps] The correct answer is Hector! And his partner Ernesto did not take it well. At all. Poison is not a breakup strategy.",
+          "quote": "I'm going home, Ernesto. Hate me if you want.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Name the chubby caterpillar from A Bug's Life who finally gets his wish with this line.",
+          "answer": "Heimlich",
+          "accept": [
+            "heimlich"
+          ],
+          "choices": [
+            "Heimlich",
+            "Flik",
+            "Dim",
+            "Francis"
+          ],
+          "reveal": "[laughs] The correct answer is Heimlich! His wings are about the size of a postage stamp, but hey, a dream is a dream.",
+          "quote": "I'm a beautiful butterfly!",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "beat-the-heat",
+      "title": "Beat the Heat",
+      "kind": "parks",
+      "intro": "Florida summers are no joke. [laughs] I'll show you a photo of a place in the parks where you can cool off. You name the place.",
+      "format": "picture",
+      "art": {
+        "prompt": "A sparkling turquoise wave pool under palm trees with a beached shipwreck on a mountaintop, splash fountains and beach umbrellas in bright sun Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/itm-classics-1--beat-the-heat.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This water park's giant surf pool sits below a shrimp boat stuck on top of Mount Mayday. Name the water park.",
+          "answer": "Typhoon Lagoon",
+          "accept": [
+            "typhoon lagoon",
+            "disney's typhoon lagoon"
+          ],
+          "choices": [
+            "Typhoon Lagoon",
+            "Blizzard Beach",
+            "River Country",
+            "Aquatopia"
+          ],
+          "reveal": "[excited] The correct answer is Typhoon Lagoon! The boat is Miss Tilly, and she blows water every half hour. [laughs] Rude, but refreshing.",
+          "media": {
+            "type": "image",
+            "file": "media/itm-classics-1--beat-the-heat-200.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Typhoon_Lagoon_Surf-Wave_Pool_(33492056513).jpg",
+              "license": "CC BY-SA 2.0",
+              "author": "elisfkc from Orlando, FL, United States"
+            }
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "This air-conditioned EPCOT pavilion is home to Soarin' and Living with the Land. Name it.",
+          "answer": "The Land",
+          "accept": [
+            "the land",
+            "land",
+            "the land pavilion"
+          ],
+          "choices": [
+            "The Land",
+            "The Seas",
+            "Imagination!",
+            "Wonders of Life"
+          ],
+          "reveal": "The correct answer is The Land! Grab a seat at the Garden Grill, which slowly rotates while you eat. [chuckles] Dinner and a ride.",
+          "media": {
+            "type": "image",
+            "file": "media/itm-classics-1--beat-the-heat-400.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:TheLandatEpcot.JPG",
+              "license": "CC BY-SA 3.0",
+              "author": "UpstateNYer"
+            }
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Sit in the first rows of this Hollywood Studios amphitheater and you may get splashed during this nighttime show.",
+          "answer": "Fantasmic!",
+          "accept": [
+            "fantasmic",
+            "fantasmic!"
+          ],
+          "choices": [
+            "Fantasmic!",
+            "World of Color",
+            "Wonderful World of Animation",
+            "Beauty and the Beast Live"
+          ],
+          "reveal": "[excited] The correct answer is Fantasmic! The Hollywood Hills Amphitheater is not in Hollywood, but the dragon definitely is on fire.",
+          "media": {
+            "type": "image",
+            "file": "media/itm-classics-1--beat-the-heat-600.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:HollywoodHillsAmphitheaterStage.jpg",
+              "license": "Public domain",
+              "author": "Whitenep"
+            }
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "This shady Animal Kingdom theater hosted Tarzan Rocks! before Finding Nemo: The Musical arrived in 2007. Name the venue.",
+          "answer": "Theater in the Wild",
+          "accept": [
+            "theater in the wild",
+            "theatre in the wild"
+          ],
+          "choices": [
+            "Theater in the Wild",
+            "Festival of the Lion King Theater",
+            "Harambe Theatre",
+            "Hyperion Theater"
+          ],
+          "reveal": "The correct answer is Theater in the Wild! Swim on over and enjoy some air conditioning with your fish.",
+          "media": {
+            "type": "image",
+            "file": "media/itm-classics-1--beat-the-heat-800.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Finding_Nemo_The_Musical_at_Animal_Kingdom.JPG",
+              "license": "Public domain",
+              "author": "Malpass93"
+            }
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "This often-forgotten EPCOT building between Test Track and Mexico is a cool spot for events and festivals. Name it.",
+          "answer": "Odyssey Pavilion",
+          "accept": [
+            "odyssey",
+            "odyssey pavilion",
+            "the odyssey"
+          ],
+          "choices": [
+            "Odyssey Pavilion",
+            "Wonders of Life",
+            "CommuniCore",
+            "Horizons"
+          ],
+          "reveal": "[whispers] The correct answer is the Odyssey Pavilion! It opened in 1982 as a restaurant, and these days it's EPCOT's best-kept indoor secret.",
+          "media": {
+            "type": "image",
+            "file": "media/itm-classics-1--beat-the-heat-1000.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Odyssey_Pavilion,_EPCOT.jpg",
+              "license": "CC BY-SA 4.0",
+              "author": "Jedi94"
+            }
+          },
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "extreme-close-up",
+      "title": "Extreme Close-Up",
+      "kind": "fan",
+      "intro": "Our fans love a zoom! I'll show you a very, very close look at a famous Disney object. Name the film it comes from.",
+      "format": "zoom",
+      "art": {
+        "prompt": "A giant antique magnifying glass hovering over a treasure table of tiny glowing magical props, sparkles and bokeh lights Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/itm-classics-1--extreme-close-up.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Zoom in on this sparkly object. Which film does it belong to?",
+          "answer": "Cinderella",
+          "accept": [
+            "cinderella"
+          ],
+          "choices": [
+            "Cinderella",
+            "Sleeping Beauty",
+            "Enchanted",
+            "Tangled"
+          ],
+          "reveal": "The correct answer is Cinderella! One glass slipper, left behind at midnight. Worst lost-and-found case in history.",
+          "media": {
+            "type": "image",
+            "prompt": "Extreme macro close-up of a sparkling glass slipper resting on a blue velvet pillow, glittering facets catching candlelight Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+            "file": "media/itm-classics-1--extreme-close-up-200.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "This enchanted object is losing its petals. Name the film.",
+          "answer": "Beauty and the Beast",
+          "accept": [
+            "beauty and the beast"
+          ],
+          "choices": [
+            "Beauty and the Beast",
+            "Sleeping Beauty",
+            "Snow White and the Seven Dwarfs",
+            "Frozen"
+          ],
+          "reveal": "The correct answer is Beauty and the Beast! When that last petal falls, it's game over. [whispers] No pressure.",
+          "media": {
+            "type": "image",
+            "prompt": "Extreme close-up of a single glowing red rose floating under a glass bell jar, a few fallen petals on a dark wooden table Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+            "file": "media/itm-classics-1--extreme-close-up-400.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "This glowing green stone has a spiral carved in it. Name the film.",
+          "answer": "Moana",
+          "accept": [
+            "moana"
+          ],
+          "choices": [
+            "Moana",
+            "Lilo & Stitch",
+            "Raya and the Last Dragon",
+            "Encanto"
+          ],
+          "reveal": "[excited] The correct answer is Moana! It's the heart of Te Fiti, and you're welcome. [laughs] Sorry, wrong demigod.",
+          "media": {
+            "type": "image",
+            "prompt": "Extreme close-up of a smooth glowing green pounamu stone with a spiral carved into it, resting on dark ocean sand with sparkling water Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+            "file": "media/itm-classics-1--extreme-close-up-600.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Two golden halves of this beetle fit together to find a famous cave. Name the film.",
+          "answer": "Aladdin",
+          "accept": [
+            "aladdin"
+          ],
+          "choices": [
+            "Aladdin",
+            "The Mummy",
+            "A Bug's Life",
+            "Hercules"
+          ],
+          "reveal": "[gasps] The correct answer is Aladdin! The golden scarab leads to the Cave of Wonders. Touch nothing but the lamp!",
+          "media": {
+            "type": "image",
+            "prompt": "Extreme close-up of a golden scarab beetle amulet split into two halves with glowing red eyes, desert sand blowing past at night Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+            "file": "media/itm-classics-1--extreme-close-up-800.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "This glowing blue gem has been broken into pieces. Name the film.",
+          "answer": "Raya and the Last Dragon",
+          "accept": [
+            "raya and the last dragon",
+            "raya"
+          ],
+          "choices": [
+            "Raya and the Last Dragon",
+            "Moana",
+            "Frozen II",
+            "Atlantis: The Lost Empire"
+          ],
+          "reveal": "The correct answer is Raya and the Last Dragon! The Dragon Gem broke into five pieces, and everyone fought over them. [sighs] Classic group project.",
+          "media": {
+            "type": "image",
+            "prompt": "Extreme close-up of a glowing blue crystal orb shattered into five sharp shards, swirling mist and ancient carved stone in the background Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+            "file": "media/itm-classics-1--extreme-close-up-1000.jpg"
+          },
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}

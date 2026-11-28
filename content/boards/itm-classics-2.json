@@ -1,0 +1,551 @@
+{
+  "id": "itm-classics-2",
+  "title": "Fan Favorites Rewind, Vol. 2",
+  "theme": "More classic Inside the Magic-style categories",
+  "tags": [
+    "classics",
+    "fan-favorites",
+    "mixed",
+    "wordplay"
+  ],
+  "intro": "[excited] We're back with more fan-favorite categories! Toads, news anchors, props, ABCs, and rhymes. [laughs] It's a grab bag of greatness tonight!",
+  "art": {
+    "prompt": "A retro game-show stage with glowing blue screens, an old film reel, a stack of storybooks, and gold confetti in spotlights Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+    "file": "media/itm-classics-2.jpg"
+  },
+  "categories": [
+    {
+      "id": "merrily-on-our-way",
+      "title": "Merrily on Our Way",
+      "kind": "film",
+      "intro": "[excited] Two stories, one movie! It's The Adventures of Ichabod and Mr. Toad. [laughs] Hold on to your hats, and your heads.",
+      "format": "text",
+      "art": {
+        "prompt": "A split scene: on the left a vintage red motorcar racing down an English country lane past a grand manor, on the right a spooky moonlit covered bridge with a glowing carved pumpkin Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/itm-classics-2--merrily-on-our-way.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This Disneyland dark ride, an opening-day attraction in 1955, is based on the film's half about a reckless amphibian.",
+          "answer": "Mr. Toad's Wild Ride",
+          "accept": [
+            "mr toad's wild ride",
+            "mr. toad's wild ride",
+            "mr toads wild ride",
+            "toad's wild ride"
+          ],
+          "choices": [
+            "Mr. Toad's Wild Ride",
+            "Snow White's Scary Adventures",
+            "Alice in Wonderland",
+            "Peter Pan's Flight"
+          ],
+          "reveal": "[laughs] The correct answer is Mr. Toad's Wild Ride! It ends with you literally driving into the underworld. Fun for the whole family!",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Bing Crosby narrates the half of the film based on this Washington Irving story.",
+          "answer": "The Legend of Sleepy Hollow",
+          "accept": [
+            "the legend of sleepy hollow",
+            "legend of sleepy hollow",
+            "sleepy hollow"
+          ],
+          "choices": [
+            "The Legend of Sleepy Hollow",
+            "Rip Van Winkle",
+            "The Wind in the Willows",
+            "The Headless Horseman of Tarrytown"
+          ],
+          "reveal": "The correct answer is The Legend of Sleepy Hollow! [whispers] Bing makes it sound so cozy. It is not cozy.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "In the film's big chase, the Headless Horseman hurls this flaming object at poor Ichabod Crane.",
+          "answer": "A pumpkin",
+          "accept": [
+            "pumpkin",
+            "a pumpkin",
+            "jack-o'-lantern",
+            "jack o lantern",
+            "jack-o-lantern",
+            "flaming pumpkin"
+          ],
+          "choices": [
+            "A pumpkin",
+            "A torch",
+            "A lantern",
+            "A cannonball"
+          ],
+          "reveal": "[gasps] The correct answer is a pumpkin! A flaming jack-o'-lantern, right at his head. Ichabod, buddy, just stay home on Halloween.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Toad's loyal and rather posh horse goes by this name.",
+          "answer": "Cyril Proudbottom",
+          "accept": [
+            "cyril",
+            "cyril proudbottom",
+            "proudbottom"
+          ],
+          "choices": [
+            "Cyril Proudbottom",
+            "MacBadger",
+            "Angus MacBadger",
+            "Ratty"
+          ],
+          "reveal": "[chuckles] The correct answer is Cyril Proudbottom! Best horse name in Disney history. I will not be taking questions.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "This sneaky tavern keeper is the real thief who steals the motorcar and lets Toad take the blame.",
+          "answer": "Mr. Winky",
+          "accept": [
+            "winky",
+            "mr winky",
+            "mr. winky"
+          ],
+          "choices": [
+            "Mr. Winky",
+            "Mr. Weasel",
+            "Mr. Smee",
+            "Mr. Snoops"
+          ],
+          "reveal": "[excited] The correct answer is Mr. Winky! Shady tavern owner, in cahoots with the weasels. Never trust a guy named Winky.",
+          "dailyDouble": true
+        }
+      ]
+    },
+    {
+      "id": "stop-the-presses",
+      "title": "Stop the Presses",
+      "kind": "theme",
+      "intro": "[excited] Breaking news, everybody! This category is all about newsrooms, anchors, and reporters across the Disney world. [laughs] Back to you, Tom.",
+      "format": "text",
+      "art": {
+        "prompt": "A vintage TV news desk under studio spotlights with two empty chairs, a retro microphone, a stack of newspapers, and a city skyline backdrop Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/itm-classics-2--stop-the-presses.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Disney owns this sports network, whose four letters originally stood for Entertainment and Sports Programming Network.",
+          "answer": "ESPN",
+          "accept": [
+            "espn"
+          ],
+          "choices": [
+            "ESPN",
+            "CNN",
+            "HBO",
+            "NBC Sports"
+          ],
+          "reveal": "The correct answer is ESPN! [chuckles] Disney has the mouse and SportsCenter. Talk about a full schedule.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Robin Roberts has co-anchored this ABC morning show since 2005.",
+          "answer": "Good Morning America",
+          "accept": [
+            "good morning america",
+            "gma"
+          ],
+          "choices": [
+            "Good Morning America",
+            "Today",
+            "CBS Mornings",
+            "The View"
+          ],
+          "reveal": "[excited] The correct answer is Good Morning America! Good morning to you too, Robin.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "In the U.S. version of Zootopia, the ZNN news co-anchor is this antlered animal. In Japan, it's a raccoon dog instead.",
+          "answer": "A moose",
+          "accept": [
+            "moose",
+            "a moose"
+          ],
+          "choices": [
+            "A moose",
+            "An elk",
+            "A reindeer",
+            "A deer"
+          ],
+          "reveal": "[laughs] The correct answer is a moose! Different countries got different anchors, so a panda in China and a koala in Australia. Global news, literally.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "At the start of Up, young Carl watches a newsreel about this famous explorer, his childhood hero.",
+          "answer": "Charles Muntz",
+          "accept": [
+            "muntz",
+            "charles muntz",
+            "charles f. muntz",
+            "charles f muntz"
+          ],
+          "choices": [
+            "Charles Muntz",
+            "Kevin",
+            "Russell",
+            "Carl Fredricksen"
+          ],
+          "reveal": "[gasps] The correct answer is Charles Muntz! Never meet your heroes, especially if they have a pack of talking dogs.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Disney comics turned this 1930s mouse into a newspaper reporter, Mickey's sister, and the mom of Morty and Ferdie.",
+          "answer": "Felicity Fieldmouse",
+          "accept": [
+            "felicity",
+            "felicity fieldmouse",
+            "mrs. fieldmouse",
+            "mrs fieldmouse",
+            "amelia fieldmouse"
+          ],
+          "choices": [
+            "Felicity Fieldmouse",
+            "Minnie Mouse",
+            "Clarabelle Cow",
+            "Melody Mouse"
+          ],
+          "reveal": "[excited] The correct answer is Felicity Fieldmouse! Mickey has a big sister. Most of you did not know that, and that's why this is a thousand points.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "mickeys-prop-closet",
+      "title": "Mickey's Prop Closet",
+      "kind": "media",
+      "intro": "We raided Mickey's prop room! [whispers] Don't tell him. I'll show you a prop, you name the Mickey film or short it's from.",
+      "format": "picture",
+      "art": {
+        "prompt": "A cozy backstage prop room with shelves of a ship's wheel, a starry wizard hat, a magic bean, a Victorian top hat, and a velvet crown, warm lamp light Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/itm-classics-2--mickeys-prop-closet.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This prop calls back to Mickey's 1928 steamboat cartoon. Name the short.",
+          "answer": "Steamboat Willie",
+          "accept": [
+            "steamboat willie"
+          ],
+          "choices": [
+            "Steamboat Willie",
+            "Plane Crazy",
+            "The Gallopin' Gaucho",
+            "The Band Concert"
+          ],
+          "reveal": "[excited] The correct answer is Steamboat Willie! Mickey's big debut with synchronized sound. Toot toot!",
+          "media": {
+            "type": "image",
+            "prompt": "A wooden ship's steering wheel on the deck of an old paddle-wheel riverboat with smokestacks puffing, black-and-white film grain Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+            "file": "media/itm-classics-2--mickeys-prop-closet-200.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Name the 1940 film where this hat causes a lot of trouble.",
+          "answer": "Fantasia",
+          "accept": [
+            "fantasia"
+          ],
+          "choices": [
+            "Fantasia",
+            "The Sword in the Stone",
+            "Fun and Fancy Free",
+            "Melody Time"
+          ],
+          "reveal": "[laughs] The correct answer is Fantasia! The Sorcerer's Apprentice. Never borrow your boss's hat. Or his brooms.",
+          "media": {
+            "type": "image",
+            "prompt": "A tall deep-blue wizard's cone hat with silver stars and a crescent moon, beside two wooden buckets overflowing with water on a stone staircase Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+            "file": "media/itm-classics-2--mickeys-prop-closet-400.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Mickey trades the family cow for these. Name the 1947 package film.",
+          "answer": "Fun and Fancy Free",
+          "accept": [
+            "fun and fancy free",
+            "mickey and the beanstalk"
+          ],
+          "choices": [
+            "Fun and Fancy Free",
+            "Melody Time",
+            "Saludos Amigos",
+            "Make Mine Music"
+          ],
+          "reveal": "The correct answer is Fun and Fancy Free! Mickey and the Beanstalk. [chuckles] Bad trade, great beanstalk.",
+          "media": {
+            "type": "image",
+            "prompt": "A small pile of three glowing magic beans in an open palm-sized wooden box, a giant green beanstalk climbing into the clouds behind Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+            "file": "media/itm-classics-2--mickeys-prop-closet-600.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Mickey plays Bob Cratchit in this 1983 short, where this prop matters a lot.",
+          "answer": "Mickey's Christmas Carol",
+          "accept": [
+            "mickey's christmas carol",
+            "mickeys christmas carol",
+            "a christmas carol"
+          ],
+          "choices": [
+            "Mickey's Christmas Carol",
+            "The Prince and the Pauper",
+            "Mickey's Once Upon a Christmas",
+            "Mickey's Twice Upon a Christmas"
+          ],
+          "reveal": "[sighs] The correct answer is Mickey's Christmas Carol! A little crutch by the fireplace. Excuse me, I have something in my eye.",
+          "media": {
+            "type": "image",
+            "prompt": "A small wooden crutch leaning against a warm Victorian brick fireplace with stockings and a tiny Christmas tree, snow at the window Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+            "file": "media/itm-classics-2--mickeys-prop-closet-800.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Mickey plays two roles in this 1990 short where a crown swaps owners.",
+          "answer": "The Prince and the Pauper",
+          "accept": [
+            "the prince and the pauper",
+            "prince and the pauper"
+          ],
+          "choices": [
+            "The Prince and the Pauper",
+            "Mickey's Christmas Carol",
+            "The Three Musketeers",
+            "Runaway Brain"
+          ],
+          "reveal": "[excited] The correct answer is The Prince and the Pauper! Mickey plays the prince and the pauper. Double the Mickey, double the fun.",
+          "media": {
+            "type": "image",
+            "prompt": "A golden jeweled royal crown resting on a pile of patched, ragged peasant clothes on a castle flagstone floor, torchlight Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+            "file": "media/itm-classics-2--mickeys-prop-closet-1000.jpg"
+          },
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "a-to-z-attractions",
+      "title": "A-to-Z Attractions",
+      "kind": "parks",
+      "intro": "[chuckles] It's spelling bee time! I'll name four attractions. You tell me which one comes first in alphabetical order. Ignore the spaces, trust your ABCs.",
+      "format": "text",
+      "art": {
+        "prompt": "Colorful wooden alphabet blocks stacked like a castle, a tiny monorail track looping around them, theme park lights twinkling at dusk Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/itm-classics-2--a-to-z-attractions.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Alphabetize this! Which comes first: Haunted Mansion, Space Mountain, Dumbo the Flying Elephant, Peter Pan's Flight?",
+          "answer": "Dumbo the Flying Elephant",
+          "accept": [
+            "dumbo the flying elephant",
+            "dumbo the flying elephant"
+          ],
+          "choices": [
+            "Dumbo the Flying Elephant",
+            "Haunted Mansion",
+            "Space Mountain",
+            "Peter Pan's Flight"
+          ],
+          "reveal": "[excited] The correct answer is Dumbo the Flying Elephant! D comes before H, P and S. Fly, baby, fly.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Alphabetize this! Which comes first: Soarin', Test Track, Mission: SPACE, Frozen Ever After?",
+          "answer": "Frozen Ever After",
+          "accept": [
+            "frozen ever after",
+            "frozen ever after"
+          ],
+          "choices": [
+            "Frozen Ever After",
+            "Soarin'",
+            "Test Track",
+            "Mission: SPACE"
+          ],
+          "reveal": "The correct answer is Frozen Ever After! F beats M, S and T. [laughs] Let it go, everyone.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Alphabetize this! Which comes first: Kilimanjaro Safaris, Expedition Everest, Na'vi River Journey, DINOSAUR?",
+          "answer": "DINOSAUR",
+          "accept": [
+            "dinosaur",
+            "dinosaur"
+          ],
+          "choices": [
+            "DINOSAUR",
+            "Kilimanjaro Safaris",
+            "Expedition Everest",
+            "Na'vi River Journey"
+          ],
+          "reveal": "[laughs] The correct answer is DINOSAUR! D before E. The dinosaurs win again. They usually do.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Alphabetize this! Which comes first: Star Tours, Slinky Dog Dash, Spaceship Earth, Seven Dwarfs Mine Train?",
+          "answer": "Seven Dwarfs Mine Train",
+          "accept": [
+            "seven dwarfs mine train",
+            "seven dwarfs mine train"
+          ],
+          "choices": [
+            "Seven Dwarfs Mine Train",
+            "Star Tours",
+            "Slinky Dog Dash",
+            "Spaceship Earth"
+          ],
+          "reveal": "[gasps] The correct answer is Seven Dwarfs Mine Train! S-E beats S-L, S-P and S-T. Heigh-ho, heigh-ho.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Alphabetize this! Which comes first: Mickey's PhilharMagic, Main Street Vehicles, Magic Carpets of Aladdin, Mad Tea Party?",
+          "answer": "Mad Tea Party",
+          "accept": [
+            "mad tea party",
+            "mad tea party"
+          ],
+          "choices": [
+            "Mad Tea Party",
+            "Mickey's PhilharMagic",
+            "Main Street Vehicles",
+            "Magic Carpets of Aladdin"
+          ],
+          "reveal": "[excited] The correct answer is Mad Tea Party! M-A-D beats M-A-G and M-A-I. Spin me right round, baby.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "rhyme-crimes",
+      "title": "Rhyme Crimes",
+      "kind": "fan",
+      "intro": "[laughs] It's rhyme time! Every answer is two rhyming words, and one of them is a Disney name. Make it rhyme or make it fine.",
+      "format": "text",
+      "art": {
+        "prompt": "A whimsical storybook page exploding with swirling musical notes, quills, ink pots and bouncing rhyming paper hearts on a starry purple background Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/itm-classics-2--rhyme-crimes.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Rhyme time: the scent of Beauty and the Beast's bookworm heroine.",
+          "answer": "Belle smell",
+          "accept": [
+            "belle smell",
+            "belle's smell",
+            "belles smell"
+          ],
+          "choices": [
+            "Belle smell",
+            "Belle bell",
+            "Rose nose",
+            "Beast feast"
+          ],
+          "reveal": "[laughs] The correct answer is Belle smell! Probably old books and fresh bread. Lovely.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Rhyme time: the sound Pooh's gloomy donkey pal makes while he naps.",
+          "answer": "Eeyore snore",
+          "accept": [
+            "eeyore snore",
+            "eeyore's snore",
+            "eeyores snore"
+          ],
+          "choices": [
+            "Eeyore snore",
+            "Eeyore roar",
+            "Piglet giggle",
+            "Tigger snicker"
+          ],
+          "reveal": "The correct answer is Eeyore snore! [sighs] Thanks for noticin' me.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Rhyme time: the reading material of Peter Pan's pirate enemy.",
+          "answer": "Hook book",
+          "accept": [
+            "hook book",
+            "hook's book",
+            "hooks book",
+            "captain hook book"
+          ],
+          "choices": [
+            "Hook book",
+            "Smee tea",
+            "Hook nook",
+            "Pan plan"
+          ],
+          "reveal": "[chuckles] The correct answer is Hook book! Probably titled Ticking Crocodiles and How to Avoid Them.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Rhyme time: the place where the giggly hyena from The Lion King sleeps.",
+          "answer": "Ed's bed",
+          "accept": [
+            "ed bed",
+            "ed's bed",
+            "eds bed"
+          ],
+          "choices": [
+            "Ed's bed",
+            "Ed's sled",
+            "Scar's car",
+            "Shenzi's bed"
+          ],
+          "reveal": "[laughs] The correct answer is Ed's bed! Ed never says a word, but I bet he laughs in his sleep.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Rhyme time: a little gadget belonging to Ratigan's peg-legged bat in The Great Mouse Detective.",
+          "answer": "Fidget's widget",
+          "accept": [
+            "fidget widget",
+            "fidget's widget",
+            "fidgets widget"
+          ],
+          "choices": [
+            "Fidget's widget",
+            "Basil's dazzle",
+            "Fidget's gadget",
+            "Toby's robe"
+          ],
+          "reveal": "[excited] The correct answer is Fidget's widget! Basil would deduce it in seconds. You did too. Probably.",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}

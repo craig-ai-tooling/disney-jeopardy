@@ -1,0 +1,531 @@
+{
+  "id": "deep-cut-animation",
+  "title": "Deep-Cut Animation",
+  "theme": "The underrated Disney animated movies only real fans remember",
+  "tags": [
+    "animation",
+    "deep-cuts",
+    "2000s",
+    "1980s"
+  ],
+  "intro": "[excited] Tonight we're digging deep into the Disney vault! Black Cauldron, Atlantis, Treasure Planet, The Emperor's New Groove. [laughs] If you know these, you're my kind of nerd.",
+  "art": {
+    "prompt": "An ancient underground film vault lit by a lantern, revealing a black cauldron, a crystal shard, a glowing golden map sphere, and a llama-shaped stone statue Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+    "file": "media/deep-cut-animation.jpg"
+  },
+  "categories": [
+    {
+      "id": "prydain-perils",
+      "title": "Prydain Perils",
+      "kind": "film",
+      "intro": "[whispers] Gather close. Our first category comes from Disney's darkest corner: 1985's The Black Cauldron. [gasps] Spooky stuff, folks.",
+      "format": "text",
+      "art": {
+        "prompt": "A massive black iron cauldron glowing with eerie green smoke inside a dark stone castle crypt, thorny vines and flickering torches Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/deep-cut-animation--prydain-perils.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Taran is an assistant pig-keeper, and his pig Hen Wen has this special power.",
+          "answer": "She can see the future",
+          "accept": [
+            "prophecy",
+            "visions",
+            "see the future",
+            "she can see the future",
+            "oracle",
+            "fortune telling"
+          ],
+          "choices": [
+            "She can see the future",
+            "She can talk",
+            "She can fly",
+            "She can turn invisible"
+          ],
+          "reveal": "[excited] The correct answer is she can see the future! An oracle pig. Honestly, that's the most useful pet in Disney history.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "This furry, apple-loving sidekick worries about his poor, tender head.",
+          "answer": "Gurgi",
+          "accept": [
+            "gurgi"
+          ],
+          "choices": [
+            "Gurgi",
+            "Doli",
+            "Fflewddur Fflam",
+            "Creeper"
+          ],
+          "reveal": "[laughs] The correct answer is Gurgi! Munchings and crunchings, everybody.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "This skeletal villain wants the cauldron so he can raise an army of the undead.",
+          "answer": "The Horned King",
+          "accept": [
+            "horned king",
+            "the horned king"
+          ],
+          "choices": [
+            "The Horned King",
+            "Chernabog",
+            "The Lich King",
+            "Creeper"
+          ],
+          "reveal": "[gasps] The correct answer is the Horned King! He's still one of the scariest things Disney ever put on screen.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "The Black Cauldron was the first Disney animated feature to get this MPAA rating.",
+          "answer": "PG",
+          "accept": [
+            "pg",
+            "rated pg"
+          ],
+          "choices": [
+            "PG",
+            "G",
+            "PG-13",
+            "R"
+          ],
+          "reveal": "The correct answer is PG! [chuckles] Disney even trimmed some of the scariest scenes before release.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "The Black Cauldron is based on The Chronicles of Prydain, a book series by this author.",
+          "answer": "Lloyd Alexander",
+          "accept": [
+            "lloyd alexander",
+            "alexander"
+          ],
+          "choices": [
+            "Lloyd Alexander",
+            "C.S. Lewis",
+            "T.H. White",
+            "Susan Cooper"
+          ],
+          "reveal": "[excited] The correct answer is Lloyd Alexander! His books drew on Welsh mythology. Total Disney nerd points for you.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "lost-empire-logbook",
+      "title": "Lost Empire Logbook",
+      "kind": "film",
+      "intro": "[excited] Dive, dive, dive! Next up is 2001's Atlantis: The Lost Empire. Grab your submarine and your dictionary.",
+      "format": "text",
+      "art": {
+        "prompt": "A giant steampunk submarine descending past glowing blue crystals into an underwater cavern with ancient sunken stone towers Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/deep-cut-animation--lost-empire-logbook.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This young linguist from a museum leads the way to the lost city in Atlantis: The Lost Empire.",
+          "answer": "Milo Thatch",
+          "accept": [
+            "milo",
+            "milo thatch",
+            "milo james thatch"
+          ],
+          "choices": [
+            "Milo Thatch",
+            "Lyle Rourke",
+            "Vinny Santorini",
+            "Gaetan Moliere"
+          ],
+          "reveal": "The correct answer is Milo Thatch! [chuckles] A museum nerd saves the day. Love to see it.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Atlantis is guarded by this huge robotic lobster-like machine that attacks the submarine.",
+          "answer": "The Leviathan",
+          "accept": [
+            "leviathan",
+            "the leviathan"
+          ],
+          "choices": [
+            "The Leviathan",
+            "The Kraken",
+            "The Behemoth",
+            "The Colossus"
+          ],
+          "reveal": "[gasps] The correct answer is the Leviathan! Biggest seafood platter ever.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "The expedition travels in this giant submarine, named after a hero of Greek myth.",
+          "answer": "The Ulysses",
+          "accept": [
+            "ulysses",
+            "the ulysses"
+          ],
+          "choices": [
+            "The Ulysses",
+            "The Nautilus",
+            "The Odyssey",
+            "The Poseidon"
+          ],
+          "reveal": "[excited] The correct answer is the Ulysses! It doesn't make it home. Spoiler. Sorry.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Mike Mignola, creator of this comic book hero, helped design the film's angular look.",
+          "answer": "Hellboy",
+          "accept": [
+            "hellboy"
+          ],
+          "choices": [
+            "Hellboy",
+            "Spawn",
+            "The Shadow",
+            "Swamp Thing"
+          ],
+          "reveal": "[excited] The correct answer is Hellboy! That's why Atlantis looks so cool. Strong lines, strong shadows.",
+          "dailyDouble": true
+        },
+        {
+          "value": 1000,
+          "clue": "Linguist Marc Okrand created the Atlantean language. He also built this famous alien language for Star Trek.",
+          "answer": "Klingon",
+          "accept": [
+            "klingon",
+            "the klingon language"
+          ],
+          "choices": [
+            "Klingon",
+            "Vulcan",
+            "Romulan",
+            "Na'vi"
+          ],
+          "reveal": "[laughs] The correct answer is Klingon! He speaks two made-up languages. I barely speak one real one.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "solar-sailors",
+      "title": "Solar Sailors",
+      "kind": "film",
+      "intro": "Hoist the solar sails! [excited] We're blasting off with 2002's Treasure Planet. Pirates in space. What's not to love?",
+      "format": "text",
+      "art": {
+        "prompt": "A golden old-world sailing galleon with glowing solar sails flying through a purple nebula past a crescent space station Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/deep-cut-animation--solar-sailors.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Treasure Planet sets this Robert Louis Stevenson pirate novel in outer space.",
+          "answer": "Treasure Island",
+          "accept": [
+            "treasure island"
+          ],
+          "choices": [
+            "Treasure Island",
+            "Kidnapped",
+            "Robinson Crusoe",
+            "Peter Pan"
+          ],
+          "reveal": "[excited] The correct answer is Treasure Island! Same pirates, way more lasers.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "This little pink blob can turn himself into almost anything.",
+          "answer": "Morph",
+          "accept": [
+            "morph"
+          ],
+          "choices": [
+            "Morph",
+            "Blob",
+            "Flubber",
+            "Experiment 625"
+          ],
+          "reveal": "[laughs] The correct answer is Morph! Best pet in space. He even does impressions.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Jim Hawkins learns about life from this cyborg ship's cook.",
+          "answer": "John Silver",
+          "accept": [
+            "john silver",
+            "long john silver",
+            "silver"
+          ],
+          "choices": [
+            "John Silver",
+            "Captain Flint",
+            "Scroop",
+            "Billy Bones"
+          ],
+          "reveal": "The correct answer is John Silver! [sighs] Is he a villain? Is he a dad? He's both. It's complicated.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Martin Short voices this scatterbrained robot who lost part of his memory.",
+          "answer": "B.E.N.",
+          "accept": [
+            "ben",
+            "b.e.n.",
+            "b.e.n",
+            "bio-electronic navigator"
+          ],
+          "choices": [
+            "B.E.N.",
+            "H.A.L.",
+            "R.O.B.",
+            "D.A.V.E."
+          ],
+          "reveal": "[laughs] The correct answer is B.E.N.! Bio-Electronic Navigator. He forgot most things, but not how to talk.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Emma Thompson voices the cat-like commander of the RLS Legacy. Name her.",
+          "answer": "Captain Amelia",
+          "accept": [
+            "amelia",
+            "captain amelia"
+          ],
+          "choices": [
+            "Captain Amelia",
+            "Captain Doppler",
+            "Captain Flint",
+            "Admiral Arrow"
+          ],
+          "reveal": "[excited] The correct answer is Captain Amelia! A captain with whiskers and a very sharp tongue.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "pull-the-lever-kronk",
+      "title": "Pull the Lever, Kronk!",
+      "kind": "film",
+      "intro": "[laughs] Wrong lever! Our next category is 2000's The Emperor's New Groove. Boom, baby!",
+      "format": "text",
+      "art": {
+        "prompt": "A secret jungle laboratory with bubbling colorful potion bottles, a big wooden lever on a stone wall, and a trapdoor over a crocodile pit Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/deep-cut-animation--pull-the-lever-kronk.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Emperor Kuzco is turned into this animal when Yzma's poison turns out to be something else.",
+          "answer": "A llama",
+          "accept": [
+            "llama",
+            "a llama"
+          ],
+          "choices": [
+            "A llama",
+            "An alpaca",
+            "A goat",
+            "A sheep"
+          ],
+          "reveal": "[laughs] The correct answer is a llama! Llama face. Mmm, nope.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Eartha Kitt voices this scary, scheming royal advisor.",
+          "answer": "Yzma",
+          "accept": [
+            "yzma"
+          ],
+          "choices": [
+            "Yzma",
+            "Mama Odie",
+            "Madame Medusa",
+            "Ursula"
+          ],
+          "reveal": "[excited] The correct answer is Yzma! Scary beyond all reason.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "John Goodman voices this kind village leader who helps the llama get home.",
+          "answer": "Pacha",
+          "accept": [
+            "pacha"
+          ],
+          "choices": [
+            "Pacha",
+            "Kronk",
+            "Bucky",
+            "Chicha"
+          ],
+          "reveal": "The correct answer is Pacha! [chuckles] He's the nicest guy in any Disney movie. Fight me.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Kuzco wants to wipe out Pacha's village to build this summer getaway with a waterslide.",
+          "answer": "Kuzcotopia",
+          "accept": [
+            "kuzcotopia"
+          ],
+          "choices": [
+            "Kuzcotopia",
+            "Kuzcoland",
+            "Kuzcopolis",
+            "Llamatopia"
+          ],
+          "reveal": "[laughs] The correct answer is Kuzcotopia! A waterslide. He was going to destroy a whole village for a waterslide.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Before it was a comedy, this movie began as an epic musical with this title and songs by Sting.",
+          "answer": "Kingdom of the Sun",
+          "accept": [
+            "kingdom of the sun",
+            "the kingdom of the sun"
+          ],
+          "choices": [
+            "Kingdom of the Sun",
+            "Empire of the Sun",
+            "Kingdom of the Llamas",
+            "Sun King"
+          ],
+          "reveal": "[gasps] The correct answer is Kingdom of the Sun! The whole messy remake is in the documentary The Sweatbox. True nerd points.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "overlooked-objects",
+      "title": "Overlooked Objects",
+      "kind": "media",
+      "intro": "Time for some deeper deep cuts! I'll show you an object from an underrated Disney animated movie. You name the movie. [whispers] These ones are sneaky.",
+      "format": "picture",
+      "art": {
+        "prompt": "A dusty treasure shelf in a forgotten film vault holding a hamster ball, a hexagon of sky, a bowler hat, an eagle feather, and a hot dog cart model Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/deep-cut-animation--overlooked-objects.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "A clear plastic ball rolls along a highway. Name the 2008 movie.",
+          "answer": "Bolt",
+          "accept": [
+            "bolt"
+          ],
+          "choices": [
+            "Bolt",
+            "Chicken Little",
+            "Meet the Robinsons",
+            "Oliver & Company"
+          ],
+          "reveal": "[excited] The correct answer is Bolt! That's Rhino the hamster's ball. He's awesome. He knows he's awesome.",
+          "media": {
+            "type": "image",
+            "prompt": "A clear plastic hamster ball rolling down an empty desert highway at sunset, tumbleweeds and a road sign without text Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+            "file": "media/deep-cut-animation--overlooked-objects-200.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "A strange piece of the sky has fallen into a school yard. Name the 2005 movie.",
+          "answer": "Chicken Little",
+          "accept": [
+            "chicken little"
+          ],
+          "choices": [
+            "Chicken Little",
+            "Bolt",
+            "Home on the Range",
+            "Meet the Robinsons"
+          ],
+          "reveal": "[laughs] The correct answer is Chicken Little! The sky is falling. Well, a small piece of it.",
+          "media": {
+            "type": "image",
+            "prompt": "A glowing blue hexagonal panel painted like the daytime sky lying in the grass of a small-town school yard, an old bell tower nearby Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+            "file": "media/deep-cut-animation--overlooked-objects-400.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "A sinister bowler hat floats in the air. Name the 2007 movie.",
+          "answer": "Meet the Robinsons",
+          "accept": [
+            "meet the robinsons"
+          ],
+          "choices": [
+            "Meet the Robinsons",
+            "Bolt",
+            "The Great Mouse Detective",
+            "Big Hero 6"
+          ],
+          "reveal": "[gasps] The correct answer is Meet the Robinsons! Doris the evil hat. Keep moving forward.",
+          "media": {
+            "type": "image",
+            "prompt": "A floating black robotic bowler hat with a single glowing red eye and small mechanical arms, in a dark retro-futuristic city at night Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+            "file": "media/deep-cut-animation--overlooked-objects-600.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "A giant golden feather lies near a trap in the Australian outback. Name the 1990 movie.",
+          "answer": "The Rescuers Down Under",
+          "accept": [
+            "the rescuers down under",
+            "rescuers down under"
+          ],
+          "choices": [
+            "The Rescuers Down Under",
+            "The Rescuers",
+            "Brother Bear",
+            "Atlantis: The Lost Empire"
+          ],
+          "reveal": "[excited] The correct answer is The Rescuers Down Under! It was Disney's first animated sequel in theaters.",
+          "media": {
+            "type": "image",
+            "prompt": "A giant golden eagle feather resting beside a rusty metal trap on red outback rock, Uluru-like cliffs and a huge blue sky Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+            "file": "media/deep-cut-animation--overlooked-objects-800.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "A hot dog cart sits on a rainy New York street near a houseboat. Name the 1988 movie.",
+          "answer": "Oliver & Company",
+          "accept": [
+            "oliver & company",
+            "oliver and company"
+          ],
+          "choices": [
+            "Oliver & Company",
+            "Lady and the Tramp",
+            "Bolt",
+            "The Aristocats"
+          ],
+          "reveal": "[excited] The correct answer is Oliver & Company! A kitten, a gang of dogs, and Billy Joel. Why should I worry?",
+          "media": {
+            "type": "image",
+            "prompt": "A street hot dog cart under a rainy New York City streetlight with a wet cobblestone road and an old rundown houseboat at the docks Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+            "file": "media/deep-cut-animation--overlooked-objects-1000.jpg"
+          },
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}

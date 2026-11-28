@@ -1,0 +1,550 @@
+{
+  "id": "disney-history-mystery",
+  "title": "Disney History Mystery",
+  "theme": "Company history: dates, acquisitions, firsts and famous places",
+  "tags": [
+    "history",
+    "company",
+    "dates",
+    "firsts"
+  ],
+  "intro": "[excited] Grab your magnifying glasses! Tonight we're going back in time to solve the mysteries of Disney company history. [laughs] Dates, deals, firsts, and secrets!",
+  "art": {
+    "prompt": "A cozy history archive with tall shelves of film canisters, an old desk with a magnifying glass, a vintage map, and a glowing castle model, warm lamplight Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+    "file": "media/disney-history-mystery.jpg"
+  },
+  "categories": [
+    {
+      "id": "founding-years",
+      "title": "Founding Years",
+      "kind": "theme",
+      "intro": "[excited] Calendars out! Every answer in this one is a year from Disney history. [chuckles] No time machine needed.",
+      "format": "text",
+      "art": {
+        "prompt": "A stack of old calendar pages blowing in the wind over a vintage film camera, an antique clock and a small model castle, sepia glow Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/disney-history-mystery--founding-years.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Walt and Roy Disney founded the Disney Brothers Cartoon Studio on October 16 of this year.",
+          "answer": "1923",
+          "accept": [
+            "1923"
+          ],
+          "choices": [
+            "1923",
+            "1928",
+            "1919",
+            "1937"
+          ],
+          "reveal": "[excited] The correct answer is 1923! Disney turned 100 in 2023. Happy birthday, old friend.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Disneyland opened in Anaheim on July 17 of this year.",
+          "answer": "1955",
+          "accept": [
+            "1955"
+          ],
+          "choices": [
+            "1955",
+            "1950",
+            "1960",
+            "1971"
+          ],
+          "reveal": "The correct answer is 1955! [laughs] Opening day was a mess. Disney called it Black Sunday.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Snow White and the Seven Dwarfs premiered in December of this year.",
+          "answer": "1937",
+          "accept": [
+            "1937"
+          ],
+          "choices": [
+            "1937",
+            "1928",
+            "1940",
+            "1950"
+          ],
+          "reveal": "[excited] The correct answer is 1937! People called it Disney's Folly. Then it became a huge hit.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "EPCOT Center opened at Walt Disney World on October 1 of this year.",
+          "answer": "1982",
+          "accept": [
+            "1982"
+          ],
+          "choices": [
+            "1982",
+            "1971",
+            "1979",
+            "1989"
+          ],
+          "reveal": "The correct answer is 1982! [chuckles] Exactly eleven years after Magic Kingdom opened.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Walt Disney Productions first sold its stock to the public in this year, to help pay for big projects.",
+          "answer": "1940",
+          "accept": [
+            "1940"
+          ],
+          "choices": [
+            "1940",
+            "1955",
+            "1928",
+            "1966"
+          ],
+          "reveal": "[excited] The correct answer is 1940! Disney had big debts and big dreams, so it went public.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "big-buys",
+      "title": "Big Buys",
+      "kind": "theme",
+      "intro": "[laughs] Shopping spree! Name the company Disney bought. [whispers] It's a lot more expensive than a churro.",
+      "format": "text",
+      "art": {
+        "prompt": "A giant golden shopping cart overflowing with miniature film studio buildings, a lightsaber-like glowing beam, a superhero shield, and a satellite dish Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/disney-history-mystery--big-buys.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In 2006, Disney bought this animation studio, the maker of Toy Story.",
+          "answer": "Pixar",
+          "accept": [
+            "pixar",
+            "pixar animation studios"
+          ],
+          "choices": [
+            "Pixar",
+            "DreamWorks",
+            "Illumination",
+            "Blue Sky"
+          ],
+          "reveal": "[excited] The correct answer is Pixar! Disney had been working with them for years. Then it just bought them.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "In 2009, Disney bought this comic book company, home of Spider-Man and Iron Man.",
+          "answer": "Marvel",
+          "accept": [
+            "marvel",
+            "marvel entertainment"
+          ],
+          "choices": [
+            "Marvel",
+            "DC Comics",
+            "Image Comics",
+            "Dark Horse"
+          ],
+          "reveal": "The correct answer is Marvel! [laughs] Avengers, assemble... at Disney.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "In 2012, Disney bought this company and with it the Star Wars franchise.",
+          "answer": "Lucasfilm",
+          "accept": [
+            "lucasfilm",
+            "lucas film"
+          ],
+          "choices": [
+            "Lucasfilm",
+            "Industrial Light & Magic",
+            "Amblin",
+            "Paramount"
+          ],
+          "reveal": "[excited] The correct answer is Lucasfilm! About four billion dollars. The Force is strong with that deal.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In 1996, Disney finished buying Capital Cities, the parent company of this TV network.",
+          "answer": "ABC",
+          "accept": [
+            "abc",
+            "american broadcasting company",
+            "capital cities/abc"
+          ],
+          "choices": [
+            "ABC",
+            "CBS",
+            "NBC",
+            "Fox"
+          ],
+          "reveal": "The correct answer is ABC! [chuckles] Now Disney owns the news, too.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "In 2019, Disney finished buying most of this company's film and TV business, getting The Simpsons.",
+          "answer": "21st Century Fox",
+          "accept": [
+            "fox",
+            "21st century fox",
+            "twentieth century fox",
+            "20th century fox"
+          ],
+          "choices": [
+            "21st Century Fox",
+            "Warner Bros.",
+            "Paramount",
+            "Sony Pictures"
+          ],
+          "reveal": "[gasps] The correct answer is 21st Century Fox! It cost about 71 billion dollars. That's a lot of churros.",
+          "dailyDouble": true
+        }
+      ]
+    },
+    {
+      "id": "disney-firsts",
+      "title": "Disney Firsts",
+      "kind": "theme",
+      "intro": "[excited] First place! Every answer here is a famous Disney first. [laughs] Let's see who comes in first, too.",
+      "format": "text",
+      "art": {
+        "prompt": "A shining gold first-place trophy on a pedestal surrounded by an old film reel, a paintbrush, a top hat and confetti Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/disney-history-mystery--disney-firsts.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This 1937 film was Disney's first full-length animated feature.",
+          "answer": "Snow White and the Seven Dwarfs",
+          "accept": [
+            "snow white",
+            "snow white and the seven dwarfs"
+          ],
+          "choices": [
+            "Snow White and the Seven Dwarfs",
+            "Pinocchio",
+            "Fantasia",
+            "Bambi"
+          ],
+          "reveal": "[excited] The correct answer is Snow White and the Seven Dwarfs! Heigh-ho, it's off to history we go.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Released in 1928, this was the first Mickey cartoon with sound to be released.",
+          "answer": "Steamboat Willie",
+          "accept": [
+            "steamboat willie"
+          ],
+          "choices": [
+            "Steamboat Willie",
+            "Plane Crazy",
+            "The Karnival Kid",
+            "The Band Concert"
+          ],
+          "reveal": "[laughs] The correct answer is Steamboat Willie! Mickey was whistling from the start.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "This 1932 Silly Symphony was the first cartoon in full Technicolor and won the first Oscar for Best Cartoon Short.",
+          "answer": "Flowers and Trees",
+          "accept": [
+            "flowers and trees"
+          ],
+          "choices": [
+            "Flowers and Trees",
+            "The Three Little Pigs",
+            "The Old Mill",
+            "The Skeleton Dance"
+          ],
+          "reveal": "[excited] The correct answer is Flowers and Trees! Color cartoons changed everything.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Fantasia introduced this early stereo sound system, made for movie theaters.",
+          "answer": "Fantasound",
+          "accept": [
+            "fantasound"
+          ],
+          "choices": [
+            "Fantasound",
+            "Dolby Stereo",
+            "Cinerama",
+            "Vitaphone"
+          ],
+          "reveal": "[gasps] The correct answer is Fantasound! Sound coming from all around you. In 1940!",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "In 1987, this actor from The Absent-Minded Professor was named the very first Disney Legend.",
+          "answer": "Fred MacMurray",
+          "accept": [
+            "fred macmurray",
+            "macmurray"
+          ],
+          "choices": [
+            "Fred MacMurray",
+            "Dick Van Dyke",
+            "Walt Disney",
+            "Dean Jones"
+          ],
+          "reveal": "[excited] The correct answer is Fred MacMurray! The first Disney Legend. Very cool trivia.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "history-hideouts",
+      "title": "History Hideouts",
+      "kind": "parks",
+      "intro": "I'll show you a photo of a real place from Disney history. [whispers] You tell me the place or the city.",
+      "format": "picture",
+      "art": {
+        "prompt": "An old map of America with glowing pins on four cities, a vintage film camera, an old studio key and a model castle sitting on top Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/disney-history-mystery--history-hideouts.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This 1955 castle was the first one at a Disney park. Name it.",
+          "answer": "Sleeping Beauty Castle",
+          "accept": [
+            "sleeping beauty castle",
+            "sleeping beauty's castle"
+          ],
+          "choices": [
+            "Sleeping Beauty Castle",
+            "Cinderella Castle",
+            "Le Château de la Belle au Bois Dormant",
+            "Enchanted Storybook Castle"
+          ],
+          "reveal": "[excited] The correct answer is Sleeping Beauty Castle! It looks small, but it has a lot of history.",
+          "media": {
+            "type": "image",
+            "file": "media/disney-history-mystery--history-hideouts-200.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Sleeping_Beauty_Castle_2019.jpg",
+              "license": "CC BY-SA 4.0",
+              "author": "CrispyCream27"
+            }
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Walt Disney was born in this house on December 5, 1901. Name the city.",
+          "answer": "Chicago",
+          "accept": [
+            "chicago",
+            "chicago, illinois"
+          ],
+          "choices": [
+            "Chicago",
+            "Kansas City",
+            "Marceline",
+            "Los Angeles"
+          ],
+          "reveal": "The correct answer is Chicago! [chuckles] Walt was a city kid before he moved to a farm in Marceline.",
+          "media": {
+            "type": "image",
+            "file": "media/disney-history-mystery--history-hideouts-400.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Walt_Disney_Birthplace_Exterior_Hermosa_Chicago_Illinois.jpg",
+              "license": "CC BY-SA 4.0",
+              "author": "WaltDisneyBirthplace"
+            }
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "This covered Main Street is in the first Disney park outside the United States, opened in 1983. Name the park.",
+          "answer": "Tokyo Disneyland",
+          "accept": [
+            "tokyo disneyland",
+            "tokyo"
+          ],
+          "choices": [
+            "Tokyo Disneyland",
+            "Disneyland Paris",
+            "Hong Kong Disneyland",
+            "Tokyo DisneySea"
+          ],
+          "reveal": "[excited] The correct answer is Tokyo Disneyland! World Bazaar has a glass roof, so you don't get wet.",
+          "media": {
+            "type": "image",
+            "file": "media/disney-history-mystery--history-hideouts-600.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:World_Bazaar,_Tokyo_Disneyland_(9409949418).jpg",
+              "license": "CC BY 2.0",
+              "author": "Rob Young from United Kingdom"
+            }
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Walt's Laugh-O-Gram studio in this city went bankrupt before he left for California. Name the city.",
+          "answer": "Kansas City",
+          "accept": [
+            "kansas city",
+            "kansas city, missouri"
+          ],
+          "choices": [
+            "Kansas City",
+            "St. Louis",
+            "Chicago",
+            "Omaha"
+          ],
+          "reveal": "[sighs] The correct answer is Kansas City! It didn't work out, but Walt kept going.",
+          "media": {
+            "type": "image",
+            "file": "media/disney-history-mystery--history-hideouts-800.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Laugh-O-Gram_Studio_2004.jpg",
+              "license": "CC BY-SA 3.0",
+              "author": "Gbleem at English Wikipedia"
+            }
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "This 1940 building housed Disney animators at the studio in this California city. Name the city.",
+          "answer": "Burbank",
+          "accept": [
+            "burbank",
+            "burbank, california"
+          ],
+          "choices": [
+            "Burbank",
+            "Glendale",
+            "Hollywood",
+            "Anaheim"
+          ],
+          "reveal": "[excited] The correct answer is Burbank! The Animation Building was where a lot of classic films were made.",
+          "media": {
+            "type": "image",
+            "file": "media/disney-history-mystery--history-hideouts-1000.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Oldanimationbuilding.JPG",
+              "license": "CC BY-SA 4.0",
+              "author": "Coolcaesar"
+            }
+          },
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "mouse-house-mysteries",
+      "title": "Mouse House Mysteries",
+      "kind": "fan",
+      "intro": "[whispers] The final category is a mystery. These are the secret stories behind Disney history. [chuckles] Put on your detective hats.",
+      "format": "text",
+      "art": {
+        "prompt": "A detective's desk with a magnifying glass, a dusty old film reel, a vintage rabbit-eared plush shadow, a tiny toy train, and a lamp in a dark office Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/disney-history-mystery--mouse-house-mysteries.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Walt's first name idea for Mickey was reportedly this, until his wife Lillian said no.",
+          "answer": "Mortimer",
+          "accept": [
+            "mortimer",
+            "mortimer mouse"
+          ],
+          "choices": [
+            "Mortimer",
+            "Marvin",
+            "Milton",
+            "Morty"
+          ],
+          "reveal": "[laughs] The correct answer is Mortimer! Lillian saved the day. Mortimer just doesn't sound as nice.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Before Mickey, Walt made cartoons about this lucky rabbit, but lost the rights in 1928.",
+          "answer": "Oswald the Lucky Rabbit",
+          "accept": [
+            "oswald",
+            "oswald the lucky rabbit"
+          ],
+          "choices": [
+            "Oswald the Lucky Rabbit",
+            "Br'er Rabbit",
+            "Thumper",
+            "Bugs Bunny"
+          ],
+          "reveal": "[sighs] The correct answer is Oswald the Lucky Rabbit! Losing him led to Mickey, so it all worked out.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "In 2006, Disney got Oswald back by letting this sportscaster leave for NBC.",
+          "answer": "Al Michaels",
+          "accept": [
+            "al michaels",
+            "michaels"
+          ],
+          "choices": [
+            "Al Michaels",
+            "John Madden",
+            "Bob Costas",
+            "Al Pacino"
+          ],
+          "reveal": "[laughs] The correct answer is Al Michaels! Traded for a cartoon rabbit.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "This animator worked with Walt and drew the first Mickey Mouse cartoons.",
+          "answer": "Ub Iwerks",
+          "accept": [
+            "ub iwerks",
+            "iwerks",
+            "ubbe iwerks"
+          ],
+          "choices": [
+            "Ub Iwerks",
+            "Ollie Johnston",
+            "Marc Davis",
+            "Frank Thomas"
+          ],
+          "reveal": "[excited] The correct answer is Ub Iwerks! He was super fast at drawing.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Walt built this small backyard railroad at his home in Holmby Hills.",
+          "answer": "Carolwood Pacific Railroad",
+          "accept": [
+            "carolwood pacific",
+            "carolwood pacific railroad",
+            "the carolwood pacific"
+          ],
+          "choices": [
+            "Carolwood Pacific Railroad",
+            "Santa Fe & Disneyland Railroad",
+            "Lilly Belle Line",
+            "Burbank Western"
+          ],
+          "reveal": "[excited] The correct answer is the Carolwood Pacific Railroad! Walt loved trains so much that he built one at home.",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}

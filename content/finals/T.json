@@ -1,0 +1,143 @@
+[
+  {
+    "film": "The Black Cauldron",
+    "category": "The Black Cauldron",
+    "clue": "The Horned King uses the cauldron to raise an army of undead warriors known by this name.",
+    "answer": "The Cauldron Born",
+    "accept": [
+      "cauldron born",
+      "the cauldron born",
+      "cauldron-born"
+    ],
+    "choices": [
+      "The Cauldron Born",
+      "The Gwythaints",
+      "The Dark Legion",
+      "The Fair Folk"
+    ],
+    "reveal": "[gasps] The correct answer is the Cauldron Born! Skeleton soldiers rising out of green smoke. Kids in 1985 were not okay."
+  },
+  {
+    "film": "Treasure Planet",
+    "category": "Treasure Planet",
+    "clue": "Jim Hawkins's golden map sphere leads to the loot of a thousand worlds, hidden by this legendary pirate.",
+    "answer": "Captain Flint",
+    "accept": [
+      "flint",
+      "captain flint",
+      "nathaniel flint",
+      "captain nathaniel flint"
+    ],
+    "choices": [
+      "Captain Flint",
+      "Billy Bones",
+      "Scroop",
+      "John Silver"
+    ],
+    "reveal": "[excited] The correct answer is Captain Flint! Flint's Trove. The whole planet is basically his treasure chest."
+  },
+  {
+    "film": "The Adventures of Ichabod and Mr. Toad",
+    "category": "The Adventures of Ichabod and Mr. Toad",
+    "clue": "This actor, famous for playing Sherlock Holmes, narrates the Wind in the Willows half of the film.",
+    "answer": "Basil Rathbone",
+    "accept": [
+      "basil rathbone",
+      "rathbone"
+    ],
+    "choices": [
+      "Basil Rathbone",
+      "Bing Crosby",
+      "Sterling Holloway",
+      "Vincent Price"
+    ],
+    "reveal": "[chuckles] The correct answer is Basil Rathbone! And yes, Basil of Baker Street in The Great Mouse Detective is named after him."
+  },
+  {
+    "film": "The Rescuers",
+    "category": "The Rescuers",
+    "clue": "Bernard and Bianca are agents of this mouse group that meets in the basement of the United Nations.",
+    "answer": "The Rescue Aid Society",
+    "accept": [
+      "rescue aid society",
+      "the rescue aid society",
+      "ras"
+    ],
+    "choices": [
+      "The Rescue Aid Society",
+      "The Mouse Rescue League",
+      "The International Mouse Union",
+      "The Basil Bureau"
+    ],
+    "reveal": "[excited] The correct answer is the Rescue Aid Society! Mice from every country, all working together. Very official."
+  },
+  {
+    "film": "Bedknobs and Broomsticks",
+    "category": "Bedknobs and Broomsticks",
+    "clue": "Eglantine Price learns witchcraft by mail from a correspondence college run by this phony professor.",
+    "answer": "Emelius Browne",
+    "accept": [
+      "emelius browne",
+      "emelius brown",
+      "professor browne",
+      "browne"
+    ],
+    "choices": [
+      "Emelius Browne",
+      "Mr. Jelk",
+      "Colonel Heller",
+      "King Leonidas"
+    ],
+    "reveal": "[laughs] The correct answer is Emelius Browne! He's a con man, not a wizard, but he's a great dancer."
+  },
+  {
+    "film": "Chicken Little",
+    "category": "Chicken Little",
+    "clue": "Chicken Little's friends include Abby Mallard, Runt of the Litter, and this little fish who wears a helmet full of water.",
+    "answer": "Fish Out of Water",
+    "accept": [
+      "fish out of water",
+      "fish"
+    ],
+    "choices": [
+      "Fish Out of Water",
+      "Goosey Loosey",
+      "Foxy Loxy",
+      "Turkey Lurkey"
+    ],
+    "reveal": "[laughs] The correct answer is Fish Out of Water! He never says a word, and he's still the funniest one."
+  },
+  {
+    "film": "Home on the Range",
+    "category": "Home on the Range",
+    "clue": "The cows try to catch this yodeling cattle rustler so they can use his reward to save their farm.",
+    "answer": "Alameda Slim",
+    "accept": [
+      "alameda slim",
+      "slim"
+    ],
+    "choices": [
+      "Alameda Slim",
+      "Rico",
+      "Buck",
+      "Lucky Jack"
+    ],
+    "reveal": "[excited] The correct answer is Alameda Slim! He yodels the cows into a trance. Yodel-ay-hee-whoo."
+  },
+  {
+    "film": "Strange World",
+    "category": "Strange World",
+    "clue": "The Clade family's loyal three-legged dog goes by this name.",
+    "answer": "Legend",
+    "accept": [
+      "legend"
+    ],
+    "choices": [
+      "Legend",
+      "Splat",
+      "Pando",
+      "Jaeger"
+    ],
+    "reveal": "[sighs] The correct answer is Legend! A three-legged hero. Best dog in the strange world."
+  }
+]
