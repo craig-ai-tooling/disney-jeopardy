@@ -317,6 +317,7 @@ export class Room {
   openBuzzers() {
     this.phase = 'buzzing';
     this.clue.buzzOpen = true;
+    this.clue.buzzClosed = false;
     this.clue.openedAt = now();
     this.setTimer(this.settings.buzzMs, () => this.noBuzz());
     this.broadcast();
@@ -326,7 +327,7 @@ export class Room {
     const c = this.clue;
     if (!c || c.attempted.has(p.id)) return;
     if (this.phase === 'reading') { c.lockouts.set(p.id, now() + T.earlyLock); return this.sendTo(p.ws, { t: 'toast', msg: 'Too early! Wait for the lights.' }); }
-    if (this.phase !== 'buzzing' || (c.lockouts.get(p.id) || 0) > now()) return;
+    if (this.phase !== 'buzzing' || c.buzzClosed || (c.lockouts.get(p.id) || 0) > now()) return;
     const elapsed = now() - c.openedAt;
     const rt = Number.isFinite(m?.rt) ? Math.max(0, Math.min(m.rt, elapsed + 50)) : elapsed;
     c.buzzes ||= new Map();
@@ -399,7 +400,8 @@ export class Room {
   canRebuzz() { return [...this.players.values()].some((x) => x.ws && !this.clue.attempted.has(x.id)) && this.clue.eliminated.size < 3; }
 
   noBuzz() {
-    if (this.phase !== 'buzzing' || this.clue?.buzzWindow) return;
+    if (this.phase !== 'buzzing') return;
+    if (this.clue?.buzzWindow) { this.clue.buzzClosed = true; return; }
     this.say(this.clue.attempted.size ? line('allWrong') : line('timeUp'), false);
     this.reveal();
   }
