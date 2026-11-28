@@ -1,0 +1,531 @@
+{
+  "id": "totally-90s",
+  "title": "Totally '90s",
+  "theme": "Disney in the 1990s",
+  "tags": [
+    "decades",
+    "90s",
+    "nostalgia",
+    "tv",
+    "parks"
+  ],
+  "intro": "[excited] Grab your scrunchie and rewind your VHS tapes, because today is Totally Nineties! Films, Disney Afternoon cartoons, Disney Channel movies and parks from the decade that gave us everything. [laughs] As if!",
+  "art": {
+    "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A 1990s kid bedroom: chunky tube television glowing, stacked clamshell video cases, a neon inflatable chair, glow-in-the-dark stars on the ceiling, bright geometric wallpaper.",
+    "file": "media/totally-90s.jpg"
+  },
+  "categories": [
+    {
+      "id": "live-action-throwbacks",
+      "title": "Live-Action Throwbacks",
+      "kind": "film",
+      "format": "text",
+      "intro": "Our film category: Live-Action Throwbacks, the non-animated Disney movies we watched over and over in the nineties.",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A 1990s video store shelf of blank clamshell cases, a hockey stick, a witch broom and a bobsled leaning against the counter.",
+        "file": "media/totally-90s--live-action-throwbacks.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Three witch sisters come back to Salem on Halloween night in this 1993 movie.",
+          "answer": "Hocus Pocus",
+          "accept": [
+            "hocus pocus"
+          ],
+          "choices": [
+            "Hocus Pocus",
+            "Halloweentown",
+            "Twitches",
+            "The Witches"
+          ],
+          "reveal": "The correct answer is Hocus Pocus! [laughs] Amok, amok, amok! It became a huge hit years later on TV.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "This 1993 comedy is inspired by Jamaica's real bobsled team at the 1988 Winter Olympics.",
+          "answer": "Cool Runnings",
+          "accept": [
+            "cool runnings"
+          ],
+          "choices": [
+            "Cool Runnings",
+            "The Mighty Ducks",
+            "Miracle",
+            "Snow Dogs"
+          ],
+          "reveal": "The correct answer is Cool Runnings! [excited] Feel the rhythm, feel the rhyme. Get on up, it's bobsled time!",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Emilio Estevez coaches a pee-wee hockey team in this 1992 film.",
+          "answer": "The Mighty Ducks",
+          "accept": [
+            "the mighty ducks",
+            "mighty ducks"
+          ],
+          "choices": [
+            "The Mighty Ducks",
+            "Cool Runnings",
+            "Angels in the Outfield",
+            "Air Bud"
+          ],
+          "reveal": "The correct answer is The Mighty Ducks! Quack, quack, quack! Disney even named a real NHL team after it.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In 1998's The Parent Trap, the twins first meet at this summer camp.",
+          "answer": "Camp Walden",
+          "accept": [
+            "camp walden",
+            "walden"
+          ],
+          "choices": [
+            "Camp Walden",
+            "Camp Green Lake",
+            "Camp Anawanna",
+            "Camp Crystal Lake"
+          ],
+          "reveal": "The correct answer is Camp Walden! [laughs] One fencing match, one secret handshake, and two parents who never saw it coming.",
+          "dailyDouble": true
+        },
+        {
+          "value": 1000,
+          "clue": "In Homeward Bound, Michael J. Fox voices this goofy young American bulldog.",
+          "answer": "Chance",
+          "accept": [
+            "chance"
+          ],
+          "choices": [
+            "Chance",
+            "Shadow",
+            "Sassy",
+            "Rocket"
+          ],
+          "reveal": "The correct answer is Chance! [chuckles] Sally Field is Sassy the cat and Don Ameche is wise old Shadow.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "weekday-afternoons",
+      "title": "Weekday Afternoons",
+      "kind": "theme",
+      "format": "text",
+      "intro": "[excited] Drop your backpack and grab a snack! This category is about The Disney Afternoon cartoons.",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A cosy 1990s living room after school, a backpack tossed on the carpet, a juice box and snack on a tray in front of a glowing TV, afternoon sunlight.",
+        "file": "media/totally-90s--weekday-afternoons.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Huey, Dewey and Louie go treasure hunting with Uncle Scrooge in this cartoon. Woo-oo!",
+          "answer": "DuckTales",
+          "accept": [
+            "ducktales",
+            "duck tales"
+          ],
+          "choices": [
+            "DuckTales",
+            "Darkwing Duck",
+            "Quack Pack",
+            "Goof Troop"
+          ],
+          "reveal": "The correct answer is DuckTales! [excited] Life is like a hurricane here in Duckburg.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "In this series, Baloo the bear flies a cargo seaplane called the Sea Duck.",
+          "answer": "TaleSpin",
+          "accept": [
+            "talespin",
+            "tale spin"
+          ],
+          "choices": [
+            "TaleSpin",
+            "Rescue Rangers",
+            "Goof Troop",
+            "Gummi Bears"
+          ],
+          "reveal": "The correct answer is TaleSpin! [laughs] Baloo as a pilot, Louie as a club owner, and Shere Khan as a business tycoon.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Gadget, Monterey Jack and Zipper team up with two chipmunks in this series.",
+          "answer": "Chip 'n Dale: Rescue Rangers",
+          "accept": [
+            "chip 'n dale: rescue rangers",
+            "chip 'n dale rescue rangers",
+            "chip and dale rescue rangers",
+            "chip n dale rescue rangers",
+            "rescue rangers"
+          ],
+          "choices": [
+            "Chip 'n Dale: Rescue Rangers",
+            "TaleSpin",
+            "Bonkers",
+            "Timon & Pumbaa"
+          ],
+          "reveal": "The correct answer is Chip 'n Dale: Rescue Rangers! Monterey Jack gets wobbly at the smell of cheese. [laughs] Relatable.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Darkwing Duck protects this city. Let's get dangerous!",
+          "answer": "St. Canard",
+          "accept": [
+            "st. canard",
+            "saint canard",
+            "st canard"
+          ],
+          "choices": [
+            "St. Canard",
+            "Duckburg",
+            "Spoonerville",
+            "Cape Suzette"
+          ],
+          "reveal": "The correct answer is St. Canard! [excited] I am the terror that flaps in the night!",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "In this 1993 series, a cartoon bobcat becomes a police officer in Hollywood.",
+          "answer": "Bonkers",
+          "accept": [
+            "bonkers"
+          ],
+          "choices": [
+            "Bonkers",
+            "Goof Troop",
+            "Quack Pack",
+            "Raw Toonage"
+          ],
+          "reveal": "The correct answer is Bonkers! [laughs] A Toon cop who bounced through The Disney Afternoon for a season.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "pass-the-props",
+      "title": "Pass the Props",
+      "kind": "media",
+      "format": "picture",
+      "intro": "Picture time! Each image is full of props from one nineties Disney animated film. Name the movie.",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A dusty attic prop table covered in mysterious objects: a brass lamp, a rose under glass, a bronze bell, an ornate comb and a teacup, warm spotlight.",
+        "file": "media/totally-90s--pass-the-props.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "A magic lamp in a cave of treasure. Which 1990s animated movie is this?",
+          "answer": "Aladdin",
+          "accept": [
+            "aladdin"
+          ],
+          "choices": [
+            "Aladdin",
+            "Hercules",
+            "Mulan",
+            "Pocahontas"
+          ],
+          "reveal": "The correct answer is Aladdin! [excited] Rub the lamp, get three wishes. Just don't wish for more wishes.",
+          "media": {
+            "type": "image",
+            "prompt": "Original painterly digital illustration, no people, no characters, no logos, no text or lettering. A battered golden oil lamp glowing on a pile of gold coins in a vast cave of treasure, a red jewel and a flying patterned rug in the background.",
+            "file": "media/totally-90s--pass-the-props-200.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "A rose under glass in a cursed castle. Which 1990s animated movie is this?",
+          "answer": "Beauty and the Beast",
+          "accept": [
+            "beauty and the beast"
+          ],
+          "choices": [
+            "Beauty and the Beast",
+            "Cinderella",
+            "Sleeping Beauty",
+            "The Little Mermaid"
+          ],
+          "reveal": "The correct answer is Beauty and the Beast! [whispers] Last petal falls, and that's it. No pressure.",
+          "media": {
+            "type": "image",
+            "prompt": "Original painterly digital illustration, no people, no characters, no logos, no text or lettering. A single glowing red rose floating under a glass bell jar on a table in a dark castle wing, a hand mirror beside it and petals scattered on the wood.",
+            "file": "media/totally-90s--pass-the-props-400.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Giant bells and stone gargoyles high above Paris. Which 1990s animated movie is this?",
+          "answer": "The Hunchback of Notre Dame",
+          "accept": [
+            "the hunchback of notre dame",
+            "hunchback",
+            "hunchback of notre dame"
+          ],
+          "choices": [
+            "The Hunchback of Notre Dame",
+            "Tangled",
+            "Ratatouille",
+            "Beauty and the Beast"
+          ],
+          "reveal": "The correct answer is The Hunchback of Notre Dame! [chuckles] Bells, stone gargoyles and a hand-carved model of Paris.",
+          "media": {
+            "type": "image",
+            "prompt": "Original painterly digital illustration, no people, no characters, no logos, no text or lettering. Inside a gothic cathedral bell tower high above Paris, enormous bronze bells, three stone gargoyles on a ledge and a tiny hand-carved wooden model of a medieval town.",
+            "file": "media/totally-90s--pass-the-props-600.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "A lucky cricket, a hair comb and a sword. Which 1990s animated movie is this?",
+          "answer": "Mulan",
+          "accept": [
+            "mulan"
+          ],
+          "choices": [
+            "Mulan",
+            "Raya and the Last Dragon",
+            "Pocahontas",
+            "Brother Bear"
+          ],
+          "reveal": "The correct answer is Mulan! A lucky cricket in a cage, a comb from her father and a sword. [excited] Let's get down to business!",
+          "media": {
+            "type": "image",
+            "prompt": "Original painterly digital illustration, no people, no characters, no logos, no text or lettering. A small bamboo cricket cage, an ornate hair comb and a sword resting on folded armour beneath a blossoming plum tree, a stone dragon statue in the background.",
+            "file": "media/totally-90s--pass-the-props-800.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "A Victorian tea set in a jungle treehouse. Which 1990s animated movie is this?",
+          "answer": "Tarzan",
+          "accept": [
+            "tarzan"
+          ],
+          "choices": [
+            "Tarzan",
+            "The Jungle Book",
+            "Brother Bear",
+            "Atlantis: The Lost Empire"
+          ],
+          "reveal": "The correct answer is Tarzan! [laughs] A Victorian tea set in a jungle treehouse, plus a sketchbook full of gorillas. You'll be in my heart.",
+          "media": {
+            "type": "image",
+            "prompt": "Original painterly digital illustration, no people, no characters, no logos, no text or lettering. A ruined wooden treehouse high in a misty jungle with a porcelain Victorian tea set, a parasol, a sketchbook of drawings and a pocket knife resting on the floorboards.",
+            "file": "media/totally-90s--pass-the-props-1000.jpg"
+          },
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "rad-rides-of-the-90s",
+      "title": "Rad Rides of the '90s",
+      "kind": "parks",
+      "format": "text",
+      "intro": "[excited] Let's hop over to the parks, where the nineties gave us brand new parks, brand new drops and one very scary alien.",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A theme park at dusk in 1990s style, a towering haunted hotel struck by lightning, a log flume splash and a neon-lit futuristic land.",
+        "file": "media/totally-90s--rad-rides-of-the-90s.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "The Disney park that opened outside Paris in 1992 is in this country.",
+          "answer": "France",
+          "accept": [
+            "france"
+          ],
+          "choices": [
+            "France",
+            "Belgium",
+            "England",
+            "Spain"
+          ],
+          "reveal": "The correct answer is France! [laughs] It opened as Euro Disney. Today it's Disneyland Paris.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Disney's Animal Kingdom opened on Earth Day of this year.",
+          "answer": "1998",
+          "accept": [
+            "1998",
+            "nineteen ninety eight",
+            "nineteen ninety-eight"
+          ],
+          "choices": [
+            "1998",
+            "1994",
+            "1996",
+            "2000"
+          ],
+          "reveal": "The correct answer is 1998! It opened on April 22nd, Earth Day. Nahtazu, as they say. Not a zoo.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "The Twilight Zone Tower of Terror first dropped riders at Disney-MGM Studios in this year.",
+          "answer": "1994",
+          "accept": [
+            "1994",
+            "nineteen ninety four",
+            "nineteen ninety-four"
+          ],
+          "choices": [
+            "1994",
+            "1989",
+            "1992",
+            "1997"
+          ],
+          "reveal": "The correct answer is 1994! [gasps] It opened in July, and people are still screaming.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "This log flume opened at Magic Kingdom in 1992 and closed in 2023 to become Tiana's Bayou Adventure.",
+          "answer": "Splash Mountain",
+          "accept": [
+            "splash mountain"
+          ],
+          "choices": [
+            "Splash Mountain",
+            "Big Thunder Mountain Railroad",
+            "Kali River Rapids",
+            "Grizzly River Run"
+          ],
+          "reveal": "The correct answer is Splash Mountain! [excited] A five-story drop into the briar patch, now home to Tiana.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Magic Kingdom's scary Tomorrowland show from 1995 had an alien loose in the dark. It was called ExtraTERRORestrial this.",
+          "answer": "Alien Encounter",
+          "accept": [
+            "alien encounter",
+            "extraterrorestrial alien encounter"
+          ],
+          "choices": [
+            "Alien Encounter",
+            "Mission to Mars",
+            "Stitch's Great Escape",
+            "Timekeeper"
+          ],
+          "reveal": "The correct answer is Alien Encounter! [whispers] It was so scary that Stitch's Great Escape took over the building in 2004.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "original-movie-marathon",
+      "title": "Original Movie Marathon",
+      "kind": "fan",
+      "format": "text",
+      "intro": "Our wildcard is a nineties Disney Channel Original Movie marathon. Pajamas are optional.",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A sleepover living room with sleeping bags, popcorn bowls, a futuristic house with glowing windows on a TV and inline skates by the couch.",
+        "file": "media/totally-90s--original-movie-marathon.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Debbie Reynolds plays a witch grandma who brings her grandkids to a magical town in this 1998 movie.",
+          "answer": "Halloweentown",
+          "accept": [
+            "halloweentown",
+            "halloween town"
+          ],
+          "choices": [
+            "Halloweentown",
+            "Hocus Pocus",
+            "Twitches",
+            "Under Wraps"
+          ],
+          "reveal": "The correct answer is Halloweentown! [laughs] Grandma Aggie is the coolest grandma ever.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "In this 1999 movie, a family's computer-run house, PAT, gets way too protective.",
+          "answer": "Smart House",
+          "accept": [
+            "smart house",
+            "smarthouse"
+          ],
+          "choices": [
+            "Smart House",
+            "Zenon: Girl of the 21st Century",
+            "Model Behavior",
+            "The Thirteenth Year"
+          ],
+          "reveal": "The correct answer is Smart House! [chuckles] PAT starts out making smoothies and ends up locking everyone in.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "This 1999 teen heroine lives on a space station in the year 2049. Zetus lapetus!",
+          "answer": "Zenon: Girl of the 21st Century",
+          "accept": [
+            "zenon: girl of the 21st century",
+            "zenon",
+            "zenon girl of the 21st century"
+          ],
+          "choices": [
+            "Zenon: Girl of the 21st Century",
+            "Smart House",
+            "Phantom of the Megaplex",
+            "Up, Up and Away"
+          ],
+          "reveal": "The correct answer is Zenon: Girl of the 21st Century! [excited] Zoom zoom zoom, make my heart go boom boom!",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "This 1998 movie is about a crew of inline skaters called the Soul Skaters.",
+          "answer": "Brink!",
+          "accept": [
+            "brink!",
+            "brink"
+          ],
+          "choices": [
+            "Brink!",
+            "Johnny Tsunami",
+            "Rip Girls",
+            "Motocrossed"
+          ],
+          "reveal": "The correct answer is Brink! [laughs] Skating for fun versus skating for money. Very nineties.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "In this 1999 movie, a teen surfer from Hawaii moves to Vermont and takes up snowboarding.",
+          "answer": "Johnny Tsunami",
+          "accept": [
+            "johnny tsunami"
+          ],
+          "choices": [
+            "Johnny Tsunami",
+            "Brink!",
+            "Rip Girls",
+            "Motocrossed"
+          ],
+          "reveal": "The correct answer is Johnny Tsunami! [chuckles] Big waves become big snow. Tough trade.",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}

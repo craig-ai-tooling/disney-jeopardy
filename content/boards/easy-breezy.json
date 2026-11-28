@@ -1,0 +1,530 @@
+{
+  "id": "easy-breezy",
+  "title": "Easy Breezy",
+  "theme": "Easy board for young fans",
+  "tags": [
+    "kids",
+    "easy",
+    "family"
+  ],
+  "intro": "[excited] Hey hey, everybody! Today's board is Easy Breezy, made for the littlest Disney fans in the room. Every single clue is one the kids can get. [laughs] Grown-ups, this is your chance to get beaten by a seven-year-old.",
+  "art": {
+    "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A sunny meadow party with giant colourful balloons, a picnic blanket, a toy castle made of building blocks, bubbles floating through the air, soft pastel sky.",
+    "file": "media/easy-breezy.jpg"
+  },
+  "categories": [
+    {
+      "id": "let-it-go",
+      "title": "Let It Go",
+      "kind": "film",
+      "format": "text",
+      "intro": "[excited] First up, a movie that every kid on Earth can sing from start to finish. Let It Go is all about Frozen!",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A sparkling ice palace on a snowy mountain under swirling green northern lights, glittering snowflakes in the air.",
+        "file": "media/easy-breezy--let-it-go.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In Frozen, Anna's big sister has magical ice powers. What is her name?",
+          "answer": "Elsa",
+          "accept": [
+            "elsa",
+            "queen elsa"
+          ],
+          "choices": [
+            "Elsa",
+            "Anna",
+            "Moana",
+            "Rapunzel"
+          ],
+          "reveal": "The correct answer is Elsa! [laughs] Queen of Arendelle, master of ice, and the reason every parent knows all the words to Let It Go.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "This silly snowman in Frozen likes warm hugs and dreams about summer.",
+          "answer": "Olaf",
+          "accept": [
+            "olaf"
+          ],
+          "choices": [
+            "Olaf",
+            "Marshmallow",
+            "Sven",
+            "Kristoff"
+          ],
+          "reveal": "The correct answer is Olaf! A snowman who loves summer. [chuckles] What could possibly go wrong?",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Kristoff's best friend in Frozen is a reindeer with this name.",
+          "answer": "Sven",
+          "accept": [
+            "sven"
+          ],
+          "choices": [
+            "Sven",
+            "Rudolph",
+            "Blitzen",
+            "Comet"
+          ],
+          "reveal": "The correct answer is Sven! [laughs] Kristoff even does Sven's voice for him. Reindeers are better than people, after all.",
+          "dailyDouble": true
+        },
+        {
+          "value": 800,
+          "clue": "Anna and Elsa live in this snowy kingdom.",
+          "answer": "Arendelle",
+          "accept": [
+            "arendelle",
+            "arendel",
+            "arendell"
+          ],
+          "choices": [
+            "Arendelle",
+            "Corona",
+            "Atlantica",
+            "Agrabah"
+          ],
+          "reveal": "The correct answer is Arendelle! The kingdom is inspired by Norway, from the fjords to the wooden stave churches.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Finish Elsa's famous line from Let It Go: The cold never bothered me...",
+          "answer": "Anyway",
+          "accept": [
+            "anyway",
+            "anyways"
+          ],
+          "choices": [
+            "Anyway",
+            "At All",
+            "Today",
+            "Again"
+          ],
+          "reveal": "The correct answer is anyway! [excited] And then she slams the door on her ice palace. Iconic.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "what-color-is-it",
+      "title": "What Color Is It?",
+      "kind": "theme",
+      "format": "text",
+      "intro": "Grab your crayons, because this category is all about colors! Just tell me what color it is.",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A giant open box of crayons spilling a rainbow of colours across a sunny playroom table, paint splatters and paper stars.",
+        "file": "media/easy-breezy--what-color-is-it.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Mickey Mouse usually wears shorts of this bright color, with two white buttons.",
+          "answer": "Red",
+          "accept": [
+            "red"
+          ],
+          "choices": [
+            "Red",
+            "Blue",
+            "Green",
+            "Yellow"
+          ],
+          "reveal": "The correct answer is red! [excited] Red shorts, yellow shoes and white gloves. The most famous outfit in the world.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Lilo's alien buddy Stitch has fur that is mostly this color.",
+          "answer": "Blue",
+          "accept": [
+            "blue"
+          ],
+          "choices": [
+            "Blue",
+            "Purple",
+            "Green",
+            "Orange"
+          ],
+          "reveal": "The correct answer is blue! Experiment 626 is fluffy, blue and very, very naughty. [laughs]",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "In Toy Story, Rex the nervous dinosaur is this color.",
+          "answer": "Green",
+          "accept": [
+            "green"
+          ],
+          "choices": [
+            "Green",
+            "Purple",
+            "Brown",
+            "Red"
+          ],
+          "reveal": "The correct answer is green! [chuckles] A big green dinosaur who is scared of almost everything.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Belle dances with the Beast in a sparkly ball gown of this color.",
+          "answer": "Yellow",
+          "accept": [
+            "yellow",
+            "gold",
+            "golden",
+            "yellow gold"
+          ],
+          "choices": [
+            "Yellow",
+            "Blue",
+            "Pink",
+            "Red"
+          ],
+          "reveal": "The correct answer is yellow! Some call it gold. Either way, it's one of the most famous dresses in Disney history.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Peter Pan's tiny fairy friend Tinker Bell wears a little dress of this color.",
+          "answer": "Green",
+          "accept": [
+            "green"
+          ],
+          "choices": [
+            "Green",
+            "Pink",
+            "Blue",
+            "Purple"
+          ],
+          "reveal": "The correct answer is green! [whispers] Made out of leaves, and sprinkled with a little pixie dust.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "who-lives-here",
+      "title": "Who Lives Here?",
+      "kind": "media",
+      "format": "picture",
+      "intro": "Knock knock! In this picture category, look at the house and tell me which movie it comes from.",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A storybook street of whimsical cottages, a treehouse, a tall stone tower and a balloon-lifted house floating overhead, warm golden light.",
+        "file": "media/easy-breezy--who-lives-here.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Look at this house lifted by balloons! Which movie is it from?",
+          "answer": "Up",
+          "accept": [
+            "up"
+          ],
+          "choices": [
+            "Up",
+            "Toy Story",
+            "Cars",
+            "Inside Out"
+          ],
+          "reveal": "The correct answer is Up! [excited] Thousands and thousands of balloons. Adventure is out there!",
+          "media": {
+            "type": "image",
+            "prompt": "Original painterly digital illustration, no people, no characters, no logos, no text or lettering. A small old-fashioned wooden house with a porch floating high in the sky, lifted by thousands of colourful balloons tied to its chimney, puffy clouds below.",
+            "file": "media/easy-breezy--who-lives-here-200.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "This tall tower is hidden deep in the forest. Which movie is it from?",
+          "answer": "Tangled",
+          "accept": [
+            "tangled"
+          ],
+          "choices": [
+            "Tangled",
+            "Frozen",
+            "Brave",
+            "Sleeping Beauty"
+          ],
+          "reveal": "The correct answer is Tangled! [laughs] Eighteen years in one tower. Rapunzel deserved that adventure.",
+          "media": {
+            "type": "image",
+            "prompt": "Original painterly digital illustration, no people, no characters, no logos, no text or lettering. A tall round stone tower with one high window, hidden in a lush hidden valley with a waterfall, a frying pan leaning against the base, a glowing golden flower nearby.",
+            "file": "media/easy-breezy--who-lives-here-400.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Seven tiny beds are lined up in this cottage. Which movie is it from?",
+          "answer": "Snow White and the Seven Dwarfs",
+          "accept": [
+            "snow white and the seven dwarfs",
+            "snow white",
+            "snow white and the 7 dwarfs"
+          ],
+          "choices": [
+            "Snow White and the Seven Dwarfs",
+            "Sleeping Beauty",
+            "Cinderella",
+            "Pinocchio"
+          ],
+          "reveal": "The correct answer is Snow White and the Seven Dwarfs! [chuckles] Seven little beds, and a whole lot of dusting to do.",
+          "media": {
+            "type": "image",
+            "prompt": "Original painterly digital illustration, no people, no characters, no logos, no text or lettering. Inside a cosy woodland cottage, seven tiny wooden beds in a row with carved headboards, a stone fireplace, pickaxes by the door and a basket of red apples.",
+            "file": "media/easy-breezy--who-lives-here-600.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Somebody who loves honey lives in this tree. Which movie is it from?",
+          "answer": "Winnie the Pooh",
+          "accept": [
+            "winnie the pooh",
+            "pooh",
+            "the many adventures of winnie the pooh",
+            "winnie-the-pooh"
+          ],
+          "choices": [
+            "Winnie the Pooh",
+            "Bambi",
+            "Robin Hood",
+            "The Fox and the Hound"
+          ],
+          "reveal": "The correct answer is Winnie the Pooh! [laughs] A silly old bear in the Hundred Acre Wood, with a cupboard full of hunny pots.",
+          "media": {
+            "type": "image",
+            "prompt": "Original painterly digital illustration, no people, no characters, no logos, no text or lettering. A big friendly hollow oak tree in a sunny forest with a round wooden door, a little window, a bell rope and clay honey pots stacked by the entrance, bees buzzing.",
+            "file": "media/easy-breezy--who-lives-here-800.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "This magical house has candles and flowers in every window. Which movie is it from?",
+          "answer": "Encanto",
+          "accept": [
+            "encanto"
+          ],
+          "choices": [
+            "Encanto",
+            "Coco",
+            "Moana",
+            "Luca"
+          ],
+          "reveal": "The correct answer is Encanto! [excited] La Casita can move its tiles and shutters all by itself. A house with personality!",
+          "media": {
+            "type": "image",
+            "prompt": "Original painterly digital illustration, no people, no characters, no logos, no text or lettering. A colourful two-storey Colombian hacienda house nestled in green mountains, yellow butterflies swirling around it, flowers on every balcony, a single magical candle glowing in an upstairs window.",
+            "file": "media/easy-breezy--who-lives-here-1000.jpg"
+          },
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "my-first-park-day",
+      "title": "My First Park Day",
+      "kind": "parks",
+      "format": "text",
+      "intro": "[excited] Time to visit the parks! These are the things every kid spots on their very first day.",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A sunny theme park main street with balloons, a spinning teacup ride and a fairy-tale castle at the end of the street, confetti in the air.",
+        "file": "media/easy-breezy--my-first-park-day.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "The big castle in the middle of Magic Kingdom is named after this princess.",
+          "answer": "Cinderella",
+          "accept": [
+            "cinderella",
+            "cinderella castle",
+            "cinderella's castle"
+          ],
+          "choices": [
+            "Cinderella",
+            "Aurora",
+            "Belle",
+            "Ariel"
+          ],
+          "reveal": "The correct answer is Cinderella! [excited] Cinderella Castle stands at the center of the park, and it is always ready for a photo.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "EPCOT's giant shiny ball that looks like a huge golf ball is called this.",
+          "answer": "Spaceship Earth",
+          "accept": [
+            "spaceship earth"
+          ],
+          "choices": [
+            "Spaceship Earth",
+            "Space Mountain",
+            "Mission: SPACE",
+            "Test Track"
+          ],
+          "reveal": "The correct answer is Spaceship Earth! [laughs] Some people call it the giant golf ball. Inside there is a ride through history.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "At Disney's Animal Kingdom, this giant tree is covered in carvings of animals.",
+          "answer": "The Tree of Life",
+          "accept": [
+            "the tree of life",
+            "tree of life"
+          ],
+          "choices": [
+            "The Tree of Life",
+            "The Swiss Family Treehouse",
+            "The Tree of Wishes",
+            "The Jungle Gym"
+          ],
+          "reveal": "The correct answer is the Tree of Life! Look closely and you'll find hundreds of animals carved all over it.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "On this spinning ride, you sit inside giant teacups.",
+          "answer": "Mad Tea Party",
+          "accept": [
+            "mad tea party",
+            "teacups",
+            "the mad tea party",
+            "the teacups"
+          ],
+          "choices": [
+            "Mad Tea Party",
+            "Dumbo the Flying Elephant",
+            "Astro Orbiter",
+            "Prince Charming Regal Carrousel"
+          ],
+          "reveal": "The correct answer is the Mad Tea Party! [laughs] Spin the wheel in the middle to go faster. Please don't eat a big lunch first.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "On this ride, you fly in circles on the back of an elephant with giant ears.",
+          "answer": "Dumbo the Flying Elephant",
+          "accept": [
+            "dumbo the flying elephant",
+            "dumbo"
+          ],
+          "choices": [
+            "Dumbo the Flying Elephant",
+            "The Magic Carpets of Aladdin",
+            "Astro Orbiter",
+            "Peter Pan's Flight"
+          ],
+          "reveal": "The correct answer is Dumbo the Flying Elephant! [excited] Pull the lever and your elephant flies higher. Ears not included.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "emoji-movie-night",
+      "title": "Emoji Movie Night",
+      "kind": "fan",
+      "format": "emoji",
+      "intro": "Popcorn ready? Look at the emojis and tell me which Disney or Pixar movie they spell out.",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A cosy living room movie night with a big screen glowing, bowls of popcorn, pillow fort and fairy lights.",
+        "file": "media/easy-breezy--emoji-movie-night.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "🦁👑🌅 Hint: a cub who just can't wait to be king",
+          "answer": "The Lion King",
+          "accept": [
+            "the lion king",
+            "lion king"
+          ],
+          "choices": [
+            "The Lion King",
+            "The Jungle Book",
+            "Zootopia",
+            "Brother Bear"
+          ],
+          "reveal": "The correct answer is The Lion King! [excited] Hakuna matata, my friends.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "🐠🔍🌊 Hint: a dad searching the whole ocean",
+          "answer": "Finding Nemo",
+          "accept": [
+            "finding nemo",
+            "nemo"
+          ],
+          "choices": [
+            "Finding Nemo",
+            "The Little Mermaid",
+            "Luca",
+            "Moana"
+          ],
+          "reveal": "The correct answer is Finding Nemo! [laughs] Just keep swimming, just keep swimming.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "🤠🚀🧸 Hint: a cowboy and a space ranger",
+          "answer": "Toy Story",
+          "accept": [
+            "toy story"
+          ],
+          "choices": [
+            "Toy Story",
+            "Cars",
+            "Lightyear",
+            "Wreck-It Ralph"
+          ],
+          "reveal": "The correct answer is Toy Story! To infinity, and beyond!",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "🐀👨‍🍳🇫🇷 Hint: anyone can cook",
+          "answer": "Ratatouille",
+          "accept": [
+            "ratatouille",
+            "ratatouie",
+            "ratatoulle"
+          ],
+          "choices": [
+            "Ratatouille",
+            "The Great Mouse Detective",
+            "The Aristocats",
+            "Luca"
+          ],
+          "reveal": "The correct answer is Ratatouille! [chuckles] A rat who cooks, in Paris. Please wash your hands.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "🧞🪔🐒 Hint: three wishes",
+          "answer": "Aladdin",
+          "accept": [
+            "aladdin"
+          ],
+          "choices": [
+            "Aladdin",
+            "Hercules",
+            "Mulan",
+            "Pocahontas"
+          ],
+          "reveal": "The correct answer is Aladdin! [excited] Phenomenal cosmic powers, itty bitty living space.",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}
