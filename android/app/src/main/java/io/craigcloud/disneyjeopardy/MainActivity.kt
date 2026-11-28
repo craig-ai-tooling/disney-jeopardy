@@ -91,6 +91,9 @@ class MainActivity : Activity() {
     private val utteranceSeq = AtomicInteger()
 
     private val prefs by lazy { getSharedPreferences("dj", Context.MODE_PRIVATE) }
+
+    /** Same stable TV id as [NativeActivity], so switching modes keeps the room and play history. */
+    private fun tvId(): String = prefs.getString("tvId", null) ?: java.util.UUID.randomUUID().toString().also { prefs.edit().putString("tvId", it).apply() }
     /** Set by a launch intent's `url` extra; lasts for this process only so other apps can't repoint the kiosk for good. */
     private var launchUrl: String? = null
     private val serverUrl: String get() = launchUrl ?: prefs.getString(KEY_URL, null) ?: BuildConfig.DEFAULT_URL
@@ -233,6 +236,7 @@ class MainActivity : Activity() {
     }
 
     private fun bridgeScript(): String = """
+        try { localStorage.djTv = ${jsString(tvId())}; } catch (e) {}
         (function(){
           if (window.DJ_TV && window.DJ_TV.isTV) return;
           var N = window.DJ_TV_NATIVE; if (!N) return;
