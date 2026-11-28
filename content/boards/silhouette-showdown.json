@@ -18,7 +18,7 @@
       "id": "prop-shadows",
       "title": "Prop Shadows",
       "kind": "film",
-      "intro": "I'll show you the shadow of a famous movie object. [mischievously] You tell me the film. No peeking behind the curtain!",
+      "intro": "I'll show you the shadow of a famous movie object. You tell me the film. No peeking behind the curtain!",
       "format": "picture",
       "art": {
         "prompt": "A white theater curtain lit from behind, casting crisp black shadow shapes of a slipper, a rose, a frying pan, a spindle and a magnifying glass Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
@@ -139,7 +139,7 @@
       "id": "shadow-man-and-friends",
       "title": "Shadow Man and Friends",
       "kind": "theme",
-      "intro": "[mischievously] Shadows, shady characters and the friends on the other side. Let's step into the dark!",
+      "intro": "Shadows, shady characters and the friends on the other side. Let's step into the dark!",
       "format": "text",
       "art": {
         "prompt": "A long dark bayou alley at night with a lamppost casting dramatic shadows of tall hats and swirling smoke on a brick wall, voodoo-style candles and tarot-like blank cards scattered on a table Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
@@ -500,7 +500,7 @@
             "Edgar",
             "Lucifer"
           ],
-          "reveal": "[whispers] The correct answer is Diablo! He searched for Aurora for sixteen years. [sighs] And yes, he's the one who finally found her cottage.",
+          "reveal": "[whispers] The correct answer is Diablo! Maleficent's goons searched sixteen years for a baby. [sighs] Diablo is the one who finally found the cottage.",
           "media": {
             "type": "image",
             "prompt": "Black silhouette of a raven perched on top of a tall twisted staff topped with a glowing green orb, a jagged dark castle and lightning in the background Original illustration, cinematic lighting, no people, no characters, no text, no logos.",

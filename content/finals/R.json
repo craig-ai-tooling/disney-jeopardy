@@ -1,141 +1,140 @@
 [
   {
-    "film": "Pete's Dragon",
-    "category": "Pete's Dragon",
-    "clue": "In the 1977 film, Elliott the dragon has a handy power that gets Pete into trouble: he can make himself this.",
-    "answer": "Invisible",
+    "film": "Elio",
+    "category": "Elio",
+    "clue": "In Pixar's 2025 film Elio, an 11-year-old boy is beamed up and mistaken for Earth's leader by this interplanetary organization.",
+    "answer": "The Communiverse",
     "accept": [
-      "disappear",
-      "go invisible",
-      "invisible",
-      "turn invisible"
+      "communiverse",
+      "the communiverse"
     ],
     "choices": [
-      "Invisible",
-      "Shrink",
-      "Fly backwards",
-      "Breathe ice"
+      "The Communiverse",
+      "The Galactic Federation",
+      "The Interstellar Council",
+      "The Star Command"
     ],
-    "reveal": "The correct answer is invisible! Elliott was hand-drawn and combined with live action, and he lives with Pete in Passamaquoddy, Maine. [laughs] Imagine explaining that to the neighbors."
+    "reveal": "[excited] The correct answer is the Communiverse! Elio has been sending messages into space hoping for exactly this. [laughs] Careful what you wish for, kid."
   },
   {
-    "film": "Dinosaur",
-    "category": "Dinosaur",
-    "clue": "In Disney's 2000 film Dinosaur, Aladar the Iguanodon is raised from an egg by a family of these primates.",
-    "answer": "Lemurs",
+    "film": "High School Musical",
+    "category": "High School Musical",
+    "clue": "In the 2006 Disney Channel movie High School Musical, Troy and Gabriella's East High teams go by this name.",
+    "answer": "Wildcats",
     "accept": [
-      "a family of lemurs",
-      "lemur",
-      "lemurs"
+      "east high wildcats",
+      "the wildcats",
+      "wildcats"
     ],
     "choices": [
-      "Lemurs",
-      "Monkeys",
-      "Chimpanzees",
-      "Gorillas"
+      "Wildcats",
+      "Knights",
+      "Eagles",
+      "Panthers"
     ],
-    "reveal": "The correct answer is lemurs! The film mixed computer-animated dinosaurs with real filmed backgrounds. [chuckles] Animal Kingdom even had a ride named after it."
+    "reveal": "The correct answer is the Wildcats! [laughs] What team? WILDCATS! We're all in this together, and we're all still singing it."
   },
   {
-    "film": "Fantasia 2000",
-    "category": "Fantasia 2000",
-    "clue": "In Fantasia 2000, Donald Duck is Noah's assistant loading the ark, set to this Edward Elgar march.",
-    "answer": "Pomp and Circumstance",
+    "film": "Descendants",
+    "category": "Descendants",
+    "clue": "In 2015's Descendants, Mal, a teen from the Isle of the Lost, is the daughter of this Sleeping Beauty villain.",
+    "answer": "Maleficent",
     "accept": [
-      "pomp & circumstance",
-      "pomp and circumstance",
-      "pomp and circumstance marches"
+      "maleficent"
     ],
     "choices": [
-      "Pomp and Circumstance",
-      "Rhapsody in Blue",
-      "The Firebird",
-      "Pines of Rome"
+      "Maleficent",
+      "The Evil Queen",
+      "Cruella de Vil",
+      "Lady Tremaine"
     ],
-    "reveal": "The correct answer is Pomp and Circumstance! [laughs] The graduation song. Donald and Daisy think they've lost each other the whole time. [sighs] Classic Donald."
+    "reveal": "[excited] The correct answer is Maleficent! Mal's friends are the kids of the Evil Queen, Jafar and Cruella. [chuckles] Rotten to the core!"
   },
   {
-    "film": "The Rescuers Down Under",
-    "category": "The Rescuers Down Under",
-    "clue": "In The Rescuers Down Under, a boy named Cody frees this giant golden eagle in the Australian outback.",
-    "answer": "Marahute",
+    "film": "The Mighty Ducks",
+    "category": "The Mighty Ducks",
+    "clue": "In 1992's The Mighty Ducks, Coach Gordon Bombay's District 5 peewee team pulls off this famous formation play.",
+    "answer": "The Flying V",
     "accept": [
-      "marahute"
+      "flying v",
+      "the flying v"
     ],
     "choices": [
-      "Marahute",
-      "Wilbur",
-      "Orville",
-      "Joanna"
+      "The Flying V",
+      "The Triple Deke",
+      "The Knucklepuck",
+      "The Duck Dive"
     ],
-    "reveal": "The correct answer is Marahute! [gasps] Her flight scenes are breathtaking. It was the first Disney feature made entirely with the CAPS digital ink and paint system."
+    "reveal": "The correct answer is the Flying V! [laughs] Quack, quack, quack! The movie was such a hit that Disney named a real NHL team the Mighty Ducks of Anaheim."
   },
   {
-    "film": "Wish",
-    "category": "Wish",
-    "clue": "In 2023's Wish, Asha's wish brings a star down from the sky and puts her at odds with this ruler of Rosas.",
-    "answer": "King Magnifico",
+    "film": "Holes",
+    "category": "Holes",
+    "clue": "In 2003's Holes, Stanley digs at Camp Green Lake, and his last name reads the same backwards as his first. Name him: Stanley who?",
+    "answer": "Yelnats",
     "accept": [
-      "king magnifico",
-      "magnifico"
+      "stanley yelnats",
+      "stanley yelnats iv",
+      "yelnats"
     ],
     "choices": [
-      "King Magnifico",
-      "King Hubert",
-      "King Triton",
-      "Prince John"
+      "Yelnats",
+      "Stanton",
+      "Sterling",
+      "Stevens"
     ],
-    "reveal": "The correct answer is King Magnifico! Chris Pine voices him. [chuckles] Wish was made for Disney's 100th anniversary, and it's full of hidden nods to classic films."
+    "reveal": "[excited] The correct answer is Yelnats! Stanley Yelnats, the fourth. [chuckles] Blame his no-good-dirty-rotten-pig-stealing great-great-grandfather."
   },
   {
-    "film": "The Three Caballeros",
-    "category": "The Three Caballeros",
-    "clue": "In The Three Caballeros (1944), Donald's pals are José Carioca the parrot and this pistol-packing Mexican rooster.",
-    "answer": "Panchito Pistoles",
+    "film": "Flubber",
+    "category": "Flubber",
+    "clue": "In 1997's Flubber, Robin Williams invents bouncing green goo. Its name is short for these two words.",
+    "answer": "Flying rubber",
     "accept": [
-      "panchito",
-      "panchito pistoles"
+      "flying rubber"
     ],
     "choices": [
-      "Panchito Pistoles",
-      "Pancho Villa",
-      "Pablo the Penguin",
-      "Señor Gallo"
+      "Flying rubber",
+      "Flexible blubber",
+      "Flying blubber",
+      "Floating rubber"
     ],
-    "reveal": "The correct answer is Panchito Pistoles! [excited] Today the three caballeros sail around EPCOT's Mexico pavilion on the Gran Fiesta Tour."
+    "reveal": "The correct answer is flying rubber! [laughs] It's a remake of The Absent-Minded Professor from 1961. That goo has a lot of personality."
   },
   {
-    "film": "Toy Story 4",
-    "category": "Toy Story 4",
-    "clue": "In Toy Story 4, Keanu Reeves voices this Canadian daredevil motorcycle toy.",
-    "answer": "Duke Caboom",
+    "film": "Jungle Cruise",
+    "category": "Jungle Cruise",
+    "clue": "In the 2021 film Jungle Cruise, Lily Houghton hires skipper Frank Wolff to find a magic tree called this.",
+    "answer": "The Tears of the Moon",
     "accept": [
-      "caboom",
-      "duke",
-      "duke caboom"
+      "tears of the moon",
+      "the tears of the moon"
     ],
     "choices": [
-      "Duke Caboom",
-      "Combat Carl",
-      "Ducky",
-      "Giggle McDimples"
+      "The Tears of the Moon",
+      "The Tree of Life",
+      "The Heart of the Jungle",
+      "The Moonflower"
     ],
-    "reveal": "The correct answer is Duke Caboom! [laughs] Canada's greatest stuntman, he just can't land a jump. Toy Story 4 won the Oscar for Best Animated Feature."
+    "reveal": "[excited] The correct answer is the Tears of the Moon! Its petals can heal anything and lift curses. [chuckles] And yes, Frank's puns came straight from the ride."
   },
   {
-    "film": "Ralph Breaks the Internet",
-    "category": "Ralph Breaks the Internet",
-    "clue": "In Ralph Breaks the Internet, Vanellope falls in love with this gritty online racing game featuring Shank.",
-    "answer": "Slaughter Race",
+    "film": "Sky High",
+    "category": "Sky High",
+    "clue": "At the superhero school in 2005's Sky High, students who are labeled sidekicks go into this track instead of the Hero track.",
+    "answer": "Hero Support",
     "accept": [
-      "slaughter race"
+      "hero support",
+      "hero support track",
+      "sidekick",
+      "sidekicks"
     ],
     "choices": [
-      "Slaughter Race",
-      "Sugar Rush",
-      "Hero's Duty",
-      "Fix-It Felix Jr."
+      "Hero Support",
+      "Hero Reserve",
+      "Backup Squad",
+      "Power Assist"
     ],
-    "reveal": "The correct answer is Slaughter Race! [chuckles] Gal Gadot voices Shank. And Vanellope meets all the Disney princesses in their comfy clothes."
+    "reveal": "The correct answer is Hero Support! [laughs] Coach Boomer decides it in Power Placement, and his word is law. No whiner babies!"
   }
 ]
