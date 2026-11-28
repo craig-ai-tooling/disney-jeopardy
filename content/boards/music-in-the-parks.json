@@ -1,0 +1,563 @@
+{
+  "id": "music-in-the-parks",
+  "title": "Music in the Parks",
+  "theme": "Park songs, parade music and area music",
+  "tags": [
+    "parks",
+    "music",
+    "songs"
+  ],
+  "intro": "[excited] Turn it up! Tonight's board is all about the music of the Disney parks: ride songs, barbershop quartets, area music and those earworms you hum all the way home. [laughs] You're welcome in advance.",
+  "art": {
+    "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A theme park main street at twilight with a bandstand gazebo, a gramophone horn, floating musical notes made of light over a castle silhouette made of abstract spires, warm string lights.",
+    "file": "media/music-in-the-parks.jpg"
+  },
+  "categories": [
+    {
+      "id": "practically-perfect",
+      "title": "Practically Perfect",
+      "kind": "film",
+      "intro": "Our film category is Mary Poppins! Spoonfuls of sugar, singing chimney sweeps and the songwriting brothers who also wrote some of the parks' biggest hits.",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A London rooftop at dusk with chimneys, a black umbrella with a carved bird handle floating above them, a carpet bag on the tiles and kites in the sky.",
+        "file": "media/music-in-the-parks--practically-perfect.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In Mary Poppins, this super-long word is something to say when you don't know what to say.",
+          "answer": "Supercalifragilisticexpialidocious",
+          "accept": [
+            "supercalifragilisticexpialidocious"
+          ],
+          "choices": [
+            "Supercalifragilisticexpialidocious",
+            "Bibbidi-bobbidi-boo",
+            "Zip-a-dee-doo-dah",
+            "Hakuna matata"
+          ],
+          "reveal": "The correct answer is supercalifragilisticexpialidocious! [laughs] If you spelled it right on your phone, I'm a little scared of you.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "This actor played Bert, the chimney sweep, and also the old bank chairman in Mary Poppins.",
+          "answer": "Dick Van Dyke",
+          "accept": [
+            "dick van dyke",
+            "van dyke"
+          ],
+          "choices": [
+            "Dick Van Dyke",
+            "Julie Andrews",
+            "David Tomlinson",
+            "Ed Wynn"
+          ],
+          "reveal": "The correct answer is Dick Van Dyke! [chuckles] He played two parts in one movie, and that accent is still talked about today.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Feed the Birds, Walt Disney's favourite song, is about a woman who sells breadcrumbs for this price per bag.",
+          "answer": "Tuppence",
+          "accept": [
+            "tuppence",
+            "two pence",
+            "2 pence",
+            "twopence"
+          ],
+          "choices": [
+            "Tuppence",
+            "A penny",
+            "A shilling",
+            "Sixpence"
+          ],
+          "reveal": "The correct answer is tuppence! [sighs] Walt would ask Richard Sherman to play Feed the Birds for him on Friday afternoons. Beautiful.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Mary Poppins' talking umbrella has a handle carved in the shape of this kind of bird.",
+          "answer": "A parrot",
+          "accept": [
+            "parrot",
+            "a parrot"
+          ],
+          "choices": [
+            "A parrot",
+            "A robin",
+            "A crow",
+            "A swan"
+          ],
+          "reveal": "The correct answer is a parrot! [laughs] A talking parrot head umbrella. And it's sassier than most people.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "The Sherman Brothers wrote Mary Poppins and it's a small world. Name both brothers.",
+          "answer": "Richard and Robert Sherman",
+          "accept": [
+            "richard and robert",
+            "robert and richard",
+            "richard and robert sherman",
+            "robert and richard sherman",
+            "richard sherman and robert sherman",
+            "robert sherman and richard sherman"
+          ],
+          "choices": [
+            "Richard and Robert Sherman",
+            "Robert and Kristen Lopez",
+            "Alan and Howard Menken",
+            "Richard and Tim Rice"
+          ],
+          "reveal": "[excited] The correct answer is Richard and Robert Sherman! They also wrote the Tiki Room song and There's a Great Big Beautiful Tomorrow. Park legends.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "soundtrack-of-the-rides",
+      "title": "Soundtrack of the Rides",
+      "kind": "theme",
+      "intro": "Next up, Soundtrack of the Rides! Every great ride has a great tune. Let's see who's been listening.",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. Vintage gramophone horns poking out of a dark ride tunnel, glowing musical notes floating along a ride track, a little ride car waiting at the entrance.",
+        "file": "media/music-in-the-parks--soundtrack-of-the-rides.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "You can fly! You can fly! You can fly! plays as you soar over London on this Fantasyland dark ride.",
+          "answer": "Peter Pan's Flight",
+          "accept": [
+            "peter pan's flight",
+            "peter pans flight",
+            "peter pan"
+          ],
+          "choices": [
+            "Peter Pan's Flight",
+            "Dumbo the Flying Elephant",
+            "it's a small world",
+            "Mr. Toad's Wild Ride"
+          ],
+          "reveal": "The correct answer is Peter Pan's Flight! [laughs] It opened with Disneyland in 1955, and the line has been long ever since.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "On Seven Dwarfs Mine Train, the dwarfs sing this song as they work in the diamond mine.",
+          "answer": "Heigh-Ho",
+          "accept": [
+            "heigh-ho",
+            "heigh ho",
+            "hi ho"
+          ],
+          "choices": [
+            "Heigh-Ho",
+            "Whistle While You Work",
+            "Someday My Prince Will Come",
+            "The Silly Song"
+          ],
+          "reveal": "The correct answer is Heigh-Ho! [chuckles] It's home from work we go... at about 34 miles per hour.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "In the Country Bear Jamboree, this huge, lazy-voiced bear strums his guitar and sings Blood on the Saddle.",
+          "answer": "Big Al",
+          "accept": [
+            "big al"
+          ],
+          "choices": [
+            "Big Al",
+            "Henry",
+            "Liver Lips McGrowl",
+            "Wendell"
+          ],
+          "reveal": "The correct answer is Big Al! [laughs] He can't sing, he can't play, and fans absolutely adore him. Relatable.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "This legendary composer of Star Trek and Alien scores wrote the soaring music for Soarin'.",
+          "answer": "Jerry Goldsmith",
+          "accept": [
+            "jerry goldsmith",
+            "goldsmith"
+          ],
+          "choices": [
+            "Jerry Goldsmith",
+            "John Williams",
+            "Hans Zimmer",
+            "Danny Elfman"
+          ],
+          "reveal": "[excited] The correct answer is Jerry Goldsmith! The Soarin' theme is one of the most beloved pieces of park music. [sighs] Smell the oranges!",
+          "dailyDouble": true
+        },
+        {
+          "value": 1000,
+          "clue": "Miracles from Molecules was the theme song of this Tomorrowland ride, where guests shrank smaller than a snowflake from 1967 to 1985.",
+          "answer": "Adventure Thru Inner Space",
+          "accept": [
+            "adventure thru inner space",
+            "adventure through inner space"
+          ],
+          "choices": [
+            "Adventure Thru Inner Space",
+            "Horizons",
+            "Journey Into Imagination",
+            "Mission to Mars"
+          ],
+          "reveal": "The correct answer is Adventure Thru Inner Space! It closed in 1985 and Star Tours moved into the space. [chuckles] Fans still miss it.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "name-that-music-spot",
+      "title": "Name That Music Spot",
+      "kind": "media",
+      "intro": "Picture category! These are real photos from the Disney parks. Each one is all about the music. Tell me what you're looking at.",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A collage of vintage postcards on a corkboard showing abstract theme park scenes: a white spired facade, a bandstand, a giant guitar shape and tiki torches, no text.",
+        "file": "media/music-in-the-parks--name-that-music-spot.jpg"
+      },
+      "format": "picture",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Name this boat ride, famous for one very catchy song.",
+          "answer": "it's a small world",
+          "accept": [
+            "it's a small world",
+            "its a small world",
+            "small world",
+            "it's a small world after all"
+          ],
+          "choices": [
+            "it's a small world",
+            "Pirates of the Caribbean",
+            "Storybook Land Canal Boats",
+            "Jungle Cruise"
+          ],
+          "reveal": "The correct answer is it's a small world! [laughs] And now it's stuck in your head for the rest of the day. Sorry. Not sorry.",
+          "media": {
+            "type": "image",
+            "file": "media/music-in-the-parks--name-that-music-spot-200.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Disneyland_Small_World_Facade_From_Left_2013.JPG",
+              "license": "CC BY-SA 3.0",
+              "author": "Patrick Pelletier"
+            }
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "This giant guitar marks a Hollywood Studios coaster that opened in 1999 starring this rock band.",
+          "answer": "Aerosmith",
+          "accept": [
+            "aerosmith"
+          ],
+          "choices": [
+            "Aerosmith",
+            "KISS",
+            "Bon Jovi",
+            "The Rolling Stones"
+          ],
+          "reveal": "The correct answer is Aerosmith! [excited] Rock 'n' Roller Coaster launches you from zero to about 57 miles an hour, with Aerosmith blasting in your ears.",
+          "media": {
+            "type": "image",
+            "file": "media/music-in-the-parks--name-that-music-spot-400.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Rock_%27n%27_Roller_Coaster_starring_Aerosmith_Guitar_(May_2023).JPG",
+              "license": "CC0",
+              "author": "Benoît Prieur"
+            }
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Name this singing group, which has entertained Main Street, U.S.A. guests since the 1950s.",
+          "answer": "The Dapper Dans",
+          "accept": [
+            "dapper dans",
+            "the dapper dans",
+            "dapper dans of disneyland"
+          ],
+          "choices": [
+            "The Dapper Dans",
+            "The Voices of Liberty",
+            "The Main Street Philharmonic",
+            "The Barbershop Boys"
+          ],
+          "reveal": "The correct answer is the Dapper Dans! [chuckles] Four-part harmony, striped vests and straw hats. Barbershop never goes out of style.",
+          "media": {
+            "type": "image",
+            "file": "media/music-in-the-parks--name-that-music-spot-600.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Dapper_Dans_(34399829806).jpg",
+              "license": "CC BY 2.0",
+              "author": "HarshLight from San Jose, CA, USA"
+            }
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Name this World Showcase pavilion, where the Voices of Liberty sing in the rotunda.",
+          "answer": "The American Adventure",
+          "accept": [
+            "the american adventure",
+            "american adventure",
+            "usa",
+            "united states",
+            "usa pavilion",
+            "the american adventure pavilion"
+          ],
+          "choices": [
+            "The American Adventure",
+            "Canada",
+            "United Kingdom",
+            "Hall of Presidents"
+          ],
+          "reveal": "The correct answer is The American Adventure! Benjamin Franklin and Mark Twain host the show inside. [excited] The a cappella Voices of Liberty sing in the lobby.",
+          "media": {
+            "type": "image",
+            "file": "media/music-in-the-parks--name-that-music-spot-800.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:The_American_Adventure_(23860708488).jpg",
+              "license": "CC BY 2.0",
+              "author": "Sam Howzit"
+            }
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "These tiki drummers play in this 1963 Disneyland show, the first to use Audio-Animatronics.",
+          "answer": "Walt Disney's Enchanted Tiki Room",
+          "accept": [
+            "enchanted tiki room",
+            "tiki room",
+            "walt disney's enchanted tiki room",
+            "the enchanted tiki room"
+          ],
+          "choices": [
+            "Walt Disney's Enchanted Tiki Room",
+            "Country Bear Jamboree",
+            "Adventureland Treehouse",
+            "Jungle Cruise"
+          ],
+          "reveal": "[excited] The correct answer is Walt Disney's Enchanted Tiki Room! In the tiki tiki tiki tiki tiki room! [laughs] I'll stop. Maybe.",
+          "media": {
+            "type": "image",
+            "file": "media/music-in-the-parks--name-that-music-spot-1000.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Tiki_drummers_in_the_Tiki_Room_-_Adventureland_at_Disneyland_IMG_3858.jpg",
+              "license": "CC BY-SA 3.0",
+              "author": "deror_avi"
+            }
+          },
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "strike-up-the-band",
+      "title": "Strike Up the Band",
+      "kind": "parks",
+      "intro": "Parks time! The parks are full of live musicians. [excited] Name who's playing and where.",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A sunny park plaza with an empty bandstand, a polished upright piano, a stack of plastic trash cans used as drums, a pair of maracas and a large taiko drum.",
+        "file": "media/music-in-the-parks--strike-up-the-band.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "At Casey's Corner on Magic Kingdom's Main Street, a ragtime musician plays this instrument.",
+          "answer": "Piano",
+          "accept": [
+            "piano",
+            "the piano"
+          ],
+          "choices": [
+            "Piano",
+            "Banjo",
+            "Tuba",
+            "Accordion"
+          ],
+          "reveal": "The correct answer is the piano! [chuckles] Ragtime with your hot dog. Main Street knows how to live.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Mariachi Cobre is a mariachi band that performs at this World Showcase pavilion at EPCOT.",
+          "answer": "Mexico",
+          "accept": [
+            "mexico",
+            "mexico pavilion"
+          ],
+          "choices": [
+            "Mexico",
+            "Spain",
+            "Italy",
+            "Morocco"
+          ],
+          "reveal": "The correct answer is Mexico! [excited] Mariachi Cobre has been playing at EPCOT since the early 1980s. Olé!",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "This EPCOT group of custodians turns trash cans and buckets into a percussion show.",
+          "answer": "The JAMMitors",
+          "accept": [
+            "jammitors",
+            "the jammitors"
+          ],
+          "choices": [
+            "The JAMMitors",
+            "Stomp",
+            "The Dapper Dans",
+            "The Bucket Band"
+          ],
+          "reveal": "The correct answer is the JAMMitors! [laughs] The only band where the drums need to be emptied after the show.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "At EPCOT's Japan pavilion, Matsuriza performers play these traditional giant Japanese drums.",
+          "answer": "Taiko",
+          "accept": [
+            "taiko",
+            "taiko drums"
+          ],
+          "choices": [
+            "Taiko",
+            "Bongo",
+            "Tabla",
+            "Djembe"
+          ],
+          "reveal": "The correct answer is taiko drums! [excited] You don't just hear Matsuriza, you feel it in your chest. BOOM!",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "This Disneyland marching band has played on Main Street, U.S.A. since opening day in 1955.",
+          "answer": "The Disneyland Band",
+          "accept": [
+            "disneyland band",
+            "the disneyland band"
+          ],
+          "choices": [
+            "The Disneyland Band",
+            "The Main Street Philharmonic",
+            "The Dapper Dans",
+            "The Pearly Band"
+          ],
+          "reveal": "The correct answer is the Disneyland Band! [chuckles] Walt hired them for two weeks in 1955, and they never really left.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "background-music",
+      "title": "Background Music",
+      "kind": "fan",
+      "intro": "Our fan category is Background Music! Every land has its own area music playing through hidden speakers. Name the land, or the music.",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A theme park pathway with a fake rock hiding a small speaker, flowers and a bench, musical notes drifting through the trees, hazy morning light.",
+        "file": "media/music-in-the-parks--background-music.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "At Hollywood Studios, peppy toy-box versions of You've Got a Friend in Me play in this land.",
+          "answer": "Toy Story Land",
+          "accept": [
+            "toy story land",
+            "toy story"
+          ],
+          "choices": [
+            "Toy Story Land",
+            "Galaxy's Edge",
+            "Sunset Boulevard",
+            "Animation Courtyard"
+          ],
+          "reveal": "The correct answer is Toy Story Land! [laughs] You're the size of a toy in Andy's backyard, so the music is playful.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Futuristic, synth-heavy area music hums through this Magic Kingdom land, home of Space Mountain.",
+          "answer": "Tomorrowland",
+          "accept": [
+            "tomorrowland"
+          ],
+          "choices": [
+            "Tomorrowland",
+            "Fantasyland",
+            "Adventureland",
+            "Discoveryland"
+          ],
+          "reveal": "The correct answer is Tomorrowland! [chuckles] The future, as imagined by people with lots of synthesisers.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Banjos, fiddles and cowboy tunes fill this land, home of Big Thunder Mountain Railroad.",
+          "answer": "Frontierland",
+          "accept": [
+            "frontierland"
+          ],
+          "choices": [
+            "Frontierland",
+            "Liberty Square",
+            "Adventureland",
+            "Critter Country"
+          ],
+          "reveal": "The correct answer is Frontierland! Yee-haw! [laughs] It's the wildest music in the wilderness.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Fife-and-drum and colonial-era music plays in this Magic Kingdom land, home of the Hall of Presidents.",
+          "answer": "Liberty Square",
+          "accept": [
+            "liberty square"
+          ],
+          "choices": [
+            "Liberty Square",
+            "Main Street, U.S.A.",
+            "Frontierland",
+            "New Orleans Square"
+          ],
+          "reveal": "The correct answer is Liberty Square! [chuckles] It's 1776 and the music is very patriotic. Ben Franklin would approve.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "This legendary Star Wars composer wrote an original new theme for Galaxy's Edge when it opened in 2019.",
+          "answer": "John Williams",
+          "accept": [
+            "john williams",
+            "williams"
+          ],
+          "choices": [
+            "John Williams",
+            "Michael Giacchino",
+            "Ludwig Göransson",
+            "Hans Zimmer"
+          ],
+          "reveal": "[excited] The correct answer is John Williams! He wrote the Galaxy's Edge Symphonic Suite. [gasps] The man who wrote the Star Wars theme, writing for a theme park!",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}
