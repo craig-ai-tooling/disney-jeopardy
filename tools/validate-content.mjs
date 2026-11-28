@@ -6,6 +6,7 @@ import path from 'node:path';
 const root = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
 const VALUES = [200, 400, 600, 800, 1000];
 const KINDS = ['film', 'theme', 'media', 'parks', 'fan'];
+const SOURCE_HOSTS = /^https:\/\/((commons|upload)\.wikimedia\.org|[a-z0-9-]+\.fandom\.com|static\.wikia\.nocookie\.net|(www\.|image\.)?themoviedb\.org|image\.tmdb\.org|([a-z0-9-]+\.)*(disney|marvel|disneyplus|pixar|lucasfilm|starwars)\.com)\//;
 const DIFFICULTIES = ['easy', 'medium', 'hard', 'superfan'];
 const FORMATS = ['text', 'picture', 'zoom', 'video', 'palette', 'quote', 'emoji'];
 const errors = [];
@@ -64,7 +65,7 @@ function checkBoard(f, b) {
         if (!['image', 'video'].includes(c.media.type)) err(f, `${cw}: media.type must be image|video`);
         const src = c.media.source;
         if (src) {
-          if (!/^https:\/\/(commons\.wikimedia\.org|upload\.wikimedia\.org)\//.test(src.url || '')) err(f, `${cw}: media.source.url must be a Wikimedia Commons URL`);
+          if (!SOURCE_HOSTS.test(src.url || '')) err(f, `${cw}: media.source.url must be on Wikimedia Commons, Fandom, TMDB or an official Disney/Marvel site`);
           if (!str(src.license) || !str(src.author)) err(f, `${cw}: media.source needs license and author`);
           if (!fs.existsSync(path.join(root, 'content', c.media.file))) err(f, `${cw}: sourced media file ${c.media.file} not committed`);
         } else if (!str(c.media.prompt)) err(f, `${cw}: media.prompt (or media.source) missing`);
