@@ -82,9 +82,7 @@
           "answer": "17",
           "accept": [
             "17",
-            "seventeen",
-            "number 17",
-            "number seventeen"
+            "seventeen"
           ],
           "choices": [
             "17",
@@ -102,8 +100,7 @@
           "accept": [
             "54",
             "fifty four",
-            "fifty-four",
-            "54 years"
+            "fifty-four"
           ],
           "choices": [
             "54",
