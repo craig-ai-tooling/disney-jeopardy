@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Nunito:wght@600;800;900&display=swap');
+[hidden] { display: none !important; }
 :root { --gold: #ffd34d; --gold2: #ffb300; --blue: #0a1f6e; --blue2: #1438b8; --ink: #fff; --card: rgba(8, 20, 80, .82); }
 * { box-sizing: border-box; }
 html, body { margin: 0; height: 100%; overflow: hidden; background: #050a2a; color: var(--ink); font-family: Nunito, system-ui, sans-serif; }
