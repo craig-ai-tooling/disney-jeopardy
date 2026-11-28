@@ -14,13 +14,13 @@
   },
   "categories": [
     {
-      "id": "savvy",
-      "title": "Savvy?",
+      "id": "parley",
+      "title": "Parley!",
       "kind": "film",
       "intro": "We begin with the Pirates of the Caribbean films. [chuckles] You've clearly heard of them.",
       "art": {
         "prompt": "A tall pirate ship with tattered black sails gliding through misty moonlit Caribbean waters, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
-        "file": "media/pirates-and-treasure--savvy.jpg"
+        "file": "media/pirates-and-treasure--parley.jpg"
       },
       "format": "text",
       "clues": [

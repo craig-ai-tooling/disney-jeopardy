@@ -1,20 +1,41 @@
 [
   {
-    "film": "Treasure Planet",
-    "category": "Treasure Planet",
-    "clue": "Jim Hawkins's rattled robot pal B.E.N., who lost his memory, is voiced by this comedian.",
-    "answer": "Martin Short",
-    "accept": ["martin short", "short"],
-    "choices": ["Martin Short", "David Hyde Pierce", "Robin Williams", "Steve Martin"],
-    "reveal": "[excited] The correct answer is Martin Short! B.E.N. stands for Bio-Electronic Navigator. David Hyde Pierce voiced Doctor Doppler, in case you were tempted."
+    "film": "Muppet Treasure Island",
+    "category": "Muppet Treasure Island",
+    "clue": "Kermit the Frog commands the ship Hispaniola in this 1996 film as this captain.",
+    "answer": "Captain Smollett",
+    "accept": [
+      "smollett",
+      "captain smollett",
+      "captain abraham smollett",
+      "abraham smollett"
+    ],
+    "choices": [
+      "Captain Smollett",
+      "Captain Flint",
+      "Captain Hook",
+      "Captain Barbossa"
+    ],
+    "reveal": "[excited] The correct answer is Captain Smollett! Fozzie plays Squire Trelawney, and Miss Piggy rules the island as Benjamina Gunn. [laughs] Casting by the Muppets, obviously."
   },
   {
     "film": "Pirates of the Caribbean: The Curse of the Black Pearl",
     "category": "Pirates of the Caribbean: The Curse of the Black Pearl",
     "clue": "Barbossa's crew are cursed after spending gold from a stone chest on Isla de Muerta. The gold came from this ancient civilization.",
     "answer": "The Aztecs",
-    "accept": ["aztec", "aztecs", "the aztecs", "aztec gold", "the aztec empire"],
-    "choices": ["The Aztecs", "The Maya", "The Inca", "The Olmecs"],
+    "accept": [
+      "aztec",
+      "aztecs",
+      "the aztecs",
+      "aztec gold",
+      "the aztec empire"
+    ],
+    "choices": [
+      "The Aztecs",
+      "The Maya",
+      "The Inca",
+      "The Olmecs"
+    ],
     "reveal": "The correct answer is the Aztecs! Every last piece of Aztec gold must be returned, plus a blood payment. [laughs] Terms and conditions apply."
   },
   {
@@ -22,8 +43,19 @@
     "category": "Black Panther",
     "clue": "T'Challa gains the Black Panther's powers by drinking an elixir made from this glowing purple plant.",
     "answer": "The heart-shaped herb",
-    "accept": ["heart-shaped herb", "heart shaped herb", "the heart-shaped herb", "the heart shaped herb", "the herb"],
-    "choices": ["The heart-shaped herb", "The moon lotus", "The vibranium vine", "The panther orchid"],
+    "accept": [
+      "heart-shaped herb",
+      "heart shaped herb",
+      "the heart-shaped herb",
+      "the heart shaped herb",
+      "the herb"
+    ],
+    "choices": [
+      "The heart-shaped herb",
+      "The moon lotus",
+      "The vibranium vine",
+      "The panther orchid"
+    ],
     "reveal": "The correct answer is the heart-shaped herb! It grew where vibranium fell to Earth. [gasps] And Killmonger ordered the whole garden burned."
   },
   {
@@ -31,8 +63,16 @@
     "category": "Star Wars: The Force Awakens",
     "clue": "Rey scavenges parts from crashed Star Destroyers on this desert planet.",
     "answer": "Jakku",
-    "accept": ["jakku", "jaku"],
-    "choices": ["Jakku", "Tatooine", "Jedha", "Exegol"],
+    "accept": [
+      "jakku",
+      "jaku"
+    ],
+    "choices": [
+      "Jakku",
+      "Tatooine",
+      "Jedha",
+      "Exegol"
+    ],
     "reveal": "The correct answer is Jakku! [chuckles] Not Tatooine, even if every Star Wars desert looks like a cousin."
   },
   {
@@ -40,35 +80,74 @@
     "category": "The Muppet Christmas Carol",
     "clue": "Statler and Waldorf haunt Scrooge as these two chained ghosts, his old business partners.",
     "answer": "The Marley brothers",
-    "accept": ["marley brothers", "the marleys", "jacob and robert marley", "marley", "the marley brothers"],
-    "choices": ["The Marley brothers", "The Fezziwig brothers", "The Cratchit brothers", "The Dickens brothers"],
+    "accept": [
+      "marley brothers",
+      "the marleys",
+      "jacob and robert marley",
+      "marley",
+      "the marley brothers"
+    ],
+    "choices": [
+      "The Marley brothers",
+      "The Fezziwig brothers",
+      "The Cratchit brothers",
+      "The Dickens brothers"
+    ],
     "reveal": "[laughs] The correct answer is the Marley brothers, Jacob and Robert! Dickens only wrote one Marley. The Muppets needed two hecklers."
   },
   {
-    "film": "Tron",
-    "category": "Tron",
-    "clue": "In 1982's Tron, Jeff Bridges plays this video game programmer who is zapped into the computer world.",
-    "answer": "Kevin Flynn",
-    "accept": ["flynn", "kevin flynn"],
-    "choices": ["Kevin Flynn", "Alan Bradley", "Ed Dillinger", "Sam Flynn"],
-    "reveal": "The correct answer is Kevin Flynn! His son Sam takes the lead in Tron: Legacy. [excited] End of line."
+    "film": "Avengers: Endgame",
+    "category": "Avengers: Endgame",
+    "clue": "Tony Stark's daughter Morgan tells him she loves him this much, and he says it back in his farewell message.",
+    "answer": "3000",
+    "accept": [
+      "3000",
+      "three thousand",
+      "i love you 3000",
+      "3,000"
+    ],
+    "choices": [
+      "3000",
+      "1000",
+      "A million",
+      "To infinity"
+    ],
+    "reveal": "[sighs] The correct answer is 3000! Robert Downey Jr. has said the line came from his own kids. [whispers] Pass the tissues."
   },
   {
-    "film": "Enchanted",
-    "category": "Enchanted",
-    "clue": "Giselle's loyal chipmunk friend can talk in Andalasia but can only squeak in New York. Name him.",
-    "answer": "Pip",
-    "accept": ["pip"],
-    "choices": ["Pip", "Dale", "Chip", "Nutsy"],
-    "reveal": "The correct answer is Pip! [chuckles] He has to act out warnings with charades, and nobody gets them."
+    "film": "Raya and the Last Dragon",
+    "category": "Raya and the Last Dragon",
+    "clue": "Raya rides this giant, rolling best friend who is part pill bug and part pug.",
+    "answer": "Tuk Tuk",
+    "accept": [
+      "tuk tuk",
+      "tuktuk",
+      "tuk-tuk"
+    ],
+    "choices": [
+      "Tuk Tuk",
+      "Boun",
+      "Noi",
+      "Sisu"
+    ],
+    "reveal": "The correct answer is Tuk Tuk! [chuckles] He started out pocket-sized and grew into a ride. Sisu is the dragon, voiced by Awkwafina."
   },
   {
     "film": "Guardians of the Galaxy",
     "category": "Guardians of the Galaxy",
     "clue": "The orb Peter Quill steals on the planet Morag holds this Infinity Stone.",
     "answer": "The Power Stone",
-    "accept": ["power stone", "the power stone", "power"],
-    "choices": ["The Power Stone", "The Space Stone", "The Reality Stone", "The Soul Stone"],
+    "accept": [
+      "power stone",
+      "the power stone",
+      "power"
+    ],
+    "choices": [
+      "The Power Stone",
+      "The Space Stone",
+      "The Reality Stone",
+      "The Soul Stone"
+    ],
     "reveal": "The correct answer is the Power Stone! The Guardians hold it together and survive. [laughs] Dance-off, bro."
   }
 ]
