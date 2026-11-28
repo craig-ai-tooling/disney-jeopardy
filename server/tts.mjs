@@ -6,7 +6,7 @@ import crypto from 'node:crypto';
 const KEY = process.env.ELEVENLABS_API_KEY || '';
 const MODEL = process.env.ELEVENLABS_MODEL || 'eleven_v3';
 export const VOICES = {
-  host: process.env.HOST_VOICE_ID || '',
+  host: process.env.HOST_VOICE_ID || 'jttCMsMPZcC7qZdX4NGN',
   character: process.env.CHARACTER_VOICE_ID || 'dEc1rkm0ul0kDedEuETS',
 };
 const SETTINGS = {

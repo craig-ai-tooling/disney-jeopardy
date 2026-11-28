@@ -1,7 +1,7 @@
 # Disney Jeopardy — design (working notes)
 
 Inspired by Inside the Magic "Disney Jeopardy" (host Brian Perry). Format observed from transcripts:
-- 5 categories x 5 rows: 200 ("cupcake round", easiest), 400, 600, 800, 1000 ("the dreaded 1000 round"). 25 clues + Final = "26 clue game".
+- 5 categories x 5 rows: 200 ("easy row", easiest), 400, 600, 800, 1000 ("the dreaded 1000 round"). 25 clues + Final = "26 clue game".
 - Played row by row (all 200s, then all 400s...) on the show; we support free pick + "row order" option.
 - Category mix per episode: 1 film category (e.g. Aladdin, Brave, Sword in the Stone — chosen by last week's Final wheel),
   1 themed category (On the Farm, Firearms, Broadcast journalism, Thanksgiving options, Saying thanks),
@@ -28,7 +28,7 @@ Inspired by Inside the Magic "Disney Jeopardy" (host Brian Perry). Format observ
 ## Content: themed boards (content/boards/<board-id>.json)
 Craig: "Notice the theme of the entirety of the boards and then the categories. That's going to be really important, so it's not just random scoring."
 Every board is an EPISODE with one theme (e.g. Thanksgiving, Black Friday, Halloween); all 5 categories tie to that theme, with the show's mix:
-1 film-ish category, 1-2 themed trivia categories, 1 media/gimmick category, 1 Parks category, 1 "fan" wildcard. Values 200 ("cupcake", easy for kids) .. 1000 (true Disney nerd).
+1 film-ish category, 1-2 themed trivia categories, 1 media/gimmick category, 1 Parks category, 1 "fan" wildcard. Values 200 (easy, kids can get it) .. 1000 (true Disney nerd).
 Replayability: ~40 boards (~1000 clues) + ~64 Final films. Server tracks seen clues per TV and can remix unseen categories by tag.
 Real Inside the Magic transcripts are in docs/research/*.txt (style + example clue reference; do not copy whole boards verbatim).
 
