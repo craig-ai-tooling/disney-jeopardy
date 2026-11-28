@@ -1,5 +1,7 @@
 // Shared client helpers for the TV and phone apps.
-export const AVATARS = { castle: '🏰', star: '⭐', crown: '👑', rocket: '🚀', shell: '🐚', apple: '🍎', lamp: '🪔', slipper: '👠', rose: '🌹', wand: '🪄', balloon: '🎈', teacup: '🫖' };
+// Avatar keys are fixed by the server; each maps to an original park-themed badge in /theme/avatars.
+export const AVATARS = { castle: 'Castle', star: 'Wishing Star', crown: 'Ear Hat', rocket: 'Monorail', shell: 'Pineapple Swirl', apple: 'Candy Apple', lamp: 'Lantern', slipper: 'Glass Slipper', rose: 'Enchanted Rose', wand: 'Churro', balloon: 'Ear Balloon', teacup: 'Teacup' };
+export const avatarImg = (key, cls = 'av') => (AVATARS[key] ? `<img class="${cls}" src="/theme/avatars/${key}.webp" alt="${AVATARS[key]}">` : '');
 export const $ = (s, el = document) => el.querySelector(s);
 export const $$ = (s, el = document) => [...el.querySelectorAll(s)];
 export const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
