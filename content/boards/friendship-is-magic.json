@@ -477,7 +477,7 @@
         },
         {
           "value": 600,
-          "clue": "Which friend says this line?",
+          "clue": "Which sly friend first says this line to his future partner?",
           "answer": "Nick Wilde",
           "accept": [
             "nick wilde",
@@ -485,7 +485,7 @@
           ],
           "choices": [
             "Nick Wilde",
-            "Judy Hopps",
+            "Duke Weaselton",
             "Flash",
             "Finnick"
           ],
