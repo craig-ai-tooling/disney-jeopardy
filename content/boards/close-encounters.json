@@ -1,0 +1,614 @@
+{
+  "id": "close-encounters",
+  "title": "Close Encounters",
+  "theme": "Extreme close-ups, alien visitors and character meet-and-greets",
+  "tags": [
+    "zoom",
+    "picture",
+    "aliens",
+    "parks",
+    "characters"
+  ],
+  "intro": "[excited] Get close, everybody. Closer. CLOSER! Tonight is Close Encounters: super zoomed-in pictures, visitors from outer space and face-to-face character meetings. [laughs] Squint hard. Buzz early!",
+  "art": {
+    "prompt": "A giant brass magnifying glass hovering over a twinkling miniature theme park at night, a flying saucer glowing in the starry sky above, beams of light everywhere Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+    "file": "media/close-encounters.jpg"
+  },
+  "categories": [
+    {
+      "id": "ride-close-ups",
+      "title": "Ride Close-Ups",
+      "kind": "parks",
+      "intro": "Our Parks category starts super zoomed in on a real photo and slowly pulls back. [chuckles] Name the ride or attraction!",
+      "format": "zoom",
+      "art": {
+        "prompt": "Extreme close-up of shiny attraction details: a riveted rocket hull, a mine-train wheel, a spooky iron gate and a rotating theater gear, all under dramatic spotlights Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/close-encounters--ride-close-ups.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Zoom out: this beam-riding train has carried guests around Walt Disney World since 1971. Name it.",
+          "answer": "Monorail",
+          "accept": [
+            "disney monorail",
+            "epcot monorail",
+            "monorail",
+            "the monorail",
+            "walt disney world monorail"
+          ],
+          "choices": [
+            "Monorail",
+            "PeopleMover",
+            "Skyliner",
+            "Disneyland Railroad"
+          ],
+          "reveal": "[excited] The correct answer is the Monorail! Please stand clear of the doors. [laughs] Por favor, manténgase alejado de las puertas!",
+          "media": {
+            "type": "image",
+            "file": "media/close-encounters--ride-close-ups-200.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Epcot_vibrant_flowers_and_monorail_train.jpg",
+              "license": "CC BY-SA 4.0",
+              "author": "Michael Rivera"
+            }
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Zoom out: this white, cone-shaped coaster blasted off into the dark at Magic Kingdom in 1975. Name it.",
+          "answer": "Space Mountain",
+          "accept": [
+            "space mountain"
+          ],
+          "choices": [
+            "Space Mountain",
+            "Spaceship Earth",
+            "Mission: SPACE",
+            "Big Thunder Mountain Railroad"
+          ],
+          "reveal": "The correct answer is Space Mountain! [gasps] It's a roller coaster almost completely in the dark. Your snacks will not survive.",
+          "media": {
+            "type": "image",
+            "file": "media/close-encounters--ride-close-ups-400.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Magic_Kingdom_Space_Mountain.jpg",
+              "license": "CC BY-SA 4.0",
+              "author": "Benjamin D. Esham (bdesham)"
+            }
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Zoom out: red rock spires and a runaway mine train. It's 'the wildest ride in the wilderness.' Name it.",
+          "answer": "Big Thunder Mountain Railroad",
+          "accept": [
+            "big thunder",
+            "big thunder mountain",
+            "big thunder mountain railroad",
+            "thunder mountain"
+          ],
+          "choices": [
+            "Big Thunder Mountain Railroad",
+            "Expedition Everest",
+            "Seven Dwarfs Mine Train",
+            "Splash Mountain"
+          ],
+          "reveal": "[excited] The correct answer is Big Thunder Mountain Railroad! Hang on to your hats and glasses! [laughs] Seriously, hang on to them.",
+          "media": {
+            "type": "image",
+            "file": "media/close-encounters--ride-close-ups-600.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Big_Thunder_Mountain_Railroad_2.jpg",
+              "license": "CC BY-SA 4.0",
+              "author": "AmaryllisGardener"
+            }
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Zoom out: 999 happy haunts live here, and there's room for a thousand. Name the attraction.",
+          "answer": "Haunted Mansion",
+          "accept": [
+            "haunted mansion",
+            "the haunted mansion"
+          ],
+          "choices": [
+            "Haunted Mansion",
+            "Phantom Manor",
+            "Tower of Terror",
+            "Mystic Manor"
+          ],
+          "reveal": "[whispers] The correct answer is the Haunted Mansion! Any volunteers? [chuckles] Your Doom Buggy is waiting.",
+          "media": {
+            "type": "image",
+            "file": "media/close-encounters--ride-close-ups-800.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:The_Haunted_Mansion.jpg",
+              "license": "CC BY-SA 4.0",
+              "author": "Benjamin D. Esham (bdesham)"
+            }
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Zoom out: this rotating theater show debuted at the 1964 New York World's Fair and moved to Magic Kingdom in 1975. Name it.",
+          "answer": "Walt Disney's Carousel of Progress",
+          "accept": [
+            "carousel of progress",
+            "walt disney's carousel of progress",
+            "walt disneys carousel of progress"
+          ],
+          "choices": [
+            "Walt Disney's Carousel of Progress",
+            "Hall of Presidents",
+            "Great Moments with Mr. Lincoln",
+            "Enchanted Tiki Room"
+          ],
+          "reveal": "[excited] The correct answer is Walt Disney's Carousel of Progress! There's a great big beautiful tomorrow. [sighs] And the same dad has been telling us about it for decades.",
+          "media": {
+            "type": "image",
+            "file": "media/close-encounters--ride-close-ups-1000.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Carousel_of_Progress_November_2018.jpg",
+              "license": "CC BY-SA 4.0",
+              "author": "ColinH523"
+            }
+          },
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "snack-close-ups",
+      "title": "Snack Close-Ups",
+      "kind": "film",
+      "intro": "Zoomed-in movie food! [laughs] Don't lick the screen. Name the film this dish comes from.",
+      "format": "zoom",
+      "art": {
+        "prompt": "Extreme macro close-up of a fancy dinner table: a shiny red apple, steaming pasta, powdered pastries and a neatly layered vegetable dish under warm candlelight Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/close-encounters--snack-close-ups.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Zoom out: one shiny red apple that's a little too perfect. Name the 1937 film.",
+          "answer": "Snow White and the Seven Dwarfs",
+          "accept": [
+            "snow white",
+            "snow white and the seven dwarfs"
+          ],
+          "choices": [
+            "Snow White and the Seven Dwarfs",
+            "Sleeping Beauty",
+            "Cinderella",
+            "Pinocchio"
+          ],
+          "reveal": "[gasps] The correct answer is Snow White and the Seven Dwarfs! One bite and it's a sleeping death. [whispers] Maybe stick to bananas.",
+          "media": {
+            "type": "image",
+            "prompt": "Extreme close-up of a single glossy perfect red apple on a rustic wooden table, a faint green swirl reflected in the skin, a dark cottage window behind Original illustration, cinematic lighting, no people, no characters, no text, no logos.",
+            "file": "media/close-encounters--snack-close-ups-200.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Zoom out: a plate of spaghetti and meatballs by candlelight behind an Italian restaurant. Name the film.",
+          "answer": "Lady and the Tramp",
+          "accept": [
+            "lady and the tramp"
+          ],
+          "choices": [
+            "Lady and the Tramp",
+            "Oliver & Company",
+            "The Aristocats",
+            "Ratatouille"
+          ],
+          "reveal": "The correct answer is Lady and the Tramp! [laughs] One noodle, two dogs, and the most famous accidental kiss in movie history.",
+          "media": {
+            "type": "image",
+            "prompt": "Close-up of a plate of spaghetti and meatballs on a red-checkered tablecloth in a back alley, a candle in a wine bottle, an accordion leaning nearby, moonlit night Original illustration, cinematic lighting, no people, no characters, no text, no logos.",
+            "file": "media/close-encounters--snack-close-ups-400.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Zoom out: a plate of golden, powdered-sugar beignets in New Orleans. Name the film.",
+          "answer": "The Princess and the Frog",
+          "accept": [
+            "princess and the frog",
+            "the princess and the frog"
+          ],
+          "choices": [
+            "The Princess and the Frog",
+            "Ratatouille",
+            "Coco",
+            "Encanto"
+          ],
+          "reveal": "[excited] The correct answer is The Princess and the Frog! Tiana's beignets are so good they win over Big Daddy. [chuckles] You can get them at the parks too.",
+          "media": {
+            "type": "image",
+            "prompt": "Close-up of a plate of square golden beignets heaped with powdered sugar on a cafe table, wrought-iron balconies and a riverboat blurred in the background Original illustration, cinematic lighting, no people, no characters, no text, no logos.",
+            "file": "media/close-encounters--snack-close-ups-600.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Zoom out: thin vegetable slices fanned in a perfect spiral that melts a tough food critic's heart. Name the film.",
+          "answer": "Ratatouille",
+          "accept": [
+            "ratatouille"
+          ],
+          "choices": [
+            "Ratatouille",
+            "The Princess and the Frog",
+            "Chef",
+            "Luca"
+          ],
+          "reveal": "The correct answer is Ratatouille! [sighs] One bite sends Anton Ego right back to his childhood. Chef Thomas Keller helped design the dish.",
+          "media": {
+            "type": "image",
+            "prompt": "Close-up of a beautifully plated spiral of thinly sliced zucchini, eggplant and tomato on a white plate, a single sprig of herbs on top, elegant Paris bistro lighting Original illustration, cinematic lighting, no people, no characters, no text, no logos.",
+            "file": "media/close-encounters--snack-close-ups-800.jpg"
+          },
+          "dailyDouble": true
+        },
+        {
+          "value": 1000,
+          "clue": "Zoom out: a plump steamed dumpling that comes to life for a lonely mom. Name this Oscar-winning 2018 Pixar short.",
+          "answer": "Bao",
+          "accept": [
+            "bao"
+          ],
+          "choices": [
+            "Bao",
+            "Piper",
+            "Purl",
+            "Kitbull"
+          ],
+          "reveal": "[excited] The correct answer is Bao! Directed by Domee Shi, it played before Incredibles 2 and won the Oscar for animated short. [laughs] Now I'm hungry.",
+          "media": {
+            "type": "image",
+            "prompt": "Close-up of a single plump steamed dumpling in a bamboo steamer basket on a kitchen counter, wisps of steam, a teapot and soft morning window light Original illustration, cinematic lighting, no people, no characters, no text, no logos.",
+            "file": "media/close-encounters--snack-close-ups-1000.jpg"
+          },
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "tiny-details",
+      "title": "Tiny Details",
+      "kind": "media",
+      "intro": "These are super zoomed-in shots of famous movie props. [whispers] Buzz in before it's obvious!",
+      "format": "zoom",
+      "art": {
+        "prompt": "Macro close-up collage of tiny movie-prop textures: brass gears, a seashell, colorful balloon strings, a rusty boot and a glowing sphere Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/close-encounters--tiny-details.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Zoom out: thousands of balloons lifting a little house into the sky. Name the Pixar film.",
+          "answer": "Up",
+          "accept": [
+            "up"
+          ],
+          "choices": [
+            "Up",
+            "Toy Story",
+            "Inside Out",
+            "The Incredibles"
+          ],
+          "reveal": "[excited] The correct answer is Up! Carl tied over ten thousand balloons to his house. [laughs] Paradise Falls or bust!",
+          "media": {
+            "type": "image",
+            "prompt": "Thousands of colorful balloons on strings lifting a small old-fashioned clapboard house with a chimney into a bright blue sky over a city Original illustration, cinematic lighting, no people, no characters, no text, no logos.",
+            "file": "media/close-encounters--tiny-details-200.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Zoom out: a sword stuck in an anvil on a stone. Whoever pulls it out becomes king. Name the film.",
+          "answer": "The Sword in the Stone",
+          "accept": [
+            "sword in the stone",
+            "the sword in the stone"
+          ],
+          "choices": [
+            "The Sword in the Stone",
+            "Robin Hood",
+            "Brave",
+            "The Black Cauldron"
+          ],
+          "reveal": "The correct answer is The Sword in the Stone! [chuckles] Young Arthur, nicknamed Wart, pulls it out just to get a sword for his foster brother.",
+          "media": {
+            "type": "image",
+            "prompt": "An ornate sword plunged into an iron anvil resting on a large stone in a snowy medieval churchyard, a beam of light shining down on it Original illustration, cinematic lighting, no people, no characters, no text, no logos.",
+            "file": "media/close-encounters--tiny-details-400.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Zoom out: a fork resting among seashells, treasure that a gull calls a 'dinglehopper.' Name the film.",
+          "answer": "The Little Mermaid",
+          "accept": [
+            "little mermaid",
+            "the little mermaid"
+          ],
+          "choices": [
+            "The Little Mermaid",
+            "Moana",
+            "Finding Nemo",
+            "Luca"
+          ],
+          "reveal": "[laughs] The correct answer is The Little Mermaid! Scuttle says it's for combing your hair. [chuckles] Do not take grooming advice from a seagull.",
+          "media": {
+            "type": "image",
+            "prompt": "A silver dinner fork lying among seashells, pearls and a pocket watch inside an underwater grotto full of human treasures, shafts of sunlight from above Original illustration, cinematic lighting, no people, no characters, no text, no logos.",
+            "file": "media/close-encounters--tiny-details-600.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Zoom out: one small green plant growing inside an old boot on a trash-covered Earth. Name the film.",
+          "answer": "WALL-E",
+          "accept": [
+            "wall e",
+            "wall-e",
+            "walle"
+          ],
+          "choices": [
+            "WALL-E",
+            "Up",
+            "Lightyear",
+            "Elemental"
+          ],
+          "reveal": "The correct answer is WALL-E! [gasps] That little plant proves Earth can grow life again. The whole Axiom heads home because of it.",
+          "media": {
+            "type": "image",
+            "prompt": "A tiny green seedling growing inside an old worn work boot, sitting on a pile of rusty junk with towers of compacted trash and a hazy orange sky in the background Original illustration, cinematic lighting, no people, no characters, no text, no logos.",
+            "file": "media/close-encounters--tiny-details-800.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Zoom out: a golden sphere that projects a glowing 3D star map of the galaxy. Name this 2002 film.",
+          "answer": "Treasure Planet",
+          "accept": [
+            "treasure planet"
+          ],
+          "choices": [
+            "Treasure Planet",
+            "Atlantis: The Lost Empire",
+            "Lightyear",
+            "Strange World"
+          ],
+          "reveal": "[excited] The correct answer is Treasure Planet! It's Treasure Island in outer space, with solar-sail galleons. [chuckles] Arrr, matey, in zero gravity.",
+          "media": {
+            "type": "image",
+            "prompt": "A small golden metal sphere covered in engraved symbols, opening up and projecting a glowing holographic star map of planets and nebulae in a dark ship cabin Original illustration, cinematic lighting, no people, no characters, no text, no logos.",
+            "file": "media/close-encounters--tiny-details-1000.jpg"
+          },
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "alien-encounters",
+      "title": "Alien Encounters",
+      "kind": "theme",
+      "intro": "[gasps] Close encounters of the Disney kind! Visitors from outer space, in the films and in the parks.",
+      "format": "text",
+      "art": {
+        "prompt": "A glowing flying saucer hovering over a quiet tropical beach at night, a beam of light shining down on the sand, palm trees and stars Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/close-encounters--alien-encounters.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In Toy Story, the little green aliens at Pizza Planet worship this machine.",
+          "answer": "The Claw",
+          "accept": [
+            "claw",
+            "the claaaw",
+            "the claw"
+          ],
+          "choices": [
+            "The Claw",
+            "The Rocket",
+            "The Ray Gun",
+            "The Spaceship"
+          ],
+          "reveal": "[laughs] The correct answer is the Claw! Ooooh. The claw is our master. The claw chooses who will go and who will stay.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Before he was named Stitch, Jumba's blue alien creation was known as Experiment this number.",
+          "answer": "626",
+          "accept": [
+            "626",
+            "experiment 626"
+          ],
+          "choices": [
+            "626",
+            "625",
+            "221",
+            "007"
+          ],
+          "reveal": "The correct answer is 626! [chuckles] Built to destroy, adopted by a little girl in Hawaii. Ohana means family!",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "In this 2005 film, a small bird warns his town that the sky is falling, and aliens turn out to be real.",
+          "answer": "Chicken Little",
+          "accept": [
+            "chicken little"
+          ],
+          "choices": [
+            "Chicken Little",
+            "Meet the Robinsons",
+            "Bolt",
+            "Home on the Range"
+          ],
+          "reveal": "[excited] The correct answer is Chicken Little! It was Disney's first fully computer-animated film from its own feature animation studio. [laughs] The sky really was falling!",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "This one-eyed alien 'Earth expert' from Lilo & Stitch loves to dress up as a human woman.",
+          "answer": "Pleakley",
+          "accept": [
+            "agent pleakley",
+            "pleakley",
+            "wendy pleakley"
+          ],
+          "choices": [
+            "Pleakley",
+            "Jumba",
+            "Gantu",
+            "Cobra Bubbles"
+          ],
+          "reveal": "[laughs] The correct answer is Pleakley! He says mosquitoes are an endangered species. [chuckles] They're not.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "In 2004, Stitch's Great Escape replaced this scary Tomorrowland attraction that opened at Magic Kingdom in 1995.",
+          "answer": "The ExtraTERRORestrial Alien Encounter",
+          "accept": [
+            "alien encounter",
+            "extraterrestrial alien encounter",
+            "extraterrorestrial alien encounter",
+            "the extraterrorestrial alien encounter"
+          ],
+          "choices": [
+            "The ExtraTERRORestrial Alien Encounter",
+            "Mission to Mars",
+            "Flight to the Moon",
+            "Timekeeper"
+          ],
+          "reveal": "[whispers] The correct answer is the ExtraTERRORestrial Alien Encounter! It was so scary that kids ran out crying. [gasps] Stitch took its place, and the creepy theater stayed.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "meet-and-greet",
+      "title": "Meet and Greet",
+      "kind": "fan",
+      "intro": "[excited] The best close encounter is meeting a character face to face! Our fan category is all about character meetings in the parks.",
+      "format": "text",
+      "art": {
+        "prompt": "A cheerful park plaza with a velvet rope line, a spot marked on the floor with a star, an open autograph book and a pen, balloons in the background Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/close-encounters--meet-and-greet.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Kids carry this kind of book through the parks to collect character signatures.",
+          "answer": "An autograph book",
+          "accept": [
+            "an autograph book",
+            "autograph",
+            "autograph book",
+            "autographs"
+          ],
+          "choices": [
+            "An autograph book",
+            "A passport",
+            "A sketchbook",
+            "A guidebook"
+          ],
+          "reveal": "[laughs] The correct answer is an autograph book! Some characters have very fancy signatures. [chuckles] Goofy's handwriting is a lot.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Opened in 2013 in Magic Kingdom's Fantasyland, this hall is where guests meet princesses. Name it.",
+          "answer": "Princess Fairytale Hall",
+          "accept": [
+            "fairytale hall",
+            "princess fairytale hall"
+          ],
+          "choices": [
+            "Princess Fairytale Hall",
+            "Cinderella's Royal Table",
+            "Royal Court Hall",
+            "Enchanted Tales with Belle"
+          ],
+          "reveal": "The correct answer is Princess Fairytale Hall! [excited] It took the place of Snow White's Scary Adventures. A big upgrade for royalty!",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "At Disney's Contemporary Resort, you can eat with Mickey and friends at this restaurant named for a famous chef.",
+          "answer": "Chef Mickey's",
+          "accept": [
+            "chef mickey",
+            "chef mickey's",
+            "chef mickeys"
+          ],
+          "choices": [
+            "Chef Mickey's",
+            "Mickey's Kitchen",
+            "Cape May Cafe",
+            "Tusker House"
+          ],
+          "reveal": "[excited] The correct answer is Chef Mickey's! [chuckles] Breakfast with Mickey and the monorail gliding by overhead. Doesn't get more Disney than that.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In which EPCOT World Showcase pavilion can you dine with princesses at Akershus Royal Banquet Hall?",
+          "answer": "Norway",
+          "accept": [
+            "norway",
+            "norway pavilion"
+          ],
+          "choices": [
+            "Norway",
+            "Germany",
+            "France",
+            "United Kingdom"
+          ],
+          "reveal": "[excited] The correct answer is Norway! Princess storybook dining inside a medieval-style castle hall. [laughs] Meatballs and tiaras, my favorite combo.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Under Magic Kingdom, characters travel through hidden tunnels so they never appear in the wrong land. Name the tunnels.",
+          "answer": "Utilidors",
+          "accept": [
+            "the utilidors",
+            "utilidor",
+            "utilidor system",
+            "utilidor tunnels",
+            "utilidors"
+          ],
+          "choices": [
+            "Utilidors",
+            "Catacombs",
+            "Cast corridors",
+            "Backlot tunnels"
+          ],
+          "reveal": "[whispers] The correct answer is the Utilidors! Short for utility corridors. [gasps] Magic Kingdom is technically on the second floor!",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}
