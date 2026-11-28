@@ -213,7 +213,7 @@ function revealView() {
   const mood = r ? r.verdict === 'correct' ? 'win' : r.verdict === 'close' ? 'close' : 'lose' : '';
   document.body.classList.remove('win', 'lose', 'close', 'done'); if (mood) document.body.classList.add(mood);
   const head = r ? `<div class="hero ${mood}"><div class="burst"></div><div class="word">${{ win: 'CORRECT!', close: 'SO CLOSE…', lose: 'NOT QUITE' }[mood]}</div>
-      <div class="delta">${r.verdict === 'close' ? 'Judges deciding' : `${r.verdict === 'correct' ? '+' : '−'}<span data-count="${r.amount}">$0</span>`}</div></div>`
+      <div class="delta">${r.verdict === 'close' ? 'Judges deciding' : r.verdict === 'wrong' && !S.settings.negatives ? 'No penalty' : `${r.verdict === 'correct' ? '+' : '−'}<span data-count="${r.amount}">$0</span>`}</div></div>`
     : win ? `<div class="who">${avatarImg(P(win.pid)?.avatar)}<h2>${esc(P(win.pid)?.name)} got it! +${money(win.amount)}</h2></div>` : '<h2>Nobody got it</h2>';
   const others = c.results.filter((x) => x !== r);
   return `${top()}${head}
