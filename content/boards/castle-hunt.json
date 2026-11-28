@@ -1,0 +1,637 @@
+{
+  "id": "castle-hunt",
+  "title": "Castle Hunt",
+  "theme": "Castles in the parks, the films and the real world",
+  "tags": [
+    "picture",
+    "castles",
+    "parks",
+    "royalty",
+    "world"
+  ],
+  "intro": "[excited] Raise the drawbridge and polish your crowns! Tonight is Castle Hunt: real-world castles, park castles and movie castles. [laughs] If you get the 1000s, you get a turret. Not really. But you could!",
+  "art": {
+    "prompt": "A grand panorama of many different fairy-tale castles on rolling hills, sea cliffs and snowy mountains, banners flying, golden sunrise light and drifting clouds Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+    "file": "media/castle-hunt.jpg"
+  },
+  "categories": [
+    {
+      "id": "storybook-castles-irl",
+      "title": "Storybook Castles IRL",
+      "kind": "theme",
+      "intro": "These are real castles in the real world that inspired the castles in Disney movies and parks. [gasps] Name the castle in the photo!",
+      "format": "picture",
+      "art": {
+        "prompt": "A vintage travel map of Europe with tiny illustrated castles, a compass rose, a magnifying glass and a pile of old postcards Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/castle-hunt--storybook-castles-irl.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Built for King Ludwig II of Bavaria, this castle helped inspire Disneyland's Sleeping Beauty Castle. Name it.",
+          "answer": "Neuschwanstein Castle",
+          "accept": [
+            "neuschwanstein",
+            "neuschwanstein castle",
+            "schloss neuschwanstein"
+          ],
+          "choices": [
+            "Neuschwanstein Castle",
+            "Hohenzollern Castle",
+            "Linderhof Palace",
+            "Château de Chambord"
+          ],
+          "reveal": "[excited] The correct answer is Neuschwanstein Castle! Ludwig started building it in 1869. [chuckles] He moved in before it was finished. Relatable.",
+          "media": {
+            "type": "image",
+            "file": "media/castle-hunt--storybook-castles-irl-200.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Neuschwanstein_Castle_from_Marienbr%C3%BCcke,_2011_May.jpg",
+              "license": "CC BY-SA 3.0",
+              "author": "Ximonic, Simo Räsänen (post-processing) & Tauno Räsänen (photograph)"
+            }
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "This French island abbey with a village spiraling up its sides helped inspire the kingdom of Corona in Tangled.",
+          "answer": "Mont-Saint-Michel",
+          "accept": [
+            "mont saint michel",
+            "mont st michel",
+            "mont st. michel",
+            "mont-saint-michel"
+          ],
+          "choices": [
+            "Mont-Saint-Michel",
+            "Carcassonne",
+            "Château de Chambord",
+            "Eltz Castle"
+          ],
+          "reveal": "The correct answer is Mont-Saint-Michel! [gasps] At high tide the island is surrounded by water. Very convenient for floating lanterns.",
+          "media": {
+            "type": "image",
+            "file": "media/castle-hunt--storybook-castles-irl-400.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Mont_St_Michel_3,_Brittany,_France_-_July_2011.jpg",
+              "license": "Public domain",
+              "author": "Diliff"
+            }
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "This ship-shaped Spanish fortress in Segovia is often said to have inspired Disney castle designs.",
+          "answer": "Alcázar of Segovia",
+          "accept": [
+            "alcazar",
+            "alcazar de segovia",
+            "alcazar of segovia",
+            "alcázar de segovia",
+            "alcázar of segovia",
+            "the alcazar"
+          ],
+          "choices": [
+            "Alcázar of Segovia",
+            "Alhambra",
+            "Castle of Coca",
+            "Royal Palace of Madrid"
+          ],
+          "reveal": "[excited] The correct answer is the Alcázar of Segovia! It sits high on a rocky ridge where two rivers meet. Pointy blue-gray turrets for days.",
+          "media": {
+            "type": "image",
+            "file": "media/castle-hunt--storybook-castles-irl-600.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Segovia_-_Alc%C3%A1zar_de_Segovia_22_2017-10-24.jpg",
+              "license": "CC BY-SA 4.0",
+              "author": "Rafa Esteve"
+            }
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "This Loire Valley château is famous for a double-helix staircase and is often linked to Beast's castle in Beauty and the Beast.",
+          "answer": "Château de Chambord",
+          "accept": [
+            "chambord",
+            "chateau chambord",
+            "chateau de chambord",
+            "château de chambord"
+          ],
+          "choices": [
+            "Château de Chambord",
+            "Château de Chenonceau",
+            "Palace of Versailles",
+            "Château d'Ussé"
+          ],
+          "reveal": "The correct answer is the Château de Chambord! [laughs] Two staircases twist around each other, so people going up and down never meet. Perfect for avoiding a grumpy Beast.",
+          "media": {
+            "type": "image",
+            "file": "media/castle-hunt--storybook-castles-irl-800.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Aerial_image_of_Ch%C3%A2teau_de_Chambord_(view_of_the_northwest_fa%C3%A7ade).jpg",
+              "license": "CC BY-SA 4.0",
+              "author": "Carsten Steger"
+            }
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Pixar artists visited this clifftop Scottish ruin while designing Clan DunBroch's castle in Brave. Name it.",
+          "answer": "Dunnottar Castle",
+          "accept": [
+            "dunnottar",
+            "dunnottar castle"
+          ],
+          "choices": [
+            "Dunnottar Castle",
+            "Eilean Donan Castle",
+            "Edinburgh Castle",
+            "Urquhart Castle"
+          ],
+          "reveal": "[excited] The correct answer is Dunnottar Castle! It sits on a rocky headland near Stonehaven, with the North Sea crashing below. [whispers] Bring a windbreaker.",
+          "media": {
+            "type": "image",
+            "file": "media/castle-hunt--storybook-castles-irl-1000.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Dunnottar_Castle_2013.JPG",
+              "license": "CC BY-SA 3.0",
+              "author": "Mimihitam"
+            }
+          },
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "five-parks-five-castles",
+      "title": "Five Parks, Five Castles",
+      "kind": "parks",
+      "intro": "Every Magic Kingdom-style park has a castle in the middle. [chuckles] Our Parks category: name the castle, or the park!",
+      "format": "picture",
+      "art": {
+        "prompt": "Five different fairy-tale castle towers side by side on five small floating islands, each in a different color, with fireworks bursting above Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/castle-hunt--five-parks-five-castles.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This 189-foot castle has been the icon of Walt Disney World's Magic Kingdom since 1971. Name it.",
+          "answer": "Cinderella Castle",
+          "accept": [
+            "cinderella castle",
+            "cinderella's castle",
+            "cinderellas castle"
+          ],
+          "choices": [
+            "Cinderella Castle",
+            "Sleeping Beauty Castle",
+            "Enchanted Storybook Castle",
+            "Castle of Magical Dreams"
+          ],
+          "reveal": "[excited] The correct answer is Cinderella Castle! Over 180 feet of turrets, and it's not made of stone at all. [laughs] Steel, concrete and fiberglass, baby!",
+          "media": {
+            "type": "image",
+            "file": "media/castle-hunt--five-parks-five-castles-200.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Cinderella_Castle.jpg",
+              "license": "CC BY-SA 4.0",
+              "author": "Katie Rommel-Esham (contact via bdesham)"
+            }
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Walt Disney's original castle opened with Disneyland in 1955 and is only about 77 feet tall. Name it.",
+          "answer": "Sleeping Beauty Castle",
+          "accept": [
+            "sleeping beauty castle",
+            "sleeping beauty's castle",
+            "sleeping beautys castle"
+          ],
+          "choices": [
+            "Sleeping Beauty Castle",
+            "Cinderella Castle",
+            "Snow White's Castle",
+            "Castle of Magical Dreams"
+          ],
+          "reveal": "The correct answer is Sleeping Beauty Castle! [chuckles] Small but mighty. Walt wanted a friendly castle, not a scary one.",
+          "media": {
+            "type": "image",
+            "file": "media/castle-hunt--five-parks-five-castles-400.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Sleeping_Beauty_Castle_2019.jpg",
+              "license": "CC BY-SA 4.0",
+              "author": "CrispyCream27"
+            }
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Reimagined in 2020, this Hong Kong Disneyland castle celebrates 13 Disney princesses and queens. Name it.",
+          "answer": "Castle of Magical Dreams",
+          "accept": [
+            "castle of magical dreams",
+            "the castle of magical dreams"
+          ],
+          "choices": [
+            "Castle of Magical Dreams",
+            "Enchanted Storybook Castle",
+            "Castle of Dreams",
+            "Sleeping Beauty Castle"
+          ],
+          "reveal": "[gasps] The correct answer is the Castle of Magical Dreams! Every tower and detail honors a different royal, from Snow White to Elsa.",
+          "media": {
+            "type": "image",
+            "file": "media/castle-hunt--five-parks-five-castles-600.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Hong_Kong_Disneyland_Castle_in_2024-08.jpg",
+              "license": "CC BY-SA 4.0",
+              "author": "NNNH"
+            }
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Opened in 2016, this is the tallest Disney park castle at roughly 197 feet, and it honors all the princesses. Name it.",
+          "answer": "Enchanted Storybook Castle",
+          "accept": [
+            "enchanted storybook castle",
+            "shanghai castle",
+            "the enchanted storybook castle"
+          ],
+          "choices": [
+            "Enchanted Storybook Castle",
+            "Castle of Magical Dreams",
+            "Cinderella Castle",
+            "Château de la Belle au Bois Dormant"
+          ],
+          "reveal": "[excited] The correct answer is Enchanted Storybook Castle at Shanghai Disneyland! It even has a boat ride that sails right through it. [laughs] Most castles only have a moat.",
+          "media": {
+            "type": "image",
+            "file": "media/castle-hunt--five-parks-five-castles-800.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Enchanted_Storybook_Castle_(125424).jpg",
+              "license": "CC0",
+              "author": "Riku Lu"
+            }
+          },
+          "dailyDouble": true
+        },
+        {
+          "value": 1000,
+          "clue": "This near-twin of Florida's castle opened in 1983, the first Disney castle outside the United States. Name the park.",
+          "answer": "Tokyo Disneyland",
+          "accept": [
+            "tokyo",
+            "tokyo disney",
+            "tokyo disney resort",
+            "tokyo disneyland"
+          ],
+          "choices": [
+            "Tokyo Disneyland",
+            "Disneyland Paris",
+            "Hong Kong Disneyland",
+            "Shanghai Disneyland"
+          ],
+          "reveal": "The correct answer is Tokyo Disneyland! [chuckles] Same name, Cinderella Castle, same look. But this one has its own tricks inside. True castle nerds know.",
+          "media": {
+            "type": "image",
+            "file": "media/castle-hunt--five-parks-five-castles-1000.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Tokyo_Disneyland_Cinderella_Castle_2023-07-02.jpg",
+              "license": "CC BY-SA 4.0",
+              "author": "LMP 2001"
+            }
+          },
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "castle-keepsakes",
+      "title": "Castle Keepsakes",
+      "kind": "media",
+      "intro": "Every movie castle keeps a treasure or two. [whispers] I'll show you the keepsake; you name the film!",
+      "format": "picture",
+      "art": {
+        "prompt": "A royal treasure room with a velvet cushion, a jeweled crown, an ornate hand mirror and a gilded chest under a stained-glass window Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/castle-hunt--castle-keepsakes.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "A magic mirror on the wall of a queen's castle. Name the 1937 film.",
+          "answer": "Snow White and the Seven Dwarfs",
+          "accept": [
+            "snow white",
+            "snow white and the seven dwarfs"
+          ],
+          "choices": [
+            "Snow White and the Seven Dwarfs",
+            "Sleeping Beauty",
+            "Cinderella",
+            "Beauty and the Beast"
+          ],
+          "reveal": "[excited] The correct answer is Snow White and the Seven Dwarfs! Mirror, mirror on the wall, who's the fairest of them all? [laughs] Not the Queen, apparently.",
+          "media": {
+            "type": "image",
+            "prompt": "An ornate oval magic mirror with a heavy golden frame hanging on a dark castle wall, swirling green smoke inside the glass, candles flickering below Original illustration, cinematic lighting, no people, no characters, no text, no logos.",
+            "file": "media/castle-hunt--castle-keepsakes-200.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "A tiger lounging in a sultan's palace garden beside a fountain. Name the film.",
+          "answer": "Aladdin",
+          "accept": [
+            "aladdin"
+          ],
+          "choices": [
+            "Aladdin",
+            "The Jungle Book",
+            "Raya and the Last Dragon",
+            "Mulan"
+          ],
+          "reveal": "The correct answer is Aladdin! [chuckles] Rajah is Jasmine's tiger, and he does not like suitors. Very good security system.",
+          "media": {
+            "type": "image",
+            "prompt": "A large striped tiger lying beside a tiled fountain in a lush Arabian palace garden with onion domes and arches, moonlight and lanterns Original illustration, cinematic lighting, no people, no characters, no text, no logos.",
+            "file": "media/castle-hunt--castle-keepsakes-400.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "A lever in an emperor's throne room. Pull it and you fall into a trapdoor. Name the film.",
+          "answer": "The Emperor's New Groove",
+          "accept": [
+            "emperor's new groove",
+            "emperors new groove",
+            "the emperor's new groove"
+          ],
+          "choices": [
+            "The Emperor's New Groove",
+            "Aladdin",
+            "The Road to El Dorado",
+            "Hercules"
+          ],
+          "reveal": "[laughs] The correct answer is The Emperor's New Groove! Pull the lever, Kronk! [chuckles] Wrong leverrrr!",
+          "media": {
+            "type": "image",
+            "prompt": "A golden throne room with Inca-style stone carvings, a single large lever sticking out of the floor beside a llama-shaped carved throne, a dark trapdoor in the floor Original illustration, cinematic lighting, no people, no characters, no text, no logos.",
+            "file": "media/castle-hunt--castle-keepsakes-600.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "A torn family tapestry in a Scottish castle hall, with the cut running between mother and daughter. Name the film.",
+          "answer": "Brave",
+          "accept": [
+            "brave"
+          ],
+          "choices": [
+            "Brave",
+            "Frozen",
+            "Tangled",
+            "The Black Cauldron"
+          ],
+          "reveal": "The correct answer is Brave! [sighs] Merida slashed it in anger, and she has to mend the bond. Literally.",
+          "media": {
+            "type": "image",
+            "prompt": "A large embroidered family tapestry hanging in a stone Scottish castle hall, torn down the middle, a sword on the floor below and a bear-shaped carving on the hearth Original illustration, cinematic lighting, no people, no characters, no text, no logos.",
+            "file": "media/castle-hunt--castle-keepsakes-800.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "A cauldron glowing in the dungeon of an evil king's castle. Name this 1985 film.",
+          "answer": "The Black Cauldron",
+          "accept": [
+            "black cauldron",
+            "the black cauldron"
+          ],
+          "choices": [
+            "The Black Cauldron",
+            "The Sword in the Stone",
+            "The Fox and the Hound",
+            "The Great Mouse Detective"
+          ],
+          "reveal": "[whispers] The correct answer is The Black Cauldron! It was Disney's first animated film rated PG. [gasps] The Horned King gave everyone nightmares.",
+          "media": {
+            "type": "image",
+            "prompt": "A huge black iron cauldron glowing with eerie green light in a dark stone dungeon, skull-shaped carvings in the walls, smoke curling upward Original illustration, cinematic lighting, no people, no characters, no text, no logos.",
+            "file": "media/castle-hunt--castle-keepsakes-1000.jpg"
+          },
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "who-holds-court",
+      "title": "Who Holds Court?",
+      "kind": "film",
+      "intro": "Kings, queens, servants and sea kingdoms. [excited] Tell me who's who inside the movie castles!",
+      "format": "text",
+      "art": {
+        "prompt": "A grand throne room with two empty golden thrones, red carpet, tall windows and royal banners, warm light pouring in Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/castle-hunt--who-holds-court.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In Beauty and the Beast, this candelabra is the castle's charming maître d'.",
+          "answer": "Lumière",
+          "accept": [
+            "lumiere",
+            "lumière"
+          ],
+          "choices": [
+            "Lumière",
+            "Cogsworth",
+            "Chip",
+            "Mrs. Potts"
+          ],
+          "reveal": "[excited] The correct answer is Lumière! Be our guest! [laughs] He's very good with flames. Stay back, please.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "In Frozen, Elsa builds her ice palace on this mountain.",
+          "answer": "The North Mountain",
+          "accept": [
+            "north mountain",
+            "the north mountain"
+          ],
+          "choices": [
+            "The North Mountain",
+            "Mount Everest",
+            "Arendelle Peak",
+            "Ice Mountain"
+          ],
+          "reveal": "The correct answer is the North Mountain! [chuckles] Elsa let it go so hard, she built a palace in one song.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "In Tangled, Rapunzel's royal parents rule this kingdom.",
+          "answer": "Corona",
+          "accept": [
+            "corona",
+            "kingdom of corona"
+          ],
+          "choices": [
+            "Corona",
+            "Arendelle",
+            "Auradon",
+            "DunBroch"
+          ],
+          "reveal": "[excited] The correct answer is Corona! Every year on her birthday, they release lanterns hoping their lost princess will come home. [sighs] Get the tissues.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In Robin Hood, this thumb-sucking lion sits on England's throne while King Richard is away.",
+          "answer": "Prince John",
+          "accept": [
+            "john",
+            "prince john"
+          ],
+          "choices": [
+            "Prince John",
+            "Sheriff of Nottingham",
+            "Sir Hiss",
+            "King Richard"
+          ],
+          "reveal": "The correct answer is Prince John! [laughs] He cries for his mommy whenever someone mentions it. Peter Ustinov voiced him.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "King Triton rules this undersea kingdom in The Little Mermaid.",
+          "answer": "Atlantica",
+          "accept": [
+            "atlantica"
+          ],
+          "choices": [
+            "Atlantica",
+            "Atlantis",
+            "Coralia",
+            "Mer-Kingdom"
+          ],
+          "reveal": "[excited] The correct answer is Atlantica! Not Atlantis. That's a different movie. [chuckles] Same water, different zip code.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "castle-secrets",
+      "title": "Castle Secrets",
+      "kind": "fan",
+      "intro": "[whispers] Every castle has secrets. Our fan category is all the hidden stuff inside Disney's real castles.",
+      "format": "text",
+      "art": {
+        "prompt": "A secret passage behind a castle tapestry, a glowing key on a velvet pillow, a spiral staircase and a hidden door slightly open Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/castle-hunt--castle-secrets.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Beneath the castle at Disneyland Paris, this giant fire-breathing creature sleeps in a hidden lair.",
+          "answer": "A dragon",
+          "accept": [
+            "a dragon",
+            "dragon",
+            "the dragon"
+          ],
+          "choices": [
+            "A dragon",
+            "A giant",
+            "A sea serpent",
+            "A troll"
+          ],
+          "reveal": "[gasps] The correct answer is a dragon! La Tanière du Dragon is a dark cave under the castle with a huge animatronic dragon. [laughs] He snores!",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "A luxury room hidden inside Magic Kingdom's castle, given to lucky guests, is called the Cinderella Castle what?",
+          "answer": "Suite",
+          "accept": [
+            "cinderella castle suite",
+            "suite",
+            "the suite"
+          ],
+          "choices": [
+            "Suite",
+            "Tower",
+            "Attic",
+            "Loft"
+          ],
+          "reveal": "[excited] The correct answer is the Cinderella Castle Suite! It was originally planned for Walt's family. [whispers] You can't book it. You have to be chosen.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Upstairs in Cinderella Castle you can dine at Cinderella's Royal this.",
+          "answer": "Table",
+          "accept": [
+            "cinderella's royal table",
+            "royal table",
+            "table"
+          ],
+          "choices": [
+            "Table",
+            "Feast",
+            "Banquet",
+            "Hall"
+          ],
+          "reveal": "The correct answer is Cinderella's Royal Table! [chuckles] Medieval dining with princesses and stained glass. Fancy!",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Sleeping Beauty Castle's drawbridge has been lowered only twice: in 1955, and in this year when Fantasyland reopened.",
+          "answer": "1983",
+          "accept": [
+            "1983"
+          ],
+          "choices": [
+            "1983",
+            "1971",
+            "1995",
+            "2005"
+          ],
+          "reveal": "[excited] The correct answer is 1983! It came down for the New Fantasyland grand reopening. [chuckles] It's a working drawbridge, but it stays down.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "The upper stones and windows of Disney castles get smaller as they rise, an illusion called this.",
+          "answer": "Forced perspective",
+          "accept": [
+            "forced perspective"
+          ],
+          "choices": [
+            "Forced perspective",
+            "Trompe l'oeil",
+            "Vanishing point",
+            "Ascending scale"
+          ],
+          "reveal": "[gasps] The correct answer is forced perspective! It makes the castle look much taller than it is. [laughs] Imagineers are sneaky.",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}

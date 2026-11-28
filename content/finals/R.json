@@ -1,0 +1,141 @@
+[
+  {
+    "film": "Pete's Dragon",
+    "category": "Pete's Dragon",
+    "clue": "In the 1977 film, Elliott the dragon has a handy power that gets Pete into trouble: he can make himself this.",
+    "answer": "Invisible",
+    "accept": [
+      "disappear",
+      "go invisible",
+      "invisible",
+      "turn invisible"
+    ],
+    "choices": [
+      "Invisible",
+      "Shrink",
+      "Fly backwards",
+      "Breathe ice"
+    ],
+    "reveal": "The correct answer is invisible! Elliott was hand-drawn and combined with live action, and he lives with Pete in Passamaquoddy, Maine. [laughs] Imagine explaining that to the neighbors."
+  },
+  {
+    "film": "Dinosaur",
+    "category": "Dinosaur",
+    "clue": "In Disney's 2000 film Dinosaur, Aladar the Iguanodon is raised from an egg by a family of these primates.",
+    "answer": "Lemurs",
+    "accept": [
+      "a family of lemurs",
+      "lemur",
+      "lemurs"
+    ],
+    "choices": [
+      "Lemurs",
+      "Monkeys",
+      "Chimpanzees",
+      "Gorillas"
+    ],
+    "reveal": "The correct answer is lemurs! The film mixed computer-animated dinosaurs with real filmed backgrounds. [chuckles] Animal Kingdom even had a ride named after it."
+  },
+  {
+    "film": "Fantasia 2000",
+    "category": "Fantasia 2000",
+    "clue": "In Fantasia 2000, Donald Duck is Noah's assistant loading the ark, set to this Edward Elgar march.",
+    "answer": "Pomp and Circumstance",
+    "accept": [
+      "pomp & circumstance",
+      "pomp and circumstance",
+      "pomp and circumstance marches"
+    ],
+    "choices": [
+      "Pomp and Circumstance",
+      "Rhapsody in Blue",
+      "The Firebird",
+      "Pines of Rome"
+    ],
+    "reveal": "The correct answer is Pomp and Circumstance! [laughs] The graduation song. Donald and Daisy think they've lost each other the whole time. [sighs] Classic Donald."
+  },
+  {
+    "film": "The Rescuers Down Under",
+    "category": "The Rescuers Down Under",
+    "clue": "In The Rescuers Down Under, a boy named Cody frees this giant golden eagle in the Australian outback.",
+    "answer": "Marahute",
+    "accept": [
+      "marahute"
+    ],
+    "choices": [
+      "Marahute",
+      "Wilbur",
+      "Orville",
+      "Joanna"
+    ],
+    "reveal": "The correct answer is Marahute! [gasps] Her flight scenes are breathtaking. It was the first Disney feature made entirely with the CAPS digital ink and paint system."
+  },
+  {
+    "film": "Wish",
+    "category": "Wish",
+    "clue": "In 2023's Wish, Asha's wish brings a star down from the sky and puts her at odds with this ruler of Rosas.",
+    "answer": "King Magnifico",
+    "accept": [
+      "king magnifico",
+      "magnifico"
+    ],
+    "choices": [
+      "King Magnifico",
+      "King Hubert",
+      "King Triton",
+      "Prince John"
+    ],
+    "reveal": "The correct answer is King Magnifico! Chris Pine voices him. [chuckles] Wish was made for Disney's 100th anniversary, and it's full of hidden nods to classic films."
+  },
+  {
+    "film": "The Three Caballeros",
+    "category": "The Three Caballeros",
+    "clue": "In The Three Caballeros (1944), Donald's pals are José Carioca the parrot and this pistol-packing Mexican rooster.",
+    "answer": "Panchito Pistoles",
+    "accept": [
+      "panchito",
+      "panchito pistoles"
+    ],
+    "choices": [
+      "Panchito Pistoles",
+      "Pancho Villa",
+      "Pablo the Penguin",
+      "Señor Gallo"
+    ],
+    "reveal": "The correct answer is Panchito Pistoles! [excited] Today the three caballeros sail around EPCOT's Mexico pavilion on the Gran Fiesta Tour."
+  },
+  {
+    "film": "Toy Story 4",
+    "category": "Toy Story 4",
+    "clue": "In Toy Story 4, Keanu Reeves voices this Canadian daredevil motorcycle toy.",
+    "answer": "Duke Caboom",
+    "accept": [
+      "caboom",
+      "duke",
+      "duke caboom"
+    ],
+    "choices": [
+      "Duke Caboom",
+      "Combat Carl",
+      "Ducky",
+      "Giggle McDimples"
+    ],
+    "reveal": "The correct answer is Duke Caboom! [laughs] Canada's greatest stuntman, he just can't land a jump. Toy Story 4 won the Oscar for Best Animated Feature."
+  },
+  {
+    "film": "Ralph Breaks the Internet",
+    "category": "Ralph Breaks the Internet",
+    "clue": "In Ralph Breaks the Internet, Vanellope falls in love with this gritty online racing game featuring Shank.",
+    "answer": "Slaughter Race",
+    "accept": [
+      "slaughter race"
+    ],
+    "choices": [
+      "Slaughter Race",
+      "Sugar Rush",
+      "Hero's Duty",
+      "Fix-It Felix Jr."
+    ],
+    "reveal": "The correct answer is Slaughter Race! [chuckles] Gal Gadot voices Shank. And Vanellope meets all the Disney princesses in their comfy clothes."
+  }
+]

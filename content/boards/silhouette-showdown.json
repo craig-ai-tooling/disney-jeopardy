@@ -1,0 +1,611 @@
+{
+  "id": "silhouette-showdown",
+  "title": "Silhouette Showdown",
+  "theme": "Silhouettes and shadows",
+  "tags": [
+    "picture",
+    "silhouette",
+    "shadows",
+    "parks"
+  ],
+  "intro": "[excited] Lights down, everybody! Tonight is Silhouette Showdown, where everything is a shadow, a skyline or a mystery shape. [whispers] If you see something move in the dark, it's probably just Dr. Facilier. [laughs] Probably.",
+  "art": {
+    "prompt": "A dramatic sunset sky in orange and purple with the black silhouettes of fairy-tale spires, a geodesic sphere, a giant carved tree and a jagged mountain lined up along the horizon, a single spotlight beam sweeping upward Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+    "file": "media/silhouette-showdown.jpg"
+  },
+  "categories": [
+    {
+      "id": "prop-shadows",
+      "title": "Prop Shadows",
+      "kind": "film",
+      "intro": "I'll show you the shadow of a famous movie object. [mischievously] You tell me the film. No peeking behind the curtain!",
+      "format": "picture",
+      "art": {
+        "prompt": "A white theater curtain lit from behind, casting crisp black shadow shapes of a slipper, a rose, a frying pan, a spindle and a magnifying glass Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/silhouette-showdown--prop-shadows.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This shadow of a single shoe left on a palace staircase at midnight belongs to which film?",
+          "answer": "Cinderella",
+          "accept": [
+            "cinderella"
+          ],
+          "choices": [
+            "Cinderella",
+            "Sleeping Beauty",
+            "Snow White and the Seven Dwarfs",
+            "Tangled"
+          ],
+          "reveal": "[excited] The correct answer is Cinderella! One glass slipper, one very determined Grand Duke, and one kingdom-wide shoe fitting. [laughs] Talk about a foot search.",
+          "media": {
+            "type": "image",
+            "prompt": "Crisp black silhouette of a single delicate high-heeled glass slipper resting on a grand palace staircase, backlit by a huge glowing clock face at midnight, deep blue night sky Original illustration, cinematic lighting, no people, no characters, no text, no logos.",
+            "file": "media/silhouette-showdown--prop-shadows-200.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "A single flower slowly losing its petals under a glass dome. Name the movie this shadow comes from.",
+          "answer": "Beauty and the Beast",
+          "accept": [
+            "beauty and the beast"
+          ],
+          "choices": [
+            "Beauty and the Beast",
+            "Sleeping Beauty",
+            "The Little Mermaid",
+            "Alice in Wonderland"
+          ],
+          "reveal": "The correct answer is Beauty and the Beast! [gasps] When that last petal falls, the spell is permanent. No pressure, Beast.",
+          "media": {
+            "type": "image",
+            "prompt": "Black silhouette of a single long-stemmed rose under a tall glass bell jar on a small table, one petal falling, glowing pink-gold backlight in a dark gothic room Original illustration, cinematic lighting, no people, no characters, no text, no logos.",
+            "file": "media/silhouette-showdown--prop-shadows-400.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "A frying pan and a very, very long braid of hair hanging from a tower window. Which film?",
+          "answer": "Tangled",
+          "accept": [
+            "rapunzel",
+            "tangled"
+          ],
+          "choices": [
+            "Tangled",
+            "Brave",
+            "Frozen",
+            "The Princess and the Frog"
+          ],
+          "reveal": "[laughs] The correct answer is Tangled! Seventy feet of magic hair, and her weapon of choice is still a frying pan. Who knew?",
+          "media": {
+            "type": "image",
+            "prompt": "Silhouette of a tall stone tower with an extremely long braid of hair cascading from the top window to the ground, a frying pan silhouette in the foreground, glowing floating lanterns in a warm sunset sky Original illustration, cinematic lighting, no people, no characters, no text, no logos.",
+            "file": "media/silhouette-showdown--prop-shadows-600.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "The shadow of a spinning wheel's sharp spindle, glowing eerily in a tower room. Which film?",
+          "answer": "Sleeping Beauty",
+          "accept": [
+            "sleeping beauty"
+          ],
+          "choices": [
+            "Sleeping Beauty",
+            "Cinderella",
+            "Snow White and the Seven Dwarfs",
+            "Rumpelstiltskin"
+          ],
+          "reveal": "[whispers] The correct answer is Sleeping Beauty! Touch the spindle, fall asleep. King Stefan burned every spinning wheel in the kingdom and still missed one. [sighs] Classic.",
+          "media": {
+            "type": "image",
+            "prompt": "Silhouette of an old wooden spinning wheel with a long needle-sharp spindle in a dark circular tower room, an eerie green glow behind it, a winding staircase Original illustration, cinematic lighting, no people, no characters, no text, no logos.",
+            "file": "media/silhouette-showdown--prop-shadows-800.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "A magnifying glass silhouetted against the giant gears of a London clock tower. Name this 1986 mystery.",
+          "answer": "The Great Mouse Detective",
+          "accept": [
+            "basil of baker street",
+            "great mouse detective",
+            "the great mouse detective"
+          ],
+          "choices": [
+            "The Great Mouse Detective",
+            "Oliver & Company",
+            "The Rescuers",
+            "Robin Hood"
+          ],
+          "reveal": "[excited] The correct answer is The Great Mouse Detective! The finale battle inside Big Ben's gears was an early Disney use of computer animation. [chuckles] Elementary!",
+          "media": {
+            "type": "image",
+            "prompt": "Black silhouette of a magnifying glass against enormous interlocking brass clockwork gears inside a Victorian clock tower, a giant clock face glowing behind, foggy London night Original illustration, cinematic lighting, no people, no characters, no text, no logos.",
+            "file": "media/silhouette-showdown--prop-shadows-1000.jpg"
+          },
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "shadow-man-and-friends",
+      "title": "Shadow Man and Friends",
+      "kind": "theme",
+      "intro": "[mischievously] Shadows, shady characters and the friends on the other side. Let's step into the dark!",
+      "format": "text",
+      "art": {
+        "prompt": "A long dark bayou alley at night with a lamppost casting dramatic shadows of tall hats and swirling smoke on a brick wall, voodoo-style candles and tarot-like blank cards scattered on a table Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/silhouette-showdown--shadow-man-and-friends.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In Peter Pan, Wendy sews this back onto Peter after it gets loose.",
+          "answer": "His shadow",
+          "accept": [
+            "his shadow",
+            "peter pan's shadow",
+            "peter's shadow",
+            "shadow"
+          ],
+          "choices": [
+            "His shadow",
+            "His hat",
+            "His sleeve",
+            "His feather"
+          ],
+          "reveal": "[laughs] The correct answer is his shadow! It ran off and Wendy stitched it right back on. Mine just follows me to the snack bar.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "In The Princess and the Frog, Dr. Facilier goes by this spooky two-word nickname.",
+          "answer": "The Shadow Man",
+          "accept": [
+            "shadow man",
+            "the shadow man"
+          ],
+          "choices": [
+            "The Shadow Man",
+            "The Candy Man",
+            "The Voodoo King",
+            "The Night Man"
+          ],
+          "reveal": "The correct answer is the Shadow Man! [chuckles] And his own shadow has a mind of its own. It does all the dirty work while he tips his hat.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Dr. Facilier's big villain song promises he has these on 'the other side.'",
+          "answer": "Friends",
+          "accept": [
+            "friends",
+            "friends on the other side"
+          ],
+          "choices": [
+            "Friends",
+            "Spirits",
+            "Secrets",
+            "Treasures"
+          ],
+          "reveal": "[excited] The correct answer is friends! Friends on the Other Side. Keith David sings it, and the shadows dance right along. [whispers] Creepy cool.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Mufasa tells Simba everything the light touches is their kingdom. Scar later sends him to this shadowy place.",
+          "answer": "The Elephant Graveyard",
+          "accept": [
+            "elephant graveyard",
+            "graveyard",
+            "the elephant graveyard"
+          ],
+          "choices": [
+            "The Elephant Graveyard",
+            "Pride Rock",
+            "The Outlands",
+            "Gorge"
+          ],
+          "reveal": "The correct answer is the elephant graveyard! [gasps] Bones, fog and three hungry hyenas. Simba really should have listened to his dad.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "In Fantasia's Night on Bald Mountain, this enormous winged demon spreads his shadow over a sleeping village.",
+          "answer": "Chernabog",
+          "accept": [
+            "chernabog",
+            "czernobog"
+          ],
+          "choices": [
+            "Chernabog",
+            "Hades",
+            "The Horned King",
+            "Maleficent"
+          ],
+          "reveal": "[whispers] The correct answer is Chernabog! Animator Bill Tytla brought him to life. [sighs] And he is defeated by... church bells and sunrise. Every villain has a weakness.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "skyline-spotters",
+      "title": "Skyline Spotters",
+      "kind": "parks",
+      "intro": "Our Parks category is all real photos of park icons that own the skyline. [excited] Name what you see!",
+      "format": "picture",
+      "art": {
+        "prompt": "A twilight theme-park skyline: a glowing geodesic sphere, a giant tree, a tall hotel tower and a snowy mountain peak silhouetted against a gradient sky with fireworks Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/silhouette-showdown--skyline-spotters.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This giant geodesic sphere has towered over EPCOT since the park opened in 1982. Name it.",
+          "answer": "Spaceship Earth",
+          "accept": [
+            "epcot ball",
+            "golf ball",
+            "spaceship earth",
+            "the epcot ball"
+          ],
+          "choices": [
+            "Spaceship Earth",
+            "Mission: SPACE",
+            "Space Mountain",
+            "The Land"
+          ],
+          "reveal": "[excited] The correct answer is Spaceship Earth! It's about 18 stories tall and takes you on a trip through the history of communication. [laughs] No, it is not a giant golf ball.",
+          "media": {
+            "type": "image",
+            "file": "media/silhouette-showdown--skyline-spotters-200.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Spaceship_Earth_at_night.jpg",
+              "license": "CC BY-SA 4.0",
+              "author": "Benjamin D. Esham (bdesham)"
+            }
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Name this 145-foot carved icon at the heart of Disney's Animal Kingdom.",
+          "answer": "Tree of Life",
+          "accept": [
+            "the tree of life",
+            "tree of life"
+          ],
+          "choices": [
+            "Tree of Life",
+            "Swiss Family Treehouse",
+            "Disneyodendron",
+            "Tarzan's Treehouse"
+          ],
+          "reveal": "The correct answer is the Tree of Life! [gasps] Look closely and you'll find more than 300 animals carved into it. Bring snacks, it takes a while.",
+          "media": {
+            "type": "image",
+            "file": "media/silhouette-showdown--skyline-spotters-400.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Tree_of_Life,_Disney%27s_Animal_Kingdom.jpg",
+              "license": "CC BY-SA 4.0",
+              "author": "Jedi94"
+            }
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "This creepy 199-foot hotel looms over Sunset Boulevard at Disney's Hollywood Studios. Name the attraction.",
+          "answer": "The Twilight Zone Tower of Terror",
+          "accept": [
+            "hollywood tower hotel",
+            "the twilight zone tower of terror",
+            "tower of terror",
+            "twilight zone tower of terror"
+          ],
+          "choices": [
+            "The Twilight Zone Tower of Terror",
+            "Rock 'n' Roller Coaster",
+            "Guardians of the Galaxy: Cosmic Rewind",
+            "Haunted Mansion"
+          ],
+          "reveal": "[laughs] The correct answer is the Twilight Zone Tower of Terror! The Hollywood Tower Hotel stays just under 200 feet, so it doesn't need an aircraft warning light. [whispers] Check out time is never.",
+          "media": {
+            "type": "image",
+            "file": "media/silhouette-showdown--skyline-spotters-600.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Hollywood_Tower_Hotel.jpg",
+              "license": "CC BY-SA 4.0",
+              "author": "Benjamin D. Esham (bdesham)"
+            }
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "A Yeti guards this snow-capped mountain coaster that opened at Animal Kingdom in 2006. Name it.",
+          "answer": "Expedition Everest",
+          "accept": [
+            "everest",
+            "expedition everest",
+            "expedition everest legend of the forbidden mountain"
+          ],
+          "choices": [
+            "Expedition Everest",
+            "Matterhorn Bobsleds",
+            "Big Thunder Mountain Railroad",
+            "Slinky Dog Dash"
+          ],
+          "reveal": "[excited] The correct answer is Expedition Everest! The mountain is about 199 and a half feet tall, and the ride goes backwards in the dark. [laughs] The Yeti wants you to know he's very misunderstood.",
+          "media": {
+            "type": "image",
+            "file": "media/silhouette-showdown--skyline-spotters-800.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Expedition_Everest.jpg",
+              "license": "CC BY-SA 4.0",
+              "author": "Benjamin D. Esham (bdesham)"
+            }
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "This smoking volcano rises over the center of Tokyo DisneySea. Name it.",
+          "answer": "Mount Prometheus",
+          "accept": [
+            "mount prometheus",
+            "mt prometheus",
+            "mt. prometheus",
+            "prometheus"
+          ],
+          "choices": [
+            "Mount Prometheus",
+            "Mount Mayday",
+            "Mount Gushmore",
+            "Thunder Mesa"
+          ],
+          "reveal": "[gasps] The correct answer is Mount Prometheus! It rumbles, it smokes, and it even erupts with fire. Inside, Journey to the Center of the Earth is waiting. True nerd points!",
+          "media": {
+            "type": "image",
+            "file": "media/silhouette-showdown--skyline-spotters-1000.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Tokyo_DisneySea-Volcania.jpg",
+              "license": "CC BY-SA 2.5",
+              "author": "Okwhatev at en.wikipedia"
+            }
+          },
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "silhouette-safari",
+      "title": "Silhouette Safari",
+      "kind": "media",
+      "intro": "Shadowy critters on the horizon! [chuckles] Name the Disney character or duo these animal shapes belong to.",
+      "format": "picture",
+      "art": {
+        "prompt": "African savanna at golden sunset with black silhouettes of a lone acacia tree, a rocky outcrop and flocks of birds, a glowing orange sun on the horizon Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/silhouette-showdown--silhouette-safari.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "A meerkat and a warthog strolling at sunset with no worries at all. Name the duo.",
+          "answer": "Timon and Pumbaa",
+          "accept": [
+            "pumbaa and timon",
+            "timon & pumbaa",
+            "timon and pumbaa"
+          ],
+          "choices": [
+            "Timon and Pumbaa",
+            "Zazu and Rafiki",
+            "Nala and Simba",
+            "Shenzi and Banzai"
+          ],
+          "reveal": "[laughs] The correct answer is Timon and Pumbaa! Hakuna Matata. It means no worries, and also no vegetables. Grubs only.",
+          "media": {
+            "type": "image",
+            "prompt": "Black silhouettes of a small upright meerkat and a stocky warthog walking side by side along a log at sunset on an African savanna Original illustration, cinematic lighting, no people, no characters, no text, no logos.",
+            "file": "media/silhouette-showdown--silhouette-safari-200.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "A crab and a round little fish silhouetted in a sunbeam under the sea. Name the duo.",
+          "answer": "Sebastian and Flounder",
+          "accept": [
+            "flounder and sebastian",
+            "sebastian & flounder",
+            "sebastian and flounder"
+          ],
+          "choices": [
+            "Sebastian and Flounder",
+            "Nemo and Dory",
+            "Flotsam and Jetsam",
+            "Scuttle and Max"
+          ],
+          "reveal": "The correct answer is Sebastian and Flounder! [chuckles] A nervous court composer and a fish who is NOT a guppy. Ariel's best bodyguards.",
+          "media": {
+            "type": "image",
+            "prompt": "Underwater scene with black silhouettes of a crab and a round tropical fish swimming together through sunbeams filtering down from the surface, coral below Original illustration, cinematic lighting, no people, no characters, no text, no logos.",
+            "file": "media/silhouette-showdown--silhouette-safari-400.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "A tiny chameleon silhouetted on a tower windowsill. Name this loyal sidekick.",
+          "answer": "Pascal",
+          "accept": [
+            "pascal"
+          ],
+          "choices": [
+            "Pascal",
+            "Meeko",
+            "Abu",
+            "Rex"
+          ],
+          "reveal": "[excited] The correct answer is Pascal! Rapunzel's best friend, who changes color when he's in a mood. [laughs] Which is always.",
+          "media": {
+            "type": "image",
+            "prompt": "Black silhouette of a small curly-tailed chameleon sitting on a stone tower windowsill, glowing lanterns floating in a warm evening sky beyond Original illustration, cinematic lighting, no people, no characters, no text, no logos.",
+            "file": "media/silhouette-showdown--silhouette-safari-600.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "A rooster and a little potbellied pig silhouetted on an outrigger canoe. Name the duo.",
+          "answer": "Heihei and Pua",
+          "accept": [
+            "hei hei and pua",
+            "heihei and pua",
+            "pua and heihei"
+          ],
+          "choices": [
+            "Heihei and Pua",
+            "Nani and Lilo",
+            "Flit and Meeko",
+            "Max and Cuddles"
+          ],
+          "reveal": "[laughs] The correct answer is Heihei and Pua from Moana! Pua stayed home, and Heihei stowed away in the boat. [whispers] He also tried to eat a rock.",
+          "media": {
+            "type": "image",
+            "prompt": "Black silhouettes of a skinny rooster and a small round pig standing on the bow of a Polynesian outrigger canoe at sunset over the ocean Original illustration, cinematic lighting, no people, no characters, no text, no logos.",
+            "file": "media/silhouette-showdown--silhouette-safari-800.jpg"
+          },
+          "dailyDouble": true
+        },
+        {
+          "value": 1000,
+          "clue": "A raven silhouetted atop a villain's glowing staff. Name this evil fairy's feathered spy.",
+          "answer": "Diablo",
+          "accept": [
+            "diablo"
+          ],
+          "choices": [
+            "Diablo",
+            "Iago",
+            "Edgar",
+            "Lucifer"
+          ],
+          "reveal": "[whispers] The correct answer is Diablo! He searched for Aurora for sixteen years. [sighs] And yes, he's the one who finally found her cottage.",
+          "media": {
+            "type": "image",
+            "prompt": "Black silhouette of a raven perched on top of a tall twisted staff topped with a glowing green orb, a jagged dark castle and lightning in the background Original illustration, cinematic lighting, no people, no characters, no text, no logos.",
+            "file": "media/silhouette-showdown--silhouette-safari-1000.jpg"
+          },
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "voices-in-the-dark",
+      "title": "Voices in the Dark",
+      "kind": "fan",
+      "intro": "Some stars you never see, you only hear. [chuckles] Name the voice behind the character, or the character behind the voice!",
+      "format": "text",
+      "art": {
+        "prompt": "An old-fashioned recording studio in darkness, a single vintage microphone lit by a spotlight, a music stand and headphones, warm glow through a sound booth window Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/silhouette-showdown--voices-in-the-dark.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Tom Hanks voices this pull-string cowboy in Toy Story.",
+          "answer": "Woody",
+          "accept": [
+            "sheriff woody",
+            "woody"
+          ],
+          "choices": [
+            "Woody",
+            "Buzz Lightyear",
+            "Jessie",
+            "Bullseye"
+          ],
+          "reveal": "[excited] The correct answer is Woody! There's a snake in his boot, and Tom Hanks has been the voice since 1995. Reach for the sky!",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Robin Williams was the fast-talking Genie in this 1992 film.",
+          "answer": "Aladdin",
+          "accept": [
+            "aladdin"
+          ],
+          "choices": [
+            "Aladdin",
+            "Hercules",
+            "Mulan",
+            "The Lion King"
+          ],
+          "reveal": "The correct answer is Aladdin! [laughs] Robin Williams improvised so much that animators had hours of material to choose from. Phenomenal cosmic power!",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "James Earl Jones, the voice of Mufasa, also voiced this Star Wars villain.",
+          "answer": "Darth Vader",
+          "accept": [
+            "anakin skywalker",
+            "darth vader",
+            "vader"
+          ],
+          "choices": [
+            "Darth Vader",
+            "Darth Maul",
+            "Emperor Palpatine",
+            "Boba Fett"
+          ],
+          "reveal": "[whispers] The correct answer is Darth Vader! One voice, two kings of very different kingdoms. [chuckles] Mufasa had better parenting.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Josh Gad voices this Frozen snowman who likes warm hugs.",
+          "answer": "Olaf",
+          "accept": [
+            "olaf"
+          ],
+          "choices": [
+            "Olaf",
+            "Marshmallow",
+            "Sven",
+            "Kristoff"
+          ],
+          "reveal": "[laughs] The correct answer is Olaf! He dreams of summer, which for a snowman is a very bold choice.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Sterling Holloway voiced Winnie the Pooh, Kaa, and this grinning, disappearing feline from 1951.",
+          "answer": "The Cheshire Cat",
+          "accept": [
+            "cheshire cat",
+            "the cheshire cat"
+          ],
+          "choices": [
+            "The Cheshire Cat",
+            "Figaro",
+            "Thomas O'Malley",
+            "Dinah"
+          ],
+          "reveal": "[excited] The correct answer is the Cheshire Cat! Sterling Holloway was also the stork in Dumbo. [chuckles] That man was the voice of my childhood.",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}

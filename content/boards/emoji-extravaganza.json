@@ -1,0 +1,568 @@
+{
+  "id": "emoji-extravaganza",
+  "title": "Emoji Extravaganza",
+  "theme": "Emoji puzzles about Disney films, songs and parks",
+  "tags": [
+    "emoji",
+    "picture",
+    "parks",
+    "songs",
+    "puzzles"
+  ],
+  "intro": "[excited] Phones out, emojis up! Tonight is Emoji Extravaganza: Disney movies, songs and park favorites told in tiny pictures. [laughs] If you've ever texted a winky face, you're already qualified.",
+  "art": {
+    "prompt": "Giant colorful glossy speech bubbles and round smiley-style faces floating over a fairy-tale park at sunset, with hearts, stars and sparkles bursting like fireworks Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+    "file": "media/emoji-extravaganza.jpg"
+  },
+  "categories": [
+    {
+      "id": "emoji-irl",
+      "title": "Emoji IRL",
+      "kind": "parks",
+      "intro": "Our Parks category is real photos, plus an emoji hint! [chuckles] Name the park spot in the picture.",
+      "format": "picture",
+      "art": {
+        "prompt": "A giant smartphone lying on a picnic blanket in a theme park, its screen glowing with bubbles of mountains, towers and boats, real rides blurred behind Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/emoji-extravaganza--emoji-irl.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "🏔️🛷 This snowy mountain coaster opened at Disneyland in 1959. Name it.",
+          "answer": "Matterhorn Bobsleds",
+          "accept": [
+            "matterhorn",
+            "matterhorn bobsleds",
+            "the matterhorn"
+          ],
+          "choices": [
+            "Matterhorn Bobsleds",
+            "Expedition Everest",
+            "Space Mountain",
+            "Big Thunder Mountain Railroad"
+          ],
+          "reveal": "[excited] The correct answer is the Matterhorn Bobsleds! It was the first tubular steel roller coaster. [laughs] Watch out for Harold the Abominable Snowman!",
+          "media": {
+            "type": "image",
+            "file": "media/emoji-extravaganza--emoji-irl-200.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Matterhorn_Bobsleds_from_Tomorrowland.JPG",
+              "license": "CC BY-SA 3.0",
+              "author": "JeroenZ85"
+            }
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "🥐🗼🎨 This EPCOT World Showcase pavilion has its own mini Eiffel Tower. Name the country.",
+          "answer": "France",
+          "accept": [
+            "france",
+            "france pavilion"
+          ],
+          "choices": [
+            "France",
+            "Italy",
+            "Germany",
+            "Canada"
+          ],
+          "reveal": "The correct answer is France! [chuckles] The Eiffel Tower there is built with forced perspective. And the pastries? Ooh la la!",
+          "media": {
+            "type": "image",
+            "file": "media/emoji-extravaganza--emoji-irl-400.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Epcot_-_France_pavilion_-_cropped.jpg",
+              "license": "CC BY 2.0",
+              "author": "ckramer from Laurel, MD, USA"
+            }
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "🏯🎎🍣 This EPCOT pavilion is home to a five-story pagoda. Name the country.",
+          "answer": "Japan",
+          "accept": [
+            "japan",
+            "japan pavilion"
+          ],
+          "choices": [
+            "Japan",
+            "China",
+            "Morocco",
+            "Norway"
+          ],
+          "reveal": "[excited] The correct answer is Japan! The pagoda is inspired by one at Horyuji temple in Nara. [laughs] And the Mitsukoshi store is a souvenir paradise.",
+          "media": {
+            "type": "image",
+            "file": "media/emoji-extravaganza--emoji-irl-600.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Japanese_pagoda_at_Epcot.jpg",
+              "license": "CC BY-SA 4.0",
+              "author": "Benjamin D. Esham (bdesham)"
+            }
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "🎡🎢🍬 This Disney California Adventure area, with its giant wheel and loop coaster, opened in 2018. Name it.",
+          "answer": "Pixar Pier",
+          "accept": [
+            "pixar pier"
+          ],
+          "choices": [
+            "Pixar Pier",
+            "Paradise Pier",
+            "Buena Vista Street",
+            "Avengers Campus"
+          ],
+          "reveal": "The correct answer is Pixar Pier! [laughs] It replaced Paradise Pier, and the coaster became the Incredicoaster. Hold on to your baby Jack-Jack!",
+          "media": {
+            "type": "image",
+            "file": "media/emoji-extravaganza--emoji-irl-800.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Incredicoaster_%26_Pixar_Pal-A-Round_(Disney)_July_2023.JPG",
+              "license": "CC0",
+              "author": "Benoît Prieur"
+            }
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "🛶🌲🙋 Guests paddle these themselves on Disneyland's Rivers of America. Name the attraction.",
+          "answer": "Davy Crockett's Explorer Canoes",
+          "accept": [
+            "canoes",
+            "davy crockett's explorer canoes",
+            "davy crocketts explorer canoes",
+            "explorer canoes",
+            "the canoes"
+          ],
+          "choices": [
+            "Davy Crockett's Explorer Canoes",
+            "Mark Twain Riverboat",
+            "Sailing Ship Columbia",
+            "Tom Sawyer Island Rafts"
+          ],
+          "reveal": "[excited] The correct answer is Davy Crockett's Explorer Canoes! The only Disneyland attraction where you're the engine. [laughs] Paddle, people, paddle!",
+          "media": {
+            "type": "image",
+            "file": "media/emoji-extravaganza--emoji-irl-1000.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Disneyland-DCEC-canoes.jpg",
+              "license": "Public domain",
+              "author": "Jonnyboyca."
+            }
+          },
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "emoji-remix",
+      "title": "Emoji Remix",
+      "kind": "film",
+      "intro": "I'll text you a movie in emojis. [chuckles] You text me back the title. Well, buzz in. Same thing.",
+      "format": "emoji",
+      "art": {
+        "prompt": "A row of shiny glossy 3D bubble icons on a pastel background: a race car, a bunny, a butterfly, a robot and a crystal Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/emoji-extravaganza--emoji-remix.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "🏎️⚡🏆 A rookie race car learns there's more to life than winning.",
+          "answer": "Cars",
+          "accept": [
+            "cars"
+          ],
+          "choices": [
+            "Cars",
+            "Planes",
+            "Turbo",
+            "Wreck-It Ralph"
+          ],
+          "reveal": "[excited] The correct answer is Cars! Ka-chow! [laughs] Radiator Springs is waiting at Disney California Adventure.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "🐰👮🦊 A bunny cop and a sly fox crack a case in a city of animals.",
+          "answer": "Zootopia",
+          "accept": [
+            "zootopia",
+            "zootropolis"
+          ],
+          "choices": [
+            "Zootopia",
+            "Robin Hood",
+            "Bolt",
+            "Chicken Little"
+          ],
+          "reveal": "The correct answer is Zootopia! [chuckles] Judy Hopps and Nick Wilde. And don't forget Flash, the fastest sloth at the DMV.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "🏠🦋🕯️ A magical house in Colombia and the one family member without a gift.",
+          "answer": "Encanto",
+          "accept": [
+            "encanto"
+          ],
+          "choices": [
+            "Encanto",
+            "Coco",
+            "Wish",
+            "Elemental"
+          ],
+          "reveal": "[excited] The correct answer is Encanto! Mirabel, Casita and that magic candle. [whispers] We don't talk about Bruno.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "🤖🎈🩹 An inflatable health-care robot and a teen genius team up in San Fransokyo.",
+          "answer": "Big Hero 6",
+          "accept": [
+            "big hero 6",
+            "big hero six"
+          ],
+          "choices": [
+            "Big Hero 6",
+            "WALL-E",
+            "Bolt",
+            "Strange World"
+          ],
+          "reveal": "The correct answer is Big Hero 6! [laughs] Baymax is your personal healthcare companion. Fist bump: ba-la-la-la-la!",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "🌊🏙️💎📖 A linguist uses a journal to find a lost sunken civilization.",
+          "answer": "Atlantis: The Lost Empire",
+          "accept": [
+            "atlantis",
+            "atlantis the lost empire",
+            "atlantis: the lost empire"
+          ],
+          "choices": [
+            "Atlantis: The Lost Empire",
+            "Treasure Planet",
+            "Strange World",
+            "The Little Mermaid"
+          ],
+          "reveal": "[excited] The correct answer is Atlantis: The Lost Empire! Milo Thatch reads the Shepherd's Journal, and Mike Mignola helped design the look. [chuckles] Nerd points!",
+          "dailyDouble": true
+        }
+      ]
+    },
+    {
+      "id": "emoji-sing-along",
+      "title": "Emoji Sing-Along",
+      "kind": "media",
+      "intro": "Name that tune, emoji style! [laughs] Bonus points if you sing it. Not really. But do it anyway.",
+      "format": "emoji",
+      "art": {
+        "prompt": "Floating musical notes and glossy 3D bubble icons of a microphone, a crab, a monkey and a heart bouncing over a stage spotlight Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/emoji-extravaganza--emoji-sing-along.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "🙅🗣️👨‍🦱 Everyone in the Madrigal family has a reason not to talk about him.",
+          "answer": "We Don't Talk About Bruno",
+          "accept": [
+            "bruno",
+            "we don't talk about bruno",
+            "we dont talk about bruno"
+          ],
+          "choices": [
+            "We Don't Talk About Bruno",
+            "Surface Pressure",
+            "What Else Can I Do?",
+            "The Family Madrigal"
+          ],
+          "reveal": "[excited] The correct answer is We Don't Talk About Bruno! It hit number one on the Billboard Hot 100. [laughs] So now we do talk about Bruno. A lot.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "🌊🦀🎶 A crab promises life is better down where it's wetter.",
+          "answer": "Under the Sea",
+          "accept": [
+            "under the sea"
+          ],
+          "choices": [
+            "Under the Sea",
+            "Part of Your World",
+            "Kiss the Girl",
+            "Poor Unfortunate Souls"
+          ],
+          "reveal": "The correct answer is Under the Sea! [chuckles] Sebastian's big number won the Oscar for Best Original Song.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "🐗🚫😟 A warthog and a meerkat's problem-free philosophy.",
+          "answer": "Hakuna Matata",
+          "accept": [
+            "hakuna matata"
+          ],
+          "choices": [
+            "Hakuna Matata",
+            "Circle of Life",
+            "I Just Can't Wait to Be King",
+            "Be Prepared"
+          ],
+          "reveal": "[laughs] The correct answer is Hakuna Matata! It means no worries for the rest of your days. [chuckles] Pumbaa's flatulence is part of the lyrics.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "👉🤝😊 Randy Newman's opening song from the first Toy Story.",
+          "answer": "You've Got a Friend in Me",
+          "accept": [
+            "you got a friend in me",
+            "you've got a friend in me",
+            "youve got a friend in me"
+          ],
+          "choices": [
+            "You've Got a Friend in Me",
+            "Strange Things",
+            "I Will Go Sailing No More",
+            "When She Loved Me"
+          ],
+          "reveal": "The correct answer is You've Got a Friend in Me! [excited] Randy Newman sings it himself. Woody approved.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "🐒👑🔥 A swinging jungle king wants to learn the secret of man's red fire.",
+          "answer": "I Wan'na Be Like You",
+          "accept": [
+            "i wan'na be like you",
+            "i wan'na be like you (the monkey song)",
+            "i wanna be like you",
+            "i want to be like you",
+            "the monkey song"
+          ],
+          "choices": [
+            "I Wan'na Be Like You",
+            "The Bare Necessities",
+            "Trust in Me",
+            "That's What Friends Are For"
+          ],
+          "reveal": "[excited] The correct answer is I Wan'na Be Like You! Louis Prima voiced King Louie. [laughs] The Sherman Brothers wrote it.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "emoji-park-day",
+      "title": "Emoji Park Day",
+      "kind": "parks",
+      "intro": "A whole day at the parks, told in emojis! [chuckles] Name the attraction.",
+      "format": "emoji",
+      "art": {
+        "prompt": "A cheerful park map spread on a table with glossy 3D bubble icons scattered across it: a boat, a hang glider, a car, a giraffe and a parrot Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/emoji-extravaganza--emoji-park-day.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "🐘🚤🌴 Skippers tell terrible puns on this river boat tour.",
+          "answer": "Jungle Cruise",
+          "accept": [
+            "jungle cruise",
+            "the jungle cruise"
+          ],
+          "choices": [
+            "Jungle Cruise",
+            "Pirates of the Caribbean",
+            "Kilimanjaro Safaris",
+            "Tom Sawyer Island"
+          ],
+          "reveal": "[laughs] The correct answer is the Jungle Cruise! [chuckles] The backside of water. The skippers never get tired of that one, and neither do I.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "🪂🌍🍊 Hang-glide over famous landmarks while smelling oranges and the sea at EPCOT.",
+          "answer": "Soarin'",
+          "accept": [
+            "soarin",
+            "soarin over california",
+            "soarin'",
+            "soarin' around the world",
+            "soarin' over california"
+          ],
+          "choices": [
+            "Soarin'",
+            "Test Track",
+            "Mission: SPACE",
+            "Living with the Land"
+          ],
+          "reveal": "The correct answer is Soarin'! [excited] The smells are pumped into the theater. [laughs] Your nose gets a ride too.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "🚗🔧💨 Design your own car and test it at up to 65 miles per hour at EPCOT.",
+          "answer": "Test Track",
+          "accept": [
+            "test track"
+          ],
+          "choices": [
+            "Test Track",
+            "Autopia",
+            "Tomorrowland Speedway",
+            "Radiator Springs Racers"
+          ],
+          "reveal": "[excited] The correct answer is Test Track! [laughs] It's one of the fastest Disney rides in Florida. Hold on to your fender.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "🦒🚙🌍 A bumpy open-vehicle ride through African savanna at Animal Kingdom.",
+          "answer": "Kilimanjaro Safaris",
+          "accept": [
+            "kilimanjaro safaris",
+            "safari",
+            "the safari"
+          ],
+          "choices": [
+            "Kilimanjaro Safaris",
+            "Wildlife Express Train",
+            "Gorilla Falls Exploration Trail",
+            "Jungle Cruise"
+          ],
+          "reveal": "The correct answer is Kilimanjaro Safaris! [chuckles] Real giraffes, real elephants, and a driver who knows every bump in the road.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "🦜🇲🇽🚤 A boat ride in EPCOT's Mexico pavilion starring Donald and his two caballero pals.",
+          "answer": "Gran Fiesta Tour",
+          "accept": [
+            "gran fiesta tour",
+            "gran fiesta tour starring the three caballeros",
+            "the gran fiesta tour"
+          ],
+          "choices": [
+            "Gran Fiesta Tour",
+            "El Río del Tiempo",
+            "Maelstrom",
+            "Frozen Ever After"
+          ],
+          "reveal": "[excited] The correct answer is the Gran Fiesta Tour starring the Three Caballeros! It replaced El Río del Tiempo in 2007. [laughs] Donald gets lost, again.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "symbols-and-signs",
+      "title": "Symbols and Signs",
+      "kind": "fan",
+      "intro": "Emojis are just tiny symbols, and Disney is full of famous ones. [whispers] Our fan category is all about Disney's real-life symbols.",
+      "format": "text",
+      "art": {
+        "prompt": "A park plaza at dawn with an empty bronze statue pedestal, a giant wizard-style hat shape made of hedges and three overlapping circles hidden in a mosaic floor Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/emoji-extravaganza--symbols-and-signs.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Three overlapping circles hidden in a ride or building are called a Hidden this.",
+          "answer": "Mickey",
+          "accept": [
+            "hidden mickey",
+            "mickey",
+            "mickey mouse"
+          ],
+          "choices": [
+            "Mickey",
+            "Minnie",
+            "Goofy",
+            "Donald"
+          ],
+          "reveal": "[excited] The correct answer is a Hidden Mickey! [laughs] Once you start spotting them, you can't stop. Every plate, every gear, every bubble.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "The Partners statue near the castle shows Walt Disney holding hands with this character.",
+          "answer": "Mickey Mouse",
+          "accept": [
+            "mickey",
+            "mickey mouse"
+          ],
+          "choices": [
+            "Mickey Mouse",
+            "Minnie Mouse",
+            "Tinker Bell",
+            "Oswald"
+          ],
+          "reveal": "The correct answer is Mickey Mouse! [sighs] Walt and Mickey looking down Main Street. Gets me every time.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Walt said, 'I only hope that we never lose sight of one thing, that it was all started by' this.",
+          "answer": "A mouse",
+          "accept": [
+            "a little mouse",
+            "a mouse",
+            "mouse"
+          ],
+          "choices": [
+            "A mouse",
+            "A dream",
+            "A pencil",
+            "A train"
+          ],
+          "reveal": "[excited] The correct answer is a mouse! [chuckles] Walt said that in 1954, the year before Disneyland opened.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "From 2001 to 2015, a giant version of this famous blue starry hat stood at the center of Disney's Hollywood Studios.",
+          "answer": "The Sorcerer's Hat",
+          "accept": [
+            "sorcerer mickey hat",
+            "sorcerer's apprentice hat",
+            "sorcerer's hat",
+            "sorcerers hat",
+            "the sorcerer's hat"
+          ],
+          "choices": [
+            "The Sorcerer's Hat",
+            "The Earffel Tower",
+            "Grauman's Chinese Theatre",
+            "The Hollywood Tower Hotel"
+          ],
+          "reveal": "The correct answer is the Sorcerer's Hat! [laughs] Now the Chinese Theatre has its view back. Some fans miss the hat, though.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "This Imagineer sculpted the Partners statue of Walt and Mickey, unveiled at Disneyland in 1993.",
+          "answer": "Blaine Gibson",
+          "accept": [
+            "blaine gibson",
+            "gibson"
+          ],
+          "choices": [
+            "Blaine Gibson",
+            "Marc Davis",
+            "John Hench",
+            "Rolly Crump"
+          ],
+          "reveal": "[excited] The correct answer is Blaine Gibson! He also sculpted many of the presidents in the Hall of Presidents. [chuckles] True nerd points!",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}
