@@ -1,0 +1,600 @@
+{
+  "id": "pirates-and-treasure",
+  "title": "Pirates and Treasure",
+  "theme": "Pirates",
+  "tags": [
+    "pirates",
+    "adventure",
+    "parks"
+  ],
+  "intro": "[excited] Ahoy, mateys! Welcome aboard a swashbuckling Disney Jeopardy! Tonight it's pirates and buried treasure, from the Black Pearl to the parks. [laughs] Answer right and the gold is yours. Answer wrong and you walk the plank.",
+  "art": {
+    "prompt": "An old wooden treasure chest overflowing with gold coins and jewels on a moonlit tropical beach, a tall ship with black sails anchored offshore, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+    "file": "media/pirates-and-treasure.jpg"
+  },
+  "categories": [
+    {
+      "id": "parley",
+      "title": "Parley!",
+      "kind": "film",
+      "intro": "We begin with the Pirates of the Caribbean films. [chuckles] You've clearly heard of them.",
+      "art": {
+        "prompt": "A tall pirate ship with tattered black sails gliding through misty moonlit Caribbean waters, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/pirates-and-treasure--parley.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This tentacle-bearded captain of the Flying Dutchman keeps his heart locked in a chest.",
+          "answer": "Davy Jones",
+          "accept": [
+            "davy jones",
+            "davey jones"
+          ],
+          "choices": [
+            "Davy Jones",
+            "Captain Salazar",
+            "Blackbeard",
+            "Hector Barbossa"
+          ],
+          "reveal": "[excited] The correct answer is Davy Jones! He plays the pipe organ with his tentacles. [laughs] Talented guy.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "At the start of The Curse of the Black Pearl, Will Turner works at this trade.",
+          "answer": "Blacksmith",
+          "accept": [
+            "blacksmith",
+            "a blacksmith",
+            "smith",
+            "swordsmith"
+          ],
+          "choices": [
+            "Blacksmith",
+            "Shipwright",
+            "Cooper",
+            "Carpenter"
+          ],
+          "reveal": "The correct answer is a blacksmith! He practices sword fighting three hours a day. [chuckles] Jack tells him he needs to get out more.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Barbossa's cursed crew are revealed as skeletons whenever they step into this.",
+          "answer": "Moonlight",
+          "accept": [
+            "moonlight",
+            "moon light",
+            "the moonlight"
+          ],
+          "choices": [
+            "Moonlight",
+            "Sunlight",
+            "Seawater",
+            "Fog"
+          ],
+          "reveal": "The correct answer is moonlight! You best start believing in ghost stories, Miss Turner. You're in one.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "This Rolling Stones guitarist plays Jack Sparrow's father, Captain Teague.",
+          "answer": "Keith Richards",
+          "accept": [
+            "keith richards"
+          ],
+          "choices": [
+            "Keith Richards",
+            "Mick Jagger",
+            "Ron Wood",
+            "Paul McCartney"
+          ],
+          "reveal": "[gasps] The correct answer is Keith Richards! Johnny Depp based Jack partly on him, so it was the perfect bit of casting.",
+          "dailyDouble": true
+        },
+        {
+          "value": 1000,
+          "clue": "This East India Trading Company lord makes Davy Jones and the pirates miserable in Dead Man's Chest and At World's End.",
+          "answer": "Cutler Beckett",
+          "accept": [
+            "cutler beckett",
+            "beckett",
+            "lord beckett",
+            "lord cutler beckett"
+          ],
+          "choices": [
+            "Cutler Beckett",
+            "Governor Swann",
+            "James Norrington",
+            "Ian Mercer"
+          ],
+          "reveal": "The correct answer is Lord Cutler Beckett. 'It's just good business,' he says, right before his ship explodes. [chuckles]",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "scallywags",
+      "title": "Scallywags",
+      "kind": "theme",
+      "intro": "Pirates sail all over the Disney universe. Let's meet the other scallywags.",
+      "art": {
+        "prompt": "A rocky island lagoon with a skull-shaped rock, a small rowboat and a treasure map pinned to a palm tree, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/pirates-and-treasure--scallywags.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Captain Hook's hand was eaten by this animal, which now follows him around ticking.",
+          "answer": "Crocodile",
+          "accept": [
+            "crocodile",
+            "a crocodile",
+            "croc",
+            "the crocodile",
+            "tick tock the crocodile",
+            "tick-tock"
+          ],
+          "choices": [
+            "Crocodile",
+            "Shark",
+            "Alligator",
+            "Whale"
+          ],
+          "reveal": "[laughs] The correct answer is a crocodile! He swallowed a clock, so you can always hear him coming. Tick tock.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "In Treasure Planet, Jim Hawkins befriends this half-robot cook, the ship's secret pirate.",
+          "answer": "John Silver",
+          "accept": [
+            "john silver",
+            "long john silver",
+            "silver"
+          ],
+          "choices": [
+            "John Silver",
+            "Captain Flint",
+            "Scroop",
+            "Billy Bones"
+          ],
+          "reveal": "The correct answer is John Silver! A space version of Long John Silver, with a pet blob named Morph.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "In this Disney Junior series, a young pirate crew in Never Land keeps outsmarting Captain Hook.",
+          "answer": "Jake and the Never Land Pirates",
+          "accept": [
+            "jake and the never land pirates",
+            "jake",
+            "jake and the neverland pirates"
+          ],
+          "choices": [
+            "Jake and the Never Land Pirates",
+            "Pirate Pals of Never Land",
+            "The Pirate Fairy",
+            "Peter Pan and the Pirates"
+          ],
+          "reveal": "The correct answer is Jake and the Never Land Pirates! Yo ho, let's go! Gold doubloons for everyone.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In Moana, these tiny coconut-armored pirates attack Moana and Maui's canoe.",
+          "answer": "Kakamora",
+          "accept": [
+            "kakamora",
+            "kakamoras",
+            "the kakamora"
+          ],
+          "choices": [
+            "Kakamora",
+            "Tamatoa",
+            "Menehune",
+            "Tiki Pirates"
+          ],
+          "reveal": "The correct answer is the Kakamora! [laughs] Cute little coconuts... with blow darts.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "In Treasure Planet, Jim sails across the galaxy aboard this solar-sail ship.",
+          "answer": "RLS Legacy",
+          "accept": [
+            "rls legacy",
+            "legacy",
+            "the legacy",
+            "the rls legacy"
+          ],
+          "choices": [
+            "RLS Legacy",
+            "The Galleon Nova",
+            "The Etherium",
+            "The Benbow"
+          ],
+          "reveal": "The correct answer is the RLS Legacy! RLS stands for Robert Louis Stevenson, author of Treasure Island. [chuckles] Clever.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "x-marks-the-zoom",
+      "title": "X Marks the Zoom",
+      "kind": "media",
+      "intro": "Zoom category! We start close on a treasured object. Name the Disney film it comes from.",
+      "art": {
+        "prompt": "An old parchment treasure map with a red X, a brass spyglass and a compass on a wooden captain's desk lit by a lantern, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/pirates-and-treasure--x-marks-the-zoom.jpg"
+      },
+      "format": "zoom",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This object comes from which Disney film?",
+          "answer": "Peter Pan",
+          "accept": [
+            "peter pan",
+            "return to never land"
+          ],
+          "choices": [
+            "Peter Pan",
+            "The Little Mermaid",
+            "Treasure Planet",
+            "Pinocchio"
+          ],
+          "reveal": "[excited] The correct answer is Peter Pan! That shiny hook and feathered hat belong to Captain Hook.",
+          "media": {
+            "type": "image",
+            "prompt": "A shiny silver hook prosthetic and a large red feathered captain's hat on a ship's deck, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
+            "file": "media/pirates-and-treasure--x-marks-the-zoom-200.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "This object comes from which film franchise?",
+          "answer": "Pirates of the Caribbean",
+          "accept": [
+            "pirates of the caribbean",
+            "pirates",
+            "potc"
+          ],
+          "choices": [
+            "Pirates of the Caribbean",
+            "Treasure Planet",
+            "Muppet Treasure Island",
+            "Peter Pan"
+          ],
+          "reveal": "The correct answer is Pirates of the Caribbean! Jack's compass doesn't point north. It points to what you want most.",
+          "media": {
+            "type": "image",
+            "prompt": "An antique wooden pocket compass with its lid open and the needle spinning, lying on a sandy beach, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
+            "file": "media/pirates-and-treasure--x-marks-the-zoom-400.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "This treasure comes from which Disney film?",
+          "answer": "Moana",
+          "accept": [
+            "moana"
+          ],
+          "choices": [
+            "Moana",
+            "Raya and the Last Dragon",
+            "Lilo & Stitch",
+            "Encanto"
+          ],
+          "reveal": "The correct answer is Moana! The heart of Te Fiti. [gasps] Maui stole it, and it started all the trouble.",
+          "media": {
+            "type": "image",
+            "prompt": "A small smooth green stone with a glowing spiral pattern resting in an open palm-sized seashell by the ocean, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
+            "file": "media/pirates-and-treasure--x-marks-the-zoom-600.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "This treasure comes from which Disney film?",
+          "answer": "Treasure Planet",
+          "accept": [
+            "treasure planet"
+          ],
+          "choices": [
+            "Treasure Planet",
+            "Atlantis: The Lost Empire",
+            "Lightyear",
+            "Meet the Robinsons"
+          ],
+          "reveal": "The correct answer is Treasure Planet! That golden sphere projects a holographic star map. Way cooler than a paper one.",
+          "media": {
+            "type": "image",
+            "prompt": "A small golden sphere covered in intricate etched rings, glowing and projecting green holographic stars above it, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
+            "file": "media/pirates-and-treasure--x-marks-the-zoom-800.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "This treasure comes from which Disney film?",
+          "answer": "The Rescuers",
+          "accept": [
+            "the rescuers",
+            "rescuers"
+          ],
+          "choices": [
+            "The Rescuers",
+            "The Great Mouse Detective",
+            "Oliver & Company",
+            "The Fox and the Hound"
+          ],
+          "reveal": "The correct answer is The Rescuers! That's the Devil's Eye diamond, hidden in a skull in a flooded pirate cave. [whispers] Nerd points for you.",
+          "media": {
+            "type": "image",
+            "prompt": "A huge glittering diamond wedged inside the mouth of a stone skull in a dark flooded cave, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
+            "file": "media/pirates-and-treasure--x-marks-the-zoom-1000.jpg"
+          },
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "dead-men-tell-no-tales",
+      "title": "Dead Men Tell No Tales",
+      "kind": "parks",
+      "intro": "To the parks! Real photos of pirate places around the Disney parks. Keep your hands inside the boat.",
+      "art": {
+        "prompt": "A lantern-lit boat dock in a misty bayou at night, fireflies glowing and an old wooden rowboat waiting, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/pirates-and-treasure--dead-men-tell-no-tales.jpg"
+      },
+      "format": "picture",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This classic boat ride, seen here, opened at Disneyland in 1967. Name it.",
+          "answer": "Pirates of the Caribbean",
+          "accept": [
+            "pirates of the caribbean",
+            "pirates",
+            "pirates of the caribbean ride",
+            "potc"
+          ],
+          "choices": [
+            "Pirates of the Caribbean",
+            "Jungle Cruise",
+            "Haunted Mansion",
+            "Splash Mountain"
+          ],
+          "reveal": "[excited] The correct answer is Pirates of the Caribbean! It was the last ride Walt Disney personally oversaw. He died three months before it opened.",
+          "media": {
+            "type": "image",
+            "file": "media/pirates-and-treasure--dead-men-tell-no-tales-200.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Disneyland_Pirates_of_the_Caribbean_-_panoramio.jpg",
+              "license": "CC BY-SA 3.0",
+              "author": "Steve D"
+            }
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Walt himself designed this river island, which got a pirate makeover at Disneyland in 2007 as Pirate's Lair. Name it.",
+          "answer": "Tom Sawyer Island",
+          "accept": [
+            "tom sawyer island",
+            "pirate's lair on tom sawyer island",
+            "tom sawyer's island",
+            "tom sawyers island"
+          ],
+          "choices": [
+            "Tom Sawyer Island",
+            "Treasure Island",
+            "Discovery Island",
+            "Skull Rock"
+          ],
+          "reveal": "The correct answer is Tom Sawyer Island! [chuckles] Rafts only. No swimming, no matter how pirate you feel.",
+          "media": {
+            "type": "image",
+            "file": "media/pirates-and-treasure--dead-men-tell-no-tales-400.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Tom_Sawyer_Island_-_panoramio.jpg",
+              "license": "CC BY 3.0",
+              "author": "Evan Nichols (Virtua…"
+            }
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "This pirate-themed land, with a full-size ship in its harbor, opened in 2016 at which Disney park?",
+          "answer": "Shanghai Disneyland",
+          "accept": [
+            "shanghai disneyland",
+            "shanghai",
+            "shanghai disney",
+            "shanghai disney resort"
+          ],
+          "choices": [
+            "Shanghai Disneyland",
+            "Tokyo DisneySea",
+            "Hong Kong Disneyland",
+            "Disneyland Paris"
+          ],
+          "reveal": "The correct answer is Shanghai Disneyland! Treasure Cove is home to Pirates of the Caribbean: Battle for the Sunken Treasure.",
+          "media": {
+            "type": "image",
+            "file": "media/pirates-and-treasure--dead-men-tell-no-tales-600.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Treasure_Cove_at_Shanghai_Disneyland_Park.jpg",
+              "license": "CC BY-SA 4.0",
+              "author": "Jedi94"
+            }
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Disneyland Paris's Pirates of the Caribbean, seen here, sails in this land, home of Skull Rock too.",
+          "answer": "Adventureland",
+          "accept": [
+            "adventureland",
+            "adventure land"
+          ],
+          "choices": [
+            "Adventureland",
+            "Frontierland",
+            "New Orleans Square",
+            "Fantasyland"
+          ],
+          "reveal": "The correct answer is Adventureland! It opened with the park in 1992. [laughs] Same pirates, but with better croissants nearby.",
+          "media": {
+            "type": "image",
+            "file": "media/pirates-and-treasure--dead-men-tell-no-tales-800.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Pirates_of_the_Caribbean_Disneyland_Paris.JPG",
+              "license": "CC BY-SA 3.0",
+              "author": "Gian94g"
+            }
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Magic Kingdom's Pirates fortress, seen here, is inspired by El Morro, a real fort in this Caribbean city.",
+          "answer": "San Juan, Puerto Rico",
+          "accept": [
+            "san juan, puerto rico",
+            "old san juan",
+            "puerto rico",
+            "san juan",
+            "san juan puerto rico"
+          ],
+          "choices": [
+            "San Juan, Puerto Rico",
+            "Havana, Cuba",
+            "Nassau, Bahamas",
+            "Cartagena, Colombia"
+          ],
+          "reveal": "[gasps] The correct answer is San Juan, Puerto Rico! The real Castillo San Felipe del Morro dates to the 1500s. History and pirates!",
+          "media": {
+            "type": "image",
+            "file": "media/pirates-and-treasure--dead-men-tell-no-tales-1000.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Pirates_of_the_Caribbean_Magic_Kingdom.JPG",
+              "license": "Public domain",
+              "author": "Malpass93"
+            }
+          },
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "ahoy-hollywood",
+      "title": "Ahoy, Hollywood!",
+      "kind": "fan",
+      "intro": "Our fan category is all about the stars who played pirates. [chuckles] Name the actor.",
+      "art": {
+        "prompt": "A dark theater stage dressed as a pirate ship deck, a spotlight on a treasure chest and an empty director's chair, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/pirates-and-treasure--ahoy-hollywood.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This actor swaggers through the Pirates films as Captain Jack Sparrow.",
+          "answer": "Johnny Depp",
+          "accept": [
+            "johnny depp",
+            "depp"
+          ],
+          "choices": [
+            "Johnny Depp",
+            "Orlando Bloom",
+            "Geoffrey Rush",
+            "Jude Law"
+          ],
+          "reveal": "[excited] The correct answer is Johnny Depp! He earned an Oscar nomination for the very first film.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "This actress plays Elizabeth Swann.",
+          "answer": "Keira Knightley",
+          "accept": [
+            "keira knightley",
+            "keira knightly",
+            "kiera knightley",
+            "knightley"
+          ],
+          "choices": [
+            "Keira Knightley",
+            "Natalie Portman",
+            "Kaya Scodelario",
+            "Penélope Cruz"
+          ],
+          "reveal": "The correct answer is Keira Knightley! She was only 17 when the first film was shot.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "This actor plays the blacksmith-turned-pirate Will Turner.",
+          "answer": "Orlando Bloom",
+          "accept": [
+            "orlando bloom",
+            "bloom"
+          ],
+          "choices": [
+            "Orlando Bloom",
+            "Brenton Thwaites",
+            "Jack Davenport",
+            "Elijah Wood"
+          ],
+          "reveal": "The correct answer is Orlando Bloom! He went from an elf in Middle-earth straight to the high seas.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "This British actor gives voice and motion capture to Davy Jones.",
+          "answer": "Bill Nighy",
+          "accept": [
+            "bill nighy",
+            "nighy"
+          ],
+          "choices": [
+            "Bill Nighy",
+            "Ian McShane",
+            "Stellan Skarsgård",
+            "Tom Hollander"
+          ],
+          "reveal": "The correct answer is Bill Nighy! He wore a gray motion-capture suit with dots on it. [laughs] Very glamorous.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "In Dead Men Tell No Tales, this Oscar winner plays the ghostly Captain Salazar.",
+          "answer": "Javier Bardem",
+          "accept": [
+            "javier bardem",
+            "bardem"
+          ],
+          "choices": [
+            "Javier Bardem",
+            "Antonio Banderas",
+            "Benicio del Toro",
+            "Ian McShane"
+          ],
+          "reveal": "The correct answer is Javier Bardem! His hair floats like he's always underwater. [whispers] Creepy.",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}

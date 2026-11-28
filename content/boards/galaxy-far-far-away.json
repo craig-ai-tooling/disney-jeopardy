@@ -1,0 +1,609 @@
+{
+  "id": "galaxy-far-far-away",
+  "title": "May the Force Be With You",
+  "theme": "Star Wars",
+  "tags": [
+    "star-wars",
+    "space",
+    "parks"
+  ],
+  "intro": "[excited] Welcome in, younglings, to a Disney Jeopardy that is out of this world! Tonight we jump to lightspeed for Star Wars, from the films to Galaxy's Edge. Buckle up, and may the Force be with you... you're gonna need it.",
+  "art": {
+    "prompt": "A desert spaceport at dusk under two setting suns, weathered domed buildings, distant starships and glowing landing lights against a starry purple sky, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+    "file": "media/galaxy-far-far-away.jpg"
+  },
+  "categories": [
+    {
+      "id": "skywalker-saga",
+      "title": "The Skywalker Saga",
+      "kind": "film",
+      "intro": "We start with the films that started it all. [chuckles] Do or do not, there is no try.",
+      "art": {
+        "prompt": "A swampy misty planet with gnarled trees and a small mud hut glowing warmly, a crashed starfighter half sunk in the bog, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/galaxy-far-far-away--skywalker-saga.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This tiny green Jedi Master trains Luke Skywalker on the swamp planet Dagobah.",
+          "answer": "Yoda",
+          "accept": [
+            "yoda",
+            "master yoda"
+          ],
+          "choices": [
+            "Yoda",
+            "Obi-Wan Kenobi",
+            "Mace Windu",
+            "Qui-Gon Jinn"
+          ],
+          "reveal": "[excited] The correct answer is Yoda! Nine hundred years old, he is. And still beats everyone at hide and seek.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "In The Empire Strikes Back, Han Solo is frozen solid in this substance on Cloud City.",
+          "answer": "Carbonite",
+          "accept": [
+            "carbonite",
+            "carbon freeze",
+            "carbonite freeze"
+          ],
+          "choices": [
+            "Carbonite",
+            "Beskar",
+            "Kyber",
+            "Durasteel"
+          ],
+          "reveal": "The correct answer is carbonite. Leia asks if he's alive. Lando says he's in perfect hibernation. [laughs] Worst nap ever.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Princess Leia hides the stolen Death Star plans inside this little blue-and-white droid.",
+          "answer": "R2-D2",
+          "accept": [
+            "r2-d2",
+            "artoo",
+            "artoo-detoo",
+            "r2",
+            "r2 d2",
+            "r2d2"
+          ],
+          "choices": [
+            "R2-D2",
+            "C-3PO",
+            "BB-8",
+            "K-2SO"
+          ],
+          "reveal": "The correct answer is R2-D2! Help me, Obi-Wan Kenobi, you're my only hope. And that hologram started a whole galaxy of adventures.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "During the attack on the first Death Star, Luke Skywalker flies his X-wing under this call sign.",
+          "answer": "Red Five",
+          "accept": [
+            "red five",
+            "red 5"
+          ],
+          "choices": [
+            "Red Five",
+            "Gold Leader",
+            "Red Leader",
+            "Rogue One"
+          ],
+          "reveal": "[gasps] The correct answer is Red Five! Red Five, standing by. Use the Force, Luke... and turn off that targeting computer.",
+          "dailyDouble": true
+        },
+        {
+          "value": 1000,
+          "clue": "In The Phantom Menace, young Anakin wins his freedom by winning this podrace on Tatooine.",
+          "answer": "Boonta Eve Classic",
+          "accept": [
+            "boonta eve classic",
+            "boonta",
+            "boonta eve",
+            "boonta eve race",
+            "the boonta eve classic"
+          ],
+          "choices": [
+            "Boonta Eve Classic",
+            "Mos Espa Grand Arena",
+            "Kessel Run",
+            "Hutt Flats Derby"
+          ],
+          "reveal": "The correct answer is the Boonta Eve Classic! Now THIS is podracing. [laughs] Sebulba is still mad about it.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "droids-and-dewbacks",
+      "title": "Droids and Dewbacks",
+      "kind": "theme",
+      "intro": "Next up, the droids, critters and creatures of a galaxy far, far away. [chuckles] These ARE the droids you're looking for.",
+      "art": {
+        "prompt": "A cluttered junkyard workshop on a desert planet filled with scrap metal parts, oil cans and a small round droid-shaped silhouette under a tarp, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/galaxy-far-far-away--droids-and-dewbacks.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This golden protocol droid is R2-D2's fussy best friend.",
+          "answer": "C-3PO",
+          "accept": [
+            "c-3po",
+            "c 3po",
+            "c3po",
+            "see-threepio",
+            "threepio"
+          ],
+          "choices": [
+            "C-3PO",
+            "K-2SO",
+            "BB-8",
+            "IG-11"
+          ],
+          "reveal": "[excited] The correct answer is C-3PO! We're doomed, he says, every single movie. And yet, somehow, he always makes it.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "This orange-and-white droid rolls around like a ball in The Force Awakens.",
+          "answer": "BB-8",
+          "accept": [
+            "bb-8",
+            "bb 8",
+            "bb8",
+            "beebee-ate"
+          ],
+          "choices": [
+            "BB-8",
+            "D-O",
+            "R5-D4",
+            "Chopper"
+          ],
+          "reveal": "The correct answer is BB-8! [laughs] He gave a thumbs up with a lighter. Best droid moment ever.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "These big-eyed little sea birds live on Ahch-To, the island where Rey finds Luke in The Last Jedi.",
+          "answer": "Porgs",
+          "accept": [
+            "porgs",
+            "porg"
+          ],
+          "choices": [
+            "Porgs",
+            "Ewoks",
+            "Jawas",
+            "Convor"
+          ],
+          "reveal": "The correct answer is porgs! They were added partly because the real island was full of puffins. [chuckles] Chewie felt very guilty about that roast.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Luke battles this giant beast in the pit beneath Jabba's palace.",
+          "answer": "Rancor",
+          "accept": [
+            "rancor",
+            "a rancor",
+            "the rancor"
+          ],
+          "choices": [
+            "Rancor",
+            "Wampa",
+            "Sarlacc",
+            "Krayt dragon"
+          ],
+          "reveal": "The correct answer is the rancor! [gasps] Luke drops the gate on it, and its keeper cries real tears. Poor guy.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "In the Great Pit of Carkoon, Boba Fett tumbles into the mouth of this many-tentacled creature.",
+          "answer": "Sarlacc",
+          "accept": [
+            "sarlacc",
+            "sarlacc pit",
+            "the sarlacc"
+          ],
+          "choices": [
+            "Sarlacc",
+            "Exogorth",
+            "Rathtar",
+            "Dianoga"
+          ],
+          "reveal": "The correct answer is the sarlacc! It digests you for a thousand years. [laughs] Spoiler, Boba escapes anyway.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "galactic-close-ups",
+      "title": "Galactic Close-Ups",
+      "kind": "media",
+      "intro": "Time for a zoom category! We start in tight and pull back. Name what you see, Jedi.",
+      "art": {
+        "prompt": "A starship cockpit viewport looking out at swirling hyperspace streaks of blue and white light, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/galaxy-far-far-away--galactic-close-ups.jpg"
+      },
+      "format": "zoom",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "We're zoomed in on a famous weapon. What is it?",
+          "answer": "Lightsaber",
+          "accept": [
+            "lightsaber",
+            "a lightsaber",
+            "laser sword",
+            "light saber"
+          ],
+          "choices": [
+            "Lightsaber",
+            "Blaster",
+            "Electrostaff",
+            "Vibroblade"
+          ],
+          "reveal": "[excited] The correct answer is a lightsaber! An elegant weapon, for a more civilized age. Vwoom.",
+          "media": {
+            "type": "image",
+            "prompt": "A glowing blue laser sword with a silver metal hilt, ignited in a dark room, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
+            "file": "media/galaxy-far-far-away--galactic-close-ups-200.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "We're zooming in on a famous planet. Name it.",
+          "answer": "Tatooine",
+          "accept": [
+            "tatooine",
+            "tattooine"
+          ],
+          "choices": [
+            "Tatooine",
+            "Jakku",
+            "Geonosis",
+            "Jedha"
+          ],
+          "reveal": "The correct answer is Tatooine! Two suns, endless sand, and Luke staring at that sunset like a teenager with big dreams.",
+          "media": {
+            "type": "image",
+            "prompt": "Two suns setting side by side over a vast sand desert with a lone domed hut and a tall moisture vaporator tower, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
+            "file": "media/galaxy-far-far-away--galactic-close-ups-400.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Zooming in on a frozen world. Name this planet.",
+          "answer": "Hoth",
+          "accept": [
+            "hoth",
+            "planet hoth"
+          ],
+          "choices": [
+            "Hoth",
+            "Ilum",
+            "Starkiller Base",
+            "Crait"
+          ],
+          "reveal": "The correct answer is Hoth! [chuckles] The Rebels picked the coldest planet in the galaxy for a secret base. Bring a tauntaun.",
+          "media": {
+            "type": "image",
+            "prompt": "A frozen white snowfield with ice caves, trenches dug in the snow and distant snowy mountains under a pale sky, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
+            "file": "media/galaxy-far-far-away--galactic-close-ups-600.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Zooming in on a forest moon. Where are we?",
+          "answer": "Endor",
+          "accept": [
+            "endor",
+            "forest moon of endor",
+            "the forest moon of endor"
+          ],
+          "choices": [
+            "Endor",
+            "Kashyyyk",
+            "Yavin 4",
+            "Felucia"
+          ],
+          "reveal": "The correct answer is the forest moon of Endor! Those treetop villages belong to the Ewoks. Yub nub!",
+          "media": {
+            "type": "image",
+            "prompt": "Giant redwood forest with small wooden huts built high in the treetops connected by rope bridges, glowing campfires, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
+            "file": "media/galaxy-far-far-away--galactic-close-ups-800.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Zooming in on the heart of every lightsaber. What are these?",
+          "answer": "Kyber crystals",
+          "accept": [
+            "kyber crystals",
+            "kyber",
+            "kyber crystal"
+          ],
+          "choices": [
+            "Kyber crystals",
+            "Beskar ingots",
+            "Coaxium",
+            "Aurodium"
+          ],
+          "reveal": "The correct answer is kyber crystals! They power lightsabers, and the Death Star too. [whispers] Very rare. Very shiny.",
+          "media": {
+            "type": "image",
+            "prompt": "A cluster of glowing translucent blue crystals in a dark cave wall, sparkling with inner light, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
+            "file": "media/galaxy-far-far-away--galactic-close-ups-1000.jpg"
+          },
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "batuu-bound",
+      "title": "Batuu Bound",
+      "kind": "parks",
+      "intro": "Now to the parks! Real photos from Star Wars in the Disney parks. [excited] Name what you're looking at.",
+      "art": {
+        "prompt": "Rocky spires of a distant alien outpost towering over a crowded open-air marketplace at sunset, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/galaxy-far-far-away--batuu-bound.jpg"
+      },
+      "format": "picture",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In this Galaxy's Edge attraction, guests are captured by the First Order aboard a Star Destroyer and must escape. Name it.",
+          "answer": "Star Wars: Rise of the Resistance",
+          "accept": [
+            "star wars: rise of the resistance",
+            "rise of resistance",
+            "rise of the resistance",
+            "rotr"
+          ],
+          "choices": [
+            "Star Wars: Rise of the Resistance",
+            "Millennium Falcon: Smugglers Run",
+            "Star Tours",
+            "Hyperspace Mountain"
+          ],
+          "reveal": "The correct answer is Rise of the Resistance! [gasps] That hangar is lined with dozens of stormtroopers. Real ones? Well, sort of.",
+          "media": {
+            "type": "image",
+            "file": "media/galaxy-far-far-away--batuu-bound-200.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Rise_of_the_Resistance_at_Disneyland_01.jpg",
+              "license": "CC BY 4.0",
+              "author": "Ryan Dickey"
+            }
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "This motion simulator, seen here, was Disneyland's first Star Wars attraction, opening in 1987. Name it.",
+          "answer": "Star Tours",
+          "accept": [
+            "star tours",
+            "star tours the adventures continue",
+            "star tours: the adventures continue"
+          ],
+          "choices": [
+            "Star Tours",
+            "Hyperspace Mountain",
+            "Rise of the Resistance",
+            "Smugglers Run"
+          ],
+          "reveal": "The correct answer is Star Tours! It opened in 1987, and today's version, The Adventures Continue, sends you somewhere different nearly every ride.",
+          "media": {
+            "type": "image",
+            "file": "media/galaxy-far-far-away--batuu-bound-400.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Star_Tours_%E2%80%93_The_Adventures_Continue_(Disneyland)_1.jpg",
+              "license": "CC BY 2.0",
+              "author": "HarshLight"
+            }
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "This Black Spire Outpost watering hole, with a droid DJ inside, is where Galaxy's Edge guests sip colorful drinks. Name it.",
+          "answer": "Oga's Cantina",
+          "accept": [
+            "oga's cantina",
+            "oga's",
+            "ogas cantina",
+            "the cantina"
+          ],
+          "choices": [
+            "Oga's Cantina",
+            "Docking Bay 7",
+            "Ronto Roasters",
+            "Kat Saka's Kettle"
+          ],
+          "reveal": "The correct answer is Oga's Cantina! [laughs] Run by a crime boss, but somehow the reservations still fill up fast.",
+          "media": {
+            "type": "image",
+            "file": "media/galaxy-far-far-away--batuu-bound-600.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Oga%27s_Cantina.jpg",
+              "license": "CC BY-SA 4.0",
+              "author": "Bluesnote"
+            }
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Galaxy's Edge opened at Disneyland in May 2019, then three months later at this Walt Disney World park, seen here.",
+          "answer": "Disney's Hollywood Studios",
+          "accept": [
+            "disney's hollywood studios",
+            "dhs",
+            "disneys hollywood studios",
+            "hollywood studios"
+          ],
+          "choices": [
+            "Disney's Hollywood Studios",
+            "EPCOT",
+            "Magic Kingdom",
+            "Disney's Animal Kingdom"
+          ],
+          "reveal": "The correct answer is Disney's Hollywood Studios! The Florida version opened on August 29, 2019. Same Batuu, more humidity.",
+          "media": {
+            "type": "image",
+            "file": "media/galaxy-far-far-away--batuu-bound-800.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Star_Wars,_Galaxy%27s_Edge_at_WDW.jpg",
+              "license": "CC BY-SA 4.0",
+              "author": "Jedi94"
+            }
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "The two-night Star Wars: Galactic Starcruiser 'hotel' at Walt Disney World sailed from 2022 to 2023 aboard this starcruiser. Name it.",
+          "answer": "The Halcyon",
+          "accept": [
+            "the halcyon",
+            "halcyon"
+          ],
+          "choices": [
+            "The Halcyon",
+            "The Chandrila Star",
+            "The Valiant",
+            "The Corellian Dawn"
+          ],
+          "reveal": "The correct answer is the Halcyon! It ran from March 2022 to September 2023. [sighs] A very short voyage for a very expensive ticket.",
+          "media": {
+            "type": "image",
+            "file": "media/galaxy-far-far-away--batuu-bound-1000.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Star_Wars_Galactic_Starcruiser_Sign_(52916145545).jpg",
+              "license": "CC BY 2.0",
+              "author": "Steven Miller"
+            }
+          },
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "this-is-the-way",
+      "title": "This Is the Way",
+      "kind": "fan",
+      "intro": "Our fan category takes us to the Disney Plus era of Star Wars. [chuckles] This is the way.",
+      "art": {
+        "prompt": "A lone silver helmet resting on a rock beside a campfire on a misty alien world, a small cradle-shaped pod floating nearby, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/galaxy-far-far-away--this-is-the-way.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Mandalorians, and fans everywhere, finish this creed: 'This is the...'",
+          "answer": "Way",
+          "accept": [
+            "way",
+            "the way",
+            "this is the way"
+          ],
+          "choices": [
+            "Way",
+            "Force",
+            "Path",
+            "Rule"
+          ],
+          "reveal": "[excited] The correct answer is the Way! This is the way. I have spoken.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Diego Luna plays this rebel spy in Rogue One and in his own Disney Plus series.",
+          "answer": "Cassian Andor",
+          "accept": [
+            "cassian andor",
+            "andor",
+            "cassian"
+          ],
+          "choices": [
+            "Cassian Andor",
+            "Poe Dameron",
+            "Galen Erso",
+            "Saw Gerrera"
+          ],
+          "reveal": "The correct answer is Cassian Andor! His show earned huge praise for its grown-up spy-thriller vibe.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "In Rogue One, the rebels steal the plans to this superweapon.",
+          "answer": "The Death Star",
+          "accept": [
+            "the death star",
+            "death star",
+            "death star plans"
+          ],
+          "choices": [
+            "The Death Star",
+            "Starkiller Base",
+            "The Executor",
+            "The Eclipse"
+          ],
+          "reveal": "The correct answer is the Death Star! Rogue One ends minutes before A New Hope begins. [gasps] And that Vader hallway scene!",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Before her own series, Ahsoka Tano served Anakin Skywalker as this rank of Jedi apprentice.",
+          "answer": "Padawan",
+          "accept": [
+            "padawan",
+            "a padawan",
+            "apprentice",
+            "padawan learner"
+          ],
+          "choices": [
+            "Padawan",
+            "Youngling",
+            "Initiate",
+            "Knight"
+          ],
+          "reveal": "The correct answer is Padawan! Anakin called her Snips. She called him Skyguy. [laughs] Adorable.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Din Djarin's shiny armor is forged from this nearly indestructible Mandalorian metal.",
+          "answer": "Beskar",
+          "accept": [
+            "beskar",
+            "beskar steel",
+            "mandalorian steel"
+          ],
+          "choices": [
+            "Beskar",
+            "Cortosis",
+            "Phrik",
+            "Durasteel"
+          ],
+          "reveal": "The correct answer is beskar! It can even shrug off a lightsaber hit. [chuckles] Worth every bounty.",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}

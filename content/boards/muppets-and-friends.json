@@ -1,0 +1,587 @@
+{
+  "id": "muppets-and-friends",
+  "title": "Muppets and Friends",
+  "theme": "The Muppets",
+  "tags": [
+    "muppets",
+    "music",
+    "parks"
+  ],
+  "intro": "[excited] It's time to play the music! It's time to light the lights! Welcome to the Muppets edition of Disney Jeopardy! [laughs] Tonight we've got frogs, pigs, bears, and a whatever-Gonzo-is. Let's get things started!",
+  "art": {
+    "prompt": "A grand old red-curtained vaudeville theater stage with footlights glowing, a banjo on a stool and confetti in the air, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+    "file": "media/muppets-and-friends.jpg"
+  },
+  "categories": [
+    {
+      "id": "muppets-at-the-movies",
+      "title": "Muppets at the Movies",
+      "kind": "film",
+      "intro": "We start with the Muppets on the big screen. [chuckles] Popcorn ready?",
+      "art": {
+        "prompt": "A quiet swamp at sunset with a banjo leaning against a log, fireflies and a rainbow arching over the water, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/muppets-and-friends--muppets-at-the-movies.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Kermit sings this song on a log in a swamp at the start of The Muppet Movie.",
+          "answer": "Rainbow Connection",
+          "accept": [
+            "rainbow connection",
+            "the rainbow connection"
+          ],
+          "choices": [
+            "Rainbow Connection",
+            "Movin' Right Along",
+            "Life's a Happy Song",
+            "Pictures in My Head"
+          ],
+          "reveal": "[excited] The correct answer is Rainbow Connection! The lovers, the dreamers, and me. It earned an Oscar nomination.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "This British actor plays Ebenezer Scrooge in The Muppet Christmas Carol.",
+          "answer": "Michael Caine",
+          "accept": [
+            "michael caine",
+            "caine"
+          ],
+          "choices": [
+            "Michael Caine",
+            "Patrick Stewart",
+            "Tim Curry",
+            "Anthony Hopkins"
+          ],
+          "reveal": "The correct answer is Michael Caine! He played it completely straight, as if the Muppets were real actors. [laughs] Legend.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "In 2011's The Muppets, this actor plays Gary, the human brother of Muppet superfan Walter.",
+          "answer": "Jason Segel",
+          "accept": [
+            "jason segel",
+            "segel"
+          ],
+          "choices": [
+            "Jason Segel",
+            "Paul Rudd",
+            "Jack Black",
+            "Ricky Gervais"
+          ],
+          "reveal": "The correct answer is Jason Segel! He co-wrote the movie too. A true Muppet fan.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In The Muppet Christmas Carol, Gonzo narrates the story playing this famous author.",
+          "answer": "Charles Dickens",
+          "accept": [
+            "charles dickens",
+            "dickens"
+          ],
+          "choices": [
+            "Charles Dickens",
+            "Mark Twain",
+            "Robert Louis Stevenson",
+            "Hans Christian Andersen"
+          ],
+          "reveal": "The correct answer is Charles Dickens! With Rizzo the Rat as his sidekick. [chuckles] Light the lamp, not the rat!",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "'Man or Muppet' from The Muppets won the Oscar for Best Original Song for this songwriter from Flight of the Conchords.",
+          "answer": "Bret McKenzie",
+          "accept": [
+            "bret mckenzie",
+            "brett mckenzie",
+            "mckenzie"
+          ],
+          "choices": [
+            "Bret McKenzie",
+            "Jemaine Clement",
+            "Paul Williams",
+            "Randy Newman"
+          ],
+          "reveal": "[gasps] The correct answer is Bret McKenzie! An Oscar for a song about whether you're a man or a Muppet. Iconic.",
+          "dailyDouble": true
+        }
+      ]
+    },
+    {
+      "id": "its-the-muppet-show",
+      "title": "It's the Muppet Show!",
+      "kind": "theme",
+      "intro": "Let's meet the cast! [chuckles] Name the Muppet, or the Muppet thing.",
+      "art": {
+        "prompt": "Backstage at an old theater: dressing room mirrors with light bulbs, costume racks, a feather boa and a rubber chicken, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/muppets-and-friends--its-the-muppet-show.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Kermit is this kind of animal.",
+          "answer": "Frog",
+          "accept": [
+            "frog",
+            "a frog"
+          ],
+          "choices": [
+            "Frog",
+            "Toad",
+            "Turtle",
+            "Lizard"
+          ],
+          "reveal": "[excited] The correct answer is a frog! [laughs] It's not easy being green.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "This small green frog is Kermit's nephew.",
+          "answer": "Robin",
+          "accept": [
+            "robin",
+            "robin the frog"
+          ],
+          "choices": [
+            "Robin",
+            "Walter",
+            "Pepe",
+            "Beauregard"
+          ],
+          "reveal": "The correct answer is Robin! He sang 'Halfway Down the Stairs,' and it was a hit.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Fozzie Bear's famous catchphrase.",
+          "answer": "Wocka Wocka",
+          "accept": [
+            "wocka wocka",
+            "wakka wakka",
+            "wocka",
+            "wocka wocka wocka"
+          ],
+          "choices": [
+            "Wocka Wocka",
+            "Yub Nub",
+            "Hi-ya",
+            "Mahna Mahna"
+          ],
+          "reveal": "The correct answer is wocka wocka! [laughs] It's funnier when he says it. Mostly.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "This nervous lab assistant to Dr. Bunsen Honeydew only says 'meep.'",
+          "answer": "Beaker",
+          "accept": [
+            "beaker"
+          ],
+          "choices": [
+            "Beaker",
+            "Sweetums",
+            "Lew Zealand",
+            "Pepe"
+          ],
+          "reveal": "The correct answer is Beaker! Meep meep! [chuckles] Everything in Muppet Labs explodes on him.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "This flamboyant keyboard player leads the Electric Mayhem band.",
+          "answer": "Dr. Teeth",
+          "accept": [
+            "dr. teeth",
+            "doctor teeth",
+            "dr teeth"
+          ],
+          "choices": [
+            "Dr. Teeth",
+            "Floyd Pepper",
+            "Zoot",
+            "Janice"
+          ],
+          "reveal": "The correct answer is Dr. Teeth! Look for that gold tooth. [laughs] The band's drummer is Animal, of course.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "whose-stuff-is-this",
+      "title": "Whose Stuff Is This?",
+      "kind": "media",
+      "intro": "Picture category! Each picture shows something a Muppet owns. Tell me which Muppet.",
+      "art": {
+        "prompt": "A messy backstage prop table covered in hats, a drumstick, a whisk, a tiny cannon and a pearl necklace under a work lamp, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/muppets-and-friends--whose-stuff-is-this.jpg"
+      },
+      "format": "picture",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Whose stuff is this?",
+          "answer": "Miss Piggy",
+          "accept": [
+            "miss piggy",
+            "piggy"
+          ],
+          "choices": [
+            "Miss Piggy",
+            "Janice",
+            "Camilla",
+            "Fozzie Bear"
+          ],
+          "reveal": "[excited] The correct answer is Miss Piggy! Pearls, a tiara, and a karate chop. Hi-ya!",
+          "media": {
+            "type": "image",
+            "prompt": "A sparkling tiara, a pearl necklace and long lavender evening gloves on a pink satin pillow, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
+            "file": "media/muppets-and-friends--whose-stuff-is-this-200.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Whose stuff is this?",
+          "answer": "Fozzie Bear",
+          "accept": [
+            "fozzie bear",
+            "fozzie"
+          ],
+          "choices": [
+            "Fozzie Bear",
+            "Kermit",
+            "Sam Eagle",
+            "Rowlf"
+          ],
+          "reveal": "The correct answer is Fozzie Bear! The little brown hat and the polka-dot tie. [laughs] Wocka wocka!",
+          "media": {
+            "type": "image",
+            "prompt": "A small brown porkpie hat and a pink polka-dot necktie on a stool beside a rubber chicken, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
+            "file": "media/muppets-and-friends--whose-stuff-is-this-400.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Whose stuff is this?",
+          "answer": "Animal",
+          "accept": [
+            "animal"
+          ],
+          "choices": [
+            "Animal",
+            "Floyd Pepper",
+            "Gonzo",
+            "Sweetums"
+          ],
+          "reveal": "The correct answer is Animal! [laughs] Drums! Drums! That chain is there to keep him from running off.",
+          "media": {
+            "type": "image",
+            "prompt": "A battered red drum kit with a heavy iron chain and collar attached, splinters of drumsticks on the floor, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
+            "file": "media/muppets-and-friends--whose-stuff-is-this-600.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Whose stuff is this?",
+          "answer": "Gonzo",
+          "accept": [
+            "gonzo",
+            "the great gonzo"
+          ],
+          "choices": [
+            "Gonzo",
+            "Rizzo",
+            "Scooter",
+            "Pepe"
+          ],
+          "reveal": "The correct answer is the Great Gonzo! A daredevil who loves chickens and getting shot out of cannons.",
+          "media": {
+            "type": "image",
+            "prompt": "A circus cannon pointing at a target, with a nest of rubber chickens and a daredevil cape beside it, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
+            "file": "media/muppets-and-friends--whose-stuff-is-this-800.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Whose stuff is this?",
+          "answer": "The Swedish Chef",
+          "accept": [
+            "the swedish chef",
+            "swedish chef",
+            "the chef"
+          ],
+          "choices": [
+            "The Swedish Chef",
+            "Beaker",
+            "Dr. Bunsen Honeydew",
+            "Uncle Deadly"
+          ],
+          "reveal": "The correct answer is the Swedish Chef! Bork bork bork! [laughs] Meatballs are flying.",
+          "media": {
+            "type": "image",
+            "prompt": "A tall white chef's hat, a wooden spoon and a whisk in a cozy Scandinavian kitchen with meatballs flying through the air, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
+            "file": "media/muppets-and-friends--whose-stuff-is-this-1000.jpg"
+          },
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "muppet-courtyard-memories",
+      "title": "Muppet Courtyard Memories",
+      "kind": "parks",
+      "intro": "To the parks! Real photos from the Muppets' home at Walt Disney World. Name what you see.",
+      "art": {
+        "prompt": "A sunny theme park courtyard with brick buildings, a quirky clock tower, a fountain and colorful banners, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/muppets-and-friends--muppet-courtyard-memories.jpg"
+      },
+      "format": "picture",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Muppet*Vision 3D, seen here, opened in 1991 at this Walt Disney World park.",
+          "answer": "Disney's Hollywood Studios",
+          "accept": [
+            "disney's hollywood studios",
+            "dhs",
+            "disney mgm studios",
+            "disney-mgm studios",
+            "hollywood studios",
+            "mgm studios"
+          ],
+          "choices": [
+            "Disney's Hollywood Studios",
+            "EPCOT",
+            "Magic Kingdom",
+            "Disney's Animal Kingdom"
+          ],
+          "reveal": "[excited] The correct answer is Disney's Hollywood Studios! Back then it was called Disney-MGM Studios.",
+          "media": {
+            "type": "image",
+            "file": "media/muppets-and-friends--muppet-courtyard-memories-200.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Muppet*Vision_3D_at_Disney%27s_Hollywood_Studios-_May_2023_(2).JPG",
+              "license": "CC0",
+              "author": "Benoît Prieur"
+            }
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "This Muppets Courtyard pizza spot, seen here, is named after which Muppet?",
+          "answer": "Rizzo the Rat",
+          "accept": [
+            "rizzo the rat",
+            "rizzo"
+          ],
+          "choices": [
+            "Rizzo the Rat",
+            "Pepe the King Prawn",
+            "Gonzo",
+            "Animal"
+          ],
+          "reveal": "The correct answer is Rizzo the Rat! [laughs] Pizza from a rat. Totally sanitary. Probably.",
+          "media": {
+            "type": "image",
+            "file": "media/muppets-and-friends--muppet-courtyard-memories-400.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:PizzeRizzo_(30198101850).jpg",
+              "license": "CC BY 2.0",
+              "author": "Theme Park Tourist"
+            }
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Muppets Courtyard, seen here, is being transformed into a land themed to this Pixar film.",
+          "answer": "Monsters, Inc.",
+          "accept": [
+            "monsters, inc.",
+            "monsters inc",
+            "monsters inc.",
+            "monstropolis"
+          ],
+          "choices": [
+            "Monsters, Inc.",
+            "Toy Story",
+            "Inside Out",
+            "Cars"
+          ],
+          "reveal": "The correct answer is Monsters, Inc.! Muppet*Vision 3D gave its final public show on June 7, 2025. [sighs] So long, old friend.",
+          "media": {
+            "type": "image",
+            "file": "media/muppets-and-friends--muppet-courtyard-memories-600.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Muppets_Courtyard_and_Muppet*Vision_3D.jpg",
+              "license": "CC BY-SA 4.0",
+              "author": "Jedi94"
+            }
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "This Muppets street show, seen here, played outside the Hall of Presidents in which Magic Kingdom land?",
+          "answer": "Liberty Square",
+          "accept": [
+            "liberty square"
+          ],
+          "choices": [
+            "Liberty Square",
+            "Main Street, U.S.A.",
+            "Frontierland",
+            "Adventureland"
+          ],
+          "reveal": "The correct answer is Liberty Square! The Muppets Present Great Moments in American History, starring Sam Eagle, of course.",
+          "media": {
+            "type": "image",
+            "file": "media/muppets-and-friends--muppet-courtyard-memories-800.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Muppets%27_Great_Moments_in_American_History.jpg",
+              "license": "CC BY-SA 4.0",
+              "author": "Jedi94"
+            }
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "A second Muppet*Vision 3D theater ran from 2001 to 2014 at this California park.",
+          "answer": "Disney California Adventure",
+          "accept": [
+            "disney california adventure",
+            "california adventure",
+            "dca",
+            "disney's california adventure"
+          ],
+          "choices": [
+            "Disney California Adventure",
+            "Disneyland Park",
+            "Knott's Berry Farm",
+            "Universal Studios Hollywood"
+          ],
+          "reveal": "The correct answer is Disney California Adventure! It opened with the park in 2001. [chuckles] Statler and Waldorf heckled two coasts.",
+          "media": {
+            "type": "image",
+            "file": "media/muppets-and-friends--muppet-courtyard-memories-1000.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Muppet*Vision_3D_at_Disney%27s_Hollywood_Studios-_May_2023_(3).JPG",
+              "license": "CC0",
+              "author": "Benoît Prieur"
+            }
+          },
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "muppet-mania",
+      "title": "Muppet Mania",
+      "kind": "fan",
+      "intro": "Our fan category for the true Muppet maniacs. [chuckles] Wocka wocka, let's go!",
+      "art": {
+        "prompt": "A tall stack of vintage TV sets glowing with colorful static in a cozy living room, a felt frog-green armchair, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/muppets-and-friends--muppet-mania.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This puppeteer created the Muppets and was the original voice of Kermit.",
+          "answer": "Jim Henson",
+          "accept": [
+            "jim henson",
+            "henson"
+          ],
+          "choices": [
+            "Jim Henson",
+            "Frank Oz",
+            "Walt Disney",
+            "Steve Whitmire"
+          ],
+          "reveal": "[excited] The correct answer is Jim Henson! Muppet*Vision 3D opened exactly one year after his death in 1990.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Disney Junior revived this cartoon where baby Kermit, Piggy and friends imagine adventures in their playroom.",
+          "answer": "Muppet Babies",
+          "accept": [
+            "muppet babies"
+          ],
+          "choices": [
+            "Muppet Babies",
+            "Muppets Now",
+            "Fraggle Rock",
+            "Muppet Kids"
+          ],
+          "reveal": "The correct answer is Muppet Babies! The original ran in the 1980s, and the reboot started in 2018.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "In a 2021 Disney Plus Halloween special, Gonzo spends a night inside this famous Disney attraction.",
+          "answer": "The Haunted Mansion",
+          "accept": [
+            "the haunted mansion",
+            "haunted mansion",
+            "muppets haunted mansion"
+          ],
+          "choices": [
+            "The Haunted Mansion",
+            "Tower of Terror",
+            "Phantom Manor",
+            "Space Mountain"
+          ],
+          "reveal": "The correct answer is the Haunted Mansion! [gasps] Gonzo, fearless as always, accepted the challenge.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "The Walt Disney Company bought the Muppets in this year.",
+          "answer": "2004",
+          "accept": [
+            "2004",
+            "two thousand four"
+          ],
+          "choices": [
+            "2004",
+            "1990",
+            "2009",
+            "2012"
+          ],
+          "reveal": "The correct answer is 2004! Talks actually started with Jim Henson himself back in 1989.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "In 1996's Muppet Treasure Island, this actor plays Long John Silver.",
+          "answer": "Tim Curry",
+          "accept": [
+            "tim curry",
+            "curry"
+          ],
+          "choices": [
+            "Tim Curry",
+            "Michael Caine",
+            "Kevin Bishop",
+            "Jon Pertwee"
+          ],
+          "reveal": "The correct answer is Tim Curry! [laughs] He sings 'Professional Pirate,' and he is clearly having the time of his life.",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}
