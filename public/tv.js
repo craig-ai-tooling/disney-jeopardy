@@ -4,7 +4,7 @@ const app = $('#app');
 const tvId = localStorage.djTv || (localStorage.djTv = crypto.randomUUID?.() || String(Math.random()).slice(2));
 let pitchIdx = -1;
 let S = null, prev = {}, overlay = null, joinBase = location.origin, zoomTimer = null;
-const isNative = Boolean(window.DJ_TV);
+const isNative = Boolean(window.DJ_TV || window.DJ_TV_NATIVE) || new URLSearchParams(location.search).has('app');
 
 // ---------- background rotation ----------
 let bgSlot = 0, bgName = '';
@@ -87,8 +87,14 @@ app.addEventListener('click', (e) => {
 // ---------- tap-to-start (browsers block audio until a gesture) ----------
 if (!isNative) {
   const ts = $('#tapstart'); ts.hidden = false;
-  const go = () => { ts.hidden = true; sfx('join'); audio.play().catch(() => {}); };
-  ts.addEventListener('click', go); ts.addEventListener('keydown', (e) => { if (e.key === 'Enter') go(); });
+  const go = () => { if (ts.hidden) return; ts.hidden = true; sfx('join'); audio.play().catch(() => {}); };
+  ts.addEventListener('click', go);
+  // While the gate is up it owns the remote: OK dismisses it, arrows don't reach the lobby behind it.
+  document.addEventListener('keydown', (e) => {
+    if (ts.hidden) return;
+    e.preventDefault(); e.stopImmediatePropagation();
+    if (e.key === 'Enter' || e.key === ' ') go(); else ts.querySelector('button')?.focus();
+  }, true);
 }
 
 // ---------- rendering ----------
