@@ -153,8 +153,12 @@
           "dailyDouble": false,
           "media": {
             "type": "image",
-            "prompt": "Original illustration, 16:9, vivid colors, theme-park concept-art style, no text, no logos, no characters, no people: a glowing trail of golden pixie dust streaking down from the top spire of a fairytale castle into the night sky",
-            "file": "media/parades-and-fireworks--light-up-the-sky-200.jpg"
+            "file": "media/parades-and-fireworks--light-up-the-sky-200.jpg",
+            "source": {
+              "url": "https://disney.fandom.com/wiki/File:Profile_-_Tinker_Bell.jpeg",
+              "license": "Copyrighted; used under fair use",
+              "author": "Walt Disney Pictures / Disney Television"
+            }
           }
         },
         {
@@ -230,8 +234,12 @@
           "dailyDouble": false,
           "media": {
             "type": "image",
-            "prompt": "Original illustration, 16:9, vivid colors, theme-park concept-art style, no text, no logos, no characters, no people: colorful fireworks bursting over a fairytale castle with dreamy colored light projected onto its towers",
-            "file": "media/parades-and-fireworks--light-up-the-sky-800.jpg"
+            "file": "media/parades-and-fireworks--light-up-the-sky-800.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Happily_Ever_After_Fireworks.jpg",
+              "license": "CC BY-SA 4.0",
+              "author": "E2022"
+            }
           }
         },
         {

@@ -43,7 +43,7 @@
         },
         {
           "value": 400,
-          "clue": "Name the song that plays as the animals gather at Pride Rock in the opening scene, like the shot you just saw.",
+          "clue": "Name the song that plays as the animals gather at Pride Rock in the opening scene, like the moment pictured.",
           "answer": "Circle of Life",
           "accept": [
             "circle of life",
@@ -57,9 +57,13 @@
           ],
           "reveal": "The correct answer is Circle of Life, sung by Carmen Twillie with Lebo M on that famous opening chant. [sighs happily] Goosebumps... every single time.",
           "media": {
-            "type": "video",
-            "prompt": "Five second cinematic shot: a huge golden sun rises over an African savanna, herds of zebras, elephants and giraffes walk toward a towering rocky outcrop, flocks of birds sweep across an orange sky, slow push in, painterly animated style, no recognizable characters, no text",
-            "file": "media/wild-kingdom--long-live-the-king-400.mp4"
+            "type": "image",
+            "file": "media/wild-kingdom--long-live-the-king-400.jpg",
+            "source": {
+              "url": "https://disney.fandom.com/wiki/File:Circle_of_Life.png",
+              "license": "Copyrighted; used under fair use",
+              "author": "Walt Disney Pictures"
+            }
           },
           "dailyDouble": false
         },

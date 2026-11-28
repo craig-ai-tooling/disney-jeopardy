@@ -328,8 +328,12 @@
           "reveal": "The correct answer is A Bug's Life! [laughs] A tiny circus built in an old cracker box under a trailer. Pixar's second feature, from 1998. Let's hear it for the flea circus!",
           "media": {
             "type": "image",
-            "prompt": "A tiny insect-sized circus built inside a discarded animal cracker box under a desert trailer, a striped canvas tent made from a sock, string lights made from fireflies, a giant dandelion and seeds piled on a leaf, original artwork, no people, no characters, no text, no logos",
-            "file": "media/pixar-deep-cuts--pixar-prop-zoom-1000.jpg"
+            "file": "media/pixar-deep-cuts--pixar-prop-zoom-1000.jpg",
+            "source": {
+              "url": "https://pixar.fandom.com/wiki/File:Circus_Bugs.jpg",
+              "license": "Copyrighted; used under fair use",
+              "author": "Disney/Pixar"
+            }
           },
           "dailyDouble": false
         }

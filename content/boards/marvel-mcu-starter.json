@@ -250,7 +250,7 @@
         },
         {
           "value": 400,
-          "clue": "Which sharpshooting Avenger uses this? Pictured: a sleek purple and black recurve bow with a quiver of high-tech trick arrows with unusual tips.",
+          "clue": "Which sharpshooting Avenger uses this?",
           "answer": "Hawkeye",
           "accept": [
             "hawkeye",
@@ -267,13 +267,17 @@
           "dailyDouble": false,
           "media": {
             "type": "image",
-            "prompt": "A sleek purple and black recurve bow with a quiver of high-tech trick arrows with unusual tips, lying on a rooftop, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
-            "file": "media/marvel-mcu-starter--whose-gear-400.jpg"
+            "file": "media/marvel-mcu-starter--whose-gear-400.jpg",
+            "source": {
+              "url": "https://marvelcinematicuniverse.fandom.com/wiki/File:Hawkeye_Deluxe_Quiver,_Bow_and_Arrow_Set_(Infinity_War).jpg",
+              "license": "Copyrighted; used under fair use",
+              "author": "Marvel Studios"
+            }
           }
         },
         {
           "value": 600,
-          "clue": "Which flying hero straps on this? Pictured: a compact silver and red mechanical backpack with folding metal wings spread wide.",
+          "clue": "Which flying hero straps on this?",
           "answer": "Falcon",
           "accept": [
             "falcon",
@@ -290,13 +294,17 @@
           "dailyDouble": false,
           "media": {
             "type": "image",
-            "prompt": "A compact silver and red mechanical backpack with folding metal wings spread wide, hovering against a blue sky, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
-            "file": "media/marvel-mcu-starter--whose-gear-600.jpg"
+            "file": "media/marvel-mcu-starter--whose-gear-600.jpg",
+            "source": {
+              "url": "https://marvelcinematicuniverse.fandom.com/wiki/File:New_Falcon_Wings.png",
+              "license": "Copyrighted; used under fair use",
+              "author": "Marvel Studios"
+            }
           }
         },
         {
           "value": 800,
-          "clue": "Which purple villain wore this to snap his fingers? Pictured: a large golden armored glove with six glowing colored gems set into the knuckles and back of the hand.",
+          "clue": "Which purple villain wore this to snap his fingers?",
           "answer": "Thanos",
           "accept": [
             "thanos"
@@ -311,13 +319,17 @@
           "dailyDouble": false,
           "media": {
             "type": "image",
-            "prompt": "A large golden armored glove with six glowing colored gems set into the knuckles and back of the hand, on a stone pedestal, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
-            "file": "media/marvel-mcu-starter--whose-gear-800.jpg"
+            "file": "media/marvel-mcu-starter--whose-gear-800.jpg",
+            "source": {
+              "url": "https://marvelcinematicuniverse.fandom.com/wiki/File:Thanos%27_Infinity_Gauntlet_full_promo.png",
+              "license": "Copyrighted; used under fair use",
+              "author": "Marvel Studios"
+            }
           }
         },
         {
           "value": 1000,
-          "clue": "This floating red garment, which has a mind of its own, is known as the Cloak of this. Pictured: a flowing crimson cape with a high stiff collar floating by itself in a candlelit library.",
+          "clue": "This floating red garment, which has a mind of its own, is known as the Cloak of this.",
           "answer": "Levitation",
           "accept": [
             "levitation",
@@ -333,8 +345,12 @@
           "dailyDouble": false,
           "media": {
             "type": "image",
-            "prompt": "A flowing crimson cape with a high stiff collar floating by itself in a candlelit library, gold trim on the edges, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
-            "file": "media/marvel-mcu-starter--whose-gear-1000.jpg"
+            "file": "media/marvel-mcu-starter--whose-gear-1000.jpg",
+            "source": {
+              "url": "https://marvelcinematicuniverse.fandom.com/wiki/File:Strange_tosses_the_Cloak_of_Levitation.png",
+              "license": "Copyrighted; used under fair use",
+              "author": "Marvel Studios"
+            }
           }
         }
       ]

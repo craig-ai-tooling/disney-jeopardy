@@ -151,8 +151,12 @@
           "dailyDouble": false,
           "media": {
             "type": "image",
-            "prompt": "Original illustration, 16:9, vivid colors, theme-park concept-art style, no text, no logos, no characters, no people: a sleek 1970s modern A-frame hotel tower with a monorail track running straight into a soaring indoor concourse lined with a giant tile mural",
-            "file": "media/resort-hotels--room-with-a-view-200.jpg"
+            "file": "media/resort-hotels--room-with-a-view-200.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Disney%27s_Contemporary_Resort_Arriving_Monorail_Teal.jpg",
+              "license": "CC BY-SA 4.0",
+              "author": "Quarax"
+            }
           }
         },
         {
@@ -175,8 +179,12 @@
           "dailyDouble": false,
           "media": {
             "type": "image",
-            "prompt": "Original illustration, 16:9, vivid colors, theme-park concept-art style, no text, no logos, no characters, no people: a white Victorian seaside grand hotel with red shingled roofs and turrets on a calm lagoon at golden hour",
-            "file": "media/resort-hotels--room-with-a-view-400.jpg"
+            "file": "media/resort-hotels--room-with-a-view-400.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Disney%27s_Grand_Floridian_Resort_%26_Spa_1.jpg",
+              "license": "CC BY-SA 4.0",
+              "author": "Sixflashphoto"
+            }
           }
         },
         {
@@ -222,8 +230,12 @@
           "dailyDouble": false,
           "media": {
             "type": "image",
-            "prompt": "Original illustration, 16:9, vivid colors, theme-park concept-art style, no text, no logos, no characters, no people: a massive log-built national-park-style lodge beside a lake with a tall steaming geyser erupting among pine trees",
-            "file": "media/resort-hotels--room-with-a-view-800.jpg"
+            "file": "media/resort-hotels--room-with-a-view-800.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Wilderness_Lodge_at_Daybreak_(2731686535).jpg",
+              "license": "CC BY 2.0",
+              "author": "BestofWDW from USA"
+            }
           }
         },
         {
@@ -248,8 +260,12 @@
           "dailyDouble": true,
           "media": {
             "type": "image",
-            "prompt": "Original illustration, 16:9, vivid colors, theme-park concept-art style, no text, no logos, no characters, no people: a tropical South Seas longhouse hotel with tiki torches, palm trees and a white sand beach on a lagoon at sunset",
-            "file": "media/resort-hotels--room-with-a-view-1000.jpg"
+            "file": "media/resort-hotels--room-with-a-view-1000.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Polynesian_Village_Resort_at_Sunset.jpg",
+              "license": "CC BY 2.0",
+              "author": "Lexi Scott (lxsscott) - https://www.flickr.com/photos/lexi_scott/"
+            }
           }
         }
       ]

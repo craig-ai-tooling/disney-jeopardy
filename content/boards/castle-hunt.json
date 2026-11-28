@@ -344,8 +344,12 @@
           "reveal": "[excited] The correct answer is Snow White and the Seven Dwarfs! Mirror, mirror on the wall, who's the fairest of them all? [laughs] Not the Queen, apparently.",
           "media": {
             "type": "image",
-            "prompt": "An ornate oval magic mirror with a heavy golden frame hanging on a dark castle wall, swirling green smoke inside the glass, candles flickering below Original illustration, cinematic lighting, no people, no characters, no text, no logos.",
-            "file": "media/castle-hunt--castle-keepsakes-200.jpg"
+            "file": "media/castle-hunt--castle-keepsakes-200.jpg",
+            "source": {
+              "url": "https://disney.fandom.com/wiki/File:Snowwhite-disneyscreencaps.com-100.jpg",
+              "license": "Copyrighted; used under fair use",
+              "author": "Walt Disney Pictures / Disney Television"
+            }
           },
           "dailyDouble": false
         },
@@ -409,8 +413,12 @@
           "reveal": "The correct answer is Brave! [sighs] Merida slashed it in anger, and she has to mend the bond. Literally.",
           "media": {
             "type": "image",
-            "prompt": "A large embroidered family tapestry hanging in a stone Scottish castle hall, torn down the middle, a sword on the floor below and a bear-shaped carving on the hearth Original illustration, cinematic lighting, no people, no characters, no text, no logos.",
-            "file": "media/castle-hunt--castle-keepsakes-800.jpg"
+            "file": "media/castle-hunt--castle-keepsakes-800.jpg",
+            "source": {
+              "url": "https://pixar.fandom.com/wiki/File:Brave_tapestry_full.jpg",
+              "license": "Copyrighted; used under fair use",
+              "author": "Disney/Pixar"
+            }
           },
           "dailyDouble": false
         },

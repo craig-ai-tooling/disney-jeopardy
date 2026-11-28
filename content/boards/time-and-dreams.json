@@ -328,8 +328,12 @@
           "reveal": "The correct answer is Destino! Walt Disney and Salvador Dali started it in 1945. It finally premiered 58 years later.",
           "media": {
             "type": "image",
-            "prompt": "A surreal desert landscape at dusk with a giant melting pocket watch draped over a stone tower, long shadows, floating eyes in the sky and a lone dancing figure silhouette shaped like a sundial Original artwork, no people, no characters, no text, no logos.",
-            "file": "media/time-and-dreams--dreamscapes-1000.jpg"
+            "file": "media/time-and-dreams--dreamscapes-1000.jpg",
+            "source": {
+              "url": "https://disney.fandom.com/wiki/File:Destino-disneyscreencaps.com-592.jpg",
+              "license": "Copyrighted; used under fair use",
+              "author": "Walt Disney Pictures / Disney Television"
+            }
           },
           "dailyDouble": false
         }

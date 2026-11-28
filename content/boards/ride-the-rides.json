@@ -354,8 +354,12 @@
           "dailyDouble": false,
           "media": {
             "type": "image",
-            "prompt": "Original illustration, 16:9, vivid colors, theme-park concept-art style, no text, no logos, no characters, no people: a sleek futuristic concept car speeding along a test track at night with glowing blue speed lines and a sensor tunnel",
-            "file": "media/ride-the-rides--which-park-200.jpg"
+            "file": "media/ride-the-rides--which-park-200.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Test_Track,_EPCOT_(2024).jpg",
+              "license": "CC BY-SA 4.0",
+              "author": "Jedi94"
+            }
           }
         },
         {
@@ -377,8 +381,12 @@
           "dailyDouble": false,
           "media": {
             "type": "image",
-            "prompt": "Original illustration, 16:9, vivid colors, theme-park concept-art style, no text, no logos, no characters, no people: an open-sided safari truck bumping along a dirt road past elephants, a baobab tree and a savanna sunrise",
-            "file": "media/ride-the-rides--which-park-400.jpg"
+            "file": "media/ride-the-rides--which-park-400.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:AK_Safari.JPG",
+              "license": "CC BY-SA 3.0",
+              "author": "Michael Lowin"
+            }
           }
         },
         {
@@ -401,8 +409,12 @@
           "dailyDouble": false,
           "media": {
             "type": "image",
-            "prompt": "Original illustration, 16:9, vivid colors, theme-park concept-art style, no text, no logos, no characters, no people: a crumbling 1930s Hollywood hotel tower with a broken neon-free sign frame, struck by lightning in a purple night sky",
-            "file": "media/ride-the-rides--which-park-600.jpg"
+            "file": "media/ride-the-rides--which-park-600.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Hollywood_Tower_Hotel.jpg",
+              "license": "CC BY-SA 4.0",
+              "author": "Benjamin D. Esham (bdesham)"
+            }
           }
         },
         {
@@ -424,8 +436,12 @@
           "dailyDouble": false,
           "media": {
             "type": "image",
-            "prompt": "Original illustration, 16:9, vivid colors, theme-park concept-art style, no text, no logos, no characters, no people: a giant-scale Parisian restaurant kitchen seen from a tiny rat's-eye view, huge copper pots and enormous cheese wheels",
-            "file": "media/ride-the-rides--which-park-800.jpg"
+            "file": "media/ride-the-rides--which-park-800.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Remy%27s_Ratatouille_Adventure.jpg",
+              "license": "CC BY-SA 4.0",
+              "author": "Paigeboyd02"
+            }
           }
         },
         {
@@ -446,8 +462,12 @@
           "dailyDouble": false,
           "media": {
             "type": "image",
-            "prompt": "Original illustration, 16:9, vivid colors, theme-park concept-art style, no text, no logos, no characters, no people: a red barn with a crop-duster biplane crashing through its roof beside a small kid-sized roller coaster in a circus-themed fairground",
-            "file": "media/ride-the-rides--which-park-1000.jpg"
+            "file": "media/ride-the-rides--which-park-1000.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Barnstormer_at_Magic_Kingdom_-_barn.jpg",
+              "license": "CC BY 2.0",
+              "author": "bea & txema from Dublin, Ireland"
+            }
           }
         }
       ]

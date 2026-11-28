@@ -485,8 +485,12 @@
           "reveal": "The correct answer is Cinderella! One glass slipper, left behind at midnight. Worst lost-and-found case in history.",
           "media": {
             "type": "image",
-            "prompt": "Extreme macro close-up of a sparkling glass slipper resting on a blue velvet pillow, glittering facets catching candlelight Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
-            "file": "media/itm-classics-1--extreme-close-up-200.jpg"
+            "file": "media/itm-classics-1--extreme-close-up-200.jpg",
+            "source": {
+              "url": "https://disney.fandom.com/wiki/File:Glass_Slipper_Prop.jpg",
+              "license": "Copyrighted; used under fair use",
+              "author": "Walt Disney Pictures / Disney Television"
+            }
           },
           "dailyDouble": false
         },
@@ -506,8 +510,12 @@
           "reveal": "The correct answer is Beauty and the Beast! When that last petal falls, it's game over. [whispers] No pressure.",
           "media": {
             "type": "image",
-            "prompt": "Extreme close-up of a single glowing red rose floating under a glass bell jar, a few fallen petals on a dark wooden table Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
-            "file": "media/itm-classics-1--extreme-close-up-400.jpg"
+            "file": "media/itm-classics-1--extreme-close-up-400.jpg",
+            "source": {
+              "url": "https://disney.fandom.com/wiki/File:The_Enchanted_Rose.png",
+              "license": "Copyrighted; used under fair use",
+              "author": "Walt Disney Pictures / Disney Television"
+            }
           },
           "dailyDouble": false
         },
@@ -570,8 +578,12 @@
           "reveal": "The correct answer is Raya and the Last Dragon! The Dragon Gem broke into five pieces, and everyone fought over them. [sighs] Classic group project.",
           "media": {
             "type": "image",
-            "prompt": "Extreme close-up of a glowing blue crystal orb shattered into five sharp shards, swirling mist and ancient carved stone in the background Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
-            "file": "media/itm-classics-1--extreme-close-up-1000.jpg"
+            "file": "media/itm-classics-1--extreme-close-up-1000.jpg",
+            "source": {
+              "url": "https://disney.fandom.com/wiki/File:Raya_and_the_Last_Dragon_The_Dragon_Gem_Concept_Art.jpg",
+              "license": "Copyrighted; used under fair use",
+              "author": "Walt Disney Pictures / Disney Television"
+            }
           },
           "dailyDouble": false
         }

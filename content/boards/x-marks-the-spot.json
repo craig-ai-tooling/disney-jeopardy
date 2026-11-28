@@ -252,8 +252,12 @@
           "dailyDouble": false,
           "media": {
             "type": "image",
-            "prompt": "A single sparkling glass slipper resting on a red velvet cushion on a palace staircase at midnight, a clock tower glowing behind Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
-            "file": "media/x-marks-the-spot--hide-and-zoom-200.jpg"
+            "file": "media/x-marks-the-spot--hide-and-zoom-200.jpg",
+            "source": {
+              "url": "https://disney.fandom.com/wiki/File:Glass_Slipper_Prop.jpg",
+              "license": "Copyrighted; used under fair use",
+              "author": "Walt Disney Pictures / Disney Television"
+            }
           }
         },
         {
@@ -337,8 +341,12 @@
           "dailyDouble": false,
           "media": {
             "type": "image",
-            "prompt": "An ornate sword stuck in an anvil on top of a mossy stone in a misty medieval churchyard, a single ray of light on the hilt Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
-            "file": "media/x-marks-the-spot--hide-and-zoom-1000.jpg"
+            "file": "media/x-marks-the-spot--hide-and-zoom-1000.jpg",
+            "source": {
+              "url": "https://disney.fandom.com/wiki/File:The_sword_in_the_stone.jpg",
+              "license": "Copyrighted; used under fair use",
+              "author": "Walt Disney Pictures / Disney Television"
+            }
           }
         }
       ]

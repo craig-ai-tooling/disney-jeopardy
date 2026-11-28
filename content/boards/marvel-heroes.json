@@ -247,8 +247,12 @@
           "reveal": "[excited] The correct answer is Captain America! That shield is made of vibranium, and he throws it like a frisbee.",
           "media": {
             "type": "image",
-            "prompt": "A round metal shield with concentric red and white rings and a white star on a blue center, resting against a brick wall, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
-            "file": "media/marvel-heroes--hero-gear-200.jpg"
+            "file": "media/marvel-heroes--hero-gear-200.jpg",
+            "source": {
+              "url": "https://marvelcinematicuniverse.fandom.com/wiki/File:Captain_America_Shield.png",
+              "license": "Copyrighted; used under fair use",
+              "author": "Marvel Studios"
+            }
           },
           "dailyDouble": false
         },
@@ -270,8 +274,12 @@
           "reveal": "The correct answer is Iron Man! That glowing arc reactor kept Tony's heart going. Proof that Tony Stark has a heart.",
           "media": {
             "type": "image",
-            "prompt": "A glowing circular blue-white reactor device with a metal ring casing sitting on a workbench among tools in a garage, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
-            "file": "media/marvel-heroes--hero-gear-400.jpg"
+            "file": "media/marvel-heroes--hero-gear-400.jpg",
+            "source": {
+              "url": "https://marvelcinematicuniverse.fandom.com/wiki/File:Arc_Reactor_from_Iron_Man_2_29_001.webp",
+              "license": "Copyrighted; used under fair use",
+              "author": "Marvel Studios"
+            }
           },
           "dailyDouble": false
         },
@@ -292,8 +300,12 @@
           "reveal": "The correct answer is Thanos! The Infinity Gauntlet. [whispers] Please keep your fingers apart.",
           "media": {
             "type": "image",
-            "prompt": "A huge golden armored glove with six empty gem slots on the knuckles, lying on a stone pedestal in a cosmic temple, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
-            "file": "media/marvel-heroes--hero-gear-600.jpg"
+            "file": "media/marvel-heroes--hero-gear-600.jpg",
+            "source": {
+              "url": "https://marvelcinematicuniverse.fandom.com/wiki/File:InfinityGauntletProfilePicture.jpg",
+              "license": "Copyrighted; used under fair use",
+              "author": "Marvel Studios"
+            }
           },
           "dailyDouble": false
         },
@@ -316,8 +328,12 @@
           "reveal": "The correct answer is Doctor Strange! The Eye of Agamotto held the Time Stone. [chuckles] Dormammu, I've come to bargain.",
           "media": {
             "type": "image",
-            "prompt": "A round golden amulet with an eye-shaped clasp hanging over a flowing red cloak draped on a stand in a mystical library, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
-            "file": "media/marvel-heroes--hero-gear-800.jpg"
+            "file": "media/marvel-heroes--hero-gear-800.jpg",
+            "source": {
+              "url": "https://marvelcinematicuniverse.fandom.com/wiki/File:Cloak_of_Levitation_Featurette_2.png",
+              "license": "Copyrighted; used under fair use",
+              "author": "Marvel Studios"
+            }
           },
           "dailyDouble": false
         },

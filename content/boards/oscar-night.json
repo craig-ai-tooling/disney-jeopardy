@@ -238,8 +238,12 @@
           "reveal": "The correct answer is Encanto! [excited] A magical house, a miracle candle, and a family that needs therapy. In a good way.",
           "media": {
             "type": "image",
-            "prompt": "A colorful magical Colombian family home in the mountains with glowing doorways, yellow butterflies, a flickering candle in a window and tiles that ripple like waves, no people, no text, no logos, no copyrighted characters",
-            "file": "media/oscar-night--red-carpet-close-ups-200.jpg"
+            "file": "media/oscar-night--red-carpet-close-ups-200.jpg",
+            "source": {
+              "url": "https://disney.fandom.com/wiki/File:Encanto_-_Casita_creation.jpg",
+              "license": "Copyrighted; used under fair use",
+              "author": "Walt Disney Pictures / Disney Television"
+            }
           },
           "dailyDouble": false
         },
@@ -260,8 +264,12 @@
           "reveal": "The correct answer is Zootopia! [laughs] A city with a tundra, a rainforest AND a desert. Pack layers.",
           "media": {
             "type": "image",
-            "prompt": "A futuristic city skyline split into icy tundra towers, a misty rainforest district and a sunny desert district, with a tiny carrot-shaped pen recorder on a train platform, no people, no text, no logos, no copyrighted characters",
-            "file": "media/oscar-night--red-carpet-close-ups-400.jpg"
+            "file": "media/oscar-night--red-carpet-close-ups-400.jpg",
+            "source": {
+              "url": "https://disney.fandom.com/wiki/File:Zootopia_City_Full.jpg",
+              "license": "Copyrighted; used under fair use",
+              "author": "Walt Disney Pictures / Disney Television"
+            }
           },
           "dailyDouble": false
         },

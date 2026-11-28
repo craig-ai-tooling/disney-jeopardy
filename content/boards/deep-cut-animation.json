@@ -477,8 +477,12 @@
           "reveal": "[gasps] The correct answer is Meet the Robinsons! Doris the evil hat. Keep moving forward.",
           "media": {
             "type": "image",
-            "prompt": "A floating black robotic bowler hat with a single glowing red eye and small mechanical arms, in a dark retro-futuristic city at night Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
-            "file": "media/deep-cut-animation--overlooked-objects-600.jpg"
+            "file": "media/deep-cut-animation--overlooked-objects-600.jpg",
+            "source": {
+              "url": "https://disney.fandom.com/wiki/File:Profile_-_DOR-15.jpg",
+              "license": "Copyrighted; used under fair use",
+              "author": "Walt Disney Pictures / Disney Television"
+            }
           },
           "dailyDouble": false
         },

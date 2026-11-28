@@ -360,8 +360,12 @@
           "reveal": "The correct answer is Up! Carl's house finally sits right where Ellie dreamed. [sighs] Pass the tissues.",
           "media": {
             "type": "image",
-            "prompt": "Original painterly digital illustration, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A small colorful wooden house resting on a cliff edge beside a tall waterfall in a misty South American tablelands landscape, a few loose balloons drifting away",
-            "file": "media/new-years-countdown--fade-to-black-400.jpg"
+            "file": "media/new-years-countdown--fade-to-black-400.jpg",
+            "source": {
+              "url": "https://pixar.fandom.com/wiki/File:Apartment_scene_inside.png",
+              "license": "Copyrighted; used under fair use",
+              "author": "Disney/Pixar"
+            }
           },
           "dailyDouble": false
         },
@@ -404,8 +408,12 @@
           "reveal": "The correct answer is Monsters, Inc.! The door is rebuilt, one splinter at a time. [whispers] Kitty?",
           "media": {
             "type": "image",
-            "prompt": "Original painterly digital illustration, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A single pink closet door decorated with painted flowers standing on a door station in a vast industrial factory, rebuilt from splintered pieces with one last wood sliver placed on a nearby workbench",
-            "file": "media/new-years-countdown--fade-to-black-800.jpg"
+            "file": "media/new-years-countdown--fade-to-black-800.jpg",
+            "source": {
+              "url": "https://pixar.fandom.com/wiki/File:Boo%27s_Door.png",
+              "license": "Copyrighted; used under fair use",
+              "author": "Disney/Pixar"
+            }
           },
           "dailyDouble": false
         },

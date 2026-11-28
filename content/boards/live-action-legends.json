@@ -272,8 +272,12 @@
           "reveal": "The correct answer is Enchanted! [laughs] A storybook well that drops you into Times Square. Worst commute ever.",
           "media": {
             "type": "image",
-            "prompt": "A fairy-tale wishing well in a lush cartoon forest whose bottom opens into a busy New York City street with yellow taxis, a puffy white wedding gown caught on a manhole cover, original artwork, no people, no characters, no text, no logos",
-            "file": "media/live-action-legends--prop-department-400.jpg"
+            "file": "media/live-action-legends--prop-department-400.jpg",
+            "source": {
+              "url": "https://disney.fandom.com/wiki/File:Giselle-disney-enchanted-film.jpg",
+              "license": "Copyrighted; used under fair use",
+              "author": "Walt Disney Pictures / Disney Television"
+            }
           },
           "dailyDouble": false
         },
@@ -295,8 +299,12 @@
           "reveal": "The correct answer is Bedknobs and Broomsticks! [excited] A flying brass bed and an apprentice witch. Substitutiary locomotion!",
           "media": {
             "type": "image",
-            "prompt": "A brass bed with glowing magical bedknobs flying over a moonlit sea toward a tropical island, a witch's broomstick and a spell book resting on the quilt, original artwork, no people, no characters, no text, no logos",
-            "file": "media/live-action-legends--prop-department-600.jpg"
+            "file": "media/live-action-legends--prop-department-600.jpg",
+            "source": {
+              "url": "https://disney.fandom.com/wiki/File:Bedknobs-Broomsticks-bedknobs-and-broomsticks-6671723-853-480.jpg",
+              "license": "Copyrighted; used under fair use",
+              "author": "Walt Disney Pictures / Disney Television"
+            }
           },
           "dailyDouble": false
         },

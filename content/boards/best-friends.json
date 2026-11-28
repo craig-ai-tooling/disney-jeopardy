@@ -277,8 +277,12 @@
           "reveal": "The correct answer is Zootopia! [laughs] It's called a hustle, sweetheart. That carrot pen recorder deserves its own award.",
           "media": {
             "type": "image",
-            "prompt": "A carrot-shaped pen recorder lying on a police desk beside a parking ticket pad and a tiny traffic cone, rainy window behind showing a glowing city with districts of rainforest, ice, and desert skyscrapers. Original illustration, cinematic lighting, no people, no characters, no text, no logos.",
-            "file": "media/best-friends--friendship-zoom-600.jpg"
+            "file": "media/best-friends--friendship-zoom-600.jpg",
+            "source": {
+              "url": "https://disney.fandom.com/wiki/File:Zootopia_City_Full.jpg",
+              "license": "Copyrighted; used under fair use",
+              "author": "Walt Disney Pictures / Disney Television"
+            }
           },
           "dailyDouble": false
         },

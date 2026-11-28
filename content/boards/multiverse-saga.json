@@ -228,7 +228,7 @@
       "clues": [
         {
           "value": 200,
-          "clue": "Doctor Strange folds whole cities in this pocket reality. Name it. Pictured: a city of skyscrapers folding and twisting like a kaleidoscope.",
+          "clue": "Doctor Strange folds whole cities in this pocket reality. Name it.",
           "answer": "Mirror Dimension",
           "accept": [
             "mirror dimension",
@@ -244,8 +244,12 @@
           "dailyDouble": false,
           "media": {
             "type": "image",
-            "prompt": "A city of skyscrapers folding and twisting like a kaleidoscope, streets curling up into the sky, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
-            "file": "media/multiverse-saga--multiverse-map-200.jpg"
+            "file": "media/multiverse-saga--multiverse-map-200.jpg",
+            "source": {
+              "url": "https://marvelcinematicuniverse.fandom.com/wiki/File:Spider-Man_NWH_trailer_90.png",
+              "license": "Copyrighted; used under fair use",
+              "author": "Marvel Studios"
+            }
           }
         },
         {
@@ -272,7 +276,7 @@
         },
         {
           "value": 600,
-          "clue": "This realm outside of time is home to Dormammu. Name it. Pictured: a vast swirling purple and magenta cosmic realm with floating fragments of rock and a huge looming shape in the clouds.",
+          "clue": "This realm outside of time is home to Dormammu. Name it.",
           "answer": "Dark Dimension",
           "accept": [
             "dark dimension",
@@ -288,13 +292,17 @@
           "dailyDouble": false,
           "media": {
             "type": "image",
-            "prompt": "A vast swirling purple and magenta cosmic realm with floating fragments of rock and a huge looming shape in the clouds, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
-            "file": "media/multiverse-saga--multiverse-map-600.jpg"
+            "file": "media/multiverse-saga--multiverse-map-600.jpg",
+            "source": {
+              "url": "https://marvelcinematicuniverse.fandom.com/wiki/File:DarkDimensionStill-DS.jpg",
+              "license": "Copyrighted; used under fair use",
+              "author": "Marvel Studios"
+            }
           }
         },
         {
           "value": 800,
-          "clue": "Scott Lang's family gets pulled into this subatomic world full of odd creatures. Name it. Pictured: a glowing subatomic landscape of floating islands.",
+          "clue": "Scott Lang's family gets pulled into this subatomic world full of odd creatures. Name it.",
           "answer": "Quantum Realm",
           "accept": [
             "quantum realm",
@@ -310,13 +318,17 @@
           "dailyDouble": false,
           "media": {
             "type": "image",
-            "prompt": "A glowing subatomic landscape of floating islands, jellyfish-like creatures and crystal towers, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
-            "file": "media/multiverse-saga--multiverse-map-800.jpg"
+            "file": "media/multiverse-saga--multiverse-map-800.jpg",
+            "source": {
+              "url": "https://marvelcinematicuniverse.fandom.com/wiki/File:Quantumania_New_Trailer_(20).png",
+              "license": "Copyrighted; used under fair use",
+              "author": "Marvel Studios"
+            }
           }
         },
         {
           "value": 1000,
-          "clue": "When two universes collide like this, heroes call it this. Pictured: two Earth-like planets colliding in the sky above a ruined city.",
+          "clue": "When two universes collide like this, heroes call it this.",
           "answer": "An incursion",
           "accept": [
             "incursion",
@@ -333,8 +345,12 @@
           "dailyDouble": false,
           "media": {
             "type": "image",
-            "prompt": "Two Earth-like planets colliding in the sky above a ruined city, cracks of light between them, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
-            "file": "media/multiverse-saga--multiverse-map-1000.jpg"
+            "file": "media/multiverse-saga--multiverse-map-1000.jpg",
+            "source": {
+              "url": "https://marvelcinematicuniverse.fandom.com/wiki/File:Incursion_in_Doomsday_Poster.png",
+              "license": "Copyrighted; used under fair use",
+              "author": "Marvel Studios"
+            }
           }
         }
       ]

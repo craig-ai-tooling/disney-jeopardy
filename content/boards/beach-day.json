@@ -365,8 +365,12 @@
           "dailyDouble": false,
           "media": {
             "type": "image",
-            "prompt": "A snowy-looking ski resort mountain with a chairlift and ski jumps that has turned into a bright Florida water park, sun shining, water slides where ski runs should be. Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
-            "file": "media/beach-day--surfs-up-200.jpg"
+            "file": "media/beach-day--surfs-up-200.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Blizzard_Beach_(8195698920).jpg",
+              "license": "CC BY 2.0",
+              "author": "Jeff Kays"
+            }
           }
         },
         {

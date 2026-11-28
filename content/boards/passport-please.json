@@ -240,8 +240,12 @@
           "reveal": "The correct answer is... Frozen! Arendelle was inspired by Norway's fjords and stave churches. Do you want to build a snowman? Too late, next clue.",
           "media": {
             "type": "image",
-            "prompt": "Painterly storybook illustration of a Nordic fjord kingdom: a green-roofed castle with spires beside a frozen harbor, ice crystal patterns spreading across the water, snowy mountains, crocus purple and teal colors. No people, no characters, no text.",
-            "file": "media/passport-please--zoomed-in-postcards-200.jpg"
+            "file": "media/passport-please--zoomed-in-postcards-200.jpg",
+            "source": {
+              "url": "https://disney.fandom.com/wiki/File:Profile_-_Arendelle.jpg",
+              "license": "Copyrighted; used under fair use",
+              "author": "Walt Disney Pictures / Disney Television"
+            }
           },
           "dailyDouble": false
         },
@@ -261,8 +265,12 @@
           "reveal": "The correct answer is Aladdin! [excited] The fictional city of Agrabah, with its domed palace, busy market and one VERY famous lamp.",
           "media": {
             "type": "image",
-            "prompt": "Golden hour over a desert city of white domed palaces and minarets, a bustling bazaar of striped awnings, piled spices and woven rugs, and a single tarnished brass oil lamp resting on a cushion in the foreground. No people, no characters, no text.",
-            "file": "media/passport-please--zoomed-in-postcards-400.jpg"
+            "file": "media/passport-please--zoomed-in-postcards-400.jpg",
+            "source": {
+              "url": "https://disney.fandom.com/wiki/File:Agrabah.png",
+              "license": "Copyrighted; used under fair use",
+              "author": "Walt Disney Pictures / Disney Television"
+            }
           },
           "dailyDouble": false
         },

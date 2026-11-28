@@ -415,7 +415,7 @@
       "clues": [
         {
           "value": 200,
-          "clue": "Peter's mom gave him his music on this format. Pictured: an orange and black cassette tape with a handwritten blank label lying on a worn spaceship seat.",
+          "clue": "Peter's mom gave him his music on this format.",
           "answer": "Cassette tape",
           "accept": [
             "cassette",
@@ -434,8 +434,12 @@
           "dailyDouble": false,
           "media": {
             "type": "image",
-            "prompt": "An orange and black cassette tape with a handwritten blank label lying on a worn spaceship seat, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
-            "file": "media/guardians-awesome-mix--galaxy-gear-200.jpg"
+            "file": "media/guardians-awesome-mix--galaxy-gear-200.jpg",
+            "source": {
+              "url": "https://marvelcinematicuniverse.fandom.com/wiki/File:Awesome_Mix_Vol._1.jpg",
+              "license": "Copyrighted; used under fair use",
+              "author": "Marvel Studios"
+            }
           }
         },
         {
@@ -462,7 +466,7 @@
         },
         {
           "value": 600,
-          "clue": "Star-Lord's ship shares its name with an actress he had a crush on. What's the ship called? Pictured: a sleek blue and orange retro spaceship parked on a rocky alien landing pad at sunset.",
+          "clue": "Star-Lord's ship shares its name with an actress he had a crush on. What's the ship called?",
           "answer": "The Milano",
           "accept": [
             "milano",
@@ -478,8 +482,12 @@
           "dailyDouble": false,
           "media": {
             "type": "image",
-            "prompt": "A sleek blue and orange retro spaceship parked on a rocky alien landing pad at sunset, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
-            "file": "media/guardians-awesome-mix--galaxy-gear-600.jpg"
+            "file": "media/guardians-awesome-mix--galaxy-gear-600.jpg",
+            "source": {
+              "url": "https://marvelcinematicuniverse.fandom.com/wiki/File:Milano_Infobox.jpg",
+              "license": "Copyrighted; used under fair use",
+              "author": "Marvel Studios"
+            }
           }
         },
         {

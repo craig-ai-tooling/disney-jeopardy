@@ -445,8 +445,12 @@
           "dailyDouble": false,
           "media": {
             "type": "image",
-            "prompt": "A swirl of pale yellow pineapple soft-serve in a cup on a bamboo counter at a tiki-style snack hut, tropical torches and palm leaves around. Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
-            "file": "media/thanksgiving-feast--turkey-leg-tour-200.jpg"
+            "file": "media/thanksgiving-feast--turkey-leg-tour-200.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Dole_Whip_Float_Disneyland_2014.jpg",
+              "license": "CC BY-SA 4.0",
+              "author": "Patrick Pelletier"
+            }
           }
         },
         {
@@ -503,8 +507,12 @@
           "dailyDouble": false,
           "media": {
             "type": "image",
-            "prompt": "A golden deep-fried sandwich dusted with powdered sugar with a side of berry jam, on a candlelit table at twilight beside a misty bayou with fireflies. Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
-            "file": "media/thanksgiving-feast--turkey-leg-tour-800.jpg"
+            "file": "media/thanksgiving-feast--turkey-leg-tour-800.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Monte_Cristo_Sandwich-1.jpg",
+              "license": "CC BY-SA 3.0",
+              "author": "Visitor7"
+            }
           }
         },
         {

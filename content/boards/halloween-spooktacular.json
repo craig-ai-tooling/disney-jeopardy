@@ -272,8 +272,12 @@
           "dailyDouble": false,
           "media": {
             "type": "image",
-            "prompt": "An enormous factory with endless rows of colorful bedroom closet doors hanging from overhead conveyor tracks, a single door glowing at the center. Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
-            "file": "media/halloween-spooktacular--zoom-o-ween-400.jpg"
+            "file": "media/halloween-spooktacular--zoom-o-ween-400.jpg",
+            "source": {
+              "url": "https://pixar.fandom.com/wiki/File:Scare_Floor_F.jpg",
+              "license": "Copyrighted; used under fair use",
+              "author": "Disney/Pixar"
+            }
           }
         },
         {
@@ -314,8 +318,12 @@
           "dailyDouble": false,
           "media": {
             "type": "image",
-            "prompt": "A swirling glowing green river of misty ghostly wisps flowing through a vast dark Greek underworld cavern with ruined columns. Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
-            "file": "media/halloween-spooktacular--zoom-o-ween-800.jpg"
+            "file": "media/halloween-spooktacular--zoom-o-ween-800.jpg",
+            "source": {
+              "url": "https://disney.fandom.com/wiki/File:Hercules_River_Styx_concept_art.jpeg",
+              "license": "Copyrighted; used under fair use",
+              "author": "Walt Disney Pictures / Disney Television"
+            }
           }
         },
         {
@@ -336,8 +344,12 @@
           "dailyDouble": false,
           "media": {
             "type": "image",
-            "prompt": "A massive jagged black mountain peak at night looming over a sleeping European village and graveyard, pale ghostly wisps spiraling up into the sky. Original illustration, cinematic 16:9 composition, rich color, soft volumetric light, no text, no logos, no recognizable characters.",
-            "file": "media/halloween-spooktacular--zoom-o-ween-1000.jpg"
+            "file": "media/halloween-spooktacular--zoom-o-ween-1000.jpg",
+            "source": {
+              "url": "https://disney.fandom.com/wiki/File:Bald_mountain_ghouls.jpeg",
+              "license": "Copyrighted; used under fair use",
+              "author": "Walt Disney Pictures / Disney Television"
+            }
           }
         }
       ]

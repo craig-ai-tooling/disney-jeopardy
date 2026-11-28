@@ -224,7 +224,7 @@
       "clues": [
         {
           "value": 200,
-          "clue": "Which original X-Man gets around like this? Pictured: a glittering slide of ice curving through the air between city rooftops on a sunny day.",
+          "clue": "Which original X-Man gets around like this?",
           "answer": "Iceman",
           "accept": [
             "iceman",
@@ -240,13 +240,17 @@
           "dailyDouble": false,
           "media": {
             "type": "image",
-            "prompt": "A glittering slide of ice curving through the air between city rooftops on a sunny day, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
-            "file": "media/x-men-deep-cuts--mutant-mixtape-200.jpg"
+            "file": "media/x-men-deep-cuts--mutant-mixtape-200.jpg",
+            "source": {
+              "url": "https://marvel.fandom.com/wiki/File:Iceman_(Earth-902)_from_X-Men_Millennial_Visions_Vol_1_1_0001.jpg",
+              "license": "Copyrighted; used under fair use",
+              "author": "Marvel Comics"
+            }
           }
         },
         {
           "value": 400,
-          "clue": "Warren Worthington III flies with these. Name his hero. Pictured: a pair of large pure white feathered wings spread wide on a rooftop at sunrise.",
+          "clue": "Warren Worthington III flies with these. Name his hero.",
           "answer": "Angel",
           "accept": [
             "angel",
@@ -262,13 +266,17 @@
           "dailyDouble": false,
           "media": {
             "type": "image",
-            "prompt": "A pair of large pure white feathered wings spread wide on a rooftop at sunrise, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
-            "file": "media/x-men-deep-cuts--mutant-mixtape-400.jpg"
+            "file": "media/x-men-deep-cuts--mutant-mixtape-400.jpg",
+            "source": {
+              "url": "https://marvel.fandom.com/wiki/File:Warren_Worthington_III_(Angel)_(Earth-78149)_from_Marvel_Strike_Force_001.jpg",
+              "license": "Copyrighted; used under fair use",
+              "author": "Marvel Comics"
+            }
           }
         },
         {
           "value": 600,
-          "clue": "The X-Men's classic jet, like this one, is nicknamed this. Pictured: a sleek black supersonic jet with angular wings parked in a hidden hangar beneath a mansion.",
+          "clue": "The X-Men's classic jet, like this one, is nicknamed this.",
           "answer": "The Blackbird",
           "accept": [
             "blackbird",
@@ -286,13 +294,17 @@
           "dailyDouble": false,
           "media": {
             "type": "image",
-            "prompt": "A sleek black supersonic jet with angular wings parked in a hidden hangar beneath a mansion, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
-            "file": "media/x-men-deep-cuts--mutant-mixtape-600.jpg"
+            "file": "media/x-men-deep-cuts--mutant-mixtape-600.jpg",
+            "source": {
+              "url": "https://marvel.fandom.com/wiki/File:X-Men_Blackbird_from_New_X-Men_Vol_2_29_0001.jpg",
+              "license": "Copyrighted; used under fair use",
+              "author": "Marvel Comics"
+            }
           }
         },
         {
           "value": 800,
-          "clue": "This Irish mutant, a longtime X-Men mentor, unleashes this. Give his code name. Pictured: visible rippling sonic shock waves blasting over green Irish sea cliffs.",
+          "clue": "This Irish mutant, a longtime X-Men mentor, unleashes this. Give his code name.",
           "answer": "Banshee",
           "accept": [
             "banshee",
@@ -308,13 +320,17 @@
           "dailyDouble": false,
           "media": {
             "type": "image",
-            "prompt": "Visible rippling sonic shock waves blasting over green Irish sea cliffs, seabirds scattering, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
-            "file": "media/x-men-deep-cuts--mutant-mixtape-800.jpg"
+            "file": "media/x-men-deep-cuts--mutant-mixtape-800.jpg",
+            "source": {
+              "url": "https://marvel.fandom.com/wiki/File:Sean_Cassidy_(Earth-616)_from_Uncanny_X-Men_Vol_6_29_001.jpg",
+              "license": "Copyrighted; used under fair use",
+              "author": "Marvel Comics"
+            }
           }
         },
         {
           "value": 1000,
-          "clue": "This telepathic ninja's power shows as a glowing image like this. Name her. Pictured: a glowing magenta psychic butterfly made of energy hovering over a nighttime city.",
+          "clue": "This telepathic ninja's power shows as a glowing image like this. Name her.",
           "answer": "Psylocke",
           "accept": [
             "psylocke",
@@ -330,8 +346,12 @@
           "dailyDouble": false,
           "media": {
             "type": "image",
-            "prompt": "A glowing magenta psychic butterfly made of energy hovering over a nighttime city, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
-            "file": "media/x-men-deep-cuts--mutant-mixtape-1000.jpg"
+            "file": "media/x-men-deep-cuts--mutant-mixtape-1000.jpg",
+            "source": {
+              "url": "https://marvel.fandom.com/wiki/File:Elizabeth_Braddock_(Earth-616)_from_Uncanny_X-Men_Vol_1_257_003.png",
+              "license": "Copyrighted; used under fair use",
+              "author": "Marvel Comics"
+            }
           }
         }
       ]

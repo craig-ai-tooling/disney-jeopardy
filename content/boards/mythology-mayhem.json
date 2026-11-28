@@ -286,8 +286,12 @@
           "reveal": "The correct answer is Raya and the Last Dragon! [gasps] The dragon gem, broken into pieces. Put it back together and save Kumandra.",
           "media": {
             "type": "image",
-            "prompt": "Extreme close-up that pulls back to reveal a glowing blue-violet crystal orb split into five shards on a stone altar in a misty jungle temple carved with water dragons. Original painterly storybook illustration, 16:9, cinematic lighting, rich color, no people, no characters, no text, no logos.",
-            "file": "media/mythology-mayhem--zoom-of-the-gods-600.jpg"
+            "file": "media/mythology-mayhem--zoom-of-the-gods-600.jpg",
+            "source": {
+              "url": "https://disney.fandom.com/wiki/File:Dragon_gem_1.png",
+              "license": "Copyrighted; used under fair use",
+              "author": "Walt Disney Pictures / Disney Television"
+            }
           },
           "dailyDouble": false
         },

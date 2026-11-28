@@ -264,8 +264,12 @@
           "reveal": "The correct answer is The Princess and the Frog! Tiana's beignets are so good Charlotte orders them by the dozen. [laughs] Okay, by the hundred.",
           "media": {
             "type": "image",
-            "prompt": "Original painterly digital illustration, 4:3, no people, no characters, no logos, no text or lettering. A plate stacked high with square fried beignets buried in powdered sugar on a café table in 1920s New Orleans, a brass trumpet and a lily pad nearby, a riverboat on the river at dusk.",
-            "file": "media/food-on-film--name-that-movie-meal-400.jpg"
+            "file": "media/food-on-film--name-that-movie-meal-400.jpg",
+            "source": {
+              "url": "https://disney.fandom.com/wiki/File:DPRA_-_Tiana_is_My_Babysitter_-_Tiana_giving_out_beignets.jpg",
+              "license": "Copyrighted; used under fair use",
+              "author": "Walt Disney Pictures / Disney Television"
+            }
           },
           "dailyDouble": false
         },

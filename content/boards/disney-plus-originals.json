@@ -318,8 +318,12 @@
           "reveal": "The correct answer is WandaVision! [gasps] A black-and-white sitcom living room slowly bleeding into color. Something is VERY wrong in that suburb.",
           "media": {
             "type": "image",
-            "prompt": "A 1950s suburban living room filmed in black and white, with a boxy television and a couch, where vivid red color is slowly seeping in from one corner and the edges glitch like a broken broadcast. Original illustration, no people, no recognizable characters, no text or logos.",
-            "file": "media/disney-plus-originals--stream-scenes-800.jpg"
+            "file": "media/disney-plus-originals--stream-scenes-800.jpg",
+            "source": {
+              "url": "https://marvelcinematicuniverse.fandom.com/wiki/File:Westview_Wanda.png",
+              "license": "Copyrighted; used under fair use",
+              "author": "Marvel Studios"
+            }
           },
           "dailyDouble": false
         },

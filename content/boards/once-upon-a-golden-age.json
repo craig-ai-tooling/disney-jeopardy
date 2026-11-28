@@ -290,8 +290,12 @@
           "reveal": "[whispers] The correct answer is Sleeping Beauty. Touch the spindle of a spinning wheel... and down you go. Spooky.",
           "media": {
             "type": "image",
-            "prompt": "An antique wooden spinning wheel in a dark stone tower room, its spindle glowing with an eerie green light, swirling green mist and thorny vines creeping through a narrow window. Original illustration, no people, no recognizable characters, no text or logos.",
-            "file": "media/once-upon-a-golden-age--prop-shop-600.jpg"
+            "file": "media/once-upon-a-golden-age--prop-shop-600.jpg",
+            "source": {
+              "url": "https://disney.fandom.com/wiki/File:Sleeping_Beauty_Castle_with_statue_of_Mickey_and_Walt_Disney.jpg",
+              "license": "Copyrighted; used under fair use",
+              "author": "Walt Disney Pictures / Disney Television"
+            }
           },
           "dailyDouble": false
         },
@@ -337,8 +341,12 @@
           "reveal": "The correct answer is The Adventures of Ichabod and Mr. Toad, from 1949. [excited] A flaming pumpkin for Sleepy Hollow and a wild motorcar for Mr. Toad. Two stories, one film!",
           "media": {
             "type": "image",
-            "prompt": "A misty moonlit covered wooden bridge with a glowing, flaming jack-o'-lantern lying in the road, and parked beside it a shiny bright red vintage 1900s motorcar with goggles on the seat. Original illustration, no people, no recognizable characters, no text or logos.",
-            "file": "media/once-upon-a-golden-age--prop-shop-1000.jpg"
+            "file": "media/once-upon-a-golden-age--prop-shop-1000.jpg",
+            "source": {
+              "url": "https://disney.fandom.com/wiki/File:Headless_horseman_disney_ichabod_and_horseman_BEST.jpg",
+              "license": "Copyrighted; used under fair use",
+              "author": "Walt Disney Pictures / Disney Television"
+            }
           },
           "dailyDouble": false
         }

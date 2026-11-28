@@ -327,8 +327,12 @@
           "reveal": "The correct answer is 20,000 Leagues Under the Sea! Captain Nemo's Nautilus, from 1954. [gasps] Watch out for the giant squid.",
           "media": {
             "type": "image",
-            "prompt": "An ornate riveted iron submarine with a jagged dorsal fin and giant round viewing window, drifting through deep blue ocean among kelp and glowing fish Original artwork, no people, no characters, no text, no logos.",
-            "file": "media/inventors-and-science--inventors-workbench-1000.jpg"
+            "file": "media/inventors-and-science--inventors-workbench-1000.jpg",
+            "source": {
+              "url": "https://disney.fandom.com/wiki/File:20000-leagues-disneyscreencaps.com-3689.jpg",
+              "license": "Copyrighted; used under fair use",
+              "author": "Walt Disney Pictures / Disney Television"
+            }
           },
           "dailyDouble": false
         }
