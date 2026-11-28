@@ -44,7 +44,7 @@ function renderJoin(err = '') {
   };
 }
 
-let buzzSeenAt = 0, answerAt = 0;
+let buzzSeenAt = 0, answerAt = 0, lastResult = null;
 const CHOICE_LOCK_MS = 1000;
 
 function onPhase(prev) {
@@ -53,10 +53,30 @@ function onPhase(prev) {
   if (ph === 'buzzing' && !S.clue?.attempted.includes(me)) vibrate(60);
   if (ph === 'answering' && S.clue?.answerer === me) { vibrate([80, 40, 80]); draft = ''; answerAt = performance.now(); }
   if (ph === 'ddWager' && S.control === me) vibrate([100, 50, 100]);
+  if (ph === 'reveal' || ph === 'buzzing') {
+    const r = lastOf(S.clue?.results, (x) => x.pid === me);
+    if (r && r !== lastResult && (ph === 'reveal' || r.verdict === 'wrong')) { lastResult = r; vibrate(r.verdict === 'correct' ? [40, 40, 40, 40, 220] : r.verdict === 'wrong' ? [350] : [60, 60, 60]); }
+  }
   if (ph === 'finalThink' || ph === 'finalWager') draft = '';
 }
 
-const top = () => { const p = mine(); return p ? `<div class="top"><div class="me" style="--c:${p.color}">${avatarImg(p.avatar)} ${esc(p.name)}</div><div class="score">${money(p.score)}</div></div>` : ''; };
+const lastOf = (arr, fn) => { for (let i = (arr || []).length - 1; i >= 0; i--) if (fn(arr[i])) return arr[i]; };
+const ORD = (n) => `${n}${['th', 'st', 'nd', 'rd'][(n % 100 > 10 && n % 100 < 14) || n % 10 > 3 ? 0 : n % 10]}`;
+const secs = (ms) => `${(ms / 1000).toFixed(2)}s`;
+const auto = () => S.settings.autoAdvance !== false;
+// Rank and gap to the player just ahead (or lead over the runner-up).
+function standing() {
+  const p = mine(); if (!p || S.players.length < 2 || ['lobby', 'hostDraft'].includes(S.phase)) return '';
+  const order = [...S.players].sort((a, b) => b.score - a.score);
+  const tied = order.filter((x) => x.score === p.score).length > 1;
+  const rank = order.findIndex((x) => x.score === p.score) + 1;
+  const runnerUp = order.find((x) => x.score < p.score);
+  const gap = rank === 1 ? (runnerUp ? `up ${money(p.score - runnerUp.score)}` : '') : `${money(order[rank - 2].score - p.score)} behind ${esc(order[rank - 2].name)}`;
+  return `<div class="standing">${tied ? 'Tied ' : ''}${ORD(rank)}${gap ? ` · ${gap}` : ''}</div>`;
+}
+const top = () => { const p = mine(); return p ? `<div class="top"><div class="me" style="--c:${p.color}">${avatarImg(p.avatar)} ${esc(p.name)}</div><div class="score" data-score="${p.score}">${money(p.score)}</div></div>${standing()}` : ''; };
+const tag = (v) => `<span class="tag ${v}">${{ correct: 'RIGHT', close: 'CLOSE', wrong: 'WRONG' }[v] || ''}</span>`;
+const MIC = '<svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><rect x="8" y="2" width="8" height="13" rx="4" fill="currentColor"/><path d="M5 11a7 7 0 0 0 14 0M12 18v4M8 22h8" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>';
 
 function answerBox(kind) {
   // kind: 'clue' | 'final'
@@ -67,7 +87,7 @@ function answerBox(kind) {
   }
   return `<input id="ans" type="text" maxlength="80" placeholder="Type your answer" value="${esc(draft)}" autocomplete="off" autocorrect="off" spellcheck="false">
     <button id="submit">Submit</button>
-    <button id="mic" class="mic">🎤 Hold to say it</button>
+    <button id="mic" class="mic">${MIC} Hold to say it</button>
     <div class="muted" style="font-size:13px">Close spellings count. No need for "What is…"</div>`;
 }
 
@@ -100,14 +120,14 @@ function bindMic(btn) {
       rec.onstop = async () => {
         stream.getTracks().forEach((t) => t.stop());
         const blob = new Blob(chunks, { type: rec.mimeType || 'audio/webm' });
-        btn.textContent = '🧠 Listening…';
+        btn.textContent = 'Thinking…';
         try {
           const r = await fetch(`/api/audio?room=${S.code}&pid=${me}`, { method: 'POST', headers: { 'content-type': blob.type }, body: blob });
           if (!r.ok) throw new Error(r.status);
           const { text } = await r.json(); toast(text ? `Heard: “${text}”` : "Didn't catch that");
         } catch { browserSpeech(); }
       };
-      recording = rec; rec.start(); btn.classList.add('rec'); btn.textContent = '🔴 Listening… release to send'; vibrate(30);
+      recording = rec; rec.start(); btn.classList.add('rec'); btn.innerHTML = '<span class="recdot"></span> Listening… let go to send'; vibrate(30);
       setTimeout(() => recording === rec && stop(), 7000);
     } catch { browserSpeech(); }
   };
@@ -144,8 +164,9 @@ function lobby() {
       <label class="toggle">I'll be the moderator (still playing) <input type="checkbox" id="mod" ${set.moderator === me ? 'checked' : ''}></label>
       <div class="avatars" style="margin-top:6px">${Object.keys(AVATARS).map((k) => `<button data-av="${k}" class="${k === p?.avatar ? 'sel' : ''}">${avatarImg(k)}</button>`).join('')}</div>
     </div>
-    ${captain ? `<div class="card"><div class="muted">You're the captain 👑</div>
-      <button id="start">▶ Start the show</button><button class="secondary" id="shuffle">🎲 Different episode</button>
+    ${captain ? `<div class="card"><div class="muted">You're the captain</div>
+      <button id="start">Start the show</button><button class="secondary" id="shuffle">Different episode</button>
+      <label class="toggle">Host controls pacing <input type="checkbox" id="pace" ${set.autoAdvance === false ? 'checked' : ''}></label>
       <div class="row">${['mc', 'typed', 'mixed'].map((m) => `<button class="${set.mode === m ? '' : 'secondary'}" data-mode="${m}" style="font-size:15px">${{ mc: 'Multiple choice', typed: 'Type/speak', mixed: 'Mixed' }[m]}</button>`).join('')}</div></div>`
       : '<div class="muted">Waiting for the captain to start…</div>'}`;
 }
@@ -155,6 +176,7 @@ function bindLobby() {
   $$('[data-av]').forEach((b) => b.onclick = () => { localStorage.djAvatar = b.dataset.av; send({ t: 'prefs', avatar: b.dataset.av }); });
   $('#start') && ($('#start').onclick = () => send({ t: 'start' }));
   $('#shuffle') && ($('#shuffle').onclick = () => send({ t: 'shuffle' }));
+  $('#pace') && ($('#pace').onchange = (e) => send({ t: 'settings', settings: { autoAdvance: !e.target.checked } }));
   $$('[data-mode]').forEach((b) => b.onclick = () => send({ t: 'settings', settings: { mode: b.dataset.mode } }));
 }
 
@@ -170,11 +192,48 @@ function rulingBox() {
   return `<div class="card"><div class="muted">${r.by === 'moderator' ? 'Moderator call' : 'Vote!'}${r.challenge ? ' · challenge' : ''}</div>
     <div class="big">${esc(P(r.pid)?.name)} said “${esc(r.heard)}”</div>
     <div class="muted">Answer: <b>${esc(rv?.answer || '')}</b></div>
-    <div class="row"><button id="acc">✅ Accept</button><button class="secondary" id="rej">❌ Reject</button></div></div>`;
+    <div class="row"><button id="acc">Accept</button><button class="secondary" id="rej">Reject</button></div></div>`;
 }
 function bindRuling() {
   $('#acc') && ($('#acc').onclick = () => { send({ t: 'rule', accept: true }); app.querySelector('.card:last-child').innerHTML = '<div class="big">Vote cast!</div>'; });
   $('#rej') && ($('#rej').onclick = () => { send({ t: 'rule', accept: false }); app.querySelector('.card:last-child').innerHTML = '<div class="big">Vote cast!</div>'; });
+}
+
+// Who buzzed in and how fast, from the server's arbitration order.
+function buzzLine() {
+  const o = S.clue?.buzzOrder || []; const i = o.findIndex((b) => b.pid === me);
+  if (i === 0) return `<div class="buzzinfo">Fastest finger! ${o.length > 1 ? `${secs(o[1].rt - o[0].rt)} ahead of ${esc(P(o[1].pid)?.name)}` : `${secs(o[0].rt)} reaction`}</div>`;
+  if (i > 0) return `<div class="buzzinfo">You buzzed ${ORD(i + 1)}, ${secs(o[i].rt - o[0].rt)} behind ${esc(P(o[0].pid)?.name)}</div>`;
+  return S.clue?.attempted.includes(me) ? '' : '<div class="muted">Stay ready: if they miss, buzzers reopen.</div>';
+}
+
+function revealView() {
+  const c = S.clue; const r = lastOf(c.results, (x) => x.pid === me);
+  const win = c.results.find((x) => x.verdict === 'correct');
+  const mood = r ? r.verdict === 'correct' ? 'win' : r.verdict === 'close' ? 'close' : 'lose' : '';
+  document.body.classList.remove('win', 'lose', 'close', 'done'); if (mood) document.body.classList.add(mood);
+  const head = r ? `<div class="hero ${mood}"><div class="burst"></div><div class="word">${{ win: 'CORRECT!', close: 'SO CLOSE…', lose: 'NOT QUITE' }[mood]}</div>
+      <div class="delta">${r.verdict === 'close' ? 'Judges deciding' : r.verdict === 'wrong' && !S.settings.negatives ? 'No penalty' : `${r.verdict === 'correct' ? '+' : '−'}<span data-count="${r.amount}">$0</span>`}</div></div>`
+    : win ? `<div class="who">${avatarImg(P(win.pid)?.avatar)}<h2>${esc(P(win.pid)?.name)} got it! +${money(win.amount)}</h2></div>` : '<h2>Nobody got it</h2>';
+  const others = c.results.filter((x) => x !== r);
+  return `${top()}${head}
+    ${r && r.heard ? `<div class="said">You said “${esc(r.heard)}”</div>` : ''}
+    <div class="muted">The answer</div><div class="answer">${esc(c.answer)}</div>
+    ${others.length ? `<div class="card list">${others.map((x) => `<div class="li">${avatarImg(P(x.pid)?.avatar)}<span>${esc(P(x.pid)?.name)}: “${esc(x.heard || '—')}”</span>${tag(x.verdict)}</div>`).join('')}</div>` : ''}
+    ${rulingBox()}${r && r.verdict !== 'correct' && !S.ruling && S.settings.moderator !== me ? '<button class="secondary" id="challenge">I was right! (challenge)</button>' : ''}
+    ${(S.captain === me || S.settings.moderator === me) && !S.ruling && !auto() ? '<button id="next">Continue ▶</button>' : ''}`;
+}
+
+// Animate the reveal delta, and roll the header score from its last value.
+let shownScore = null;
+function countUp() {
+  $$('[data-count]').forEach((el) => { const to = Number(el.dataset.count); const t0 = performance.now(); const f = (t) => { const k = Math.min(1, (t - t0) / 700); el.textContent = money(Math.round(to * (1 - (1 - k) ** 3))); if (k < 1) requestAnimationFrame(f); }; requestAnimationFrame(f); });
+  const sc = $('.top .score'); if (!sc) return;
+  const to = Number(sc.dataset.score); const from = shownScore ?? to; shownScore = to;
+  if (from === to) return;
+  sc.classList.add(to > from ? 'up' : 'down'); const t0 = performance.now();
+  const f = (t) => { const k = Math.min(1, (t - t0) / 900); sc.textContent = money(Math.round(from + (to - from) * (1 - (1 - k) ** 3))); if (k < 1) requestAnimationFrame(f); else sc.classList.remove('up', 'down'); };
+  requestAnimationFrame(f);
 }
 
 function render() {
@@ -193,23 +252,31 @@ function render() {
     if (c.dailyDouble) h = `${top()}<h2>Daily Double</h2><div class="muted">${c.ddPlayer === me ? 'Listen up — it\'s all yours.' : `${esc(P(c.ddPlayer)?.name)} is answering.`}</div>`;
     else {
       const out = c.attempted.includes(me);
-      h = `${top()}<div class="muted">${esc(c.category)} · ${money(c.value)}</div><button class="buzzer ${ph === 'buzzing' && !out ? 'open' : 'wait'}" id="buzz">${out ? 'LOCKED OUT' : ph === 'buzzing' ? 'BUZZ!' : 'wait…'}</button><div class="muted">${ph === 'reading' ? 'Buzz too early and you\'re locked out for a moment!' : ''}</div>`;
+      const mineRes = lastOf(c.results, (x) => x.pid === me);
+      const why = out ? (mineRes ? `You said “${esc(mineRes.heard || '…')}”. Others can still steal it.` : 'You already took your shot.') : ph === 'reading' ? 'Wait for the lights. Buzz early and you\'re locked out for a moment!' : 'Buzzers are open!';
+      h = `${top()}<div class="clueinfo"><span>${esc(c.category)}</span><b>${money(c.value)}</b></div>${c.text && !c.media ? `<div class="cluetext">${esc(c.text)}</div>` : ''}<button class="buzzer ${ph === 'buzzing' && !out ? 'open' : 'wait'}" id="buzz">${out ? 'LOCKED OUT' : ph === 'buzzing' ? 'BUZZ!' : 'wait…'}</button><div class="muted">${why}</div>`;
     }
   } else if (ph === 'answering') {
-    h = c.answerer === me ? `${top()}<div class="muted">${esc(c.category)} · ${money(c.dailyDouble ? c.wager : c.value)}</div><h2 class="gold">You're up!</h2><div class="timer"></div>${answerBox('clue')}`
-      : `${top()}<h2>${esc(P(c.answerer)?.name)} is answering…</h2><div class="muted">Fingers crossed (or not).</div>`;
+    h = c.answerer === me ? `${top()}<div class="clueinfo"><span>${esc(c.category)}</span><b>${money(c.dailyDouble ? c.wager : c.value)}</b></div><h2 class="gold">You're up!</h2>${buzzLine()}<div class="timer"></div>${answerBox('clue')}`
+      : `${top()}<div class="who">${avatarImg(P(c.answerer)?.avatar)}<h2>${esc(P(c.answerer)?.name)} is answering…</h2></div>${buzzLine()}`;
   } else if (ph === 'reveal') {
-    const r = c.results.find((x) => x.pid === me);
-    h = `${top()}${r ? `<div class="verdict">${r.verdict === 'correct' ? '✅' : r.verdict === 'close' ? '🤔' : '❌'}</div>` : ''}<div class="muted">The answer was</div><div class="answer">${esc(c.answer)}</div>
-      ${rulingBox()}${r && r.verdict !== 'correct' && !S.ruling && S.settings.moderator !== me ? '<button class="secondary" id="challenge">🙋 I was right! (challenge)</button>' : ''}
-      ${(S.captain === me || S.settings.moderator === me) && !S.ruling ? '<button id="next">Continue ▶</button>' : ''}`;
+    h = revealView();
   } else if (ph === 'finalWheel') h = `${top()}<h2 class="gold">FINAL JEOPARDY</h2><div class="muted">Watch the wheel!</div>`;
-  else if (ph === 'finalWager') h = F.entrants.includes(me) ? (F.wagered.includes(me) ? (mine().score <= 0 ? `${top()}<h2 class="gold">${esc(F.film)}</h2><h2>Playing for pride!</h2><div class="muted">No wager this time, but you still get to answer.</div>` : `${top()}<h2>Wager locked 🔒</h2>`) : `${top()}<h2 class="gold">${esc(F.film)}</h2>${wagerBox(Math.max(mine().score, 0), 'Final wager')}`) : `${top()}<h2>Sitting this one out</h2><div class="muted">You need more than $0 to play Final Jeopardy.</div>`;
-  else if (ph === 'finalClue' || ph === 'finalThink') h = F.entrants.includes(me) && !F.answered.includes(me) && ph === 'finalThink' ? `${top()}<h2 class="gold">${esc(F.film)}</h2><div class="timer"></div>${answerBox('final')}` : `${top()}<h2>${F.answered.includes(me) ? 'Answer locked 🔒' : 'Read the clue on the TV…'}</h2>`;
-  else if (ph === 'finalReveal') h = `${top()}<h2>Final Jeopardy reveal…</h2>${rulingBox()}${S.captain === me && !S.ruling ? '<button id="next">Next ▶</button>' : ''}`;
-  else if (ph === 'podium') { const rank = [...S.players].sort((a, b) => b.score - a.score).findIndex((p) => p.id === me) + 1; h = `${top()}<div class="verdict">${rank === 1 ? '👑' : rank === 2 ? '🥈' : rank === 3 ? '🥉' : '🎉'}</div><h2>You finished #${rank}!</h2>${S.captain === me ? '<button id="again">Play another episode</button>' : ''}`; }
+  else if (ph === 'finalWager') h = F.entrants.includes(me) ? (F.wagered.includes(me) ? (mine().score <= 0 ? `${top()}<h2 class="gold">${esc(F.film)}</h2><h2>Playing for pride!</h2><div class="muted">No wager this time, but you still get to answer.</div>` : `${top()}<h2>Wager locked in</h2>`) : `${top()}<h2 class="gold">${esc(F.film)}</h2>${wagerBox(Math.max(mine().score, 0), 'Final wager')}`) : `${top()}<h2>Sitting this one out</h2><div class="muted">You need more than $0 to play Final Jeopardy.</div>`;
+  else if (ph === 'finalClue' || ph === 'finalThink') h = F.entrants.includes(me) && !F.answered.includes(me) && ph === 'finalThink' ? `${top()}<h2 class="gold">${esc(F.film)}</h2><div class="timer"></div>${answerBox('final')}` : `${top()}<h2>${F.answered.includes(me) ? 'Answer locked in' : 'Read the clue on the TV…'}</h2>`;
+  else if (ph === 'finalReveal') h = `${top()}<h2>Final Jeopardy reveal…</h2>${rulingBox()}${S.captain === me && !S.ruling && !auto() ? '<button id="next">Next ▶</button>' : ''}`;
+  else if (ph === 'podium') {
+    const order = [...S.players].sort((a, b) => b.score - a.score);
+    const rank = order.findIndex((p) => p.score === mine().score) + 1;
+    document.body.classList.add(rank === 1 ? 'win' : 'done');
+    h = `${top()}<div class="medal r${Math.min(rank, 4)}"><span>${ORD(rank)}</span></div><h2 class="gold">${rank === 1 ? 'CHAMPION!' : `You finished ${ORD(rank)}!`}</h2>
+      <div class="card list">${order.map((p, i) => `<div class="li ${p.id === me ? 'me' : ''}"><b>${i + 1}</b>${avatarImg(p.avatar)}<span>${esc(p.name)}</span><em>${money(p.score)}</em></div>`).join('')}</div>
+      ${S.captain === me ? '<button id="again">Play another episode</button>' : ''}`;
+  }
+  if (ph !== 'reveal' && ph !== 'podium') document.body.classList.remove('win', 'lose', 'close', 'done');
   app.innerHTML = h;
   countdown($('.timer'), S.deadline);
+  countUp();
   if (ph === 'lobby') bindLobby();
   $$('[data-pick]').forEach((b) => b.onclick = () => { sfx('pick'); send({ t: 'pick', clue: b.dataset.pick }); });
   $('#buzz') && $('#buzz').addEventListener('pointerdown', (e) => { e.preventDefault(); vibrate(40); send({ t: 'buzz', rt: buzzSeenAt ? Math.round(performance.now() - buzzSeenAt) : undefined }); });
