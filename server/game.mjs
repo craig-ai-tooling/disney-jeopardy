@@ -318,7 +318,7 @@ export class Room {
   readDone(seq) {
     if (seq === this.narrating) this.narrating = null;
     if ((this.phase === 'intro' && seq === 'intro') || (this.phase === 'categories' && seq === `cat:${this.catIdx}`)) return this.setTimer(900, () => this.advance());
-    if (this.phase === 'reveal' && !this.ruling && this.clue && seq === `rev-${this.clue.seq}`) return this.setTimer(2500, () => this.afterReveal());
+    if (this.phase === 'reveal' && !this.ruling && this.clue && seq === `rev-${this.clue.seq}`) return this.autoNext(2500, () => this.afterReveal());
     if (this.phase !== 'reading' || !this.clue || (seq && seq !== this.clue.seq)) return;
     this.clearTimer();
     if (this.dd) return this.startAnswer(this.players.get(this.dd.pid));
