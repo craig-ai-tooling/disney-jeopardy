@@ -210,7 +210,10 @@
           "clue": "After the World's Fair, it's a small world opened at Disneyland in this year.",
           "answer": "1966",
           "accept": [
-            "1966"
+            "1966",
+            "nineteen sixty six",
+            "nineteen sixty-six",
+            "66"
           ],
           "choices": [
             "1966",

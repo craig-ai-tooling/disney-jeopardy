@@ -97,7 +97,10 @@
             "50th",
             "50",
             "fiftieth",
-            "the 50th"
+            "the 50th",
+            "fifty",
+            "number fifty",
+            "number 50"
           ],
           "choices": [
             "50th",
@@ -391,7 +394,8 @@
           "accept": [
             "sleeping beauty",
             "aurora",
-            "princess aurora"
+            "princess aurora",
+            "briar rose"
           ],
           "choices": [
             "Sleeping Beauty",
