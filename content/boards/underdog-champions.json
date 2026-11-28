@@ -1,0 +1,554 @@
+{
+  "id": "underdog-champions",
+  "title": "Underdog Champions",
+  "theme": "Disney sports movies",
+  "tags": [
+    "sports",
+    "movies",
+    "live-action"
+  ],
+  "intro": "[excited] Grab your foam fingers, folks! Tonight is all about Disney's greatest underdogs: hockey misfits, bobsledders, ballplayers, and one very talented dog. [laughs] Let's hit the field!",
+  "art": {
+    "prompt": "A floodlit small-town stadium at dusk, a hockey stick, a bobsled, a football and a baseball glove arranged on a locker-room bench, a golden trophy gleaming under the lights, confetti in the air Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+    "file": "media/underdog-champions.jpg"
+  },
+  "categories": [
+    {
+      "id": "quack-attack",
+      "title": "Quack Attack",
+      "kind": "film",
+      "intro": "Our film category is The Mighty Ducks! [chuckles] Quack, quack, quack, everybody.",
+      "art": {
+        "prompt": "A frozen pond ringed with pine trees at night, a lone hockey goal, a puck and a scattering of green and white feathers on the ice under string lights Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/underdog-champions--quack-attack.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In The Mighty Ducks, the team's famous wedge-shaped play, shaped like a flock of birds in flight, is called this.",
+          "answer": "The Flying V",
+          "accept": [
+            "the flying v",
+            "flying v",
+            "flying vee"
+          ],
+          "choices": [
+            "The Flying V",
+            "The Triple Deke",
+            "The Knucklepuck",
+            "The Iron Wall"
+          ],
+          "reveal": "The correct answer is The Flying V! [excited] Honk if you tried it at recess.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Emilio Estevez plays this hotshot lawyer forced to coach a youth hockey team in The Mighty Ducks.",
+          "answer": "Gordon Bombay",
+          "accept": [
+            "gordon bombay",
+            "bombay",
+            "coach bombay",
+            "gordon"
+          ],
+          "choices": [
+            "Gordon Bombay",
+            "Jack Reilly",
+            "Hans Bauer",
+            "Charlie Conway"
+          ],
+          "reveal": "The correct answer is Gordon Bombay. He went from courtroom to coach's box, and never looked back.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "The film's success inspired Disney to launch a real NHL expansion team in 1993 with this name.",
+          "answer": "The Mighty Ducks of Anaheim",
+          "accept": [
+            "mighty ducks of anaheim",
+            "the mighty ducks of anaheim",
+            "anaheim mighty ducks",
+            "mighty ducks"
+          ],
+          "choices": [
+            "The Mighty Ducks of Anaheim",
+            "The Anaheim Angels",
+            "The San Jose Sharks",
+            "The California Golden Seals"
+          ],
+          "reveal": "The correct answer is the Mighty Ducks of Anaheim! [laughs] A movie made a real team. Today they're just the Anaheim Ducks.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In D2: The Mighty Ducks, the team represents this country at the Junior Goodwill Games.",
+          "answer": "The United States",
+          "accept": [
+            "united states",
+            "the united states",
+            "usa",
+            "team usa",
+            "america",
+            "the usa",
+            "us"
+          ],
+          "choices": [
+            "The United States",
+            "Canada",
+            "Iceland",
+            "Jamaica"
+          ],
+          "reveal": "The correct answer is the United States. Team USA takes on Iceland in the big finale!",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "In the first Mighty Ducks film, District 5's bitter rivals are this team, coached by Bombay's own old coach, Jack Reilly.",
+          "answer": "The Hawks",
+          "accept": [
+            "the hawks",
+            "hawks"
+          ],
+          "choices": [
+            "The Hawks",
+            "The Eagles",
+            "The Cardinals",
+            "The Flames"
+          ],
+          "reveal": "The correct answer is the Hawks! [gasps] And Bombay was a Hawk himself as a kid. Talk about awkward.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "locker-room-legends",
+      "title": "Locker Room Legends",
+      "kind": "theme",
+      "intro": "Our themed category: real-life and reel-life Disney sports stories. [excited] Name that underdog!",
+      "art": {
+        "prompt": "A row of open wooden lockers glowing with warm light, each holding different sports gear: a baseball bat, cleats, a bobsled helmet, a basketball, a horse racing saddle Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/underdog-champions--locker-room-legends.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In Air Bud, Buddy the golden retriever amazes everyone by playing this sport.",
+          "answer": "Basketball",
+          "accept": [
+            "basketball",
+            "hoops"
+          ],
+          "choices": [
+            "Basketball",
+            "Soccer",
+            "Football",
+            "Baseball"
+          ],
+          "reveal": "The correct answer is basketball! [laughs] Nothing but net. And a little drool.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Cool Runnings follows Jamaica's very first team in this Winter Olympic event at the 1988 Calgary Games.",
+          "answer": "Bobsled",
+          "accept": [
+            "bobsled",
+            "bobsledding",
+            "bobsleigh",
+            "bobsleigh racing"
+          ],
+          "choices": [
+            "Bobsled",
+            "Ski jumping",
+            "Luge",
+            "Speed skating"
+          ],
+          "reveal": "The correct answer is bobsled! A team from a tropical island, sliding on ice. Pure Disney.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Denzel Washington plays this real-life head coach of T.C. Williams High School in Remember the Titans.",
+          "answer": "Herman Boone",
+          "accept": [
+            "herman boone",
+            "coach boone",
+            "boone"
+          ],
+          "choices": [
+            "Herman Boone",
+            "Bill Yoast",
+            "Herb Brooks",
+            "Don Haskins"
+          ],
+          "reveal": "The correct answer is Herman Boone! The 1971 Titans went undefeated and won the Virginia state title.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Dennis Quaid plays Jim Morris, a high school science teacher who reaches the major leagues at age 35, in this 2002 film.",
+          "answer": "The Rookie",
+          "accept": [
+            "the rookie",
+            "rookie"
+          ],
+          "choices": [
+            "The Rookie",
+            "Million Dollar Arm",
+            "Angels in the Outfield",
+            "The Sandlot"
+          ],
+          "reveal": "The correct answer is The Rookie! Morris really did debut for Tampa Bay in 1999. Never too late, folks.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "In Invincible, Mark Wahlberg plays Vince Papale, a 30-year-old substitute teacher and bartender who makes the roster of this NFL team.",
+          "answer": "The Philadelphia Eagles",
+          "accept": [
+            "philadelphia eagles",
+            "the philadelphia eagles",
+            "eagles",
+            "the eagles"
+          ],
+          "choices": [
+            "The Philadelphia Eagles",
+            "The New York Giants",
+            "The Pittsburgh Steelers",
+            "The Dallas Cowboys"
+          ],
+          "reveal": "The correct answer is the Philadelphia Eagles! [excited] Fly, Eagles, fly! Papale made the team in 1976 after an open tryout.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "zoomed-in-trophy-case",
+      "title": "Zoomed-In Trophy Case",
+      "kind": "media",
+      "intro": "It's a zoom category! I'll zoom way in on a prop. [whispers] You name the Disney sports movie it belongs to.",
+      "art": {
+        "prompt": "A gleaming glass trophy case seen through a magnifying glass, sports props inside: a feather, a bobsled helmet, jockey silks, a cricket ball and running shoes Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/underdog-champions--zoomed-in-trophy-case.jpg"
+      },
+      "format": "zoom",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Zoomed in. Name the Disney sports movie.",
+          "answer": "Angels in the Outfield",
+          "accept": [
+            "angels in the outfield"
+          ],
+          "choices": [
+            "Angels in the Outfield",
+            "The Sandlot",
+            "Rookie of the Year",
+            "Air Bud: Seventh Inning Fetch"
+          ],
+          "reveal": "The correct answer is Angels in the Outfield! Those glowing helpers gave the 1994 Angels a heavenly boost.",
+          "media": {
+            "type": "image",
+            "prompt": "A leather baseball glove in the outfield grass with a single glowing white angel feather resting in its pocket, soft golden halo light, stadium lights blurred behind Original artwork, no people, no characters, no text, no logos.",
+            "file": "media/underdog-champions--zoomed-in-trophy-case-200.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Zoomed in. Name the Disney sports movie.",
+          "answer": "Cool Runnings",
+          "accept": [
+            "cool runnings"
+          ],
+          "choices": [
+            "Cool Runnings",
+            "Miracle",
+            "Eight Below",
+            "Snowball Express"
+          ],
+          "reveal": "The correct answer is Cool Runnings! Green, gold and black, just like the flag of Jamaica.",
+          "media": {
+            "type": "image",
+            "prompt": "Close-up of a dented bobsled nose painted in bold green, gold and black stripes, frost on the metal, an icy track curving away under floodlights Original artwork, no people, no characters, no text, no logos.",
+            "file": "media/underdog-champions--zoomed-in-trophy-case-400.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Zoomed in. Name the Disney sports movie.",
+          "answer": "Secretariat",
+          "accept": [
+            "secretariat"
+          ],
+          "choices": [
+            "Secretariat",
+            "Seabiscuit",
+            "Dreamer",
+            "Black Beauty"
+          ],
+          "reveal": "The correct answer is Secretariat! Blue and white checks were the colors of Meadow Stable, home of the 1973 Triple Crown winner.",
+          "media": {
+            "type": "image",
+            "prompt": "Extreme close-up of jockey racing silks with bold blue and white checkerboard blocks and blue bands on the sleeves, draped over a saddle on a fence at a racetrack Original artwork, no people, no characters, no text, no logos.",
+            "file": "media/underdog-champions--zoomed-in-trophy-case-600.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Zoomed in. Name the Disney sports movie.",
+          "answer": "Million Dollar Arm",
+          "accept": [
+            "million dollar arm"
+          ],
+          "choices": [
+            "Million Dollar Arm",
+            "The Rookie",
+            "Bend It Like Beckham",
+            "Lagaan"
+          ],
+          "reveal": "The correct answer is Million Dollar Arm! Jon Hamm's agent recruits two young men from India to try out as baseball pitchers.",
+          "media": {
+            "type": "image",
+            "prompt": "A red leather cricket ball with raised seam resting inside a baseball catcher's mitt, marigold petals scattered on a dusty pitch, a cricket wicket blurred in the background Original artwork, no people, no characters, no text, no logos.",
+            "file": "media/underdog-champions--zoomed-in-trophy-case-800.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Zoomed in. Name the Disney sports movie.",
+          "answer": "McFarland, USA",
+          "accept": [
+            "mcfarland usa",
+            "mcfarland, usa",
+            "mcfarland"
+          ],
+          "choices": [
+            "McFarland, USA",
+            "Glory Road",
+            "Remember the Titans",
+            "The Greatest Game Ever Played"
+          ],
+          "reveal": "The correct answer is McFarland, USA! Kevin Costner coaches a cross-country team of farmworkers' kids in California's Central Valley.",
+          "media": {
+            "type": "image",
+            "prompt": "Worn, dusty running shoes on a dirt road between endless rows of green crops in California farm fields at sunrise, a water tower on the horizon Original artwork, no people, no characters, no text, no logos.",
+            "file": "media/underdog-champions--zoomed-in-trophy-case-1000.jpg"
+          },
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "victory-lap",
+      "title": "Victory Lap",
+      "kind": "parks",
+      "intro": "Our Parks category: where sports meet the Disney parks. [chuckles] No stretching required.",
+      "art": {
+        "prompt": "A sunny theme park scene with a snowy mountain coaster, a baseball diamond and giant sports-themed hotel decorations, pennants fluttering Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/underdog-champions--victory-lap.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This Walt Disney World value resort is decorated with giant football helmets, surfboards and basketballs.",
+          "answer": "Disney's All-Star Sports Resort",
+          "accept": [
+            "all-star sports",
+            "all star sports",
+            "all-star sports resort",
+            "all star sports resort",
+            "disney's all-star sports resort"
+          ],
+          "choices": [
+            "Disney's All-Star Sports Resort",
+            "Disney's All-Star Movies Resort",
+            "Disney's Pop Century Resort",
+            "Disney's Art of Animation Resort"
+          ],
+          "reveal": "The correct answer is Disney's All-Star Sports Resort! [laughs] It's the only hotel where your building might be a giant football helmet.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Riders race down a Swiss mountain in bobsleds on this attraction, which opened at Disneyland in 1959.",
+          "answer": "Matterhorn Bobsleds",
+          "accept": [
+            "matterhorn bobsleds",
+            "matterhorn",
+            "the matterhorn"
+          ],
+          "choices": [
+            "Matterhorn Bobsleds",
+            "Expedition Everest",
+            "Big Thunder Mountain Railroad",
+            "Space Mountain"
+          ],
+          "reveal": "The correct answer is Matterhorn Bobsleds! [whispers] And yes, there really is a basketball hoop hidden up inside the mountain.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "This Major League Baseball team held spring training at Disney's Wide World of Sports complex from 1998 to 2019.",
+          "answer": "The Atlanta Braves",
+          "accept": [
+            "atlanta braves",
+            "the atlanta braves",
+            "braves",
+            "the braves"
+          ],
+          "choices": [
+            "The Atlanta Braves",
+            "The Tampa Bay Rays",
+            "The Miami Marlins",
+            "The New York Yankees"
+          ],
+          "reveal": "The correct answer is the Atlanta Braves! They swapped Mickey for a new home in North Port, Florida.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In 2020, the NBA finished its season in a bubble at Walt Disney World. This team won the championship there.",
+          "answer": "The Los Angeles Lakers",
+          "accept": [
+            "los angeles lakers",
+            "the los angeles lakers",
+            "lakers",
+            "the lakers",
+            "la lakers"
+          ],
+          "choices": [
+            "The Los Angeles Lakers",
+            "The Miami Heat",
+            "The Milwaukee Bucks",
+            "The Boston Celtics"
+          ],
+          "reveal": "The correct answer is the Los Angeles Lakers! They beat the Miami Heat. [chuckles] Imagine winning a title and riding the Skyliner home.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Disney owned baseball's Anaheim Angels from 1996 to 2003, and the team won its first World Series in this year.",
+          "answer": "2002",
+          "accept": [
+            "2002",
+            "two thousand two",
+            "twenty oh two"
+          ],
+          "choices": [
+            "2002",
+            "1998",
+            "2001",
+            "2003"
+          ],
+          "reveal": "The correct answer is 2002! The Angels beat the Giants in seven games, Rally Monkey and all.",
+          "dailyDouble": true
+        }
+      ]
+    },
+    {
+      "id": "pep-talk",
+      "title": "Pep Talk",
+      "kind": "fan",
+      "intro": "Our fan category is a quote round! [excited] Listen to the line and name the sports movie.",
+      "art": {
+        "prompt": "A chalkboard in a locker room covered in hand-drawn play diagrams of Xs and Os and arrows, a coach's whistle and clipboard on a bench Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/underdog-champions--pep-talk.jpg"
+      },
+      "format": "quote",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Name the movie that features this line.",
+          "answer": "Cars",
+          "accept": [
+            "cars"
+          ],
+          "choices": [
+            "Cars",
+            "Planes",
+            "Turbo",
+            "Herbie: Fully Loaded"
+          ],
+          "reveal": "The correct answer is Cars! Lightning McQueen's pre-race pep talk to himself. Ka-chow!",
+          "quote": "Speed. I am speed.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Name the movie that features this chant.",
+          "answer": "Cool Runnings",
+          "accept": [
+            "cool runnings"
+          ],
+          "choices": [
+            "Cool Runnings",
+            "Miracle",
+            "The Mighty Ducks",
+            "Eddie the Eagle"
+          ],
+          "reveal": "The correct answer is Cool Runnings! [laughs] Try it in the car. Everyone will join in.",
+          "quote": "Feel the rhythm! Feel the rhyme! Get on up, it's bobsled time!",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Name the movie that features this line.",
+          "answer": "Air Bud",
+          "accept": [
+            "air bud"
+          ],
+          "choices": [
+            "Air Bud",
+            "Space Jam",
+            "Bolt",
+            "Snow Buddies"
+          ],
+          "reveal": "The correct answer is Air Bud! Rule books everywhere were stumped.",
+          "quote": "Ain't no rule says a dog can't play basketball.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Name the movie that features this line.",
+          "answer": "Remember the Titans",
+          "accept": [
+            "remember the titans"
+          ],
+          "choices": [
+            "Remember the Titans",
+            "Invincible",
+            "Friday Night Lights",
+            "The Express"
+          ],
+          "reveal": "The correct answer is Remember the Titans! Julius tells Gerry he has to lead the team before the team will follow.",
+          "quote": "Attitude reflects leadership, captain.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Name the movie that features this line.",
+          "answer": "Miracle",
+          "accept": [
+            "miracle"
+          ],
+          "choices": [
+            "Miracle",
+            "The Mighty Ducks",
+            "Invincible",
+            "Glory Road"
+          ],
+          "reveal": "The correct answer is Miracle! Herb Brooks' locker-room speech before the 1980 Olympic upset of the Soviet team.",
+          "quote": "Great moments are born from great opportunity.",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}

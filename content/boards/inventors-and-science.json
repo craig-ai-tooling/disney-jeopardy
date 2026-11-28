@@ -1,0 +1,541 @@
+{
+  "id": "inventors-and-science",
+  "title": "Eureka!",
+  "theme": "Inventors and science",
+  "tags": [
+    "science",
+    "inventors",
+    "technology"
+  ],
+  "intro": "[excited] Safety goggles ON, everybody! Tonight we're celebrating Disney's brilliant inventors, mad scientists and gadgets that go boom. [laughs] Results may vary. Explosions likely.",
+  "art": {
+    "prompt": "A cluttered inventor's laboratory bursting with bubbling beakers, sparking coils, blueprints, gears, a glowing lightbulb and a tiny rocket on a workbench Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+    "file": "media/inventors-and-science.jpg"
+  },
+  "categories": [
+    {
+      "id": "san-fransokyo-science",
+      "title": "San Fransokyo Science",
+      "kind": "film",
+      "intro": "Our film category is Big Hero 6! [chuckles] Are you satisfied with your care?",
+      "art": {
+        "prompt": "A futuristic hilly city at sunset blending a giant red suspension bridge with pagoda-style rooftops, wind turbines floating like blimps above the skyline Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/inventors-and-science--san-fransokyo-science.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Baymax asks patients to rate their pain on a scale of 1 to this number.",
+          "answer": "10",
+          "accept": [
+            "10",
+            "ten"
+          ],
+          "choices": [
+            "10",
+            "5",
+            "100",
+            "3"
+          ],
+          "reveal": "The correct answer is 10! [laughs] Hiro rates being bumped by a robot a zero.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Hiro's caring older brother, who invented Baymax.",
+          "answer": "Tadashi",
+          "accept": [
+            "tadashi",
+            "tadashi hamada"
+          ],
+          "choices": [
+            "Tadashi",
+            "Fred",
+            "Wasabi",
+            "Callaghan"
+          ],
+          "reveal": "The correct answer is Tadashi! [sighs] His motto: look for a new angle.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Hiro's swarms of tiny magnetic robots, controlled by a neural headband, are called these.",
+          "answer": "Microbots",
+          "accept": [
+            "microbots",
+            "micro bots",
+            "micro-bots",
+            "microbot"
+          ],
+          "choices": [
+            "Microbots",
+            "Nanobots",
+            "Megabots",
+            "Mini-mechs"
+          ],
+          "reveal": "The correct answer is microbots! The only limit is your imagination. And your villain's.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "This Big Hero 6 member is a neat freak who fights with laser-induction plasma blades.",
+          "answer": "Wasabi",
+          "accept": [
+            "wasabi"
+          ],
+          "choices": [
+            "Wasabi",
+            "Go Go",
+            "Honey Lemon",
+            "Fred"
+          ],
+          "reveal": "The correct answer is Wasabi! [chuckles] He has a place for everything, and everything in its place.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "In Big Hero 6's post-credits scene, Stan Lee appears as the father of this team member.",
+          "answer": "Fred",
+          "accept": [
+            "fred",
+            "fredzilla"
+          ],
+          "choices": [
+            "Fred",
+            "Hiro",
+            "Wasabi",
+            "Go Go"
+          ],
+          "reveal": "The correct answer is Fred! [gasps] Turns out Fred's dad is a retired superhero. Of course he is.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "mad-scientists-and-bright-ideas",
+      "title": "Mad Scientists and Bright Ideas",
+      "kind": "theme",
+      "intro": "Our themed category: Disney's most memorable inventors. [excited] Eureka!",
+      "art": {
+        "prompt": "A row of eccentric inventions on a sunny workbench: a steam-powered wood chopper, a bouncing green goo jar, a sandwich-launching contraption and a brass time-machine dial Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/inventors-and-science--mad-scientists-and-bright-ideas.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Belle's father, an eccentric inventor, gets lost on his way to the fair in Beauty and the Beast.",
+          "answer": "Maurice",
+          "accept": [
+            "maurice"
+          ],
+          "choices": [
+            "Maurice",
+            "Lumiere",
+            "Gaston",
+            "Monsieur D'Arque"
+          ],
+          "reveal": "The correct answer is Maurice! [laughs] His wood-chopping machine only explodes sometimes.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Meet the Robinsons' inventor family lives by this motto, the title of Walt Disney's favorite saying.",
+          "answer": "Keep moving forward",
+          "accept": [
+            "keep moving forward",
+            "keep moving forward!"
+          ],
+          "choices": [
+            "Keep moving forward",
+            "Dream big",
+            "Never give up",
+            "To infinity and beyond"
+          ],
+          "reveal": "The correct answer is keep moving forward! The film ends with Walt's real quote on screen.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Meet the Robinsons' villain, Bowler Hat Guy, is really Lewis's sleepy former orphanage roommate, nicknamed this.",
+          "answer": "Goob",
+          "accept": [
+            "goob",
+            "michael yagoobian",
+            "mike yagoobian",
+            "the goob"
+          ],
+          "choices": [
+            "Goob",
+            "Doris",
+            "Bud",
+            "Gaston"
+          ],
+          "reveal": "The correct answer is Goob! He stayed awake once, and missed the catch of his life.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In 1997's Flubber, Robin Williams plays absent-minded professor Philip Brainard, who teaches at this college.",
+          "answer": "Medfield College",
+          "accept": [
+            "medfield college",
+            "medfield",
+            "medfield college of technology"
+          ],
+          "choices": [
+            "Medfield College",
+            "Rutland College",
+            "Hilldale College",
+            "Dexter Riley College"
+          ],
+          "reveal": "The correct answer is Medfield College! The same school from the 1961 original. Bounce on over!",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "This actor played Professor Ned Brainard, inventor of flubber, in 1961's The Absent-Minded Professor.",
+          "answer": "Fred MacMurray",
+          "accept": [
+            "fred macmurray",
+            "macmurray"
+          ],
+          "choices": [
+            "Fred MacMurray",
+            "Dean Jones",
+            "Kurt Russell",
+            "Dick Van Dyke"
+          ],
+          "reveal": "The correct answer is Fred MacMurray! He drove a flying Model T to prove flubber works.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "inventors-workbench",
+      "title": "Inventor's Workbench",
+      "kind": "media",
+      "intro": "It's a picture category! I'll show you a famous invention. [whispers] You name the Disney movie.",
+      "art": {
+        "prompt": "A wooden workbench under a hanging lightbulb covered with blueprints, a magnifying glass, gears and five covered mystery inventions Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/inventors-and-science--inventors-workbench.jpg"
+      },
+      "format": "picture",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This invention comes from which Disney movie?",
+          "answer": "Flubber",
+          "accept": [
+            "flubber"
+          ],
+          "choices": [
+            "Flubber",
+            "Honey, I Shrunk the Kids",
+            "Inspector Gadget",
+            "Meet the Robinsons"
+          ],
+          "reveal": "The correct answer is Flubber! Flying rubber. It bounces higher every time.",
+          "media": {
+            "type": "image",
+            "prompt": "A glass laboratory beaker overflowing with bouncing, glossy lime green goo, splats of green goo on a chalkboard, a basketball floating in the air nearby Original artwork, no people, no characters, no text, no logos.",
+            "file": "media/inventors-and-science--inventors-workbench-200.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "This invention comes from which Disney movie?",
+          "answer": "Honey, I Shrunk the Kids",
+          "accept": [
+            "honey, i shrunk the kids",
+            "honey i shrunk the kids"
+          ],
+          "choices": [
+            "Honey, I Shrunk the Kids",
+            "Flubber",
+            "The Shaggy Dog",
+            "Inspector Gadget"
+          ],
+          "reveal": "The correct answer is Honey, I Shrunk the Kids! [laughs] Wayne Szalinski's shrink ray, plus one stray baseball.",
+          "media": {
+            "type": "image",
+            "prompt": "A homemade laser shrink machine in a messy suburban attic, a big metal ray emitter on a tripod, a broken window, a baseball on the floor Original artwork, no people, no characters, no text, no logos.",
+            "file": "media/inventors-and-science--inventors-workbench-400.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "This invention comes from which Disney movie?",
+          "answer": "Beauty and the Beast",
+          "accept": [
+            "beauty and the beast"
+          ],
+          "choices": [
+            "Beauty and the Beast",
+            "The Little Mermaid",
+            "Tangled",
+            "Pinocchio"
+          ],
+          "reveal": "The correct answer is Beauty and the Beast! Maurice's wood chopper, a real crowd pleaser at the fair.",
+          "media": {
+            "type": "image",
+            "prompt": "A rickety steam-powered wood-chopping contraption in a French village cottage cellar, with pipes, a bellows, an axe arm and a stack of split logs Original artwork, no people, no characters, no text, no logos.",
+            "file": "media/inventors-and-science--inventors-workbench-600.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "This invention comes from which Disney movie?",
+          "answer": "Meet the Robinsons",
+          "accept": [
+            "meet the robinsons"
+          ],
+          "choices": [
+            "Meet the Robinsons",
+            "Lightyear",
+            "Treasure Planet",
+            "Big Hero 6"
+          ],
+          "reveal": "The correct answer is Meet the Robinsons! [excited] A time machine, built by a kid, borrowed by a guy in a bowler hat.",
+          "media": {
+            "type": "image",
+            "prompt": "A sleek, rounded hover-car time machine with a bubble canopy floating above a futuristic city of colorful towers and tubes, swirling time vortex behind it Original artwork, no people, no characters, no text, no logos.",
+            "file": "media/inventors-and-science--inventors-workbench-800.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "This invention comes from which Disney movie?",
+          "answer": "20,000 Leagues Under the Sea",
+          "accept": [
+            "20,000 leagues under the sea",
+            "20000 leagues under the sea",
+            "twenty thousand leagues under the sea"
+          ],
+          "choices": [
+            "20,000 Leagues Under the Sea",
+            "The Little Mermaid",
+            "Atlantis: The Lost Empire",
+            "In Search of the Castaways"
+          ],
+          "reveal": "The correct answer is 20,000 Leagues Under the Sea! Captain Nemo's Nautilus, from 1954. [gasps] Watch out for the giant squid.",
+          "media": {
+            "type": "image",
+            "prompt": "An ornate riveted iron submarine with a jagged dorsal fin and giant round viewing window, drifting through deep blue ocean among kelp and glowing fish Original artwork, no people, no characters, no text, no logos.",
+            "file": "media/inventors-and-science--inventors-workbench-1000.jpg"
+          },
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "science-fair",
+      "title": "Science Fair",
+      "kind": "parks",
+      "intro": "Our Parks category: science and the future at the parks. [chuckles] Show your work.",
+      "art": {
+        "prompt": "A futuristic world's fair with a towering spire, a white plastic house of the future, a giant centrifuge, glowing greenhouses and molecule sculptures Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/inventors-and-science--science-fair.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "At EPCOT's Mission: SPACE, guests train to become these.",
+          "answer": "Astronauts",
+          "accept": [
+            "astronauts",
+            "astronaut",
+            "an astronaut"
+          ],
+          "choices": [
+            "Astronauts",
+            "Pilots",
+            "Pirates",
+            "Scientists"
+          ],
+          "reveal": "The correct answer is astronauts! [excited] Mission Control, we have a snack break.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "The 3D show Honey, I Shrunk the Audience played at EPCOT in this pavilion, home of Figment.",
+          "answer": "Imagination!",
+          "accept": [
+            "imagination",
+            "imagination!",
+            "the imagination pavilion",
+            "journey into imagination"
+          ],
+          "choices": [
+            "Imagination!",
+            "Innoventions",
+            "The Land",
+            "Wonders of Life"
+          ],
+          "reveal": "The correct answer is the Imagination! pavilion. It ran there from 1994 to 2010.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Disneyland's Monsanto House of the Future, from 1957 to 1967, was built almost entirely from this material.",
+          "answer": "Plastic",
+          "accept": [
+            "plastic",
+            "plastics"
+          ],
+          "choices": [
+            "Plastic",
+            "Aluminum",
+            "Glass",
+            "Concrete"
+          ],
+          "reveal": "The correct answer is plastic! [laughs] When they tore it down, the wrecking ball bounced right off.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Mission: SPACE uses these spinning machines to create the G-forces of a rocket launch.",
+          "answer": "Centrifuges",
+          "accept": [
+            "centrifuges",
+            "centrifuge",
+            "a centrifuge"
+          ],
+          "choices": [
+            "Centrifuges",
+            "Wind tunnels",
+            "Hydraulic lifts",
+            "Linear motors"
+          ],
+          "reveal": "The correct answer is centrifuges! [gasps] That's why there's a green team and an orange team.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Disneyland's 1967 attraction Adventure Thru Inner Space shrank guests in Atomobiles down to the size of this.",
+          "answer": "An atom",
+          "accept": [
+            "atom",
+            "an atom",
+            "atoms",
+            "smaller than an atom"
+          ],
+          "choices": [
+            "An atom",
+            "A grain of sand",
+            "A blood cell",
+            "A virus"
+          ],
+          "reveal": "The correct answer is an atom! Riders passed through a snowflake and into the atom itself.",
+          "dailyDouble": true
+        }
+      ]
+    },
+    {
+      "id": "duckburg-brainiacs",
+      "title": "Duckburg Brainiacs",
+      "kind": "fan",
+      "intro": "Our fan category: the brilliant minds of Duckburg. [excited] Woo-oo!",
+      "art": {
+        "prompt": "A cluttered inventor's workshop inside a tall old water tower, lightbulbs everywhere, a robotic suit on a stand and blueprints pinned to the walls Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/inventors-and-science--duckburg-brainiacs.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This chicken inventor is Duckburg's resident genius in DuckTales.",
+          "answer": "Gyro Gearloose",
+          "accept": [
+            "gyro gearloose",
+            "gyro"
+          ],
+          "choices": [
+            "Gyro Gearloose",
+            "Fenton Crackshell",
+            "Launchpad McQuack",
+            "Ludwig Von Drake"
+          ],
+          "reveal": "The correct answer is Gyro Gearloose! [chuckles] His inventions work perfectly, about half the time.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Gyro's tiny robot assistant has a lightbulb for a head and is called this.",
+          "answer": "Little Helper",
+          "accept": [
+            "little helper",
+            "helper",
+            "the little helper"
+          ],
+          "choices": [
+            "Little Helper",
+            "Bulby",
+            "Sparky",
+            "Gizmo"
+          ],
+          "reveal": "The correct answer is Little Helper! Small, silent and smarter than most of us.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "In the original DuckTales, Gyro builds this armored robotic suit for Scrooge's accountant, Fenton Crackshell.",
+          "answer": "Gizmoduck",
+          "accept": [
+            "gizmoduck",
+            "gizmo duck"
+          ],
+          "choices": [
+            "Gizmoduck",
+            "RoboDuck",
+            "Darkwing Duck",
+            "The Rocket Duck"
+          ],
+          "reveal": "The correct answer is Gizmoduck! [laughs] Blathering blatherskite!",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "This brainy, German-accented scientist duck, Donald's uncle, debuted on TV in 1961.",
+          "answer": "Ludwig Von Drake",
+          "accept": [
+            "ludwig von drake",
+            "professor ludwig von drake",
+            "von drake"
+          ],
+          "choices": [
+            "Ludwig Von Drake",
+            "Gyro Gearloose",
+            "Scrooge McDuck",
+            "Gladstone Gander"
+          ],
+          "reveal": "The correct answer is Ludwig Von Drake! He debuted on Walt Disney's Wonderful World of Color.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "This legendary Disney comic book artist created Gyro Gearloose in 1952.",
+          "answer": "Carl Barks",
+          "accept": [
+            "carl barks",
+            "barks"
+          ],
+          "choices": [
+            "Carl Barks",
+            "Don Rosa",
+            "Floyd Gottfredson",
+            "Al Taliaferro"
+          ],
+          "reveal": "The correct answer is Carl Barks! The Good Duck Artist also created Scrooge McDuck and Duckburg.",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+[
+  {
+    "film": "Remember the Titans",
+    "category": "Remember the Titans",
+    "clue": "The real 1971 Titans played for T.C. Williams High School in this Virginia city.",
+    "answer": "Alexandria",
+    "accept": [
+      "alexandria",
+      "alexandria virginia",
+      "alexandria, virginia"
+    ],
+    "choices": [
+      "Alexandria",
+      "Richmond",
+      "Arlington",
+      "Norfolk"
+    ],
+    "reveal": "[excited] The correct answer is Alexandria, Virginia! The school has since been renamed Alexandria City High School."
+  },
+  {
+    "film": "Tron",
+    "category": "Tron",
+    "clue": "In the 1982 film, Tron fights to free the computer world from this tyrannical program known as the MCP.",
+    "answer": "The Master Control Program",
+    "accept": [
+      "master control program",
+      "the master control program"
+    ],
+    "choices": [
+      "The Master Control Program",
+      "The Main Core Processor",
+      "The Mainframe Command Program",
+      "Sark"
+    ],
+    "reveal": "The correct answer is the Master Control Program! [whispers] End of line."
+  },
+  {
+    "film": "Lightyear",
+    "category": "Lightyear",
+    "clue": "In Lightyear, Buzz is assigned this robotic emotional-support cat.",
+    "answer": "Sox",
+    "accept": [
+      "sox",
+      "socks"
+    ],
+    "choices": [
+      "Sox",
+      "Whiskers",
+      "Mittens",
+      "Zap"
+    ],
+    "reveal": "The correct answer is Sox! [laughs] Also a pilot, a hacker, and a dart gun. Best cat ever."
+  },
+  {
+    "film": "Chicken Little",
+    "category": "Chicken Little",
+    "clue": "Chicken Little's widowed dad, a former high school baseball star, is named this.",
+    "answer": "Buck Cluck",
+    "accept": [
+      "buck cluck",
+      "buck"
+    ],
+    "choices": [
+      "Buck Cluck",
+      "Foxy Loxy",
+      "Turkey Lurkey",
+      "Mr. Woolensworth"
+    ],
+    "reveal": "The correct answer is Buck Cluck! Voiced by Garry Marshall. [chuckles] Ace."
+  },
+  {
+    "film": "The Rescuers",
+    "category": "The Rescuers",
+    "clue": "This villainess kidnaps Penny to squeeze into a pirate cave and find the Devil's Eye diamond.",
+    "answer": "Madame Medusa",
+    "accept": [
+      "madame medusa",
+      "medusa"
+    ],
+    "choices": [
+      "Madame Medusa",
+      "Cruella De Vil",
+      "Madame Mim",
+      "Mrs. Pickles"
+    ],
+    "reveal": "The correct answer is Madame Medusa! With pet crocodiles Brutus and Nero. [gasps] Terrible babysitter."
+  },
+  {
+    "film": "The Black Cauldron",
+    "category": "The Black Cauldron",
+    "clue": "Taran is the assistant pig-keeper of this oracular pig, whose visions the Horned King wants.",
+    "answer": "Hen Wen",
+    "accept": [
+      "hen wen",
+      "henwen"
+    ],
+    "choices": [
+      "Hen Wen",
+      "Gurgi",
+      "Eilonwy",
+      "Fflewddur"
+    ],
+    "reveal": "The correct answer is Hen Wen! [laughs] A pig who sees the future. Bacon? Never."
+  },
+  {
+    "film": "Strange World",
+    "category": "Strange World",
+    "clue": "In Strange World, the Clade family farms this glowing green plant that powers the land of Avalonia.",
+    "answer": "Pando",
+    "accept": [
+      "pando"
+    ],
+    "choices": [
+      "Pando",
+      "Splatter",
+      "Gloria",
+      "Jaeger Root"
+    ],
+    "reveal": "The correct answer is Pando! [gasps] Turns out it's part of something much, much bigger."
+  },
+  {
+    "film": "Treasure Planet",
+    "category": "Treasure Planet",
+    "clue": "Treasure Planet's cyborg cook, who befriends cabin boy Jim Hawkins, is this pirate.",
+    "answer": "John Silver",
+    "accept": [
+      "john silver",
+      "long john silver",
+      "silver"
+    ],
+    "choices": [
+      "John Silver",
+      "Captain Flint",
+      "Scroop",
+      "Billy Bones"
+    ],
+    "reveal": "The correct answer is John Silver! [chuckles] And his shape-shifting pink pet Morph."
+  }
+]

@@ -1,0 +1,580 @@
+{
+  "id": "start-your-engines",
+  "title": "Start Your Engines",
+  "theme": "Cars, vehicles and ride vehicles",
+  "tags": [
+    "vehicles",
+    "cars",
+    "attractions"
+  ],
+  "intro": "[excited] Gentlemen, ladies and toddlers, START. YOUR. ENGINES! Tonight it's race cars, light cycles, monorails and the ride vehicles that carry you through the parks. [laughs] Buckle up!",
+  "art": {
+    "prompt": "A sunlit desert racetrack winding past red rock buttes, a checkered flag waving, vintage cars and a futuristic monorail on a beam overhead, tire marks and dust clouds Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+    "file": "media/start-your-engines.jpg"
+  },
+  "categories": [
+    {
+      "id": "ka-chow",
+      "title": "Ka-Chow!",
+      "kind": "film",
+      "intro": "Our film category is all about Cars! [chuckles] Lightning-fast answers only.",
+      "art": {
+        "prompt": "A dusty desert highway town at sunset with neon signs, a cone-shaped motel, a tire shop and red rock mountains shaped like car hoods Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/start-your-engines--ka-chow.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In Cars, this rusty, buck-toothed tow truck becomes Lightning McQueen's best friend.",
+          "answer": "Mater",
+          "accept": [
+            "mater",
+            "tow mater",
+            "tow-mater"
+          ],
+          "choices": [
+            "Mater",
+            "Fillmore",
+            "Sarge",
+            "Luigi"
+          ],
+          "reveal": "The correct answer is Mater! Like tomato, without the to. [laughs]",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "This little Italian car runs Casa Della Tires in Radiator Springs with his forklift pal Guido.",
+          "answer": "Luigi",
+          "accept": [
+            "luigi"
+          ],
+          "choices": [
+            "Luigi",
+            "Ramone",
+            "Fillmore",
+            "Francesco"
+          ],
+          "reveal": "The correct answer is Luigi! A 1959 Fiat 500 who adores Ferraris. Pit stop!",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "In Cars 3, this sleek, high-tech next-generation racer pushes Lightning toward retirement.",
+          "answer": "Jackson Storm",
+          "accept": [
+            "jackson storm",
+            "storm"
+          ],
+          "choices": [
+            "Jackson Storm",
+            "Chick Hicks",
+            "Francesco Bernoulli",
+            "Cruz Ramirez"
+          ],
+          "reveal": "The correct answer is Jackson Storm! Armie Hammer voiced the rookie with the attitude.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Doc Hudson was voiced by this Hollywood legend and real-life race car driver, in his final feature film role.",
+          "answer": "Paul Newman",
+          "accept": [
+            "paul newman",
+            "newman"
+          ],
+          "choices": [
+            "Paul Newman",
+            "Robert Redford",
+            "Gene Hackman",
+            "Steve McQueen"
+          ],
+          "reveal": "The correct answer is Paul Newman! He even raced in the 24 Hours of Le Mans and finished second in 1979.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Mater stars in this series of Cars Toons shorts where he tells outrageous stories, like being a matador or a daredevil.",
+          "answer": "Mater's Tall Tales",
+          "accept": [
+            "mater's tall tales",
+            "maters tall tales",
+            "cars toons: mater's tall tales",
+            "tall tales"
+          ],
+          "choices": [
+            "Mater's Tall Tales",
+            "Tales from Radiator Springs",
+            "Mater's Big Adventure",
+            "Tow Mater Tales"
+          ],
+          "reveal": "The correct answer is Mater's Tall Tales! [chuckles] Did he really go to Tokyo? Lightning says he was there too.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "wheels-of-fortune",
+      "title": "Wheels of Fortune",
+      "kind": "theme",
+      "intro": "Our themed category: famous rides and drives from Disney films. [excited] Floor it!",
+      "art": {
+        "prompt": "A showroom of fantastical movie vehicles under spotlights: a glowing neon motorcycle, a little race car, a yellow cartoonish taxi silhouette, a vintage remote-control car Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/start-your-engines--wheels-of-fortune.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In Toy Story, Woody and Buzz chase the moving van riding this speedy remote-control car.",
+          "answer": "RC",
+          "accept": [
+            "rc",
+            "r.c.",
+            "rc car"
+          ],
+          "choices": [
+            "RC",
+            "Rex",
+            "Lenny",
+            "Slinky"
+          ],
+          "reveal": "The correct answer is RC! [laughs] With Buzz's rocket strapped on, he flies.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "In Zootopia, Judy Hopps catches this sloth from the DMV in a high-speed street race.",
+          "answer": "Flash",
+          "accept": [
+            "flash",
+            "flash slothmore"
+          ],
+          "choices": [
+            "Flash",
+            "Finnick",
+            "Gazelle",
+            "Clawhauser"
+          ],
+          "reveal": "The correct answer is Flash! Fastest sloth in Zootopia. Which, honestly, is not saying much.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "In Tron, programs race on these glowing two-wheeled vehicles that leave walls of light behind them.",
+          "answer": "Light cycles",
+          "accept": [
+            "light cycles",
+            "light cycle",
+            "lightcycles",
+            "lightcycle"
+          ],
+          "choices": [
+            "Light cycles",
+            "Recognizers",
+            "Solar sailers",
+            "Light jets"
+          ],
+          "reveal": "The correct answer is light cycles! The 1982 race scene was one of the first big uses of computer animation in film.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Herbie the Love Bug wears this racing number on his hood.",
+          "answer": "53",
+          "accept": [
+            "53",
+            "fifty-three",
+            "fifty three",
+            "number 53"
+          ],
+          "choices": [
+            "53",
+            "43",
+            "95",
+            "86"
+          ],
+          "reveal": "The correct answer is 53! Producer Bill Walsh picked it in honor of baseball player Don Drysdale's jersey.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "In Who Framed Roger Rabbit, Eddie and Roger escape in this wisecracking cartoon taxi.",
+          "answer": "Benny the Cab",
+          "accept": [
+            "benny the cab",
+            "benny"
+          ],
+          "choices": [
+            "Benny the Cab",
+            "Speedy the Cab",
+            "Toontown Taxi",
+            "Lenny the Limo"
+          ],
+          "reveal": "The correct answer is Benny the Cab! [laughs] He later got his own ride: Roger Rabbit's Car Toon Spin.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "ride-vehicle-lineup",
+      "title": "Ride Vehicle Lineup",
+      "kind": "media",
+      "intro": "It's a picture category! I'll show you a real ride vehicle. [whispers] You name the attraction.",
+      "art": {
+        "prompt": "A parade of theme park ride vehicles lined up on a sunlit platform: a submarine, a little gas car, a light-up motorcycle coaster train, a sleek monorail and a concept car Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/start-your-engines--ride-vehicle-lineup.jpg"
+      },
+      "format": "picture",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Name the EPCOT attraction that uses this ride vehicle.",
+          "answer": "Test Track",
+          "accept": [
+            "test track"
+          ],
+          "choices": [
+            "Test Track",
+            "Mission: SPACE",
+            "Spaceship Earth",
+            "Living with the Land"
+          ],
+          "reveal": "The correct answer is Test Track! You design your own concept car, then take it for a spin at highway speed.",
+          "media": {
+            "type": "image",
+            "prompt": "A sleek six-seat open-top concept car ride vehicle on a test circuit, glowing blue edge lighting, sharp hairpin turn ahead, futuristic industrial testing lab Original artwork, no people, no characters, no text, no logos.",
+            "file": "media/start-your-engines--ride-vehicle-lineup-200.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Name the Magic Kingdom roller coaster that uses these ride vehicles.",
+          "answer": "TRON Lightcycle / Run",
+          "accept": [
+            "tron lightcycle run",
+            "tron lightcycle / run",
+            "tron",
+            "tron lightcycle power run",
+            "tron coaster"
+          ],
+          "choices": [
+            "TRON Lightcycle / Run",
+            "Space Mountain",
+            "Rock 'n' Roller Coaster",
+            "Guardians of the Galaxy: Cosmic Rewind"
+          ],
+          "reveal": "The correct answer is TRON Lightcycle / Run! Opened in 2023, you ride hunched over like you're on a motorcycle.",
+          "media": {
+            "type": "image",
+            "file": "media/start-your-engines--ride-vehicle-lineup-400.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Tron_Lightcycle_Power_Run_(Magic_Kingdom)_5.jpg",
+              "license": "CC BY 2.0",
+              "author": "Carter Johnson"
+            }
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Name the Disneyland Tomorrowland attraction that uses this ride vehicle.",
+          "answer": "Autopia",
+          "accept": [
+            "autopia",
+            "the autopia"
+          ],
+          "choices": [
+            "Autopia",
+            "Tomorrowland Speedway",
+            "Mr. Toad's Wild Ride",
+            "Radiator Springs Racers"
+          ],
+          "reveal": "The correct answer is Autopia! An opening day 1955 attraction. [laughs] For many kids, it's their very first driving lesson.",
+          "media": {
+            "type": "image",
+            "file": "media/start-your-engines--ride-vehicle-lineup-600.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Autopia_Car_(24023935496).jpg",
+              "license": "CC BY 2.0",
+              "author": "Steven Miller"
+            }
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Name the Disneyland attraction that uses this ride vehicle.",
+          "answer": "Finding Nemo Submarine Voyage",
+          "accept": [
+            "finding nemo submarine voyage",
+            "submarine voyage",
+            "nemo submarine voyage",
+            "finding nemo submarines",
+            "the submarines"
+          ],
+          "choices": [
+            "Finding Nemo Submarine Voyage",
+            "Jungle Cruise",
+            "Storybook Land Canal Boats",
+            "The Seas with Nemo & Friends"
+          ],
+          "reveal": "The correct answer is Finding Nemo Submarine Voyage! The yellow subs first dove in 1959 and resurfaced with Nemo in 2007.",
+          "media": {
+            "type": "image",
+            "file": "media/start-your-engines--ride-vehicle-lineup-800.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:SubmarinesOnTrack_wb.jpg",
+              "license": "CC BY-SA 4.0",
+              "author": "Elf (Ellen Levy Finch)"
+            }
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "This photo was taken at Disneyland in 1959, the year this ride system debuted. Name it.",
+          "answer": "Disneyland Monorail",
+          "accept": [
+            "disneyland monorail",
+            "monorail",
+            "the monorail",
+            "disneyland-alweg monorail",
+            "alweg monorail"
+          ],
+          "choices": [
+            "Disneyland Monorail",
+            "PeopleMover",
+            "Skyway",
+            "Viewliner"
+          ],
+          "reveal": "The correct answer is the Disneyland Monorail! It was the first daily operating monorail in the Western Hemisphere.",
+          "media": {
+            "type": "image",
+            "file": "media/start-your-engines--ride-vehicle-lineup-1000.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Monorail_Red,_Disneyland,_11-26-1959.jpg",
+              "license": "CC BY 2.0",
+              "author": "Orange County Archives"
+            }
+          },
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "test-drive",
+      "title": "Test Drive",
+      "kind": "parks",
+      "intro": "Our Parks category: Test Track and the places you get behind the wheel. [excited] Mirrors, seatbelts, go!",
+      "art": {
+        "prompt": "A futuristic vehicle testing facility at night with a banked outdoor loop, glowing track lights, wind tunnel fans and crash-test barriers Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/start-your-engines--test-drive.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "At Magic Kingdom, kids can steer little gas-powered race cars around a guided track at this Tomorrowland attraction.",
+          "answer": "Tomorrowland Speedway",
+          "accept": [
+            "tomorrowland speedway",
+            "speedway",
+            "grand prix raceway",
+            "tomorrowland indy speedway"
+          ],
+          "choices": [
+            "Tomorrowland Speedway",
+            "Autopia",
+            "Test Track",
+            "Astro Orbiter"
+          ],
+          "reveal": "The correct answer is Tomorrowland Speedway! [chuckles] Nothing builds character like bumping into the rail on every turn.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "When Test Track opened at EPCOT in 1999, it was sponsored by this automaker.",
+          "answer": "General Motors",
+          "accept": [
+            "general motors",
+            "gm"
+          ],
+          "choices": [
+            "General Motors",
+            "Ford",
+            "Toyota",
+            "Chrysler"
+          ],
+          "reveal": "The correct answer is General Motors! Later its Chevrolet brand put its name on the ride.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Test Track replaced this EPCOT ride about the history of transportation, which closed in 1996.",
+          "answer": "World of Motion",
+          "accept": [
+            "world of motion"
+          ],
+          "choices": [
+            "World of Motion",
+            "Horizons",
+            "Universe of Energy",
+            "Wonders of Life"
+          ],
+          "reveal": "The correct answer is World of Motion! It featured the catchy tune It's Fun to Be Free.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Lights, Motors, Action! Extreme Stunt Show at Disney's Hollywood Studios was based on a show that first opened at this European park.",
+          "answer": "Walt Disney Studios Park",
+          "accept": [
+            "walt disney studios park",
+            "walt disney studios",
+            "disney studios paris",
+            "disney adventure world",
+            "walt disney studios paris"
+          ],
+          "choices": [
+            "Walt Disney Studios Park",
+            "Disneyland Park Paris",
+            "Tivoli Gardens",
+            "Europa-Park"
+          ],
+          "reveal": "The correct answer is Walt Disney Studios Park at Disneyland Paris! The Florida version ran from 2005 to 2016.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "On its outdoor high-speed loop, Test Track tops out at about this speed, among the fastest of any Disney ride.",
+          "answer": "65 mph",
+          "accept": [
+            "65",
+            "65 mph",
+            "sixty-five",
+            "sixty five",
+            "65 miles per hour",
+            "sixty five miles per hour",
+            "64.9",
+            "64.9 mph",
+            "64.9 miles per hour",
+            "about 65 mph"
+          ],
+          "choices": [
+            "65 mph",
+            "45 mph",
+            "55 mph",
+            "75 mph"
+          ],
+          "reveal": "The correct answer is about 65 miles per hour! [gasps] That's highway speed, with no speeding tickets.",
+          "dailyDouble": true
+        }
+      ]
+    },
+    {
+      "id": "trains-trams-and-trolleys",
+      "title": "Trains, Trams and Trolleys",
+      "kind": "fan",
+      "intro": "Our fan category: all the other ways Disney moves you around. [chuckles] All aboooard!",
+      "art": {
+        "prompt": "A vintage steam locomotive puffing smoke beside a Victorian train station, a red double-decker bus and a horse-drawn trolley on a sunny turn-of-the-century main street Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/start-your-engines--trains-trams-and-trolleys.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Disneyland's railroad trains are powered by this, puffing clouds and whistling as they circle the park.",
+          "answer": "Steam",
+          "accept": [
+            "steam",
+            "steam engines",
+            "steam power"
+          ],
+          "choices": [
+            "Steam",
+            "Electricity",
+            "Diesel",
+            "Solar power"
+          ],
+          "reveal": "The correct answer is steam! [excited] Toot toot! Walt loved trains more than almost anything.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Disneyland trams carry guests from this giant parking structure named for a famous mouse and his pals.",
+          "answer": "Mickey and Friends",
+          "accept": [
+            "mickey and friends",
+            "mickey & friends",
+            "mickey and friends parking structure"
+          ],
+          "choices": [
+            "Mickey and Friends",
+            "Pixar Pals",
+            "Toy Story Lot",
+            "Goofy's Garage"
+          ],
+          "reveal": "The correct answer is Mickey and Friends! Park by Minnie, Goofy or Pluto, and try to remember which.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "This double-decker, open-top bus putters up and down Main Street, U.S.A.",
+          "answer": "The Omnibus",
+          "accept": [
+            "omnibus",
+            "the omnibus",
+            "main street omnibus"
+          ],
+          "choices": [
+            "The Omnibus",
+            "The Jitney",
+            "The Trolley",
+            "The Horseless Carriage"
+          ],
+          "reveal": "The correct answer is the Omnibus! Climb upstairs for the best view of the castle.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "The Walt Disney World Railroad's steam locomotives were found working in this country and restored for Magic Kingdom.",
+          "answer": "Mexico",
+          "accept": [
+            "mexico"
+          ],
+          "choices": [
+            "Mexico",
+            "Canada",
+            "England",
+            "Brazil"
+          ],
+          "reveal": "The correct answer is Mexico! Disney bought them from the United Railways of Yucatan in 1969.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Disneyland Railroad engine No. 1 is named after this founder of the Santa Fe railway.",
+          "answer": "C.K. Holliday",
+          "accept": [
+            "c.k. holliday",
+            "ck holliday",
+            "cyrus k holliday",
+            "cyrus holliday",
+            "holliday"
+          ],
+          "choices": [
+            "C.K. Holliday",
+            "E.P. Ripley",
+            "Fred Gurley",
+            "Ernest S. Marsh"
+          ],
+          "reveal": "The correct answer is C.K. Holliday! The other engines honor Santa Fe leaders too, like E.P. Ripley and Fred Gurley.",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}

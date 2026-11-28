@@ -1,0 +1,544 @@
+{
+  "id": "time-and-dreams",
+  "title": "Wishes, Dreams and Time Machines",
+  "theme": "Time travel, dreams and wishes",
+  "tags": [
+    "dreams",
+    "wishes",
+    "time"
+  ],
+  "intro": "[whispers] Close your eyes. Make a wish. [excited] Now OPEN them, because tonight is all about stars, dreams and time travel! Don't worry, nobody turns into a pumpkin until midnight.",
+  "art": {
+    "prompt": "A starry night sky with a giant glowing wishing star over a sleeping village, floating clock faces, drifting dream clouds and a staircase rising into the stars Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+    "file": "media/time-and-dreams.jpg"
+  },
+  "categories": [
+    {
+      "id": "star-light-star-bright",
+      "title": "Star Light, Star Bright",
+      "kind": "film",
+      "intro": "Our film category is Disney's Wish! [excited] Make it a good one.",
+      "art": {
+        "prompt": "A Mediterranean island kingdom of white towers at night, a glowing star descending from the sky, sparkling orbs floating in a tower room Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/time-and-dreams--star-light-star-bright.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In Wish, Asha's wish to the night sky brings down this glowing, cuddly cosmic friend.",
+          "answer": "Star",
+          "accept": [
+            "star",
+            "a star",
+            "the star"
+          ],
+          "choices": [
+            "Star",
+            "Sparky",
+            "Twinkle",
+            "Comet"
+          ],
+          "reveal": "The correct answer is Star! [laughs] Cute, bouncy, and makes animals talk. Total package.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Wish is set in this Mediterranean island kingdom.",
+          "answer": "Rosas",
+          "accept": [
+            "rosas",
+            "the kingdom of rosas"
+          ],
+          "choices": [
+            "Rosas",
+            "Corona",
+            "Arendelle",
+            "Auradon"
+          ],
+          "reveal": "The correct answer is Rosas! Founded by a king who promised to keep everyone's wishes safe.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Chris Pine voices this sorcerer king who keeps the people's wishes locked away.",
+          "answer": "King Magnifico",
+          "accept": [
+            "king magnifico",
+            "magnifico"
+          ],
+          "choices": [
+            "King Magnifico",
+            "King Agnarr",
+            "King Stefan",
+            "King Triton"
+          ],
+          "reveal": "The correct answer is King Magnifico! [chuckles] He's really, really into mirrors.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Wish was released in 2023 to celebrate the 100th anniversary of this.",
+          "answer": "The Walt Disney Company",
+          "accept": [
+            "the walt disney company",
+            "disney",
+            "walt disney company",
+            "disney studios",
+            "the disney company"
+          ],
+          "choices": [
+            "The Walt Disney Company",
+            "Disneyland",
+            "Mickey Mouse",
+            "Walt Disney World"
+          ],
+          "reveal": "The correct answer is the Walt Disney Company! [excited] Founded in October 1923. Happy 100th!",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Ariana DeBose sings this big I want song as Asha in Wish.",
+          "answer": "This Wish",
+          "accept": [
+            "this wish"
+          ],
+          "choices": [
+            "This Wish",
+            "At All Costs",
+            "Knowing What I Know Now",
+            "I'm a Star"
+          ],
+          "reveal": "The correct answer is This Wish! Written by Julia Michaels and Benjamin Rice.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "time-after-time",
+      "title": "Time After Time",
+      "kind": "theme",
+      "intro": "Our themed category: clocks, curfews and time travel. [gasps] Hurry, we're late!",
+      "art": {
+        "prompt": "A swirling vortex of floating clocks, pocket watches and hourglasses in a starry purple sky, gears turning, sand pouring upward Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/time-and-dreams--time-after-time.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In Alice in Wonderland, this anxious character keeps checking his pocket watch, crying I'm late!",
+          "answer": "The White Rabbit",
+          "accept": [
+            "the white rabbit",
+            "white rabbit",
+            "rabbit"
+          ],
+          "choices": [
+            "The White Rabbit",
+            "The March Hare",
+            "The Mad Hatter",
+            "The Dormouse"
+          ],
+          "reveal": "The correct answer is the White Rabbit! [laughs] For a very important date, apparently.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "The Fairy Godmother warns Cinderella that the magic will end at this time.",
+          "answer": "Midnight",
+          "accept": [
+            "midnight",
+            "12 o'clock",
+            "the stroke of midnight",
+            "twelve o'clock"
+          ],
+          "choices": [
+            "Midnight",
+            "Sunrise",
+            "Ten o'clock",
+            "One o'clock"
+          ],
+          "reveal": "The correct answer is midnight! On the stroke of twelve, it's back to a pumpkin.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "In Avengers: Endgame, the heroes' plan to travel back in time and collect the Infinity Stones is nicknamed this.",
+          "answer": "The Time Heist",
+          "accept": [
+            "the time heist",
+            "time heist"
+          ],
+          "choices": [
+            "The Time Heist",
+            "The Snap Back",
+            "Operation Rewind",
+            "The Quantum Leap"
+          ],
+          "reveal": "The correct answer is the Time Heist! [excited] Featuring one very confused Captain America yelling at himself.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In the Disney+ series Loki, this bureaucratic organization polices the Sacred Timeline.",
+          "answer": "The Time Variance Authority",
+          "accept": [
+            "time variance authority",
+            "the time variance authority",
+            "tva",
+            "the tva"
+          ],
+          "choices": [
+            "The Time Variance Authority",
+            "S.H.I.E.L.D.",
+            "The Time Keepers' Guild",
+            "The Chronos Agency"
+          ],
+          "reveal": "The correct answer is the Time Variance Authority, or the TVA! [laughs] Take a number. Time is extremely relative there.",
+          "dailyDouble": true
+        },
+        {
+          "value": 1000,
+          "clue": "In Disney's 1986 film Flight of the Navigator, David returns home 8 years later without aging. The ship's chatty computer is named this.",
+          "answer": "Max",
+          "accept": [
+            "max"
+          ],
+          "choices": [
+            "Max",
+            "HAL",
+            "Mother",
+            "Zed"
+          ],
+          "reveal": "The correct answer is Max! Voiced by Paul Reubens. [chuckles] Compliance!",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "dreamscapes",
+      "title": "Dreamscapes",
+      "kind": "media",
+      "intro": "It's a picture category! I'll show you a dreamy scene. [whispers] You name the Disney movie.",
+      "art": {
+        "prompt": "Surreal floating dream islands in a pastel sky, a staircase to nowhere, a melting clock, a glass slipper and glowing memory orbs drifting by Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/time-and-dreams--dreamscapes.jpg"
+      },
+      "format": "picture",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Name the Disney movie.",
+          "answer": "Cinderella",
+          "accept": [
+            "cinderella"
+          ],
+          "choices": [
+            "Cinderella",
+            "Sleeping Beauty",
+            "Snow White and the Seven Dwarfs",
+            "Enchanted"
+          ],
+          "reveal": "The correct answer is Cinderella! [gasps] A glass slipper left on the stairs at the stroke of midnight.",
+          "media": {
+            "type": "image",
+            "prompt": "A single sparkling glass slipper resting on a grand moonlit palace staircase, a huge clock tower in the background with both hands pointing at twelve Original artwork, no people, no characters, no text, no logos.",
+            "file": "media/time-and-dreams--dreamscapes-200.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Name the Disney movie.",
+          "answer": "Sleeping Beauty",
+          "accept": [
+            "sleeping beauty"
+          ],
+          "choices": [
+            "Sleeping Beauty",
+            "Tangled",
+            "Cinderella",
+            "Snow White and the Seven Dwarfs"
+          ],
+          "reveal": "The correct answer is Sleeping Beauty! [whispers] Touch the spindle. Touch it, I say.",
+          "media": {
+            "type": "image",
+            "prompt": "An antique spinning wheel in a dark stone tower room, its spindle glowing with an eerie green light, swirling green mist curling up the stairs Original artwork, no people, no characters, no text, no logos.",
+            "file": "media/time-and-dreams--dreamscapes-400.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Name the Disney movie.",
+          "answer": "Inside Out",
+          "accept": [
+            "inside out"
+          ],
+          "choices": [
+            "Inside Out",
+            "Soul",
+            "Coco",
+            "Elemental"
+          ],
+          "reveal": "The correct answer is Inside Out! Riley's memories glow on endless shelves of Long Term Memory.",
+          "media": {
+            "type": "image",
+            "prompt": "Endless winding shelves stretching into a misty distance, filled with glowing colored glass marbles in gold, blue, green, red and purple, a little vacuum tube overhead Original artwork, no people, no characters, no text, no logos.",
+            "file": "media/time-and-dreams--dreamscapes-600.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Name the Disney movie.",
+          "answer": "Pinocchio",
+          "accept": [
+            "pinocchio"
+          ],
+          "choices": [
+            "Pinocchio",
+            "The Sword in the Stone",
+            "Fun and Fancy Free",
+            "Fantasia"
+          ],
+          "reveal": "The correct answer is Pinocchio! When you wish upon a star, it makes no difference who you are.",
+          "media": {
+            "type": "image",
+            "prompt": "A cozy wooden toymaker's workshop at night full of cuckoo clocks and wooden toys, a bright blue wishing star shining through an open window over a goldfish bowl Original artwork, no people, no characters, no text, no logos.",
+            "file": "media/time-and-dreams--dreamscapes-800.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Name this Disney short, begun in 1945 as a collaboration with a famous surrealist painter and finally finished in 2003.",
+          "answer": "Destino",
+          "accept": [
+            "destino"
+          ],
+          "choices": [
+            "Destino",
+            "Lorenzo",
+            "The Little Matchgirl",
+            "Paperman"
+          ],
+          "reveal": "The correct answer is Destino! Walt Disney and Salvador Dali started it in 1945. It finally premiered 58 years later.",
+          "media": {
+            "type": "image",
+            "prompt": "A surreal desert landscape at dusk with a giant melting pocket watch draped over a stone tower, long shadows, floating eyes in the sky and a lone dancing figure silhouette shaped like a sundial Original artwork, no people, no characters, no text, no logos.",
+            "file": "media/time-and-dreams--dreamscapes-1000.jpg"
+          },
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "wish-upon-a-park",
+      "title": "Wish Upon a Park",
+      "kind": "parks",
+      "intro": "Our Parks category: dreams, wishes and time machines at the parks. [excited] Dreams really do come true here.",
+      "art": {
+        "prompt": "A fairy-tale castle at night under a sky full of fireworks shaped like stars, a giant geodesic sphere glowing in the distance and a wishing well in the foreground Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/time-and-dreams--wish-upon-a-park.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This Magic Kingdom fireworks show ran from 2003 to 2017 before Happily Ever After replaced it.",
+          "answer": "Wishes",
+          "accept": [
+            "wishes",
+            "wishes: a magical gathering of disney dreams",
+            "wishes nighttime spectacular"
+          ],
+          "choices": [
+            "Wishes",
+            "Fantasy in the Sky",
+            "Dreams Come True",
+            "Disney Enchantment"
+          ],
+          "reveal": "The correct answer is Wishes! [sighs] Jiminy Cricket narrated. Grown adults cried every night.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Spaceship Earth's time machine ride at EPCOT traces how humans have done this, from cave paintings to computers.",
+          "answer": "Communicated",
+          "accept": [
+            "communicated",
+            "communication",
+            "communicate",
+            "communicating"
+          ],
+          "choices": [
+            "Communicated",
+            "Built cities",
+            "Traveled",
+            "Cooked food"
+          ],
+          "reveal": "The correct answer is communicated! [chuckles] Don't forget to wave at the Romans.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "During the Year of a Million Dreams celebration from 2006 to 2008, lucky guests won a night in this secret Magic Kingdom spot.",
+          "answer": "The Cinderella Castle Suite",
+          "accept": [
+            "cinderella castle suite",
+            "the cinderella castle suite",
+            "castle suite",
+            "cinderella castle"
+          ],
+          "choices": [
+            "The Cinderella Castle Suite",
+            "The Dream Suite",
+            "Walt's apartment",
+            "The Grand Floridian Suite"
+          ],
+          "reveal": "The correct answer is the Cinderella Castle Suite! [gasps] Built where an apartment for the Disney family was once planned.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "This time-traveling Circle-Vision 360 show in Magic Kingdom's Tomorrowland starred a robot voiced by Robin Williams.",
+          "answer": "The Timekeeper",
+          "accept": [
+            "the timekeeper",
+            "timekeeper",
+            "from time to time"
+          ],
+          "choices": [
+            "The Timekeeper",
+            "Time Riders",
+            "Horizons",
+            "Back to Neverland"
+          ],
+          "reveal": "The correct answer is The Timekeeper! It ran in Florida from 1994 to 2006, with a robot sidekick named 9-Eye.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Disneyland's Remember... Dreams Come True fireworks premiered to celebrate the park's 50th anniversary in this year.",
+          "answer": "2005",
+          "accept": [
+            "2005",
+            "two thousand five",
+            "two thousand and five"
+          ],
+          "choices": [
+            "2005",
+            "2000",
+            "2003",
+            "2008"
+          ],
+          "reveal": "The correct answer is 2005! [excited] Fifty years after that first opening day in July 1955.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "sweet-dreams",
+      "title": "Sweet Dreams",
+      "kind": "fan",
+      "intro": "Our fan category: sleep, dreams and nightmares. [whispers] Try not to snooze.",
+      "art": {
+        "prompt": "A dreamy bedroom at night with a canopy bed floating among clouds, a crescent moon nightlight, scattered stars on the ceiling and a closet door glowing softly Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/time-and-dreams--sweet-dreams.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Aurora falls into an enchanted sleep, and only this can wake her.",
+          "answer": "True love's kiss",
+          "accept": [
+            "true love's kiss",
+            "true loves kiss",
+            "a kiss",
+            "kiss",
+            "true love"
+          ],
+          "choices": [
+            "True love's kiss",
+            "A magic potion",
+            "A rooster's crow",
+            "A fairy's song"
+          ],
+          "reveal": "The correct answer is true love's kiss! [laughs] Phillip slays a dragon first, though. Overachiever.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "In Inside Out, Riley's dreams are filmed like movies in this studio inside her mind.",
+          "answer": "Dream Productions",
+          "accept": [
+            "dream productions",
+            "dream production",
+            "dream studios"
+          ],
+          "choices": [
+            "Dream Productions",
+            "Dreamland Pictures",
+            "Imagination Land",
+            "Headquarters"
+          ],
+          "reveal": "The correct answer is Dream Productions! [chuckles] Every night is opening night.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "In Monsters, Inc., monsters scare sleeping kids at night. Sulley's tiny human friend is nicknamed this.",
+          "answer": "Boo",
+          "accept": [
+            "boo"
+          ],
+          "choices": [
+            "Boo",
+            "Kitty",
+            "Mary",
+            "Roz"
+          ],
+          "reveal": "The correct answer is Boo! Sulley calls her Kitty. Her real name is Mary, on her drawings.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "After the Evil Queen's poisoned apple, the dwarfs place Snow White in a coffin made of gold and this.",
+          "answer": "Glass",
+          "accept": [
+            "glass",
+            "crystal"
+          ],
+          "choices": [
+            "Glass",
+            "Silver",
+            "Marble",
+            "Diamonds"
+          ],
+          "reveal": "The correct answer is glass! The Prince finds her there in the spring, and one kiss later, she wakes up.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "In Inside Out, Joy and Sadness wake Riley up by having this scary birthday clown chase through Dream Productions.",
+          "answer": "Jangles",
+          "accept": [
+            "jangles",
+            "jangles the clown"
+          ],
+          "choices": [
+            "Jangles",
+            "Bing Bong",
+            "Rainbow Unicorn",
+            "Mr. Giggles"
+          ],
+          "reveal": "The correct answer is Jangles! [gasps] A giant clown in your dreams. Effective, but terrifying.",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}

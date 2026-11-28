@@ -1,0 +1,561 @@
+{
+  "id": "up-up-and-away",
+  "title": "Up, Up and Away",
+  "theme": "Flight",
+  "tags": [
+    "flight",
+    "sky",
+    "adventure"
+  ],
+  "intro": "[excited] Fasten your seatbelts and return your tray tables to their upright position! Tonight we're flying with balloons, big ears, pixie dust and hang gliders. [laughs] Up, up and away!",
+  "art": {
+    "prompt": "A dreamy sky full of drifting clouds at golden hour, a colorful cluster of balloons, a vintage biplane, a flying umbrella and a hang glider soaring above a patchwork of distant lands Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+    "file": "media/up-up-and-away.jpg"
+  },
+  "categories": [
+    {
+      "id": "adventure-is-out-there",
+      "title": "Adventure Is Out There",
+      "kind": "film",
+      "intro": "Our film category is Pixar's Up! [chuckles] Wilderness Explorers, assemble.",
+      "art": {
+        "prompt": "A cozy old wooden house floating high above jagged green table-top mountains and a misty waterfall, a giant blimp drifting in the distance Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/up-up-and-away--adventure-is-out-there.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In Up, Wilderness Explorer Russell needs one last badge, for doing this, before he can become a Senior Wilderness Explorer.",
+          "answer": "Assisting the elderly",
+          "accept": [
+            "assisting the elderly",
+            "helping the elderly",
+            "assisting elderly",
+            "helping old people",
+            "helping the elderly badge"
+          ],
+          "choices": [
+            "Assisting the elderly",
+            "Camping overnight",
+            "Bird watching",
+            "First aid"
+          ],
+          "reveal": "The correct answer is assisting the elderly! [laughs] Lucky for Russell, Carl was right on the porch.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Carl's childhood hero, explorer Charles Muntz, travels the world in this giant airship.",
+          "answer": "The Spirit of Adventure",
+          "accept": [
+            "the spirit of adventure",
+            "spirit of adventure"
+          ],
+          "choices": [
+            "The Spirit of Adventure",
+            "The Explorer",
+            "The Paradise Clipper",
+            "The Sky Rover"
+          ],
+          "reveal": "The correct answer is the Spirit of Adventure! [gasps] Full of dogs, and a very grumpy captain.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Young Ellie makes Carl an honorary member of her club with a badge made from the cap of this drink.",
+          "answer": "Grape soda",
+          "accept": [
+            "grape soda",
+            "grape pop",
+            "grape soda cap",
+            "grape"
+          ],
+          "choices": [
+            "Grape soda",
+            "Root beer",
+            "Orange soda",
+            "Cherry cola"
+          ],
+          "reveal": "The correct answer is grape soda! [sighs] Carl pins it on Russell at the end. Tissues, anyone?",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In 2009, Up became the first animated film ever to open this famous film festival.",
+          "answer": "The Cannes Film Festival",
+          "accept": [
+            "cannes",
+            "the cannes film festival",
+            "cannes film festival"
+          ],
+          "choices": [
+            "The Cannes Film Festival",
+            "The Venice Film Festival",
+            "The Sundance Film Festival",
+            "The Toronto International Film Festival"
+          ],
+          "reveal": "The correct answer is the Cannes Film Festival! Carl Fredricksen on the French Riviera. [laughs] He probably complained about the noise.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "This 2023 Pixar short shows a nervous Carl getting ready for his first date in years, with help from Dug.",
+          "answer": "Carl's Date",
+          "accept": [
+            "carl's date",
+            "carls date"
+          ],
+          "choices": [
+            "Carl's Date",
+            "Dug Days",
+            "Dug's Special Mission",
+            "George and A.J."
+          ],
+          "reveal": "The correct answer is Carl's Date! It played in theaters before Elemental. Ed Asner's last time voicing Carl.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "wings-and-things",
+      "title": "Wings and Things",
+      "kind": "theme",
+      "intro": "Our themed category: how Disney characters take flight. [excited] Wheee!",
+      "art": {
+        "prompt": "A whimsical sky scene with a circus tent far below, a single black feather floating upward, a little crop-duster airplane and a vintage seaplane cruising past fluffy clouds Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/up-up-and-away--wings-and-things.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Dumbo learns to fly by flapping these.",
+          "answer": "His ears",
+          "accept": [
+            "his ears",
+            "ears",
+            "ear",
+            "big ears"
+          ],
+          "choices": [
+            "His ears",
+            "His trunk",
+            "His tail",
+            "His feet"
+          ],
+          "reveal": "The correct answer is his ears! [laughs] Big ears, big dreams.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "The magic feather that helps Dumbo believe he can fly comes from this flock of birds.",
+          "answer": "Crows",
+          "accept": [
+            "crows",
+            "the crows",
+            "crow"
+          ],
+          "choices": [
+            "Crows",
+            "Storks",
+            "Pigeons",
+            "Seagulls"
+          ],
+          "reveal": "The correct answer is crows! Then Dumbo finds out the magic was in him all along.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "To fly to Neverland, it's second star to the right and straight on till this.",
+          "answer": "Morning",
+          "accept": [
+            "morning",
+            "till morning",
+            "dawn"
+          ],
+          "choices": [
+            "Morning",
+            "Midnight",
+            "Sunset",
+            "Noon"
+          ],
+          "reveal": "The correct answer is morning! [whispers] Think happy thoughts.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In the 2013 film Planes, Dusty Crophopper is this kind of plane who dreams of air racing.",
+          "answer": "A crop duster",
+          "accept": [
+            "crop duster",
+            "a crop duster",
+            "cropduster",
+            "crop-duster",
+            "crop dusting plane"
+          ],
+          "choices": [
+            "A crop duster",
+            "A cargo plane",
+            "A seaplane",
+            "A fighter jet"
+          ],
+          "reveal": "The correct answer is a crop duster! He's afraid of heights, which is a real problem for a plane.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "In the cartoon series TaleSpin, Baloo flies cargo in this seaplane.",
+          "answer": "The Sea Duck",
+          "accept": [
+            "the sea duck",
+            "sea duck"
+          ],
+          "choices": [
+            "The Sea Duck",
+            "The Iron Vulture",
+            "The Sky Goose",
+            "The Cloud Clipper"
+          ],
+          "reveal": "The correct answer is the Sea Duck! [excited] Kit Cloudkicker surfs behind it on his airfoil board.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "sky-high-close-ups",
+      "title": "Sky-High Close-Ups",
+      "kind": "media",
+      "intro": "It's a zoom category! I'll zoom in on something that flies. [whispers] Name the Disney movie.",
+      "art": {
+        "prompt": "Extreme close-up details of flying things against a blue sky: balloon strings, a feather, a glowing paper lantern, a peach stem and a solar sail Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/up-up-and-away--sky-high-close-ups.jpg"
+      },
+      "format": "zoom",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Zoomed in. Name the Disney movie.",
+          "answer": "Up",
+          "accept": [
+            "up"
+          ],
+          "choices": [
+            "Up",
+            "Inside Out",
+            "Ratatouille",
+            "Soul"
+          ],
+          "reveal": "The correct answer is Up! [laughs] Thousands of balloons and one very determined widower.",
+          "media": {
+            "type": "image",
+            "prompt": "Close-up of a brick chimney on an old wooden house roof with hundreds of colorful balloon strings tied around it, balloons stretching up into a bright sky Original artwork, no people, no characters, no text, no logos.",
+            "file": "media/up-up-and-away--sky-high-close-ups-200.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Zoomed in. Name the Disney movie.",
+          "answer": "Dumbo",
+          "accept": [
+            "dumbo"
+          ],
+          "choices": [
+            "Dumbo",
+            "Bambi",
+            "Peter Pan",
+            "The Rescuers"
+          ],
+          "reveal": "The correct answer is Dumbo! That black feather was just a confidence booster.",
+          "media": {
+            "type": "image",
+            "prompt": "Close-up of a single glossy black crow feather drifting above a striped red and yellow circus tent top, a tiny pennant flag on the peak Original artwork, no people, no characters, no text, no logos.",
+            "file": "media/up-up-and-away--sky-high-close-ups-400.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Zoomed in. Name the Disney movie.",
+          "answer": "Tangled",
+          "accept": [
+            "tangled"
+          ],
+          "choices": [
+            "Tangled",
+            "Brave",
+            "Frozen",
+            "Moana"
+          ],
+          "reveal": "The correct answer is Tangled! [excited] Thousands of lanterns light the sky every year on the lost princess's birthday.",
+          "media": {
+            "type": "image",
+            "prompt": "Close-up of glowing golden paper sky lanterns rising over a calm lake at night, one lantern with a sun emblem, a small rowboat silhouette below Original artwork, no people, no characters, no text, no logos.",
+            "file": "media/up-up-and-away--sky-high-close-ups-600.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Zoomed in. Name the Disney movie.",
+          "answer": "James and the Giant Peach",
+          "accept": [
+            "james and the giant peach"
+          ],
+          "choices": [
+            "James and the Giant Peach",
+            "Pete's Dragon",
+            "Chicken Little",
+            "The Black Cauldron"
+          ],
+          "reveal": "The correct answer is James and the Giant Peach! A team of seagulls carries the peach across the ocean to New York.",
+          "media": {
+            "type": "image",
+            "prompt": "Close-up of fuzzy orange-pink peach skin with dozens of strings looped around a stem, pulled upward toward flapping seagull wings above the ocean Original artwork, no people, no characters, no text, no logos.",
+            "file": "media/up-up-and-away--sky-high-close-ups-800.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Zoomed in. Name the Disney movie.",
+          "answer": "Treasure Planet",
+          "accept": [
+            "treasure planet"
+          ],
+          "choices": [
+            "Treasure Planet",
+            "Lightyear",
+            "Atlantis: The Lost Empire",
+            "Strange World"
+          ],
+          "reveal": "The correct answer is Treasure Planet! [excited] Jim Hawkins solar surfs through space on a rocket-powered board.",
+          "media": {
+            "type": "image",
+            "prompt": "Close-up of a glowing golden solar sail fin on a sleek rocket-powered surfboard, swirling purple nebula and an old-fashioned galleon sailing among the stars Original artwork, no people, no characters, no text, no logos.",
+            "file": "media/up-up-and-away--sky-high-close-ups-1000.jpg"
+          },
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "soar-spot",
+      "title": "Soar Spot",
+      "kind": "parks",
+      "intro": "Our Parks category: attractions that take you flying. [laughs] Please keep your feet dangling.",
+      "art": {
+        "prompt": "A giant concave dome screen showing a sweeping aerial view of mountains, rows of suspended seats lifted into the air, gondola cabins gliding past on cables outside Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/up-up-and-away--soar-spot.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "On this EPCOT attraction, you hang-glide above famous landmarks around the globe.",
+          "answer": "Soarin' Around the World",
+          "accept": [
+            "soarin' around the world",
+            "soarin",
+            "soarin'",
+            "soaring",
+            "soarin around the world"
+          ],
+          "choices": [
+            "Soarin' Around the World",
+            "Mission: SPACE",
+            "Spaceship Earth",
+            "Test Track"
+          ],
+          "reveal": "The correct answer is Soarin' Around the World! [whispers] Breathe deep. Some scenes come with smells.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "This gondola system, which opened in 2019, links EPCOT and Disney's Hollywood Studios with several resorts.",
+          "answer": "Disney Skyliner",
+          "accept": [
+            "disney skyliner",
+            "skyliner",
+            "the skyliner"
+          ],
+          "choices": [
+            "Disney Skyliner",
+            "Skyway",
+            "Disney Monorail",
+            "Sky Pathway"
+          ],
+          "reveal": "The correct answer is the Disney Skyliner! [excited] A flying cabin, with air conditioning.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Soarin' first took flight in 2001 as Soarin' Over California at this park.",
+          "answer": "Disney California Adventure",
+          "accept": [
+            "disney california adventure",
+            "california adventure",
+            "dca",
+            "disney's california adventure"
+          ],
+          "choices": [
+            "Disney California Adventure",
+            "EPCOT",
+            "Disneyland Park",
+            "Tokyo DisneySea"
+          ],
+          "reveal": "The correct answer is Disney California Adventure! The ride came to EPCOT four years later, in 2005.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "During the original Soarin' Over California, guests smelled the blossoms of this fruit as they flew over a grove.",
+          "answer": "Oranges",
+          "accept": [
+            "oranges",
+            "orange",
+            "orange blossoms",
+            "orange blossom"
+          ],
+          "choices": [
+            "Oranges",
+            "Lemons",
+            "Apples",
+            "Peaches"
+          ],
+          "reveal": "The correct answer is oranges! [laughs] Orange County, orange groves, orange you glad you got that?",
+          "dailyDouble": true
+        },
+        {
+          "value": 1000,
+          "clue": "This spinning Magic Kingdom ride sends rockets whirling high above Tomorrowland, on top of the PeopleMover station.",
+          "answer": "Astro Orbiter",
+          "accept": [
+            "astro orbiter",
+            "the astro orbiter",
+            "star jets"
+          ],
+          "choices": [
+            "Astro Orbiter",
+            "Rocket Jets",
+            "Orbitron",
+            "Astro Jets"
+          ],
+          "reveal": "The correct answer is Astro Orbiter! You ride an elevator just to get to the launch pad.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "up-in-the-air",
+      "title": "Up in the Air",
+      "kind": "fan",
+      "intro": "Our fan category: flying, Disney style. [chuckles] Name it before it lands.",
+      "art": {
+        "prompt": "A collection of flying objects tumbling through a starry night sky: an open umbrella, a brass bed with bedknobs, a jetpack trailing flame, and a glowing green dragon tail shimmer Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/up-up-and-away--up-in-the-air.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Mary Poppins floats down to Cherry Tree Lane holding this.",
+          "answer": "An umbrella",
+          "accept": [
+            "umbrella",
+            "an umbrella",
+            "a parrot umbrella",
+            "her umbrella"
+          ],
+          "choices": [
+            "An umbrella",
+            "A kite",
+            "A carpetbag",
+            "A hot air balloon"
+          ],
+          "reveal": "The correct answer is an umbrella! [laughs] And hers has a talking parrot head handle.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Woody insists Buzz isn't flying, he's just doing this.",
+          "answer": "Falling with style",
+          "accept": [
+            "falling with style",
+            "falling"
+          ],
+          "choices": [
+            "Falling with style",
+            "Gliding with grace",
+            "Bouncing with flair",
+            "Floating with flair"
+          ],
+          "reveal": "The correct answer is falling with style! [chuckles] Woody, buddy, it still counts.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "In Bedknobs and Broomsticks, a magic spell on an enchanted knob lets this piece of furniture fly.",
+          "answer": "A bed",
+          "accept": [
+            "bed",
+            "a bed",
+            "the bed",
+            "brass bed"
+          ],
+          "choices": [
+            "A bed",
+            "A wardrobe",
+            "A rocking chair",
+            "A dining table"
+          ],
+          "reveal": "The correct answer is a bed! It even visits the bottom of the sea and an island full of animals.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In The Rocketeer, stunt pilot Cliff Secord flies using this.",
+          "answer": "A rocket pack",
+          "accept": [
+            "rocket pack",
+            "a rocket pack",
+            "jetpack",
+            "jet pack",
+            "a jetpack",
+            "rocket",
+            "a rocket"
+          ],
+          "choices": [
+            "A rocket pack",
+            "Glider wings",
+            "A flying car",
+            "A hot air balloon"
+          ],
+          "reveal": "The correct answer is a rocket pack! Set in 1938 Los Angeles. [excited] And yes, he wears a cool finned helmet.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Besides flying, Pete's dragon friend Elliott has this special power.",
+          "answer": "Turning invisible",
+          "accept": [
+            "turning invisible",
+            "invisibility",
+            "going invisible",
+            "becoming invisible",
+            "invisible"
+          ],
+          "choices": [
+            "Turning invisible",
+            "Breathing ice",
+            "Changing size",
+            "Talking"
+          ],
+          "reveal": "The correct answer is turning invisible! Handy when you're a dragon living in a small fishing town.",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}
