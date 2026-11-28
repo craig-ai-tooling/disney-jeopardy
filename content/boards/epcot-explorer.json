@@ -1,0 +1,564 @@
+{
+  "id": "epcot-explorer",
+  "title": "EPCOT Explorer",
+  "theme": "EPCOT",
+  "tags": [
+    "parks",
+    "epcot",
+    "walt-disney-world"
+  ],
+  "intro": "[excited] Welcome, explorers! Tonight's whole board lives inside one giant golf ball of a park: EPCOT! Rides, pavilions, festivals and one very bitter soda. [laughs] Strap in, it's going to be educational AND fun.",
+  "art": {
+    "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A gleaming silver geodesic sphere at twilight beside a glassy lagoon, futuristic pavilions with glowing pyramids, colourful fountains leaping into the air, a monorail beam curving through the sky.",
+    "file": "media/epcot-explorer.jpg"
+  },
+  "categories": [
+    {
+      "id": "awesome-mix",
+      "title": "We Are Groot",
+      "kind": "film",
+      "intro": "Our film category is the movie behind EPCOT's wildest coaster. [excited] It's Guardians of the Galaxy! Hit play on that mixtape.",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A vintage portable cassette player with orange foam headphones floating in deep space, swirling purple and teal nebulas, a small potted sapling glowing beside it.",
+        "file": "media/epcot-explorer--awesome-mix.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In Guardians of the Galaxy, this walking tree only ever says three words: 'I am' ... his own name.",
+          "answer": "Groot",
+          "accept": [
+            "groot",
+            "baby groot"
+          ],
+          "choices": [
+            "Groot",
+            "Rocket",
+            "Drax",
+            "Yondu"
+          ],
+          "reveal": "The correct answer is Groot! [laughs] Three words, endless emotional range. Honestly, more than most of us manage on a Monday.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Peter Quill's beloved cassette tape of 1970s hits is labeled with this two-word name, Vol. 1.",
+          "answer": "Awesome Mix",
+          "accept": [
+            "awesome mix",
+            "awesome mix vol 1",
+            "awesome mix vol. 1",
+            "awesome mix volume 1"
+          ],
+          "choices": [
+            "Awesome Mix",
+            "Groovy Tunes",
+            "Cosmic Jams",
+            "Star Hits"
+          ],
+          "reveal": "The correct answer is Awesome Mix! [chuckles] Cosmic Rewind at EPCOT even plays a random song from the mix on every ride.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Peter Quill really wants everyone to call him by this legendary outlaw name.",
+          "answer": "Star-Lord",
+          "accept": [
+            "star-lord",
+            "star lord",
+            "starlord"
+          ],
+          "choices": [
+            "Star-Lord",
+            "Space Cowboy",
+            "Rocket Man",
+            "Captain Quill"
+          ],
+          "reveal": "The correct answer is Star-Lord! [laughs] Nobody calls him that at first. Legendary outlaw, zero name recognition.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Gamora, the deadliest woman in the galaxy, is the adopted daughter of this purple Mad Titan.",
+          "answer": "Thanos",
+          "accept": [
+            "thanos"
+          ],
+          "choices": [
+            "Thanos",
+            "Ronan",
+            "Ego",
+            "Yondu"
+          ],
+          "reveal": "The correct answer is Thanos! [sighs] Worst dad of the galaxy. Even worse than Yondu, and Yondu threatened to eat people.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Peter Quill dances across a ruined alien planet in the film's opening credits to 'Come and Get Your Love' by this band.",
+          "answer": "Redbone",
+          "accept": [
+            "redbone"
+          ],
+          "choices": [
+            "Redbone",
+            "Blue Swede",
+            "The Jackson 5",
+            "10cc"
+          ],
+          "reveal": "The correct answer is Redbone! [excited] Blue Swede's 'Hooked on a Feeling' is the other famous tune, so don't feel bad if you got hooked.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "future-world-thrills",
+      "title": "Ride Into Tomorrow",
+      "kind": "theme",
+      "intro": "Next up, Ride Into Tomorrow! These are the rides in EPCOT's forward-thinking neighborhoods. [whispers] Please keep your hands inside your concept vehicle.",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A sleek futuristic test car racing along a glowing outdoor track loop, a hang-glider silhouette soaring over a giant screen of clouds, a greenhouse full of giant tomato vines, all in a bright retro-future style.",
+        "file": "media/epcot-explorer--future-world-thrills.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "On this EPCOT ride in The Land pavilion, you hang beneath a giant dome screen as if gliding over famous places around the world.",
+          "answer": "Soarin'",
+          "accept": [
+            "soarin'",
+            "soarin",
+            "soarin around the world",
+            "soarin' around the world",
+            "soaring"
+          ],
+          "choices": [
+            "Soarin'",
+            "Mission: SPACE",
+            "Test Track",
+            "Spaceship Earth"
+          ],
+          "reveal": "The correct answer is Soarin'! [whispers] Take a deep breath over the orange groves. Yes, they really pipe in the smell.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "This EPCOT ride, reopened in 2025, sends guests in a futuristic test car speeding around an outdoor loop.",
+          "answer": "Test Track",
+          "accept": [
+            "test track"
+          ],
+          "choices": [
+            "Test Track",
+            "World of Motion",
+            "Mission: SPACE",
+            "Tomorrowland Speedway"
+          ],
+          "reveal": "The correct answer is Test Track! [excited] Its 2025 version is packed with tributes to the old World of Motion ride. Vroom vroom, nostalgia!",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Opened at EPCOT in May 2022, this was Disney's first roller coaster to launch riders backwards.",
+          "answer": "Guardians of the Galaxy: Cosmic Rewind",
+          "accept": [
+            "guardians of the galaxy: cosmic rewind",
+            "cosmic rewind",
+            "guardians of the galaxy",
+            "guardians of the galaxy cosmic rewind"
+          ],
+          "choices": [
+            "Guardians of the Galaxy: Cosmic Rewind",
+            "Test Track",
+            "TRON Lightcycle / Run",
+            "Rock 'n' Roller Coaster"
+          ],
+          "reveal": "The correct answer is Guardians of the Galaxy: Cosmic Rewind! [laughs] The cars spin to face the action, so you never miss a single scream.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "At this EPCOT show inside The Seas, a surfer-dude sea turtle chats live with kids in the audience.",
+          "answer": "Turtle Talk with Crush",
+          "accept": [
+            "turtle talk with crush",
+            "turtle talk"
+          ],
+          "choices": [
+            "Turtle Talk with Crush",
+            "Finding Nemo: The Big Blue and Beyond",
+            "The Seas with Nemo & Friends",
+            "Squirt's Surf School"
+          ],
+          "reveal": "The correct answer is Turtle Talk with Crush! [chuckles] It opened in 2004, and he's been answering 'do you know Nemo' questions ever since. Totally, dude.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "This EPCOT boat ride passes greenhouses where a single 'tomato tree' set a Guinness record by growing over 32,000 tomatoes.",
+          "answer": "Living with the Land",
+          "accept": [
+            "living with the land",
+            "listen to the land"
+          ],
+          "choices": [
+            "Living with the Land",
+            "Journey of Water",
+            "Behind the Seeds",
+            "Kitchen Kabaret"
+          ],
+          "reveal": "The correct answer is Living with the Land! [gasps] Over 32,000 tomatoes in about 16 months. That's a LOT of salsa. It opened in 1982 as Listen to the Land.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "epcot-up-close",
+      "title": "EPCOT Up Close",
+      "kind": "media",
+      "intro": "Time for EPCOT Up Close! I'll start zoomed way in on a real EPCOT landmark and slowly pull back. [whispers] Buzz as soon as you know where you are.",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A vintage brass magnifying glass hovering over a futuristic theme park at golden hour, the lens showing crisp detail of a faceted silver sphere while everything else is softly blurred.",
+        "file": "media/epcot-explorer--epcot-up-close.jpg"
+      },
+      "format": "zoom",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Name this EPCOT icon.",
+          "answer": "Spaceship Earth",
+          "accept": [
+            "spaceship earth",
+            "golf ball",
+            "the golf ball"
+          ],
+          "choices": [
+            "Spaceship Earth",
+            "Mission: SPACE",
+            "The Land",
+            "Imagination!"
+          ],
+          "reveal": "The correct answer is Spaceship Earth! [excited] The 'golf ball' is covered in 11,324 shiny facets, and rain drains through it into the lagoon.",
+          "media": {
+            "type": "image",
+            "file": "media/epcot-explorer--epcot-up-close-200.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Spaceship_Earth_2.jpg",
+              "license": "CC BY-SA 4.0",
+              "author": "Katie Rommel-Esham (contact via bdesham)"
+            }
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Name this EPCOT pavilion, home of a certain purple dragon.",
+          "answer": "Imagination!",
+          "accept": [
+            "imagination!",
+            "imagination",
+            "imagination pavilion",
+            "journey into imagination"
+          ],
+          "choices": [
+            "Imagination!",
+            "The Land",
+            "Mission: SPACE",
+            "Wonders of Life"
+          ],
+          "reveal": "The correct answer is the Imagination! pavilion! [chuckles] Those glass pyramids house Figment. One little spark, one giant pyramid.",
+          "media": {
+            "type": "image",
+            "file": "media/epcot-explorer--epcot-up-close-400.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Imagination!_pavilion_at_Epcot.jpg",
+              "license": "CC BY-SA 4.0",
+              "author": "Benjamin D. Esham (bdesham)"
+            }
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Name this EPCOT pavilion, home to Soarin' and a famous greenhouse boat ride.",
+          "answer": "The Land",
+          "accept": [
+            "the land",
+            "land pavilion",
+            "the land pavilion"
+          ],
+          "choices": [
+            "The Land",
+            "The Seas with Nemo & Friends",
+            "Wonders of Life",
+            "Imagination!"
+          ],
+          "reveal": "The correct answer is The Land! [laughs] Fun fact: the giant skylight roof lets real sunlight reach the plants growing inside.",
+          "media": {
+            "type": "image",
+            "file": "media/epcot-explorer--epcot-up-close-600.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:TheLandatEpcot.JPG",
+              "license": "CC BY-SA 3.0",
+              "author": "UpstateNYer"
+            }
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Name this EPCOT attraction, where you can choose an Orange or a Green training mission.",
+          "answer": "Mission: SPACE",
+          "accept": [
+            "mission: space",
+            "mission space"
+          ],
+          "choices": [
+            "Mission: SPACE",
+            "Horizons",
+            "Test Track",
+            "Spaceship Earth"
+          ],
+          "reveal": "The correct answer is Mission: SPACE! [whispers] Orange spins you in a centrifuge. Green doesn't. Choose wisely.",
+          "media": {
+            "type": "image",
+            "file": "media/epcot-explorer--epcot-up-close-800.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Mission_Space_Epcot.jpg",
+              "license": "CC BY-SA 4.0",
+              "author": "Jedi94"
+            }
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "This golden-domed EPCOT pavilion closed as a regular attraction in 2007 and later hosted festival events. What was it called?",
+          "answer": "Wonders of Life",
+          "accept": [
+            "wonders of life",
+            "wonders of life pavilion"
+          ],
+          "choices": [
+            "Wonders of Life",
+            "Universe of Energy",
+            "Horizons",
+            "CommuniCore"
+          ],
+          "reveal": "The correct answer is Wonders of Life! [sighs] It was home to Body Wars and Cranium Command. Later it hosted festival events. RIP, little dome.",
+          "media": {
+            "type": "image",
+            "file": "media/epcot-explorer--epcot-up-close-1000.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Wonders_of_Life_(2015).jpg",
+              "license": "CC BY-SA 4.0",
+              "author": "Kellenhileman"
+            }
+          },
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "festival-season",
+      "title": "Festival Season",
+      "kind": "parks",
+      "intro": "Our parks category is Festival Season! EPCOT throws a party almost every month of the year. [excited] Grab a passport and a fork.",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A sunny lagoon promenade lined with festival food booths, colourful flower beds shaped into whimsical animal topiaries, paint easels and twinkling holiday lanterns.",
+        "file": "media/epcot-explorer--festival-season.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Each spring, EPCOT fills with giant topiaries of Disney characters during this festival.",
+          "answer": "Flower & Garden Festival",
+          "accept": [
+            "flower & garden festival",
+            "epcot international flower and garden festival",
+            "flower & garden",
+            "flower and garden",
+            "flower and garden festival"
+          ],
+          "choices": [
+            "Flower & Garden Festival",
+            "Food & Wine Festival",
+            "Festival of the Arts",
+            "Festival of the Holidays"
+          ],
+          "reveal": "The correct answer is the Flower and Garden Festival! [laughs] Mickey made out of shrubs. Peak horticulture.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Booths called Global Marketplaces serve small plates from around the world during this fall EPCOT festival.",
+          "answer": "Food & Wine Festival",
+          "accept": [
+            "food & wine festival",
+            "epcot international food and wine festival",
+            "food & wine",
+            "food and wine",
+            "food and wine festival"
+          ],
+          "choices": [
+            "Food & Wine Festival",
+            "Festival of the Arts",
+            "Flower & Garden Festival",
+            "Festival of the Holidays"
+          ],
+          "reveal": "The correct answer is the Food and Wine Festival! [excited] My strategy: one of everything. My doctor's strategy: please don't.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "At this winter festival, which debuted in 2017, EPCOT's Food Studios serve dishes as pretty as paintings.",
+          "answer": "Festival of the Arts",
+          "accept": [
+            "festival of the arts",
+            "arts festival",
+            "epcot international festival of the arts"
+          ],
+          "choices": [
+            "Festival of the Arts",
+            "Food & Wine Festival",
+            "Festival of the Holidays",
+            "Flower & Garden Festival"
+          ],
+          "reveal": "The correct answer is the Festival of the Arts! [chuckles] It's the only time eating a painting is encouraged.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "EPCOT's International Food & Wine Festival was first held in this year.",
+          "answer": "1996",
+          "accept": [
+            "1996"
+          ],
+          "choices": [
+            "1996",
+            "1982",
+            "2001",
+            "1989"
+          ],
+          "reveal": "The correct answer is 1996! [laughs] The first one ran for about a month that fall. Now it's a months-long snack marathon.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "During EPCOT's Festival of the Holidays, Italy's storyteller is this kind old witch who brings gifts on Epiphany.",
+          "answer": "La Befana",
+          "accept": [
+            "la befana",
+            "befana"
+          ],
+          "choices": [
+            "La Befana",
+            "Père Noël",
+            "Sinterklaas",
+            "Babushka"
+          ],
+          "reveal": "The correct answer is La Befana! [whispers] She sweeps the floors on her way out, too. Santa could never.",
+          "dailyDouble": true
+        }
+      ]
+    },
+    {
+      "id": "epcot-insider",
+      "title": "EPCOT Insider",
+      "kind": "fan",
+      "intro": "Our fan category is EPCOT Insider. [mischievously] Time to find out who actually reads the park map.",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. An open vintage park guidebook on a café table beside a fizzy sampler of tiny soda cups, a compass and a small silver sphere paperweight, World Showcase lights glowing in the background.",
+        "file": "media/epcot-explorer--epcot-insider.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "At The Seas, you ride a clamshell vehicle to find this little lost clownfish.",
+          "answer": "Nemo",
+          "accept": [
+            "nemo"
+          ],
+          "choices": [
+            "Nemo",
+            "Dory",
+            "Squirt",
+            "Marlin"
+          ],
+          "reveal": "The correct answer is Nemo! [laughs] Spoiler alert: he's found. Again. Every few minutes, actually.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "World Showcase circles the lagoon with exactly this many country pavilions.",
+          "answer": "11",
+          "accept": [
+            "11",
+            "eleven"
+          ],
+          "choices": [
+            "11",
+            "9",
+            "12",
+            "14"
+          ],
+          "reveal": "The correct answer is 11! [excited] From Mexico to Canada, that's about 1.2 miles of walking. Wear the comfy shoes.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "At Club Cool, guests sample free sodas from around the world, including this famously bitter one from Italy.",
+          "answer": "Beverly",
+          "accept": [
+            "beverly"
+          ],
+          "choices": [
+            "Beverly",
+            "Inca Kola",
+            "Vegitabeta",
+            "Smart Watermelon"
+          ],
+          "reveal": "The correct answer is Beverly! [laughs] It's the only drink that has survived every Club Cool lineup, mostly so people can prank their friends.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Since 2021, EPCOT's four neighborhoods are World Celebration, World Discovery, World Nature and this one.",
+          "answer": "World Showcase",
+          "accept": [
+            "world showcase"
+          ],
+          "choices": [
+            "World Showcase",
+            "World Tomorrow",
+            "Future World",
+            "World Traveler"
+          ],
+          "reveal": "The correct answer is World Showcase! [chuckles] Future World was split into three neighborhoods, but the countries kept their classic name.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Spaceship Earth's shiny skin is made up of exactly this many silver facets.",
+          "answer": "11,324",
+          "accept": [
+            "11,324",
+            "11324"
+          ],
+          "choices": [
+            "11,324",
+            "11,520",
+            "9,876",
+            "12,000"
+          ],
+          "reveal": "The correct answer is 11,324! [gasps] Math says it should be 11,520, but supports and doors steal a few triangles. Spaceship Earth is not great at sharing.",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,571 @@
+{
+  "id": "animal-kingdom-adventure",
+  "title": "Animal Kingdom Adventure",
+  "theme": "Disney's Animal Kingdom",
+  "tags": [
+    "parks",
+    "animal-kingdom",
+    "walt-disney-world",
+    "animals"
+  ],
+  "intro": "[excited] Grab your safari hat! Tonight's board is all Disney's Animal Kingdom: Zootopia cops, banshees, real tigers and one very famous broken Yeti. [laughs] Nahtazu. That's not a zoo.",
+  "art": {
+    "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A gigantic carved tree of life rising over a lush jungle river at sunrise, floating mountains with waterfalls in the distance, a rope bridge, colourful prayer flags and a safari truck on a dirt road.",
+    "file": "media/animal-kingdom-adventure.jpg"
+  },
+  "categories": [
+    {
+      "id": "anyone-can-be-anything",
+      "title": "Anyone Can Be Anything",
+      "kind": "film",
+      "intro": "Our film category just moved into the Tree of Life. [excited] It's Zootopia! Where anyone can be anything, even a bunny cop.",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A gleaming animal metropolis split into districts, a frosty tundra, a steamy rainforest and a desert of sand-coloured towers, a train gliding between them, a carrot-shaped pen resting on a police notepad in the foreground.",
+        "file": "media/animal-kingdom-adventure--anyone-can-be-anything.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Judy Hopps is the very first of this kind of animal to join the Zootopia Police Department.",
+          "answer": "A rabbit",
+          "accept": [
+            "a rabbit",
+            "a bunny",
+            "bunny",
+            "rabbit"
+          ],
+          "choices": [
+            "A rabbit",
+            "A fox",
+            "A mouse",
+            "A squirrel"
+          ],
+          "reveal": "The correct answer is a rabbit! [laughs] Tiny, fast and VERY determined. Don't call her cute, though. Only bunnies can say that.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Nick Wilde, the smooth-talking hustler who teams up with Judy, is this kind of animal.",
+          "answer": "A red fox",
+          "accept": [
+            "a red fox",
+            "a fox",
+            "fox",
+            "red fox"
+          ],
+          "choices": [
+            "A red fox",
+            "A wolf",
+            "A weasel",
+            "A raccoon"
+          ],
+          "reveal": "The correct answer is a red fox! [chuckles] It's called a hustle, sweetheart. And now he hams it up inside the Tree of Life.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Zootopia's biggest pop star, voiced by Shakira, is this graceful animal who sings 'Try Everything.'",
+          "answer": "Gazelle",
+          "accept": [
+            "gazelle",
+            "a gazelle"
+          ],
+          "choices": [
+            "Gazelle",
+            "Giraffe",
+            "Zebra",
+            "Flamingo"
+          ],
+          "reveal": "The correct answer is Gazelle! [excited] Shakira as a gazelle with tiger backup dancers. Peak casting.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "The secret villain of Zootopia turns out to be this sheep, the assistant mayor.",
+          "answer": "Dawn Bellwether",
+          "accept": [
+            "dawn bellwether",
+            "assistant mayor bellwether",
+            "bellwether"
+          ],
+          "choices": [
+            "Dawn Bellwether",
+            "Mayor Lionheart",
+            "Doug",
+            "Duke Weaselton"
+          ],
+          "reveal": "The correct answer is Dawn Bellwether! [gasps] The sweet little sheep with the night howler plan. Never trust a too-helpful coworker.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Judy Hopps grew up on a carrot farm in this small country town.",
+          "answer": "Bunnyburrow",
+          "accept": [
+            "bunnyburrow",
+            "bunny burrow"
+          ],
+          "choices": [
+            "Bunnyburrow",
+            "Sahara Square",
+            "Tundratown",
+            "Little Rodentia"
+          ],
+          "reveal": "The correct answer is Bunnyburrow! [laughs] The population sign has a LOT of digits, and it keeps going up.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "welcome-to-pandora",
+      "title": "Welcome to Pandora",
+      "kind": "theme",
+      "intro": "Next, Welcome to Pandora! The land inspired by James Cameron's Avatar films. [whispers] Watch out for the glowing plants. They're watching you too.",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. An alien valley of giant floating rock mountains draped in vines with waterfalls pouring off them, bioluminescent plants glowing blue and violet at night, a winged dragon-like creature soaring overhead.",
+        "file": "media/animal-kingdom-adventure--welcome-to-pandora.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Pandora is famous for its mountains, which look like they do this high above the land.",
+          "answer": "Float",
+          "accept": [
+            "float",
+            "float in the air",
+            "floating",
+            "fly",
+            "hover"
+          ],
+          "choices": [
+            "Float",
+            "Spin",
+            "Sing",
+            "Glow red"
+          ],
+          "reveal": "The correct answer is float! [gasps] Okay, there's engineering holding them up. But in my heart they float.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "On Avatar Flight of Passage, you ride on the back of this flying creature.",
+          "answer": "A banshee",
+          "accept": [
+            "a banshee",
+            "banshee",
+            "ikran",
+            "mountain banshee"
+          ],
+          "choices": [
+            "A banshee",
+            "A dragon",
+            "A pegasus",
+            "A thunderbird"
+          ],
+          "reveal": "The correct answer is a banshee! [excited] The Na'vi call them ikran. You'll even feel it breathing between your legs. Weird? Yes. Awesome? Also yes.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "The glowing Na'vi River Journey boat ride ends with this huge, lifelike Na'vi figure singing to the forest.",
+          "answer": "The Shaman of Songs",
+          "accept": [
+            "the shaman of songs",
+            "shaman",
+            "shaman of songs"
+          ],
+          "choices": [
+            "The Shaman of Songs",
+            "The Tree of Souls",
+            "Neytiri",
+            "The Great Leonopteryx"
+          ],
+          "reveal": "The correct answer is the Shaman of Songs! [whispers] She's one of the most advanced Audio-Animatronics Disney has ever built. She has better moves than me.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Pandora, The World of Avatar, opened at Animal Kingdom in this year.",
+          "answer": "2017",
+          "accept": [
+            "2017"
+          ],
+          "choices": [
+            "2017",
+            "2009",
+            "2013",
+            "2020"
+          ],
+          "reveal": "The correct answer is 2017! [laughs] Eight years after the first Avatar movie. Pandora takes its time.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Pandora's floating-mountain area is named the Valley of this.",
+          "answer": "Mo'ara",
+          "accept": [
+            "mo'ara",
+            "mo ara",
+            "moara"
+          ],
+          "choices": [
+            "Mo'ara",
+            "Eywa",
+            "Tsahik",
+            "Toruk"
+          ],
+          "reveal": "The correct answer is the Valley of Mo'ara! [excited] Go at night. The whole place glows like a lava lamp.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "safari-snapshots",
+      "title": "Safari Snapshots",
+      "kind": "media",
+      "intro": "Time for Safari Snapshots! These are real photos from Animal Kingdom. [chuckles] No zoom lens needed.",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. An old safari camera with a long lens sitting on a canvas map beside a field journal, a pith helmet and pressed jungle leaves, warm afternoon light.",
+        "file": "media/animal-kingdom-adventure--safari-snapshots.jpg"
+      },
+      "format": "picture",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Name this huge carved icon at the heart of Animal Kingdom.",
+          "answer": "The Tree of Life",
+          "accept": [
+            "the tree of life",
+            "tree of life"
+          ],
+          "choices": [
+            "The Tree of Life",
+            "Swiss Family Treehouse",
+            "Pride Rock",
+            "The Hundred Acre Wood"
+          ],
+          "reveal": "The correct answer is the Tree of Life! [excited] Over 300 animals are carved into its trunk. You'll need about a week to find them all.",
+          "media": {
+            "type": "image",
+            "file": "media/animal-kingdom-adventure--safari-snapshots-200.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Tree_of_Life,_Disney%27s_Animal_Kingdom.jpg",
+              "license": "CC BY-SA 4.0",
+              "author": "Jedi94"
+            }
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Name this rafting ride in Animal Kingdom's Asia.",
+          "answer": "Kali River Rapids",
+          "accept": [
+            "kali river rapids",
+            "kali",
+            "kali river"
+          ],
+          "choices": [
+            "Kali River Rapids",
+            "Grizzly River Run",
+            "Splash Mountain",
+            "Ganges River Run"
+          ],
+          "reveal": "The correct answer is Kali River Rapids! [laughs] You WILL get wet. You might get soaked. Somebody always gets soaked.",
+          "media": {
+            "type": "image",
+            "file": "media/animal-kingdom-adventure--safari-snapshots-400.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Kali_River_Rapids_1.jpg",
+              "license": "CC BY 2.0",
+              "author": "Jeremy Thompson"
+            }
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "On which Animal Kingdom walking trail can you spot these water buffalo and bar-headed geese?",
+          "answer": "Maharajah Jungle Trek",
+          "accept": [
+            "maharajah jungle trek",
+            "jungle trek",
+            "maharaja jungle trek"
+          ],
+          "choices": [
+            "Maharajah Jungle Trek",
+            "Gorilla Falls Exploration Trail",
+            "Kilimanjaro Safaris",
+            "Discovery Island Trails"
+          ],
+          "reveal": "The correct answer is the Maharajah Jungle Trek! [whispers] Keep walking and you'll meet tigers, giant fruit bats and a Komodo dragon.",
+          "media": {
+            "type": "image",
+            "file": "media/animal-kingdom-adventure--safari-snapshots-600.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Maharajah_Jungle_Trek_(42377960765).jpg",
+              "license": "CC BY 2.0",
+              "author": "HarshLight from San Jose, CA, USA"
+            }
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "This steam train carries guests from Africa out to which Animal Kingdom area?",
+          "answer": "Rafiki's Planet Watch",
+          "accept": [
+            "rafiki's planet watch",
+            "conservation station",
+            "planet watch",
+            "rafikis planet watch"
+          ],
+          "choices": [
+            "Rafiki's Planet Watch",
+            "Pandora",
+            "DinoLand U.S.A.",
+            "Discovery Island"
+          ],
+          "reveal": "The correct answer is Rafiki's Planet Watch! [chuckles] It's the Wildlife Express Train, and it rolls right past the animal backstage buildings.",
+          "media": {
+            "type": "image",
+            "file": "media/animal-kingdom-adventure--safari-snapshots-800.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Wildlife_Express_at_Disney%27s_Animal_Kingdom_on_7-11-10.jpg",
+              "license": "CC BY 2.0",
+              "author": "Rob Bixby"
+            }
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Name the fictional African port village in this photo.",
+          "answer": "Harambe",
+          "accept": [
+            "harambe",
+            "harambe village"
+          ],
+          "choices": [
+            "Harambe",
+            "Anandapur",
+            "Serka Zong",
+            "Nairobi"
+          ],
+          "reveal": "The correct answer is Harambe! [excited] Imagineers based it on real East African towns, right down to the peeling paint.",
+          "media": {
+            "type": "image",
+            "file": "media/animal-kingdom-adventure--safari-snapshots-1000.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Town_of_Harambe_(33364227304).jpg",
+              "license": "CC BY 2.0",
+              "author": "Sam Howzit"
+            }
+          },
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "into-the-wild",
+      "title": "Into the Wild",
+      "kind": "parks",
+      "intro": "Our parks category is Into the Wild! [mischievously] Let's see who's really been exploring the park.",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A winding jungle path through lush ferns past ancient temple ruins with stone carvings, a snowy mountain peak looming in the distance and colourful birds in flight.",
+        "file": "media/animal-kingdom-adventure--into-the-wild.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Feathered Friends in Flight is an Animal Kingdom show starring these animals.",
+          "answer": "Birds",
+          "accept": [
+            "birds",
+            "bird"
+          ],
+          "choices": [
+            "Birds",
+            "Bats",
+            "Butterflies",
+            "Dragons"
+          ],
+          "reveal": "The correct answer is birds! [laughs] Hawks, cranes, a bald eagle... and they fly right over your head. Duck. Or don't, the duck's in the show.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Animal Kingdom's entrance area, full of waterfalls and small animals, is called this.",
+          "answer": "The Oasis",
+          "accept": [
+            "the oasis",
+            "oasis"
+          ],
+          "choices": [
+            "The Oasis",
+            "The Grove",
+            "The Lagoon",
+            "Discovery Plaza"
+          ],
+          "reveal": "The correct answer is the Oasis! [chuckles] It's Animal Kingdom's version of Main Street, U.S.A., but with way more anteaters.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Animal Kingdom's Asia section is set in this fictional kingdom, whose name means place of many delights.",
+          "answer": "Anandapur",
+          "accept": [
+            "anandapur"
+          ],
+          "choices": [
+            "Anandapur",
+            "Harambe",
+            "Serka Zong",
+            "Agrabah"
+          ],
+          "reveal": "The correct answer is Anandapur! [excited] Its story says it began as a royal hunting preserve in 1544. Now the only thing you hunt is a good churro.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "After Expedition Everest's Yeti stopped moving, a flashing strobe light earned it this fan nickname.",
+          "answer": "Disco Yeti",
+          "accept": [
+            "disco yeti"
+          ],
+          "choices": [
+            "Disco Yeti",
+            "Strobe Monster",
+            "Party Yeti",
+            "Flashbulb Phil"
+          ],
+          "reveal": "The correct answer is Disco Yeti! [laughs] The Yeti broke months after the 2006 opening. Disney has said it will bring him back to life. Dance off, anyone?",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "This land of dragons, unicorns and other mythical creatures was planned for Animal Kingdom but never built.",
+          "answer": "Beastly Kingdom",
+          "accept": [
+            "beastly kingdom",
+            "beastly kingdomme"
+          ],
+          "choices": [
+            "Beastly Kingdom",
+            "Fantasy Kingdom",
+            "Myth Island",
+            "Dragon Valley"
+          ],
+          "reveal": "The correct answer is Beastly Kingdom! [sighs] Camp Minnie-Mickey sat on its spot for years, and now Pandora lives there.",
+          "dailyDouble": true
+        }
+      ]
+    },
+    {
+      "id": "wild-encounters",
+      "title": "Wild Encounters",
+      "kind": "fan",
+      "intro": "Our fan category is Wild Encounters: the real animals of Animal Kingdom. [whispers] They may be watching you play.",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A golden savanna at sunset with tall acacia trees, an open-air safari truck parked by a waterhole, silhouettes of giraffes in the distance and a shy striped-legged animal peeking from the forest.",
+        "file": "media/animal-kingdom-adventure--wild-encounters.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "The tallest animals you'll see on safari, munching leaves from the treetops.",
+          "answer": "Giraffes",
+          "accept": [
+            "giraffes",
+            "giraffe"
+          ],
+          "choices": [
+            "Giraffes",
+            "Elephants",
+            "Ostriches",
+            "Zebras"
+          ],
+          "reveal": "The correct answer is giraffes! [laughs] They're the tallest animals on Earth. Great view, terrible at hide-and-seek.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Spotted on Maharajah Jungle Trek, this giant lizard is named after an island in Indonesia.",
+          "answer": "Komodo dragon",
+          "accept": [
+            "komodo dragon",
+            "komodo",
+            "komodo dragons"
+          ],
+          "choices": [
+            "Komodo dragon",
+            "Gila monster",
+            "Iguana",
+            "Monitor of Java"
+          ],
+          "reveal": "The correct answer is the Komodo dragon! [gasps] The biggest lizard on Earth. Do not challenge it to a staring contest.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Hanging upside down on Maharajah Jungle Trek, these flying mammals have wingspans up to about six feet.",
+          "answer": "Fruit bats",
+          "accept": [
+            "fruit bats",
+            "bats",
+            "flying fox",
+            "flying foxes",
+            "fruit bat",
+            "malayan flying fox"
+          ],
+          "choices": [
+            "Fruit bats",
+            "Vampire bats",
+            "Sugar gliders",
+            "Flying squirrels"
+          ],
+          "reveal": "The correct answer is fruit bats! [chuckles] Malayan flying foxes, to be exact. Big wings, but they're only here for the fruit.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Animal Kingdom's Wilderness Explorers badge game is based on the scout troop from this Pixar movie.",
+          "answer": "Up",
+          "accept": [
+            "up"
+          ],
+          "choices": [
+            "Up",
+            "Brave",
+            "A Bug's Life",
+            "Finding Nemo"
+          ],
+          "reveal": "The correct answer is Up! [excited] Russell would be proud. The bird call badge is the hardest one. Caw caw!",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Seen on safari, this shy African animal has zebra-like striped legs, but its closest relative is the giraffe.",
+          "answer": "Okapi",
+          "accept": [
+            "okapi",
+            "an okapi",
+            "okapis"
+          ],
+          "choices": [
+            "Okapi",
+            "Bongo",
+            "Zebra duiker",
+            "Sable antelope"
+          ],
+          "reveal": "The correct answer is the okapi! [gasps] It's sometimes called the forest giraffe, and it can lick its own ears with its long tongue. Try it. You can't.",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}

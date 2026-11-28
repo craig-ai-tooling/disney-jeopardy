@@ -1,0 +1,578 @@
+{
+  "id": "magic-kingdom-deep-cuts",
+  "title": "Magic Kingdom Deep Cuts",
+  "theme": "Magic Kingdom",
+  "tags": [
+    "parks",
+    "magic-kingdom",
+    "walt-disney-world",
+    "deep-cuts"
+  ],
+  "intro": "[excited] Welcome back to Magic Kingdom, but tonight we're skipping the obvious stuff. [whispers] We're going deep. Tunnels, secret suites, trains from Mexico... [laughs] Only true park nerds survive this one.",
+  "art": {
+    "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A fairy-tale castle at night seen from a hidden angle behind colonial rooftops, glowing lanterns hung in an old oak tree, a vintage steam locomotive puffing past, and a secret lit window high in a tower.",
+    "file": "media/magic-kingdom-deep-cuts.jpg"
+  },
+  "categories": [
+    {
+      "id": "now-a-major-motion-picture",
+      "title": "Now a Major Motion Picture",
+      "kind": "film",
+      "intro": "Our film category is all about movies that started life as Magic Kingdom attractions. [chuckles] The ride came first. Then Hollywood came knocking.",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A vintage movie theatre marquee with empty lightbulb borders next to a jungle riverboat, a spooky mansion gate and a retro rocket, film reels spilling across a red carpet.",
+        "file": "media/magic-kingdom-deep-cuts--now-a-major-motion-picture.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Dwayne Johnson plays riverboat skipper Frank in this 2021 movie based on a classic Adventureland boat ride.",
+          "answer": "Jungle Cruise",
+          "accept": [
+            "jungle cruise",
+            "the jungle cruise"
+          ],
+          "choices": [
+            "Jungle Cruise",
+            "Pirates of the Caribbean",
+            "Swiss Family Robinson",
+            "Tomorrowland"
+          ],
+          "reveal": "The correct answer is Jungle Cruise! [laughs] And yes, the movie has puns almost as bad as the real skippers'. Almost.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Eddie Murphy starred in a 2003 movie based on this spooky Liberty Square ride.",
+          "answer": "The Haunted Mansion",
+          "accept": [
+            "the haunted mansion",
+            "haunted mansion"
+          ],
+          "choices": [
+            "The Haunted Mansion",
+            "Tower of Terror",
+            "The Country Bears",
+            "Mr. Toad's Wild Ride"
+          ],
+          "reveal": "The correct answer is The Haunted Mansion! [whispers] It got another movie in 2023. 999 happy haunts, and room for one more sequel.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "George Clooney starred in this 2015 movie named after an entire Magic Kingdom land.",
+          "answer": "Tomorrowland",
+          "accept": [
+            "tomorrowland"
+          ],
+          "choices": [
+            "Tomorrowland",
+            "Adventureland",
+            "Frontierland",
+            "Fantasyland"
+          ],
+          "reveal": "The correct answer is Tomorrowland! [excited] Its opening even features the song from Walt's Carousel of Progress. A great big beautiful Easter egg.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Frontierland's banjo-strumming bear band got their own live-action movie in 2002, called this.",
+          "answer": "The Country Bears",
+          "accept": [
+            "the country bears",
+            "country bears"
+          ],
+          "choices": [
+            "The Country Bears",
+            "The Bear Necessities",
+            "Bear Country Jamboree",
+            "Brother Bear"
+          ],
+          "reveal": "The correct answer is The Country Bears! [laughs] Big Al got a movie before most princes did. Let that sink in.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Brian De Palma's 2000 sci-fi film shares its name with this Tomorrowland ride that closed in 1993.",
+          "answer": "Mission to Mars",
+          "accept": [
+            "mission to mars"
+          ],
+          "choices": [
+            "Mission to Mars",
+            "Flight to the Moon",
+            "Mission: SPACE",
+            "Space Mountain"
+          ],
+          "reveal": "The correct answer is Mission to Mars! [gasps] The ride closed in October 1993, and its show building later became Alien Encounter and then Stitch's Great Escape.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "hidden-in-plain-sight",
+      "title": "Hidden in Plain Sight",
+      "kind": "theme",
+      "intro": "Next, Hidden in Plain Sight! [whispers] These are the secrets you've walked right past a hundred times.",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A detective's magnifying glass over a cobblestone colonial street, a tiny three-circle shape hidden in the pattern of a stained-glass window, a doorway to an underground tunnel half open.",
+        "file": "media/magic-kingdom-deep-cuts--hidden-in-plain-sight.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Fans hunt all over the parks for these secret three-circle shapes tucked into designs and decorations.",
+          "answer": "Hidden Mickeys",
+          "accept": [
+            "hidden mickeys",
+            "hidden mickey",
+            "hidden mickey heads",
+            "mickey heads"
+          ],
+          "choices": [
+            "Hidden Mickeys",
+            "Secret Stars",
+            "Lost Pixie Dust",
+            "Golden Ears"
+          ],
+          "reveal": "The correct answer is Hidden Mickeys! [excited] Once you start spotting them, you can never stop. Sorry in advance.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Liberty Square's Liberty Tree is hung with 13 lanterns representing these.",
+          "answer": "The 13 original colonies",
+          "accept": [
+            "the 13 original colonies",
+            "13 colonies",
+            "original colonies",
+            "the colonies",
+            "the thirteen colonies",
+            "thirteen colonies"
+          ],
+          "choices": [
+            "The 13 original colonies",
+            "The 13 founding fathers",
+            "The 13 stripes of a quilt",
+            "The 13 Disney parks"
+          ],
+          "reveal": "The correct answer is the 13 original colonies! [chuckles] It's a nod to the real Liberty Tree in Boston, where the Sons of Liberty met.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Magic Kingdom sits on top of a network of tunnels that cast members use to move around unseen. They're called these.",
+          "answer": "Utilidors",
+          "accept": [
+            "utilidors",
+            "the utilidors",
+            "tunnels",
+            "utilidor",
+            "utility corridors"
+          ],
+          "choices": [
+            "Utilidors",
+            "Catacombs",
+            "Castle Corridors",
+            "Mouse Holes"
+          ],
+          "reveal": "The correct answer is utilidors! [whispers] Fun fact: Magic Kingdom is actually on the second floor. The tunnels are the ground floor.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In Liberty Square, a brownish strip down the middle of the walkway represents this, like streets in colonial times.",
+          "answer": "Sewage",
+          "accept": [
+            "sewage",
+            "gutter sewage",
+            "raw sewage",
+            "sewer",
+            "waste"
+          ],
+          "choices": [
+            "Sewage",
+            "A dried riverbed",
+            "A cannon path",
+            "The Freedom Trail"
+          ],
+          "reveal": "The correct answer is sewage! [laughs] Colonial streets had open gutters. That's also why there are no restrooms in Liberty Square. Enjoy your churro!",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "This Imagineer designed the five Cinderella Castle mosaics, made from more than 300,000 pieces of glass.",
+          "answer": "Dorothea Redmond",
+          "accept": [
+            "dorothea redmond",
+            "redmond"
+          ],
+          "choices": [
+            "Dorothea Redmond",
+            "Mary Blair",
+            "Harriet Burns",
+            "Alice Davis"
+          ],
+          "reveal": "The correct answer is Dorothea Redmond! [excited] Mary Blair was a great guess, but Redmond drew the designs, and a team of artists spent nearly two years setting the tiles.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "snap-judgment",
+      "title": "Snap Judgment",
+      "kind": "media",
+      "intro": "Time for Snap Judgment! These are real photos of Magic Kingdom spots that aren't quite on the postcards. [chuckles] Name what you see.",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A stack of vintage instant photos clipped to a string with tiny clothespins, showing glimpses of a treehouse, a colonial bell and a riverside mill, warm theme park sunset behind.",
+        "file": "media/magic-kingdom-deep-cuts--snap-judgment.jpg"
+      },
+      "format": "picture",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This replica of a famous American artifact sits in Magic Kingdom's Liberty Square. What is it?",
+          "answer": "The Liberty Bell",
+          "accept": [
+            "the liberty bell",
+            "liberty bell",
+            "liberty bell replica"
+          ],
+          "choices": [
+            "The Liberty Bell",
+            "The Freedom Bell",
+            "Old Ironsides' bell",
+            "The Statue of Liberty's torch"
+          ],
+          "reveal": "The correct answer is the Liberty Bell! [laughs] Crack included. Disney doesn't miss a detail.",
+          "media": {
+            "type": "image",
+            "file": "media/magic-kingdom-deep-cuts--snap-judgment-200.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Disney_Liberty_Bell.jpg",
+              "license": "CC BY 2.0",
+              "author": "George Bannister"
+            }
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Name the Magic Kingdom show that takes place in this theater.",
+          "answer": "The Hall of Presidents",
+          "accept": [
+            "the hall of presidents",
+            "hall of presidents"
+          ],
+          "choices": [
+            "The Hall of Presidents",
+            "Carousel of Progress",
+            "The American Adventure",
+            "Country Bear Jamboree"
+          ],
+          "reveal": "The correct answer is The Hall of Presidents! [excited] Every U.S. president is on stage as an Audio-Animatronic figure. Very dignified. Very still.",
+          "media": {
+            "type": "image",
+            "file": "media/magic-kingdom-deep-cuts--snap-judgment-400.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Magic_Kingdom_Hall_of_Presidents.jpg",
+              "license": "CC BY-SA 4.0",
+              "author": "TheSplendid1"
+            }
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Name this Adventureland show, where hundreds of birds, flowers and tiki poles sing.",
+          "answer": "Walt Disney's Enchanted Tiki Room",
+          "accept": [
+            "walt disney's enchanted tiki room",
+            "enchanted tiki room",
+            "the enchanted tiki room",
+            "tiki room"
+          ],
+          "choices": [
+            "Walt Disney's Enchanted Tiki Room",
+            "Jungle Cruise",
+            "Swiss Family Treehouse",
+            "Pirates of the Caribbean"
+          ],
+          "reveal": "The correct answer is the Enchanted Tiki Room! [laughs] In the tiki tiki tiki tiki tiki room... and now it's stuck in your head. You're welcome.",
+          "media": {
+            "type": "image",
+            "file": "media/magic-kingdom-deep-cuts--snap-judgment-600.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Walt_Disney%27s_Enchanted_Tiki_Room_at_Magic_Kingdom.jpg",
+              "license": "CC BY-SA 4.0",
+              "author": "Freddo"
+            }
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "This giant tree is home to which Adventureland attraction, based on a 1960 Disney film?",
+          "answer": "Swiss Family Treehouse",
+          "accept": [
+            "swiss family treehouse",
+            "swiss family robinson treehouse",
+            "the swiss family treehouse"
+          ],
+          "choices": [
+            "Swiss Family Treehouse",
+            "Tarzan's Treehouse",
+            "Tree of Life",
+            "Tom Sawyer Island"
+          ],
+          "reveal": "The correct answer is the Swiss Family Treehouse! [excited] The tree is fake, but it has hundreds of thousands of fake leaves. Somebody counted. Not me.",
+          "media": {
+            "type": "image",
+            "file": "media/magic-kingdom-deep-cuts--snap-judgment-800.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Swiss_Family_Robinson_Treehouse_1.jpg",
+              "license": "CC BY-SA 4.0",
+              "author": "David Bjorgen"
+            }
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Harper's Mill, seen here, stood on which Magic Kingdom attraction until it closed in 2025?",
+          "answer": "Tom Sawyer Island",
+          "accept": [
+            "tom sawyer island",
+            "tom sawyer",
+            "tom sawyer's island"
+          ],
+          "choices": [
+            "Tom Sawyer Island",
+            "Liberty Square Riverboat",
+            "Frontierland Shootin' Arcade",
+            "Big Thunder Mountain Railroad"
+          ],
+          "reveal": "The correct answer is Tom Sawyer Island! [sighs] You could only get there by raft. It closed in July 2025 to make way for new Cars-themed adventures.",
+          "media": {
+            "type": "image",
+            "file": "media/magic-kingdom-deep-cuts--snap-judgment-1000.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Tom_Sawyer_Island_Harpers_Mill.jpg",
+              "license": "CC BY 2.5",
+              "author": "SteamFan"
+            }
+          },
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "tomorrowland-time-machine",
+      "title": "Tomorrowland Time Machine",
+      "kind": "parks",
+      "intro": "Our parks category is Tomorrowland Time Machine! [excited] The future, as imagined in the past, explained in the present. My brain hurts.",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A retro-futuristic city of spinning rocket ships and glowing neon rings at dusk, a rotating theater building, a sleek light-cycle racing under a glowing canopy.",
+        "file": "media/magic-kingdom-deep-cuts--tomorrowland-time-machine.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "At this Tomorrowland attraction, even little kids can steer a gas-powered car around a track.",
+          "answer": "Tomorrowland Speedway",
+          "accept": [
+            "tomorrowland speedway",
+            "grand prix raceway",
+            "speedway",
+            "the speedway"
+          ],
+          "choices": [
+            "Tomorrowland Speedway",
+            "Test Track",
+            "Astro Orbiter",
+            "PeopleMover"
+          ],
+          "reveal": "The correct answer is the Tomorrowland Speedway! [laughs] The cars are on a guide rail, so mom, please stop pretending you're in the Daytona 500.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "On Buzz Lightyear's Space Ranger Spin, guests zap targets to defeat this evil emperor.",
+          "answer": "Emperor Zurg",
+          "accept": [
+            "emperor zurg",
+            "zurg"
+          ],
+          "choices": [
+            "Emperor Zurg",
+            "Darth Vader",
+            "Gary",
+            "Ming the Merciless"
+          ],
+          "reveal": "The correct answer is Emperor Zurg! [dramatic] Also Buzz's dad in Toy Story 2. Family therapy needed.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "This Sherman Brothers song plays as the Carousel of Progress theater rotates.",
+          "answer": "There's a Great Big Beautiful Tomorrow",
+          "accept": [
+            "there's a great big beautiful tomorrow",
+            "a great big beautiful tomorrow",
+            "great big beautiful tomorrow"
+          ],
+          "choices": [
+            "There's a Great Big Beautiful Tomorrow",
+            "It's a Small World",
+            "Now Is the Time",
+            "Miracles from Molecules"
+          ],
+          "reveal": "The correct answer is There's a Great Big Beautiful Tomorrow! [excited] Shining at the end of every day. It's Walt's favorite kind of optimism.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Walt Disney's Carousel of Progress debuted at this event in 1964.",
+          "answer": "The New York World's Fair",
+          "accept": [
+            "the new york world's fair",
+            "1964 world's fair",
+            "new york world's fair",
+            "new york worlds fair",
+            "world's fair"
+          ],
+          "choices": [
+            "The New York World's Fair",
+            "The Chicago World's Fair",
+            "EPCOT Center",
+            "The Seattle Expo"
+          ],
+          "reveal": "The correct answer is the New York World's Fair! [chuckles] It's often called the longest-running stage show in American theater history. Take that, Broadway.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Tomorrowland's coaster TRON Lightcycle / Run opened at Magic Kingdom in this year.",
+          "answer": "2023",
+          "accept": [
+            "2023"
+          ],
+          "choices": [
+            "2023",
+            "2019",
+            "2021",
+            "2016"
+          ],
+          "reveal": "The correct answer is 2023! [excited] It debuted in Shanghai first, then raced its way to Florida. Lean forward, user!",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "main-street-fine-print",
+      "title": "Main Street Fine Print",
+      "kind": "fan",
+      "intro": "Our fan category is Main Street Fine Print! [mischievously] Let's see who actually stops to look around instead of sprinting to the rides.",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A turn-of-the-century small town main street at night, horse-drawn streetcar tracks, a barbershop quartet's straw hats on a bench, a hot dog cart and a vintage steam locomotive at a Victorian station.",
+        "file": "media/magic-kingdom-deep-cuts--main-street-fine-print.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "On Main Street, U.S.A., you can ride a streetcar pulled by one of these animals.",
+          "answer": "A horse",
+          "accept": [
+            "a horse",
+            "horse",
+            "horses"
+          ],
+          "choices": [
+            "A horse",
+            "An ox",
+            "A mule",
+            "A pony"
+          ],
+          "reveal": "The correct answer is a horse! [laughs] Big, gentle draft horses. They even get the summer off on the hottest days.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Casey's Corner, named after a famous baseball poem, is best known for this ballpark food.",
+          "answer": "Hot dogs",
+          "accept": [
+            "hot dogs",
+            "corn dogs",
+            "hot dog",
+            "hotdogs"
+          ],
+          "choices": [
+            "Hot dogs",
+            "Nachos",
+            "Pretzels",
+            "Popcorn"
+          ],
+          "reveal": "The correct answer is hot dogs! [excited] Named for 'Casey at the Bat.' Mighty Casey struck out, but the chili cheese dog never does.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "The secret suite inside Cinderella Castle was originally planned for this group.",
+          "answer": "The Disney family",
+          "accept": [
+            "the disney family",
+            "disney executives",
+            "disney family",
+            "walt disney's family",
+            "walt's family"
+          ],
+          "choices": [
+            "The Disney family",
+            "Visiting royalty",
+            "The Imagineers",
+            "Cinderella's understudies"
+          ],
+          "reveal": "The correct answer is the Disney family! [sighs] Walt died before the park opened, so the space sat unfinished for decades before becoming the Cinderella Castle Suite.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "This barbershop quartet in straw boater hats sings on Main Street, U.S.A.",
+          "answer": "The Dapper Dans",
+          "accept": [
+            "the dapper dans",
+            "dapper dans"
+          ],
+          "choices": [
+            "The Dapper Dans",
+            "The Main Street Four",
+            "The Citizens of Main Street",
+            "The Barbershop Boys"
+          ],
+          "reveal": "The correct answer is the Dapper Dans! [chuckles] Four-part harmony, zero microphones and some seriously impressive mustaches.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "The steam locomotives on the Walt Disney World Railroad were found in a train boneyard in this country and restored.",
+          "answer": "Mexico",
+          "accept": [
+            "mexico"
+          ],
+          "choices": [
+            "Mexico",
+            "Canada",
+            "England",
+            "Cuba"
+          ],
+          "reveal": "The correct answer is Mexico! [gasps] Imagineers found them on the Yucatan peninsula and rebuilt them for the park's 1971 opening. All aboard!",
+          "dailyDouble": true
+        }
+      ]
+    }
+  ]
+}
