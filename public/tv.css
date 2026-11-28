@@ -54,8 +54,8 @@ button.secondary { background: linear-gradient(#e8efff, #a9bcff); box-shadow: 0 
 .cell.control { animation: pulse 1.6s infinite; }
 /* scores */
 .scores { display: flex; gap: .8vw; justify-content: center; padding: .8vw 0 1.2vw; }
-.score { min-width: 10vw; background: linear-gradient(#173aa8, #081a5c); border-radius: 1vw; padding: .4vw 1vw; text-align: center; border-top: .45vw solid var(--c); box-shadow: 0 .3vw .8vw rgba(0,0,0,.6); position: relative; transition: transform .2s; }
-.score .n { font-weight: 900; font-size: 1.25vw; white-space: nowrap; }
+.score { flex: 0 1 10vw; min-width: 0; background: linear-gradient(#173aa8, #081a5c); border-radius: 1vw; padding: .4vw 1vw; text-align: center; border-top: .45vw solid var(--c); box-shadow: 0 .3vw .8vw rgba(0,0,0,.6); position: relative; transition: transform .2s; }
+.score .n { font-weight: 900; font-size: 1.25vw; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .score .s { font: 2.1vw 'Luckiest Guy'; color: var(--gold); }
 .score .s.neg { color: #ff8a8a; }
 .score.ctrl::after { content: '★'; position: absolute; top: -1.4vw; right: .4vw; color: var(--gold); font-size: 1.6vw; }
