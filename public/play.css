@@ -1,3 +1,4 @@
+[hidden] { display: none !important; }
 @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Nunito:wght@700;900&display=swap');
 :root { --gold: #ffd34d; --c: #ffd34d; }
 * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
