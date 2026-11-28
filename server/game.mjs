@@ -238,7 +238,6 @@ export class Room {
   }
 
   advance() {
-    this.clearTimer();
     if (this.phase === 'coldOpen') { this.phase = 'intro'; return this.narrate(`${this.board.intro}`, 'intro'); }
     if (this.phase === 'intro') { this.phase = 'categories'; this.catIdx = 0; return this.narrate(this.board.categories[0].intro, 'cat:0'); }
     if (this.phase === 'categories') {
