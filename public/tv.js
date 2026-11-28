@@ -299,6 +299,8 @@ function effects() {
 
 function render() {
   if (!S) return;
+  // Lets the TV app's Back button exit (press twice) whenever no overlay is open.
+  window.DJ_TV_NATIVE?.setTopLevel?.(!overlay);
   if (S.board) setBg(bgFor(S.board));
   const keepZoom = $('#zoomimg') && S.phase !== 'reveal' && prev.clue?.id === S.clue?.id;
   const focusedId = document.activeElement?.dataset?.id || document.activeElement?.dataset?.act;
