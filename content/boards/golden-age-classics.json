@@ -27,8 +27,8 @@
           "answer": "A spinning wheel",
           "accept": [
             "spinning wheel",
-            "spindle",
-            "a spindle"
+            "a spinning wheel",
+            "spinning-wheel"
           ],
           "choices": [
             "A spinning wheel",
