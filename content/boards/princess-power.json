@@ -1,0 +1,587 @@
+{
+  "id": "princess-power",
+  "title": "Princess Power",
+  "theme": "Princesses",
+  "tags": [
+    "princess",
+    "music",
+    "animals"
+  ],
+  "intro": "[excited] Welcome, your royal highnesses, to Disney Jeopardy! Tonight we skip the tiaras and celebrate what princesses can DO: their skills, their songs, and their adorable pets. [laughs] Ready? Let's show 'em some princess power!",
+  "art": {
+    "prompt": "A sunlit forest clearing with a bow and arrows, a frying pan, a stack of books and a canoe paddle arranged like trophies on a mossy stone, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+    "file": "media/princess-power.jpg"
+  },
+  "categories": [
+    {
+      "id": "brave-heart",
+      "title": "Brave Heart",
+      "kind": "film",
+      "intro": "We open in the Scottish Highlands with Brave. [chuckles] Change your fate... with a good answer.",
+      "art": {
+        "prompt": "Misty Scottish highlands with a circle of ancient standing stones and tiny glowing blue spirit lights drifting through the fog, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/princess-power--brave-heart.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Merida's wild, curly hair is this color.",
+          "answer": "Red",
+          "accept": [
+            "red",
+            "ginger",
+            "orange",
+            "red hair"
+          ],
+          "choices": [
+            "Red",
+            "Blonde",
+            "Black",
+            "Brown"
+          ],
+          "reveal": "[excited] The correct answer is red! Pixar animators built new software just to make all those curls bounce.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Merida's magic cake turns her mother, Queen Elinor, into this animal.",
+          "answer": "A bear",
+          "accept": [
+            "a bear",
+            "bear",
+            "black bear"
+          ],
+          "choices": [
+            "A bear",
+            "A wolf",
+            "A stag",
+            "A horse"
+          ],
+          "reveal": "The correct answer is a bear! [laughs] Next time, Merida, just talk to your mom.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Merida follows these glowing blue spirits, which are said to lead you to your fate.",
+          "answer": "Will-o'-the-wisps",
+          "accept": [
+            "will-o'-the-wisps",
+            "will o the wisps",
+            "will o' the wisps",
+            "will-o-the-wisps",
+            "wisps"
+          ],
+          "choices": [
+            "Will-o'-the-wisps",
+            "Fairies",
+            "Pixies",
+            "Sprites"
+          ],
+          "reveal": "The correct answer is will-o'-the-wisps! [whispers] Follow them... if you dare.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Merida rides this loyal black Clydesdale horse.",
+          "answer": "Angus",
+          "accept": [
+            "angus"
+          ],
+          "choices": [
+            "Angus",
+            "Maximus",
+            "Khan",
+            "Samson"
+          ],
+          "reveal": "The correct answer is Angus! A big horse, but he gets scared easily. [chuckles] Relatable.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "This giant demon bear was once a prince who wanted more power.",
+          "answer": "Mor'du",
+          "accept": [
+            "mor'du",
+            "mor du",
+            "mordu"
+          ],
+          "choices": [
+            "Mor'du",
+            "Fergus",
+            "Lord Dingwall",
+            "Ursus"
+          ],
+          "reveal": "The correct answer is Mor'du! He cost King Fergus a leg. [gasps] That is a nerd-level answer.",
+          "dailyDouble": true
+        }
+      ]
+    },
+    {
+      "id": "hidden-talents",
+      "title": "Hidden Talents",
+      "kind": "theme",
+      "intro": "Princesses have skills, people! Name the talent or the thing they're famous for doing.",
+      "art": {
+        "prompt": "An open wooden trunk spilling out art brushes, a cookbook, a star chart and a pair of ice skates in a cozy attic, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/princess-power--hidden-talents.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Elsa can create this out of thin air with her hands.",
+          "answer": "Ice and snow",
+          "accept": [
+            "ice and snow",
+            "frost",
+            "ice",
+            "snow",
+            "snow and ice"
+          ],
+          "choices": [
+            "Ice and snow",
+            "Fire",
+            "Wind",
+            "Lightning"
+          ],
+          "reveal": "[excited] The correct answer is ice and snow! She built a whole palace in one song. [laughs] I can't build a shelf.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Tiana works two waitress jobs to save up for this dream.",
+          "answer": "Her own restaurant",
+          "accept": [
+            "her own restaurant",
+            "a restaurant",
+            "her restaurant",
+            "restaurant",
+            "tiana's palace"
+          ],
+          "choices": [
+            "Her own restaurant",
+            "A bakery truck",
+            "A jazz club",
+            "A riverboat"
+          ],
+          "reveal": "The correct answer is her own restaurant! Hard work and a little magic made Tiana's Palace a reality.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Belle's favorite pastime, which makes the townsfolk think she's odd.",
+          "answer": "Reading",
+          "accept": [
+            "reading",
+            "books",
+            "read",
+            "reading books"
+          ],
+          "choices": [
+            "Reading",
+            "Painting",
+            "Singing",
+            "Gardening"
+          ],
+          "reveal": "The correct answer is reading! [chuckles] And the Beast gave her a whole library. Smart guy.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Moana learns this ancient Polynesian skill of navigating by stars, waves and wind.",
+          "answer": "Wayfinding",
+          "accept": [
+            "wayfinding",
+            "navigation",
+            "way finding"
+          ],
+          "choices": [
+            "Wayfinding",
+            "Stargazing",
+            "Fire walking",
+            "Fishing"
+          ],
+          "reveal": "The correct answer is wayfinding! We tell the ocean where to go. [excited] Literally.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Rapunzel's hair glows and heals when she sings this song, known as 'Flower, Gleam and Glow.'",
+          "answer": "Healing Incantation",
+          "accept": [
+            "healing incantation",
+            "flower gleam and glow",
+            "healing song",
+            "the healing incantation"
+          ],
+          "choices": [
+            "Healing Incantation",
+            "When Will My Life Begin",
+            "Mother Knows Best",
+            "I See the Light"
+          ],
+          "reveal": "The correct answer is the Healing Incantation! Make the clock reverse... and bring back what once was mine.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "pet-projects",
+      "title": "Pet Projects",
+      "kind": "media",
+      "intro": "Picture category! Each image shows a princess's animal pal. Name the princess who owns it.",
+      "art": {
+        "prompt": "A cozy royal stable and garden filled with bird nests, a fishbowl, a cat bed and a dog bowl, warm morning light, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/princess-power--pet-projects.jpg"
+      },
+      "format": "picture",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Which princess owns this pet?",
+          "answer": "Rapunzel",
+          "accept": [
+            "rapunzel"
+          ],
+          "choices": [
+            "Rapunzel",
+            "Cinderella",
+            "Aurora",
+            "Snow White"
+          ],
+          "reveal": "[excited] The correct answer is Rapunzel! Pascal the chameleon changes color when he's annoyed. Which is often.",
+          "media": {
+            "type": "image",
+            "prompt": "A small green chameleon perched on a sunny windowsill beside paint brushes and a long braid of golden hair, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
+            "file": "media/princess-power--pet-projects-200.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Which princess owns this pet?",
+          "answer": "Jasmine",
+          "accept": [
+            "jasmine",
+            "princess jasmine"
+          ],
+          "choices": [
+            "Jasmine",
+            "Mulan",
+            "Pocahontas",
+            "Moana"
+          ],
+          "reveal": "The correct answer is Jasmine! Rajah the tiger is basically a giant kitty. With very sharp manners.",
+          "media": {
+            "type": "image",
+            "prompt": "A large Bengal tiger lounging beside a fountain in a lush Arabian palace garden with domed towers behind, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
+            "file": "media/princess-power--pet-projects-400.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Which princess owns these pets?",
+          "answer": "Pocahontas",
+          "accept": [
+            "pocahontas"
+          ],
+          "choices": [
+            "Pocahontas",
+            "Snow White",
+            "Belle",
+            "Merida"
+          ],
+          "reveal": "The correct answer is Pocahontas! Meeko the raccoon and Flit the hummingbird. [laughs] Meeko eats everything.",
+          "media": {
+            "type": "image",
+            "prompt": "A chubby raccoon and a tiny hummingbird sitting on a mossy branch beside a river and autumn forest, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
+            "file": "media/princess-power--pet-projects-600.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Which princess owns these pets?",
+          "answer": "Moana",
+          "accept": [
+            "moana"
+          ],
+          "choices": [
+            "Moana",
+            "Raya",
+            "Tiana",
+            "Ariel"
+          ],
+          "reveal": "The correct answer is Moana! Pua the pig and Heihei the rooster. [chuckles] One is smart. One is... Heihei.",
+          "media": {
+            "type": "image",
+            "prompt": "A small spotted pot-bellied piglet and a scruffy rooster in an outrigger canoe on a turquoise lagoon, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
+            "file": "media/princess-power--pet-projects-800.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Which princess owns this pet?",
+          "answer": "Cinderella",
+          "accept": [
+            "cinderella"
+          ],
+          "choices": [
+            "Cinderella",
+            "Aurora",
+            "Snow White",
+            "Belle"
+          ],
+          "reveal": "The correct answer is Cinderella! Bruno the bloodhound dreams of chasing Lucifer the cat. [whispers] Deep cut.",
+          "media": {
+            "type": "image",
+            "prompt": "A droopy-eared bloodhound dog asleep on a rug beside a fireplace in an old château kitchen, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
+            "file": "media/princess-power--pet-projects-1000.jpg"
+          },
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "royal-engagements",
+      "title": "Royal Engagements",
+      "kind": "parks",
+      "intro": "To the parks! Real photos of princess places around the world. [excited] Name what you see.",
+      "art": {
+        "prompt": "A grand banquet hall with wooden beams, banners and candlelit chandeliers, long tables set for a royal feast, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/princess-power--royal-engagements.jpg"
+      },
+      "format": "picture",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Tiana's Bayou Adventure, seen here, replaced this classic log flume ride.",
+          "answer": "Splash Mountain",
+          "accept": [
+            "splash mountain"
+          ],
+          "choices": [
+            "Splash Mountain",
+            "Big Thunder Mountain",
+            "Grizzly River Run",
+            "Kali River Rapids"
+          ],
+          "reveal": "[excited] The correct answer is Splash Mountain! Tiana's version debuted at Magic Kingdom in June 2024, then at Disneyland that November.",
+          "media": {
+            "type": "image",
+            "file": "media/princess-power--royal-engagements-200.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Tiana%27s_Bayou_Adventure_at_Disneyland.jpg",
+              "license": "CC BY 4.0",
+              "author": "Contributor19"
+            }
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Princesses dine with guests at Akershus Royal Banquet Hall, seen here, in this EPCOT World Showcase pavilion.",
+          "answer": "Norway",
+          "accept": [
+            "norway",
+            "norway pavilion"
+          ],
+          "choices": [
+            "Norway",
+            "Germany",
+            "France",
+            "United Kingdom"
+          ],
+          "reveal": "The correct answer is Norway! The hall is modeled on Oslo's real Akershus Fortress. [chuckles] Bring your appetite.",
+          "media": {
+            "type": "image",
+            "file": "media/princess-power--royal-engagements-400.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Akershus_Royal_Banquet_Hall_(41459064680).jpg",
+              "license": "CC BY 2.0",
+              "author": "HarshLight from San Jose, CA, USA"
+            }
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Hong Kong Disneyland opened the world's first Frozen land in 2023. It recreates this kingdom.",
+          "answer": "Arendelle",
+          "accept": [
+            "arendelle"
+          ],
+          "choices": [
+            "Arendelle",
+            "Corona",
+            "Agrabah",
+            "Northuldra"
+          ],
+          "reveal": "The correct answer is Arendelle! World of Frozen opened in November 2023. [excited] Summer Snow Day, every day.",
+          "media": {
+            "type": "image",
+            "file": "media/princess-power--royal-engagements-600.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:World_of_Frozen,_Hong_Kong_Disneyland_2023.jpg",
+              "license": "CC BY-SA 4.0",
+              "author": "Tombus20032000"
+            }
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Fantasy Springs, home of Frozen Kingdom and Rapunzel's Forest, opened in 2024 at this park.",
+          "answer": "Tokyo DisneySea",
+          "accept": [
+            "tokyo disneysea",
+            "disneysea",
+            "tokyo disney sea"
+          ],
+          "choices": [
+            "Tokyo DisneySea",
+            "Tokyo Disneyland",
+            "Shanghai Disneyland",
+            "Hong Kong Disneyland"
+          ],
+          "reveal": "The correct answer is Tokyo DisneySea! Fantasy Springs opened in June 2024, with a Peter Pan area too.",
+          "media": {
+            "type": "image",
+            "file": "media/princess-power--royal-engagements-800.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Fantasy_Springs_-_Frozen_Kingdom.jpg",
+              "license": "CC BY-SA 4.0",
+              "author": "Fred Cherrygarden"
+            }
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "This Magic Kingdom dark ride, seen here, closed in 2012. Its space now hosts princess meet-and-greets. Name the new attraction.",
+          "answer": "Princess Fairytale Hall",
+          "accept": [
+            "princess fairytale hall",
+            "fairytale hall",
+            "princess fairy tale hall"
+          ],
+          "choices": [
+            "Princess Fairytale Hall",
+            "Enchanted Tales with Belle",
+            "Bibbidi Bobbidi Boutique",
+            "Fantasy Faire"
+          ],
+          "reveal": "[gasps] The correct answer is Princess Fairytale Hall! It opened in 2013, and there's still a little Snow White book inside as a tribute.",
+          "media": {
+            "type": "image",
+            "file": "media/princess-power--royal-engagements-1000.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Snow_White%27s_Scary_Adventures_(Magic_Kingdom)_1.jpg",
+              "license": "CC BY-SA 2.0",
+              "author": "Michael Gray"
+            }
+          },
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "royal-ballads",
+      "title": "Royal Ballads",
+      "kind": "fan",
+      "intro": "Our fan category is all about princess power ballads. Name the princess who sings it! [chuckles] Singing along is optional.",
+      "art": {
+        "prompt": "A grand royal music room with a golden harp, sheet music fluttering in the air and sunlight through stained-glass windows, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/princess-power--royal-ballads.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "'Let It Go'",
+          "answer": "Elsa",
+          "accept": [
+            "elsa",
+            "queen elsa"
+          ],
+          "choices": [
+            "Elsa",
+            "Anna",
+            "Rapunzel",
+            "Moana"
+          ],
+          "reveal": "[excited] The correct answer is Elsa! [laughs] And now it's stuck in your head forever. You're welcome.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "'How Far I'll Go'",
+          "answer": "Moana",
+          "accept": [
+            "moana"
+          ],
+          "choices": [
+            "Moana",
+            "Mulan",
+            "Pocahontas",
+            "Merida"
+          ],
+          "reveal": "The correct answer is Moana! Written by Lin-Manuel Miranda, and Oscar-nominated.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "'When Will My Life Begin'",
+          "answer": "Rapunzel",
+          "accept": [
+            "rapunzel"
+          ],
+          "choices": [
+            "Rapunzel",
+            "Ariel",
+            "Belle",
+            "Cinderella"
+          ],
+          "reveal": "The correct answer is Rapunzel! Chores, painting, baking, and then... still stuck in a tower.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "'Almost There'",
+          "answer": "Tiana",
+          "accept": [
+            "tiana",
+            "princess tiana"
+          ],
+          "choices": [
+            "Tiana",
+            "Jasmine",
+            "Moana",
+            "Anna"
+          ],
+          "reveal": "The correct answer is Tiana! Sung by Anika Noni Rose, with a gorgeous Art Deco dream sequence.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "'Just Around the Riverbend'",
+          "answer": "Pocahontas",
+          "accept": [
+            "pocahontas"
+          ],
+          "choices": [
+            "Pocahontas",
+            "Mulan",
+            "Moana",
+            "Merida"
+          ],
+          "reveal": "The correct answer is Pocahontas! She paddles right off a waterfall while singing it. [gasps] Do not try that at home.",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}

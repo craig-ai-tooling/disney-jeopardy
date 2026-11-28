@@ -1,0 +1,601 @@
+{
+  "id": "marvel-heroes",
+  "title": "Earth's Mightiest Heroes",
+  "theme": "Marvel",
+  "tags": [
+    "marvel",
+    "superheroes",
+    "parks"
+  ],
+  "intro": "[excited] Avengers, assemble! Welcome to Disney Jeopardy, where tonight we suit up for Marvel, from the big screen to Avengers Campus. Grab your shield, charge your arc reactor, and please... no snapping.",
+  "art": {
+    "prompt": "A gleaming futuristic hero headquarters tower on a hill at sunrise, a sleek jet silhouette taking off and streaks of colorful energy in the sky, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+    "file": "media/marvel-heroes.jpg"
+  },
+  "categories": [
+    {
+      "id": "snap-judgments",
+      "title": "Snap Judgments",
+      "kind": "film",
+      "intro": "We start with the Infinity Saga, the big story of the MCU. [chuckles] I am inevitable... and so are these questions.",
+      "art": {
+        "prompt": "Six glowing colored gemstones floating in a cosmic swirl of purple and gold space dust, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/marvel-heroes--snap-judgments.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Thor's mighty hammer goes by this name.",
+          "answer": "Mjolnir",
+          "accept": [
+            "mjolnir",
+            "mjolner",
+            "mjölnir"
+          ],
+          "choices": [
+            "Mjolnir",
+            "Stormbreaker",
+            "Gungnir",
+            "Jarnbjorn"
+          ],
+          "reveal": "[excited] The correct answer is Mjolnir! Only the worthy can lift it. [laughs] Sorry, Tony.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Thanos hunts down all six of these to complete his gauntlet.",
+          "answer": "The Infinity Stones",
+          "accept": [
+            "the infinity stones",
+            "infinity gems",
+            "infinity stones",
+            "the stones"
+          ],
+          "choices": [
+            "The Infinity Stones",
+            "The Norn Stones",
+            "The Ten Rings",
+            "The Kyber Stones"
+          ],
+          "reveal": "The correct answer is the Infinity Stones! Space, Mind, Reality, Power, Time and Soul. Collect them all... but please don't.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "The Marvel Cinematic Universe began in 2008 with this film starring Robert Downey Jr.",
+          "answer": "Iron Man",
+          "accept": [
+            "iron man",
+            "iron man 1",
+            "ironman"
+          ],
+          "choices": [
+            "Iron Man",
+            "The Incredible Hulk",
+            "Captain America: The First Avenger",
+            "Thor"
+          ],
+          "reveal": "The correct answer is Iron Man! [chuckles] 'I am Iron Man' was improvised, and it changed movies forever.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In Avengers: Endgame, the heroes pull off their time heist by traveling through this tiny dimension.",
+          "answer": "The Quantum Realm",
+          "accept": [
+            "the quantum realm",
+            "quantum",
+            "quantum realm"
+          ],
+          "choices": [
+            "The Quantum Realm",
+            "The Dark Dimension",
+            "The Multiverse",
+            "The Nexus"
+          ],
+          "reveal": "The correct answer is the Quantum Realm! [laughs] Scott Lang got stuck there for five years and it felt like five hours.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Thanos learns the Soul Stone is hidden on this desolate planet, guarded by the Red Skull.",
+          "answer": "Vormir",
+          "accept": [
+            "vormir",
+            "planet vormir"
+          ],
+          "choices": [
+            "Vormir",
+            "Titan",
+            "Xandar",
+            "Sakaar"
+          ],
+          "reveal": "[sighs] The correct answer is Vormir. A soul for a soul. Still not over it.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "secret-identities",
+      "title": "Secret Identities",
+      "kind": "theme",
+      "intro": "Every hero has a secret. Give me the superhero name for each real name. [whispers] Don't tell anyone.",
+      "art": {
+        "prompt": "A city rooftop at night with a coat rack holding a cape, a mask and a hero suit hanging under a starry sky, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/marvel-heroes--secret-identities.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Peter Parker swings around Queens as this hero.",
+          "answer": "Spider-Man",
+          "accept": [
+            "spider-man",
+            "spider man",
+            "spiderman",
+            "spidey"
+          ],
+          "choices": [
+            "Spider-Man",
+            "Ant-Man",
+            "Iron Spider",
+            "Hawkeye"
+          ],
+          "reveal": "[excited] The correct answer is Spider-Man! Your friendly neighborhood one, of course.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Scientist Bruce Banner turns into this big green guy when he gets angry.",
+          "answer": "The Hulk",
+          "accept": [
+            "the hulk",
+            "hulk",
+            "the incredible hulk"
+          ],
+          "choices": [
+            "The Hulk",
+            "The Thing",
+            "Abomination",
+            "Groot"
+          ],
+          "reveal": "The correct answer is the Hulk! [chuckles] That's my secret, Cap. I'm always angry.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "T'Challa, king of Wakanda, is better known as this hero.",
+          "answer": "Black Panther",
+          "accept": [
+            "black panther",
+            "the black panther"
+          ],
+          "choices": [
+            "Black Panther",
+            "Black Knight",
+            "War Machine",
+            "Falcon"
+          ],
+          "reveal": "The correct answer is Black Panther! Wakanda forever!",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Hope van Dyne, daughter of Hank Pym, fights alongside Ant-Man as this winged hero.",
+          "answer": "The Wasp",
+          "accept": [
+            "the wasp",
+            "wasp"
+          ],
+          "choices": [
+            "The Wasp",
+            "Yellowjacket",
+            "The Hornet",
+            "Firefly"
+          ],
+          "reveal": "The correct answer is the Wasp! She got her name in the title of Ant-Man and the Wasp, and her own wings.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Pietro Maximoff, Wanda's twin brother, is this speedy hero in Avengers: Age of Ultron.",
+          "answer": "Quicksilver",
+          "accept": [
+            "quicksilver",
+            "quick silver"
+          ],
+          "choices": [
+            "Quicksilver",
+            "The Flash",
+            "Speed",
+            "Makkari"
+          ],
+          "reveal": "The correct answer is Quicksilver! [gasps] You didn't see that coming? Neither did he.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "hero-gear",
+      "title": "Hero Gear",
+      "kind": "media",
+      "intro": "Picture category! Each image shows a famous piece of hero gear. Tell me which character it belongs to.",
+      "art": {
+        "prompt": "A high-tech armory wall lit in blue, glass display cases holding mysterious glowing gadgets and gear, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/marvel-heroes--hero-gear.jpg"
+      },
+      "format": "picture",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Whose gear is this?",
+          "answer": "Captain America",
+          "accept": [
+            "captain america",
+            "cap",
+            "steve rogers"
+          ],
+          "choices": [
+            "Captain America",
+            "Iron Man",
+            "Winter Soldier",
+            "Thor"
+          ],
+          "reveal": "[excited] The correct answer is Captain America! That shield is made of vibranium, and he throws it like a frisbee.",
+          "media": {
+            "type": "image",
+            "prompt": "A round metal shield with concentric red and white rings and a white star on a blue center, resting against a brick wall, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
+            "file": "media/marvel-heroes--hero-gear-200.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Whose gear is this?",
+          "answer": "Iron Man",
+          "accept": [
+            "iron man",
+            "ironman",
+            "tony stark"
+          ],
+          "choices": [
+            "Iron Man",
+            "War Machine",
+            "Vision",
+            "Ultron"
+          ],
+          "reveal": "The correct answer is Iron Man! That glowing arc reactor kept Tony's heart going. Proof that Tony Stark has a heart.",
+          "media": {
+            "type": "image",
+            "prompt": "A glowing circular blue-white reactor device with a metal ring casing sitting on a workbench among tools in a garage, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
+            "file": "media/marvel-heroes--hero-gear-400.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Whose gear is this?",
+          "answer": "Thanos",
+          "accept": [
+            "thanos",
+            "the mad titan"
+          ],
+          "choices": [
+            "Thanos",
+            "Ronan",
+            "Loki",
+            "Thor"
+          ],
+          "reveal": "The correct answer is Thanos! The Infinity Gauntlet. [whispers] Please keep your fingers apart.",
+          "media": {
+            "type": "image",
+            "prompt": "A huge golden armored glove with six empty gem slots on the knuckles, lying on a stone pedestal in a cosmic temple, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
+            "file": "media/marvel-heroes--hero-gear-600.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Whose gear is this?",
+          "answer": "Doctor Strange",
+          "accept": [
+            "doctor strange",
+            "dr strange",
+            "dr. strange",
+            "stephen strange"
+          ],
+          "choices": [
+            "Doctor Strange",
+            "Wong",
+            "The Ancient One",
+            "Scarlet Witch"
+          ],
+          "reveal": "The correct answer is Doctor Strange! The Eye of Agamotto held the Time Stone. [chuckles] Dormammu, I've come to bargain.",
+          "media": {
+            "type": "image",
+            "prompt": "A round golden amulet with an eye-shaped clasp hanging over a flowing red cloak draped on a stand in a mystical library, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
+            "file": "media/marvel-heroes--hero-gear-800.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Whose gear is this?",
+          "answer": "Loki",
+          "accept": [
+            "loki",
+            "loki laufeyson"
+          ],
+          "choices": [
+            "Loki",
+            "Thor",
+            "Odin",
+            "Heimdall"
+          ],
+          "reveal": "The correct answer is Loki! Those golden horns are pure mischief. [laughs] Even his helmet is dramatic.",
+          "media": {
+            "type": "image",
+            "prompt": "A golden helmet with two long curved horns sitting on a green velvet cushion in an Asgard-style throne room, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
+            "file": "media/marvel-heroes--hero-gear-1000.jpg"
+          },
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "campus-life",
+      "title": "Campus Life",
+      "kind": "parks",
+      "intro": "To the parks! These are real photos from Marvel in the Disney parks. [excited] Recruits, report for duty.",
+      "art": {
+        "prompt": "A bustling modern hero training campus plaza with sleek buildings, banners and a jet perched on a rooftop under a blue sky, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/marvel-heroes--campus-life.jpg"
+      },
+      "format": "picture",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "At Pym Test Kitchen, seen here, food comes supersized or shrunk thanks to this tiny hero's Pym Particles.",
+          "answer": "Ant-Man",
+          "accept": [
+            "ant-man",
+            "ant man",
+            "ant-man and the wasp",
+            "antman",
+            "scott lang"
+          ],
+          "choices": [
+            "Ant-Man",
+            "Hulk",
+            "Spider-Man",
+            "Doctor Strange"
+          ],
+          "reveal": "The correct answer is Ant-Man! Try the Quantum Pretzel. It's enormous. [laughs] Science!",
+          "media": {
+            "type": "image",
+            "file": "media/marvel-heroes--campus-life-200.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Pym_Test_Kitchen_1_2023-06-03.jpeg",
+              "license": "CC BY-SA 4.0",
+              "author": "FASTILY"
+            }
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "This sleek Avengers aircraft perches on top of Avengers Headquarters at Disney California Adventure. Name the jet type.",
+          "answer": "Quinjet",
+          "accept": [
+            "quinjet",
+            "quin jet",
+            "the quinjet"
+          ],
+          "choices": [
+            "Quinjet",
+            "Helicarrier",
+            "Milano",
+            "Benatar"
+          ],
+          "reveal": "The correct answer is the Quinjet! The Avengers' ride of choice. Parking up there must be a nightmare.",
+          "media": {
+            "type": "image",
+            "file": "media/marvel-heroes--campus-life-400.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Avengers_Campus_(Disney_California_Adventure)_4_2023-06-03.jpeg",
+              "license": "CC BY-SA 4.0",
+              "author": "FASTILY"
+            }
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "The Iron Man Experience, the first Marvel ride at any Disney park, opened in 2017 at this resort.",
+          "answer": "Hong Kong Disneyland",
+          "accept": [
+            "hong kong disneyland",
+            "hkdl",
+            "hong kong",
+            "hong kong disneyland resort"
+          ],
+          "choices": [
+            "Hong Kong Disneyland",
+            "Shanghai Disneyland",
+            "Tokyo Disneyland",
+            "Disneyland Paris"
+          ],
+          "reveal": "The correct answer is Hong Kong Disneyland! Tony Stark flies you over the real Hong Kong skyline. [excited] Very cool.",
+          "media": {
+            "type": "image",
+            "file": "media/marvel-heroes--campus-life-600.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Iron_Man_Experience.jpg",
+              "license": "CC BY-SA 4.0",
+              "author": "Ngchikit"
+            }
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "This Quinjet sits at Avengers Campus in Disneyland Paris, where Flight Force pairs riders with Iron Man and which hero?",
+          "answer": "Captain Marvel",
+          "accept": [
+            "captain marvel",
+            "carol danvers"
+          ],
+          "choices": [
+            "Captain Marvel",
+            "Black Widow",
+            "Thor",
+            "Falcon"
+          ],
+          "reveal": "The correct answer is Captain Marvel! Avengers Assemble: Flight Force opened in 2022 on the old Aerosmith coaster track. Higher, further, faster!",
+          "media": {
+            "type": "image",
+            "file": "media/marvel-heroes--campus-life-800.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Disneyland_Paris%27_Avengers_Quinjet.png",
+              "license": "CC BY-SA 4.0",
+              "author": "Higher Further Faster"
+            }
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Before Avengers Campus opened in 2021, this part of Disney California Adventure was home to this Pixar-themed kids' land.",
+          "answer": "A Bug's Land",
+          "accept": [
+            "a bug's land",
+            "a bugs land",
+            "bug's land",
+            "bugs land",
+            "flik's fun fair"
+          ],
+          "choices": [
+            "A Bug's Land",
+            "Cars Land",
+            "Pixar Pier",
+            "Toy Story Land"
+          ],
+          "reveal": "[gasps] The correct answer is a bug's land! It closed in 2018 so the Avengers could move in. [chuckles] Turns out heroes squash bugs.",
+          "media": {
+            "type": "image",
+            "file": "media/marvel-heroes--campus-life-1000.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Avengers_Campus_(Disney_California_Adventure)_7_2023-06-03.jpeg",
+              "license": "CC BY-SA 4.0",
+              "author": "FASTILY"
+            }
+          },
+          "dailyDouble": true
+        }
+      ]
+    },
+    {
+      "id": "marvel-ous-facts",
+      "title": "Marvel-ous Facts",
+      "kind": "fan",
+      "intro": "Our fan category: behind-the-scenes Marvel facts for the true believers. Excelsior!",
+      "art": {
+        "prompt": "A cozy comic book shop at night with racks of colorful comics, a glowing neon star in the window, no readable text, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/marvel-heroes--marvel-ous-facts.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This Marvel legend made cameos in many MCU films before he passed away in 2018.",
+          "answer": "Stan Lee",
+          "accept": [
+            "stan lee",
+            "stanley lieber"
+          ],
+          "choices": [
+            "Stan Lee",
+            "Jack Kirby",
+            "Steve Ditko",
+            "Kevin Feige"
+          ],
+          "reveal": "[excited] The correct answer is Stan Lee! Excelsior! His cameos were a treasure hunt in every film.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Disney bought Marvel Entertainment in this year.",
+          "answer": "2009",
+          "accept": [
+            "2009",
+            "two thousand nine"
+          ],
+          "choices": [
+            "2009",
+            "2012",
+            "2006",
+            "2004"
+          ],
+          "reveal": "The correct answer is 2009! About four billion dollars. [laughs] Pretty good deal in hindsight.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Loki gets arrested by this time-policing agency, known as the TVA, in his Disney Plus series.",
+          "answer": "Time Variance Authority",
+          "accept": [
+            "time variance authority",
+            "the time variance authority",
+            "the tva",
+            "tva"
+          ],
+          "choices": [
+            "Time Variance Authority",
+            "Time Vortex Agency",
+            "Temporal Vigilance Alliance",
+            "Timeline Verification Authority"
+          ],
+          "reveal": "The correct answer is the Time Variance Authority! For all time. Always. [chuckles] And Miss Minutes keeps it cheerful.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "This 2014 Oscar winner was the first Walt Disney Animation film based on a Marvel comic.",
+          "answer": "Big Hero 6",
+          "accept": [
+            "big hero 6",
+            "big hero six"
+          ],
+          "choices": [
+            "Big Hero 6",
+            "Bolt",
+            "Wreck-It Ralph",
+            "Zootopia"
+          ],
+          "reveal": "The correct answer is Big Hero 6! Baymax is technically a Marvel hero. [laughs] Fist bump. Ba-la-la-la.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "In 2008's Iron Man, Tony Stark is kidnapped by a terrorist group with this name.",
+          "answer": "The Ten Rings",
+          "accept": [
+            "the ten rings",
+            "10 rings",
+            "ten rings"
+          ],
+          "choices": [
+            "The Ten Rings",
+            "Hydra",
+            "A.I.M.",
+            "The Hand"
+          ],
+          "reveal": "The correct answer is the Ten Rings! Fans waited 13 years before Shang-Chi revealed their leader. Talk about a long setup.",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}
