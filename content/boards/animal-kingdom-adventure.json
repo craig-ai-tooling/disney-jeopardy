@@ -8,109 +8,112 @@
     "walt-disney-world",
     "animals"
   ],
-  "intro": "[excited] Grab your safari hat! Tonight's board is all Disney's Animal Kingdom: bugs, banshees, real tigers and one very famous broken Yeti. [laughs] Nahtazu. That's not a zoo.",
+  "intro": "[excited] Grab your safari hat! Tonight's board is all Disney's Animal Kingdom: Zootopia cops, banshees, real tigers and one very famous broken Yeti. [laughs] Nahtazu. That's not a zoo.",
   "art": {
     "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A gigantic carved tree of life rising over a lush jungle river at sunrise, floating mountains with waterfalls in the distance, a rope bridge, colourful prayer flags and a safari truck on a dirt road.",
     "file": "media/animal-kingdom-adventure.jpg"
   },
   "categories": [
     {
-      "id": "bugs-eye-view",
-      "title": "Bug's-Eye View",
+      "id": "anyone-can-be-anything",
+      "title": "Anyone Can Be Anything",
       "kind": "film",
-      "intro": "Our film category came out in 1998, the same year Animal Kingdom opened. [chuckles] It's Pixar's A Bug's Life!",
+      "intro": "Our film category just moved into the Tree of Life. [excited] It's Zootopia! Where anyone can be anything, even a bunny cop.",
       "art": {
-        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A giant dandelion and blades of grass towering over a tiny anthill, a circus tent made from a cracker box, drops of dew glittering like crystal balls, seen from an insect's eye level.",
-        "file": "media/animal-kingdom-adventure--bugs-eye-view.jpg"
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A gleaming animal metropolis split into districts, a frosty tundra, a steamy rainforest and a desert of sand-coloured towers, a train gliding between them, a carrot-shaped pen resting on a police notepad in the foreground.",
+        "file": "media/animal-kingdom-adventure--anyone-can-be-anything.jpg"
       },
       "format": "text",
       "clues": [
         {
           "value": 200,
-          "clue": "Flik, the clumsy inventor hero of A Bug's Life, is this kind of insect.",
-          "answer": "An ant",
+          "clue": "Judy Hopps is the very first of this kind of animal to join the Zootopia Police Department.",
+          "answer": "A rabbit",
           "accept": [
-            "an ant",
-            "ant"
+            "a rabbit",
+            "a bunny",
+            "bunny",
+            "hare",
+            "rabbit"
           ],
           "choices": [
-            "An ant",
-            "A grasshopper",
-            "A ladybug",
-            "A beetle"
+            "A rabbit",
+            "A fox",
+            "A mouse",
+            "A squirrel"
           ],
-          "reveal": "The correct answer is an ant! [laughs] One little ant with big ideas. And a seed-harvesting machine that absolutely did not work.",
+          "reveal": "The correct answer is a rabbit! [laughs] Tiny, fast and VERY determined. Don't call her cute, though. Only bunnies can say that.",
           "dailyDouble": false
         },
         {
           "value": 400,
-          "clue": "This bully leads the gang of grasshoppers who demand food from the ant colony.",
-          "answer": "Hopper",
+          "clue": "Nick Wilde, the smooth-talking hustler who teams up with Judy, is this kind of animal.",
+          "answer": "A red fox",
           "accept": [
-            "hopper"
+            "a red fox",
+            "a fox",
+            "fox",
+            "red fox"
           ],
           "choices": [
-            "Hopper",
-            "Molt",
-            "Thumper",
-            "Atta"
+            "A red fox",
+            "A wolf",
+            "A weasel",
+            "A raccoon"
           ],
-          "reveal": "The correct answer is Hopper! [whispers] For a bully, he is weirdly terrified of birds. Just saying.",
+          "reveal": "The correct answer is a red fox! [chuckles] It's called a hustle, sweetheart. And now he hams it up inside the Tree of Life.",
           "dailyDouble": false
         },
         {
           "value": 600,
-          "clue": "Flik thinks he's hired tough warriors, but the bugs he brings home are actually these.",
-          "answer": "Circus performers",
+          "clue": "Zootopia's biggest pop star, voiced by Shakira, is this graceful animal who sings 'Try Everything.'",
+          "answer": "Gazelle",
           "accept": [
-            "circus performers",
-            "a circus troupe",
-            "circus",
-            "circus bugs",
-            "clowns"
+            "gazelle",
+            "a gazelle"
           ],
           "choices": [
-            "Circus performers",
-            "Mercenaries",
-            "Superheroes",
-            "Ninjas"
+            "Gazelle",
+            "Antelope",
+            "Impala",
+            "Giraffe"
           ],
-          "reveal": "The correct answer is circus performers! [laughs] A ladybug, a stick insect, a black widow and a rhinoceros beetle walk into a colony...",
+          "reveal": "The correct answer is Gazelle! [excited] Shakira as a gazelle with tiger backup dancers. Peak casting.",
           "dailyDouble": false
         },
         {
           "value": 800,
-          "clue": "This chubby green caterpillar with a German accent dreams of becoming a beautiful butterfly.",
-          "answer": "Heimlich",
+          "clue": "The secret villain of Zootopia turns out to be this sheep, the assistant mayor.",
+          "answer": "Dawn Bellwether",
           "accept": [
-            "heimlich"
+            "dawn bellwether",
+            "assistant mayor bellwether",
+            "bellwether"
           ],
           "choices": [
-            "Heimlich",
-            "Dim",
-            "Slim",
-            "Francis"
+            "Dawn Bellwether",
+            "Mayor Lionheart",
+            "Doug",
+            "Duke Weaselton"
           ],
-          "reveal": "The correct answer is Heimlich! [excited] I'm a beautiful butterfly! He gets his wings at the end. Tiny ones. But still.",
+          "reveal": "The correct answer is Dawn Bellwether! [gasps] The sweet little sheep with the night howler plan. Never trust a too-helpful coworker.",
           "dailyDouble": false
         },
         {
           "value": 1000,
-          "clue": "The penny-pinching flea who owns the circus is named this.",
-          "answer": "P.T. Flea",
+          "clue": "Judy Hopps grew up on a carrot farm in this small country town.",
+          "answer": "Bunnyburrow",
           "accept": [
-            "p.t. flea",
-            "p t flea",
-            "p. t. flea",
-            "pt flea"
+            "bunnyburrow",
+            "bunny burrow"
           ],
           "choices": [
-            "P.T. Flea",
-            "Molt",
-            "Manny",
-            "Gypsy"
+            "Bunnyburrow",
+            "Sahara Square",
+            "Tundratown",
+            "Little Rodentia"
           ],
-          "reveal": "The correct answer is P.T. Flea! [chuckles] A nod to the famous showman P.T. Barnum. He'll set his own circus on fire for a buck.",
+          "reveal": "The correct answer is Bunnyburrow! [laughs] The population sign has a LOT of digits, and it keeps going up.",
           "dailyDouble": false
         }
       ]
@@ -413,21 +416,18 @@
         },
         {
           "value": 600,
-          "clue": "In 2025, this show based on a city of animal cops replaced It's Tough to Be a Bug! inside the Tree of Life.",
-          "answer": "Zootopia: Better Zoogether!",
+          "clue": "Animal Kingdom's Asia section is set in this fictional kingdom, whose name means place of many delights.",
+          "answer": "Anandapur",
           "accept": [
-            "zootopia: better zoogether!",
-            "better zoogether",
-            "zootopia",
-            "zootopia better zoogether"
+            "anandapur"
           ],
           "choices": [
-            "Zootopia: Better Zoogether!",
-            "Bugs Bunny's Burrow",
-            "The Lion King Live",
-            "Wilderness Explorers"
+            "Anandapur",
+            "Harambe",
+            "Serka Zong",
+            "Agrabah"
           ],
-          "reveal": "The correct answer is Zootopia: Better Zoogether! [excited] Judy Hopps and Nick Wilde moved in. The bugs packed their tiny suitcases.",
+          "reveal": "The correct answer is Anandapur! [excited] Its story says it began as a royal hunting preserve in 1544. Now the only thing you hunt is a good churro.",
           "dailyDouble": false
         },
         {
