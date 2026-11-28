@@ -171,7 +171,7 @@ app.addEventListener('click', (e) => {
   const a = el.dataset.act;
   sfx('pick');
   if (a === 'pick') sock.send({ t: 'pick', clue: el.dataset.id });
-  else if (a === 'boards' || a === 'settings') { overlay = a; render(); }
+  else if (a === 'boards' || a === 'settings') { delete navMem[`${S.phase}:${a}`]; overlay = a; render(); }
   else if (a === 'close') closeOverlay();
   else if (a === 'board') { sock.send({ t: 'board', id: el.dataset.id }); overlay = null; render(); }
   else if (a === 'set') { const v = JSON.parse(el.dataset.v); sock.send({ t: 'settings', settings: v }); }
