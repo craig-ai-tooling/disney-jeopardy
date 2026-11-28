@@ -1,0 +1,141 @@
+[
+  {
+    "film": "The Rescuers",
+    "category": "The Rescuers",
+    "clue": "Bernard and Bianca fly to Devil's Bayou on Albatross Air Charter, piloted by an albatross with this name.",
+    "answer": "Orville",
+    "accept": [
+      "orville"
+    ],
+    "choices": [
+      "Orville",
+      "Wilbur",
+      "Evinrude",
+      "Rufus"
+    ],
+    "reveal": "[excited] The correct answer is Orville! He's named after Orville Wright. In The Rescuers Down Under, his brother Wilbur flies instead. [laughs] Get it?"
+  },
+  {
+    "film": "Treasure Planet",
+    "category": "Treasure Planet",
+    "clue": "Long John Silver's pet in Treasure Planet is a little pink blob that can change shape. What is its name?",
+    "answer": "Morph",
+    "accept": [
+      "morph"
+    ],
+    "choices": [
+      "Morph",
+      "Blinky",
+      "Squish",
+      "Pip"
+    ],
+    "reveal": "The correct answer is Morph! [chuckles] It takes the place of the parrot from Treasure Island, and it copies everything it hears."
+  },
+  {
+    "film": "Bedknobs and Broomsticks",
+    "category": "Bedknobs and Broomsticks",
+    "clue": "Miss Eglantine Price searches all over London for the missing words to this spell, which brings objects to life.",
+    "answer": "Substitutiary Locomotion",
+    "accept": [
+      "substitutiary locomotion",
+      "substitutionary locomotion",
+      "substitutiary"
+    ],
+    "choices": [
+      "Substitutiary Locomotion",
+      "Spontaneous Mobilization",
+      "Animated Autonomy",
+      "Portobello Propulsion"
+    ],
+    "reveal": "[excited] The correct answer is Substitutiary Locomotion! And the magic words? Treguna Mekoides Trecorum Satis Dee. [laughs] Try saying that three times fast."
+  },
+  {
+    "film": "The Black Cauldron",
+    "category": "The Black Cauldron",
+    "clue": "In 1985, The Black Cauldron became the first Disney animated feature to get this MPAA rating.",
+    "answer": "PG",
+    "accept": [
+      "pg",
+      "rated pg",
+      "parental guidance"
+    ],
+    "choices": [
+      "PG",
+      "G",
+      "PG-13",
+      "R"
+    ],
+    "reveal": "The correct answer is PG! [whispers] The Horned King and his army of the dead were way too scary for a G rating."
+  },
+  {
+    "film": "Enchanted",
+    "category": "Enchanted",
+    "clue": "In Enchanted, Giselle calls on New York's pigeons, rats and cockroaches to help clean an apartment while singing this song.",
+    "answer": "Happy Working Song",
+    "accept": [
+      "happy working song",
+      "the happy working song"
+    ],
+    "choices": [
+      "Happy Working Song",
+      "That's How You Know",
+      "True Love's Kiss",
+      "So Close"
+    ],
+    "reveal": "[laughs] The correct answer is Happy Working Song! It's a loving spoof of Whistle While You Work, only with cockroaches cleaning the toilet."
+  },
+  {
+    "film": "Toy Story 2",
+    "category": "Toy Story 2",
+    "clue": "In Toy Story 2, the toy collector who steals Woody owns this toy store chain, and appears in its TV ads in a chicken suit.",
+    "answer": "Al's Toy Barn",
+    "accept": [
+      "al's toy barn",
+      "als toy barn",
+      "toy barn"
+    ],
+    "choices": [
+      "Al's Toy Barn",
+      "Pizza Planet",
+      "Toy Mart",
+      "Sunnyside Toys"
+    ],
+    "reveal": "The correct answer is Al's Toy Barn! [chuckles] Al McWhiggin wants to sell Woody to a toy museum in Japan."
+  },
+  {
+    "film": "Finding Dory",
+    "category": "Finding Dory",
+    "clue": "The Marine Life Institute in Finding Dory, where Sigourney Weaver's voice plays over the speakers, is in this California town.",
+    "answer": "Morro Bay",
+    "accept": [
+      "morro bay",
+      "morro bay california"
+    ],
+    "choices": [
+      "Morro Bay",
+      "Monterey",
+      "Santa Cruz",
+      "Half Moon Bay"
+    ],
+    "reveal": "[excited] The correct answer is Morro Bay! Dory remembers it from when she was little: the jewel of Morro Bay, California."
+  },
+  {
+    "film": "Frozen II",
+    "category": "Frozen II",
+    "clue": "In Frozen II, Elsa tames this water spirit, which takes the shape of a horse.",
+    "answer": "The Nokk",
+    "accept": [
+      "the nokk",
+      "nokk",
+      "the nok",
+      "nok"
+    ],
+    "choices": [
+      "The Nokk",
+      "Bruni",
+      "Gale",
+      "The Earth Giants"
+    ],
+    "reveal": "The correct answer is the Nokk! [gasps] It comes from Nordic folklore. Bruni is the fire salamander and Gale is the wind."
+  }
+]

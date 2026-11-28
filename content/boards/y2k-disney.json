@@ -1,0 +1,543 @@
+{
+  "id": "y2k-disney",
+  "title": "Y2K Disney",
+  "theme": "Disney in the 2000s",
+  "tags": [
+    "decades",
+    "2000s",
+    "nostalgia",
+    "tv",
+    "parks"
+  ],
+  "intro": "[excited] The computers survived Y2K, and so did we! Today's board is all about Disney in the two-thousands: new animated films, Disney Channel hits, Pixar, pirates and brand new parks. [laughs] Flip phones up, everybody.",
+  "art": {
+    "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A glossy early-2000s scene: a translucent coloured desktop computer, a flip phone, a portable CD player with headphones, glitter gel pens and a sparkly pink-and-silver backdrop.",
+    "file": "media/y2k-disney.jpg"
+  },
+  "categories": [
+    {
+      "id": "experimental-era",
+      "title": "Experimental Era",
+      "kind": "film",
+      "format": "text",
+      "intro": "Our film category: Experimental Era, Walt Disney Animation's big, weird, wonderful two-thousands.",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A blue alien experiment pod, a llama-shaped lever and a forest bear cave at sunset, playful science-lab lighting.",
+        "file": "media/y2k-disney--experimental-era.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In Lilo & Stitch, Stitch's original name is Experiment this number.",
+          "answer": "626",
+          "accept": [
+            "626",
+            "experiment 626",
+            "six twenty-six",
+            "six two six"
+          ],
+          "choices": [
+            "626",
+            "625",
+            "221",
+            "1138"
+          ],
+          "reveal": "The correct answer is 626! [laughs] Built to destroy, but really he just wanted an ohana.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "In The Emperor's New Groove, Kuzco is turned into this animal.",
+          "answer": "A llama",
+          "accept": [
+            "a llama",
+            "llama"
+          ],
+          "choices": [
+            "A llama",
+            "An alpaca",
+            "A goat",
+            "A camel"
+          ],
+          "reveal": "The correct answer is a llama! [excited] Pull the lever, Kronk! Wrong lever!",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "In Brother Bear, Kenai becomes a bear and travels with this talkative young cub.",
+          "answer": "Koda",
+          "accept": [
+            "koda"
+          ],
+          "choices": [
+            "Koda",
+            "Kenai",
+            "Tug",
+            "Denahi"
+          ],
+          "reveal": "The correct answer is Koda! [chuckles] Kenai is the brother. Koda is the cub who won't stop talking.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In Bolt, the super dog teams up with this TV-loving hamster who rolls around in a plastic ball.",
+          "answer": "Rhino",
+          "accept": [
+            "rhino"
+          ],
+          "choices": [
+            "Rhino",
+            "Mittens",
+            "Rocket",
+            "Rufus"
+          ],
+          "reveal": "The correct answer is Rhino! [laughs] Small hamster, enormous attitude.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Meet the Robinsons ends with this Walt Disney quote, which is also the family's motto.",
+          "answer": "Keep moving forward",
+          "accept": [
+            "keep moving forward",
+            "keep moving"
+          ],
+          "choices": [
+            "Keep moving forward",
+            "Dream big",
+            "Never give up",
+            "To infinity and beyond"
+          ],
+          "reveal": "The correct answer is Keep moving forward! [excited] Walt said it best. We keep opening new doors.",
+          "dailyDouble": true
+        }
+      ]
+    },
+    {
+      "id": "remote-control-classics",
+      "title": "Remote Control Classics",
+      "kind": "theme",
+      "format": "text",
+      "intro": "[excited] Grab the remote! This category is all about the Disney Channel shows we couldn't stop watching in the two-thousands.",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A teen bedroom in the 2000s with a chunky silver TV, beaded curtain, inflatable chair, a microphone and a glittery wig on a stand.",
+        "file": "media/y2k-disney--remote-control-classics.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Miley Stewart secretly lives a double life as this pop star.",
+          "answer": "Hannah Montana",
+          "accept": [
+            "hannah montana",
+            "hannah"
+          ],
+          "choices": [
+            "Hannah Montana",
+            "Lizzie McGuire",
+            "Sharpay Evans",
+            "Raven Baxter"
+          ],
+          "reveal": "The correct answer is Hannah Montana! [laughs] A blonde wig, and nobody can tell. You get the best of both worlds.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Troy and Gabriella sing Start of Something New in this 2006 Disney Channel movie.",
+          "answer": "High School Musical",
+          "accept": [
+            "high school musical",
+            "hsm"
+          ],
+          "choices": [
+            "High School Musical",
+            "Camp Rock",
+            "Lemonade Mouth",
+            "Starstruck"
+          ],
+          "reveal": "The correct answer is High School Musical! [excited] Go Wildcats! We're all in this together.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Zack and Cody live in a fancy Boston hotel with this name.",
+          "answer": "The Tipton",
+          "accept": [
+            "the tipton",
+            "the tipton hotel",
+            "tipton",
+            "tipton hotel"
+          ],
+          "choices": [
+            "The Tipton",
+            "The Ritz",
+            "The Plaza",
+            "The Grand Floridian"
+          ],
+          "reveal": "The correct answer is the Tipton! [laughs] Mr. Moseby would like you to stop running in the lobby.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Kim Possible's sidekick Ron Stoppable carries a naked mole rat named this.",
+          "answer": "Rufus",
+          "accept": [
+            "rufus"
+          ],
+          "choices": [
+            "Rufus",
+            "Rhino",
+            "Pascal",
+            "Remy"
+          ],
+          "reveal": "The correct answer is Rufus! [excited] So what's the sitch? Rufus is the real hero, and everybody knows it.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "On Lizzie McGuire, her best friend Gordo's real first name is this.",
+          "answer": "David",
+          "accept": [
+            "david",
+            "david gordon"
+          ],
+          "choices": [
+            "David",
+            "Michael",
+            "Matthew",
+            "Ethan"
+          ],
+          "reveal": "The correct answer is David! [chuckles] David Gordon. Nobody called him that, ever.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "pixar-prop-closet",
+      "title": "Pixar Prop Closet",
+      "kind": "media",
+      "format": "picture",
+      "intro": "Picture time! Each picture is full of clues from a two-thousands Pixar film. Name the movie.",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A messy prop closet at an animation studio: a red super suit on a hanger, a chef hat, traffic cones, a potted seedling in a boot and a diving mask.",
+        "file": "media/y2k-disney--pixar-prop-closet.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Which 2000s Pixar movie is this picture from?",
+          "answer": "Finding Nemo",
+          "accept": [
+            "finding nemo",
+            "nemo"
+          ],
+          "choices": [
+            "Finding Nemo",
+            "Finding Dory",
+            "Luca",
+            "A Bug's Life"
+          ],
+          "reveal": "The correct answer is Finding Nemo! [excited] Fish are friends, not food.",
+          "media": {
+            "type": "image",
+            "prompt": "Original painterly digital illustration, no people, no characters, no logos, no text or lettering. A small orange-and-white striped clownfish peeking out of a purple sea anemone on a bright coral reef, a diver's mask lying on the sand, a dentist office fish tank glimpsed in a bubble.",
+            "file": "media/y2k-disney--pixar-prop-closet-200.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Which 2000s Pixar movie is this picture from?",
+          "answer": "The Incredibles",
+          "accept": [
+            "the incredibles",
+            "incredibles"
+          ],
+          "choices": [
+            "The Incredibles",
+            "Big Hero 6",
+            "Lightyear",
+            "Bolt"
+          ],
+          "reveal": "The correct answer is The Incredibles! [laughs] And remember, no capes!",
+          "media": {
+            "type": "image",
+            "prompt": "Original painterly digital illustration, no people, no characters, no logos, no text or lettering. A sleek futuristic fashion design studio with a red-and-black super suit on a mannequin, a cape crossed out on a sketch pad, rocket-shaped furniture.",
+            "file": "media/y2k-disney--pixar-prop-closet-400.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Which 2000s Pixar movie is this picture from?",
+          "answer": "Cars",
+          "accept": [
+            "cars"
+          ],
+          "choices": [
+            "Cars",
+            "Planes",
+            "Toy Story 2",
+            "Up"
+          ],
+          "reveal": "The correct answer is Cars! [excited] Radiator Springs, where the motel rooms are giant traffic cones. Ka-chow!",
+          "media": {
+            "type": "image",
+            "prompt": "Original painterly digital illustration, no people, no characters, no logos, no text or lettering. A sleepy desert town on an old highway at dusk, a motel made of giant orange traffic cones, glowing neon signs without lettering, red rock buttes in the distance.",
+            "file": "media/y2k-disney--pixar-prop-closet-600.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Which 2000s Pixar movie is this picture from?",
+          "answer": "Ratatouille",
+          "accept": [
+            "ratatouille",
+            "ratatouie",
+            "ratatoulle"
+          ],
+          "choices": [
+            "Ratatouille",
+            "Luca",
+            "Soul",
+            "Coco"
+          ],
+          "reveal": "The correct answer is Ratatouille! [chuckles] A tall chef's hat, a fancy Paris kitchen and a dish named after a peasant stew.",
+          "media": {
+            "type": "image",
+            "prompt": "Original painterly digital illustration, no people, no characters, no logos, no text or lettering. A gleaming Paris restaurant kitchen at night, a tall white chef toque on the counter, a plate of thinly sliced layered vegetables in a spiral, copper pots and a view of the Eiffel Tower through the window.",
+            "file": "media/y2k-disney--pixar-prop-closet-800.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Which 2000s Pixar movie is this picture from?",
+          "answer": "WALL-E",
+          "accept": [
+            "wall-e",
+            "wall e",
+            "walle"
+          ],
+          "choices": [
+            "WALL-E",
+            "Lightyear",
+            "Toy Story",
+            "Elemental"
+          ],
+          "reveal": "The correct answer is WALL-E! [whispers] A single green seedling in an old boot. That's how you save a planet.",
+          "media": {
+            "type": "image",
+            "prompt": "Original painterly digital illustration, no people, no characters, no logos, no text or lettering. A single green seedling growing inside an old worn boot, surrounded by towers of stacked compacted trash cubes under a dusty orange sky, a cockroach on a rusty lunchbox.",
+            "file": "media/y2k-disney--pixar-prop-closet-1000.jpg"
+          },
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "millennium-park-hopping",
+      "title": "Millennium Park Hopping",
+      "kind": "parks",
+      "format": "text",
+      "intro": "Time to park hop through the two-thousands, when Disney opened brand new parks and some very famous rides.",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A sweeping dawn panorama of a theme park with a snowy mountain coaster, a hang-glider soaring over golden hills and a lantern-lit harbour skyline.",
+        "file": "media/y2k-disney--millennium-park-hopping.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Disney California Adventure opened next to Disneyland in this year.",
+          "answer": "2001",
+          "accept": [
+            "2001",
+            "two thousand and one",
+            "two thousand one"
+          ],
+          "choices": [
+            "2001",
+            "1998",
+            "2003",
+            "2005"
+          ],
+          "reveal": "The correct answer is 2001! [laughs] It opened in February and has been rebuilt quite a bit since.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "This Disney park opened on Lantau Island in 2005.",
+          "answer": "Hong Kong Disneyland",
+          "accept": [
+            "hong kong disneyland",
+            "hong kong"
+          ],
+          "choices": [
+            "Hong Kong Disneyland",
+            "Shanghai Disneyland",
+            "Tokyo DisneySea",
+            "Walt Disney Studios Park"
+          ],
+          "reveal": "The correct answer is Hong Kong Disneyland! It opened in September 2005, making it Disney's second resort in Asia after Tokyo.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "This 2006 Animal Kingdom coaster has a yeti waiting inside the mountain.",
+          "answer": "Expedition Everest",
+          "accept": [
+            "expedition everest",
+            "everest"
+          ],
+          "choices": [
+            "Expedition Everest",
+            "Big Thunder Mountain Railroad",
+            "Matterhorn Bobsleds",
+            "Primeval Whirl"
+          ],
+          "reveal": "The correct answer is Expedition Everest! [gasps] The train even goes backwards. Watch out for the yeti!",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "This 2001 hang-gliding ride debuted at Disney California Adventure, then came to EPCOT in 2005.",
+          "answer": "Soarin'",
+          "accept": [
+            "soarin'",
+            "soarin",
+            "soarin around the world",
+            "soarin' over california",
+            "soaring"
+          ],
+          "choices": [
+            "Soarin'",
+            "Mission: SPACE",
+            "Test Track",
+            "Avatar Flight of Passage"
+          ],
+          "reveal": "The correct answer is Soarin'! [laughs] Smell the orange groves, and try not to drop your shoes.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "This EPCOT ride, a spinning centrifuge, opened in 2003 where Horizons used to stand.",
+          "answer": "Mission: SPACE",
+          "accept": [
+            "mission: space",
+            "mission space"
+          ],
+          "choices": [
+            "Mission: SPACE",
+            "Test Track",
+            "Body Wars",
+            "Spaceship Earth"
+          ],
+          "reveal": "The correct answer is Mission: SPACE! [laughs] It was so intense they added a gentler version. Please take the motion sickness bags seriously.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "savvy",
+      "title": "Savvy?",
+      "kind": "fan",
+      "format": "text",
+      "intro": "[laughs] Our wildcard is The Curse of the Black Pearl, the 2003 movie based on the ride. Savvy?",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A ghostly pirate ship with black sails under a full moon, a chest of Aztec gold coins on a beach, a skeleton hand reaching for a medallion.",
+        "file": "media/y2k-disney--savvy.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Johnny Depp plays this pirate captain. Make sure you say Captain.",
+          "answer": "Jack Sparrow",
+          "accept": [
+            "jack sparrow",
+            "captain jack",
+            "captain jack sparrow"
+          ],
+          "choices": [
+            "Jack Sparrow",
+            "Hector Barbossa",
+            "Davy Jones",
+            "Will Turner"
+          ],
+          "reveal": "The correct answer is Captain Jack Sparrow! [laughs] Why is the rum gone?",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Barbossa's cursed crew sails this ship with black sails.",
+          "answer": "The Black Pearl",
+          "accept": [
+            "the black pearl",
+            "black pearl"
+          ],
+          "choices": [
+            "The Black Pearl",
+            "The Flying Dutchman",
+            "The Interceptor",
+            "The Queen Anne's Revenge"
+          ],
+          "reveal": "The correct answer is the Black Pearl! It's the ship in the movie's title.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "This actor plays the blacksmith Will Turner.",
+          "answer": "Orlando Bloom",
+          "accept": [
+            "orlando bloom",
+            "bloom"
+          ],
+          "choices": [
+            "Orlando Bloom",
+            "Johnny Depp",
+            "Geoffrey Rush",
+            "Jack Davenport"
+          ],
+          "reveal": "The correct answer is Orlando Bloom! [chuckles] Blacksmith by day, swordsman whenever he needs to save Elizabeth.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "The curse on Barbossa's crew comes from this civilization's gold.",
+          "answer": "Aztec",
+          "accept": [
+            "aztec",
+            "aztec gold",
+            "aztecs"
+          ],
+          "choices": [
+            "Aztec",
+            "Inca",
+            "Maya",
+            "Spanish"
+          ],
+          "reveal": "The correct answer is Aztec! [whispers] Take one coin and you're cursed. In the moonlight, the crew are skeletons.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Barbossa's pet monkey has the same name as this person.",
+          "answer": "Jack",
+          "accept": [
+            "jack",
+            "jack sparrow",
+            "jack the monkey"
+          ],
+          "choices": [
+            "Jack",
+            "Will",
+            "Hector",
+            "Elizabeth"
+          ],
+          "reveal": "The correct answer is Jack! [laughs] The monkey is named after Jack Sparrow, just to annoy him.",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}

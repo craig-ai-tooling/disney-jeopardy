@@ -1,0 +1,567 @@
+{
+  "id": "disney-nerd-nightmare",
+  "title": "Disney Nerd Nightmare",
+  "theme": "Deep cuts for hardcore fans",
+  "tags": [
+    "hard",
+    "deep-cuts",
+    "history",
+    "parks"
+  ],
+  "intro": "[whispers] Welcome to the Disney Nerd Nightmare. [laughs] Every clue on this board is a deep cut, from the animation desk to the tunnels under the parks. If you get a two-hundred wrong today, nobody will judge you. [chuckles] Okay, we'll judge you a little.",
+  "art": {
+    "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A dim, cluttered archive room after midnight, stacks of old animation cels, film canisters, blueprints of a castle, a glowing desk lamp and dust floating in the light.",
+    "file": "media/disney-nerd-nightmare.jpg"
+  },
+  "categories": [
+    {
+      "id": "ink-and-paint-department",
+      "title": "Ink and Paint Department",
+      "kind": "film",
+      "format": "text",
+      "intro": "We open in the animation building. Ink and Paint Department is about how the movies were actually made.",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. An old animation studio desk with a backlit animation disk, pencil sketches, jars of paint and clear acetate cels drying on a rack.",
+        "file": "media/disney-nerd-nightmare--ink-and-paint-department.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Pixar's Toy Story, the first feature film made entirely with computer animation, came out in this year.",
+          "answer": "1995",
+          "accept": [
+            "1995",
+            "nineteen ninety five",
+            "nineteen ninety-five"
+          ],
+          "choices": [
+            "1995",
+            "1993",
+            "1997",
+            "1999"
+          ],
+          "reveal": "The correct answer is 1995! [excited] Released in November, and animation was never the same again.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Walt Disney voiced Mickey Mouse until 1947, when this Disney sound-effects man took over the role.",
+          "answer": "Jimmy MacDonald",
+          "accept": [
+            "jimmy macdonald",
+            "james macdonald",
+            "jim macdonald",
+            "macdonald"
+          ],
+          "choices": [
+            "Jimmy MacDonald",
+            "Wayne Allwine",
+            "Clarence Nash",
+            "Bret Iwan"
+          ],
+          "reveal": "The correct answer is Jimmy MacDonald! He voiced Mickey for about thirty years, then passed the ears to Wayne Allwine.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "This Nine Old Men animator, who designed Jiminy Cricket, played trombone in the Disney jazz band Firehouse Five Plus Two.",
+          "answer": "Ward Kimball",
+          "accept": [
+            "ward kimball",
+            "kimball"
+          ],
+          "choices": [
+            "Ward Kimball",
+            "Frank Thomas",
+            "Ollie Johnston",
+            "Milt Kahl"
+          ],
+          "reveal": "The correct answer is Ward Kimball! [laughs] Animator, trombonist and train fan. A locomotive at Disneyland is named after him.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "This 1961 film was the first Disney feature to use the Xerox process, copying drawings straight onto cels.",
+          "answer": "One Hundred and One Dalmatians",
+          "accept": [
+            "one hundred and one dalmatians",
+            "101 dalmatians",
+            "101 dalmations",
+            "one hundred one dalmatians"
+          ],
+          "choices": [
+            "One Hundred and One Dalmatians",
+            "Sleeping Beauty",
+            "The Sword in the Stone",
+            "Lady and the Tramp"
+          ],
+          "reveal": "The correct answer is One Hundred and One Dalmatians! Xerox made drawing all those spots possible, and gave the film its sketchy look.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Disney's digital CAPS system was first used to ink and paint an entire feature on this 1990 film.",
+          "answer": "The Rescuers Down Under",
+          "accept": [
+            "the rescuers down under",
+            "rescuers down under"
+          ],
+          "choices": [
+            "The Rescuers Down Under",
+            "The Little Mermaid",
+            "Beauty and the Beast",
+            "DuckTales the Movie"
+          ],
+          "reveal": "The correct answer is The Rescuers Down Under! [gasps] It was the first feature finished fully digitally. The Little Mermaid used CAPS for just its final rainbow scene.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "classified-disney",
+      "title": "Classified Disney",
+      "kind": "theme",
+      "format": "text",
+      "intro": "[whispers] Shh. This category is about the hidden spots the parks don't put on the map.",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A secret door in a quaint old-town street at night, a single lamp glowing in an upstairs window, a keyhole glinting.",
+        "file": "media/disney-nerd-nightmare--classified-disney.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This members-only club in Disneyland's New Orleans Square is named for its street address.",
+          "answer": "Club 33",
+          "accept": [
+            "club 33",
+            "club thirty three",
+            "club thirty-three"
+          ],
+          "choices": [
+            "Club 33",
+            "Trader Sam's",
+            "Carthay Circle Lounge",
+            "Oga's Cantina"
+          ],
+          "reveal": "The correct answer is Club 33! [whispers] Look for a small door with a number plate. And bring a very big wallet.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Walt Disney had a private apartment above this Main Street building at Disneyland, and a lamp still burns in its window.",
+          "answer": "The Fire Station",
+          "accept": [
+            "the fire station",
+            "fire house",
+            "fire station",
+            "firehouse",
+            "the firehouse"
+          ],
+          "choices": [
+            "The Fire Station",
+            "City Hall",
+            "The Emporium",
+            "The Main Street Cinema"
+          ],
+          "reveal": "The correct answer is the Fire Station! The lamp in the window is kept lit to honor Walt.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Walt planned a second private apartment above this New Orleans Square attraction. It later became the Disneyland Dream Suite.",
+          "answer": "Pirates of the Caribbean",
+          "accept": [
+            "pirates of the caribbean",
+            "pirates"
+          ],
+          "choices": [
+            "Pirates of the Caribbean",
+            "Haunted Mansion",
+            "Blue Bayou",
+            "Jungle Cruise"
+          ],
+          "reveal": "The correct answer is Pirates of the Caribbean! [sighs] Walt never got to live there. Today it's a very fancy suite above the pirates.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Magic Kingdom's network of service tunnels has a nickname that joins utility and corridors.",
+          "answer": "Utilidors",
+          "accept": [
+            "utilidors",
+            "utilidoors",
+            "utilidor"
+          ],
+          "choices": [
+            "Utilidors",
+            "Castlecombs",
+            "Backstage Burrows",
+            "Cast Corridors"
+          ],
+          "reveal": "The correct answer is the Utilidors! [chuckles] They're actually at ground level. The park was built on top of them, like a second floor.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Climbers in Disneyland's Matterhorn can take a break with this piece of sports gear hidden inside the mountain.",
+          "answer": "A basketball hoop",
+          "accept": [
+            "a basketball hoop",
+            "basketball",
+            "basketball court",
+            "basketball hoop",
+            "hoop"
+          ],
+          "choices": [
+            "A basketball hoop",
+            "A ping-pong table",
+            "A dartboard",
+            "A foosball table"
+          ],
+          "reveal": "The correct answer is a basketball hoop! [laughs] A small half court, way up inside the mountain. Nothing but net.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "extinct-attractions-zoom",
+      "title": "Extinct Attractions Zoom",
+      "kind": "media",
+      "format": "zoom",
+      "intro": "[gasps] Zoom time! We're zooming in on artwork of attractions that are long gone. Name the ride.",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A foggy graveyard of retired theme park ride vehicles, a vintage motorcar, a submarine hull and a futuristic pod, lit by soft moonlight.",
+        "file": "media/disney-nerd-nightmare--extinct-attractions-zoom.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Magic Kingdom closed its version of this wild motorcar ride in 1998. It still drives at Disneyland.",
+          "answer": "Mr. Toad's Wild Ride",
+          "accept": [
+            "mr. toad's wild ride",
+            "mr toad",
+            "mr toads wild ride",
+            "toads wild ride"
+          ],
+          "choices": [
+            "Mr. Toad's Wild Ride",
+            "Snow White's Scary Adventures",
+            "Pinocchio's Daring Journey",
+            "Autopia"
+          ],
+          "reveal": "The correct answer is Mr. Toad's Wild Ride! [laughs] A ride that ends with you in, well, a very warm place. Classic.",
+          "media": {
+            "type": "image",
+            "prompt": "Original painterly digital illustration, no people, no characters, no logos, no text or lettering. Extreme close-up of a green vintage open-top motorcar crashing through a painted English country manor, papers flying, crooked signposts, wild colourful set pieces.",
+            "file": "media/disney-nerd-nightmare--extinct-attractions-zoom-200.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "This EPCOT dark ride from 1983 to 1999 showed off future homes in the desert, under the sea and in space.",
+          "answer": "Horizons",
+          "accept": [
+            "horizons"
+          ],
+          "choices": [
+            "Horizons",
+            "World of Motion",
+            "Journey into Imagination",
+            "Universe of Energy"
+          ],
+          "reveal": "The correct answer is Horizons! [sighs] Riders got to pick their own ending. Fans still miss it.",
+          "media": {
+            "type": "image",
+            "prompt": "Original painterly digital illustration, no people, no characters, no logos, no text or lettering. Extreme close-up of a glowing orange-lit space colony window looking out at a planet, a desert farm with hydroponic oranges below, and a city under the sea.",
+            "file": "media/disney-nerd-nightmare--extinct-attractions-zoom-400.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Magic Kingdom's lagoon was home to this submarine ride until 1994.",
+          "answer": "20,000 Leagues Under the Sea: Submarine Voyage",
+          "accept": [
+            "20,000 leagues under the sea: submarine voyage",
+            "20,000 leagues",
+            "20,000 leagues under the sea",
+            "20000 leagues",
+            "20000 leagues under the sea",
+            "submarine voyage",
+            "twenty thousand leagues under the sea"
+          ],
+          "choices": [
+            "20,000 Leagues Under the Sea: Submarine Voyage",
+            "Submarine Voyage thru Liquid Space",
+            "The Seas with Nemo & Friends",
+            "Discovery Island"
+          ],
+          "reveal": "The correct answer is 20,000 Leagues Under the Sea! The subs didn't actually dive. They just sank a little and slid along a track.",
+          "media": {
+            "type": "image",
+            "prompt": "Original painterly digital illustration, no people, no characters, no logos, no text or lettering. Extreme close-up of a riveted grey-green Victorian-style submarine with a jagged dorsal fin and round portholes, gliding through a turquoise lagoon past fake coral and a sea serpent.",
+            "file": "media/disney-nerd-nightmare--extinct-attractions-zoom-600.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "From 1967 to 1985, this Disneyland ride let guests shrink small enough to fly into a snowflake.",
+          "answer": "Adventure Thru Inner Space",
+          "accept": [
+            "adventure thru inner space",
+            "adventure through inner space",
+            "inner space"
+          ],
+          "choices": [
+            "Adventure Thru Inner Space",
+            "Flight to the Moon",
+            "Rocket to the Moon",
+            "Mission to Mars"
+          ],
+          "reveal": "The correct answer is Adventure Thru Inner Space! [gasps] Blue pod vehicles called Atomobiles went through a giant microscope. Star Tours took its spot.",
+          "media": {
+            "type": "image",
+            "prompt": "Original painterly digital illustration, no people, no characters, no logos, no text or lettering. Extreme close-up of a giant silver laboratory microscope with blue capsule-shaped ride vehicles disappearing into its lens, swirling giant snowflake crystals and glowing molecules.",
+            "file": "media/disney-nerd-nightmare--extinct-attractions-zoom-800.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "This EPCOT simulator, open from 1989 to 2007, sent guests into a human bloodstream.",
+          "answer": "Body Wars",
+          "accept": [
+            "body wars"
+          ],
+          "choices": [
+            "Body Wars",
+            "Cranium Command",
+            "Mission: SPACE",
+            "Star Tours"
+          ],
+          "reveal": "The correct answer is Body Wars! [laughs] A shrinking mission inside the human body. Also known as the bumpiest ride at EPCOT.",
+          "media": {
+            "type": "image",
+            "prompt": "Original painterly digital illustration, no people, no characters, no logos, no text or lettering. Extreme close-up of a sleek miniature vehicle racing through a red tunnel of giant floating blood cells, glowing white cells and pulsing arteries.",
+            "file": "media/disney-nerd-nightmare--extinct-attractions-zoom-1000.jpg"
+          },
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "off-the-deep-end",
+      "title": "Off the Deep End",
+      "kind": "parks",
+      "format": "text",
+      "intro": "Parks people, this one is for you. Off the Deep End is all heights, dates and a little railroad history.",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. Detailed architectural blueprints of a fairy-tale castle and an old steam locomotive spread across a drafting table with rulers and a compass.",
+        "file": "media/disney-nerd-nightmare--off-the-deep-end.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Magic Kingdom's Cinderella Castle stands this many feet tall.",
+          "answer": "189 feet",
+          "accept": [
+            "189 feet",
+            "189",
+            "189 ft",
+            "one hundred eighty-nine"
+          ],
+          "choices": [
+            "189 feet",
+            "77 feet",
+            "150 feet",
+            "250 feet"
+          ],
+          "reveal": "The correct answer is 189 feet! Tricks of forced perspective make it look even taller.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Disneyland's smaller Sleeping Beauty Castle rises about this many feet.",
+          "answer": "77 feet",
+          "accept": [
+            "77 feet",
+            "77",
+            "77 ft",
+            "seventy seven",
+            "seventy-seven"
+          ],
+          "choices": [
+            "77 feet",
+            "50 feet",
+            "100 feet",
+            "189 feet"
+          ],
+          "reveal": "The correct answer is 77 feet! [chuckles] Walt wanted a friendly castle, not a scary fortress.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "The Hollywood Tower Hotel at Disney's Hollywood Studios is this tall, just short of needing aircraft warning lights.",
+          "answer": "199 feet",
+          "accept": [
+            "199 feet",
+            "199",
+            "199 ft",
+            "one hundred ninety-nine"
+          ],
+          "choices": [
+            "199 feet",
+            "189 feet",
+            "220 feet",
+            "250 feet"
+          ],
+          "reveal": "The correct answer is 199 feet! [laughs] One more foot and it would need blinking red warning lights on top.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Tokyo Disneyland, the first Disney park outside the United States, opened in this year.",
+          "answer": "1983",
+          "accept": [
+            "1983",
+            "nineteen eighty three",
+            "nineteen eighty-three"
+          ],
+          "choices": [
+            "1983",
+            "1979",
+            "1987",
+            "1992"
+          ],
+          "reveal": "The correct answer is 1983! It opened on April 15th, just a few months after EPCOT Center.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Disneyland Railroad engine number one is named for this Santa Fe Railway founder.",
+          "answer": "C. K. Holliday",
+          "accept": [
+            "c. k. holliday",
+            "c k holliday",
+            "c.k. holliday",
+            "ck holliday",
+            "cyrus holliday",
+            "cyrus k holliday",
+            "holliday"
+          ],
+          "choices": [
+            "C. K. Holliday",
+            "E. P. Ripley",
+            "Fred Gurley",
+            "Ernest S. Marsh"
+          ],
+          "reveal": "The correct answer is the C. K. Holliday! [excited] Named for Cyrus K. Holliday. The Santa Fe Railway sponsored the railroad when the park opened.",
+          "dailyDouble": true
+        }
+      ]
+    },
+    {
+      "id": "voices-from-the-vault",
+      "title": "Voices from the Vault",
+      "kind": "fan",
+      "format": "text",
+      "intro": "Our wildcard is all about the voice actors. Name the voices behind the characters.",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A vintage radio studio with a big ribbon microphone on a stand, script pages on a music stand and a glowing ON AIR lamp with no lettering.",
+        "file": "media/disney-nerd-nightmare--voices-from-the-vault.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This man was the original voice of Donald Duck, for about fifty years.",
+          "answer": "Clarence Nash",
+          "accept": [
+            "clarence nash",
+            "clarence ducky nash",
+            "ducky nash",
+            "nash"
+          ],
+          "choices": [
+            "Clarence Nash",
+            "Pinto Colvig",
+            "Jimmy MacDonald",
+            "Tony Anselmo"
+          ],
+          "reveal": "The correct answer is Clarence Nash! [laughs] Nickname: Ducky. Of course.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Goofy's first voice, and his famous holler, came from this performer.",
+          "answer": "Pinto Colvig",
+          "accept": [
+            "pinto colvig",
+            "colvig"
+          ],
+          "choices": [
+            "Pinto Colvig",
+            "Bill Farmer",
+            "Sterling Holloway",
+            "Clarence Nash"
+          ],
+          "reveal": "The correct answer is Pinto Colvig! He also voiced the dwarfs Grumpy and Sleepy. Gawrsh!",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "He voiced Winnie the Pooh, Kaa the snake and the Cheshire Cat.",
+          "answer": "Sterling Holloway",
+          "accept": [
+            "sterling holloway",
+            "holloway"
+          ],
+          "choices": [
+            "Sterling Holloway",
+            "Phil Harris",
+            "Paul Winchell",
+            "Ed Wynn"
+          ],
+          "reveal": "The correct answer is Sterling Holloway! [chuckles] He was also the stork in Dumbo. What a voice.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "His deep bass sings Grim Grinning Ghosts in the Haunted Mansion, and he gave Tony the Tiger his roar.",
+          "answer": "Thurl Ravenscroft",
+          "accept": [
+            "thurl ravenscroft",
+            "ravenscroft"
+          ],
+          "choices": [
+            "Thurl Ravenscroft",
+            "Paul Frees",
+            "Sterling Holloway",
+            "Pete Renaday"
+          ],
+          "reveal": "The correct answer is Thurl Ravenscroft! [laughs] He's the singing bust with the broken nose. Grrreat!",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "This voice actor is the Ghost Host of the Haunted Mansion and also voiced Ludwig Von Drake.",
+          "answer": "Paul Frees",
+          "accept": [
+            "paul frees",
+            "frees"
+          ],
+          "choices": [
+            "Paul Frees",
+            "Thurl Ravenscroft",
+            "Corey Burton",
+            "Vincent Price"
+          ],
+          "reveal": "The correct answer is Paul Frees! [whispers] Welcome, foolish mortals. He's also the auctioneer in Pirates of the Caribbean.",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}

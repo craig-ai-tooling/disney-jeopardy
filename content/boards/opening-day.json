@@ -1,0 +1,575 @@
+{
+  "id": "opening-day",
+  "title": "Opening Day",
+  "theme": "Park and ride opening days",
+  "tags": [
+    "parks",
+    "history",
+    "openings"
+  ],
+  "intro": "[excited] Cut the ribbon and open the gates, because today is Opening Day! Every clue is about the moment a Disney park, ride or film made its debut. [laughs] Some went great, and some went very, very badly.",
+  "art": {
+    "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A giant red ribbon stretched across ornate theme park entrance gates at sunrise, golden scissors on a velvet pillow, confetti and balloons rising into a clear sky.",
+    "file": "media/opening-day.jpg"
+  },
+  "categories": [
+    {
+      "id": "ribbon-cutting",
+      "title": "Ribbon Cutting",
+      "kind": "parks",
+      "format": "text",
+      "intro": "First up, Ribbon Cutting! Tell me about the days the Disney parks first opened.",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. Close view of oversized golden ceremonial scissors cutting a red satin ribbon, a castle softly blurred behind, sunbeams and confetti.",
+        "file": "media/opening-day--ribbon-cutting.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Magic Kingdom at Walt Disney World opened on October 1st of this year.",
+          "answer": "1971",
+          "accept": [
+            "1971",
+            "nineteen seventy one",
+            "nineteen seventy-one"
+          ],
+          "choices": [
+            "1971",
+            "1955",
+            "1969",
+            "1975"
+          ],
+          "reveal": "The correct answer is 1971! [excited] Walt Disney World opened with just one theme park and two hotels.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "EPCOT Center opened in 1982 on the same date Magic Kingdom opened. What date?",
+          "answer": "October 1",
+          "accept": [
+            "october 1",
+            "10/1",
+            "oct 1",
+            "october 1st",
+            "october first"
+          ],
+          "choices": [
+            "October 1",
+            "July 17",
+            "May 1",
+            "April 22"
+          ],
+          "reveal": "The correct answer is October 1st! Eleven years to the day after Magic Kingdom.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Disney's Hollywood Studios opened in 1989 under this original name.",
+          "answer": "Disney-MGM Studios",
+          "accept": [
+            "disney-mgm studios",
+            "disney mgm studios",
+            "disney-mgm",
+            "mgm studios"
+          ],
+          "choices": [
+            "Disney-MGM Studios",
+            "Disney Studios Florida",
+            "Hollywood Pictures Park",
+            "Disney Backlot Studios"
+          ],
+          "reveal": "The correct answer is Disney-MGM Studios! [chuckles] It got its new name in 2008.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Shanghai Disneyland opened in June of this year.",
+          "answer": "2016",
+          "accept": [
+            "2016",
+            "twenty sixteen",
+            "two thousand sixteen"
+          ],
+          "choices": [
+            "2016",
+            "2005",
+            "2012",
+            "2019"
+          ],
+          "reveal": "The correct answer is 2016! [excited] Its castle is the largest Disney castle in the world.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Disneyland's chaotic opening day in 1955 earned this gloomy nickname from employees.",
+          "answer": "Black Sunday",
+          "accept": [
+            "black sunday"
+          ],
+          "choices": [
+            "Black Sunday",
+            "Black Friday",
+            "Bloody Monday",
+            "Meltdown Sunday"
+          ],
+          "reveal": "The correct answer is Black Sunday! [sighs] Fake tickets, huge crowds, a heat wave and rides breaking down. It worked out okay in the end.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "premiere-night",
+      "title": "Premiere Night",
+      "kind": "film",
+      "format": "text",
+      "intro": "[excited] Red carpet time! Premiere Night is all about the opening nights of Disney films.",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A glamorous 1930s movie palace at night, searchlights sweeping the sky, a red carpet, velvet ropes and a glowing marquee with no lettering.",
+        "file": "media/opening-day--premiere-night.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Disney's first full-length animated feature premiered in December 1937.",
+          "answer": "Snow White and the Seven Dwarfs",
+          "accept": [
+            "snow white and the seven dwarfs",
+            "snow white",
+            "snow white and the 7 dwarfs"
+          ],
+          "choices": [
+            "Snow White and the Seven Dwarfs",
+            "Pinocchio",
+            "Fantasia",
+            "Bambi"
+          ],
+          "reveal": "The correct answer is Snow White and the Seven Dwarfs! [excited] People called it Disney's Folly. Then it was a smash hit.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Mickey Mouse's birthday is November 18th because this cartoon opened that day in 1928.",
+          "answer": "Steamboat Willie",
+          "accept": [
+            "steamboat willie"
+          ],
+          "choices": [
+            "Steamboat Willie",
+            "Plane Crazy",
+            "The Band Concert",
+            "Mickey's Choo-Choo"
+          ],
+          "reveal": "The correct answer is Steamboat Willie! [laughs] Mickey whistling at the wheel of a riverboat.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "This 1940 film premiered with a special stereo sound system called Fantasound.",
+          "answer": "Fantasia",
+          "accept": [
+            "fantasia"
+          ],
+          "choices": [
+            "Fantasia",
+            "Pinocchio",
+            "Dumbo",
+            "Bambi"
+          ],
+          "reveal": "The correct answer is Fantasia! [gasps] Only a few theaters could play Fantasound. It was a very early version of surround sound.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In 1994, The Lion King opened first in two theaters: Radio City Music Hall and this Hollywood movie palace.",
+          "answer": "El Capitan Theatre",
+          "accept": [
+            "el capitan theatre",
+            "el capitan",
+            "el capitan theater",
+            "the el capitan"
+          ],
+          "choices": [
+            "El Capitan Theatre",
+            "Grauman's Chinese Theatre",
+            "The Pantages",
+            "Carthay Circle Theatre"
+          ],
+          "reveal": "The correct answer is the El Capitan Theatre! Disney restored the old Hollywood theater, and it still hosts many Disney premieres.",
+          "dailyDouble": true
+        },
+        {
+          "value": 1000,
+          "clue": "Snow White premiered at this Los Angeles theater, which is now recreated as a restaurant at Disney California Adventure.",
+          "answer": "Carthay Circle Theatre",
+          "accept": [
+            "carthay circle theatre",
+            "carthay circle",
+            "carthay circle theater"
+          ],
+          "choices": [
+            "Carthay Circle Theatre",
+            "El Capitan Theatre",
+            "Grauman's Egyptian Theatre",
+            "The Orpheum"
+          ],
+          "reveal": "The correct answer is the Carthay Circle Theatre! [chuckles] The real theater was torn down in 1969. The California Adventure copy serves dinner.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "grand-opening-gallery",
+      "title": "Grand Opening Gallery",
+      "kind": "media",
+      "format": "picture",
+      "intro": "[excited] Picture time! These are real photos. Name the place that opened on the date in the clue.",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A gallery wall of framed vintage-style theme park photographs and souvenir tickets, a velvet rope in front, warm museum lighting.",
+        "file": "media/opening-day--grand-opening-gallery.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This EPCOT icon opened with the park in 1982. Name it.",
+          "answer": "Spaceship Earth",
+          "accept": [
+            "spaceship earth"
+          ],
+          "choices": [
+            "Spaceship Earth",
+            "Space Mountain",
+            "Mission: SPACE",
+            "Imagination!"
+          ],
+          "reveal": "The correct answer is Spaceship Earth! This photo is from 1983. The ride inside tells the story of human communication.",
+          "media": {
+            "type": "image",
+            "file": "media/opening-day--grand-opening-gallery-200.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Spaceship_Earth_at_Epcot-1983.jpg",
+              "license": "CC BY 4.0",
+              "author": "Richard Guy Wilson"
+            }
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "This giant carved centerpiece opened with Disney's Animal Kingdom in 1998.",
+          "answer": "The Tree of Life",
+          "accept": [
+            "the tree of life",
+            "tree of life"
+          ],
+          "choices": [
+            "The Tree of Life",
+            "The Swiss Family Treehouse",
+            "Expedition Everest",
+            "Pride Rock"
+          ],
+          "reveal": "The correct answer is the Tree of Life! [excited] It has over three hundred animals carved into its trunk and roots.",
+          "media": {
+            "type": "image",
+            "file": "media/opening-day--grand-opening-gallery-400.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Tree_of_Life,_Disney%27s_Animal_Kingdom.jpg",
+              "license": "CC BY-SA 4.0",
+              "author": "Jedi94"
+            }
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "This castle greeted guests on Disneyland's opening day in 1955.",
+          "answer": "Sleeping Beauty Castle",
+          "accept": [
+            "sleeping beauty castle",
+            "disneyland castle",
+            "sleeping beauty's castle"
+          ],
+          "choices": [
+            "Sleeping Beauty Castle",
+            "Cinderella Castle",
+            "Le Château de la Belle au Bois Dormant",
+            "Enchanted Storybook Castle"
+          ],
+          "reveal": "The correct answer is Sleeping Beauty Castle! [chuckles] It opened four years before the movie Sleeping Beauty even came out.",
+          "media": {
+            "type": "image",
+            "file": "media/opening-day--grand-opening-gallery-600.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Disneyland_Sleeping_Beauty_Castle_(13895388502).jpg",
+              "license": "CC BY 2.0",
+              "author": "Melissa Hillier"
+            }
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "When it opened in 1959, this Disneyland mountain was home to the world's first tubular steel roller coaster.",
+          "answer": "Matterhorn Bobsleds",
+          "accept": [
+            "matterhorn bobsleds",
+            "matterhorn",
+            "the matterhorn"
+          ],
+          "choices": [
+            "Matterhorn Bobsleds",
+            "Big Thunder Mountain Railroad",
+            "Space Mountain",
+            "Expedition Everest"
+          ],
+          "reveal": "The correct answer is the Matterhorn Bobsleds! [excited] This photo is from November 1959, the year it opened.",
+          "media": {
+            "type": "image",
+            "file": "media/opening-day--grand-opening-gallery-800.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Matterhorn,_Disneyland,_11-26-1959.jpg",
+              "license": "CC BY 2.0",
+              "author": "Orange County Archives"
+            }
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "This smoking volcano has stood at the center of Tokyo DisneySea since the park opened in 2001.",
+          "answer": "Mount Prometheus",
+          "accept": [
+            "mount prometheus",
+            "mt prometheus",
+            "mt. prometheus",
+            "prometheus"
+          ],
+          "choices": [
+            "Mount Prometheus",
+            "Mount Vesuvius",
+            "Big Thunder Mountain",
+            "Pele's Peak"
+          ],
+          "reveal": "The correct answer is Mount Prometheus! [gasps] It rumbles and spits fire during the day. Journey to the Center of the Earth runs inside.",
+          "media": {
+            "type": "image",
+            "file": "media/opening-day--grand-opening-gallery-1000.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Tokyo_DisneySea-Volcania.jpg",
+              "license": "CC BY-SA 2.5",
+              "author": "Okwhatev at en.wikipedia"
+            }
+          },
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "now-boarding",
+      "title": "Now Boarding",
+      "kind": "theme",
+      "format": "text",
+      "intro": "Now Boarding! Name the classic attractions from their opening days.",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A vintage ride boarding platform with an empty ride boat waiting in glowing blue water, brass railings and hanging lanterns.",
+        "file": "media/opening-day--now-boarding.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This boat ride first opened at the 1964 New York World's Fair before moving to Disneyland.",
+          "answer": "It's a Small World",
+          "accept": [
+            "it's a small world",
+            "it is a small world",
+            "its a small world",
+            "small world"
+          ],
+          "choices": [
+            "It's a Small World",
+            "Pirates of the Caribbean",
+            "Jungle Cruise",
+            "Storybook Land Canal Boats"
+          ],
+          "reveal": "The correct answer is It's a Small World! [laughs] And now that song will be in your head for the rest of the game. You're welcome.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "This roller coaster in the dark opened in Magic Kingdom's Tomorrowland in 1975.",
+          "answer": "Space Mountain",
+          "accept": [
+            "space mountain"
+          ],
+          "choices": [
+            "Space Mountain",
+            "Big Thunder Mountain Railroad",
+            "Astro Orbiter",
+            "Tron Lightcycle Run"
+          ],
+          "reveal": "The correct answer is Space Mountain! [excited] It opened in Florida before Disneyland got one in 1977.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "This Disneyland boat ride opened in 1967, just months after Walt Disney died. He had worked on it himself.",
+          "answer": "Pirates of the Caribbean",
+          "accept": [
+            "pirates of the caribbean",
+            "pirates"
+          ],
+          "choices": [
+            "Pirates of the Caribbean",
+            "Haunted Mansion",
+            "Jungle Cruise",
+            "It's a Small World"
+          ],
+          "reveal": "The correct answer is Pirates of the Caribbean! [laughs] Yo ho, yo ho. A pirate's life for me.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "This trackless Star Wars attraction opened at Disney's Hollywood Studios in December 2019.",
+          "answer": "Star Wars: Rise of the Resistance",
+          "accept": [
+            "star wars: rise of the resistance",
+            "rise of the resistance",
+            "star wars rise of the resistance"
+          ],
+          "choices": [
+            "Star Wars: Rise of the Resistance",
+            "Millennium Falcon: Smugglers Run",
+            "Star Tours",
+            "Star Wars: Galactic Starcruiser"
+          ],
+          "reveal": "The correct answer is Rise of the Resistance! [excited] Its virtual queue was so popular that it filled up within minutes of the park opening.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Opened in 1963, this Disneyland show was the first attraction to star Audio-Animatronics.",
+          "answer": "Walt Disney's Enchanted Tiki Room",
+          "accept": [
+            "walt disney's enchanted tiki room",
+            "enchanted tiki room",
+            "the enchanted tiki room",
+            "tiki room"
+          ],
+          "choices": [
+            "Walt Disney's Enchanted Tiki Room",
+            "Great Moments with Mr. Lincoln",
+            "Country Bear Jamboree",
+            "Carousel of Progress"
+          ],
+          "reveal": "The correct answer is the Enchanted Tiki Room! [laughs] Birds sing words and the flowers croon. In the tiki tiki tiki tiki tiki room.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "grand-opening-gossip",
+      "title": "Grand Opening Gossip",
+      "kind": "fan",
+      "format": "text",
+      "intro": "[chuckles] Our wildcard is Grand Opening Gossip: the behind-the-scenes stories from Disney's big opening days.",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A vintage 1950s newsstand with a stack of blank newspapers, a television camera on a tripod and a soft melting asphalt street under a blazing sun.",
+        "file": "media/opening-day--grand-opening-gossip.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Disneyland's live opening-day TV special in 1955 had three hosts, including this actor who later became president.",
+          "answer": "Ronald Reagan",
+          "accept": [
+            "ronald reagan",
+            "reagan"
+          ],
+          "choices": [
+            "Ronald Reagan",
+            "Dwight Eisenhower",
+            "Richard Nixon",
+            "John F. Kennedy"
+          ],
+          "reveal": "The correct answer is Ronald Reagan! [excited] He hosted with Art Linkletter and Bob Cummings, live on ABC.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Walt's older brother waited to retire until Walt Disney World opened, and he dedicated it in October 1971. Who was he?",
+          "answer": "Roy O. Disney",
+          "accept": [
+            "roy o. disney",
+            "roy",
+            "roy disney",
+            "roy o disney"
+          ],
+          "choices": [
+            "Roy O. Disney",
+            "Roy E. Disney",
+            "Elias Disney",
+            "Herbert Disney"
+          ],
+          "reveal": "The correct answer is Roy O. Disney! [sighs] He insisted on calling it Walt Disney World, so everyone would know whose dream it was.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "On Disneyland's hot opening day, women's high heels sank into this freshly laid material.",
+          "answer": "Asphalt",
+          "accept": [
+            "asphalt",
+            "blacktop",
+            "pavement",
+            "tar"
+          ],
+          "choices": [
+            "Asphalt",
+            "Concrete",
+            "Cobblestones",
+            "Wet paint"
+          ],
+          "reveal": "The correct answer is asphalt! [laughs] It was poured the night before. In the heat, it was basically gooey.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "A plumbers' strike meant Walt had to choose between finishing the restrooms or these before Disneyland opened.",
+          "answer": "Drinking fountains",
+          "accept": [
+            "drinking fountains",
+            "drinking fountain",
+            "fountains",
+            "water fountain",
+            "water fountains"
+          ],
+          "choices": [
+            "Drinking fountains",
+            "Popcorn carts",
+            "Ride queues",
+            "Ticket booths"
+          ],
+          "reveal": "The correct answer is drinking fountains! [chuckles] Walt picked the restrooms. Smart choice, but guests were very thirsty in the heat.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "This college student is famous for buying the very first ticket to Disneyland.",
+          "answer": "Dave MacPherson",
+          "accept": [
+            "dave macpherson",
+            "david macpherson",
+            "macpherson"
+          ],
+          "choices": [
+            "Dave MacPherson",
+            "Bob Penfield",
+            "Art Linkletter",
+            "Jack Lindquist"
+          ],
+          "reveal": "The correct answer is Dave MacPherson! [excited] Ticket number one, from July 18, 1955, the first day open to the public. He paid one dollar to get in.",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}
