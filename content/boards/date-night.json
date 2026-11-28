@@ -1,0 +1,537 @@
+{
+  "id": "date-night",
+  "title": "Date Night",
+  "theme": "Romance: park dining, proposals and love songs",
+  "tags": [
+    "romance",
+    "dining",
+    "music"
+  ],
+  "intro": "[excited] Good evening, lovebirds! Tonight's episode is DATE NIGHT: candlelit dinners, big proposals and love songs. [chuckles] Fix your hair, check your breath... because we are about to get ROMANTIC.",
+  "art": {
+    "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A candlelit table for two on a balcony overlooking a glowing fairy-tale castle at twilight, fireworks blooming in a violet sky, rose petals on a white tablecloth, two crystal glasses catching the light.",
+    "file": "media/date-night.jpg"
+  },
+  "categories": [
+    {
+      "id": "bella-notte",
+      "title": "Bella Notte",
+      "kind": "film",
+      "intro": "First up, Lady and the Tramp, the most romantic plate of pasta in movie history. [laughs] Slurp responsibly.",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A checkered-tablecloth table in a cozy back alley behind an Italian restaurant at night, a single plate of spaghetti and meatballs, a flickering candle in a wax-covered bottle, moonlight and string lights overhead.",
+        "file": "media/date-night--bella-notte.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In Lady and the Tramp's famous dinner date, the two dogs share a plate of this pasta.",
+          "answer": "Spaghetti",
+          "accept": [
+            "spaghetti",
+            "spaghetti and meatballs",
+            "spagetti"
+          ],
+          "choices": [
+            "Spaghetti",
+            "Lasagna",
+            "Ravioli",
+            "Macaroni"
+          ],
+          "reveal": "The correct answer is spaghetti! [chuckles] One noodle, two dogs, and the most famous accidental smooch of all time.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Restaurant owner Tony serenades the dogs with Bella Notte alongside this cook.",
+          "answer": "Joe",
+          "accept": [
+            "joe"
+          ],
+          "choices": [
+            "Joe",
+            "Luigi",
+            "Guido",
+            "Marco"
+          ],
+          "reveal": "The correct answer is Joe! Tony plays the accordion, Joe plays the mandolin, and the dogs get a free concert.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "During the spaghetti dinner, Tramp politely pushes the last meatball over to Lady using this.",
+          "answer": "His nose",
+          "accept": [
+            "nose",
+            "his nose",
+            "snout"
+          ],
+          "choices": [
+            "His nose",
+            "His paw",
+            "His tail",
+            "A fork"
+          ],
+          "reveal": "The correct answer is his nose! [sighs] Honestly? More manners than most of MY dates.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Translated from Italian, the song title Bella Notte means this.",
+          "answer": "Beautiful night",
+          "accept": [
+            "beautiful night",
+            "a beautiful night",
+            "lovely night"
+          ],
+          "choices": [
+            "Beautiful night",
+            "Good evening",
+            "Sweet love",
+            "Starry sky"
+          ],
+          "reveal": "The correct answer is beautiful night! And it's the perfect name for a song sung by two guys in aprons in an alley.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Released in 1955, Lady and the Tramp was Disney's first animated feature filmed in this widescreen process.",
+          "answer": "CinemaScope",
+          "accept": [
+            "cinemascope",
+            "cinema scope"
+          ],
+          "choices": [
+            "CinemaScope",
+            "Technirama",
+            "VistaVision",
+            "Cinerama"
+          ],
+          "reveal": "[dramatic pause] The correct answer is CinemaScope! The artists had to widen their backgrounds, so there was even MORE alley for romance.",
+          "dailyDouble": true
+        }
+      ]
+    },
+    {
+      "id": "popping-the-question",
+      "title": "Popping the Question",
+      "kind": "theme",
+      "intro": "Proposals! Engagements! Royal weddings! [mischievously] And a few people who REALLY should have waited past the first date.",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A tiny open ring box on a velvet cushion in a rose garden at sunset, a soft glowing sparkle where a ring would be, rose petals and fairy lights all around.",
+        "file": "media/date-night--popping-the-question.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In Frozen, Anna agrees to marry this prince on the very same day she meets him.",
+          "answer": "Hans",
+          "accept": [
+            "hans",
+            "prince hans"
+          ],
+          "choices": [
+            "Hans",
+            "Kristoff",
+            "Eric",
+            "Naveen"
+          ],
+          "reveal": "The correct answer is Hans! [sarcastic] And THAT, kids, is why you date someone for more than one song.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "In The Princess and the Frog, Tiana and Prince Naveen get married while they're both still these.",
+          "answer": "Frogs",
+          "accept": [
+            "frogs",
+            "frog",
+            "a frog"
+          ],
+          "choices": [
+            "Frogs",
+            "Fireflies",
+            "Alligators",
+            "Humans"
+          ],
+          "reveal": "The correct answer is frogs! Then one kiss from the new princess, and POOF, back to human. Talk about a wedding surprise.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "In Aladdin, the law says Princess Jasmine must marry a prince by this upcoming day.",
+          "answer": "Her birthday",
+          "accept": [
+            "her birthday",
+            "birthday",
+            "her next birthday"
+          ],
+          "choices": [
+            "Her birthday",
+            "The new moon",
+            "Her coronation",
+            "The harvest festival"
+          ],
+          "reveal": "The correct answer is her birthday! [laughs] Most of us just want cake. Jasmine got a marriage deadline.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Princess Aurora was promised in marriage at birth to Prince Phillip, the son of this king.",
+          "answer": "King Hubert",
+          "accept": [
+            "hubert",
+            "king hubert"
+          ],
+          "choices": [
+            "King Hubert",
+            "King Stefan",
+            "King Triton",
+            "King Fergus"
+          ],
+          "reveal": "The correct answer is King Hubert! He and King Stefan planned the whole wedding before the bride could even crawl.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "In Brave, the scrawny heir of this clan accidentally hits the bullseye while competing for Merida's hand.",
+          "answer": "Dingwall",
+          "accept": [
+            "dingwall",
+            "clan dingwall",
+            "wee dingwall"
+          ],
+          "choices": [
+            "Dingwall",
+            "Macintosh",
+            "MacGuffin",
+            "DunBroch"
+          ],
+          "reveal": "The correct answer is Dingwall! [chuckles] Wee Dingwall's lucky shot only happened because he jumped when the king yelled.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "sing-me-a-love-song",
+      "title": "Sing Me a Love Song",
+      "kind": "media",
+      "intro": "Time to finish the love song! I sing the line, you fill in the missing word. [whispers] Please don't make me actually sing.",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. An old jukebox glowing pink and gold in a dark ballroom, musical notes drifting up like fireflies, a single spotlight on an empty dance floor.",
+        "file": "media/date-night--sing-me-a-love-song.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Finish the Lion King lyric: Can you feel the love blank?",
+          "answer": "Tonight",
+          "accept": [
+            "tonight"
+          ],
+          "choices": [
+            "Tonight",
+            "Forever",
+            "Today",
+            "Inside"
+          ],
+          "reveal": "The correct answer is tonight! [laughs] Timon and Pumbaa were NOT happy about it.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Finish the Beauty and the Beast lyric: Tale as old as time, true as it can blank.",
+          "answer": "Be",
+          "accept": [
+            "be"
+          ],
+          "choices": [
+            "Be",
+            "Seem",
+            "See",
+            "Stay"
+          ],
+          "reveal": "The correct answer is be! Sung by a teapot, which is still the most romantic thing a teapot has ever done.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Finish the Tangled lyric: All those blank outside looking in.",
+          "answer": "Years",
+          "accept": [
+            "years"
+          ],
+          "choices": [
+            "Years",
+            "Days",
+            "Nights",
+            "Hours"
+          ],
+          "reveal": "The correct answer is in! [sighs] Eighteen years in a tower, and all she wanted was to see some lanterns.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Finish the Cinderella lyric: So this is love, so this is what makes life blank.",
+          "answer": "Divine",
+          "accept": [
+            "divine"
+          ],
+          "choices": [
+            "Divine",
+            "Complete",
+            "Sublime",
+            "So fine"
+          ],
+          "reveal": "The correct answer is divine! Cinderella waltzes, the Grand Duke closes the curtains, and the clock starts ticking toward midnight.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Finish the Frozen lyric: Our mental synchronization can have but one blank.",
+          "answer": "Explanation",
+          "accept": [
+            "explanation"
+          ],
+          "choices": [
+            "Explanation",
+            "Destination",
+            "Combination",
+            "Conversation"
+          ],
+          "reveal": "The correct answer is explanation! [mischievously] Spoiler: the explanation was that Hans was a TERRIBLE guy.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "table-for-two",
+      "title": "Table for Two",
+      "kind": "parks",
+      "intro": "Disney Parks date night! Look at the picture and name the restaurant. [chuckles] Reservations not included.",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. An elegant restaurant table set for two beside tall arched windows, chandeliers glowing, a distant castle lit up outside, linen napkins folded like roses.",
+        "file": "media/date-night--table-for-two.jpg"
+      },
+      "format": "picture",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "At Disneyland, couples can dine beside the boats of Pirates of the Caribbean under a sky that's always twilight at this restaurant.",
+          "answer": "Blue Bayou Restaurant",
+          "accept": [
+            "blue bayou",
+            "blue bayou restaurant",
+            "the blue bayou"
+          ],
+          "choices": [
+            "Blue Bayou Restaurant",
+            "Cafe Orleans",
+            "Lamplight Lounge",
+            "Carnation Cafe"
+          ],
+          "reveal": "The correct answer is Blue Bayou Restaurant! [whispers] Fireflies, crickets, and a little splash from passing pirates. So romantic.",
+          "media": {
+            "type": "image",
+            "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A candlelit table on a wooden porch in a Louisiana bayou at permanent twilight, fireflies glowing, Spanish moss hanging from trees, a lantern-lit boat drifting past on dark water.",
+            "file": "media/date-night--table-for-two-200.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Atop Disney's Riviera Resort, this rooftop restaurant is named for Mickey Mouse's name in Italian.",
+          "answer": "Topolino's Terrace",
+          "accept": [
+            "topolino's terrace",
+            "topolinos terrace",
+            "topolino's",
+            "topolinos"
+          ],
+          "choices": [
+            "Topolino's Terrace",
+            "Tutto Italia",
+            "Via Napoli",
+            "Trattoria al Forno"
+          ],
+          "reveal": "The correct answer is Topolino's Terrace! Topolino means Mickey in Italian. [chuckles] Fireworks views AND pasta. Bellissimo.",
+          "media": {
+            "type": "image",
+            "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A Mediterranean-style rooftop dining terrace at dusk with arched windows, terracotta tiles, potted lemon trees and string lights, distant fireworks over a lake.",
+            "file": "media/date-night--table-for-two-400.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "At Hollywood Studios, couples can eat in booths shaped like classic cars while watching old sci-fi clips under a starry sky at this restaurant.",
+          "answer": "Sci-Fi Dine-In Theater Restaurant",
+          "accept": [
+            "sci-fi dine-in theater",
+            "sci-fi dine-in",
+            "sci fi dine in theater",
+            "sci-fi dine-in theater restaurant"
+          ],
+          "choices": [
+            "Sci-Fi Dine-In Theater Restaurant",
+            "50's Prime Time Cafe",
+            "Hollywood Brown Derby",
+            "Woody's Lunch Box"
+          ],
+          "reveal": "The correct answer is Sci-Fi Dine-In Theater Restaurant! [laughs] The only drive-in where the car never needs gas.",
+          "media": {
+            "type": "image",
+            "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. An indoor night-time drive-in theater with booths shaped like 1950s convertibles with chrome fins, a starry painted sky, and a giant glowing movie screen.",
+            "file": "media/date-night--table-for-two-600.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Atop Disney's Contemporary Resort, diners at this restaurant can watch Magic Kingdom fireworks through the windows.",
+          "answer": "California Grill",
+          "accept": [
+            "california grill"
+          ],
+          "choices": [
+            "California Grill",
+            "Topolino's Terrace",
+            "Toledo",
+            "Narcoossee's"
+          ],
+          "reveal": "The correct answer is California Grill! They even pipe the fireworks music into the dining room. [whispers] Very smooth move for a proposal.",
+          "media": {
+            "type": "image",
+            "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A sleek modern rooftop restaurant with floor-to-ceiling windows, warm wood and soft lighting, looking out over a lake toward a distant castle under bursting fireworks.",
+            "file": "media/date-night--table-for-two-800.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Disney's Grand Floridian is home to this famously fancy tasting-menu restaurant, named for a British royal couple.",
+          "answer": "Victoria & Albert's",
+          "accept": [
+            "victoria and albert's",
+            "victoria and alberts",
+            "victoria & albert's",
+            "v&a"
+          ],
+          "choices": [
+            "Victoria & Albert's",
+            "Citricos",
+            "Monsieur Paul",
+            "Napa Rose"
+          ],
+          "reveal": "The correct answer is Victoria and Albert's! Named for Queen Victoria and Prince Albert, the original royal power couple.",
+          "media": {
+            "type": "image",
+            "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. An intimate, opulent Victorian dining room with silk wallpaper, a glowing crystal chandelier, fine china and silver cloches on a table for two, a harp in the corner.",
+            "file": "media/date-night--table-for-two-1000.jpg"
+          },
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "emoji-love-stories",
+      "title": "Emoji Love Stories",
+      "kind": "fan",
+      "intro": "Our fan category tonight: Emoji Love Stories! I show you emojis, you name the romantic film. [chuckles] Heart eyes encouraged.",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A glowing smartphone-like pane of light floating over a moonlit lake, made of soft pastel hearts, stars and bubbles, with no symbols or letters, dreamy bokeh.",
+        "file": "media/date-night--emoji-love-stories.jpg"
+      },
+      "format": "emoji",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "🧜‍♀️❤️🤴🦀 Hint: she gave up her voice for legs.",
+          "answer": "The Little Mermaid",
+          "accept": [
+            "the little mermaid",
+            "little mermaid"
+          ],
+          "choices": [
+            "The Little Mermaid",
+            "Moana",
+            "Finding Nemo",
+            "Luca"
+          ],
+          "reveal": "The correct answer is The Little Mermaid! [sighs] Ariel traded her voice for a boy she met ONCE. Bold strategy.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "👸🕳️🗽💍 Hint: a cartoon princess pops out of a manhole into real New York City.",
+          "answer": "Enchanted",
+          "accept": [
+            "enchanted"
+          ],
+          "choices": [
+            "Enchanted",
+            "The Princess Diaries",
+            "Frozen",
+            "Cinderella"
+          ],
+          "reveal": "The correct answer is Enchanted! [laughs] Giselle cleans an apartment with pigeons and rats. True love conquers ALL... even New York.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "🏮🏮👸🍳 Hint: a tower, a thief and a very handy kitchen tool.",
+          "answer": "Tangled",
+          "accept": [
+            "tangled"
+          ],
+          "choices": [
+            "Tangled",
+            "Sleeping Beauty",
+            "Brave",
+            "Cinderella"
+          ],
+          "reveal": "The correct answer is Tangled! [laughs] Frying pans: who knew, right?",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "🤖❤️🤖🌱 Hint: a trash-compacting robot falls for a sleek probe.",
+          "answer": "WALL-E",
+          "accept": [
+            "wall-e",
+            "walle",
+            "wall e"
+          ],
+          "choices": [
+            "WALL-E",
+            "Big Hero 6",
+            "Lightyear",
+            "Robots"
+          ],
+          "reveal": "The correct answer is WALL-E! He held hands with a robot named EVE, and every grown-up in the theater cried.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "☔💙☔❤️🌧️ Hint: a Pixar short about two umbrellas falling in love on a rainy city street.",
+          "answer": "The Blue Umbrella",
+          "accept": [
+            "the blue umbrella",
+            "blue umbrella"
+          ],
+          "choices": [
+            "The Blue Umbrella",
+            "Paperman",
+            "Piper",
+            "Feast"
+          ],
+          "reveal": "[excited] The correct answer is The Blue Umbrella! A blue umbrella and a red umbrella meet in the rain... and the whole CITY helps them get together.",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}

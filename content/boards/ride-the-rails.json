@@ -1,0 +1,547 @@
+{
+  "id": "ride-the-rails",
+  "title": "Ride the Rails",
+  "theme": "Trains: in the movies, in the parks and in Walt's backyard",
+  "tags": [
+    "trains",
+    "parks",
+    "walt"
+  ],
+  "intro": "[excited] ALL ABOARD! Welcome to RIDE THE RAILS! Walt Disney loved trains more than almost anything, so today it's locomotives, monorails and one very special backyard railroad. [laughs] Choo choo!",
+  "art": {
+    "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A shining vintage steam locomotive with red and gold trim pulling into a Victorian railway station at sunrise, puffing white steam, bunting on the platform and a clock tower beyond.",
+    "file": "media/ride-the-rails.jpg"
+  },
+  "categories": [
+    {
+      "id": "trains-on-screen",
+      "title": "Trains on Screen",
+      "kind": "film",
+      "intro": "Our film category: trains in Disney movies! [chuckles] Please keep your arms and legs inside the theater.",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A circus train of brightly painted cars rolling through rolling green hills at dawn, with steam puffing out of a cheerful little locomotive.",
+        "file": "media/ride-the-rails--trains-on-screen.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In Dumbo, the circus travels on a cheerful little train with this name.",
+          "answer": "Casey Jr.",
+          "accept": [
+            "casey jr.",
+            "casey jr",
+            "casey junior",
+            "casey"
+          ],
+          "choices": [
+            "Casey Jr.",
+            "Thomas",
+            "Toot",
+            "Little Chugger"
+          ],
+          "reveal": "The correct answer is Casey Jr.! [excited] I think I can, I think I can! He gets the circus over that hill every time.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Judy Hopps rides a train from her small town into this big city.",
+          "answer": "Zootopia",
+          "accept": [
+            "zootopia"
+          ],
+          "choices": [
+            "Zootopia",
+            "San Fransokyo",
+            "Radiator Springs",
+            "Monstropolis"
+          ],
+          "reveal": "The correct answer is Zootopia! The train even has tiny doors for tiny animals. [laughs] Brilliant.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "At the start of Toy Story 3, Woody chases this train-robbing toy, called One-Eyed Bart.",
+          "answer": "Mr. Potato Head",
+          "accept": [
+            "mr potato head",
+            "potato head",
+            "mr. potato head",
+            "one-eyed bart"
+          ],
+          "choices": [
+            "Mr. Potato Head",
+            "Hamm",
+            "Rex",
+            "Slinky Dog"
+          ],
+          "reveal": "The correct answer is Mr. Potato Head! [chuckles] Doing his best villain voice with only one eye in.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In Disney's 2013 Western The Lone Ranger, this actor plays Tonto.",
+          "answer": "Johnny Depp",
+          "accept": [
+            "johnny depp",
+            "depp"
+          ],
+          "choices": [
+            "Johnny Depp",
+            "Armie Hammer",
+            "Orlando Bloom",
+            "Tom Wilkinson"
+          ],
+          "reveal": "The correct answer is Johnny Depp! And the movie's big finale is a runaway train chase. [excited] Hi-yo, Silver!",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "In Disney's 1956 film The Great Locomotive Chase, Union raiders steal this famous Civil War locomotive.",
+          "answer": "The General",
+          "accept": [
+            "general",
+            "the general"
+          ],
+          "choices": [
+            "The General",
+            "The Texas",
+            "The Jupiter",
+            "The Yonah"
+          ],
+          "reveal": "[dramatic pause] The correct answer is The General! It's based on a real 1862 raid. [chuckles] Fess Parker leads the raiders.",
+          "dailyDouble": true
+        }
+      ]
+    },
+    {
+      "id": "walts-backyard-railroad",
+      "title": "Walt's Backyard Railroad",
+      "kind": "theme",
+      "intro": "Before Disneyland, Walt built a railroad in his own backyard: the Carolwood Pacific. [whispers] His neighbors were VERY curious.",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A small-scale steam locomotive on narrow tracks curving through a lush California backyard garden, a little red barn in the background and a tunnel mouth under a flower bed.",
+        "file": "media/ride-the-rails--walts-backyard-railroad.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Walt Disney loved riding these so much that he built one big enough to sit on in his own backyard.",
+          "answer": "Trains",
+          "accept": [
+            "train",
+            "trains",
+            "a train"
+          ],
+          "choices": [
+            "Trains",
+            "Bikes",
+            "Boats",
+            "Planes"
+          ],
+          "reveal": "The correct answer is trains! [excited] Walt sat right on top of the tiny cars and drove it himself.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Walt's backyard train ran through a 90-foot one of these under his wife Lillian's flower bed.",
+          "answer": "Tunnel",
+          "accept": [
+            "tunnel",
+            "a tunnel"
+          ],
+          "choices": [
+            "Tunnel",
+            "Bridge",
+            "Trestle",
+            "Ramp"
+          ],
+          "reveal": "The correct answer is a tunnel! [laughs] Lillian said no trains on her flowers, so Walt went UNDER them.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Walt's barn, the control center of his backyard railroad, now stands in this Los Angeles park.",
+          "answer": "Griffith Park",
+          "accept": [
+            "griffith park",
+            "griffith"
+          ],
+          "choices": [
+            "Griffith Park",
+            "Echo Park",
+            "MacArthur Park",
+            "Elysian Park"
+          ],
+          "reveal": "The correct answer is Griffith Park! [chuckles] Walt's Barn is open to visitors on some Sundays. Free admission, maximum nerd.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "The Carolwood Pacific was named for the street Walt lived on in this wealthy Los Angeles neighborhood.",
+          "answer": "Holmby Hills",
+          "accept": [
+            "holmby hills",
+            "holmby"
+          ],
+          "choices": [
+            "Holmby Hills",
+            "Beverly Hills",
+            "Bel Air",
+            "Los Feliz"
+          ],
+          "reveal": "The correct answer is Holmby Hills! Carolwood Drive, Holmby Hills. [sarcastic] Fancy neighborhood, very loud backyard.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "This Disney machinist, later an Imagineering legend, helped Walt build his backyard engine, the Lilly Belle.",
+          "answer": "Roger Broggie",
+          "accept": [
+            "roger broggie",
+            "broggie"
+          ],
+          "choices": [
+            "Roger Broggie",
+            "Ub Iwerks",
+            "Harper Goff",
+            "Bob Gurr"
+          ],
+          "reveal": "The correct answer is Roger Broggie! [excited] He went on to build trains and monorails for the parks. Walt's ultimate train buddy.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "next-stop",
+      "title": "Next Stop!",
+      "kind": "media",
+      "intro": "It's a zoom category! We start WAY zoomed in on something from a Disney park railway. [dramatic pause] Name it before the picture zooms out.",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A grand old railway station platform with a glossy steam engine, a streamlined monorail gliding overhead on a beam, a circus train in the distance, all in bright morning light.",
+        "file": "media/ride-the-rails--next-stop.jpg"
+      },
+      "format": "zoom",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This sleek, futuristic train glides through the parks on a single raised beam.",
+          "answer": "Monorail",
+          "accept": [
+            "monorail",
+            "the monorail",
+            "disney monorail"
+          ],
+          "choices": [
+            "Monorail",
+            "PeopleMover",
+            "Skyliner",
+            "Skyway"
+          ],
+          "reveal": "The correct answer is the monorail! [excited] Please stand clear of the doors... por favor manténganse alejados de las puertas.",
+          "media": {
+            "type": "image",
+            "prompt": "Extreme close-up, Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A gleaming white streamlined monorail with a coloured stripe gliding on a single concrete beam over palm trees and a turquoise lagoon.",
+            "file": "media/ride-the-rails--next-stop-200.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Ride in a circus animal cage on this little Fantasyland train at Disneyland.",
+          "answer": "Casey Jr. Circus Train",
+          "accept": [
+            "casey jr circus train",
+            "casey jr. circus train",
+            "casey jr",
+            "casey junior circus train"
+          ],
+          "choices": [
+            "Casey Jr. Circus Train",
+            "Storybook Land Canal Boats",
+            "Dumbo the Flying Elephant",
+            "Gadget's Go Coaster"
+          ],
+          "reveal": "The correct answer is Casey Jr. Circus Train! It's been chugging since 1955. [laughs] Yes, you can ride in a monkey cage.",
+          "media": {
+            "type": "image",
+            "prompt": "Extreme close-up, Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A tiny brightly painted circus train with an ornate red and gold locomotive and open cage-shaped passenger cars, winding past miniature storybook villages.",
+            "file": "media/ride-the-rails--next-stop-400.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Riders on the Disneyland Railroad pass a giant diorama of this Arizona natural wonder.",
+          "answer": "Grand Canyon",
+          "accept": [
+            "grand canyon",
+            "the grand canyon",
+            "grand canyon diorama"
+          ],
+          "choices": [
+            "Grand Canyon",
+            "Monument Valley",
+            "Painted Desert",
+            "Bryce Canyon"
+          ],
+          "reveal": "The correct answer is the Grand Canyon! [gasps] Painted red rock walls, a thunderstorm and wildlife. All in one tunnel.",
+          "media": {
+            "type": "image",
+            "prompt": "Extreme close-up, Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A huge indoor painted diorama of layered red and orange canyon walls at sunset, a dusting of snow, a deer on a ledge and a train track along the front.",
+            "file": "media/ride-the-rails--next-stop-600.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Right after the canyon, the Disneyland Railroad travels back in time to this dinosaur diorama.",
+          "answer": "Primeval World",
+          "accept": [
+            "primeval world",
+            "the primeval world",
+            "primeval world diorama"
+          ],
+          "choices": [
+            "Primeval World",
+            "Dinosaur Gulch",
+            "Land Before Time",
+            "Prehistoric Valley"
+          ],
+          "reveal": "The correct answer is Primeval World! [laughs] Those dinosaurs first appeared at the 1964 World's Fair before moving to Disneyland.",
+          "media": {
+            "type": "image",
+            "prompt": "Extreme close-up, Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. Prehistoric jungle diorama with ferns, steaming volcano, a towering long-necked dinosaur and a triceratops facing a predatory dinosaur under a stormy amber sky.",
+            "file": "media/ride-the-rails--next-stop-800.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "This ornate Victorian parlor car on the Disneyland Railroad is named after Walt's wife.",
+          "answer": "Lilly Belle",
+          "accept": [
+            "lilly belle",
+            "the lilly belle",
+            "lily belle"
+          ],
+          "choices": [
+            "Lilly Belle",
+            "Lillian Rose",
+            "Retlaw",
+            "Grand Canyon Limited"
+          ],
+          "reveal": "The correct answer is the Lilly Belle! [whispers] Riding it is a rare treat, so if a conductor offers... SAY YES.",
+          "media": {
+            "type": "image",
+            "prompt": "Extreme close-up, Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A luxurious Victorian railway parlor car interior with dark wood panelling, plush red velvet chairs, fringed lamps, lace curtains and stained-glass windows.",
+            "file": "media/ride-the-rails--next-stop-1000.jpg"
+          },
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "disneyland-railroad",
+      "title": "Disneyland Railroad",
+      "kind": "parks",
+      "intro": "Next we ride the real deal: the Disneyland Railroad and its cousin at Walt Disney World! [excited] Tickets, please!",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A Victorian red-brick train station at the entrance to a theme park with a big clock, flower beds and a steam engine waiting on the tracks, morning sun.",
+        "file": "media/ride-the-rails--disneyland-railroad.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "The Disneyland Railroad's first station sits right at the park entrance at the start of this street.",
+          "answer": "Main Street, U.S.A.",
+          "accept": [
+            "main street",
+            "main street usa",
+            "main street, u.s.a."
+          ],
+          "choices": [
+            "Main Street, U.S.A.",
+            "Frontierland",
+            "Adventureland",
+            "Fantasyland"
+          ],
+          "reveal": "The correct answer is Main Street, U.S.A.! [chuckles] Arrive by train, just like the old days.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Besides Main Street, New Orleans Square and Tomorrowland, the Disneyland Railroad stops in this land.",
+          "answer": "Mickey's Toontown",
+          "accept": [
+            "mickey's toontown",
+            "toontown",
+            "mickeys toontown"
+          ],
+          "choices": [
+            "Mickey's Toontown",
+            "Frontierland",
+            "Critter Country",
+            "Galaxy's Edge"
+          ],
+          "reveal": "The correct answer is Mickey's Toontown! [laughs] The station there used to be called Fantasyland station.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "The Walt Disney World Railroad's four steam engines were found working in this country.",
+          "answer": "Mexico",
+          "accept": [
+            "mexico"
+          ],
+          "choices": [
+            "Mexico",
+            "Canada",
+            "Cuba",
+            "Brazil"
+          ],
+          "reveal": "The correct answer is Mexico! [excited] They hauled sugar cane in the Yucatán before Disney brought them to Florida.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Disneyland Railroad's engine No. 1, the C. K. Holliday, is named for the founder of this famous railroad.",
+          "answer": "Santa Fe",
+          "accept": [
+            "santa fe",
+            "the santa fe",
+            "atchison topeka and santa fe",
+            "santa fe railway"
+          ],
+          "choices": [
+            "Santa Fe",
+            "Union Pacific",
+            "Southern Pacific",
+            "Pennsylvania Railroad"
+          ],
+          "reveal": "The correct answer is the Santa Fe! [chuckles] The Atchison, Topeka and Santa Fe sponsored the railroad when Disneyland opened.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Disneyland Railroad's engine No. 5, added in 2005, honors this animator and fellow train fan.",
+          "answer": "Ward Kimball",
+          "accept": [
+            "ward kimball",
+            "kimball"
+          ],
+          "choices": [
+            "Ward Kimball",
+            "Ollie Johnston",
+            "Frank Thomas",
+            "Marc Davis"
+          ],
+          "reveal": "The correct answer is Ward Kimball! [excited] He had a full-size railroad in his OWN backyard. Walt had competition.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "whistle-stop-emoji",
+      "title": "Whistle Stop Emoji",
+      "kind": "fan",
+      "intro": "Our fan category is all emoji! Each one is a Disney ride, train or movie with something on rails. [chuckles] Choo-choose wisely.",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A rainbow of glowing soft-edged circles and stars floating above a curved railroad track at twilight, dreamy and playful, no symbols or letters.",
+        "file": "media/ride-the-rails--whistle-stop-emoji.jpg"
+      },
+      "format": "emoji",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "🚂🐘🎪 Hint: a baby elephant with big ears travels with the circus.",
+          "answer": "Dumbo",
+          "accept": [
+            "dumbo"
+          ],
+          "choices": [
+            "Dumbo",
+            "The Jungle Book",
+            "Tarzan",
+            "Bambi"
+          ],
+          "reveal": "The correct answer is Dumbo! [laughs] Ears that big, who needs a train? He can FLY.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "🦸‍♀️🚝💨🤸 Hint: a super mom stretches to stop a runaway train in this sequel.",
+          "answer": "Incredibles 2",
+          "accept": [
+            "incredibles 2",
+            "the incredibles 2",
+            "incredibles two"
+          ],
+          "choices": [
+            "Incredibles 2",
+            "The Incredibles",
+            "Big Hero 6",
+            "Lightyear"
+          ],
+          "reveal": "The correct answer is Incredibles 2! [excited] Elastigirl on a motorcycle, chasing a train. Honestly? Goals.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "🚂🦒🦓🌍 Hint: Animal Kingdom's train that runs from Harambe to Conservation Station.",
+          "answer": "Wildlife Express Train",
+          "accept": [
+            "wildlife express",
+            "wildlife express train"
+          ],
+          "choices": [
+            "Wildlife Express Train",
+            "Walt Disney World Railroad",
+            "Kilimanjaro Safaris",
+            "Expedition Everest"
+          ],
+          "reveal": "The correct answer is the Wildlife Express Train! [excited] It even takes you past the backstage animal care buildings. A real behind-the-scenes ride.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "⛏️🚂🦌🏜️ Hint: Disneyland's long-gone Frontierland train ride through a wild nature land.",
+          "answer": "Mine Train Through Nature's Wonderland",
+          "accept": [
+            "mine train through nature's wonderland",
+            "mine train through natures wonderland",
+            "nature's wonderland",
+            "mine train"
+          ],
+          "choices": [
+            "Mine Train Through Nature's Wonderland",
+            "Big Thunder Mountain Railroad",
+            "Rainbow Caverns Mine Train",
+            "Seven Dwarfs Mine Train"
+          ],
+          "reveal": "The correct answer is Mine Train Through Nature's Wonderland! [sighs] It closed in 1977 to make way for Big Thunder Mountain Railroad.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "🌴🚂🏝️🗾 Hint: the jungle steam train that circles Adventureland at Tokyo Disneyland.",
+          "answer": "Western River Railroad",
+          "accept": [
+            "western river railroad",
+            "western river"
+          ],
+          "choices": [
+            "Western River Railroad",
+            "Lost River Railway",
+            "Jungle Cruise Express",
+            "DisneySea Electric Railway"
+          ],
+          "reveal": "[excited] The correct answer is the Western River Railroad! It even passes a prehistoric dinosaur scene, just like at Disneyland.",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,542 @@
+{
+  "id": "lost-and-found",
+  "title": "Lost and Found",
+  "theme": "Lost things, lost characters and lost worlds",
+  "tags": [
+    "lost",
+    "adventure",
+    "mystery"
+  ],
+  "intro": "[gasps] Has anybody seen my keys? No? [laughs] Well, welcome to LOST AND FOUND, where Disney characters lose everything: shoes, shadows, sons, even entire cities. Let's go find some points!",
+  "art": {
+    "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A cozy old lost-and-found office with wooden shelves piled with umbrellas, hats, a lonely teddy bear, a single sparkly shoe and a brass bell on the counter, warm lamplight.",
+    "file": "media/lost-and-found.jpg"
+  },
+  "categories": [
+    {
+      "id": "lost-boys-and-shadows",
+      "title": "Lost Boys and Shadows",
+      "kind": "film",
+      "intro": "Our film category is Peter Pan, a movie FULL of lost things. [chuckles] Second star to the right, and straight on till points.",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A moonlit nursery window flung open over a sleepy London skyline, a curtain fluttering, a sewing kit on the sill and a shadowy silhouette slipping across the floor.",
+        "file": "media/lost-and-found--lost-boys-and-shadows.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "At the start of Peter Pan, Peter comes back to the Darling house looking for this, which Wendy later sews back on.",
+          "answer": "His shadow",
+          "accept": [
+            "shadow",
+            "his shadow"
+          ],
+          "choices": [
+            "His shadow",
+            "His hat",
+            "His dagger",
+            "His flute"
+          ],
+          "reveal": "The correct answer is his shadow! [laughs] Only Peter Pan could lose something that's attached to his feet.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Captain Hook lost his hand to this animal, which now follows him everywhere.",
+          "answer": "A crocodile",
+          "accept": [
+            "crocodile",
+            "a crocodile",
+            "the crocodile",
+            "tick-tock",
+            "tick tock"
+          ],
+          "choices": [
+            "A crocodile",
+            "A shark",
+            "An alligator",
+            "A whale"
+          ],
+          "reveal": "The correct answer is a crocodile! [mischievously] He liked the taste of Hook so much, he wants seconds.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Why does the crocodile go tick-tock? Because it swallowed one of these.",
+          "answer": "A clock",
+          "accept": [
+            "clock",
+            "a clock",
+            "alarm clock",
+            "an alarm clock"
+          ],
+          "choices": [
+            "A clock",
+            "A drum",
+            "A metronome",
+            "A bell"
+          ],
+          "reveal": "The correct answer is a clock! [chuckles] Hook's own early-warning system.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Peter Pan's gang of Lost Boys has this many members in the 1953 film.",
+          "answer": "Six",
+          "accept": [
+            "six",
+            "6"
+          ],
+          "choices": [
+            "Six",
+            "Four",
+            "Five",
+            "Eight"
+          ],
+          "reveal": "The correct answer is six! Slightly, Cubby, Nibs, Tootles and the Twins. [laughs] The twins count as two. I checked.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "The Lost Boys' secret underground hideout is hidden inside this spooky-sounding tree.",
+          "answer": "Hangman's Tree",
+          "accept": [
+            "hangman's tree",
+            "hangmans tree",
+            "hangman tree"
+          ],
+          "choices": [
+            "Hangman's Tree",
+            "Skull Rock",
+            "Dead Man's Oak",
+            "The Hollow Elm"
+          ],
+          "reveal": "The correct answer is Hangman's Tree! [whispers] Step inside a knothole and slide down to the hideout. Best. Fort. Ever.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "misplaced-items",
+      "title": "Misplaced Items",
+      "kind": "theme",
+      "intro": "Disney characters are TERRIBLE at keeping track of things. [sighs] Tell me what got lost, or where it ended up.",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A sunken treasure chest on a sandy sea floor spilling a jumble of lost objects: a fishhook, a guitar, a leather journal, a tiny toy cowboy boot, light rays from above.",
+        "file": "media/lost-and-found--misplaced-items.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In Finding Nemo, Nemo is scooped up by a diver and ends up in a fish tank in this kind of office.",
+          "answer": "A dentist's office",
+          "accept": [
+            "dentist",
+            "a dentist",
+            "dentist's office",
+            "a dentist's office",
+            "dentist office"
+          ],
+          "choices": [
+            "A dentist's office",
+            "A doctor's office",
+            "A pet store",
+            "A school"
+          ],
+          "reveal": "The correct answer is a dentist's office! [laughs] Sydney's scariest tank, thanks to a kid named Darla.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "In Toy Story 2, Woody is taken by this greedy toy collector who dresses up as a chicken on TV.",
+          "answer": "Al",
+          "accept": [
+            "al",
+            "al mcwhiggin",
+            "the toy collector"
+          ],
+          "choices": [
+            "Al",
+            "Sid",
+            "Stinky Pete",
+            "Lenny"
+          ],
+          "reveal": "The correct answer is Al! [sarcastic] Selling a toy to a museum in Japan. How dare he.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "In Moana, Maui's lost magical fishhook ends up in this realm of monsters.",
+          "answer": "Lalotai",
+          "accept": [
+            "lalotai",
+            "the realm of monsters"
+          ],
+          "choices": [
+            "Lalotai",
+            "Motunui",
+            "Te Fiti",
+            "Pulotu"
+          ],
+          "reveal": "The correct answer is Lalotai! [gasps] A whole upside-down world of monsters. Not a great spot to drop your keys.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In Coco, Miguel ends up in the Land of the Dead after taking this from Ernesto de la Cruz's tomb.",
+          "answer": "His guitar",
+          "accept": [
+            "guitar",
+            "a guitar",
+            "his guitar",
+            "the guitar"
+          ],
+          "choices": [
+            "His guitar",
+            "His trumpet",
+            "His skull",
+            "His sombrero"
+          ],
+          "reveal": "The correct answer is his guitar! [chuckles] Turns out, borrowing from the dead is a big no-no.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "In Atlantis: The Lost Empire, Milo uses this book to guide the expedition to the lost city.",
+          "answer": "The Shepherd's Journal",
+          "accept": [
+            "shepherd's journal",
+            "shepherds journal",
+            "the shepherd's journal",
+            "the journal"
+          ],
+          "choices": [
+            "The Shepherd's Journal",
+            "The Tome of Atlas",
+            "The Codex of Kida",
+            "The Traveler's Logbook"
+          ],
+          "reveal": "[excited] The correct answer is the Shepherd's Journal! Milo can read Atlantean, too. Nerds save the world AGAIN.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "lost-and-found-bin",
+      "title": "Lost and Found Bin",
+      "kind": "media",
+      "intro": "It's a zoom category! I've zoomed WAY in on something left in our lost and found bin. [mischievously] Tell me who it belongs to.",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A big wooden lost-and-found crate overflowing with a frying pan, a fork, a honey pot, a deerstalker cap, a pocket watch and a top hat, under a single hanging lightbulb.",
+        "file": "media/lost-and-found--lost-and-found-bin.jpg"
+      },
+      "format": "zoom",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Someone left this shiny gold oil lamp in the bin. Who lives inside it?",
+          "answer": "Genie",
+          "accept": [
+            "genie",
+            "the genie"
+          ],
+          "choices": [
+            "Genie",
+            "Jafar",
+            "Aladdin",
+            "Abu"
+          ],
+          "reveal": "The correct answer is the Genie! [laughs] Phenomenal cosmic powers... itty bitty living space.",
+          "media": {
+            "type": "image",
+            "prompt": "Extreme close-up, Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. An ornate golden oil lamp with a curled spout resting on red velvet in a desert cave, glittering treasure and golden coins softly blurred behind it.",
+            "file": "media/lost-and-found--lost-and-found-bin-200.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "This heavy cookware was found in the bin. Who uses it as a weapon?",
+          "answer": "Rapunzel",
+          "accept": [
+            "rapunzel"
+          ],
+          "choices": [
+            "Rapunzel",
+            "Tiana",
+            "Belle",
+            "Snow White"
+          ],
+          "reveal": "The correct answer is Rapunzel! Frying pans! Who knew, right? [chuckles] Flynn Rider did not see it coming.",
+          "media": {
+            "type": "image",
+            "prompt": "Extreme close-up, Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A sturdy cast-iron frying pan with a long handle propped against a tower window, purple flowers and paint brushes nearby.",
+            "file": "media/lost-and-found--lost-and-found-bin-400.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Someone lost this shiny dinglehopper. Who's it belong to?",
+          "answer": "Ariel",
+          "accept": [
+            "ariel"
+          ],
+          "choices": [
+            "Ariel",
+            "Melody",
+            "Moana",
+            "Vanellope"
+          ],
+          "reveal": "The correct answer is Ariel! [laughs] Scuttle says it's for combing your hair. We say it's a fork.",
+          "media": {
+            "type": "image",
+            "prompt": "Extreme close-up, Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A silver dinner fork lying among seashells and coral on a sandy rock, sparkling under rippling water light.",
+            "file": "media/lost-and-found--lost-and-found-bin-600.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Found in the bin: this checked cap and magnifying glass. Who's the tiny detective?",
+          "answer": "Basil of Baker Street",
+          "accept": [
+            "basil",
+            "basil of baker street"
+          ],
+          "choices": [
+            "Basil of Baker Street",
+            "Dr. Dawson",
+            "Sherlock Holmes",
+            "Ratigan"
+          ],
+          "reveal": "The correct answer is Basil of Baker Street! [excited] The Great Mouse Detective himself. Elementary, my dear Dawson.",
+          "media": {
+            "type": "image",
+            "prompt": "Extreme close-up, Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A tiny brown deerstalker cap and a brass magnifying glass on a desk, next to a miniature violin and a scattering of cheese crumbs.",
+            "file": "media/lost-and-found--lost-and-found-bin-800.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "This gold pocket watch, smeared with butter and jam, was left behind. Who lost it?",
+          "answer": "The White Rabbit",
+          "accept": [
+            "white rabbit",
+            "the white rabbit"
+          ],
+          "choices": [
+            "The White Rabbit",
+            "The Mad Hatter",
+            "The March Hare",
+            "The Cheshire Cat"
+          ],
+          "reveal": "The correct answer is the White Rabbit! [sighs] The Mad Hatter buttered it to fix it. Now he's REALLY late.",
+          "media": {
+            "type": "image",
+            "prompt": "Extreme close-up, Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A gold pocket watch open on a cluttered tea-party table, its face smeared with butter and strawberry jam, teacups and a tiny white glove beside it.",
+            "file": "media/lost-and-found--lost-and-found-bin-1000.jpg"
+          },
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "lost-worlds",
+      "title": "Lost Worlds",
+      "kind": "parks",
+      "intro": "Disney parks are full of lost temples, lost mountains and lost explorers. [whispers] Stay close, and don't wander off.",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A misty jungle river winding past crumbling stone temple ruins overgrown with vines, a rickety rope bridge and a distant snow-capped mountain, golden adventure lighting.",
+        "file": "media/lost-and-found--lost-worlds.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "At Epcot's The Seas pavilion, you ride a clamshell to help find this lost clownfish.",
+          "answer": "Nemo",
+          "accept": [
+            "nemo"
+          ],
+          "choices": [
+            "Nemo",
+            "Marlin",
+            "Gill",
+            "Squirt"
+          ],
+          "reveal": "The correct answer is Nemo! The Seas with Nemo and Friends. [laughs] That kid gets lost more than my car keys.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "In Magic Kingdom's Adventureland, you can climb a giant treehouse built by this shipwrecked family.",
+          "answer": "The Swiss Family Robinson",
+          "accept": [
+            "swiss family robinson",
+            "the swiss family robinson",
+            "the robinsons",
+            "robinson family"
+          ],
+          "choices": [
+            "The Swiss Family Robinson",
+            "The Darling family",
+            "The Madrigal family",
+            "The Banks family"
+          ],
+          "reveal": "The correct answer is the Swiss Family Robinson! [chuckles] Lost at sea? Just build a mansion in a tree. With running water!",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Disneyland's Indiana Jones Adventure takes you into a lost temple of this goddess.",
+          "answer": "Mara",
+          "accept": [
+            "mara"
+          ],
+          "choices": [
+            "Mara",
+            "Kali",
+            "Pele",
+            "Isis"
+          ],
+          "reveal": "The correct answer is Mara! Temple of the Forbidden Eye. [whispers] Whatever you do... don't look into her eyes.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "At Hong Kong Disneyland's Mystic Manor, Lord Henry Mystic's mischievous pet monkey is named this.",
+          "answer": "Albert",
+          "accept": [
+            "albert"
+          ],
+          "choices": [
+            "Albert",
+            "Abu",
+            "Bubbles",
+            "Marcel"
+          ],
+          "reveal": "The correct answer is Albert! [mischievously] He opens a magical music box and EVERYTHING comes to life. Classic monkey move.",
+          "dailyDouble": true
+        },
+        {
+          "value": 1000,
+          "clue": "Tokyo DisneySea's jungle port, home of Indiana Jones Adventure: Temple of the Crystal Skull, is called Lost blank Delta.",
+          "answer": "River",
+          "accept": [
+            "river",
+            "lost river delta"
+          ],
+          "choices": [
+            "River",
+            "Jungle",
+            "Temple",
+            "Island"
+          ],
+          "reveal": "The correct answer is River! Lost River Delta. [excited] Bring a map, and maybe a whip.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "missing-persons",
+      "title": "Missing Persons",
+      "kind": "fan",
+      "intro": "Our fan category: Missing Persons! These characters went missing, got lost or are searching for somebody. [dramatic pause] Who are they?",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A wall of an old explorers' office pinned with blank wanted-style posters, a hand-drawn map with red string, a brass compass and an oil lamp.",
+        "file": "media/lost-and-found--missing-persons.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In Encanto, the Madrigal family doesn't talk about this missing uncle.",
+          "answer": "Bruno",
+          "accept": [
+            "bruno",
+            "bruno madrigal",
+            "tio bruno"
+          ],
+          "choices": [
+            "Bruno",
+            "Agustin",
+            "Felix",
+            "Camilo"
+          ],
+          "reveal": "The correct answer is Bruno! [whispers] No, no, no... we don't talk about him. He was living in the walls the whole time!",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "In Up, Russell names the rare, lost giant bird they find in South America this.",
+          "answer": "Kevin",
+          "accept": [
+            "kevin"
+          ],
+          "choices": [
+            "Kevin",
+            "Doug",
+            "Dug",
+            "Kenny"
+          ],
+          "reveal": "The correct answer is Kevin! [laughs] And then it turns out Kevin is a girl. A mom, actually.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "In Hercules, baby Hercules is kidnapped from Mount Olympus on the orders of this god.",
+          "answer": "Hades",
+          "accept": [
+            "hades"
+          ],
+          "choices": [
+            "Hades",
+            "Zeus",
+            "Ares",
+            "Poseidon"
+          ],
+          "reveal": "The correct answer is Hades! [sarcastic] Sending Pain and Panic to do a job. What could possibly go wrong?",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In The Rescuers, Bernard and Bianca search for this missing orphan girl.",
+          "answer": "Penny",
+          "accept": [
+            "penny"
+          ],
+          "choices": [
+            "Penny",
+            "Cody",
+            "Rufus",
+            "Daisy"
+          ],
+          "reveal": "The correct answer is Penny! The Rescue Aid Society to the rescue! [chuckles] Size doesn't matter when you've got heart.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "In Finding Dory, Dory searches for her long-lost parents. Name them.",
+          "answer": "Jenny and Charlie",
+          "accept": [
+            "jenny and charlie",
+            "charlie and jenny",
+            "jenny & charlie"
+          ],
+          "choices": [
+            "Jenny and Charlie",
+            "Coral and Marlin",
+            "Destiny and Bailey",
+            "Pearl and Tad"
+          ],
+          "reveal": "The correct answer is Jenny and Charlie! [sighs] They left a trail of shells for her, every single day. Grab the tissues.",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}
