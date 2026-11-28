@@ -326,7 +326,7 @@ function clue() {
       <div class="results">${c.results.map((r) => `<div style="--c:${P(r.pid)?.color}">${pname(r.pid)}: “${esc(r.heard || '—')}” ${badge(r.verdict)} <button class="secondary" style="font-size:.9vw;padding:.2vw .6vw" data-nav data-act="override" data-pid="${r.pid}" data-c="${r.verdict === 'correct' ? 0 : 1}">${r.verdict === 'correct' ? 'undo' : 'accept'}</button></div>`).join('')}</div>
       ${S.ruling ? `<div class="ruling">${S.ruling.challenge ? 'Challenge! ' : ''}${pname(S.ruling.pid)} said “${esc(S.ruling.heard)}” — ${S.ruling.by === 'moderator' ? `waiting for moderator ${pname(S.ruling.voters[0])}` : `players are voting (${S.ruling.votes}/${S.ruling.voters.length})`}…</div>` : ''}
       ${S.lastRuling && !S.ruling && S.lastRuling.pid ? `<div class="ruling">Ruling: ${badge(S.lastRuling.accept ? 'correct' : 'wrong')} ${S.lastRuling.accept ? 'ACCEPTED' : 'REJECTED'}</div>` : ''}
-      <button data-nav data-act="next" style="margin-top:1.2vw">Continue ▶</button>${okHint()}`;
+      <button data-nav data-act="next" data-default style="margin-top:1.2vw">Continue ▶</button>${okHint()}`;
   }
   return `<div class="clue ${c.media || c.palette ? 'withmedia' : ''}">
     <div class="meta"><span>${esc(c.category)}</span><span>${c.dailyDouble ? `Daily Double · ${money(c.wager ?? 0)}` : money(c.value)}</span></div>
@@ -468,12 +468,13 @@ function hostReact() {
   if (!r) return;
   hostMood(r.verdict === 'correct' ? 'celebrate' : 'wrong', 4000);
   const inFinal = !S.clue?.results?.includes(r);
-  const amount = inFinal ? S.final?.wagers?.[r.pid] ?? r.amount : r.amount;
-  if (r.verdict === 'correct') verdictBanner(r, inFinal ? r.heard : S.clue?.answer || r.heard, amount);
+  // Show the real score change: overrides and penalty settings make it differ from the clue value.
+  const delta = (P(r.pid)?.score ?? 0) - (prev.players?.find((x) => x.id === r.pid)?.score ?? 0);
+  if (r.verdict === 'correct') verdictBanner(r, inFinal ? r.heard : S.clue?.answer || r.heard, Math.max(delta, 0));
   else {
     document.body.classList.remove('glitching'); void document.body.offsetWidth; document.body.classList.add('glitching');
     setTimeout(() => document.body.classList.remove('glitching'), 800);
-    setTimeout(() => hitLectern(r.pid, 'shake', S.settings?.negatives ? amount : 0), 0);
+    setTimeout(() => hitLectern(r.pid, 'shake', Math.max(-delta, 0)), 0);
   }
 }
 function effects() {
