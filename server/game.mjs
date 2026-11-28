@@ -283,10 +283,18 @@ export class Room {
       this.setTimer(T.ddWager, () => this.wager(cp, Math.min(this.dd.max, Math.max(5, Math.floor(cp.score / 4) || 200))));
     } else {
       this.phase = 'reading';
-      this.say(hype(f.q.clue), true, this.clue.seq);
-      this.setTimer(this.readMs(f.q.clue), () => this.readDone(this.clue?.seq));
+      this.readClue(f.q.clue, this.clue.seq, () => this.readDone(this.clue?.seq));
     }
     this.broadcast();
+  }
+
+  // The reading timer starts once the clip is on its way to the TV, so a slow clip can't open buzzers early.
+  readClue(text, tag, fn) {
+    this.clearTimer();
+    const phase = this.phase, clue = this.clue;
+    Promise.resolve(this.say(hype(text), true, tag)).then(() => {
+      if (this.phase === phase && this.clue === clue && !this.timer) this.setTimer(this.readMs(text), fn);
+    });
   }
 
   readMs(text) { return 2500 + plain(text).split(/\s+/).length * 420 + (this.clue?.q.media?.type === 'video' ? 4000 : 0); }
@@ -296,8 +304,7 @@ export class Room {
       this.dd.wager = Math.max(5, Math.min(this.dd.max, Math.round(Number(amount) || 0)));
       this.clearTimer();
       this.phase = 'reading';
-      this.say(hype(this.clue.q.clue), true, this.clue.seq);
-      this.setTimer(this.readMs(this.clue.q.clue), () => this.readDone(this.clue?.seq));
+      this.readClue(this.clue.q.clue, this.clue.seq, () => this.readDone(this.clue?.seq));
       return this.broadcast();
     }
     if (this.phase === 'finalWager' && this.final.entrants.has(p.id) && !this.final.wagers.has(p.id)) {
@@ -530,8 +537,7 @@ export class Room {
   finalClue() {
     this.clearTimer();
     this.phase = 'finalClue';
-    this.say(hype(this.final.chosen.clue), true, 'final');
-    this.setTimer(this.readMs(this.final.chosen.clue), () => this.finalThink());
+    this.readClue(this.final.chosen.clue, 'final', () => this.finalThink());
     this.broadcast();
   }
 
