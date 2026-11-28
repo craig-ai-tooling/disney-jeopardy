@@ -17,20 +17,21 @@
     "reveal": "[excited] The correct answer is Bernard! Played by David Krumholtz. [laughs] He has seen a lot of new Santas."
   },
   {
-    "film": "The Nightmare Before Christmas",
-    "category": "The Nightmare Before Christmas",
-    "clue": "Jack Skellington's ghost dog has a glowing jack-o'-lantern nose. Name him.",
-    "answer": "Zero",
+    "film": "Noelle",
+    "category": "Noelle",
+    "clue": "Santa's daughter Noelle, who has to take over Christmas, is played by this Pitch Perfect star.",
+    "answer": "Anna Kendrick",
     "accept": [
-      "zero"
+      "anna kendrick",
+      "kendrick"
     ],
     "choices": [
-      "Zero",
-      "Scraps",
-      "Bones",
-      "Spooky"
+      "Anna Kendrick",
+      "Kristen Bell",
+      "Rebel Wilson",
+      "Brittany Snow"
     ],
-    "reveal": "[excited] The correct answer is Zero! [chuckles] His nose lights the way for Jack's sleigh on a foggy Christmas Eve."
+    "reveal": "[excited] The correct answer is Anna Kendrick! [laughs] Bill Hader plays her brother Nick, the Santa who ran off."
   },
   {
     "film": "Halloweentown",
@@ -50,22 +51,21 @@
     "reveal": "[excited] The correct answer is Cromwell! Grandma Aggie Cromwell, to be exact. [laughs] Witches on Mom's side."
   },
   {
-    "film": "Swiss Family Robinson",
-    "category": "Swiss Family Robinson",
-    "clue": "In 1999, Disneyland rethemed its Swiss Family Treehouse into this jungle hero's treehouse.",
-    "answer": "Tarzan",
+    "film": "Tower of Terror",
+    "category": "Tower of Terror",
+    "clue": "In the 1997 TV movie based on the ride, this Police Academy actor plays tabloid reporter Buzzy Crocker.",
+    "answer": "Steve Guttenberg",
     "accept": [
-      "tarzan",
-      "tarzan's treehouse",
-      "tarzans treehouse"
+      "steve guttenberg",
+      "guttenberg"
     ],
     "choices": [
-      "Tarzan",
-      "Mowgli",
-      "Robinson Crusoe",
-      "George of the Jungle"
+      "Steve Guttenberg",
+      "Tom Hanks",
+      "Michael Keaton",
+      "Dean Jones"
     ],
-    "reveal": "[excited] The correct answer is Tarzan! [chuckles] The Robinsons moved out and the apes moved in."
+    "reveal": "[excited] The correct answer is Steve Guttenberg! [whispers] Kirsten Dunst plays his niece. They check in, and things go down from there."
   },
   {
     "film": "A Goofy Movie",
@@ -84,21 +84,21 @@
     "reveal": "[excited] The correct answer is Roxanne! [laughs] All he had to do was ask her out."
   },
   {
-    "film": "Pollyanna",
-    "category": "Pollyanna",
-    "clue": "Hayley Mills's cheerful orphan teaches a whole town to play this optimistic game.",
-    "answer": "The Glad Game",
+    "film": "Teen Beach Movie",
+    "category": "Teen Beach Movie",
+    "clue": "Surfer Brady in Teen Beach Movie is played by this former R5 singer and Austin & Ally star.",
+    "answer": "Ross Lynch",
     "accept": [
-      "the glad game",
-      "glad game"
+      "ross lynch",
+      "lynch"
     ],
     "choices": [
-      "The Glad Game",
-      "The Happy Game",
-      "The Smile Game",
-      "The Sunny Game"
+      "Ross Lynch",
+      "Joe Jonas",
+      "Cameron Boyce",
+      "Booboo Stewart"
     ],
-    "reveal": "[excited] The correct answer is the Glad Game! [chuckles] Find something to be glad about, no matter what."
+    "reveal": "[excited] The correct answer is Ross Lynch! [laughs] Maia Mitchell co-stars as McKenzie."
   },
   {
     "film": "Camp Rock",
@@ -118,22 +118,21 @@
     "reveal": "[excited] The correct answer is Connect 3! Played by the Jonas Brothers. [laughs] Rock star, meet summer camp."
   },
   {
-    "film": "Fantasia 2000",
-    "category": "Fantasia 2000",
-    "clue": "Fantasia 2000's finale shows a spring sprite reviving a forest, set to this Stravinsky ballet suite.",
-    "answer": "The Firebird Suite",
+    "film": "Zenon: Girl of the 21st Century",
+    "category": "Zenon: Girl of the 21st Century",
+    "clue": "Zenon Kar, a teenager living on a space station in the year 2049, has this two-word catchphrase.",
+    "answer": "Zetus lapetus",
     "accept": [
-      "the firebird suite",
-      "firebird suite",
-      "the firebird",
-      "firebird"
+      "zetus lapetus",
+      "zeetus lapeetus",
+      "zetus lepetus"
     ],
     "choices": [
-      "The Firebird Suite",
-      "The Rite of Spring",
-      "Petrushka",
-      "Swan Lake"
+      "Zetus lapetus",
+      "Zoom zoom",
+      "Galaxy gazers",
+      "Hot diggity"
     ],
-    "reveal": "[excited] The correct answer is The Firebird Suite! [sighs] Fire, ash, then spring comes back."
+    "reveal": "[excited] The correct answer is Zetus lapetus! [laughs] Best catchphrase in orbit."
   }
 ]
