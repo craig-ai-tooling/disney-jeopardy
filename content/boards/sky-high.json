@@ -332,7 +332,7 @@
         },
         {
           "value": 1000,
-          "clue": "EPCOT's 180-foot sphere is covered with roughly this many triangular panels.",
+          "clue": "According to Disney, EPCOT's 180-foot sphere is covered with exactly this many triangular panels.",
           "answer": "11,324",
           "accept": [
             "11324",
