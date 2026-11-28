@@ -1,0 +1,149 @@
+[
+  {
+    "film": "Pete's Dragon",
+    "category": "Pete's Dragon",
+    "clue": "In the 1977 film, Pete and his mostly invisible dragon Elliott end up in this Maine fishing town, where Lampie keeps the lighthouse.",
+    "answer": "Passamaquoddy",
+    "accept": [
+      "passamaquoddy"
+    ],
+    "choices": [
+      "Passamaquoddy",
+      "Bar Harbor",
+      "Cape Cod",
+      "Kennebunkport"
+    ],
+    "reveal": "[dramatic pause] The correct answer is Passamaquoddy! [laughs] And Elliott saves the day by lighting the lighthouse lamp with his own fire breath."
+  },
+  {
+    "film": "The Rescuers Down Under",
+    "category": "The Rescuers Down Under",
+    "clue": "In Disney's first theatrical animated sequel, Cody rescues and befriends this rare golden eagle in the Australian Outback.",
+    "answer": "Marahute",
+    "accept": [
+      "marahute"
+    ],
+    "choices": [
+      "Marahute",
+      "Wilbur",
+      "Orville",
+      "Koolaroo"
+    ],
+    "reveal": "[dramatic pause] The correct answer is Marahute! [gasps] Those flying scenes over the Outback were a big early test of Disney's computer animation tools."
+  },
+  {
+    "film": "Home on the Range",
+    "category": "Home on the Range",
+    "clue": "The cattle rustler Alameda Slim steals whole herds by hypnotizing cows with this unusual talent.",
+    "answer": "Yodeling",
+    "accept": [
+      "yodeling",
+      "yodelling",
+      "his yodeling",
+      "yodel"
+    ],
+    "choices": [
+      "Yodeling",
+      "Whistling",
+      "Fiddle playing",
+      "Banjo picking"
+    ],
+    "reveal": "[dramatic pause] The correct answer is yodeling! [laughs] Only tone-deaf Grace the cow can resist it. Yodel-ay-hee-hoo!"
+  },
+  {
+    "film": "20,000 Leagues Under the Sea",
+    "category": "20,000 Leagues Under the Sea",
+    "clue": "In Disney's 1954 adventure, Captain Nemo's submarine Nautilus is attacked by this giant sea creature.",
+    "answer": "A giant squid",
+    "accept": [
+      "giant squid",
+      "a giant squid",
+      "squid",
+      "the squid",
+      "kraken"
+    ],
+    "choices": [
+      "A giant squid",
+      "A great white shark",
+      "A sea serpent",
+      "A blue whale"
+    ],
+    "reveal": "[dramatic pause] The correct answer is a giant squid! [gasps] That battle helped the movie win an Oscar for special effects."
+  },
+  {
+    "film": "Swiss Family Robinson",
+    "category": "Swiss Family Robinson",
+    "clue": "After a shipwreck in this 1960 film, the Robinson family builds an amazing home in this kind of place.",
+    "answer": "A treehouse",
+    "accept": [
+      "treehouse",
+      "a treehouse",
+      "tree house",
+      "a tree house",
+      "in a tree"
+    ],
+    "choices": [
+      "A treehouse",
+      "A cave",
+      "A sandcastle",
+      "A lighthouse"
+    ],
+    "reveal": "[dramatic pause] The correct answer is a treehouse! [excited] It inspired a real walk-through treehouse in Adventureland at Disneyland and Magic Kingdom."
+  },
+  {
+    "film": "Pirates of the Caribbean: The Curse of the Black Pearl",
+    "category": "Pirates of the Caribbean: The Curse of the Black Pearl",
+    "clue": "Captain Barbossa and his crew are cursed after stealing this, and they turn into skeletons in the moonlight.",
+    "answer": "Aztec gold",
+    "accept": [
+      "aztec gold",
+      "cursed aztec gold",
+      "the aztec gold",
+      "gold",
+      "aztec coins",
+      "cursed gold"
+    ],
+    "choices": [
+      "Aztec gold",
+      "Spanish silver",
+      "The Heart of Davy Jones",
+      "The Trident of Poseidon"
+    ],
+    "reveal": "[dramatic pause] The correct answer is Aztec gold! [whispers] Every last piece had to be returned, with blood repaid. [laughs] Spooky!"
+  },
+  {
+    "film": "Monsters University",
+    "category": "Monsters University",
+    "clue": "Mike and Sulley join this nerdy fraternity to compete in the Scare Games.",
+    "answer": "Oozma Kappa",
+    "accept": [
+      "oozma kappa",
+      "ok",
+      "o.k."
+    ],
+    "choices": [
+      "Oozma Kappa",
+      "Roar Omega Roar",
+      "Python Nu Kappa",
+      "Jaws Theta Chi"
+    ],
+    "reveal": "[dramatic pause] The correct answer is Oozma Kappa! [laughs] OK for short. Not great at scaring, but great friends."
+  },
+  {
+    "film": "Wish",
+    "category": "Wish",
+    "clue": "Asha lives in the kingdom of Rosas, ruled by this sorcerer king who keeps everyone's wishes locked away.",
+    "answer": "King Magnifico",
+    "accept": [
+      "king magnifico",
+      "magnifico"
+    ],
+    "choices": [
+      "King Magnifico",
+      "King Frederic",
+      "King Triton",
+      "King Stefan"
+    ],
+    "reveal": "[dramatic pause] The correct answer is King Magnifico! [chuckles] Wish was released in 2023 for Disney's 100th anniversary. This is the wish!"
+  }
+]

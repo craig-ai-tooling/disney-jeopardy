@@ -1,0 +1,567 @@
+{
+  "id": "disney-cruise-line",
+  "title": "Anchors Aweigh with Disney",
+  "theme": "Disney Cruise Line",
+  "tags": [
+    "cruise",
+    "ships",
+    "parks",
+    "bahamas",
+    "travel"
+  ],
+  "intro": "[excited] All aboard, landlubbers! Tonight's episode sets sail with Disney Cruise Line: the ships, the private islands, the pirate parties and the statues in the lobby. [laughs] Life jackets optional, buzzers required!",
+  "art": {
+    "prompt": "A grand navy-and-red ocean liner with golden trim sailing across a turquoise sea at sunset, fireworks bursting above the deck, a sandy private island with palm trees and a lighthouse on the horizon Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+    "file": "media/disney-cruise-line.jpg"
+  },
+  "categories": [
+    {
+      "id": "movie-ships-ahoy",
+      "title": "Movie Ships Ahoy",
+      "kind": "film",
+      "intro": "Before the real ships, there were the movie ships. [chuckles] Name these famous Disney vessels.",
+      "format": "text",
+      "art": {
+        "prompt": "A fleet of fantastical sailing vessels on a moonlit sea: a pirate galleon with tattered black sails, a glowing solar-sail space ship, a riveted steampunk submarine and a ghostly barnacle-covered ship rising from the waves Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/disney-cruise-line--movie-ships-ahoy.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Captain Hook sails the skies and seas of Never Land aboard this pirate ship.",
+          "answer": "The Jolly Roger",
+          "accept": [
+            "jolly roger",
+            "the jolly roger"
+          ],
+          "choices": [
+            "The Jolly Roger",
+            "The Black Pearl",
+            "The Flying Dutchman",
+            "The Queen Anne's Revenge"
+          ],
+          "reveal": "[laughs] The correct answer is the Jolly Roger! Tick-tock, Captain. Mind the crocodile.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Captain Jack Sparrow's beloved ship, with its famous black sails, is called this.",
+          "answer": "The Black Pearl",
+          "accept": [
+            "black pearl",
+            "the black pearl"
+          ],
+          "choices": [
+            "The Black Pearl",
+            "The Jolly Roger",
+            "The Interceptor",
+            "The Dauntless"
+          ],
+          "reveal": "The correct answer is the Black Pearl! [excited] Fastest ship in the Caribbean, as Jack will remind you. Savvy?",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "In Treasure Planet, Jim Hawkins ships out on this solar-sailing vessel commanded by Captain Amelia.",
+          "answer": "The RLS Legacy",
+          "accept": [
+            "rls legacy",
+            "the rls legacy",
+            "legacy",
+            "the legacy"
+          ],
+          "choices": [
+            "The RLS Legacy",
+            "The Hispaniola",
+            "The Nautilus",
+            "The Montressor"
+          ],
+          "reveal": "[gasps] The correct answer is the RLS Legacy! RLS for Robert Louis Stevenson, who wrote Treasure Island. Nice touch, Disney.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In Pirates of the Caribbean, Davy Jones commands this cursed ship that can sail beneath the waves.",
+          "answer": "The Flying Dutchman",
+          "accept": [
+            "flying dutchman",
+            "the flying dutchman"
+          ],
+          "choices": [
+            "The Flying Dutchman",
+            "The Black Pearl",
+            "The Silent Mary",
+            "The Queen Anne's Revenge"
+          ],
+          "reveal": "The correct answer is the Flying Dutchman! [whispers] Part of the ship, part of the crew. Brrr.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "In Atlantis: The Lost Empire, Milo Thatch's expedition sets off in this giant submarine, named for a Greek hero.",
+          "answer": "The Ulysses",
+          "accept": [
+            "ulysses",
+            "the ulysses"
+          ],
+          "choices": [
+            "The Ulysses",
+            "The Nautilus",
+            "The Odysseus",
+            "The Leviathan"
+          ],
+          "reveal": "[impressed] The correct answer is the Ulysses! It doesn't last long against the Leviathan, but what a ride. True Disney nerd points!",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "ship-spotting",
+      "title": "Ship Spotting",
+      "kind": "media",
+      "intro": "Real photos of Disney ships out at sea. Tell me what you're looking at! [chuckles] Binoculars are allowed.",
+      "format": "picture",
+      "art": {
+        "prompt": "A pair of brass binoculars, a captain's hat and a nautical chart on a sunny ship deck railing, a distant ocean liner on a turquoise horizon Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/disney-cruise-line--ship-spotting.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Launched in 2022, this ship, shown here at Castaway Cay, is named after a song lyric from Pinocchio. Name the ship.",
+          "answer": "Disney Wish",
+          "accept": [
+            "disney wish",
+            "the disney wish",
+            "wish"
+          ],
+          "choices": [
+            "Disney Wish",
+            "Disney Dream",
+            "Disney Fantasy",
+            "Disney Magic"
+          ],
+          "reveal": "[excited] The correct answer is the Disney Wish! When you wish upon a star, apparently you get a cruise ship.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "file": "media/disney-cruise-line--ship-spotting-200.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Disney_Wish_at_Castaway_Cay_cropped.jpg",
+              "license": "Public domain",
+              "author": "Declan M. Martin"
+            }
+          }
+        },
+        {
+          "value": 400,
+          "clue": "This ship, docked at Disney's newest Bahamas island destination, is named for something you do when you sleep.",
+          "answer": "Disney Dream",
+          "accept": [
+            "disney dream",
+            "the disney dream",
+            "dream"
+          ],
+          "choices": [
+            "Disney Dream",
+            "Disney Wish",
+            "Disney Wonder",
+            "Disney Treasure"
+          ],
+          "reveal": "The correct answer is the Disney Dream! [chuckles] It launched in 2011 and brought the AquaDuck water coaster with it.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "file": "media/disney-cruise-line--ship-spotting-400.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Disney_Dream_at_Lookout_Cay.jpg",
+              "license": "CC BY-SA 4.0",
+              "author": "RickyCourtney"
+            }
+          }
+        },
+        {
+          "value": 600,
+          "clue": "The Disney Wonder sits at Prince George Wharf in this capital city, a classic Bahamas port of call.",
+          "answer": "Nassau",
+          "accept": [
+            "nassau",
+            "nassau bahamas"
+          ],
+          "choices": [
+            "Nassau",
+            "Freeport",
+            "Kingston",
+            "Havana"
+          ],
+          "reveal": "The correct answer is Nassau! [laughs] Capital of the Bahamas and a regular stop for Disney ships since the very beginning.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "file": "media/disney-cruise-line--ship-spotting-600.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Prince_George_Wharf_in_Nassau_Harbor_(Disney_Wonder).jpg",
+              "license": "CC BY-SA 3.0",
+              "author": "TampAGS, for AGS Media"
+            }
+          }
+        },
+        {
+          "value": 800,
+          "clue": "During a season Down Under, the Disney Wonder is about to pass under this famous steel arch.",
+          "answer": "The Sydney Harbour Bridge",
+          "accept": [
+            "sydney harbour bridge",
+            "sydney harbor bridge",
+            "the sydney harbour bridge",
+            "harbour bridge",
+            "harbor bridge"
+          ],
+          "choices": [
+            "The Sydney Harbour Bridge",
+            "The Golden Gate Bridge",
+            "Tower Bridge",
+            "The Brooklyn Bridge"
+          ],
+          "reveal": "[gasps] The correct answer is the Sydney Harbour Bridge! The Wonder brought Mickey's cruises to Australia and New Zealand. G'day, mate!",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "file": "media/disney-cruise-line--ship-spotting-800.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Disney_Wonder_About_to_Pass_Under_the_Sydney_Harbour_Bridge_on_Arrival.jpg",
+              "license": "CC0",
+              "author": "Dannymobs"
+            }
+          }
+        },
+        {
+          "value": 1000,
+          "clue": "Disney Adventure, the line's biggest ship, is based year-round in this Asian city-state.",
+          "answer": "Singapore",
+          "accept": [
+            "singapore"
+          ],
+          "choices": [
+            "Singapore",
+            "Hong Kong",
+            "Tokyo",
+            "Macau"
+          ],
+          "reveal": "[excited] The correct answer is Singapore! Disney Adventure is homeported there, making it the line's first ship based in Asia. True sea-dog points!",
+          "dailyDouble": true,
+          "media": {
+            "type": "image",
+            "file": "media/disney-cruise-line--ship-spotting-1000.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Disney_Adventure_Disney_Cruise_Line_(55114134961).jpg",
+              "license": "CC BY 4.0",
+              "author": "nagi usano from Tokyo, Japan"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "pirates-and-pixie-dust",
+      "title": "Pirates and Pixie Dust",
+      "kind": "theme",
+      "intro": "Daily life on board a Disney ship: the parties, the kids clubs and the dinners. [laughs] Roll call is at dinner time.",
+      "format": "text",
+      "art": {
+        "prompt": "A festive ship deck at night strung with lanterns, a pirate flag on the mast, fireworks over dark water, a dinner table with an artist's paintbrush and palette beside the plates Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/disney-cruise-line--pirates-and-pixie-dust.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "The horns of Disney's ships play the opening notes of this classic Pinocchio song.",
+          "answer": "When You Wish Upon a Star",
+          "accept": [
+            "when you wish upon a star",
+            "when you wish"
+          ],
+          "choices": [
+            "When You Wish Upon a Star",
+            "A Dream Is a Wish Your Heart Makes",
+            "Someday My Prince Will Come",
+            "It's a Small World"
+          ],
+          "reveal": "[excited] The correct answer is When You Wish Upon a Star! [laughs] Easily the most charming horn on the ocean.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "On Disney cruises, this themed night ends with a deck party and fireworks at sea. Bring your eye patch!",
+          "answer": "Pirate Night",
+          "accept": [
+            "pirate night",
+            "pirates in the caribbean",
+            "pirate party",
+            "pirates night"
+          ],
+          "choices": [
+            "Pirate Night",
+            "Princess Night",
+            "Villains Night",
+            "Luau Night"
+          ],
+          "reveal": "The correct answer is Pirate Night! [whispers] Yo ho. Disney was the first cruise line to set off fireworks at sea.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Kids head to this onboard club, a play space with themed rooms and Disney counselors.",
+          "answer": "The Oceaneer Club",
+          "accept": [
+            "oceaneer club",
+            "the oceaneer club",
+            "oceaneers club"
+          ],
+          "choices": [
+            "The Oceaneer Club",
+            "The Sea Scouts Club",
+            "The Mouseketeer Club",
+            "The Kids Cove"
+          ],
+          "reveal": "The correct answer is the Oceaneer Club! [chuckles] Parents, enjoy your quiet dinner. The kids won't want to leave.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "At this dining room, the walls start in black-and-white sketches and fill with color as the meal goes on.",
+          "answer": "Animator's Palate",
+          "accept": [
+            "animator's palate",
+            "animators palate",
+            "animator's palette",
+            "animators palette"
+          ],
+          "choices": [
+            "Animator's Palate",
+            "Lumiere's",
+            "Enchanted Garden",
+            "Royal Palace"
+          ],
+          "reveal": "[gasps] The correct answer is Animator's Palate! It opened on the Disney Magic in 1998, and now it's on every ship. The room literally comes to life.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Fan cruisers hang this pocket-filled organizer outside their stateroom door to swap small gifts with fellow passengers.",
+          "answer": "A fish extender",
+          "accept": [
+            "fish extender",
+            "a fish extender",
+            "fe",
+            "fish extenders"
+          ],
+          "choices": [
+            "A fish extender",
+            "A door pocket pal",
+            "A wave runner",
+            "A shell holder"
+          ],
+          "reveal": "[impressed] The correct answer is a fish extender! Named for the little fish decorations outside each cabin, it's a fan tradition, not an official Disney program. True cruiser points!",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "castaway-cay-days",
+      "title": "Castaway Cay Days",
+      "kind": "parks",
+      "intro": "Disney's private islands in the Bahamas. [excited] Sand between your toes and trivia in your brain!",
+      "format": "text",
+      "art": {
+        "prompt": "A sun-drenched private tropical island with a white-sand lagoon, a floating water-slide platform, hammocks between palm trees and a striped lighthouse on a rocky point Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/disney-cruise-line--castaway-cay-days.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Disney's private island Castaway Cay is in this island nation.",
+          "answer": "The Bahamas",
+          "accept": [
+            "the bahamas",
+            "bahamas"
+          ],
+          "choices": [
+            "The Bahamas",
+            "Jamaica",
+            "Bermuda",
+            "Puerto Rico"
+          ],
+          "reveal": "[excited] The correct answer is the Bahamas! Castaway Cay has welcomed Disney ships since 1998.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "In 2024, Disney opened its second Bahamas destination, Lookout Cay at Lighthouse Point, on this long, skinny island.",
+          "answer": "Eleuthera",
+          "accept": [
+            "eleuthera"
+          ],
+          "choices": [
+            "Eleuthera",
+            "Andros",
+            "Bimini",
+            "Exuma"
+          ],
+          "reveal": "The correct answer is Eleuthera! [chuckles] Pink-sand beaches and a cultural focus on Bahamian art and history.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Grown-ups escape the kids at this adults-only beach on Castaway Cay.",
+          "answer": "Serenity Bay",
+          "accept": [
+            "serenity bay"
+          ],
+          "choices": [
+            "Serenity Bay",
+            "Quiet Cove",
+            "Paradise Point",
+            "Tranquility Beach"
+          ],
+          "reveal": "The correct answer is Serenity Bay! [whispers] Shhh. It's for the adults. Ages 18 and up only.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Before Disney bought it, Castaway Cay was known by this Spanish-sounding name.",
+          "answer": "Gorda Cay",
+          "accept": [
+            "gorda cay",
+            "gorda"
+          ],
+          "choices": [
+            "Gorda Cay",
+            "Grande Cay",
+            "Bella Cay",
+            "Rosa Cay"
+          ],
+          "reveal": "[gasps] The correct answer is Gorda Cay! Disney rebranded it as Castaway Cay. Locals still remember the old name.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Swimmers at Castaway Cay can climb onto this floating platform in the family lagoon, with two water slides.",
+          "answer": "Pelican Plunge",
+          "accept": [
+            "pelican plunge"
+          ],
+          "choices": [
+            "Pelican Plunge",
+            "Flamingo Falls",
+            "Seagull Splash",
+            "Tortoise Tumble"
+          ],
+          "reveal": "[laughs] The correct answer is Pelican Plunge! It floats right out in the lagoon. Swim out, slide down, repeat until dinner.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "whos-in-the-lobby",
+      "title": "Who's in the Lobby?",
+      "kind": "fan",
+      "intro": "Every Disney ship greets you with a statue or a character mascot. Name who's waiting for you. [chuckles] Wave hello!",
+      "format": "text",
+      "art": {
+        "prompt": "A soaring ship atrium with a sweeping double staircase, a glittering chandelier, gold railings and an empty marble pedestal spotlit in the center, waiting for a statue Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/disney-cruise-line--whos-in-the-lobby.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "The Disney Wonder's atrium is home to a bronze statue of this mermaid princess.",
+          "answer": "Ariel",
+          "accept": [
+            "ariel",
+            "the little mermaid"
+          ],
+          "choices": [
+            "Ariel",
+            "Moana",
+            "Cinderella",
+            "Belle"
+          ],
+          "reveal": "[excited] The correct answer is Ariel! Fitting for a ship. [laughs] She finally got her legs AND a cruise.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "On the Disney Dream, the atrium statue shows this famous duck dressed as an admiral.",
+          "answer": "Donald Duck",
+          "accept": [
+            "donald duck",
+            "donald",
+            "admiral donald"
+          ],
+          "choices": [
+            "Donald Duck",
+            "Daisy Duck",
+            "Scrooge McDuck",
+            "Daffy Duck"
+          ],
+          "reveal": "The correct answer is Donald Duck! [chuckles] Admiral Donald. Don't ask him about the time he steered.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "The Disney Fantasy's atrium statue is Mademoiselle this character, dressed like a fancy lady of the 1920s.",
+          "answer": "Minnie Mouse",
+          "accept": [
+            "minnie mouse",
+            "minnie",
+            "mademoiselle minnie"
+          ],
+          "choices": [
+            "Minnie Mouse",
+            "Daisy Duck",
+            "Clarabelle Cow",
+            "Marie"
+          ],
+          "reveal": "The correct answer is Minnie Mouse! [laughs] Mademoiselle Minnie, very art nouveau, very chic.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "The Disney Treasure's Grand Hall features a statue of this couple from Agrabah on a magic carpet.",
+          "answer": "Aladdin and Jasmine",
+          "accept": [
+            "aladdin and jasmine",
+            "jasmine and aladdin",
+            "aladdin",
+            "jasmine"
+          ],
+          "choices": [
+            "Aladdin and Jasmine",
+            "Tiana and Naveen",
+            "Ariel and Eric",
+            "Rapunzel and Flynn"
+          ],
+          "reveal": "[gasps] The correct answer is Aladdin and Jasmine! The Treasure's theme is exotic adventure, so a carpet ride fits perfectly.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "On the stern of the Disney Magic, this goofy character dangles from a rope, painting the ship.",
+          "answer": "Goofy",
+          "accept": [
+            "goofy"
+          ],
+          "choices": [
+            "Goofy",
+            "Donald Duck",
+            "Pluto",
+            "Chip and Dale"
+          ],
+          "reveal": "[laughs] The correct answer is Goofy! Hanging off the back of the ship with a paint bucket. Gawrsh! True Disney nerd points!",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}
