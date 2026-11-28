@@ -53,6 +53,7 @@ function sendFile(req, res, file, cache = 'public, max-age=300') {
     if (range) {
       const start = range[1] ? Number(range[1]) : 0;
       const end = range[2] ? Math.min(Number(range[2]), st.size - 1) : st.size - 1;
+      if (!(start <= end && start < st.size)) { res.writeHead(416, { 'content-range': `bytes */${st.size}` }); return res.end(); }
       res.writeHead(206, { ...headers, 'content-range': `bytes ${start}-${end}/${st.size}`, 'content-length': end - start + 1 });
       return fs.createReadStream(file, { start, end }).pipe(res);
     }
@@ -138,6 +139,7 @@ wss.on('connection', (ws, req) => {
   }
   ws.on('message', (data) => {
     let m; try { m = JSON.parse(data); } catch { return; }
+    if (!m || typeof m !== 'object' || typeof m.t !== 'string') return;
     if (m.t === 'ping') return ws.send(JSON.stringify({ t: 'pong', at: m.at, now: Date.now() }));
     try { role === 'tv' ? room.onTv(m) : room.onPlayer(ws, m); } catch (e) { console.error(`ws ${m.t}: ${e.stack}`); }
   });
@@ -145,6 +147,7 @@ wss.on('connection', (ws, req) => {
 });
 setInterval(() => { for (const ws of wss.clients) { if (!ws.isAlive) { ws.terminate(); continue; } ws.isAlive = false; ws.ping(); } }, 20000).unref();
 
+process.on('uncaughtException', (e) => console.error(`uncaught: ${e.stack}`));
 process.on('SIGHUP', () => { content = loadContent(); rooms.content = content; console.log('content reloaded'); });
 for (const sig of ['SIGTERM', 'SIGINT']) process.on(sig, () => { store.save(); setTimeout(() => process.exit(0), 600); });
 server.listen(PORT, () => console.log(`disney-jeopardy on :${PORT}`));
