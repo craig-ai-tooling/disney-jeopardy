@@ -1,0 +1,545 @@
+{
+  "id": "sweet-tooth",
+  "title": "Sweet Tooth",
+  "theme": "Desserts in the parks and candy on screen",
+  "tags": [
+    "desserts",
+    "candy",
+    "snacks",
+    "parks food"
+  ],
+  "intro": "[excited] Grab a spoon and loosen that belt, because tonight's board is Sweet Tooth! [laughs] Every clue is a dessert, a treat, or a piece of movie candy. Dentists, please look away.",
+  "art": {
+    "prompt": "A towering candy-colored dessert landscape with soft-serve swirl mountains, a river of chocolate, churro bridges, gumdrop trees and a pineapple sun setting over a sprinkle-covered park street Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+    "file": "media/sweet-tooth.jpg"
+  },
+  "categories": [
+    {
+      "id": "beignet-there",
+      "title": "Beignet There, Done That",
+      "kind": "film",
+      "intro": "Our film category is The Princess and the Frog, a movie so tasty you should watch it with a napkin. [chuckles] Powdered sugar everywhere.",
+      "format": "text",
+      "art": {
+        "prompt": "A steamy New Orleans café counter at dawn piled high with powdered-sugar beignets, a brass trumpet resting nearby, wrought-iron balconies and a riverboat visible through the window Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/sweet-tooth--beignet-there.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Tiana's famous fried pastries, covered in powdered sugar.",
+          "answer": "Beignets",
+          "accept": [
+            "beignets",
+            "beignet"
+          ],
+          "choices": [
+            "Beignets",
+            "Donuts",
+            "Churros",
+            "Croissants"
+          ],
+          "reveal": "The correct answer is beignets! [cheerful] Say it with me: ben-YAYS. Now say it with powdered sugar on your shirt.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "The Princess and the Frog is set in this Louisiana city.",
+          "answer": "New Orleans",
+          "accept": [
+            "new orleans",
+            "nola"
+          ],
+          "choices": [
+            "New Orleans",
+            "Baton Rouge",
+            "Lafayette",
+            "Shreveport"
+          ],
+          "reveal": "The correct answer is New Orleans! [excited] The Big Easy. Easy on jazz, very hard on diets.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Big Daddy La Bouff gets crowned king of the parade during this festival.",
+          "answer": "Mardi Gras",
+          "accept": [
+            "mardi gras"
+          ],
+          "choices": [
+            "Mardi Gras",
+            "Jazz Fest",
+            "Carnival of Lights",
+            "Bayou Days"
+          ],
+          "reveal": "The correct answer is Mardi Gras! [laughs] King for a day, and Charlotte is princess until midnight. Royal deadlines are brutal.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Louis the alligator dreams of playing this jazz instrument.",
+          "answer": "The trumpet",
+          "accept": [
+            "the trumpet",
+            "trumpet"
+          ],
+          "choices": [
+            "The trumpet",
+            "The saxophone",
+            "The trombone",
+            "The clarinet"
+          ],
+          "reveal": "The correct answer is the trumpet! [chuckles] A gator who just wants to play jazz with the big boys. Dream big, Louis.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Charlotte's rich and jolly dad, Big Daddy La Bouff, has this first name.",
+          "answer": "Eli",
+          "accept": [
+            "eli"
+          ],
+          "choices": [
+            "Eli",
+            "Earl",
+            "Elmer",
+            "Eugene"
+          ],
+          "reveal": "[impressed] The correct answer is Eli! Eli Big Daddy La Bouff. He loves Tiana's beignets more than anyone in town.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "candy-cinema",
+      "title": "Candy Coated Cinema",
+      "kind": "theme",
+      "intro": "Sweets on the silver screen! [mischievously] I hope nobody snuck any candy into this studio. I'm watching you.",
+      "format": "text",
+      "art": {
+        "prompt": "A retro movie-theater concession stand overflowing with lollipops, candy canes, chocolate bars and giant popsicles, a glowing projector beam cutting through the dark Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/sweet-tooth--candy-cinema.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Mary Poppins sings that a spoonful of sugar helps this go down.",
+          "answer": "The medicine",
+          "accept": [
+            "the medicine",
+            "medicine"
+          ],
+          "choices": [
+            "The medicine",
+            "The vegetables",
+            "The bedtime",
+            "The bathwater"
+          ],
+          "reveal": "The correct answer is the medicine! [cheerful] In the most delightful way. Mary Poppins: practically perfect AND a pharmacist.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "In Up, Russell lures the giant bird Kevin with this sweet snack.",
+          "answer": "Chocolate",
+          "accept": [
+            "chocolate",
+            "a chocolate bar",
+            "chocolate bar"
+          ],
+          "choices": [
+            "Chocolate",
+            "Grapes",
+            "Trail mix",
+            "A granola bar"
+          ],
+          "reveal": "The correct answer is chocolate! [laughs] Kevin will follow ANYONE with chocolate. Same, Kevin. Same.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "This lisping ruler of Sugar Rush turns out to be the racing villain Turbo.",
+          "answer": "King Candy",
+          "accept": [
+            "king candy"
+          ],
+          "choices": [
+            "King Candy",
+            "Sour Bill",
+            "Taffyta Muttonfudge",
+            "Wynchel"
+          ],
+          "reveal": "The correct answer is King Candy! [gasps] Sweet on the outside, glitchy on the inside. Watch your back, Vanellope.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In Wreck-It Ralph, Ralph and Vanellope build her race car at this candy-themed mini game.",
+          "answer": "The Kart Bakery",
+          "accept": [
+            "the kart bakery",
+            "kart bakery"
+          ],
+          "choices": [
+            "The Kart Bakery",
+            "Gumdrop Garage",
+            "The Cake Factory",
+            "Sugar Speedway"
+          ],
+          "reveal": "The correct answer is the Kart Bakery! [chuckles] Wreck-It Ralph baking a car... the frosting job was DEFINITELY creative.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "In Zootopia, Nick Wilde melts a giant Jumbo-pop to make and sell these.",
+          "answer": "Pawpsicles",
+          "accept": [
+            "pawpsicles",
+            "pawpsicle"
+          ],
+          "choices": [
+            "Pawpsicles",
+            "Pawfaits",
+            "Carrot pops",
+            "Jumbo bites"
+          ],
+          "reveal": "[impressed] The correct answer is pawpsicles! [sarcastic] Totally legal hustle. Sold back to lemmings for a nice profit.",
+          "dailyDouble": true
+        }
+      ]
+    },
+    {
+      "id": "sweet-rhyme-time",
+      "title": "Sweet Rhyme Time",
+      "kind": "media",
+      "intro": "Each answer is a Disney name plus a dessert that rhymes with it. [laughs] Yes, they get silly. That's the point.",
+      "format": "text",
+      "art": {
+        "prompt": "Playful floating desserts arranged in matching pairs: a flan, a funnel cake, a fondue pot, a gelato cup and a stack of candy bars, bouncing on a pastel rhyme-like rainbow Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/sweet-tooth--sweet-rhyme-time.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "The Lion King's villain plus chocolate candy treats.",
+          "answer": "Scar Bars",
+          "accept": [
+            "scar bars",
+            "scar bar"
+          ],
+          "choices": [
+            "Scar Bars",
+            "Nala Bars",
+            "Simba Sundaes",
+            "Scar Cake"
+          ],
+          "reveal": "The correct answer is Scar Bars! [mischievously] Long live the king... of chocolate.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Mickey's pet dog plus Italian ice cream.",
+          "answer": "Pluto Gelato",
+          "accept": [
+            "pluto gelato"
+          ],
+          "choices": [
+            "Pluto Gelato",
+            "Goofy Gelato",
+            "Pluto Sorbet",
+            "Pluto Tomato"
+          ],
+          "reveal": "The correct answer is Pluto Gelato! [cheerful] It comes with a bone. No. Wait. Please don't add a bone.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "A heroine who saved China plus a wobbly caramel custard.",
+          "answer": "Mulan Flan",
+          "accept": [
+            "mulan flan"
+          ],
+          "choices": [
+            "Mulan Flan",
+            "Mulan Pudding",
+            "Mushu Flan",
+            "Moana Flan"
+          ],
+          "reveal": "The correct answer is Mulan Flan! [laughs] Brings honor to us all. And dessert.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "A princess with long golden hair plus a fried fair dessert, minus the word cake.",
+          "answer": "Rapunzel Funnel",
+          "accept": [
+            "rapunzel funnel",
+            "rapunzel funnel cake"
+          ],
+          "choices": [
+            "Rapunzel Funnel",
+            "Rapunzel Churro",
+            "Pascal Funnel",
+            "Flynn Funnel"
+          ],
+          "reveal": "The correct answer is Rapunzel Funnel! [chuckles] Seventy feet of powdered sugar, braided.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "The Jungle Book's bear plus a pot of melted chocolate for dipping.",
+          "answer": "Baloo Fondue",
+          "accept": [
+            "baloo fondue"
+          ],
+          "choices": [
+            "Baloo Fondue",
+            "Bagheera Fondue",
+            "Baloo Mousse",
+            "Kaa Fondue"
+          ],
+          "reveal": "[excited] The correct answer is Baloo Fondue! Look for the bare necessities... like a skewer and a strawberry.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "snap-a-snack",
+      "title": "Snap a Snack",
+      "kind": "parks",
+      "intro": "Real park treats, real photos. [whispers] Do not lick the screen. I'm serious, we just cleaned it.",
+      "format": "picture",
+      "art": {
+        "prompt": "A sunny theme-park snack cart on a festive street with striped awning, a frosty display case of ice cream bars, cinnamon churros in a rack and pineapple soft-serve in cups Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/sweet-tooth--snap-a-snack.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "These Disneyland favorites are fried and rolled in this sweet coating.",
+          "answer": "Cinnamon sugar",
+          "accept": [
+            "cinnamon sugar",
+            "cinnamon and sugar"
+          ],
+          "choices": [
+            "Cinnamon sugar",
+            "Powdered sugar",
+            "Rainbow sprinkles",
+            "Caramel drizzle"
+          ],
+          "reveal": "The correct answer is cinnamon sugar! [cheerful] The churro: the official snack of standing in line.",
+          "media": {
+            "type": "image",
+            "file": "media/sweet-tooth--snap-a-snack-200.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Disneyland_Churros.jpg",
+              "license": "CC BY 2.0",
+              "author": "punctuated"
+            }
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Under the chocolate coating, the classic Mickey ice cream bar is this flavor.",
+          "answer": "Vanilla",
+          "accept": [
+            "vanilla",
+            "vanilla ice cream"
+          ],
+          "choices": [
+            "Vanilla",
+            "Strawberry",
+            "Cookies and cream",
+            "Chocolate"
+          ],
+          "reveal": "The correct answer is vanilla! [laughs] Pro tip: eat the ears first. Speed matters in Florida heat.",
+          "media": {
+            "type": "image",
+            "file": "media/sweet-tooth--snap-a-snack-400.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Three_Mickey_Mouse_Ice_Cream_Bars.jpg",
+              "license": "CC BY 2.0",
+              "author": "rickpilot_2000"
+            }
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "At Magic Kingdom, you can get a pineapple Dole Whip float like this one at this Adventureland stand.",
+          "answer": "Aloha Isle",
+          "accept": [
+            "aloha isle"
+          ],
+          "choices": [
+            "Aloha Isle",
+            "Sunshine Tree Terrace",
+            "Tortuga Tavern",
+            "Tropical Hideaway"
+          ],
+          "reveal": "The correct answer is Aloha Isle! [excited] Right next to the Enchanted Tiki Room. The birds sing, you slurp.",
+          "media": {
+            "type": "image",
+            "file": "media/sweet-tooth--snap-a-snack-600.jpg",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Dole_Whip_Float_Disneyland_2014.jpg",
+              "license": "CC BY-SA 4.0",
+              "author": "Patrick Pelletier"
+            }
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "This eight-scoop sundae served in a mini sink is the star dessert at Beaches and Cream Soda Shop.",
+          "answer": "The Kitchen Sink",
+          "accept": [
+            "the kitchen sink",
+            "kitchen sink"
+          ],
+          "choices": [
+            "The Kitchen Sink",
+            "The Bathtub Sundae",
+            "The Mount Mayday",
+            "The Beach Bucket"
+          ],
+          "reveal": "The correct answer is the Kitchen Sink! [gasps] Eight scoops, every topping, and a whole can of whipped cream. Bring friends. Lots of friends.",
+          "media": {
+            "type": "image",
+            "prompt": "A giant ice cream sundae served in a shiny miniature metal kitchen sink, overflowing with scoops, whipped cream, cherries, brownie chunks and colorful sprinkles, on a retro soda shop counter, no people or characters",
+            "file": "media/sweet-tooth--snap-a-snack-800.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Served at Gaston's Tavern, this frozen apple drink with toasted marshmallow and passion fruit-mango foam is named for Gaston's sidekick.",
+          "answer": "LeFou's Brew",
+          "accept": [
+            "lefou's brew",
+            "lefous brew",
+            "le fou's brew"
+          ],
+          "choices": [
+            "LeFou's Brew",
+            "Gaston's Grog",
+            "Belle's Brew",
+            "Village Cider"
+          ],
+          "reveal": "[impressed] The correct answer is LeFou's Brew! [chuckles] Nobody sips like LeFou, nobody slurps like LeFou...",
+          "media": {
+            "type": "image",
+            "prompt": "A rustic wooden tavern table with a hefty foaming stein of pale frozen apple drink topped with orange foam, antlers on the stone wall behind, a crackling fireplace, no people or characters",
+            "file": "media/sweet-tooth--snap-a-snack-1000.jpg"
+          },
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "sweets-and-treats",
+      "title": "Sweets and Treats Trivia",
+      "kind": "fan",
+      "intro": "Our wildcard is for the snack planners who choose their park day by the dessert menu. [laughs] You know who you are.",
+      "format": "text",
+      "art": {
+        "prompt": "A whimsical bakery window with giant chocolate chip cookies, frosted pastries, caramel bubbling in a copper kettle, and toaster pastries cooling on a gingham cloth Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/sweet-tooth--sweets-and-treats.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Disney breakfast waffles are famously shaped like this character's head.",
+          "answer": "Mickey Mouse",
+          "accept": [
+            "mickey mouse",
+            "mickey"
+          ],
+          "choices": [
+            "Mickey Mouse",
+            "Minnie Mouse",
+            "Donald Duck",
+            "Goofy"
+          ],
+          "reveal": "The correct answer is Mickey Mouse! [cheerful] Three circles, maximum syrup storage. Engineering!",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Named for a Mary Poppins song, this bakery cafe sits on Disneyland's Main Street, U.S.A.",
+          "answer": "Jolly Holiday Bakery Cafe",
+          "accept": [
+            "jolly holiday bakery cafe",
+            "jolly holiday",
+            "jolly holiday bakery"
+          ],
+          "choices": [
+            "Jolly Holiday Bakery Cafe",
+            "Spoonful of Sugar Cafe",
+            "Chim Chim Bakery",
+            "Supercalifragilistic Sweets"
+          ],
+          "reveal": "The correct answer is Jolly Holiday Bakery Cafe! [chuckles] Penguin waiters not included.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "At Woody's Lunch Box in Toy Story Land, these homemade toaster-style pastries are a fan favorite.",
+          "answer": "Lunch Box Tarts",
+          "accept": [
+            "lunch box tarts",
+            "lunchbox tarts",
+            "lunch box tart"
+          ],
+          "choices": [
+            "Lunch Box Tarts",
+            "Pizza Planet Pies",
+            "Rex's Roll-Ups",
+            "Bo Peep's Biscuits"
+          ],
+          "reveal": "The correct answer is Lunch Box Tarts! [excited] Like the toaster pastry from your childhood, but way better.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "This Disney Springs bakery is known for giant half-pound cookies and very long lines.",
+          "answer": "Gideon's Bakehouse",
+          "accept": [
+            "gideon's bakehouse",
+            "gideons bakehouse",
+            "gideon's"
+          ],
+          "choices": [
+            "Gideon's Bakehouse",
+            "Erin McKenna's Bakery",
+            "Amorette's Patisserie",
+            "Sprinkles"
+          ],
+          "reveal": "The correct answer is Gideon's Bakehouse! [sighs] The line moves slowly, but those cookies weigh as much as a small cat.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Presented by Werther's Original, this sweet shop in EPCOT's Germany pavilion is all about caramel.",
+          "answer": "Karamell-Küche",
+          "accept": [
+            "karamell-küche",
+            "karamell kuche",
+            "karamell-kuche",
+            "karamell küche"
+          ],
+          "choices": [
+            "Karamell-Küche",
+            "Kringla Bakeri og Kafe",
+            "Sommerfest",
+            "Les Halles Boulangerie-Patisserie"
+          ],
+          "reveal": "[impressed] The correct answer is Karamell-Küche! That means caramel kitchen. [laughs] Germany: home of engineering and sticky fingers.",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}

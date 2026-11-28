@@ -1,0 +1,529 @@
+{
+  "id": "nightmare-before-bedtime",
+  "title": "The Nightmare Before Bedtime",
+  "theme": "Lullabies, bedtime, dreams and nighttime spectaculars",
+  "tags": [
+    "bedtime",
+    "lullabies",
+    "dreams",
+    "nighttime"
+  ],
+  "intro": "[whispers] Shhh... jammies on, lights low, and nobody fall asleep on the buzzer. [excited] Welcome to The Nightmare Before Bedtime, where every clue is about lullabies, dreams, and the things that go BOOM in the night!",
+  "art": {
+    "prompt": "A moonlit fairy-tale bedroom window opening onto a starry night sky full of fireworks and drifting dream clouds, a glowing nightlight, a crescent moon, a cozy quilt and a storybook on the windowsill Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+    "file": "media/nightmare-before-bedtime.jpg"
+  },
+  "categories": [
+    {
+      "id": "scare-floor",
+      "title": "Night Shift at the Scare Floor",
+      "kind": "film",
+      "intro": "Our film category clocks in after bedtime, when the closet doors start glowing. [whispers] Check under your bed... just in case.",
+      "format": "text",
+      "art": {
+        "prompt": "A vast industrial factory floor at night lined with rows of free-standing bedroom closet doors, glowing red lights above each door, yellow scream canisters on racks, and a conveyor of doors disappearing into the dark Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/nightmare-before-bedtime--scare-floor.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In Monsters, Inc., the monster city is powered by collecting children's... what?",
+          "answer": "Screams",
+          "accept": [
+            "screams",
+            "scream",
+            "children's screams"
+          ],
+          "choices": [
+            "Screams",
+            "Laughs",
+            "Dreams",
+            "Tears"
+          ],
+          "reveal": "The correct answer is screams! [laughs] Until they discover laughs are ten times more powerful. Comedy: the renewable energy of the future.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Sulley is the nickname of this top scarer, whose full name starts with James P.",
+          "answer": "James P. Sullivan",
+          "accept": [
+            "james p. sullivan",
+            "james p sullivan",
+            "james sullivan",
+            "sullivan"
+          ],
+          "choices": [
+            "James P. Sullivan",
+            "James P. Waternoose",
+            "James P. Wazowski",
+            "James P. Boggs"
+          ],
+          "reveal": "The correct answer is James P. Sullivan! [cheerful] Big, blue, furry... and a total softie at heart.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "George Sanderson triggers a 2319 alert and gets shaved when he comes back with one of these stuck to his fur.",
+          "answer": "A sock",
+          "accept": [
+            "a sock",
+            "sock",
+            "a child's sock"
+          ],
+          "choices": [
+            "A sock",
+            "A shoe",
+            "A mitten",
+            "A hair bow"
+          ],
+          "reveal": "The correct answer is a sock! [gasps] Twenty three nineteen! One tiny sock and the whole CDA swoops in. Poor George.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Mike's girlfriend, the snake-haired receptionist at Monsters, Inc.",
+          "answer": "Celia",
+          "accept": [
+            "celia",
+            "celia mae"
+          ],
+          "choices": [
+            "Celia",
+            "Roz",
+            "Medusa",
+            "Fungus"
+          ],
+          "reveal": "The correct answer is Celia! [mischievously] Her hair literally hisses when Mike's late for dinner. Schmoopsie-poo!",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Exiled to the Himalayas, the Abominable Snowman offers Mike and Sulley yellow snow cones in this flavor.",
+          "answer": "Lemon",
+          "accept": [
+            "lemon"
+          ],
+          "choices": [
+            "Lemon",
+            "Banana",
+            "Pineapple",
+            "Mango"
+          ],
+          "reveal": "[laughs] The correct answer is lemon! Don't worry, they're just lemon. The Yeti is voiced by Pixar good luck charm John Ratzenberger.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "rock-a-bye",
+      "title": "Rock-a-Bye Bop",
+      "kind": "theme",
+      "intro": "Name the Disney song from the cozy clue. [sighs] If anybody starts crying, it's totally allowed in this category.",
+      "format": "text",
+      "art": {
+        "prompt": "A gently swaying cradle under a canopy of stars, a music box with tiny dancers, soft lullaby notes drifting like fireflies over a sleepy circus tent in the distance Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/nightmare-before-bedtime--rock-a-bye.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Jiminy Cricket sings this dreamy song about wishing on a star at night in Pinocchio.",
+          "answer": "When You Wish Upon a Star",
+          "accept": [
+            "when you wish upon a star",
+            "when you wish"
+          ],
+          "choices": [
+            "When You Wish Upon a Star",
+            "Give a Little Whistle",
+            "I've Got No Strings",
+            "Hi-Diddle-Dee-Dee"
+          ],
+          "reveal": "The correct answer is When You Wish Upon a Star! [sighs] It won the Oscar in 1941 and became the Disney theme song. No pressure, little cricket.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Cinderella sings this song about dreams while getting ready for her chores.",
+          "answer": "A Dream Is a Wish Your Heart Makes",
+          "accept": [
+            "a dream is a wish your heart makes",
+            "a dream is a wish"
+          ],
+          "choices": [
+            "A Dream Is a Wish Your Heart Makes",
+            "Once Upon a Dream",
+            "So This Is Love",
+            "Bibbidi-Bobbidi-Boo"
+          ],
+          "reveal": "The correct answer is A Dream Is a Wish Your Heart Makes! [cheerful] Ilene Woods won the role of Cinderella with her demo of this song.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "In Frozen 2, Queen Iduna sings young Elsa and Anna to sleep with this lullaby about a magical river.",
+          "answer": "All Is Found",
+          "accept": [
+            "all is found"
+          ],
+          "choices": [
+            "All Is Found",
+            "Into the Unknown",
+            "Show Yourself",
+            "Some Things Never Change"
+          ],
+          "reveal": "The correct answer is All Is Found! [whispers] Where the north wind meets the sea... Mom's lullaby turned out to be a treasure map.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Mary Poppins uses reverse psychology to get Jane and Michael to sleep with this lullaby.",
+          "answer": "Stay Awake",
+          "accept": [
+            "stay awake"
+          ],
+          "choices": [
+            "Stay Awake",
+            "Feed the Birds",
+            "A Spoonful of Sugar",
+            "Chim Chim Cher-ee"
+          ],
+          "reveal": "[mischievously] The correct answer is Stay Awake! Tell kids to stay up and they're snoring in seconds. Practically perfect parenting.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Phil Collins won an Oscar for this song, sung as a lullaby by Kala the gorilla.",
+          "answer": "You'll Be in My Heart",
+          "accept": [
+            "you'll be in my heart",
+            "youll be in my heart"
+          ],
+          "choices": [
+            "You'll Be in My Heart",
+            "Two Worlds",
+            "Strangers Like Me",
+            "Son of Man"
+          ],
+          "reveal": "The correct answer is You'll Be in My Heart! [excited] From Tarzan, 1999. Phil originally wrote it as a lullaby for his own daughter.",
+          "dailyDouble": true
+        }
+      ]
+    },
+    {
+      "id": "bedrooms",
+      "title": "Whose Room Is It Anyway?",
+      "kind": "media",
+      "intro": "Look at the bedroom and name the movie. [laughs] I promise we did NOT check under the bed first.",
+      "format": "picture",
+      "art": {
+        "prompt": "A long hallway of mysterious bedroom doors at night, each glowing a different color from beneath, a night sky visible through a round window, toys peeking from shadows Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/nightmare-before-bedtime--bedrooms.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Name the movie whose bedroom this is.",
+          "answer": "Toy Story",
+          "accept": [
+            "toy story"
+          ],
+          "choices": [
+            "Toy Story",
+            "Toy Story 4",
+            "Inside Out",
+            "Up"
+          ],
+          "reveal": "The correct answer is Toy Story! [laughs] Andy's cloud wallpaper is so famous it shows up in Pixar Easter eggs everywhere.",
+          "media": {
+            "type": "image",
+            "prompt": "A boy's bedroom with blue walls painted with fluffy white clouds, a wooden toy chest at the foot of a small bed, a cowboy hat hanging on the bedpost and a toy rocket on the shelf, morning light, no people or characters",
+            "file": "media/nightmare-before-bedtime--bedrooms-200.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "This moonlit nursery belongs to which movie?",
+          "answer": "Peter Pan",
+          "accept": [
+            "peter pan"
+          ],
+          "choices": [
+            "Peter Pan",
+            "Mary Poppins",
+            "One Hundred and One Dalmatians",
+            "The Great Mouse Detective"
+          ],
+          "reveal": "The correct answer is Peter Pan! [excited] Second star to the right... the Darling nursery is where it all takes off.",
+          "media": {
+            "type": "image",
+            "prompt": "A cozy Edwardian London nursery at night with three small beds, a wide open window with fluttering curtains, a great clock tower and full moon outside, a dog's kennel-style bed in the corner, no people or characters",
+            "file": "media/nightmare-before-bedtime--bedrooms-400.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "A hallway of glowing magical bedroom doors. Name the movie.",
+          "answer": "Encanto",
+          "accept": [
+            "encanto"
+          ],
+          "choices": [
+            "Encanto",
+            "Coco",
+            "Wish",
+            "Raya and the Last Dragon"
+          ],
+          "reveal": "The correct answer is Encanto! [chuckles] Every Madrigal gets a magic door and a dream bedroom. Except Mirabel. We don't talk about that.",
+          "media": {
+            "type": "image",
+            "prompt": "A candlelit upstairs hallway of a colorful Colombian hacienda at night, a row of carved wooden doors each glowing with a different shimmering color, yellow butterflies drifting near a glowing candle, terracotta tiles, no people or characters",
+            "file": "media/nightmare-before-bedtime--bedrooms-600.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Seven tiny beds tucked under the rafters. Name the movie.",
+          "answer": "Snow White and the Seven Dwarfs",
+          "accept": [
+            "snow white and the seven dwarfs",
+            "snow white"
+          ],
+          "choices": [
+            "Snow White and the Seven Dwarfs",
+            "Pinocchio",
+            "The Sword in the Stone",
+            "Sleeping Beauty"
+          ],
+          "reveal": "The correct answer is Snow White and the Seven Dwarfs! [chuckles] Seven beds, seven nightcaps, and one very full washing line.",
+          "media": {
+            "type": "image",
+            "prompt": "A cozy wooden cottage loft under sloping rafters with seven tiny carved wooden beds in a row, each with a patchwork quilt and a nightcap on the pillow, a candle on a small stool, forest light through a window, no people or characters",
+            "file": "media/nightmare-before-bedtime--bedrooms-800.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Painted walls and a window high above the forest. Name the movie.",
+          "answer": "Tangled",
+          "accept": [
+            "tangled"
+          ],
+          "choices": [
+            "Tangled",
+            "Brave",
+            "Frozen",
+            "Beauty and the Beast"
+          ],
+          "reveal": "The correct answer is Tangled! [gasps] Those walls were painted by someone with WAY too much free time and WAY too much hair.",
+          "media": {
+            "type": "image",
+            "prompt": "The inside of a tall stone tower room with every wall and ceiling covered in colorful hand-painted murals of suns and flowers, an open window high above a forest, paint pots and a frying pan on a table, no people or characters",
+            "file": "media/nightmare-before-bedtime--bedrooms-1000.jpg"
+          },
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "lights-out",
+      "title": "Lights Out, Spectacular!",
+      "kind": "parks",
+      "intro": "After dark, the parks turn the volume all the way up. [excited] Fireworks, fountains, and the occasional fire-breathing dragon!",
+      "format": "text",
+      "art": {
+        "prompt": "A fairy-tale castle at night silhouetted against an explosion of fireworks over a lagoon, water fountains lit purple and gold, colorful projections dancing on the mist Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/nightmare-before-bedtime--lights-out.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "The castle at Disneyland Park is named for this sleepy princess.",
+          "answer": "Sleeping Beauty",
+          "accept": [
+            "sleeping beauty",
+            "aurora",
+            "princess aurora"
+          ],
+          "choices": [
+            "Sleeping Beauty",
+            "Cinderella",
+            "Snow White",
+            "Belle"
+          ],
+          "reveal": "The correct answer is Sleeping Beauty! [cheerful] Sleeping Beauty Castle opened with the park in 1955. Very well rested, that castle.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "This nighttime water show lights up Paradise Bay at Disney California Adventure with fountains, mist screens and color.",
+          "answer": "World of Color",
+          "accept": [
+            "world of color"
+          ],
+          "choices": [
+            "World of Color",
+            "Fantasmic!",
+            "Paint the Night",
+            "Disney Dreams!"
+          ],
+          "reveal": "The correct answer is World of Color! [excited] Front row tip: you WILL get wet. Bring a poncho and a sense of humor.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "This EPCOT nighttime spectacular, subtitled The Symphony of Us, debuted in December 2023.",
+          "answer": "Luminous",
+          "accept": [
+            "luminous",
+            "luminous the symphony of us"
+          ],
+          "choices": [
+            "Luminous",
+            "Harmonious",
+            "EPCOT Forever",
+            "Illuminations"
+          ],
+          "reveal": "The correct answer is Luminous! [excited] It replaced Harmonious over World Showcase Lagoon.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Magic Kingdom's fireworks show for Walt Disney World's 50th anniversary, from 2021 to 2023, was called this.",
+          "answer": "Disney Enchantment",
+          "accept": [
+            "disney enchantment",
+            "enchantment"
+          ],
+          "choices": [
+            "Disney Enchantment",
+            "Happily Ever After",
+            "Wishes",
+            "Fantasy in the Sky"
+          ],
+          "reveal": "The correct answer is Disney Enchantment! [sighs] Then Happily Ever After came back, and the internet cried happy tears.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "This Disneyland Paris nighttime show ran from 2012 to 2017 for the park's 20th anniversary, before Disney Illuminations.",
+          "answer": "Disney Dreams!",
+          "accept": [
+            "disney dreams",
+            "disney dreams!",
+            "dreams"
+          ],
+          "choices": [
+            "Disney Dreams!",
+            "Disney Illuminations",
+            "Disney Enchantment",
+            "Wonderful World of Disney"
+          ],
+          "reveal": "[impressed] The correct answer is Disney Dreams! Peter Pan's shadow tied the whole show together. True nerds just nodded.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "counting-sheep",
+      "title": "Counting Sheep",
+      "kind": "fan",
+      "intro": "Our wildcard is all about dreams and the land of nod. [mischievously] Try not to yawn... I can SEE you yawning.",
+      "format": "text",
+      "art": {
+        "prompt": "Fluffy cartoon sheep leaping over a crescent moon in a dreamy purple sky, a pocket watch melting slightly, a rabbit hole swirling with stars below, a giant feather pillow drifting Original illustration, 16:9, rich saturated colors, cinematic lighting, no people, no characters, no text, no logos.",
+        "file": "media/nightmare-before-bedtime--counting-sheep.jpg"
+      },
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This yawning dwarf can barely keep his eyes open in Snow White and the Seven Dwarfs.",
+          "answer": "Sleepy",
+          "accept": [
+            "sleepy"
+          ],
+          "choices": [
+            "Sleepy",
+            "Dopey",
+            "Bashful",
+            "Happy"
+          ],
+          "reveal": "The correct answer is Sleepy! [yawns] Sorry... sorry. He's the patron saint of this whole category.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Peter Pan's directions to Neverland: second star to the right and straight on till this.",
+          "answer": "Morning",
+          "accept": [
+            "morning",
+            "till morning"
+          ],
+          "choices": [
+            "Morning",
+            "Midnight",
+            "Sunset",
+            "Bedtime"
+          ],
+          "reveal": "The correct answer is morning! [laughs] Not the most helpful GPS, but very poetic.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "In the 1951 film, Alice's whole trip through Wonderland turns out to be this.",
+          "answer": "A dream",
+          "accept": [
+            "a dream",
+            "dream",
+            "dreaming"
+          ],
+          "choices": [
+            "A dream",
+            "A play",
+            "A painting",
+            "A bedtime story"
+          ],
+          "reveal": "The correct answer is a dream! [sarcastic] She wakes up by the riverbank. Classic. Blame the cheese before bed.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "At the end of Fantasia, the terrifying Night on Bald Mountain gives way at dawn to this hymn.",
+          "answer": "Ave Maria",
+          "accept": [
+            "ave maria"
+          ],
+          "choices": [
+            "Ave Maria",
+            "Silent Night",
+            "Amazing Grace",
+            "Clair de Lune"
+          ],
+          "reveal": "The correct answer is Ave Maria! [whispers] From the scariest nightmare in Disney to the calmest sunrise. Talk about mood whiplash.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "This 1933 Silly Symphony follows a baby and his toy dog on a journey through a dream world.",
+          "answer": "Lullaby Land",
+          "accept": [
+            "lullaby land"
+          ],
+          "choices": [
+            "Lullaby Land",
+            "Wynken, Blynken and Nod",
+            "Music Land",
+            "Flowers and Trees"
+          ],
+          "reveal": "[impressed] The correct answer is Lullaby Land! Ninety-plus years old and still the cutest nap ever animated.",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}
