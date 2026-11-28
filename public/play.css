@@ -1,5 +1,5 @@
-[hidden] { display: none !important; }
 @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Nunito:wght@700;900&display=swap');
+[hidden] { display: none !important; }
 :root { --gold: #ffd34d; --c: #ffd34d; }
 * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
 html, body { margin: 0; min-height: 100%; background: #071865 url(/theme/bg-castle.webp) center/cover fixed; color: #fff; font-family: Nunito, system-ui, sans-serif; }
