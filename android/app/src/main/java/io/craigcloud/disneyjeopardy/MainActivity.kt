@@ -91,6 +91,9 @@ class MainActivity : Activity() {
     private val utteranceSeq = AtomicInteger()
 
     private val prefs by lazy { getSharedPreferences("dj", Context.MODE_PRIVATE) }
+
+    /** Same stable TV id as [NativeActivity], so switching modes keeps the room and play history. */
+    private fun tvId(): String = prefs.getString("tvId", null) ?: java.util.UUID.randomUUID().toString().also { prefs.edit().putString("tvId", it).apply() }
     /** Set by a launch intent's `url` extra; lasts for this process only so other apps can't repoint the kiosk for good. */
     private var launchUrl: String? = null
     private val serverUrl: String get() = launchUrl ?: prefs.getString(KEY_URL, null) ?: BuildConfig.DEFAULT_URL
@@ -233,6 +236,7 @@ class MainActivity : Activity() {
     }
 
     private fun bridgeScript(): String = """
+        try { localStorage.djTv = ${jsString(tvId())}; } catch (e) {}
         (function(){
           if (window.DJ_TV && window.DJ_TV.isTV) return;
           var N = window.DJ_TV_NATIVE; if (!N) return;
@@ -533,6 +537,15 @@ class MainActivity : Activity() {
             setPadding(pad, dp(8), pad, 0)
             addView(input)
             addView(info)
+            addView(Button(this@MainActivity).apply {
+                text = "Switch to native mode"
+                setOnClickListener {
+                    prefs.edit().putBoolean(KEY_CLASSIC, false).apply()
+                    settingsDialog?.dismiss()
+                    startActivity(Intent(this@MainActivity, NativeActivity::class.java))
+                    finish()
+                }
+            })
         }
         val dialog = AlertDialog.Builder(this, R.style.Theme_DisneyJeopardy_Dialog)
             .setTitle("Game server URL")
@@ -751,7 +764,9 @@ class MainActivity : Activity() {
 
     companion object {
         private const val TAG = "DisneyJeopardy"
-        private const val KEY_URL = "url"
+        const val KEY_URL = "url"
+        /** Set by the native app's settings ("Classic web mode"); the launcher then opens this WebView activity. */
+        const val KEY_CLASSIC = "classic"
         private const val LOGO = "logo.png"
         private const val BACKDROP = "bg-castle.webp"
         private val RETRY_BACKOFF_S = intArrayOf(15, 30, 60, 120)

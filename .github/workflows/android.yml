@@ -20,24 +20,32 @@ jobs:
       - name: Version
         id: ver
         run: |
-          if [ "${GITHUB_REF_TYPE}" = tag ]; then name="${GITHUB_REF_NAME#v}"; else name="1.0.0-ci.${GITHUB_RUN_NUMBER}"; fi
+          if [ "${GITHUB_REF_TYPE}" = tag ]; then name="${GITHUB_REF_NAME#v}"; else name="2.0.0-ci.${GITHUB_RUN_NUMBER}"; fi
           echo "name=$name" >> "$GITHUB_OUTPUT"
       - name: Build release APK
         run: |
           echo "sdk.dir=$ANDROID_HOME" > local.properties
           chmod +x gradlew
-          ./gradlew --no-daemon assembleRelease -PappVersionName=${{ steps.ver.outputs.name }} -PappVersionCode=${{ github.run_number }}
+          # versionCode starts at 100 so it stays above the WebView-only builds (<= 14) already installed.
+          code=$((100 + ${{ github.run_number }}))
+          ./gradlew --no-daemon assembleRelease -PappVersionName=${{ steps.ver.outputs.name }} -PappVersionCode=$code
           cp app/build/outputs/apk/release/app-release.apk disney-jeopardy.apk
+          # Served next to the APK; /api/info reports it so installed apps can show "Update available".
+          printf '{"versionCode":%s,"versionName":"%s"}\n' "$code" "${{ steps.ver.outputs.name }}" > disney-jeopardy.json
       # The org's Actions artifact storage can run out (billing); the build result is what gates the PR.
       - uses: actions/upload-artifact@v4
         continue-on-error: true
         with:
           retention-days: 14
           name: disney-jeopardy-apk
-          path: android/disney-jeopardy.apk
+          path: |
+            android/disney-jeopardy.apk
+            android/disney-jeopardy.json
       - name: Attach APK to release
         if: github.ref_type == 'tag'
         uses: softprops/action-gh-release@v2
         with:
-          files: android/disney-jeopardy.apk
+          files: |
+            android/disney-jeopardy.apk
+            android/disney-jeopardy.json
           generate_release_notes: true
