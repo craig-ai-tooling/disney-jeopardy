@@ -114,7 +114,8 @@ const server = http.createServer(async (req, res) => {
       return sendFile(req, res, f, 'no-cache');
     }
     const f = safeJoin(PUB, p.slice(1));
-    if (f) return sendFile(req, res, f);
+    // App code must never go stale on the TV WebView; theme art can cache.
+    if (f) return sendFile(req, res, f, /\.(js|css|html|json)$/.test(f) ? 'no-cache' : undefined);
     notFound(res);
   } catch (e) {
     console.error(`${p}: ${e.message}`);
