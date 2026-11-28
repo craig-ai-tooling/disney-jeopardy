@@ -31,8 +31,7 @@
           "accept": [
             "rooster",
             "chicken",
-            "a chicken",
-            "hen"
+            "a chicken"
           ],
           "choices": [
             "A rooster",
@@ -506,18 +505,18 @@
         },
         {
           "value": 800,
-          "clue": "A short office note from Marlin's son",
-          "answer": "Nemo Memo",
+          "clue": "An invoice from the scarred angelfish who leads the Tank Gang",
+          "answer": "Gill Bill",
           "accept": [
-            "nemo memo"
+            "gill bill"
           ],
           "choices": [
-            "Nemo Memo",
-            "Dory Story",
             "Gill Bill",
-            "Marlin Carton"
+            "Bloat Note",
+            "Dory Story",
+            "Crush Brush"
           ],
-          "reveal": "The correct answer is a Nemo Memo. Subject line: [sighs] please stop following me to school, Dad.",
+          "reveal": "The correct answer is a Gill Bill. [chuckles] Payment accepted in pebbles... and escape plans.",
           "dailyDouble": false
         },
         {

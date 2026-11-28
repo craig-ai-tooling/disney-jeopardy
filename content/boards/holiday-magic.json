@@ -128,7 +128,7 @@
       "clues": [
         {
           "value": 200,
-          "clue": "In Olaf's Frozen Adventure, this happy snowman goes door to door searching for holiday traditions for Anna and Elsa",
+          "clue": "In a 2017 Frozen holiday featurette, this happy snowman goes door to door searching for holiday traditions for Anna and Elsa",
           "answer": "Olaf",
           "accept": [
             "olaf"
@@ -511,8 +511,7 @@
           "clue": "In Toy Story 2, Al plans to sell the Woody's Roundup collection to a toy museum in this country",
           "answer": "Japan",
           "accept": [
-            "japan",
-            "tokyo"
+            "japan"
           ],
           "choices": [
             "Japan",

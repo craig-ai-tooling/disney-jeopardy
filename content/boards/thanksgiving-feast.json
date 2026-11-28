@@ -266,7 +266,7 @@
         },
         {
           "value": 600,
-          "clue": "In Up, Russell names this giant, chocolate-loving, rainbow-feathered bird 'Kevin' before learning she's a mom",
+          "clue": "In Up, Russell gives this name to the giant, chocolate-loving, rainbow-feathered bird, before learning she's a mom",
           "answer": "Kevin",
           "accept": [
             "kevin"
@@ -300,7 +300,7 @@
         },
         {
           "value": 1000,
-          "clue": "In The Rescuers, mice Bernard and Bianca fly Albatross Air Charter Service, piloted by Orville, this kind of bird",
+          "clue": "In The Rescuers, mice Bernard and Bianca catch a flight with Orville, a pilot who is this kind of big seabird",
           "answer": "An albatross",
           "accept": [
             "albatross",
@@ -468,7 +468,7 @@
         },
         {
           "value": 600,
-          "clue": "In Liberty Square, this Magic Kingdom restaurant serves an all-you-care-to-enjoy, Thanksgiving-style feast of roast turkey and stuffing",
+          "clue": "Named for a famous colonial symbol of protest, this Liberty Square restaurant at Magic Kingdom serves an all-you-care-to-enjoy, Thanksgiving-style feast of roast turkey and stuffing",
           "answer": "Liberty Tree Tavern",
           "accept": [
             "liberty tree tavern",
@@ -478,7 +478,7 @@
             "Liberty Tree Tavern",
             "Columbia Harbour House",
             "The Crystal Palace",
-            "The Diamond Horseshoe"
+            "Tony's Town Square Restaurant"
           ],
           "reveal": "The correct answer is Liberty Tree Tavern. Thanksgiving dinner every day of the year, and nobody makes you do the dishes. [chuckles]",
           "dailyDouble": false
