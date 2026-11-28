@@ -466,18 +466,18 @@
         },
         {
           "value": 600,
-          "clue": "WALL-E's sleek robot crush plus the night before Christmas.",
-          "answer": "EVE Eve",
+          "clue": "WALL-E's sleek robot crush plus the part of a shirt that covers your arm.",
+          "answer": "EVE Sleeve",
           "accept": [
-            "eve eve"
+            "eve sleeve"
           ],
           "choices": [
-            "EVE Eve",
-            "WALL-E Holly",
-            "Robot Rocket",
-            "AUTO Grotto"
+            "EVE Sleeve",
+            "WALL-E Sleeve",
+            "EVE Cuff",
+            "AUTO Glove"
           ],
-          "reveal": "The correct answer is EVE Eve! Directive: deliver presents. [chuckles] WALL-E would definitely wrap a lightbulb for her.",
+          "reveal": "The correct answer is EVE Sleeve! [chuckles] Handy for hiding a plasma cannon... or the lightbulb WALL-E gave her.",
           "dailyDouble": false
         },
         {

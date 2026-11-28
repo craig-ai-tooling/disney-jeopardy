@@ -36,7 +36,7 @@
           "choices": [
             "A pumpkin",
             "A watermelon",
-            "A squash",
+            "A cabbage",
             "A turnip"
           ],
           "reveal": "The correct answer is a pumpkin! [laughs] Best use of a pumpkin until pie was invented.",
@@ -48,10 +48,8 @@
           "answer": "Midnight",
           "accept": [
             "midnight",
-            "12",
-            "twelve",
-            "12 o'clock",
-            "twelve o'clock"
+            "12 midnight",
+            "twelve midnight"
           ],
           "choices": [
             "Midnight",
@@ -205,7 +203,7 @@
           "accept": [
             "second sunrise",
             "the second sunrise",
-            "sunrise"
+            "2nd sunrise"
           ],
           "choices": [
             "The second sunrise",
