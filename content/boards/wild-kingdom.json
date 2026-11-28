@@ -96,14 +96,14 @@
         },
         {
           "value": 1000,
-          "clue": "Before it was The Lion King, the film was developed under this working title.",
+          "clue": "An early working title for The Lion King wrongly placed its lions in this kind of habitat. Name the title.",
           "answer": "King of the Jungle",
           "accept": [
             "king of the jungle"
           ],
           "choices": [
             "King of the Jungle",
-            "Pride of Africa",
+            "King of the Beasts",
             "The Lion Prince",
             "Kingdom of Lions"
           ],
@@ -256,18 +256,19 @@
         },
         {
           "value": 600,
-          "clue": "Pocahontas's sneaky raccoon pal plus a wall-climbing lizard.",
-          "answer": "Meeko gecko",
+          "clue": "The Lion King's lovable warthog plus a Cuban ballroom dance.",
+          "answer": "Pumbaa rumba",
           "accept": [
-            "meeko gecko"
+            "pumbaa rumba",
+            "pumba rumba"
           ],
           "choices": [
-            "Meeko gecko",
-            "Flit gecko",
-            "Meeko echo",
-            "Percy gecko"
+            "Pumbaa rumba",
+            "Timon samba",
+            "Pumbaa mambo",
+            "Rafiki tiki"
           ],
-          "reveal": "The correct answer is... Meeko gecko. Meeko steals every biscuit in sight. Lock up your snacks.",
+          "reveal": "The correct answer is... Pumbaa rumba. The rumba is all about swaying your hips, and Pumbaa was BUILT for it.",
           "dailyDouble": false
         },
         {
@@ -288,18 +289,19 @@
         },
         {
           "value": 1000,
-          "clue": "The Aristocats kitten who loves to paint plus a fluffy chocolate dessert.",
-          "answer": "Toulouse mousse",
+          "clue": "Prince John's slithering royal adviser in Robin Hood plus a smooch.",
+          "answer": "Hiss kiss",
           "accept": [
-            "toulouse mousse"
+            "hiss kiss",
+            "sir hiss kiss"
           ],
           "choices": [
-            "Toulouse mousse",
-            "Berlioz mousse",
-            "Marie brulee",
-            "O'Malley jelly"
+            "Hiss kiss",
+            "Hiss miss",
+            "Kaa kiss",
+            "Triss kiss"
           ],
-          "reveal": "The correct answer is Toulouse mousse. Toulouse is the orange painter, Berlioz plays piano and Marie sings. Talented family.",
+          "reveal": "The correct answer is Hiss kiss, as in Sir Hiss, voiced by Terry-Thomas. Prince John would never. He is too busy sucking his thumb.",
           "dailyDouble": false
         }
       ]
@@ -468,20 +470,20 @@
         {
           "value": 800,
           "clue": "Which animal character said this?",
-          "answer": "Nick Wilde",
+          "answer": "Stitch",
           "accept": [
-            "nick wilde",
-            "nick"
+            "stitch",
+            "experiment 626"
           ],
           "choices": [
-            "Nick Wilde",
-            "Finnick",
-            "Duke Weaselton",
-            "Judy Hopps"
+            "Stitch",
+            "Jumba",
+            "Pleakley",
+            "Angel"
           ],
-          "reveal": "The correct answer is Nick Wilde, the sly fox from Zootopia, voiced by Jason Bateman. [chuckles] Carrots got hustled.",
+          "reveal": "The correct answer is Stitch, Experiment 626, voiced by director Chris Sanders. [chuckles] Little and broken, but still good. Ohana means family.",
           "dailyDouble": false,
-          "quote": "It's called a hustle, sweetheart."
+          "quote": "This is my family. I found it, all on my own."
         },
         {
           "value": 1000,
