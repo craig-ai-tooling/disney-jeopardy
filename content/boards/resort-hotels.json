@@ -445,21 +445,21 @@
         },
         {
           "value": 1000,
-          "clue": "The ride of the Aladdin villain who wants to be sultan, handed over to the hotel valet.",
-          "answer": "Jafar's Car",
+          "clue": "A ride for the Aladdin villain who wants to be sultan, parked by the hotel valet. Two words, no apostrophe.",
+          "answer": "Jafar Car",
           "accept": [
-            "jafar's car",
             "jafar car",
-            "jafar's cars",
-            "jafars car"
+            "jafar's car",
+            "jafars car",
+            "jafar-car"
           ],
           "choices": [
-            "Jafar's Car",
+            "Jafar Car",
             "Abu's Canoe",
             "Genie's Martini",
             "Sultan's Wagon"
           ],
-          "reveal": "[whispers] Only the true Disney nerds got this one. The correct answer is... Jafar's Car. [laughs] Please do not tip the valet with a snake staff. Iago will want a receipt.",
+          "reveal": "[whispers] Only the true Disney nerds got this one. The correct answer is... Jafar Car. [laughs] Please do not tip the valet with a snake staff. Iago will want a receipt.",
           "dailyDouble": false
         }
       ]
