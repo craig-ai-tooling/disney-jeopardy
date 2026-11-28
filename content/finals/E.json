@@ -1,0 +1,136 @@
+[
+  {
+    "film": "Sleeping Beauty",
+    "category": "Once Upon a Dream",
+    "clue": "While hiding in the woodcutter's cottage with three good fairies, Princess Aurora goes by this name.",
+    "answer": "Briar Rose",
+    "accept": [
+      "briar rose",
+      "briar-rose"
+    ],
+    "choices": [
+      "Briar Rose",
+      "Rose Red",
+      "Wild Rose",
+      "Rosalind"
+    ],
+    "reveal": "[dramatic pause] The correct answer is Briar Rose! Flora, Fauna and Merryweather raised her for sixteen years without magic. [laughs] And they STILL couldn't bake a cake."
+  },
+  {
+    "film": "Alice in Wonderland",
+    "category": "Down the Rabbit Hole",
+    "clue": "The Mad Hatter and the March Hare celebrate this every day of the year, except for one.",
+    "answer": "An unbirthday",
+    "accept": [
+      "unbirthday",
+      "an unbirthday",
+      "un-birthday",
+      "a very merry unbirthday"
+    ],
+    "choices": [
+      "An unbirthday",
+      "An unholiday",
+      "A half birthday",
+      "Teatime"
+    ],
+    "reveal": "The correct answer is an unbirthday! [excited] With three hundred and sixty four of them a year, you're probably celebrating one right NOW. A very merry unbirthday to you!"
+  },
+  {
+    "film": "Lady and the Tramp",
+    "category": "Bella Notte",
+    "clue": "Lady's loving owners are known in the film only as Jim Dear and this.",
+    "answer": "Darling",
+    "accept": [
+      "darling"
+    ],
+    "choices": [
+      "Darling",
+      "Honey",
+      "Sweetheart",
+      "Dearie"
+    ],
+    "reveal": "The correct answer is Darling! [chuckles] That's what Lady hears them call each other, so that's what she calls them. Adorable logic."
+  },
+  {
+    "film": "The Princess and the Frog",
+    "category": "Almost There",
+    "clue": "This is the name on the sign of Tiana's dream restaurant when it finally opens at the end of the film.",
+    "answer": "Tiana's Palace",
+    "accept": [
+      "tiana's palace",
+      "tianas palace"
+    ],
+    "choices": [
+      "Tiana's Palace",
+      "Tiana's Place",
+      "Duke's Cafe",
+      "The Bayou Bistro"
+    ],
+    "reveal": "The correct answer is Tiana's Palace! [excited] Beignets for EVERYONE. And today you can actually eat there at Disneyland's New Orleans Square."
+  },
+  {
+    "film": "Pocahontas",
+    "category": "Just Around the Riverbend",
+    "clue": "Governor Ratcliffe's pampered pet pug is named this.",
+    "answer": "Percy",
+    "accept": [
+      "percy"
+    ],
+    "choices": [
+      "Percy",
+      "Meeko",
+      "Flit",
+      "Wiggins"
+    ],
+    "reveal": "The correct answer is Percy! [laughs] Bathed, brushed and spoiled, until Meeko the raccoon steals all his treats. Wiggins is the servant, by the way."
+  },
+  {
+    "film": "The Hunchback of Notre Dame",
+    "category": "Out There",
+    "clue": "Quasimodo's three gargoyle pals are Victor, Hugo and this wisecracking one.",
+    "answer": "Laverne",
+    "accept": [
+      "laverne"
+    ],
+    "choices": [
+      "Laverne",
+      "Shirley",
+      "Djali",
+      "Clopin"
+    ],
+    "reveal": "The correct answer is Laverne! [chuckles] Victor and Hugo together make Victor Hugo, the author of the original novel. Laverne just gets the best lines."
+  },
+  {
+    "film": "Tarzan",
+    "category": "You'll Be in My Heart",
+    "clue": "This gentle gorilla adopts baby Tarzan and raises him as her own son.",
+    "answer": "Kala",
+    "accept": [
+      "kala"
+    ],
+    "choices": [
+      "Kala",
+      "Terk",
+      "Kerchak",
+      "Tantor"
+    ],
+    "reveal": "The correct answer is Kala! [sighs] And she sings him You'll Be in My Heart, written by Phil Collins. Somebody pass me a tissue."
+  },
+  {
+    "film": "Big Hero 6",
+    "category": "Hello, Baymax",
+    "clue": "Hiro, Baymax and the Big Hero 6 team protect this futuristic mash-up city.",
+    "answer": "San Fransokyo",
+    "accept": [
+      "san fransokyo",
+      "sanfransokyo"
+    ],
+    "choices": [
+      "San Fransokyo",
+      "New Tokyo",
+      "Neo Francisco",
+      "Tokyopolis"
+    ],
+    "reveal": "The correct answer is San Fransokyo! [excited] Part San Francisco, part Tokyo, all awesome. Ba-la-la-la-la... fist bump!"
+  }
+]

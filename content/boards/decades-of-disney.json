@@ -1,0 +1,555 @@
+{
+  "id": "decades-of-disney",
+  "title": "Disney Through the Decades",
+  "theme": "Through the Decades",
+  "tags": [
+    "history",
+    "decades",
+    "classics",
+    "anniversaries"
+  ],
+  "intro": "Welcome in to Disney Jeopardy! [excited] Today we're hopping in the time machine and taking a trip through nearly one hundred years of Disney history. Fasten your seatbelts, and please keep your arms inside the decade at ALL times. [laughs]",
+  "art": {
+    "prompt": "A glowing retro time-machine archway on a stage with a spiral of floating vintage objects from every decade: a 1920s gramophone, a 1950s jukebox, a 1980s cassette, a 1990s CRT TV and a modern tablet, film reels unspooling across a starry sky, 16:9 widescreen, vibrant cinematic lighting, original artwork, no text, no logos, no characters, no people",
+    "file": "media/decades-of-disney.jpg"
+  },
+  "categories": [
+    {
+      "id": "whistle-while-you-work",
+      "title": "Whistle While You Work",
+      "kind": "film",
+      "intro": "Where else could a trip through the decades start? [excited] With the very first Disney animated feature, 1937's Snow White and the Seven Dwarfs!",
+      "art": {
+        "prompt": "A cozy storybook cottage in a sunlit enchanted forest, a wishing well in front, a basket of shiny red apples, seven tiny pickaxes leaning by the door and diamonds sparkling from a mine entrance, 16:9 widescreen, vibrant cinematic lighting, original artwork, no text, no logos, no characters, no people",
+        "file": "media/decades-of-disney--whistle-while-you-work.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Snow White takes one bite of this poisoned fruit and falls into a deep sleep.",
+          "answer": "An apple",
+          "accept": [
+            "apple",
+            "an apple",
+            "poisoned apple",
+            "the poisoned apple"
+          ],
+          "choices": [
+            "An apple",
+            "A pear",
+            "A peach",
+            "A plum"
+          ],
+          "reveal": "The correct answer is an apple. [chuckles] Lesson learned, kids: never take produce from a stranger with a cackle.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "This dwarf never says a single word in the film.",
+          "answer": "Dopey",
+          "accept": [
+            "dopey"
+          ],
+          "choices": [
+            "Dopey",
+            "Bashful",
+            "Sneezy",
+            "Doc"
+          ],
+          "reveal": "The correct answer is Dopey! He doesn't talk, but he's got the best ears and the best dance moves in the cottage.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "The Queen orders the Huntsman to bring back this in a box as proof that Snow White is gone.",
+          "answer": "Her heart",
+          "accept": [
+            "heart",
+            "her heart",
+            "snow white's heart"
+          ],
+          "choices": [
+            "Her heart",
+            "Her crown",
+            "A lock of her hair",
+            "Her shoe"
+          ],
+          "reveal": "The correct answer is her heart. The Huntsman swapped it for a pig's heart instead. [gasps] Dark stuff for 1937!",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Snow White sings this song into the wishing well right before the Prince appears.",
+          "answer": "I'm Wishing",
+          "accept": [
+            "i'm wishing",
+            "im wishing",
+            "i am wishing"
+          ],
+          "choices": [
+            "I'm Wishing",
+            "Someday My Prince Will Come",
+            "With a Smile and a Song",
+            "One Song"
+          ],
+          "reveal": "The correct answer is I'm Wishing! The Prince answers with One Song. [laughs] Smooth move, your highness.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Walt Disney's special honorary Oscar for Snow White came with one full-size statuette and this many miniature ones.",
+          "answer": "Seven",
+          "accept": [
+            "7",
+            "seven"
+          ],
+          "choices": [
+            "Seven",
+            "Six",
+            "Three",
+            "Twelve"
+          ],
+          "reveal": "The correct answer is seven! One for each dwarf. Shirley Temple handed it to Walt in 1939. The CUTEST trophy in Hollywood history.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "what-decade-is-it",
+      "title": "What Decade Is It?",
+      "kind": "theme",
+      "intro": "[excited] Hop in the time machine! I'll name a big Disney milestone. You tell me the decade it happened in.",
+      "art": {
+        "prompt": "A wall of giant retro flip calendars and spinning clock faces from different eras, confetti-colored decade banners, a sepia-to-color gradient sweeping across the scene, 16:9 widescreen, vibrant cinematic lighting, original artwork, no text, no logos, no characters, no people",
+        "file": "media/decades-of-disney--what-decade-is-it.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Mickey Mouse whistles his way into history in Steamboat Willie.",
+          "answer": "The 1920s",
+          "accept": [
+            "1920s",
+            "the 1920s",
+            "20s",
+            "the twenties",
+            "twenties"
+          ],
+          "choices": [
+            "The 1920s",
+            "The 1930s",
+            "The 1910s",
+            "The 1940s"
+          ],
+          "reveal": "The correct answer is the 1920s! November 18th, 1928, to be exact. [laughs] Happy birthday, Mickey!",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Disneyland opens its gates in Anaheim, California.",
+          "answer": "The 1950s",
+          "accept": [
+            "1950s",
+            "the 1950s",
+            "50s",
+            "the fifties",
+            "fifties"
+          ],
+          "choices": [
+            "The 1950s",
+            "The 1960s",
+            "The 1940s",
+            "The 1970s"
+          ],
+          "reveal": "The correct answer is the 1950s! July 17th, 1955. Opening day was so chaotic, the press called it... [dramatic pause] Black Sunday.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Toy Story becomes the first feature film made entirely with computer animation.",
+          "answer": "The 1990s",
+          "accept": [
+            "1990s",
+            "the 1990s",
+            "90s",
+            "the nineties",
+            "nineties"
+          ],
+          "choices": [
+            "The 1990s",
+            "The 1980s",
+            "The 2000s",
+            "The 1970s"
+          ],
+          "reveal": "The correct answer is the 1990s! 1995. To infinity and beyond, and also, to an entire new art form.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "The Little Mermaid makes a splash and kicks off the Disney Renaissance.",
+          "answer": "The 1980s",
+          "accept": [
+            "1980s",
+            "the 1980s",
+            "80s",
+            "the eighties",
+            "eighties"
+          ],
+          "choices": [
+            "The 1980s",
+            "The 1990s",
+            "The 1970s",
+            "The 2000s"
+          ],
+          "reveal": "The correct answer is the 1980s! It came out in November 1989, so it just snuck in. [mischievously] Gotcha if you said the 90s!",
+          "dailyDouble": true
+        },
+        {
+          "value": 1000,
+          "clue": "Fantasia premieres, with its own special Fantasound stereo system.",
+          "answer": "The 1940s",
+          "accept": [
+            "1940s",
+            "the 1940s",
+            "40s",
+            "the forties",
+            "forties"
+          ],
+          "choices": [
+            "The 1940s",
+            "The 1930s",
+            "The 1950s",
+            "The 1960s"
+          ],
+          "reveal": "The correct answer is the 1940s! November 1940. [chuckles] Walt was doing surround sound before most people owned a radio worth listening to.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "fashion-through-the-decades",
+      "title": "Fashion Through the Decades",
+      "kind": "media",
+      "intro": "It's the media category! I'll show you the colours of a famous outfit and drop the decade it debuted. You name the character wearing it. [whispers] No fashion police allowed.",
+      "art": {
+        "prompt": "A sparkling runway lined with empty dress forms wearing outfits from every era: a 1920s red-and-yellow look, a 1950s silver-blue ball gown, a 1990s cowboy vest and a jeweled modern costume, paint swatches and color chips floating in the air, 16:9 widescreen, vibrant cinematic lighting, original artwork, no text, no logos, no characters, no people",
+        "file": "media/decades-of-disney--fashion-through-the-decades.jpg"
+      },
+      "format": "palette",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "1920s: Big black ears, bright red shorts, yellow shoes and white gloves.",
+          "answer": "Mickey Mouse",
+          "accept": [
+            "mickey",
+            "mickey mouse"
+          ],
+          "choices": [
+            "Mickey Mouse",
+            "Minnie Mouse",
+            "Goofy",
+            "Donald Duck"
+          ],
+          "reveal": "The correct answer is Mickey Mouse! Nearly a hundred years later, he still hasn't changed his shorts. [laughs] Iconic... if a little concerning.",
+          "palette": [
+            "#111111",
+            "#D7261E",
+            "#F7C600",
+            "#FFFFFF"
+          ],
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "1950s: A shimmering silvery blue ball gown, a black choker and a blonde updo.",
+          "answer": "Cinderella",
+          "accept": [
+            "cinderella",
+            "cinderelly"
+          ],
+          "choices": [
+            "Cinderella",
+            "Alice",
+            "Aurora",
+            "Elsa"
+          ],
+          "reveal": "The correct answer is Cinderella! Bibbidi-bobbidi-blue. Good thing that dress doesn't turn back until midnight.",
+          "palette": [
+            "#BFD8EE",
+            "#E6F0FA",
+            "#1A1A1A",
+            "#F2D27A"
+          ],
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "1980s: A shimmering green tail, a purple seashell top and bright red hair.",
+          "answer": "Ariel",
+          "accept": [
+            "ariel"
+          ],
+          "choices": [
+            "Ariel",
+            "Moana",
+            "Jasmine",
+            "Rapunzel"
+          ],
+          "reveal": "The correct answer is Ariel! [excited] Fun fact, her red hair was chosen partly so she wouldn't look like a certain blonde movie mermaid of the 80s.",
+          "palette": [
+            "#1FA774",
+            "#7A4DA3",
+            "#D9262E",
+            "#F7CDB0"
+          ],
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "1990s: A yellow plaid shirt, a black and white cow-print vest, blue jeans and a brown hat.",
+          "answer": "Woody",
+          "accept": [
+            "woody",
+            "sheriff woody"
+          ],
+          "choices": [
+            "Woody",
+            "Jessie",
+            "Stinky Pete",
+            "Bullseye"
+          ],
+          "reveal": "The correct answer is Woody! Reach for the sky! [chuckles] If you said Jessie, close, but she wears a red hat.",
+          "palette": [
+            "#F2C94C",
+            "#B33A3A",
+            "#FFFFFF",
+            "#1A1A1A",
+            "#2F5DA8",
+            "#8B5A2B"
+          ],
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "2000s: A crisp white top and skirt, sky-blue tattoo markings, warm tan skin and snowy white hair. She's royalty from a lost city.",
+          "answer": "Kida",
+          "accept": [
+            "kida",
+            "kidagakash",
+            "princess kida"
+          ],
+          "choices": [
+            "Kida",
+            "Nani",
+            "Pocahontas",
+            "Moana"
+          ],
+          "reveal": "The correct answer is Kida from 2001's Atlantis: The Lost Empire! Her full name is Kidagakash. [laughs] Try saying that three times fast.",
+          "palette": [
+            "#F7F7F2",
+            "#5BC0EB",
+            "#B0764A",
+            "#EDEAE0"
+          ],
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "parks-through-the-decades",
+      "title": "Parks Through the Decades",
+      "kind": "parks",
+      "intro": "Our Parks category is a grand opening tour. I'll give you the year and a hint, you name the Disney park. [excited] Let's go!",
+      "art": {
+        "prompt": "A fairy-tale castle drawn as a timeline from vintage sepia postcard to colorful modern night with fireworks, a monorail, a giant geodesic sphere and a pagoda-roofed harbor along the horizon, 16:9 widescreen, vibrant cinematic lighting, original artwork, no text, no logos, no characters, no people",
+        "file": "media/decades-of-disney--parks-through-the-decades.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Opened in 1955 in Anaheim, California, it's the only park Walt himself walked through.",
+          "answer": "Disneyland",
+          "accept": [
+            "disneyland",
+            "disneyland park"
+          ],
+          "choices": [
+            "Disneyland",
+            "Magic Kingdom",
+            "Epcot",
+            "Disney California Adventure"
+          ],
+          "reveal": "The correct answer is Disneyland! The happiest place on Earth, and the only one Walt got to see open. [sighs]",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Opened in 1971 as the very first park at Walt Disney World.",
+          "answer": "Magic Kingdom",
+          "accept": [
+            "magic kingdom",
+            "the magic kingdom"
+          ],
+          "choices": [
+            "Magic Kingdom",
+            "Epcot",
+            "Disneyland",
+            "Animal Kingdom"
+          ],
+          "reveal": "The correct answer is Magic Kingdom! Opened October 1st, 1971, with Cinderella Castle standing tall over the swamps of Central Florida.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Opened in 1982 under the name EPCOT Center.",
+          "answer": "Epcot",
+          "accept": [
+            "epcot",
+            "epcot center"
+          ],
+          "choices": [
+            "Epcot",
+            "Disney's Hollywood Studios",
+            "Tokyo Disneyland",
+            "Disneyland Paris"
+          ],
+          "reveal": "The correct answer is Epcot! [chuckles] Big golf ball, BIG ideas, and around the world in eleven pavilions.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Opened in 1983, it was the first Disney park built outside the United States.",
+          "answer": "Tokyo Disneyland",
+          "accept": [
+            "tokyo disneyland"
+          ],
+          "choices": [
+            "Tokyo Disneyland",
+            "Disneyland Paris",
+            "Hong Kong Disneyland",
+            "Tokyo DisneySea"
+          ],
+          "reveal": "The correct answer is Tokyo Disneyland! [excited] Konnichiwa, Mickey! Paris didn't arrive until 1992.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Opened in September 2001 in Chiba, Japan, this park is themed to nautical ports of call.",
+          "answer": "Tokyo DisneySea",
+          "accept": [
+            "tokyo disneysea",
+            "disneysea",
+            "disney sea",
+            "tokyo disney sea"
+          ],
+          "choices": [
+            "Tokyo DisneySea",
+            "Shanghai Disneyland",
+            "Walt Disney Studios Park",
+            "Hong Kong Disneyland"
+          ],
+          "reveal": "The correct answer is Tokyo DisneySea! Many fans call it the most beautiful theme park on the planet. [whispers] I'm not arguing.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "which-came-first",
+      "title": "Which Came First?",
+      "kind": "fan",
+      "intro": "The fan category is a time-travel showdown. I'll give you four Disney films. You pick the one that hit theaters first.",
+      "art": {
+        "prompt": "Stacks of vintage film canisters and movie reels arranged in a race toward a finish line, a giant golden stopwatch and a hand-painted marquee frame with no words, warm theater lighting, 16:9 widescreen, vibrant cinematic lighting, original artwork, no text, no logos, no characters, no people",
+        "file": "media/decades-of-disney--which-came-first.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Which came out first: Dumbo, Frozen, Moana or Encanto?",
+          "answer": "Dumbo",
+          "accept": [
+            "dumbo"
+          ],
+          "choices": [
+            "Dumbo",
+            "Frozen",
+            "Moana",
+            "Encanto"
+          ],
+          "reveal": "The correct answer is Dumbo! 1941. That little elephant beat Elsa by more than seventy years. [laughs] Respect your elders.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Which came out first: Aladdin, Lilo and Stitch, Ratatouille or Wreck-It Ralph?",
+          "answer": "Aladdin",
+          "accept": [
+            "aladdin"
+          ],
+          "choices": [
+            "Aladdin",
+            "Lilo and Stitch",
+            "Ratatouille",
+            "Wreck-It Ralph"
+          ],
+          "reveal": "The correct answer is Aladdin! 1992. A whole new world... and a WHOLE decade before Stitch crash landed.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Which came out first: The Lion King, Toy Story, Pocahontas or Mulan?",
+          "answer": "The Lion King",
+          "accept": [
+            "lion king",
+            "the lion king"
+          ],
+          "choices": [
+            "The Lion King",
+            "Toy Story",
+            "Pocahontas",
+            "Mulan"
+          ],
+          "reveal": "The correct answer is The Lion King, from 1994! [chuckles] Toy Story and Pocahontas both followed in 1995, and Mulan in 1998.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Which came out first: Peter Pan, Lady and the Tramp, Sleeping Beauty or One Hundred and One Dalmatians?",
+          "answer": "Peter Pan",
+          "accept": [
+            "peter pan"
+          ],
+          "choices": [
+            "Peter Pan",
+            "Lady and the Tramp",
+            "Sleeping Beauty",
+            "One Hundred and One Dalmatians"
+          ],
+          "reveal": "The correct answer is Peter Pan! 1953, then Lady and the Tramp in 1955, Sleeping Beauty in 1959, and the Dalmatians in 1961.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Which came out first: Pinocchio, Fantasia, Dumbo or Bambi?",
+          "answer": "Pinocchio",
+          "accept": [
+            "pinocchio"
+          ],
+          "choices": [
+            "Pinocchio",
+            "Fantasia",
+            "Dumbo",
+            "Bambi"
+          ],
+          "reveal": "[gasps] The correct answer is Pinocchio! February 1940, beating Fantasia by nine months. Dumbo flew in 1941 and Bambi in 1942.",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}
