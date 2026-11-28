@@ -10,6 +10,9 @@ const COLORS = ['#ffcf3f', '#4fc3ff', '#ff6fae', '#7dff8a', '#c08cff', '#ff8a3d'
 const AVATARS = ['castle', 'star', 'crown', 'rocket', 'shell', 'apple', 'lamp', 'slipper', 'rose', 'wand', 'balloon', 'teacup'];
 const CODE_CHARS = 'ABCDEFGHJKMNPQRSTUVWXYZ';
 const SCALE = Number(process.env.TIME_SCALE || 1);
+const HYPE = ['[excited]', '[playfully]', '[dramatically]'];
+const hype = (t) => (!t || /^\s*\[/.test(t) ? t : `${HYPE[t.length % HYPE.length]} ${t}`);
+const BUZZ_WINDOW = 250;
 const T = { buzz: 9000, answer: 15000, answerTyped: 22000, ddWager: 25000, finalWager: 35000, finalThink: 35000, ruling: 20000, reveal: 6000, earlyLock: 300, draft: 30000 };
 
 const shuffle = (a) => { a = [...a]; for (let i = a.length - 1; i > 0; i--) { const j = crypto.randomInt(i + 1); [a[i], a[j]] = [a[j], a[i]]; } return a; };
@@ -80,7 +83,7 @@ export class Room {
     const lines = [[b.intro, who]];
     for (const c of b.categories) {
       lines.push([c.intro, who]);
-      for (const q of c.clues) lines.push([q.clue, who], [q.reveal, who]);
+      for (const q of c.clues) lines.push([hype(q.clue), who], [q.reveal, who]);
     }
     v.prefetch(lines);
   }
@@ -227,12 +230,22 @@ export class Room {
     this.broadcast();
   }
 
+  // Fallback in case the TV's readDone never arrives (e.g. a later line interrupted this one).
+  narrate(text, tag) {
+    this.clearTimer();
+    this.narrating = tag;
+    Promise.resolve(this.say(text, true, tag)).then(() => {
+      if (this.narrating === tag && !this.timer) this.setTimer(6000 + plain(text).split(/\s+/).length * 450, () => this.advance());
+    });
+    this.broadcast();
+  }
+
   advance() {
-    if (this.phase === 'coldOpen') { this.phase = 'intro'; this.say(`${this.board.intro}`, true, 'intro'); return this.broadcast(); }
-    if (this.phase === 'intro') { this.phase = 'categories'; this.catIdx = 0; this.say(this.board.categories[0].intro, true, 'cat'); return this.broadcast(); }
+    if (this.phase === 'coldOpen') { this.phase = 'intro'; return this.narrate(`${this.board.intro}`, 'intro'); }
+    if (this.phase === 'intro') { this.phase = 'categories'; this.catIdx = 0; return this.narrate(this.board.categories[0].intro, 'cat:0'); }
     if (this.phase === 'categories') {
       this.catIdx++;
-      if (this.catIdx < 5) { this.say(this.board.categories[this.catIdx].intro, true, 'cat'); return this.broadcast(); }
+      if (this.catIdx < 5) return this.narrate(this.board.categories[this.catIdx].intro, `cat:${this.catIdx}`);
       return this.toBoard();
     }
     if (this.phase === 'reveal') return this.afterReveal();
@@ -270,7 +283,7 @@ export class Room {
       this.setTimer(T.ddWager, () => this.wager(cp, Math.min(this.dd.max, Math.max(5, Math.floor(cp.score / 4) || 200))));
     } else {
       this.phase = 'reading';
-      this.say(f.q.clue, true, this.clue.seq);
+      this.say(hype(f.q.clue), true, this.clue.seq);
       this.setTimer(this.readMs(f.q.clue), () => this.readDone(this.clue?.seq));
     }
     this.broadcast();
@@ -283,7 +296,7 @@ export class Room {
       this.dd.wager = Math.max(5, Math.min(this.dd.max, Math.round(Number(amount) || 0)));
       this.clearTimer();
       this.phase = 'reading';
-      this.say(this.clue.q.clue, true, this.clue.seq);
+      this.say(hype(this.clue.q.clue), true, this.clue.seq);
       this.setTimer(this.readMs(this.clue.q.clue), () => this.readDone(this.clue?.seq));
       return this.broadcast();
     }
@@ -295,6 +308,9 @@ export class Room {
   }
 
   readDone(seq) {
+    if (seq === this.narrating) this.narrating = null;
+    if ((this.phase === 'intro' && seq === 'intro') || (this.phase === 'categories' && seq === `cat:${this.catIdx}`)) return this.setTimer(900, () => this.advance());
+    if (this.phase === 'reveal' && !this.ruling && this.clue && seq === `rev-${this.clue.seq}`) return this.setTimer(2500, () => this.afterReveal());
     if (this.phase !== 'reading' || !this.clue || (seq && seq !== this.clue.seq)) return;
     this.clearTimer();
     if (this.dd) return this.startAnswer(this.players.get(this.dd.pid));
@@ -304,20 +320,34 @@ export class Room {
   openBuzzers() {
     this.phase = 'buzzing';
     this.clue.buzzOpen = true;
+    this.clue.buzzClosed = false;
     this.clue.openedAt = now();
     this.setTimer(this.settings.buzzMs, () => this.noBuzz());
     this.broadcast();
   }
 
-  buzz(p) {
+  buzz(p, m) {
     const c = this.clue;
     if (!c || c.attempted.has(p.id)) return;
     if (this.phase === 'reading') { c.lockouts.set(p.id, now() + T.earlyLock); return this.sendTo(p.ws, { t: 'toast', msg: 'Too early! Wait for the lights.' }); }
-    if (this.phase !== 'buzzing' || (c.lockouts.get(p.id) || 0) > now()) return;
-    this.clearTimer();
-    c.buzzOpen = false;
-    c.buzzMs = now() - c.openedAt;
-    this.startAnswer(p);
+    if (this.phase !== 'buzzing' || c.buzzClosed || (c.lockouts.get(p.id) || 0) > now()) return;
+    const elapsed = now() - c.openedAt;
+    const rt = Number.isFinite(m?.rt) ? Math.max(0, Math.min(m.rt, elapsed + 50)) : elapsed;
+    c.buzzes ||= new Map();
+    if (!c.buzzes.has(p.id)) c.buzzes.set(p.id, rt);
+    if (c.buzzWindow) return;
+    c.buzzWindow = setTimeout(() => {
+      c.buzzWindow = null;
+      const entries = [...c.buzzes].filter(([id]) => this.players.has(id));
+      c.buzzes = new Map();
+      if (this.phase !== 'buzzing' || this.clue !== c) return;
+      if (!entries.length) return this.noBuzz();
+      const [id, best] = entries.sort((a, b) => a[1] - b[1])[0];
+      this.clearTimer();
+      c.buzzOpen = false;
+      c.buzzMs = best;
+      this.startAnswer(this.players.get(id));
+    }, BUZZ_WINDOW);
   }
 
   answerMode(p) {
@@ -358,8 +388,7 @@ export class Room {
     if (verdict === 'correct') {
       p.score += amount;
       this.control = p.id;
-      this.say(this.cheer(p), true);
-      return this.reveal();
+      return this.reveal(null, p);
     }
     if (verdict === 'close') {
       // Unsure: show the answer first, then let a moderator (who is not the answerer) or the other players decide.
@@ -375,17 +404,20 @@ export class Room {
 
   noBuzz() {
     if (this.phase !== 'buzzing') return;
+    if (this.clue?.buzzWindow) { this.clue.buzzClosed = true; return; }
     this.say(this.clue.attempted.size ? line('allWrong') : line('timeUp'), false);
     this.reveal();
   }
 
-  reveal(pending = null) {
+  reveal(pending = null, winner = null) {
     this.clearTimer();
     this.phase = 'reveal';
     const c = this.clue;
     c.revealedAt = now();
-    this.say(c.q.reveal, true, `rev-${c.seq}`);
+    const text = winner ? `${this.cheer(winner, c.q.answer)} ${String(c.q.reveal || '').replace(/^\s*(\[[^\]]*\]\s*)?the correct answer is[^!.?]*[!.?]\s*/i, '')}` : c.q.reveal;
+    this.say(text, true, `rev-${c.seq}`);
     if (pending) this.openRuling(pending);
+    else this.setTimer(4000 + plain(text).split(/\s+/).length * 450, () => this.afterReveal());
     this.broadcast();
   }
 
@@ -453,8 +485,8 @@ export class Room {
     this.toBoard();
   }
 
-  cheer(p) {
-    const s = [`[excited] YES! ${p.name} nails it!`, `[laughs] Look at ${p.name} go!`, `That is CORRECT, ${p.name}!`, `[gasps] Ohhh, ${p.name}, you genius!`, `Ding ding ding! ${p.name} gets it!`];
+  cheer(p, a) {
+    const s = [`[excited] ¡Sí! ${a}! Way to go, ${p.name}!`, `[laughs] ${a}! Look at ${p.name} go!`, `[excited] ${a}! That is CORRECT, ${p.name}!`, `[gasps] Ohhh, ${a}! ${p.name}, you genius!`, `Ding ding ding! ${a}! ${p.name} gets it!`];
     return s[crypto.randomInt(s.length)];
   }
   oops(p) {
@@ -473,12 +505,12 @@ export class Room {
     const wheel = shuffle(pool).slice(0, Math.min(12, pool.length));
     const chosen = wheel[crypto.randomInt(wheel.length)];
     this.rooms.store.markFinal(this.tvId, chosen.film);
-    let entrants = [...this.players.values()].filter((p) => p.score > 0).map((p) => p.id);
-    if (!entrants.length) entrants = [...this.players.keys()];
-    this.final = { wheel: wheel.map((f) => f.film), chosen, entrants: new Set(entrants), wagers: new Map(), answers: new Map(), order: [], step: -1, choices: shuffle(chosen.choices) };
+    const entrants = [...this.players.keys()];
+    const broke = [...this.players.values()].filter((p) => p.score <= 0).map((p) => [p.id, 0]);
+    this.final = { wheel: wheel.map((f) => f.film), chosen, entrants: new Set(entrants), wagers: new Map(broke), answers: new Map(), order: [], step: -1, choices: shuffle(chosen.choices) };
     this.phase = 'finalWheel';
     this.say(line('finalIntro'), true);
-    this.rooms.voice.prefetch([[chosen.clue, voiceFor(this.host)], [chosen.reveal, voiceFor(this.host)]]);
+    this.rooms.voice.prefetch([[hype(chosen.clue), voiceFor(this.host)], [chosen.reveal, voiceFor(this.host)]]);
     this.setTimer(12000, () => this.finalWagerPhase());
     this.broadcast();
   }
@@ -487,6 +519,7 @@ export class Room {
     if (this.phase !== 'finalWheel') return;
     this.phase = 'finalWager';
     this.say(`The category is... ${this.final.chosen.film}! ${plain(line('finalWager'))}`, true);
+    if ([...this.final.entrants].every((x) => this.final.wagers.has(x))) return this.finalClue();
     this.setTimer(T.finalWager, () => {
       for (const pid of this.final.entrants) if (!this.final.wagers.has(pid)) this.final.wagers.set(pid, 0);
       this.finalClue();
@@ -497,7 +530,7 @@ export class Room {
   finalClue() {
     this.clearTimer();
     this.phase = 'finalClue';
-    this.say(this.final.chosen.clue, true, 'final');
+    this.say(hype(this.final.chosen.clue), true, 'final');
     this.setTimer(this.readMs(this.final.chosen.clue), () => this.finalThink());
     this.broadcast();
   }
@@ -576,8 +609,8 @@ export class Room {
     const send = (url) => this.sendTo(this.tv, { ...msg, url: this.settings.voice ? url : null });
     const ready = this.settings.voice ? v.cached(text, voiceId) : null;
     if (ready || !this.settings.voice || v.disabled) return send(ready);
-    // Short wait for a fresh clip; if ElevenLabs is slow the TV speaks it natively instead.
-    Promise.race([v.get(text, voiceId), new Promise((r) => setTimeout(() => r(null), wait ? 2500 : 1200))]).then(send, () => send(null));
+    // Wait for a fresh clip; if ElevenLabs never delivers, the TV shows the line as a subtitle only.
+    return Promise.race([v.get(text, voiceId), new Promise((r) => setTimeout(() => r(null), wait ? 9000 : 5000))]).then(send, () => send(null));
   }
 
   publicClue() {

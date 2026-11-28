@@ -45,3 +45,5 @@ button:disabled { opacity: .45; }
 .hostpick { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
 .hostpick button { padding: 6px; margin: 0; display: flex; flex-direction: column; align-items: center; gap: 4px; font-size: 15px; }
 .hostpick img { width: 100%; aspect-ratio: 3/4; object-fit: cover; border-radius: 10px; }
+.choices button.arming { opacity: .6; background-image: linear-gradient(90deg, rgba(255,211,77,.35) 0 0); background-size: 0 100%; background-repeat: no-repeat; animation: arm 1s linear forwards; }
+@keyframes arm { to { background-size: 100% 100%; } }
