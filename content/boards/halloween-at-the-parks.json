@@ -234,9 +234,7 @@
           "clue": "The Ghost Host tells guests the Haunted Mansion is home to this many happy haunts.",
           "answer": "999",
           "accept": [
-            "999",
-            "nine hundred ninety-nine",
-            "nine hundred and ninety nine"
+            "999"
           ],
           "choices": [
             "999",

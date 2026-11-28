@@ -323,7 +323,7 @@
       "clues": [
         {
           "value": 200,
-          "clue": "The final scene of which film?",
+          "clue": "The final scene of which film? Hint: a new cub is presented to the whole kingdom.",
           "answer": "The Lion King",
           "accept": [
             "the lion king",
@@ -345,7 +345,7 @@
         },
         {
           "value": 400,
-          "clue": "The final scene of which film?",
+          "clue": "The final scene of which film? Hint: a balloon-lifted house finally reaches its waterfall.",
           "answer": "Up",
           "accept": [
             "up"
@@ -366,7 +366,7 @@
         },
         {
           "value": 600,
-          "clue": "The final scene of which film?",
+          "clue": "The final scene of which film? Hint: a queen turns her castle courtyard into a summer ice rink.",
           "answer": "Frozen",
           "accept": [
             "frozen"
@@ -387,7 +387,7 @@
         },
         {
           "value": 800,
-          "clue": "The final scene of which film?",
+          "clue": "The final scene of which film? Hint: a shredded closet door is rebuilt so a big blue monster can say hello again.",
           "answer": "Monsters, Inc.",
           "accept": [
             "monsters inc",
@@ -410,7 +410,7 @@
         },
         {
           "value": 1000,
-          "clue": "The final scene of which film?",
+          "clue": "The final scene of which film? Hint: a nanny floats away by umbrella as the family flies kites.",
           "answer": "Mary Poppins",
           "accept": [
             "mary poppins"
@@ -448,11 +448,10 @@
           "answer": "Midnight",
           "accept": [
             "midnight",
-            "12",
-            "twelve",
-            "twelve o'clock",
-            "12 o'clock",
-            "12:00"
+            "12 midnight",
+            "twelve midnight",
+            "12 am",
+            "stroke of midnight"
           ],
           "choices": [
             "Midnight",
