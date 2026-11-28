@@ -1,0 +1,537 @@
+{
+  "id": "magic-kingdom-magic",
+  "title": "Magic Kingdom Magic",
+  "theme": "Magic Kingdom",
+  "tags": [
+    "parks",
+    "magic-kingdom",
+    "walt-disney-world"
+  ],
+  "intro": "[excited] Welcome in, and welcome to the most magical place on Earth! Today's whole board is Magic Kingdom: the princess who owns the castle, the lands, the mountains and a little bit of real magic. [whispers] Keep your hands, arms and buzzers inside the vehicle.",
+  "art": {
+    "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A breathtaking fairy-tale castle with blue spires at night, bursting fireworks overhead, a glowing tree-lined avenue leading to it, magical sparkles in the air.",
+    "file": "media/magic-kingdom-magic.jpg"
+  },
+  "categories": [
+    {
+      "id": "bibbidi-bobbidi-boo",
+      "title": "Bibbidi-Bobbidi-Boo",
+      "kind": "film",
+      "intro": "Our film category belongs to the princess with the castle in the middle of the park... [excited] Cinderella!",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A sparkling glass slipper on a velvet cushion beside a large orange pumpkin, a grand clock about to strike midnight, swirls of blue fairy dust.",
+        "file": "media/magic-kingdom-magic--bibbidi-bobbidi-boo.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Cinderella's Fairy Godmother turns this vegetable into a shining coach.",
+          "answer": "Pumpkin",
+          "accept": [
+            "pumpkin",
+            "a pumpkin"
+          ],
+          "choices": [
+            "Pumpkin",
+            "Watermelon",
+            "Cabbage",
+            "Squash"
+          ],
+          "reveal": "The correct answer is a pumpkin! [chuckles] Great for coaches, pies and Halloween. Very versatile vegetable.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Cinderella's magic spell wears off at this time.",
+          "answer": "Midnight",
+          "accept": [
+            "midnight",
+            "twelve o'clock",
+            "12 o'clock"
+          ],
+          "choices": [
+            "Midnight",
+            "Sunrise",
+            "Ten o'clock",
+            "One o'clock"
+          ],
+          "reveal": "The correct answer is midnight! [dramatic] Bong, bong, bong. Cinderella was the original Cinderella story about curfews.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Cinderella's mean stepsisters are named this pair.",
+          "answer": "Anastasia and Drizella",
+          "accept": [
+            "anastasia and drizella",
+            "drizella and anastasia"
+          ],
+          "choices": [
+            "Anastasia and Drizella",
+            "Anastasia and Griselda",
+            "Drizella and Lucinda",
+            "Javotte and Anastasia"
+          ],
+          "reveal": "The correct answer is Anastasia and Drizella! [sarcastic] Two left feet, two sour attitudes, zero glass slippers.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Disney's Cinderella premiered in this year, helping rescue the studio's finances after World War Two.",
+          "answer": "1950",
+          "accept": [
+            "1950"
+          ],
+          "choices": [
+            "1950",
+            "1937",
+            "1959",
+            "1946"
+          ],
+          "reveal": "The correct answer is 1950! Cinderella was a smash hit, and the studio's bank account got its own happily ever after.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Cinderella's loyal horse, who the Fairy Godmother turns into a coachman, is named this.",
+          "answer": "Major",
+          "accept": [
+            "major"
+          ],
+          "choices": [
+            "Major",
+            "Maximus",
+            "Samson",
+            "Khan"
+          ],
+          "reveal": "The correct answer is Major! [laughs] Bruno the dog becomes the footman. Pretty big promotion for both of them.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "lands-ahoy",
+      "title": "Lands Ahoy",
+      "kind": "theme",
+      "intro": "Next, Lands Ahoy! Do you know which Magic Kingdom land is which?",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. An illustrated treasure-map style overhead view of a theme park with a castle hub, jungle, western town, colonial square and futuristic spires, compass rose in the corner.",
+        "file": "media/magic-kingdom-magic--lands-ahoy.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Guests walk down this turn-of-the-century street from the entrance toward Cinderella Castle.",
+          "answer": "Main Street, U.S.A.",
+          "accept": [
+            "main street, u.s.a.",
+            "main street usa",
+            "main street",
+            "main street u.s.a."
+          ],
+          "choices": [
+            "Main Street, U.S.A.",
+            "Liberty Square",
+            "Hollywood Boulevard",
+            "Buena Vista Street"
+          ],
+          "reveal": "The correct answer is Main Street, U.S.A.! [whispers] Look up at the upstairs windows, they honor the people who built Disney.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Space Mountain blasts off in this Magic Kingdom land.",
+          "answer": "Tomorrowland",
+          "accept": [
+            "tomorrowland"
+          ],
+          "choices": [
+            "Tomorrowland",
+            "Fantasyland",
+            "Adventureland",
+            "Discoveryland"
+          ],
+          "reveal": "The correct answer is Tomorrowland! [dramatic pause] The future that never was, but always will be. Deep, right?",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "At Magic Kingdom, Pirates of the Caribbean sails in this land.",
+          "answer": "Adventureland",
+          "accept": [
+            "adventureland"
+          ],
+          "choices": [
+            "Adventureland",
+            "Frontierland",
+            "New Orleans Square",
+            "Liberty Square"
+          ],
+          "reveal": "The correct answer is Adventureland! [mischievously] At Disneyland the pirates live in New Orleans Square instead. Sneaky pirates.",
+          "dailyDouble": true
+        },
+        {
+          "value": 800,
+          "clue": "Magic Kingdom's Haunted Mansion is spooking guests in this colonial-themed land.",
+          "answer": "Liberty Square",
+          "accept": [
+            "liberty square"
+          ],
+          "choices": [
+            "Liberty Square",
+            "Frontierland",
+            "Fantasyland",
+            "New Orleans Square"
+          ],
+          "reveal": "The correct answer is Liberty Square! [chuckles] Its Mansion is in a Hudson River Valley style. The ghosts love a good colonial vibe.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Above Tomorrowland, guests take a slow elevated tour on the Tomorrowland Transit Authority this.",
+          "answer": "PeopleMover",
+          "accept": [
+            "peoplemover",
+            "people mover"
+          ],
+          "choices": [
+            "PeopleMover",
+            "Skyway",
+            "Monorail",
+            "Speedway"
+          ],
+          "reveal": "The correct answer is PeopleMover! It's the most relaxing ride in the park, and it even peeks inside Space Mountain.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "zoomed-in-magic",
+      "title": "Zoomed-In Magic",
+      "kind": "media",
+      "intro": "Time for Zoomed-In Magic! I'll start SUPER zoomed in on a piece of Magic Kingdom and slowly zoom out. [whispers] Buzz in once you know the spot.",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A vintage brass magnifying glass hovering over a twinkling theme park at dusk, the lens revealing sharp magical details while the rest is soft and blurry.",
+        "file": "media/magic-kingdom-magic--zoomed-in-magic.jpg"
+      },
+      "format": "zoom",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Name this Magic Kingdom landmark.",
+          "answer": "Cinderella Castle",
+          "accept": [
+            "cinderella castle",
+            "cinderella's castle"
+          ],
+          "choices": [
+            "Cinderella Castle",
+            "Sleeping Beauty Castle",
+            "Beast's Castle",
+            "Arendelle Castle"
+          ],
+          "reveal": "[excited] The correct answer is Cinderella Castle! It's about 189 feet tall, and it's a little taller than it looks thanks to forced perspective.",
+          "media": {
+            "type": "image",
+            "prompt": "Extreme close-up, original painterly digital illustration, no people, no characters, no logos, no text. A grand fairy-tale castle with tall slender blue-roofed spires, gold finials and pale stone walls, under a bright Florida sky with puffy clouds, seen from a tree-lined plaza.",
+            "file": "media/magic-kingdom-magic--zoomed-in-magic-200.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Name this Magic Kingdom ride.",
+          "answer": "Mad Tea Party",
+          "accept": [
+            "mad tea party",
+            "the mad tea party",
+            "teacups",
+            "tea cups"
+          ],
+          "choices": [
+            "Mad Tea Party",
+            "Dumbo the Flying Elephant",
+            "Prince Charming Regal Carrousel",
+            "Astro Orbiter"
+          ],
+          "reveal": "The correct answer is the Mad Tea Party! [laughs] Spin the wheel in the middle as hard as you dare. Lunch afterward is not recommended.",
+          "media": {
+            "type": "image",
+            "prompt": "Extreme close-up, original painterly digital illustration, no people, no characters, no logos, no text. Giant pastel teacups with swirled patterns on a spinning platform under colourful paper lanterns and a striped festival canopy.",
+            "file": "media/magic-kingdom-magic--zoomed-in-magic-400.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Name this Magic Kingdom attraction.",
+          "answer": "Haunted Mansion",
+          "accept": [
+            "haunted mansion",
+            "the haunted mansion"
+          ],
+          "choices": [
+            "Haunted Mansion",
+            "Hall of Presidents",
+            "Tower of Terror",
+            "Seven Dwarfs Mine Train"
+          ],
+          "reveal": "The correct answer is the Haunted Mansion! [whispers] Nine hundred ninety-nine happy haunts, but there's always room for one more.",
+          "media": {
+            "type": "image",
+            "prompt": "Extreme close-up, original painterly digital illustration, no people, no characters, no logos, no text. A stately red-brick Gothic manor with a tall tower and dark slate roof at dusk, wrought-iron fence, crooked tombstones and a lone hearse carriage on a winding path.",
+            "file": "media/magic-kingdom-magic--zoomed-in-magic-600.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Name this Magic Kingdom attraction.",
+          "answer": "Jungle Cruise",
+          "accept": [
+            "jungle cruise",
+            "the jungle cruise"
+          ],
+          "choices": [
+            "Jungle Cruise",
+            "Pirates of the Caribbean",
+            "Walt Disney's Enchanted Tiki Room",
+            "Swiss Family Treehouse"
+          ],
+          "reveal": "The correct answer is the Jungle Cruise! [mischievously] Home of the worst puns on Earth. I'm a fan, obviously.",
+          "media": {
+            "type": "image",
+            "prompt": "Extreme close-up, original painterly digital illustration, no people, no characters, no logos, no text. A small striped-canopy riverboat with a rusty tin roof and a rope-wrapped wheel, gliding down a muddy jungle river past huge leaves and a wooden dock with crates.",
+            "file": "media/magic-kingdom-magic--zoomed-in-magic-800.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Name this Magic Kingdom ride.",
+          "answer": "Prince Charming Regal Carrousel",
+          "accept": [
+            "prince charming regal carrousel",
+            "prince charming carrousel",
+            "carrousel",
+            "carousel"
+          ],
+          "choices": [
+            "Prince Charming Regal Carrousel",
+            "King Arthur Carrousel",
+            "Astro Orbiter",
+            "Dumbo the Flying Elephant"
+          ],
+          "reveal": "The correct answer is Prince Charming Regal Carrousel! Its horses were hand carved in 1917, and it has been turning in Fantasyland since 1971.",
+          "media": {
+            "type": "image",
+            "prompt": "Extreme close-up, original painterly digital illustration, no people, no characters, no logos, no text. Ornate white carved carousel horses with gold manes and jewelled saddles, under a gilded canopy with painted panels and warm twinkling lights.",
+            "file": "media/magic-kingdom-magic--zoomed-in-magic-1000.jpg"
+          },
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "mountain-range",
+      "title": "Mountain Range",
+      "kind": "parks",
+      "intro": "Our Disney Parks category: Mountain Range! It's all about Magic Kingdom's coasters and mountains.",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A dramatic skyline of theme park mountains: a white cone-shaped space dome, red rock western buttes with mine tracks and a gem-filled mine entrance, at sunset.",
+        "file": "media/magic-kingdom-magic--mountain-range.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This indoor coaster rockets through the dark like you're flying through outer space.",
+          "answer": "Space Mountain",
+          "accept": [
+            "space mountain"
+          ],
+          "choices": [
+            "Space Mountain",
+            "Big Thunder Mountain Railroad",
+            "Hyperspace Mountain",
+            "TRON Lightcycle Run"
+          ],
+          "reveal": "The correct answer is Space Mountain! [excited] Hold on tight, the stars are closer than they look.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "This Fantasyland coaster's mine cars pass a sparkling diamond mine full of singing workers.",
+          "answer": "Seven Dwarfs Mine Train",
+          "accept": [
+            "seven dwarfs mine train",
+            "seven dwarfs mine ride",
+            "mine train"
+          ],
+          "choices": [
+            "Seven Dwarfs Mine Train",
+            "Big Thunder Mountain Railroad",
+            "Barnstormer",
+            "Matterhorn Bobsleds"
+          ],
+          "reveal": "The correct answer is the Seven Dwarfs Mine Train! The cars swing side to side. Heigh-ho, heigh-ho!",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "This Frontierland coaster calls itself the wildest ride in the wilderness.",
+          "answer": "Big Thunder Mountain Railroad",
+          "accept": [
+            "big thunder mountain railroad",
+            "big thunder mountain",
+            "big thunder"
+          ],
+          "choices": [
+            "Big Thunder Mountain Railroad",
+            "Seven Dwarfs Mine Train",
+            "Expedition Everest",
+            "Grizzly River Run"
+          ],
+          "reveal": "The correct answer is Big Thunder Mountain Railroad! [sarcastic] A runaway mine train, and no one is driving. Totally fine.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In 2024, Tiana's Bayou Adventure opened in the building that used to house this log flume ride.",
+          "answer": "Splash Mountain",
+          "accept": [
+            "splash mountain"
+          ],
+          "choices": [
+            "Splash Mountain",
+            "Grizzly River Run",
+            "Kali River Rapids",
+            "Big Thunder Mountain"
+          ],
+          "reveal": "The correct answer is Splash Mountain! [laughs] Tiana kept the big drop, so yes, you're still going to get soaked.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Magic Kingdom's Space Mountain opened in this year, two years before Disneyland's version.",
+          "answer": "1975",
+          "accept": [
+            "1975"
+          ],
+          "choices": [
+            "1975",
+            "1971",
+            "1977",
+            "1982"
+          ],
+          "reveal": "The correct answer is 1975! Disneyland got its Space Mountain in 1977. Florida was first to the stars this time.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "abracadabra",
+      "title": "Abracadabra",
+      "kind": "fan",
+      "intro": "And the fan category: Abracadabra! [mischievously] Magic spells, magic objects and magic makers from Disney films.",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A wizard's workshop with a glowing star-covered pointed hat, a dancing broom, buckets of water, a magic mirror and a floating carpet, swirling blue sparkles.",
+        "file": "media/magic-kingdom-magic--abracadabra.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Aladdin and Jasmine fly over the world on this.",
+          "answer": "Magic carpet",
+          "accept": [
+            "magic carpet",
+            "carpet",
+            "flying carpet"
+          ],
+          "choices": [
+            "Magic carpet",
+            "Flying broom",
+            "Pumpkin coach",
+            "Hot-air balloon"
+          ],
+          "reveal": "The correct answer is the magic carpet! [laughs] A whole new world, with no seat belts.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "The Evil Queen asks this who is the fairest one of all.",
+          "answer": "Magic mirror",
+          "accept": [
+            "magic mirror",
+            "mirror",
+            "the magic mirror"
+          ],
+          "choices": [
+            "Magic mirror",
+            "Crystal ball",
+            "Magic lamp",
+            "Enchanted rose"
+          ],
+          "reveal": "The correct answer is the Magic Mirror! [whispers] Never ask a question you don't want answered honestly.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Mickey Mouse brings a broom to life, with very messy results, in this segment of Fantasia.",
+          "answer": "The Sorcerer's Apprentice",
+          "accept": [
+            "the sorcerer's apprentice",
+            "sorcerer's apprentice",
+            "sorcerers apprentice"
+          ],
+          "choices": [
+            "The Sorcerer's Apprentice",
+            "The Nutcracker Suite",
+            "Night on Bald Mountain",
+            "Dance of the Hours"
+          ],
+          "reveal": "The correct answer is The Sorcerer's Apprentice! Mickey learned the hard way. Never skip your chores with magic.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In Beauty and the Beast, the enchanted rose blooms until the Beast reaches this birthday.",
+          "answer": "21st",
+          "accept": [
+            "21st",
+            "21",
+            "twenty-first",
+            "twenty first"
+          ],
+          "choices": [
+            "21st",
+            "18th",
+            "16th",
+            "25th"
+          ],
+          "reveal": "The correct answer is his 21st birthday! [dramatic] If he can't learn to love by then, he stays a beast forever. No pressure.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "The sorcerer Mickey works for in Fantasia has this name, which is Walt Disney spelled backward.",
+          "answer": "Yen Sid",
+          "accept": [
+            "yen sid"
+          ],
+          "choices": [
+            "Yen Sid",
+            "Merlin",
+            "Zarnak",
+            "Hocus Pocus"
+          ],
+          "reveal": "The correct answer is Yen Sid! [excited] Spell it backward and you get Disney. Even the wizards love Walt.",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}
