@@ -1,0 +1,532 @@
+{
+  "id": "springtime-blooms",
+  "title": "Springtime Blooms",
+  "theme": "Spring at Disney",
+  "tags": [
+    "spring",
+    "flowers",
+    "gardens",
+    "epcot",
+    "festival"
+  ],
+  "intro": "[excited] Welcome to the springtime episode of Disney Jeopardy! The flowers are blooming, the birds are singing, and [laughs] everybody is a little bit twitterpated.",
+  "art": {
+    "prompt": "A sunny spring garden at a theme park: blooming tulip beds, a shrub sculpted into a giant butterfly, cherry blossom trees by a lagoon, a geodesic sphere glowing in the distance, butterflies in the air, 16:9 widescreen, vibrant cinematic lighting, original artwork, no text, no logos, no characters, no people",
+    "file": "media/springtime-blooms.jpg"
+  },
+  "categories": [
+    {
+      "id": "twitterpated",
+      "title": "Twitterpated",
+      "kind": "film",
+      "intro": "First, spring in the forest with Bambi. [chuckles] Watch out for twitterpation.",
+      "art": {
+        "prompt": "A spring forest glade with morning sun beams, fresh green leaves, wildflowers, a babbling brook, a hollow tree and a gentle April rain shower sparkling in the light, 16:9 widescreen, vibrant cinematic lighting, original artwork, no text, no logos, no characters, no people",
+        "file": "media/springtime-blooms--twitterpated.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In Bambi, this shy skunk happily accepts the name Flower.",
+          "answer": "Flower",
+          "accept": [
+            "flower"
+          ],
+          "choices": [
+            "Flower",
+            "Petal",
+            "Rosie",
+            "Daisy"
+          ],
+          "reveal": "The correct answer is Flower! [laughs] Bambi called him Flower and he just went with it.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "According to Friend Owl, in springtime everyone gets this goofy word for being lovestruck.",
+          "answer": "Twitterpated",
+          "accept": [
+            "twitterpated",
+            "twitterpation"
+          ],
+          "choices": [
+            "Twitterpated",
+            "Lovebugged",
+            "Moonstruck",
+            "Smitten"
+          ],
+          "reveal": "The correct answer is twitterpated! [chuckles] You're walking along, minding your own business...",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "This doe is Bambi's childhood friend, and later, his mate.",
+          "answer": "Faline",
+          "accept": [
+            "faline"
+          ],
+          "choices": [
+            "Faline",
+            "Ena",
+            "Feline",
+            "Gina"
+          ],
+          "reveal": "The correct answer is Faline! [excited] She caught his eye in the meadow.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In Bambi, a sudden spring rainstorm in the forest is set to this song.",
+          "answer": "Little April Shower",
+          "accept": [
+            "little april shower",
+            "april shower"
+          ],
+          "choices": [
+            "Little April Shower",
+            "Let's Sing a Gay Little Spring Song",
+            "Love Is a Song",
+            "Looking for Romance"
+          ],
+          "reveal": "The correct answer is Little April Shower! Drip, drip, drop. [laughs] Even the rain is musical in this movie.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Bambi was based on a 1923 novel by this Austrian author.",
+          "answer": "Felix Salten",
+          "accept": [
+            "felix salten",
+            "salten"
+          ],
+          "choices": [
+            "Felix Salten",
+            "Franz Kafka",
+            "Hermann Hesse",
+            "Erich Kästner"
+          ],
+          "reveal": "The correct answer is Felix Salten! [whispers] Bambi, a Life in the Woods.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "petals-at-epcot",
+      "title": "Petals at EPCOT",
+      "kind": "parks",
+      "intro": "Next, the EPCOT International Flower & Garden Festival. [excited] Bring your allergy pills!",
+      "art": {
+        "prompt": "A world-class garden festival around a lagoon: tulip beds in rainbow stripes, a huge butterfly made from living flowers, hanging baskets, a garden train winding through miniature villages, 16:9 widescreen, vibrant cinematic lighting, original artwork, no text, no logos, no characters, no people",
+        "file": "media/springtime-blooms--petals-at-epcot.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "The Flower & Garden Festival is famous for these shrubs sculpted into the shapes of Disney characters.",
+          "answer": "Topiaries",
+          "accept": [
+            "topiaries",
+            "topiary",
+            "topiary sculptures"
+          ],
+          "choices": [
+            "Topiaries",
+            "Bonsai trees",
+            "Hedge mazes",
+            "Flower crowns"
+          ],
+          "reveal": "The correct answer is topiaries! [laughs] Their haircuts take longer than mine.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "A model railway winds through a tiny village in this World Showcase pavilion.",
+          "answer": "Germany",
+          "accept": [
+            "germany",
+            "german pavilion",
+            "germany pavilion"
+          ],
+          "choices": [
+            "Germany",
+            "Norway",
+            "Italy",
+            "Canada"
+          ],
+          "reveal": "The correct answer is Germany! [chuckles] Gardening on a very, very small scale.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "The festival's concert series has the gardening-pun name Garden this.",
+          "answer": "Garden Rocks",
+          "accept": [
+            "garden rocks",
+            "rocks"
+          ],
+          "choices": [
+            "Garden Rocks",
+            "Garden Grooves",
+            "Garden Jams",
+            "Garden Beats"
+          ],
+          "reveal": "The correct answer is Garden Rocks! [excited] Bands on stage, flowers all around.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "The EPCOT International Flower & Garden Festival first bloomed in this year.",
+          "answer": "1994",
+          "accept": [
+            "1994"
+          ],
+          "choices": [
+            "1994",
+            "1982",
+            "1988",
+            "2000"
+          ],
+          "reveal": "The correct answer is 1994! [gasps] Decades of blooming since.",
+          "dailyDouble": true
+        },
+        {
+          "value": 1000,
+          "clue": "A single tomato tree grown at EPCOT's Land pavilion set a Guinness record by producing more than 32,000 of these in one year.",
+          "answer": "Tomatoes",
+          "accept": [
+            "tomatoes",
+            "tomato"
+          ],
+          "choices": [
+            "Tomatoes",
+            "Pumpkins",
+            "Peppers",
+            "Strawberries"
+          ],
+          "reveal": "The correct answer is tomatoes! 32,194 of them. [laughs] That's a lot of salsa.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "secret-gardens",
+      "title": "Secret Gardens",
+      "kind": "theme",
+      "intro": "Now, gardens and green thumbs from all over the Disney world. [chuckles]",
+      "art": {
+        "prompt": "A hidden walled garden behind an ivy-covered gate, a rose maze, a willow tree by a pond, a glass greenhouse glowing in sunlight, garden tools leaning against a stone wall, 16:9 widescreen, vibrant cinematic lighting, original artwork, no text, no logos, no characters, no people",
+        "file": "media/springtime-blooms--secret-gardens.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In Alice in Wonderland, the Queen of Hearts' card soldiers are painting these red.",
+          "answer": "The roses",
+          "accept": [
+            "roses",
+            "the roses",
+            "white roses",
+            "the white roses"
+          ],
+          "choices": [
+            "The roses",
+            "The tulips",
+            "The hedges",
+            "The tarts"
+          ],
+          "reveal": "The correct answer is the roses! They planted white ones by mistake. [gasps] Off with their heads!",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "In Encanto, this Madrigal sister can make flowers bloom anywhere.",
+          "answer": "Isabela",
+          "accept": [
+            "isabela",
+            "isabella",
+            "isabela madrigal"
+          ],
+          "choices": [
+            "Isabela",
+            "Luisa",
+            "Dolores",
+            "Pepa"
+          ],
+          "reveal": "The correct answer is Isabela! [excited] And when she lets loose, cactuses bloom too.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "In Pocahontas, this wise old talking tree gives Pocahontas advice.",
+          "answer": "Grandmother Willow",
+          "accept": [
+            "grandmother willow",
+            "willow"
+          ],
+          "choices": [
+            "Grandmother Willow",
+            "Grandmother Oak",
+            "Old Man Willow",
+            "Mother Birch"
+          ],
+          "reveal": "The correct answer is Grandmother Willow! [chuckles] Listen with your heart.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Disney's 1932 short Flowers and Trees was the first commercially released film in full three-strip this.",
+          "answer": "Technicolor",
+          "accept": [
+            "technicolor",
+            "color",
+            "three-strip technicolor",
+            "three strip technicolor"
+          ],
+          "choices": [
+            "Technicolor",
+            "Cinemascope",
+            "Panavision",
+            "Sound"
+          ],
+          "reveal": "The correct answer is Technicolor! It also won the very first Oscar for animated short. [excited] A beautiful bloom.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "EPCOT's boat ride through real working greenhouses at The Land is called this.",
+          "answer": "Living with the Land",
+          "accept": [
+            "living with the land"
+          ],
+          "choices": [
+            "Living with the Land",
+            "Listen to the Land",
+            "Soarin'",
+            "Garden of Tomorrow"
+          ],
+          "reveal": "The correct answer is Living with the Land! [chuckles] It used to be called Listen to the Land.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "in-full-bloom",
+      "title": "In Full Bloom",
+      "kind": "media",
+      "intro": "Picture time! Every picture is a famous Disney flower. Name the film it blossomed in. [excited] Stop and smell the clues.",
+      "art": {
+        "prompt": "A bright garden of giant blooms in a greenhouse: a single rose under glass, a golden glowing flower, a carpet of orange marigolds, cherry blossoms, dancing dewdrops on petals, 16:9 widescreen, vibrant cinematic lighting, original artwork, no text, no logos, no characters, no people",
+        "file": "media/springtime-blooms--in-full-bloom.jpg"
+      },
+      "format": "picture",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Name the film this flower blooms in.",
+          "answer": "Beauty and the Beast",
+          "accept": [
+            "beauty and the beast"
+          ],
+          "choices": [
+            "Beauty and the Beast",
+            "Sleeping Beauty",
+            "Snow White and the Seven Dwarfs",
+            "Cinderella"
+          ],
+          "reveal": "The correct answer is Beauty and the Beast! The enchanted rose. [whispers] Last petal falls, and so does the spell.",
+          "media": {
+            "type": "image",
+            "prompt": "Original painterly digital illustration, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A single glowing red rose floating under a glass bell jar on a small table in a dark gothic castle wing, a few fallen petals beneath, moonlight through a tattered curtain",
+            "file": "media/springtime-blooms--in-full-bloom-200.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Name the film these petals light up.",
+          "answer": "Coco",
+          "accept": [
+            "coco"
+          ],
+          "choices": [
+            "Coco",
+            "Encanto",
+            "Elemental",
+            "Onward"
+          ],
+          "reveal": "The correct answer is Coco! A bridge of marigold petals to the Land of the Dead. [excited] Remember me!",
+          "media": {
+            "type": "image",
+            "prompt": "Original painterly digital illustration, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A shimmering glowing bridge made entirely of orange marigold petals arching from a candle-lit cemetery up into a starry night sky toward a distant colorful city of towers",
+            "file": "media/springtime-blooms--in-full-bloom-400.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Name the film this flower glows in.",
+          "answer": "Tangled",
+          "accept": [
+            "tangled"
+          ],
+          "choices": [
+            "Tangled",
+            "Brave",
+            "Frozen",
+            "Moana"
+          ],
+          "reveal": "The correct answer is Tangled! The golden flower grew from a drop of sunlight. [chuckles] Flower, gleam and glow!",
+          "media": {
+            "type": "image",
+            "prompt": "Original painterly digital illustration, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A single golden flower glowing with magical light on a seaside cliff at night, shimmering sparkles rising from its petals, a basket left on the ground nearby",
+            "file": "media/springtime-blooms--in-full-bloom-600.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Name the film these blossoms fall in.",
+          "answer": "Mulan",
+          "accept": [
+            "mulan"
+          ],
+          "choices": [
+            "Mulan",
+            "Raya and the Last Dragon",
+            "Turning Red",
+            "Big Hero 6"
+          ],
+          "reveal": "The correct answer is Mulan! [sighs] The flower that blooms in adversity is the most rare and beautiful of all.",
+          "media": {
+            "type": "image",
+            "prompt": "Original painterly digital illustration, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. White blossoms drifting down from a blossoming tree into a traditional ancient Chinese family garden with a stone bench, a small arched bridge over a pond and a bamboo cricket cage",
+            "file": "media/springtime-blooms--in-full-bloom-800.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Name the film these dancing flowers come from.",
+          "answer": "Fantasia",
+          "accept": [
+            "fantasia"
+          ],
+          "choices": [
+            "Fantasia",
+            "Fantasia 2000",
+            "Bambi",
+            "Melody Time"
+          ],
+          "reveal": "The correct answer is Fantasia! The Nutcracker Suite, with flowers dancing on a pond. [excited] Tchaikovsky, in bloom.",
+          "media": {
+            "type": "image",
+            "prompt": "Original painterly digital illustration, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. Flowers twirling like ballerinas on the surface of a moonlit pond, blossoms with petals as skirts, thistles leaping like dancers, milkweed seeds floating like tiny ballerinas",
+            "file": "media/springtime-blooms--in-full-bloom-1000.jpg"
+          },
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "spring-cleaning",
+      "title": "Spring Cleaning",
+      "kind": "fan",
+      "intro": "Finally, spring cleaning! Disney characters who tidy up, with a song. [laughs] Grab a broom.",
+      "art": {
+        "prompt": "A cozy cottage being spring-cleaned: a broom sweeping by itself, buckets of soapy bubbles, dishes stacked in a washbasin, a feather duster and open windows with blooming flowers outside, 16:9 widescreen, vibrant cinematic lighting, original artwork, no text, no logos, no characters, no people",
+        "file": "media/springtime-blooms--spring-cleaning.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Snow White sings this song while cleaning the dwarfs' cottage with forest animals.",
+          "answer": "Whistle While You Work",
+          "accept": [
+            "whistle while you work"
+          ],
+          "choices": [
+            "Whistle While You Work",
+            "Heigh-Ho",
+            "Some Day My Prince Will Come",
+            "I'm Wishing"
+          ],
+          "reveal": "The correct answer is Whistle While You Work! [laughs] Squirrels make terrible dusters.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Mary Poppins tidies the nursery with a snap of her fingers while singing this.",
+          "answer": "A Spoonful of Sugar",
+          "accept": [
+            "a spoonful of sugar",
+            "spoonful of sugar"
+          ],
+          "choices": [
+            "A Spoonful of Sugar",
+            "Chim Chim Cher-ee",
+            "Feed the Birds",
+            "Jolly Holiday"
+          ],
+          "reveal": "The correct answer is A Spoonful of Sugar! [excited] And the medicine goes down.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "In Tangled, Rapunzel's chores-and-hobbies morning routine is the song 'When Will My Life' do this.",
+          "answer": "Begin",
+          "accept": [
+            "begin",
+            "when will my life begin"
+          ],
+          "choices": [
+            "Begin",
+            "Change",
+            "Start",
+            "Go On"
+          ],
+          "reveal": "The correct answer is Begin! Seven a.m., the usual morning lineup. [chuckles] Chores, then paint the walls again.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In Fantasia, Mickey enchants a broom to carry water in this segment.",
+          "answer": "The Sorcerer's Apprentice",
+          "accept": [
+            "the sorcerer's apprentice",
+            "sorcerers apprentice",
+            "sorcerer's apprentice"
+          ],
+          "choices": [
+            "The Sorcerer's Apprentice",
+            "Night on Bald Mountain",
+            "The Nutcracker Suite",
+            "The Pastoral Symphony"
+          ],
+          "reveal": "The correct answer is The Sorcerer's Apprentice! [gasps] Bucket after bucket after bucket.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "In The Sword in the Stone, Merlin shrinks his whole house into a bag while singing this magic song.",
+          "answer": "Higitus Figitus",
+          "accept": [
+            "higitus figitus",
+            "higitus figitus zumbabazing"
+          ],
+          "choices": [
+            "Higitus Figitus",
+            "Bibbidi-Bobbidi-Boo",
+            "Mad Madam Mim",
+            "That's What Makes the World Go Round"
+          ],
+          "reveal": "The correct answer is Higitus Figitus! [laughs] The world's best packing technique.",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}

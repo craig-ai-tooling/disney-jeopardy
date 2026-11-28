@@ -1,0 +1,544 @@
+{
+  "id": "new-years-countdown",
+  "title": "New Year's Countdown",
+  "theme": "Endings, Finales, Firsts and Lasts",
+  "tags": [
+    "new-years",
+    "holiday",
+    "history",
+    "parks",
+    "finales"
+  ],
+  "intro": "[excited] Ten, nine, eight... welcome to the New Year's episode of Disney Jeopardy! Tonight is all about firsts, lasts and big grand finales. [laughs] Grab a noisemaker!",
+  "art": {
+    "prompt": "A celebratory night sky over a fairy-tale castle with gold and silver fireworks, confetti and streamers falling, a giant ornate clock face showing nearly midnight, party hats and noisemakers on a table, 16:9 widescreen, vibrant cinematic lighting, original artwork, no text, no logos, no characters, no people",
+    "file": "media/new-years-countdown.jpg"
+  },
+  "categories": [
+    {
+      "id": "first-frames",
+      "title": "First Frames",
+      "kind": "film",
+      "intro": "First, Disney movie firsts. [chuckles] Somebody had to go first!",
+      "art": {
+        "prompt": "A vintage film studio: an old animation desk with a pencil sketch of a blank page, a film reel, a hand-crank camera, a glowing 'first light' spotlight hitting a blank movie screen, 16:9 widescreen, vibrant cinematic lighting, original artwork, no text, no logos, no characters, no people",
+        "file": "media/new-years-countdown--first-frames.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Toy Story, released in 1995, was the first feature film made entirely with this technology.",
+          "answer": "Computer animation",
+          "accept": [
+            "computer animation",
+            "cgi",
+            "computer-generated",
+            "computer generated imagery",
+            "computers",
+            "3d animation"
+          ],
+          "choices": [
+            "Computer animation",
+            "Stop-motion",
+            "Hand-drawn animation",
+            "Claymation"
+          ],
+          "reveal": "The correct answer is computer animation! Pixar made history. [excited] To infinity and beyond!",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Mickey Mouse spoke his very first words in 1929's The Karnival Kid. What were they?",
+          "answer": "Hot dogs",
+          "accept": [
+            "hot dogs",
+            "hot dog",
+            "hot dogs hot dogs"
+          ],
+          "choices": [
+            "Hot dogs",
+            "Hiya pal",
+            "Oh boy",
+            "Hello folks"
+          ],
+          "reveal": "The correct answer is hot dogs! [laughs] Mickey's first words were a snack order.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "This 2013 film was the first from Walt Disney Animation Studios to win the Oscar for Best Animated Feature.",
+          "answer": "Frozen",
+          "accept": [
+            "frozen"
+          ],
+          "choices": [
+            "Frozen",
+            "Tangled",
+            "Wreck-It Ralph",
+            "Bolt"
+          ],
+          "reveal": "The correct answer is Frozen! Pixar had won before, but this was Disney Animation's first. [excited] Let it go!",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Premiering in 1997, this Halloween movie about a mummy is considered the first Disney Channel Original Movie.",
+          "answer": "Under Wraps",
+          "accept": [
+            "under wraps"
+          ],
+          "choices": [
+            "Under Wraps",
+            "Halloweentown",
+            "Zenon: Girl of the 21st Century",
+            "Smart House"
+          ],
+          "reveal": "The correct answer is Under Wraps! A friendly mummy named Harold. [chuckles] Long before High School Musical.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Released in 1985, this was the first Disney animated feature to get a PG rating.",
+          "answer": "The Black Cauldron",
+          "accept": [
+            "the black cauldron",
+            "black cauldron"
+          ],
+          "choices": [
+            "The Black Cauldron",
+            "The Fox and the Hound",
+            "The Great Mouse Detective",
+            "Oliver & Company"
+          ],
+          "reveal": "The correct answer is The Black Cauldron! [gasps] The Horned King scared a whole generation.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "grand-finales",
+      "title": "Grand Finales",
+      "kind": "parks",
+      "intro": "Next, the nighttime spectaculars that end a Disney day. [excited] Find a spot and look up!",
+      "art": {
+        "prompt": "A lagoon at night with fireworks reflecting in the water, a mist screen glowing with color, a floating globe of lights, and a parade of glowing floats along a riverbank, 16:9 widescreen, vibrant cinematic lighting, original artwork, no text, no logos, no characters, no people",
+        "file": "media/new-years-countdown--grand-finales.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This Magic Kingdom fireworks show, which debuted in 2017, has a fairy-tale-ending title.",
+          "answer": "Happily Ever After",
+          "accept": [
+            "happily ever after"
+          ],
+          "choices": [
+            "Happily Ever After",
+            "Wishes",
+            "Enchantment",
+            "Once Upon a Time"
+          ],
+          "reveal": "The correct answer is Happily Ever After! [sighs] Hold on to someone you love for this one.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "In this Disneyland nighttime show, Mickey battles villains including Maleficent as a giant dragon.",
+          "answer": "Fantasmic!",
+          "accept": [
+            "fantasmic",
+            "fantasmic!"
+          ],
+          "choices": [
+            "Fantasmic!",
+            "World of Color",
+            "Wondrous Journeys",
+            "Disney Dreams"
+          ],
+          "reveal": "The correct answer is Fantasmic! [excited] Some imagination, huh?",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "This EPCOT finale, which ran from 1999 to 2019, featured a giant globe that opened like a flower.",
+          "answer": "IllumiNations: Reflections of Earth",
+          "accept": [
+            "illuminations",
+            "illuminations: reflections of earth",
+            "reflections of earth",
+            "illuminations reflections of earth"
+          ],
+          "choices": [
+            "IllumiNations: Reflections of Earth",
+            "Harmonious",
+            "Epcot Forever",
+            "Luminous"
+          ],
+          "reveal": "The correct answer is IllumiNations: Reflections of Earth! [sighs] Twenty years of World Showcase goosebumps.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Magic Kingdom's Wishes fireworks, which ran from 2003 to 2017, was narrated by this character.",
+          "answer": "Jiminy Cricket",
+          "accept": [
+            "jiminy cricket",
+            "jiminy"
+          ],
+          "choices": [
+            "Jiminy Cricket",
+            "The Blue Fairy",
+            "Tinker Bell",
+            "Mickey Mouse"
+          ],
+          "reveal": "The correct answer is Jiminy Cricket! [whispers] When you wish upon a star...",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Disneyland's original Main Street Electrical Parade debuted in this year.",
+          "answer": "1972",
+          "accept": [
+            "1972"
+          ],
+          "choices": [
+            "1972",
+            "1965",
+            "1977",
+            "1980"
+          ],
+          "reveal": "The correct answer is 1972! Baroque Hoedown, forever. [laughs] Now it's stuck in your head.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "last-call",
+      "title": "Last Call",
+      "kind": "theme",
+      "intro": "Now, the last rides. Attractions that closed their doors for good. [sighs] Pour one out.",
+      "art": {
+        "prompt": "A shuttered ride entrance at dusk with a closed velvet rope, a chained gate, dust sheets over a ride vehicle, a single flickering lamp and a 'closed' sandwich board with no writing, 16:9 widescreen, vibrant cinematic lighting, original artwork, no text, no logos, no characters, no people",
+        "file": "media/new-years-countdown--last-call.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Ellen's Energy Adventure, which closed at EPCOT in 2017, starred this talk show host.",
+          "answer": "Ellen DeGeneres",
+          "accept": [
+            "ellen degeneres",
+            "ellen"
+          ],
+          "choices": [
+            "Ellen DeGeneres",
+            "Bill Nye",
+            "Oprah Winfrey",
+            "Rosie O'Donnell"
+          ],
+          "reveal": "The correct answer is Ellen DeGeneres! With Bill Nye and a lot of dinosaurs. [laughs] Forty-five minutes of energy.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Michael Jackson starred in this 3D space musical film shown at the parks.",
+          "answer": "Captain EO",
+          "accept": [
+            "captain eo",
+            "captain e.o."
+          ],
+          "choices": [
+            "Captain EO",
+            "Honey, I Shrunk the Audience",
+            "Magic Journeys",
+            "Moonwalker"
+          ],
+          "reveal": "The correct answer is Captain EO! Directed by Francis Ford Coppola. [excited] Produced by George Lucas!",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Frozen Ever After replaced this Viking boat ride in EPCOT's Norway pavilion in 2016.",
+          "answer": "Maelstrom",
+          "accept": [
+            "maelstrom"
+          ],
+          "choices": [
+            "Maelstrom",
+            "Viking Voyage",
+            "Norse Rapids",
+            "Fjord Falls"
+          ],
+          "reveal": "The correct answer is Maelstrom! Trolls, polar bears and a backwards plunge. [whispers] Then Elsa moved in.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Disney's Hollywood Studios closed this ride in 2017; Mickey & Minnie's Runaway Railway took over its building.",
+          "answer": "The Great Movie Ride",
+          "accept": [
+            "the great movie ride",
+            "great movie ride"
+          ],
+          "choices": [
+            "The Great Movie Ride",
+            "Toy Story Mania",
+            "The Backlot Tour",
+            "Star Tours"
+          ],
+          "reveal": "The correct answer is the Great Movie Ride! Its home is a copy of a famous Hollywood theater. [sighs] We still miss the gangster shootout.",
+          "dailyDouble": true
+        },
+        {
+          "value": 1000,
+          "clue": "This futuristic EPCOT ride, which let guests choose their own ending, closed in 1999.",
+          "answer": "Horizons",
+          "accept": [
+            "horizons"
+          ],
+          "choices": [
+            "Horizons",
+            "World of Motion",
+            "Body Wars",
+            "Wonders of Life"
+          ],
+          "reveal": "The correct answer is Horizons! Desert, sea or space. [sighs] If we had a time machine, we'd ride it again.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "fade-to-black",
+      "title": "Fade to Black",
+      "kind": "media",
+      "intro": "Picture time! Every picture is a final scene from a Disney or Pixar film. [whispers] Spoilers ahead. Name the movie.",
+      "art": {
+        "prompt": "A darkening movie screen with the last golden light fading, curtains slowly closing, an empty popcorn bucket and an old projector winding down in a cozy theater, 16:9 widescreen, vibrant cinematic lighting, original artwork, no text, no logos, no characters, no people",
+        "file": "media/new-years-countdown--fade-to-black.jpg"
+      },
+      "format": "picture",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "The final scene of which film?",
+          "answer": "The Lion King",
+          "accept": [
+            "the lion king",
+            "lion king"
+          ],
+          "choices": [
+            "The Lion King",
+            "The Jungle Book",
+            "Tarzan",
+            "Brother Bear"
+          ],
+          "reveal": "The correct answer is The Lion King! The circle of life comes full circle. [excited] Everybody sing!",
+          "media": {
+            "type": "image",
+            "prompt": "Original painterly digital illustration, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A jutting rocky promontory at sunrise over an African savanna, herds of zebras, elephants and antelope gathered below looking up, warm golden light, clouds parting",
+            "file": "media/new-years-countdown--fade-to-black-200.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "The final scene of which film?",
+          "answer": "Up",
+          "accept": [
+            "up"
+          ],
+          "choices": [
+            "Up",
+            "Brave",
+            "Coco",
+            "Ratatouille"
+          ],
+          "reveal": "The correct answer is Up! Carl's house finally sits right where Ellie dreamed. [sighs] Pass the tissues.",
+          "media": {
+            "type": "image",
+            "prompt": "Original painterly digital illustration, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A small colorful wooden house resting on a cliff edge beside a tall waterfall in a misty South American tablelands landscape, a few loose balloons drifting away",
+            "file": "media/new-years-countdown--fade-to-black-400.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "The final scene of which film?",
+          "answer": "Frozen",
+          "accept": [
+            "frozen"
+          ],
+          "choices": [
+            "Frozen",
+            "Frozen II",
+            "Tangled",
+            "Brave"
+          ],
+          "reveal": "The correct answer is Frozen! The castle courtyard becomes an ice rink. [laughs] Summer, but make it skating.",
+          "media": {
+            "type": "image",
+            "prompt": "Original painterly digital illustration, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A Nordic castle courtyard in bright summer sunshine magically turned into an outdoor ice skating rink, sparkling frost patterns, a frozen fountain, snowflakes drifting, open castle gates",
+            "file": "media/new-years-countdown--fade-to-black-600.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "The final scene of which film?",
+          "answer": "Monsters, Inc.",
+          "accept": [
+            "monsters inc",
+            "monsters, inc.",
+            "monsters inc."
+          ],
+          "choices": [
+            "Monsters, Inc.",
+            "Monsters University",
+            "Toy Story 2",
+            "Inside Out"
+          ],
+          "reveal": "The correct answer is Monsters, Inc.! The door is rebuilt, one splinter at a time. [whispers] Kitty?",
+          "media": {
+            "type": "image",
+            "prompt": "Original painterly digital illustration, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A single pink closet door decorated with painted flowers standing on a door station in a vast industrial factory, rebuilt from splintered pieces with one last wood sliver placed on a nearby workbench",
+            "file": "media/new-years-countdown--fade-to-black-800.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "The final scene of which film?",
+          "answer": "Mary Poppins",
+          "accept": [
+            "mary poppins"
+          ],
+          "choices": [
+            "Mary Poppins",
+            "Bedknobs and Broomsticks",
+            "Chitty Chitty Bang Bang",
+            "Pete's Dragon"
+          ],
+          "reveal": "The correct answer is Mary Poppins! Kites in the park, and an umbrella sailing off over London. [sighs] The wind changed.",
+          "media": {
+            "type": "image",
+            "prompt": "Original painterly digital illustration, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. Colorful kites flying over a sunny Edwardian London park, while an open black umbrella with a carved parrot-head handle floats away over chimney-filled rooftops",
+            "file": "media/new-years-countdown--fade-to-black-1000.jpg"
+          },
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "tick-tock-clocks",
+      "title": "Tick-Tock Clocks",
+      "kind": "fan",
+      "intro": "Finally, it's almost midnight, so this category is all about clocks! [excited] Tick, tock, contestants.",
+      "art": {
+        "prompt": "A collection of antique clocks on a wall: a grandfather clock, a mantel clock, a cuckoo clock, a pocket watch and a giant tower clock face in the window, all hands pointing near midnight, 16:9 widescreen, vibrant cinematic lighting, original artwork, no text, no logos, no characters, no people",
+        "file": "media/new-years-countdown--tick-tock-clocks.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Cinderella's magic spell ends at the stroke of this hour.",
+          "answer": "Midnight",
+          "accept": [
+            "midnight",
+            "12",
+            "twelve",
+            "twelve o'clock",
+            "12 o'clock",
+            "12:00"
+          ],
+          "choices": [
+            "Midnight",
+            "Noon",
+            "Ten o'clock",
+            "One o'clock"
+          ],
+          "reveal": "The correct answer is midnight! [gasps] Run, Cinderella! Leave a shoe, it's fine.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "In Peter Pan, Captain Hook is chased by a crocodile that swallowed one of these.",
+          "answer": "A clock",
+          "accept": [
+            "clock",
+            "a clock",
+            "alarm clock",
+            "an alarm clock"
+          ],
+          "choices": [
+            "A clock",
+            "A compass",
+            "A cannonball",
+            "A spyglass"
+          ],
+          "reveal": "The correct answer is a clock! Tick-Tock the Crocodile. [laughs] Also, he ate Hook's hand.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "In Beauty and the Beast, the castle's head of household was turned into this mantel clock.",
+          "answer": "Cogsworth",
+          "accept": [
+            "cogsworth"
+          ],
+          "choices": [
+            "Cogsworth",
+            "Lumiere",
+            "Chip",
+            "Wardrobe"
+          ],
+          "reveal": "The correct answer is Cogsworth! [chuckles] If it's not baroque, don't fix it.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "At Disneyland, the clock tower on the it's a small world facade launches a parade of toys this often.",
+          "answer": "Every 15 minutes",
+          "accept": [
+            "15 minutes",
+            "every 15 minutes",
+            "fifteen minutes",
+            "every fifteen minutes",
+            "quarter hour",
+            "every quarter hour"
+          ],
+          "choices": [
+            "Every 15 minutes",
+            "Every 5 minutes",
+            "Every hour",
+            "Every 30 minutes"
+          ],
+          "reveal": "The correct answer is every fifteen minutes! [excited] Wooden soldiers, dolls, everybody marches out.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "In The Great Mouse Detective, Basil battles Ratigan at the climax inside this London clock tower.",
+          "answer": "Big Ben",
+          "accept": [
+            "big ben",
+            "the elizabeth tower",
+            "elizabeth tower",
+            "clock tower"
+          ],
+          "choices": [
+            "Big Ben",
+            "Tower Bridge",
+            "St Paul's Cathedral",
+            "The Tower of London"
+          ],
+          "reveal": "The correct answer is Big Ben! Gears, pendulums and one very mean rat. [gasps] Hang on, Basil!",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}

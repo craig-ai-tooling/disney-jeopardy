@@ -1,0 +1,603 @@
+{
+  "id": "halloween-at-the-parks",
+  "title": "Halloween at the Parks",
+  "theme": "Halloween at the Parks",
+  "tags": [
+    "halloween",
+    "holiday",
+    "parks",
+    "spooky"
+  ],
+  "intro": "[excited] Welcome, foolish mortals, to a Halloween episode of Disney Jeopardy! Grab your candy bag, your costume, and maybe a flashlight. [whispers] The ghosts are keeping score tonight. [laughs]",
+  "art": {
+    "prompt": "A moonlit theme-park street at Halloween lined with glowing jack-o'-lanterns and orange string lights, a gothic mansion on a hill behind wrought-iron gates, bats swirling past a full moon, wisps of fog, 16:9 widescreen, vibrant cinematic lighting, original artwork, no text, no logos, no characters, no people",
+    "file": "media/halloween-at-the-parks.jpg"
+  },
+  "categories": [
+    {
+      "id": "trick-or-treat-theater",
+      "title": "Trick-or-Treat Theater",
+      "kind": "film",
+      "intro": "First, the movies we rewatch every October. [chuckles] Pass the popcorn and lock the door.",
+      "art": {
+        "prompt": "A cozy living room movie night on Halloween: a bowl of popcorn, a black-flame candle, a spell book with a brass clasp, a carved pumpkin glowing on the windowsill, a stormy night outside, 16:9 widescreen, vibrant cinematic lighting, original artwork, no text, no logos, no characters, no people",
+        "file": "media/halloween-at-the-parks--trick-or-treat-theater.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Hocus Pocus takes place on Halloween night in this Massachusetts town famous for its witch history.",
+          "answer": "Salem",
+          "accept": [
+            "salem",
+            "salem massachusetts"
+          ],
+          "choices": [
+            "Salem",
+            "Sleepy Hollow",
+            "Plymouth",
+            "Boston"
+          ],
+          "reveal": "The correct answer is Salem! A great town to visit in October. [whispers] Just don't light any candles you find in old houses.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "In Hocus Pocus, young Thackery Binx is cursed to live forever as this animal.",
+          "answer": "A black cat",
+          "accept": [
+            "black cat",
+            "a black cat",
+            "cat",
+            "a cat"
+          ],
+          "choices": [
+            "A black cat",
+            "A raven",
+            "A toad",
+            "A rat"
+          ],
+          "reveal": "The correct answer is a black cat! Three hundred years of talking cat life. [laughs] And still no one fed him on time.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "In the 2005 Disney Channel movie Twitches, real-life twin Tia Mowry plays one twin witch. This sister plays the other.",
+          "answer": "Tamera Mowry",
+          "accept": [
+            "tamera mowry",
+            "tamera",
+            "tamera mowry-housley"
+          ],
+          "choices": [
+            "Tamera Mowry",
+            "Mary-Kate Olsen",
+            "Raven-Symoné",
+            "Brenda Song"
+          ],
+          "reveal": "The correct answer is Tamera Mowry! Twins playing twins. [chuckles] Casting was suspiciously easy.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In Halloweentown, Marnie learns she's a witch from her grandmother Aggie, played by this Singin' in the Rain legend.",
+          "answer": "Debbie Reynolds",
+          "accept": [
+            "debbie reynolds",
+            "reynolds"
+          ],
+          "choices": [
+            "Debbie Reynolds",
+            "Angela Lansbury",
+            "Julie Andrews",
+            "Betty White"
+          ],
+          "reveal": "The correct answer is Debbie Reynolds! She played Aggie Cromwell in four Halloweentown movies. [excited] Now that's a grandma with range.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "In Hocus Pocus, Winifred poisoned her old flame Billy Butcherson and then sewed this shut so he couldn't spill her secrets.",
+          "answer": "His mouth",
+          "accept": [
+            "mouth",
+            "his mouth",
+            "lips",
+            "his lips"
+          ],
+          "choices": [
+            "His mouth",
+            "His eyes",
+            "His coffin",
+            "His pockets"
+          ],
+          "reveal": "The correct answer is his mouth! [laughs] When Billy finally cuts the stitches, the first thing he does is cough up three hundred years of moths.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "not-so-scary-nights",
+      "title": "Not-So-Scary Nights",
+      "kind": "parks",
+      "intro": "Next, the after-hours party at Magic Kingdom where the scariest thing is the line for candy. [laughs]",
+      "art": {
+        "prompt": "A fairy-tale castle at night bathed in orange and purple light, Halloween fireworks bursting overhead, a parade route lined with pumpkins and candy corn colored bunting, mist on the street, 16:9 widescreen, vibrant cinematic lighting, original artwork, no text, no logos, no characters, no people",
+        "file": "media/halloween-at-the-parks--not-so-scary-nights.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "At Mickey's Not-So-Scary Halloween Party, guests in costume collect this from treat stations all around Magic Kingdom.",
+          "answer": "Candy",
+          "accept": [
+            "candy",
+            "treats",
+            "sweets",
+            "candy treats"
+          ],
+          "choices": [
+            "Candy",
+            "Pins",
+            "Stickers",
+            "Pumpkins"
+          ],
+          "reveal": "The correct answer is candy! Bring a big bag. [whispers] A really big bag. Grown-ups trick-or-treat too, no judgment.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Riding down Main Street on horseback with a flaming jack-o'-lantern, this rider gallops out just before the Boo-to-You Parade.",
+          "answer": "The Headless Horseman",
+          "accept": [
+            "headless horseman",
+            "the headless horseman",
+            "horseman"
+          ],
+          "choices": [
+            "The Headless Horseman",
+            "Ichabod Crane",
+            "Brom Bones",
+            "The Ghost Host"
+          ],
+          "reveal": "The correct answer is the Headless Horseman! He rides straight out of 1949's The Adventures of Ichabod and Mr. Toad. [laughs] He never needs a hat.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Since 2019, Disneyland Resort's after-hours Halloween party, Oogie Boogie Bash, has been held in this park.",
+          "answer": "Disney California Adventure",
+          "accept": [
+            "disney california adventure",
+            "california adventure",
+            "dca"
+          ],
+          "choices": [
+            "Disney California Adventure",
+            "Disneyland Park",
+            "Downtown Disney",
+            "Disney's Hollywood Studios"
+          ],
+          "reveal": "The correct answer is Disney California Adventure! Named for the boogie man himself from The Nightmare Before Christmas. [chuckles] Roll the dice!",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "From 2005 to 2018, this Haunted Mansion-inspired fireworks show lit up the sky over Magic Kingdom during the party.",
+          "answer": "HalloWishes",
+          "accept": [
+            "hallowishes",
+            "happy hallowishes"
+          ],
+          "choices": [
+            "HalloWishes",
+            "Villains Nite Out",
+            "Not-So-Spooky Spectacular",
+            "Halloween Fantasy in the Sky"
+          ],
+          "reveal": "The correct answer is HalloWishes! Hosted by the Ghost Host with a choir of villains. [sighs] We still miss it.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Mickey's Not-So-Scary Halloween Party first haunted Magic Kingdom in this year, as a one-night event.",
+          "answer": "1995",
+          "accept": [
+            "1995"
+          ],
+          "choices": [
+            "1995",
+            "1983",
+            "1991",
+            "2001"
+          ],
+          "reveal": "The correct answer is 1995! Just one night, on Halloween itself. [excited] Now it runs for weeks, starting before summer is even over.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "room-for-one-more",
+      "title": "Room for One More",
+      "kind": "theme",
+      "intro": "Now, a whole category inside the Haunted Mansion. [whispers] There's always room for one more contestant.",
+      "art": {
+        "prompt": "A dusty gothic foyer lit by a single candelabra, a long hallway of portraits with following eyes, cobwebs on a grand staircase, a crystal ball glowing on a seance table, 16:9 widescreen, vibrant cinematic lighting, original artwork, no text, no logos, no characters, no people",
+        "file": "media/halloween-at-the-parks--room-for-one-more.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "The Ghost Host tells guests the Haunted Mansion is home to this many happy haunts.",
+          "answer": "999",
+          "accept": [
+            "999",
+            "nine hundred ninety-nine",
+            "nine hundred and ninety nine"
+          ],
+          "choices": [
+            "999",
+            "1,000",
+            "666",
+            "13"
+          ],
+          "reveal": "The correct answer is 999! There's room for a thousand. [laughs] Any volunteers?",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "In the stretching room, one portrait reveals a young woman with a parasol balanced on a tightrope above this snapping creature.",
+          "answer": "An alligator",
+          "accept": [
+            "alligator",
+            "an alligator",
+            "gator",
+            "crocodile",
+            "a crocodile"
+          ],
+          "choices": [
+            "An alligator",
+            "A shark",
+            "A snake",
+            "A bear"
+          ],
+          "reveal": "The correct answer is an alligator! [gasps] Hold that parasol steady, ma'am.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Guests ride through the Haunted Mansion in black clamshell ride vehicles with this spooky name.",
+          "answer": "Doom Buggies",
+          "accept": [
+            "doom buggies",
+            "doom buggy",
+            "the doom buggies"
+          ],
+          "choices": [
+            "Doom Buggies",
+            "Ghost Carts",
+            "Hearse Cars",
+            "Omnimovers"
+          ],
+          "reveal": "The correct answer is Doom Buggies! Technically they run on Disney's Omnimover system. [chuckles] But Doom Buggy is way more fun to say.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Removed from Disneyland's attic soon after the ride opened in 1969, this ghost with a disappearing head returned in 2015.",
+          "answer": "The Hatbox Ghost",
+          "accept": [
+            "hatbox ghost",
+            "the hatbox ghost"
+          ],
+          "choices": [
+            "The Hatbox Ghost",
+            "The Ghost Host",
+            "Master Gracey",
+            "The Raven"
+          ],
+          "reveal": "The correct answer is the Hatbox Ghost! The head-swapping effect didn't work in 1969. [excited] Forty-six years later, technology finally caught up.",
+          "dailyDouble": true
+        },
+        {
+          "value": 1000,
+          "clue": "This voice actor, also known as the voice of Boris Badenov, recorded the Ghost Host's famous narration.",
+          "answer": "Paul Frees",
+          "accept": [
+            "paul frees",
+            "frees"
+          ],
+          "choices": [
+            "Paul Frees",
+            "Thurl Ravenscroft",
+            "Vincent Price",
+            "Corey Burton"
+          ],
+          "reveal": "The correct answer is Paul Frees! [whispers] Is this a haunted room, or is it your imagination? [laughs] Thurl Ravenscroft, by the way, is one of the singing busts.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "spirited-facades",
+      "title": "Spirited Facades",
+      "kind": "media",
+      "intro": "Picture time! Every photo is a real haunt from a Disney park somewhere in the world. [chuckles] Identify the spooky address.",
+      "art": {
+        "prompt": "A row of tiny glowing haunted houses on shelves like a model collection, each in a different style: southern mansion, gothic manor, crumbling hotel tower, western mansion on a mesa, Victorian estate, 16:9 widescreen, vibrant cinematic lighting, original artwork, no text, no logos, no characters, no people",
+        "file": "media/halloween-at-the-parks--spirited-facades.jpg"
+      },
+      "format": "picture",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This Southern-style mansion opened at Disneyland in 1969. Name the attraction inside.",
+          "answer": "Haunted Mansion",
+          "accept": [
+            "haunted mansion",
+            "the haunted mansion"
+          ],
+          "choices": [
+            "Haunted Mansion",
+            "Tower of Terror",
+            "Phantom Manor",
+            "Mystic Manor"
+          ],
+          "reveal": "The correct answer is the Haunted Mansion! It sits in New Orleans Square and looks perfectly lovely on the outside. [whispers] That's how they get you.",
+          "media": {
+            "type": "image",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Haunted_Mansion_Exterior.JPG",
+              "license": "Public domain",
+              "author": "SolarSurfer"
+            },
+            "file": "media/halloween-at-the-parks--spirited-facades-200.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "This crumbling Hollywood landmark at Disney's Hollywood Studios hides a runaway elevator. Name the hotel.",
+          "answer": "The Hollywood Tower Hotel",
+          "accept": [
+            "hollywood tower hotel",
+            "the hollywood tower hotel",
+            "tower of terror",
+            "twilight zone tower of terror"
+          ],
+          "choices": [
+            "The Hollywood Tower Hotel",
+            "The Hotel Hightower",
+            "The Grand Californian",
+            "The Hollywood Roosevelt"
+          ],
+          "reveal": "The correct answer is the Hollywood Tower Hotel, home of the Twilight Zone Tower of Terror! [gasps] Check-out time is... immediately.",
+          "media": {
+            "type": "image",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Hollywood_Tower_Hotel.jpg",
+              "license": "CC BY-SA 4.0",
+              "author": "Benjamin D. Esham (bdesham)"
+            },
+            "file": "media/halloween-at-the-parks--spirited-facades-400.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Magic Kingdom's mansion, unlike Disneyland's, is styled after Dutch Gothic manors of this New York river valley.",
+          "answer": "The Hudson River Valley",
+          "accept": [
+            "hudson river valley",
+            "hudson valley",
+            "hudson river",
+            "the hudson valley"
+          ],
+          "choices": [
+            "The Hudson River Valley",
+            "The Ohio River Valley",
+            "The Mississippi Delta",
+            "The Connecticut River Valley"
+          ],
+          "reveal": "The correct answer is the Hudson River Valley! Sleepy Hollow country. [chuckles] Fitting, since it sits in colonial Liberty Square.",
+          "media": {
+            "type": "image",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:The_Haunted_Mansion.jpg",
+              "license": "CC BY-SA 4.0",
+              "author": "Benjamin D. Esham (bdesham)"
+            },
+            "file": "media/halloween-at-the-parks--spirited-facades-600.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In this Hong Kong Disneyland mansion, a magic music box brings Lord Henry's collection to life. His monkey Albert opened it.",
+          "answer": "Mystic Manor",
+          "accept": [
+            "mystic manor"
+          ],
+          "choices": [
+            "Mystic Manor",
+            "Phantom Manor",
+            "Explorers Lodge",
+            "Haunted Mansion Hong Kong"
+          ],
+          "reveal": "The correct answer is Mystic Manor! No ghosts at all, just a mischievous monkey and a very bad idea. [laughs] Albert, put that down!",
+          "media": {
+            "type": "image",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Disneyland_Hong_Kong_Mystic_Manor_IMG_5473.JPG",
+              "license": "CC BY-SA 3.0",
+              "author": "Deror Avi"
+            },
+            "file": "media/halloween-at-the-parks--spirited-facades-800.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "This Wild West haunted manor in Disneyland Paris opened with the park in this year.",
+          "answer": "1992",
+          "accept": [
+            "1992"
+          ],
+          "choices": [
+            "1992",
+            "1983",
+            "1995",
+            "2002"
+          ],
+          "reveal": "The correct answer is 1992! Phantom Manor opened with Euro Disneyland that April. [whispers] Its ghostly bride still waits on Thunder Mesa.",
+          "media": {
+            "type": "image",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Phantom_Manor_%C3%A0_Disneyland_Paris.jpg",
+              "license": "CC0",
+              "author": "Buzzz1981"
+            },
+            "file": "media/halloween-at-the-parks--spirited-facades-1000.jpg"
+          },
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "costume-contest",
+      "title": "Costume Contest",
+      "kind": "fan",
+      "intro": "Finally, a costume contest! I show you the colors of a famous Disney costume, you name who's wearing it. [excited] Best dressed wins.",
+      "art": {
+        "prompt": "A costume shop at Halloween: racks of colorful capes and gowns, a mannequin wearing a sparkly cape, hat boxes, fabric swatches in every color spread on a worktable, a jack-o'-lantern by the mirror, 16:9 widescreen, vibrant cinematic lighting, original artwork, no text, no logos, no characters, no people",
+        "file": "media/halloween-at-the-parks--costume-contest.jpg"
+      },
+      "format": "palette",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Hint: she bit a poisoned apple. Name the costume.",
+          "answer": "Snow White",
+          "accept": [
+            "snow white",
+            "snow"
+          ],
+          "choices": [
+            "Snow White",
+            "Belle",
+            "Cinderella",
+            "Aurora"
+          ],
+          "reveal": "The correct answer is Snow White! Blue bodice, yellow skirt, red bow. [laughs] Every Halloween, a thousand tiny Snow Whites ring your doorbell.",
+          "palette": [
+            "#1F4E9C",
+            "#F5D33B",
+            "#C8102E",
+            "#FFFFFF"
+          ],
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Hint: this space ranger thinks he can fly. Name the costume.",
+          "answer": "Buzz Lightyear",
+          "accept": [
+            "buzz lightyear",
+            "buzz"
+          ],
+          "choices": [
+            "Buzz Lightyear",
+            "Rex",
+            "Emperor Zurg",
+            "Woody"
+          ],
+          "reveal": "The correct answer is Buzz Lightyear! White, lime green and purple. [excited] To infinity and the candy bowl!",
+          "palette": [
+            "#FFFFFF",
+            "#7AC143",
+            "#6A3D9A",
+            "#2B2B2B"
+          ],
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Hint: she wasn't invited to the christening. Name the costume.",
+          "answer": "Maleficent",
+          "accept": [
+            "maleficent"
+          ],
+          "choices": [
+            "Maleficent",
+            "Ursula",
+            "The Evil Queen",
+            "Lady Tremaine"
+          ],
+          "reveal": "The correct answer is Maleficent! Black robes, purple trim and green fire. [whispers] Horns sold separately.",
+          "palette": [
+            "#111111",
+            "#4B2A6B",
+            "#7FD13B",
+            "#E7E2D0"
+          ],
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Hint: her green glasses are iconic and her family's house is magical. Name the costume.",
+          "answer": "Mirabel",
+          "accept": [
+            "mirabel",
+            "mirabel madrigal"
+          ],
+          "choices": [
+            "Mirabel",
+            "Isabela",
+            "Luisa",
+            "Moana"
+          ],
+          "reveal": "The correct answer is Mirabel Madrigal! White blouse, teal skirt and embroidery in every color. [laughs] We don't talk about the price of the embroidery.",
+          "palette": [
+            "#FFFFFF",
+            "#1FA5A6",
+            "#E33D7E",
+            "#2E8B57",
+            "#F2C14E"
+          ],
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Hint: this top-hatted villain has friends on the other side. Name the costume.",
+          "answer": "Dr. Facilier",
+          "accept": [
+            "dr facilier",
+            "dr. facilier",
+            "facilier",
+            "doctor facilier",
+            "the shadow man",
+            "shadow man"
+          ],
+          "choices": [
+            "Dr. Facilier",
+            "Hades",
+            "Jafar",
+            "Captain Hook"
+          ],
+          "reveal": "The correct answer is Dr. Facilier, the Shadow Man! Deep purple coat, black hat, bone-white skull. [chuckles] Accessories include one very sneaky shadow.",
+          "palette": [
+            "#3B1F4A",
+            "#111111",
+            "#E8E0C8",
+            "#C1272D",
+            "#6B3FA0"
+          ],
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}

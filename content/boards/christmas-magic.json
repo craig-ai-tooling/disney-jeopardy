@@ -1,0 +1,584 @@
+{
+  "id": "christmas-magic",
+  "title": "Christmas Magic",
+  "theme": "Christmas at Disney",
+  "tags": [
+    "christmas",
+    "holiday",
+    "winter",
+    "parks"
+  ],
+  "intro": "[excited] Ho ho ho! Welcome to a very merry Christmas episode of Disney Jeopardy! Grab your cocoa, hang your stocking, and [whispers] try to stay on the nice list. [laughs]",
+  "art": {
+    "prompt": "A snowy fairy-tale town square at night with a giant twinkling Christmas tree, garland-wrapped lampposts, wrapped presents piled by a gazebo, a castle silhouette glowing with icicle lights in the distance, 16:9 widescreen, vibrant cinematic lighting, original artwork, no text, no logos, no characters, no people",
+    "file": "media/christmas-magic.jpg"
+  },
+  "categories": [
+    {
+      "id": "tinsel-town-movies",
+      "title": "Tinsel Town Movies",
+      "kind": "film",
+      "intro": "We start with the holiday movies that come out of the attic every December. [chuckles]",
+      "art": {
+        "prompt": "A cozy holiday movie night: a crackling fireplace with stockings, a big red velvet suit on a coat rack, a sleigh bell, a mug of steaming cocoa and a vintage film projector glowing, 16:9 widescreen, vibrant cinematic lighting, original artwork, no text, no logos, no characters, no people",
+        "file": "media/christmas-magic--tinsel-town-movies.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In Mickey's Christmas Carol, Mickey Mouse plays this loyal, underpaid clerk who works for Scrooge.",
+          "answer": "Bob Cratchit",
+          "accept": [
+            "bob cratchit",
+            "cratchit",
+            "bob"
+          ],
+          "choices": [
+            "Bob Cratchit",
+            "Tiny Tim",
+            "Fred",
+            "Jacob Marley"
+          ],
+          "reveal": "The correct answer is Bob Cratchit! He even asks for half of Christmas Day off. [sighs] Scrooge's answer? Very chilly.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "In The Santa Clause, Scott Calvin becomes Santa after he puts on this.",
+          "answer": "Santa's suit",
+          "accept": [
+            "santa's suit",
+            "santas suit",
+            "the suit",
+            "santa suit",
+            "the santa suit"
+          ],
+          "choices": [
+            "Santa's suit",
+            "Santa's hat",
+            "Santa's boots",
+            "A magic snow globe"
+          ],
+          "reveal": "The correct answer is Santa's suit! Read the fine print, folks. [laughs] That card was a binding contract.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "In The Muppet Christmas Carol, this Muppet narrates the story as Charles Dickens himself.",
+          "answer": "Gonzo",
+          "accept": [
+            "gonzo",
+            "the great gonzo"
+          ],
+          "choices": [
+            "Gonzo",
+            "Kermit",
+            "Fozzie",
+            "Rizzo"
+          ],
+          "reveal": "The correct answer is Gonzo! With Rizzo the Rat as his sidekick. [chuckles] Light the lamp, not the rat!",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In Noelle, Santa's daughter searches for her runaway brother Nick in this sunny U.S. city.",
+          "answer": "Phoenix",
+          "accept": [
+            "phoenix",
+            "phoenix arizona"
+          ],
+          "choices": [
+            "Phoenix",
+            "Miami",
+            "Las Vegas",
+            "San Diego"
+          ],
+          "reveal": "The correct answer is Phoenix, Arizona! Nick goes there to relax on a yoga retreat. [laughs] Santa in the desert. Very little snow.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "In The Santa Clause, this elf serves Scott Calvin hot cocoa she says took 1,200 years to perfect.",
+          "answer": "Judy",
+          "accept": [
+            "judy",
+            "judy the elf"
+          ],
+          "choices": [
+            "Judy",
+            "Bernard",
+            "Curtis",
+            "Quintin"
+          ],
+          "reveal": "The correct answer is Judy! Not too hot, extra chocolate, shaken not stirred. [excited] I want that recipe.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "snow-on-main-street",
+      "title": "Snow on Main Street",
+      "kind": "parks",
+      "intro": "Next, Mickey's Very Merry Christmas Party at Magic Kingdom. [excited] Cookies, cocoa and snow in Florida!",
+      "art": {
+        "prompt": "A turn-of-the-century small-town main street at night decorated with garlands and wreaths, gentle snowflakes falling under glowing street lamps, a parade float of toy soldiers in the distance, 16:9 widescreen, vibrant cinematic lighting, original artwork, no text, no logos, no characters, no people",
+        "file": "media/christmas-magic--snow-on-main-street.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "At Mickey's Very Merry Christmas Party, guests get free cookies and cups of this warm drink.",
+          "answer": "Hot cocoa",
+          "accept": [
+            "hot cocoa",
+            "cocoa",
+            "hot chocolate"
+          ],
+          "choices": [
+            "Hot cocoa",
+            "Eggnog",
+            "Apple cider",
+            "Peppermint tea"
+          ],
+          "reveal": "The correct answer is hot cocoa! [chuckles] Pro tip: dunk the cookie.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "It actually 'snows' every party night on this Magic Kingdom street.",
+          "answer": "Main Street, U.S.A.",
+          "accept": [
+            "main street usa",
+            "main street, u.s.a.",
+            "main street",
+            "main street u.s.a."
+          ],
+          "choices": [
+            "Main Street, U.S.A.",
+            "Liberty Square",
+            "Frontierland",
+            "Tomorrowland"
+          ],
+          "reveal": "The correct answer is Main Street, U.S.A.! The snow is soap bubbles. [whispers] Don't try to catch it with your tongue.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "This jolly figure rides on the last float of Mickey's Once Upon a Christmastime Parade.",
+          "answer": "Santa Claus",
+          "accept": [
+            "santa claus",
+            "santa",
+            "saint nick",
+            "st nick",
+            "father christmas"
+          ],
+          "choices": [
+            "Santa Claus",
+            "Mickey Mouse",
+            "Olaf",
+            "The Toy Soldiers"
+          ],
+          "reveal": "The correct answer is Santa Claus! He always closes the parade. [laughs] He's saving his energy for the big night.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "The very first Mickey's Very Merry Christmas Party was held for one night in this year.",
+          "answer": "1983",
+          "accept": [
+            "1983"
+          ],
+          "choices": [
+            "1983",
+            "1971",
+            "1995",
+            "1989"
+          ],
+          "reveal": "The correct answer is 1983! One night only, December 16th. [excited] Now it runs most of the season.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Debuting in 2019, Minnie's Wonderful Christmastime Fireworks replaced this long-running party fireworks show.",
+          "answer": "Holiday Wishes",
+          "accept": [
+            "holiday wishes",
+            "holiday wishes: celebrate the spirit of the season"
+          ],
+          "choices": [
+            "Holiday Wishes",
+            "HalloWishes",
+            "Wishes",
+            "Happily Ever After"
+          ],
+          "reveal": "The correct answer is Holiday Wishes! It sparkled over the castle for years. [sighs] Then Minnie took over the sky.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "by-candlelight",
+      "title": "By Candlelight",
+      "kind": "theme",
+      "intro": "Now, a sweet EPCOT tradition: the Candlelight Processional. [whispers] Choir voices, please.",
+      "art": {
+        "prompt": "A grand outdoor theater at night, rows of glowing candles held aloft forming a tiered evergreen shape, a full orchestra under twinkling lights, a single bright star shining above the stage, 16:9 widescreen, vibrant cinematic lighting, original artwork, no text, no logos, no characters, no people",
+        "file": "media/christmas-magic--by-candlelight.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "A celebrity narrator at EPCOT's Candlelight Processional reads this story aloud.",
+          "answer": "The Christmas story",
+          "accept": [
+            "christmas story",
+            "the christmas story",
+            "nativity",
+            "the nativity",
+            "the nativity story",
+            "birth of jesus"
+          ],
+          "choices": [
+            "The Christmas story",
+            "A Christmas Carol",
+            "The Night Before Christmas",
+            "The Nutcracker"
+          ],
+          "reveal": "The correct answer is the Christmas story, the Nativity. [whispers] With a mass choir and a fifty-piece orchestra backing it up.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "The Candlelight Processional is held at America Gardens Theatre, part of this World Showcase pavilion.",
+          "answer": "The American Adventure",
+          "accept": [
+            "american adventure",
+            "the american adventure",
+            "america",
+            "usa",
+            "united states"
+          ],
+          "choices": [
+            "The American Adventure",
+            "Canada",
+            "United Kingdom",
+            "Germany"
+          ],
+          "reveal": "The correct answer is the American Adventure! Right in the middle of World Showcase. [chuckles] Fitting for a show that started with Walt.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "The choir members, in green robes, stand on risers to form this living holiday decoration.",
+          "answer": "A Christmas tree",
+          "accept": [
+            "christmas tree",
+            "a christmas tree",
+            "living christmas tree",
+            "tree",
+            "a living christmas tree"
+          ],
+          "choices": [
+            "A Christmas tree",
+            "A wreath",
+            "A candy cane",
+            "A star"
+          ],
+          "reveal": "The correct answer is a Christmas tree, the living Christmas tree! [excited] Best tree you'll ever hear.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Guests can guarantee a seat for the processional by booking a meal deal called a Candlelight this.",
+          "answer": "Dining Package",
+          "accept": [
+            "dining package",
+            "dinner package",
+            "candlelight dining package",
+            "candlelight dinner package",
+            "package"
+          ],
+          "choices": [
+            "Dining Package",
+            "Reservation Pass",
+            "Lightning Lane",
+            "Holiday Ticket"
+          ],
+          "reveal": "The correct answer is the Candlelight Dining Package! Dinner plus a seat. [laughs] Feed your stomach and your soul.",
+          "dailyDouble": true
+        },
+        {
+          "value": 1000,
+          "clue": "The processional's grand finale is the Hallelujah chorus, from this oratorio by George Frideric Handel.",
+          "answer": "Messiah",
+          "accept": [
+            "messiah",
+            "the messiah",
+            "handel's messiah"
+          ],
+          "choices": [
+            "Messiah",
+            "Water Music",
+            "Judas Maccabaeus",
+            "Israel in Egypt"
+          ],
+          "reveal": "The correct answer is Messiah! [gasps] When that chorus hits, the whole theater gets goosebumps.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "deck-the-parks",
+      "title": "Deck the Parks",
+      "kind": "media",
+      "intro": "Picture time! Every photo is a real Disney park all dressed up for the holidays. [excited] Tell me what you're looking at.",
+      "art": {
+        "prompt": "A collage of holiday park decorations without people: icicle lights on castle towers, giant ornaments, wreaths on a clock tower, garland on a carousel, a glowing tree on a town square, 16:9 widescreen, vibrant cinematic lighting, original artwork, no text, no logos, no characters, no people",
+        "file": "media/christmas-magic--deck-the-parks.jpg"
+      },
+      "format": "picture",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This Magic Kingdom castle is wearing its holiday icicle lights. Name it.",
+          "answer": "Cinderella Castle",
+          "accept": [
+            "cinderella castle",
+            "cinderella's castle",
+            "cinderellas castle"
+          ],
+          "choices": [
+            "Cinderella Castle",
+            "Sleeping Beauty Castle",
+            "Castle of Magical Dreams",
+            "Enchanted Storybook Castle"
+          ],
+          "reveal": "The correct answer is Cinderella Castle! [gasps] Like it's been dipped in ice and sprinkled with stars.",
+          "media": {
+            "type": "image",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Cinderella_Castle_with_holiday_lights.jpg",
+              "license": "CC BY-SA 4.0",
+              "author": "Benjamin D. Esham (bdesham)"
+            },
+            "file": "media/christmas-magic--deck-the-parks-200.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Name this Disneyland boat ride, which gets a holiday makeover with Jingle Bells mixed into its famous song.",
+          "answer": "it's a small world",
+          "accept": [
+            "it's a small world",
+            "its a small world",
+            "small world",
+            "it's a small world holiday",
+            "small world holiday"
+          ],
+          "choices": [
+            "it's a small world",
+            "Storybook Land Canal Boats",
+            "Jungle Cruise",
+            "Pirates of the Caribbean"
+          ],
+          "reveal": "The correct answer is it's a small world, in its holiday version! [laughs] Now the song gets stuck in your head with sleigh bells on.",
+          "media": {
+            "type": "image",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Disneyland_Small_World_Holiday_Exterior_2013.jpg",
+              "license": "CC BY-SA 3.0",
+              "author": "Patrick Pelletier"
+            },
+            "file": "media/christmas-magic--deck-the-parks-400.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Each holiday season since 2001, this Disneyland haunt gets an overlay themed to which Tim Burton-produced film?",
+          "answer": "The Nightmare Before Christmas",
+          "accept": [
+            "the nightmare before christmas",
+            "nightmare before christmas",
+            "nightmare"
+          ],
+          "choices": [
+            "The Nightmare Before Christmas",
+            "Corpse Bride",
+            "Frankenweenie",
+            "Coraline"
+          ],
+          "reveal": "The correct answer is The Nightmare Before Christmas! Haunted Mansion Holiday. [chuckles] Jack Skellington redecorates, and the ghosts get presents.",
+          "media": {
+            "type": "image",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Haunted_Mansion_Holiday_Exterior.JPG",
+              "license": "Public domain",
+              "author": "SolarSurfer"
+            },
+            "file": "media/christmas-magic--deck-the-parks-600.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "This frosty holiday castle, the first castle Disney ever built, is in which park?",
+          "answer": "Disneyland",
+          "accept": [
+            "disneyland",
+            "disneyland park",
+            "disneyland california",
+            "anaheim"
+          ],
+          "choices": [
+            "Disneyland",
+            "Magic Kingdom",
+            "Disneyland Paris",
+            "Tokyo Disneyland"
+          ],
+          "reveal": "The correct answer is Disneyland! Sleeping Beauty Castle, open since 1955. [whispers] Every winter it gets snowy rooftops and icicles.",
+          "media": {
+            "type": "image",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Disneyland_Sleeping_Beauty_Winter_Castle.jpg",
+              "license": "Public domain",
+              "author": "Hurricanefreak"
+            },
+            "file": "media/christmas-magic--deck-the-parks-800.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Disneyland's giant Main Street Christmas tree stands each year in this spot near the park entrance.",
+          "answer": "Town Square",
+          "accept": [
+            "town square",
+            "main street town square",
+            "town square usa"
+          ],
+          "choices": [
+            "Town Square",
+            "Central Plaza",
+            "Sleeping Beauty Castle forecourt",
+            "Main Street Station"
+          ],
+          "reveal": "The correct answer is Town Square! It's the first thing you see after the train station. [excited] Instant Christmas.",
+          "media": {
+            "type": "image",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Main_Street_Christmas_Tree_(27682530214).jpg",
+              "license": "CC BY 2.0",
+              "author": "HarshLight from San Jose, CA, USA"
+            },
+            "file": "media/christmas-magic--deck-the-parks-1000.jpg"
+          },
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "stocking-stuffer-emoji",
+      "title": "Stocking Stuffer Emoji",
+      "kind": "fan",
+      "intro": "Finally, holiday movies in emoji! I give you the emoji and a hint, you give me the title. [laughs]",
+      "art": {
+        "prompt": "A row of knitted Christmas stockings hung on a mantel, each overflowing with little toys, candy canes, a toy sleigh and a snow globe, warm firelight glowing below, 16:9 widescreen, vibrant cinematic lighting, original artwork, no text, no logos, no characters, no people",
+        "file": "media/christmas-magic--stocking-stuffer-emoji.jpg"
+      },
+      "format": "emoji",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "❄️👭⛄👑 Hint: two royal sisters and a snowman who loves warm hugs.",
+          "answer": "Frozen",
+          "accept": [
+            "frozen"
+          ],
+          "choices": [
+            "Frozen",
+            "Frozen II",
+            "Tangled",
+            "Brave"
+          ],
+          "reveal": "The correct answer is Frozen! [chuckles] Not technically a Christmas movie. But it's very, very cold.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "🎅🧥🦌👦 Hint: a dad puts on the red suit and his son's belief saves Christmas.",
+          "answer": "The Santa Clause",
+          "accept": [
+            "the santa clause",
+            "santa clause"
+          ],
+          "choices": [
+            "The Santa Clause",
+            "Noelle",
+            "The Santa Clauses",
+            "Prep & Landing"
+          ],
+          "reveal": "The correct answer is The Santa Clause! [laughs] With an E at the end, because it's a legal clause.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "🦆💰👻👻👻 Hint: a rich, stingy duck meets three spirits.",
+          "answer": "Mickey's Christmas Carol",
+          "accept": [
+            "mickey's christmas carol",
+            "mickeys christmas carol",
+            "a christmas carol"
+          ],
+          "choices": [
+            "Mickey's Christmas Carol",
+            "DuckTales",
+            "The Muppet Christmas Carol",
+            "Mickey's Once Upon a Christmas"
+          ],
+          "reveal": "The correct answer is Mickey's Christmas Carol! [laughs] Bah, humbug, quack quack.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "🎃💀➡️🎄🎁 Hint: a skeleton king tries his hand at Santa's job.",
+          "answer": "The Nightmare Before Christmas",
+          "accept": [
+            "the nightmare before christmas",
+            "nightmare before christmas"
+          ],
+          "choices": [
+            "The Nightmare Before Christmas",
+            "Coco",
+            "Frankenweenie",
+            "Hocus Pocus"
+          ],
+          "reveal": "The correct answer is The Nightmare Before Christmas! [chuckles] Halloween and Christmas in one movie. That's efficient.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "🧝🧝🏠✅🎅 Hint: this 2009 TV special follows elves who get houses ready before Santa arrives.",
+          "answer": "Prep & Landing",
+          "accept": [
+            "prep & landing",
+            "prep and landing"
+          ],
+          "choices": [
+            "Prep & Landing",
+            "Noelle",
+            "Olaf's Frozen Adventure",
+            "Elf"
+          ],
+          "reveal": "The correct answer is Prep and Landing! Wayne and Lanny, elite elves of Christmas. [whispers] Mission accomplished.",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}

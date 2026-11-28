@@ -1,0 +1,139 @@
+[
+  {
+    "film": "The Santa Clause",
+    "category": "The Santa Clause",
+    "clue": "This head elf explains the 'Santa Clause' rules to Scott Calvin at the North Pole.",
+    "answer": "Bernard",
+    "accept": [
+      "bernard",
+      "bernard the elf"
+    ],
+    "choices": [
+      "Bernard",
+      "Curtis",
+      "Judy",
+      "Quintin"
+    ],
+    "reveal": "[excited] The correct answer is Bernard! Played by David Krumholtz. [laughs] He has seen a lot of new Santas."
+  },
+  {
+    "film": "The Nightmare Before Christmas",
+    "category": "The Nightmare Before Christmas",
+    "clue": "Jack Skellington's ghost dog has a glowing jack-o'-lantern nose. Name him.",
+    "answer": "Zero",
+    "accept": [
+      "zero"
+    ],
+    "choices": [
+      "Zero",
+      "Scraps",
+      "Bones",
+      "Spooky"
+    ],
+    "reveal": "[excited] The correct answer is Zero! [chuckles] His nose lights the way for Jack's sleigh on a foggy Christmas Eve."
+  },
+  {
+    "film": "Halloweentown",
+    "category": "Halloweentown",
+    "clue": "Marnie, Dylan and Sophie learn they come from a family of witches with this last name.",
+    "answer": "Cromwell",
+    "accept": [
+      "cromwell",
+      "the cromwells"
+    ],
+    "choices": [
+      "Cromwell",
+      "Piper",
+      "Sanderson",
+      "Halliwell"
+    ],
+    "reveal": "[excited] The correct answer is Cromwell! Grandma Aggie Cromwell, to be exact. [laughs] Witches on Mom's side."
+  },
+  {
+    "film": "Swiss Family Robinson",
+    "category": "Swiss Family Robinson",
+    "clue": "In 1999, Disneyland rethemed its Swiss Family Treehouse into this jungle hero's treehouse.",
+    "answer": "Tarzan",
+    "accept": [
+      "tarzan",
+      "tarzan's treehouse",
+      "tarzans treehouse"
+    ],
+    "choices": [
+      "Tarzan",
+      "Mowgli",
+      "Robinson Crusoe",
+      "George of the Jungle"
+    ],
+    "reveal": "[excited] The correct answer is Tarzan! [chuckles] The Robinsons moved out and the apes moved in."
+  },
+  {
+    "film": "A Goofy Movie",
+    "category": "A Goofy Movie",
+    "clue": "Max goes on the cross-country road trip hoping to impress this girl he likes.",
+    "answer": "Roxanne",
+    "accept": [
+      "roxanne"
+    ],
+    "choices": [
+      "Roxanne",
+      "Stacey",
+      "Penny",
+      "Daisy"
+    ],
+    "reveal": "[excited] The correct answer is Roxanne! [laughs] All he had to do was ask her out."
+  },
+  {
+    "film": "Pollyanna",
+    "category": "Pollyanna",
+    "clue": "Hayley Mills's cheerful orphan teaches a whole town to play this optimistic game.",
+    "answer": "The Glad Game",
+    "accept": [
+      "the glad game",
+      "glad game"
+    ],
+    "choices": [
+      "The Glad Game",
+      "The Happy Game",
+      "The Smile Game",
+      "The Sunny Game"
+    ],
+    "reveal": "[excited] The correct answer is the Glad Game! [chuckles] Find something to be glad about, no matter what."
+  },
+  {
+    "film": "Camp Rock",
+    "category": "Camp Rock",
+    "clue": "At Camp Rock, Shane Gray is the lead singer of this pop band.",
+    "answer": "Connect 3",
+    "accept": [
+      "connect 3",
+      "connect three"
+    ],
+    "choices": [
+      "Connect 3",
+      "Big Time Rush",
+      "Naturally 7",
+      "Three Lane Road"
+    ],
+    "reveal": "[excited] The correct answer is Connect 3! Played by the Jonas Brothers. [laughs] Rock star, meet summer camp."
+  },
+  {
+    "film": "Fantasia 2000",
+    "category": "Fantasia 2000",
+    "clue": "Fantasia 2000's finale shows a spring sprite reviving a forest, set to this Stravinsky ballet suite.",
+    "answer": "The Firebird Suite",
+    "accept": [
+      "the firebird suite",
+      "firebird suite",
+      "the firebird",
+      "firebird"
+    ],
+    "choices": [
+      "The Firebird Suite",
+      "The Rite of Spring",
+      "Petrushka",
+      "Swan Lake"
+    ],
+    "reveal": "[excited] The correct answer is The Firebird Suite! [sighs] Fire, ash, then spring comes back."
+  }
+]

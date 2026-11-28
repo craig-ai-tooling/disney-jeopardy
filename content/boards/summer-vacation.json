@@ -1,0 +1,572 @@
+{
+  "id": "summer-vacation",
+  "title": "Summer Vacation",
+  "theme": "Disney Summer Vacation",
+  "tags": [
+    "summer",
+    "vacation",
+    "road-trip",
+    "beach",
+    "camp"
+  ],
+  "intro": "[excited] School's out! Welcome to the summer vacation episode of Disney Jeopardy! Pack the car, grab the sunscreen, and [laughs] nobody ask if we're there yet.",
+  "art": {
+    "prompt": "A sunny summer scene: a vintage station wagon loaded with suitcases and a surfboard on the roof, parked by a sparkling beach with a striped umbrella, a lakeside campfire and canoe in the distance, 16:9 widescreen, vibrant cinematic lighting, original artwork, no text, no logos, no characters, no people",
+    "file": "media/summer-vacation.jpg"
+  },
+  "categories": [
+    {
+      "id": "are-we-there-yet",
+      "title": "Backseat Drivers",
+      "kind": "film",
+      "intro": "First, the Disney road trips. [chuckles] Buckle up, and somebody find the map.",
+      "art": {
+        "prompt": "An open desert highway at golden hour stretching to the horizon, a vintage gas station with a neon-free sign, a road map spread on a car hood, a fuzzy pair of dice hanging from a rearview mirror, 16:9 widescreen, vibrant cinematic lighting, original artwork, no text, no logos, no characters, no people",
+        "file": "media/summer-vacation--are-we-there-yet.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In Cars, Lightning McQueen gets stuck in Radiator Springs, a town on this famous old U.S. highway.",
+          "answer": "Route 66",
+          "accept": [
+            "route 66",
+            "route sixty-six",
+            "us route 66",
+            "highway 66"
+          ],
+          "choices": [
+            "Route 66",
+            "Route 1",
+            "Interstate 95",
+            "The Lincoln Highway"
+          ],
+          "reveal": "The correct answer is Route 66! The Mother Road. [laughs] Radiator Springs is just a little dusty.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "In A Goofy Movie, Max is desperate to see this pop superstar in concert in Los Angeles.",
+          "answer": "Powerline",
+          "accept": [
+            "powerline",
+            "power line"
+          ],
+          "choices": [
+            "Powerline",
+            "Lightning",
+            "Big Wheel",
+            "Bigfoot"
+          ],
+          "reveal": "The correct answer is Powerline! Max even sneaks onstage to dance with him. [excited] Eye to eye!",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Goofy's road trip with Max is supposed to end at Lake Destiny in this state.",
+          "answer": "Idaho",
+          "accept": [
+            "idaho"
+          ],
+          "choices": [
+            "Idaho",
+            "Montana",
+            "Wisconsin",
+            "Minnesota"
+          ],
+          "reveal": "The correct answer is Idaho! Goofy's dream fishing trip. [chuckles] Max had other plans.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In Pixar's Onward, brothers Ian and Barley go on their quest in this rusty purple van.",
+          "answer": "Guinevere",
+          "accept": [
+            "guinevere"
+          ],
+          "choices": [
+            "Guinevere",
+            "Gwendolyn",
+            "Excalibur",
+            "Lancelot"
+          ],
+          "reveal": "The correct answer is Guinevere! A noble steed with a unicorn on the side. [laughs] Rest in pieces, Guinevere.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "In Cars, Radiator Springs was forgotten after traffic shifted to this interstate, which bypassed the town.",
+          "answer": "Interstate 40",
+          "accept": [
+            "interstate 40",
+            "i-40",
+            "i 40",
+            "i40",
+            "40"
+          ],
+          "choices": [
+            "Interstate 40",
+            "Interstate 10",
+            "Interstate 80",
+            "Interstate 15"
+          ],
+          "reveal": "The correct answer is Interstate 40! It shaved ten minutes off the drive. [sighs] And it nearly wiped a town off the map.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "camp-counselor",
+      "title": "Camp Counselor",
+      "kind": "theme",
+      "intro": "Next, summer camp! [excited] Bug spray, bunk beds, and the occasional twin swap.",
+      "art": {
+        "prompt": "A rustic summer camp by a misty lake: wooden cabins, a canoe dock, a crackling campfire with marshmallows on sticks, a flagpole and a row of bunk beds visible through an open cabin door, 16:9 widescreen, vibrant cinematic lighting, original artwork, no text, no logos, no characters, no people",
+        "file": "media/summer-vacation--camp-counselor.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In The Parent Trap, twins Hallie and Annie meet for the first time at this kind of place.",
+          "answer": "Summer camp",
+          "accept": [
+            "summer camp",
+            "camp",
+            "a summer camp",
+            "camp walden"
+          ],
+          "choices": [
+            "Summer camp",
+            "Boarding school",
+            "A cruise ship",
+            "A hotel"
+          ],
+          "reveal": "The correct answer is summer camp! Two girls with the same face, at the same camp. [laughs] What are the odds?",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Camp Rock starred Demi Lovato alongside this real-life band of brothers.",
+          "answer": "The Jonas Brothers",
+          "accept": [
+            "jonas brothers",
+            "the jonas brothers",
+            "jonas"
+          ],
+          "choices": [
+            "The Jonas Brothers",
+            "Hanson",
+            "The Brothers Grimm",
+            "The Osmonds"
+          ],
+          "reveal": "The correct answer is the Jonas Brothers! [excited] Joe played heartthrob Shane Gray.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "The Parent Trap's Camp Walden is in this New England state.",
+          "answer": "Maine",
+          "accept": [
+            "maine"
+          ],
+          "choices": [
+            "Maine",
+            "Vermont",
+            "New Hampshire",
+            "Massachusetts"
+          ],
+          "reveal": "The correct answer is Maine! Lakes, pine trees and a whole lot of pranks. [chuckles]",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "This 1998 Disney Channel reality series followed real kids at a summer camp in Maine.",
+          "answer": "Bug Juice",
+          "accept": [
+            "bug juice"
+          ],
+          "choices": [
+            "Bug Juice",
+            "Camp Rock",
+            "Even Stevens",
+            "Zoog Disney"
+          ],
+          "reveal": "The correct answer is Bug Juice! Named for camp's famously sugary fruit drink. [laughs] Reality TV, with mosquitoes.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "In 1995's Heavyweights, this actor plays fitness-crazed camp owner Tony Perkis.",
+          "answer": "Ben Stiller",
+          "accept": [
+            "ben stiller",
+            "stiller"
+          ],
+          "choices": [
+            "Ben Stiller",
+            "Jim Carrey",
+            "Adam Sandler",
+            "Chris Farley"
+          ],
+          "reveal": "The correct answer is Ben Stiller! Perkis turns a cozy camp into a boot camp. [laughs] Nobody touches the candy stash.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "surf-and-sand-cinema",
+      "title": "Surf and Sand Cinema",
+      "kind": "film",
+      "intro": "Now, the beach movies! [excited] Grab a board, paddle out, and watch for sea monsters.",
+      "art": {
+        "prompt": "A sunny cove with turquoise waves and a sandy beach, a surfboard stuck in the sand, a beach towel and picnic basket, a little seaside village of pastel houses on a cliff in the distance, 16:9 widescreen, vibrant cinematic lighting, original artwork, no text, no logos, no characters, no people",
+        "file": "media/summer-vacation--surf-and-sand-cinema.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In Luca, the young sea monsters turn into these whenever they're dry on land.",
+          "answer": "Humans",
+          "accept": [
+            "humans",
+            "human",
+            "people",
+            "boys",
+            "human boys"
+          ],
+          "choices": [
+            "Humans",
+            "Fish",
+            "Seagulls",
+            "Mermaids"
+          ],
+          "reveal": "The correct answer is humans! One splash and the scales come right back. [chuckles] Tricky on a rainy day.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "In Lilo & Stitch, Stitch is officially this numbered experiment.",
+          "answer": "Experiment 626",
+          "accept": [
+            "626",
+            "experiment 626",
+            "six two six"
+          ],
+          "choices": [
+            "Experiment 626",
+            "Experiment 221",
+            "Experiment 625",
+            "Experiment 001"
+          ],
+          "reveal": "The correct answer is Experiment 626! [laughs] Built to destroy, and he ends up loving Elvis.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "In Luca, Luca and Alberto dream of owning this Italian scooter.",
+          "answer": "A Vespa",
+          "accept": [
+            "vespa",
+            "a vespa"
+          ],
+          "choices": [
+            "A Vespa",
+            "A Lambretta",
+            "A Ducati",
+            "A Fiat"
+          ],
+          "reveal": "The correct answer is a Vespa! [excited] Silenzio, Bruno!",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Lilo & Stitch is set on this Hawaiian island, known as the Garden Isle.",
+          "answer": "Kauai",
+          "accept": [
+            "kauai",
+            "kaua'i",
+            "kauaʻi"
+          ],
+          "choices": [
+            "Kauai",
+            "Maui",
+            "Oahu",
+            "Molokai"
+          ],
+          "reveal": "The correct answer is Kauai! [sighs] Beautiful. Even with a blue alien running loose.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "In Teen Beach Movie, Brady and McKenzie surf right into this 1962 beach musical.",
+          "answer": "Wet Side Story",
+          "accept": [
+            "wet side story"
+          ],
+          "choices": [
+            "Wet Side Story",
+            "Beach Blanket Bingo",
+            "Surf Crazed",
+            "Sand and Sea"
+          ],
+          "reveal": "The correct answer is Wet Side Story! Surfers versus bikers. [laughs] And a lot of spontaneous singing.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "splash-zone",
+      "title": "Splash Zone",
+      "kind": "media",
+      "intro": "Picture time! Every photo is a real Disney spot for a summer splash. [excited] Towels ready?",
+      "art": {
+        "prompt": "A sunny water park and lakeside resort collage with no people: a snowcapped mountain with water slides, a wave pool, wooden cabins under pine trees, a tropical lagoon pool with a shipwreck slide, 16:9 widescreen, vibrant cinematic lighting, original artwork, no text, no logos, no characters, no people",
+        "file": "media/summer-vacation--splash-zone.jpg"
+      },
+      "format": "picture",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Legend says this snowy-looking Walt Disney World water park was a failed resort for this winter sport.",
+          "answer": "Skiing",
+          "accept": [
+            "skiing",
+            "ski",
+            "ski resort",
+            "a ski resort",
+            "snow skiing"
+          ],
+          "choices": [
+            "Skiing",
+            "Ice skating",
+            "Snowboarding",
+            "Bobsledding"
+          ],
+          "reveal": "The correct answer is skiing! A freak snowstorm hit Florida, then melted. [laughs] So now it's Blizzard Beach, with a chairlift to the slides.",
+          "media": {
+            "type": "image",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Blizzard_Beach_(8195698920).jpg",
+              "license": "CC BY 2.0",
+              "author": "Jeff Kays"
+            },
+            "file": "media/summer-vacation--splash-zone-200.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Name this Walt Disney World water park, where legend says a storm tossed boats all over the place.",
+          "answer": "Typhoon Lagoon",
+          "accept": [
+            "typhoon lagoon",
+            "disney's typhoon lagoon"
+          ],
+          "choices": [
+            "Typhoon Lagoon",
+            "Blizzard Beach",
+            "River Country",
+            "Volcano Bay"
+          ],
+          "reveal": "The correct answer is Typhoon Lagoon! [gasps] One shrimp boat landed right on top of the mountain.",
+          "media": {
+            "type": "image",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Disney%27s_Typhoon_Lagoon_(28923104866).jpg",
+              "license": "CC BY 2.0",
+              "author": "Chad Sparkes from Kissimmee,Florida, United States"
+            },
+            "file": "media/summer-vacation--splash-zone-400.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "At this campground, guests can roast marshmallows and sing with these two chipmunks at a nightly campfire.",
+          "answer": "Chip 'n' Dale",
+          "accept": [
+            "chip 'n' dale",
+            "chip n dale",
+            "chip and dale",
+            "chip & dale"
+          ],
+          "choices": [
+            "Chip 'n' Dale",
+            "Alvin and the Chipmunks",
+            "Timon and Pumbaa",
+            "Huey and Dewey"
+          ],
+          "reveal": "The correct answer is Chip 'n' Dale! Their campfire sing-along is at Fort Wilderness. [chuckles] Bring your own marshmallows.",
+          "media": {
+            "type": "image",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Fort_Wilderness_cabin.jpg",
+              "license": "CC BY-SA 4.0",
+              "author": "Benjamin D. Esham (bdesham)"
+            },
+            "file": "media/summer-vacation--splash-zone-600.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Aulani, whose name means 'messenger of a chief,' is a Disney resort on this Hawaiian island.",
+          "answer": "Oahu",
+          "accept": [
+            "oahu",
+            "o'ahu",
+            "oʻahu"
+          ],
+          "choices": [
+            "Oahu",
+            "Maui",
+            "Kauai",
+            "The Big Island"
+          ],
+          "reveal": "The correct answer is Oahu! It's on the Ko Olina coast. [excited] Aloha, vacation!",
+          "media": {
+            "type": "image",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Aulani_Resort.jpg",
+              "license": "CC BY-SA 3.0",
+              "author": "David Snyder"
+            },
+            "file": "media/summer-vacation--splash-zone-800.jpg"
+          },
+          "dailyDouble": true
+        },
+        {
+          "value": 1000,
+          "clue": "This sand-bottom pool with a shipwreck slide is shared by Disney's Yacht Club and this sister resort.",
+          "answer": "Disney's Beach Club Resort",
+          "accept": [
+            "beach club",
+            "disney's beach club",
+            "beach club resort",
+            "disney's beach club resort"
+          ],
+          "choices": [
+            "Disney's Beach Club Resort",
+            "Disney's BoardWalk Inn",
+            "Disney's Polynesian Village Resort",
+            "Disney's Grand Floridian Resort"
+          ],
+          "reveal": "The correct answer is Disney's Beach Club Resort! The pool is called Stormalong Bay. [laughs] Good luck getting the kids out.",
+          "media": {
+            "type": "image",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Stormalong_Bay_(2433417599).jpg",
+              "license": "CC BY 2.0",
+              "author": "Elizabeth from Lansing, MI, USA"
+            },
+            "file": "media/summer-vacation--splash-zone-1000.jpg"
+          },
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "wish-you-were-here",
+      "title": "Wish You Were Here",
+      "kind": "fan",
+      "intro": "Finally, postcards from Disney destinations. I name the trip, you name the place. [chuckles]",
+      "art": {
+        "prompt": "A spread of blank vintage postcards and travel stamps on a wooden table, a pair of sunglasses, a seashell, a tiny toy airplane and a compass, sunlight streaming in, 16:9 widescreen, vibrant cinematic lighting, original artwork, no text, no logos, no characters, no people",
+        "file": "media/summer-vacation--wish-you-were-here.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In Up, Carl and Russell travel by floating house to this South American waterfall.",
+          "answer": "Paradise Falls",
+          "accept": [
+            "paradise falls"
+          ],
+          "choices": [
+            "Paradise Falls",
+            "Angel Falls",
+            "Iguazu Falls",
+            "Victoria Falls"
+          ],
+          "reveal": "The correct answer is Paradise Falls! [laughs] Ten thousand balloons. Zero parking problems.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "In Finding Nemo, Marlin swims across the ocean to this Australian city.",
+          "answer": "Sydney",
+          "accept": [
+            "sydney",
+            "sydney australia",
+            "p. sherman 42 wallaby way sydney",
+            "42 wallaby way"
+          ],
+          "choices": [
+            "Sydney",
+            "Melbourne",
+            "Brisbane",
+            "Perth"
+          ],
+          "reveal": "The correct answer is Sydney! P. Sherman, 42 Wallaby Way. [excited] Everybody say it with me.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "In The Lizzie McGuire Movie, Lizzie's class trip takes her to this city, where she's mistaken for a pop star.",
+          "answer": "Rome",
+          "accept": [
+            "rome",
+            "roma",
+            "rome italy"
+          ],
+          "choices": [
+            "Rome",
+            "Paris",
+            "Venice",
+            "London"
+          ],
+          "reveal": "The correct answer is Rome! [excited] This is what dreams are made of!",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In 1977, Herbie the Love Bug raced in this Monaco city.",
+          "answer": "Monte Carlo",
+          "accept": [
+            "monte carlo",
+            "monaco"
+          ],
+          "choices": [
+            "Monte Carlo",
+            "Nice",
+            "Cannes",
+            "Saint-Tropez"
+          ],
+          "reveal": "The correct answer is Monte Carlo! Herbie Goes to Monte Carlo. [chuckles] He even falls in love with a blue car.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "In Disney's 1960 Swiss Family Robinson, the family was sailing to this colony when they were shipwrecked.",
+          "answer": "New Guinea",
+          "accept": [
+            "new guinea",
+            "papua new guinea"
+          ],
+          "choices": [
+            "New Guinea",
+            "New Zealand",
+            "Tahiti",
+            "Madagascar"
+          ],
+          "reveal": "The correct answer is New Guinea! They were fleeing Napoleon. [laughs] They got an island and a treehouse instead.",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}
