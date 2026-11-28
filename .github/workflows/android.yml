@@ -1,16 +1,16 @@
 name: android
 on:
+  # No paths filter on push: a tag pushed on an existing commit has no changed files and would never match.
   push:
     branches: [main]
     tags: ["v*"]
-    paths: [android/**, .github/workflows/android.yml]
   pull_request:
     paths: [android/**, .github/workflows/android.yml]
 permissions:
   contents: write
 jobs:
   apk:
-    runs-on: smc
+    runs-on: ${{ vars.RUNNER || 'ubuntu-latest' }}
     container: ghcr.io/cirruslabs/android-sdk:35
     defaults:
       run:
