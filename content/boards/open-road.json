@@ -1,0 +1,542 @@
+{
+  "id": "open-road",
+  "title": "Hit the Open Road",
+  "theme": "Road trips: Route 66, Cars Land and travel films",
+  "tags": [
+    "travel",
+    "road trip",
+    "cars"
+  ],
+  "intro": "[excited] Buckle up, road trippers! Today we're hitting the OPEN ROAD: Route 66, Cars Land and every Disney movie where somebody packs a bag. [laughs] And no, we are NOT there yet.",
+  "art": {
+    "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. An empty two-lane desert highway at golden hour stretching toward red rock mountains, a vintage turquoise convertible parked by a neon-lit roadside diner, a long dusty horizon and a big orange sun.",
+    "file": "media/open-road.jpg"
+  },
+  "categories": [
+    {
+      "id": "goofy-road-trip",
+      "title": "Goofy Road Trip",
+      "kind": "film",
+      "intro": "Our film category: A Goofy Movie, the ultimate father and son road trip! [chuckles] Gawrsh.",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A cluttered old station wagon on a winding mountain highway, fishing rods and a canoe strapped to the roof, a paper road map flapping out the window, pine forests and a distant lake.",
+        "file": "media/open-road--goofy-road-trip.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In A Goofy Movie, Goofy drags his teenage son on a cross-country fishing trip. Name the son.",
+          "answer": "Max",
+          "accept": [
+            "max",
+            "max goof"
+          ],
+          "choices": [
+            "Max",
+            "P.J.",
+            "Pete",
+            "Bobby"
+          ],
+          "reveal": "The correct answer is Max! [laughs] He just wanted to impress a girl. Dad wanted to catch a fish. Classic.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Max tells his crush he'll be onstage with this pop star at a big concert.",
+          "answer": "Powerline",
+          "accept": [
+            "powerline",
+            "power line"
+          ],
+          "choices": [
+            "Powerline",
+            "Tank",
+            "Zone",
+            "Max Volume"
+          ],
+          "reveal": "The correct answer is Powerline! Stand Out and I 2 I are absolute bangers. Do not argue with me.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Goofy's plan is to fish at Lake Destiny in this state.",
+          "answer": "Idaho",
+          "accept": [
+            "idaho"
+          ],
+          "choices": [
+            "Idaho",
+            "Montana",
+            "Wyoming",
+            "Oregon"
+          ],
+          "reveal": "The correct answer is Idaho! [sarcastic] Every teenager's dream summer destination.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Max secretly changes the map route so they end up in this city for the concert.",
+          "answer": "Los Angeles",
+          "accept": [
+            "los angeles",
+            "la",
+            "l.a."
+          ],
+          "choices": [
+            "Los Angeles",
+            "Las Vegas",
+            "San Francisco",
+            "San Diego"
+          ],
+          "reveal": "The correct answer is Los Angeles! They also took a VERY unplanned rafting trip down a waterfall on the way.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Goofy teaches Max this secret family fishing move, which accidentally attracts Bigfoot.",
+          "answer": "The Perfect Cast",
+          "accept": [
+            "perfect cast",
+            "the perfect cast"
+          ],
+          "choices": [
+            "The Perfect Cast",
+            "The Goofy Hook",
+            "The Big Reel",
+            "The Lucky Lure"
+          ],
+          "reveal": "The correct answer is The Perfect Cast! [chuckles] And it comes back for the big finale onstage. Goofy wins.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "pack-your-bags",
+      "title": "Pack Your Bags",
+      "kind": "theme",
+      "intro": "Disney characters LOVE a long journey. Name where they're going, or what's taking them there. [excited] Snacks in the back!",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A pile of vintage travel trunks and suitcases on a sunlit dock beside the ocean, a sailing canoe on the water, a compass and rolled maps, distant tropical islands.",
+        "file": "media/open-road--pack-your-bags.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In Moana, Moana sails across the ocean to return the heart of this island goddess.",
+          "answer": "Te Fiti",
+          "accept": [
+            "te fiti",
+            "tefiti"
+          ],
+          "choices": [
+            "Te Fiti",
+            "Te Ka",
+            "Tala",
+            "Tamatoa"
+          ],
+          "reveal": "The correct answer is Te Fiti! [laughs] Plus one demigod, one rooster, and absolutely zero sailing lessons.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "In The Rescuers Down Under, Bernard and Bianca fly an albatross airline to this country to rescue a boy.",
+          "answer": "Australia",
+          "accept": [
+            "australia"
+          ],
+          "choices": [
+            "Australia",
+            "New Zealand",
+            "Brazil",
+            "South Africa"
+          ],
+          "reveal": "The correct answer is Australia! [laughs] Their pilot, Wilbur the albatross, has the bumpiest landings in Disney history.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "In Luca, Luca and Alberto dream of buying one of these Italian scooters and riding around the world.",
+          "answer": "A Vespa",
+          "accept": [
+            "vespa",
+            "a vespa"
+          ],
+          "choices": [
+            "A Vespa",
+            "A Ducati",
+            "A Lambretta",
+            "A Fiat"
+          ],
+          "reveal": "The correct answer is a Vespa! Silenzio, Bruno! Nothing says freedom like two sea monsters on a scooter.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In Brother Bear, Kenai must journey to the mountain where these touch the earth.",
+          "answer": "The lights",
+          "accept": [
+            "lights",
+            "the lights",
+            "northern lights",
+            "the northern lights",
+            "aurora borealis",
+            "the aurora borealis"
+          ],
+          "choices": [
+            "The lights",
+            "The stars",
+            "The clouds",
+            "The rivers"
+          ],
+          "reveal": "The correct answer is the lights! [sighs] The northern lights, home of the spirits. Way cooler than a rest stop.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "In Bolt, the superdog is accidentally shipped to this city, then crosses the country back to Hollywood.",
+          "answer": "New York City",
+          "accept": [
+            "new york",
+            "new york city",
+            "nyc",
+            "new york, new york"
+          ],
+          "choices": [
+            "New York City",
+            "Chicago",
+            "Boston",
+            "Philadelphia"
+          ],
+          "reveal": "The correct answer is New York City! A cat, a hamster in a ball and a dog walk across America. That's not a joke... it's a road trip.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "vanity-plates",
+      "title": "Vanity Plates",
+      "kind": "media",
+      "intro": "It's Vanity Plates! Each clue is a custom license plate. [mischievously] Tell me which Disney character is driving.",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A wall of colourful vintage license plates in a desert garage, rust, sun-faded paint and chrome, the plates blank and embossed with only abstract stars and stripes, no letters.",
+        "file": "media/open-road--vanity-plates.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "The license plate reads K A C H O W. Who's driving?",
+          "answer": "Lightning McQueen",
+          "accept": [
+            "lightning mcqueen",
+            "lightning",
+            "mcqueen"
+          ],
+          "choices": [
+            "Lightning McQueen",
+            "Mater",
+            "Doc Hudson",
+            "Chick Hicks"
+          ],
+          "reveal": "The correct answer is Lightning McQueen! [laughs] Although technically he IS the car, so he's also the plate.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "The license plate reads 2 N F N T Y. Who's driving?",
+          "answer": "Buzz Lightyear",
+          "accept": [
+            "buzz",
+            "buzz lightyear"
+          ],
+          "choices": [
+            "Buzz Lightyear",
+            "Woody",
+            "Zurg",
+            "Jessie"
+          ],
+          "reveal": "The correct answer is Buzz Lightyear! To infinity... and the nearest gas station.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "The license plate reads J S T K P S W M. Who's driving?",
+          "answer": "Dory",
+          "accept": [
+            "dory"
+          ],
+          "choices": [
+            "Dory",
+            "Marlin",
+            "Nemo",
+            "Squirt"
+          ],
+          "reveal": "The correct answer is Dory! Just keep swimming! [chuckles] Or in this case, just keep driving... and maybe ask for directions.",
+          "dailyDouble": true
+        },
+        {
+          "value": 800,
+          "clue": "The license plate reads B B D B O O. Who's driving?",
+          "answer": "Fairy Godmother",
+          "accept": [
+            "fairy godmother",
+            "the fairy godmother"
+          ],
+          "choices": [
+            "Fairy Godmother",
+            "Merlin",
+            "Flora",
+            "Genie"
+          ],
+          "reveal": "The correct answer is the Fairy Godmother! Her car turns back into a pumpkin at midnight, so park it early.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "The license plate reads A N Y 1 C N C K. Whose motto is this?",
+          "answer": "Auguste Gusteau",
+          "accept": [
+            "gusteau",
+            "auguste gusteau",
+            "chef gusteau"
+          ],
+          "choices": [
+            "Auguste Gusteau",
+            "Remy",
+            "Colette",
+            "Anton Ego"
+          ],
+          "reveal": "The correct answer is Auguste Gusteau! Anyone can cook. [chuckles] Anyone can also parallel park, allegedly.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "cars-land-cruise",
+      "title": "Cars Land Cruise",
+      "kind": "parks",
+      "intro": "Next stop, Cars Land at Disney California Adventure! Look at the picture and name the spot. [excited] Ka-chow!",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A desert main street at dusk with glowing neon signs, red rock buttes shaped like classic car tail fins on the horizon, a giant orange traffic-cone shaped building, chrome and turquoise everywhere.",
+        "file": "media/open-road--cars-land-cruise.jpg"
+      },
+      "format": "picture",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This Cars Land thrill ride races you side by side through red rock mountains.",
+          "answer": "Radiator Springs Racers",
+          "accept": [
+            "radiator springs racers"
+          ],
+          "choices": [
+            "Radiator Springs Racers",
+            "Test Track",
+            "Luigi's Rollickin' Roadsters",
+            "Incredicoaster"
+          ],
+          "reveal": "The correct answer is Radiator Springs Racers! [excited] It hits about 40 miles per hour. Not bad for a car with eyes.",
+          "media": {
+            "type": "image",
+            "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. Two convertible ride cars racing side by side on a curving road through towering red sandstone buttes under a bright blue desert sky.",
+            "file": "media/open-road--cars-land-cruise-200.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Little Italian cars dance in circles outside a tire shop at this Cars Land ride.",
+          "answer": "Luigi's Rollickin' Roadsters",
+          "accept": [
+            "luigi's rollickin' roadsters",
+            "luigis rollickin roadsters",
+            "luigi's roadsters"
+          ],
+          "choices": [
+            "Luigi's Rollickin' Roadsters",
+            "Mater's Junkyard Jamboree",
+            "Mad Tea Party",
+            "Flik's Flyers"
+          ],
+          "reveal": "The correct answer is Luigi's Rollickin' Roadsters! They took over from Luigi's Flying Tires in 2016. [laughs] Bellissimo.",
+          "media": {
+            "type": "image",
+            "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A charming courtyard of an Italian tire shop with tall stacks of tires, green-white-red bunting, string lights, and tiny round convertibles twirling on a smooth floor.",
+            "file": "media/open-road--cars-land-cruise-400.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "At this Cars Land ride, baby tractors swing you around in a square dance.",
+          "answer": "Mater's Junkyard Jamboree",
+          "accept": [
+            "mater's junkyard jamboree",
+            "maters junkyard jamboree",
+            "junkyard jamboree"
+          ],
+          "choices": [
+            "Mater's Junkyard Jamboree",
+            "Luigi's Rollickin' Roadsters",
+            "Radiator Springs Racers",
+            "Goofy's Sky School"
+          ],
+          "reveal": "The correct answer is Mater's Junkyard Jamboree! Yee-haw! It's the only square dance where your partner has a tow hook.",
+          "media": {
+            "type": "image",
+            "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A dusty junkyard under a corrugated tin roof full of rusty hubcaps, old signs with no lettering and fairy lights, little tractor ride vehicles whipping in loops.",
+            "file": "media/open-road--cars-land-cruise-600.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "You can grab churros and soft serve from giant orange traffic cones at this Cars Land stop.",
+          "answer": "Cozy Cone Motel",
+          "accept": [
+            "cozy cone",
+            "cozy cone motel",
+            "the cozy cone"
+          ],
+          "choices": [
+            "Cozy Cone Motel",
+            "Flo's V8 Cafe",
+            "Fillmore's Taste-In",
+            "Ramone's House of Body Art"
+          ],
+          "reveal": "The correct answer is the Cozy Cone Motel! [chuckles] Snacks in a traffic cone. Somebody give that Imagineer a raise.",
+          "media": {
+            "type": "image",
+            "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. Giant bright orange traffic cone shaped buildings with windows and neon trim along a desert roadside at sunset, a churro cart in front.",
+            "file": "media/open-road--cars-land-cruise-800.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Cars Land opened at Disney California Adventure in this year.",
+          "answer": "2012",
+          "accept": [
+            "2012"
+          ],
+          "choices": [
+            "2012",
+            "2010",
+            "2014",
+            "2008"
+          ],
+          "reveal": "The correct answer is 2012! Opening day brought hours-long waits for Radiator Springs Racers. [sighs] Worth it.",
+          "media": {
+            "type": "image",
+            "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A sweeping dusk view of a desert themed town lit up with neon, red rock mountains glowing pink behind it, a crowd-free main road shining after rain.",
+            "file": "media/open-road--cars-land-cruise-1000.jpg"
+          },
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "real-road-reel-road",
+      "title": "Real Road, Reel Road",
+      "kind": "fan",
+      "intro": "Our wildcard: the REAL Route 66 places that inspired Radiator Springs. [whispers] Get your kicks.",
+      "art": {
+        "prompt": "Original painterly digital illustration, 16:9, cinematic lighting, rich saturated colour, no people, no characters, no logos, no text or lettering. A faded old highway shield-shaped sign with no lettering beside an Art Deco gas station and a row of teepee-shaped motel rooms under a starry desert sky.",
+        "file": "media/open-road--real-road-reel-road.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In Cars, Lightning McQueen's rusty tow truck best friend is named this.",
+          "answer": "Mater",
+          "accept": [
+            "mater",
+            "tow mater"
+          ],
+          "choices": [
+            "Mater",
+            "Fillmore",
+            "Luigi",
+            "Sarge"
+          ],
+          "reveal": "The correct answer is Mater! Like tuh-mater, but without the tuh. [laughs] He told us himself.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "The real Route 66 starts in this big Illinois city.",
+          "answer": "Chicago",
+          "accept": [
+            "chicago"
+          ],
+          "choices": [
+            "Chicago",
+            "Springfield",
+            "St. Louis",
+            "Peoria"
+          ],
+          "reveal": "The correct answer is Chicago! From there it's nearly 2,500 miles to the Pacific. Pack snacks.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "The Cozy Cone Motel was inspired by real Route 66 motels where you sleep in rooms shaped like these.",
+          "answer": "Teepees",
+          "accept": [
+            "teepees",
+            "tipis",
+            "teepee",
+            "tepees",
+            "wigwams"
+          ],
+          "choices": [
+            "Teepees",
+            "Igloos",
+            "Barrels",
+            "Train cars"
+          ],
+          "reveal": "The correct answer is teepees! The Wigwam Motels in Arizona and California still rent them out today.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Cars Land's Cadillac Range honors this Texas art installation of half-buried cars near Amarillo.",
+          "answer": "Cadillac Ranch",
+          "accept": [
+            "cadillac ranch"
+          ],
+          "choices": [
+            "Cadillac Ranch",
+            "Carhenge",
+            "Bug Ranch",
+            "Chrome Valley"
+          ],
+          "reveal": "The correct answer is Cadillac Ranch! [chuckles] Ten Cadillacs, nose down in the dirt. The ultimate parking fail.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Ramone's House of Body Art was inspired by this Art Deco gas station in Shamrock, Texas.",
+          "answer": "U-Drop Inn",
+          "accept": [
+            "u-drop inn",
+            "u drop inn",
+            "the u-drop inn",
+            "tower station"
+          ],
+          "choices": [
+            "U-Drop Inn",
+            "Blue Swallow Motel",
+            "Midpoint Cafe",
+            "Roy's Motel and Cafe"
+          ],
+          "reveal": "[excited] The correct answer is the U-Drop Inn! It's a visitor center now, and yes, it looks EXACTLY like the movie.",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}

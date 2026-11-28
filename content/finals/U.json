@@ -1,0 +1,138 @@
+[
+  {
+    "film": "Cars 2",
+    "category": "Cars 2",
+    "clue": "In Cars 2, the World Grand Prix kicks off with its very first race in this city.",
+    "answer": "Tokyo",
+    "accept": [
+      "tokyo",
+      "tokyo japan"
+    ],
+    "choices": [
+      "Tokyo",
+      "London",
+      "Paris",
+      "Rome"
+    ],
+    "reveal": "[excited] The correct answer is Tokyo! [chuckles] Mater also tries wasabi there, thinking it's pistachio ice cream. Big mistake."
+  },
+  {
+    "film": "Cars 3",
+    "category": "Cars 3",
+    "clue": "In Cars 3, Lightning McQueen's young trainer finishes his comeback race and wins the Florida 500. Name her.",
+    "answer": "Cruz Ramirez",
+    "accept": [
+      "cruz ramirez",
+      "cruz"
+    ],
+    "choices": [
+      "Cruz Ramirez",
+      "Natalie Certain",
+      "Sally Carrera",
+      "Louise Nash"
+    ],
+    "reveal": "The correct answer is Cruz Ramirez! [excited] Lightning hands her the wheel mid-race, and she drives like a CHAMPION."
+  },
+  {
+    "film": "Inside Out 2",
+    "category": "Inside Out 2",
+    "clue": "In Inside Out 2, this new orange emotion takes over Headquarters when Riley goes to hockey camp.",
+    "answer": "Anxiety",
+    "accept": [
+      "anxiety"
+    ],
+    "choices": [
+      "Anxiety",
+      "Envy",
+      "Embarrassment",
+      "Ennui"
+    ],
+    "reveal": "The correct answer is Anxiety! [laughs] Planning for every possible future, all at once. Relatable, honestly."
+  },
+  {
+    "film": "Moana 2",
+    "category": "Moana 2",
+    "clue": "In Moana 2, Moana sets out to find this lost island, sunk by the storm god Nalo.",
+    "answer": "Motufetu",
+    "accept": [
+      "motufetu",
+      "motufetū"
+    ],
+    "choices": [
+      "Motufetu",
+      "Motunui",
+      "Lalotai",
+      "Te Fiti"
+    ],
+    "reveal": "The correct answer is Motufetu! [dramatic pause] Once Moana raises it, the people of the ocean can finally find each other again."
+  },
+  {
+    "film": "Old Yeller",
+    "category": "Old Yeller",
+    "clue": "In the 1957 classic Old Yeller, the big yellow dog becomes the loyal companion of this teenage frontier boy.",
+    "answer": "Travis",
+    "accept": [
+      "travis",
+      "travis coates"
+    ],
+    "choices": [
+      "Travis",
+      "Arliss",
+      "Jim",
+      "Tom"
+    ],
+    "reveal": "The correct answer is Travis! [sighs] And if you remember the ending... yeah. Grab the tissues."
+  },
+  {
+    "film": "The Absent-Minded Professor",
+    "category": "The Absent-Minded Professor",
+    "clue": "In The Absent-Minded Professor, Fred MacMurray invents this bouncy, flying rubber substance.",
+    "answer": "Flubber",
+    "accept": [
+      "flubber"
+    ],
+    "choices": [
+      "Flubber",
+      "Gloop",
+      "Floam",
+      "Bounceum"
+    ],
+    "reveal": "The correct answer is Flubber! Flying rubber. [laughs] He even flies his Model T car with it."
+  },
+  {
+    "film": "National Treasure",
+    "category": "National Treasure",
+    "clue": "In National Treasure, Nicolas Cage's character discovers a hidden map on the back of this famous document.",
+    "answer": "The Declaration of Independence",
+    "accept": [
+      "declaration of independence",
+      "the declaration of independence",
+      "the declaration"
+    ],
+    "choices": [
+      "The Declaration of Independence",
+      "The Constitution",
+      "The Bill of Rights",
+      "The Gettysburg Address"
+    ],
+    "reveal": "The correct answer is the Declaration of Independence! [mischievously] And his solution? Steal it. Do not try this at home."
+  },
+  {
+    "film": "James and the Giant Peach",
+    "category": "James and the Giant Peach",
+    "clue": "In Disney's 1996 film James and the Giant Peach, the peach finally lands on top of this New York skyscraper.",
+    "answer": "The Empire State Building",
+    "accept": [
+      "empire state building",
+      "the empire state building",
+      "empire state"
+    ],
+    "choices": [
+      "The Empire State Building",
+      "The Chrysler Building",
+      "The Flatiron Building",
+      "The Woolworth Building"
+    ],
+    "reveal": "The correct answer is the Empire State Building! [excited] Quite a landing. And James finally gets to New York City."
+  }
+]
