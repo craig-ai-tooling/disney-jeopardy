@@ -1,0 +1,561 @@
+{
+  "id": "wild-west",
+  "title": "Howdy, Partner!",
+  "theme": "Wild West",
+  "tags": [
+    "western",
+    "frontierland",
+    "toy-story",
+    "parks"
+  ],
+  "intro": "[excited] Saddle up, partners! Tonight we're riding into the WILD West, from Frontierland to Woody's Roundup. [chuckles] Hold onto your hats... and your points.",
+  "art": {
+    "prompt": "A sweeping desert frontier town at golden sunset: wooden boardwalks, a water tower, a red sandstone butte, a steam train puffing across a trestle and a paddle-wheel riverboat on a lazy river. Original painterly storybook illustration, 16:9, cinematic lighting, rich color, no people, no characters, no text, no logos.",
+    "file": "media/wild-west.jpg"
+  },
+  "categories": [
+    {
+      "id": "woodys-roundup",
+      "title": "Woody's Roundup",
+      "kind": "film",
+      "format": "text",
+      "intro": "Yee-haw! It's Toy Story 2's famous cowboy gang. [laughs] Remember, no reaching for your pull string.",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This yodeling cowgirl doll joins Woody's gang in Toy Story 2.",
+          "answer": "Jessie",
+          "accept": [
+            "jessie the yodeling cowgirl",
+            "jesse"
+          ],
+          "choices": [
+            "Jessie",
+            "Bo Peep",
+            "Gabby Gabby",
+            "Barbie"
+          ],
+          "reveal": "The correct answer is Jessie! [excited] Yodel-ay-hee-HOO! That one was a gimme, partner.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "In Toy Story 2, Woody learns he starred in a puppet TV show from this decade.",
+          "answer": "The 1950s",
+          "accept": [
+            "1950s",
+            "50s",
+            "fifties",
+            "the fifties",
+            "1950's"
+          ],
+          "choices": [
+            "The 1950s",
+            "The 1960s",
+            "The 1940s",
+            "The 1970s"
+          ],
+          "reveal": "The correct answer is the 1950s! [chuckles] Black and white TV, sock hops... and one very wobbly marionette sheriff.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Jessie remembers her old owner in this heartbreaking Toy Story 2 song, sung by Sarah McLachlan.",
+          "answer": "When She Loved Me",
+          "accept": [
+            "when she loved me"
+          ],
+          "choices": [
+            "When She Loved Me",
+            "You've Got a Friend in Me",
+            "I Will Go Sailing No More",
+            "Strange Things"
+          ],
+          "reveal": "The correct answer is When She Loved Me. [sighs] Excuse me... I've got something in my eye. Both eyes. Every time.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Jessie's first owner, the little girl who outgrew her and left her in a donation box, was named this.",
+          "answer": "Emily",
+          "accept": [
+            "emily"
+          ],
+          "choices": [
+            "Emily",
+            "Molly",
+            "Bonnie",
+            "Hannah"
+          ],
+          "reveal": "The correct answer is Emily! [sighs] Poor Jessie. And Molly is Andy's little sister, if you were tempted.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Toy Story 2's toy Cleaner, who fixes Woody's arm, is Geri, the old man from this Oscar-winning 1997 Pixar short.",
+          "answer": "Geri's Game",
+          "accept": [
+            "geris game",
+            "geri's game"
+          ],
+          "choices": [
+            "Geri's Game",
+            "For the Birds",
+            "Tin Toy",
+            "Knick Knack"
+          ],
+          "reveal": "The correct answer is Geri's Game! [mischievously] He beat himself at chess, then moved on to toy repair. A man of many talents.",
+          "dailyDouble": true
+        }
+      ],
+      "art": {
+        "prompt": "A vintage 1950s toy-shop display: a cardboard cowboy diorama, a tiny toy guitar, a yo-yo, a spinning top and a little red cowboy hat under warm spotlight. Original painterly storybook illustration, 16:9, cinematic lighting, rich color, no people, no characters, no text, no logos.",
+        "file": "media/wild-west--woodys-roundup.jpg"
+      }
+    },
+    {
+      "id": "home-on-the-range",
+      "title": "Home on the Range",
+      "kind": "theme",
+      "format": "text",
+      "intro": "Where the deer and the antelope play... and where Disney heads OUT WEST. [chuckles] Giddy-up!",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In Home on the Range, a trio of these farm animals goes after a cattle rustler to save their farm.",
+          "answer": "Cows",
+          "accept": [
+            "cow",
+            "cows",
+            "dairy cows",
+            "cattle"
+          ],
+          "choices": [
+            "Cows",
+            "Horses",
+            "Pigs",
+            "Goats"
+          ],
+          "reveal": "The correct answer is cows! [laughs] Udderly brave. I'm sorry. Not sorry.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "In Home on the Range, show-off Buck is this kind of animal.",
+          "answer": "A horse",
+          "accept": [
+            "horse",
+            "a horse",
+            "stallion"
+          ],
+          "choices": [
+            "A horse",
+            "A mule",
+            "A donkey",
+            "A bull"
+          ],
+          "reveal": "The correct answer is a horse! Buck is a stallion who REALLY wants to be a hero. Relatable.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "This yodeling cattle rustler hypnotizes whole herds in Home on the Range.",
+          "answer": "Alameda Slim",
+          "accept": [
+            "alameda slim",
+            "slim"
+          ],
+          "choices": [
+            "Alameda Slim",
+            "Rico",
+            "Lucky Jack",
+            "Buck"
+          ],
+          "reveal": "The correct answer is Alameda Slim! [mischievously] Rico's the bounty hunter, Lucky Jack's the rabbit... and Slim's the one with the yodel.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Fess Parker's 1950s Disney frontier hero set off a national craze for raccoon-skin caps.",
+          "answer": "Davy Crockett",
+          "accept": [
+            "davy crockett",
+            "crockett",
+            "david crockett"
+          ],
+          "choices": [
+            "Davy Crockett",
+            "Daniel Boone",
+            "Pecos Bill",
+            "Johnny Appleseed"
+          ],
+          "reveal": "The correct answer is Davy Crockett! King of the Wild Frontier. [chuckles] Fess Parker played Daniel Boone later, on TV, which is the trap here.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "In 1948's Melody Time, cowboy legend Pecos Bill rides this horse.",
+          "answer": "Widowmaker",
+          "accept": [
+            "widowmaker",
+            "widow maker"
+          ],
+          "choices": [
+            "Widowmaker",
+            "Lightning",
+            "Thunder",
+            "Buck"
+          ],
+          "reveal": "The correct answer is Widowmaker! [dramatic pause] Scariest horse name in Disney history. I'd walk.",
+          "dailyDouble": false
+        }
+      ],
+      "art": {
+        "prompt": "A cozy little dairy farm on the open prairie: red barn, white picket fence, three copper cowbells on posts, wildflowers, distant mesas and a big blue sky. Original painterly storybook illustration, 16:9, cinematic lighting, rich color, no people, no characters, no text, no logos.",
+        "file": "media/wild-west--home-on-the-range.jpg"
+      }
+    },
+    {
+      "id": "frontier-snapshots",
+      "title": "Frontier Snapshots",
+      "kind": "media",
+      "format": "picture",
+      "intro": "Say cheese, partner! Each picture evokes a Disney film. [whispers] Squint if you need to.",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Name the Disney Pixar film this picture evokes.",
+          "answer": "Toy Story",
+          "accept": [
+            "toy story"
+          ],
+          "choices": [
+            "Toy Story",
+            "Cars",
+            "Up",
+            "Bolt"
+          ],
+          "reveal": "The correct answer is Toy Story! [excited] There's a snake in my boot... and points in your pocket.",
+          "media": {
+            "type": "image",
+            "prompt": "A child's bedroom floor at night: a small red cowboy hat, a tin sheriff star, a toy pull-string ring and a little rocket-shaped night light, wallpaper of blue sky and clouds. Original painterly storybook illustration, 16:9, cinematic lighting, rich color, no people, no characters, no text, no logos.",
+            "file": "media/wild-west--frontier-snapshots-200.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Name the Disney film this picture evokes.",
+          "answer": "Home on the Range",
+          "accept": [
+            "home on the range"
+          ],
+          "choices": [
+            "Home on the Range",
+            "Brother Bear",
+            "Chicken Little",
+            "The Fox and the Hound"
+          ],
+          "reveal": "The correct answer is Home on the Range! [chuckles] Little farm, big heart, three very determined cows.",
+          "media": {
+            "type": "image",
+            "prompt": "A tiny dairy farm called home under a huge prairie sky: three copper cowbells hanging on a fence, a milk pail, a red barn and desert mesas glowing at sunset. Original painterly storybook illustration, 16:9, cinematic lighting, rich color, no people, no characters, no text, no logos.",
+            "file": "media/wild-west--frontier-snapshots-400.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Name the Disney Pixar film this picture evokes.",
+          "answer": "Cars",
+          "accept": [
+            "cars"
+          ],
+          "choices": [
+            "Cars",
+            "Planes",
+            "Wreck-It Ralph",
+            "Up"
+          ],
+          "reveal": "The correct answer is Cars! [excited] Ka-chow! That desert motel made of traffic cones gave it away.",
+          "media": {
+            "type": "image",
+            "prompt": "A sleepy desert town on an old highway at dusk: a motel whose rooms are giant orange traffic-cone shapes, glowing neon tubes, a red butte shaped like a car hood behind. Original painterly storybook illustration, 16:9, cinematic lighting, rich color, no people, no characters, no text, no logos.",
+            "file": "media/wild-west--frontier-snapshots-600.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Name the Disney film this picture evokes.",
+          "answer": "The Lone Ranger",
+          "accept": [
+            "lone ranger",
+            "the lone ranger"
+          ],
+          "choices": [
+            "The Lone Ranger",
+            "The Alamo",
+            "Hidalgo",
+            "National Treasure"
+          ],
+          "reveal": "The correct answer is The Lone Ranger! Hi-yo, Silver! [chuckles] Johnny Depp played Tonto in the 2013 version.",
+          "media": {
+            "type": "image",
+            "prompt": "A single silver bullet resting on a railroad tie beside a black cloth eye mask, a steam locomotive rushing past in the dusty background at sunset. Original painterly storybook illustration, 16:9, cinematic lighting, rich color, no people, no characters, no text, no logos.",
+            "file": "media/wild-west--frontier-snapshots-800.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Name the 1948 Disney package film this picture evokes.",
+          "answer": "Melody Time",
+          "accept": [
+            "melody time"
+          ],
+          "choices": [
+            "Melody Time",
+            "Fun and Fancy Free",
+            "Make Mine Music",
+            "Saludos Amigos"
+          ],
+          "reveal": "The correct answer is Melody Time! [laughs] Home of Pecos Bill, who lassoed a cyclone. Big nerd points!",
+          "media": {
+            "type": "image",
+            "prompt": "A giant swirling tornado over a Texas desert with a lasso rope looped around it, cactus and tumbleweeds flying, painted in bold 1940s mid-century style. Original painterly storybook illustration, 16:9, cinematic lighting, rich color, no people, no characters, no text, no logos.",
+            "file": "media/wild-west--frontier-snapshots-1000.jpg"
+          },
+          "dailyDouble": false
+        }
+      ],
+      "art": {
+        "prompt": "An old wooden photographer's studio in a frontier town: brass box camera on a tripod, sepia prints pinned to a wall, a lasso and spurs on a chair. Original painterly storybook illustration, 16:9, cinematic lighting, rich color, no people, no characters, no text, no logos.",
+        "file": "media/wild-west--frontier-snapshots.jpg"
+      }
+    },
+    {
+      "id": "frontierland-photo-op",
+      "title": "Frontierland Photo Op",
+      "kind": "parks",
+      "format": "text",
+      "intro": "Yee-haw! We're heading to Frontierland. [excited] Some of these come with real photos, so smile for the camera!",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Hold onto your hats! Name this runaway mine train coaster in Magic Kingdom's Frontierland.",
+          "answer": "Big Thunder Mountain Railroad",
+          "accept": [
+            "big thunder",
+            "big thunder mountain",
+            "big thunder mountain railroad"
+          ],
+          "choices": [
+            "Big Thunder Mountain Railroad",
+            "Seven Dwarfs Mine Train",
+            "Space Mountain",
+            "Expedition Everest"
+          ],
+          "reveal": "The correct answer is Big Thunder Mountain Railroad! [laughs] The wildest ride in the wilderness, and those red rocks never get old.",
+          "media": {
+            "type": "image",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Big_Thunder_Mountain_Railroad_2.jpg",
+              "license": "CC BY-SA 4.0",
+              "author": "AmaryllisGardener"
+            },
+            "file": "media/wild-west--frontierland-photo-op-200.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "This paddle-wheel steamboat has cruised Disneyland's Rivers of America since 1955. Name the boat.",
+          "answer": "Mark Twain Riverboat",
+          "accept": [
+            "mark twain",
+            "the mark twain",
+            "mark twain riverboat"
+          ],
+          "choices": [
+            "Mark Twain Riverboat",
+            "Liberty Belle",
+            "Sailing Ship Columbia",
+            "Molly Brown"
+          ],
+          "reveal": "The correct answer is the Mark Twain Riverboat! [chuckles] Liberty Belle is the paddle-wheeler at Magic Kingdom, if you were tempted.",
+          "media": {
+            "type": "image",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Mark_Twain_Riverboat,_Disneyland.jpg",
+              "license": "CC BY 4.0",
+              "author": "Contributor19"
+            },
+            "file": "media/wild-west--frontierland-photo-op-400.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "This Magic Kingdom Frontierland quick-service spot is named for the cowboy legend who lassoed a cyclone.",
+          "answer": "Pecos Bill Tall Tale Inn and Cafe",
+          "accept": [
+            "pecos bill",
+            "pecos bill tall tale inn",
+            "pecos bill cafe",
+            "pecos bill tall tale inn and cafe"
+          ],
+          "choices": [
+            "Pecos Bill Tall Tale Inn and Cafe",
+            "Golden Oak Outpost",
+            "Cosmic Ray's Starlight Cafe",
+            "Columbia Harbour House"
+          ],
+          "reveal": "The correct answer is Pecos Bill Tall Tale Inn and Cafe! [excited] Pecos Bill would lasso a whole plate of nachos, partner.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Disneyland's Golden Horseshoe Revue ran in this Frontierland saloon from 1955 to 1986, setting a long-running stage show record.",
+          "answer": "The Golden Horseshoe",
+          "accept": [
+            "golden horseshoe",
+            "the golden horseshoe"
+          ],
+          "choices": [
+            "The Golden Horseshoe",
+            "The Diamond Horseshoe",
+            "The Silver Spur",
+            "The Lucky Nugget"
+          ],
+          "reveal": "The correct answer is the Golden Horseshoe! [chuckles] Over thirty years of can-can kicks. My knees hurt just thinking about it.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Before you board Magic Kingdom's Big Thunder Mountain, the ride's story tells of a flooded mining boomtown with this name.",
+          "answer": "Tumbleweed",
+          "accept": [
+            "tumbleweed"
+          ],
+          "choices": [
+            "Tumbleweed",
+            "Rainbow Ridge",
+            "Thunder Mesa",
+            "Radiator Springs"
+          ],
+          "reveal": "The correct answer is Tumbleweed! [mischievously] Rainbow Ridge is Disneyland's mining town. TRUE Big Thunder nerds knew that one.",
+          "dailyDouble": false
+        }
+      ],
+      "art": {
+        "prompt": "A rustic theme-park frontier street: log stockade gate, rocking chairs on a porch, wagon wheels, hitching posts and red rock spires behind, lit by warm afternoon sun. Original painterly storybook illustration, 16:9, cinematic lighting, rich color, no people, no characters, no text, no logos.",
+        "file": "media/wild-west--frontierland-photo-op.jpg"
+      }
+    },
+    {
+      "id": "wanted-posters",
+      "title": "Wanted Posters",
+      "kind": "fan",
+      "format": "text",
+      "intro": "[dramatic pause] WANTED... dead or alive... the correct answer! Name the Disney outlaw from the poster.",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "WANTED: a sly fox who robs from the rich and gives to the poor in Nottingham.",
+          "answer": "Robin Hood",
+          "accept": [
+            "robin hood",
+            "robin"
+          ],
+          "choices": [
+            "Robin Hood",
+            "Little John",
+            "Prince John",
+            "Friar Tuck"
+          ],
+          "reveal": "The correct answer is Robin Hood! [laughs] Oo-de-lally, that was an easy one.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "WANTED: a pirate captain with a hook for a hand, last seen fleeing a ticking crocodile.",
+          "answer": "Captain Hook",
+          "accept": [
+            "captain hook",
+            "hook",
+            "james hook"
+          ],
+          "choices": [
+            "Captain Hook",
+            "Mr. Smee",
+            "Captain Barbossa",
+            "Long John Silver"
+          ],
+          "reveal": "The correct answer is Captain Hook! [whispers] Tick-tock, tick-tock... that croc is STILL hungry.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "WANTED: a pair of identical red-haired thieving brothers who were Flynn Rider's old partners in crime.",
+          "answer": "The Stabbington Brothers",
+          "accept": [
+            "stabbington brothers",
+            "the stabbingtons",
+            "stabbingtons",
+            "stabbington"
+          ],
+          "choices": [
+            "The Stabbington Brothers",
+            "The Weasel Brothers",
+            "The Beagle Boys",
+            "The Snuggly Duckling Gang"
+          ],
+          "reveal": "The correct answer is the Stabbington Brothers! [whispers] Two identical scowls, one big grudge against Flynn. Creepy.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "WANTED: this big, bad cat who has menaced Mickey since 1928's Steamboat Willie.",
+          "answer": "Pete",
+          "accept": [
+            "pete",
+            "peg leg pete",
+            "peg-leg pete",
+            "black pete"
+          ],
+          "choices": [
+            "Pete",
+            "Mortimer Mouse",
+            "The Big Bad Wolf",
+            "Ratigan"
+          ],
+          "reveal": "The correct answer is Pete! [chuckles] He's actually older than Mickey. Rude AND senior.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "WANTED: Mr. Potato Head, playing this train-robbing outlaw in the Wild West opening of Toy Story 3.",
+          "answer": "One-Eyed Bart",
+          "accept": [
+            "one eyed bart",
+            "one-eyed bart",
+            "bart"
+          ],
+          "choices": [
+            "One-Eyed Bart",
+            "Dr. Porkchop",
+            "Black Bart",
+            "Two-Gun Pete"
+          ],
+          "reveal": "The correct answer is One-Eyed Bart! [laughs] With One-Eyed Betty and their attack dogs with built-in force fields. Dr. Porkchop is Hamm's villain.",
+          "dailyDouble": false
+        }
+      ],
+      "art": {
+        "prompt": "A weathered sheriff's office wall covered in blank parchment wanted posters, a tin star badge on the desk, an oil lamp and a jangling key ring. Original painterly storybook illustration, 16:9, cinematic lighting, rich color, no people, no characters, no text, no logos.",
+        "file": "media/wild-west--wanted-posters.jpg"
+      }
+    }
+  ]
+}

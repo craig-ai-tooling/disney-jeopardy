@@ -1,0 +1,559 @@
+{
+  "id": "small-world",
+  "title": "It's a Small World",
+  "theme": "Around the World",
+  "tags": [
+    "international",
+    "epcot",
+    "small-world",
+    "travel"
+  ],
+  "intro": "[excited] Passports out, everybody! Tonight we're traveling the globe, from EPCOT to Mexico to Italy. [chuckles] And yes... that SONG will be stuck in your head all night.",
+  "art": {
+    "prompt": "A whimsical round-the-world panorama in mid-century storybook style: a pagoda, a Venetian bell tower, a Mexican-style pyramid and white-and-gold fairy-tale spires lined up along a sparkling lagoon, little boats drifting by. Original painterly storybook illustration, 16:9, cinematic lighting, rich color, no people, no characters, no text, no logos.",
+    "file": "media/small-world.jpg"
+  },
+  "categories": [
+    {
+      "id": "un-poco-loco",
+      "title": "Un Poco Loco",
+      "kind": "film",
+      "format": "text",
+      "intro": "[laughs] Grab your guitar and your marigolds! This one's all about Pixar's Coco.",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In Coco, Miguel dreams of playing this instrument like his idol.",
+          "answer": "Guitar",
+          "accept": [
+            "guitar",
+            "a guitar",
+            "the guitar"
+          ],
+          "choices": [
+            "Guitar",
+            "Violin",
+            "Trumpet",
+            "Piano"
+          ],
+          "reveal": "The correct answer is the guitar! [excited] Miguel just wants to play. Is that so loco?",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Miguel's family has banned music and makes these for a living instead.",
+          "answer": "Shoes",
+          "accept": [
+            "shoes",
+            "shoe",
+            "shoemaking",
+            "boots"
+          ],
+          "choices": [
+            "Shoes",
+            "Candles",
+            "Guitars",
+            "Piñatas"
+          ],
+          "reveal": "The correct answer is shoes! [chuckles] The Riveras are a VERY serious shoe family. No singing on the job.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "This charming skeleton trickster helps Miguel in the Land of the Dead and turns out to be family.",
+          "answer": "Héctor",
+          "accept": [
+            "hector",
+            "héctor",
+            "hector rivera"
+          ],
+          "choices": [
+            "Héctor",
+            "Chicharrón",
+            "Papá Julio",
+            "Tío Oscar"
+          ],
+          "reveal": "The correct answer is Héctor! [sighs] The real songwriter all along. Justice for Héctor!",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Coco won the Oscar for Best Original Song for this tender tune.",
+          "answer": "Remember Me",
+          "accept": [
+            "remember me"
+          ],
+          "choices": [
+            "Remember Me",
+            "Un Poco Loco",
+            "The World Es Mi Familia",
+            "Proud Corazón"
+          ],
+          "reveal": "The correct answer is Remember Me! [whispers] Grab the tissues. I said TISSUES. Plural.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "The glowing orange bridge to the Land of the Dead is made of the petals of this flower, cempasúchil.",
+          "answer": "Marigolds",
+          "accept": [
+            "marigold",
+            "marigolds",
+            "cempasuchil",
+            "cempasúchil",
+            "mexican marigold"
+          ],
+          "choices": [
+            "Marigolds",
+            "Dahlias",
+            "Roses",
+            "Sunflowers"
+          ],
+          "reveal": "The correct answer is marigolds! [excited] Cempasúchil, the flower of the dead. TRUE Coco fans nailed that one.",
+          "dailyDouble": false
+        }
+      ],
+      "art": {
+        "prompt": "A glowing marigold-petal bridge arching over a twilight sky toward a colorful stacked city of lights, a white guitar leaning on an altar of candles and photos in the foreground. Original painterly storybook illustration, 16:9, cinematic lighting, rich color, no people, no characters, no text, no logos.",
+        "file": "media/small-world--un-poco-loco.jpg"
+      }
+    },
+    {
+      "id": "its-a-small-world-after-all",
+      "title": "It's a Small World After All",
+      "kind": "theme",
+      "format": "text",
+      "intro": "[sarcastic] I promise not to sing it... [laughs] okay, I might hum it. It's all about the happiest cruise that ever sailed!",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Name this Disneyland boat ride with the whimsical white-and-gold facade.",
+          "answer": "it's a small world",
+          "accept": [
+            "its a small world",
+            "it's a small world",
+            "small world",
+            "it is a small world"
+          ],
+          "choices": [
+            "it's a small world",
+            "Storybook Land Canal Boats",
+            "Pirates of the Caribbean",
+            "Jungle Cruise"
+          ],
+          "reveal": "The correct answer is it's a small world! [laughs] And now it's in your head. You're welcome.",
+          "media": {
+            "type": "image",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Disneyland_Small_World_Facade_From_Left_2013.JPG",
+              "license": "CC BY-SA 3.0",
+              "author": "Patrick Pelletier"
+            },
+            "file": "media/small-world--its-a-small-world-after-all-200.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "The ride debuted at the 1964 New York World's Fair as a salute to this children's charity.",
+          "answer": "UNICEF",
+          "accept": [
+            "unicef"
+          ],
+          "choices": [
+            "UNICEF",
+            "The Red Cross",
+            "Make-A-Wish",
+            "Save the Children"
+          ],
+          "reveal": "The correct answer is UNICEF! [excited] A ride for the children of the world, from the very start.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "This Disney Legend artist created the ride's bright, flat, colorful style.",
+          "answer": "Mary Blair",
+          "accept": [
+            "mary blair",
+            "blair"
+          ],
+          "choices": [
+            "Mary Blair",
+            "Rolly Crump",
+            "Claude Coats",
+            "Marc Davis"
+          ],
+          "reveal": "The correct answer is Mary Blair! [chuckles] Rolly Crump made some of the toys, but the look? That's ALL Mary.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "These songwriting brothers wrote the ride's famous song.",
+          "answer": "The Sherman Brothers",
+          "accept": [
+            "sherman brothers",
+            "the sherman brothers",
+            "richard and robert sherman",
+            "shermans"
+          ],
+          "choices": [
+            "The Sherman Brothers",
+            "The Gershwin Brothers",
+            "The Everly Brothers",
+            "The Jonas Brothers"
+          ],
+          "reveal": "The correct answer is the Sherman Brothers! [laughs] They meant it as a round you could sing in any language. Mission accomplished.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "After the World's Fair, it's a small world opened at Disneyland in this year.",
+          "answer": "1966",
+          "accept": [
+            "1966"
+          ],
+          "choices": [
+            "1966",
+            "1964",
+            "1965",
+            "1971"
+          ],
+          "reveal": "The correct answer is 1966! [dramatic pause] Sixty-ish years of that song. Impressive. Exhausting. Mostly impressive.",
+          "dailyDouble": false
+        }
+      ],
+      "art": {
+        "prompt": "A cheerful canal winding through flat, patterned mid-century cutout scenery of every continent in white, gold and candy colors, a little boat floating through. Original painterly storybook illustration, 16:9, cinematic lighting, rich color, no people, no characters, no text, no logos.",
+        "file": "media/small-world--its-a-small-world-after-all.jpg"
+      }
+    },
+    {
+      "id": "zoom-around-the-world",
+      "title": "Zoom Around the World",
+      "kind": "media",
+      "format": "zoom",
+      "intro": "Each picture starts zoomed WAY in on a Disney film setting. [whispers] Name the COUNTRY where the film takes place.",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Zoom out! In what country is the film this scene evokes set?",
+          "answer": "China",
+          "accept": [
+            "china"
+          ],
+          "choices": [
+            "China",
+            "Japan",
+            "Korea",
+            "Vietnam"
+          ],
+          "reveal": "The correct answer is China! [excited] Mulan's homeland. [laughs] Dishonor on... no wait, HONOR on you! And your cow.",
+          "media": {
+            "type": "image",
+            "prompt": "Extreme close-up that pulls back to reveal a long stone wall winding over misty green mountains, red paper lanterns, a folded paper fan and a delicate cherry-blossom branch. Original painterly storybook illustration, 16:9, cinematic lighting, rich color, no people, no characters, no text, no logos.",
+            "file": "media/small-world--zoom-around-the-world-200.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Zoom out! In what country is the Pixar film this scene evokes set?",
+          "answer": "Italy",
+          "accept": [
+            "italy"
+          ],
+          "choices": [
+            "Italy",
+            "Greece",
+            "Spain",
+            "France"
+          ],
+          "reveal": "The correct answer is Italy! [laughs] Luca's seaside summer. Silenzio, Bruno!",
+          "media": {
+            "type": "image",
+            "prompt": "Extreme close-up that pulls back to reveal a little seaside village of pastel houses, a scooter parked by the harbor, a bowl of pasta on a table and shimmering scales glinting in the waves. Original painterly storybook illustration, 16:9, cinematic lighting, rich color, no people, no characters, no text, no logos.",
+            "file": "media/small-world--zoom-around-the-world-400.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Zoom out! In what country is the Pixar film this scene evokes set?",
+          "answer": "Scotland",
+          "accept": [
+            "scotland"
+          ],
+          "choices": [
+            "Scotland",
+            "Ireland",
+            "Norway",
+            "England"
+          ],
+          "reveal": "The correct answer is Scotland! [chuckles] Brave's misty Highlands. Keep your bow ready.",
+          "media": {
+            "type": "image",
+            "prompt": "Extreme close-up that pulls back to reveal a ring of ancient standing stones on a misty highland moor, a longbow and arrows on the heather, a grey stone castle in the distance. Original painterly storybook illustration, 16:9, cinematic lighting, rich color, no people, no characters, no text, no logos.",
+            "file": "media/small-world--zoom-around-the-world-600.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Zoom out! In what country is the film this scene evokes set?",
+          "answer": "Colombia",
+          "accept": [
+            "colombia",
+            "columbia"
+          ],
+          "choices": [
+            "Colombia",
+            "Mexico",
+            "Peru",
+            "Brazil"
+          ],
+          "reveal": "The correct answer is Colombia! [excited] Encanto's magical casita. Yellow butterflies everywhere!",
+          "media": {
+            "type": "image",
+            "prompt": "Extreme close-up that pulls back to reveal a glowing pastel house with an open courtyard, yellow butterflies fluttering, a single candle in a window and green Andes mountains behind. Original painterly storybook illustration, 16:9, cinematic lighting, rich color, no people, no characters, no text, no logos.",
+            "file": "media/small-world--zoom-around-the-world-800.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Zoom out! In what country is the 1990 Disney sequel this scene evokes set?",
+          "answer": "Australia",
+          "accept": [
+            "australia"
+          ],
+          "choices": [
+            "Australia",
+            "New Zealand",
+            "South Africa",
+            "Brazil"
+          ],
+          "reveal": "The correct answer is Australia! [dramatic pause] The Rescuers Down Under. Big nerd points, mate.",
+          "media": {
+            "type": "image",
+            "prompt": "Extreme close-up that pulls back to reveal a huge eagle's nest of sticks on a red rock cliff above the outback, eucalyptus trees, a golden feather and a vast orange sunset. Original painterly storybook illustration, 16:9, cinematic lighting, rich color, no people, no characters, no text, no logos.",
+            "file": "media/small-world--zoom-around-the-world-1000.jpg"
+          },
+          "dailyDouble": false
+        }
+      ],
+      "art": {
+        "prompt": "A traveler's desk of keepsakes from around the world: a globe, passport-style stamps without text, a compass, postcards of mountains, seas and cities. Original painterly storybook illustration, 16:9, cinematic lighting, rich color, no people, no characters, no text, no logos.",
+        "file": "media/small-world--zoom-around-the-world.jpg"
+      }
+    },
+    {
+      "id": "world-showcase-stopover",
+      "title": "World Showcase Stopover",
+      "kind": "parks",
+      "format": "text",
+      "intro": "[laughs] Next stop... the world! We're strolling around EPCOT's World Showcase.",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "EPCOT's World Showcase pavilions circle around this body of water.",
+          "answer": "World Showcase Lagoon",
+          "accept": [
+            "world showcase lagoon",
+            "the lagoon",
+            "lagoon"
+          ],
+          "choices": [
+            "World Showcase Lagoon",
+            "Seven Seas Lagoon",
+            "Bay Lake",
+            "Crescent Lake"
+          ],
+          "reveal": "The correct answer is World Showcase Lagoon! [chuckles] Seven Seas Lagoon is over by Magic Kingdom. Different water, same splash.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "This five-story pagoda, pictured, stands in which EPCOT pavilion?",
+          "answer": "Japan",
+          "accept": [
+            "japan"
+          ],
+          "choices": [
+            "Japan",
+            "China",
+            "Germany",
+            "Italy"
+          ],
+          "reveal": "The correct answer is Japan! [excited] Modeled on an ancient pagoda in Nara. Gorgeous.",
+          "media": {
+            "type": "image",
+            "source": {
+              "url": "https://commons.wikimedia.org/wiki/File:Japanese_pagoda_at_Epcot.jpg",
+              "license": "CC BY-SA 4.0",
+              "author": "Benjamin D. Esham (bdesham)"
+            },
+            "file": "media/small-world--world-showcase-stopover-400.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "EPCOT's China pavilion features a half-scale replica of this famous temple in Beijing.",
+          "answer": "The Temple of Heaven",
+          "accept": [
+            "temple of heaven",
+            "the temple of heaven",
+            "hall of prayer for good harvests"
+          ],
+          "choices": [
+            "The Temple of Heaven",
+            "The Forbidden City",
+            "The Summer Palace",
+            "The Great Pagoda"
+          ],
+          "reveal": "The correct answer is the Temple of Heaven! [whispers] Look up inside. It's as gorgeous as the real thing.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "The Italy pavilion's bell tower is modeled on the one in St. Mark's Square in this city.",
+          "answer": "Venice",
+          "accept": [
+            "venice",
+            "venezia"
+          ],
+          "choices": [
+            "Venice",
+            "Rome",
+            "Florence",
+            "Milan"
+          ],
+          "reveal": "The correct answer is Venice! [laughs] Gondolas included. Canals... sold separately.",
+          "dailyDouble": true
+        },
+        {
+          "value": 1000,
+          "clue": "EPCOT's Morocco pavilion has a replica of the minaret of this famous mosque in Marrakesh.",
+          "answer": "The Koutoubia Mosque",
+          "accept": [
+            "koutoubia",
+            "koutoubia mosque",
+            "the koutoubia mosque",
+            "the koutoubia"
+          ],
+          "choices": [
+            "The Koutoubia Mosque",
+            "The Hassan II Mosque",
+            "The Blue Mosque",
+            "The Great Mosque of Kairouan"
+          ],
+          "reveal": "The correct answer is the Koutoubia Mosque! [excited] Morocco's minaret, in Florida. TRUE World Showcase nerd!",
+          "dailyDouble": false
+        }
+      ],
+      "art": {
+        "prompt": "A lakeside promenade at dusk lined with miniature landmarks from many countries, lanterns glowing over calm water and a distant fireworks burst. Original painterly storybook illustration, 16:9, cinematic lighting, rich color, no people, no characters, no text, no logos.",
+        "file": "media/small-world--world-showcase-stopover.jpg"
+      }
+    },
+    {
+      "id": "lost-in-translation",
+      "title": "Lost in Translation",
+      "kind": "fan",
+      "format": "text",
+      "intro": "Bonjour! Hola! Ciao! [chuckles] A fan wildcard of words and songs from around the world.",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Belle's village and Remy's Paris kitchen are both in this country.",
+          "answer": "France",
+          "accept": [
+            "france"
+          ],
+          "choices": [
+            "France",
+            "Italy",
+            "Belgium",
+            "Spain"
+          ],
+          "reveal": "The correct answer is France! [excited] Bonjour! Ooh la la, easy points.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "In The Lion King, Simba's name means this in Swahili.",
+          "answer": "Lion",
+          "accept": [
+            "lion",
+            "a lion"
+          ],
+          "choices": [
+            "Lion",
+            "King",
+            "Brave",
+            "Sun"
+          ],
+          "reveal": "The correct answer is lion! [laughs] A lion named Lion. Bold choice, Mufasa.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Mulan's grandmother gives her this lucky cricket for good fortune.",
+          "answer": "Cri-Kee",
+          "accept": [
+            "cri-kee",
+            "crikee",
+            "cri kee",
+            "cricket"
+          ],
+          "choices": [
+            "Cri-Kee",
+            "Jiminy",
+            "Chirpy",
+            "Kiki"
+          ],
+          "reveal": "The correct answer is Cri-Kee! [chuckles] Lucky? Debatable. Cute? Absolutely.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In Luca, Luca and Alberto dream of owning one of these Italian scooters.",
+          "answer": "A Vespa",
+          "accept": [
+            "vespa",
+            "a vespa"
+          ],
+          "choices": [
+            "A Vespa",
+            "A Ducati",
+            "A Ferrari",
+            "A Lambretta"
+          ],
+          "reveal": "The correct answer is a Vespa! [excited] Piacere, Girolamo Trombetta! Freedom on two wheels.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Encanto's song Colombia, Mi Encanto is performed by this Colombian superstar.",
+          "answer": "Carlos Vives",
+          "accept": [
+            "carlos vives",
+            "vives"
+          ],
+          "choices": [
+            "Carlos Vives",
+            "Sebastián Yatra",
+            "J Balvin",
+            "Juanes"
+          ],
+          "reveal": "The correct answer is Carlos Vives! [mischievously] Sebastián Yatra sang Dos Oruguitas. Tricky, tricky.",
+          "dailyDouble": false
+        }
+      ],
+      "art": {
+        "prompt": "A cozy wall of open books in many scripts without legible text, speech-bubble-shaped paper lanterns, a vintage radio and a world map glowing warmly. Original painterly storybook illustration, 16:9, cinematic lighting, rich color, no people, no characters, no text, no logos.",
+        "file": "media/small-world--lost-in-translation.jpg"
+      }
+    }
+  ]
+}

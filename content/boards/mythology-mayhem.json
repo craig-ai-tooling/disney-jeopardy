@@ -1,0 +1,538 @@
+{
+  "id": "mythology-mayhem",
+  "title": "Mythology Mayhem",
+  "theme": "Myths and Legends",
+  "tags": [
+    "mythology",
+    "hercules",
+    "moana",
+    "raya",
+    "atlantis"
+  ],
+  "intro": "[dramatic pause] Gods... demigods... and one VERY confused rooster. [laughs] Welcome to Mythology Mayhem, where the legends are real and the points are... legendary!",
+  "art": {
+    "prompt": "A dramatic mythic seascape: a marble Greek temple on a cliff, a Polynesian voyaging canoe on glowing waves, a jungle stone dragon shrine and sunken crystal ruins beneath the water, all under a stormy golden sky. Original painterly storybook illustration, 16:9, cinematic lighting, rich color, no people, no characters, no text, no logos.",
+    "file": "media/mythology-mayhem.jpg"
+  },
+  "categories": [
+    {
+      "id": "go-the-distance",
+      "title": "Go the Distance",
+      "kind": "film",
+      "format": "text",
+      "intro": "From zero to HERO! [excited] It's all about Disney's Hercules. Get ready to go the distance.",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Hercules' grumpy trainer Phil is a satyr: half man, half this animal.",
+          "answer": "A goat",
+          "accept": [
+            "goat",
+            "a goat"
+          ],
+          "choices": [
+            "A goat",
+            "A horse",
+            "A bull",
+            "A deer"
+          ],
+          "reveal": "The correct answer is a goat! [laughs] Half man, half goat, ALL attitude.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Hercules falls for this sharp-tongued woman, who prefers to be called Meg.",
+          "answer": "Megara",
+          "accept": [
+            "megara",
+            "meg"
+          ],
+          "choices": [
+            "Megara",
+            "Calliope",
+            "Alcmene",
+            "Persephone"
+          ],
+          "reveal": "The correct answer is Megara! [mischievously] She won't say she's in love. We all know she is.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "In Hercules, the three Fates who see the future share just one of these.",
+          "answer": "An eye",
+          "accept": [
+            "eye",
+            "an eye",
+            "one eye",
+            "eyeball"
+          ],
+          "choices": [
+            "An eye",
+            "A tooth",
+            "A nose",
+            "An ear"
+          ],
+          "reveal": "The correct answer is an eye! [chuckles] One eyeball, three sisters. Imagine the arguments.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Hercules becomes a celebrity hero in this ancient Greek city, the Big Olive.",
+          "answer": "Thebes",
+          "accept": [
+            "thebes"
+          ],
+          "choices": [
+            "Thebes",
+            "Athens",
+            "Sparta",
+            "Troy"
+          ],
+          "reveal": "The correct answer is Thebes! [laughs] The Big Olive. Phil calls it that, so it's official.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Hades plans to take over Mount Olympus when the planets align and he frees these giant elemental beings.",
+          "answer": "The Titans",
+          "accept": [
+            "titans",
+            "the titans"
+          ],
+          "choices": [
+            "The Titans",
+            "The Cyclopes",
+            "The Furies",
+            "The Gorgons"
+          ],
+          "reveal": "The correct answer is the Titans! [dramatic pause] Lava, ice, wind and rock... and one big Cyclops tagging along.",
+          "dailyDouble": false
+        }
+      ],
+      "art": {
+        "prompt": "A sunlit ancient Greek arena with marble columns, a golden laurel wreath on a pedestal, a training dummy and amphorae, Mount Olympus glowing in the clouds. Original painterly storybook illustration, 16:9, cinematic lighting, rich color, no people, no characters, no text, no logos.",
+        "file": "media/mythology-mayhem--go-the-distance.jpg"
+      }
+    },
+    {
+      "id": "maui-wowie",
+      "title": "Maui Wowie",
+      "kind": "theme",
+      "format": "text",
+      "intro": "What can I say except... YOU'RE WELCOME! [laughs] This category is all about Moana's ocean myths.",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Maui uses this magic weapon to shape-shift.",
+          "answer": "A fishhook",
+          "accept": [
+            "fishhook",
+            "fish hook",
+            "a fishhook",
+            "hook",
+            "magic fishhook"
+          ],
+          "choices": [
+            "A fishhook",
+            "A trident",
+            "A spear",
+            "An oar"
+          ],
+          "reveal": "The correct answer is his magic fishhook! [excited] No hook, no Maui. Simple as that.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Maui's favorite form is this bird of prey.",
+          "answer": "A hawk",
+          "accept": [
+            "hawk",
+            "a hawk"
+          ],
+          "choices": [
+            "A hawk",
+            "An eagle",
+            "An owl",
+            "A falcon"
+          ],
+          "reveal": "The correct answer is a hawk! [chuckles] Giant hawk Maui. Very majestic. Very feathery.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Moana's name means this in several Polynesian languages, fitting for a girl the waves choose.",
+          "answer": "Ocean",
+          "accept": [
+            "ocean",
+            "the ocean",
+            "sea",
+            "the sea"
+          ],
+          "choices": [
+            "Ocean",
+            "Island",
+            "Wave",
+            "Star"
+          ],
+          "reveal": "The correct answer is ocean! [whispers] The ocean chose her. And she was literally named after it. Destiny.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Moana and Maui are attacked by these tiny pirates who wear coconut armor.",
+          "answer": "The Kakamora",
+          "accept": [
+            "kakamora",
+            "the kakamora",
+            "coconut pirates"
+          ],
+          "choices": [
+            "The Kakamora",
+            "The Menehune",
+            "The Tiki",
+            "The Mini Mauis"
+          ],
+          "reveal": "The correct answer is the Kakamora! [laughs] Small, coconutty and SHOCKINGLY organized.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Glittery crab Tamatoa lives in Lalotai, also known as the Realm of these.",
+          "answer": "Monsters",
+          "accept": [
+            "monsters",
+            "the realm of monsters",
+            "monster"
+          ],
+          "choices": [
+            "Monsters",
+            "Ghosts",
+            "Ancestors",
+            "Dragons"
+          ],
+          "reveal": "The correct answer is monsters! [mischievously] Lalotai, the Realm of Monsters. Shiny, but very bad for your health.",
+          "dailyDouble": false
+        }
+      ],
+      "art": {
+        "prompt": "A turquoise Pacific lagoon at dawn: a giant bone fishhook stuck in the sand, a woven sail canoe, a hawk feather and a glowing spiral of green stone on a lava rock. Original painterly storybook illustration, 16:9, cinematic lighting, rich color, no people, no characters, no text, no logos.",
+        "file": "media/mythology-mayhem--maui-wowie.jpg"
+      }
+    },
+    {
+      "id": "zoom-of-the-gods",
+      "title": "Zoom of the Gods",
+      "kind": "media",
+      "format": "zoom",
+      "intro": "Each picture starts zoomed WAY in. [whispers] Buzz in once you know which film these mythic relics come from.",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Zoom out and name the film this relic comes from.",
+          "answer": "Moana",
+          "accept": [
+            "moana"
+          ],
+          "choices": [
+            "Moana",
+            "Lilo & Stitch",
+            "Raya and the Last Dragon",
+            "Brave"
+          ],
+          "reveal": "The correct answer is Moana! [excited] The glowing heart of Te Fiti. Please put it back where you found it.",
+          "media": {
+            "type": "image",
+            "prompt": "Extreme close-up that pulls back to reveal a small glowing green spiral-carved stone resting on black lava rock, turquoise waves and a distant tropical island. Original painterly storybook illustration, 16:9, cinematic lighting, rich color, no people, no characters, no text, no logos.",
+            "file": "media/mythology-mayhem--zoom-of-the-gods-200.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Zoom out and name the film this relic comes from.",
+          "answer": "Hercules",
+          "accept": [
+            "hercules"
+          ],
+          "choices": [
+            "Hercules",
+            "Fantasia",
+            "The Sword in the Stone",
+            "Atlantis: The Lost Empire"
+          ],
+          "reveal": "The correct answer is Hercules! [chuckles] A lightning-bolt medallion. Zeus approves.",
+          "media": {
+            "type": "image",
+            "prompt": "Extreme close-up that pulls back to reveal a gold medallion with a lightning-bolt emblem on a leather cord, lying on a marble pedestal between Greek columns and clouds. Original painterly storybook illustration, 16:9, cinematic lighting, rich color, no people, no characters, no text, no logos.",
+            "file": "media/mythology-mayhem--zoom-of-the-gods-400.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Zoom out and name the film this relic comes from.",
+          "answer": "Raya and the Last Dragon",
+          "accept": [
+            "raya",
+            "raya and the last dragon"
+          ],
+          "choices": [
+            "Raya and the Last Dragon",
+            "Mulan",
+            "Moana",
+            "Encanto"
+          ],
+          "reveal": "The correct answer is Raya and the Last Dragon! [gasps] The dragon gem, broken into pieces. Put it back together and save Kumandra.",
+          "media": {
+            "type": "image",
+            "prompt": "Extreme close-up that pulls back to reveal a glowing blue-violet crystal orb split into five shards on a stone altar in a misty jungle temple carved with water dragons. Original painterly storybook illustration, 16:9, cinematic lighting, rich color, no people, no characters, no text, no logos.",
+            "file": "media/mythology-mayhem--zoom-of-the-gods-600.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Zoom out and name the film this relic comes from.",
+          "answer": "Brother Bear",
+          "accept": [
+            "brother bear"
+          ],
+          "choices": [
+            "Brother Bear",
+            "The Fox and the Hound",
+            "Balto",
+            "Bambi"
+          ],
+          "reveal": "The correct answer is Brother Bear! [whispers] A carved bear totem under the northern lights. The spirits are watching.",
+          "media": {
+            "type": "image",
+            "prompt": "Extreme close-up that pulls back to reveal a small carved stone bear totem on a leather necklace, resting on snow under swirling green northern lights and pine forest. Original painterly storybook illustration, 16:9, cinematic lighting, rich color, no people, no characters, no text, no logos.",
+            "file": "media/mythology-mayhem--zoom-of-the-gods-800.jpg"
+          },
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Zoom out and name the 1985 Disney film this relic comes from.",
+          "answer": "The Black Cauldron",
+          "accept": [
+            "black cauldron",
+            "the black cauldron"
+          ],
+          "choices": [
+            "The Black Cauldron",
+            "The Sword in the Stone",
+            "Sleeping Beauty",
+            "Brave"
+          ],
+          "reveal": "The correct answer is The Black Cauldron! [dramatic pause] Very dark, very spooky, and a TRUE Disney nerd's pick.",
+          "media": {
+            "type": "image",
+            "prompt": "Extreme close-up that pulls back to reveal an ominous black iron cauldron oozing green mist in a ruined stone castle hall, lit by flickering torchlight. Original painterly storybook illustration, 16:9, cinematic lighting, rich color, no people, no characters, no text, no logos.",
+            "file": "media/mythology-mayhem--zoom-of-the-gods-1000.jpg"
+          },
+          "dailyDouble": false
+        }
+      ],
+      "art": {
+        "prompt": "A treasure vault of mythic relics on stone pedestals: glowing gems, a golden amulet, carved totems and an iron cauldron, lit by shafts of mystical light. Original painterly storybook illustration, 16:9, cinematic lighting, rich color, no people, no characters, no text, no logos.",
+        "file": "media/mythology-mayhem--zoom-of-the-gods.jpg"
+      }
+    },
+    {
+      "id": "legends-in-the-parks",
+      "title": "Legends in the Parks",
+      "kind": "parks",
+      "format": "text",
+      "intro": "Myths and legends hide all over the Disney parks. [mischievously] Some of them are even watching you.",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Magic Kingdom's Adventureland lets you fly in a circle on The Magic Carpets of this film.",
+          "answer": "Aladdin",
+          "accept": [
+            "aladdin"
+          ],
+          "choices": [
+            "Aladdin",
+            "Mulan",
+            "Hercules",
+            "Moana"
+          ],
+          "reveal": "The correct answer is Aladdin! [laughs] Watch out for the camel. He spits. On PURPOSE.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Tokyo DisneySea's port themed to Captain Nemo's volcano hideaway is called this.",
+          "answer": "Mysterious Island",
+          "accept": [
+            "mysterious island",
+            "the mysterious island"
+          ],
+          "choices": [
+            "Mysterious Island",
+            "Lost River Delta",
+            "Mermaid Lagoon",
+            "Port Discovery"
+          ],
+          "reveal": "The correct answer is Mysterious Island! [excited] Nemo's secret base inside a rumbling volcano. Peak Imagineering.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Tokyo DisneySea's smoking volcano is named for this Greek Titan who stole fire from the gods.",
+          "answer": "Prometheus",
+          "accept": [
+            "prometheus",
+            "mount prometheus"
+          ],
+          "choices": [
+            "Prometheus",
+            "Atlas",
+            "Kronos",
+            "Hyperion"
+          ],
+          "reveal": "The correct answer is Prometheus! [chuckles] Mount Prometheus even burps fire now and then. Hades would be jealous.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "At Aulani, Disney's Hawaii resort, guests hunt for these legendary little people of Hawaiian folklore.",
+          "answer": "The Menehune",
+          "accept": [
+            "menehune",
+            "the menehune"
+          ],
+          "choices": [
+            "The Menehune",
+            "The Kakamora",
+            "The Nisse",
+            "The Tiki"
+          ],
+          "reveal": "The correct answer is the Menehune! [whispers] Legend says they build at night. Look closely, they're hiding everywhere.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Imagineers and fans call the abominable snowman inside Disneyland's Matterhorn Bobsleds by this human name.",
+          "answer": "Harold",
+          "accept": [
+            "harold"
+          ],
+          "choices": [
+            "Harold",
+            "Gus",
+            "Fred",
+            "Steve"
+          ],
+          "reveal": "The correct answer is Harold! [laughs] A very scary yeti with a VERY friendly name.",
+          "dailyDouble": false
+        }
+      ],
+      "art": {
+        "prompt": "A theme-park lagoon at twilight with a smoking volcano, a sword stuck in an anvil-topped stone, a snowy mountain peak and tiki torches glowing. Original painterly storybook illustration, 16:9, cinematic lighting, rich color, no people, no characters, no text, no logos.",
+        "file": "media/mythology-mayhem--legends-in-the-parks.jpg"
+      }
+    },
+    {
+      "id": "lost-empires",
+      "title": "Lost Empires",
+      "kind": "fan",
+      "format": "text",
+      "intro": "Lost cities, lost dragons, and maybe your lost points. [chuckles] It's Atlantis and Raya time!",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In a 2001 Disney film, Milo's expedition searches for this legendary sunken city.",
+          "answer": "Atlantis",
+          "accept": [
+            "atlantis"
+          ],
+          "choices": [
+            "Atlantis",
+            "El Dorado",
+            "Lemuria",
+            "Shangri-La"
+          ],
+          "reveal": "The correct answer is Atlantis! [excited] It's in the title, folks. Easy points!",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Sisu, the last dragon in Raya and the Last Dragon, is voiced by this actress and rapper.",
+          "answer": "Awkwafina",
+          "accept": [
+            "awkwafina"
+          ],
+          "choices": [
+            "Awkwafina",
+            "Kelly Marie Tran",
+            "Sandra Oh",
+            "Lucy Liu"
+          ],
+          "reveal": "The correct answer is Awkwafina! [laughs] Kelly Marie Tran voices Raya, so close but no dragon.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "In Raya and the Last Dragon, this swirling purple plague turns people to stone.",
+          "answer": "The Druun",
+          "accept": [
+            "druun",
+            "the druun",
+            "druuns"
+          ],
+          "choices": [
+            "The Druun",
+            "The Blight",
+            "The Darkness",
+            "The Nightmares"
+          ],
+          "reveal": "The correct answer is the Druun! [sighs] Purple, sparkly, and absolutely NOT fun.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Milo Thatch needs this ancient book to find Atlantis.",
+          "answer": "The Shepherd's Journal",
+          "accept": [
+            "shepherds journal",
+            "the shepherd's journal",
+            "shepherd's journal",
+            "the journal"
+          ],
+          "choices": [
+            "The Shepherd's Journal",
+            "The Book of Atlantis",
+            "The Explorer's Atlas",
+            "The Codex of Kida"
+          ],
+          "reveal": "The correct answer is the Shepherd's Journal! [mischievously] Only Milo could read it. Good thing he's a nerd.",
+          "dailyDouble": true
+        },
+        {
+          "value": 1000,
+          "clue": "Atlantis's made-up language was created by this linguist, who also built the Klingon language.",
+          "answer": "Marc Okrand",
+          "accept": [
+            "marc okrand",
+            "okrand"
+          ],
+          "choices": [
+            "Marc Okrand",
+            "David J. Peterson",
+            "Paul Frommer",
+            "J. R. R. Tolkien"
+          ],
+          "reveal": "The correct answer is Marc Okrand! [excited] Klingon AND Atlantean. That man's mouth deserves a museum.",
+          "dailyDouble": false
+        }
+      ],
+      "art": {
+        "prompt": "Sunken crystal city ruins glowing blue deep underwater beside a jungle temple of five dragon carvings, an old leather explorer's journal floating in the foreground. Original painterly storybook illustration, 16:9, cinematic lighting, rich color, no people, no characters, no text, no logos.",
+        "file": "media/mythology-mayhem--lost-empires.jpg"
+      }
+    }
+  ]
+}
