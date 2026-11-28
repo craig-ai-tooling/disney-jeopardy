@@ -49,8 +49,8 @@ def icons():
         px = round(48 * k)
         save(icon.resize((px, px), Image.LANCZOS), f"mipmap-{d}", "ic_launcher.png")
         save(circle(inner.resize((px, px), Image.LANCZOS)), f"mipmap-{d}", "ic_launcher_round.png")
-        # Adaptive foreground: 108dp canvas; the launcher shows the middle 72dp, so the art fills 80dp to avoid seams.
-        canvas, art = round(108 * k), round(80 * k)
+        # Adaptive foreground: 108dp canvas; the launcher shows the middle 72dp, so the art fills that 72dp (same crop as the round icon).
+        canvas, art = round(108 * k), round(72 * k)
         fg = Image.new("RGBA", (canvas, canvas), (0, 0, 0, 0))
         off = (canvas - art) // 2
         fg.paste(inner.resize((art, art), Image.LANCZOS), (off, off))
