@@ -1,0 +1,541 @@
+{
+  "id": "mcu-production-files",
+  "title": "MCU Production Files",
+  "theme": "Marvel",
+  "difficulty": "superfan",
+  "tags": [
+    "marvel",
+    "mcu",
+    "behind-the-scenes"
+  ],
+  "intro": "[whispers] Welcome to Disney Jeopardy, and welcome behind the scenes. Tonight we raid the Marvel Studios filing cabinet: casting, crews, props and awards. [chuckles] Stay for the post-credits question.",
+  "art": {
+    "prompt": "A film soundstage at night with a director chair, a clapperboard, cables, a green screen and a silhouette of a camera crane, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+    "file": "media/mcu-production-files.jpg"
+  },
+  "categories": [
+    {
+      "id": "casting-calls",
+      "title": "Casting Calls",
+      "kind": "film",
+      "intro": "Let's go to the casting office. [chuckles] Name the actor, or the role.",
+      "art": {
+        "prompt": "An audition room with a single chair under a spotlight and a folding table covered in headshots, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/mcu-production-files--casting-calls.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "The director of Iron Man also plays Tony's driver, Happy Hogan.",
+          "answer": "Jon Favreau",
+          "accept": [
+            "jon favreau",
+            "favreau"
+          ],
+          "choices": [
+            "Jon Favreau",
+            "Joss Whedon",
+            "Kevin Feige",
+            "James Gunn"
+          ],
+          "reveal": "[excited] The correct answer is Jon Favreau! Director, actor, and head of security.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Before Don Cheadle, this actor played James Rhodes in the first Iron Man.",
+          "answer": "Terrence Howard",
+          "accept": [
+            "terrence howard"
+          ],
+          "choices": [
+            "Terrence Howard",
+            "Anthony Mackie",
+            "Idris Elba",
+            "Djimon Hounsou"
+          ],
+          "reveal": "The correct answer is Terrence Howard! [chuckles] Rhodey's first tour of duty.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Edward Norton played Bruce Banner in this 2008 film.",
+          "answer": "The Incredible Hulk",
+          "accept": [
+            "the incredible hulk",
+            "incredible hulk"
+          ],
+          "choices": [
+            "The Incredible Hulk",
+            "Hulk",
+            "Iron Man",
+            "The Avengers"
+          ],
+          "reveal": "[excited] The correct answer is The Incredible Hulk! The MCU's second movie.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Carol Danvers' Kree mentor Yon-Rogg is played by this actor.",
+          "answer": "Jude Law",
+          "accept": [
+            "jude law"
+          ],
+          "choices": [
+            "Jude Law",
+            "Ben Mendelsohn",
+            "Lee Pace",
+            "Clark Gregg"
+          ],
+          "reveal": "The correct answer is Jude Law! [dramatically] Charming, until he wasn't.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "This actor voiced J.A.R.V.I.S. before playing Vision.",
+          "answer": "Paul Bettany",
+          "accept": [
+            "paul bettany",
+            "bettany"
+          ],
+          "choices": [
+            "Paul Bettany",
+            "James Spader",
+            "Paul Rudd",
+            "Benedict Wong"
+          ],
+          "reveal": "[excited] The correct answer is Paul Bettany! From voice in the walls to cape and forehead stone.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "behind-the-camera",
+      "title": "Behind the Camera",
+      "kind": "film",
+      "intro": "Now the people who call action. [excited] Quiet on set!",
+      "art": {
+        "prompt": "A director viewfinder and headphones resting on a script on a film set crate, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/mcu-production-files--behind-the-camera.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This producer has led Marvel Studios as its president since 2007.",
+          "answer": "Kevin Feige",
+          "accept": [
+            "kevin feige",
+            "feige"
+          ],
+          "choices": [
+            "Kevin Feige",
+            "Louis D'Esposito",
+            "Victoria Alonso",
+            "Ike Perlmutter"
+          ],
+          "reveal": "[excited] The correct answer is Kevin Feige! The man with the master plan and the baseball cap.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "These sibling directors made Winter Soldier, Civil War, Infinity War and Endgame.",
+          "answer": "The Russo brothers",
+          "accept": [
+            "the russo brothers",
+            "russo brothers",
+            "russos",
+            "the russos",
+            "anthony and joe russo",
+            "joe and anthony russo"
+          ],
+          "choices": [
+            "The Russo brothers",
+            "The Duffer brothers",
+            "The Coen brothers",
+            "The Wachowskis"
+          ],
+          "reveal": "The correct answer is the Russo brothers! [excited] Four of the biggest MCU chapters.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "This director of Thor: Ragnarok also voices Korg.",
+          "answer": "Taika Waititi",
+          "accept": [
+            "taika waititi",
+            "waititi"
+          ],
+          "choices": [
+            "Taika Waititi",
+            "James Gunn",
+            "Ryan Coogler",
+            "Jon Watts"
+          ],
+          "reveal": "[laughs] The correct answer is Taika Waititi! He directs, and he's made of rocks.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Eternals was directed by this filmmaker, an Oscar winner for Nomadland.",
+          "answer": "Chloe Zhao",
+          "accept": [
+            "chloe zhao",
+            "chloé zhao",
+            "zhao"
+          ],
+          "choices": [
+            "Chloe Zhao",
+            "Kathryn Bigelow",
+            "Jane Campion",
+            "Nia DaCosta"
+          ],
+          "reveal": "The correct answer is Chloé Zhao! [warmly] Lots of real sunsets in that film.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "This filmmaker directed The Marvels.",
+          "answer": "Nia DaCosta",
+          "accept": [
+            "nia dacosta",
+            "dacosta"
+          ],
+          "choices": [
+            "Nia DaCosta",
+            "Cate Shortland",
+            "Anna Boden",
+            "Chloe Zhao"
+          ],
+          "reveal": "[excited] The correct answer is Nia DaCosta! Three heroes, one very busy director.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "box-office-awards",
+      "title": "Box Office & Awards",
+      "kind": "fan",
+      "intro": "Our fan category: trophies and record books. [chuckles] Chet's acceptance speech is ready, just in case.",
+      "art": {
+        "prompt": "A row of shiny golden trophy statuettes on a velvet shelf under spotlights, no recognizable statues, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/mcu-production-files--box-office-awards.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Black Panther became the first superhero film nominated for this top Oscar.",
+          "answer": "Best Picture",
+          "accept": [
+            "best picture"
+          ],
+          "choices": [
+            "Best Picture",
+            "Best Director",
+            "Best Actor",
+            "Best Visual Effects"
+          ],
+          "reveal": "[excited] The correct answer is Best Picture! History-making, Wakanda style.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Black Panther took home this many Academy Awards.",
+          "answer": "Three",
+          "accept": [
+            "3",
+            "three"
+          ],
+          "choices": [
+            "Three",
+            "One",
+            "Two",
+            "Five"
+          ],
+          "reveal": "The correct answer is three! [excited] Costume design, production design and original score.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Avengers: Endgame's run as the highest-grossing film ever ended when an Avatar re-release passed it in this year.",
+          "answer": "2021",
+          "accept": [
+            "2021"
+          ],
+          "choices": [
+            "2021",
+            "2020",
+            "2022",
+            "2023"
+          ],
+          "reveal": "[chuckles] The correct answer is 2021! Blue aliens beat purple aliens.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "This designer won Oscars for both Black Panther films' costumes, the first Black woman to win two Oscars.",
+          "answer": "Ruth E. Carter",
+          "accept": [
+            "ruth e. carter",
+            "ruth e carter",
+            "ruth carter"
+          ],
+          "choices": [
+            "Ruth E. Carter",
+            "Colleen Atwood",
+            "Sandy Powell",
+            "Jenny Beavan"
+          ],
+          "reveal": "[excited] The correct answer is Ruth E. Carter! Two films, two golden statues.",
+          "dailyDouble": true
+        },
+        {
+          "value": 1000,
+          "clue": "This composer won the Oscar for Black Panther's score.",
+          "answer": "Ludwig Goransson",
+          "accept": [
+            "ludwig goransson",
+            "ludwig göransson",
+            "goransson",
+            "göransson"
+          ],
+          "choices": [
+            "Ludwig Goransson",
+            "Michael Giacchino",
+            "Alan Silvestri",
+            "Brian Tyler"
+          ],
+          "reveal": "The correct answer is Ludwig Göransson! [excited] Talking drums and a full orchestra.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "prop-room",
+      "title": "Prop Room",
+      "kind": "media",
+      "intro": "Picture category! Each image shows a prop inspired by the MCU. Name it, or answer the question.",
+      "art": {
+        "prompt": "A warehouse of labeled prop crates, shelves of mysterious gadgets and a glowing case in the center, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/mcu-production-files--prop-room.jpg"
+      },
+      "format": "picture",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This glowing device keeps Tony Stark's heart going. Name it.",
+          "answer": "Arc reactor",
+          "accept": [
+            "arc reactor",
+            "the arc reactor"
+          ],
+          "choices": [
+            "Arc reactor",
+            "Repulsor",
+            "Tesseract core",
+            "Pym disc"
+          ],
+          "reveal": "[excited] The correct answer is the arc reactor! Proof that Tony Stark has a heart.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "A glowing circular blue-white device with copper coils set into a metal chest plate on a workbench, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
+            "file": "media/mcu-production-files--prop-room-200.jpg"
+          }
+        },
+        {
+          "value": 400,
+          "clue": "These let Scott Lang shrink and grow. Name them.",
+          "answer": "Pym Particles",
+          "accept": [
+            "pym particles",
+            "pym particle"
+          ],
+          "choices": [
+            "Pym Particles",
+            "Terrigen crystals",
+            "Vita-Rays",
+            "Gamma particles"
+          ],
+          "reveal": "The correct answer is Pym Particles! [laughs] Do not drink the vial.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "A small glass laboratory vial filled with glowing red swirling particles on a steel lab table, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
+            "file": "media/mcu-production-files--prop-room-400.jpg"
+          }
+        },
+        {
+          "value": 600,
+          "clue": "Drinking from this glowing plant grants the power of the Black Panther. Name it.",
+          "answer": "Heart-Shaped Herb",
+          "accept": [
+            "heart-shaped herb",
+            "heart shaped herb",
+            "the heart-shaped herb"
+          ],
+          "choices": [
+            "Heart-Shaped Herb",
+            "Lotus of Bast",
+            "Vibranium Bloom",
+            "Moonflower"
+          ],
+          "reveal": "[warmly] The correct answer is the Heart-Shaped Herb! Grown in vibranium-rich soil.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "A glowing purple heart-shaped flower growing in a dark underground cave garden, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
+            "file": "media/mcu-production-files--prop-room-600.jpg"
+          }
+        },
+        {
+          "value": 800,
+          "clue": "Steve Rogers kept a photo of this woman inside a compass like this one.",
+          "answer": "Peggy Carter",
+          "accept": [
+            "peggy carter",
+            "peggy",
+            "agent carter"
+          ],
+          "choices": [
+            "Peggy Carter",
+            "Sharon Carter",
+            "Natasha Romanoff",
+            "Maria Hill"
+          ],
+          "reveal": "[softly] The correct answer is Peggy Carter. He finally got that dance.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "A vintage open brass pocket compass with a tiny faded black and white photo tucked inside the lid, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
+            "file": "media/mcu-production-files--prop-room-800.jpg"
+          }
+        },
+        {
+          "value": 1000,
+          "clue": "Sorcerers slip this onto their fingers to open spinning portals. Name it.",
+          "answer": "Sling ring",
+          "accept": [
+            "sling ring",
+            "a sling ring",
+            "the sling ring"
+          ],
+          "choices": [
+            "Sling ring",
+            "Eye of Agamotto",
+            "Ten Rings",
+            "Wand of Watoomb"
+          ],
+          "reveal": "The correct answer is a sling ring! [chuckles] Don't lose it in Antarctica.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "A golden double finger ring with an ornate loop, a crackling circle of orange sparks forming in the air beside it, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
+            "file": "media/mcu-production-files--prop-room-1000.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "location-scouting",
+      "title": "Location Scouting",
+      "kind": "fan",
+      "intro": "We scout filming locations from Georgia to the Himalayas. [excited] Passports out.",
+      "art": {
+        "prompt": "A location scout map table covered with photos of mountains, cities and deserts and a pair of binoculars, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/mcu-production-files--location-scouting.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Many MCU films have been shot at this Atlanta-area studio, formerly called Pinewood Atlanta.",
+          "answer": "Trilith Studios",
+          "accept": [
+            "trilith",
+            "trilith studios",
+            "pinewood atlanta",
+            "pinewood atlanta studios"
+          ],
+          "choices": [
+            "Trilith Studios",
+            "Shepperton Studios",
+            "Fox Studios Australia",
+            "Leavesden Studios"
+          ],
+          "reveal": "[excited] The correct answer is Trilith Studios! Hollywood of the South.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Thor: Ragnarok and Thor: Love and Thunder were both filmed in this country.",
+          "answer": "Australia",
+          "accept": [
+            "australia"
+          ],
+          "choices": [
+            "Australia",
+            "New Zealand",
+            "Iceland",
+            "Ireland"
+          ],
+          "reveal": "The correct answer is Australia! [chuckles] Asgard has very nice beaches.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Age of Ultron's Sokovia scenes were filmed partly in this Italian alpine region.",
+          "answer": "Aosta Valley",
+          "accept": [
+            "aosta valley",
+            "aosta",
+            "valle d aosta",
+            "valle d'aosta"
+          ],
+          "choices": [
+            "Aosta Valley",
+            "Tuscany",
+            "Lombardy",
+            "Sicily"
+          ],
+          "reveal": "[excited] The correct answer is the Aosta Valley! Lovely mountains, briefly airborne.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Civil War's German airport battle was largely filmed at the airport of this U.S. city.",
+          "answer": "Atlanta",
+          "accept": [
+            "atlanta"
+          ],
+          "choices": [
+            "Atlanta",
+            "Chicago",
+            "Dallas",
+            "Denver"
+          ],
+          "reveal": "The correct answer is Atlanta! [laughs] Giant-Man did not have a boarding pass.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Doctor Strange's Kamar-Taj street scenes were filmed in this Nepalese city.",
+          "answer": "Kathmandu",
+          "accept": [
+            "kathmandu"
+          ],
+          "choices": [
+            "Kathmandu",
+            "Lhasa",
+            "Thimphu",
+            "Pokhara"
+          ],
+          "reveal": "[excited] The correct answer is Kathmandu! Ancient streets, mystic arts.",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}

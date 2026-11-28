@@ -1,0 +1,537 @@
+{
+  "id": "cosmic-marvel",
+  "title": "Cosmic Marvel",
+  "theme": "Marvel",
+  "difficulty": "hard",
+  "tags": [
+    "marvel",
+    "cosmic",
+    "comics"
+  ],
+  "intro": "[dramatically] Welcome to Disney Jeopardy, where tonight we leave Earth behind! Gods, Celestials, heralds and pilots from beyond the stars. [chuckles] Chet has packed snacks for the whole trip.",
+  "art": {
+    "prompt": "A vast cosmic vista with a rainbow nebula, a ringed planet, a distant golden city floating in space and streaks of starlight, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+    "file": "media/cosmic-marvel.jpg"
+  },
+  "categories": [
+    {
+      "id": "god-of-thunder",
+      "title": "God of Thunder",
+      "kind": "film",
+      "intro": "We begin with the Asgardian prince himself. [excited] Bring me the questions!",
+      "art": {
+        "prompt": "A golden city of spires floating among clouds with a shimmering bridge of color leading to it, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/cosmic-marvel--god-of-thunder.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This shimmering rainbow bridge links Asgard to other realms.",
+          "answer": "Bifrost",
+          "accept": [
+            "bifrost",
+            "the bifrost",
+            "bifrost bridge"
+          ],
+          "choices": [
+            "Bifrost",
+            "Yggdrasil",
+            "Valhalla",
+            "Rainbow Road"
+          ],
+          "reveal": "[excited] The correct answer is the Bifrost! Mind the gap.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "This all-seeing guardian watches over Asgard's gate.",
+          "answer": "Heimdall",
+          "accept": [
+            "heimdall"
+          ],
+          "choices": [
+            "Heimdall",
+            "Volstagg",
+            "Hogun",
+            "Fandral"
+          ],
+          "reveal": "The correct answer is Heimdall! [whispers] He's watching. Always watching.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "In Thor: Ragnarok, this gentle rock-bodied gladiator leads a revolution.",
+          "answer": "Korg",
+          "accept": [
+            "korg"
+          ],
+          "choices": [
+            "Korg",
+            "Miek",
+            "Topaz",
+            "Valkyrie"
+          ],
+          "reveal": "[laughs] The correct answer is Korg! Made of rocks, but don't let that intimidate you.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In Thor: Love and Thunder, this villain swears to slay every god.",
+          "answer": "Gorr the God Butcher",
+          "accept": [
+            "gorr",
+            "gorr the god butcher"
+          ],
+          "choices": [
+            "Gorr the God Butcher",
+            "Malekith",
+            "Kurse",
+            "Surtur"
+          ],
+          "reveal": "[dramatically] The correct answer is Gorr the God Butcher! Very serious, very pale.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "This giant fire demon brings Ragnarok to Asgard.",
+          "answer": "Surtur",
+          "accept": [
+            "surtur"
+          ],
+          "choices": [
+            "Surtur",
+            "Ymir",
+            "Laufey",
+            "Fenris"
+          ],
+          "reveal": "The correct answer is Surtur! [dramatically] He really brought the heat.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "higher-further-faster",
+      "title": "Higher, Further, Faster",
+      "kind": "film",
+      "intro": "Now the most powerful Avenger, according to her. [chuckles] Fasten your seatbelts.",
+      "art": {
+        "prompt": "A 1990s fighter jet streaking through a sunset sky leaving a glowing golden trail, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/cosmic-marvel--higher-further-faster.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Before her powers, Carol Danvers was a pilot in this U.S. military branch.",
+          "answer": "Air Force",
+          "accept": [
+            "air force",
+            "us air force",
+            "u.s. air force",
+            "usaf",
+            "the air force"
+          ],
+          "choices": [
+            "Air Force",
+            "Navy",
+            "Army",
+            "Marines"
+          ],
+          "reveal": "[excited] The correct answer is the Air Force! Call sign Avenger, by the way.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Carol was trained as a soldier by this blue-blooded alien empire.",
+          "answer": "Kree",
+          "accept": [
+            "kree",
+            "the kree",
+            "kree empire"
+          ],
+          "choices": [
+            "Kree",
+            "Skrulls",
+            "Shi'ar",
+            "Chitauri"
+          ],
+          "reveal": "The correct answer is the Kree! [dramatically] Turns out they were not the good guys.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "This shape-shifting Skrull general becomes Carol's unexpected ally.",
+          "answer": "Talos",
+          "accept": [
+            "talos"
+          ],
+          "choices": [
+            "Talos",
+            "Ronan",
+            "Korath",
+            "Yon-Rogg"
+          ],
+          "reveal": "[excited] The correct answer is Talos! The friendliest Skrull in the galaxy.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Carol's best friend and fellow pilot is this woman, Monica's mother.",
+          "answer": "Maria Rambeau",
+          "accept": [
+            "maria rambeau",
+            "maria"
+          ],
+          "choices": [
+            "Maria Rambeau",
+            "Wendy Lawson",
+            "Minn-Erva",
+            "Sharon Carter"
+          ],
+          "reveal": "[warmly] The correct answer is Maria Rambeau! Lieutenant Trouble's mom.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Captain Marvel takes place in this decade, complete with dial-up internet.",
+          "answer": "1990s",
+          "accept": [
+            "1990s",
+            "90s",
+            "the 90s",
+            "the 1990s",
+            "1995",
+            "nineties"
+          ],
+          "choices": [
+            "1990s",
+            "1970s",
+            "1980s",
+            "2000s"
+          ],
+          "reveal": "The correct answer is the 1990s! [laughs] She crashed through a video rental store.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "eternal-questions",
+      "title": "Eternal Questions",
+      "kind": "theme",
+      "intro": "Cosmic beings and heralds from the far reaches. [whispers] Speak softly, they're very large.",
+      "art": {
+        "prompt": "An ancient triangular spaceship hovering silently over a desert at dawn, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/cosmic-marvel--eternal-questions.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "The Eternals were created by these colossal space beings.",
+          "answer": "Celestials",
+          "accept": [
+            "celestials",
+            "the celestials"
+          ],
+          "choices": [
+            "Celestials",
+            "Watchers",
+            "Elders of the Universe",
+            "Kree"
+          ],
+          "reveal": "[dramatically] The correct answer is the Celestials! Big, ancient, and hard to impress.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "The Eternals battle these monstrous predators, also made by the Celestials.",
+          "answer": "Deviants",
+          "accept": [
+            "deviants",
+            "the deviants"
+          ],
+          "choices": [
+            "Deviants",
+            "Skrulls",
+            "Chitauri",
+            "Brood"
+          ],
+          "reveal": "The correct answer is the Deviants! [shivers] Many teeth.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "The Silver Surfer's real name is this.",
+          "answer": "Norrin Radd",
+          "accept": [
+            "norrin radd",
+            "norrin"
+          ],
+          "choices": [
+            "Norrin Radd",
+            "Shalla-Bal",
+            "Jack of Hearts",
+            "Richard Rider"
+          ],
+          "reveal": "[excited] The correct answer is Norrin Radd! He traded his planet's safety for a cosmic surfboard.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In The Fantastic Four: First Steps, the Silver Surfer is this herald of Galactus.",
+          "answer": "Shalla-Bal",
+          "accept": [
+            "shalla-bal",
+            "shalla bal",
+            "shallabal"
+          ],
+          "choices": [
+            "Shalla-Bal",
+            "Firelord",
+            "Terrax",
+            "Frankie Raye"
+          ],
+          "reveal": "The correct answer is Shalla-Bal! [excited] A new spin on a cosmic classic.",
+          "dailyDouble": true
+        },
+        {
+          "value": 1000,
+          "clue": "The Fantastic Four: First Steps takes place on Earth number this.",
+          "answer": "828",
+          "accept": [
+            "828",
+            "earth-828",
+            "earth 828"
+          ],
+          "choices": [
+            "828",
+            "616",
+            "838",
+            "199999"
+          ],
+          "reveal": "[excited] The correct answer is Earth-828! A retro-future world all its own.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "cosmic-picture-show",
+      "title": "Cosmic Picture Show",
+      "kind": "media",
+      "intro": "Picture category! Look at the cosmic scene and tell me what I'm asking for.",
+      "art": {
+        "prompt": "An observatory dome open to a starry sky, a giant telescope aimed at a glowing nebula, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/cosmic-marvel--cosmic-picture-show.jpg"
+      },
+      "format": "picture",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Whose ride through the cosmos is this?",
+          "answer": "Silver Surfer",
+          "accept": [
+            "silver surfer",
+            "the silver surfer",
+            "norrin radd"
+          ],
+          "choices": [
+            "Silver Surfer",
+            "Nova",
+            "Quasar",
+            "Human Torch"
+          ],
+          "reveal": "[excited] The correct answer is the Silver Surfer! Hang ten, cosmically.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "A gleaming chrome surfboard soaring alone through a starfield, leaving a silvery streak of light, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
+            "file": "media/cosmic-marvel--cosmic-picture-show-200.jpg"
+          }
+        },
+        {
+          "value": 400,
+          "clue": "These intergalactic officers protect Xandar. Name them.",
+          "answer": "Nova Corps",
+          "accept": [
+            "nova corps",
+            "the nova corps"
+          ],
+          "choices": [
+            "Nova Corps",
+            "Kree Starforce",
+            "Ravagers",
+            "Shi'ar Imperial Guard"
+          ],
+          "reveal": "The correct answer is the Nova Corps! [excited] Their ships hold hands, like a big shiny net.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "A fleet of small golden starfighters linking together into a glowing net over a futuristic city at night, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
+            "file": "media/cosmic-marvel--cosmic-picture-show-400.jpg"
+          }
+        },
+        {
+          "value": 600,
+          "clue": "Dwarves forge legendary weapons around a dying star here. Name it.",
+          "answer": "Nidavellir",
+          "accept": [
+            "nidavellir"
+          ],
+          "choices": [
+            "Nidavellir",
+            "Muspelheim",
+            "Vanaheim",
+            "Sakaar"
+          ],
+          "reveal": "[dramatically] The correct answer is Nidavellir! The forge that made Stormbreaker.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "An enormous metal ring forge wrapped around a dim dying star in deep space, molten sparks flying, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
+            "file": "media/cosmic-marvel--cosmic-picture-show-600.jpg"
+          }
+        },
+        {
+          "value": 800,
+          "clue": "Who is this world-devouring giant?",
+          "answer": "Galactus",
+          "accept": [
+            "galactus"
+          ],
+          "choices": [
+            "Galactus",
+            "Ego",
+            "Thanos",
+            "Knull"
+          ],
+          "reveal": "The correct answer is Galactus! [chuckles] He never orders a side salad.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "A colossal armored cosmic giant wearing a tall purple helmet, looming over a tiny blue planet, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
+            "file": "media/cosmic-marvel--cosmic-picture-show-800.jpg"
+          }
+        },
+        {
+          "value": 1000,
+          "clue": "This golden being emerges from here in Guardians Vol. 3. Name him.",
+          "answer": "Adam Warlock",
+          "accept": [
+            "adam warlock",
+            "adam"
+          ],
+          "choices": [
+            "Adam Warlock",
+            "Nova",
+            "Quasar",
+            "Ego"
+          ],
+          "reveal": "[excited] The correct answer is Adam Warlock! The Sovereign's golden boy.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "A glowing golden cocoon floating in a dark chamber, cracks of bright light shining out of it, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
+            "file": "media/cosmic-marvel--cosmic-picture-show-1000.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cosmic-fan-facts",
+      "title": "Cosmic Fan Facts",
+      "kind": "fan",
+      "intro": "Our fan category: where these cosmic legends came from on the comics page. [whispers] Mind the fine print.",
+      "art": {
+        "prompt": "A vintage comic artist drafting table with pencils, inks and a cosmic sketch, no readable text, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/cosmic-marvel--cosmic-fan-facts.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Stan Lee and Jack Kirby launched the Fantastic Four in this year.",
+          "answer": "1961",
+          "accept": [
+            "1961"
+          ],
+          "choices": [
+            "1961",
+            "1959",
+            "1963",
+            "1966"
+          ],
+          "reveal": "[excited] The correct answer is 1961! The family that started the Marvel Age.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "This rocky Fantastic Four member yells it's clobberin' time.",
+          "answer": "The Thing",
+          "accept": [
+            "the thing",
+            "thing",
+            "ben grimm"
+          ],
+          "choices": [
+            "The Thing",
+            "Human Torch",
+            "Mister Fantastic",
+            "Invisible Woman"
+          ],
+          "reveal": "The correct answer is the Thing! [laughs] Ever-lovin' blue-eyed Thing.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "This writer-artist created Thanos, who debuted in 1973.",
+          "answer": "Jim Starlin",
+          "accept": [
+            "jim starlin",
+            "starlin"
+          ],
+          "choices": [
+            "Jim Starlin",
+            "Jack Kirby",
+            "John Byrne",
+            "George Perez"
+          ],
+          "reveal": "[excited] The correct answer is Jim Starlin! The Mad Titan's mad creator.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Thor first appeared in 1962 in this anthology comic.",
+          "answer": "Journey into Mystery",
+          "accept": [
+            "journey into mystery"
+          ],
+          "choices": [
+            "Journey into Mystery",
+            "Tales of Suspense",
+            "Strange Tales",
+            "Tales to Astonish"
+          ],
+          "reveal": "The correct answer is Journey into Mystery! [excited] Issue 83, to be precise.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Carol Danvers officially took the title Captain Marvel in the comics in this year.",
+          "answer": "2012",
+          "accept": [
+            "2012"
+          ],
+          "choices": [
+            "2012",
+            "1977",
+            "1968",
+            "2019"
+          ],
+          "reveal": "[excited] The correct answer is 2012! She'd been Ms. Marvel since 1977.",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}

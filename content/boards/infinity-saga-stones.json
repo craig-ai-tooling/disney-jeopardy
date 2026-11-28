@@ -1,0 +1,537 @@
+{
+  "id": "infinity-saga-stones",
+  "title": "The Infinity Saga",
+  "theme": "Marvel",
+  "difficulty": "medium",
+  "tags": [
+    "marvel",
+    "superheroes",
+    "mcu"
+  ],
+  "intro": "[excited] Welcome to Disney Jeopardy! Tonight we collect six stones, survive one snap, and travel through twenty-three movies. [dramatically] Fate, it seems, is not without a sense of irony.",
+  "art": {
+    "prompt": "Six glowing colored gemstones orbiting a purple planet in deep space, golden stardust swirling around them, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+    "file": "media/infinity-saga-stones.jpg"
+  },
+  "categories": [
+    {
+      "id": "stone-cold",
+      "title": "Stone Cold",
+      "kind": "theme",
+      "intro": "Six little rocks, one very big problem. Name the Infinity Stone for each clue. [chuckles] Snap to it.",
+      "art": {
+        "prompt": "A velvet-lined treasure case holding six empty glowing slots under museum lights, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/infinity-saga-stones--stone-cold.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "The glowing blue Tesseract was hiding this Infinity Stone.",
+          "answer": "Space Stone",
+          "accept": [
+            "space stone",
+            "space"
+          ],
+          "choices": [
+            "Space Stone",
+            "Mind Stone",
+            "Power Stone",
+            "Reality Stone"
+          ],
+          "reveal": "[excited] The correct answer is the Space Stone! Blue cube, big trouble.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Vision's life is powered by this stone set in his forehead.",
+          "answer": "Mind Stone",
+          "accept": [
+            "mind stone",
+            "mind"
+          ],
+          "choices": [
+            "Mind Stone",
+            "Soul Stone",
+            "Time Stone",
+            "Space Stone"
+          ],
+          "reveal": "The correct answer is the Mind Stone! [warmly] A synthezoid with a heart of gold. Well, yellow.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Doctor Strange keeps this stone inside the Eye of Agamotto.",
+          "answer": "Time Stone",
+          "accept": [
+            "time stone",
+            "time"
+          ],
+          "choices": [
+            "Time Stone",
+            "Reality Stone",
+            "Soul Stone",
+            "Power Stone"
+          ],
+          "reveal": "[excited] The correct answer is the Time Stone! Dormammu, I've come to bargain.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In Thor: The Dark World, the swirling Aether turns out to be this stone.",
+          "answer": "Reality Stone",
+          "accept": [
+            "reality stone",
+            "reality"
+          ],
+          "choices": [
+            "Reality Stone",
+            "Power Stone",
+            "Mind Stone",
+            "Space Stone"
+          ],
+          "reveal": "The correct answer is the Reality Stone! [dramatically] Red, gooey and very bad for Jane.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Thanos claims the Soul Stone on this grim planet, at a terrible cost.",
+          "answer": "Vormir",
+          "accept": [
+            "vormir"
+          ],
+          "choices": [
+            "Vormir",
+            "Morag",
+            "Titan",
+            "Xandar"
+          ],
+          "reveal": "[softly] The correct answer is Vormir. A soul for a soul. Chet needs a moment.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "phase-one-derful",
+      "title": "Phase One-derful",
+      "kind": "film",
+      "intro": "Way back to Phase One, when the Avengers were just getting started. [chuckles] Simpler times.",
+      "art": {
+        "prompt": "A dusty top-secret filing cabinet drawer full of folders stamped with an eagle silhouette, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/infinity-saga-stones--phase-one-derful.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In Captain America: The First Avenger, Steve battles this crimson-faced HYDRA leader.",
+          "answer": "Red Skull",
+          "accept": [
+            "red skull",
+            "the red skull",
+            "johann schmidt"
+          ],
+          "choices": [
+            "Red Skull",
+            "Baron Zemo",
+            "Arnim Zola",
+            "Crossbones"
+          ],
+          "reveal": "[dramatically] The correct answer is the Red Skull! Not a skincare success story.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Tony Stark's loyal assistant, who later runs his company, is this woman.",
+          "answer": "Pepper Potts",
+          "accept": [
+            "pepper potts",
+            "pepper",
+            "virginia potts"
+          ],
+          "choices": [
+            "Pepper Potts",
+            "Maria Hill",
+            "Sharon Carter",
+            "Christine Everhart"
+          ],
+          "reveal": "The correct answer is Pepper Potts! [excited] The real boss of Stark Industries.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "In The Incredible Hulk, soldier Emil Blonsky transforms into this monster.",
+          "answer": "Abomination",
+          "accept": [
+            "abomination",
+            "the abomination",
+            "emil blonsky"
+          ],
+          "choices": [
+            "Abomination",
+            "The Leader",
+            "Wendigo",
+            "Absorbing Man"
+          ],
+          "reveal": "[excited] The correct answer is the Abomination! He comes back years later in She-Hulk, very calm.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In the first Thor movie, the banished god crash-lands in this U.S. state.",
+          "answer": "New Mexico",
+          "accept": [
+            "new mexico"
+          ],
+          "choices": [
+            "New Mexico",
+            "Arizona",
+            "Nevada",
+            "Texas"
+          ],
+          "reveal": "The correct answer is New Mexico! [laughs] He walked into a pet store asking for a horse.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Agent Coulson, the S.H.I.E.L.D. agent who connected Phase One, has this first name.",
+          "answer": "Phil",
+          "accept": [
+            "phil",
+            "phillip",
+            "phil coulson",
+            "phillip coulson"
+          ],
+          "choices": [
+            "Phil",
+            "Clint",
+            "Jasper",
+            "Grant"
+          ],
+          "reveal": "[warmly] The correct answer is Phil! Agent Coulson, collector of vintage trading cards.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "infinity-war-room",
+      "title": "Infinity War Room",
+      "kind": "film",
+      "intro": "Now the big two: Infinity War and Endgame. [dramatically] Whatever it takes.",
+      "art": {
+        "prompt": "A war room table with a glowing holographic map of the galaxy and empty chairs around it, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/infinity-saga-stones--infinity-war-room.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Thanos comes from this ruined moon-sized world.",
+          "answer": "Titan",
+          "accept": [
+            "titan"
+          ],
+          "choices": [
+            "Titan",
+            "Xandar",
+            "Sakaar",
+            "Vormir"
+          ],
+          "reveal": "[dramatically] The correct answer is Titan! Lovely place, if you like rubble.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "In Avengers: Endgame, the heroes travel through time by way of this tiny realm.",
+          "answer": "Quantum Realm",
+          "accept": [
+            "quantum realm",
+            "the quantum realm"
+          ],
+          "choices": [
+            "Quantum Realm",
+            "Dark Dimension",
+            "Mirror Dimension",
+            "Negative Zone"
+          ],
+          "reveal": "[excited] The correct answer is the Quantum Realm! A sandwich van saved the universe.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Thor forges this new axe at Nidavellir in Infinity War.",
+          "answer": "Stormbreaker",
+          "accept": [
+            "stormbreaker",
+            "storm breaker"
+          ],
+          "choices": [
+            "Stormbreaker",
+            "Jarnbjorn",
+            "Gungnir",
+            "Mjolnir"
+          ],
+          "reveal": "The correct answer is Stormbreaker! [excited] Bring me Thanos!",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Thanos' fearsome adopted children are known by this group name.",
+          "answer": "The Black Order",
+          "accept": [
+            "black order",
+            "the black order",
+            "children of thanos"
+          ],
+          "choices": [
+            "The Black Order",
+            "The Dark Elves",
+            "The Chitauri",
+            "The Ravagers"
+          ],
+          "reveal": "[dramatically] The correct answer is the Black Order! Terrible family reunions.",
+          "dailyDouble": true
+        },
+        {
+          "value": 1000,
+          "clue": "This many years pass between the Snap and the Avengers' time heist in Endgame.",
+          "answer": "Five",
+          "accept": [
+            "5",
+            "five",
+            "five years"
+          ],
+          "choices": [
+            "Five",
+            "Two",
+            "Ten",
+            "One"
+          ],
+          "reveal": "The correct answer is five years! [chuckles] Long enough for Scott to miss a lot.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "gem-gallery",
+      "title": "Gem Gallery",
+      "kind": "media",
+      "intro": "Picture category! Each image shows a famous object from the Infinity Saga. Tell me what I'm asking for.",
+      "art": {
+        "prompt": "A dim museum vault with glass display cases on pedestals, each case glowing a different color, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/infinity-saga-stones--gem-gallery.jpg"
+      },
+      "format": "picture",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This glowing object carries the Space Stone. Name it.",
+          "answer": "Tesseract",
+          "accept": [
+            "tesseract",
+            "the tesseract",
+            "cosmic cube"
+          ],
+          "choices": [
+            "Tesseract",
+            "The Orb",
+            "The Aether",
+            "Casket of Ancient Winters"
+          ],
+          "reveal": "[excited] The correct answer is the Tesseract! Handle with oven mitts.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "A glowing translucent blue cube crackling with energy, floating above a metal laboratory pedestal, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
+            "file": "media/infinity-saga-stones--gem-gallery-200.jpg"
+          }
+        },
+        {
+          "value": 400,
+          "clue": "Which trickster swung this staff in The Avengers?",
+          "answer": "Loki",
+          "accept": [
+            "loki",
+            "loki laufeyson"
+          ],
+          "choices": [
+            "Loki",
+            "Thanos",
+            "Ultron",
+            "Ronan"
+          ],
+          "reveal": "The correct answer is Loki! [dramatically] Kneel before him. Or don't.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "An ornate golden scepter with a curved blade and a glowing blue gem at its tip, lying on a marble floor, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
+            "file": "media/infinity-saga-stones--gem-gallery-400.jpg"
+          }
+        },
+        {
+          "value": 600,
+          "clue": "Name this mystical amulet.",
+          "answer": "Eye of Agamotto",
+          "accept": [
+            "eye of agamotto",
+            "the eye of agamotto",
+            "agamotto"
+          ],
+          "choices": [
+            "Eye of Agamotto",
+            "Darkhold",
+            "Wand of Watoomb",
+            "Casket of Ancient Winters"
+          ],
+          "reveal": "[excited] The correct answer is the Eye of Agamotto! It holds the Time Stone and looks fabulous.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "A heavy golden eye-shaped amulet on a chain, glowing green from within, resting on an old spellbook, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
+            "file": "media/infinity-saga-stones--gem-gallery-600.jpg"
+          }
+        },
+        {
+          "value": 800,
+          "clue": "Star-Lord swipes this metal sphere in Guardians of the Galaxy. Which Infinity Stone hides inside?",
+          "answer": "Power Stone",
+          "accept": [
+            "power stone",
+            "power"
+          ],
+          "choices": [
+            "Power Stone",
+            "Soul Stone",
+            "Reality Stone",
+            "Mind Stone"
+          ],
+          "reveal": "The correct answer is the Power Stone! [laughs] And he danced the whole time.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "A battered silver metal orb about the size of a softball, sitting in a dusty alien temple with a beam of light on it, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
+            "file": "media/infinity-saga-stones--gem-gallery-800.jpg"
+          }
+        },
+        {
+          "value": 1000,
+          "clue": "This swirling crimson substance from Thor: The Dark World is called this.",
+          "answer": "Aether",
+          "accept": [
+            "aether",
+            "the aether"
+          ],
+          "choices": [
+            "Aether",
+            "Darkforce",
+            "Uru",
+            "Bifrost"
+          ],
+          "reveal": "[dramatically] The correct answer is the Aether! Dark Elves, darker plot.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "Swirling dark red liquid smoke twisting through the air inside an ancient stone chamber, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
+            "file": "media/infinity-saga-stones--gem-gallery-1000.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "quantum-vacation",
+      "title": "Quantum Vacation",
+      "kind": "parks",
+      "intro": "To the parks and the high seas! These Infinity Saga heroes are ready for vacation. [excited] Sunscreen and shields.",
+      "art": {
+        "prompt": "A sleek cruise ship sailing at sunset past a glowing hero-themed theme park skyline, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/infinity-saga-stones--quantum-vacation.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Doctor Strange performs mystic arts at this temple-like spot in Avengers Campus.",
+          "answer": "Ancient Sanctum",
+          "accept": [
+            "ancient sanctum",
+            "the ancient sanctum"
+          ],
+          "choices": [
+            "Ancient Sanctum",
+            "Kamar-Taj",
+            "Mirror Dimension",
+            "Tower of Mystics"
+          ],
+          "reveal": "[excited] The correct answer is the Ancient Sanctum! Sparks, spells and a touch of drama.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "The queue for EPCOT's Cosmic Rewind is a gallery celebrating this planet, home of the Nova Corps.",
+          "answer": "Xandar",
+          "accept": [
+            "xandar"
+          ],
+          "choices": [
+            "Xandar",
+            "Knowhere",
+            "Ego",
+            "Sakaar"
+          ],
+          "reveal": "The correct answer is Xandar! [excited] The Wonders of Xandar pavilion, very educational.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Avengers Campus opened at Disney California Adventure in this year.",
+          "answer": "2021",
+          "accept": [
+            "2021"
+          ],
+          "choices": [
+            "2021",
+            "2019",
+            "2020",
+            "2023"
+          ],
+          "reveal": "[excited] The correct answer is 2021! Recruits finally reported for duty.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "This Marvel-themed restaurant on the Disney Wish lets diners join a hero mission.",
+          "answer": "Worlds of Marvel",
+          "accept": [
+            "worlds of marvel"
+          ],
+          "choices": [
+            "Worlds of Marvel",
+            "Avengers Feast",
+            "Stark Supper Club",
+            "Quantum Cafe"
+          ],
+          "reveal": "The correct answer is Worlds of Marvel! [chuckles] Dinner and a battle.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "At Worlds of Marvel, the dinner show is called Avengers: this Encounter.",
+          "answer": "Quantum",
+          "accept": [
+            "quantum",
+            "quantum encounter",
+            "avengers quantum encounter"
+          ],
+          "choices": [
+            "Quantum",
+            "Cosmic",
+            "Infinity",
+            "Multiverse"
+          ],
+          "reveal": "[excited] The correct answer is Quantum Encounter! Ant-Man shrinks, the dessert doesn't.",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}

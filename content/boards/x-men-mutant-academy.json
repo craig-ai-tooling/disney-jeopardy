@@ -1,0 +1,540 @@
+{
+  "id": "x-men-mutant-academy",
+  "title": "Xavier's School for Gifted Players",
+  "theme": "Marvel",
+  "difficulty": "medium",
+  "tags": [
+    "marvel",
+    "x-men",
+    "superheroes"
+  ],
+  "intro": "[excited] Welcome to Disney Jeopardy and to the finest mutant academy in Westchester! Tonight the X-Men come home to Disney. [chuckles] Class is in session, and yes, the Danger Room is open.",
+  "art": {
+    "prompt": "A grand old stone mansion on a green estate at dusk, a hidden hangar door opening on the lawn and a sleek jet rising, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+    "file": "media/x-men-mutant-academy.jpg"
+  },
+  "categories": [
+    {
+      "id": "code-names",
+      "title": "Code Names",
+      "kind": "theme",
+      "intro": "I'll give you the real name, you give me the mutant code name. [whispers] Your secret is safe with me.",
+      "art": {
+        "prompt": "A school corridor lined with lockers, each locker door marked with a different glowing symbol, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/x-men-mutant-academy--code-names.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Logan, a scrappy mutant with retractable claws, goes by this name.",
+          "answer": "Wolverine",
+          "accept": [
+            "wolverine",
+            "logan"
+          ],
+          "choices": [
+            "Wolverine",
+            "Sabretooth",
+            "Daken",
+            "X-23"
+          ],
+          "reveal": "[excited] The correct answer is Wolverine! Best at what he does, bub.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Ororo Munroe, who commands the weather, is this X-Man.",
+          "answer": "Storm",
+          "accept": [
+            "storm",
+            "ororo munroe"
+          ],
+          "choices": [
+            "Storm",
+            "Rogue",
+            "Jubilee",
+            "Psylocke"
+          ],
+          "reveal": "The correct answer is Storm! [dramatically] Bring an umbrella.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Scott Summers fires blasts from his eyes as this team leader.",
+          "answer": "Cyclops",
+          "accept": [
+            "cyclops",
+            "scott summers"
+          ],
+          "choices": [
+            "Cyclops",
+            "Havok",
+            "Cable",
+            "Iceman"
+          ],
+          "reveal": "[excited] The correct answer is Cyclops! Ruby glasses, serious attitude.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Kurt Wagner, a blue teleporter with a tail, is this mutant.",
+          "answer": "Nightcrawler",
+          "accept": [
+            "nightcrawler",
+            "kurt wagner"
+          ],
+          "choices": [
+            "Nightcrawler",
+            "Azazel",
+            "Blink",
+            "Shadowcat"
+          ],
+          "reveal": "The correct answer is Nightcrawler! [chuckles] Bamf! There he goes.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Jean Grey becomes the host of this cosmic fiery force.",
+          "answer": "Phoenix",
+          "accept": [
+            "phoenix",
+            "the phoenix",
+            "dark phoenix",
+            "phoenix force"
+          ],
+          "choices": [
+            "Phoenix",
+            "Firestar",
+            "Magik",
+            "Polaris"
+          ],
+          "reveal": "[dramatically] The correct answer is the Phoenix! It always comes back. Always.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "danger-room",
+      "title": "Danger Room",
+      "kind": "theme",
+      "intro": "Training time! These clues are about the school, the powers and the threats. [excited] Safety goggles on.",
+      "art": {
+        "prompt": "A futuristic metal training room with panels sliding open and holographic targets floating in the air, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/x-men-mutant-academy--danger-room.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "The founder of the X-Men is Professor Charles this.",
+          "answer": "Xavier",
+          "accept": [
+            "xavier",
+            "charles xavier",
+            "professor x"
+          ],
+          "choices": [
+            "Xavier",
+            "Lehnsherr",
+            "Summers",
+            "Grey"
+          ],
+          "reveal": "[excited] The correct answer is Xavier! Professor X, the mind behind the mansion.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Magneto can control metal by mastering this force.",
+          "answer": "Magnetism",
+          "accept": [
+            "magnetism",
+            "magnetic fields",
+            "magnetic force",
+            "metal"
+          ],
+          "choices": [
+            "Magnetism",
+            "Electricity",
+            "Gravity",
+            "Fire"
+          ],
+          "reveal": "The correct answer is magnetism! [dramatically] Never wear a belt buckle near him.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Xavier's mansion stands in this New York county north of the city.",
+          "answer": "Westchester",
+          "accept": [
+            "westchester",
+            "westchester county",
+            "salem center"
+          ],
+          "choices": [
+            "Westchester",
+            "Long Island",
+            "Albany County",
+            "Staten Island"
+          ],
+          "reveal": "[excited] The correct answer is Westchester County! Salem Center, to be exact.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "These giant purple robots were built to hunt mutants.",
+          "answer": "Sentinels",
+          "accept": [
+            "sentinels",
+            "sentinel",
+            "the sentinels"
+          ],
+          "choices": [
+            "Sentinels",
+            "Ultrons",
+            "Doombots",
+            "Brood"
+          ],
+          "reveal": "The correct answer is Sentinels! [dramatically] Big, purple, and never friendly.",
+          "dailyDouble": true
+        },
+        {
+          "value": 1000,
+          "clue": "This ancient villain, often called the first mutant, believes only the strong should survive.",
+          "answer": "Apocalypse",
+          "accept": [
+            "apocalypse",
+            "en sabah nur"
+          ],
+          "choices": [
+            "Apocalypse",
+            "Mister Sinister",
+            "Onslaught",
+            "Exodus"
+          ],
+          "reveal": "[dramatically] The correct answer is Apocalypse! Blue, huge, and very into dramatic entrances.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "mutant-gear",
+      "title": "Mutant Gear",
+      "kind": "media",
+      "intro": "Picture category! Each image shows a piece of mutant gear. Tell me who it belongs to, or what it is.",
+      "art": {
+        "prompt": "A dark hangar locker with uniforms on hangers and a sleek jet wing visible behind them, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/x-men-mutant-academy--mutant-gear.jpg"
+      },
+      "format": "picture",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Whose famous weapons are these?",
+          "answer": "Wolverine",
+          "accept": [
+            "wolverine",
+            "logan"
+          ],
+          "choices": [
+            "Wolverine",
+            "Sabretooth",
+            "Deadpool",
+            "Lady Deathstrike"
+          ],
+          "reveal": "[excited] The correct answer is Wolverine! Snikt! Don't hug him.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "Three long gleaming metal claws lying side by side on a scratched wooden table, dramatic side lighting, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
+            "file": "media/x-men-mutant-academy--mutant-gear-200.jpg"
+          }
+        },
+        {
+          "value": 400,
+          "clue": "Which team leader needs this to keep his powers in check?",
+          "answer": "Cyclops",
+          "accept": [
+            "cyclops",
+            "scott summers"
+          ],
+          "choices": [
+            "Cyclops",
+            "Havok",
+            "Cable",
+            "Bishop"
+          ],
+          "reveal": "The correct answer is Cyclops! [chuckles] Never let him take it off indoors.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "A sleek golden visor with a single glowing red quartz lens across the eyes, resting on a desk, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
+            "file": "media/x-men-mutant-academy--mutant-gear-400.jpg"
+          }
+        },
+        {
+          "value": 600,
+          "clue": "Which charming mutant charges up these?",
+          "answer": "Gambit",
+          "accept": [
+            "gambit",
+            "remy lebeau",
+            "remy"
+          ],
+          "choices": [
+            "Gambit",
+            "Jubilee",
+            "Psylocke",
+            "Rogue"
+          ],
+          "reveal": "[excited] The correct answer is Gambit! He always plays the right card.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "A fanned hand of playing cards glowing with crackling pink energy on a dark riverboat table, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
+            "file": "media/x-men-mutant-academy--mutant-gear-600.jpg"
+          }
+        },
+        {
+          "value": 800,
+          "clue": "Professor X sits in this machine to find mutants anywhere on Earth. Name it.",
+          "answer": "Cerebro",
+          "accept": [
+            "cerebro"
+          ],
+          "choices": [
+            "Cerebro",
+            "The Cortex",
+            "Mindscape",
+            "The Sentinel"
+          ],
+          "reveal": "The correct answer is Cerebro! [whispers] Find them. All of them.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "A giant spherical chamber of metal panels with a single walkway leading to a glowing helmet on a stand, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
+            "file": "media/x-men-mutant-academy--mutant-gear-800.jpg"
+          }
+        },
+        {
+          "value": 1000,
+          "clue": "This helmet blocks telepaths. Which master of magnetism wears it?",
+          "answer": "Magneto",
+          "accept": [
+            "magneto",
+            "erik lehnsherr",
+            "max eisenhardt"
+          ],
+          "choices": [
+            "Magneto",
+            "Juggernaut",
+            "Mister Sinister",
+            "Apocalypse"
+          ],
+          "reveal": "[dramatically] The correct answer is Magneto! Fashion and psychic protection in one.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "A crimson metal helmet with a purple trim and angular cheek guards on a stone pedestal, floating metal bolts around it, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
+            "file": "media/x-men-mutant-academy--mutant-gear-1000.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "deadpool-and-pals",
+      "title": "Deadpool and Pals",
+      "kind": "film",
+      "intro": "Now, the merc with a mouth and his grumpy buddy. [laughs] Please keep it family friendly. He won't.",
+      "art": {
+        "prompt": "A messy apartment with a chimichanga on a plate, a toy unicorn and a pair of crossed toy swords on the wall, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/x-men-mutant-academy--deadpool-and-pals.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Deadpool's real name is Wade this.",
+          "answer": "Wilson",
+          "accept": [
+            "wilson",
+            "wade wilson"
+          ],
+          "choices": [
+            "Wilson",
+            "Winston",
+            "Walker",
+            "Wells"
+          ],
+          "reveal": "[excited] The correct answer is Wilson! Wade Wilson, maximum effort.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Disney completed its purchase of 21st Century Fox, bringing the X-Men home, in this year.",
+          "answer": "2019",
+          "accept": [
+            "2019"
+          ],
+          "choices": [
+            "2019",
+            "2015",
+            "2017",
+            "2021"
+          ],
+          "reveal": "The correct answer is 2019! [excited] Welcome home, mutants.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Deadpool & Wolverine is the first Deadpool film released by this Disney studio.",
+          "answer": "Marvel Studios",
+          "accept": [
+            "marvel studios",
+            "marvel"
+          ],
+          "choices": [
+            "Marvel Studios",
+            "Sony Pictures",
+            "Warner Bros.",
+            "Lionsgate"
+          ],
+          "reveal": "[excited] The correct answer is Marvel Studios! He made a lot of jokes about it.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "The villain of Deadpool & Wolverine is this woman, Charles Xavier's twin sister.",
+          "answer": "Cassandra Nova",
+          "accept": [
+            "cassandra nova",
+            "cassandra"
+          ],
+          "choices": [
+            "Cassandra Nova",
+            "Mystique",
+            "Selene",
+            "Emma Frost"
+          ],
+          "reveal": "The correct answer is Cassandra Nova! [dramatically] Bald, brilliant, and very scary.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Deadpool & Wolverine introduces this adorable canine variant of Deadpool.",
+          "answer": "Dogpool",
+          "accept": [
+            "dogpool",
+            "peggy"
+          ],
+          "choices": [
+            "Dogpool",
+            "Pupool",
+            "Lucky",
+            "Cosmo"
+          ],
+          "reveal": "[laughs] The correct answer is Dogpool! Played by a real pup named Peggy.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "x-men-97-rewind",
+      "title": "X-Men '97 Rewind",
+      "kind": "fan",
+      "intro": "Our fan category: the classic cartoon and its big Disney+ revival. [excited] Hum the theme song with me.",
+      "art": {
+        "prompt": "A 1990s kid bedroom with a boxy television, a game console and cartoon posters with no readable text, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/x-men-mutant-academy--x-men-97-rewind.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "X-Men '97 picks up from an X-Men cartoon that first aired in 1992 on this kids' TV block.",
+          "answer": "Fox Kids",
+          "accept": [
+            "fox kids",
+            "fox"
+          ],
+          "choices": [
+            "Fox Kids",
+            "Kids' WB",
+            "Nickelodeon",
+            "Cartoon Network"
+          ],
+          "reveal": "[excited] The correct answer is Fox Kids! Saturday mornings were never the same.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "In X-Men '97, Professor X's will names this former foe as the new leader of the X-Men.",
+          "answer": "Magneto",
+          "accept": [
+            "magneto",
+            "erik lehnsherr"
+          ],
+          "choices": [
+            "Magneto",
+            "Cyclops",
+            "Storm",
+            "Beast"
+          ],
+          "reveal": "The correct answer is Magneto! [dramatically] The team was thrilled. Not.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Rogue absorbs powers and memories through this.",
+          "answer": "Touch",
+          "accept": [
+            "touch",
+            "her touch",
+            "skin contact",
+            "skin"
+          ],
+          "choices": [
+            "Touch",
+            "Breath",
+            "Sight",
+            "Voice"
+          ],
+          "reveal": "[excited] The correct answer is touch! That's why the gloves stay on.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In X-Men '97's episode Remember It, a Sentinel attack devastates this mutant island nation.",
+          "answer": "Genosha",
+          "accept": [
+            "genosha"
+          ],
+          "choices": [
+            "Genosha",
+            "Madripoor",
+            "Muir Island",
+            "Wakanda"
+          ],
+          "reveal": "[softly] The correct answer is Genosha. The episode that left fans speechless.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "The villain of X-Men '97's Operation: Zero Tolerance is this man, part human and part Sentinel.",
+          "answer": "Bastion",
+          "accept": [
+            "bastion"
+          ],
+          "choices": [
+            "Bastion",
+            "Bolivar Trask",
+            "Master Mold",
+            "Mister Sinister"
+          ],
+          "reveal": "[dramatically] The correct answer is Bastion! A walking anti-mutant manifesto.",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}

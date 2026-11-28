@@ -1,0 +1,552 @@
+{
+  "id": "spider-man-comics",
+  "title": "Amazing Spider-Comics",
+  "theme": "Marvel",
+  "difficulty": "hard",
+  "tags": [
+    "marvel",
+    "spider-man",
+    "comics"
+  ],
+  "intro": "[excited] Welcome to Disney Jeopardy, true believers! Tonight we leave the movie theater and dig into the long boxes. Sixty-plus years of web-slinging comics, all on one board. [chuckles] Handle with care, these are mint condition.",
+  "art": {
+    "prompt": "A cozy comic shop at night with long white boxes, spinner racks and a web pattern of shadows across the floor from the window, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+    "file": "media/spider-man-comics.jpg"
+  },
+  "categories": [
+    {
+      "id": "origin-story",
+      "title": "Origin Story",
+      "kind": "theme",
+      "intro": "We start at the beginning, the classic comic version. [warmly] A spider, a lesson, a legend.",
+      "art": {
+        "prompt": "A small 1960s science exhibit hall with a glowing tank and a curious crowd of shadows, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/spider-man-comics--origin-story.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Spider-Man was co-created by Stan Lee and this artist.",
+          "answer": "Steve Ditko",
+          "accept": [
+            "steve ditko",
+            "ditko"
+          ],
+          "choices": [
+            "Steve Ditko",
+            "Jack Kirby",
+            "John Romita Sr.",
+            "Todd McFarlane"
+          ],
+          "reveal": "[excited] The correct answer is Steve Ditko! He also co-created Doctor Strange.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Peter's first great love, she died in a famous 1973 storyline.",
+          "answer": "Gwen Stacy",
+          "accept": [
+            "gwen stacy",
+            "gwen"
+          ],
+          "choices": [
+            "Gwen Stacy",
+            "Mary Jane Watson",
+            "Betty Brant",
+            "Liz Allan"
+          ],
+          "reveal": "[softly] The correct answer is Gwen Stacy. A turning point for comics.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Before fighting crime, the newly powered Peter tried to earn cash in this sport.",
+          "answer": "Wrestling",
+          "accept": [
+            "wrestling",
+            "pro wrestling",
+            "professional wrestling"
+          ],
+          "choices": [
+            "Wrestling",
+            "Boxing",
+            "Baseball",
+            "Gymnastics"
+          ],
+          "reveal": "The correct answer is wrestling! [laughs] The masked marvel of the ring.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In the classic comics, Peter attends this Queens high school.",
+          "answer": "Midtown High",
+          "accept": [
+            "midtown high",
+            "midtown high school",
+            "midtown"
+          ],
+          "choices": [
+            "Midtown High",
+            "Empire State High",
+            "Forest Hills High",
+            "Xavier Prep"
+          ],
+          "reveal": "[excited] The correct answer is Midtown High! Science club captain, naturally.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Peter later studies at this fictional New York college.",
+          "answer": "Empire State University",
+          "accept": [
+            "empire state university",
+            "esu"
+          ],
+          "choices": [
+            "Empire State University",
+            "Columbia University",
+            "NYU",
+            "Culver University"
+          ],
+          "reveal": "The correct answer is Empire State University! [chuckles] Go, ESU!",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "rogues-gallery",
+      "title": "Rogues Gallery",
+      "kind": "theme",
+      "intro": "Spidey has one of the best villain lineups around. [dramatically] Let's meet them.",
+      "art": {
+        "prompt": "A dark police lineup wall with six empty spotlights and shadowy height marks, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/spider-man-comics--rogues-gallery.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This team of half a dozen Spidey villains first assembled to defeat him in 1964.",
+          "answer": "Sinister Six",
+          "accept": [
+            "sinister six",
+            "the sinister six"
+          ],
+          "choices": [
+            "Sinister Six",
+            "Masters of Evil",
+            "Frightful Four",
+            "Serpent Society"
+          ],
+          "reveal": "[dramatically] The correct answer is the Sinister Six! Six against one. Spidey still won.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Dr. Curt Connors regrows his missing arm but becomes this reptilian villain.",
+          "answer": "The Lizard",
+          "accept": [
+            "lizard",
+            "the lizard",
+            "curt connors"
+          ],
+          "choices": [
+            "The Lizard",
+            "Rhino",
+            "Chameleon",
+            "Stegron"
+          ],
+          "reveal": "The correct answer is the Lizard! [chuckles] Science has side effects.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Mac Gargan wears a mechanical tail as this villain.",
+          "answer": "Scorpion",
+          "accept": [
+            "scorpion",
+            "the scorpion",
+            "mac gargan"
+          ],
+          "choices": [
+            "Scorpion",
+            "Lizard",
+            "Beetle",
+            "Stegron"
+          ],
+          "reveal": "[excited] The correct answer is the Scorpion! Jonah Jameson paid for that suit, by the way.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In this 1987 storyline, Kraven buries Spider-Man alive and takes his place.",
+          "answer": "Kraven's Last Hunt",
+          "accept": [
+            "kraven's last hunt",
+            "kravens last hunt"
+          ],
+          "choices": [
+            "Kraven's Last Hunt",
+            "The Night Gwen Stacy Died",
+            "Maximum Carnage",
+            "Spider-Man: Blue"
+          ],
+          "reveal": "[dramatically] The correct answer is Kraven's Last Hunt! Dark, moody and a fan favorite.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Spider-Man brought home the black costume that became Venom from this 1984 crossover event.",
+          "answer": "Secret Wars",
+          "accept": [
+            "secret wars",
+            "marvel super heroes secret wars"
+          ],
+          "choices": [
+            "Secret Wars",
+            "Infinity Gauntlet",
+            "Civil War",
+            "Inferno"
+          ],
+          "reveal": "The correct answer is Secret Wars! [chuckles] Worst souvenir ever.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "spider-family",
+      "title": "Spider Family",
+      "kind": "theme",
+      "intro": "Plenty of heroes have worn the spider. [excited] Name these members of the web-family.",
+      "art": {
+        "prompt": "A family photo wall of empty picture frames shaped like spider webs, warm lamplight, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/spider-man-comics--spider-family.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Miles Morales first appeared in the comics in this year.",
+          "answer": "2011",
+          "accept": [
+            "2011"
+          ],
+          "choices": [
+            "2011",
+            "2001",
+            "2008",
+            "2014"
+          ],
+          "reveal": "[excited] The correct answer is 2011! Created by Brian Michael Bendis and Sara Pichelli.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "In 2014, an alternate-world Gwen Stacy who got the spider-bite debuted under this nickname.",
+          "answer": "Spider-Gwen",
+          "accept": [
+            "spider-gwen",
+            "spider gwen",
+            "ghost-spider",
+            "ghost spider",
+            "spider-woman"
+          ],
+          "choices": [
+            "Spider-Gwen",
+            "Silk",
+            "Spinneret",
+            "Arana"
+          ],
+          "reveal": "The correct answer is Spider-Gwen! [excited] Later known as Ghost-Spider.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Cindy Moon, bitten by the same spider as Peter, fights crime as this hero.",
+          "answer": "Silk",
+          "accept": [
+            "silk",
+            "cindy moon"
+          ],
+          "choices": [
+            "Silk",
+            "Spider-Girl",
+            "Madame Web",
+            "Scarlet Spider"
+          ],
+          "reveal": "[excited] The correct answer is Silk! She spent years locked in a bunker. Long story.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Ben Reilly, Peter's clone, first wore a hoodie as this hero.",
+          "answer": "Scarlet Spider",
+          "accept": [
+            "scarlet spider",
+            "the scarlet spider",
+            "ben reilly"
+          ],
+          "choices": [
+            "Scarlet Spider",
+            "Spider-Man 2099",
+            "Spider-Punk",
+            "Venom"
+          ],
+          "reveal": "The correct answer is the Scarlet Spider! [chuckles] Blue hoodie, big controversy.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Mayday Parker, daughter of Peter and MJ in an alternate future, fights as this hero.",
+          "answer": "Spider-Girl",
+          "accept": [
+            "spider-girl",
+            "spider girl",
+            "mayday parker"
+          ],
+          "choices": [
+            "Spider-Girl",
+            "Spider-Woman",
+            "Silk",
+            "Arana"
+          ],
+          "reveal": "[excited] The correct answer is Spider-Girl! She ran for over a hundred issues.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "spider-suits",
+      "title": "Spider Suits",
+      "kind": "media",
+      "intro": "Picture category! Each image shows a famous spider costume or gadget. Name what I'm asking for.",
+      "art": {
+        "prompt": "A secret closet lined with mannequins draped in sheets, one glowing pair of eyes in the dark, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/spider-man-comics--spider-suits.jpg"
+      },
+      "format": "picture",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Peter's 1980s black costume turned out to be this.",
+          "answer": "An alien symbiote",
+          "accept": [
+            "symbiote",
+            "alien symbiote",
+            "an alien symbiote",
+            "venom symbiote",
+            "the symbiote"
+          ],
+          "choices": [
+            "An alien symbiote",
+            "A nanotech suit",
+            "A stealth suit",
+            "Unstable molecules"
+          ],
+          "reveal": "[dramatically] The correct answer is an alien symbiote! It came home with Peter and wanted to stay.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "A sleek black full-body costume with a large white spider emblem on the chest, hanging in a dim closet, slightly oozing, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
+            "file": "media/spider-man-comics--spider-suits-200.jpg"
+          }
+        },
+        {
+          "value": 400,
+          "clue": "Tony Stark-designed armor with extra mechanical legs is called this.",
+          "answer": "Iron Spider",
+          "accept": [
+            "iron spider",
+            "the iron spider"
+          ],
+          "choices": [
+            "Iron Spider",
+            "Spider-Armor",
+            "Stark Spider",
+            "Spider-Tech"
+          ],
+          "reveal": "The correct answer is the Iron Spider! [excited] Four extra legs, zero extra rent.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "A red and gold armored bodysuit on a display stand with four golden mechanical spider legs extending from its back, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
+            "file": "media/spider-man-comics--spider-suits-400.jpg"
+          }
+        },
+        {
+          "value": 600,
+          "clue": "This rebel spider-hero plays guitar and wears spikes. Name him.",
+          "answer": "Spider-Punk",
+          "accept": [
+            "spider-punk",
+            "spider punk",
+            "hobie brown"
+          ],
+          "choices": [
+            "Spider-Punk",
+            "Spider-Rock",
+            "Spider-Noir",
+            "Scarlet Spider"
+          ],
+          "reveal": "[laughs] The correct answer is Spider-Punk! Hobie Brown, anti-everything.",
+          "dailyDouble": true,
+          "media": {
+            "type": "image",
+            "prompt": "A patched denim jacket with metal spikes and safety pins next to a battered electric guitar, punk rock club stage, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
+            "file": "media/spider-man-comics--spider-suits-600.jpg"
+          }
+        },
+        {
+          "value": 800,
+          "clue": "This 1930s spider-hero sees the world in black and white. Name him.",
+          "answer": "Spider-Man Noir",
+          "accept": [
+            "spider-man noir",
+            "spider noir",
+            "spider-noir",
+            "spiderman noir"
+          ],
+          "choices": [
+            "Spider-Man Noir",
+            "Spider-Punk",
+            "Spider-Ham",
+            "Mysterio"
+          ],
+          "reveal": "The correct answer is Spider-Man Noir! [dramatically] Grim, gritty and very fond of rain.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "A black and white rainy 1930s alley with a trench coat, a fedora and round goggles hanging from a fire escape, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
+            "file": "media/spider-man-comics--spider-suits-800.jpg"
+          }
+        },
+        {
+          "value": 1000,
+          "clue": "Peni Parker pilots this spider-mech. Name it.",
+          "answer": "SP//dr",
+          "accept": [
+            "sp//dr",
+            "spdr",
+            "sp dr",
+            "sp-dr"
+          ],
+          "choices": [
+            "SP//dr",
+            "Spider-Mech",
+            "Mecha-Spidey",
+            "Arachnobot"
+          ],
+          "reveal": "[excited] The correct answer is SP//dr! Big robot, small pilot, huge heart.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "A cute pastel-colored giant robot with spider-like legs standing in a neon futuristic city street, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
+            "file": "media/spider-man-comics--spider-suits-1000.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bugle-back-issues",
+      "title": "Bugle Back Issues",
+      "kind": "fan",
+      "intro": "Our fan category: famous moments from the comic archives. [whispers] Extra! Extra!",
+      "art": {
+        "prompt": "A messy newspaper office desk covered in old photos, a typewriter and a cold cup of coffee, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/spider-man-comics--bugle-back-issues.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Peter sells his photos to this New York newspaper.",
+          "answer": "The Daily Bugle",
+          "accept": [
+            "daily bugle",
+            "the daily bugle",
+            "bugle"
+          ],
+          "choices": [
+            "The Daily Bugle",
+            "The Daily Globe",
+            "The Front Line",
+            "The Empire Herald"
+          ],
+          "reveal": "[excited] The correct answer is the Daily Bugle! Jonah never paid enough.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Mary Jane Watson's famous first words to Peter end with 'you just hit the' this.",
+          "answer": "Jackpot",
+          "accept": [
+            "jackpot",
+            "the jackpot"
+          ],
+          "choices": [
+            "Jackpot",
+            "Big time",
+            "Lottery",
+            "Bullseye"
+          ],
+          "reveal": "The correct answer is jackpot! [warmly] Face it, Tiger. A classic introduction.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Ben Reilly's 1990s return kicked off this long and divisive storyline.",
+          "answer": "The Clone Saga",
+          "accept": [
+            "clone saga",
+            "the clone saga"
+          ],
+          "choices": [
+            "The Clone Saga",
+            "The Venom Saga",
+            "Spider-Verse",
+            "Maximum Carnage"
+          ],
+          "reveal": "[chuckles] The correct answer is the Clone Saga! Fans are still arguing.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In 2007's One More Day, Peter and MJ's marriage is erased by a deal with this demon.",
+          "answer": "Mephisto",
+          "accept": [
+            "mephisto"
+          ],
+          "choices": [
+            "Mephisto",
+            "Dormammu",
+            "Blackheart",
+            "Satannish"
+          ],
+          "reveal": "[dramatically] The correct answer is Mephisto! Never make deals with a guy in red tights.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "In The Superior Spider-Man, this villain swaps minds with Peter and takes his life over.",
+          "answer": "Doctor Octopus",
+          "accept": [
+            "doctor octopus",
+            "doc ock",
+            "dr octopus",
+            "dr. octopus",
+            "otto octavius"
+          ],
+          "choices": [
+            "Doctor Octopus",
+            "Green Goblin",
+            "Chameleon",
+            "Kraven"
+          ],
+          "reveal": "The correct answer is Doctor Octopus! [dramatically] He thought he could do it better.",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}

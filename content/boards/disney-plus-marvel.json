@@ -1,0 +1,549 @@
+{
+  "id": "disney-plus-marvel",
+  "title": "Marvel on Disney+",
+  "theme": "Marvel",
+  "difficulty": "medium",
+  "tags": [
+    "marvel",
+    "superheroes",
+    "tv"
+  ],
+  "intro": "[excited] Welcome to Disney Jeopardy! Grab the remote and the snacks, because tonight we binge the Marvel shows of Disney+. [chuckles] Are you still watching? Chet certainly is.",
+  "art": {
+    "prompt": "A cozy couch facing a big glowing television in a dark living room, blanket, popcorn and a remote, light spilling across the floor, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+    "file": "media/disney-plus-marvel.jpg"
+  },
+  "categories": [
+    {
+      "id": "glorious-purpose",
+      "title": "Glorious Purpose",
+      "kind": "film",
+      "intro": "We start in the Time Variance Authority. [whispers] Please take a number and wait for your case worker.",
+      "art": {
+        "prompt": "A retro-futuristic office hallway with orange carpet, endless filing cabinets and clocks on the walls, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/disney-plus-marvel--glorious-purpose.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Loki is arrested by this agency that polices the timeline.",
+          "answer": "Time Variance Authority",
+          "accept": [
+            "time variance authority",
+            "tva",
+            "the tva"
+          ],
+          "choices": [
+            "Time Variance Authority",
+            "S.W.O.R.D.",
+            "A.I.M.",
+            "S.H.I.E.L.D."
+          ],
+          "reveal": "[excited] The correct answer is the TVA! Paperwork, but make it cosmic.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "This rebellious variant of Loki uses the name Sylvie.",
+          "answer": "Sylvie",
+          "accept": [
+            "sylvie",
+            "lady loki"
+          ],
+          "choices": [
+            "Sylvie",
+            "Enchantress",
+            "Lady Sif",
+            "Hela"
+          ],
+          "reveal": "The correct answer is Sylvie! [chuckles] Loki's toughest critic: himself.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "The TVA's chirpy cartoon clock mascot goes by this name.",
+          "answer": "Miss Minutes",
+          "accept": [
+            "miss minutes"
+          ],
+          "choices": [
+            "Miss Minutes",
+            "Mister Tick",
+            "Tock",
+            "Clockwise Kate"
+          ],
+          "reveal": "[excited] The correct answer is Miss Minutes! Sweet as pie, sneaky as a fox.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Variants the TVA prunes don't vanish; they land in this wasteland at the end of time.",
+          "answer": "The Void",
+          "accept": [
+            "the void",
+            "void"
+          ],
+          "choices": [
+            "The Void",
+            "Limbo",
+            "The Darkforce Dimension",
+            "The Sacred Timeline"
+          ],
+          "reveal": "The correct answer is the Void! [dramatically] Home of a very hungry cloud.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "The mysterious man at the end of time in Season 1 calls himself He Who this.",
+          "answer": "Remains",
+          "accept": [
+            "remains",
+            "he who remains"
+          ],
+          "choices": [
+            "Remains",
+            "Conquers",
+            "Waits",
+            "Watches"
+          ],
+          "reveal": "[dramatically] The correct answer is He Who Remains! And he had a lot of snacks.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "westview-after-dark",
+      "title": "Westview After Dark",
+      "kind": "film",
+      "intro": "Welcome to a small town where every decade has a laugh track. [chuckles] Witches welcome.",
+      "art": {
+        "prompt": "A quaint suburban street of tidy houses at dusk, a white picket fence and a strange shimmering glow at the town edge, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/disney-plus-marvel--westview-after-dark.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Each early episode of WandaVision lovingly parodies this kind of TV show.",
+          "answer": "Sitcoms",
+          "accept": [
+            "sitcoms",
+            "sitcom",
+            "tv sitcoms",
+            "situation comedies"
+          ],
+          "choices": [
+            "Sitcoms",
+            "Soap operas",
+            "Game shows",
+            "Westerns"
+          ],
+          "reveal": "[excited] The correct answer is sitcoms! From black and white to modern mockumentary.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Wanda's nosy neighbor Agnes is secretly this witch.",
+          "answer": "Agatha Harkness",
+          "accept": [
+            "agatha harkness",
+            "agatha"
+          ],
+          "choices": [
+            "Agatha Harkness",
+            "Morgan le Fay",
+            "Lilia Calderu",
+            "Nico Minoru"
+          ],
+          "reveal": "The correct answer is Agatha Harkness! [sings] It was Agatha all along!",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "WandaVision takes place in this New Jersey town.",
+          "answer": "Westview",
+          "accept": [
+            "westview"
+          ],
+          "choices": [
+            "Westview",
+            "Leonia",
+            "Maplewood",
+            "Riverdale"
+          ],
+          "reveal": "[excited] The correct answer is Westview! Lovely schools, mysterious hex.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "These are the names of Wanda and Vision's twin boys.",
+          "answer": "Billy and Tommy",
+          "accept": [
+            "billy and tommy",
+            "tommy and billy"
+          ],
+          "choices": [
+            "Billy and Tommy",
+            "Pietro and Victor",
+            "Teddy and Eli",
+            "Max and Lucas"
+          ],
+          "reveal": "The correct answer is Billy and Tommy! [warmly] They grow up fast. Really fast.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "In Agatha All Along, a coven sets off down this magical path of trials.",
+          "answer": "The Witches' Road",
+          "accept": [
+            "the witches' road",
+            "witches' road",
+            "witches road",
+            "the witches road"
+          ],
+          "choices": [
+            "The Witches' Road",
+            "The Sorcerer's Path",
+            "The Hag's Highway",
+            "The Coven Trail"
+          ],
+          "reveal": "[excited] The correct answer is the Witches' Road! Down, down, down the road.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "series-premieres",
+      "title": "Series Premieres",
+      "kind": "theme",
+      "intro": "A quick tour of Marvel's Disney+ lineup. [chuckles] Name the show or the hero.",
+      "art": {
+        "prompt": "A wall of glowing television screens in a showroom, each showing colorful abstract shapes, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/disney-plus-marvel--series-premieres.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Sam Wilson and Bucky Barnes team up in this 2021 series.",
+          "answer": "The Falcon and the Winter Soldier",
+          "accept": [
+            "the falcon and the winter soldier",
+            "falcon and the winter soldier",
+            "falcon and winter soldier"
+          ],
+          "choices": [
+            "The Falcon and the Winter Soldier",
+            "Captain America: Brave New World",
+            "Hawkeye",
+            "Secret Invasion"
+          ],
+          "reveal": "[excited] The correct answer is The Falcon and the Winter Soldier! Couples therapy for super soldiers.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Kamala Khan, a superfan from Jersey City, becomes this hero.",
+          "answer": "Ms. Marvel",
+          "accept": [
+            "ms marvel",
+            "ms. marvel",
+            "kamala khan"
+          ],
+          "choices": [
+            "Ms. Marvel",
+            "Captain Marvel",
+            "Spider-Girl",
+            "Squirrel Girl"
+          ],
+          "reveal": "The correct answer is Ms. Marvel! [excited] A fan who became a hero. Chet relates.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Jennifer Walters practices law as this hero.",
+          "answer": "She-Hulk",
+          "accept": [
+            "she-hulk",
+            "she hulk",
+            "shehulk",
+            "jennifer walters"
+          ],
+          "choices": [
+            "She-Hulk",
+            "Titania",
+            "Valkyrie",
+            "Thundra"
+          ],
+          "reveal": "[excited] The correct answer is She-Hulk! Attorney at law, and she breaks the fourth wall.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Nick Fury battles shape-shifting Skrulls in this 2023 series.",
+          "answer": "Secret Invasion",
+          "accept": [
+            "secret invasion"
+          ],
+          "choices": [
+            "Secret Invasion",
+            "Secret Wars",
+            "Dark Reign",
+            "Civil War"
+          ],
+          "reveal": "The correct answer is Secret Invasion! [whispers] Trust no one. Not even the host.",
+          "dailyDouble": true
+        },
+        {
+          "value": 1000,
+          "clue": "The animated What If...? is narrated by this cosmic observer.",
+          "answer": "The Watcher",
+          "accept": [
+            "the watcher",
+            "watcher",
+            "uatu",
+            "uatu the watcher"
+          ],
+          "choices": [
+            "The Watcher",
+            "The Collector",
+            "The Grandmaster",
+            "The Living Tribunal"
+          ],
+          "reveal": "[dramatically] The correct answer is the Watcher! He watches. He does not interfere. Usually.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "binge-watch-picture-show",
+      "title": "Binge-Watch Picture Show",
+      "kind": "media",
+      "intro": "Picture category! Each image hints at a Marvel series. Answer what I ask for.",
+      "art": {
+        "prompt": "A vintage movie projector beaming colorful light onto a blank screen in a dark room, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/disney-plus-marvel--binge-watch-picture-show.jpg"
+      },
+      "format": "picture",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This retro scene would fit right into which Disney+ series about two superpowered newlyweds?",
+          "answer": "WandaVision",
+          "accept": [
+            "wandavision",
+            "wanda vision",
+            "wanda and vision"
+          ],
+          "choices": [
+            "WandaVision",
+            "Loki",
+            "Hawkeye",
+            "Echo"
+          ],
+          "reveal": "[excited] The correct answer is WandaVision! Please stay tuned. You have no choice.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "A 1950s black and white living room with a boxy television, a sofa and a lamp, everything in gentle sitcom style, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
+            "file": "media/disney-plus-marvel--binge-watch-picture-show-200.jpg"
+          }
+        },
+        {
+          "value": 400,
+          "clue": "In Loki's Season 2 finale, the god of mischief holds all the timelines together in this shape.",
+          "answer": "A tree",
+          "accept": [
+            "tree",
+            "a tree",
+            "yggdrasil",
+            "world tree",
+            "the world tree"
+          ],
+          "choices": [
+            "A tree",
+            "A wheel",
+            "A spiral",
+            "A loom"
+          ],
+          "reveal": "The correct answer is a tree! [warmly] Yggdrasil, the great world tree. Loki finally found his throne.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "A gigantic glowing tree of green and gold branches made of light, stretching through a starry void, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
+            "file": "media/disney-plus-marvel--binge-watch-picture-show-400.jpg"
+          }
+        },
+        {
+          "value": 600,
+          "clue": "This snowy holiday scene sets the mood for which archery series?",
+          "answer": "Hawkeye",
+          "accept": [
+            "hawkeye"
+          ],
+          "choices": [
+            "Hawkeye",
+            "Echo",
+            "Ironheart",
+            "Daredevil: Born Again"
+          ],
+          "reveal": "[excited] The correct answer is Hawkeye! Arrows, carolers and a very good dog.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "A snowy New York evening with a busy outdoor ice rink under a giant decorated holiday tree and twinkling lights, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
+            "file": "media/disney-plus-marvel--binge-watch-picture-show-600.jpg"
+          }
+        },
+        {
+          "value": 800,
+          "clue": "Kamala Khan's powers are unlocked by a family heirloom shaped like this.",
+          "answer": "A bangle",
+          "accept": [
+            "bangle",
+            "a bangle",
+            "bracelet",
+            "a bracelet",
+            "the bangle"
+          ],
+          "choices": [
+            "A bangle",
+            "A ring",
+            "A necklace",
+            "A crown"
+          ],
+          "reveal": "The correct answer is a bangle! [excited] Grandma always said accessorize.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "A shimmering golden bangle bracelet glowing with soft purple and blue crystal light on a girl's bedroom desk, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
+            "file": "media/disney-plus-marvel--binge-watch-picture-show-800.jpg"
+          }
+        },
+        {
+          "value": 1000,
+          "clue": "This friendly hippo goddess helps Marc and Steven in the afterlife in Moon Knight. Name her.",
+          "answer": "Taweret",
+          "accept": [
+            "taweret",
+            "tawaret"
+          ],
+          "choices": [
+            "Taweret",
+            "Ammit",
+            "Bast",
+            "Hathor"
+          ],
+          "reveal": "[laughs] The correct answer is Taweret! The cheeriest guide to the underworld you'll ever meet.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "A friendly hippopotamus wearing ancient Egyptian gold jewelry and a headdress, standing on a reed boat on a glowing river at night, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
+            "file": "media/disney-plus-marvel--binge-watch-picture-show-1000.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "streaming-secrets",
+      "title": "Streaming Secrets",
+      "kind": "fan",
+      "intro": "Our fan category: behind-the-scenes facts from Marvel's streaming shows. [whispers] Spoilers ahead.",
+      "art": {
+        "prompt": "A cozy editing suite with monitors, headphones and film reels stacked on a desk, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/disney-plus-marvel--streaming-secrets.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Disney+ launched in this year, more than a year before WandaVision premiered.",
+          "answer": "2019",
+          "accept": [
+            "2019"
+          ],
+          "choices": [
+            "2019",
+            "2017",
+            "2020",
+            "2021"
+          ],
+          "reveal": "[excited] The correct answer is 2019! Chet has been binge-watching ever since.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "The catchy song Agatha All Along comes from this married songwriting duo, also behind Let It Go.",
+          "answer": "Kristen Anderson-Lopez and Robert Lopez",
+          "accept": [
+            "kristen anderson-lopez and robert lopez",
+            "the lopezes",
+            "robert lopez",
+            "kristen anderson-lopez",
+            "lopez"
+          ],
+          "choices": [
+            "Kristen Anderson-Lopez and Robert Lopez",
+            "Alan Menken and Howard Ashman",
+            "Benj Pasek and Justin Paul",
+            "The Sherman Brothers"
+          ],
+          "reveal": "The correct answer is the Lopezes! [sings] Earworm alert.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "In Echo, Maya Lopez reconnects with her family and roots in this Native American nation.",
+          "answer": "Choctaw",
+          "accept": [
+            "choctaw",
+            "choctaw nation"
+          ],
+          "choices": [
+            "Choctaw",
+            "Cherokee",
+            "Navajo",
+            "Lakota"
+          ],
+          "reveal": "[excited] The correct answer is the Choctaw Nation! Her family hometown is Tamaha, Oklahoma.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Daredevil: Born Again returns Matt Murdock to this Manhattan neighborhood.",
+          "answer": "Hell's Kitchen",
+          "accept": [
+            "hell's kitchen",
+            "hells kitchen"
+          ],
+          "choices": [
+            "Hell's Kitchen",
+            "Harlem",
+            "Chinatown",
+            "Lower East Side"
+          ],
+          "reveal": "The correct answer is Hell's Kitchen! [dramatically] The devil is back in his neighborhood.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "In X-Men '97, the card-throwing Gambit has this real first name.",
+          "answer": "Remy",
+          "accept": [
+            "remy",
+            "remy lebeau"
+          ],
+          "choices": [
+            "Remy",
+            "Logan",
+            "Kurt",
+            "Scott"
+          ],
+          "reveal": "[excited] The correct answer is Remy! Remy LeBeau, charmer of the bayou.",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}

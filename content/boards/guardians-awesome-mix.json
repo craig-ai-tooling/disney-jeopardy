@@ -1,0 +1,534 @@
+{
+  "id": "guardians-awesome-mix",
+  "title": "Awesome Mix Board",
+  "theme": "Marvel",
+  "difficulty": "medium",
+  "tags": [
+    "marvel",
+    "guardians",
+    "music",
+    "parks"
+  ],
+  "intro": "[excited] Welcome to Disney Jeopardy! Tonight we crank up the tape deck and fly with a raccoon, a tree and a guy with very good dance moves. [chuckles] Press play, galaxy.",
+  "art": {
+    "prompt": "A beat-up retro spaceship cockpit with a glowing cassette deck, colorful nebula outside the windshield and a tiny potted plant on the dash, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+    "file": "media/guardians-awesome-mix.jpg"
+  },
+  "categories": [
+    {
+      "id": "guardian-roll-call",
+      "title": "Guardian Roll Call",
+      "kind": "theme",
+      "intro": "Let's meet the crew. [excited] A-holes, assemble. Their words, not mine.",
+      "art": {
+        "prompt": "A row of mismatched seats in a spaceship lounge, each seat with a different odd souvenir on it, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/guardians-awesome-mix--guardian-roll-call.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Peter Quill insists on being called by this outlaw name.",
+          "answer": "Star-Lord",
+          "accept": [
+            "star-lord",
+            "star lord",
+            "starlord",
+            "peter quill"
+          ],
+          "choices": [
+            "Star-Lord",
+            "Star-Prince",
+            "Nova",
+            "Yondu"
+          ],
+          "reveal": "[excited] The correct answer is Star-Lord! Legendary outlaw. Mostly to himself.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Gamora's blue cybernetic sister.",
+          "answer": "Nebula",
+          "accept": [
+            "nebula"
+          ],
+          "choices": [
+            "Nebula",
+            "Mantis",
+            "Proxima Midnight",
+            "Ayesha"
+          ],
+          "reveal": "The correct answer is Nebula! [chuckles] Sibling rivalry, Thanos edition.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "This literal-minded warrior once claimed he could stand so still he was invisible.",
+          "answer": "Drax",
+          "accept": [
+            "drax",
+            "drax the destroyer"
+          ],
+          "choices": [
+            "Drax",
+            "Korath",
+            "Ronan",
+            "Kraglin"
+          ],
+          "reveal": "[laughs] The correct answer is Drax! Nothing goes over his head. His reflexes are too fast.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "This kind empath with antennae was raised on Ego's planet.",
+          "answer": "Mantis",
+          "accept": [
+            "mantis"
+          ],
+          "choices": [
+            "Mantis",
+            "Nebula",
+            "Moondragon",
+            "Ayesha"
+          ],
+          "reveal": "The correct answer is Mantis! [warmly] Sleep. Okay, wake up, you're on Jeopardy.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Yondu controls his whistling arrow, made of this rare metal.",
+          "answer": "Yaka",
+          "accept": [
+            "yaka",
+            "yaka arrow"
+          ],
+          "choices": [
+            "Yaka",
+            "Vibranium",
+            "Uru",
+            "Adamantium"
+          ],
+          "reveal": "[excited] The correct answer is Yaka! One whistle and it's game over.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "awesome-mix",
+      "title": "Awesome Mix",
+      "kind": "film",
+      "intro": "Now the music! These songs made the Guardians famous. [sings] Ooga-chaka... sorry.",
+      "art": {
+        "prompt": "A pile of colorful cassette tapes and headphones on a starry spaceship floor, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/guardians-awesome-mix--awesome-mix.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Star-Lord dances across an alien planet to this Redbone song in the first film's opening.",
+          "answer": "Come and Get Your Love",
+          "accept": [
+            "come and get your love"
+          ],
+          "choices": [
+            "Come and Get Your Love",
+            "Hooked on a Feeling",
+            "Ain't No Mountain High Enough",
+            "Mr. Blue Sky"
+          ],
+          "reveal": "[excited] The correct answer is Come and Get Your Love! Kicking space lizards, perfect rhythm.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Baby Groot dances to this ELO song during Vol. 2's opening battle.",
+          "answer": "Mr. Blue Sky",
+          "accept": [
+            "mr blue sky",
+            "mr. blue sky",
+            "mister blue sky"
+          ],
+          "choices": [
+            "Mr. Blue Sky",
+            "Come and Get Your Love",
+            "Brandy",
+            "Fox on the Run"
+          ],
+          "reveal": "The correct answer is Mr. Blue Sky! [laughs] A giant monster and he's busy grooving.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "This Swedish band recorded the ooga-chaka version of Hooked on a Feeling.",
+          "answer": "Blue Swede",
+          "accept": [
+            "blue swede"
+          ],
+          "choices": [
+            "Blue Swede",
+            "Redbone",
+            "ELO",
+            "10cc"
+          ],
+          "reveal": "[excited] The correct answer is Blue Swede! Chet does a mean ooga-chaka.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Vol. 3 opens with Rocket listening to an acoustic cover of this Radiohead song.",
+          "answer": "Creep",
+          "accept": [
+            "creep"
+          ],
+          "choices": [
+            "Creep",
+            "Karma Police",
+            "High and Dry",
+            "No Surprises"
+          ],
+          "reveal": "[softly] The correct answer is Creep. A quiet start to an emotional ride.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "At the end of Vol. 2, Kraglin hands Peter this Microsoft music player loaded with 300 songs.",
+          "answer": "Zune",
+          "accept": [
+            "zune",
+            "microsoft zune"
+          ],
+          "choices": [
+            "Zune",
+            "iPod",
+            "Discman",
+            "MiniDisc"
+          ],
+          "reveal": "[laughs] The correct answer is a Zune! Peter was impressed. Chet was impressed.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "cosmic-rewind",
+      "title": "Cosmic Rewind",
+      "kind": "parks",
+      "intro": "To EPCOT for one of the longest indoor coasters anywhere. [excited] Rewind, recruits!",
+      "art": {
+        "prompt": "A colorful futuristic pavilion with a giant spinning planetarium dome and glowing space murals, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/guardians-awesome-mix--cosmic-rewind.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Cosmic Rewind sits in this EPCOT neighborhood, which used to be part of Future World.",
+          "answer": "World Discovery",
+          "accept": [
+            "world discovery"
+          ],
+          "choices": [
+            "World Discovery",
+            "World Nature",
+            "World Celebration",
+            "World Showcase"
+          ],
+          "reveal": "[excited] The correct answer is World Discovery! Next stop, the Xandarian pavilion.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Cosmic Rewind's show building once housed this attraction full of dinosaurs and solar panels.",
+          "answer": "Universe of Energy",
+          "accept": [
+            "universe of energy",
+            "ellen's energy adventure",
+            "ellens energy adventure"
+          ],
+          "choices": [
+            "Universe of Energy",
+            "Horizons",
+            "World of Motion",
+            "Wonders of Life"
+          ],
+          "reveal": "The correct answer is Universe of Energy! [chuckles] Ellen and Bill Nye, we salute you.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Each ride on Cosmic Rewind is set to one of this many classic songs.",
+          "answer": "Six",
+          "accept": [
+            "6",
+            "six"
+          ],
+          "choices": [
+            "Six",
+            "Three",
+            "Four",
+            "Ten"
+          ],
+          "reveal": "[excited] The correct answer is six! Spin the cosmic jukebox.",
+          "dailyDouble": true
+        },
+        {
+          "value": 800,
+          "clue": "This Earth, Wind and Fire hit is one of Cosmic Rewind's possible soundtracks.",
+          "answer": "September",
+          "accept": [
+            "september"
+          ],
+          "choices": [
+            "September",
+            "Boogie Wonderland",
+            "Let's Groove",
+            "Shining Star"
+          ],
+          "reveal": "The correct answer is September! [sings] Ba-dee-ya!",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Disney calls Cosmic Rewind's rotating ride system this.",
+          "answer": "Omnicoaster",
+          "accept": [
+            "omnicoaster",
+            "omni coaster",
+            "omni-coaster"
+          ],
+          "choices": [
+            "Omnicoaster",
+            "Omnimover",
+            "Spin-coaster",
+            "Rotocoaster"
+          ],
+          "reveal": "[excited] The correct answer is Omnicoaster! Your seat turns to face the action.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "mission-breakout",
+      "title": "Mission: BREAKOUT!",
+      "kind": "parks",
+      "intro": "Over to California, where the Guardians need rescuing. [dramatically] Who's ready to drop?",
+      "art": {
+        "prompt": "A tall industrial fortress tower at night with pipes, glowing windows and a starry sky behind it, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/guardians-awesome-mix--mission-breakout.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In Mission: BREAKOUT!, this raccoon plans the jailbreak.",
+          "answer": "Rocket",
+          "accept": [
+            "rocket",
+            "rocket raccoon"
+          ],
+          "choices": [
+            "Rocket",
+            "Groot",
+            "Cosmo",
+            "Howard the Duck"
+          ],
+          "reveal": "[excited] The correct answer is Rocket! The real brains of the outfit, just ask him.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "The fortress belongs to the Collector, whose full name is Taneleer this.",
+          "answer": "Tivan",
+          "accept": [
+            "tivan",
+            "taneleer tivan"
+          ],
+          "choices": [
+            "Tivan",
+            "Tyrell",
+            "Tarn",
+            "Tolliver"
+          ],
+          "reveal": "The correct answer is Tivan! [dramatically] Collector of everything, keeper of nothing.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Each fall, the ride turns into this Halloween overlay.",
+          "answer": "Monsters After Dark",
+          "accept": [
+            "monsters after dark",
+            "guardians of the galaxy monsters after dark"
+          ],
+          "choices": [
+            "Monsters After Dark",
+            "Ghosts of Knowhere",
+            "Fright Breakout",
+            "Tower Nights"
+          ],
+          "reveal": "[excited] The correct answer is Monsters After Dark! The Collector's creatures got loose.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Mission: BREAKOUT! opened in this year.",
+          "answer": "2017",
+          "accept": [
+            "2017"
+          ],
+          "choices": [
+            "2017",
+            "2015",
+            "2019",
+            "2021"
+          ],
+          "reveal": "The correct answer is 2017! [chuckles] Four years before the rest of Avengers Campus arrived.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "The ride's building first opened as a Tower of Terror in this year.",
+          "answer": "2004",
+          "accept": [
+            "2004"
+          ],
+          "choices": [
+            "2004",
+            "1999",
+            "2001",
+            "2007"
+          ],
+          "reveal": "[excited] The correct answer is 2004! Then the Collector moved in.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "galaxy-gear",
+      "title": "Galaxy Gear",
+      "kind": "media",
+      "intro": "Picture category! Each image shows something from the Guardians' adventures. Tell me what I'm asking for.",
+      "art": {
+        "prompt": "A cluttered spaceship cargo hold with crates, blasters and souvenirs from many planets, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/guardians-awesome-mix--galaxy-gear.jpg"
+      },
+      "format": "picture",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Peter's mom gave him his music on this format.",
+          "answer": "Cassette tape",
+          "accept": [
+            "cassette",
+            "cassette tape",
+            "mixtape",
+            "tape",
+            "a cassette"
+          ],
+          "choices": [
+            "Cassette tape",
+            "Vinyl record",
+            "CD",
+            "8-track"
+          ],
+          "reveal": "[excited] The correct answer is a cassette tape! Awesome Mix Volume One.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "An orange and black cassette tape with a handwritten blank label lying on a worn spaceship seat, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
+            "file": "media/guardians-awesome-mix--galaxy-gear-200.jpg"
+          }
+        },
+        {
+          "value": 400,
+          "clue": "This little sprout grows into which Guardian?",
+          "answer": "Groot",
+          "accept": [
+            "groot",
+            "baby groot"
+          ],
+          "choices": [
+            "Groot",
+            "Rocket",
+            "Mantis",
+            "Drax"
+          ],
+          "reveal": "The correct answer is Groot! [warmly] I am Groot.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "A tiny cheerful tree sapling with two small arms dancing in a clay flowerpot on a control panel, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
+            "file": "media/guardians-awesome-mix--galaxy-gear-400.jpg"
+          }
+        },
+        {
+          "value": 600,
+          "clue": "Star-Lord's ship shares its name with an actress he had a crush on. What's the ship called?",
+          "answer": "The Milano",
+          "accept": [
+            "milano",
+            "the milano"
+          ],
+          "choices": [
+            "The Milano",
+            "The Benatar",
+            "The Eclipse",
+            "The Quadrant"
+          ],
+          "reveal": "[excited] The correct answer is the Milano! Named for Alyssa Milano.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "A sleek blue and orange retro spaceship parked on a rocky alien landing pad at sunset, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
+            "file": "media/guardians-awesome-mix--galaxy-gear-600.jpg"
+          }
+        },
+        {
+          "value": 800,
+          "clue": "These golden, easily offended aliens chase the Guardians in Vol. 2. Name them.",
+          "answer": "The Sovereign",
+          "accept": [
+            "sovereign",
+            "the sovereign"
+          ],
+          "choices": [
+            "The Sovereign",
+            "The Kree",
+            "The Nova Corps",
+            "The Ravagers"
+          ],
+          "reveal": "The correct answer is the Sovereign! [chuckles] Perfect, golden, and very sore losers.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "A gleaming golden palace with golden statues and golden robed figures on a golden staircase, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
+            "file": "media/guardians-awesome-mix--galaxy-gear-800.jpg"
+          }
+        },
+        {
+          "value": 1000,
+          "clue": "Rocket swipes these valuable power cells from the Sovereign. Name them.",
+          "answer": "Anulax batteries",
+          "accept": [
+            "anulax batteries",
+            "anulax",
+            "anulax battery"
+          ],
+          "choices": [
+            "Anulax batteries",
+            "Quantum cells",
+            "Infinity cells",
+            "Gamma cores"
+          ],
+          "reveal": "[excited] The correct answer is Anulax batteries! Rocket just couldn't help himself.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "A metal carrying case holding glowing blue cylindrical batteries humming with energy, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
+            "file": "media/guardians-awesome-mix--galaxy-gear-1000.jpg"
+          }
+        }
+      ]
+    }
+  ]
+}

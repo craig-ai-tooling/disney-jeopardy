@@ -1,0 +1,562 @@
+{
+  "id": "spider-verse-swing",
+  "title": "Your Friendly Neighborhood Board",
+  "theme": "Marvel",
+  "difficulty": "easy",
+  "tags": [
+    "marvel",
+    "spider-man",
+    "family"
+  ],
+  "intro": "[excited] Good evening, true believers, and welcome to Disney Jeopardy! Tonight we swing through New York, the multiverse and the parks with everyone's favorite wall-crawler. Hold on tight... [chuckles] this host is very sticky.",
+  "art": {
+    "prompt": "A nighttime city skyline seen from a water tower rooftop, glowing windows and a big full moon, a web strand stretching between buildings, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+    "file": "media/spider-verse-swing.jpg"
+  },
+  "categories": [
+    {
+      "id": "spidey-basics",
+      "title": "Spidey Basics",
+      "kind": "film",
+      "intro": "We begin with the web-head himself. [chuckles] If your senses are tingling, buzz in.",
+      "art": {
+        "prompt": "A cluttered teen bedroom desk with a camera, a science fair trophy and a jar of homemade goo, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/spider-verse-swing--spidey-basics.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Peter Parker gained his powers after a bite from this creature.",
+          "answer": "A spider",
+          "accept": [
+            "spider",
+            "a spider",
+            "radioactive spider",
+            "a radioactive spider"
+          ],
+          "choices": [
+            "A spider",
+            "A bat",
+            "An ant",
+            "A scorpion"
+          ],
+          "reveal": "[excited] The correct answer is a spider! One little bite, one big career change.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "This kindhearted aunt raised Peter Parker in New York.",
+          "answer": "Aunt May",
+          "accept": [
+            "aunt may",
+            "may parker",
+            "may"
+          ],
+          "choices": [
+            "Aunt May",
+            "Aunt Cass",
+            "Aunt Harriet",
+            "Aunt Anna"
+          ],
+          "reveal": "The correct answer is Aunt May! [warmly] The real hero of the family.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "In the Marvel Cinematic Universe, Peter Parker grows up in this New York borough.",
+          "answer": "Queens",
+          "accept": [
+            "queens"
+          ],
+          "choices": [
+            "Queens",
+            "Brooklyn",
+            "The Bronx",
+            "Staten Island"
+          ],
+          "reveal": "[excited] The correct answer is Queens! Home of the friendliest neighborhood in the multiverse.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In Spider-Man: Homecoming, Peter battles this winged villain who steals alien tech.",
+          "answer": "The Vulture",
+          "accept": [
+            "vulture",
+            "the vulture",
+            "adrian toomes"
+          ],
+          "choices": [
+            "The Vulture",
+            "Falcon",
+            "Mysterio",
+            "Shocker"
+          ],
+          "reveal": "The correct answer is the Vulture! [dramatically] Also, awkwardly, his prom date's dad.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "In Spider-Man: No Way Home, Peter asks this sorcerer to make the world forget his secret identity.",
+          "answer": "Doctor Strange",
+          "accept": [
+            "doctor strange",
+            "dr strange",
+            "dr. strange",
+            "stephen strange"
+          ],
+          "choices": [
+            "Doctor Strange",
+            "Wong",
+            "Wanda Maximoff",
+            "Loki"
+          ],
+          "reveal": "[excited] The correct answer is Doctor Strange! A spell gone wrong, and the multiverse came knocking.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "into-the-spider-verse",
+      "title": "Into the Spider-Verse",
+      "kind": "film",
+      "intro": "Now to the animated multiverse, where anyone can wear the mask. [excited] Leap of faith, everybody!",
+      "art": {
+        "prompt": "A colorful comic-style city street exploding with halftone dots, glitchy neon colors and swirling portals, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/spider-verse-swing--into-the-spider-verse.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In Into the Spider-Verse, this Brooklyn teen becomes a brand-new Spider-Man.",
+          "answer": "Miles Morales",
+          "accept": [
+            "miles morales",
+            "miles"
+          ],
+          "choices": [
+            "Miles Morales",
+            "Ganke Lee",
+            "Peter B. Parker",
+            "Aaron Davis"
+          ],
+          "reveal": "[excited] The correct answer is Miles Morales! Brooklyn's own, and what a leap of faith.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "This spider-hero from a cartoon dimension is a pig named Peter Porker.",
+          "answer": "Spider-Ham",
+          "accept": [
+            "spider-ham",
+            "spider ham",
+            "spiderham",
+            "peter porker"
+          ],
+          "choices": [
+            "Spider-Ham",
+            "Spider-Punk",
+            "Spider-Noir",
+            "Spider-Cat"
+          ],
+          "reveal": "The correct answer is Spider-Ham! [laughs] That's all, folks.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Miles' cool Uncle Aaron is secretly this masked villain.",
+          "answer": "The Prowler",
+          "accept": [
+            "prowler",
+            "the prowler",
+            "aaron davis"
+          ],
+          "choices": [
+            "The Prowler",
+            "Kingpin",
+            "Scorpion",
+            "Tombstone"
+          ],
+          "reveal": "[dramatically] The correct answer is the Prowler! Family dinners got complicated.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Into the Spider-Verse won the Academy Award in this category.",
+          "answer": "Best Animated Feature",
+          "accept": [
+            "best animated feature",
+            "animated feature",
+            "best animated feature film",
+            "best animated film"
+          ],
+          "choices": [
+            "Best Animated Feature",
+            "Best Original Song",
+            "Best Visual Effects",
+            "Best Original Score"
+          ],
+          "reveal": "[excited] The correct answer is Best Animated Feature! A Spider-Man movie with an Oscar. Thwip!",
+          "dailyDouble": true
+        },
+        {
+          "value": 1000,
+          "clue": "In Across the Spider-Verse, Miguel O'Hara, leader of the Spider-Society, is the Spider-Man of this futuristic year.",
+          "answer": "2099",
+          "accept": [
+            "2099",
+            "spider-man 2099",
+            "twenty ninety nine"
+          ],
+          "choices": [
+            "2099",
+            "3000",
+            "2077",
+            "1999"
+          ],
+          "reveal": "The correct answer is 2099! [chuckles] Grumpy, futuristic, and very good at climbing.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "friends-and-foes",
+      "title": "Friends and Foes",
+      "kind": "media",
+      "intro": "Picture category! Each image shows something tied to Spidey or one of his enemies. Tell me what or who it is.",
+      "art": {
+        "prompt": "A dark comic-book alleyway with dramatic shadows of strange figures cast on a brick wall, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/spider-verse-swing--friends-and-foes.jpg"
+      },
+      "format": "picture",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Spider-Man shoots this from the devices on his wrists. What is it?",
+          "answer": "Webs",
+          "accept": [
+            "webs",
+            "web",
+            "webbing",
+            "web fluid",
+            "web shooters"
+          ],
+          "choices": [
+            "Webs",
+            "Lasers",
+            "Ice",
+            "Sand"
+          ],
+          "reveal": "[excited] The correct answer is webs! Sticky, strong, and dissolves in about an hour. Very tidy.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "A close-up of a gloved wrist wearing a small metal gadget that shoots sticky white strands toward a lamppost, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
+            "file": "media/spider-verse-swing--friends-and-foes-200.jpg"
+          }
+        },
+        {
+          "value": 400,
+          "clue": "Which cackling villain zooms around on this?",
+          "answer": "Green Goblin",
+          "accept": [
+            "green goblin",
+            "the green goblin",
+            "norman osborn",
+            "goblin"
+          ],
+          "choices": [
+            "Green Goblin",
+            "Vulture",
+            "Electro",
+            "Mysterio"
+          ],
+          "reveal": "The correct answer is the Green Goblin! [dramatically] Pumpkin bombs are not a Halloween treat.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "A bat-winged green hover glider floating above a city street, with a satchel of small orange jack-o-lantern shaped bombs strapped to it, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
+            "file": "media/spider-verse-swing--friends-and-foes-400.jpg"
+          }
+        },
+        {
+          "value": 600,
+          "clue": "Which master of illusion wears this?",
+          "answer": "Mysterio",
+          "accept": [
+            "mysterio",
+            "quentin beck"
+          ],
+          "choices": [
+            "Mysterio",
+            "Electro",
+            "Sandman",
+            "Lizard"
+          ],
+          "reveal": "[excited] The correct answer is Mysterio! A fishbowl helmet and a lot of special effects.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "A glass fishbowl dome helmet swirling with green smoke, resting on a purple cape on a theater stage, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
+            "file": "media/spider-verse-swing--friends-and-foes-600.jpg"
+          }
+        },
+        {
+          "value": 800,
+          "clue": "Which brilliant villain uses these?",
+          "answer": "Doctor Octopus",
+          "accept": [
+            "doctor octopus",
+            "doc ock",
+            "dr octopus",
+            "dr. octopus",
+            "otto octavius"
+          ],
+          "choices": [
+            "Doctor Octopus",
+            "Scorpion",
+            "Rhino",
+            "Lizard"
+          ],
+          "reveal": "The correct answer is Doctor Octopus! [chuckles] Four extra arms and still no hugs.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "Four long segmented metal mechanical tentacle arms with pincer claws attached to a harness, in a dim laboratory, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
+            "file": "media/spider-verse-swing--friends-and-foes-800.jpg"
+          }
+        },
+        {
+          "value": 1000,
+          "clue": "Name the villain whose body is made of this.",
+          "answer": "Sandman",
+          "accept": [
+            "sandman",
+            "the sandman",
+            "flint marko"
+          ],
+          "choices": [
+            "Sandman",
+            "Hydro-Man",
+            "Molten Man",
+            "Electro"
+          ],
+          "reveal": "[excited] The correct answer is Sandman! [laughs] Chet still finds him in his shoes.",
+          "dailyDouble": false,
+          "media": {
+            "type": "image",
+            "prompt": "A huge swirling tower of golden sand rising from a beach in the shape of a giant fist, under a stormy sky, original painterly illustration, no text, no logos, no people, no recognizable copyrighted characters.",
+            "file": "media/spider-verse-swing--friends-and-foes-1000.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "spidey-at-the-parks",
+      "title": "Spidey at the Parks",
+      "kind": "parks",
+      "intro": "To the parks, where the web-slinger flips, swings and recruits. [excited] Clap your hands for the stunts!",
+      "art": {
+        "prompt": "A rooftop of a sleek modern headquarters building at a theme park with a crowd watching from below, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/spider-verse-swing--spidey-at-the-parks.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Spider-Man flips high over the crowd in this land at Disney California Adventure.",
+          "answer": "Avengers Campus",
+          "accept": [
+            "avengers campus",
+            "marvel avengers campus"
+          ],
+          "choices": [
+            "Avengers Campus",
+            "Pixar Pier",
+            "Hollywood Land",
+            "Cars Land"
+          ],
+          "reveal": "[excited] The correct answer is Avengers Campus! Look up, he's on the roof again.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "Spider-Man's web-slinging ride opened in 2022 at this European Disney resort.",
+          "answer": "Disneyland Paris",
+          "accept": [
+            "disneyland paris",
+            "walt disney studios park",
+            "disney adventure world",
+            "paris"
+          ],
+          "choices": [
+            "Disneyland Paris",
+            "Tokyo Disney Resort",
+            "Hong Kong Disneyland",
+            "Shanghai Disney Resort"
+          ],
+          "reveal": "The correct answer is Disneyland Paris! [excited] Ooh la la, Spider-Bots.",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "In WEB SLINGERS, runaway Spider-Bots were accidentally copied by this young genius's invention.",
+          "answer": "Peter Parker",
+          "accept": [
+            "peter parker",
+            "spider-man",
+            "peter"
+          ],
+          "choices": [
+            "Peter Parker",
+            "Tony Stark",
+            "Shuri",
+            "Harley Keener"
+          ],
+          "reveal": "[excited] The correct answer is Peter Parker! He builds a helper bot, and it builds a few thousand friends.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "Disney Imagineers built a robotic stunt double that flips through the air for Spider-Man. They call this tech this.",
+          "answer": "Stuntronics",
+          "accept": [
+            "stuntronics",
+            "stuntronic",
+            "stuntronics figure"
+          ],
+          "choices": [
+            "Stuntronics",
+            "Audio-Animatronics",
+            "Robo-Doubles",
+            "Animatronix"
+          ],
+          "reveal": "The correct answer is Stuntronics! [excited] A robot doing backflips so the real Spidey can rest.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "WEB, as in WEB SLINGERS, stands for this team of young inventors.",
+          "answer": "Worldwide Engineering Brigade",
+          "accept": [
+            "worldwide engineering brigade"
+          ],
+          "choices": [
+            "Worldwide Engineering Brigade",
+            "World Elite Builders",
+            "Wide Engineering Bureau",
+            "Web Engineering Base"
+          ],
+          "reveal": "[excited] The correct answer is the Worldwide Engineering Brigade! Bright young minds, slightly messy lab.",
+          "dailyDouble": false
+        }
+      ]
+    },
+    {
+      "id": "spidey-sayings",
+      "title": "Spidey Sayings",
+      "kind": "fan",
+      "intro": "Our fan category: famous people, phrases and firsts from Spider-Man history. [chuckles] Excelsior.",
+      "art": {
+        "prompt": "A vintage newspaper printing press room with fresh pages flying, no readable text, original painterly animated-film style artwork, wide 16:9 composition, no text, no logos, no recognizable copyrighted characters.",
+        "file": "media/spider-verse-swing--spidey-sayings.jpg"
+      },
+      "format": "text",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Complete the famous lesson: with great power comes great this.",
+          "answer": "Responsibility",
+          "accept": [
+            "responsibility",
+            "great responsibility"
+          ],
+          "choices": [
+            "Responsibility",
+            "Reward",
+            "Danger",
+            "Glory"
+          ],
+          "reveal": "[warmly] The correct answer is responsibility! The words every Spider-Man lives by.",
+          "dailyDouble": false
+        },
+        {
+          "value": 400,
+          "clue": "This loud newspaper boss always calls Spider-Man a menace.",
+          "answer": "J. Jonah Jameson",
+          "accept": [
+            "j jonah jameson",
+            "jonah jameson",
+            "jameson",
+            "jjj"
+          ],
+          "choices": [
+            "J. Jonah Jameson",
+            "Robbie Robertson",
+            "Ben Urich",
+            "Eddie Brock"
+          ],
+          "reveal": "The correct answer is J. Jonah Jameson! [laughs] Get me pictures of Spider-Man!",
+          "dailyDouble": false
+        },
+        {
+          "value": 600,
+          "clue": "Spidey's tingling warning of danger has this hyphenated nickname.",
+          "answer": "Spider-sense",
+          "accept": [
+            "spider-sense",
+            "spider sense",
+            "spidey sense",
+            "spidey-sense",
+            "peter tingle"
+          ],
+          "choices": [
+            "Spider-sense",
+            "Web-sense",
+            "Danger radar",
+            "Bug alert"
+          ],
+          "reveal": "[excited] The correct answer is spider-sense! Some fans call it the Peter tingle. [chuckles] Classic.",
+          "dailyDouble": false
+        },
+        {
+          "value": 800,
+          "clue": "In the MCU, this LEGO-loving best friend discovers Peter's secret first.",
+          "answer": "Ned Leeds",
+          "accept": [
+            "ned leeds",
+            "ned"
+          ],
+          "choices": [
+            "Ned Leeds",
+            "Flash Thompson",
+            "Harry Osborn",
+            "Ganke Lee"
+          ],
+          "reveal": "The correct answer is Ned! [excited] The guy in the chair. Every hero needs one.",
+          "dailyDouble": false
+        },
+        {
+          "value": 1000,
+          "clue": "Spider-Man first swung onto the page in 1962 in issue 15 of this comic.",
+          "answer": "Amazing Fantasy",
+          "accept": [
+            "amazing fantasy",
+            "amazing fantasy 15",
+            "amazing fantasy #15"
+          ],
+          "choices": [
+            "Amazing Fantasy",
+            "Tales to Astonish",
+            "Strange Tales",
+            "Journey into Mystery"
+          ],
+          "reveal": "[excited] The correct answer is Amazing Fantasy! Number fifteen, created by Stan Lee and Steve Ditko.",
+          "dailyDouble": false
+        }
+      ]
+    }
+  ]
+}
